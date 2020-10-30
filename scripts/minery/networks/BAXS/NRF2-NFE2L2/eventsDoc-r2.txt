@@ -1,0 +1,63 @@
+event('AHR',enhance,'NFE2L2'):F
+In addition, elevated expressions of other transcription factors like aryl hydrocarbon receptor (ahr) 1 b, peroxisome proliferator-activated receptor (ppar)-β, and nrf2 were found in pxr-deficient models without any treatment, while enhanced induction of ahr1b, ppar-β and pxr could only be seen in nrf2-deficient embryos after the treatment of metal ions, indicating different compensation phenomena for the absence of transcription factors.
+
+event('ARNT',bind,'AHR'):P
+Notably, RNA-interference experiments combined with back-transfection of siRNA-resistant cDNAs revealed that the induction of L1-RTP by FICZ is dependent on AhR nuclear translocator-1 (ARNT1) , a binding partner of AhR, and the activation of cAMP-responsive element-binding protein.
+
+event('ARNT',recognize,'AHR'):F
+In contrast, the nuclear DNA-binding AhR complex in IM-9 and PJS-91 cells consisted of several closely migrating species, one being recognized by an AhR antibody, while an ARNT antibody reacted with all species.
+
+event('ARNT',interact,'AHR'):P
+In contrast with Arnt, Arnt2 was practically incapable of interacting with ligand-activated AhR to induce the expression of target genes for xenobiotic-metabolizing enzymes in response to xenobiotics.
+
+event('TCDD',bind,'ARNT'):F
+Most toxic effects induced by TCDD are mediated by binding to the Ah-receptor (Ah-R) which binds together with a second protein, ARNT, to the respone elements of a number of target genes, and thus modulates gene expression.
+
+event('TCDD',bind,'AHR'):U
+Most toxic effects induced by TCDD are mediated by binding to the Ah-receptor (Ah-R) which binds together with a second protein, ARNT, to the respone elements of a number of target genes, and thus modulates gene expression.
+
+event('AHR',bind,'ARNT'):U
+Most toxic effects induced by TCDD are mediated by binding to the Ah-receptor (Ah-R) which binds together with a second protein, ARNT, to the respone elements of a number of target genes, and thus modulates gene expression.
+
+event('TCDD',interact,'ARNT'):P
+TCDD-bound AhR subsequently translocates to the nucleus and interacts with the AhR nuclear translocator (Arnt) to induce signal transduction.
+
+event('AHR',bind,'ARNT'):P
+Although alteration of transcription after nuclear translocation and heterodimerization of AhR with its binding partner, aryl hydrocarbon nuclear transporter (ARNT) , is often cited as a primary mechanism for mediating the toxic effects of dioxins, recent evidence indicates that crosstalk between AhR and several other signaling pathways also occurs.
+
+event('AHR',recognize,'ARNT'):F
+ARNT binds to the side of the xenobiotic responsive element (XRE) that resembles an E-box (the sequence recognized by the majority of other basic helix-loop-helix proteins) , whereas AHR binds to the side of the XRE that does not conform to the E-box sequence.
+
+event('AHR',participate,'ARNT'):F
+In the N-terminal half, both rsAHR genes included bHLH and PAS domains, which participate in ligand binding, AHR/ARNT dimerization and DNA binding.
+
+event('AHR',dimerize,'ARNT'):U
+In the N-terminal half, both rsAHR genes included bHLH and PAS domains, which participate in ligand binding, AHR/ARNT dimerization and DNA binding.
+
+event('AHR',involve,'ARNT'):F
+Similar to human AIP-deficient pituitary adenomas, immunohistochemical studies showed that expression of aryl hydrocarbon receptor nuclear translocator 1 or 2 (ARNT or ARNT2) protein was lost in the mouse tumors, suggesting that mechanisms of AIP-related tumorigenesis involve aberrant ARNT function.
+
+event('ARNT',require,'AHR'):F
+Gene activation by the aryl hydrocarbon receptor (AHR) and its DNA binding partner, the aryl hydrocarbon receptor nuclear translocator (ARNT) requires a number of sequential steps that occur following the binding of ligand and entry of the AHR into the nuclear compartment.
+
+event('ARNT',bind,'AHR'):P
+Gene activation by the aryl hydrocarbon receptor (AHR) and its DNA binding partner, the aryl hydrocarbon receptor nuclear translocator (ARNT) requires a number of sequential steps that occur following the binding of ligand and entry of the AHR into the nuclear compartment.
+
+event('ARNT',associate,'AHR'):P
+ARNT bound AHR or PML, whereas the sumoylated form of ARNT associated with AHR, but not with PML, resulting in a reduced effect of PML on transactivation by ARNT.
+
+event('ARNT',involve,'AHR'):P
+The AhRR is thought to be involved in transcriptional control of AhR-regulated genes by sequestering ARNT.
+
+event('ARNT',heterodimerize,'AHR'):P
+The aryl hydrocarbon nuclear translocator (Arnt) is a basic helix-loop-helix (per/Arnt/Ahr/sim) PAS-containing protein that can heterodimerize with the aryl hydrocarbon receptor (AhR) , the hypoxia-inducible factor-1 alpha, and other PAS-containing proteins to form transcriptionally active complexes.
+
+event('ARNT',dimerize,'AHR'):P
+ARNT also dimerizes with the aryl hydrocarbon receptor (AhR).
+
+event('ARNT',relate,'AHR'):P
+To investigate the expression of aryl hydrocarbon receptor repressor (AhRR) and related molecules in various tissues and the effects of aromatic hydrocarbons (AHs) on their expression, we developed a reliable technique of quantification of human AhRR as well as aryl hydrocarbon receptor (AhR) , AhR nuclear translocator (ARNT) and cytochrome P450 1 A1 (CYP1A1) mRNA by real-time TaqMan PCR method.
+
+event('ARNT',collect,'AHR'):F
+To investigate the effects of dioxins on the hepatic expression profiles of AHR1, AHR2, ARNT1 and ARNT2 in avian species, and whether the expression levels of AHRs and ARNTs affect the transcriptions of CYP1A4 and CYP1A5 genes, the eggs of common (great) cormorants (Phalacrocorax carbo) collected from Lake Biwa, Japan, were in ovo administrated with 0 , 1500 and 4500 pg/g egg of 2 , 3 , 7 , 8-tetrachlorodibenzo-p-dioxin (TCDD) , and the hepatic expression levels of AHRs, ARNTs and CYP1As in embryos were monitored with two-step real-time RT-PCR.
+

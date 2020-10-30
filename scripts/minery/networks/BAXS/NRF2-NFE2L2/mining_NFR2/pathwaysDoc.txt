@@ -1,0 +1,117 @@
+---------------------------------------------------: 
+
+PATHWAY: 'TCDD',bind,'AHR';'AHR',regulate,'NFE2L2'
+
+----> event: 'TCDD',bind,'AHR'
+
+These results, coupled with site-directed mutagenesis and AhR functional analysis, have allowed detection of the " TCDD binding-fingerprint" of conserved residues within the ligand binding cavity necessary for high-affinity TCDD binding and TCDD-dependent AhR transformation DNA binding. PMID: 19456125.
+
+TCDD-bound AhR subsequently translocates to the nucleus and interacts with the AhR nuclear translocator (Arnt) to induce signal transduction. PMID: 23477502.
+
+The AhR is also recognized as the culprit for most toxic responses observed after exposure to dioxins and related compounds such as 2 , 3 , 7 , 8-tetrachlorodibenzo-p-dioxin (TCDD). PMID: 16545780.
+
+----> event: 'AHR',regulate,'NFE2L2'
+
+However, some AHR ligands simultaneously activate the nuclear factor-erythroid 2-related factor-2 (NRF2) transcription factor, which is a master switch of antioxidative enzymes that neutralizes oxidative stress. PMID: 31683543.
+
+In conclusion, this study demonstrates for the first time that methylated pentavalent arsenic metabolites are bifunctional inducers, as they increase CYP1A1 by activating the AhR/XRE signaling pathway and they increase NQO1 by activating the Nrf2/ARE signaling pathway in addition to the AhR/XRE pathway. PMID: 24161444.
+
+Activation of the aryl hydrocarbon receptor (AhR) ultimately leads to the induction of the carcinogen-activating enzyme cytochrome P450 1 A1 (CYP1A1) , and activation of the nuclear factor-erythroid 2 p45-related factor 2 (Nrf2) in addition to the AhR pathway induces the expression of the NADP(H) : quinone oxidoreductase (NQO1). PMID: 24161444.
+
+What's more, the gene expressions of protein kinase C (PKC) signaling pathway, mitogen-activated protein kinase (MAPKs) signaling pathway, NF-E2-related factor 2 (Nrf2) signaling pathway and antioxidant defense system indicated that AhR may regulate the Nrf2-Keap1 signaling pathway through Kelch-like ECH-associated protein-1 (Keap1) and MAPKs, PKC signaling pathways. PMID: 32032812.
+
+These results suggest that I3C is an AhR activator and enhances microsomal ROS production resulting in the upregulation of Nrf2 gene batteries, but the oxidative stress generated overcomes the antioxidant effect of Nrf2-related genes. PMID: 21396975.
+
+On the other hand, the antioxidant system-inducing transcription factor Nrf2 can be stimulated by Ahr, and Nrf2 can itself activate Ahr expression. PMID: 31786316.
+
+Linkage between AhR and Nrf2 batteries is probably achieved by multiple mechanisms, including Nrf2 as a target gene of the AhR, indirect activation of Nrf2 via CYP1A1-generated reactive oxygen species, and direct cross-interaction of AhR/XRE and Nrf2/ARE signaling. 
+PMID: 17266942.
+
+In this work we demonstrate for the first time that Nrf2 gene transcription is directly modulated by AHR activation. PMID: 15790560.
+
+---------------------------------------------------: 
+
+PATHWAY: 'TCDD',bind,'AHR';'AHR',regulate,'NFE2L2';'TCDD',regulate,'NFE2L2'
+
+----> event: 'TCDD',bind,'AHR'
+
+These results, coupled with site-directed mutagenesis and AhR functional analysis, have allowed detection of the " TCDD binding-fingerprint" of conserved residues within the ligand binding cavity necessary for high-affinity TCDD binding and TCDD-dependent AhR transformation DNA binding. PMID: 19456125.
+
+TCDD-bound AhR subsequently translocates to the nucleus and interacts with the AhR nuclear translocator (Arnt) to induce signal transduction. PMID: 23477502.
+
+
+The AhR is also recognized as the culprit for most toxic responses observed after exposure to dioxins and related compounds such as 2 , 3 , 7 , 8-tetrachlorodibenzo-p-dioxin (TCDD). PMID: 16545780.
+
+----> event: 'AHR',regulate,'NFE2L2'
+
+However, some AHR ligands simultaneously activate the nuclear factor-erythroid 2-related factor-2 (NRF2) transcription factor, which is a master switch of antioxidative enzymes that neutralizes oxidative stress. PMID: 31683543.
+
+In conclusion, this study demonstrates for the first time that methylated pentavalent arsenic metabolites are bifunctional inducers, as they increase CYP1A1 by activating the AhR/XRE signaling pathway and they increase NQO1 by activating the Nrf2/ARE signaling pathway in addition to the AhR/XRE pathway. PMID: 24161444.
+
+Activation of the aryl hydrocarbon receptor (AhR) ultimately leads to the induction of the carcinogen-activating enzyme cytochrome P450 1 A1 (CYP1A1) , and activation of the nuclear factor-erythroid 2 p45-related factor 2 (Nrf2) in addition to the AhR pathway induces the expression of the NADP(H) : quinone oxidoreductase (NQO1). PMID: 24161444.
+
+What's more, the gene expressions of protein kinase C (PKC) signaling pathway, mitogen-activated protein kinase (MAPKs) signaling pathway, NF-E2-related factor 2 (Nrf2) signaling pathway and antioxidant defense system indicated that AhR may regulate the Nrf2-Keap1 signaling pathway through Kelch-like ECH-associated protein-1 (Keap1) and MAPKs, PKC signaling pathways. PMID: 32032812.
+
+These results suggest that I3C is an AhR activator and enhances microsomal ROS production resulting in the upregulation of Nrf2 gene batteries, but the oxidative stress generated overcomes the antioxidant effect of Nrf2-related genes. PMID: 21396975.
+
+On the other hand, the antioxidant system-inducing transcription factor Nrf2 can be stimulated by Ahr, and Nrf2 can itself activate Ahr expression. PMID: 31786316.
+
+Linkage between AhR and Nrf2 batteries is probably achieved by multiple mechanisms, including Nrf2 as a target gene of the AhR, indirect activation of Nrf2 via CYP1A1-generated reactive oxygen species, and direct cross-interaction of AhR/XRE and Nrf2/ARE signaling. 
+PMID: 17266942
+
+In this work we demonstrate for the first time that Nrf2 gene transcription is directly modulated by AHR activation. PMID: 15790560.
+
+----> event: 'TCDD',regulate,'NFE2L2'
+
+Furthermore, microarray analysis by ingenuity pathway analysis software showed that the nuclear factor-erythroid 2-related factor 2 (Nrf2)-mediated oxidative stress response pathway was significantly activated following co-exposure to TCDD and PCBs. PMID: 24861470.
+
+An aryl hydrocarbon receptor (AhR) possesses possible expression of phase I and phase II enzymes directly by binding of its ligands such as 2 , 3 , 7 , 8-tetrachlorodibenzo-p-dioxin (TCDD) and indirectly by regulating expression of nuclear factor-erythroid-2-related factor 2 (Nrf2). PMID: 24914470.
+
+Kaempferol dose-dependently inhibited not only the TCDD-induced expression of phase I and phase II drug-metabolizing enzymes, but also the tertiary butylhydroquinone (t-BHQ)-induced expression of phase II drug-metabolizing enzymes, by modulating the AhR- and Nrf2-pathways.
+PMID: 32301455.
+
+The findings reveal that TCDD induces multi protein complexes to mediate cross-interaction between the AhR and Nrf2 pathways, uncovering a novel mechanistic aspect of gene regulation by environmental chemicals through AhR and Nrf2. PMID: 23800876.
+
+---------------------------------------------------: 
+
+PATHWAY: 'TCDD',bind,'AHR';'AHR',inhibit,'NFE2L2'
+
+----> event: 'TCDD',bind,'AHR'
+
+These results, coupled with site-directed mutagenesis and AhR functional analysis, have allowed detection of the " TCDD binding-fingerprint" of conserved residues within the ligand binding cavity necessary for high-affinity TCDD binding and TCDD-dependent AhR transformation DNA binding. PMID: 19456125.
+
+TCDD-bound AhR subsequently translocates to the nucleus and interacts with the AhR nuclear translocator (Arnt) to induce signal transduction. PMID: 23477502.
+
+The AhR is also recognized as the culprit for most toxic responses observed after exposure to dioxins and related compounds such as 2 , 3 , 7 , 8-tetrachlorodibenzo-p-dioxin (TCDD). PMID: 16545780.
+
+----> event: 'AHR',inhibit,'NFE2L2'
+
+AHR has recently been shown to affect Nrf2 expression. PMID: 17709388.
+
+---------------------------------------------------: 
+
+PATHWAY: 'TCDD',bind,'AHR';'AHR',inhibit,'NFE2L2';'TCDD',regulate,'NFE2L2'
+
+----> event: 'TCDD',bind,'AHR'
+
+These results, coupled with site-directed mutagenesis and AhR functional analysis, have allowed detection of the " TCDD binding-fingerprint" of conserved residues within the ligand binding cavity necessary for high-affinity TCDD binding and TCDD-dependent AhR transformation DNA binding. PMID: 19456125.
+
+TCDD-bound AhR subsequently translocates to the nucleus and interacts with the AhR nuclear translocator (Arnt) to induce signal transduction. PMID: 23477502.
+
+The AhR is also recognized as the culprit for most toxic responses observed after exposure to dioxins and related compounds such as 2 , 3 , 7 , 8-tetrachlorodibenzo-p-dioxin (TCDD). PMID: 16545780.
+
+----> event: 'AHR',inhibit,'NFE2L2'
+
+AHR has recently been shown to affect Nrf2 expression. PMID: 17709388.
+
+----> event: 'TCDD',regulate,'NFE2L2'
+
+Furthermore, microarray analysis by ingenuity pathway analysis software showed that the nuclear factor-erythroid 2-related factor 2 (Nrf2)-mediated oxidative stress response pathway was significantly activated following co-exposure to TCDD and PCBs. PMID: 24861470.
+
+An aryl hydrocarbon receptor (AhR) possesses possible expression of phase I and phase II enzymes directly by binding of its ligands such as 2 , 3 , 7 , 8-tetrachlorodibenzo-p-dioxin (TCDD) and indirectly by regulating expression of nuclear factor-erythroid-2-related factor 2 (Nrf2). PMID: 24914470.
+
+Kaempferol dose-dependently inhibited not only the TCDD-induced expression of phase I and phase II drug-metabolizing enzymes, but also the tertiary butylhydroquinone (t-BHQ)-induced expression of phase II drug-metabolizing enzymes, by modulating the AhR- and Nrf2-pathways.
+PMID: 32301455.
+
+The findings reveal that TCDD induces multi protein complexes to mediate cross-interaction between the AhR and Nrf2 pathways, uncovering a novel mechanistic aspect of gene regulation by environmental chemicals through AhR and Nrf2. PMID: 23800876..
+

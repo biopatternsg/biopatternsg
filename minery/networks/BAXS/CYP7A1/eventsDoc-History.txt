@@ -1,0 +1,816 @@
+event('bile acid',bind,'NR5A2'):P
+Two bile acid response elements have been localized within the 5 \-flanking region of the rat gene and these elements overlap three nuclear receptor binding sites for hepatocyte nuclear factor (HNF-4) , liver X receptor (LXR) and alpha(1)-fetoprotein transcription factor (FTF).
+
+event('bile acid',activate,'NR5A2'):P
+Based on these observations and on protein binding studies performed in vitro and by chromatin immunoprecipitation, we hypothesize that FTF has two synergetic effects that contribute to its role in bile acid biosynthesis: 1) it has the ability to activate the expression of SHP, which in turn heterodimerizes and suppresses FTF transactivation activity.
+
+event('NR5A2',regulate,'CYP7A1'):P
+SHP-1 represses expression of CYP7A1 by inhibiting the activity of liver receptor homolog 1 (LRH-1) , an orphan nuclear receptor that is known to regulate CYP7A1 expression positively.
+
+event('NR5A2',stimulate,'CYP7A1'):P
+Bile acids and FXR repressed endogenous CYP7A1 but stimulated alpha-fetoprotein transcription factor (FTF) and small heterodimer partner (SHP) mRNA expression in HepG2 cells.
+
+event('NR5A2',increase,'CYP7A1'):P
+The dyslipidemic HF group had: (1) increased intestinal BA uptake and Asbt and Osta/b mRNA expression, (2) increased BA in serum, (3) decreased hepatic expression of Ntcp, Bsep, and Cyp7a1 mRNA, (4) increased activity of HMG-CoA reductase, (5) increased hepatic expression of Fxr and Shp mRNA, (6) decreased hepatic expression of Lrh-1 and Hnf4a mRNA, and (7) decreased BA in feces, when compared to control, HF + CNO, and HF + FO groups.
+
+event('NR5A2',enhance,'CYP7A1'):P
+Although FTF is a competent factor for maintaining baseline activity, it does not further enhance and may suppress CYP7A1 transcription.
+
+event('NR5A2',induce,'CYP7A1'):P
+Feeding of rats with chenodeoxycholic acid repressed CYP7A1 induced FTF, but had no effect on SHP mRNA expression in the liver.
+
+event('NR5A2',target,'CYP7A1'):P
+These data suggest that PGC-1alpha is an important co-activator for LRH-1 and that SHP targets the interaction between LRH-1 and PGC-1alpha to inhibit CYP7A1 expression.
+
+event('NR5A2',mediate,'CYP7A1'):P
+Co-immunoprecipitation and promoter activation studies reveal that the induction of CYP7A1]) [verbo([is mediated])] complemento([by direct interaction between PGC-1alpha and the AF2 domain of liver receptor homolog-1 (LRH-1).
+
+event('NR5A2',lead,'CYP7A1'):P
+Elevated SHP protein then inactivates LRH-1 by forming a heterodimeric complex that leads to promoter-specific repression of both CYP7A1 and SHP.
+
+event('NR5A2',control,'CYP7A1'):P
+Our data provide mechanistic insight into a missing link in the maintenance of bile salt homeostasis during enhanced fecal loss and support the view that LRH-1 controls Cyp7a1 expression from two distinct sites, i.
+
+event('NR5A2',promote,'CYP7A1'):P
+HNF4α and LRH-1 promote active transcription histone marks on the Cyp7a1 promoter that are reversed by FGF19 in a SHP-dependent manner.
+
+event('NR1H2',bind,'NR5A2'):P
+The functional interaction between the orphan nuclear receptors small heterodimer partner (SHP) and liver receptor homolog 1 (LRH-1) , where SHP binds to LRH-1 and represses its constitutive transcriptional activity, is crucial for regulating genes involved in cholesterol homeostasis.
+
+event('NR1H2',interact,'NR5A2'):P
+It has been recently reported that bile acid-activated farnesoid X receptor (FXR) induces the small heterodimer partner (SHP) that interacts with alpha-fetoprotein transcription factor (FTF) and down-regulates CYP7A1 transcription.
+
+event('NR1H2',activate,'NR5A2'):P
+A DR4 element is conserved in the FTF gene promoter and activated by LXR-RXR and TR-RXR, qualifying the FTF gene as a direct metabolic sensor.
+
+event('NR1H4',bind,'NR5A2'):P
+In vitro studies suggest that LRH-1 may be involved both in stimulating basal CYP7A1 and CYP8B1 transcription and in repressing their expression as part of the nuclear bile acid receptor [ farnesoid X receptor (FXR) ]-small heterodimer partner signaling cascade, which culminates in small heterodimer partner binding to LRH-1 to repress gene transcription.
+
+event('NR1H4',interact,'NR5A2'):P
+It has been recently reported that bile acid-activated farnesoid X receptor (FXR) induces the small heterodimer partner (SHP) that interacts with alpha-fetoprotein transcription factor (FTF) and down-regulates CYP7A1 transcription.
+
+event('NR0B2',bind,'NR5A2'):P
+The functional interaction between the orphan nuclear receptors small heterodimer partner (SHP) and liver receptor homolog 1 (LRH-1) , where SHP binds to LRH-1 and represses its constitutive transcriptional activity, is crucial for regulating genes involved in cholesterol homeostasis.
+
+event('NR0B2',interact,'NR5A2'):P
+These results establish a structural model for understanding how SHP interacts with LRH-1 to regulate cholesterol homeostasis and provide new insights into how nuclear receptor/coregulator selectivity is achieved.
+
+event('NR0B2',activate,'NR5A2'):P
+Diet experiments support a model where FTF is quenched both by activated c-Jun, and by SHP as a stronger feedback mechanism to repress CYP7A1.
+
+event('bile acid',regulate,'CYP7A1'):P
+The farnesoid X receptor (Fxr) controls bile acid homeostasis by coordinately regulating the expression of synthesizing enzymes (Cyp7a1, Cyp8b1) , conjugating enzymes (Bal, Baat) and transporters in the ileum (Asbt, Ostα/β) and liver (Ntcp, Bsep, Ostβ).
+
+event('bile acid',stimulate,'CYP7A1'):P
+These observations suggest that taurine supplementation increases the synthesis and excretion of taurine-conjugated bile acids and stimulates the catabolism of cholesterol to bile acid by elevating the expression and activity of CYP7A1.
+
+event('bile acid',increase,'CYP7A1'):P
+Overall, these studies provide further evidence for the important role of PGC-1alpha in bile acid homeostasis and suggest that pharmacological targeting of farnesoid X receptor in vivo can be used to reverse the increase in CYP7A1 associated with adverse metabolic conditions.
+
+event('bile acid',enhance,'CYP7A1'):P
+Beneficial modification of lipoprotein profile by dietary calcium was mediated by sequestering bile acid absorption and enhancing excretion of fecal cholesterol, via up-regulation of mRNA CYP7A1 and intestinal ABCG 5/8 with down-regulation of mRNA NPC1L1 and MTP.
+
+event('bile acid',induce,'CYP7A1'):P
+Bile acid-activated FXR/RXR represses expression of CYP7A1, the rate-limiting enzyme during bile acid synthesis, by inducing the expression of SHP, which inhibits LXR/RXR and LRH-1-transactivation of CYP7A1.
+
+event('bile acid',target,'CYP7A1'):P
+Overall, these studies provide further evidence for the important role of PGC-1alpha in bile acid homeostasis and suggest that pharmacological targeting of farnesoid X receptor in vivo can be used to reverse the increase in CYP7A1 associated with adverse metabolic conditions.
+
+event('bile acid',mediate,'CYP7A1'):P
+Studies with receptor-selective agonists revealed that oxysterol receptors (LXRs) and the bile acid receptor (FXR) are the RXR heterodimeric partners that mediate these effects by regulating expression of the reverse cholesterol transporter, ABC1, and the rate-limiting enzyme of bile acid synthesis, CYP7A1, respectively.
+
+event('bile acid',lead,'CYP7A1'):P
+Reduced intracellular bile acids results in repressed farnesoid X receptor (FXR)-FGF15 signalling leading to upregulation of hepatic CYP7A1, thus promoting the de novo bile acid synthesis.
+
+event('bile acid',change,'CYP7A1'):P
+Feeding a bile acid-containing diet or treatment with a bile acid sequestrant similarly affected bile formation in iFXR-KO and control mice and induced similar changes in Cyp7A1 and Cyp8B1 expression patterns.
+
+event('bile acid',control,'CYP7A1'):P
+Our results indicate that when bile acid synthesis is upregulated by cholestyramine treatment the SHP-independent pathway for controlling CYP7A1 transcription dominates over the SHP-dependent pathway.
+
+event('bile acid',reveal,'CYP7A1'):P
+These data provide evidence that FXR-mediated repression of bile acid synthesis requires the complementary actions of FXR in both liver and intestine and reveal mechanistic differences in feedback repression of CYP7A1 and CYP8B1.
+
+event('bile acid',promote,'CYP7A1'):P
+Ezetimibe may accelerate the transformation from cholesterol to bile acid via promoting CYP7A1 and thereby enhance RCT.
+
+event('bile acid',inactivate,'CYP7A1'):P
+Rabbits treated with SC-435 developed ileal bile acid malabsorption, which decreased the return of bile acids (FXR ligands) to the liver to inactivate hepatic FXR, which upregulated CYP7A1 and lowered plasma cholesterol levels.
+
+event('bile acid',inhibit,'CYP7A1'):P
+Oxysterol receptor, LXR, stimulates, whereas the bile acid receptor, FXR inhibits CYP7A1 transcription.
+
+event('bile acid',decrease,'CYP7A1'):P
+AB23A also reduced hepatic bile acids through a decrease in hepatic uptake transporter Ntcp, bile acid synthetic enzymes Cyp7a1, Cyp8b1, and an increase in efflux transporter Bsep, Mrp2 expression.
+
+event('bile acid',suppress,'CYP7A1'):P
+The bile acid receptor FXR (farnesoid X receptor) activates expression of fibroblast growth factor (FGF) 15 in the intestine, which acts through hepatic FGFR4 to suppress cholesterol-7alpha hydroxylase (CYP7A1) and limit bile acid production.
+
+event('bile acid',destabilize,'CYP7A1'):P
+CYP7A1 mRNAs have very short half-lives, and bile acids destabilize CYP7A1 mRNA via the 3 \-untranslated region (3 \-UTR).
+
+event('bile acid',reduce,'CYP7A1'):P
+These findings suggested that TMAO accelerated aortic lesion formation in apoE-/- mice by altering bile acid profiles, further activating nuclear receptor FXR and SHP to inhibit bile acid synthesis by reducing Cyp7a1 expression.
+
+event('NR1H2',regulate,'CYP7A1'):P
+To clarify the mechanism responsible for the upregulation of CYP7A1 in cholesterol-fed rats, the effects of dietary cholesterol (Ch) and cholic acid (CA) on the activation of the nuclear receptors, liver X-receptor (LXR-alpha) and farsenoid X-receptor (FXR) , which positively and negatively regulate CYP7A1, were investigated in rats.
+
+event('NR1H2',stimulate,'CYP7A1'):P
+The expression of cholesterol 7 alpha-hydroxylase (CYP7alpha) , the rate-limiting enzyme in the catabolism of cholesterol to bile acid]) [verbo([is stimulated])] complemento([by oxysterol receptor, liver X receptor alpha (LXRalpha) and negatively regulated by a bile acid receptor, farnesoid X receptor.
+
+event('NR1H2',increase,'CYP7A1'):P
+The main activator is LXR (in rodents)  increasing CYP7A1 transcriptional activity.
+
+event('NR1H2',induce,'CYP7A1'):P
+When fed diets containing cholesterol, LXR alpha (-/-) mice fail to induce transcription of the gene encoding cholesterol 7 alpha-hydroxylase (Cyp7a) , the rate-limiting enzyme in bile acid synthesis.
+
+event('NR1H2',target,'CYP7A1'):P
+In contrast, FM-VP4 up-regulated liver LXRalpha, ABCA1, ABCG5, scavenger receptor class BI (SR-BI) and hydroxymethylglutaryl coenzyme A reductase (HMGCoA-R) gene expression, whereas it down-regulated several farnesoid X receptor (FXR)-target genes such as cytochrome P450 family 7 subfamily A polypeptide 1 (CYP7A1) and Na+/taurocholate co-transporter polypeptide (NTCP).
+
+event('NR1H2',express,'CYP7A1'):P
+We have generated transgenic mice expressing human CYP7A1 transgenes.
+
+event('NR1H2',modulate,'CYP7A1'):P
+These data suggest that LXRalpha may modulate the bile acid biosynthetic pathway at a unique site downstream of CYP7A1 and may also modulate the metabolism of steroid hormones and certain xenobiotics.
+
+event('NR1H2',mediate,'CYP7A1'):P
+In cultured Hep3B cells, pravastatin activated PPARalpha and PPARgamma protein expression, induced stronger expression of PPARgamma than that of PPARalpha, increased LXRalpha mRNA expression, activated ABCG5 and ABCG8 mRNA expression mediated by FXR as well as LXRalpha, enhanced FXR mRNA expression, and increased CYP7A1 mRNA expression mediated by the PPARgamma and LXRalpha pathways, together or independently.
+
+event('NR1H2',lead,'CYP7A1'):P
+Similarly to bile acids, insulin treatment increased small heterodimer partner (SHP) mRNA rapidly and transiently leading to the suppression of CYP7A1 transcription in both human and rodents.
+
+event('NR1H2',change,'CYP7A1'):P
+We conclude that in the mouse the rate of bile acid synthesis via alternative pathways is unresponsive to changes in the enterohepatic flux of cholesterol and bile acid, and that factors governing gender-related differences in bile acid synthesis, pool size, and pool composition play an important role in determining the impact of CYP7A1 deficiency on cholesterol homeostasis in this species.
+
+event('NR1H2',promote,'CYP7A1'):P
+S6K1 inhibition antagonized CYP7A1 induction promoted by AMPK inhibition, whereas AMPK activation abrogated S6K1-dependent CYP7A1 induction, supporting the opposing role of S6K1 and AMPK in LXR activity.
+
+event('NR1H2',inhibit,'CYP7A1'):P
+Reporter gene analysis showed that the activation of Cyp7b1 gene promoter by RORalpha was suppressed by LXRalpha (NR1H3) , whereas RORalpha inhibited both the constitutive and ligand-dependent activities of LXRalpha.
+
+event('NR1H2',decrease,'CYP7A1'):P
+In the liver, fucoidan significantly increased the expression of peroxisome proliferator-activated receptor (PPAR) α, PPARγ, liver X receptor (LXR) β, adenosine triphosphate (ATP) binding cassette (ABC) A1, ABCG8, low-density lipoprotein receptor (LDLR) , scavenger receptor B type 1 (SR-B1) , and cholesterol 7-α-hydroxylase A1 (CYP7A1) and decreased the triglyceride level and expression of proprotein convertase subtilisin/kexin type 9 (PCSK9) and PPARβ but had no effect on LXRα, ABCG1, and ABCG5.
+
+event('NR1H2',suppress,'CYP7A1'):P
+Reporter gene analysis showed that the activation of Cyp7b1 gene promoter by RORalpha was suppressed by LXRalpha (NR1H3) , whereas RORalpha inhibited both the constitutive and ligand-dependent activities of LXRalpha.
+
+event('NR1H2',antagonize,'CYP7A1'):P
+PPARalpha and LXRalpha form an atypical heterodimer that binds to two directly adjacent hexameric sequences localized within overlapping PPARalpha and LXRalpha response elements (termed Site I)  antagonizing the interaction of PPARalpha:retinoid X receptor alpha (RXRalpha) or RXRalpha:LXRalpha with the Cyp7a1 gene promoter.
+
+event('NR1H2',reduce,'CYP7A1'):P
+Elevation of CYP7A1 mRNA levels and reduced hepatic cholesterol content in MUT animals are likely because of cross-talk between TR-beta and liver X receptor alpha (LXR-alpha) , which both bind to a direct repeat + 4 (DR+4) element in the CYP7A1 promoter.
+
+event('NR1H4',regulate,'CYP7A1'):P
+The farnesoid X receptor (Fxr) controls bile acid homeostasis by coordinately regulating the expression of synthesizing enzymes (Cyp7a1, Cyp8b1) , conjugating enzymes (Bal, Baat) and transporters in the ileum (Asbt, Ostα/β) and liver (Ntcp, Bsep, Ostβ).
+
+event('NR1H4',stimulate,'CYP7A1'):P
+In conclusion, GC interfere with FXR/FGF19-mediated intestinal control of CYP7A1 expression by the liver and stimulate hepatic secretion of FGF21, which inhibits CYP7A1 promoter through an autocrine mechanism.
+
+event('NR1H4',increase,'CYP7A1'):P
+The upregulation of genes related to bile acid synthesis (CYP7A1 and CYP8B1) and the downregulation of genes related to conjugation (BAAT and BACS) and regulation (FXR and SHP) were detected in the liver, suggesting that hydrophobic bile acid production was increased and FXR signaling was impaired.
+
+event('NR1H4',induce,'CYP7A1'):P
+These results suggest that LXR-alpha was activated in rats fed both Ch or Ch + CA, whereas CYP7A1 mRNA and activity were induced only in Ch-fed rats where the bile acid pool was not enlarged such that FXR was not activated.
+
+event('NR1H4',trigger,'CYP7A1'):P
+Here, we show that FXR activation triggers a rapid posttranscriptional mechanism to degrade Cyp7a1 mRNA.
+
+event('NR1H4',target,'CYP7A1'):P
+In contrast, FM-VP4 up-regulated liver LXRalpha, ABCA1, ABCG5, scavenger receptor class BI (SR-BI) and hydroxymethylglutaryl coenzyme A reductase (HMGCoA-R) gene expression, whereas it down-regulated several farnesoid X receptor (FXR)-target genes such as cytochrome P450 family 7 subfamily A polypeptide 1 (CYP7A1) and Na+/taurocholate co-transporter polypeptide (NTCP).
+
+event('NR1H4',modulate,'CYP7A1'):P
+Indeed, in mammalian one-hybrid and transient transfection reporter assays, lepidozenolide transactivated FXR to modulate promoter action including GAL4, CYP7A1, and PLTP promoters in a dose-dependent manner, while it exhibited slightly less agonistic activity than chenodeoxycholic acid, an endogenous FXR agonist.
+
+event('NR1H4',mediate,'CYP7A1'):P
+Studies with receptor-selective agonists revealed that oxysterol receptors (LXRs) and the bile acid receptor (FXR) are the RXR heterodimeric partners that mediate these effects by regulating expression of the reverse cholesterol transporter, ABC1, and the rate-limiting enzyme of bile acid synthesis, CYP7A1, respectively.
+
+event('NR1H4',lead,'CYP7A1'):P
+The Tcf1 protein (also known as HNF-1alpha) also regulates transcription of the gene (Nr1h4) encoding the farnesoid X receptor-1 (Fxr-1) , thereby leading to reduced expression of small heterodimer partner-1 (Shp-1) and repression of Cyp7a1, the rate-limiting enzyme in the classic bile acid biosynthesis pathway.
+
+event('NR1H4',change,'CYP7A1'):P
+Feeding a bile acid-containing diet or treatment with a bile acid sequestrant similarly affected bile formation in iFXR-KO and control mice and induced similar changes in Cyp7A1 and Cyp8B1 expression patterns.
+
+event('NR1H4',control,'CYP7A1'):P
+The farnesoid X receptor (Fxr) controls bile acid homeostasis by coordinately regulating the expression of synthesizing enzymes (Cyp7a1, Cyp8b1) , conjugating enzymes (Bal, Baat) and transporters in the ileum (Asbt, Ostα/β) and liver (Ntcp, Bsep, Ostβ).
+
+event('NR1H4',reveal,'CYP7A1'):P
+These data provide evidence that FXR-mediated repression of bile acid synthesis requires the complementary actions of FXR in both liver and intestine and reveal mechanistic differences in feedback repression of CYP7A1 and CYP8B1.
+
+event('NR1H4',promote,'CYP7A1'):P
+Fex-3 could selectively activate intestinal FXR and promote the expression of BSEP and SHP while suppressing CYP7A1 which is involved in bile acids syntheses better than the reported intestinal-restricted FXR agonist fexaramine (Fex).
+
+event('NR1H4',inactivate,'CYP7A1'):P
+Rabbits treated with SC-435 developed ileal bile acid malabsorption, which decreased the return of bile acids (FXR ligands) to the liver to inactivate hepatic FXR, which upregulated CYP7A1 and lowered plasma cholesterol levels.
+
+event('NR1H4',inhibit,'CYP7A1'):P
+Oxysterol receptor, LXR, stimulates, whereas the bile acid receptor, FXR inhibits CYP7A1 transcription.
+
+event('NR1H4',decrease,'CYP7A1'):P
+Thus in conclusion, CA and DCA are more potent FXR activators than CDCA and LCA when fed to mice, and thus they are more effective in decreasing the expression of the rate limiting gene in BA synthesis Cyp7a1 and the 12-hydroxylation of BAs Cyp8b1, and are also more effective in increasing the expression of Abcg5/Abcg8, which is responsible for biliary cholesterol excretion.
+
+event('NR1H4',prevent,'CYP7A1'):P
+indeed, in these studies, liver bile acids and mRNA levels for Cyp7a1, an FXR target gene were increased, while mRNA levels for FXR and Shp were significantly decreased, and these changes could be prevented by co-treatment with the FXR agonist OCA.
+
+event('NR1H4',suppress,'CYP7A1'):P
+Thus, in rabbits, when FXR and LXRalpha are activated simultaneously, the inhibitory effect of FXR overrides the stimulatory effect of LXRalpha to suppress CYP7A1 mRNA expression.
+
+event('NR1H4',limit,'CYP7A1'):P
+Thus in conclusion, CA and DCA are more potent FXR activators than CDCA and LCA when fed to mice, and thus they are more effective in decreasing the expression of the rate limiting gene in BA synthesis Cyp7a1 and the 12-hydroxylation of BAs Cyp8b1, and are also more effective in increasing the expression of Abcg5/Abcg8, which is responsible for biliary cholesterol excretion.
+
+event('NR1H4',reduce,'CYP7A1'):P
+Cyp7a1 expression and fecal bile acid (BA) excretion were strongly reduced in mice and hamsters by all four FXR agonists, whereas bile acid pool sizes were reduced in both species by all but the X-Ceptor compound in hamsters.
+
+event('NR0B2',regulate,'CYP7A1'):P
+SHP-1 represses expression of CYP7A1 by inhibiting the activity of liver receptor homolog 1 (LRH-1) , an orphan nuclear receptor that is known to regulate CYP7A1 expression positively.
+
+event('NR0B2',stimulate,'CYP7A1'):P
+Bile acids and FXR repressed endogenous CYP7A1 but stimulated alpha-fetoprotein transcription factor (FTF) and small heterodimer partner (SHP) mRNA expression in HepG2 cells.
+
+event('NR0B2',increase,'CYP7A1'):P
+The dyslipidemic HF group had: (1) increased intestinal BA uptake and Asbt and Osta/b mRNA expression, (2) increased BA in serum, (3) decreased hepatic expression of Ntcp, Bsep, and Cyp7a1 mRNA, (4) increased activity of HMG-CoA reductase, (5) increased hepatic expression of Fxr and Shp mRNA, (6) decreased hepatic expression of Lrh-1 and Hnf4a mRNA, and (7) decreased BA in feces, when compared to control, HF + CNO, and HF + FO groups.
+
+event('NR0B2',enhance,'CYP7A1'):P
+Expression of Brm, but not an ATPase mutant, inhibited CYP7A1 promoter activity and further enhanced SHP-mediated repression.
+
+event('NR0B2',induce,'CYP7A1'):P
+CYP7A1 expression was induced 10-fold by the Western diet in the LDLR(-/-) SHP(-/-) mice but not in the LDLR(-/-) mice.
+
+event('NR0B2',target,'CYP7A1'):P
+To investigate the expressions of small heterodimer partner (SHP) and target gene cholesterol-7-hydroxylase (CYP7A1) in livers of rats with intrahepatic cholestasis of pregnancy (ICP) , and to study the mechanism of ICP.
+
+event('NR0B2',mediate,'CYP7A1'):P
+The bile acid synthesizing enzymes CYP7A1, CYP8B1, and CYP27A1 are subject to negative feedback regulation by bile acids, which is partly mediated through the transcriptional repressor SHP.
+
+event('NR0B2',lead,'CYP7A1'):P
+The inability to induce CYP7A1 mRNA levels by cholesterol feeding in hamsters led to a decline in SHP mRNA levels.
+
+event('NR0B2',change,'CYP7A1'):P
+Although the expression of shp-1 did not change after feeding, the expression pattern of shp-2 was inversely related to the expression patterns of cyp7a1-1/-2 and cyp8b1-1/-2.
+
+event('NR0B2',control,'CYP7A1'):P
+Our results indicate that when bile acid synthesis is upregulated by cholestyramine treatment the SHP-independent pathway for controlling CYP7A1 transcription dominates over the SHP-dependent pathway.
+
+event('NR0B2',inactivate,'CYP7A1'):P
+Elevated SHP protein then inactivates LRH-1 by forming a heterodimeric complex that leads to promoter-specific repression of both CYP7A1 and SHP.
+
+event('NR0B2',inhibit,'CYP7A1'):P
+Bile acid-activated FXR/RXR represses expression of CYP7A1, the rate-limiting enzyme during bile acid synthesis, by inducing the expression of SHP, which inhibits LXR/RXR and LRH-1-transactivation of CYP7A1.
+
+event('NR0B2',decrease,'CYP7A1'):P
+Thus, MCFA increased the expression of LXR and ABCG8, enhanced CYP7A1 and CYP27A1 expression decreased and SHP expression in the liver, thereby promoted liver bile acid synthesis and excretion.
+
+event('NR0B2',prevent,'CYP7A1'):P
+Gene silencing with small interfering RNA confirms that HDAC7 is the key factor required for the repression of CYP7A1 transcription, whereas knockdown of SHP does not prevent the down-regulation of CYP7A1.
+
+event('NR0B2',suppress,'CYP7A1'):P
+Activation of FXR initiates a feedback regulatory loop via induction of SHP, which suppresses LRH-1- and HNF4alpha-dependent expression of cholesterol 7 alpha hydroxylase (CYP7A1) and sterol 12 alpha hydroxylase (CYP8B1) , the two major pathway enzymes.
+
+event('NR0B2',affect,'CYP7A1'):P
+However, small interfering RNA (siRNA) knockdown of SHP did not affect FGF19 inhibition of CYP7A1.
+
+event('NR0B2',reduce,'CYP7A1'):P
+Similarly, incubation with 1 , 25 (OH) 2 D3 increased levels of Cyp24a1/CYP24A1 and Cyp7a1/CYP7A1 mRNA in mouse and human hepatocytes, and reduced levels of Shp mRNA in mouse hepatocytes.
+
+event('NR5A2',inhibit,'CYP7A1'):P
+These data suggest that PGC-1alpha is an important co-activator for LRH-1 and that SHP targets the interaction between LRH-1 and PGC-1alpha to inhibit CYP7A1 expression.
+
+event('NR5A2',decrease,'CYP7A1'):P
+The dyslipidemic HF group had: (1) increased intestinal BA uptake and Asbt and Osta/b mRNA expression, (2) increased BA in serum, (3) decreased hepatic expression of Ntcp, Bsep, and Cyp7a1 mRNA, (4) increased activity of HMG-CoA reductase, (5) increased hepatic expression of Fxr and Shp mRNA, (6) decreased hepatic expression of Lrh-1 and Hnf4a mRNA, and (7) decreased BA in feces, when compared to control, HF + CNO, and HF + FO groups.
+
+event('NR5A2',suppress,'CYP7A1'):P
+Although FTF is a competent factor for maintaining baseline activity, it does not further enhance and may suppress CYP7A1 transcription.
+
+event('NR5A2',reduce,'CYP7A1'):P
+However, hepatic Cyp7a1 mRNA levels were not reduced upon hepatocyte-specific Lrh-1 deletion in mice.
+
+event('NR5A2',bind,'CYP7A1'):P
+Gel shift and chromatin immunoprecipitation assays demonstrated that SHP with FTF diminished LXRalpha binding to the CYP7A1 promoter.
+
+event('NR5A2',activate,'CYP7A1'):P
+It concluded that the COL showed high lipid-lowering activities through indirectly transactivating CYP7A1 by upregulating FTF and HNF-4α, and directly activating CYP7A1 catalytic activity by strongly interacting with receptor and ligand, therefore promoting cholesterol catabolism and accelerating the excretion of bile acids.
+
+event('NR5A2',inhibit,'NR0B2'):P
+Results revealed that FTF was a dominant negative factor that was induced by bile acid-activated FXR to inhibit both CYP7A1 and SHP transcription.
+
+event('NR5A2',decrease,'NR0B2'):P
+The dyslipidemic HF group had: (1) increased intestinal BA uptake and Asbt and Osta/b mRNA expression, (2) increased BA in serum, (3) decreased hepatic expression of Ntcp, Bsep, and Cyp7a1 mRNA, (4) increased activity of HMG-CoA reductase, (5) increased hepatic expression of Fxr and Shp mRNA, (6) decreased hepatic expression of Lrh-1 and Hnf4a mRNA, and (7) decreased BA in feces, when compared to control, HF + CNO, and HF + FO groups.
+
+event('NR5A2',suppress,'NR0B2'):P
+Finally, we show that the transcriptional repressor SHP (small heterodimer partner) suppressed APOAI gene expression by inhibiting LRH-1 transcriptional activity.
+
+event('NR5A2',affect,'NR0B2'):P
+Decreased SHP expression affected LRH-1 regulation and increased Cyclin E1.
+
+event('bile acid',regulate,'NR0B2'):P
+These data identify a role for Rev-erbalpha in the regulatory loop of bile acid synthesis, likely acting by regulating both hepatic SHP and E4BP4 expression.
+
+event('bile acid',increase,'NR0B2'):P
+Here, we report surprising findings that SHP is a rapidly degraded protein via the ubiquitin-proteasomal pathway and that bile acids or bile acid-induced intestinal fibroblast growth factor 19 (FGF19) increases stability of hepatic SHP by inhibiting proteasomal degradation in an extracellular signal-regulated kinase (ERK)-dependent manner.
+
+event('bile acid',enhance,'NR0B2'):P
+Cholestasis activates bile acid receptor farnesoid X receptor (FXR) and subsequently enhances hepatic expression of small heterodimer partner (SHP).
+
+event('bile acid',induce,'NR0B2'):P
+Bile acid-activated FXR/RXR represses expression of CYP7A1, the rate-limiting enzyme during bile acid synthesis, by inducing the expression of SHP, which inhibits LXR/RXR and LRH-1-transactivation of CYP7A1.
+
+event('bile acid',target,'NR0B2'):P
+After 1 day of 2 % cholesterol feeding, when the bile acid pool size had not expanded, mRNA levels of the FXR target genes short-heterodimer partner (SHP) and sterol 12 alpha-hydroxylase (CYP8B) were unchanged, indicating that FXR activation remained constant.
+
+event('bile acid',lead,'NR0B2'):P
+Feedback repression of CYP7A1 is accomplished by the binding of bile acids to FXR, which leads to transcription of SHP.
+
+event('bile acid',control,'NR0B2'):P
+Our results indicate that when bile acid synthesis is upregulated by cholestyramine treatment the SHP-independent pathway for controlling CYP7A1 transcription dominates over the SHP-dependent pathway.
+
+event('bile acid',inhibit,'NR0B2'):P
+These results indicate that formula feeding leads to increased CYP7A1 protein expression and fecal bile acid loss in neonatal piglets, and this outcome is linked to reduced efficacy in inhibiting CYP7A1 expression through FGF19 and SHP transcriptional repression mechanisms.
+
+event('bile acid',suppress,'NR0B2'):P
+In addition, we demonstrate that bile acids suppress APOM expression in a SHP-dependent manner in vitro and in vivo by inhibiting LRH-1 transcriptional activity on the APOM promoter as demonstrated by in vivo ChIP assay.
+
+event('NR1H2',inhibit,'NR0B2'):P
+An additional nuclear hormone receptor, small heterodimer partner (SHP) , is required to inhibit the competence factor, liver receptor homolog-1 to achieve repression of bile acid synthesis in the liver and in so doing SHP autoregulates its own function.
+
+event('NR1H2',suppress,'NR0B2'):P
+Furthermore, GW4064 induced the expression of small heterodimer partners (SHP) and suppressed liver X receptor (LXR)-induced steatosis in hepatocytes, expecting the in vivo protective effect of FXR on liver injury especially with steatosis.
+
+event('NR1H2',regulate,'NR0B2'):P
+The aim of this study was to determine the quantitative role that LXR- and FXR-regulated pathways play in regulating CYP7A1 and SHP in both rat and hamster models.
+
+event('NR1H2',increase,'NR0B2'):P
+Therefore, activation of FXR, which upregulates SHP expression, will eliminate the stimulatory effect of LXRalpha on the CYP7A1 promoter because increased levels of SHP combined with FTF diminish the recruitment of LXRalpha to CYP7A1 promoter.
+
+event('NR1H2',target,'NR0B2'):P
+mRNA levels of the PPAR target genes carnitine-palmitoyl transferase 1 alpha and acyl-CoA oxidase, the LXR target genes SREBP1c, ATP-binding cassettes G5 and G8, the FXR target gene SHP, and the TR target genes malic enzyme and Spot14 were all significantly decreased.
+
+event('NR1H2',modulate,'NR0B2'):P
+The ability of the orphan nuclear receptor small heterodimer partner (SHP, NR0B2) to modulate the transcriptional activity of MODY1 protein, the nuclear receptor HNF-4alpha, suggested SHP as a candidate MODY gene.
+
+event('NR1H2',control,'NR0B2'):P
+From these data, we propose a mechanism for LXRalpha in controlling the gene expression of LGK that involves activation through SREBP-1c and PPARgamma and inhibition through SHP.
+
+event('NR1H2',promote,'NR0B2'):P
+SHP promoted SUMO2 and SUMO3 attachment to LXRα by interacting directly with the histone deacetylase and E3 SUMO ligase HDAC4.
+
+event('NR1H4',inhibit,'NR0B2'):P
+In HepG2 cells, GCs induced a decreased expression of FXR and SHP, and inhibited the regulatory effect of GW4064 on FXR-target genes.
+
+event('NR1H4',decrease,'NR0B2'):P
+The increased sensitivity of mice lacking SHP contrasts with the decreased sensitivity of mice lacking the farnesoid X receptor (FXR.
+
+event('NR1H4',prevent,'NR0B2'):P
+In conclusion, FXR ligand, 6ECDCA prevents cisplatin-induced kidney injury, the underlying mechanism of which may be associated with anti-fibrotic, anti-inflammatory, and anti-apoptotic effects through SHP induction.
+
+event('NR1H4',suppress,'NR0B2'):P
+Ablating Shp2 in hepatocytes suppressed signal relay from FGFR4, receptor for FGF15/19, and attenuated BA activation of FXR signaling, resulting in elevation of systemic BA levels and chronic hepatobiliary disorders in mice.
+
+event('NR1H4',reduce,'NR0B2'):P
+To further define the relevance of this polymorphism, gene expression was examined in a human liver bank to reveal that levels of the FXR target genes small heterodimer partner and organic anion transporting polypeptide 1 B3 were significantly reduced in livers harboring an FXR,1B allele.
+
+event('NR1H4',regulate,'NR0B2'):P
+The aim of this study was to determine the quantitative role that LXR- and FXR-regulated pathways play in regulating CYP7A1 and SHP in both rat and hamster models.
+
+event('NR1H4',increase,'NR0B2'):P
+The upregulation of genes related to bile acid synthesis (CYP7A1 and CYP8B1) and the downregulation of genes related to conjugation (BAAT and BACS) and regulation (FXR and SHP) were detected in the liver, suggesting that hydrophobic bile acid production was increased and FXR signaling was impaired.
+
+event('NR1H4',enhance,'NR0B2'):P
+Cholestasis activates bile acid receptor farnesoid X receptor (FXR) and subsequently enhances hepatic expression of small heterodimer partner (SHP).
+
+event('NR1H4',induce,'NR0B2'):P
+Bile acid-activated FXR/RXR represses expression of CYP7A1, the rate-limiting enzyme during bile acid synthesis, by inducing the expression of SHP, which inhibits LXR/RXR and LRH-1-transactivation of CYP7A1.
+
+event('NR1H4',target,'NR0B2'):P
+mRNA levels of the PPAR target genes carnitine-palmitoyl transferase 1 alpha and acyl-CoA oxidase, the LXR target genes SREBP1c, ATP-binding cassettes G5 and G8, the FXR target gene SHP, and the TR target genes malic enzyme and Spot14 were all significantly decreased.
+
+event('NR1H4',express,'NR0B2'):P
+We found that FXR and SHP are expressed in the aorta and macrophages and that FXR ligands might have utility in prevention and treatment of atherosclerotic lesions.
+
+event('NR1H4',modulate,'NR0B2'):P
+The farnesoid X receptor/retinoid X receptor-alpha (FXR/RXRalpha) complex regulates bile salt homeostasis, in part by modulating transcription of the bile salt export pump (BSEP/ABCB11) and small heterodimer partner (SHP/NR0B2).
+
+event('NR1H4',mediate,'NR0B2'):P
+We hypothesized that this downstream FXRRE is functional and may mediate a head-to-tail chromatin looping by interacting with the proximal promoter FRXRE to increase SHP transcription efficiency.
+
+event('NR1H4',lead,'NR0B2'):P
+Feedback repression of CYP7A1 is accomplished by the binding of bile acids to FXR, which leads to transcription of SHP.
+
+event('NR1H4',control,'NR0B2'):P
+FXR-alpha regulates the enterohepatic recycling and biosynthesis of BAs by controlling the expression of genes such as the short heterodimer partner (SHP.
+
+event('NR1H4',promote,'NR0B2'):P
+ChIP results indicated that FXR could directly bind SHP promoter and promote SHP expression.
+
+event('NR0B2',regulate,'NR0B2'):P
+We performed histologic and biochemical analyses of intestinal tissues from C57BL/6 and SHP-knockout mice and performed RNA-sequencing analyses to identify genes regulated by SHP.
+
+event('NR0B2',stimulate,'NR0B2'):P
+Exposing primary mouse hepatocytes to palmitic acid and lipopolysaccharide in vitro, we demonstrated that the suppression of Shp expression in hepatocytes is due to c-Jun N-terminal kinase (JNK) activation, which stimulates c-Jun-mediated transcriptional repression of Shp Interestingly, in vivo induction of hepatocyte-specific SHP in steatotic mouse liver ameliorated NASH progression by attenuating liver inflammation and fibrosis, but not steatosis.
+
+event('NR0B2',increase,'NR0B2'):P
+In addition, acute inhibition of SHP expression in cultured wild-type brown adipocytes increases basal PGC-1alpha expression, and SHP overexpression in SHP null brown adipocytes decreases it.
+
+event('NR0B2',enhance,'NR0B2'):P
+Increasing amounts of SHP abolished the effect of L/R, and FTF enhanced the ability of SHP to decrease promoter activity below baseline levels.
+
+event('NR0B2',induce,'NR0B2'):P
+SHP silencing mainly in the liver worsened insulin resistance, and ezetimibe protected against insulin resistance induced by down-regulation of SHP.
+
+event('NR0B2',target,'NR0B2'):P
+Our studies demonstrate that Brm and Brg-1 have distinct functions in the regulation of two key genes, CYP7A1 and SHP, within a single physiological pathway, feedback inhibition of bile acid biosynthesis, by differentially targeting SHP and FXR.
+
+event('NR0B2',express,'NR0B2'):P
+In order to identify the bona fide molecular targets of SHP, we performed global gene expression profiling combined with chromatin immunoprecipitation assays in transgenic mice constitutively expressing SHP in the liver.
+
+event('NR0B2',modulate,'NR0B2'):P
+The ability of the orphan nuclear receptor small heterodimer partner (SHP, NR0B2) to modulate the transcriptional activity of MODY1 protein, the nuclear receptor HNF-4alpha, suggested SHP as a candidate MODY gene.
+
+event('NR0B2',mediate,'NR0B2'):P
+Our results suggest that SHP mediates recruitment of mSin3A-Swi/Snf to the CYP7A1 promoter, resulting in chromatin remodeling and gene repression, which may also be a mechanism for the repression by SHP of genes activated by many nuclear receptors.
+
+event('NR0B2',release,'NR0B2'):P
+In quantification for beta cell apoptosis at day 1 post STZ treatment, the SHP KO mice showed significantly increased anti-apoptotic gene expression and]) [verbo([decreased release])] complemento([of apoptotic markers cytochrome c, smac/diablo, and only a few apoptotic beta cells were found in SHP KO pancreas through inactivation of caspase-3, compared to those of WT.
+
+event('NR0B2',lead,'NR0B2'):P
+Elevated SHP protein then inactivates LRH-1 by forming a heterodimeric complex that leads to promoter-specific repression of both CYP7A1 and SHP.
+
+event('NR0B2',develop,'NR0B2'):P
+The fact that SHP controls a complex set of genes in multiple metabolic pathways suggests the intriguing possibility of developing new therapeutics for metabolic diseases, including fatty liver, dyslipidemia and obesity, by regulating SHP with small molecules.
+
+event('NR0B2',change,'NR0B2'):P
+The crystal structure and modeling studies of the LRH-1 ligand-binding domain bound to either of the two LXXLL-related motifs of SHP show that the receptor undergoes conformational changes to accommodate the SHP docking and reveal key residues that determine the potency and selectivity of SHP binding.
+
+event('NR0B2',control,'NR0B2'):P
+The fact that SHP controls a complex set of genes in multiple metabolic pathways suggests the intriguing possibility of developing new therapeutics for metabolic diseases, including fatty liver, dyslipidemia and obesity, by regulating SHP with small molecules.
+
+event('NR0B2',stabilize,'NR0B2'):P
+DSHN transcriptionally activated Shp mRNA, but also stabilized the SHP protein by preventing its ubiquitination and degradation.
+
+event('NR0B2',reveal,'NR0B2'):P
+The crystal structure and modeling studies of the LRH-1 ligand-binding domain bound to either of the two LXXLL-related motifs of SHP show that the receptor undergoes conformational changes to accommodate the SHP docking and reveal key residues that determine the potency and selectivity of SHP binding.
+
+event('NR0B2',promote,'NR0B2'):P
+ChIP results indicated that FXR could directly bind SHP promoter and promote SHP expression.
+
+event('NR0B2',inactivate,'NR0B2'):P
+Elevated SHP protein then inactivates LRH-1 by forming a heterodimeric complex that leads to promoter-specific repression of both CYP7A1 and SHP.
+
+event('NR0B2',inhibit,'NR0B2'):P
+An additional nuclear hormone receptor, small heterodimer partner (SHP) , is required to inhibit the competence factor, liver receptor homolog-1 to achieve repression of bile acid synthesis in the liver and in so doing SHP autoregulates its own function.
+
+event('NR0B2',decrease,'NR0B2'):P
+Mutation of Arg-57 decreased SHP interaction with its known cofactors, Brm, mSin3A, and histone deacetylase 1 (HDAC1) , but not with G9a, and decreased their recruitment to SHP target genes in mice.
+
+event('NR0B2',affect,'NR0B2'):P
+Though the mechanism of the intestinal SHP elevation is unclear, cholesterol feeding may affect the intestinal bile acid metabolism via intestinal SHP expression.
+
+event('NR0B2',reduce,'NR0B2'):P
+Analyses of the expanded T cells revealed a dichotomous skewing between effector T cells and regulatory T cells (Tregs) , with SHP overexpression reducing Tregs and downregulation of SHP increasing their expansion.
+
+event('NR5A2',regulate,'NR0B2'):P
+SHP expression]) [verbo([is regulated])] complemento([by several other members of the nuclear receptor superfamily, including the orphan receptors SF-1 and LRH-1, and the bile acid receptor FXR.
+
+event('NR5A2',increase,'NR0B2'):P
+Therefore, activation of FXR, which upregulates SHP expression, will eliminate the stimulatory effect of LXRalpha on the CYP7A1 promoter because increased levels of SHP combined with FTF diminish the recruitment of LXRalpha to CYP7A1 promoter.
+
+event('NR5A2',enhance,'NR0B2'):P
+SHP siRNAs also drastically enhanced the ability of the LRH-1 agonist RJW100 to induce miR-200c and downregulate ZEB1 and ZEB2 proteins.
+
+event('NR5A2',induce,'NR0B2'):P
+Expression of SHP completely inhibited activity of an aromatase promoter II reporter gene induced by LRH-1.
+
+event('NR5A2',target,'NR0B2'):P
+We also demonstrate that LRH-1 stimulation of the FAS LXR response is blocked by the addition of small heterodimer partner (SHP) and that FAS mRNA is overexpressed in SHP knock-out animals, providing evidence that FAS is an in vivo target of SHP repression.
+
+event('NR5A2',modulate,'NR0B2'):P
+FXR/CDCA-activated expression of SHP is primarily mediated through direct binding to an LRH-1 binding site, which is not modulated by LRH-1 and unresponsive to 9 cRA.
+
+event('NR5A2',mediate,'NR0B2'):P
+Luciferase reporter assays revealed that Ku proteins repressed the SHP promoter activity mediated by LRH-1.
+
+event('NR5A2',lead,'NR0B2'):P
+Elevated SHP protein then inactivates LRH-1 by forming a heterodimeric complex that leads to promoter-specific repression of both CYP7A1 and SHP.
+
+event('NR5A2',change,'NR0B2'):P
+The crystal structure and modeling studies of the LRH-1 ligand-binding domain bound to either of the two LXXLL-related motifs of SHP show that the receptor undergoes conformational changes to accommodate the SHP docking and reveal key residues that determine the potency and selectivity of SHP binding.
+
+event('NR5A2',reveal,'NR0B2'):P
+The crystal structure and modeling studies of the LRH-1 ligand-binding domain bound to either of the two LXXLL-related motifs of SHP show that the receptor undergoes conformational changes to accommodate the SHP docking and reveal key residues that determine the potency and selectivity of SHP binding.
+
+event('NR5A2',promote,'NR0B2'):P
+HNF4α and LRH-1 promote active transcription histone marks on the Cyp7a1 promoter that are reversed by FGF19 in a SHP-dependent manner.
+
+event('NR5A2',bind,'NR0B2'):P
+It is proposed that LRH-1\s activity is regulated by post-modifications, the binding of small heterodimer partner (SHP) , or the binding of coregulators.
+
+event('NR5A2',activate,'NR0B2'):P
+Based on these observations and on protein binding studies performed in vitro and by chromatin immunoprecipitation, we hypothesize that FTF has two synergetic effects that contribute to its role in bile acid biosynthesis: 1) it has the ability to activate the expression of SHP, which in turn heterodimerizes and suppresses FTF transactivation activity.
+
+event('bile acid',bind,'NR1H4'):P
+Conformational changes induced by bile acid binding to pre-bound FXR leads to increased expression of a variety of genes.
+
+event('bile acid',activate,'NR1H4'):P
+Structure-activity analysis defined a subset of related bile acid ligands that activate FXR and promote coactivator recruitment.
+
+event('NR5A2',bind,'NR1H4'):P
+In a previous genome-wide analysis of FXR binding to hepatic chromatin, we noticed that an extra nuclear receptor (NR) half-site was co-enriched close to the FXR binding IR-1 elements and we provided limited support that the monomeric LRH-1 receptor that binds to NR half-sites might function together with FXR to activate gene expression.
+
+event('NR1H2',bind,'NR1H4'):P
+I-BABP regulation by LXR is maintained when the SREBP binding site is deleted in the I-BABP promoter and occurs, in the absence of conventional LXRE sequences, through an IR1 sequence previously identified as a farnesoid X-receptor-responsive element (FXRE).
+
+event('NR1H2',recognize,'NR1H4'):P
+Electrophoretic mobility shift assays demonstrated that the LXR/RXR heterodimer specifically recognizes the FXRE.
+
+event('NR1H2',interact,'NR1H4'):P
+Etoposide and teniposide induced LXRα expression and LXRα/β nuclear translocation while inhibiting expression of receptor interacting protein 140 (RIP140) , an LXR co-repressor.
+
+event('NR1H2',activate,'NR1H4'):P
+After 10 days of cholesterol feeding, the bile acid (FXR ligand) pool size increased, which activated FXR and inhibited CYP7A1 despite continued activation of LXRalpha.
+
+event('NR0B2',bind,'NR1H4'):P
+SHP is highly expressed in the liver, and previous studies have shown farnesoid X receptor (FXR) highly induces SHP by binding to a FXR response element (FXRRE) in the promoter of the Nr0b2 gene, which encodes SHP.
+
+event('NR0B2',interact,'NR1H4'):P
+Brg-1 interacted with FXR and enhanced FXR-mediated transactivation of SHP, whereas Brm interacted with SHP and enhanced SHP-mediated repression of CYP7A1 and, interestingly, auto-repression of SHP.
+
+event('NR0B2',activate,'NR1H4'):P
+Replacing the enterohepatic bile acid pool with DCA restored FXR mRNA and nuclear protein levels and activated FXR-mediated transcription as evidenced by the increased expression of its target genes, SHP and BSEP, and decreased CYP7A1 mRNA level and activity.
+
+event('NR1H4',bind,'CYP7A1'):P
+FXR-binding activity was required for bile acid repression of CYP7A1 transcription despite the fact that FXR did not bind to the CYP7A1 promoter.
+
+event('NR1H4',interact,'CYP7A1'):P
+It has been recently reported that bile acid-activated farnesoid X receptor (FXR) induces the small heterodimer partner (SHP) that interacts with alpha-fetoprotein transcription factor (FTF) and down-regulates CYP7A1 transcription.
+
+event('NR1H4',detect,'CYP7A1'):P
+The upregulation of genes related to bile acid synthesis (CYP7A1 and CYP8B1) and the downregulation of genes related to conjugation (BAAT and BACS) and regulation (FXR and SHP) were detected in the liver, suggesting that hydrophobic bile acid production was increased and FXR signaling was impaired.
+
+event('NR1H4',activate,'CYP7A1'):P
+Replacing the bile acid pool with UCA also restored FXR mRNA and nuclear protein levels but did not activate FXR-mediated transcription, because the SHP mRNA level and CYP7A1 mRNA level and activity were unchanged.
+
+event('NR1H4',bind,'NR0B2'):P
+Levels of FXR, liver X receptor (LXR) , sterol regulatory element binding protein 1 C (SREBP-1C) , and small heterodimer partner (SHP) proteins were detected by Western blot.
+
+event('NR1H4',interact,'NR0B2'):P
+In the present study, we demonstrated that 6-ECDCA activates FXR to interacts with Protein Arginine Methyl-Transferase type I (PRMT1) , which induces up-regulation of bile salt export pump (BSEP) and the small heterodimer partner (SHP) mRNA expression and causes a down-regulation of P450 cholesterol 7 alpha-hydroxylase and Na(+) taurocholate cotransport peptide genes.
+
+event('NR1H4',detect,'NR0B2'):P
+The upregulation of genes related to bile acid synthesis (CYP7A1 and CYP8B1) and the downregulation of genes related to conjugation (BAAT and BACS) and regulation (FXR and SHP) were detected in the liver, suggesting that hydrophobic bile acid production was increased and FXR signaling was impaired.
+
+event('NR1H4',activate,'NR0B2'):P
+A key regulator of hepatocellular bile salt homeostasis is the bile acid receptor/farnesoid X receptor FXR, which activates transcription of the BSEP and OATP8 genes and of the small heterodimer partner 1 (SHP).
+
+event('bile acid',bind,'NR0B2'):P
+The apical sodium-dependent bile acid transporter (ASBT, Slc10a) and the intracellular bile acid binding protein (Fabp6) were both upregulated, whereas small heterodimer partner-1 (Shp-1) and apolipoprotein CII (Apoc2) were downregulated.
+
+event('bile acid',activate,'NR0B2'):P
+Based on these observations and on protein binding studies performed in vitro and by chromatin immunoprecipitation, we hypothesize that FTF has two synergetic effects that contribute to its role in bile acid biosynthesis: 1) it has the ability to activate the expression of SHP, which in turn heterodimerizes and suppresses FTF transactivation activity.
+
+event('NR1H2',bind,'NR0B2'):P
+Levels of FXR, liver X receptor (LXR) , sterol regulatory element binding protein 1 C (SREBP-1C) , and small heterodimer partner (SHP) proteins were detected by Western blot.
+
+event('NR1H2',activate,'NR0B2'):P
+In addition, bile acid biosynthesis was inhibited despite the reduced expression of the small heterodimer partner (SHP) and activated LXRalpha, which also appeared to contribute to the accumulation of oxysterols followed by the acceleration of cholesterol efflux.
+
+event('NR0B2',bind,'CYP7A1'):P
+Gel shift and chromatin immunoprecipitation assays demonstrated that SHP with FTF diminished LXRalpha binding to the CYP7A1 promoter.
+
+event('NR0B2',interact,'CYP7A1'):P
+It has been recently reported that bile acid-activated farnesoid X receptor (FXR) induces the small heterodimer partner (SHP) that interacts with alpha-fetoprotein transcription factor (FTF) and down-regulates CYP7A1 transcription.
+
+event('NR0B2',detect,'CYP7A1'):P
+The mRNA transcription levels of SHP and cholesterol 7 alpha hydroxylase (CYP7A1) in RPH were detected by real-time-PCR, and the protein levels of SHP and CYP7a1 were detected by Western blotting.
+
+event('NR0B2',bind,'NR0B2'):P
+Furthermore, we found that SHP bound to the HNF-4 N-terminal region including the DNA-binding domain and activation function-1 and that SHP prevented HNF-4 from binding to the human ANG promoter.
+
+event('NR0B2',interact,'NR0B2'):P
+SHP interacts and co-localizes specifically with SIRT1 in vivo and inhibition of SIRT1 activity leads to a recovery from the intrinsic repressive activity of SHP but not of DAX1.
+
+event('NR0B2',detect,'NR0B2'):P
+The mRNA transcription levels of SHP and cholesterol 7 alpha hydroxylase (CYP7A1) in RPH were detected by real-time-PCR, and the protein levels of SHP and CYP7a1 were detected by Western blotting.
+
+event('NR0B2',activate,'NR0B2'):P
+Finally, we found that E47 and steroidogenic factor 1 (SF-1) , a regulator of the SHP promoter, synergistically activate the human but not the mouse SHP promoter.
+
+event('bile acid',bind,'NR1H2'):P
+At least two direct repeats of AGGTCA-like sequences with 4-base spacing (DR4) and five-base spacing (DR5) , in previously identified bile acid response elements of the rat CYP7A1 were able to bind LXRalpha/RXRalpha and confer LXRalpha stimulation.
+
+event('bile acid',activate,'NR1H2'):P
+The ability of intermediates of the bile acid biosynthetic pathways to activate the liver X receptors (LXRs) and the farnesoid X receptor was also evaluated.
+
+event('oxysterols',bind,'NR1H2'):P
+When cholesterol accumulates, oxysterols bind to LXRbeta, and the LXRbeta/RXR complex dissociates from ABCA1, restoring ABCA1 activity and allowing apoA-I-dependent cholesterol secretion.
+
+event('oxysterols',activate,'NR1H2'):P
+The liver X receptors (LXRs) are nuclear receptors that are activated by endogenous oxysterols, oxidized derivatives of cholesterol.
+
+event('NR5A2',bind,'NR1H2'):P
+We cloned the rabbit CYP7A1 promoter and found a fetoprotein transcription factor (FTF) binding element embedded within the LXRalpha binding site (LXRE).
+
+event('NR1H4',bind,'NR1H2'):P
+liver X receptor (LXR)  bound by oxysterol ligands and farnesoid X receptor (FXR) , bound by bile acid ligands, act as genetic transcription factors to cause feed-forward cholesterol catabolism to bile acids and feedback repression of bile acid synthesis, respectively.
+
+event('NR1H4',activate,'NR1H2'):P
+These results suggest that LXR-alpha was activated in rats fed both Ch or Ch + CA, whereas CYP7A1 mRNA and activity were induced only in Ch-fed rats where the bile acid pool was not enlarged such that FXR was not activated.
+
+event('NR0B2',bind,'NR1H2'):P
+We propose that the SHP/FTF heterodimer occupies LXRE via the embedded FTF binding element and blocks LXRalpha from recruiting to LXRE.
+
+event('NR0B2',interact,'NR1H2'):P
+Here we show that SHP can interact with the liver X receptors LXRalpha (NR1H3) and LXRbeta (NR1H2) , as demonstrated by glutathione-S-transferase pull-down assays, mammalian two-hybrid, and coimmunoprecipitation experiments.
+
+event('oxysterols',regulate,'CYP7A1'):P
+Here, we demonstrate that oxysterols also critically regulate iBALT generation and the immune pathogenesis of COPD In both COPD patients and cigarette smoke (CS)-exposed mice, we identified significantly upregulated CH25H and CYP7B1 expression in airway epithelial cells, regulating CS-induced B-cell migration and iBALT formation.
+
+event('oxysterols',induce,'CYP7A1'):P
+The catabolism of cholesterol into bile acids is regulated by oxysterols and bile acids, which induce or repress transcription of the pathway\s rate-limiting enzyme cholesterol 7 alpha-hydroxylase (CYP7A1).
+
+event('NR1H2',bind,'CYP7A1'):P
+In the liver, fucoidan significantly increased the expression of peroxisome proliferator-activated receptor (PPAR) α, PPARγ, liver X receptor (LXR) β, adenosine triphosphate (ATP) binding cassette (ABC) A1, ABCG8, low-density lipoprotein receptor (LDLR) , scavenger receptor B type 1 (SR-B1) , and cholesterol 7-α-hydroxylase A1 (CYP7A1) and decreased the triglyceride level and expression of proprotein convertase subtilisin/kexin type 9 (PCSK9) and PPARβ but had no effect on LXRα, ABCG1, and ABCG5.
+
+event('NR1H2',recognize,'CYP7A1'):P
+CYP7A was recognized as the first target gene of the liver X receptor (LXR) , in which the elimination of cholesterol depends on CYP7A.
+
+event('NR1H2',interact,'CYP7A1'):P
+It has been recently reported that bile acid-activated farnesoid X receptor (FXR) induces the small heterodimer partner (SHP) that interacts with alpha-fetoprotein transcription factor (FTF) and down-regulates CYP7A1 transcription.
+
+event('NR1H2',activate,'CYP7A1'):P
+Hepatocyte nuclear factor 4 (HNF4) and chicken ovalbumin upstream promoter transcription factor II (COUP-TFII) synergistically activate transcription of the CYP7A1 promoter.
+
+event('NR5A2',associate,'CYP7A1'):P
+Furthermore, the increase of Cyp7a1 in PPARα-null female mice was associated with an increase in liver Fxr-Shp-Lrh-1 signaling.
+
+event('NR5A2',combine,'CYP7A1'):P
+Therefore, activation of FXR, which upregulates SHP expression, will eliminate the stimulatory effect of LXRalpha on the CYP7A1 promoter because increased levels of SHP combined with FTF diminish the recruitment of LXRalpha to CYP7A1 promoter.
+
+event('NR5A2',support,'CYP7A1'):P
+These results suggest that LRH-1 plays a supporting role to FXR in maintaining hepatic bile acid levels by coordinately regulating CYP7A1 and BSEP for bile acid synthesis and elimination, respectively.
+
+event('CYP7A1',associate,'NR1H2'):P
+Interestingly, despite its high basal expression level, small heterodimer partner (SHP)]) [verbo([is associated])] complemento([with the CYP7A1 promoter only at a later stage of bile acid repression.
+
+event('CYP7A1',phosphorylate,'NR1H2'):P
+The increased recruitment of LXRalpha, a Cyp7a1 stimulatory pathway, and decreased expression of FGF15 and phosphorylated Erk1/2, a Cyp7a1 repressive pathway, combined to increase Cyp7a1 expression during lactation.
+
+event('CYP7A1',involve,'NR1H2'):P
+In a similar manner, RA also represses several critical genes involved in bile acid metabolism (Cyp7a1, Cyp8b1, Mdr2, Bsep, Baat and Ntcp) via upregulation of SHP.
+
+event('CYP7A1',require,'NR1H2'):P
+however, both farnesoid X receptor and small heterodimer partner were required to regulate CYP7a1 expression at the later stage of liver regeneration.
+
+event('CYP7A1',relate,'NR1H2'):P
+Selenium and magnesium co-supplementation remarkably inhibited the mRNA expression level of hepatic lipogenesis genes liver X receptor alpha (LXRα) , SREBP-1c and FASN (fatty acid synthase) , regulated the mRNA expression levels of liver enzymes related to cholesterol metabolism, including the down regulation of 3-hydroxy-3-methylglutaryl coenzyme A reductase (HMGR) and the upregulation of cholesterol 7 α-hydroxylase (CYP7A1) and lecithin cholesterol acyltransferase (LCAT) in the liver of hyperlipidemia rats.
+
+event('CYP7A1',combine,'NR1H2'):P
+The increased recruitment of LXRalpha, a Cyp7a1 stimulatory pathway, and decreased expression of FGF15 and phosphorylated Erk1/2, a Cyp7a1 repressive pathway combined to increase Cyp7a1 expression during lactation.
+
+event('CYP7A1',support,'NR1H2'):P
+S6K1 inhibition antagonized CYP7A1 induction promoted by AMPK inhibition, whereas AMPK activation abrogated S6K1-dependent CYP7A1 induction supporting the opposing role of S6K1 and AMPK in LXR activity.
+
+event('NR1H2',associate,'NR1H4'):P
+Our data showed that the decreased expression of hepatic FXR]) [verbo([is associated])] complemento([with an increased expression of LXR, SREBP-1C, and hepatic triglyceride synthesis.
+
+event('NR1H2',recruit,'NR1H4'):P
+Moreover, this antagonism is a general feature of RXR agonists and is attributed to a decrease in binding of FXR/RXR heterodimers to the BSEP-FXRE coupled with the inability of RXR agonists to recruit coactivators to FXR/RXR.
+
+event('NR1H2',involve,'NR1H4'):P
+Here, we show that phenolic blueberry extract (BE) treatment improved diet- and genetically induced metabolic syndromes, which were linked to increased energy expenditure in brown adipose tissue (BAT) and improved lipid metabolism in the liver via pathways involving the bile acid (BA) receptors TGR5 and FXR.
+
+event('NR1H2',combine,'NR1H4'):P
+Therefore, activation of FXR, which upregulates SHP expression, will eliminate the stimulatory effect of LXRalpha on the CYP7A1 promoter because increased levels of SHP combined with FTF diminish the recruitment of LXRalpha to CYP7A1 promoter.
+
+event('CYP7A1',associate,'NR1H4'):P
+Inactivation of FXR reversed the increase in ileal total FGF15 expression, which was associated with a significant increase in hepatic Cyp7a1 expression.
+
+event('CYP7A1',phosphorylate,'NR1H4'):P
+We found that IMB17-15 inhibited ASBT and subsequently suppressed ileal farnesoid X receptor (FXR) and FXR-activated fibroblast growth factor15/19 (FGF15/19) expression, which reduced the hepatic phosphorylated extracellular regulated protein kinase (ERK) and c-Jun N-terminal kinase (JNK) levels and upregulated the cholesterol 7 α-hydroxylase (CYP7A1) activity.
+
+event('CYP7A1',recruit,'NR1H4'):P
+Chromatin immunoprecipitation and remodeling studies revealed that after treatment with FXR agonists, Brg-1 was recruited to the SHP promoter, resulting in transcriptionally active accessible chromatin, whereas Brm was recruited to both CYP7A1 and SHP promoters, resulting in inactive inaccessible chromatin.
+
+event('CYP7A1',involve,'NR1H4'):P
+The nuclear farnesoid X receptor (FXR) plays a pivotal role in maintaining bile acid homeostasis by regulating key genes involved in bile acid synthesis, metabolism and transport, including CYP7A1, UGT2B4, BSEP, MDR3, MRP2, ASBT, I-BABP, NTCP and OSTalpha-OSTbeta in humans.
+
+event('CYP7A1',require,'NR1H4'):P
+FXR-binding activity was required for bile acid repression of CYP7A1 transcription despite the fact that FXR did not bind to the CYP7A1 promoter.
+
+event('CYP7A1',relate,'NR1H4'):P
+Nevertheless, an important reduction in mRNA levels was found for the xenosensors CAR and FXR, and the related CYP (CYP2E1, CYP7A1, CYP3A2, and CYP2D2).
+
+event('CYP7A1',combine,'NR1H4'):P
+Therefore, activation of FXR, which upregulates SHP expression, will eliminate the stimulatory effect of LXRalpha on the CYP7A1 promoter because increased levels of SHP combined with FTF diminish the recruitment of LXRalpha to CYP7A1 promoter.
+
+event('NR1H4',require,'NR1H2'):P
+Reporter gene assays showed that FXR ligands activated an FXR reporter gene and suppressed IL-1beta-induced nuclear factor (NF)-kappaB activation and iNOS in a manner that required functional FXR and SHP.
+
+event('NR1H4',relate,'NR1H2'):P
+Whether bile acid metabolism and the expression of farnesoid X receptor (FXR) , liver X receptor-α (LXR-α) and sterol regulatory element-binding protein (Srebp)-1 c is regulated by hyperglycemia, or whether simvastatin therapy led to higher glucose]) [verbo([is related])] complemento([with down-regulated expression of FXR in diabetic rats remained unclear.
+
+event('NR5A2',recruit,'NR1H2'):P
+We propose that the SHP/FTF heterodimer occupies LXRE via the embedded FTF binding element and blocks LXRalpha from recruiting to LXRE.
+
+event('NR5A2',involve,'NR1H2'):P
+Given the receptor\s role in cancer progression, the study here elucidates additional transcriptional machinery involved in LRH1 signaling and potentially provides new targets for therapeutics development.
+
+event('NR5A2',relate,'NR1H2'):P
+However, the mature Sertoli cells were warmed at the 43 C water bath for 15 min, and the LRH-1 signal was remarkably induced in a time-dependent manner, just like the changes of CK-18 expression in the Sertoli cells, suggesting that the heat-induced dedifferentiation of the mature Sertoli cells might be related to LRH-1 regulation.
+
+event('NR5A2',combine,'NR1H2'):P
+Therefore, activation of FXR, which upregulates SHP expression, will eliminate the stimulatory effect of LXRalpha on the CYP7A1 promoter because increased levels of SHP combined with FTF diminish the recruitment of LXRalpha to CYP7A1 promoter.
+
+event('NR1H2',associate,'CYP7A1'):P
+Afterwards the cholesterol metabolism was studied in the liver especially focused on the gene expressions of cholesterol-catabolising enzymes (CYP7A1, CYP27A1 and CYP7B1) , as well as those of associated nuclear receptors (LXRα, FXR, PPARα, and SREBP 2).
+
+event('NR1H2',involve,'CYP7A1'):P
+The strong therapeutic effect of NorUDCA relied on a significant downregulation of LXR-dependent lipogenesis and the normalisation of BA metabolism through mechanisms involving cross-talk between Cyp7a1 and SHP.
+
+event('NR1H2',combine,'CYP7A1'):P
+Therefore, activation of FXR, which upregulates SHP expression, will eliminate the stimulatory effect of LXRalpha on the CYP7A1 promoter because increased levels of SHP combined with FTF diminish the recruitment of LXRalpha to CYP7A1 promoter.
+
+event('NR5A2',associate,'NR1H4'):P
+To analyze the global pattern for LRH-1 binding and to determine whether it might associate with FXR on a whole genome-wide scale, we analyzed LRH-1 binding to the entire hepatic genome using a non-biased genome-wide ChIP-seq approach.
+
+event('NR5A2',recruit,'NR1H4'):P
+These results demonstrate that LRH-1 recruits FXR to lipid metabolic genes.
+
+event('NR5A2',combine,'NR1H4'):P
+Therefore, activation of FXR, which upregulates SHP expression, will eliminate the stimulatory effect of LXRalpha on the CYP7A1 promoter because increased levels of SHP combined with FTF diminish the recruitment of LXRalpha to CYP7A1 promoter.
+
+event('NR5A2',support,'NR1H4'):P
+These results suggest that LRH-1 plays a supporting role to FXR in maintaining hepatic bile acid levels by coordinately regulating CYP7A1 and BSEP for bile acid synthesis and elimination, respectively.
+
+event('NR1H4',associate,'CYP7A1'):P
+Afterwards the cholesterol metabolism was studied in the liver especially focused on the gene expressions of cholesterol-catabolising enzymes (CYP7A1, CYP27A1 and CYP7B1) , as well as those of associated nuclear receptors (LXRα, FXR, PPARα, and SREBP 2).
+
+event('NR1H4',involve,'CYP7A1'):P
+Fex-3 could selectively activate intestinal FXR and promote the expression of BSEP and SHP while suppressing CYP7A1 which]) [verbo([is involved])] complemento([in bile acids syntheses better than the reported intestinal-restricted FXR agonist fexaramine (Fex).
+
+event('NR1H4',require,'CYP7A1'):P
+These data provide evidence that FXR-mediated repression of bile acid synthesis requires the complementary actions of FXR in both liver and intestine and reveal mechanistic differences in feedback repression of CYP7A1 and CYP8B1.
+
+event('NR1H4',relate,'CYP7A1'):P
+The upregulation of genes related to bile acid synthesis (CYP7A1 and CYP8B1) and the downregulation of genes related to conjugation (BAAT and BACS) and regulation (FXR and SHP) were detected in the liver, suggesting that hydrophobic bile acid production was increased and FXR signaling was impaired.
+
+event('CYP7A1',involve,'NR5A2'):P
+In vitro studies suggest that LRH-1 may be involved both in stimulating basal CYP7A1 and CYP8B1 transcription and in repressing their expression as part of the nuclear bile acid receptor [ farnesoid X receptor (FXR) ]-small heterodimer partner signaling cascade, which culminates in small heterodimer partner binding to LRH-1 to repress gene transcription.
+
+event('CYP7A1',require,'NR5A2'):P
+The increased abundance of SHP causes it to associate with liver receptor homolog (LRH)-1 , an obligate factor required for transcription of CYP7A1.
+
+event('CYP7A1',combine,'NR5A2'):P
+FTF combined with CYP7A might play an important role in Lrh1 regulated pancreas-specific transcriptional network.
+
+event('NR1H2',heterodimerize,'NR5A2'):P
+It has been shown previously that hepatocyte nuclear factor-4alpha (HNF-4) and the alpha(1)-fetoprotein transcription factor (FTF) are activators of 7 alpha-and 12 alpha-hydroxylase transcription and that the small heterodimer partner (SHP) suppresses bile acid biosynthesis by heterodimerizing with FTF.
+
+event('NR1H2',require,'NR5A2'):P
+This half-site specifically binds liver receptor homologue-1 (LRH-1) in vitro and in vivo, and we show LRH-1]) [verbo([is required])] complemento([for maximal LXR responsiveness of the endogenous FAS gene as well as from promoter reporter constructs.
+
+event('NR1H4',involve,'NR5A2'):P
+In vitro studies suggest that LRH-1 may be involved both in stimulating basal CYP7A1 and CYP8B1 transcription and in repressing their expression as part of the nuclear bile acid receptor [ farnesoid X receptor (FXR) ]-small heterodimer partner signaling cascade, which culminates in small heterodimer partner binding to LRH-1 to repress gene transcription.
+
+event('NR1H4',require,'NR5A2'):P
+In addition, such transactivation by LRH-1 was required for maximal induction of BSEP expression through the bile acid/farnesoid X receptor (FXR) activation pathway.
+
+event('NR1H4',relate,'NR5A2'):P
+A significant fraction of FXR binding peaks also contain a nuclear receptor half-site that does not bind LRH-1 suggesting that additional monomeric nuclear receptors such as RORs and NR4As family members may also target FXR to other pathway selective genes related to other areas of metabolism such as glucose metabolism where FXR has also been shown to play an important role.
+
+event('NR1H4',support,'NR5A2'):P
+In a previous genome-wide analysis of FXR binding to hepatic chromatin, we noticed that an extra nuclear receptor (NR) half-site was co-enriched close to the FXR binding IR-1 elements and we provided limited support that the monomeric LRH-1 receptor that binds to NR half-sites might function together with FXR to activate gene expression.
+
+event('NR0B2',heterodimerize,'NR5A2'):P
+It has been shown previously that hepatocyte nuclear factor-4alpha (HNF-4) and the alpha(1)-fetoprotein transcription factor (FTF) are activators of 7 alpha-and 12 alpha-hydroxylase transcription and that the small heterodimer partner (SHP) suppresses bile acid biosynthesis by heterodimerizing with FTF.
+
+event('NR0B2',associate,'NR5A2'):P
+The increased abundance of SHP causes it to associate with liver receptor homolog (LRH)-1 , an obligate factor required for transcription of CYP7A1.
+
+event('NR0B2',recruit,'NR5A2'):P
+ChIP assays revealed that SHP recruits SIRT1 on LRH1 target gene promoters and SIRT1 deacetylated template-dependent histone H3 and H4 to inhibit transcription of LRH1 target genes.
+
+event('NR0B2',involve,'NR5A2'):P
+FTF and not HNF-4 is the factor involved in regulation of 12 alpha-hydroxylase promoter activity by bile acids through its interaction with SHP.
+
+event('NR0B2',recruit,'NR1H2'):P
+We propose that the SHP/FTF heterodimer occupies LXRE via the embedded FTF binding element and blocks LXRalpha from recruiting to LXRE.
+
+event('NR0B2',involve,'NR1H2'):P
+In a similar manner, RA also represses several critical genes involved in bile acid metabolism (Cyp7a1, Cyp8b1, Mdr2, Bsep, Baat and Ntcp) via upregulation of SHP.
+
+event('NR0B2',require,'NR1H2'):P
+An additional nuclear hormone receptor, small heterodimer partner (SHP) ]) [verbo([is required])] complemento([to inhibit the competence factor, liver receptor homolog-1 to achieve repression of bile acid synthesis in the liver and in so doing SHP autoregulates its own function.
+
+event('NR0B2',associate,'NR1H4'):P
+In conclusion, FXR ligand, 6ECDCA prevents cisplatin-induced kidney injury, the underlying mechanism of which may be associated with anti-fibrotic, anti-inflammatory, and anti-apoptotic effects through SHP induction.
+
+event('NR0B2',recruit,'NR1H4'):P
+Chromatin immunoprecipitation and remodeling studies revealed that after treatment with FXR agonists, Brg-1 was recruited to the SHP promoter, resulting in transcriptionally active accessible chromatin, whereas Brm was recruited to both CYP7A1 and SHP promoters, resulting in inactive inaccessible chromatin.
+
+event('NR0B2',require,'NR1H4'):P
+Reporter gene assays showed that FXR ligands activated an FXR reporter gene and suppressed IL-1beta-induced nuclear factor (NF)-kappaB activation and iNOS in a manner that required functional FXR and SHP.
+
+event('NR0B2',relate,'NR1H4'):P
+RNA and protein were extracted from rat liver tissue to detect FXR mRNA expressionas well as bile acid synthesis and detoxificationtransport related SHPUGT2 B4BSEP protein expressions at downstream of FXR.
+
+event('NR0B2',combine,'NR1H4'):P
+Contrary to current models, which place FXR upstream of SHP in a linear regulatory pathway, here we show that the phenotypic consequences in mice of the combined loss of both receptors are much more severe than the relatively modest impact of the loss of either Fxr or Shp alone.
+

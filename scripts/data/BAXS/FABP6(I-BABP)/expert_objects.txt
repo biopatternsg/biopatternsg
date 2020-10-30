@@ -1,0 +1,12 @@
+bile acid
+cholesterol
+oxysterols
+RXR
+PPARA
+PPAR
+PPARD
+PPARB
+PPARG
+FABP6
+I-BABP
+

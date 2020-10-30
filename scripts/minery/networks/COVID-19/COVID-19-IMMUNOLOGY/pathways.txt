@@ -1,0 +1,4396 @@
+
+
+'MHC',bind,'STAT';'STAT',bind,'STAT'
+['MHC', 'STAT']
+
+
+'ORF6',bind,'STAT';'STAT',bind,'STAT'
+['ORF6', 'STAT']
+
+
+'importin',bind,'STAT';'STAT',bind,'STAT'
+['importin', 'STAT']
+
+
+'CD4',bind,'STAT';'STAT',bind,'STAT'
+['CD4', 'STAT']
+
+
+'CD8',bind,'STAT';'STAT',bind,'STAT'
+['CD8', 'STAT']
+
+
+'MHC',bind,'STAT';'STAT',bind,'STAT';'MHC',regulate,'STAT'
+['MHC', 'STAT', 'MHC', 'STAT']
+
+
+'MHC',bind,'STAT';'STAT',bind,'STAT';'MHC',inhibit,'STAT'
+['MHC', 'STAT', 'MHC', 'STAT']
+
+
+'importin',bind,'STAT';'STAT',bind,'STAT';'importin',inhibit,'STAT'
+['importin', 'STAT', 'importin', 'STAT']
+
+
+'importin',bind,'STAT';'STAT',bind,'STAT';'importin',regulate,'STAT'
+['importin', 'STAT', 'importin', 'STAT']
+
+
+'CD4',bind,'STAT';'STAT',bind,'STAT';'CD4',regulate,'STAT'
+['CD4', 'STAT', 'CD4', 'STAT']
+
+
+'CD4',bind,'STAT';'STAT',bind,'STAT';'CD4',inhibit,'STAT'
+['CD4', 'STAT', 'CD4', 'STAT']
+
+
+'CD8',bind,'STAT';'STAT',bind,'STAT';'CD8',regulate,'STAT'
+['CD8', 'STAT', 'CD8', 'STAT']
+
+
+'CD8',bind,'STAT';'STAT',bind,'STAT';'CD8',inhibit,'STAT'
+['CD8', 'STAT', 'CD8', 'STAT']
+
+
+'MHC',bind,'STAT';'STAT',inhibit,'STAT'
+['MHC', 'STAT']
+
+
+'ORF6',bind,'STAT';'STAT',inhibit,'STAT'
+['ORF6', 'STAT']
+
+
+'importin',bind,'STAT';'STAT',inhibit,'STAT'
+['importin', 'STAT']
+
+
+'CD4',bind,'STAT';'STAT',inhibit,'STAT'
+['CD4', 'STAT']
+
+
+'CD8',bind,'STAT';'STAT',inhibit,'STAT'
+['CD8', 'STAT']
+
+
+'MHC',bind,'STAT';'STAT',inhibit,'STAT';'MHC',regulate,'STAT'
+['MHC', 'STAT', 'MHC', 'STAT']
+
+
+'MHC',bind,'STAT';'STAT',inhibit,'STAT';'MHC',inhibit,'STAT'
+['MHC', 'STAT', 'MHC', 'STAT']
+
+
+'importin',bind,'STAT';'STAT',inhibit,'STAT';'importin',inhibit,'STAT'
+['importin', 'STAT', 'importin', 'STAT']
+
+
+'importin',bind,'STAT';'STAT',inhibit,'STAT';'importin',regulate,'STAT'
+['importin', 'STAT', 'importin', 'STAT']
+
+
+'CD4',bind,'STAT';'STAT',inhibit,'STAT';'CD4',regulate,'STAT'
+['CD4', 'STAT', 'CD4', 'STAT']
+
+
+'CD4',bind,'STAT';'STAT',inhibit,'STAT';'CD4',inhibit,'STAT'
+['CD4', 'STAT', 'CD4', 'STAT']
+
+
+'CD8',bind,'STAT';'STAT',inhibit,'STAT';'CD8',regulate,'STAT'
+['CD8', 'STAT', 'CD8', 'STAT']
+
+
+'CD8',bind,'STAT';'STAT',inhibit,'STAT';'CD8',inhibit,'STAT'
+['CD8', 'STAT', 'CD8', 'STAT']
+
+
+'MHC',bind,'STAT';'STAT',regulate,'STAT'
+['MHC', 'STAT']
+
+
+'ORF6',bind,'STAT';'STAT',regulate,'STAT'
+['ORF6', 'STAT']
+
+
+'importin',bind,'STAT';'STAT',regulate,'STAT'
+['importin', 'STAT']
+
+
+'CD4',bind,'STAT';'STAT',regulate,'STAT'
+['CD4', 'STAT']
+
+
+'CD8',bind,'STAT';'STAT',regulate,'STAT'
+['CD8', 'STAT']
+
+
+'MHC',bind,'STAT';'STAT',regulate,'STAT';'MHC',regulate,'STAT'
+['MHC', 'STAT', 'MHC', 'STAT']
+
+
+'MHC',bind,'STAT';'STAT',regulate,'STAT';'MHC',inhibit,'STAT'
+['MHC', 'STAT', 'MHC', 'STAT']
+
+
+'importin',bind,'STAT';'STAT',regulate,'STAT';'importin',inhibit,'STAT'
+['importin', 'STAT', 'importin', 'STAT']
+
+
+'importin',bind,'STAT';'STAT',regulate,'STAT';'importin',regulate,'STAT'
+['importin', 'STAT', 'importin', 'STAT']
+
+
+'CD4',bind,'STAT';'STAT',regulate,'STAT';'CD4',regulate,'STAT'
+['CD4', 'STAT', 'CD4', 'STAT']
+
+
+'CD4',bind,'STAT';'STAT',regulate,'STAT';'CD4',inhibit,'STAT'
+['CD4', 'STAT', 'CD4', 'STAT']
+
+
+'CD8',bind,'STAT';'STAT',regulate,'STAT';'CD8',regulate,'STAT'
+['CD8', 'STAT', 'CD8', 'STAT']
+
+
+'CD8',bind,'STAT';'STAT',regulate,'STAT';'CD8',inhibit,'STAT'
+['CD8', 'STAT', 'CD8', 'STAT']
+
+
+'MHC',bind,'STAT';'STAT',inhibit,'SARS-CoV'
+['MHC', 'STAT', 'SARS-CoV']
+
+
+'ORF6',bind,'STAT';'STAT',inhibit,'SARS-CoV'
+['ORF6', 'STAT', 'SARS-CoV']
+
+
+'importin',bind,'STAT';'STAT',inhibit,'SARS-CoV'
+['importin', 'STAT', 'SARS-CoV']
+
+
+'CD4',bind,'STAT';'STAT',inhibit,'SARS-CoV'
+['CD4', 'STAT', 'SARS-CoV']
+
+
+'CD8',bind,'STAT';'STAT',inhibit,'SARS-CoV'
+['CD8', 'STAT', 'SARS-CoV']
+
+
+'MHC',bind,'STAT';'STAT',inhibit,'SARS-CoV';'MHC',regulate,'SARS-CoV'
+['MHC', 'STAT', 'SARS-CoV', 'MHC', 'SARS-CoV']
+
+
+'MHC',bind,'STAT';'STAT',inhibit,'SARS-CoV';'MHC',inhibit,'SARS-CoV'
+['MHC', 'STAT', 'SARS-CoV', 'MHC', 'SARS-CoV']
+
+
+'ORF6',bind,'STAT';'STAT',inhibit,'SARS-CoV';'ORF6',regulate,'SARS-CoV'
+['ORF6', 'STAT', 'SARS-CoV', 'ORF6', 'SARS-CoV']
+
+
+'ORF6',bind,'STAT';'STAT',inhibit,'SARS-CoV';'ORF6',inhibit,'SARS-CoV'
+['ORF6', 'STAT', 'SARS-CoV', 'ORF6', 'SARS-CoV']
+
+
+'CD4',bind,'STAT';'STAT',inhibit,'SARS-CoV';'CD4',regulate,'SARS-CoV'
+['CD4', 'STAT', 'SARS-CoV', 'CD4', 'SARS-CoV']
+
+
+'CD4',bind,'STAT';'STAT',inhibit,'SARS-CoV';'CD4',inhibit,'SARS-CoV'
+['CD4', 'STAT', 'SARS-CoV', 'CD4', 'SARS-CoV']
+
+
+'CD8',bind,'STAT';'STAT',inhibit,'SARS-CoV';'CD8',regulate,'SARS-CoV'
+['CD8', 'STAT', 'SARS-CoV', 'CD8', 'SARS-CoV']
+
+
+'CD8',bind,'STAT';'STAT',inhibit,'SARS-CoV';'CD8',inhibit,'SARS-CoV'
+['CD8', 'STAT', 'SARS-CoV', 'CD8', 'SARS-CoV']
+
+
+'MHC',bind,'STAT';'STAT',regulate,'SARS-CoV'
+['MHC', 'STAT', 'SARS-CoV']
+
+
+'ORF6',bind,'STAT';'STAT',regulate,'SARS-CoV'
+['ORF6', 'STAT', 'SARS-CoV']
+
+
+'importin',bind,'STAT';'STAT',regulate,'SARS-CoV'
+['importin', 'STAT', 'SARS-CoV']
+
+
+'CD4',bind,'STAT';'STAT',regulate,'SARS-CoV'
+['CD4', 'STAT', 'SARS-CoV']
+
+
+'CD8',bind,'STAT';'STAT',regulate,'SARS-CoV'
+['CD8', 'STAT', 'SARS-CoV']
+
+
+'MHC',bind,'STAT';'STAT',regulate,'SARS-CoV';'MHC',regulate,'SARS-CoV'
+['MHC', 'STAT', 'SARS-CoV', 'MHC', 'SARS-CoV']
+
+
+'MHC',bind,'STAT';'STAT',regulate,'SARS-CoV';'MHC',inhibit,'SARS-CoV'
+['MHC', 'STAT', 'SARS-CoV', 'MHC', 'SARS-CoV']
+
+
+'ORF6',bind,'STAT';'STAT',regulate,'SARS-CoV';'ORF6',regulate,'SARS-CoV'
+['ORF6', 'STAT', 'SARS-CoV', 'ORF6', 'SARS-CoV']
+
+
+'ORF6',bind,'STAT';'STAT',regulate,'SARS-CoV';'ORF6',inhibit,'SARS-CoV'
+['ORF6', 'STAT', 'SARS-CoV', 'ORF6', 'SARS-CoV']
+
+
+'CD4',bind,'STAT';'STAT',regulate,'SARS-CoV';'CD4',regulate,'SARS-CoV'
+['CD4', 'STAT', 'SARS-CoV', 'CD4', 'SARS-CoV']
+
+
+'CD4',bind,'STAT';'STAT',regulate,'SARS-CoV';'CD4',inhibit,'SARS-CoV'
+['CD4', 'STAT', 'SARS-CoV', 'CD4', 'SARS-CoV']
+
+
+'CD8',bind,'STAT';'STAT',regulate,'SARS-CoV';'CD8',regulate,'SARS-CoV'
+['CD8', 'STAT', 'SARS-CoV', 'CD8', 'SARS-CoV']
+
+
+'CD8',bind,'STAT';'STAT',regulate,'SARS-CoV';'CD8',inhibit,'SARS-CoV'
+['CD8', 'STAT', 'SARS-CoV', 'CD8', 'SARS-CoV']
+
+
+'MHC',bind,'STAT';'STAT',regulate,'ORF6'
+['MHC', 'STAT', 'ORF6']
+
+
+'importin',bind,'STAT';'STAT',regulate,'ORF6'
+['importin', 'STAT', 'ORF6']
+
+
+'CD4',bind,'STAT';'STAT',regulate,'ORF6'
+['CD4', 'STAT', 'ORF6']
+
+
+'CD8',bind,'STAT';'STAT',regulate,'ORF6'
+['CD8', 'STAT', 'ORF6']
+
+
+'ORF6',bind,'STAT';'STAT',regulate,'ORF6';'ORF6',regulate,'ORF6'
+['ORF6', 'STAT', 'ORF6']
+
+
+'ORF6',bind,'STAT';'STAT',regulate,'ORF6';'ORF6',inhibit,'ORF6'
+['ORF6', 'STAT', 'ORF6']
+
+
+'MHC',bind,'CD4';'CD4',regulate,'STAT'
+['MHC', 'CD4', 'STAT']
+
+
+'importin',bind,'CD4';'CD4',regulate,'STAT'
+['importin', 'CD4', 'STAT']
+
+
+'CD8',bind,'CD4';'CD4',regulate,'STAT'
+['CD8', 'CD4', 'STAT']
+
+
+'STAT',bind,'CD4';'CD4',regulate,'STAT';'STAT',inhibit,'STAT'
+['STAT', 'CD4', 'STAT']
+
+
+'STAT',bind,'CD4';'CD4',regulate,'STAT';'STAT',regulate,'STAT'
+['STAT', 'CD4', 'STAT']
+
+
+'MHC',bind,'CD4';'CD4',regulate,'STAT';'MHC',regulate,'STAT'
+['MHC', 'CD4', 'STAT', 'MHC', 'STAT']
+
+
+'MHC',bind,'CD4';'CD4',regulate,'STAT';'MHC',inhibit,'STAT'
+['MHC', 'CD4', 'STAT', 'MHC', 'STAT']
+
+
+'importin',bind,'CD4';'CD4',regulate,'STAT';'importin',inhibit,'STAT'
+['importin', 'CD4', 'STAT', 'importin', 'STAT']
+
+
+'importin',bind,'CD4';'CD4',regulate,'STAT';'importin',regulate,'STAT'
+['importin', 'CD4', 'STAT', 'importin', 'STAT']
+
+
+'CD8',bind,'CD4';'CD4',regulate,'STAT';'CD8',regulate,'STAT'
+['CD8', 'CD4', 'STAT', 'CD8', 'STAT']
+
+
+'CD8',bind,'CD4';'CD4',regulate,'STAT';'CD8',inhibit,'STAT'
+['CD8', 'CD4', 'STAT', 'CD8', 'STAT']
+
+
+'MHC',bind,'CD4';'CD4',inhibit,'STAT'
+['MHC', 'CD4', 'STAT']
+
+
+'importin',bind,'CD4';'CD4',inhibit,'STAT'
+['importin', 'CD4', 'STAT']
+
+
+'CD8',bind,'CD4';'CD4',inhibit,'STAT'
+['CD8', 'CD4', 'STAT']
+
+
+'STAT',bind,'CD4';'CD4',inhibit,'STAT';'STAT',inhibit,'STAT'
+['STAT', 'CD4', 'STAT']
+
+
+'STAT',bind,'CD4';'CD4',inhibit,'STAT';'STAT',regulate,'STAT'
+['STAT', 'CD4', 'STAT']
+
+
+'MHC',bind,'CD4';'CD4',inhibit,'STAT';'MHC',regulate,'STAT'
+['MHC', 'CD4', 'STAT', 'MHC', 'STAT']
+
+
+'MHC',bind,'CD4';'CD4',inhibit,'STAT';'MHC',inhibit,'STAT'
+['MHC', 'CD4', 'STAT', 'MHC', 'STAT']
+
+
+'importin',bind,'CD4';'CD4',inhibit,'STAT';'importin',inhibit,'STAT'
+['importin', 'CD4', 'STAT', 'importin', 'STAT']
+
+
+'importin',bind,'CD4';'CD4',inhibit,'STAT';'importin',regulate,'STAT'
+['importin', 'CD4', 'STAT', 'importin', 'STAT']
+
+
+'CD8',bind,'CD4';'CD4',inhibit,'STAT';'CD8',regulate,'STAT'
+['CD8', 'CD4', 'STAT', 'CD8', 'STAT']
+
+
+'CD8',bind,'CD4';'CD4',inhibit,'STAT';'CD8',inhibit,'STAT'
+['CD8', 'CD4', 'STAT', 'CD8', 'STAT']
+
+
+'MHC',bind,'CD4';'CD4',bind,'STAT'
+['MHC', 'CD4', 'STAT']
+
+
+'importin',bind,'CD4';'CD4',bind,'STAT'
+['importin', 'CD4', 'STAT']
+
+
+'CD8',bind,'CD4';'CD4',bind,'STAT'
+['CD8', 'CD4', 'STAT']
+
+
+'STAT',bind,'CD4';'CD4',bind,'STAT';'STAT',inhibit,'STAT'
+['STAT', 'CD4', 'STAT']
+
+
+'STAT',bind,'CD4';'CD4',bind,'STAT';'STAT',regulate,'STAT'
+['STAT', 'CD4', 'STAT']
+
+
+'MHC',bind,'CD4';'CD4',bind,'STAT';'MHC',regulate,'STAT'
+['MHC', 'CD4', 'STAT', 'MHC', 'STAT']
+
+
+'MHC',bind,'CD4';'CD4',bind,'STAT';'MHC',inhibit,'STAT'
+['MHC', 'CD4', 'STAT', 'MHC', 'STAT']
+
+
+'importin',bind,'CD4';'CD4',bind,'STAT';'importin',inhibit,'STAT'
+['importin', 'CD4', 'STAT', 'importin', 'STAT']
+
+
+'importin',bind,'CD4';'CD4',bind,'STAT';'importin',regulate,'STAT'
+['importin', 'CD4', 'STAT', 'importin', 'STAT']
+
+
+'CD8',bind,'CD4';'CD4',bind,'STAT';'CD8',regulate,'STAT'
+['CD8', 'CD4', 'STAT', 'CD8', 'STAT']
+
+
+'CD8',bind,'CD4';'CD4',bind,'STAT';'CD8',inhibit,'STAT'
+['CD8', 'CD4', 'STAT', 'CD8', 'STAT']
+
+
+'STAT',bind,'CD4';'CD4',regulate,'SARS-CoV'
+['STAT', 'CD4', 'SARS-CoV']
+
+
+'MHC',bind,'CD4';'CD4',regulate,'SARS-CoV'
+['MHC', 'CD4', 'SARS-CoV']
+
+
+'importin',bind,'CD4';'CD4',regulate,'SARS-CoV'
+['importin', 'CD4', 'SARS-CoV']
+
+
+'CD8',bind,'CD4';'CD4',regulate,'SARS-CoV'
+['CD8', 'CD4', 'SARS-CoV']
+
+
+'STAT',bind,'CD4';'CD4',regulate,'SARS-CoV';'STAT',inhibit,'SARS-CoV'
+['STAT', 'CD4', 'SARS-CoV', 'STAT', 'SARS-CoV']
+
+
+'STAT',bind,'CD4';'CD4',regulate,'SARS-CoV';'STAT',regulate,'SARS-CoV'
+['STAT', 'CD4', 'SARS-CoV', 'STAT', 'SARS-CoV']
+
+
+'MHC',bind,'CD4';'CD4',regulate,'SARS-CoV';'MHC',regulate,'SARS-CoV'
+['MHC', 'CD4', 'SARS-CoV', 'MHC', 'SARS-CoV']
+
+
+'MHC',bind,'CD4';'CD4',regulate,'SARS-CoV';'MHC',inhibit,'SARS-CoV'
+['MHC', 'CD4', 'SARS-CoV', 'MHC', 'SARS-CoV']
+
+
+'CD8',bind,'CD4';'CD4',regulate,'SARS-CoV';'CD8',regulate,'SARS-CoV'
+['CD8', 'CD4', 'SARS-CoV', 'CD8', 'SARS-CoV']
+
+
+'CD8',bind,'CD4';'CD4',regulate,'SARS-CoV';'CD8',inhibit,'SARS-CoV'
+['CD8', 'CD4', 'SARS-CoV', 'CD8', 'SARS-CoV']
+
+
+'STAT',bind,'CD4';'CD4',inhibit,'SARS-CoV'
+['STAT', 'CD4', 'SARS-CoV']
+
+
+'MHC',bind,'CD4';'CD4',inhibit,'SARS-CoV'
+['MHC', 'CD4', 'SARS-CoV']
+
+
+'importin',bind,'CD4';'CD4',inhibit,'SARS-CoV'
+['importin', 'CD4', 'SARS-CoV']
+
+
+'CD8',bind,'CD4';'CD4',inhibit,'SARS-CoV'
+['CD8', 'CD4', 'SARS-CoV']
+
+
+'STAT',bind,'CD4';'CD4',inhibit,'SARS-CoV';'STAT',inhibit,'SARS-CoV'
+['STAT', 'CD4', 'SARS-CoV', 'STAT', 'SARS-CoV']
+
+
+'STAT',bind,'CD4';'CD4',inhibit,'SARS-CoV';'STAT',regulate,'SARS-CoV'
+['STAT', 'CD4', 'SARS-CoV', 'STAT', 'SARS-CoV']
+
+
+'MHC',bind,'CD4';'CD4',inhibit,'SARS-CoV';'MHC',regulate,'SARS-CoV'
+['MHC', 'CD4', 'SARS-CoV', 'MHC', 'SARS-CoV']
+
+
+'MHC',bind,'CD4';'CD4',inhibit,'SARS-CoV';'MHC',inhibit,'SARS-CoV'
+['MHC', 'CD4', 'SARS-CoV', 'MHC', 'SARS-CoV']
+
+
+'CD8',bind,'CD4';'CD4',inhibit,'SARS-CoV';'CD8',regulate,'SARS-CoV'
+['CD8', 'CD4', 'SARS-CoV', 'CD8', 'SARS-CoV']
+
+
+'CD8',bind,'CD4';'CD4',inhibit,'SARS-CoV';'CD8',inhibit,'SARS-CoV'
+['CD8', 'CD4', 'SARS-CoV', 'CD8', 'SARS-CoV']
+
+
+'CD4',bind,'importin';'importin',bind,'STAT'
+['CD4', 'importin', 'STAT']
+
+
+'STAT',bind,'importin';'importin',bind,'STAT';'STAT',inhibit,'STAT'
+['STAT', 'importin', 'STAT']
+
+
+'STAT',bind,'importin';'importin',bind,'STAT';'STAT',regulate,'STAT'
+['STAT', 'importin', 'STAT']
+
+
+'CD4',bind,'importin';'importin',bind,'STAT';'CD4',regulate,'STAT'
+['CD4', 'importin', 'STAT', 'CD4', 'STAT']
+
+
+'CD4',bind,'importin';'importin',bind,'STAT';'CD4',inhibit,'STAT'
+['CD4', 'importin', 'STAT', 'CD4', 'STAT']
+
+
+'CD4',bind,'importin';'importin',inhibit,'STAT'
+['CD4', 'importin', 'STAT']
+
+
+'STAT',bind,'importin';'importin',inhibit,'STAT';'STAT',inhibit,'STAT'
+['STAT', 'importin', 'STAT']
+
+
+'STAT',bind,'importin';'importin',inhibit,'STAT';'STAT',regulate,'STAT'
+['STAT', 'importin', 'STAT']
+
+
+'CD4',bind,'importin';'importin',inhibit,'STAT';'CD4',regulate,'STAT'
+['CD4', 'importin', 'STAT', 'CD4', 'STAT']
+
+
+'CD4',bind,'importin';'importin',inhibit,'STAT';'CD4',inhibit,'STAT'
+['CD4', 'importin', 'STAT', 'CD4', 'STAT']
+
+
+'CD4',bind,'importin';'importin',regulate,'STAT'
+['CD4', 'importin', 'STAT']
+
+
+'STAT',bind,'importin';'importin',regulate,'STAT';'STAT',inhibit,'STAT'
+['STAT', 'importin', 'STAT']
+
+
+'STAT',bind,'importin';'importin',regulate,'STAT';'STAT',regulate,'STAT'
+['STAT', 'importin', 'STAT']
+
+
+'CD4',bind,'importin';'importin',regulate,'STAT';'CD4',regulate,'STAT'
+['CD4', 'importin', 'STAT', 'CD4', 'STAT']
+
+
+'CD4',bind,'importin';'importin',regulate,'STAT';'CD4',inhibit,'STAT'
+['CD4', 'importin', 'STAT', 'CD4', 'STAT']
+
+
+'MHC',bind,'CD8';'CD8',regulate,'STAT'
+['MHC', 'CD8', 'STAT']
+
+
+'CD4',bind,'CD8';'CD8',regulate,'STAT'
+['CD4', 'CD8', 'STAT']
+
+
+'STAT',bind,'CD8';'CD8',regulate,'STAT';'STAT',inhibit,'STAT'
+['STAT', 'CD8', 'STAT']
+
+
+'STAT',bind,'CD8';'CD8',regulate,'STAT';'STAT',regulate,'STAT'
+['STAT', 'CD8', 'STAT']
+
+
+'MHC',bind,'CD8';'CD8',regulate,'STAT';'MHC',regulate,'STAT'
+['MHC', 'CD8', 'STAT', 'MHC', 'STAT']
+
+
+'MHC',bind,'CD8';'CD8',regulate,'STAT';'MHC',inhibit,'STAT'
+['MHC', 'CD8', 'STAT', 'MHC', 'STAT']
+
+
+'CD4',bind,'CD8';'CD8',regulate,'STAT';'CD4',regulate,'STAT'
+['CD4', 'CD8', 'STAT', 'CD4', 'STAT']
+
+
+'CD4',bind,'CD8';'CD8',regulate,'STAT';'CD4',inhibit,'STAT'
+['CD4', 'CD8', 'STAT', 'CD4', 'STAT']
+
+
+'MHC',bind,'CD8';'CD8',inhibit,'STAT'
+['MHC', 'CD8', 'STAT']
+
+
+'CD4',bind,'CD8';'CD8',inhibit,'STAT'
+['CD4', 'CD8', 'STAT']
+
+
+'STAT',bind,'CD8';'CD8',inhibit,'STAT';'STAT',inhibit,'STAT'
+['STAT', 'CD8', 'STAT']
+
+
+'STAT',bind,'CD8';'CD8',inhibit,'STAT';'STAT',regulate,'STAT'
+['STAT', 'CD8', 'STAT']
+
+
+'MHC',bind,'CD8';'CD8',inhibit,'STAT';'MHC',regulate,'STAT'
+['MHC', 'CD8', 'STAT', 'MHC', 'STAT']
+
+
+'MHC',bind,'CD8';'CD8',inhibit,'STAT';'MHC',inhibit,'STAT'
+['MHC', 'CD8', 'STAT', 'MHC', 'STAT']
+
+
+'CD4',bind,'CD8';'CD8',inhibit,'STAT';'CD4',regulate,'STAT'
+['CD4', 'CD8', 'STAT', 'CD4', 'STAT']
+
+
+'CD4',bind,'CD8';'CD8',inhibit,'STAT';'CD4',inhibit,'STAT'
+['CD4', 'CD8', 'STAT', 'CD4', 'STAT']
+
+
+'MHC',bind,'CD8';'CD8',bind,'STAT'
+['MHC', 'CD8', 'STAT']
+
+
+'CD4',bind,'CD8';'CD8',bind,'STAT'
+['CD4', 'CD8', 'STAT']
+
+
+'STAT',bind,'CD8';'CD8',bind,'STAT';'STAT',inhibit,'STAT'
+['STAT', 'CD8', 'STAT']
+
+
+'STAT',bind,'CD8';'CD8',bind,'STAT';'STAT',regulate,'STAT'
+['STAT', 'CD8', 'STAT']
+
+
+'MHC',bind,'CD8';'CD8',bind,'STAT';'MHC',regulate,'STAT'
+['MHC', 'CD8', 'STAT', 'MHC', 'STAT']
+
+
+'MHC',bind,'CD8';'CD8',bind,'STAT';'MHC',inhibit,'STAT'
+['MHC', 'CD8', 'STAT', 'MHC', 'STAT']
+
+
+'CD4',bind,'CD8';'CD8',bind,'STAT';'CD4',regulate,'STAT'
+['CD4', 'CD8', 'STAT', 'CD4', 'STAT']
+
+
+'CD4',bind,'CD8';'CD8',bind,'STAT';'CD4',inhibit,'STAT'
+['CD4', 'CD8', 'STAT', 'CD4', 'STAT']
+
+
+'STAT',bind,'CD8';'CD8',regulate,'SARS-CoV'
+['STAT', 'CD8', 'SARS-CoV']
+
+
+'MHC',bind,'CD8';'CD8',regulate,'SARS-CoV'
+['MHC', 'CD8', 'SARS-CoV']
+
+
+'CD4',bind,'CD8';'CD8',regulate,'SARS-CoV'
+['CD4', 'CD8', 'SARS-CoV']
+
+
+'STAT',bind,'CD8';'CD8',regulate,'SARS-CoV';'STAT',inhibit,'SARS-CoV'
+['STAT', 'CD8', 'SARS-CoV', 'STAT', 'SARS-CoV']
+
+
+'STAT',bind,'CD8';'CD8',regulate,'SARS-CoV';'STAT',regulate,'SARS-CoV'
+['STAT', 'CD8', 'SARS-CoV', 'STAT', 'SARS-CoV']
+
+
+'MHC',bind,'CD8';'CD8',regulate,'SARS-CoV';'MHC',regulate,'SARS-CoV'
+['MHC', 'CD8', 'SARS-CoV', 'MHC', 'SARS-CoV']
+
+
+'MHC',bind,'CD8';'CD8',regulate,'SARS-CoV';'MHC',inhibit,'SARS-CoV'
+['MHC', 'CD8', 'SARS-CoV', 'MHC', 'SARS-CoV']
+
+
+'CD4',bind,'CD8';'CD8',regulate,'SARS-CoV';'CD4',regulate,'SARS-CoV'
+['CD4', 'CD8', 'SARS-CoV', 'CD4', 'SARS-CoV']
+
+
+'CD4',bind,'CD8';'CD8',regulate,'SARS-CoV';'CD4',inhibit,'SARS-CoV'
+['CD4', 'CD8', 'SARS-CoV', 'CD4', 'SARS-CoV']
+
+
+'STAT',bind,'CD8';'CD8',inhibit,'SARS-CoV'
+['STAT', 'CD8', 'SARS-CoV']
+
+
+'MHC',bind,'CD8';'CD8',inhibit,'SARS-CoV'
+['MHC', 'CD8', 'SARS-CoV']
+
+
+'CD4',bind,'CD8';'CD8',inhibit,'SARS-CoV'
+['CD4', 'CD8', 'SARS-CoV']
+
+
+'STAT',bind,'CD8';'CD8',inhibit,'SARS-CoV';'STAT',inhibit,'SARS-CoV'
+['STAT', 'CD8', 'SARS-CoV', 'STAT', 'SARS-CoV']
+
+
+'STAT',bind,'CD8';'CD8',inhibit,'SARS-CoV';'STAT',regulate,'SARS-CoV'
+['STAT', 'CD8', 'SARS-CoV', 'STAT', 'SARS-CoV']
+
+
+'MHC',bind,'CD8';'CD8',inhibit,'SARS-CoV';'MHC',regulate,'SARS-CoV'
+['MHC', 'CD8', 'SARS-CoV', 'MHC', 'SARS-CoV']
+
+
+'MHC',bind,'CD8';'CD8',inhibit,'SARS-CoV';'MHC',inhibit,'SARS-CoV'
+['MHC', 'CD8', 'SARS-CoV', 'MHC', 'SARS-CoV']
+
+
+'CD4',bind,'CD8';'CD8',inhibit,'SARS-CoV';'CD4',regulate,'SARS-CoV'
+['CD4', 'CD8', 'SARS-CoV', 'CD4', 'SARS-CoV']
+
+
+'CD4',bind,'CD8';'CD8',inhibit,'SARS-CoV';'CD4',inhibit,'SARS-CoV'
+['CD4', 'CD8', 'SARS-CoV', 'CD4', 'SARS-CoV']
+
+
+'STAT',bind,'CD8';'CD8',bind,'SARS-CoV'
+['STAT', 'CD8', 'SARS-CoV']
+
+
+'MHC',bind,'CD8';'CD8',bind,'SARS-CoV'
+['MHC', 'CD8', 'SARS-CoV']
+
+
+'CD4',bind,'CD8';'CD8',bind,'SARS-CoV'
+['CD4', 'CD8', 'SARS-CoV']
+
+
+'STAT',bind,'CD8';'CD8',bind,'SARS-CoV';'STAT',inhibit,'SARS-CoV'
+['STAT', 'CD8', 'SARS-CoV', 'STAT', 'SARS-CoV']
+
+
+'STAT',bind,'CD8';'CD8',bind,'SARS-CoV';'STAT',regulate,'SARS-CoV'
+['STAT', 'CD8', 'SARS-CoV', 'STAT', 'SARS-CoV']
+
+
+'MHC',bind,'CD8';'CD8',bind,'SARS-CoV';'MHC',regulate,'SARS-CoV'
+['MHC', 'CD8', 'SARS-CoV', 'MHC', 'SARS-CoV']
+
+
+'MHC',bind,'CD8';'CD8',bind,'SARS-CoV';'MHC',inhibit,'SARS-CoV'
+['MHC', 'CD8', 'SARS-CoV', 'MHC', 'SARS-CoV']
+
+
+'CD4',bind,'CD8';'CD8',bind,'SARS-CoV';'CD4',regulate,'SARS-CoV'
+['CD4', 'CD8', 'SARS-CoV', 'CD4', 'SARS-CoV']
+
+
+'CD4',bind,'CD8';'CD8',bind,'SARS-CoV';'CD4',inhibit,'SARS-CoV'
+['CD4', 'CD8', 'SARS-CoV', 'CD4', 'SARS-CoV']
+
+
+'ORF6',bind,'STAT';'STAT',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'CD4';'CD4',regulate,'SARS-CoV'
+['ORF6', 'STAT', 'JAK3', 'MHC', 'CD4', 'SARS-CoV']
+
+
+'ORF6',bind,'STAT';'STAT',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'CD4';'CD4',inhibit,'SARS-CoV'
+['ORF6', 'STAT', 'JAK3', 'MHC', 'CD4', 'SARS-CoV']
+
+
+'importin',bind,'STAT';'STAT',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'CD4';'CD4',regulate,'SARS-CoV'
+['importin', 'STAT', 'JAK3', 'MHC', 'CD4', 'SARS-CoV']
+
+
+'importin',bind,'STAT';'STAT',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'CD4';'CD4',inhibit,'SARS-CoV'
+['importin', 'STAT', 'JAK3', 'MHC', 'CD4', 'SARS-CoV']
+
+
+'CD8',bind,'STAT';'STAT',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'CD4';'CD4',regulate,'SARS-CoV'
+['CD8', 'STAT', 'JAK3', 'MHC', 'CD4', 'SARS-CoV']
+
+
+'CD8',bind,'STAT';'STAT',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'CD4';'CD4',inhibit,'SARS-CoV'
+['CD8', 'STAT', 'JAK3', 'MHC', 'CD4', 'SARS-CoV']
+
+
+'ORF6',bind,'STAT';'STAT',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'CD4';'CD4',associate,'CD8';'CD8',regulate,'SARS-CoV'
+['ORF6', 'STAT', 'JAK3', 'MHC', 'CD4', 'CD8', 'SARS-CoV']
+
+
+'ORF6',bind,'STAT';'STAT',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'CD4';'CD4',associate,'CD8';'CD8',inhibit,'SARS-CoV'
+['ORF6', 'STAT', 'JAK3', 'MHC', 'CD4', 'CD8', 'SARS-CoV']
+
+
+'ORF6',bind,'STAT';'STAT',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'CD4';'CD4',associate,'CD8';'CD8',bind,'SARS-CoV'
+['ORF6', 'STAT', 'JAK3', 'MHC', 'CD4', 'CD8', 'SARS-CoV']
+
+
+'importin',bind,'STAT';'STAT',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'CD4';'CD4',associate,'CD8';'CD8',regulate,'SARS-CoV'
+['importin', 'STAT', 'JAK3', 'MHC', 'CD4', 'CD8', 'SARS-CoV']
+
+
+'importin',bind,'STAT';'STAT',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'CD4';'CD4',associate,'CD8';'CD8',inhibit,'SARS-CoV'
+['importin', 'STAT', 'JAK3', 'MHC', 'CD4', 'CD8', 'SARS-CoV']
+
+
+'importin',bind,'STAT';'STAT',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'CD4';'CD4',associate,'CD8';'CD8',bind,'SARS-CoV'
+['importin', 'STAT', 'JAK3', 'MHC', 'CD4', 'CD8', 'SARS-CoV']
+
+
+'ORF6',bind,'STAT';'STAT',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'CD8';'CD8',regulate,'SARS-CoV'
+['ORF6', 'STAT', 'JAK3', 'MHC', 'CD8', 'SARS-CoV']
+
+
+'ORF6',bind,'STAT';'STAT',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'CD8';'CD8',inhibit,'SARS-CoV'
+['ORF6', 'STAT', 'JAK3', 'MHC', 'CD8', 'SARS-CoV']
+
+
+'ORF6',bind,'STAT';'STAT',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'CD8';'CD8',bind,'SARS-CoV'
+['ORF6', 'STAT', 'JAK3', 'MHC', 'CD8', 'SARS-CoV']
+
+
+'importin',bind,'STAT';'STAT',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'CD8';'CD8',regulate,'SARS-CoV'
+['importin', 'STAT', 'JAK3', 'MHC', 'CD8', 'SARS-CoV']
+
+
+'importin',bind,'STAT';'STAT',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'CD8';'CD8',inhibit,'SARS-CoV'
+['importin', 'STAT', 'JAK3', 'MHC', 'CD8', 'SARS-CoV']
+
+
+'importin',bind,'STAT';'STAT',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'CD8';'CD8',bind,'SARS-CoV'
+['importin', 'STAT', 'JAK3', 'MHC', 'CD8', 'SARS-CoV']
+
+
+'CD4',bind,'STAT';'STAT',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'CD8';'CD8',regulate,'SARS-CoV'
+['CD4', 'STAT', 'JAK3', 'MHC', 'CD8', 'SARS-CoV']
+
+
+'CD4',bind,'STAT';'STAT',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'CD8';'CD8',inhibit,'SARS-CoV'
+['CD4', 'STAT', 'JAK3', 'MHC', 'CD8', 'SARS-CoV']
+
+
+'CD4',bind,'STAT';'STAT',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'CD8';'CD8',bind,'SARS-CoV'
+['CD4', 'STAT', 'JAK3', 'MHC', 'CD8', 'SARS-CoV']
+
+
+'ORF6',bind,'STAT';'STAT',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'CD8';'CD8',associate,'CD4';'CD4',regulate,'SARS-CoV'
+['ORF6', 'STAT', 'JAK3', 'MHC', 'CD8', 'CD4', 'SARS-CoV']
+
+
+'ORF6',bind,'STAT';'STAT',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'CD8';'CD8',associate,'CD4';'CD4',inhibit,'SARS-CoV'
+['ORF6', 'STAT', 'JAK3', 'MHC', 'CD8', 'CD4', 'SARS-CoV']
+
+
+'importin',bind,'STAT';'STAT',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'CD8';'CD8',associate,'CD4';'CD4',regulate,'SARS-CoV'
+['importin', 'STAT', 'JAK3', 'MHC', 'CD8', 'CD4', 'SARS-CoV']
+
+
+'importin',bind,'STAT';'STAT',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'CD8';'CD8',associate,'CD4';'CD4',inhibit,'SARS-CoV'
+['importin', 'STAT', 'JAK3', 'MHC', 'CD8', 'CD4', 'SARS-CoV']
+
+
+'MHC',bind,'STAT';'STAT',associate,'JAK3';'JAK3',associate,'CD4';'CD4',regulate,'SARS-CoV'
+['MHC', 'STAT', 'JAK3', 'CD4', 'SARS-CoV']
+
+
+'MHC',bind,'STAT';'STAT',associate,'JAK3';'JAK3',associate,'CD4';'CD4',inhibit,'SARS-CoV'
+['MHC', 'STAT', 'JAK3', 'CD4', 'SARS-CoV']
+
+
+'ORF6',bind,'STAT';'STAT',associate,'JAK3';'JAK3',associate,'CD4';'CD4',regulate,'SARS-CoV'
+['ORF6', 'STAT', 'JAK3', 'CD4', 'SARS-CoV']
+
+
+'ORF6',bind,'STAT';'STAT',associate,'JAK3';'JAK3',associate,'CD4';'CD4',inhibit,'SARS-CoV'
+['ORF6', 'STAT', 'JAK3', 'CD4', 'SARS-CoV']
+
+
+'importin',bind,'STAT';'STAT',associate,'JAK3';'JAK3',associate,'CD4';'CD4',regulate,'SARS-CoV'
+['importin', 'STAT', 'JAK3', 'CD4', 'SARS-CoV']
+
+
+'importin',bind,'STAT';'STAT',associate,'JAK3';'JAK3',associate,'CD4';'CD4',inhibit,'SARS-CoV'
+['importin', 'STAT', 'JAK3', 'CD4', 'SARS-CoV']
+
+
+'CD8',bind,'STAT';'STAT',associate,'JAK3';'JAK3',associate,'CD4';'CD4',regulate,'SARS-CoV'
+['CD8', 'STAT', 'JAK3', 'CD4', 'SARS-CoV']
+
+
+'CD8',bind,'STAT';'STAT',associate,'JAK3';'JAK3',associate,'CD4';'CD4',inhibit,'SARS-CoV'
+['CD8', 'STAT', 'JAK3', 'CD4', 'SARS-CoV']
+
+
+'ORF6',bind,'STAT';'STAT',associate,'JAK3';'JAK3',associate,'CD4';'CD4',associate,'MHC';'MHC',associate,'CD8';'CD8',regulate,'SARS-CoV'
+['ORF6', 'STAT', 'JAK3', 'CD4', 'MHC', 'CD8', 'SARS-CoV']
+
+
+'ORF6',bind,'STAT';'STAT',associate,'JAK3';'JAK3',associate,'CD4';'CD4',associate,'MHC';'MHC',associate,'CD8';'CD8',inhibit,'SARS-CoV'
+['ORF6', 'STAT', 'JAK3', 'CD4', 'MHC', 'CD8', 'SARS-CoV']
+
+
+'ORF6',bind,'STAT';'STAT',associate,'JAK3';'JAK3',associate,'CD4';'CD4',associate,'MHC';'MHC',associate,'CD8';'CD8',bind,'SARS-CoV'
+['ORF6', 'STAT', 'JAK3', 'CD4', 'MHC', 'CD8', 'SARS-CoV']
+
+
+'importin',bind,'STAT';'STAT',associate,'JAK3';'JAK3',associate,'CD4';'CD4',associate,'MHC';'MHC',associate,'CD8';'CD8',regulate,'SARS-CoV'
+['importin', 'STAT', 'JAK3', 'CD4', 'MHC', 'CD8', 'SARS-CoV']
+
+
+'importin',bind,'STAT';'STAT',associate,'JAK3';'JAK3',associate,'CD4';'CD4',associate,'MHC';'MHC',associate,'CD8';'CD8',inhibit,'SARS-CoV'
+['importin', 'STAT', 'JAK3', 'CD4', 'MHC', 'CD8', 'SARS-CoV']
+
+
+'importin',bind,'STAT';'STAT',associate,'JAK3';'JAK3',associate,'CD4';'CD4',associate,'MHC';'MHC',associate,'CD8';'CD8',bind,'SARS-CoV'
+['importin', 'STAT', 'JAK3', 'CD4', 'MHC', 'CD8', 'SARS-CoV']
+
+
+'MHC',bind,'STAT';'STAT',associate,'JAK3';'JAK3',associate,'CD4';'CD4',associate,'CD8';'CD8',regulate,'SARS-CoV'
+['MHC', 'STAT', 'JAK3', 'CD4', 'CD8', 'SARS-CoV']
+
+
+'MHC',bind,'STAT';'STAT',associate,'JAK3';'JAK3',associate,'CD4';'CD4',associate,'CD8';'CD8',inhibit,'SARS-CoV'
+['MHC', 'STAT', 'JAK3', 'CD4', 'CD8', 'SARS-CoV']
+
+
+'MHC',bind,'STAT';'STAT',associate,'JAK3';'JAK3',associate,'CD4';'CD4',associate,'CD8';'CD8',bind,'SARS-CoV'
+['MHC', 'STAT', 'JAK3', 'CD4', 'CD8', 'SARS-CoV']
+
+
+'ORF6',bind,'STAT';'STAT',associate,'JAK3';'JAK3',associate,'CD4';'CD4',associate,'CD8';'CD8',regulate,'SARS-CoV'
+['ORF6', 'STAT', 'JAK3', 'CD4', 'CD8', 'SARS-CoV']
+
+
+'ORF6',bind,'STAT';'STAT',associate,'JAK3';'JAK3',associate,'CD4';'CD4',associate,'CD8';'CD8',inhibit,'SARS-CoV'
+['ORF6', 'STAT', 'JAK3', 'CD4', 'CD8', 'SARS-CoV']
+
+
+'ORF6',bind,'STAT';'STAT',associate,'JAK3';'JAK3',associate,'CD4';'CD4',associate,'CD8';'CD8',bind,'SARS-CoV'
+['ORF6', 'STAT', 'JAK3', 'CD4', 'CD8', 'SARS-CoV']
+
+
+'importin',bind,'STAT';'STAT',associate,'JAK3';'JAK3',associate,'CD4';'CD4',associate,'CD8';'CD8',regulate,'SARS-CoV'
+['importin', 'STAT', 'JAK3', 'CD4', 'CD8', 'SARS-CoV']
+
+
+'importin',bind,'STAT';'STAT',associate,'JAK3';'JAK3',associate,'CD4';'CD4',associate,'CD8';'CD8',inhibit,'SARS-CoV'
+['importin', 'STAT', 'JAK3', 'CD4', 'CD8', 'SARS-CoV']
+
+
+'importin',bind,'STAT';'STAT',associate,'JAK3';'JAK3',associate,'CD4';'CD4',associate,'CD8';'CD8',bind,'SARS-CoV'
+['importin', 'STAT', 'JAK3', 'CD4', 'CD8', 'SARS-CoV']
+
+
+'MHC',bind,'STAT';'STAT',associate,'JAK3';'JAK3',associate,'CD8';'CD8',regulate,'SARS-CoV'
+['MHC', 'STAT', 'JAK3', 'CD8', 'SARS-CoV']
+
+
+'MHC',bind,'STAT';'STAT',associate,'JAK3';'JAK3',associate,'CD8';'CD8',inhibit,'SARS-CoV'
+['MHC', 'STAT', 'JAK3', 'CD8', 'SARS-CoV']
+
+
+'MHC',bind,'STAT';'STAT',associate,'JAK3';'JAK3',associate,'CD8';'CD8',bind,'SARS-CoV'
+['MHC', 'STAT', 'JAK3', 'CD8', 'SARS-CoV']
+
+
+'ORF6',bind,'STAT';'STAT',associate,'JAK3';'JAK3',associate,'CD8';'CD8',regulate,'SARS-CoV'
+['ORF6', 'STAT', 'JAK3', 'CD8', 'SARS-CoV']
+
+
+'ORF6',bind,'STAT';'STAT',associate,'JAK3';'JAK3',associate,'CD8';'CD8',inhibit,'SARS-CoV'
+['ORF6', 'STAT', 'JAK3', 'CD8', 'SARS-CoV']
+
+
+'ORF6',bind,'STAT';'STAT',associate,'JAK3';'JAK3',associate,'CD8';'CD8',bind,'SARS-CoV'
+['ORF6', 'STAT', 'JAK3', 'CD8', 'SARS-CoV']
+
+
+'importin',bind,'STAT';'STAT',associate,'JAK3';'JAK3',associate,'CD8';'CD8',regulate,'SARS-CoV'
+['importin', 'STAT', 'JAK3', 'CD8', 'SARS-CoV']
+
+
+'importin',bind,'STAT';'STAT',associate,'JAK3';'JAK3',associate,'CD8';'CD8',inhibit,'SARS-CoV'
+['importin', 'STAT', 'JAK3', 'CD8', 'SARS-CoV']
+
+
+'importin',bind,'STAT';'STAT',associate,'JAK3';'JAK3',associate,'CD8';'CD8',bind,'SARS-CoV'
+['importin', 'STAT', 'JAK3', 'CD8', 'SARS-CoV']
+
+
+'CD4',bind,'STAT';'STAT',associate,'JAK3';'JAK3',associate,'CD8';'CD8',regulate,'SARS-CoV'
+['CD4', 'STAT', 'JAK3', 'CD8', 'SARS-CoV']
+
+
+'CD4',bind,'STAT';'STAT',associate,'JAK3';'JAK3',associate,'CD8';'CD8',inhibit,'SARS-CoV'
+['CD4', 'STAT', 'JAK3', 'CD8', 'SARS-CoV']
+
+
+'CD4',bind,'STAT';'STAT',associate,'JAK3';'JAK3',associate,'CD8';'CD8',bind,'SARS-CoV'
+['CD4', 'STAT', 'JAK3', 'CD8', 'SARS-CoV']
+
+
+'ORF6',bind,'STAT';'STAT',associate,'JAK3';'JAK3',associate,'CD8';'CD8',associate,'MHC';'MHC',associate,'CD4';'CD4',regulate,'SARS-CoV'
+['ORF6', 'STAT', 'JAK3', 'CD8', 'MHC', 'CD4', 'SARS-CoV']
+
+
+'ORF6',bind,'STAT';'STAT',associate,'JAK3';'JAK3',associate,'CD8';'CD8',associate,'MHC';'MHC',associate,'CD4';'CD4',inhibit,'SARS-CoV'
+['ORF6', 'STAT', 'JAK3', 'CD8', 'MHC', 'CD4', 'SARS-CoV']
+
+
+'importin',bind,'STAT';'STAT',associate,'JAK3';'JAK3',associate,'CD8';'CD8',associate,'MHC';'MHC',associate,'CD4';'CD4',regulate,'SARS-CoV'
+['importin', 'STAT', 'JAK3', 'CD8', 'MHC', 'CD4', 'SARS-CoV']
+
+
+'importin',bind,'STAT';'STAT',associate,'JAK3';'JAK3',associate,'CD8';'CD8',associate,'MHC';'MHC',associate,'CD4';'CD4',inhibit,'SARS-CoV'
+['importin', 'STAT', 'JAK3', 'CD8', 'MHC', 'CD4', 'SARS-CoV']
+
+
+'MHC',bind,'STAT';'STAT',associate,'JAK3';'JAK3',associate,'CD8';'CD8',associate,'CD4';'CD4',regulate,'SARS-CoV'
+['MHC', 'STAT', 'JAK3', 'CD8', 'CD4', 'SARS-CoV']
+
+
+'MHC',bind,'STAT';'STAT',associate,'JAK3';'JAK3',associate,'CD8';'CD8',associate,'CD4';'CD4',inhibit,'SARS-CoV'
+['MHC', 'STAT', 'JAK3', 'CD8', 'CD4', 'SARS-CoV']
+
+
+'ORF6',bind,'STAT';'STAT',associate,'JAK3';'JAK3',associate,'CD8';'CD8',associate,'CD4';'CD4',regulate,'SARS-CoV'
+['ORF6', 'STAT', 'JAK3', 'CD8', 'CD4', 'SARS-CoV']
+
+
+'ORF6',bind,'STAT';'STAT',associate,'JAK3';'JAK3',associate,'CD8';'CD8',associate,'CD4';'CD4',inhibit,'SARS-CoV'
+['ORF6', 'STAT', 'JAK3', 'CD8', 'CD4', 'SARS-CoV']
+
+
+'importin',bind,'STAT';'STAT',associate,'JAK3';'JAK3',associate,'CD8';'CD8',associate,'CD4';'CD4',regulate,'SARS-CoV'
+['importin', 'STAT', 'JAK3', 'CD8', 'CD4', 'SARS-CoV']
+
+
+'importin',bind,'STAT';'STAT',associate,'JAK3';'JAK3',associate,'CD8';'CD8',associate,'CD4';'CD4',inhibit,'SARS-CoV'
+['importin', 'STAT', 'JAK3', 'CD8', 'CD4', 'SARS-CoV']
+
+
+'ORF6',bind,'STAT';'STAT',associate,'MHC';'MHC',associate,'JAK3';'JAK3',associate,'CD4';'CD4',regulate,'SARS-CoV'
+['ORF6', 'STAT', 'MHC', 'JAK3', 'CD4', 'SARS-CoV']
+
+
+'ORF6',bind,'STAT';'STAT',associate,'MHC';'MHC',associate,'JAK3';'JAK3',associate,'CD4';'CD4',inhibit,'SARS-CoV'
+['ORF6', 'STAT', 'MHC', 'JAK3', 'CD4', 'SARS-CoV']
+
+
+'importin',bind,'STAT';'STAT',associate,'MHC';'MHC',associate,'JAK3';'JAK3',associate,'CD4';'CD4',regulate,'SARS-CoV'
+['importin', 'STAT', 'MHC', 'JAK3', 'CD4', 'SARS-CoV']
+
+
+'importin',bind,'STAT';'STAT',associate,'MHC';'MHC',associate,'JAK3';'JAK3',associate,'CD4';'CD4',inhibit,'SARS-CoV'
+['importin', 'STAT', 'MHC', 'JAK3', 'CD4', 'SARS-CoV']
+
+
+'CD8',bind,'STAT';'STAT',associate,'MHC';'MHC',associate,'JAK3';'JAK3',associate,'CD4';'CD4',regulate,'SARS-CoV'
+['CD8', 'STAT', 'MHC', 'JAK3', 'CD4', 'SARS-CoV']
+
+
+'CD8',bind,'STAT';'STAT',associate,'MHC';'MHC',associate,'JAK3';'JAK3',associate,'CD4';'CD4',inhibit,'SARS-CoV'
+['CD8', 'STAT', 'MHC', 'JAK3', 'CD4', 'SARS-CoV']
+
+
+'ORF6',bind,'STAT';'STAT',associate,'MHC';'MHC',associate,'JAK3';'JAK3',associate,'CD4';'CD4',associate,'CD8';'CD8',regulate,'SARS-CoV'
+['ORF6', 'STAT', 'MHC', 'JAK3', 'CD4', 'CD8', 'SARS-CoV']
+
+
+'ORF6',bind,'STAT';'STAT',associate,'MHC';'MHC',associate,'JAK3';'JAK3',associate,'CD4';'CD4',associate,'CD8';'CD8',inhibit,'SARS-CoV'
+['ORF6', 'STAT', 'MHC', 'JAK3', 'CD4', 'CD8', 'SARS-CoV']
+
+
+'ORF6',bind,'STAT';'STAT',associate,'MHC';'MHC',associate,'JAK3';'JAK3',associate,'CD4';'CD4',associate,'CD8';'CD8',bind,'SARS-CoV'
+['ORF6', 'STAT', 'MHC', 'JAK3', 'CD4', 'CD8', 'SARS-CoV']
+
+
+'importin',bind,'STAT';'STAT',associate,'MHC';'MHC',associate,'JAK3';'JAK3',associate,'CD4';'CD4',associate,'CD8';'CD8',regulate,'SARS-CoV'
+['importin', 'STAT', 'MHC', 'JAK3', 'CD4', 'CD8', 'SARS-CoV']
+
+
+'importin',bind,'STAT';'STAT',associate,'MHC';'MHC',associate,'JAK3';'JAK3',associate,'CD4';'CD4',associate,'CD8';'CD8',inhibit,'SARS-CoV'
+['importin', 'STAT', 'MHC', 'JAK3', 'CD4', 'CD8', 'SARS-CoV']
+
+
+'importin',bind,'STAT';'STAT',associate,'MHC';'MHC',associate,'JAK3';'JAK3',associate,'CD4';'CD4',associate,'CD8';'CD8',bind,'SARS-CoV'
+['importin', 'STAT', 'MHC', 'JAK3', 'CD4', 'CD8', 'SARS-CoV']
+
+
+'ORF6',bind,'STAT';'STAT',associate,'MHC';'MHC',associate,'JAK3';'JAK3',associate,'CD8';'CD8',regulate,'SARS-CoV'
+['ORF6', 'STAT', 'MHC', 'JAK3', 'CD8', 'SARS-CoV']
+
+
+'ORF6',bind,'STAT';'STAT',associate,'MHC';'MHC',associate,'JAK3';'JAK3',associate,'CD8';'CD8',inhibit,'SARS-CoV'
+['ORF6', 'STAT', 'MHC', 'JAK3', 'CD8', 'SARS-CoV']
+
+
+'ORF6',bind,'STAT';'STAT',associate,'MHC';'MHC',associate,'JAK3';'JAK3',associate,'CD8';'CD8',bind,'SARS-CoV'
+['ORF6', 'STAT', 'MHC', 'JAK3', 'CD8', 'SARS-CoV']
+
+
+'importin',bind,'STAT';'STAT',associate,'MHC';'MHC',associate,'JAK3';'JAK3',associate,'CD8';'CD8',regulate,'SARS-CoV'
+['importin', 'STAT', 'MHC', 'JAK3', 'CD8', 'SARS-CoV']
+
+
+'importin',bind,'STAT';'STAT',associate,'MHC';'MHC',associate,'JAK3';'JAK3',associate,'CD8';'CD8',inhibit,'SARS-CoV'
+['importin', 'STAT', 'MHC', 'JAK3', 'CD8', 'SARS-CoV']
+
+
+'importin',bind,'STAT';'STAT',associate,'MHC';'MHC',associate,'JAK3';'JAK3',associate,'CD8';'CD8',bind,'SARS-CoV'
+['importin', 'STAT', 'MHC', 'JAK3', 'CD8', 'SARS-CoV']
+
+
+'CD4',bind,'STAT';'STAT',associate,'MHC';'MHC',associate,'JAK3';'JAK3',associate,'CD8';'CD8',regulate,'SARS-CoV'
+['CD4', 'STAT', 'MHC', 'JAK3', 'CD8', 'SARS-CoV']
+
+
+'CD4',bind,'STAT';'STAT',associate,'MHC';'MHC',associate,'JAK3';'JAK3',associate,'CD8';'CD8',inhibit,'SARS-CoV'
+['CD4', 'STAT', 'MHC', 'JAK3', 'CD8', 'SARS-CoV']
+
+
+'CD4',bind,'STAT';'STAT',associate,'MHC';'MHC',associate,'JAK3';'JAK3',associate,'CD8';'CD8',bind,'SARS-CoV'
+['CD4', 'STAT', 'MHC', 'JAK3', 'CD8', 'SARS-CoV']
+
+
+'ORF6',bind,'STAT';'STAT',associate,'MHC';'MHC',associate,'JAK3';'JAK3',associate,'CD8';'CD8',associate,'CD4';'CD4',regulate,'SARS-CoV'
+['ORF6', 'STAT', 'MHC', 'JAK3', 'CD8', 'CD4', 'SARS-CoV']
+
+
+'ORF6',bind,'STAT';'STAT',associate,'MHC';'MHC',associate,'JAK3';'JAK3',associate,'CD8';'CD8',associate,'CD4';'CD4',inhibit,'SARS-CoV'
+['ORF6', 'STAT', 'MHC', 'JAK3', 'CD8', 'CD4', 'SARS-CoV']
+
+
+'importin',bind,'STAT';'STAT',associate,'MHC';'MHC',associate,'JAK3';'JAK3',associate,'CD8';'CD8',associate,'CD4';'CD4',regulate,'SARS-CoV'
+['importin', 'STAT', 'MHC', 'JAK3', 'CD8', 'CD4', 'SARS-CoV']
+
+
+'importin',bind,'STAT';'STAT',associate,'MHC';'MHC',associate,'JAK3';'JAK3',associate,'CD8';'CD8',associate,'CD4';'CD4',inhibit,'SARS-CoV'
+['importin', 'STAT', 'MHC', 'JAK3', 'CD8', 'CD4', 'SARS-CoV']
+
+
+'ORF6',bind,'STAT';'STAT',associate,'MHC';'MHC',associate,'CD4';'CD4',regulate,'SARS-CoV'
+['ORF6', 'STAT', 'MHC', 'CD4', 'SARS-CoV']
+
+
+'ORF6',bind,'STAT';'STAT',associate,'MHC';'MHC',associate,'CD4';'CD4',inhibit,'SARS-CoV'
+['ORF6', 'STAT', 'MHC', 'CD4', 'SARS-CoV']
+
+
+'importin',bind,'STAT';'STAT',associate,'MHC';'MHC',associate,'CD4';'CD4',regulate,'SARS-CoV'
+['importin', 'STAT', 'MHC', 'CD4', 'SARS-CoV']
+
+
+'importin',bind,'STAT';'STAT',associate,'MHC';'MHC',associate,'CD4';'CD4',inhibit,'SARS-CoV'
+['importin', 'STAT', 'MHC', 'CD4', 'SARS-CoV']
+
+
+'CD8',bind,'STAT';'STAT',associate,'MHC';'MHC',associate,'CD4';'CD4',regulate,'SARS-CoV'
+['CD8', 'STAT', 'MHC', 'CD4', 'SARS-CoV']
+
+
+'CD8',bind,'STAT';'STAT',associate,'MHC';'MHC',associate,'CD4';'CD4',inhibit,'SARS-CoV'
+['CD8', 'STAT', 'MHC', 'CD4', 'SARS-CoV']
+
+
+'ORF6',bind,'STAT';'STAT',associate,'MHC';'MHC',associate,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'CD8';'CD8',regulate,'SARS-CoV'
+['ORF6', 'STAT', 'MHC', 'CD4', 'JAK3', 'CD8', 'SARS-CoV']
+
+
+'ORF6',bind,'STAT';'STAT',associate,'MHC';'MHC',associate,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'CD8';'CD8',inhibit,'SARS-CoV'
+['ORF6', 'STAT', 'MHC', 'CD4', 'JAK3', 'CD8', 'SARS-CoV']
+
+
+'ORF6',bind,'STAT';'STAT',associate,'MHC';'MHC',associate,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'CD8';'CD8',bind,'SARS-CoV'
+['ORF6', 'STAT', 'MHC', 'CD4', 'JAK3', 'CD8', 'SARS-CoV']
+
+
+'importin',bind,'STAT';'STAT',associate,'MHC';'MHC',associate,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'CD8';'CD8',regulate,'SARS-CoV'
+['importin', 'STAT', 'MHC', 'CD4', 'JAK3', 'CD8', 'SARS-CoV']
+
+
+'importin',bind,'STAT';'STAT',associate,'MHC';'MHC',associate,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'CD8';'CD8',inhibit,'SARS-CoV'
+['importin', 'STAT', 'MHC', 'CD4', 'JAK3', 'CD8', 'SARS-CoV']
+
+
+'importin',bind,'STAT';'STAT',associate,'MHC';'MHC',associate,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'CD8';'CD8',bind,'SARS-CoV'
+['importin', 'STAT', 'MHC', 'CD4', 'JAK3', 'CD8', 'SARS-CoV']
+
+
+'ORF6',bind,'STAT';'STAT',associate,'MHC';'MHC',associate,'CD4';'CD4',associate,'CD8';'CD8',regulate,'SARS-CoV'
+['ORF6', 'STAT', 'MHC', 'CD4', 'CD8', 'SARS-CoV']
+
+
+'ORF6',bind,'STAT';'STAT',associate,'MHC';'MHC',associate,'CD4';'CD4',associate,'CD8';'CD8',inhibit,'SARS-CoV'
+['ORF6', 'STAT', 'MHC', 'CD4', 'CD8', 'SARS-CoV']
+
+
+'ORF6',bind,'STAT';'STAT',associate,'MHC';'MHC',associate,'CD4';'CD4',associate,'CD8';'CD8',bind,'SARS-CoV'
+['ORF6', 'STAT', 'MHC', 'CD4', 'CD8', 'SARS-CoV']
+
+
+'importin',bind,'STAT';'STAT',associate,'MHC';'MHC',associate,'CD4';'CD4',associate,'CD8';'CD8',regulate,'SARS-CoV'
+['importin', 'STAT', 'MHC', 'CD4', 'CD8', 'SARS-CoV']
+
+
+'importin',bind,'STAT';'STAT',associate,'MHC';'MHC',associate,'CD4';'CD4',associate,'CD8';'CD8',inhibit,'SARS-CoV'
+['importin', 'STAT', 'MHC', 'CD4', 'CD8', 'SARS-CoV']
+
+
+'importin',bind,'STAT';'STAT',associate,'MHC';'MHC',associate,'CD4';'CD4',associate,'CD8';'CD8',bind,'SARS-CoV'
+['importin', 'STAT', 'MHC', 'CD4', 'CD8', 'SARS-CoV']
+
+
+'ORF6',bind,'STAT';'STAT',associate,'MHC';'MHC',associate,'CD8';'CD8',regulate,'SARS-CoV'
+['ORF6', 'STAT', 'MHC', 'CD8', 'SARS-CoV']
+
+
+'ORF6',bind,'STAT';'STAT',associate,'MHC';'MHC',associate,'CD8';'CD8',inhibit,'SARS-CoV'
+['ORF6', 'STAT', 'MHC', 'CD8', 'SARS-CoV']
+
+
+'ORF6',bind,'STAT';'STAT',associate,'MHC';'MHC',associate,'CD8';'CD8',bind,'SARS-CoV'
+['ORF6', 'STAT', 'MHC', 'CD8', 'SARS-CoV']
+
+
+'importin',bind,'STAT';'STAT',associate,'MHC';'MHC',associate,'CD8';'CD8',regulate,'SARS-CoV'
+['importin', 'STAT', 'MHC', 'CD8', 'SARS-CoV']
+
+
+'importin',bind,'STAT';'STAT',associate,'MHC';'MHC',associate,'CD8';'CD8',inhibit,'SARS-CoV'
+['importin', 'STAT', 'MHC', 'CD8', 'SARS-CoV']
+
+
+'importin',bind,'STAT';'STAT',associate,'MHC';'MHC',associate,'CD8';'CD8',bind,'SARS-CoV'
+['importin', 'STAT', 'MHC', 'CD8', 'SARS-CoV']
+
+
+'CD4',bind,'STAT';'STAT',associate,'MHC';'MHC',associate,'CD8';'CD8',regulate,'SARS-CoV'
+['CD4', 'STAT', 'MHC', 'CD8', 'SARS-CoV']
+
+
+'CD4',bind,'STAT';'STAT',associate,'MHC';'MHC',associate,'CD8';'CD8',inhibit,'SARS-CoV'
+['CD4', 'STAT', 'MHC', 'CD8', 'SARS-CoV']
+
+
+'CD4',bind,'STAT';'STAT',associate,'MHC';'MHC',associate,'CD8';'CD8',bind,'SARS-CoV'
+['CD4', 'STAT', 'MHC', 'CD8', 'SARS-CoV']
+
+
+'ORF6',bind,'STAT';'STAT',associate,'MHC';'MHC',associate,'CD8';'CD8',associate,'JAK3';'JAK3',associate,'CD4';'CD4',regulate,'SARS-CoV'
+['ORF6', 'STAT', 'MHC', 'CD8', 'JAK3', 'CD4', 'SARS-CoV']
+
+
+'ORF6',bind,'STAT';'STAT',associate,'MHC';'MHC',associate,'CD8';'CD8',associate,'JAK3';'JAK3',associate,'CD4';'CD4',inhibit,'SARS-CoV'
+['ORF6', 'STAT', 'MHC', 'CD8', 'JAK3', 'CD4', 'SARS-CoV']
+
+
+'importin',bind,'STAT';'STAT',associate,'MHC';'MHC',associate,'CD8';'CD8',associate,'JAK3';'JAK3',associate,'CD4';'CD4',regulate,'SARS-CoV'
+['importin', 'STAT', 'MHC', 'CD8', 'JAK3', 'CD4', 'SARS-CoV']
+
+
+'importin',bind,'STAT';'STAT',associate,'MHC';'MHC',associate,'CD8';'CD8',associate,'JAK3';'JAK3',associate,'CD4';'CD4',inhibit,'SARS-CoV'
+['importin', 'STAT', 'MHC', 'CD8', 'JAK3', 'CD4', 'SARS-CoV']
+
+
+'ORF6',bind,'STAT';'STAT',associate,'MHC';'MHC',associate,'CD8';'CD8',associate,'CD4';'CD4',regulate,'SARS-CoV'
+['ORF6', 'STAT', 'MHC', 'CD8', 'CD4', 'SARS-CoV']
+
+
+'ORF6',bind,'STAT';'STAT',associate,'MHC';'MHC',associate,'CD8';'CD8',associate,'CD4';'CD4',inhibit,'SARS-CoV'
+['ORF6', 'STAT', 'MHC', 'CD8', 'CD4', 'SARS-CoV']
+
+
+'importin',bind,'STAT';'STAT',associate,'MHC';'MHC',associate,'CD8';'CD8',associate,'CD4';'CD4',regulate,'SARS-CoV'
+['importin', 'STAT', 'MHC', 'CD8', 'CD4', 'SARS-CoV']
+
+
+'importin',bind,'STAT';'STAT',associate,'MHC';'MHC',associate,'CD8';'CD8',associate,'CD4';'CD4',inhibit,'SARS-CoV'
+['importin', 'STAT', 'MHC', 'CD8', 'CD4', 'SARS-CoV']
+
+
+'MHC',bind,'STAT';'STAT',associate,'CD4';'CD4',regulate,'SARS-CoV'
+['MHC', 'STAT', 'CD4', 'SARS-CoV']
+
+
+'MHC',bind,'STAT';'STAT',associate,'CD4';'CD4',inhibit,'SARS-CoV'
+['MHC', 'STAT', 'CD4', 'SARS-CoV']
+
+
+'ORF6',bind,'STAT';'STAT',associate,'CD4';'CD4',regulate,'SARS-CoV'
+['ORF6', 'STAT', 'CD4', 'SARS-CoV']
+
+
+'ORF6',bind,'STAT';'STAT',associate,'CD4';'CD4',inhibit,'SARS-CoV'
+['ORF6', 'STAT', 'CD4', 'SARS-CoV']
+
+
+'importin',bind,'STAT';'STAT',associate,'CD4';'CD4',regulate,'SARS-CoV'
+['importin', 'STAT', 'CD4', 'SARS-CoV']
+
+
+'importin',bind,'STAT';'STAT',associate,'CD4';'CD4',inhibit,'SARS-CoV'
+['importin', 'STAT', 'CD4', 'SARS-CoV']
+
+
+'CD8',bind,'STAT';'STAT',associate,'CD4';'CD4',regulate,'SARS-CoV'
+['CD8', 'STAT', 'CD4', 'SARS-CoV']
+
+
+'CD8',bind,'STAT';'STAT',associate,'CD4';'CD4',inhibit,'SARS-CoV'
+['CD8', 'STAT', 'CD4', 'SARS-CoV']
+
+
+'ORF6',bind,'STAT';'STAT',associate,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'CD8';'CD8',regulate,'SARS-CoV'
+['ORF6', 'STAT', 'CD4', 'JAK3', 'MHC', 'CD8', 'SARS-CoV']
+
+
+'ORF6',bind,'STAT';'STAT',associate,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'CD8';'CD8',inhibit,'SARS-CoV'
+['ORF6', 'STAT', 'CD4', 'JAK3', 'MHC', 'CD8', 'SARS-CoV']
+
+
+'ORF6',bind,'STAT';'STAT',associate,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'CD8';'CD8',bind,'SARS-CoV'
+['ORF6', 'STAT', 'CD4', 'JAK3', 'MHC', 'CD8', 'SARS-CoV']
+
+
+'importin',bind,'STAT';'STAT',associate,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'CD8';'CD8',regulate,'SARS-CoV'
+['importin', 'STAT', 'CD4', 'JAK3', 'MHC', 'CD8', 'SARS-CoV']
+
+
+'importin',bind,'STAT';'STAT',associate,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'CD8';'CD8',inhibit,'SARS-CoV'
+['importin', 'STAT', 'CD4', 'JAK3', 'MHC', 'CD8', 'SARS-CoV']
+
+
+'importin',bind,'STAT';'STAT',associate,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'CD8';'CD8',bind,'SARS-CoV'
+['importin', 'STAT', 'CD4', 'JAK3', 'MHC', 'CD8', 'SARS-CoV']
+
+
+'MHC',bind,'STAT';'STAT',associate,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'CD8';'CD8',regulate,'SARS-CoV'
+['MHC', 'STAT', 'CD4', 'JAK3', 'CD8', 'SARS-CoV']
+
+
+'MHC',bind,'STAT';'STAT',associate,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'CD8';'CD8',inhibit,'SARS-CoV'
+['MHC', 'STAT', 'CD4', 'JAK3', 'CD8', 'SARS-CoV']
+
+
+'MHC',bind,'STAT';'STAT',associate,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'CD8';'CD8',bind,'SARS-CoV'
+['MHC', 'STAT', 'CD4', 'JAK3', 'CD8', 'SARS-CoV']
+
+
+'ORF6',bind,'STAT';'STAT',associate,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'CD8';'CD8',regulate,'SARS-CoV'
+['ORF6', 'STAT', 'CD4', 'JAK3', 'CD8', 'SARS-CoV']
+
+
+'ORF6',bind,'STAT';'STAT',associate,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'CD8';'CD8',inhibit,'SARS-CoV'
+['ORF6', 'STAT', 'CD4', 'JAK3', 'CD8', 'SARS-CoV']
+
+
+'ORF6',bind,'STAT';'STAT',associate,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'CD8';'CD8',bind,'SARS-CoV'
+['ORF6', 'STAT', 'CD4', 'JAK3', 'CD8', 'SARS-CoV']
+
+
+'importin',bind,'STAT';'STAT',associate,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'CD8';'CD8',regulate,'SARS-CoV'
+['importin', 'STAT', 'CD4', 'JAK3', 'CD8', 'SARS-CoV']
+
+
+'importin',bind,'STAT';'STAT',associate,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'CD8';'CD8',inhibit,'SARS-CoV'
+['importin', 'STAT', 'CD4', 'JAK3', 'CD8', 'SARS-CoV']
+
+
+'importin',bind,'STAT';'STAT',associate,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'CD8';'CD8',bind,'SARS-CoV'
+['importin', 'STAT', 'CD4', 'JAK3', 'CD8', 'SARS-CoV']
+
+
+'ORF6',bind,'STAT';'STAT',associate,'CD4';'CD4',associate,'MHC';'MHC',associate,'JAK3';'JAK3',associate,'CD8';'CD8',regulate,'SARS-CoV'
+['ORF6', 'STAT', 'CD4', 'MHC', 'JAK3', 'CD8', 'SARS-CoV']
+
+
+'ORF6',bind,'STAT';'STAT',associate,'CD4';'CD4',associate,'MHC';'MHC',associate,'JAK3';'JAK3',associate,'CD8';'CD8',inhibit,'SARS-CoV'
+['ORF6', 'STAT', 'CD4', 'MHC', 'JAK3', 'CD8', 'SARS-CoV']
+
+
+'ORF6',bind,'STAT';'STAT',associate,'CD4';'CD4',associate,'MHC';'MHC',associate,'JAK3';'JAK3',associate,'CD8';'CD8',bind,'SARS-CoV'
+['ORF6', 'STAT', 'CD4', 'MHC', 'JAK3', 'CD8', 'SARS-CoV']
+
+
+'importin',bind,'STAT';'STAT',associate,'CD4';'CD4',associate,'MHC';'MHC',associate,'JAK3';'JAK3',associate,'CD8';'CD8',regulate,'SARS-CoV'
+['importin', 'STAT', 'CD4', 'MHC', 'JAK3', 'CD8', 'SARS-CoV']
+
+
+'importin',bind,'STAT';'STAT',associate,'CD4';'CD4',associate,'MHC';'MHC',associate,'JAK3';'JAK3',associate,'CD8';'CD8',inhibit,'SARS-CoV'
+['importin', 'STAT', 'CD4', 'MHC', 'JAK3', 'CD8', 'SARS-CoV']
+
+
+'importin',bind,'STAT';'STAT',associate,'CD4';'CD4',associate,'MHC';'MHC',associate,'JAK3';'JAK3',associate,'CD8';'CD8',bind,'SARS-CoV'
+['importin', 'STAT', 'CD4', 'MHC', 'JAK3', 'CD8', 'SARS-CoV']
+
+
+'ORF6',bind,'STAT';'STAT',associate,'CD4';'CD4',associate,'MHC';'MHC',associate,'CD8';'CD8',regulate,'SARS-CoV'
+['ORF6', 'STAT', 'CD4', 'MHC', 'CD8', 'SARS-CoV']
+
+
+'ORF6',bind,'STAT';'STAT',associate,'CD4';'CD4',associate,'MHC';'MHC',associate,'CD8';'CD8',inhibit,'SARS-CoV'
+['ORF6', 'STAT', 'CD4', 'MHC', 'CD8', 'SARS-CoV']
+
+
+'ORF6',bind,'STAT';'STAT',associate,'CD4';'CD4',associate,'MHC';'MHC',associate,'CD8';'CD8',bind,'SARS-CoV'
+['ORF6', 'STAT', 'CD4', 'MHC', 'CD8', 'SARS-CoV']
+
+
+'importin',bind,'STAT';'STAT',associate,'CD4';'CD4',associate,'MHC';'MHC',associate,'CD8';'CD8',regulate,'SARS-CoV'
+['importin', 'STAT', 'CD4', 'MHC', 'CD8', 'SARS-CoV']
+
+
+'importin',bind,'STAT';'STAT',associate,'CD4';'CD4',associate,'MHC';'MHC',associate,'CD8';'CD8',inhibit,'SARS-CoV'
+['importin', 'STAT', 'CD4', 'MHC', 'CD8', 'SARS-CoV']
+
+
+'importin',bind,'STAT';'STAT',associate,'CD4';'CD4',associate,'MHC';'MHC',associate,'CD8';'CD8',bind,'SARS-CoV'
+['importin', 'STAT', 'CD4', 'MHC', 'CD8', 'SARS-CoV']
+
+
+'MHC',bind,'STAT';'STAT',associate,'CD4';'CD4',associate,'CD8';'CD8',regulate,'SARS-CoV'
+['MHC', 'STAT', 'CD4', 'CD8', 'SARS-CoV']
+
+
+'MHC',bind,'STAT';'STAT',associate,'CD4';'CD4',associate,'CD8';'CD8',inhibit,'SARS-CoV'
+['MHC', 'STAT', 'CD4', 'CD8', 'SARS-CoV']
+
+
+'MHC',bind,'STAT';'STAT',associate,'CD4';'CD4',associate,'CD8';'CD8',bind,'SARS-CoV'
+['MHC', 'STAT', 'CD4', 'CD8', 'SARS-CoV']
+
+
+'ORF6',bind,'STAT';'STAT',associate,'CD4';'CD4',associate,'CD8';'CD8',regulate,'SARS-CoV'
+['ORF6', 'STAT', 'CD4', 'CD8', 'SARS-CoV']
+
+
+'ORF6',bind,'STAT';'STAT',associate,'CD4';'CD4',associate,'CD8';'CD8',inhibit,'SARS-CoV'
+['ORF6', 'STAT', 'CD4', 'CD8', 'SARS-CoV']
+
+
+'ORF6',bind,'STAT';'STAT',associate,'CD4';'CD4',associate,'CD8';'CD8',bind,'SARS-CoV'
+['ORF6', 'STAT', 'CD4', 'CD8', 'SARS-CoV']
+
+
+'importin',bind,'STAT';'STAT',associate,'CD4';'CD4',associate,'CD8';'CD8',regulate,'SARS-CoV'
+['importin', 'STAT', 'CD4', 'CD8', 'SARS-CoV']
+
+
+'importin',bind,'STAT';'STAT',associate,'CD4';'CD4',associate,'CD8';'CD8',inhibit,'SARS-CoV'
+['importin', 'STAT', 'CD4', 'CD8', 'SARS-CoV']
+
+
+'importin',bind,'STAT';'STAT',associate,'CD4';'CD4',associate,'CD8';'CD8',bind,'SARS-CoV'
+['importin', 'STAT', 'CD4', 'CD8', 'SARS-CoV']
+
+
+'MHC',bind,'STAT';'STAT',associate,'CD8';'CD8',regulate,'SARS-CoV'
+['MHC', 'STAT', 'CD8', 'SARS-CoV']
+
+
+'MHC',bind,'STAT';'STAT',associate,'CD8';'CD8',inhibit,'SARS-CoV'
+['MHC', 'STAT', 'CD8', 'SARS-CoV']
+
+
+'MHC',bind,'STAT';'STAT',associate,'CD8';'CD8',bind,'SARS-CoV'
+['MHC', 'STAT', 'CD8', 'SARS-CoV']
+
+
+'ORF6',bind,'STAT';'STAT',associate,'CD8';'CD8',regulate,'SARS-CoV'
+['ORF6', 'STAT', 'CD8', 'SARS-CoV']
+
+
+'ORF6',bind,'STAT';'STAT',associate,'CD8';'CD8',inhibit,'SARS-CoV'
+['ORF6', 'STAT', 'CD8', 'SARS-CoV']
+
+
+'ORF6',bind,'STAT';'STAT',associate,'CD8';'CD8',bind,'SARS-CoV'
+['ORF6', 'STAT', 'CD8', 'SARS-CoV']
+
+
+'importin',bind,'STAT';'STAT',associate,'CD8';'CD8',regulate,'SARS-CoV'
+['importin', 'STAT', 'CD8', 'SARS-CoV']
+
+
+'importin',bind,'STAT';'STAT',associate,'CD8';'CD8',inhibit,'SARS-CoV'
+['importin', 'STAT', 'CD8', 'SARS-CoV']
+
+
+'importin',bind,'STAT';'STAT',associate,'CD8';'CD8',bind,'SARS-CoV'
+['importin', 'STAT', 'CD8', 'SARS-CoV']
+
+
+'CD4',bind,'STAT';'STAT',associate,'CD8';'CD8',regulate,'SARS-CoV'
+['CD4', 'STAT', 'CD8', 'SARS-CoV']
+
+
+'CD4',bind,'STAT';'STAT',associate,'CD8';'CD8',inhibit,'SARS-CoV'
+['CD4', 'STAT', 'CD8', 'SARS-CoV']
+
+
+'CD4',bind,'STAT';'STAT',associate,'CD8';'CD8',bind,'SARS-CoV'
+['CD4', 'STAT', 'CD8', 'SARS-CoV']
+
+
+'ORF6',bind,'STAT';'STAT',associate,'CD8';'CD8',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'CD4';'CD4',regulate,'SARS-CoV'
+['ORF6', 'STAT', 'CD8', 'JAK3', 'MHC', 'CD4', 'SARS-CoV']
+
+
+'ORF6',bind,'STAT';'STAT',associate,'CD8';'CD8',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'CD4';'CD4',inhibit,'SARS-CoV'
+['ORF6', 'STAT', 'CD8', 'JAK3', 'MHC', 'CD4', 'SARS-CoV']
+
+
+'importin',bind,'STAT';'STAT',associate,'CD8';'CD8',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'CD4';'CD4',regulate,'SARS-CoV'
+['importin', 'STAT', 'CD8', 'JAK3', 'MHC', 'CD4', 'SARS-CoV']
+
+
+'importin',bind,'STAT';'STAT',associate,'CD8';'CD8',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'CD4';'CD4',inhibit,'SARS-CoV'
+['importin', 'STAT', 'CD8', 'JAK3', 'MHC', 'CD4', 'SARS-CoV']
+
+
+'MHC',bind,'STAT';'STAT',associate,'CD8';'CD8',associate,'JAK3';'JAK3',associate,'CD4';'CD4',regulate,'SARS-CoV'
+['MHC', 'STAT', 'CD8', 'JAK3', 'CD4', 'SARS-CoV']
+
+
+'MHC',bind,'STAT';'STAT',associate,'CD8';'CD8',associate,'JAK3';'JAK3',associate,'CD4';'CD4',inhibit,'SARS-CoV'
+['MHC', 'STAT', 'CD8', 'JAK3', 'CD4', 'SARS-CoV']
+
+
+'ORF6',bind,'STAT';'STAT',associate,'CD8';'CD8',associate,'JAK3';'JAK3',associate,'CD4';'CD4',regulate,'SARS-CoV'
+['ORF6', 'STAT', 'CD8', 'JAK3', 'CD4', 'SARS-CoV']
+
+
+'ORF6',bind,'STAT';'STAT',associate,'CD8';'CD8',associate,'JAK3';'JAK3',associate,'CD4';'CD4',inhibit,'SARS-CoV'
+['ORF6', 'STAT', 'CD8', 'JAK3', 'CD4', 'SARS-CoV']
+
+
+'importin',bind,'STAT';'STAT',associate,'CD8';'CD8',associate,'JAK3';'JAK3',associate,'CD4';'CD4',regulate,'SARS-CoV'
+['importin', 'STAT', 'CD8', 'JAK3', 'CD4', 'SARS-CoV']
+
+
+'importin',bind,'STAT';'STAT',associate,'CD8';'CD8',associate,'JAK3';'JAK3',associate,'CD4';'CD4',inhibit,'SARS-CoV'
+['importin', 'STAT', 'CD8', 'JAK3', 'CD4', 'SARS-CoV']
+
+
+'ORF6',bind,'STAT';'STAT',associate,'CD8';'CD8',associate,'MHC';'MHC',associate,'JAK3';'JAK3',associate,'CD4';'CD4',regulate,'SARS-CoV'
+['ORF6', 'STAT', 'CD8', 'MHC', 'JAK3', 'CD4', 'SARS-CoV']
+
+
+'ORF6',bind,'STAT';'STAT',associate,'CD8';'CD8',associate,'MHC';'MHC',associate,'JAK3';'JAK3',associate,'CD4';'CD4',inhibit,'SARS-CoV'
+['ORF6', 'STAT', 'CD8', 'MHC', 'JAK3', 'CD4', 'SARS-CoV']
+
+
+'importin',bind,'STAT';'STAT',associate,'CD8';'CD8',associate,'MHC';'MHC',associate,'JAK3';'JAK3',associate,'CD4';'CD4',regulate,'SARS-CoV'
+['importin', 'STAT', 'CD8', 'MHC', 'JAK3', 'CD4', 'SARS-CoV']
+
+
+'importin',bind,'STAT';'STAT',associate,'CD8';'CD8',associate,'MHC';'MHC',associate,'JAK3';'JAK3',associate,'CD4';'CD4',inhibit,'SARS-CoV'
+['importin', 'STAT', 'CD8', 'MHC', 'JAK3', 'CD4', 'SARS-CoV']
+
+
+'ORF6',bind,'STAT';'STAT',associate,'CD8';'CD8',associate,'MHC';'MHC',associate,'CD4';'CD4',regulate,'SARS-CoV'
+['ORF6', 'STAT', 'CD8', 'MHC', 'CD4', 'SARS-CoV']
+
+
+'ORF6',bind,'STAT';'STAT',associate,'CD8';'CD8',associate,'MHC';'MHC',associate,'CD4';'CD4',inhibit,'SARS-CoV'
+['ORF6', 'STAT', 'CD8', 'MHC', 'CD4', 'SARS-CoV']
+
+
+'importin',bind,'STAT';'STAT',associate,'CD8';'CD8',associate,'MHC';'MHC',associate,'CD4';'CD4',regulate,'SARS-CoV'
+['importin', 'STAT', 'CD8', 'MHC', 'CD4', 'SARS-CoV']
+
+
+'importin',bind,'STAT';'STAT',associate,'CD8';'CD8',associate,'MHC';'MHC',associate,'CD4';'CD4',inhibit,'SARS-CoV'
+['importin', 'STAT', 'CD8', 'MHC', 'CD4', 'SARS-CoV']
+
+
+'MHC',bind,'STAT';'STAT',associate,'CD8';'CD8',associate,'CD4';'CD4',regulate,'SARS-CoV'
+['MHC', 'STAT', 'CD8', 'CD4', 'SARS-CoV']
+
+
+'MHC',bind,'STAT';'STAT',associate,'CD8';'CD8',associate,'CD4';'CD4',inhibit,'SARS-CoV'
+['MHC', 'STAT', 'CD8', 'CD4', 'SARS-CoV']
+
+
+'ORF6',bind,'STAT';'STAT',associate,'CD8';'CD8',associate,'CD4';'CD4',regulate,'SARS-CoV'
+['ORF6', 'STAT', 'CD8', 'CD4', 'SARS-CoV']
+
+
+'ORF6',bind,'STAT';'STAT',associate,'CD8';'CD8',associate,'CD4';'CD4',inhibit,'SARS-CoV'
+['ORF6', 'STAT', 'CD8', 'CD4', 'SARS-CoV']
+
+
+'importin',bind,'STAT';'STAT',associate,'CD8';'CD8',associate,'CD4';'CD4',regulate,'SARS-CoV'
+['importin', 'STAT', 'CD8', 'CD4', 'SARS-CoV']
+
+
+'importin',bind,'STAT';'STAT',associate,'CD8';'CD8',associate,'CD4';'CD4',inhibit,'SARS-CoV'
+['importin', 'STAT', 'CD8', 'CD4', 'SARS-CoV']
+
+
+'MHC',bind,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'STAT';'STAT',bind,'STAT'
+['MHC', 'CD4', 'JAK3', 'STAT']
+
+
+'MHC',bind,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'STAT';'STAT',inhibit,'STAT'
+['MHC', 'CD4', 'JAK3', 'STAT']
+
+
+'MHC',bind,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'STAT';'STAT',regulate,'STAT'
+['MHC', 'CD4', 'JAK3', 'STAT']
+
+
+'MHC',bind,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'STAT';'STAT',inhibit,'SARS-CoV'
+['MHC', 'CD4', 'JAK3', 'STAT', 'SARS-CoV']
+
+
+'MHC',bind,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'STAT';'STAT',regulate,'SARS-CoV'
+['MHC', 'CD4', 'JAK3', 'STAT', 'SARS-CoV']
+
+
+'MHC',bind,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'STAT';'STAT',regulate,'ORF6'
+['MHC', 'CD4', 'JAK3', 'STAT', 'ORF6']
+
+
+'importin',bind,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'STAT';'STAT',bind,'STAT'
+['importin', 'CD4', 'JAK3', 'STAT']
+
+
+'importin',bind,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'STAT';'STAT',inhibit,'STAT'
+['importin', 'CD4', 'JAK3', 'STAT']
+
+
+'importin',bind,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'STAT';'STAT',regulate,'STAT'
+['importin', 'CD4', 'JAK3', 'STAT']
+
+
+'importin',bind,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'STAT';'STAT',inhibit,'SARS-CoV'
+['importin', 'CD4', 'JAK3', 'STAT', 'SARS-CoV']
+
+
+'importin',bind,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'STAT';'STAT',regulate,'SARS-CoV'
+['importin', 'CD4', 'JAK3', 'STAT', 'SARS-CoV']
+
+
+'importin',bind,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'STAT';'STAT',regulate,'ORF6'
+['importin', 'CD4', 'JAK3', 'STAT', 'ORF6']
+
+
+'CD8',bind,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'STAT';'STAT',bind,'STAT'
+['CD8', 'CD4', 'JAK3', 'STAT']
+
+
+'CD8',bind,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'STAT';'STAT',inhibit,'STAT'
+['CD8', 'CD4', 'JAK3', 'STAT']
+
+
+'CD8',bind,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'STAT';'STAT',regulate,'STAT'
+['CD8', 'CD4', 'JAK3', 'STAT']
+
+
+'CD8',bind,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'STAT';'STAT',inhibit,'SARS-CoV'
+['CD8', 'CD4', 'JAK3', 'STAT', 'SARS-CoV']
+
+
+'CD8',bind,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'STAT';'STAT',regulate,'SARS-CoV'
+['CD8', 'CD4', 'JAK3', 'STAT', 'SARS-CoV']
+
+
+'CD8',bind,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'STAT';'STAT',regulate,'ORF6'
+['CD8', 'CD4', 'JAK3', 'STAT', 'ORF6']
+
+
+'importin',bind,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'STAT';'STAT',associate,'MHC';'MHC',associate,'CD8';'CD8',regulate,'SARS-CoV'
+['importin', 'CD4', 'JAK3', 'STAT', 'MHC', 'CD8', 'SARS-CoV']
+
+
+'importin',bind,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'STAT';'STAT',associate,'MHC';'MHC',associate,'CD8';'CD8',inhibit,'SARS-CoV'
+['importin', 'CD4', 'JAK3', 'STAT', 'MHC', 'CD8', 'SARS-CoV']
+
+
+'importin',bind,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'STAT';'STAT',associate,'MHC';'MHC',associate,'CD8';'CD8',bind,'SARS-CoV'
+['importin', 'CD4', 'JAK3', 'STAT', 'MHC', 'CD8', 'SARS-CoV']
+
+
+'MHC',bind,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'STAT';'STAT',associate,'CD8';'CD8',regulate,'SARS-CoV'
+['MHC', 'CD4', 'JAK3', 'STAT', 'CD8', 'SARS-CoV']
+
+
+'MHC',bind,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'STAT';'STAT',associate,'CD8';'CD8',inhibit,'SARS-CoV'
+['MHC', 'CD4', 'JAK3', 'STAT', 'CD8', 'SARS-CoV']
+
+
+'MHC',bind,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'STAT';'STAT',associate,'CD8';'CD8',bind,'SARS-CoV'
+['MHC', 'CD4', 'JAK3', 'STAT', 'CD8', 'SARS-CoV']
+
+
+'importin',bind,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'STAT';'STAT',associate,'CD8';'CD8',regulate,'SARS-CoV'
+['importin', 'CD4', 'JAK3', 'STAT', 'CD8', 'SARS-CoV']
+
+
+'importin',bind,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'STAT';'STAT',associate,'CD8';'CD8',inhibit,'SARS-CoV'
+['importin', 'CD4', 'JAK3', 'STAT', 'CD8', 'SARS-CoV']
+
+
+'importin',bind,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'STAT';'STAT',associate,'CD8';'CD8',bind,'SARS-CoV'
+['importin', 'CD4', 'JAK3', 'STAT', 'CD8', 'SARS-CoV']
+
+
+'importin',bind,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'STAT';'STAT',bind,'STAT'
+['importin', 'CD4', 'JAK3', 'MHC', 'STAT']
+
+
+'importin',bind,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'STAT';'STAT',inhibit,'STAT'
+['importin', 'CD4', 'JAK3', 'MHC', 'STAT']
+
+
+'importin',bind,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'STAT';'STAT',regulate,'STAT'
+['importin', 'CD4', 'JAK3', 'MHC', 'STAT']
+
+
+'importin',bind,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'STAT';'STAT',inhibit,'SARS-CoV'
+['importin', 'CD4', 'JAK3', 'MHC', 'STAT', 'SARS-CoV']
+
+
+'importin',bind,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'STAT';'STAT',regulate,'SARS-CoV'
+['importin', 'CD4', 'JAK3', 'MHC', 'STAT', 'SARS-CoV']
+
+
+'importin',bind,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'STAT';'STAT',regulate,'ORF6'
+['importin', 'CD4', 'JAK3', 'MHC', 'STAT', 'ORF6']
+
+
+'CD8',bind,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'STAT';'STAT',bind,'STAT'
+['CD8', 'CD4', 'JAK3', 'MHC', 'STAT']
+
+
+'CD8',bind,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'STAT';'STAT',inhibit,'STAT'
+['CD8', 'CD4', 'JAK3', 'MHC', 'STAT']
+
+
+'CD8',bind,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'STAT';'STAT',regulate,'STAT'
+['CD8', 'CD4', 'JAK3', 'MHC', 'STAT']
+
+
+'CD8',bind,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'STAT';'STAT',inhibit,'SARS-CoV'
+['CD8', 'CD4', 'JAK3', 'MHC', 'STAT', 'SARS-CoV']
+
+
+'CD8',bind,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'STAT';'STAT',regulate,'SARS-CoV'
+['CD8', 'CD4', 'JAK3', 'MHC', 'STAT', 'SARS-CoV']
+
+
+'CD8',bind,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'STAT';'STAT',regulate,'ORF6'
+['CD8', 'CD4', 'JAK3', 'MHC', 'STAT', 'ORF6']
+
+
+'importin',bind,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'STAT';'STAT',associate,'CD8';'CD8',regulate,'SARS-CoV'
+['importin', 'CD4', 'JAK3', 'MHC', 'STAT', 'CD8', 'SARS-CoV']
+
+
+'importin',bind,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'STAT';'STAT',associate,'CD8';'CD8',inhibit,'SARS-CoV'
+['importin', 'CD4', 'JAK3', 'MHC', 'STAT', 'CD8', 'SARS-CoV']
+
+
+'importin',bind,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'STAT';'STAT',associate,'CD8';'CD8',bind,'SARS-CoV'
+['importin', 'CD4', 'JAK3', 'MHC', 'STAT', 'CD8', 'SARS-CoV']
+
+
+'STAT',bind,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'CD8';'CD8',regulate,'SARS-CoV'
+['STAT', 'CD4', 'JAK3', 'MHC', 'CD8', 'SARS-CoV']
+
+
+'STAT',bind,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'CD8';'CD8',inhibit,'SARS-CoV'
+['STAT', 'CD4', 'JAK3', 'MHC', 'CD8', 'SARS-CoV']
+
+
+'STAT',bind,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'CD8';'CD8',bind,'SARS-CoV'
+['STAT', 'CD4', 'JAK3', 'MHC', 'CD8', 'SARS-CoV']
+
+
+'importin',bind,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'CD8';'CD8',regulate,'STAT'
+['importin', 'CD4', 'JAK3', 'MHC', 'CD8', 'STAT']
+
+
+'importin',bind,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'CD8';'CD8',inhibit,'STAT'
+['importin', 'CD4', 'JAK3', 'MHC', 'CD8', 'STAT']
+
+
+'importin',bind,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'CD8';'CD8',bind,'STAT'
+['importin', 'CD4', 'JAK3', 'MHC', 'CD8', 'STAT']
+
+
+'importin',bind,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'CD8';'CD8',regulate,'SARS-CoV'
+['importin', 'CD4', 'JAK3', 'MHC', 'CD8', 'SARS-CoV']
+
+
+'importin',bind,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'CD8';'CD8',inhibit,'SARS-CoV'
+['importin', 'CD4', 'JAK3', 'MHC', 'CD8', 'SARS-CoV']
+
+
+'importin',bind,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'CD8';'CD8',bind,'SARS-CoV'
+['importin', 'CD4', 'JAK3', 'MHC', 'CD8', 'SARS-CoV']
+
+
+'importin',bind,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'CD8';'CD8',associate,'STAT';'STAT',bind,'STAT'
+['importin', 'CD4', 'JAK3', 'MHC', 'CD8', 'STAT']
+
+
+'importin',bind,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'CD8';'CD8',associate,'STAT';'STAT',inhibit,'STAT'
+['importin', 'CD4', 'JAK3', 'MHC', 'CD8', 'STAT']
+
+
+'importin',bind,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'CD8';'CD8',associate,'STAT';'STAT',regulate,'STAT'
+['importin', 'CD4', 'JAK3', 'MHC', 'CD8', 'STAT']
+
+
+'importin',bind,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'CD8';'CD8',associate,'STAT';'STAT',inhibit,'SARS-CoV'
+['importin', 'CD4', 'JAK3', 'MHC', 'CD8', 'STAT', 'SARS-CoV']
+
+
+'importin',bind,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'CD8';'CD8',associate,'STAT';'STAT',regulate,'SARS-CoV'
+['importin', 'CD4', 'JAK3', 'MHC', 'CD8', 'STAT', 'SARS-CoV']
+
+
+'importin',bind,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'CD8';'CD8',associate,'STAT';'STAT',regulate,'ORF6'
+['importin', 'CD4', 'JAK3', 'MHC', 'CD8', 'STAT', 'ORF6']
+
+
+'importin',bind,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'CD8';'CD8',associate,'SARS-CoV';'SARS-CoV',associate,'STAT';'STAT',bind,'STAT'
+['importin', 'CD4', 'JAK3', 'MHC', 'CD8', 'SARS-CoV', 'STAT']
+
+
+'importin',bind,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'CD8';'CD8',associate,'SARS-CoV';'SARS-CoV',associate,'STAT';'STAT',inhibit,'STAT'
+['importin', 'CD4', 'JAK3', 'MHC', 'CD8', 'SARS-CoV', 'STAT']
+
+
+'importin',bind,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'CD8';'CD8',associate,'SARS-CoV';'SARS-CoV',associate,'STAT';'STAT',regulate,'STAT'
+['importin', 'CD4', 'JAK3', 'MHC', 'CD8', 'SARS-CoV', 'STAT']
+
+
+'importin',bind,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'CD8';'CD8',associate,'SARS-CoV';'SARS-CoV',associate,'STAT';'STAT',inhibit,'SARS-CoV'
+['importin', 'CD4', 'JAK3', 'MHC', 'CD8', 'SARS-CoV', 'STAT']
+
+
+'importin',bind,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'CD8';'CD8',associate,'SARS-CoV';'SARS-CoV',associate,'STAT';'STAT',regulate,'SARS-CoV'
+['importin', 'CD4', 'JAK3', 'MHC', 'CD8', 'SARS-CoV', 'STAT']
+
+
+'importin',bind,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'CD8';'CD8',associate,'SARS-CoV';'SARS-CoV',associate,'STAT';'STAT',regulate,'ORF6'
+['importin', 'CD4', 'JAK3', 'MHC', 'CD8', 'SARS-CoV', 'STAT', 'ORF6']
+
+
+'MHC',bind,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'SARS-CoV';'SARS-CoV',associate,'STAT';'STAT',bind,'STAT'
+['MHC', 'CD4', 'JAK3', 'SARS-CoV', 'STAT']
+
+
+'MHC',bind,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'SARS-CoV';'SARS-CoV',associate,'STAT';'STAT',inhibit,'STAT'
+['MHC', 'CD4', 'JAK3', 'SARS-CoV', 'STAT']
+
+
+'MHC',bind,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'SARS-CoV';'SARS-CoV',associate,'STAT';'STAT',regulate,'STAT'
+['MHC', 'CD4', 'JAK3', 'SARS-CoV', 'STAT']
+
+
+'MHC',bind,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'SARS-CoV';'SARS-CoV',associate,'STAT';'STAT',inhibit,'SARS-CoV'
+['MHC', 'CD4', 'JAK3', 'SARS-CoV', 'STAT']
+
+
+'MHC',bind,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'SARS-CoV';'SARS-CoV',associate,'STAT';'STAT',regulate,'SARS-CoV'
+['MHC', 'CD4', 'JAK3', 'SARS-CoV', 'STAT']
+
+
+'MHC',bind,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'SARS-CoV';'SARS-CoV',associate,'STAT';'STAT',regulate,'ORF6'
+['MHC', 'CD4', 'JAK3', 'SARS-CoV', 'STAT', 'ORF6']
+
+
+'importin',bind,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'SARS-CoV';'SARS-CoV',associate,'STAT';'STAT',bind,'STAT'
+['importin', 'CD4', 'JAK3', 'SARS-CoV', 'STAT']
+
+
+'importin',bind,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'SARS-CoV';'SARS-CoV',associate,'STAT';'STAT',inhibit,'STAT'
+['importin', 'CD4', 'JAK3', 'SARS-CoV', 'STAT']
+
+
+'importin',bind,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'SARS-CoV';'SARS-CoV',associate,'STAT';'STAT',regulate,'STAT'
+['importin', 'CD4', 'JAK3', 'SARS-CoV', 'STAT']
+
+
+'importin',bind,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'SARS-CoV';'SARS-CoV',associate,'STAT';'STAT',inhibit,'SARS-CoV'
+['importin', 'CD4', 'JAK3', 'SARS-CoV', 'STAT']
+
+
+'importin',bind,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'SARS-CoV';'SARS-CoV',associate,'STAT';'STAT',regulate,'SARS-CoV'
+['importin', 'CD4', 'JAK3', 'SARS-CoV', 'STAT']
+
+
+'importin',bind,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'SARS-CoV';'SARS-CoV',associate,'STAT';'STAT',regulate,'ORF6'
+['importin', 'CD4', 'JAK3', 'SARS-CoV', 'STAT', 'ORF6']
+
+
+'CD8',bind,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'SARS-CoV';'SARS-CoV',associate,'STAT';'STAT',bind,'STAT'
+['CD8', 'CD4', 'JAK3', 'SARS-CoV', 'STAT']
+
+
+'CD8',bind,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'SARS-CoV';'SARS-CoV',associate,'STAT';'STAT',inhibit,'STAT'
+['CD8', 'CD4', 'JAK3', 'SARS-CoV', 'STAT']
+
+
+'CD8',bind,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'SARS-CoV';'SARS-CoV',associate,'STAT';'STAT',regulate,'STAT'
+['CD8', 'CD4', 'JAK3', 'SARS-CoV', 'STAT']
+
+
+'CD8',bind,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'SARS-CoV';'SARS-CoV',associate,'STAT';'STAT',inhibit,'SARS-CoV'
+['CD8', 'CD4', 'JAK3', 'SARS-CoV', 'STAT']
+
+
+'CD8',bind,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'SARS-CoV';'SARS-CoV',associate,'STAT';'STAT',regulate,'SARS-CoV'
+['CD8', 'CD4', 'JAK3', 'SARS-CoV', 'STAT']
+
+
+'CD8',bind,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'SARS-CoV';'SARS-CoV',associate,'STAT';'STAT',regulate,'ORF6'
+['CD8', 'CD4', 'JAK3', 'SARS-CoV', 'STAT', 'ORF6']
+
+
+'STAT',bind,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'CD8';'CD8',regulate,'SARS-CoV'
+['STAT', 'CD4', 'JAK3', 'CD8', 'SARS-CoV']
+
+
+'STAT',bind,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'CD8';'CD8',inhibit,'SARS-CoV'
+['STAT', 'CD4', 'JAK3', 'CD8', 'SARS-CoV']
+
+
+'STAT',bind,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'CD8';'CD8',bind,'SARS-CoV'
+['STAT', 'CD4', 'JAK3', 'CD8', 'SARS-CoV']
+
+
+'MHC',bind,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'CD8';'CD8',regulate,'STAT'
+['MHC', 'CD4', 'JAK3', 'CD8', 'STAT']
+
+
+'MHC',bind,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'CD8';'CD8',inhibit,'STAT'
+['MHC', 'CD4', 'JAK3', 'CD8', 'STAT']
+
+
+'MHC',bind,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'CD8';'CD8',bind,'STAT'
+['MHC', 'CD4', 'JAK3', 'CD8', 'STAT']
+
+
+'MHC',bind,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'CD8';'CD8',regulate,'SARS-CoV'
+['MHC', 'CD4', 'JAK3', 'CD8', 'SARS-CoV']
+
+
+'MHC',bind,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'CD8';'CD8',inhibit,'SARS-CoV'
+['MHC', 'CD4', 'JAK3', 'CD8', 'SARS-CoV']
+
+
+'MHC',bind,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'CD8';'CD8',bind,'SARS-CoV'
+['MHC', 'CD4', 'JAK3', 'CD8', 'SARS-CoV']
+
+
+'importin',bind,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'CD8';'CD8',regulate,'STAT'
+['importin', 'CD4', 'JAK3', 'CD8', 'STAT']
+
+
+'importin',bind,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'CD8';'CD8',inhibit,'STAT'
+['importin', 'CD4', 'JAK3', 'CD8', 'STAT']
+
+
+'importin',bind,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'CD8';'CD8',bind,'STAT'
+['importin', 'CD4', 'JAK3', 'CD8', 'STAT']
+
+
+'importin',bind,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'CD8';'CD8',regulate,'SARS-CoV'
+['importin', 'CD4', 'JAK3', 'CD8', 'SARS-CoV']
+
+
+'importin',bind,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'CD8';'CD8',inhibit,'SARS-CoV'
+['importin', 'CD4', 'JAK3', 'CD8', 'SARS-CoV']
+
+
+'importin',bind,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'CD8';'CD8',bind,'SARS-CoV'
+['importin', 'CD4', 'JAK3', 'CD8', 'SARS-CoV']
+
+
+'MHC',bind,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'CD8';'CD8',associate,'STAT';'STAT',bind,'STAT'
+['MHC', 'CD4', 'JAK3', 'CD8', 'STAT']
+
+
+'MHC',bind,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'CD8';'CD8',associate,'STAT';'STAT',inhibit,'STAT'
+['MHC', 'CD4', 'JAK3', 'CD8', 'STAT']
+
+
+'MHC',bind,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'CD8';'CD8',associate,'STAT';'STAT',regulate,'STAT'
+['MHC', 'CD4', 'JAK3', 'CD8', 'STAT']
+
+
+'MHC',bind,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'CD8';'CD8',associate,'STAT';'STAT',inhibit,'SARS-CoV'
+['MHC', 'CD4', 'JAK3', 'CD8', 'STAT', 'SARS-CoV']
+
+
+'MHC',bind,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'CD8';'CD8',associate,'STAT';'STAT',regulate,'SARS-CoV'
+['MHC', 'CD4', 'JAK3', 'CD8', 'STAT', 'SARS-CoV']
+
+
+'MHC',bind,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'CD8';'CD8',associate,'STAT';'STAT',regulate,'ORF6'
+['MHC', 'CD4', 'JAK3', 'CD8', 'STAT', 'ORF6']
+
+
+'importin',bind,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'CD8';'CD8',associate,'STAT';'STAT',bind,'STAT'
+['importin', 'CD4', 'JAK3', 'CD8', 'STAT']
+
+
+'importin',bind,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'CD8';'CD8',associate,'STAT';'STAT',inhibit,'STAT'
+['importin', 'CD4', 'JAK3', 'CD8', 'STAT']
+
+
+'importin',bind,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'CD8';'CD8',associate,'STAT';'STAT',regulate,'STAT'
+['importin', 'CD4', 'JAK3', 'CD8', 'STAT']
+
+
+'importin',bind,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'CD8';'CD8',associate,'STAT';'STAT',inhibit,'SARS-CoV'
+['importin', 'CD4', 'JAK3', 'CD8', 'STAT', 'SARS-CoV']
+
+
+'importin',bind,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'CD8';'CD8',associate,'STAT';'STAT',regulate,'SARS-CoV'
+['importin', 'CD4', 'JAK3', 'CD8', 'STAT', 'SARS-CoV']
+
+
+'importin',bind,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'CD8';'CD8',associate,'STAT';'STAT',regulate,'ORF6'
+['importin', 'CD4', 'JAK3', 'CD8', 'STAT', 'ORF6']
+
+
+'importin',bind,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'CD8';'CD8',associate,'MHC';'MHC',associate,'STAT';'STAT',bind,'STAT'
+['importin', 'CD4', 'JAK3', 'CD8', 'MHC', 'STAT']
+
+
+'importin',bind,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'CD8';'CD8',associate,'MHC';'MHC',associate,'STAT';'STAT',inhibit,'STAT'
+['importin', 'CD4', 'JAK3', 'CD8', 'MHC', 'STAT']
+
+
+'importin',bind,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'CD8';'CD8',associate,'MHC';'MHC',associate,'STAT';'STAT',regulate,'STAT'
+['importin', 'CD4', 'JAK3', 'CD8', 'MHC', 'STAT']
+
+
+'importin',bind,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'CD8';'CD8',associate,'MHC';'MHC',associate,'STAT';'STAT',inhibit,'SARS-CoV'
+['importin', 'CD4', 'JAK3', 'CD8', 'MHC', 'STAT', 'SARS-CoV']
+
+
+'importin',bind,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'CD8';'CD8',associate,'MHC';'MHC',associate,'STAT';'STAT',regulate,'SARS-CoV'
+['importin', 'CD4', 'JAK3', 'CD8', 'MHC', 'STAT', 'SARS-CoV']
+
+
+'importin',bind,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'CD8';'CD8',associate,'MHC';'MHC',associate,'STAT';'STAT',regulate,'ORF6'
+['importin', 'CD4', 'JAK3', 'CD8', 'MHC', 'STAT', 'ORF6']
+
+
+'MHC',bind,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'CD8';'CD8',associate,'SARS-CoV';'SARS-CoV',associate,'STAT';'STAT',bind,'STAT'
+['MHC', 'CD4', 'JAK3', 'CD8', 'SARS-CoV', 'STAT']
+
+
+'MHC',bind,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'CD8';'CD8',associate,'SARS-CoV';'SARS-CoV',associate,'STAT';'STAT',inhibit,'STAT'
+['MHC', 'CD4', 'JAK3', 'CD8', 'SARS-CoV', 'STAT']
+
+
+'MHC',bind,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'CD8';'CD8',associate,'SARS-CoV';'SARS-CoV',associate,'STAT';'STAT',regulate,'STAT'
+['MHC', 'CD4', 'JAK3', 'CD8', 'SARS-CoV', 'STAT']
+
+
+'MHC',bind,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'CD8';'CD8',associate,'SARS-CoV';'SARS-CoV',associate,'STAT';'STAT',inhibit,'SARS-CoV'
+['MHC', 'CD4', 'JAK3', 'CD8', 'SARS-CoV', 'STAT']
+
+
+'MHC',bind,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'CD8';'CD8',associate,'SARS-CoV';'SARS-CoV',associate,'STAT';'STAT',regulate,'SARS-CoV'
+['MHC', 'CD4', 'JAK3', 'CD8', 'SARS-CoV', 'STAT']
+
+
+'MHC',bind,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'CD8';'CD8',associate,'SARS-CoV';'SARS-CoV',associate,'STAT';'STAT',regulate,'ORF6'
+['MHC', 'CD4', 'JAK3', 'CD8', 'SARS-CoV', 'STAT', 'ORF6']
+
+
+'importin',bind,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'CD8';'CD8',associate,'SARS-CoV';'SARS-CoV',associate,'STAT';'STAT',bind,'STAT'
+['importin', 'CD4', 'JAK3', 'CD8', 'SARS-CoV', 'STAT']
+
+
+'importin',bind,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'CD8';'CD8',associate,'SARS-CoV';'SARS-CoV',associate,'STAT';'STAT',inhibit,'STAT'
+['importin', 'CD4', 'JAK3', 'CD8', 'SARS-CoV', 'STAT']
+
+
+'importin',bind,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'CD8';'CD8',associate,'SARS-CoV';'SARS-CoV',associate,'STAT';'STAT',regulate,'STAT'
+['importin', 'CD4', 'JAK3', 'CD8', 'SARS-CoV', 'STAT']
+
+
+'importin',bind,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'CD8';'CD8',associate,'SARS-CoV';'SARS-CoV',associate,'STAT';'STAT',inhibit,'SARS-CoV'
+['importin', 'CD4', 'JAK3', 'CD8', 'SARS-CoV', 'STAT']
+
+
+'importin',bind,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'CD8';'CD8',associate,'SARS-CoV';'SARS-CoV',associate,'STAT';'STAT',regulate,'SARS-CoV'
+['importin', 'CD4', 'JAK3', 'CD8', 'SARS-CoV', 'STAT']
+
+
+'importin',bind,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'CD8';'CD8',associate,'SARS-CoV';'SARS-CoV',associate,'STAT';'STAT',regulate,'ORF6'
+['importin', 'CD4', 'JAK3', 'CD8', 'SARS-CoV', 'STAT', 'ORF6']
+
+
+'MHC',bind,'CD4';'CD4',associate,'STAT';'STAT',bind,'STAT'
+['MHC', 'CD4', 'STAT']
+
+
+'MHC',bind,'CD4';'CD4',associate,'STAT';'STAT',inhibit,'STAT'
+['MHC', 'CD4', 'STAT']
+
+
+'MHC',bind,'CD4';'CD4',associate,'STAT';'STAT',regulate,'STAT'
+['MHC', 'CD4', 'STAT']
+
+
+'MHC',bind,'CD4';'CD4',associate,'STAT';'STAT',inhibit,'SARS-CoV'
+['MHC', 'CD4', 'STAT', 'SARS-CoV']
+
+
+'MHC',bind,'CD4';'CD4',associate,'STAT';'STAT',regulate,'SARS-CoV'
+['MHC', 'CD4', 'STAT', 'SARS-CoV']
+
+
+'MHC',bind,'CD4';'CD4',associate,'STAT';'STAT',regulate,'ORF6'
+['MHC', 'CD4', 'STAT', 'ORF6']
+
+
+'importin',bind,'CD4';'CD4',associate,'STAT';'STAT',bind,'STAT'
+['importin', 'CD4', 'STAT']
+
+
+'importin',bind,'CD4';'CD4',associate,'STAT';'STAT',inhibit,'STAT'
+['importin', 'CD4', 'STAT']
+
+
+'importin',bind,'CD4';'CD4',associate,'STAT';'STAT',regulate,'STAT'
+['importin', 'CD4', 'STAT']
+
+
+'importin',bind,'CD4';'CD4',associate,'STAT';'STAT',inhibit,'SARS-CoV'
+['importin', 'CD4', 'STAT', 'SARS-CoV']
+
+
+'importin',bind,'CD4';'CD4',associate,'STAT';'STAT',regulate,'SARS-CoV'
+['importin', 'CD4', 'STAT', 'SARS-CoV']
+
+
+'importin',bind,'CD4';'CD4',associate,'STAT';'STAT',regulate,'ORF6'
+['importin', 'CD4', 'STAT', 'ORF6']
+
+
+'CD8',bind,'CD4';'CD4',associate,'STAT';'STAT',bind,'STAT'
+['CD8', 'CD4', 'STAT']
+
+
+'CD8',bind,'CD4';'CD4',associate,'STAT';'STAT',inhibit,'STAT'
+['CD8', 'CD4', 'STAT']
+
+
+'CD8',bind,'CD4';'CD4',associate,'STAT';'STAT',regulate,'STAT'
+['CD8', 'CD4', 'STAT']
+
+
+'CD8',bind,'CD4';'CD4',associate,'STAT';'STAT',inhibit,'SARS-CoV'
+['CD8', 'CD4', 'STAT', 'SARS-CoV']
+
+
+'CD8',bind,'CD4';'CD4',associate,'STAT';'STAT',regulate,'SARS-CoV'
+['CD8', 'CD4', 'STAT', 'SARS-CoV']
+
+
+'CD8',bind,'CD4';'CD4',associate,'STAT';'STAT',regulate,'ORF6'
+['CD8', 'CD4', 'STAT', 'ORF6']
+
+
+'importin',bind,'CD4';'CD4',associate,'STAT';'STAT',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'CD8';'CD8',regulate,'SARS-CoV'
+['importin', 'CD4', 'STAT', 'JAK3', 'MHC', 'CD8', 'SARS-CoV']
+
+
+'importin',bind,'CD4';'CD4',associate,'STAT';'STAT',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'CD8';'CD8',inhibit,'SARS-CoV'
+['importin', 'CD4', 'STAT', 'JAK3', 'MHC', 'CD8', 'SARS-CoV']
+
+
+'importin',bind,'CD4';'CD4',associate,'STAT';'STAT',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'CD8';'CD8',bind,'SARS-CoV'
+['importin', 'CD4', 'STAT', 'JAK3', 'MHC', 'CD8', 'SARS-CoV']
+
+
+'MHC',bind,'CD4';'CD4',associate,'STAT';'STAT',associate,'JAK3';'JAK3',associate,'CD8';'CD8',regulate,'SARS-CoV'
+['MHC', 'CD4', 'STAT', 'JAK3', 'CD8', 'SARS-CoV']
+
+
+'MHC',bind,'CD4';'CD4',associate,'STAT';'STAT',associate,'JAK3';'JAK3',associate,'CD8';'CD8',inhibit,'SARS-CoV'
+['MHC', 'CD4', 'STAT', 'JAK3', 'CD8', 'SARS-CoV']
+
+
+'MHC',bind,'CD4';'CD4',associate,'STAT';'STAT',associate,'JAK3';'JAK3',associate,'CD8';'CD8',bind,'SARS-CoV'
+['MHC', 'CD4', 'STAT', 'JAK3', 'CD8', 'SARS-CoV']
+
+
+'importin',bind,'CD4';'CD4',associate,'STAT';'STAT',associate,'JAK3';'JAK3',associate,'CD8';'CD8',regulate,'SARS-CoV'
+['importin', 'CD4', 'STAT', 'JAK3', 'CD8', 'SARS-CoV']
+
+
+'importin',bind,'CD4';'CD4',associate,'STAT';'STAT',associate,'JAK3';'JAK3',associate,'CD8';'CD8',inhibit,'SARS-CoV'
+['importin', 'CD4', 'STAT', 'JAK3', 'CD8', 'SARS-CoV']
+
+
+'importin',bind,'CD4';'CD4',associate,'STAT';'STAT',associate,'JAK3';'JAK3',associate,'CD8';'CD8',bind,'SARS-CoV'
+['importin', 'CD4', 'STAT', 'JAK3', 'CD8', 'SARS-CoV']
+
+
+'importin',bind,'CD4';'CD4',associate,'STAT';'STAT',associate,'MHC';'MHC',associate,'JAK3';'JAK3',associate,'CD8';'CD8',regulate,'SARS-CoV'
+['importin', 'CD4', 'STAT', 'MHC', 'JAK3', 'CD8', 'SARS-CoV']
+
+
+'importin',bind,'CD4';'CD4',associate,'STAT';'STAT',associate,'MHC';'MHC',associate,'JAK3';'JAK3',associate,'CD8';'CD8',inhibit,'SARS-CoV'
+['importin', 'CD4', 'STAT', 'MHC', 'JAK3', 'CD8', 'SARS-CoV']
+
+
+'importin',bind,'CD4';'CD4',associate,'STAT';'STAT',associate,'MHC';'MHC',associate,'JAK3';'JAK3',associate,'CD8';'CD8',bind,'SARS-CoV'
+['importin', 'CD4', 'STAT', 'MHC', 'JAK3', 'CD8', 'SARS-CoV']
+
+
+'importin',bind,'CD4';'CD4',associate,'STAT';'STAT',associate,'MHC';'MHC',associate,'CD8';'CD8',regulate,'SARS-CoV'
+['importin', 'CD4', 'STAT', 'MHC', 'CD8', 'SARS-CoV']
+
+
+'importin',bind,'CD4';'CD4',associate,'STAT';'STAT',associate,'MHC';'MHC',associate,'CD8';'CD8',inhibit,'SARS-CoV'
+['importin', 'CD4', 'STAT', 'MHC', 'CD8', 'SARS-CoV']
+
+
+'importin',bind,'CD4';'CD4',associate,'STAT';'STAT',associate,'MHC';'MHC',associate,'CD8';'CD8',bind,'SARS-CoV'
+['importin', 'CD4', 'STAT', 'MHC', 'CD8', 'SARS-CoV']
+
+
+'MHC',bind,'CD4';'CD4',associate,'STAT';'STAT',associate,'CD8';'CD8',regulate,'SARS-CoV'
+['MHC', 'CD4', 'STAT', 'CD8', 'SARS-CoV']
+
+
+'MHC',bind,'CD4';'CD4',associate,'STAT';'STAT',associate,'CD8';'CD8',inhibit,'SARS-CoV'
+['MHC', 'CD4', 'STAT', 'CD8', 'SARS-CoV']
+
+
+'MHC',bind,'CD4';'CD4',associate,'STAT';'STAT',associate,'CD8';'CD8',bind,'SARS-CoV'
+['MHC', 'CD4', 'STAT', 'CD8', 'SARS-CoV']
+
+
+'importin',bind,'CD4';'CD4',associate,'STAT';'STAT',associate,'CD8';'CD8',regulate,'SARS-CoV'
+['importin', 'CD4', 'STAT', 'CD8', 'SARS-CoV']
+
+
+'importin',bind,'CD4';'CD4',associate,'STAT';'STAT',associate,'CD8';'CD8',inhibit,'SARS-CoV'
+['importin', 'CD4', 'STAT', 'CD8', 'SARS-CoV']
+
+
+'importin',bind,'CD4';'CD4',associate,'STAT';'STAT',associate,'CD8';'CD8',bind,'SARS-CoV'
+['importin', 'CD4', 'STAT', 'CD8', 'SARS-CoV']
+
+
+'importin',bind,'CD4';'CD4',associate,'MHC';'MHC',associate,'JAK3';'JAK3',associate,'STAT';'STAT',bind,'STAT'
+['importin', 'CD4', 'MHC', 'JAK3', 'STAT']
+
+
+'importin',bind,'CD4';'CD4',associate,'MHC';'MHC',associate,'JAK3';'JAK3',associate,'STAT';'STAT',inhibit,'STAT'
+['importin', 'CD4', 'MHC', 'JAK3', 'STAT']
+
+
+'importin',bind,'CD4';'CD4',associate,'MHC';'MHC',associate,'JAK3';'JAK3',associate,'STAT';'STAT',regulate,'STAT'
+['importin', 'CD4', 'MHC', 'JAK3', 'STAT']
+
+
+'importin',bind,'CD4';'CD4',associate,'MHC';'MHC',associate,'JAK3';'JAK3',associate,'STAT';'STAT',inhibit,'SARS-CoV'
+['importin', 'CD4', 'MHC', 'JAK3', 'STAT', 'SARS-CoV']
+
+
+'importin',bind,'CD4';'CD4',associate,'MHC';'MHC',associate,'JAK3';'JAK3',associate,'STAT';'STAT',regulate,'SARS-CoV'
+['importin', 'CD4', 'MHC', 'JAK3', 'STAT', 'SARS-CoV']
+
+
+'importin',bind,'CD4';'CD4',associate,'MHC';'MHC',associate,'JAK3';'JAK3',associate,'STAT';'STAT',regulate,'ORF6'
+['importin', 'CD4', 'MHC', 'JAK3', 'STAT', 'ORF6']
+
+
+'CD8',bind,'CD4';'CD4',associate,'MHC';'MHC',associate,'JAK3';'JAK3',associate,'STAT';'STAT',bind,'STAT'
+['CD8', 'CD4', 'MHC', 'JAK3', 'STAT']
+
+
+'CD8',bind,'CD4';'CD4',associate,'MHC';'MHC',associate,'JAK3';'JAK3',associate,'STAT';'STAT',inhibit,'STAT'
+['CD8', 'CD4', 'MHC', 'JAK3', 'STAT']
+
+
+'CD8',bind,'CD4';'CD4',associate,'MHC';'MHC',associate,'JAK3';'JAK3',associate,'STAT';'STAT',regulate,'STAT'
+['CD8', 'CD4', 'MHC', 'JAK3', 'STAT']
+
+
+'CD8',bind,'CD4';'CD4',associate,'MHC';'MHC',associate,'JAK3';'JAK3',associate,'STAT';'STAT',inhibit,'SARS-CoV'
+['CD8', 'CD4', 'MHC', 'JAK3', 'STAT', 'SARS-CoV']
+
+
+'CD8',bind,'CD4';'CD4',associate,'MHC';'MHC',associate,'JAK3';'JAK3',associate,'STAT';'STAT',regulate,'SARS-CoV'
+['CD8', 'CD4', 'MHC', 'JAK3', 'STAT', 'SARS-CoV']
+
+
+'CD8',bind,'CD4';'CD4',associate,'MHC';'MHC',associate,'JAK3';'JAK3',associate,'STAT';'STAT',regulate,'ORF6'
+['CD8', 'CD4', 'MHC', 'JAK3', 'STAT', 'ORF6']
+
+
+'importin',bind,'CD4';'CD4',associate,'MHC';'MHC',associate,'JAK3';'JAK3',associate,'STAT';'STAT',associate,'CD8';'CD8',regulate,'SARS-CoV'
+['importin', 'CD4', 'MHC', 'JAK3', 'STAT', 'CD8', 'SARS-CoV']
+
+
+'importin',bind,'CD4';'CD4',associate,'MHC';'MHC',associate,'JAK3';'JAK3',associate,'STAT';'STAT',associate,'CD8';'CD8',inhibit,'SARS-CoV'
+['importin', 'CD4', 'MHC', 'JAK3', 'STAT', 'CD8', 'SARS-CoV']
+
+
+'importin',bind,'CD4';'CD4',associate,'MHC';'MHC',associate,'JAK3';'JAK3',associate,'STAT';'STAT',associate,'CD8';'CD8',bind,'SARS-CoV'
+['importin', 'CD4', 'MHC', 'JAK3', 'STAT', 'CD8', 'SARS-CoV']
+
+
+'importin',bind,'CD4';'CD4',associate,'MHC';'MHC',associate,'JAK3';'JAK3',associate,'SARS-CoV';'SARS-CoV',associate,'STAT';'STAT',bind,'STAT'
+['importin', 'CD4', 'MHC', 'JAK3', 'SARS-CoV', 'STAT']
+
+
+'importin',bind,'CD4';'CD4',associate,'MHC';'MHC',associate,'JAK3';'JAK3',associate,'SARS-CoV';'SARS-CoV',associate,'STAT';'STAT',inhibit,'STAT'
+['importin', 'CD4', 'MHC', 'JAK3', 'SARS-CoV', 'STAT']
+
+
+'importin',bind,'CD4';'CD4',associate,'MHC';'MHC',associate,'JAK3';'JAK3',associate,'SARS-CoV';'SARS-CoV',associate,'STAT';'STAT',regulate,'STAT'
+['importin', 'CD4', 'MHC', 'JAK3', 'SARS-CoV', 'STAT']
+
+
+'importin',bind,'CD4';'CD4',associate,'MHC';'MHC',associate,'JAK3';'JAK3',associate,'SARS-CoV';'SARS-CoV',associate,'STAT';'STAT',inhibit,'SARS-CoV'
+['importin', 'CD4', 'MHC', 'JAK3', 'SARS-CoV', 'STAT']
+
+
+'importin',bind,'CD4';'CD4',associate,'MHC';'MHC',associate,'JAK3';'JAK3',associate,'SARS-CoV';'SARS-CoV',associate,'STAT';'STAT',regulate,'SARS-CoV'
+['importin', 'CD4', 'MHC', 'JAK3', 'SARS-CoV', 'STAT']
+
+
+'importin',bind,'CD4';'CD4',associate,'MHC';'MHC',associate,'JAK3';'JAK3',associate,'SARS-CoV';'SARS-CoV',associate,'STAT';'STAT',regulate,'ORF6'
+['importin', 'CD4', 'MHC', 'JAK3', 'SARS-CoV', 'STAT', 'ORF6']
+
+
+'CD8',bind,'CD4';'CD4',associate,'MHC';'MHC',associate,'JAK3';'JAK3',associate,'SARS-CoV';'SARS-CoV',associate,'STAT';'STAT',bind,'STAT'
+['CD8', 'CD4', 'MHC', 'JAK3', 'SARS-CoV', 'STAT']
+
+
+'CD8',bind,'CD4';'CD4',associate,'MHC';'MHC',associate,'JAK3';'JAK3',associate,'SARS-CoV';'SARS-CoV',associate,'STAT';'STAT',inhibit,'STAT'
+['CD8', 'CD4', 'MHC', 'JAK3', 'SARS-CoV', 'STAT']
+
+
+'CD8',bind,'CD4';'CD4',associate,'MHC';'MHC',associate,'JAK3';'JAK3',associate,'SARS-CoV';'SARS-CoV',associate,'STAT';'STAT',regulate,'STAT'
+['CD8', 'CD4', 'MHC', 'JAK3', 'SARS-CoV', 'STAT']
+
+
+'CD8',bind,'CD4';'CD4',associate,'MHC';'MHC',associate,'JAK3';'JAK3',associate,'SARS-CoV';'SARS-CoV',associate,'STAT';'STAT',inhibit,'SARS-CoV'
+['CD8', 'CD4', 'MHC', 'JAK3', 'SARS-CoV', 'STAT']
+
+
+'CD8',bind,'CD4';'CD4',associate,'MHC';'MHC',associate,'JAK3';'JAK3',associate,'SARS-CoV';'SARS-CoV',associate,'STAT';'STAT',regulate,'SARS-CoV'
+['CD8', 'CD4', 'MHC', 'JAK3', 'SARS-CoV', 'STAT']
+
+
+'CD8',bind,'CD4';'CD4',associate,'MHC';'MHC',associate,'JAK3';'JAK3',associate,'SARS-CoV';'SARS-CoV',associate,'STAT';'STAT',regulate,'ORF6'
+['CD8', 'CD4', 'MHC', 'JAK3', 'SARS-CoV', 'STAT', 'ORF6']
+
+
+'STAT',bind,'CD4';'CD4',associate,'MHC';'MHC',associate,'JAK3';'JAK3',associate,'CD8';'CD8',regulate,'SARS-CoV'
+['STAT', 'CD4', 'MHC', 'JAK3', 'CD8', 'SARS-CoV']
+
+
+'STAT',bind,'CD4';'CD4',associate,'MHC';'MHC',associate,'JAK3';'JAK3',associate,'CD8';'CD8',inhibit,'SARS-CoV'
+['STAT', 'CD4', 'MHC', 'JAK3', 'CD8', 'SARS-CoV']
+
+
+'STAT',bind,'CD4';'CD4',associate,'MHC';'MHC',associate,'JAK3';'JAK3',associate,'CD8';'CD8',bind,'SARS-CoV'
+['STAT', 'CD4', 'MHC', 'JAK3', 'CD8', 'SARS-CoV']
+
+
+'importin',bind,'CD4';'CD4',associate,'MHC';'MHC',associate,'JAK3';'JAK3',associate,'CD8';'CD8',regulate,'STAT'
+['importin', 'CD4', 'MHC', 'JAK3', 'CD8', 'STAT']
+
+
+'importin',bind,'CD4';'CD4',associate,'MHC';'MHC',associate,'JAK3';'JAK3',associate,'CD8';'CD8',inhibit,'STAT'
+['importin', 'CD4', 'MHC', 'JAK3', 'CD8', 'STAT']
+
+
+'importin',bind,'CD4';'CD4',associate,'MHC';'MHC',associate,'JAK3';'JAK3',associate,'CD8';'CD8',bind,'STAT'
+['importin', 'CD4', 'MHC', 'JAK3', 'CD8', 'STAT']
+
+
+'importin',bind,'CD4';'CD4',associate,'MHC';'MHC',associate,'JAK3';'JAK3',associate,'CD8';'CD8',regulate,'SARS-CoV'
+['importin', 'CD4', 'MHC', 'JAK3', 'CD8', 'SARS-CoV']
+
+
+'importin',bind,'CD4';'CD4',associate,'MHC';'MHC',associate,'JAK3';'JAK3',associate,'CD8';'CD8',inhibit,'SARS-CoV'
+['importin', 'CD4', 'MHC', 'JAK3', 'CD8', 'SARS-CoV']
+
+
+'importin',bind,'CD4';'CD4',associate,'MHC';'MHC',associate,'JAK3';'JAK3',associate,'CD8';'CD8',bind,'SARS-CoV'
+['importin', 'CD4', 'MHC', 'JAK3', 'CD8', 'SARS-CoV']
+
+
+'importin',bind,'CD4';'CD4',associate,'MHC';'MHC',associate,'JAK3';'JAK3',associate,'CD8';'CD8',associate,'STAT';'STAT',bind,'STAT'
+['importin', 'CD4', 'MHC', 'JAK3', 'CD8', 'STAT']
+
+
+'importin',bind,'CD4';'CD4',associate,'MHC';'MHC',associate,'JAK3';'JAK3',associate,'CD8';'CD8',associate,'STAT';'STAT',inhibit,'STAT'
+['importin', 'CD4', 'MHC', 'JAK3', 'CD8', 'STAT']
+
+
+'importin',bind,'CD4';'CD4',associate,'MHC';'MHC',associate,'JAK3';'JAK3',associate,'CD8';'CD8',associate,'STAT';'STAT',regulate,'STAT'
+['importin', 'CD4', 'MHC', 'JAK3', 'CD8', 'STAT']
+
+
+'importin',bind,'CD4';'CD4',associate,'MHC';'MHC',associate,'JAK3';'JAK3',associate,'CD8';'CD8',associate,'STAT';'STAT',inhibit,'SARS-CoV'
+['importin', 'CD4', 'MHC', 'JAK3', 'CD8', 'STAT', 'SARS-CoV']
+
+
+'importin',bind,'CD4';'CD4',associate,'MHC';'MHC',associate,'JAK3';'JAK3',associate,'CD8';'CD8',associate,'STAT';'STAT',regulate,'SARS-CoV'
+['importin', 'CD4', 'MHC', 'JAK3', 'CD8', 'STAT', 'SARS-CoV']
+
+
+'importin',bind,'CD4';'CD4',associate,'MHC';'MHC',associate,'JAK3';'JAK3',associate,'CD8';'CD8',associate,'STAT';'STAT',regulate,'ORF6'
+['importin', 'CD4', 'MHC', 'JAK3', 'CD8', 'STAT', 'ORF6']
+
+
+'importin',bind,'CD4';'CD4',associate,'MHC';'MHC',associate,'JAK3';'JAK3',associate,'CD8';'CD8',associate,'SARS-CoV';'SARS-CoV',associate,'STAT';'STAT',bind,'STAT'
+['importin', 'CD4', 'MHC', 'JAK3', 'CD8', 'SARS-CoV', 'STAT']
+
+
+'importin',bind,'CD4';'CD4',associate,'MHC';'MHC',associate,'JAK3';'JAK3',associate,'CD8';'CD8',associate,'SARS-CoV';'SARS-CoV',associate,'STAT';'STAT',inhibit,'STAT'
+['importin', 'CD4', 'MHC', 'JAK3', 'CD8', 'SARS-CoV', 'STAT']
+
+
+'importin',bind,'CD4';'CD4',associate,'MHC';'MHC',associate,'JAK3';'JAK3',associate,'CD8';'CD8',associate,'SARS-CoV';'SARS-CoV',associate,'STAT';'STAT',regulate,'STAT'
+['importin', 'CD4', 'MHC', 'JAK3', 'CD8', 'SARS-CoV', 'STAT']
+
+
+'importin',bind,'CD4';'CD4',associate,'MHC';'MHC',associate,'JAK3';'JAK3',associate,'CD8';'CD8',associate,'SARS-CoV';'SARS-CoV',associate,'STAT';'STAT',inhibit,'SARS-CoV'
+['importin', 'CD4', 'MHC', 'JAK3', 'CD8', 'SARS-CoV', 'STAT']
+
+
+'importin',bind,'CD4';'CD4',associate,'MHC';'MHC',associate,'JAK3';'JAK3',associate,'CD8';'CD8',associate,'SARS-CoV';'SARS-CoV',associate,'STAT';'STAT',regulate,'SARS-CoV'
+['importin', 'CD4', 'MHC', 'JAK3', 'CD8', 'SARS-CoV', 'STAT']
+
+
+'importin',bind,'CD4';'CD4',associate,'MHC';'MHC',associate,'JAK3';'JAK3',associate,'CD8';'CD8',associate,'SARS-CoV';'SARS-CoV',associate,'STAT';'STAT',regulate,'ORF6'
+['importin', 'CD4', 'MHC', 'JAK3', 'CD8', 'SARS-CoV', 'STAT', 'ORF6']
+
+
+'importin',bind,'CD4';'CD4',associate,'MHC';'MHC',associate,'STAT';'STAT',bind,'STAT'
+['importin', 'CD4', 'MHC', 'STAT']
+
+
+'importin',bind,'CD4';'CD4',associate,'MHC';'MHC',associate,'STAT';'STAT',inhibit,'STAT'
+['importin', 'CD4', 'MHC', 'STAT']
+
+
+'importin',bind,'CD4';'CD4',associate,'MHC';'MHC',associate,'STAT';'STAT',regulate,'STAT'
+['importin', 'CD4', 'MHC', 'STAT']
+
+
+'importin',bind,'CD4';'CD4',associate,'MHC';'MHC',associate,'STAT';'STAT',inhibit,'SARS-CoV'
+['importin', 'CD4', 'MHC', 'STAT', 'SARS-CoV']
+
+
+'importin',bind,'CD4';'CD4',associate,'MHC';'MHC',associate,'STAT';'STAT',regulate,'SARS-CoV'
+['importin', 'CD4', 'MHC', 'STAT', 'SARS-CoV']
+
+
+'importin',bind,'CD4';'CD4',associate,'MHC';'MHC',associate,'STAT';'STAT',regulate,'ORF6'
+['importin', 'CD4', 'MHC', 'STAT', 'ORF6']
+
+
+'CD8',bind,'CD4';'CD4',associate,'MHC';'MHC',associate,'STAT';'STAT',bind,'STAT'
+['CD8', 'CD4', 'MHC', 'STAT']
+
+
+'CD8',bind,'CD4';'CD4',associate,'MHC';'MHC',associate,'STAT';'STAT',inhibit,'STAT'
+['CD8', 'CD4', 'MHC', 'STAT']
+
+
+'CD8',bind,'CD4';'CD4',associate,'MHC';'MHC',associate,'STAT';'STAT',regulate,'STAT'
+['CD8', 'CD4', 'MHC', 'STAT']
+
+
+'CD8',bind,'CD4';'CD4',associate,'MHC';'MHC',associate,'STAT';'STAT',inhibit,'SARS-CoV'
+['CD8', 'CD4', 'MHC', 'STAT', 'SARS-CoV']
+
+
+'CD8',bind,'CD4';'CD4',associate,'MHC';'MHC',associate,'STAT';'STAT',regulate,'SARS-CoV'
+['CD8', 'CD4', 'MHC', 'STAT', 'SARS-CoV']
+
+
+'CD8',bind,'CD4';'CD4',associate,'MHC';'MHC',associate,'STAT';'STAT',regulate,'ORF6'
+['CD8', 'CD4', 'MHC', 'STAT', 'ORF6']
+
+
+'importin',bind,'CD4';'CD4',associate,'MHC';'MHC',associate,'STAT';'STAT',associate,'JAK3';'JAK3',associate,'CD8';'CD8',regulate,'SARS-CoV'
+['importin', 'CD4', 'MHC', 'STAT', 'JAK3', 'CD8', 'SARS-CoV']
+
+
+'importin',bind,'CD4';'CD4',associate,'MHC';'MHC',associate,'STAT';'STAT',associate,'JAK3';'JAK3',associate,'CD8';'CD8',inhibit,'SARS-CoV'
+['importin', 'CD4', 'MHC', 'STAT', 'JAK3', 'CD8', 'SARS-CoV']
+
+
+'importin',bind,'CD4';'CD4',associate,'MHC';'MHC',associate,'STAT';'STAT',associate,'JAK3';'JAK3',associate,'CD8';'CD8',bind,'SARS-CoV'
+['importin', 'CD4', 'MHC', 'STAT', 'JAK3', 'CD8', 'SARS-CoV']
+
+
+'importin',bind,'CD4';'CD4',associate,'MHC';'MHC',associate,'STAT';'STAT',associate,'CD8';'CD8',regulate,'SARS-CoV'
+['importin', 'CD4', 'MHC', 'STAT', 'CD8', 'SARS-CoV']
+
+
+'importin',bind,'CD4';'CD4',associate,'MHC';'MHC',associate,'STAT';'STAT',associate,'CD8';'CD8',inhibit,'SARS-CoV'
+['importin', 'CD4', 'MHC', 'STAT', 'CD8', 'SARS-CoV']
+
+
+'importin',bind,'CD4';'CD4',associate,'MHC';'MHC',associate,'STAT';'STAT',associate,'CD8';'CD8',bind,'SARS-CoV'
+['importin', 'CD4', 'MHC', 'STAT', 'CD8', 'SARS-CoV']
+
+
+'STAT',bind,'CD4';'CD4',associate,'MHC';'MHC',associate,'CD8';'CD8',regulate,'SARS-CoV'
+['STAT', 'CD4', 'MHC', 'CD8', 'SARS-CoV']
+
+
+'STAT',bind,'CD4';'CD4',associate,'MHC';'MHC',associate,'CD8';'CD8',inhibit,'SARS-CoV'
+['STAT', 'CD4', 'MHC', 'CD8', 'SARS-CoV']
+
+
+'STAT',bind,'CD4';'CD4',associate,'MHC';'MHC',associate,'CD8';'CD8',bind,'SARS-CoV'
+['STAT', 'CD4', 'MHC', 'CD8', 'SARS-CoV']
+
+
+'importin',bind,'CD4';'CD4',associate,'MHC';'MHC',associate,'CD8';'CD8',regulate,'STAT'
+['importin', 'CD4', 'MHC', 'CD8', 'STAT']
+
+
+'importin',bind,'CD4';'CD4',associate,'MHC';'MHC',associate,'CD8';'CD8',inhibit,'STAT'
+['importin', 'CD4', 'MHC', 'CD8', 'STAT']
+
+
+'importin',bind,'CD4';'CD4',associate,'MHC';'MHC',associate,'CD8';'CD8',bind,'STAT'
+['importin', 'CD4', 'MHC', 'CD8', 'STAT']
+
+
+'importin',bind,'CD4';'CD4',associate,'MHC';'MHC',associate,'CD8';'CD8',regulate,'SARS-CoV'
+['importin', 'CD4', 'MHC', 'CD8', 'SARS-CoV']
+
+
+'importin',bind,'CD4';'CD4',associate,'MHC';'MHC',associate,'CD8';'CD8',inhibit,'SARS-CoV'
+['importin', 'CD4', 'MHC', 'CD8', 'SARS-CoV']
+
+
+'importin',bind,'CD4';'CD4',associate,'MHC';'MHC',associate,'CD8';'CD8',bind,'SARS-CoV'
+['importin', 'CD4', 'MHC', 'CD8', 'SARS-CoV']
+
+
+'importin',bind,'CD4';'CD4',associate,'MHC';'MHC',associate,'CD8';'CD8',associate,'JAK3';'JAK3',associate,'STAT';'STAT',bind,'STAT'
+['importin', 'CD4', 'MHC', 'CD8', 'JAK3', 'STAT']
+
+
+'importin',bind,'CD4';'CD4',associate,'MHC';'MHC',associate,'CD8';'CD8',associate,'JAK3';'JAK3',associate,'STAT';'STAT',inhibit,'STAT'
+['importin', 'CD4', 'MHC', 'CD8', 'JAK3', 'STAT']
+
+
+'importin',bind,'CD4';'CD4',associate,'MHC';'MHC',associate,'CD8';'CD8',associate,'JAK3';'JAK3',associate,'STAT';'STAT',regulate,'STAT'
+['importin', 'CD4', 'MHC', 'CD8', 'JAK3', 'STAT']
+
+
+'importin',bind,'CD4';'CD4',associate,'MHC';'MHC',associate,'CD8';'CD8',associate,'JAK3';'JAK3',associate,'STAT';'STAT',inhibit,'SARS-CoV'
+['importin', 'CD4', 'MHC', 'CD8', 'JAK3', 'STAT', 'SARS-CoV']
+
+
+'importin',bind,'CD4';'CD4',associate,'MHC';'MHC',associate,'CD8';'CD8',associate,'JAK3';'JAK3',associate,'STAT';'STAT',regulate,'SARS-CoV'
+['importin', 'CD4', 'MHC', 'CD8', 'JAK3', 'STAT', 'SARS-CoV']
+
+
+'importin',bind,'CD4';'CD4',associate,'MHC';'MHC',associate,'CD8';'CD8',associate,'JAK3';'JAK3',associate,'STAT';'STAT',regulate,'ORF6'
+['importin', 'CD4', 'MHC', 'CD8', 'JAK3', 'STAT', 'ORF6']
+
+
+'importin',bind,'CD4';'CD4',associate,'MHC';'MHC',associate,'CD8';'CD8',associate,'JAK3';'JAK3',associate,'SARS-CoV';'SARS-CoV',associate,'STAT';'STAT',bind,'STAT'
+['importin', 'CD4', 'MHC', 'CD8', 'JAK3', 'SARS-CoV', 'STAT']
+
+
+'importin',bind,'CD4';'CD4',associate,'MHC';'MHC',associate,'CD8';'CD8',associate,'JAK3';'JAK3',associate,'SARS-CoV';'SARS-CoV',associate,'STAT';'STAT',inhibit,'STAT'
+['importin', 'CD4', 'MHC', 'CD8', 'JAK3', 'SARS-CoV', 'STAT']
+
+
+'importin',bind,'CD4';'CD4',associate,'MHC';'MHC',associate,'CD8';'CD8',associate,'JAK3';'JAK3',associate,'SARS-CoV';'SARS-CoV',associate,'STAT';'STAT',regulate,'STAT'
+['importin', 'CD4', 'MHC', 'CD8', 'JAK3', 'SARS-CoV', 'STAT']
+
+
+'importin',bind,'CD4';'CD4',associate,'MHC';'MHC',associate,'CD8';'CD8',associate,'JAK3';'JAK3',associate,'SARS-CoV';'SARS-CoV',associate,'STAT';'STAT',inhibit,'SARS-CoV'
+['importin', 'CD4', 'MHC', 'CD8', 'JAK3', 'SARS-CoV', 'STAT']
+
+
+'importin',bind,'CD4';'CD4',associate,'MHC';'MHC',associate,'CD8';'CD8',associate,'JAK3';'JAK3',associate,'SARS-CoV';'SARS-CoV',associate,'STAT';'STAT',regulate,'SARS-CoV'
+['importin', 'CD4', 'MHC', 'CD8', 'JAK3', 'SARS-CoV', 'STAT']
+
+
+'importin',bind,'CD4';'CD4',associate,'MHC';'MHC',associate,'CD8';'CD8',associate,'JAK3';'JAK3',associate,'SARS-CoV';'SARS-CoV',associate,'STAT';'STAT',regulate,'ORF6'
+['importin', 'CD4', 'MHC', 'CD8', 'JAK3', 'SARS-CoV', 'STAT', 'ORF6']
+
+
+'importin',bind,'CD4';'CD4',associate,'MHC';'MHC',associate,'CD8';'CD8',associate,'STAT';'STAT',bind,'STAT'
+['importin', 'CD4', 'MHC', 'CD8', 'STAT']
+
+
+'importin',bind,'CD4';'CD4',associate,'MHC';'MHC',associate,'CD8';'CD8',associate,'STAT';'STAT',inhibit,'STAT'
+['importin', 'CD4', 'MHC', 'CD8', 'STAT']
+
+
+'importin',bind,'CD4';'CD4',associate,'MHC';'MHC',associate,'CD8';'CD8',associate,'STAT';'STAT',regulate,'STAT'
+['importin', 'CD4', 'MHC', 'CD8', 'STAT']
+
+
+'importin',bind,'CD4';'CD4',associate,'MHC';'MHC',associate,'CD8';'CD8',associate,'STAT';'STAT',inhibit,'SARS-CoV'
+['importin', 'CD4', 'MHC', 'CD8', 'STAT', 'SARS-CoV']
+
+
+'importin',bind,'CD4';'CD4',associate,'MHC';'MHC',associate,'CD8';'CD8',associate,'STAT';'STAT',regulate,'SARS-CoV'
+['importin', 'CD4', 'MHC', 'CD8', 'STAT', 'SARS-CoV']
+
+
+'importin',bind,'CD4';'CD4',associate,'MHC';'MHC',associate,'CD8';'CD8',associate,'STAT';'STAT',regulate,'ORF6'
+['importin', 'CD4', 'MHC', 'CD8', 'STAT', 'ORF6']
+
+
+'importin',bind,'CD4';'CD4',associate,'MHC';'MHC',associate,'CD8';'CD8',associate,'SARS-CoV';'SARS-CoV',associate,'JAK3';'JAK3',associate,'STAT';'STAT',bind,'STAT'
+['importin', 'CD4', 'MHC', 'CD8', 'SARS-CoV', 'JAK3', 'STAT']
+
+
+'importin',bind,'CD4';'CD4',associate,'MHC';'MHC',associate,'CD8';'CD8',associate,'SARS-CoV';'SARS-CoV',associate,'JAK3';'JAK3',associate,'STAT';'STAT',inhibit,'STAT'
+['importin', 'CD4', 'MHC', 'CD8', 'SARS-CoV', 'JAK3', 'STAT']
+
+
+'importin',bind,'CD4';'CD4',associate,'MHC';'MHC',associate,'CD8';'CD8',associate,'SARS-CoV';'SARS-CoV',associate,'JAK3';'JAK3',associate,'STAT';'STAT',regulate,'STAT'
+['importin', 'CD4', 'MHC', 'CD8', 'SARS-CoV', 'JAK3', 'STAT']
+
+
+'importin',bind,'CD4';'CD4',associate,'MHC';'MHC',associate,'CD8';'CD8',associate,'SARS-CoV';'SARS-CoV',associate,'JAK3';'JAK3',associate,'STAT';'STAT',inhibit,'SARS-CoV'
+['importin', 'CD4', 'MHC', 'CD8', 'SARS-CoV', 'JAK3', 'STAT']
+
+
+'importin',bind,'CD4';'CD4',associate,'MHC';'MHC',associate,'CD8';'CD8',associate,'SARS-CoV';'SARS-CoV',associate,'JAK3';'JAK3',associate,'STAT';'STAT',regulate,'SARS-CoV'
+['importin', 'CD4', 'MHC', 'CD8', 'SARS-CoV', 'JAK3', 'STAT']
+
+
+'importin',bind,'CD4';'CD4',associate,'MHC';'MHC',associate,'CD8';'CD8',associate,'SARS-CoV';'SARS-CoV',associate,'JAK3';'JAK3',associate,'STAT';'STAT',regulate,'ORF6'
+['importin', 'CD4', 'MHC', 'CD8', 'SARS-CoV', 'JAK3', 'STAT', 'ORF6']
+
+
+'importin',bind,'CD4';'CD4',associate,'MHC';'MHC',associate,'CD8';'CD8',associate,'SARS-CoV';'SARS-CoV',associate,'STAT';'STAT',bind,'STAT'
+['importin', 'CD4', 'MHC', 'CD8', 'SARS-CoV', 'STAT']
+
+
+'importin',bind,'CD4';'CD4',associate,'MHC';'MHC',associate,'CD8';'CD8',associate,'SARS-CoV';'SARS-CoV',associate,'STAT';'STAT',inhibit,'STAT'
+['importin', 'CD4', 'MHC', 'CD8', 'SARS-CoV', 'STAT']
+
+
+'importin',bind,'CD4';'CD4',associate,'MHC';'MHC',associate,'CD8';'CD8',associate,'SARS-CoV';'SARS-CoV',associate,'STAT';'STAT',regulate,'STAT'
+['importin', 'CD4', 'MHC', 'CD8', 'SARS-CoV', 'STAT']
+
+
+'importin',bind,'CD4';'CD4',associate,'MHC';'MHC',associate,'CD8';'CD8',associate,'SARS-CoV';'SARS-CoV',associate,'STAT';'STAT',inhibit,'SARS-CoV'
+['importin', 'CD4', 'MHC', 'CD8', 'SARS-CoV', 'STAT']
+
+
+'importin',bind,'CD4';'CD4',associate,'MHC';'MHC',associate,'CD8';'CD8',associate,'SARS-CoV';'SARS-CoV',associate,'STAT';'STAT',regulate,'SARS-CoV'
+['importin', 'CD4', 'MHC', 'CD8', 'SARS-CoV', 'STAT']
+
+
+'importin',bind,'CD4';'CD4',associate,'MHC';'MHC',associate,'CD8';'CD8',associate,'SARS-CoV';'SARS-CoV',associate,'STAT';'STAT',regulate,'ORF6'
+['importin', 'CD4', 'MHC', 'CD8', 'SARS-CoV', 'STAT', 'ORF6']
+
+
+'MHC',bind,'CD4';'CD4',associate,'SARS-CoV';'SARS-CoV',associate,'JAK3';'JAK3',associate,'STAT';'STAT',bind,'STAT'
+['MHC', 'CD4', 'SARS-CoV', 'JAK3', 'STAT']
+
+
+'MHC',bind,'CD4';'CD4',associate,'SARS-CoV';'SARS-CoV',associate,'JAK3';'JAK3',associate,'STAT';'STAT',inhibit,'STAT'
+['MHC', 'CD4', 'SARS-CoV', 'JAK3', 'STAT']
+
+
+'MHC',bind,'CD4';'CD4',associate,'SARS-CoV';'SARS-CoV',associate,'JAK3';'JAK3',associate,'STAT';'STAT',regulate,'STAT'
+['MHC', 'CD4', 'SARS-CoV', 'JAK3', 'STAT']
+
+
+'MHC',bind,'CD4';'CD4',associate,'SARS-CoV';'SARS-CoV',associate,'JAK3';'JAK3',associate,'STAT';'STAT',inhibit,'SARS-CoV'
+['MHC', 'CD4', 'SARS-CoV', 'JAK3', 'STAT']
+
+
+'MHC',bind,'CD4';'CD4',associate,'SARS-CoV';'SARS-CoV',associate,'JAK3';'JAK3',associate,'STAT';'STAT',regulate,'SARS-CoV'
+['MHC', 'CD4', 'SARS-CoV', 'JAK3', 'STAT']
+
+
+'MHC',bind,'CD4';'CD4',associate,'SARS-CoV';'SARS-CoV',associate,'JAK3';'JAK3',associate,'STAT';'STAT',regulate,'ORF6'
+['MHC', 'CD4', 'SARS-CoV', 'JAK3', 'STAT', 'ORF6']
+
+
+'importin',bind,'CD4';'CD4',associate,'SARS-CoV';'SARS-CoV',associate,'JAK3';'JAK3',associate,'STAT';'STAT',bind,'STAT'
+['importin', 'CD4', 'SARS-CoV', 'JAK3', 'STAT']
+
+
+'importin',bind,'CD4';'CD4',associate,'SARS-CoV';'SARS-CoV',associate,'JAK3';'JAK3',associate,'STAT';'STAT',inhibit,'STAT'
+['importin', 'CD4', 'SARS-CoV', 'JAK3', 'STAT']
+
+
+'importin',bind,'CD4';'CD4',associate,'SARS-CoV';'SARS-CoV',associate,'JAK3';'JAK3',associate,'STAT';'STAT',regulate,'STAT'
+['importin', 'CD4', 'SARS-CoV', 'JAK3', 'STAT']
+
+
+'importin',bind,'CD4';'CD4',associate,'SARS-CoV';'SARS-CoV',associate,'JAK3';'JAK3',associate,'STAT';'STAT',inhibit,'SARS-CoV'
+['importin', 'CD4', 'SARS-CoV', 'JAK3', 'STAT']
+
+
+'importin',bind,'CD4';'CD4',associate,'SARS-CoV';'SARS-CoV',associate,'JAK3';'JAK3',associate,'STAT';'STAT',regulate,'SARS-CoV'
+['importin', 'CD4', 'SARS-CoV', 'JAK3', 'STAT']
+
+
+'importin',bind,'CD4';'CD4',associate,'SARS-CoV';'SARS-CoV',associate,'JAK3';'JAK3',associate,'STAT';'STAT',regulate,'ORF6'
+['importin', 'CD4', 'SARS-CoV', 'JAK3', 'STAT', 'ORF6']
+
+
+'CD8',bind,'CD4';'CD4',associate,'SARS-CoV';'SARS-CoV',associate,'JAK3';'JAK3',associate,'STAT';'STAT',bind,'STAT'
+['CD8', 'CD4', 'SARS-CoV', 'JAK3', 'STAT']
+
+
+'CD8',bind,'CD4';'CD4',associate,'SARS-CoV';'SARS-CoV',associate,'JAK3';'JAK3',associate,'STAT';'STAT',inhibit,'STAT'
+['CD8', 'CD4', 'SARS-CoV', 'JAK3', 'STAT']
+
+
+'CD8',bind,'CD4';'CD4',associate,'SARS-CoV';'SARS-CoV',associate,'JAK3';'JAK3',associate,'STAT';'STAT',regulate,'STAT'
+['CD8', 'CD4', 'SARS-CoV', 'JAK3', 'STAT']
+
+
+'CD8',bind,'CD4';'CD4',associate,'SARS-CoV';'SARS-CoV',associate,'JAK3';'JAK3',associate,'STAT';'STAT',inhibit,'SARS-CoV'
+['CD8', 'CD4', 'SARS-CoV', 'JAK3', 'STAT']
+
+
+'CD8',bind,'CD4';'CD4',associate,'SARS-CoV';'SARS-CoV',associate,'JAK3';'JAK3',associate,'STAT';'STAT',regulate,'SARS-CoV'
+['CD8', 'CD4', 'SARS-CoV', 'JAK3', 'STAT']
+
+
+'CD8',bind,'CD4';'CD4',associate,'SARS-CoV';'SARS-CoV',associate,'JAK3';'JAK3',associate,'STAT';'STAT',regulate,'ORF6'
+['CD8', 'CD4', 'SARS-CoV', 'JAK3', 'STAT', 'ORF6']
+
+
+'importin',bind,'CD4';'CD4',associate,'SARS-CoV';'SARS-CoV',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'STAT';'STAT',bind,'STAT'
+['importin', 'CD4', 'SARS-CoV', 'JAK3', 'MHC', 'STAT']
+
+
+'importin',bind,'CD4';'CD4',associate,'SARS-CoV';'SARS-CoV',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'STAT';'STAT',inhibit,'STAT'
+['importin', 'CD4', 'SARS-CoV', 'JAK3', 'MHC', 'STAT']
+
+
+'importin',bind,'CD4';'CD4',associate,'SARS-CoV';'SARS-CoV',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'STAT';'STAT',regulate,'STAT'
+['importin', 'CD4', 'SARS-CoV', 'JAK3', 'MHC', 'STAT']
+
+
+'importin',bind,'CD4';'CD4',associate,'SARS-CoV';'SARS-CoV',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'STAT';'STAT',inhibit,'SARS-CoV'
+['importin', 'CD4', 'SARS-CoV', 'JAK3', 'MHC', 'STAT']
+
+
+'importin',bind,'CD4';'CD4',associate,'SARS-CoV';'SARS-CoV',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'STAT';'STAT',regulate,'SARS-CoV'
+['importin', 'CD4', 'SARS-CoV', 'JAK3', 'MHC', 'STAT']
+
+
+'importin',bind,'CD4';'CD4',associate,'SARS-CoV';'SARS-CoV',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'STAT';'STAT',regulate,'ORF6'
+['importin', 'CD4', 'SARS-CoV', 'JAK3', 'MHC', 'STAT', 'ORF6']
+
+
+'CD8',bind,'CD4';'CD4',associate,'SARS-CoV';'SARS-CoV',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'STAT';'STAT',bind,'STAT'
+['CD8', 'CD4', 'SARS-CoV', 'JAK3', 'MHC', 'STAT']
+
+
+'CD8',bind,'CD4';'CD4',associate,'SARS-CoV';'SARS-CoV',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'STAT';'STAT',inhibit,'STAT'
+['CD8', 'CD4', 'SARS-CoV', 'JAK3', 'MHC', 'STAT']
+
+
+'CD8',bind,'CD4';'CD4',associate,'SARS-CoV';'SARS-CoV',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'STAT';'STAT',regulate,'STAT'
+['CD8', 'CD4', 'SARS-CoV', 'JAK3', 'MHC', 'STAT']
+
+
+'CD8',bind,'CD4';'CD4',associate,'SARS-CoV';'SARS-CoV',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'STAT';'STAT',inhibit,'SARS-CoV'
+['CD8', 'CD4', 'SARS-CoV', 'JAK3', 'MHC', 'STAT']
+
+
+'CD8',bind,'CD4';'CD4',associate,'SARS-CoV';'SARS-CoV',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'STAT';'STAT',regulate,'SARS-CoV'
+['CD8', 'CD4', 'SARS-CoV', 'JAK3', 'MHC', 'STAT']
+
+
+'CD8',bind,'CD4';'CD4',associate,'SARS-CoV';'SARS-CoV',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'STAT';'STAT',regulate,'ORF6'
+['CD8', 'CD4', 'SARS-CoV', 'JAK3', 'MHC', 'STAT', 'ORF6']
+
+
+'importin',bind,'CD4';'CD4',associate,'SARS-CoV';'SARS-CoV',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'CD8';'CD8',regulate,'STAT'
+['importin', 'CD4', 'SARS-CoV', 'JAK3', 'MHC', 'CD8', 'STAT']
+
+
+'importin',bind,'CD4';'CD4',associate,'SARS-CoV';'SARS-CoV',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'CD8';'CD8',inhibit,'STAT'
+['importin', 'CD4', 'SARS-CoV', 'JAK3', 'MHC', 'CD8', 'STAT']
+
+
+'importin',bind,'CD4';'CD4',associate,'SARS-CoV';'SARS-CoV',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'CD8';'CD8',bind,'STAT'
+['importin', 'CD4', 'SARS-CoV', 'JAK3', 'MHC', 'CD8', 'STAT']
+
+
+'importin',bind,'CD4';'CD4',associate,'SARS-CoV';'SARS-CoV',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'CD8';'CD8',associate,'STAT';'STAT',bind,'STAT'
+['importin', 'CD4', 'SARS-CoV', 'JAK3', 'MHC', 'CD8', 'STAT']
+
+
+'importin',bind,'CD4';'CD4',associate,'SARS-CoV';'SARS-CoV',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'CD8';'CD8',associate,'STAT';'STAT',inhibit,'STAT'
+['importin', 'CD4', 'SARS-CoV', 'JAK3', 'MHC', 'CD8', 'STAT']
+
+
+'importin',bind,'CD4';'CD4',associate,'SARS-CoV';'SARS-CoV',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'CD8';'CD8',associate,'STAT';'STAT',regulate,'STAT'
+['importin', 'CD4', 'SARS-CoV', 'JAK3', 'MHC', 'CD8', 'STAT']
+
+
+'importin',bind,'CD4';'CD4',associate,'SARS-CoV';'SARS-CoV',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'CD8';'CD8',associate,'STAT';'STAT',inhibit,'SARS-CoV'
+['importin', 'CD4', 'SARS-CoV', 'JAK3', 'MHC', 'CD8', 'STAT']
+
+
+'importin',bind,'CD4';'CD4',associate,'SARS-CoV';'SARS-CoV',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'CD8';'CD8',associate,'STAT';'STAT',regulate,'SARS-CoV'
+['importin', 'CD4', 'SARS-CoV', 'JAK3', 'MHC', 'CD8', 'STAT']
+
+
+'importin',bind,'CD4';'CD4',associate,'SARS-CoV';'SARS-CoV',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'CD8';'CD8',associate,'STAT';'STAT',regulate,'ORF6'
+['importin', 'CD4', 'SARS-CoV', 'JAK3', 'MHC', 'CD8', 'STAT', 'ORF6']
+
+
+'MHC',bind,'CD4';'CD4',associate,'SARS-CoV';'SARS-CoV',associate,'JAK3';'JAK3',associate,'CD8';'CD8',regulate,'STAT'
+['MHC', 'CD4', 'SARS-CoV', 'JAK3', 'CD8', 'STAT']
+
+
+'MHC',bind,'CD4';'CD4',associate,'SARS-CoV';'SARS-CoV',associate,'JAK3';'JAK3',associate,'CD8';'CD8',inhibit,'STAT'
+['MHC', 'CD4', 'SARS-CoV', 'JAK3', 'CD8', 'STAT']
+
+
+'MHC',bind,'CD4';'CD4',associate,'SARS-CoV';'SARS-CoV',associate,'JAK3';'JAK3',associate,'CD8';'CD8',bind,'STAT'
+['MHC', 'CD4', 'SARS-CoV', 'JAK3', 'CD8', 'STAT']
+
+
+'importin',bind,'CD4';'CD4',associate,'SARS-CoV';'SARS-CoV',associate,'JAK3';'JAK3',associate,'CD8';'CD8',regulate,'STAT'
+['importin', 'CD4', 'SARS-CoV', 'JAK3', 'CD8', 'STAT']
+
+
+'importin',bind,'CD4';'CD4',associate,'SARS-CoV';'SARS-CoV',associate,'JAK3';'JAK3',associate,'CD8';'CD8',inhibit,'STAT'
+['importin', 'CD4', 'SARS-CoV', 'JAK3', 'CD8', 'STAT']
+
+
+'importin',bind,'CD4';'CD4',associate,'SARS-CoV';'SARS-CoV',associate,'JAK3';'JAK3',associate,'CD8';'CD8',bind,'STAT'
+['importin', 'CD4', 'SARS-CoV', 'JAK3', 'CD8', 'STAT']
+
+
+'MHC',bind,'CD4';'CD4',associate,'SARS-CoV';'SARS-CoV',associate,'JAK3';'JAK3',associate,'CD8';'CD8',associate,'STAT';'STAT',bind,'STAT'
+['MHC', 'CD4', 'SARS-CoV', 'JAK3', 'CD8', 'STAT']
+
+
+'MHC',bind,'CD4';'CD4',associate,'SARS-CoV';'SARS-CoV',associate,'JAK3';'JAK3',associate,'CD8';'CD8',associate,'STAT';'STAT',inhibit,'STAT'
+['MHC', 'CD4', 'SARS-CoV', 'JAK3', 'CD8', 'STAT']
+
+
+'MHC',bind,'CD4';'CD4',associate,'SARS-CoV';'SARS-CoV',associate,'JAK3';'JAK3',associate,'CD8';'CD8',associate,'STAT';'STAT',regulate,'STAT'
+['MHC', 'CD4', 'SARS-CoV', 'JAK3', 'CD8', 'STAT']
+
+
+'MHC',bind,'CD4';'CD4',associate,'SARS-CoV';'SARS-CoV',associate,'JAK3';'JAK3',associate,'CD8';'CD8',associate,'STAT';'STAT',inhibit,'SARS-CoV'
+['MHC', 'CD4', 'SARS-CoV', 'JAK3', 'CD8', 'STAT']
+
+
+'MHC',bind,'CD4';'CD4',associate,'SARS-CoV';'SARS-CoV',associate,'JAK3';'JAK3',associate,'CD8';'CD8',associate,'STAT';'STAT',regulate,'SARS-CoV'
+['MHC', 'CD4', 'SARS-CoV', 'JAK3', 'CD8', 'STAT']
+
+
+'MHC',bind,'CD4';'CD4',associate,'SARS-CoV';'SARS-CoV',associate,'JAK3';'JAK3',associate,'CD8';'CD8',associate,'STAT';'STAT',regulate,'ORF6'
+['MHC', 'CD4', 'SARS-CoV', 'JAK3', 'CD8', 'STAT', 'ORF6']
+
+
+'importin',bind,'CD4';'CD4',associate,'SARS-CoV';'SARS-CoV',associate,'JAK3';'JAK3',associate,'CD8';'CD8',associate,'STAT';'STAT',bind,'STAT'
+['importin', 'CD4', 'SARS-CoV', 'JAK3', 'CD8', 'STAT']
+
+
+'importin',bind,'CD4';'CD4',associate,'SARS-CoV';'SARS-CoV',associate,'JAK3';'JAK3',associate,'CD8';'CD8',associate,'STAT';'STAT',inhibit,'STAT'
+['importin', 'CD4', 'SARS-CoV', 'JAK3', 'CD8', 'STAT']
+
+
+'importin',bind,'CD4';'CD4',associate,'SARS-CoV';'SARS-CoV',associate,'JAK3';'JAK3',associate,'CD8';'CD8',associate,'STAT';'STAT',regulate,'STAT'
+['importin', 'CD4', 'SARS-CoV', 'JAK3', 'CD8', 'STAT']
+
+
+'importin',bind,'CD4';'CD4',associate,'SARS-CoV';'SARS-CoV',associate,'JAK3';'JAK3',associate,'CD8';'CD8',associate,'STAT';'STAT',inhibit,'SARS-CoV'
+['importin', 'CD4', 'SARS-CoV', 'JAK3', 'CD8', 'STAT']
+
+
+'importin',bind,'CD4';'CD4',associate,'SARS-CoV';'SARS-CoV',associate,'JAK3';'JAK3',associate,'CD8';'CD8',associate,'STAT';'STAT',regulate,'SARS-CoV'
+['importin', 'CD4', 'SARS-CoV', 'JAK3', 'CD8', 'STAT']
+
+
+'importin',bind,'CD4';'CD4',associate,'SARS-CoV';'SARS-CoV',associate,'JAK3';'JAK3',associate,'CD8';'CD8',associate,'STAT';'STAT',regulate,'ORF6'
+['importin', 'CD4', 'SARS-CoV', 'JAK3', 'CD8', 'STAT', 'ORF6']
+
+
+'importin',bind,'CD4';'CD4',associate,'SARS-CoV';'SARS-CoV',associate,'JAK3';'JAK3',associate,'CD8';'CD8',associate,'MHC';'MHC',associate,'STAT';'STAT',bind,'STAT'
+['importin', 'CD4', 'SARS-CoV', 'JAK3', 'CD8', 'MHC', 'STAT']
+
+
+'importin',bind,'CD4';'CD4',associate,'SARS-CoV';'SARS-CoV',associate,'JAK3';'JAK3',associate,'CD8';'CD8',associate,'MHC';'MHC',associate,'STAT';'STAT',inhibit,'STAT'
+['importin', 'CD4', 'SARS-CoV', 'JAK3', 'CD8', 'MHC', 'STAT']
+
+
+'importin',bind,'CD4';'CD4',associate,'SARS-CoV';'SARS-CoV',associate,'JAK3';'JAK3',associate,'CD8';'CD8',associate,'MHC';'MHC',associate,'STAT';'STAT',regulate,'STAT'
+['importin', 'CD4', 'SARS-CoV', 'JAK3', 'CD8', 'MHC', 'STAT']
+
+
+'importin',bind,'CD4';'CD4',associate,'SARS-CoV';'SARS-CoV',associate,'JAK3';'JAK3',associate,'CD8';'CD8',associate,'MHC';'MHC',associate,'STAT';'STAT',inhibit,'SARS-CoV'
+['importin', 'CD4', 'SARS-CoV', 'JAK3', 'CD8', 'MHC', 'STAT']
+
+
+'importin',bind,'CD4';'CD4',associate,'SARS-CoV';'SARS-CoV',associate,'JAK3';'JAK3',associate,'CD8';'CD8',associate,'MHC';'MHC',associate,'STAT';'STAT',regulate,'SARS-CoV'
+['importin', 'CD4', 'SARS-CoV', 'JAK3', 'CD8', 'MHC', 'STAT']
+
+
+'importin',bind,'CD4';'CD4',associate,'SARS-CoV';'SARS-CoV',associate,'JAK3';'JAK3',associate,'CD8';'CD8',associate,'MHC';'MHC',associate,'STAT';'STAT',regulate,'ORF6'
+['importin', 'CD4', 'SARS-CoV', 'JAK3', 'CD8', 'MHC', 'STAT', 'ORF6']
+
+
+'MHC',bind,'CD4';'CD4',associate,'SARS-CoV';'SARS-CoV',associate,'STAT';'STAT',bind,'STAT'
+['MHC', 'CD4', 'SARS-CoV', 'STAT']
+
+
+'MHC',bind,'CD4';'CD4',associate,'SARS-CoV';'SARS-CoV',associate,'STAT';'STAT',inhibit,'STAT'
+['MHC', 'CD4', 'SARS-CoV', 'STAT']
+
+
+'MHC',bind,'CD4';'CD4',associate,'SARS-CoV';'SARS-CoV',associate,'STAT';'STAT',regulate,'STAT'
+['MHC', 'CD4', 'SARS-CoV', 'STAT']
+
+
+'MHC',bind,'CD4';'CD4',associate,'SARS-CoV';'SARS-CoV',associate,'STAT';'STAT',inhibit,'SARS-CoV'
+['MHC', 'CD4', 'SARS-CoV', 'STAT']
+
+
+'MHC',bind,'CD4';'CD4',associate,'SARS-CoV';'SARS-CoV',associate,'STAT';'STAT',regulate,'SARS-CoV'
+['MHC', 'CD4', 'SARS-CoV', 'STAT']
+
+
+'MHC',bind,'CD4';'CD4',associate,'SARS-CoV';'SARS-CoV',associate,'STAT';'STAT',regulate,'ORF6'
+['MHC', 'CD4', 'SARS-CoV', 'STAT', 'ORF6']
+
+
+'importin',bind,'CD4';'CD4',associate,'SARS-CoV';'SARS-CoV',associate,'STAT';'STAT',bind,'STAT'
+['importin', 'CD4', 'SARS-CoV', 'STAT']
+
+
+'importin',bind,'CD4';'CD4',associate,'SARS-CoV';'SARS-CoV',associate,'STAT';'STAT',inhibit,'STAT'
+['importin', 'CD4', 'SARS-CoV', 'STAT']
+
+
+'importin',bind,'CD4';'CD4',associate,'SARS-CoV';'SARS-CoV',associate,'STAT';'STAT',regulate,'STAT'
+['importin', 'CD4', 'SARS-CoV', 'STAT']
+
+
+'importin',bind,'CD4';'CD4',associate,'SARS-CoV';'SARS-CoV',associate,'STAT';'STAT',inhibit,'SARS-CoV'
+['importin', 'CD4', 'SARS-CoV', 'STAT']
+
+
+'importin',bind,'CD4';'CD4',associate,'SARS-CoV';'SARS-CoV',associate,'STAT';'STAT',regulate,'SARS-CoV'
+['importin', 'CD4', 'SARS-CoV', 'STAT']
+
+
+'importin',bind,'CD4';'CD4',associate,'SARS-CoV';'SARS-CoV',associate,'STAT';'STAT',regulate,'ORF6'
+['importin', 'CD4', 'SARS-CoV', 'STAT', 'ORF6']
+
+
+'CD8',bind,'CD4';'CD4',associate,'SARS-CoV';'SARS-CoV',associate,'STAT';'STAT',bind,'STAT'
+['CD8', 'CD4', 'SARS-CoV', 'STAT']
+
+
+'CD8',bind,'CD4';'CD4',associate,'SARS-CoV';'SARS-CoV',associate,'STAT';'STAT',inhibit,'STAT'
+['CD8', 'CD4', 'SARS-CoV', 'STAT']
+
+
+'CD8',bind,'CD4';'CD4',associate,'SARS-CoV';'SARS-CoV',associate,'STAT';'STAT',regulate,'STAT'
+['CD8', 'CD4', 'SARS-CoV', 'STAT']
+
+
+'CD8',bind,'CD4';'CD4',associate,'SARS-CoV';'SARS-CoV',associate,'STAT';'STAT',inhibit,'SARS-CoV'
+['CD8', 'CD4', 'SARS-CoV', 'STAT']
+
+
+'CD8',bind,'CD4';'CD4',associate,'SARS-CoV';'SARS-CoV',associate,'STAT';'STAT',regulate,'SARS-CoV'
+['CD8', 'CD4', 'SARS-CoV', 'STAT']
+
+
+'CD8',bind,'CD4';'CD4',associate,'SARS-CoV';'SARS-CoV',associate,'STAT';'STAT',regulate,'ORF6'
+['CD8', 'CD4', 'SARS-CoV', 'STAT', 'ORF6']
+
+
+'STAT',bind,'CD4';'CD4',associate,'CD8';'CD8',regulate,'SARS-CoV'
+['STAT', 'CD4', 'CD8', 'SARS-CoV']
+
+
+'STAT',bind,'CD4';'CD4',associate,'CD8';'CD8',inhibit,'SARS-CoV'
+['STAT', 'CD4', 'CD8', 'SARS-CoV']
+
+
+'STAT',bind,'CD4';'CD4',associate,'CD8';'CD8',bind,'SARS-CoV'
+['STAT', 'CD4', 'CD8', 'SARS-CoV']
+
+
+'MHC',bind,'CD4';'CD4',associate,'CD8';'CD8',regulate,'STAT'
+['MHC', 'CD4', 'CD8', 'STAT']
+
+
+'MHC',bind,'CD4';'CD4',associate,'CD8';'CD8',inhibit,'STAT'
+['MHC', 'CD4', 'CD8', 'STAT']
+
+
+'MHC',bind,'CD4';'CD4',associate,'CD8';'CD8',bind,'STAT'
+['MHC', 'CD4', 'CD8', 'STAT']
+
+
+'MHC',bind,'CD4';'CD4',associate,'CD8';'CD8',regulate,'SARS-CoV'
+['MHC', 'CD4', 'CD8', 'SARS-CoV']
+
+
+'MHC',bind,'CD4';'CD4',associate,'CD8';'CD8',inhibit,'SARS-CoV'
+['MHC', 'CD4', 'CD8', 'SARS-CoV']
+
+
+'MHC',bind,'CD4';'CD4',associate,'CD8';'CD8',bind,'SARS-CoV'
+['MHC', 'CD4', 'CD8', 'SARS-CoV']
+
+
+'importin',bind,'CD4';'CD4',associate,'CD8';'CD8',regulate,'STAT'
+['importin', 'CD4', 'CD8', 'STAT']
+
+
+'importin',bind,'CD4';'CD4',associate,'CD8';'CD8',inhibit,'STAT'
+['importin', 'CD4', 'CD8', 'STAT']
+
+
+'importin',bind,'CD4';'CD4',associate,'CD8';'CD8',bind,'STAT'
+['importin', 'CD4', 'CD8', 'STAT']
+
+
+'importin',bind,'CD4';'CD4',associate,'CD8';'CD8',regulate,'SARS-CoV'
+['importin', 'CD4', 'CD8', 'SARS-CoV']
+
+
+'importin',bind,'CD4';'CD4',associate,'CD8';'CD8',inhibit,'SARS-CoV'
+['importin', 'CD4', 'CD8', 'SARS-CoV']
+
+
+'importin',bind,'CD4';'CD4',associate,'CD8';'CD8',bind,'SARS-CoV'
+['importin', 'CD4', 'CD8', 'SARS-CoV']
+
+
+'MHC',bind,'CD4';'CD4',associate,'CD8';'CD8',associate,'JAK3';'JAK3',associate,'STAT';'STAT',bind,'STAT'
+['MHC', 'CD4', 'CD8', 'JAK3', 'STAT']
+
+
+'MHC',bind,'CD4';'CD4',associate,'CD8';'CD8',associate,'JAK3';'JAK3',associate,'STAT';'STAT',inhibit,'STAT'
+['MHC', 'CD4', 'CD8', 'JAK3', 'STAT']
+
+
+'MHC',bind,'CD4';'CD4',associate,'CD8';'CD8',associate,'JAK3';'JAK3',associate,'STAT';'STAT',regulate,'STAT'
+['MHC', 'CD4', 'CD8', 'JAK3', 'STAT']
+
+
+'MHC',bind,'CD4';'CD4',associate,'CD8';'CD8',associate,'JAK3';'JAK3',associate,'STAT';'STAT',inhibit,'SARS-CoV'
+['MHC', 'CD4', 'CD8', 'JAK3', 'STAT', 'SARS-CoV']
+
+
+'MHC',bind,'CD4';'CD4',associate,'CD8';'CD8',associate,'JAK3';'JAK3',associate,'STAT';'STAT',regulate,'SARS-CoV'
+['MHC', 'CD4', 'CD8', 'JAK3', 'STAT', 'SARS-CoV']
+
+
+'MHC',bind,'CD4';'CD4',associate,'CD8';'CD8',associate,'JAK3';'JAK3',associate,'STAT';'STAT',regulate,'ORF6'
+['MHC', 'CD4', 'CD8', 'JAK3', 'STAT', 'ORF6']
+
+
+'importin',bind,'CD4';'CD4',associate,'CD8';'CD8',associate,'JAK3';'JAK3',associate,'STAT';'STAT',bind,'STAT'
+['importin', 'CD4', 'CD8', 'JAK3', 'STAT']
+
+
+'importin',bind,'CD4';'CD4',associate,'CD8';'CD8',associate,'JAK3';'JAK3',associate,'STAT';'STAT',inhibit,'STAT'
+['importin', 'CD4', 'CD8', 'JAK3', 'STAT']
+
+
+'importin',bind,'CD4';'CD4',associate,'CD8';'CD8',associate,'JAK3';'JAK3',associate,'STAT';'STAT',regulate,'STAT'
+['importin', 'CD4', 'CD8', 'JAK3', 'STAT']
+
+
+'importin',bind,'CD4';'CD4',associate,'CD8';'CD8',associate,'JAK3';'JAK3',associate,'STAT';'STAT',inhibit,'SARS-CoV'
+['importin', 'CD4', 'CD8', 'JAK3', 'STAT', 'SARS-CoV']
+
+
+'importin',bind,'CD4';'CD4',associate,'CD8';'CD8',associate,'JAK3';'JAK3',associate,'STAT';'STAT',regulate,'SARS-CoV'
+['importin', 'CD4', 'CD8', 'JAK3', 'STAT', 'SARS-CoV']
+
+
+'importin',bind,'CD4';'CD4',associate,'CD8';'CD8',associate,'JAK3';'JAK3',associate,'STAT';'STAT',regulate,'ORF6'
+['importin', 'CD4', 'CD8', 'JAK3', 'STAT', 'ORF6']
+
+
+'importin',bind,'CD4';'CD4',associate,'CD8';'CD8',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'STAT';'STAT',bind,'STAT'
+['importin', 'CD4', 'CD8', 'JAK3', 'MHC', 'STAT']
+
+
+'importin',bind,'CD4';'CD4',associate,'CD8';'CD8',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'STAT';'STAT',inhibit,'STAT'
+['importin', 'CD4', 'CD8', 'JAK3', 'MHC', 'STAT']
+
+
+'importin',bind,'CD4';'CD4',associate,'CD8';'CD8',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'STAT';'STAT',regulate,'STAT'
+['importin', 'CD4', 'CD8', 'JAK3', 'MHC', 'STAT']
+
+
+'importin',bind,'CD4';'CD4',associate,'CD8';'CD8',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'STAT';'STAT',inhibit,'SARS-CoV'
+['importin', 'CD4', 'CD8', 'JAK3', 'MHC', 'STAT', 'SARS-CoV']
+
+
+'importin',bind,'CD4';'CD4',associate,'CD8';'CD8',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'STAT';'STAT',regulate,'SARS-CoV'
+['importin', 'CD4', 'CD8', 'JAK3', 'MHC', 'STAT', 'SARS-CoV']
+
+
+'importin',bind,'CD4';'CD4',associate,'CD8';'CD8',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'STAT';'STAT',regulate,'ORF6'
+['importin', 'CD4', 'CD8', 'JAK3', 'MHC', 'STAT', 'ORF6']
+
+
+'MHC',bind,'CD4';'CD4',associate,'CD8';'CD8',associate,'JAK3';'JAK3',associate,'SARS-CoV';'SARS-CoV',associate,'STAT';'STAT',bind,'STAT'
+['MHC', 'CD4', 'CD8', 'JAK3', 'SARS-CoV', 'STAT']
+
+
+'MHC',bind,'CD4';'CD4',associate,'CD8';'CD8',associate,'JAK3';'JAK3',associate,'SARS-CoV';'SARS-CoV',associate,'STAT';'STAT',inhibit,'STAT'
+['MHC', 'CD4', 'CD8', 'JAK3', 'SARS-CoV', 'STAT']
+
+
+'MHC',bind,'CD4';'CD4',associate,'CD8';'CD8',associate,'JAK3';'JAK3',associate,'SARS-CoV';'SARS-CoV',associate,'STAT';'STAT',regulate,'STAT'
+['MHC', 'CD4', 'CD8', 'JAK3', 'SARS-CoV', 'STAT']
+
+
+'MHC',bind,'CD4';'CD4',associate,'CD8';'CD8',associate,'JAK3';'JAK3',associate,'SARS-CoV';'SARS-CoV',associate,'STAT';'STAT',inhibit,'SARS-CoV'
+['MHC', 'CD4', 'CD8', 'JAK3', 'SARS-CoV', 'STAT']
+
+
+'MHC',bind,'CD4';'CD4',associate,'CD8';'CD8',associate,'JAK3';'JAK3',associate,'SARS-CoV';'SARS-CoV',associate,'STAT';'STAT',regulate,'SARS-CoV'
+['MHC', 'CD4', 'CD8', 'JAK3', 'SARS-CoV', 'STAT']
+
+
+'MHC',bind,'CD4';'CD4',associate,'CD8';'CD8',associate,'JAK3';'JAK3',associate,'SARS-CoV';'SARS-CoV',associate,'STAT';'STAT',regulate,'ORF6'
+['MHC', 'CD4', 'CD8', 'JAK3', 'SARS-CoV', 'STAT', 'ORF6']
+
+
+'importin',bind,'CD4';'CD4',associate,'CD8';'CD8',associate,'JAK3';'JAK3',associate,'SARS-CoV';'SARS-CoV',associate,'STAT';'STAT',bind,'STAT'
+['importin', 'CD4', 'CD8', 'JAK3', 'SARS-CoV', 'STAT']
+
+
+'importin',bind,'CD4';'CD4',associate,'CD8';'CD8',associate,'JAK3';'JAK3',associate,'SARS-CoV';'SARS-CoV',associate,'STAT';'STAT',inhibit,'STAT'
+['importin', 'CD4', 'CD8', 'JAK3', 'SARS-CoV', 'STAT']
+
+
+'importin',bind,'CD4';'CD4',associate,'CD8';'CD8',associate,'JAK3';'JAK3',associate,'SARS-CoV';'SARS-CoV',associate,'STAT';'STAT',regulate,'STAT'
+['importin', 'CD4', 'CD8', 'JAK3', 'SARS-CoV', 'STAT']
+
+
+'importin',bind,'CD4';'CD4',associate,'CD8';'CD8',associate,'JAK3';'JAK3',associate,'SARS-CoV';'SARS-CoV',associate,'STAT';'STAT',inhibit,'SARS-CoV'
+['importin', 'CD4', 'CD8', 'JAK3', 'SARS-CoV', 'STAT']
+
+
+'importin',bind,'CD4';'CD4',associate,'CD8';'CD8',associate,'JAK3';'JAK3',associate,'SARS-CoV';'SARS-CoV',associate,'STAT';'STAT',regulate,'SARS-CoV'
+['importin', 'CD4', 'CD8', 'JAK3', 'SARS-CoV', 'STAT']
+
+
+'importin',bind,'CD4';'CD4',associate,'CD8';'CD8',associate,'JAK3';'JAK3',associate,'SARS-CoV';'SARS-CoV',associate,'STAT';'STAT',regulate,'ORF6'
+['importin', 'CD4', 'CD8', 'JAK3', 'SARS-CoV', 'STAT', 'ORF6']
+
+
+'MHC',bind,'CD4';'CD4',associate,'CD8';'CD8',associate,'STAT';'STAT',bind,'STAT'
+['MHC', 'CD4', 'CD8', 'STAT']
+
+
+'MHC',bind,'CD4';'CD4',associate,'CD8';'CD8',associate,'STAT';'STAT',inhibit,'STAT'
+['MHC', 'CD4', 'CD8', 'STAT']
+
+
+'MHC',bind,'CD4';'CD4',associate,'CD8';'CD8',associate,'STAT';'STAT',regulate,'STAT'
+['MHC', 'CD4', 'CD8', 'STAT']
+
+
+'MHC',bind,'CD4';'CD4',associate,'CD8';'CD8',associate,'STAT';'STAT',inhibit,'SARS-CoV'
+['MHC', 'CD4', 'CD8', 'STAT', 'SARS-CoV']
+
+
+'MHC',bind,'CD4';'CD4',associate,'CD8';'CD8',associate,'STAT';'STAT',regulate,'SARS-CoV'
+['MHC', 'CD4', 'CD8', 'STAT', 'SARS-CoV']
+
+
+'MHC',bind,'CD4';'CD4',associate,'CD8';'CD8',associate,'STAT';'STAT',regulate,'ORF6'
+['MHC', 'CD4', 'CD8', 'STAT', 'ORF6']
+
+
+'importin',bind,'CD4';'CD4',associate,'CD8';'CD8',associate,'STAT';'STAT',bind,'STAT'
+['importin', 'CD4', 'CD8', 'STAT']
+
+
+'importin',bind,'CD4';'CD4',associate,'CD8';'CD8',associate,'STAT';'STAT',inhibit,'STAT'
+['importin', 'CD4', 'CD8', 'STAT']
+
+
+'importin',bind,'CD4';'CD4',associate,'CD8';'CD8',associate,'STAT';'STAT',regulate,'STAT'
+['importin', 'CD4', 'CD8', 'STAT']
+
+
+'importin',bind,'CD4';'CD4',associate,'CD8';'CD8',associate,'STAT';'STAT',inhibit,'SARS-CoV'
+['importin', 'CD4', 'CD8', 'STAT', 'SARS-CoV']
+
+
+'importin',bind,'CD4';'CD4',associate,'CD8';'CD8',associate,'STAT';'STAT',regulate,'SARS-CoV'
+['importin', 'CD4', 'CD8', 'STAT', 'SARS-CoV']
+
+
+'importin',bind,'CD4';'CD4',associate,'CD8';'CD8',associate,'STAT';'STAT',regulate,'ORF6'
+['importin', 'CD4', 'CD8', 'STAT', 'ORF6']
+
+
+'importin',bind,'CD4';'CD4',associate,'CD8';'CD8',associate,'MHC';'MHC',associate,'JAK3';'JAK3',associate,'STAT';'STAT',bind,'STAT'
+['importin', 'CD4', 'CD8', 'MHC', 'JAK3', 'STAT']
+
+
+'importin',bind,'CD4';'CD4',associate,'CD8';'CD8',associate,'MHC';'MHC',associate,'JAK3';'JAK3',associate,'STAT';'STAT',inhibit,'STAT'
+['importin', 'CD4', 'CD8', 'MHC', 'JAK3', 'STAT']
+
+
+'importin',bind,'CD4';'CD4',associate,'CD8';'CD8',associate,'MHC';'MHC',associate,'JAK3';'JAK3',associate,'STAT';'STAT',regulate,'STAT'
+['importin', 'CD4', 'CD8', 'MHC', 'JAK3', 'STAT']
+
+
+'importin',bind,'CD4';'CD4',associate,'CD8';'CD8',associate,'MHC';'MHC',associate,'JAK3';'JAK3',associate,'STAT';'STAT',inhibit,'SARS-CoV'
+['importin', 'CD4', 'CD8', 'MHC', 'JAK3', 'STAT', 'SARS-CoV']
+
+
+'importin',bind,'CD4';'CD4',associate,'CD8';'CD8',associate,'MHC';'MHC',associate,'JAK3';'JAK3',associate,'STAT';'STAT',regulate,'SARS-CoV'
+['importin', 'CD4', 'CD8', 'MHC', 'JAK3', 'STAT', 'SARS-CoV']
+
+
+'importin',bind,'CD4';'CD4',associate,'CD8';'CD8',associate,'MHC';'MHC',associate,'JAK3';'JAK3',associate,'STAT';'STAT',regulate,'ORF6'
+['importin', 'CD4', 'CD8', 'MHC', 'JAK3', 'STAT', 'ORF6']
+
+
+'importin',bind,'CD4';'CD4',associate,'CD8';'CD8',associate,'MHC';'MHC',associate,'JAK3';'JAK3',associate,'SARS-CoV';'SARS-CoV',associate,'STAT';'STAT',bind,'STAT'
+['importin', 'CD4', 'CD8', 'MHC', 'JAK3', 'SARS-CoV', 'STAT']
+
+
+'importin',bind,'CD4';'CD4',associate,'CD8';'CD8',associate,'MHC';'MHC',associate,'JAK3';'JAK3',associate,'SARS-CoV';'SARS-CoV',associate,'STAT';'STAT',inhibit,'STAT'
+['importin', 'CD4', 'CD8', 'MHC', 'JAK3', 'SARS-CoV', 'STAT']
+
+
+'importin',bind,'CD4';'CD4',associate,'CD8';'CD8',associate,'MHC';'MHC',associate,'JAK3';'JAK3',associate,'SARS-CoV';'SARS-CoV',associate,'STAT';'STAT',regulate,'STAT'
+['importin', 'CD4', 'CD8', 'MHC', 'JAK3', 'SARS-CoV', 'STAT']
+
+
+'importin',bind,'CD4';'CD4',associate,'CD8';'CD8',associate,'MHC';'MHC',associate,'JAK3';'JAK3',associate,'SARS-CoV';'SARS-CoV',associate,'STAT';'STAT',inhibit,'SARS-CoV'
+['importin', 'CD4', 'CD8', 'MHC', 'JAK3', 'SARS-CoV', 'STAT']
+
+
+'importin',bind,'CD4';'CD4',associate,'CD8';'CD8',associate,'MHC';'MHC',associate,'JAK3';'JAK3',associate,'SARS-CoV';'SARS-CoV',associate,'STAT';'STAT',regulate,'SARS-CoV'
+['importin', 'CD4', 'CD8', 'MHC', 'JAK3', 'SARS-CoV', 'STAT']
+
+
+'importin',bind,'CD4';'CD4',associate,'CD8';'CD8',associate,'MHC';'MHC',associate,'JAK3';'JAK3',associate,'SARS-CoV';'SARS-CoV',associate,'STAT';'STAT',regulate,'ORF6'
+['importin', 'CD4', 'CD8', 'MHC', 'JAK3', 'SARS-CoV', 'STAT', 'ORF6']
+
+
+'importin',bind,'CD4';'CD4',associate,'CD8';'CD8',associate,'MHC';'MHC',associate,'STAT';'STAT',bind,'STAT'
+['importin', 'CD4', 'CD8', 'MHC', 'STAT']
+
+
+'importin',bind,'CD4';'CD4',associate,'CD8';'CD8',associate,'MHC';'MHC',associate,'STAT';'STAT',inhibit,'STAT'
+['importin', 'CD4', 'CD8', 'MHC', 'STAT']
+
+
+'importin',bind,'CD4';'CD4',associate,'CD8';'CD8',associate,'MHC';'MHC',associate,'STAT';'STAT',regulate,'STAT'
+['importin', 'CD4', 'CD8', 'MHC', 'STAT']
+
+
+'importin',bind,'CD4';'CD4',associate,'CD8';'CD8',associate,'MHC';'MHC',associate,'STAT';'STAT',inhibit,'SARS-CoV'
+['importin', 'CD4', 'CD8', 'MHC', 'STAT', 'SARS-CoV']
+
+
+'importin',bind,'CD4';'CD4',associate,'CD8';'CD8',associate,'MHC';'MHC',associate,'STAT';'STAT',regulate,'SARS-CoV'
+['importin', 'CD4', 'CD8', 'MHC', 'STAT', 'SARS-CoV']
+
+
+'importin',bind,'CD4';'CD4',associate,'CD8';'CD8',associate,'MHC';'MHC',associate,'STAT';'STAT',regulate,'ORF6'
+['importin', 'CD4', 'CD8', 'MHC', 'STAT', 'ORF6']
+
+
+'MHC',bind,'CD4';'CD4',associate,'CD8';'CD8',associate,'SARS-CoV';'SARS-CoV',associate,'JAK3';'JAK3',associate,'STAT';'STAT',bind,'STAT'
+['MHC', 'CD4', 'CD8', 'SARS-CoV', 'JAK3', 'STAT']
+
+
+'MHC',bind,'CD4';'CD4',associate,'CD8';'CD8',associate,'SARS-CoV';'SARS-CoV',associate,'JAK3';'JAK3',associate,'STAT';'STAT',inhibit,'STAT'
+['MHC', 'CD4', 'CD8', 'SARS-CoV', 'JAK3', 'STAT']
+
+
+'MHC',bind,'CD4';'CD4',associate,'CD8';'CD8',associate,'SARS-CoV';'SARS-CoV',associate,'JAK3';'JAK3',associate,'STAT';'STAT',regulate,'STAT'
+['MHC', 'CD4', 'CD8', 'SARS-CoV', 'JAK3', 'STAT']
+
+
+'MHC',bind,'CD4';'CD4',associate,'CD8';'CD8',associate,'SARS-CoV';'SARS-CoV',associate,'JAK3';'JAK3',associate,'STAT';'STAT',inhibit,'SARS-CoV'
+['MHC', 'CD4', 'CD8', 'SARS-CoV', 'JAK3', 'STAT']
+
+
+'MHC',bind,'CD4';'CD4',associate,'CD8';'CD8',associate,'SARS-CoV';'SARS-CoV',associate,'JAK3';'JAK3',associate,'STAT';'STAT',regulate,'SARS-CoV'
+['MHC', 'CD4', 'CD8', 'SARS-CoV', 'JAK3', 'STAT']
+
+
+'MHC',bind,'CD4';'CD4',associate,'CD8';'CD8',associate,'SARS-CoV';'SARS-CoV',associate,'JAK3';'JAK3',associate,'STAT';'STAT',regulate,'ORF6'
+['MHC', 'CD4', 'CD8', 'SARS-CoV', 'JAK3', 'STAT', 'ORF6']
+
+
+'importin',bind,'CD4';'CD4',associate,'CD8';'CD8',associate,'SARS-CoV';'SARS-CoV',associate,'JAK3';'JAK3',associate,'STAT';'STAT',bind,'STAT'
+['importin', 'CD4', 'CD8', 'SARS-CoV', 'JAK3', 'STAT']
+
+
+'importin',bind,'CD4';'CD4',associate,'CD8';'CD8',associate,'SARS-CoV';'SARS-CoV',associate,'JAK3';'JAK3',associate,'STAT';'STAT',inhibit,'STAT'
+['importin', 'CD4', 'CD8', 'SARS-CoV', 'JAK3', 'STAT']
+
+
+'importin',bind,'CD4';'CD4',associate,'CD8';'CD8',associate,'SARS-CoV';'SARS-CoV',associate,'JAK3';'JAK3',associate,'STAT';'STAT',regulate,'STAT'
+['importin', 'CD4', 'CD8', 'SARS-CoV', 'JAK3', 'STAT']
+
+
+'importin',bind,'CD4';'CD4',associate,'CD8';'CD8',associate,'SARS-CoV';'SARS-CoV',associate,'JAK3';'JAK3',associate,'STAT';'STAT',inhibit,'SARS-CoV'
+['importin', 'CD4', 'CD8', 'SARS-CoV', 'JAK3', 'STAT']
+
+
+'importin',bind,'CD4';'CD4',associate,'CD8';'CD8',associate,'SARS-CoV';'SARS-CoV',associate,'JAK3';'JAK3',associate,'STAT';'STAT',regulate,'SARS-CoV'
+['importin', 'CD4', 'CD8', 'SARS-CoV', 'JAK3', 'STAT']
+
+
+'importin',bind,'CD4';'CD4',associate,'CD8';'CD8',associate,'SARS-CoV';'SARS-CoV',associate,'JAK3';'JAK3',associate,'STAT';'STAT',regulate,'ORF6'
+['importin', 'CD4', 'CD8', 'SARS-CoV', 'JAK3', 'STAT', 'ORF6']
+
+
+'importin',bind,'CD4';'CD4',associate,'CD8';'CD8',associate,'SARS-CoV';'SARS-CoV',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'STAT';'STAT',bind,'STAT'
+['importin', 'CD4', 'CD8', 'SARS-CoV', 'JAK3', 'MHC', 'STAT']
+
+
+'importin',bind,'CD4';'CD4',associate,'CD8';'CD8',associate,'SARS-CoV';'SARS-CoV',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'STAT';'STAT',inhibit,'STAT'
+['importin', 'CD4', 'CD8', 'SARS-CoV', 'JAK3', 'MHC', 'STAT']
+
+
+'importin',bind,'CD4';'CD4',associate,'CD8';'CD8',associate,'SARS-CoV';'SARS-CoV',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'STAT';'STAT',regulate,'STAT'
+['importin', 'CD4', 'CD8', 'SARS-CoV', 'JAK3', 'MHC', 'STAT']
+
+
+'importin',bind,'CD4';'CD4',associate,'CD8';'CD8',associate,'SARS-CoV';'SARS-CoV',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'STAT';'STAT',inhibit,'SARS-CoV'
+['importin', 'CD4', 'CD8', 'SARS-CoV', 'JAK3', 'MHC', 'STAT']
+
+
+'importin',bind,'CD4';'CD4',associate,'CD8';'CD8',associate,'SARS-CoV';'SARS-CoV',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'STAT';'STAT',regulate,'SARS-CoV'
+['importin', 'CD4', 'CD8', 'SARS-CoV', 'JAK3', 'MHC', 'STAT']
+
+
+'importin',bind,'CD4';'CD4',associate,'CD8';'CD8',associate,'SARS-CoV';'SARS-CoV',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'STAT';'STAT',regulate,'ORF6'
+['importin', 'CD4', 'CD8', 'SARS-CoV', 'JAK3', 'MHC', 'STAT', 'ORF6']
+
+
+'MHC',bind,'CD4';'CD4',associate,'CD8';'CD8',associate,'SARS-CoV';'SARS-CoV',associate,'STAT';'STAT',bind,'STAT'
+['MHC', 'CD4', 'CD8', 'SARS-CoV', 'STAT']
+
+
+'MHC',bind,'CD4';'CD4',associate,'CD8';'CD8',associate,'SARS-CoV';'SARS-CoV',associate,'STAT';'STAT',inhibit,'STAT'
+['MHC', 'CD4', 'CD8', 'SARS-CoV', 'STAT']
+
+
+'MHC',bind,'CD4';'CD4',associate,'CD8';'CD8',associate,'SARS-CoV';'SARS-CoV',associate,'STAT';'STAT',regulate,'STAT'
+['MHC', 'CD4', 'CD8', 'SARS-CoV', 'STAT']
+
+
+'MHC',bind,'CD4';'CD4',associate,'CD8';'CD8',associate,'SARS-CoV';'SARS-CoV',associate,'STAT';'STAT',inhibit,'SARS-CoV'
+['MHC', 'CD4', 'CD8', 'SARS-CoV', 'STAT']
+
+
+'MHC',bind,'CD4';'CD4',associate,'CD8';'CD8',associate,'SARS-CoV';'SARS-CoV',associate,'STAT';'STAT',regulate,'SARS-CoV'
+['MHC', 'CD4', 'CD8', 'SARS-CoV', 'STAT']
+
+
+'MHC',bind,'CD4';'CD4',associate,'CD8';'CD8',associate,'SARS-CoV';'SARS-CoV',associate,'STAT';'STAT',regulate,'ORF6'
+['MHC', 'CD4', 'CD8', 'SARS-CoV', 'STAT', 'ORF6']
+
+
+'importin',bind,'CD4';'CD4',associate,'CD8';'CD8',associate,'SARS-CoV';'SARS-CoV',associate,'STAT';'STAT',bind,'STAT'
+['importin', 'CD4', 'CD8', 'SARS-CoV', 'STAT']
+
+
+'importin',bind,'CD4';'CD4',associate,'CD8';'CD8',associate,'SARS-CoV';'SARS-CoV',associate,'STAT';'STAT',inhibit,'STAT'
+['importin', 'CD4', 'CD8', 'SARS-CoV', 'STAT']
+
+
+'importin',bind,'CD4';'CD4',associate,'CD8';'CD8',associate,'SARS-CoV';'SARS-CoV',associate,'STAT';'STAT',regulate,'STAT'
+['importin', 'CD4', 'CD8', 'SARS-CoV', 'STAT']
+
+
+'importin',bind,'CD4';'CD4',associate,'CD8';'CD8',associate,'SARS-CoV';'SARS-CoV',associate,'STAT';'STAT',inhibit,'SARS-CoV'
+['importin', 'CD4', 'CD8', 'SARS-CoV', 'STAT']
+
+
+'importin',bind,'CD4';'CD4',associate,'CD8';'CD8',associate,'SARS-CoV';'SARS-CoV',associate,'STAT';'STAT',regulate,'SARS-CoV'
+['importin', 'CD4', 'CD8', 'SARS-CoV', 'STAT']
+
+
+'importin',bind,'CD4';'CD4',associate,'CD8';'CD8',associate,'SARS-CoV';'SARS-CoV',associate,'STAT';'STAT',regulate,'ORF6'
+['importin', 'CD4', 'CD8', 'SARS-CoV', 'STAT', 'ORF6']
+
+
+'CD4',bind,'importin';'importin',associate,'STAT';'STAT',bind,'STAT'
+['CD4', 'importin', 'STAT']
+
+
+'CD4',bind,'importin';'importin',associate,'STAT';'STAT',inhibit,'STAT'
+['CD4', 'importin', 'STAT']
+
+
+'CD4',bind,'importin';'importin',associate,'STAT';'STAT',regulate,'STAT'
+['CD4', 'importin', 'STAT']
+
+
+'CD4',bind,'importin';'importin',associate,'STAT';'STAT',inhibit,'SARS-CoV'
+['CD4', 'importin', 'STAT', 'SARS-CoV']
+
+
+'CD4',bind,'importin';'importin',associate,'STAT';'STAT',regulate,'SARS-CoV'
+['CD4', 'importin', 'STAT', 'SARS-CoV']
+
+
+'CD4',bind,'importin';'importin',associate,'STAT';'STAT',regulate,'ORF6'
+['CD4', 'importin', 'STAT', 'ORF6']
+
+
+'CD4',bind,'importin';'importin',associate,'STAT';'STAT',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'CD8';'CD8',regulate,'SARS-CoV'
+['CD4', 'importin', 'STAT', 'JAK3', 'MHC', 'CD8', 'SARS-CoV']
+
+
+'CD4',bind,'importin';'importin',associate,'STAT';'STAT',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'CD8';'CD8',inhibit,'SARS-CoV'
+['CD4', 'importin', 'STAT', 'JAK3', 'MHC', 'CD8', 'SARS-CoV']
+
+
+'CD4',bind,'importin';'importin',associate,'STAT';'STAT',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'CD8';'CD8',bind,'SARS-CoV'
+['CD4', 'importin', 'STAT', 'JAK3', 'MHC', 'CD8', 'SARS-CoV']
+
+
+'CD4',bind,'importin';'importin',associate,'STAT';'STAT',associate,'JAK3';'JAK3',associate,'CD8';'CD8',regulate,'SARS-CoV'
+['CD4', 'importin', 'STAT', 'JAK3', 'CD8', 'SARS-CoV']
+
+
+'CD4',bind,'importin';'importin',associate,'STAT';'STAT',associate,'JAK3';'JAK3',associate,'CD8';'CD8',inhibit,'SARS-CoV'
+['CD4', 'importin', 'STAT', 'JAK3', 'CD8', 'SARS-CoV']
+
+
+'CD4',bind,'importin';'importin',associate,'STAT';'STAT',associate,'JAK3';'JAK3',associate,'CD8';'CD8',bind,'SARS-CoV'
+['CD4', 'importin', 'STAT', 'JAK3', 'CD8', 'SARS-CoV']
+
+
+'CD4',bind,'importin';'importin',associate,'STAT';'STAT',associate,'MHC';'MHC',associate,'JAK3';'JAK3',associate,'CD8';'CD8',regulate,'SARS-CoV'
+['CD4', 'importin', 'STAT', 'MHC', 'JAK3', 'CD8', 'SARS-CoV']
+
+
+'CD4',bind,'importin';'importin',associate,'STAT';'STAT',associate,'MHC';'MHC',associate,'JAK3';'JAK3',associate,'CD8';'CD8',inhibit,'SARS-CoV'
+['CD4', 'importin', 'STAT', 'MHC', 'JAK3', 'CD8', 'SARS-CoV']
+
+
+'CD4',bind,'importin';'importin',associate,'STAT';'STAT',associate,'MHC';'MHC',associate,'JAK3';'JAK3',associate,'CD8';'CD8',bind,'SARS-CoV'
+['CD4', 'importin', 'STAT', 'MHC', 'JAK3', 'CD8', 'SARS-CoV']
+
+
+'CD4',bind,'importin';'importin',associate,'STAT';'STAT',associate,'MHC';'MHC',associate,'CD8';'CD8',regulate,'SARS-CoV'
+['CD4', 'importin', 'STAT', 'MHC', 'CD8', 'SARS-CoV']
+
+
+'CD4',bind,'importin';'importin',associate,'STAT';'STAT',associate,'MHC';'MHC',associate,'CD8';'CD8',inhibit,'SARS-CoV'
+['CD4', 'importin', 'STAT', 'MHC', 'CD8', 'SARS-CoV']
+
+
+'CD4',bind,'importin';'importin',associate,'STAT';'STAT',associate,'MHC';'MHC',associate,'CD8';'CD8',bind,'SARS-CoV'
+['CD4', 'importin', 'STAT', 'MHC', 'CD8', 'SARS-CoV']
+
+
+'CD4',bind,'importin';'importin',associate,'STAT';'STAT',associate,'CD8';'CD8',regulate,'SARS-CoV'
+['CD4', 'importin', 'STAT', 'CD8', 'SARS-CoV']
+
+
+'CD4',bind,'importin';'importin',associate,'STAT';'STAT',associate,'CD8';'CD8',inhibit,'SARS-CoV'
+['CD4', 'importin', 'STAT', 'CD8', 'SARS-CoV']
+
+
+'CD4',bind,'importin';'importin',associate,'STAT';'STAT',associate,'CD8';'CD8',bind,'SARS-CoV'
+['CD4', 'importin', 'STAT', 'CD8', 'SARS-CoV']
+
+
+'STAT',bind,'importin';'importin',associate,'ORF6';'ORF6',bind,'STAT'
+['STAT', 'importin', 'ORF6']
+
+
+'STAT',bind,'importin';'importin',associate,'ORF6';'ORF6',regulate,'SARS-CoV'
+['STAT', 'importin', 'ORF6', 'SARS-CoV']
+
+
+'STAT',bind,'importin';'importin',associate,'ORF6';'ORF6',inhibit,'SARS-CoV'
+['STAT', 'importin', 'ORF6', 'SARS-CoV']
+
+
+'STAT',bind,'importin';'importin',associate,'ORF6';'ORF6',bind,'ORF6'
+['STAT', 'importin', 'ORF6']
+
+
+'STAT',bind,'importin';'importin',associate,'ORF6';'ORF6',regulate,'ORF6'
+['STAT', 'importin', 'ORF6']
+
+
+'STAT',bind,'importin';'importin',associate,'ORF6';'ORF6',inhibit,'ORF6'
+['STAT', 'importin', 'ORF6']
+
+
+'CD4',bind,'importin';'importin',associate,'ORF6';'ORF6',bind,'STAT'
+['CD4', 'importin', 'ORF6', 'STAT']
+
+
+'CD4',bind,'importin';'importin',associate,'ORF6';'ORF6',regulate,'SARS-CoV'
+['CD4', 'importin', 'ORF6', 'SARS-CoV']
+
+
+'CD4',bind,'importin';'importin',associate,'ORF6';'ORF6',inhibit,'SARS-CoV'
+['CD4', 'importin', 'ORF6', 'SARS-CoV']
+
+
+'CD4',bind,'importin';'importin',associate,'ORF6';'ORF6',bind,'ORF6'
+['CD4', 'importin', 'ORF6']
+
+
+'CD4',bind,'importin';'importin',associate,'ORF6';'ORF6',regulate,'ORF6'
+['CD4', 'importin', 'ORF6']
+
+
+'CD4',bind,'importin';'importin',associate,'ORF6';'ORF6',inhibit,'ORF6'
+['CD4', 'importin', 'ORF6']
+
+
+'STAT',bind,'importin';'importin',associate,'CD8';'CD8',regulate,'SARS-CoV'
+['STAT', 'importin', 'CD8', 'SARS-CoV']
+
+
+'STAT',bind,'importin';'importin',associate,'CD8';'CD8',inhibit,'SARS-CoV'
+['STAT', 'importin', 'CD8', 'SARS-CoV']
+
+
+'STAT',bind,'importin';'importin',associate,'CD8';'CD8',bind,'SARS-CoV'
+['STAT', 'importin', 'CD8', 'SARS-CoV']
+
+
+'CD4',bind,'importin';'importin',associate,'CD8';'CD8',regulate,'STAT'
+['CD4', 'importin', 'CD8', 'STAT']
+
+
+'CD4',bind,'importin';'importin',associate,'CD8';'CD8',inhibit,'STAT'
+['CD4', 'importin', 'CD8', 'STAT']
+
+
+'CD4',bind,'importin';'importin',associate,'CD8';'CD8',bind,'STAT'
+['CD4', 'importin', 'CD8', 'STAT']
+
+
+'CD4',bind,'importin';'importin',associate,'CD8';'CD8',regulate,'SARS-CoV'
+['CD4', 'importin', 'CD8', 'SARS-CoV']
+
+
+'CD4',bind,'importin';'importin',associate,'CD8';'CD8',inhibit,'SARS-CoV'
+['CD4', 'importin', 'CD8', 'SARS-CoV']
+
+
+'CD4',bind,'importin';'importin',associate,'CD8';'CD8',bind,'SARS-CoV'
+['CD4', 'importin', 'CD8', 'SARS-CoV']
+
+
+'CD4',bind,'importin';'importin',associate,'CD8';'CD8',associate,'JAK3';'JAK3',associate,'STAT';'STAT',bind,'STAT'
+['CD4', 'importin', 'CD8', 'JAK3', 'STAT']
+
+
+'CD4',bind,'importin';'importin',associate,'CD8';'CD8',associate,'JAK3';'JAK3',associate,'STAT';'STAT',inhibit,'STAT'
+['CD4', 'importin', 'CD8', 'JAK3', 'STAT']
+
+
+'CD4',bind,'importin';'importin',associate,'CD8';'CD8',associate,'JAK3';'JAK3',associate,'STAT';'STAT',regulate,'STAT'
+['CD4', 'importin', 'CD8', 'JAK3', 'STAT']
+
+
+'CD4',bind,'importin';'importin',associate,'CD8';'CD8',associate,'JAK3';'JAK3',associate,'STAT';'STAT',inhibit,'SARS-CoV'
+['CD4', 'importin', 'CD8', 'JAK3', 'STAT', 'SARS-CoV']
+
+
+'CD4',bind,'importin';'importin',associate,'CD8';'CD8',associate,'JAK3';'JAK3',associate,'STAT';'STAT',regulate,'SARS-CoV'
+['CD4', 'importin', 'CD8', 'JAK3', 'STAT', 'SARS-CoV']
+
+
+'CD4',bind,'importin';'importin',associate,'CD8';'CD8',associate,'JAK3';'JAK3',associate,'STAT';'STAT',regulate,'ORF6'
+['CD4', 'importin', 'CD8', 'JAK3', 'STAT', 'ORF6']
+
+
+'CD4',bind,'importin';'importin',associate,'CD8';'CD8',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'STAT';'STAT',bind,'STAT'
+['CD4', 'importin', 'CD8', 'JAK3', 'MHC', 'STAT']
+
+
+'CD4',bind,'importin';'importin',associate,'CD8';'CD8',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'STAT';'STAT',inhibit,'STAT'
+['CD4', 'importin', 'CD8', 'JAK3', 'MHC', 'STAT']
+
+
+'CD4',bind,'importin';'importin',associate,'CD8';'CD8',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'STAT';'STAT',regulate,'STAT'
+['CD4', 'importin', 'CD8', 'JAK3', 'MHC', 'STAT']
+
+
+'CD4',bind,'importin';'importin',associate,'CD8';'CD8',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'STAT';'STAT',inhibit,'SARS-CoV'
+['CD4', 'importin', 'CD8', 'JAK3', 'MHC', 'STAT', 'SARS-CoV']
+
+
+'CD4',bind,'importin';'importin',associate,'CD8';'CD8',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'STAT';'STAT',regulate,'SARS-CoV'
+['CD4', 'importin', 'CD8', 'JAK3', 'MHC', 'STAT', 'SARS-CoV']
+
+
+'CD4',bind,'importin';'importin',associate,'CD8';'CD8',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'STAT';'STAT',regulate,'ORF6'
+['CD4', 'importin', 'CD8', 'JAK3', 'MHC', 'STAT', 'ORF6']
+
+
+'STAT',bind,'importin';'importin',associate,'CD8';'CD8',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'CD4';'CD4',regulate,'SARS-CoV'
+['STAT', 'importin', 'CD8', 'JAK3', 'MHC', 'CD4', 'SARS-CoV']
+
+
+'STAT',bind,'importin';'importin',associate,'CD8';'CD8',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'CD4';'CD4',inhibit,'SARS-CoV'
+['STAT', 'importin', 'CD8', 'JAK3', 'MHC', 'CD4', 'SARS-CoV']
+
+
+'CD4',bind,'importin';'importin',associate,'CD8';'CD8',associate,'STAT';'STAT',bind,'STAT'
+['CD4', 'importin', 'CD8', 'STAT']
+
+
+'CD4',bind,'importin';'importin',associate,'CD8';'CD8',associate,'STAT';'STAT',inhibit,'STAT'
+['CD4', 'importin', 'CD8', 'STAT']
+
+
+'CD4',bind,'importin';'importin',associate,'CD8';'CD8',associate,'STAT';'STAT',regulate,'STAT'
+['CD4', 'importin', 'CD8', 'STAT']
+
+
+'CD4',bind,'importin';'importin',associate,'CD8';'CD8',associate,'STAT';'STAT',inhibit,'SARS-CoV'
+['CD4', 'importin', 'CD8', 'STAT', 'SARS-CoV']
+
+
+'CD4',bind,'importin';'importin',associate,'CD8';'CD8',associate,'STAT';'STAT',regulate,'SARS-CoV'
+['CD4', 'importin', 'CD8', 'STAT', 'SARS-CoV']
+
+
+'CD4',bind,'importin';'importin',associate,'CD8';'CD8',associate,'STAT';'STAT',regulate,'ORF6'
+['CD4', 'importin', 'CD8', 'STAT', 'ORF6']
+
+
+'CD4',bind,'importin';'importin',associate,'CD8';'CD8',associate,'MHC';'MHC',associate,'JAK3';'JAK3',associate,'STAT';'STAT',bind,'STAT'
+['CD4', 'importin', 'CD8', 'MHC', 'JAK3', 'STAT']
+
+
+'CD4',bind,'importin';'importin',associate,'CD8';'CD8',associate,'MHC';'MHC',associate,'JAK3';'JAK3',associate,'STAT';'STAT',inhibit,'STAT'
+['CD4', 'importin', 'CD8', 'MHC', 'JAK3', 'STAT']
+
+
+'CD4',bind,'importin';'importin',associate,'CD8';'CD8',associate,'MHC';'MHC',associate,'JAK3';'JAK3',associate,'STAT';'STAT',regulate,'STAT'
+['CD4', 'importin', 'CD8', 'MHC', 'JAK3', 'STAT']
+
+
+'CD4',bind,'importin';'importin',associate,'CD8';'CD8',associate,'MHC';'MHC',associate,'JAK3';'JAK3',associate,'STAT';'STAT',inhibit,'SARS-CoV'
+['CD4', 'importin', 'CD8', 'MHC', 'JAK3', 'STAT', 'SARS-CoV']
+
+
+'CD4',bind,'importin';'importin',associate,'CD8';'CD8',associate,'MHC';'MHC',associate,'JAK3';'JAK3',associate,'STAT';'STAT',regulate,'SARS-CoV'
+['CD4', 'importin', 'CD8', 'MHC', 'JAK3', 'STAT', 'SARS-CoV']
+
+
+'CD4',bind,'importin';'importin',associate,'CD8';'CD8',associate,'MHC';'MHC',associate,'JAK3';'JAK3',associate,'STAT';'STAT',regulate,'ORF6'
+['CD4', 'importin', 'CD8', 'MHC', 'JAK3', 'STAT', 'ORF6']
+
+
+'CD4',bind,'importin';'importin',associate,'CD8';'CD8',associate,'MHC';'MHC',associate,'STAT';'STAT',bind,'STAT'
+['CD4', 'importin', 'CD8', 'MHC', 'STAT']
+
+
+'CD4',bind,'importin';'importin',associate,'CD8';'CD8',associate,'MHC';'MHC',associate,'STAT';'STAT',inhibit,'STAT'
+['CD4', 'importin', 'CD8', 'MHC', 'STAT']
+
+
+'CD4',bind,'importin';'importin',associate,'CD8';'CD8',associate,'MHC';'MHC',associate,'STAT';'STAT',regulate,'STAT'
+['CD4', 'importin', 'CD8', 'MHC', 'STAT']
+
+
+'CD4',bind,'importin';'importin',associate,'CD8';'CD8',associate,'MHC';'MHC',associate,'STAT';'STAT',inhibit,'SARS-CoV'
+['CD4', 'importin', 'CD8', 'MHC', 'STAT', 'SARS-CoV']
+
+
+'CD4',bind,'importin';'importin',associate,'CD8';'CD8',associate,'MHC';'MHC',associate,'STAT';'STAT',regulate,'SARS-CoV'
+['CD4', 'importin', 'CD8', 'MHC', 'STAT', 'SARS-CoV']
+
+
+'CD4',bind,'importin';'importin',associate,'CD8';'CD8',associate,'MHC';'MHC',associate,'STAT';'STAT',regulate,'ORF6'
+['CD4', 'importin', 'CD8', 'MHC', 'STAT', 'ORF6']
+
+
+'STAT',bind,'importin';'importin',associate,'CD8';'CD8',associate,'MHC';'MHC',associate,'CD4';'CD4',regulate,'SARS-CoV'
+['STAT', 'importin', 'CD8', 'MHC', 'CD4', 'SARS-CoV']
+
+
+'STAT',bind,'importin';'importin',associate,'CD8';'CD8',associate,'MHC';'MHC',associate,'CD4';'CD4',inhibit,'SARS-CoV'
+['STAT', 'importin', 'CD8', 'MHC', 'CD4', 'SARS-CoV']
+
+
+'MHC',bind,'CD8';'CD8',associate,'JAK3';'JAK3',associate,'STAT';'STAT',bind,'STAT'
+['MHC', 'CD8', 'JAK3', 'STAT']
+
+
+'MHC',bind,'CD8';'CD8',associate,'JAK3';'JAK3',associate,'STAT';'STAT',inhibit,'STAT'
+['MHC', 'CD8', 'JAK3', 'STAT']
+
+
+'MHC',bind,'CD8';'CD8',associate,'JAK3';'JAK3',associate,'STAT';'STAT',regulate,'STAT'
+['MHC', 'CD8', 'JAK3', 'STAT']
+
+
+'MHC',bind,'CD8';'CD8',associate,'JAK3';'JAK3',associate,'STAT';'STAT',inhibit,'SARS-CoV'
+['MHC', 'CD8', 'JAK3', 'STAT', 'SARS-CoV']
+
+
+'MHC',bind,'CD8';'CD8',associate,'JAK3';'JAK3',associate,'STAT';'STAT',regulate,'SARS-CoV'
+['MHC', 'CD8', 'JAK3', 'STAT', 'SARS-CoV']
+
+
+'MHC',bind,'CD8';'CD8',associate,'JAK3';'JAK3',associate,'STAT';'STAT',regulate,'ORF6'
+['MHC', 'CD8', 'JAK3', 'STAT', 'ORF6']
+
+
+'CD4',bind,'CD8';'CD8',associate,'JAK3';'JAK3',associate,'STAT';'STAT',bind,'STAT'
+['CD4', 'CD8', 'JAK3', 'STAT']
+
+
+'CD4',bind,'CD8';'CD8',associate,'JAK3';'JAK3',associate,'STAT';'STAT',inhibit,'STAT'
+['CD4', 'CD8', 'JAK3', 'STAT']
+
+
+'CD4',bind,'CD8';'CD8',associate,'JAK3';'JAK3',associate,'STAT';'STAT',regulate,'STAT'
+['CD4', 'CD8', 'JAK3', 'STAT']
+
+
+'CD4',bind,'CD8';'CD8',associate,'JAK3';'JAK3',associate,'STAT';'STAT',inhibit,'SARS-CoV'
+['CD4', 'CD8', 'JAK3', 'STAT', 'SARS-CoV']
+
+
+'CD4',bind,'CD8';'CD8',associate,'JAK3';'JAK3',associate,'STAT';'STAT',regulate,'SARS-CoV'
+['CD4', 'CD8', 'JAK3', 'STAT', 'SARS-CoV']
+
+
+'CD4',bind,'CD8';'CD8',associate,'JAK3';'JAK3',associate,'STAT';'STAT',regulate,'ORF6'
+['CD4', 'CD8', 'JAK3', 'STAT', 'ORF6']
+
+
+'MHC',bind,'CD8';'CD8',associate,'JAK3';'JAK3',associate,'STAT';'STAT',associate,'CD4';'CD4',regulate,'SARS-CoV'
+['MHC', 'CD8', 'JAK3', 'STAT', 'CD4', 'SARS-CoV']
+
+
+'MHC',bind,'CD8';'CD8',associate,'JAK3';'JAK3',associate,'STAT';'STAT',associate,'CD4';'CD4',inhibit,'SARS-CoV'
+['MHC', 'CD8', 'JAK3', 'STAT', 'CD4', 'SARS-CoV']
+
+
+'CD4',bind,'CD8';'CD8',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'STAT';'STAT',bind,'STAT'
+['CD4', 'CD8', 'JAK3', 'MHC', 'STAT']
+
+
+'CD4',bind,'CD8';'CD8',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'STAT';'STAT',inhibit,'STAT'
+['CD4', 'CD8', 'JAK3', 'MHC', 'STAT']
+
+
+'CD4',bind,'CD8';'CD8',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'STAT';'STAT',regulate,'STAT'
+['CD4', 'CD8', 'JAK3', 'MHC', 'STAT']
+
+
+'CD4',bind,'CD8';'CD8',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'STAT';'STAT',inhibit,'SARS-CoV'
+['CD4', 'CD8', 'JAK3', 'MHC', 'STAT', 'SARS-CoV']
+
+
+'CD4',bind,'CD8';'CD8',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'STAT';'STAT',regulate,'SARS-CoV'
+['CD4', 'CD8', 'JAK3', 'MHC', 'STAT', 'SARS-CoV']
+
+
+'CD4',bind,'CD8';'CD8',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'STAT';'STAT',regulate,'ORF6'
+['CD4', 'CD8', 'JAK3', 'MHC', 'STAT', 'ORF6']
+
+
+'STAT',bind,'CD8';'CD8',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'CD4';'CD4',regulate,'SARS-CoV'
+['STAT', 'CD8', 'JAK3', 'MHC', 'CD4', 'SARS-CoV']
+
+
+'STAT',bind,'CD8';'CD8',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'CD4';'CD4',inhibit,'SARS-CoV'
+['STAT', 'CD8', 'JAK3', 'MHC', 'CD4', 'SARS-CoV']
+
+
+'MHC',bind,'CD8';'CD8',associate,'JAK3';'JAK3',associate,'SARS-CoV';'SARS-CoV',associate,'STAT';'STAT',bind,'STAT'
+['MHC', 'CD8', 'JAK3', 'SARS-CoV', 'STAT']
+
+
+'MHC',bind,'CD8';'CD8',associate,'JAK3';'JAK3',associate,'SARS-CoV';'SARS-CoV',associate,'STAT';'STAT',inhibit,'STAT'
+['MHC', 'CD8', 'JAK3', 'SARS-CoV', 'STAT']
+
+
+'MHC',bind,'CD8';'CD8',associate,'JAK3';'JAK3',associate,'SARS-CoV';'SARS-CoV',associate,'STAT';'STAT',regulate,'STAT'
+['MHC', 'CD8', 'JAK3', 'SARS-CoV', 'STAT']
+
+
+'MHC',bind,'CD8';'CD8',associate,'JAK3';'JAK3',associate,'SARS-CoV';'SARS-CoV',associate,'STAT';'STAT',inhibit,'SARS-CoV'
+['MHC', 'CD8', 'JAK3', 'SARS-CoV', 'STAT']
+
+
+'MHC',bind,'CD8';'CD8',associate,'JAK3';'JAK3',associate,'SARS-CoV';'SARS-CoV',associate,'STAT';'STAT',regulate,'SARS-CoV'
+['MHC', 'CD8', 'JAK3', 'SARS-CoV', 'STAT']
+
+
+'MHC',bind,'CD8';'CD8',associate,'JAK3';'JAK3',associate,'SARS-CoV';'SARS-CoV',associate,'STAT';'STAT',regulate,'ORF6'
+['MHC', 'CD8', 'JAK3', 'SARS-CoV', 'STAT', 'ORF6']
+
+
+'CD4',bind,'CD8';'CD8',associate,'JAK3';'JAK3',associate,'SARS-CoV';'SARS-CoV',associate,'STAT';'STAT',bind,'STAT'
+['CD4', 'CD8', 'JAK3', 'SARS-CoV', 'STAT']
+
+
+'CD4',bind,'CD8';'CD8',associate,'JAK3';'JAK3',associate,'SARS-CoV';'SARS-CoV',associate,'STAT';'STAT',inhibit,'STAT'
+['CD4', 'CD8', 'JAK3', 'SARS-CoV', 'STAT']
+
+
+'CD4',bind,'CD8';'CD8',associate,'JAK3';'JAK3',associate,'SARS-CoV';'SARS-CoV',associate,'STAT';'STAT',regulate,'STAT'
+['CD4', 'CD8', 'JAK3', 'SARS-CoV', 'STAT']
+
+
+'CD4',bind,'CD8';'CD8',associate,'JAK3';'JAK3',associate,'SARS-CoV';'SARS-CoV',associate,'STAT';'STAT',inhibit,'SARS-CoV'
+['CD4', 'CD8', 'JAK3', 'SARS-CoV', 'STAT']
+
+
+'CD4',bind,'CD8';'CD8',associate,'JAK3';'JAK3',associate,'SARS-CoV';'SARS-CoV',associate,'STAT';'STAT',regulate,'SARS-CoV'
+['CD4', 'CD8', 'JAK3', 'SARS-CoV', 'STAT']
+
+
+'CD4',bind,'CD8';'CD8',associate,'JAK3';'JAK3',associate,'SARS-CoV';'SARS-CoV',associate,'STAT';'STAT',regulate,'ORF6'
+['CD4', 'CD8', 'JAK3', 'SARS-CoV', 'STAT', 'ORF6']
+
+
+'STAT',bind,'CD8';'CD8',associate,'JAK3';'JAK3',associate,'CD4';'CD4',regulate,'SARS-CoV'
+['STAT', 'CD8', 'JAK3', 'CD4', 'SARS-CoV']
+
+
+'STAT',bind,'CD8';'CD8',associate,'JAK3';'JAK3',associate,'CD4';'CD4',inhibit,'SARS-CoV'
+['STAT', 'CD8', 'JAK3', 'CD4', 'SARS-CoV']
+
+
+'MHC',bind,'CD8';'CD8',associate,'JAK3';'JAK3',associate,'CD4';'CD4',regulate,'STAT'
+['MHC', 'CD8', 'JAK3', 'CD4', 'STAT']
+
+
+'MHC',bind,'CD8';'CD8',associate,'JAK3';'JAK3',associate,'CD4';'CD4',inhibit,'STAT'
+['MHC', 'CD8', 'JAK3', 'CD4', 'STAT']
+
+
+'MHC',bind,'CD8';'CD8',associate,'JAK3';'JAK3',associate,'CD4';'CD4',bind,'STAT'
+['MHC', 'CD8', 'JAK3', 'CD4', 'STAT']
+
+
+'MHC',bind,'CD8';'CD8',associate,'JAK3';'JAK3',associate,'CD4';'CD4',regulate,'SARS-CoV'
+['MHC', 'CD8', 'JAK3', 'CD4', 'SARS-CoV']
+
+
+'MHC',bind,'CD8';'CD8',associate,'JAK3';'JAK3',associate,'CD4';'CD4',inhibit,'SARS-CoV'
+['MHC', 'CD8', 'JAK3', 'CD4', 'SARS-CoV']
+
+
+'MHC',bind,'CD8';'CD8',associate,'JAK3';'JAK3',associate,'CD4';'CD4',associate,'STAT';'STAT',bind,'STAT'
+['MHC', 'CD8', 'JAK3', 'CD4', 'STAT']
+
+
+'MHC',bind,'CD8';'CD8',associate,'JAK3';'JAK3',associate,'CD4';'CD4',associate,'STAT';'STAT',inhibit,'STAT'
+['MHC', 'CD8', 'JAK3', 'CD4', 'STAT']
+
+
+'MHC',bind,'CD8';'CD8',associate,'JAK3';'JAK3',associate,'CD4';'CD4',associate,'STAT';'STAT',regulate,'STAT'
+['MHC', 'CD8', 'JAK3', 'CD4', 'STAT']
+
+
+'MHC',bind,'CD8';'CD8',associate,'JAK3';'JAK3',associate,'CD4';'CD4',associate,'STAT';'STAT',inhibit,'SARS-CoV'
+['MHC', 'CD8', 'JAK3', 'CD4', 'STAT', 'SARS-CoV']
+
+
+'MHC',bind,'CD8';'CD8',associate,'JAK3';'JAK3',associate,'CD4';'CD4',associate,'STAT';'STAT',regulate,'SARS-CoV'
+['MHC', 'CD8', 'JAK3', 'CD4', 'STAT', 'SARS-CoV']
+
+
+'MHC',bind,'CD8';'CD8',associate,'JAK3';'JAK3',associate,'CD4';'CD4',associate,'STAT';'STAT',regulate,'ORF6'
+['MHC', 'CD8', 'JAK3', 'CD4', 'STAT', 'ORF6']
+
+
+'MHC',bind,'CD8';'CD8',associate,'JAK3';'JAK3',associate,'CD4';'CD4',associate,'SARS-CoV';'SARS-CoV',associate,'STAT';'STAT',bind,'STAT'
+['MHC', 'CD8', 'JAK3', 'CD4', 'SARS-CoV', 'STAT']
+
+
+'MHC',bind,'CD8';'CD8',associate,'JAK3';'JAK3',associate,'CD4';'CD4',associate,'SARS-CoV';'SARS-CoV',associate,'STAT';'STAT',inhibit,'STAT'
+['MHC', 'CD8', 'JAK3', 'CD4', 'SARS-CoV', 'STAT']
+
+
+'MHC',bind,'CD8';'CD8',associate,'JAK3';'JAK3',associate,'CD4';'CD4',associate,'SARS-CoV';'SARS-CoV',associate,'STAT';'STAT',regulate,'STAT'
+['MHC', 'CD8', 'JAK3', 'CD4', 'SARS-CoV', 'STAT']
+
+
+'MHC',bind,'CD8';'CD8',associate,'JAK3';'JAK3',associate,'CD4';'CD4',associate,'SARS-CoV';'SARS-CoV',associate,'STAT';'STAT',inhibit,'SARS-CoV'
+['MHC', 'CD8', 'JAK3', 'CD4', 'SARS-CoV', 'STAT']
+
+
+'MHC',bind,'CD8';'CD8',associate,'JAK3';'JAK3',associate,'CD4';'CD4',associate,'SARS-CoV';'SARS-CoV',associate,'STAT';'STAT',regulate,'SARS-CoV'
+['MHC', 'CD8', 'JAK3', 'CD4', 'SARS-CoV', 'STAT']
+
+
+'MHC',bind,'CD8';'CD8',associate,'JAK3';'JAK3',associate,'CD4';'CD4',associate,'SARS-CoV';'SARS-CoV',associate,'STAT';'STAT',regulate,'ORF6'
+['MHC', 'CD8', 'JAK3', 'CD4', 'SARS-CoV', 'STAT', 'ORF6']
+
+
+'MHC',bind,'CD8';'CD8',associate,'STAT';'STAT',bind,'STAT'
+['MHC', 'CD8', 'STAT']
+
+
+'MHC',bind,'CD8';'CD8',associate,'STAT';'STAT',inhibit,'STAT'
+['MHC', 'CD8', 'STAT']
+
+
+'MHC',bind,'CD8';'CD8',associate,'STAT';'STAT',regulate,'STAT'
+['MHC', 'CD8', 'STAT']
+
+
+'MHC',bind,'CD8';'CD8',associate,'STAT';'STAT',inhibit,'SARS-CoV'
+['MHC', 'CD8', 'STAT', 'SARS-CoV']
+
+
+'MHC',bind,'CD8';'CD8',associate,'STAT';'STAT',regulate,'SARS-CoV'
+['MHC', 'CD8', 'STAT', 'SARS-CoV']
+
+
+'MHC',bind,'CD8';'CD8',associate,'STAT';'STAT',regulate,'ORF6'
+['MHC', 'CD8', 'STAT', 'ORF6']
+
+
+'CD4',bind,'CD8';'CD8',associate,'STAT';'STAT',bind,'STAT'
+['CD4', 'CD8', 'STAT']
+
+
+'CD4',bind,'CD8';'CD8',associate,'STAT';'STAT',inhibit,'STAT'
+['CD4', 'CD8', 'STAT']
+
+
+'CD4',bind,'CD8';'CD8',associate,'STAT';'STAT',regulate,'STAT'
+['CD4', 'CD8', 'STAT']
+
+
+'CD4',bind,'CD8';'CD8',associate,'STAT';'STAT',inhibit,'SARS-CoV'
+['CD4', 'CD8', 'STAT', 'SARS-CoV']
+
+
+'CD4',bind,'CD8';'CD8',associate,'STAT';'STAT',regulate,'SARS-CoV'
+['CD4', 'CD8', 'STAT', 'SARS-CoV']
+
+
+'CD4',bind,'CD8';'CD8',associate,'STAT';'STAT',regulate,'ORF6'
+['CD4', 'CD8', 'STAT', 'ORF6']
+
+
+'MHC',bind,'CD8';'CD8',associate,'STAT';'STAT',associate,'JAK3';'JAK3',associate,'CD4';'CD4',regulate,'SARS-CoV'
+['MHC', 'CD8', 'STAT', 'JAK3', 'CD4', 'SARS-CoV']
+
+
+'MHC',bind,'CD8';'CD8',associate,'STAT';'STAT',associate,'JAK3';'JAK3',associate,'CD4';'CD4',inhibit,'SARS-CoV'
+['MHC', 'CD8', 'STAT', 'JAK3', 'CD4', 'SARS-CoV']
+
+
+'MHC',bind,'CD8';'CD8',associate,'STAT';'STAT',associate,'CD4';'CD4',regulate,'SARS-CoV'
+['MHC', 'CD8', 'STAT', 'CD4', 'SARS-CoV']
+
+
+'MHC',bind,'CD8';'CD8',associate,'STAT';'STAT',associate,'CD4';'CD4',inhibit,'SARS-CoV'
+['MHC', 'CD8', 'STAT', 'CD4', 'SARS-CoV']
+
+
+'CD4',bind,'CD8';'CD8',associate,'MHC';'MHC',associate,'JAK3';'JAK3',associate,'STAT';'STAT',bind,'STAT'
+['CD4', 'CD8', 'MHC', 'JAK3', 'STAT']
+
+
+'CD4',bind,'CD8';'CD8',associate,'MHC';'MHC',associate,'JAK3';'JAK3',associate,'STAT';'STAT',inhibit,'STAT'
+['CD4', 'CD8', 'MHC', 'JAK3', 'STAT']
+
+
+'CD4',bind,'CD8';'CD8',associate,'MHC';'MHC',associate,'JAK3';'JAK3',associate,'STAT';'STAT',regulate,'STAT'
+['CD4', 'CD8', 'MHC', 'JAK3', 'STAT']
+
+
+'CD4',bind,'CD8';'CD8',associate,'MHC';'MHC',associate,'JAK3';'JAK3',associate,'STAT';'STAT',inhibit,'SARS-CoV'
+['CD4', 'CD8', 'MHC', 'JAK3', 'STAT', 'SARS-CoV']
+
+
+'CD4',bind,'CD8';'CD8',associate,'MHC';'MHC',associate,'JAK3';'JAK3',associate,'STAT';'STAT',regulate,'SARS-CoV'
+['CD4', 'CD8', 'MHC', 'JAK3', 'STAT', 'SARS-CoV']
+
+
+'CD4',bind,'CD8';'CD8',associate,'MHC';'MHC',associate,'JAK3';'JAK3',associate,'STAT';'STAT',regulate,'ORF6'
+['CD4', 'CD8', 'MHC', 'JAK3', 'STAT', 'ORF6']
+
+
+'CD4',bind,'CD8';'CD8',associate,'MHC';'MHC',associate,'JAK3';'JAK3',associate,'SARS-CoV';'SARS-CoV',associate,'STAT';'STAT',bind,'STAT'
+['CD4', 'CD8', 'MHC', 'JAK3', 'SARS-CoV', 'STAT']
+
+
+'CD4',bind,'CD8';'CD8',associate,'MHC';'MHC',associate,'JAK3';'JAK3',associate,'SARS-CoV';'SARS-CoV',associate,'STAT';'STAT',inhibit,'STAT'
+['CD4', 'CD8', 'MHC', 'JAK3', 'SARS-CoV', 'STAT']
+
+
+'CD4',bind,'CD8';'CD8',associate,'MHC';'MHC',associate,'JAK3';'JAK3',associate,'SARS-CoV';'SARS-CoV',associate,'STAT';'STAT',regulate,'STAT'
+['CD4', 'CD8', 'MHC', 'JAK3', 'SARS-CoV', 'STAT']
+
+
+'CD4',bind,'CD8';'CD8',associate,'MHC';'MHC',associate,'JAK3';'JAK3',associate,'SARS-CoV';'SARS-CoV',associate,'STAT';'STAT',inhibit,'SARS-CoV'
+['CD4', 'CD8', 'MHC', 'JAK3', 'SARS-CoV', 'STAT']
+
+
+'CD4',bind,'CD8';'CD8',associate,'MHC';'MHC',associate,'JAK3';'JAK3',associate,'SARS-CoV';'SARS-CoV',associate,'STAT';'STAT',regulate,'SARS-CoV'
+['CD4', 'CD8', 'MHC', 'JAK3', 'SARS-CoV', 'STAT']
+
+
+'CD4',bind,'CD8';'CD8',associate,'MHC';'MHC',associate,'JAK3';'JAK3',associate,'SARS-CoV';'SARS-CoV',associate,'STAT';'STAT',regulate,'ORF6'
+['CD4', 'CD8', 'MHC', 'JAK3', 'SARS-CoV', 'STAT', 'ORF6']
+
+
+'STAT',bind,'CD8';'CD8',associate,'MHC';'MHC',associate,'JAK3';'JAK3',associate,'CD4';'CD4',regulate,'SARS-CoV'
+['STAT', 'CD8', 'MHC', 'JAK3', 'CD4', 'SARS-CoV']
+
+
+'STAT',bind,'CD8';'CD8',associate,'MHC';'MHC',associate,'JAK3';'JAK3',associate,'CD4';'CD4',inhibit,'SARS-CoV'
+['STAT', 'CD8', 'MHC', 'JAK3', 'CD4', 'SARS-CoV']
+
+
+'CD4',bind,'CD8';'CD8',associate,'MHC';'MHC',associate,'STAT';'STAT',bind,'STAT'
+['CD4', 'CD8', 'MHC', 'STAT']
+
+
+'CD4',bind,'CD8';'CD8',associate,'MHC';'MHC',associate,'STAT';'STAT',inhibit,'STAT'
+['CD4', 'CD8', 'MHC', 'STAT']
+
+
+'CD4',bind,'CD8';'CD8',associate,'MHC';'MHC',associate,'STAT';'STAT',regulate,'STAT'
+['CD4', 'CD8', 'MHC', 'STAT']
+
+
+'CD4',bind,'CD8';'CD8',associate,'MHC';'MHC',associate,'STAT';'STAT',inhibit,'SARS-CoV'
+['CD4', 'CD8', 'MHC', 'STAT', 'SARS-CoV']
+
+
+'CD4',bind,'CD8';'CD8',associate,'MHC';'MHC',associate,'STAT';'STAT',regulate,'SARS-CoV'
+['CD4', 'CD8', 'MHC', 'STAT', 'SARS-CoV']
+
+
+'CD4',bind,'CD8';'CD8',associate,'MHC';'MHC',associate,'STAT';'STAT',regulate,'ORF6'
+['CD4', 'CD8', 'MHC', 'STAT', 'ORF6']
+
+
+'STAT',bind,'CD8';'CD8',associate,'MHC';'MHC',associate,'CD4';'CD4',regulate,'SARS-CoV'
+['STAT', 'CD8', 'MHC', 'CD4', 'SARS-CoV']
+
+
+'STAT',bind,'CD8';'CD8',associate,'MHC';'MHC',associate,'CD4';'CD4',inhibit,'SARS-CoV'
+['STAT', 'CD8', 'MHC', 'CD4', 'SARS-CoV']
+
+
+'MHC',bind,'CD8';'CD8',associate,'SARS-CoV';'SARS-CoV',associate,'JAK3';'JAK3',associate,'STAT';'STAT',bind,'STAT'
+['MHC', 'CD8', 'SARS-CoV', 'JAK3', 'STAT']
+
+
+'MHC',bind,'CD8';'CD8',associate,'SARS-CoV';'SARS-CoV',associate,'JAK3';'JAK3',associate,'STAT';'STAT',inhibit,'STAT'
+['MHC', 'CD8', 'SARS-CoV', 'JAK3', 'STAT']
+
+
+'MHC',bind,'CD8';'CD8',associate,'SARS-CoV';'SARS-CoV',associate,'JAK3';'JAK3',associate,'STAT';'STAT',regulate,'STAT'
+['MHC', 'CD8', 'SARS-CoV', 'JAK3', 'STAT']
+
+
+'MHC',bind,'CD8';'CD8',associate,'SARS-CoV';'SARS-CoV',associate,'JAK3';'JAK3',associate,'STAT';'STAT',inhibit,'SARS-CoV'
+['MHC', 'CD8', 'SARS-CoV', 'JAK3', 'STAT']
+
+
+'MHC',bind,'CD8';'CD8',associate,'SARS-CoV';'SARS-CoV',associate,'JAK3';'JAK3',associate,'STAT';'STAT',regulate,'SARS-CoV'
+['MHC', 'CD8', 'SARS-CoV', 'JAK3', 'STAT']
+
+
+'MHC',bind,'CD8';'CD8',associate,'SARS-CoV';'SARS-CoV',associate,'JAK3';'JAK3',associate,'STAT';'STAT',regulate,'ORF6'
+['MHC', 'CD8', 'SARS-CoV', 'JAK3', 'STAT', 'ORF6']
+
+
+'CD4',bind,'CD8';'CD8',associate,'SARS-CoV';'SARS-CoV',associate,'JAK3';'JAK3',associate,'STAT';'STAT',bind,'STAT'
+['CD4', 'CD8', 'SARS-CoV', 'JAK3', 'STAT']
+
+
+'CD4',bind,'CD8';'CD8',associate,'SARS-CoV';'SARS-CoV',associate,'JAK3';'JAK3',associate,'STAT';'STAT',inhibit,'STAT'
+['CD4', 'CD8', 'SARS-CoV', 'JAK3', 'STAT']
+
+
+'CD4',bind,'CD8';'CD8',associate,'SARS-CoV';'SARS-CoV',associate,'JAK3';'JAK3',associate,'STAT';'STAT',regulate,'STAT'
+['CD4', 'CD8', 'SARS-CoV', 'JAK3', 'STAT']
+
+
+'CD4',bind,'CD8';'CD8',associate,'SARS-CoV';'SARS-CoV',associate,'JAK3';'JAK3',associate,'STAT';'STAT',inhibit,'SARS-CoV'
+['CD4', 'CD8', 'SARS-CoV', 'JAK3', 'STAT']
+
+
+'CD4',bind,'CD8';'CD8',associate,'SARS-CoV';'SARS-CoV',associate,'JAK3';'JAK3',associate,'STAT';'STAT',regulate,'SARS-CoV'
+['CD4', 'CD8', 'SARS-CoV', 'JAK3', 'STAT']
+
+
+'CD4',bind,'CD8';'CD8',associate,'SARS-CoV';'SARS-CoV',associate,'JAK3';'JAK3',associate,'STAT';'STAT',regulate,'ORF6'
+['CD4', 'CD8', 'SARS-CoV', 'JAK3', 'STAT', 'ORF6']
+
+
+'CD4',bind,'CD8';'CD8',associate,'SARS-CoV';'SARS-CoV',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'STAT';'STAT',bind,'STAT'
+['CD4', 'CD8', 'SARS-CoV', 'JAK3', 'MHC', 'STAT']
+
+
+'CD4',bind,'CD8';'CD8',associate,'SARS-CoV';'SARS-CoV',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'STAT';'STAT',inhibit,'STAT'
+['CD4', 'CD8', 'SARS-CoV', 'JAK3', 'MHC', 'STAT']
+
+
+'CD4',bind,'CD8';'CD8',associate,'SARS-CoV';'SARS-CoV',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'STAT';'STAT',regulate,'STAT'
+['CD4', 'CD8', 'SARS-CoV', 'JAK3', 'MHC', 'STAT']
+
+
+'CD4',bind,'CD8';'CD8',associate,'SARS-CoV';'SARS-CoV',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'STAT';'STAT',inhibit,'SARS-CoV'
+['CD4', 'CD8', 'SARS-CoV', 'JAK3', 'MHC', 'STAT']
+
+
+'CD4',bind,'CD8';'CD8',associate,'SARS-CoV';'SARS-CoV',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'STAT';'STAT',regulate,'SARS-CoV'
+['CD4', 'CD8', 'SARS-CoV', 'JAK3', 'MHC', 'STAT']
+
+
+'CD4',bind,'CD8';'CD8',associate,'SARS-CoV';'SARS-CoV',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'STAT';'STAT',regulate,'ORF6'
+['CD4', 'CD8', 'SARS-CoV', 'JAK3', 'MHC', 'STAT', 'ORF6']
+
+
+'MHC',bind,'CD8';'CD8',associate,'SARS-CoV';'SARS-CoV',associate,'JAK3';'JAK3',associate,'CD4';'CD4',regulate,'STAT'
+['MHC', 'CD8', 'SARS-CoV', 'JAK3', 'CD4', 'STAT']
+
+
+'MHC',bind,'CD8';'CD8',associate,'SARS-CoV';'SARS-CoV',associate,'JAK3';'JAK3',associate,'CD4';'CD4',inhibit,'STAT'
+['MHC', 'CD8', 'SARS-CoV', 'JAK3', 'CD4', 'STAT']
+
+
+'MHC',bind,'CD8';'CD8',associate,'SARS-CoV';'SARS-CoV',associate,'JAK3';'JAK3',associate,'CD4';'CD4',bind,'STAT'
+['MHC', 'CD8', 'SARS-CoV', 'JAK3', 'CD4', 'STAT']
+
+
+'MHC',bind,'CD8';'CD8',associate,'SARS-CoV';'SARS-CoV',associate,'JAK3';'JAK3',associate,'CD4';'CD4',associate,'STAT';'STAT',bind,'STAT'
+['MHC', 'CD8', 'SARS-CoV', 'JAK3', 'CD4', 'STAT']
+
+
+'MHC',bind,'CD8';'CD8',associate,'SARS-CoV';'SARS-CoV',associate,'JAK3';'JAK3',associate,'CD4';'CD4',associate,'STAT';'STAT',inhibit,'STAT'
+['MHC', 'CD8', 'SARS-CoV', 'JAK3', 'CD4', 'STAT']
+
+
+'MHC',bind,'CD8';'CD8',associate,'SARS-CoV';'SARS-CoV',associate,'JAK3';'JAK3',associate,'CD4';'CD4',associate,'STAT';'STAT',regulate,'STAT'
+['MHC', 'CD8', 'SARS-CoV', 'JAK3', 'CD4', 'STAT']
+
+
+'MHC',bind,'CD8';'CD8',associate,'SARS-CoV';'SARS-CoV',associate,'JAK3';'JAK3',associate,'CD4';'CD4',associate,'STAT';'STAT',inhibit,'SARS-CoV'
+['MHC', 'CD8', 'SARS-CoV', 'JAK3', 'CD4', 'STAT']
+
+
+'MHC',bind,'CD8';'CD8',associate,'SARS-CoV';'SARS-CoV',associate,'JAK3';'JAK3',associate,'CD4';'CD4',associate,'STAT';'STAT',regulate,'SARS-CoV'
+['MHC', 'CD8', 'SARS-CoV', 'JAK3', 'CD4', 'STAT']
+
+
+'MHC',bind,'CD8';'CD8',associate,'SARS-CoV';'SARS-CoV',associate,'JAK3';'JAK3',associate,'CD4';'CD4',associate,'STAT';'STAT',regulate,'ORF6'
+['MHC', 'CD8', 'SARS-CoV', 'JAK3', 'CD4', 'STAT', 'ORF6']
+
+
+'MHC',bind,'CD8';'CD8',associate,'SARS-CoV';'SARS-CoV',associate,'STAT';'STAT',bind,'STAT'
+['MHC', 'CD8', 'SARS-CoV', 'STAT']
+
+
+'MHC',bind,'CD8';'CD8',associate,'SARS-CoV';'SARS-CoV',associate,'STAT';'STAT',inhibit,'STAT'
+['MHC', 'CD8', 'SARS-CoV', 'STAT']
+
+
+'MHC',bind,'CD8';'CD8',associate,'SARS-CoV';'SARS-CoV',associate,'STAT';'STAT',regulate,'STAT'
+['MHC', 'CD8', 'SARS-CoV', 'STAT']
+
+
+'MHC',bind,'CD8';'CD8',associate,'SARS-CoV';'SARS-CoV',associate,'STAT';'STAT',inhibit,'SARS-CoV'
+['MHC', 'CD8', 'SARS-CoV', 'STAT']
+
+
+'MHC',bind,'CD8';'CD8',associate,'SARS-CoV';'SARS-CoV',associate,'STAT';'STAT',regulate,'SARS-CoV'
+['MHC', 'CD8', 'SARS-CoV', 'STAT']
+
+
+'MHC',bind,'CD8';'CD8',associate,'SARS-CoV';'SARS-CoV',associate,'STAT';'STAT',regulate,'ORF6'
+['MHC', 'CD8', 'SARS-CoV', 'STAT', 'ORF6']
+
+
+'CD4',bind,'CD8';'CD8',associate,'SARS-CoV';'SARS-CoV',associate,'STAT';'STAT',bind,'STAT'
+['CD4', 'CD8', 'SARS-CoV', 'STAT']
+
+
+'CD4',bind,'CD8';'CD8',associate,'SARS-CoV';'SARS-CoV',associate,'STAT';'STAT',inhibit,'STAT'
+['CD4', 'CD8', 'SARS-CoV', 'STAT']
+
+
+'CD4',bind,'CD8';'CD8',associate,'SARS-CoV';'SARS-CoV',associate,'STAT';'STAT',regulate,'STAT'
+['CD4', 'CD8', 'SARS-CoV', 'STAT']
+
+
+'CD4',bind,'CD8';'CD8',associate,'SARS-CoV';'SARS-CoV',associate,'STAT';'STAT',inhibit,'SARS-CoV'
+['CD4', 'CD8', 'SARS-CoV', 'STAT']
+
+
+'CD4',bind,'CD8';'CD8',associate,'SARS-CoV';'SARS-CoV',associate,'STAT';'STAT',regulate,'SARS-CoV'
+['CD4', 'CD8', 'SARS-CoV', 'STAT']
+
+
+'CD4',bind,'CD8';'CD8',associate,'SARS-CoV';'SARS-CoV',associate,'STAT';'STAT',regulate,'ORF6'
+['CD4', 'CD8', 'SARS-CoV', 'STAT', 'ORF6']
+
+
+'STAT',bind,'CD8';'CD8',associate,'CD4';'CD4',regulate,'SARS-CoV'
+['STAT', 'CD8', 'CD4', 'SARS-CoV']
+
+
+'STAT',bind,'CD8';'CD8',associate,'CD4';'CD4',inhibit,'SARS-CoV'
+['STAT', 'CD8', 'CD4', 'SARS-CoV']
+
+
+'MHC',bind,'CD8';'CD8',associate,'CD4';'CD4',regulate,'STAT'
+['MHC', 'CD8', 'CD4', 'STAT']
+
+
+'MHC',bind,'CD8';'CD8',associate,'CD4';'CD4',inhibit,'STAT'
+['MHC', 'CD8', 'CD4', 'STAT']
+
+
+'MHC',bind,'CD8';'CD8',associate,'CD4';'CD4',bind,'STAT'
+['MHC', 'CD8', 'CD4', 'STAT']
+
+
+'MHC',bind,'CD8';'CD8',associate,'CD4';'CD4',regulate,'SARS-CoV'
+['MHC', 'CD8', 'CD4', 'SARS-CoV']
+
+
+'MHC',bind,'CD8';'CD8',associate,'CD4';'CD4',inhibit,'SARS-CoV'
+['MHC', 'CD8', 'CD4', 'SARS-CoV']
+
+
+'MHC',bind,'CD8';'CD8',associate,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'STAT';'STAT',bind,'STAT'
+['MHC', 'CD8', 'CD4', 'JAK3', 'STAT']
+
+
+'MHC',bind,'CD8';'CD8',associate,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'STAT';'STAT',inhibit,'STAT'
+['MHC', 'CD8', 'CD4', 'JAK3', 'STAT']
+
+
+'MHC',bind,'CD8';'CD8',associate,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'STAT';'STAT',regulate,'STAT'
+['MHC', 'CD8', 'CD4', 'JAK3', 'STAT']
+
+
+'MHC',bind,'CD8';'CD8',associate,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'STAT';'STAT',inhibit,'SARS-CoV'
+['MHC', 'CD8', 'CD4', 'JAK3', 'STAT', 'SARS-CoV']
+
+
+'MHC',bind,'CD8';'CD8',associate,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'STAT';'STAT',regulate,'SARS-CoV'
+['MHC', 'CD8', 'CD4', 'JAK3', 'STAT', 'SARS-CoV']
+
+
+'MHC',bind,'CD8';'CD8',associate,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'STAT';'STAT',regulate,'ORF6'
+['MHC', 'CD8', 'CD4', 'JAK3', 'STAT', 'ORF6']
+
+
+'MHC',bind,'CD8';'CD8',associate,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'SARS-CoV';'SARS-CoV',associate,'STAT';'STAT',bind,'STAT'
+['MHC', 'CD8', 'CD4', 'JAK3', 'SARS-CoV', 'STAT']
+
+
+'MHC',bind,'CD8';'CD8',associate,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'SARS-CoV';'SARS-CoV',associate,'STAT';'STAT',inhibit,'STAT'
+['MHC', 'CD8', 'CD4', 'JAK3', 'SARS-CoV', 'STAT']
+
+
+'MHC',bind,'CD8';'CD8',associate,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'SARS-CoV';'SARS-CoV',associate,'STAT';'STAT',regulate,'STAT'
+['MHC', 'CD8', 'CD4', 'JAK3', 'SARS-CoV', 'STAT']
+
+
+'MHC',bind,'CD8';'CD8',associate,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'SARS-CoV';'SARS-CoV',associate,'STAT';'STAT',inhibit,'SARS-CoV'
+['MHC', 'CD8', 'CD4', 'JAK3', 'SARS-CoV', 'STAT']
+
+
+'MHC',bind,'CD8';'CD8',associate,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'SARS-CoV';'SARS-CoV',associate,'STAT';'STAT',regulate,'SARS-CoV'
+['MHC', 'CD8', 'CD4', 'JAK3', 'SARS-CoV', 'STAT']
+
+
+'MHC',bind,'CD8';'CD8',associate,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'SARS-CoV';'SARS-CoV',associate,'STAT';'STAT',regulate,'ORF6'
+['MHC', 'CD8', 'CD4', 'JAK3', 'SARS-CoV', 'STAT', 'ORF6']
+
+
+'MHC',bind,'CD8';'CD8',associate,'CD4';'CD4',associate,'STAT';'STAT',bind,'STAT'
+['MHC', 'CD8', 'CD4', 'STAT']
+
+
+'MHC',bind,'CD8';'CD8',associate,'CD4';'CD4',associate,'STAT';'STAT',inhibit,'STAT'
+['MHC', 'CD8', 'CD4', 'STAT']
+
+
+'MHC',bind,'CD8';'CD8',associate,'CD4';'CD4',associate,'STAT';'STAT',regulate,'STAT'
+['MHC', 'CD8', 'CD4', 'STAT']
+
+
+'MHC',bind,'CD8';'CD8',associate,'CD4';'CD4',associate,'STAT';'STAT',inhibit,'SARS-CoV'
+['MHC', 'CD8', 'CD4', 'STAT', 'SARS-CoV']
+
+
+'MHC',bind,'CD8';'CD8',associate,'CD4';'CD4',associate,'STAT';'STAT',regulate,'SARS-CoV'
+['MHC', 'CD8', 'CD4', 'STAT', 'SARS-CoV']
+
+
+'MHC',bind,'CD8';'CD8',associate,'CD4';'CD4',associate,'STAT';'STAT',regulate,'ORF6'
+['MHC', 'CD8', 'CD4', 'STAT', 'ORF6']
+
+
+'MHC',bind,'CD8';'CD8',associate,'CD4';'CD4',associate,'SARS-CoV';'SARS-CoV',associate,'JAK3';'JAK3',associate,'STAT';'STAT',bind,'STAT'
+['MHC', 'CD8', 'CD4', 'SARS-CoV', 'JAK3', 'STAT']
+
+
+'MHC',bind,'CD8';'CD8',associate,'CD4';'CD4',associate,'SARS-CoV';'SARS-CoV',associate,'JAK3';'JAK3',associate,'STAT';'STAT',inhibit,'STAT'
+['MHC', 'CD8', 'CD4', 'SARS-CoV', 'JAK3', 'STAT']
+
+
+'MHC',bind,'CD8';'CD8',associate,'CD4';'CD4',associate,'SARS-CoV';'SARS-CoV',associate,'JAK3';'JAK3',associate,'STAT';'STAT',regulate,'STAT'
+['MHC', 'CD8', 'CD4', 'SARS-CoV', 'JAK3', 'STAT']
+
+
+'MHC',bind,'CD8';'CD8',associate,'CD4';'CD4',associate,'SARS-CoV';'SARS-CoV',associate,'JAK3';'JAK3',associate,'STAT';'STAT',inhibit,'SARS-CoV'
+['MHC', 'CD8', 'CD4', 'SARS-CoV', 'JAK3', 'STAT']
+
+
+'MHC',bind,'CD8';'CD8',associate,'CD4';'CD4',associate,'SARS-CoV';'SARS-CoV',associate,'JAK3';'JAK3',associate,'STAT';'STAT',regulate,'SARS-CoV'
+['MHC', 'CD8', 'CD4', 'SARS-CoV', 'JAK3', 'STAT']
+
+
+'MHC',bind,'CD8';'CD8',associate,'CD4';'CD4',associate,'SARS-CoV';'SARS-CoV',associate,'JAK3';'JAK3',associate,'STAT';'STAT',regulate,'ORF6'
+['MHC', 'CD8', 'CD4', 'SARS-CoV', 'JAK3', 'STAT', 'ORF6']
+
+
+'MHC',bind,'CD8';'CD8',associate,'CD4';'CD4',associate,'SARS-CoV';'SARS-CoV',associate,'STAT';'STAT',bind,'STAT'
+['MHC', 'CD8', 'CD4', 'SARS-CoV', 'STAT']
+
+
+'MHC',bind,'CD8';'CD8',associate,'CD4';'CD4',associate,'SARS-CoV';'SARS-CoV',associate,'STAT';'STAT',inhibit,'STAT'
+['MHC', 'CD8', 'CD4', 'SARS-CoV', 'STAT']
+
+
+'MHC',bind,'CD8';'CD8',associate,'CD4';'CD4',associate,'SARS-CoV';'SARS-CoV',associate,'STAT';'STAT',regulate,'STAT'
+['MHC', 'CD8', 'CD4', 'SARS-CoV', 'STAT']
+
+
+'MHC',bind,'CD8';'CD8',associate,'CD4';'CD4',associate,'SARS-CoV';'SARS-CoV',associate,'STAT';'STAT',inhibit,'SARS-CoV'
+['MHC', 'CD8', 'CD4', 'SARS-CoV', 'STAT']
+
+
+'MHC',bind,'CD8';'CD8',associate,'CD4';'CD4',associate,'SARS-CoV';'SARS-CoV',associate,'STAT';'STAT',regulate,'SARS-CoV'
+['MHC', 'CD8', 'CD4', 'SARS-CoV', 'STAT']
+
+
+'MHC',bind,'CD8';'CD8',associate,'CD4';'CD4',associate,'SARS-CoV';'SARS-CoV',associate,'STAT';'STAT',regulate,'ORF6'
+['MHC', 'CD8', 'CD4', 'SARS-CoV', 'STAT', 'ORF6']
