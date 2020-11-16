@@ -325,6 +325,8 @@ public class configuracion {
             System.out.println(utilidades.idioma.get(50));
             System.out.println(utilidades.idioma.get(51));
             System.out.println(utilidades.idioma.get(154));
+            System.out.println(utilidades.idioma.get(155));
+            System.out.println(utilidades.idioma.get(156));
             System.out.println(utilidades.idioma.get(4));
 
             String resp = lectura.nextLine();
@@ -367,8 +369,13 @@ public class configuracion {
                 case "3":
                     new patrones().inferir_patrones(this, ruta);
                     break;
-
                 case "4":
+                    new patrones().kbase_update(this, ruta);
+                    break;
+                case "5":
+                    new patrones().pathways_documentation(this, ruta);
+                    break;
+                case "6":
 
                     reanudarDesde(ruta, rutaD);
                     break;
