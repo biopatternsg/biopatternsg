@@ -156,6 +156,9 @@
         <m n="151">Total of events: </m>
         <m n="152">Generating knowledge base</m>
         <m n="153">Pathways Inference</m>
-        <m n="154">4.- Run the system from</m>
+        <m n="154">4.- Updating knowledge base of events</m>
+        <m n="155">5.- Generating pathways' documentation</m>
+        <m n="156">6.- Run the system from</m>
+        
     </menu1>
 </root>
