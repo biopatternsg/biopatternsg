@@ -3808,215 +3808,107 @@ BRG1 is recruited after activator binding at several other inducible loci, and S
 event('STAT',respond,'STAT')
 However, Stat5B KO macrophages responded normally to FcγR signaling, indicating a lineage-restricted role for Stat5B.
 
-event('STAT',affect,'SARS-CoV')
+event('STAT',affect,'SARS-CoV-2')
 Studies from the most affected countries, including China, United States and Italy, seem to indicate that prevalence of diabetes among patients affected by COVID-19 is not higher than that observed in the general population, thus suggesting that diabetes is not a risk factor for SARS-CoV-2 infection.
 
-event('STAT',reduce,'SARS-CoV')
+event('STAT',reduce,'SARS-CoV-2')
 Next, we examined IFN competent Calu3 2 B4 cells finding SARS-CoV-2 had reduced viral replication relative to SARS-CoV and induced STAT1 phosphorylation late during infection.
 
-event('STAT',reduce,'SARS-CoV')
-Statins, with their immunomodulatory, anti-inflammatory, anti-thrombotic, and anti-oxidant properties, have the potential to reduce severity of lung injury in, and mortality from, severe acute respiratory syndrome-coronavirus 2 (SARS-CoV2) infections.
-
-event('MHC',induce,'SARS-CoV')
-The gamma interferon (IFN-gamma) release Elispot assay revealed that only SARS-CoV-specific peptides S1203 and S978 induced a high frequency of IFN-gamma-secreting T-cell response in HLA-A2(+) donors who had fully recovered from SARS-CoV infection.
-
-event('MHC',mediate,'SARS-CoV')
-Aiming at better understanding the biology of the infection and the immune response against the virus in the Brazilian population, we analysed SARS-CoV-2 protein S peptides in order to identify epitopes able to elicit an immune response mediated by the most frequent MHC-I alleles using in silico methods.
-
-event('MHC',lead,'SARS-CoV')
-Also, exposure to infectious SARS-CoV led to the phenotypic and functional maturation of DC, with regard to MHC class II and costimulatory molecule expression, T cell-stimulatory capacity, and cytokine production, respectively.
-
-event('MHC',infect,'SARS-CoV')
-such a T-cell epitope-specific response was not observed in HLA-A2(+) healthy donors or in HLA-A2(-) donors who had been infected with SARS-CoV after full recovery.
-
-event('MHC',affect,'SARS-CoV')
+event('MHC',affect,'SARS-CoV-2')
 While a subset of epitopes from earlier betacoronaviruses, such as SARS-CoV (SARS) , have been validated experimentally, validation systems are often biased toward specific HLA haplotypes (notably HLA-A,02:01) that only account for a fraction of the haplotypes of individuals affected by the SARS-CoV-2 pandemic.
 
-event('MHC',affect,'SARS-CoV')
+event('MHC',affect,'SARS-CoV-2')
 Genetic variability across the three major histocompatibility complex (MHC) class I genes (human leukocyte antigen A [ HLA-A],-B, and-C genes) may affect susceptibility to and severity of the disease caused by severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) , the virus responsible for coronavirus disease 2019 (COVID-19).
 
-event('ORF6',enhance,'SARS-CoV')
-One protein, the product of SARS-CoV ORF6, converted a sublethal infection to a uniformly lethal encephalitis and enhanced virus growth in tissue culture cells, indicating that SARS-CoV proteins function in the context of a heterologous coronavirus infection.
+event('MHC',mediate,'SARS-CoV-2')
+Aiming at better understanding the biology of the infection and the immune response against the virus in the Brazilian population, we analysed SARS-CoV-2 protein S peptides in order to identify epitopes able to elicit an immune response mediated by the most frequent MHC-I alleles using in silico methods.
 
-event('ORF6',express,'SARS-CoV')
-The overexpression of NPIPB3 restored the IFN-β responses in SARS-CoV ORF6 expressing cells, indicating that the interaction of SARS CoV ORF6 and NPIPB3 reduced Type I IFN antagonism by SARS-CoV ORF6.
-
-event('ORF6',infect,'SARS-CoV')
-Finally, colocalization experiments were performed in SARS-CoV infected Vero E6 mammalian cells to confirm the nsp8-ORF6 interaction.
-
-event('ORF6',reduce,'SARS-CoV')
-The overexpression of NPIPB3 restored the IFN-β responses in SARS-CoV ORF6 expressing cells, indicating that the interaction of SARS CoV ORF6 and NPIPB3 reduced Type I IFN antagonism by SARS-CoV ORF6.
-
-event('CD4',increase,'SARS-CoV')
-Further study indicated that IFN-gamma+ and IL-4+ populations in CD4+ T cells increased upon co-cultivation with DCs pre-exposed with BVLPs or SARS-CoV VLPs.
-
-event('CD4',enhance,'SARS-CoV')
-However, depletion of CD4(+) T cells resulted in an enhanced immune-mediated interstitial pneumonitis and delayed clearance of SARS-CoV from the lungs, which was associated with reduced neutralizing antibody and cytokine production and reduced pulmonary recruitment of lymphocytes.
-
-event('CD4',induce,'SARS-CoV')
-As proof-of-concept, we show that CD4 + T cells in the bronchoalveolar lavage fluid (BALF) of patients with COVID-19 are Th1-skewed and that VDR is among the top regulators of genes induced by SARS-CoV2.
-
-event('CD4',target,'SARS-CoV')
+event('CD4',target,'SARS-CoV-2')
 Importantly, using this system, we functionally identified the CD4+ and CD8+ peptide epitopes targeted during SARS-CoV-2 infection in H2b restricted mice.
 
-event('CD4',target,'SARS-CoV')
-Our observation reveals the BASCs (Sca-1+ CD34+ CD45- Pecam-) , a subset of Oct-4+ ACE2+ epithelial colony cells at the broncho-alveolar duct junction, to be the prime target cells of SARS-CoV infection.
+event('CD4',target,'SARS-CoV-2')
+CD4+ T\240\cell responses to spike, the main target of most vaccine efforts, were robust and correlated with the magnitude of the anti-SARS-CoV-2 IgG and IgA titers.
 
-event('CD4',lead,'SARS-CoV')
+event('CD4',lead,'SARS-CoV-2')
 Stimulating peripheral blood mononuclear cells from COVID-19 convalescent patients with overlapping peptides from severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) led to the clonal expansion of SARS-CoV-2-specific CD8+ and CD4+ T cells in vitro, with CD4+ T cells being robust.
 
-event('CD4',control,'SARS-CoV')
+event('CD4',control,'SARS-CoV-2')
 These findings imply the importance of CD4+ T cells (but not CD8+ and CD3+ T cells) in SARS-CoV-2 infection associated pneumonia and indicate that CD4+ T cells might be important for the control of SARS-CoV-2.
 
-event('CD4',infect,'SARS-CoV')
+event('CD4',infect,'SARS-CoV-2')
 A CD47 mimic that acts as an essential virulence factor is encoded by all poxviruses, but CD47 expression on infected cells was found to be upregulated even by pathogens, including severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) , that encode no mimic.
 
-event('CD4',act,'SARS-CoV')
+event('CD4',act,'SARS-CoV-2')
 A CD47 mimic that acts as an essential virulence factor is encoded by all poxviruses, but CD47 expression on infected cells was found to be upregulated even by pathogens, including severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) , that encode no mimic.
 
-event('CD4',respond,'SARS-CoV')
+event('CD4',respond,'SARS-CoV-2')
 In patients with severe disease compared to mild disease, we found increased proportions of cytotoxic follicular helper (T FH) cells and cytotoxic T helper cells (CD4-CTLs) responding to SARS-CoV-2, and reduced proportion of SARS-CoV-2 reactive regulatory T cells.
 
-event('CD4',respond,'SARS-CoV')
+event('CD4',respond,'SARS-CoV-2')
 In patients with severe disease compared to mild disease, we found increased proportions of cytotoxic follicular helper (TFH) cells and cytotoxic T helper cells (CD4-CTLs) responding to SARS-CoV-2, and reduced proportion of SARS-CoV-2 reactive regulatory T cells.
 
-event('CD4',decrease,'SARS-CoV')
+event('CD4',decrease,'SARS-CoV-2')
 Following compassionate care treatment with the CCR5 blocking antibody leronlimab, we observed complete CCR5 receptor occupancy on macrophage and T cells, rapid reduction of plasma IL-6, restoration of the CD4/CD8 ratio, and a significant decrease in SARS-CoV-2 plasma viremia.
 
-event('CD4',reduce,'SARS-CoV')
+event('CD4',reduce,'SARS-CoV-2')
 In patients with severe disease compared to mild disease, we found increased proportions of cytotoxic follicular helper (T FH) cells and cytotoxic T helper cells (CD4-CTLs) responding to SARS-CoV-2, and reduced proportion of SARS-CoV-2 reactive regulatory T cells.
 
-event('CD8',increase,'SARS-CoV')
+event('CD8',increase,'SARS-CoV-2')
 As we understand more about the immune response to SARS-CoV-2 it appears that a functional CTL (CD8+) response is required to clear the infection and COVID-19 severity is increased as the CD8+ response becomes somehow diminished or exhausted.
 
-event('CD8',induce,'SARS-CoV')
-In the present study, we aimed to evaluate the immune responses of peptide-specific CD8(+) T cells induced by HLA-A,0201 restricted severe acute respiratory syndrome-associated coronavirus (SARS-CoV) S epitopes plus CpG oligodeoxynucleotide (CpG ODN) , PolyI:C and R848 as adjuvants.
-
-event('CD8',target,'SARS-CoV')
+event('CD8',target,'SARS-CoV-2')
 Importantly, using this system, we functionally identified the CD4+ and CD8+ peptide epitopes targeted during SARS-CoV-2 infection in H2b restricted mice.
 
-event('CD8',target,'SARS-CoV')
-Two CD8(+) T cell responses targeting the SARS-CoV membrane (M) and nucleocapsid (N) proteins were characterized by determining their HLA restriction and minimal T cell epitope regions.
-
-event('CD8',mediate,'SARS-CoV')
-In this study, we assessed the ability of virus-specific memory CD8 T cells to mediate protection against infection in the absence of SARS-CoV-specific memory CD4 T or B cells.
-
-event('CD8',mediate,'SARS-CoV')
-However, the role of SARS-CoV-specific memory CD8 T cells in mediating protection after SARS-CoV challenge has not been previously investigated.
-
-event('CD8',lead,'SARS-CoV')
+event('CD8',lead,'SARS-CoV-2')
 Stimulating peripheral blood mononuclear cells from COVID-19 convalescent patients with overlapping peptides from severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) led to the clonal expansion of SARS-CoV-2-specific CD8+ and CD4+ T cells in vitro, with CD4+ T cells being robust.
 
-event('CD8',control,'SARS-CoV')
+event('CD8',control,'SARS-CoV-2')
 These findings imply the importance of CD4+ T cells (but not CD8+ and CD3+ T cells) in SARS-CoV-2 infection associated pneumonia and indicate that CD4+ T cells might be important for the control of SARS-CoV-2.
 
-event('CD8',respond,'SARS-CoV')
+event('CD8',respond,'SARS-CoV-2')
 The molecular properties of CD8 + T cells that respond to SARS-CoV-2 infection are not fully known.
 
-event('CD8',respond,'SARS-CoV')
+event('CD8',respond,'SARS-CoV-2')
 Overall, our single-cell analysis revealed substantial diversity in the nature of CD8 + T cells responding to SARS-CoV-2.
 
-event('CD8',inhibit,'SARS-CoV')
-SARS-CoV seemed to elicit effective humoral immunity but inhibited cellular immunity, especially CD8+ memory T lymphocytes over time.
-
-event('CD8',decrease,'SARS-CoV')
+event('CD8',decrease,'SARS-CoV-2')
 Following compassionate care treatment with the CCR5 blocking antibody leronlimab, we observed complete CCR5 receptor occupancy on macrophage and T cells, rapid reduction of plasma IL-6, restoration of the CD4/CD8 ratio, and a significant decrease in SARS-CoV-2 plasma viremia.
 
-event('CD8',reduce,'SARS-CoV')
+event('CD8',reduce,'SARS-CoV-2')
 Further, the proportions of CD4+ T and CD8+ T lymphocytes were strongly reduced in patients with severe SARS-CoV-2 infection.
 
-event('STAT',regulate,'SARS-CoV')
-These findings demonstrated that SARS-CoV pathogenesis is regulated by a STAT1 dependent but type I, II and III interferon receptor independent, mechanism.
-
-event('STAT',regulate,'SARS-CoV')
-We propose that the control of AA macrophages by STAT1 is critical to regulating immune pathologies and for protection from long-term progression to fibrotic lung disease in a mouse model of SARS-CoV infection.
-
-event('STAT',stimulate,'SARS-CoV')
-The results showed that SARS-CoV PLpro stimulated TGF-β1-dependent expression of Type I collagen via activating STAT6 pathway.
-
-event('STAT',increase,'SARS-CoV')
+event('STAT',increase,'SARS-CoV-2')
 No evidence suggests stopping angiotensin-converting-enzyme inhibitors, angiotensin-renin-blockers or statins, even it has been suggested that they may increase the expression of Angiotensin-Converting-Enzyme-2 (ACE2) receptor, which is used by " Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) to penetrate into the cells.
 
-event('STAT',induce,'SARS-CoV')
+event('STAT',induce,'SARS-CoV-2')
 Next, we examined IFN competent Calu3 2 B4 cells finding SARS-CoV-2 had reduced viral replication relative to SARS-CoV and induced STAT1 phosphorylation late during infection.
 
-event('STAT',target,'SARS-CoV')
+event('STAT',target,'SARS-CoV-2')
 The presence of pan JAK-STAT components in mammary alveolar cells and in Type II Pneumocytes combined with the autoregulation of both STAT1 and STAT5 suggests a prominent role of cytokine signaling pathways in cells targeted by SARS-CoV-2.
 
-event('STAT',target,'SARS-CoV')
+event('STAT',target,'SARS-CoV-2')
 This study performed the first state-of-art single cell atlas of adult human heart, and revealed that pericytes with high expression of ACE2 might act as the target cardiac cell of SARS-CoV-2.
 
-event('STAT',lead,'SARS-CoV')
+event('STAT',lead,'SARS-CoV-2')
 The global pandemic of Coronavirus Disease 2019 (COVID-19) , caused by severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2)  has led to the death of more than 675 , 0 worldwide and over 150 , 0 in the United States alone.
 
-event('STAT',lead,'SARS-CoV')
+event('STAT',lead,'SARS-CoV-2')
 The global pandemic of Coronavirus Disease 2019 (COVID-19) , caused by severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) , has led to the death of more than 675 , 0 worldwide and over 150 , 0 in the United States alone.
 
-event('STAT',develop,'SARS-CoV')
+event('STAT',develop,'SARS-CoV-2')
 In lieu of the fact that many older patients with hypertension or other CVDs are routinely treated with RAAS blockers and statins, new clinical concerns have developed regarding whether these patients are at greater risk for SARS-CoV-2 infection, whether RAAS and statin therapy should be discontinued, and the potential consequences of RAAS blockade to COVID-19-related pathologies such as acute and chronic respiratory disease.
 
-event('STAT',control,'SARS-CoV')
+event('STAT',control,'SARS-CoV-2')
 The source of her tuberculous infection was not identified, and further investigations by the local health department were not possible because of the State of Michigan-mandated lockdown for control of SARS-CoV-2 spread.
 
-event('STAT',control,'SARS-CoV')
-Our data suggest that the failure of STAT1-deficient mice to control initial SARS-CoV replication efficiently in the lung is due to impaired type I and type III IFN signalling, whereas the failure to control subsequent systemic viral spread is due to unrelated defects in STAT1-deficient mice.
-
-event('STAT',reveal,'SARS-CoV')
+event('STAT',reveal,'SARS-CoV-2')
 This study performed the first state-of-art single cell atlas of adult human heart, and revealed that pericytes with high expression of ACE2 might act as the target cardiac cell of SARS-CoV-2.
 
-event('STAT',infect,'SARS-CoV')
+event('STAT',infect,'SARS-CoV-2')
 We have analyzed 453 SARS-CoV-2 genomes collected between 20 February and 15 March 2020 from infected patients in Washington State, USA.
 
-event('STAT',act,'SARS-CoV')
-As STAT3 acts as an activator of transcription in the nucleus, these results suggest that STAT3 lacks its activity on transcription in SARS-CoV-infected Vero E6 cells.
-
-event('STAT',act,'SARS-CoV')
+event('STAT',act,'SARS-CoV-2')
 This study performed the first state-of-art single cell atlas of adult human heart, and revealed that pericytes with high expression of ACE2 might act as the target cardiac cell of SARS-CoV-2.
-
-event('STAT',express,'ORF6')
-In addition, confocal imaging and Western blotting assays revealed that the increases in STAT-1 nuclear translocation and phosphorylation occurred in the transfected cells expressing both genes of ORF6 and NPIPB3, but not in the ORF6-expressing cells in response to IFN-β.
-
-event('ORF6',regulate,'ORF6')
-However, for most ORFs, ocular strains presented lower expression than genital or lymphogranuloma venereum (LGV) strains, and ORF6/pgp4 (transcriptional regulator of virulence associated genes) presented the highest mean expression among strains, followed by the virulence factor ORF5/pgp3 (also regulated by ORF6/pgp4).
-
-event('ORF6',increase,'ORF6')
-Consistent with the observed increase in the biochemical interaction between 55 K and Orf3 in the absence of Orf6, the 55 K association with Orf3 in ND10 was also found to increase in the absence of Orf6.
-
-event('ORF6',increase,'ORF6')
-Citrinin production was significantly greater (3.6-fold) in the Δorf6 strain than in the wild-type Monascus purpureus YY-1, and RT-PCR analysis further revealed increased expression of numerous genes of the citrinin biosynthesis gene cluster in Δorf6.
-
-event('ORF6',induce,'ORF6')
-1 of ORF6 and ORF7, respectively induced the highest IFN-gamma responses, suggesting that these peptides represented the immunodominant Th1 cell epitopes of RD1 ORF6 and ORF7 in the patients tested.
-
-event('ORF6',express,'ORF6')
-The overexpression of NPIPB3 restored the IFN-β responses in SARS-CoV ORF6 expressing cells, indicating that the interaction of SARS CoV ORF6 and NPIPB3 reduced Type I IFN antagonism by SARS-CoV ORF6.
-
-event('ORF6',express,'ORF6')
-To investigate the role of ActVA-Orf6 in this oxidation, we have expressed the actVA-Orf6 gene in Escherichia coli and purified and characterized the recombinant protein.
-
-event('ORF6',express,'ORF6')
-In this study, we cloned the KSHV ORF6 gene expressed the full length ORF6 protein in insect cells and purified it to homogeneity.
-
-event('ORF6',express,'ORF6')
-In order to investigate the characterization of in vitro co-expressed GP5 and M proteins of porcine reproductive and respiratory syndrome virus (PRRSV) , eukaryotic expression plasmids pCI-ORF5 (expressing GP5 protein alone) , pCI-ORF6 (expressing M protein alone) , and pCI-ORF5/ORF6 (co-expressing GP5 and M proteins) were constructed.
-
-event('ORF6',express,'ORF6')
-L-ORF6 caused mild necrotic symptoms in Nicotiana benthamiana when expressed from TRV, whereas U1-ORF6 caused severe symptoms including death of the plant apex.
-
-event('ORF6',lead,'ORF6')
-Out of the various recombinants carrying the relevant ketoreductases, the set of gra-ORF5 and-ORF6 under translational coupling (on pIK191) led to the most efficient production of (R)-DNPA as a single product, implying a possible unique cooperative function whereby gra-ORF6 might encode a " guiding" protein to control the regio- and stereochemical course of reduction at C-3 catalyzed by the gra-ORF5 protein.
-
-event('ORF6',reveal,'ORF6')
-Citrinin production was significantly greater (3.6-fold) in the Δorf6 strain than in the wild-type Monascus purpureus YY-1, and RT-PCR analysis further revealed increased expression of numerous genes of the citrinin biosynthesis gene cluster in Δorf6.
-
-event('ORF6',infect,'ORF6')
-First, we investigated whether proteins were produced from ORF5 and ORF6 by in vitro translation of appropriate viral transcripts, searched for antibodies against the putative proteins in the sera of animals infected with wild-type virus, and looked for an antisense WHV transcript, necessary for expression of a protein from ORF6, in the livers of acutely or chronically infected woodchucks.
-
-event('ORF6',inhibit,'ORF6')
-Further analyses suggest that ORF6 inhibits both type I IFN production and downstream signaling, and that the C-terminus region of ORF6 is critical for its antagonistic effect.
-
-event('ORF6',reduce,'ORF6')
-The overexpression of NPIPB3 restored the IFN-β responses in SARS-CoV ORF6 expressing cells, indicating that the interaction of SARS CoV ORF6 and NPIPB3 reduced Type I IFN antagonism by SARS-CoV ORF6.
 
 event('MHC',bind,'CD4')
 Antigen recognition by alloreactive MHC class I-restricted CD4(+) T cells was inhibited by removing peptides bound to HLA molecules on T2 cells suggesting that the alloreactive CD4(+) T cells recognize peptides that bind in a TAP-independent manner to HLA-A2 molecules.
@@ -5395,13 +5287,10 @@ Distinct from its action on CD4+ T cells, IL35 signaling in gp130+CD8+ T cells a
 event('STAT',activate,'CD8')
 CD80 expression in CTCL cells is strictly dependent on the expression of both members of the STAT5 family, STAT5a and STAT5b, as well as their joint ability to transcriptionally activate the CD80 gene.
 
-event('CD8',bind,'SARS-CoV')
+event('CD8',bind,'SARS-CoV-2')
 To facilitate the evaluation of antiviral CD8 T cell responses to SARS-CoV-2, we generated a publicly accessible database of epitopes predicted to bind any class I HLA protein across the entire SARS-CoV-2 proteome.
 
-event('CD8',detect,'SARS-CoV')
-SARS-CoV-specific CD4+ T-cell responses were detected in all vaccinees, and CD8+ T-cell responses in approximately 20 % of individuals.
-
-event('CD8',activate,'SARS-CoV')
+event('CD8',activate,'SARS-CoV-2')
 Baseline levels of CD8+ T cells, resting natural killer (NK) cells and activated NK cells are significantly lower in lung tissues with high expression of the SARS-CoV-2 host cell entry receptor ACE2.
 
 event('STAT',associate,'JAK3')
@@ -5875,207 +5764,6 @@ Major histocompatibility complex (MHC) class II molecules present exogenously de
 event('MHC',support,'CD4')
 Conventional DCs (cDCs) from schistosome-infected mice upregulated expression of the costimulatory molecule CD40 and were capable of priming naive CD4(+) T cells, whereas plasmacytoid DCs (pDCs) upregulated expression of MHC class II, CD86 and CD40 but were unable to support the expansion of either naive or effector/memory CD4(+) T cells.
 
-event('CD4',associate,'CD8')
-This model provides evidence that HBsAg displayed a strong tolerogenic effect on the CD4(+) T cell compartment that is associated with a defect in CD8(+) T cell effector functions in vivo.
-
-event('CD4',associate,'CD8')
-Except for the absence of CD4 and CD8, which was associated with undetectable levels of CD4 and CD8 mRNA, the clones were phenotypically indistinguishable from classical CD3+alphabeta TCR+ cells.
-
-event('CD4',associate,'CD8')
-In contrast, the increase in HLA-ABC expression by CD8+ lymphocytes was associated with transition from 2 H4+ to 2 H4int status, which suggests that increased HLA-ABC expression occurs at an earlier stage in the acquisition of CD45RO in CD8+ cells than for CD4+ cells.
-
-event('CD4',associate,'CD8')
-Increased cytotoxic capacity of HIV-specific CD8+ T-cells associated with efficient elimination of HIV-infected CD4+ T-cell targets has been shown to distinguish long-term nonprogressors (LTNP) , patients with durable control over HIV replication, from those experiencing progressive disease.
-
-event('CD4',associate,'CD8')
-In adjusted analyses, entry CD4 cell count and CD4/CD8 ratio were associated with GBD region, sex, entry regimen, duration of ART, and nadir CD4 cell count.
-
-event('CD4',associate,'CD8')
-The main aims of this study were to determine whether CD4+ and CD8+ cells are present in the normal chambers of the eye in dogs and to verify the hypothesis that uncomplicated cataract may be associated with the local recruitment of CD4+ and CD8+ cells.
-
-event('CD4',associate,'CD8')
-Consequently, CD4+ T-cell, but not CD8+ T-cell, infiltration was a good prognostic factor in cHL, and PD-1 blockade showed antitumor efficacy against MHC-II-expressing cHL associated with CD4+ T-cell infiltration.
-
-event('CD4',associate,'CD8')
-These findings imply the importance of CD4+ T cells (but not CD8+ and CD3+ T cells) in SARS-CoV-2 infection associated pneumonia and indicate that CD4+ T cells might be important for the control of SARS-CoV-2.
-
-event('CD4',associate,'CD8')
-The analysis outcome indicates that the time-varying CD4 covariate is closely related to the first-phase viral decay rate, but the time to CD4/CD8 decrease is not highly associated with either the two viral decay rates or the CD4 changing rate over time.
-
-event('CD4',associate,'CD8')
-In TNFR1-/- mice, reduced CD8-enriched myocarditis was associated with defective activation of CD44+CD62Llow/- and CCR5+ CD8+ lymphocytes.
-
-event('CD4',associate,'CD8')
-CCR3 was equally distributed in CD4+ and CD8+ cells, but CCR5 was associated largely with CD4+ cells.
-
-event('CD4',associate,'CD8')
-However, we report that CD8(+) lymphocyte depletion is also associated with a dramatic induction of proliferation among CD4(+) effector memory T (T(EM)) cells and, to a lesser extent, transitional memory T (T(TrM)) cells, raising the question of whether an increased availability of optimal (activated/proliferating) , CD4(+)/CCR5(+) SIV " target" cells contributes to this accelerated pathogenesis.
-
-event('CD4',associate,'CD8')
-The CD8+CXCR3+/CD8+CCR4+ ratio showed a more marked change associated with disease activity than CD4+ T cells in MS and NMO patients.
-
-event('CD4',associate,'CD8')
-Resting natural killer cells and activated memory CD4+ and CD8+ T cells were associated with favourable patient outcome, whereas resting memory CD4+ T cells were associated with poor outcome.
-
-event('CD4',associate,'CD8')
-However, these cells exhibited robust proliferative potential showing that expression of CD45RA may not always associate with terminal differentiation and, in fact, may be an indicator of highly functional memory CD8(+) T cells generated after acute viral infections.
-
-event('CD4',associate,'CD8')
-Higher percent CD8+ levels during treatment was associated with poorer quality of life and more depression, while higher CD4+ and CD8+ were associated with poorer neuropsychological memory and processing speed performance.
-
-event('CD4',associate,'CD8')
-tumor size was negatively associated with numbers of infiltrating CD4+ T cells, CD4+CD127+ T cells, and CD8+CD127+ T cells, and positively associated with numbers of CD4+PD-1+ T cells, CD4+CD25+ T cells, and CD8+PD-1+ T cells.
-
-event('CD4',associate,'CD8')
-The difference between CD4 + T-lymphocytes, CD4 +/CD8 + with associated HIV/TB infection, and also in the 1 st and 3 rd HIV/TB subgroups, as compared to those with TB monoinfection, was shown to be significantly more pronounced CD4 + T lymphocytes and a higher index of CD4 +/CD8 + in patients with TB monoinfection.
-
-event('CD4',associate,'CD8')
-Moreover, adoptive transfer of CD4+CD45RBhigh T cells from CD83flox/flox/CD4-cretg/wt mice into Rag2-deficient mice elicited more severe colitis associated with increased serum concentrations of IL-12 and elevated CD40 expression on CD11c+ dendritic cells (DCs).
-
-event('CD4',associate,'CD8')
-Finally, TCR Vβ spectratyping analysis identified Vβ families within CD4 and CD8 T cells, which were associated with both GvM effects and GvHD, whereas other Vβ families within CD4 T cells were associated exclusively with either GvM or GvHD responses.
-
-event('CD4',associate,'CD8')
-We show that, although CD8αα T cells in AGMs maintain functions associated with CD4+ T cells (including Th follicular functionality in lymphoid tissues and Th2 responses in bronchoalveolar lavage fluid) , they also accumulate functions normally attributed to canonical CD8+ T cells.
-
-event('CD4',associate,'CD8')
-Transcriptional analysis of tetramer+ CD8+ T cells from treated persons revealed reduced expression of genes associated with activation and apoptosis, with concurrent up-regulation of prosurvival genes including BCL-2, AXL, and SRC Early treatment also resulted in robust HIV-specific CD4+ T cell responses compared to untreated HIV-infected individuals.
-
-event('CD4',associate,'CD8')
-Similarly, treating wild-type mice with a CD47 antibody that blocks thrombospondin-1 binding delayed B16 melanoma growth associating with increased NK cell recruitment and increased granzyme B and interferon-γ levels in intratumoral NK but not CD8+ T cells.
-
-event('CD4',associate,'CD8')
-Since the tetraspanin CD81 is associated to CD4, the receptor of HIV-1 envelope protein (Env.
-
-event('CD4',associate,'CD8')
-2 B4 expression on CD8 T cells was negatively associated with IL-2 production but showed no effect on CD4 T cell function.
-
-event('CD4',associate,'CD8')
-Interestingly, the proportions of HIV-1-specific CD8 TSCM cells and total HIV-1-specific CD8 TSCM cells were associated with the CD4 T cell counts during treatment with antiretroviral therapy but not with CD4 T cell counts, viral loads, or immune activation parameters in untreated patients, including controllers.
-
-event('CD4',associate,'CD8')
-however, only proportions of IFN-γ-secreting HIV-1-specific CD8 TSCM cells were associated with CD4 T cell counts during antiretroviral therapy.
-
-event('CD4',phosphorylate,'CD8')
-Consistent with the hypothesis that CD4 T cell proliferation is driven by IL-7 as a homeostatic response to CD4 T cell depletion, levels of phosphorylated STAT-5 were found to be elevated in naive subsets of CD4 and CD8 T cells from patients with HIV infection and in the central memory subset of CD4 T cells.
-
-event('CD4',recruit,'CD8')
-Here, we investigated whether naive MBP-specific CD8+ T cells recruited to the CNS during CD4+ T cell-initiated EAE engaged in determinant spreading and influenced disease.
-
-event('CD4',recruit,'CD8')
-These results demonstrate that tumor-specific CD8+ T-cells can be efficiently activated and recruited in the absence of MHC class II molecules and of CD4+ T-cell help.
-
-event('CD4',recruit,'CD8')
-In vivo, these CD8+ T cells form direct stable contacts with motile naïve CD4+ T cells recruiting them to Ag+DC binding and to the formation of ternary complexes, where CD4+ and CD8+ T cells interact with the DC and with one another.
-
-event('CD4',involve,'CD8')
-In view of the preservation of CD8 lineage T cells and functional loss of CD4 lineage T cells in HIV-infected patients, it was suggested that a specific immune recognition event is at the center of the pathogenesis of this syndrome which involves preservation of an unknown antigen in the context of HLA-B27 to CD8 lineage suppressor/cytotoxic T cells.
-
-event('CD4',involve,'CD8')
-It is further proposed that CD8+ T cells are involved in the control of the Th1 polarization, which is observed in psoriasis lesions, through a complex interplay between CD4+, CD8+ T cells and cross-presenting dendritic cells.
-
-event('CD4',involve,'CD8')
-Except PBMCs, Th2 and CD8+ T cells, the expression levels of the key enzymes involved in glycolysis and HIF-1α were significantly higher in B cells, DCs, Tregs, CD4+CD25-T cells, and Th1 and Th17 cells in MG patients, and the measurement of ECAR and OCR confirmed the metabolic status.
-
-event('CD4',involve,'CD8')
-Engineered cancer-specific CD4+ T cells may contribute to protective immunity by a direct pathway involving cancer cell killing, and by an indirect pathway that boosts the function, persistence and memory formation of CD8+ T cells.
-
-event('CD4',involve,'CD8')
-The CD4/CXCR4 and CD8alpha/CXCR4 interactions may thus be involved in cellular signaling pathways shared by the CD4 and CD8alpha molecules.
-
-event('CD4',involve,'CD8')
-1 monoclonal antibody (mAb) , but not depleting anti-CD4/CD8 mAbs, equalized atherosclerotic burden, suggesting NK cells were involved in the enhanced disease in Cd47 deficient mice.
-
-event('CD4',involve,'CD8')
-The CD8α(Neg) DC subset is specialized for MHC class II antigen presentation and is centrally involved in priming CD4 T cells.
-
-event('CD4',involve,'CD8')
-Differentiation of CD4(+) helper and CD8(+) cytotoxic αβ T cells from CD4(+) CD8(+) thymocytes involves upregulation of lineage-specifying transcription factors and transcriptional silencing of CD8 or CD4 coreceptors, respectively, in MHC class II or I (MHCII or I)-restricted thymocytes.
-
-event('CD4',involve,'CD8')
-CD4+ T cell help to CD8+ T cell responses requires that CD4+ and CD8+ T cells interact with the same antigen presenting dendritic cell (Ag+DC) , but it remains controversial whether helper signals are delivered indirectly through a licensed DC and/or involve direct CD4+/CD8+ T cell contacts and/or the formation of ternary complexes.
-
-event('CD4',require,'CD8')
-Several transcription factors are known to control the emergence of CD4 and CD8 lineages, including the zinc finger proteins Thpok and Gata3, which are required for CD4 lineage differentiation, and the Runx factors Runx1 and Runx3, which contribute to CD8 lineage differentiation.
-
-event('CD4',require,'CD8')
-The data suggest that cytotoxic CD4+ T-cells may play a significant role in immunity to melanoma, and HLA class-I-restricted recognition of melanoma may not necessarily require the CD8 molecule on the lytic T-cell.
-
-event('CD4',require,'CD8')
-Both primary and long-lasting self/TERT-specific CD8(+) T-cell responses induced with Iv-hTERT vector required the presence of CD4 T cells in vivo.
-
-event('CD4',require,'CD8')
-Optimal priming of single-cell gamma interferon (IFN-gamma) production by CD8(+) T cells required CD4(+) T cells and was broadly directed to multiple regions of Gag, Env, and Nef that corresponded to known and predicted major histocompatibility complex class I epitopes.
-
-event('CD4',require,'CD8')
-In the nine HLA-B:Bw4-80Ile-positive patients, we demonstrated a strong viral suppression by KIR3DL1-expressing CD8(+) T-cells that required cell-to-cell contact to switch off the activation signals in infected CD4(+) T-cells.
-
-event('CD4',require,'CD8')
-Both CD4+ and CD8+ T cells are required for the induction of colitis accompanied by activation of both T-cell lineages and DCs, increased expression of mucosal IFNγ, TNFα, IL6, IL1β, and IL12, and decreased frequencies of CD4+FoxP3+ regulatory T cells.
-
-event('CD4',require,'CD8')
-Tumor-specific CD8 T\240\cell responses arose independently of CD4 T\240\cells, but they required Th1-polarized CD4 T\240\cells for efficient tumor suppression.
-
-event('CD4',require,'CD8')
-Thus, CD4 T cells and IFNγ can control tumour growth without direct T-cell killing of tumour cells, and without requiring additional adaptive immune cells such as CD8 T cells and B cells.
-
-event('CD4',require,'CD8')
-In summary, our data demonstrate that CD4+ T cells require continuous stimulation for clonal expansion, whereas CD8+ T cells can divide following a much shorter TCR signal.
-
-event('CD4',require,'CD8')
-CD4+ T cell help to CD8+ T cell responses requires that CD4+ and CD8+ T cells interact with the same antigen presenting dendritic cell (Ag+DC) , but it remains controversial whether helper signals are delivered indirectly through a licensed DC and/or involve direct CD4+/CD8+ T cell contacts and/or the formation of ternary complexes.
-
-event('CD4',require,'CD8')
-The ability of primed macrophages to reject allografts essentially requires the help of CD4+ T cells and does not require the help of CD8+ T cells.
-
-event('CD4',relate,'CD8')
-We examined the aNKR ligand profiles HIV p24⁺ HIV iCD4s that maintained cell surface CD4 (iCD4⁺) , did not maintain CD4 (iCD4-) and uninfected CD4 (unCD4) T cells for expression of unique long (UL)-16 binding proteins-1 (ULBP-1) , ULBP-2/5/6, ULBP-3, major histocompatibility complex (MHC) class 1-related (MIC)-A, MIC-B, CD48, CD80, CD86, CD112, CD155, Intercellular adhesion molecule (ICAM)-1 , ICAM-2, HLA-E, HLA-F, HLA-A2, HLA-C, and the ligands to NKp30, NKp44, NKp46, and killer immunoglobulin-like receptor 3 DS1 (KIR3DS1) by flow cytometry on CD4 T cells from 17 HIV-1 seronegative donors activated and infected with HIV.
-
-event('CD4',relate,'CD8')
-This is the first reported case of T-LGLL with dual components of CD4+/CD8dim and CD4-/CD8+ populations in terms of multiple comorbidities related to the respective CD8+ and CD4+ T-LGLLs.
-
-event('CD4',relate,'CD8')
-In this study, we demonstrate that suboptimal stimulation of human PBMCs with a low concentration (1 ng/ml) of staphylococcal enterotoxin C1, at which half-maximal T cell proliferation was observed, induced CD8+CD25+ T cells expressing markers related to regulatory T cells (Tregs) , such as IFN-γ, IL-10, TGF-β, FOXP3, CD28, CTLA4, TNFR2, CD45RO, and HLA-DR.
-
-event('CD4',combine,'CD8')
-In contrast, anti-CD4+ or anti-CD8+ antibody treatments partially reduced the OAD histopathology and combined anti-CD4/CD8 antibody treatment further abrogated the histopathology of the disease.
-
-event('CD4',combine,'CD8')
-Then, CD4 and CD8 cell labelling was combined with CD30, CD27, CD28, CD45RA or CD45R0 staining, detection of intracellular interferon-gamma (IFN-gamma) or interleukin-4 (IL-4) and analysis by three-colour flow cytometry.
-
-event('CD4',combine,'CD8')
-Changes in CD8(+) subset distribution were studied in 17 subjects with acute human immunodeficiency virus type 1 infection and in 14 subjects with acute Epstein-Barr virus (EBV) infection, with combined CD45RO, CD27, and CD28 monoclonal antibodies.
-
-event('CD4',combine,'CD8')
-Three-colour flow cytometry analysis was used to quantify blood dendritic cells without previous isolation from whole blood and to study the expression of functional molecules (MHC class II, CD11c, CD83, CD86) by dendritic cells from 30 HIV-positive patients, 15 of whom were treated with combined antiretroviral therapy (viral loads from undetectable to 5.4 log copies/ml, CD4 cell counts 1-1895 cells/mm3) and 11 non-infected controls.
-
-event('CD4',convert,'CD8')
-In response to antigenic stimulation, naive MHC-class I restricted and antigen-specific CD8+ CD45RA+ CD28+ T cells undergo clonal expansion, differentiate into CD8+ CD45RO+ memory T cells and convert to CD8+ CD45RA+ CD28- T cells displaying potent immune effector functions upon re-encounter with the nominal antigen.
-
-event('CD4',convert,'CD8')
-In a study with mouse models to track the clonal fate of CD4 and CD8 T cells, we discovered that CD8 T cells converted to MHC class I-restricted CD4 T cells without regard to selfness of their antigen specificity.
-
-event('CD4',convert,'CD8')
-In mesenteric lymph nodes (MLN) , CD8 T cells converted to CD4(+) Foxp3(+) regulatory T (Treg) cells which were enriched in the large intestine lamina propria (LILP) and suppressed chemical- or immune-mediated inflammatory damage.
-
-event('CD4',support,'CD8')
-IL-12p70 polarizes T cell responses towards CD4+ T helper 1 cells, which then support the development of CD8+ cytotoxic T lymphocytes.
-
-event('CD4',support,'CD8')
-Our study suggest that CD40 activation supports the generation of tumor-specific CD8+ Tscm, thus providing new insight into cancer immunotherapy.
-
-event('CD4',support,'CD8')
-Rather, CD49a supports CD8+ TRM persistence within skin, regulates epidermal CD8+ TRM dendritic extensions, and increases the frequency of IFN-γ+ CD8+ TRM following local antigen challenge.
-
-event('CD4',support,'CD8')
-Cytotoxicity in dual-costimulated CD4 T cells depends on the T-box transcription factor eomesodermin (Eomes) , which we report is induced via a mechanism that does not rely on IL-2, in contrast to CD8+ CTL, but rather depends on the CD8 T cell lineage commitment transcription factor Runx3, which supports Eomes expression in mature CD8+ CTLs.
-
-event('CD4',support,'CD8')
-Further analysis showed that CD4(+) and CD8(+) T cells exhibited distinct preferences for certain amino acids in the CDR3, and this was confirmed further by a support vector machine classifier, suggesting that there are distinct and discernible differences between TCRβ CDR3 in CD4(+) and CD8(+) T cells.
-
-event('CD4',support,'CD8')
-We hypothesized that toll-like receptor (TLR) 3 agonist polyICLC or TLR4 agonist lipopolysaccharide (LPS) , combined with CD4 T cell activation, would support strong and durable CD8+ T cell responses, whereas addition of an incomplete Freund\s adjuvant (IFA) would reduce magnitude and persistence of immune responses.
-
 event('MHC',associate,'CD8')
 In NK-DC co-culture, the possession of HLA-C2 by DC was associated with anti-inflammatory cytokine production (IL-1RA/IL-6) , diminished DC maturation (CD86, HLA-DR) , and absent CCR7 expression.
 
@@ -6229,735 +5917,6 @@ In addition to B cells, acute control required MHC class I molecules, CD8+ T cel
 event('MHC',support,'CD8')
 This work describes for the first time the utility of a CPP to enhance MHC-I presentation in a veterinary species and supports the evaluation of CPP fusion proteins in the induction of CD8+ T cell responses in vivo.
 
-event('CD8',associate,'CD4')
-This model provides evidence that HBsAg displayed a strong tolerogenic effect on the CD4(+) T cell compartment that is associated with a defect in CD8(+) T cell effector functions in vivo.
-
-event('CD8',associate,'CD4')
-Except for the absence of CD4 and CD8, which was associated with undetectable levels of CD4 and CD8 mRNA, the clones were phenotypically indistinguishable from classical CD3+alphabeta TCR+ cells.
-
-event('CD8',associate,'CD4')
-These data support the hypothesis that declines in frequencies of CD4+ T-cell responses to CMV are associated with an inability to sustain high levels of CMV-specific CD8+ T-cell responses in HIV-1-infected subjects.
-
-event('CD8',associate,'CD4')
-In HLA-B27/B57 LTNPs, a lower activation level of their memory CD4 T cells was associated with lower amounts of cell HIV-DNA in each resting memory CD4 subset and were also associated with higher ratios of HIV Gag-specific CD8 T cells per infected resting CD4 T cell (effector/target [ E/T]).
-
-event('CD8',associate,'CD4')
-A high PD-1+ CD4+ T-cell count was associated with poor overall survival, PD-1+CD8+ T-cells connect to a favorable outcome.
-
-event('CD8',associate,'CD4')
-Chronic carriage of human papillomavirus infection leads to decrease in the CD3+, CD4+, and CD19+ levels associated with an increased CD8+ level and activation of proinflammatory cytokines (IL-2, IL-6, TNF-α) against the background of a decrease in their anti-inflammatory concentration analogues (IL-4, IL- 10) during pregnancy, which, in turn, creates favourable conditions for viral reactivation and subsequently causes reproductive complications and losses.
-
-event('CD8',associate,'CD4')
-In immunosuppressed solid organ transplant recipients, a delayed appearance of HCMV-specific CD4+ T cells is associated with prolonged viremia and more severe clinical disease, while in haematopoietic stem cell transplant recipients, it has been suggested that HCMV-specific CD4+ T cells are required for HCMV-specific CD8+ T cells to exert their anti-viral effects.
-
-event('CD8',associate,'CD4')
-Nevertheless, antileishmanial therapy caused an increase of CD4+CD25+FoxP3+ T cells in all tissues associated with the decrease of CD8+CD25-FoxP3- T cell percentages.
-
-event('CD8',associate,'CD4')
-The main aims of this study were to determine whether CD4+ and CD8+ cells are present in the normal chambers of the eye in dogs and to verify the hypothesis that uncomplicated cataract may be associated with the local recruitment of CD4+ and CD8+ cells.
-
-event('CD8',associate,'CD4')
-Interestingly, vaccinated SIV controllers did not present with this aberrant PD-1(hi) CD4 T cell enrichment, and this lack of enrichment was associated with the presence of higher frequencies of SIV-specific granzyme B(+) CD8 T cells within the lymphoid tissue, suggesting a role for antiviral CD8 T cells in limiting aberrant expansion of PD-1(hi) CD4 T cells.
-
-event('CD8',associate,'CD4')
-Moreover, the expression level of PTPN6 was positively associated with the infiltration of B cells, CD4+T cells, dendritic cells, and neutrophils and negatively associated with CD8+ T cells and macrophages in BC.
-
-event('CD8',associate,'CD4')
-tumor size was negatively associated with numbers of infiltrating CD4+ T cells, CD4+CD127+ T cells, and CD8+CD127+ T cells, and positively associated with numbers of CD4+PD-1+ T cells, CD4+CD25+ T cells, and CD8+PD-1+ T cells.
-
-event('CD8',associate,'CD4')
-Even if a combination of chemotherapy and immunotherapy is necessary, using CD4+T cell therapy can better reduce the dose of the associated chemotherapy compared to using combined CD8+T cells and cytokine therapy.
-
-event('CD8',associate,'CD4')
-The difference between CD4 + T-lymphocytes, CD4 +/CD8 + with associated HIV/TB infection, and also in the 1 st and 3 rd HIV/TB subgroups, as compared to those with TB monoinfection, was shown to be significantly more pronounced CD4 + T lymphocytes and a higher index of CD4 +/CD8 + in patients with TB monoinfection.
-
-event('CD8',associate,'CD4')
-Single cell RNA sequencing (scRNASeq) of CD45+ cells isolated from the CNS revealed that PLX5622 treatment resulted in muted CD4+ T cell activation profile that was associated with decreased expression of transcripts encoding MHC class II and CD86 in macrophages but not dendritic cells.
-
-event('CD8',associate,'CD4')
-Lower percentages of activated CD8 and/or CD4 T cells were associated with protective alleles B,57:03 (CD8 T cells,-6.6 % [ P =.
-
-event('CD8',associate,'CD4')
-Higher CD4 and CD8 T cell counts, lymphocyte count, and total WBC count were associated with incident DM among both women with and without HIV, although the association of CD8 was not statistically significant among women without HIV.
-
-event('CD8',phosphorylate,'CD4')
-Consistent with the hypothesis that CD4 T cell proliferation is driven by IL-7 as a homeostatic response to CD4 T cell depletion, levels of phosphorylated STAT-5 were found to be elevated in naive subsets of CD4 and CD8 T cells from patients with HIV infection and in the central memory subset of CD4 T cells.
-
-event('CD8',recruit,'CD4')
-Here, we investigated whether naive MBP-specific CD8+ T cells recruited to the CNS during CD4+ T cell-initiated EAE engaged in determinant spreading and influenced disease.
-
-event('CD8',recruit,'CD4')
-In vivo, these CD8+ T cells form direct stable contacts with motile naïve CD4+ T cells recruiting them to Ag+DC binding and to the formation of ternary complexes, where CD4+ and CD8+ T cells interact with the DC and with one another.
-
-event('CD8',participate,'CD4')
-Dendritic cells and CD8(+) T cells participate in the pathology of chronic obstructive pulmonary disease, including emphysema, but little is known of the involvement of the CD40/CD40L pathway.
-
-event('CD8',involve,'CD4')
-The CD4/CXCR4 and CD8alpha/CXCR4 interactions may thus be involved in cellular signaling pathways shared by the CD4 and CD8alpha molecules.
-
-event('CD8',involve,'CD4')
-Because the chemokine receptor CCR5 is expressed on Th1 CD4(+) cells, it is important to investigate the expression and function of this receptor on other T cells involved in Th1 immune responses, such as Ag-specific CD8(+) T cells, which to date have been only partially characterized.
-
-event('CD8',involve,'CD4')
-Differentiation of CD4(+) helper and CD8(+) cytotoxic αβ T cells from CD4(+) CD8(+) thymocytes involves upregulation of lineage-specifying transcription factors and transcriptional silencing of CD8 or CD4 coreceptors, respectively, in MHC class II or I (MHCII or I)-restricted thymocytes.
-
-event('CD8',involve,'CD4')
-The CD8(+) T cell-mediated protective immune response against CSP is dependent on the interleukin loop involving IL-4 receptor expression on CD8(+) cells and IL-4 secretion by CD4(+) T cell helpers.
-
-event('CD8',involve,'CD4')
-CD4+ T cell help to CD8+ T cell responses requires that CD4+ and CD8+ T cells interact with the same antigen presenting dendritic cell (Ag+DC) , but it remains controversial whether helper signals are delivered indirectly through a licensed DC and/or involve direct CD4+/CD8+ T cell contacts and/or the formation of ternary complexes.
-
-event('CD8',require,'CD4')
-Several transcription factors are known to control the emergence of CD4 and CD8 lineages, including the zinc finger proteins Thpok and Gata3, which are required for CD4 lineage differentiation, and the Runx factors Runx1 and Runx3, which contribute to CD8 lineage differentiation.
-
-event('CD8',require,'CD4')
-The control of many persistent viral infections by Ag-specific cytolytic CD8+ T cells requires a concurrent virus-specific CD4+ Th cell response.
-
-event('CD8',require,'CD4')
-Finally, mature DCs pulsed with matrix peptide induced CTLs from highly purified CD8+ T cells without requiring CD4+ T cell help.
-
-event('CD8',require,'CD4')
-Subset analysis demonstrated that CD4+ T cells or addition of exogenous interleukin-2 was required for the induction of CD8+ CTL.
-
-event('CD8',require,'CD4')
-However, in the absence of inflammatory conditions, cooperation between CD4 and CD8 T cells likely is required for an effective primary CD8 T cell response directed against allo-HLA class I.
-
-event('CD8',require,'CD4')
-Thus, combinations of CD4(+) Th1 immune interventions and multivalent targeting of HER family members may be required for optimal anti-HER2/neu CD8(+) T-cell-directed immunotherapy.
-
-event('CD8',require,'CD4')
-In immunosuppressed solid organ transplant recipients, a delayed appearance of HCMV-specific CD4+ T cells is associated with prolonged viremia and more severe clinical disease, while in haematopoietic stem cell transplant recipients, it has been suggested that HCMV-specific CD4+ T cells are required for HCMV-specific CD8+ T cells to exert their anti-viral effects.
-
-event('CD8',require,'CD4')
-In addition, adoptive T-cell immunotherapy in transplant patients has shown that the presence of HCMV-specific CD4+ T cells is required for the maintenance of HCMV-specific CD8+ T cells.
-
-event('CD8',require,'CD4')
-Finally, we highlight how tumor-infiltrating CD4 T cells and dendritic cells interact with CD8 T cells within organized lymphoid-like areas in the tumor and propose a CD8 T cell differentiation model that requires the collaboration of CD4 T cells and dendritic cells.
-
-event('CD8',require,'CD4')
-Recovery of the HSV-specific CD8+ T cell population after stress and corticosterone treatment occurred with homeostatic levels of cell division and did not require CD4+ T cell help.
-
-event('CD8',require,'CD4')
-TCR activation of CD4(+) target T cells was required for CD8(+) Treg cells to exert suppressive activity, which was mediated through lysis of CD4(+) targets in a cell contact-dependent manner.
-
-event('CD8',require,'CD4')
-Despite this rapid expression, CD49a is not required for the generation of a primary CD8+ T\240\cell response to cutaneous herpes simplex virus (HSV) infection, migration of CD8+ T\240\cells across the epidermal basement membrane, or positioning of TRM within basal epidermis.
-
-event('CD8',require,'CD4')
-Interestingly, while CD4 T cells were not required for acute control of MHV-68 in the lung, CD8 T cell-mediated control was progressively lost in the absence of CD4 T cell help, leading to viral recrudescence.
-
-event('CD8',require,'CD4')
-CD4+ T cell help is required for the generation of CD8+ cytotoxic T lymphocyte (CTL) memory.
-
-event('CD8',require,'CD4')
-We conclude that human CD8+ TEM-mediated rejection targeting graft EC class I MHC molecules requires help from CD4+ TEM cells activated by recognition of class II MHC molecules.
-
-event('CD8',require,'CD4')
-Host defense against viruses and intracellular parasites depends on effector CD8(+) T cells, whose optimal clonal expansion, differentiation, and memory properties require signals from CD4(+) T cells.
-
-event('CD8',require,'CD4')
-CD4 T cells are required for complete immune control of long-term infection, in part by providing key signals to dendritic cells that in turn instruct optimal antiviral CD8 T cell responses.
-
-event('CD8',require,'CD4')
-Our findings indicate that CD4+ T-cell help is required to establish an effective antiviral CD8+ T-cell response in the liver during acute viral infection.
-
-event('CD8',require,'CD4')
-In a mouse model achieving fully MHC-mismatched allogeneic bone marrow engraftment with minimal conditioning (3 Gy total body irradiation followed by anti-CD154 and T cell-depleted allogeneic bone marrow cells) , CD4 T cells in the recipient are required to promote tolerance of preexisting alloreactive recipient CD8 T cells and thereby permit chimerism induction.
-
-event('CD8',require,'CD4')
-Memory CD8+ T cell activation within allografts subjected to prolonged CIS requires memory CD4+ T cell stimulation of graft DCs to produce p40 homodimers, but not IL-12 p40/p35 heterodimers.
-
-event('CD8',require,'CD4')
-Furthermore, CD8+ cytotoxic T lymphocytes require activation by CD4+ T cells.
-
-event('CD8',require,'CD4')
-CD4+ T cell help to CD8+ T cell responses requires that CD4+ and CD8+ T cells interact with the same antigen presenting dendritic cell (Ag+DC) , but it remains controversial whether helper signals are delivered indirectly through a licensed DC and/or involve direct CD4+/CD8+ T cell contacts and/or the formation of ternary complexes.
-
-event('CD8',require,'CD4')
-Using murine anti-thymocyte globulin (mATG) in a mouse model of heart transplantation, we previously reported that the homeostatic recovery of CD8+ T cells requires help from depletion-resistant memory CD4+ T cells delivered through CD40-expressing B cells.
-
-event('CD8',require,'CD4')
-Following this initial priming immunization with LAMP/gag DNA, booster immunizations with native gag DNA or the LAMP/gag chimera are equally efficient in eliciting B- and T-cell secondary responses, results in accordance with observations that secondary expansion of CD8+ cells in the boost phase does not require additional CD4+ help.
-
-event('CD8',require,'CD4')
-By affecting the function of CD4+ T-cells and antigen presenting cells that are required for proper CD8+ T-cell maturation, HIV is able to decrease the circulating pool of effector and memory CD8+ T-cells that are able to combat viral infection.
-
-event('CD8',require,'CD4')
-Although these CD8+ cells mediate HIV-specific, class I MHC restricted CTL activity, the predominant mechanism for inhibiting virus replication requires neither contact nor MHC matching between the CD8+ effector cells and CD4+ targets.
-
-event('CD8',require,'CD4')
-Collaboration between proliferating CD4-positive cells and CD8-positive cells may thus be required to produce CTL of the CD8 phenotype.
-
-event('CD8',relate,'CD4')
-We examined the aNKR ligand profiles HIV p24⁺ HIV iCD4s that maintained cell surface CD4 (iCD4⁺) , did not maintain CD4 (iCD4-) and uninfected CD4 (unCD4) T cells for expression of unique long (UL)-16 binding proteins-1 (ULBP-1) , ULBP-2/5/6, ULBP-3, major histocompatibility complex (MHC) class 1-related (MIC)-A, MIC-B, CD48, CD80, CD86, CD112, CD155, Intercellular adhesion molecule (ICAM)-1 , ICAM-2, HLA-E, HLA-F, HLA-A2, HLA-C, and the ligands to NKp30, NKp44, NKp46, and killer immunoglobulin-like receptor 3 DS1 (KIR3DS1) by flow cytometry on CD4 T cells from 17 HIV-1 seronegative donors activated and infected with HIV.
-
-event('CD8',relate,'CD4')
-The analysis outcome indicates that the time-varying CD4 covariate is closely related to the first-phase viral decay rate, but the time to CD4/CD8 decrease is not highly associated with either the two viral decay rates or the CD4 changing rate over time.
-
-event('CD8',relate,'CD4')
-To measure CCR5 and CXCR4 chemokine receptor expression on CD4 and CD8 T cells in HIV-1 infection and to relate levels to the distribution of CD45RO memory and CD45RA-naive subsets, measures of disease activity, and response to highly active antiretroviral therapy (HAART).
-
-event('CD8',relate,'CD4')
-To measure CCR5 and CXCR4 chemokine receptor expression on CD4 and CD8 T cells in HIV-1 infection and to relate levels to the distribution of CD45RO memory and CD45RA-naive subsets after effective HAART.
-
-event('CD8',relate,'CD4')
-MRV produced CD4(+) and CD8(+) T-cell gains related to antiviral activity and comparable or even superior in terms of CD8(+) T-cells to naïve patients starting cART.
-
-event('CD8',relate,'CD4')
-This is the first reported case of T-LGLL with dual components of CD4+/CD8dim and CD4-/CD8+ populations in terms of multiple comorbidities related to the respective CD8+ and CD4+ T-LGLLs.
-
-event('CD8',relate,'CD4')
-encoded by Zbtb7b) , which suppresses the cytolytic program in major histocompatibility complex (MHC) class II-restricted CD4(+) thymocytes and the Runt related transcription factor 3 (Runx3) , which counteracts ThPOK in MHC class I restricted precursor cells and promotes the lineage commitment of CD8αβ(+) cytolytic T lymphocytes (CTL).
-
-event('CD8',combine,'CD4')
-In contrast, anti-CD4+ or anti-CD8+ antibody treatments partially reduced the OAD histopathology and combined anti-CD4/CD8 antibody treatment further abrogated the histopathology of the disease.
-
-event('CD8',combine,'CD4')
-Even if a combination of chemotherapy and immunotherapy is necessary, using CD4+T cell therapy can better reduce the dose of the associated chemotherapy compared to using combined CD8+T cells and cytokine therapy.
-
-event('CD8',convert,'CD4')
-In response to antigenic stimulation, naive MHC-class I restricted and antigen-specific CD8+ CD45RA+ CD28+ T cells undergo clonal expansion, differentiate into CD8+ CD45RO+ memory T cells and convert to CD8+ CD45RA+ CD28- T cells displaying potent immune effector functions upon re-encounter with the nominal antigen.
-
-event('CD8',support,'CD4')
-Coculturing CD8 cells with EC stimulates a sufficient level of endothelial class II MHC expression to subsequently support a CD4 T cell proliferative response.
-
-event('CD8',support,'CD4')
-Depletion of CD4+ but not CD8+ T cells abrogated the IFN-γ ELISPOT response supporting the involvement of CD4+ T cells in the immune response to vaccination.
-
-event('CD8',support,'CD4')
-CCL4-induced antinociception almost disappeared upon CD4+, but not CD8+, lymphocyte depletion with selective antibodies, thus supporting that the release of met-enk from CD4+ lymphocytes underlies the opioid antinociceptive response evoked by CCL4.
-
-event('CD8',support,'CD4')
-These results highlight the importance of developing vaccines that enhance antiviral CD8 T cells at sites of preferential viral replication and support the need for developing therapeutic interventions that limit expansion of SIV(+) PD-1(hi) CD4 T cells at mucosal sites as a means to enhance viral control.
-
-event('CD8',support,'CD4')
-Conventional DCs (cDCs) from schistosome-infected mice upregulated expression of the costimulatory molecule CD40 and were capable of priming naive CD4(+) T cells, whereas plasmacytoid DCs (pDCs) upregulated expression of MHC class II, CD86 and CD40 but were unable to support the expansion of either naive or effector/memory CD4(+) T cells.
-
-event('CD8',support,'CD4')
-Further analysis showed that CD4(+) and CD8(+) T cells exhibited distinct preferences for certain amino acids in the CDR3, and this was confirmed further by a support vector machine classifier, suggesting that there are distinct and discernible differences between TCRβ CDR3 in CD4(+) and CD8(+) T cells.
-
-event('CD8',support,'CD4')
-DC from mice receiving either myelin oligodendrocyte glycoprotein-specific CD8+ (MOG-CD8+) or proteolipid protein-specific CD8+ (PLP-CD8+) T cells were rendered inefficient in priming T cell responses from naïve CD4+ T cells (OT-II) or supporting recall responses from CNS-specific CD4+ T cells.
-
-event('CD8',support,'CD4')
-In addition to inflammatory cytokine production, CD4+ T cells also supported the activation and proliferation of CD8+ T cells.
-
-event('JAK3',associate,'CD4')
-These results show that dysregulation of the Jak-STAT pathway is associated with viral persistence in vivo, and that Jak inhibitors target key events downstream of γ-C cytokine (IL-2, IL-7 and IL-15) ligation to their receptors, impacting the magnitude of the HIV reservoir in all memory CD4 T cell subsets in vitro and ex vivo.
-
-event('JAK3',associate,'CD4')
-The additional presence of revertant CD4+ T-cells was associated with a milder clinical and immunological phenotype in the second patient, although the role somatic chimerism plays in amelioration of disease phenotype is uncertain, as presence of revertant cells had no effect on residual CD4 cell JAK3 signaling function.
-
-event('JAK3',phosphorylate,'CD4')
-In accordance with this, upon stimulation of endogenous gp130 with a complex of IL-6 and IL-6R, Traf5-/- CD4+ T cells displayed significantly higher amounts of phosphorylated JAK1 than did their wild-type counterparts.
-
-event('JAK3',phosphorylate,'CD4')
-In addition, NIH3T3 cells expressing the CD45RBC transgene had more phosphorylated Jak1 and grew faster than those with the CD45RO transgene.
-
-event('JAK3',involve,'CD4')
-JAK/STAT-signalling is known to be involved in the regulation of CD4(+) T cells, which critically orchestrate inflammatory responses.
-
-event('JAK3',require,'CD4')
-Additionally, inhibition of the H3K27 demethylase JMJD3 in naive CD4 T cells demonstrates how critically important molecules required for T cell differentiation, such as JAK2 and IL12RB2, are regulated by H3K27me3.
-
-event('JAK3',require,'CD4')
-The antiviral effect of CD40L required activation of c-Jun N terminal kinases (JNK) 1/2 , but not induction of apoptosis or the JAK/STAT pathway that is necessary for the antiviral effects of IFNs.
-
-event('JAK3',require,'CD4')
-Jak3 is constitutively associated with CD40, and this interaction requires a proline-rich sequence in the membrane-proximal region of CD40.
-
-event('JAK3',combine,'CD4')
-We here present the first case of revertant mosaicism in JAK3 deficiency, manifesting as combined immunodeficiency evolving into predominant CD4+ lymphopenia.
-
-event('CD4',associate,'MHC')
-In contrast, the increase in HLA-ABC expression by CD8+ lymphocytes was associated with transition from 2 H4+ to 2 H4int status, which suggests that increased HLA-ABC expression occurs at an earlier stage in the acquisition of CD45RO in CD8+ cells than for CD4+ cells.
-
-event('CD4',associate,'MHC')
-We found that HLA-C,12:02 was significantly associated with lower plasma viral loads (pVL) and higher CD4 counts and that the HLA-A,29:01-B,07:05-C,15:05 haplotype was significantly associated with higher pVL and lower CD4 counts than those for individuals without these respective genotypes.
-
-event('CD4',associate,'MHC')
-, HLA-B,57 and HLA-B,81) previously associated with VL and/or CD4 trajectories in eastern and southern Africans had no obvious impact on CD4:CD8 ratio.
-
-event('CD4',associate,'MHC')
-This study sought to examine nevirapine hypersensitivity (NVP HSR) phenotypes and their relationship with differing major histocompatibility complex (MHC) Class I and Class II alleles and the associated CD4 and CD8 T-cell NVP-specific responses and their durability over time.
-
-event('CD4',associate,'MHC')
-Here we investigate the relationship between the genotypes of transmitted viruses and prognostic markers of disease progression and show that infection with HLA-B,57/B,5801 escape mutants is associated with lower viral load and higher CD4+ counts.
-
-event('CD4',associate,'MHC')
-The CTLs specific for two Pol epitopes presented by HLA-B,5101, one of the HLA alleles associated with slow progression to AIDS, effectively killed HIV-1-infected CD4+ T cells and suppressed HIV-1 replication.
-
-event('CD4',associate,'MHC')
-Furthermore, homozygosity for HLA-Bw4 alleles was also significantly associated with the ability to remain AIDS free and to maintain a normal CD4 T cell count in a second cohort of HIV-1-infected individuals with well defined dates of seroconversion.
-
-event('CD4',associate,'MHC')
-In HLA-B27/B57 LTNPs, a lower activation level of their memory CD4 T cells was associated with lower amounts of cell HIV-DNA in each resting memory CD4 subset and were also associated with higher ratios of HIV Gag-specific CD8 T cells per infected resting CD4 T cell (effector/target [ E/T]).
-
-event('CD4',associate,'MHC')
-Consistent with studies of other cohorts, expression of HLA-B,52:01 was associated with high absolute CD4 counts and therefore a lack of HIV disease progression.
-
-event('CD4',associate,'MHC')
-Among the C-clade-infected individuals, we show that HLA-B,52:01 is the most protective of all the HLA-B alleles expressed in the Indian cohort and is associated with the highest absolute CD4 counts.
-
-event('CD4',associate,'MHC')
-Despite extensive research on the mechanisms of HLA-mediated immune control of HIV-1 pathogenesis, it is clear that much remains to be discovered, as exemplified by protective HLA alleles like HLA-B,81 which are associated with profound protection from CD4+ T cell decline without robust control of early plasma viremia.
-
-event('CD4',associate,'MHC')
-2) and HLA-C single nucleotide polymorphisms (SNPs, rs9264942 C/C and rs67384697 del/del) , that have been previously individually associated with spontaneous control of plasma viremia, maintenance of high CD4(+) T cell counts and delayed disease progression.
-
-event('CD4',associate,'MHC')
-HLA-A02 : 1 and HLA-C04 : 1 were both associated with high viral loads (P = 0.0313 and 0.0001 , respectively) and low CD4 cell counts (P = 0.0008 and 0.0087 , respectively).
-
-event('CD4',associate,'MHC')
-We conclude that the HLA-C,18:01 and KIR2DL2+C1 genetic variants are associated with low VL while the C,08:02 is associated with high CD4+ T lymphocyte count among cART naïve Zimbabwean adults with chronic HIV infection.
-
-event('CD4',associate,'MHC')
-We previously reported that crosslinking of MHC-II induced the endocytosis of MHC-II, which was associated with decreased surface expression levels in murine dendritic cells (DCs) and resulted in impaired activation of CD4+ T cells.
-
-event('CD4',associate,'MHC')
-Consequently, CD4+ T-cell, but not CD8+ T-cell, infiltration was a good prognostic factor in cHL, and PD-1 blockade showed antitumor efficacy against MHC-II-expressing cHL associated with CD4+ T-cell infiltration.
-
-event('CD4',associate,'MHC')
-Both mutants upregulated the major histocompatibility complex II (MHC-II)-associated invariant chain and downregulated CD4, MHC-I, and CD28, although with reduced efficiency for the latter.
-
-event('CD4',associate,'MHC')
-Our results indicate for the first time that C3 deficiency can prolong MHC-II molecule mismatched skin allograft survival, which is further confirmed to be associated with increased CD4(+) CD25(+) Treg cell population expansion and attenuated Th1/Th17 response.
-
-event('CD4',associate,'MHC')
-In two independent cohorts of anti-PD-1-treated melanoma patients, MHC-II positivity on tumour cells is associated with therapeutic response, progression-free and overall survival, as well as CD4(+) and CD8(+) tumour infiltrate.
-
-event('CD4',associate,'MHC')
-Finally, the atheroprotective effect of selective MHCII deficiency in pDCs was associated with significant reductions of proatherogenic T cell-derived interferon-γ and lesional T cell infiltration, and was abrogated in CD4(+) T cell-depleted animals.
-
-event('CD4',associate,'MHC')
-In a previous study, we found a differentially methylation region (DMR) at MHC HLA-DRB1 that was associated within relapsing-remitting MS (RRMS) patients in CD4+ T cells.
-
-event('CD4',associate,'MHC')
-The crystal structure of a complex containing the human CD4 N-terminal two-domain fragment and the murine I-A(k) class II MHC molecule with associated peptide (pMHCII) shows that only the " top corner" of the CD4 molecule directly contacts pMHCII.
-
-event('CD4',associate,'MHC')
-We considered the possibility that a structural homology between gp160 and major histocompatibility complex (MHC) molecules might be associated with the extraordinary affinity that gp120 has for its receptor, CD4.
-
-event('CD4',associate,'MHC')
-The first was located in the major histocompatibility complex (MHC) , with multiple SNPs strongly associated with CD4:CD8 ratio (rs2524054, p = 2.1 x 10 (- 28)).
-
-event('CD4',associate,'MHC')
-The number of HLA-associated mutations was significantly associated with both CD4 T cell counts (r =-0.318 , P = 0.002) and viral loads (r = 0.36 , P = 0.003).
-
-event('CD4',recruit,'MHC')
-Mice lacking MHCII in LysM+ or CD11c+ cells maintained systemic antiviral CD4+ T cell responses, but recruited fewer CD4+ T cells into infected lungs.
-
-event('CD4',recruit,'MHC')
-Using a murine breast tumor line, we showed that MHCII-expressing tumors grew more slowly than controls and recruited more functional CD4+ and CD8+ T cells.
-
-event('CD4',recruit,'MHC')
-In patients and preclinical models, MHC-II+ tumors recruited CD4+ T cells and developed dependency on PD-1 as well as Lag-3 (an MHC-II inhibitory receptor) , which was upregulated in MHC-II+ tumors at acquired resistance to anti-PD-1.
-
-event('CD4',recruit,'MHC')
-First, in targeting, it exploits the natural affinity of CD4 for gp120 to target the BsIAb to HIV-infected cells, and second, it recruits and activates, through its anti-CD3 moiety, cytotoxic T lymphocytes (CTL) to lyse target cells in a non-MHC restricted manner.
-
-event('CD4',participate,'MHC')
-CD4 is a glycoprotein that is expressed on the surface of a variety of cells of the immune system and is believed to participate in the interactions of these cells with antigen-presenting cells bearing the class II major histocompatibility (MHC) antigens.
-
-event('CD4',involve,'MHC')
-Disturbances of major histocompatibility complex class I (MHC I)-and II-related presentation pathways in IEC appear to be involved in an altered activation of CD4(+) and CD8(+) T cells in inflammatory bowel disease.
-
-event('CD4',involve,'MHC')
-In view of the preservation of CD8 lineage T cells and functional loss of CD4 lineage T cells in HIV-infected patients, it was suggested that a specific immune recognition event is at the center of the pathogenesis of this syndrome which involves preservation of an unknown antigen in the context of HLA-B27 to CD8 lineage suppressor/cytotoxic T cells.
-
-event('CD4',involve,'MHC')
-The CD8α(Neg) DC subset is specialized for MHC class II antigen presentation and is centrally involved in priming CD4 T cells.
-
-event('CD4',involve,'MHC')
-The continual evolution of the influenza-specific CD4 T cell repertoire involves both specificity and function and overlays other restrictions on CD4 T cell activity derived from viral antigen handling and MHC class II:peptide epitope display.
-
-event('CD4',involve,'MHC')
-Dog leukocyte antigen (DLA) class II genes encode major histocompatibility complex (MHC) molecules that are involved in antigen presentation to CD4(+) T cells.
-
-event('CD4',involve,'MHC')
-Class II major histocompatibility complex (MHC) proteins are involved in initiation of immune responses to foreign antigens via presentation of peptides to receptors of CD4(+) T-cells.
-
-event('CD4',involve,'MHC')
-Differentiation of CD4(+) helper and CD8(+) cytotoxic αβ T cells from CD4(+) CD8(+) thymocytes involves upregulation of lineage-specifying transcription factors and transcriptional silencing of CD8 or CD4 coreceptors, respectively, in MHC class II or I (MHCII or I)-restricted thymocytes.
-
-event('CD4',involve,'MHC')
-The principal MHC class II molecules involved in the presentation of peptides to the antigen specific receptors on CD4+ T cells genes in sheep are derived from DR and DQ genes.
-
-event('CD4',involve,'MHC')
-Here, we describe two such tools, NetMHCcons and NetMHCIIpan, for the prediction of peptide binding to MHC class I and class II molecules, respectively involved in the activation pathways of CD8+ and CD4+ T cells.
-
-event('CD4',involve,'MHC')
-Genetic predispositions center around the major histocompatibility complex (MHC) class II loci involved in antigen presentation, the key determinant of CD4+ T cell activation.
-
-event('CD4',involve,'MHC')
-We conclude that binding of gp120 to CD4 molecules on T cells may interrupt the sequential cascade of intercellular interaction involving 1) Ag/MHC class II-TCR/CD4, 2) CD40L-CD40, and 3) B71-CD28.
-
-event('CD4',involve,'MHC')
-Since MHC class II expression did not influence the degree of conjugate formation by naive or memory CD4 T cells with B cells, CD4-MHC class II interaction does not appear to be involved in binding itself, but may down-regulate the adhesion of memory but not naive CD4 T cells.
-
-event('CD4',require,'MHC')
-In the nine HLA-B:Bw4-80Ile-positive patients, we demonstrated a strong viral suppression by KIR3DL1-expressing CD8(+) T-cells that required cell-to-cell contact to switch off the activation signals in infected CD4(+) T-cells.
-
-event('CD4',require,'MHC')
-The response was MHC class II-restricted required processing of the bacterial antigen, was seen in both CD45RO+ and CD45RA+ subsets, and was not oligoclonal.
-
-event('CD4',require,'MHC')
-Notably, IL-22-mediated keratinocyte-intrinsic MHC class II expression was required for the selective accumulation of commensal-induced IFN-γ, but not IL-17A-producing CD4+ T cells within the skin.
-
-event('CD4',require,'MHC')
-In addition, the expression of MHC class II-restricted antigens by tumour cells is required at the site of successful rejection, indicating that activation of CD4+ T cells must also occur in the tumour microenvironment.
-
-event('CD4',require,'MHC')
-Adoptive transfer of B cells deficient in either MHCII or co-stimulatory molecule CD40, molecules required for B and CD4 T cell interaction, into B cell-deficient μMT-/- ApoE-/- mice failed to increase atherosclerosis.
-
-event('CD4',require,'MHC')
-However, MHC-II blocking anti-I-A/I-E antibody treatment was not able to reduce infarct size indicating that autoantigen recognition is not required for the activation of CD4+ T-cells during reperfusion.
-
-event('CD4',require,'MHC')
-CD4 T lymphocyte activation requires T cell receptor (TCR) engagement by peptide/MHC (major histocompatibility complex) (pMHC).
-
-event('CD4',require,'MHC')
-For both MHCII(POS) and MHCII(NEG) tumors, presentation of tumor-specific antigen by host antigen-presenting cells (APCs) appears to be required for CD4(+) T cell priming.
-
-event('CD4',require,'MHC')
-Sustained signals by interaction between MHC class II and TCR/CD4 is required for commitment to the CD4 helper lineage.
-
-event('CD4',require,'MHC')
-The functional development of IMP CD4(+) T cells requires hematopoietic but not thymic MHCII.
-
-event('CD4',require,'MHC')
-Consistent with this, genetic ablation of MHC II in tumor cells, both in the case of B lymphoma and B16 melanoma, did not preclude rejection of tumors by tumor antigen-specific CD4+ T cells in vivo These findings demonstrate that MHC class II expression on tumor cells themselves is not required for CD4+ T-cell-mediated rejection and that indirect display on host APC is sufficient for effective tumor elimination.
-
-event('CD4',require,'MHC')
-Priming of naive CD8+ and CD4+ T cells by dendritic cells (DCs) requires effective antigen presentation on both MHC class I and II molecules.
-
-event('CD4',require,'MHC')
-Identification of potential epitopes recognised by CD4+ T cells requires prediction of peptide binding to MHC class-II, an obligatory prerequisite for T cell recognition.
-
-event('CD4',require,'MHC')
-Thus, IFNγ-regulated molecules, but not MHC class II or antigen presentation by IECs is required for the early migration of antigen-specific CD4+ T cells into the pancreatic islets.
-
-event('CD4',require,'MHC')
-Proliferation of mature CD4+ T cells during lymphopenia (homeostatic proliferation) requires interaction with endogenous peptide MHC.
-
-event('CD4',require,'MHC')
-Antigen-specific T cell lines may be deleted by a signalling mechanism which involves molecules other than gp120/CD4 but still requires MHC class II restriction.
-
-event('CD4',relate,'MHC')
-We examined the aNKR ligand profiles HIV p24⁺ HIV iCD4s that maintained cell surface CD4 (iCD4⁺) , did not maintain CD4 (iCD4-) and uninfected CD4 (unCD4) T cells for expression of unique long (UL)-16 binding proteins-1 (ULBP-1) , ULBP-2/5/6, ULBP-3, major histocompatibility complex (MHC) class 1-related (MIC)-A, MIC-B, CD48, CD80, CD86, CD112, CD155, Intercellular adhesion molecule (ICAM)-1 , ICAM-2, HLA-E, HLA-F, HLA-A2, HLA-C, and the ligands to NKp30, NKp44, NKp46, and killer immunoglobulin-like receptor 3 DS1 (KIR3DS1) by flow cytometry on CD4 T cells from 17 HIV-1 seronegative donors activated and infected with HIV.
-
-event('CD4',collect,'MHC')
-In addition, GDNFv resulted in lower predicted clinical immunogenicity compared to GDNFwt, as demonstrated by reduced CD4+ T cell proliferation and reduced IL-2-induced secretion in peripheral blood mononucleated cells collected from volunteers representing the world\s major histocompatibility complex (MHC) haplotypes.
-
-event('CD4',combine,'MHC')
-Three-colour flow cytometry analysis was used to quantify blood dendritic cells without previous isolation from whole blood and to study the expression of functional molecules (MHC class II, CD11c, CD83, CD86) by dendritic cells from 30 HIV-positive patients, 15 of whom were treated with combined antiretroviral therapy (viral loads from undetectable to 5.4 log copies/ml, CD4 cell counts 1-1895 cells/mm3) and 11 non-infected controls.
-
-event('CD4',combine,'MHC')
-We have studied the putative roles of human immunodeficiency virus (HIV)-associated and cell surface-expressed major histocompatibility complex class I (MHC-I) molecules in the course of the HIV life cycle by the combined use of MHC-I molecule-positive and MHC-I molecule-negative virus particles and MHC-I molecule-positive and MHC-I molecule-negative CD4+ human cells.
-
-event('CD4',convert,'MHC')
-The standard model of Major Histocompatibility Complex class II (MHCII)-restricted antigen processing depicts a straightforward, linear pathway: internalized antigens are converted into peptides that load in a chaperone dependent manner onto nascent MHCII in the late endosome, the complexes subsequently trafficking to the cell surface for recognition by CD4(+) T cells (TCD4+).
-
-event('CD4',support,'MHC')
-Because MHC class II molecules are loaded with lysosomal products for CD4(+) T-cell stimulation, macroautophagy supports intracellular antigen processing onto MHC class II molecules.
-
-event('JAK3',associate,'CD8')
-The results showed that chicken CD8α1 is a key regulator of the expression of genes that are associated and cooperate with transcription factors in the major histocompatibility complex class I and II promoter regions and activates Janus kinase (JAK) 1/2 , signal transducer and activator of transcription (STAT) , and suppressor of cytokine signaling (SOCS) 1 signaling-related genes.
-
-event('JAK3',associate,'CD8')
-In chronic HCV infection, CD8+γ-H2AX+ T lymphocytes are highly differentiated with shortened telomeres, are more frequent within the liver, are associated with severe fibrosis and fail to activate Jak/Stat pathways in response to IFN-α, IL-2 or IL-6, perhaps explaining treatment failure in those with severe fibrosis.
-
-event('JAK3',phosphorylate,'CD8')
-The expression of signaling molecules JAK and JAK3 and the phosphorylated activation of STAT3 and STAT5 in the CD8(+) T cell were analyzed by Western blotting.
-
-event('JAK3',involve,'CD8')
-Interestingly, our results demonstrated that memory CD8+ T cells from ASYMP individuals expressed a unique set of genes involved in expansion and survival, type I interferon (IFN-I) , and JAK/STAT pathways.
-
-event('CD8',associate,'MHC')
-In NK-DC co-culture, the possession of HLA-C2 by DC was associated with anti-inflammatory cytokine production (IL-1RA/IL-6) , diminished DC maturation (CD86, HLA-DR) , and absent CCR7 expression.
-
-event('CD8',associate,'MHC')
-In contrast, the increase in HLA-ABC expression by CD8+ lymphocytes was associated with transition from 2 H4+ to 2 H4int status, which suggests that increased HLA-ABC expression occurs at an earlier stage in the acquisition of CD45RO in CD8+ cells than for CD4+ cells.
-
-event('CD8',associate,'MHC')
-, HLA-B,57 and HLA-B,81) previously associated with VL and/or CD4 trajectories in eastern and southern Africans had no obvious impact on CD4:CD8 ratio.
-
-event('CD8',associate,'MHC')
-This study sought to examine nevirapine hypersensitivity (NVP HSR) phenotypes and their relationship with differing major histocompatibility complex (MHC) Class I and Class II alleles and the associated CD4 and CD8 T-cell NVP-specific responses and their durability over time.
-
-event('CD8',associate,'MHC')
-In HLA-B27/B57 LTNPs, a lower activation level of their memory CD4 T cells was associated with lower amounts of cell HIV-DNA in each resting memory CD4 subset and were also associated with higher ratios of HIV Gag-specific CD8 T cells per infected resting CD4 T cell (effector/target [ E/T]).
-
-event('CD8',associate,'MHC')
-Peptides that bound with slow off-rates to class I alleles, that is HLA-A,0201, were associated with low frequency of CD8+ T cells in PBMCs from patients with tuberculosis.
-
-event('CD8',associate,'MHC')
-Single-locus analysis revealed that the HLA-A region was associated with CD8+ T-cell numbers.
-
-event('CD8',associate,'MHC')
-HIV-1 and Mycobacterium tuberculosis coinfection caused downmodulation of HLA-A2 expression in human monocyte-derived macrophages associated with resistance to lysis by HLA-A2-restricted CD8+ T cells and failure to restrict the growth of intracellular Mycobacterium tuberculosis.
-
-event('CD8',associate,'MHC')
-Moreover, substitutions in position one of the epitope were significantly enriched in HLA-A,11-positive individuals in China and associated with different patterns of CD8+ T cell reactivity.
-
-event('CD8',associate,'MHC')
-Here, we show that tumor antigen-expressing cancer cells, which are decorated with pMHCI-IgGs containing a HLA-A,0201 molecule associated with a CMV-derived peptide, are specifically eliminated through engagement of antigen-specific CD8(+) T cells isolated from peripheral blood mononuclear cell preparations of CMV-infected humans.
-
-event('CD8',associate,'MHC')
-HLA-B,57 is associated with slower disease progression to AIDS, and CD8+ T cell responses to B,57-restricted epitopes are thought to contribute to this protective effect.
-
-event('CD8',associate,'MHC')
-The HLA-B57 allele family is associated with slow progression to disease in HIV-1-infected individuals and restricts a potent CD8 response against the p24 protein.
-
-event('CD8',associate,'MHC')
-These results have led to the identification of four new potential T CD8(+) epitopes from p53: 194-203 associating with HLA-B51 and 204-212 , 211-218 , and 235-243 associating with HLA-A24.
-
-event('CD8',associate,'MHC')
-HLA-B51 is associated in more than 60 % of the patients and its restricted CD8+ T cell response is clearly correlated with the target tissues.
-
-event('CD8',associate,'MHC')
-The results suggest that the control of HIV-1 over approximately 25 years in HLA-B,5101-positive hemophiliacs is associated with a Pol283-8-specific CD8(+) T-cell response and that lack of control of HIV-1 is associated with the appearance of Pol283-8-specific escape mutants.
-
-event('CD8',associate,'MHC')
-HLA-B27- and-B57-positive HIV-infected humans have long been associated with control of HIV replication, implying that CD8(+) T cell responses contribute to control of viral replication.
-
-event('CD8',associate,'MHC')
-HLA-B27 has been found to be associated with axial involvement either in SA and in PsA patients: it might be involved through presentation of an " arthritogenic peptide" to autoreactive CD8+ T cells or might accumulate in misfolded form and induce production pro-inflammatory cytokines by binding to several innate immune receptors.
-
-event('CD8',associate,'MHC')
-MICA expression was associated with CD80, MHC class I and MHC class II up-regulation, secretion of proinflammatory cytokines, and apoptosis inhibition, but was not accompanied by release of MIC molecules in soluble form.
-
-event('CD8',associate,'MHC')
-In two independent cohorts of anti-PD-1-treated melanoma patients, MHC-II positivity on tumour cells is associated with therapeutic response, progression-free and overall survival, as well as CD4(+) and CD8(+) tumour infiltrate.
-
-event('CD8',associate,'MHC')
-Specific MHC alleles and the degree of MHC heterogeneity are associated with enhanced CD8 T cell function and viral control during human chronic infection.
-
-event('CD8',associate,'MHC')
-High MHC class I affinity was associated specifically with immunogenic CD8+ T-cell epitopes.
-
-event('CD8',associate,'MHC')
-Such hypothesis is supported by the evidence that class I major histocompatibility complex (MHC) genes are associated with susceptibility to develop PsA and auto-reactive cells, such as CD8 T cells, T helper (h) 17 and plasma cells, have been demonstrated in PsA.
-
-event('CD8',associate,'MHC')
-Herein, the tumor growth of melanoma cell lines expressing major histocompatibility complex class I molecules at high levels (MHC-I(high)) was dramatically impaired in TNF-deficient mice, and this was associated with enhanced tumor-infiltrating CD8(+) T lymphocytes.
-
-event('CD8',associate,'MHC')
-Both MHC class I and β2-microglobulin expression was reduced or absent in 76 % of PTC specimens and was associated with reduced tumor-infiltrating immune cells, including effector (CD3(+) , CD8(+) , CD16(+)) and suppressor (FoxP3(+)) populations.
-
-event('CD8',associate,'MHC')
-We have previously shown that for the majority of antigens, adenoviral vaccines expressing the target antigen fused to the MHC associated invariant chain (Ii) induce an accelerated, augmented, and prolonged transgene-specific CD8(+) T-cell response.
-
-event('CD8',associate,'MHC')
-Certain " protective" major histocompatibility complex class I (MHC-I) alleles, such as B,57 and B,27, are associated with long-term control of HIV-1 in vivo mediated by the CD8+ cytotoxic-T-lymphocyte (CTL) response.
-
-event('CD8',associate,'MHC')
-Certain Major Histocompatibility-I (MHC-I) types are associated with superior immune containment of HIV-1 infection by CD8+ cytotoxic T lymphocytes (CTLs) , but the mechanisms mediating this containment are difficult to elucidate in vivo.
-
-event('CD8',associate,'MHC')
-These two MHC-I haplotypes are associated with immunodominant CD8+ T-cell responses targeting similar regions of viral Nef antigen.
-
-event('CD8',associate,'MHC')
-The first was located in the major histocompatibility complex (MHC) , with multiple SNPs strongly associated with CD4:CD8 ratio (rs2524054, p = 2.1 x 10 (- 28)).
-
-event('CD8',associate,'MHC')
-Remarkably, vaccinees expressing MHC-I (MHC class I) alleles previously associated with viral control completely suppressed acute phase replication of the challenge virus, implicating CD8(+) T cells in this control.
-
-event('CD8',associate,'MHC')
-Thus, the cell surface expression of Ig-like inhibitory MHC class I receptors is associated with T cell engagement into various stages of the cytolytic differentiation pathway, and the cell surface expression of CD85j or KIR witnesses to the history of qualitatively and/or quantitatively distinct T cell activation events.
-
-event('CD8',associate,'MHC')
-Here, we found a protective MHC-I haplotype, 90-10-Id (D) , which is not associated with dominant Gag-specific CD8+ T-cell responses.
-
-event('CD8',recruit,'MHC')
-We present evidence that CD8 not only modifies the affinity of cognate TCR/pMHCI binding by altering both the association rate and the dissociation rate of the TCR/pMHCI interaction, but modulates the sensitivity (triggering threshold) of the TCR as well, by recruiting TCR/pMHCI complexes to membrane microdomains at a rate which depends on the affinity of MHCI/CD8 binding.
-
-event('CD8',recruit,'MHC')
-Using a murine breast tumor line, we showed that MHCII-expressing tumors grew more slowly than controls and recruited more functional CD4+ and CD8+ T cells.
-
-event('CD8',recruit,'MHC')
-In vivo, LPS-pretreated RG2 GSCs expressed higher levels of MHC molecules, CXCL10 and TNF-α and recruited more CD8+ lymphocytes.
-
-event('CD8',involve,'MHC')
-These results show that the MHC region is involved in the genetic regulation of CD8(+) T-cell numbers in humans.
-
-event('CD8',involve,'MHC')
-Disturbances of major histocompatibility complex class I (MHC I)-and II-related presentation pathways in IEC appear to be involved in an altered activation of CD4(+) and CD8(+) T cells in inflammatory bowel disease.
-
-event('CD8',involve,'MHC')
-In view of the preservation of CD8 lineage T cells and functional loss of CD4 lineage T cells in HIV-infected patients, it was suggested that a specific immune recognition event is at the center of the pathogenesis of this syndrome which involves preservation of an unknown antigen in the context of HLA-B27 to CD8 lineage suppressor/cytotoxic T cells.
-
-event('CD8',involve,'MHC')
-Our results indicate that inhibition of SIV replication by CD8(+) T cells from animals immunized with live attenuated SIV strains involves both MHC-restricted and-unrestricted mechanisms and that MHC-unrestricted inhibition of SIV replication is due principally to soluble factors other than RANTES, MIP-1alpha, and MIP-1beta.
-
-event('CD8',involve,'MHC')
-Major histocompatibility complex class I chain-related B (MICB) is a membrane-bound glycoprotein involved in both innate and adaptive immunity through its interaction with NKG2D receptors present on γδ T, αβ CD8(+) T, and natural killer cells.
-
-event('CD8',involve,'MHC')
-CD8+ T cell-mediated alloreactivity is generally believed to involve recognition of the alpha1/alpha2 domains of donor-type class I MHC molecules as well as the peptides they bind.
-
-event('CD8',involve,'MHC')
-Host CD8 T cell response to viral infections involves recognition of 8-10-mer peptides presented by MHC-I molecules.
-
-event('CD8',involve,'MHC')
-MHC class I molecules are predominantly involved in the presentation of antigens from viral proteins to CD8+ T cells of the immune system.
-
-event('CD8',involve,'MHC')
-HLA-B,57 control of HIV involves enhanced CD8+ T cell responses against infected cells, but extensive heterogeneity exists in the level of HIV control among B,57+ individuals.
-
-event('CD8',involve,'MHC')
-Using a state-of-the-art imputation method to analyse the major histocompatibility complex (MHC) region, Ombrello and colleagues narrowed down the association between human leukocyte antigen (HLA)-B51 and Behçet\s disease to a model of five amino acids of the HLA-B molecule involved in the binding of the antigen, the interactions with receptors on CD8 T cells and natural killer cells, and the signal peptide of HLA-B, suggesting a crucial role of the cellular cytotoxicity on this disease.
-
-event('CD8',involve,'MHC')
-HLA-B27 has been found to be associated with axial involvement either in SA and in PsA patients: it might be involved through presentation of an " arthritogenic peptide" to autoreactive CD8+ T cells or might accumulate in misfolded form and induce production pro-inflammatory cytokines by binding to several innate immune receptors.
-
-event('CD8',involve,'MHC')
-Although both proteasome forms generate peptides for presentation by MHC I molecules, the immunoproteasome is the main form involved in providing peptide fragments for priming CD8 T cells.
-
-event('CD8',involve,'MHC')
-Differentiation of CD4(+) helper and CD8(+) cytotoxic αβ T cells from CD4(+) CD8(+) thymocytes involves upregulation of lineage-specifying transcription factors and transcriptional silencing of CD8 or CD4 coreceptors, respectively, in MHC class II or I (MHCII or I)-restricted thymocytes.
-
-event('CD8',involve,'MHC')
-Here, we describe two such tools, NetMHCcons and NetMHCIIpan, for the prediction of peptide binding to MHC class I and class II molecules, respectively involved in the activation pathways of CD8+ and CD4+ T cells.
-
-event('CD8',involve,'MHC')
-Cross-presentation, in which exogenous antigens are presented via MHC I complexes is involved both in the generation of anti-infectious and anti-tumoral cytotoxic CD8(+) T cells and in the maintenance of immune tolerance.
-
-event('CD8',involve,'MHC')
-Cross-presentation, in which exogenous antigens are presented via MHC I complexes, is involved both in the generation of anti-infectious and anti-tumoral cytotoxic CD8(+) T cells and in the maintenance of immune tolerance.
-
-event('CD8',involve,'MHC')
-Qa-2 and Qa-1 are murine nonclassical MHC class I molecules involved in the modulation of immune responses by interacting with T CD8(+) and NK cell inhibitory receptors.
-
-event('CD8',involve,'MHC')
-Our results suggest that the high frequency MHC class I molecule, Mamu-B,01, is not involved in SIV-specific CD8+ T lymphocyte responses.
-
-event('CD8',require,'MHC')
-Suppression of SIV replication by unstimulated CD8(+) T cells required direct contact and was major histocompatibility complex (MHC) restricted.
-
-event('CD8',require,'MHC')
-Research on CD8 T cell-mediated inflammatory diseases requires a better understanding of target epitopes and the constraints placed upon these by major histocompatibility complex (MHC) class I binding restrictions, especially those that relate to predisposing alleles.
-
-event('CD8',require,'MHC')
-Specific CD8(+) CTL recognition of melanoma requires expression of MHC class I molecules as well as melanoma-associated peptide epitopes.
-
-event('CD8',require,'MHC')
-CD8(+) T lymphocytes, which are major immune effectors require primary stimulation by dendritic cells (DC) presenting MHC class I molecule-bound epitopes.
-
-event('CD8',require,'MHC')
-We conclude that human CD8+ TEM-mediated rejection targeting graft EC class I MHC molecules requires help from CD4+ TEM cells activated by recognition of class II MHC molecules.
-
-event('CD8',require,'MHC')
-In a mouse model achieving fully MHC-mismatched allogeneic bone marrow engraftment with minimal conditioning (3 Gy total body irradiation followed by anti-CD154 and T cell-depleted allogeneic bone marrow cells) , CD4 T cells in the recipient are required to promote tolerance of preexisting alloreactive recipient CD8 T cells and thereby permit chimerism induction.
-
-event('CD8',require,'MHC')
-Priming of naive CD8+ and CD4+ T cells by dendritic cells (DCs) requires effective antigen presentation on both MHC class I and II molecules.
-
-event('CD8',require,'MHC')
-Using bone marrow chimeras, we showed that HP of naïve CD8+ T cells is primarily regulated by MHC class I on radio-resistant stromal cells, yet optimal recovery of CD8+ T cell counts still requires expression of MHC class I on both radio-resistant and radio-sensitive hematopoietic cells.
-
-event('CD8',require,'MHC')
-Immune surveillance of infected or tumor cells by CD8+ T cells requires that MHC class I molecules present a diverse repertoire of peptides on the cell surface.
-
-event('CD8',require,'MHC')
-Thus, CD8 T cell bystander activation, although independent of cognate Ag, still requires self-pMHC and TCR signaling.
-
-event('CD8',require,'MHC')
-Full activation of CD8+ T cells requires both expression of major histocompatibility complex class I molecules (HLA-ABC) and expression of the T cell costimulatory molecule CD80 or CD86.
-
-event('CD8',require,'MHC')
-Differentiation of CD8(+) CD28(low) Treg cells requires MHC class I expression on radioresistant but not on haematopoietic thymic stromal cells.
-
-event('CD8',require,'MHC')
-Generation of a CD8(+) response to extracellular antigen requires processing of the antigen by antigen presenting cells (APC) and cross-presentation to CD8(+) T cell receptors via MHC class I molecules.
-
-event('CD8',require,'MHC')
-The activation of CD8(+) T-cells requires the uptake of exogenous polypeptide antigens and proteolytic processing of these antigens to octamer or nonamer peptides, which are loaded on MHC-I complexes and presented to the T-cell.
-
-event('CD8',require,'MHC')
-Although CD8(+) T cells are shown to mediate the protective immunity against the liver stages of malaria parasites in mice, whether the direct presentation of malaria antigen by major histocompatibility complex (MHC) class I molecules expressed on the liver of infected host is required for anti-plasmodial activity of CD8(+) T cells is still unknown.
-
-event('CD8',require,'MHC')
-We further demonstrate that robust CD8(+) T-cell priming can occur through the cross-presentation pathway but requires the presence of either a strong MHC class II epitope or antibodies to the transgene product.
-
-event('CD8',require,'MHC')
-Later (several minutes) CD3ζ-CD8 interactions require CD8-MHC binding.
-
-event('CD8',require,'MHC')
-Using M1- and M2-polarized macrophages from circulating monocytes, we found that M1-polarized macrophages, with significantly higher IL-12 expression and significantly lower IL-10 and MHC class II molecule expression, was more effective at promoting granzyme B responses in CD8 T cells, and required CD80/CD86 costimulating molecules for optimal responses.
-
-event('CD8',require,'MHC')
-Although HL may be a situation in which defective immune surveillance is restored by anti-PD1 therapy, it challenges our current explanation of how anti-PD1 agents work because MHC-I expression is required for CD8-T-cell-mediated tumour antigen recognition.
-
-event('CD8',require,'MHC')
-Vaccines designed to bring forth CD8+ T cell responses in different racial and ethnic groups will require inclusion of T cell epitopes presented by various MHC class I molecules.
-
-event('CD8',require,'MHC')
-Although these CD8+ cells mediate HIV-specific, class I MHC restricted CTL activity, the predominant mechanism for inhibiting virus replication requires neither contact nor MHC matching between the CD8+ effector cells and CD4+ targets.
-
-event('CD8',require,'MHC')
-Therefore, we conclude that full CD8 memory differentiation requires only a single MHC class Ia chain, ruling out a requirement for MHC class Ib molecules in this process.
-
-event('CD8',relate,'MHC')
-Activation of CD8+ clones with flucloxacillin was processing-dependent and restricted by HLA-B,57:01 and the closely related HLA-B,58:01.
-
-event('CD8',relate,'MHC')
-Further, we show that the mechanism by which HLA-B,52:01 mediates immune protection is, at least in part related to the inability of HIV to evade the HLA-B,52:01-restricted p24 Gag-specific CD8+ T-cell response without incurring a significant loss to viral replicative capacity.
-
-event('CD8',relate,'MHC')
-We examined the aNKR ligand profiles HIV p24⁺ HIV iCD4s that maintained cell surface CD4 (iCD4⁺) , did not maintain CD4 (iCD4-) and uninfected CD4 (unCD4) T cells for expression of unique long (UL)-16 binding proteins-1 (ULBP-1) , ULBP-2/5/6, ULBP-3, major histocompatibility complex (MHC) class 1-related (MIC)-A, MIC-B, CD48, CD80, CD86, CD112, CD155, Intercellular adhesion molecule (ICAM)-1 , ICAM-2, HLA-E, HLA-F, HLA-A2, HLA-C, and the ligands to NKp30, NKp44, NKp46, and killer immunoglobulin-like receptor 3 DS1 (KIR3DS1) by flow cytometry on CD4 T cells from 17 HIV-1 seronegative donors activated and infected with HIV.
-
-event('CD8',relate,'MHC')
-Culture of PBMC with immobilized NKG2D-specific mAb or NKG2D ligand MHC class I related protein A (MICA) induces the up-regulation of CD69 and CD25 in NK and Vgamma9 Vdelta2 but not in CD8 T cells.
-
-event('CD8',relate,'MHC')
-Major histocompatibility complex(MHC) class I related chain A(MICA) expressed on the cell surface of tumor cells functions as a ligand for natural killer group 2 , member D (NKG2D) , an important immunoreceptor expressed on natural killer (NK) , CD8, and γδT cells.
-
-event('CD8',relate,'MHC')
-We studied the impact of the 3 amino acid differences between HLA-B,27:05 and the closely related HLA-B,27:02 on the HIV-specific CD8+ T-cell response hierarchy and on immune control of HIV.
-
-event('CD8',relate,'MHC')
-One of the mostly occurring tumor-derived soluble NKG2D ligands, the soluble MHC I chain related molecule (sMIC) can impair co-stimulation to CD8 T cells.
-
-event('CD8',relate,'MHC')
-encoded by Zbtb7b) , which suppresses the cytolytic program in major histocompatibility complex (MHC) class II-restricted CD4(+) thymocytes and the Runt related transcription factor 3 (Runx3) , which counteracts ThPOK in MHC class I restricted precursor cells and promotes the lineage commitment of CD8αβ(+) cytolytic T lymphocytes (CTL).
-
-event('CD8',relate,'MHC')
-Taken together, these findings indicated that MHC-I could evoke CIBP by promoting apoptosis of GABAergic interneurons in the dorsal horn, and this apoptosis was closely related to local CD8+ T cells.
-
-event('CD8',combine,'MHC')
-To address the role of bone marrow-derived profAPCs in CD8 T-cell priming and memory to mCMV, we have used here a combined sex-mismatched and MHC class-I mismatched dual-marker bone marrow chimera model in which presentation of the IE1 epitope is restricted to donor-derived sry(+) L(d+) cells of haematopoietic differentiation lineages.
-
-event('CD8',combine,'MHC')
-3) , and weak HLA-A-MICA expression combined with low CD8(+)/Treg ratio (P=0.
-
-event('CD8',combine,'MHC')
-Weak HLA-A-MICA expression combined with low CD8(+)/Treg ratio reveals a patient group with the poorest survival in cervical cancer.
-
-event('CD8',combine,'MHC')
-We developed a novel assay for quantifying virus-specific CD8(+) T cells that combines the use of HLA-A2 immunoglobulin-based artificial antigen-presenting cells (aAPCs) for stimulation of antigen-specific CD8(+) T cells in whole blood with quantitative real-time reverse transcription-PCR (qRT-PCR) to detect gamma interferon (IFN-gamma) mRNA.
-
-event('CD8',combine,'MHC')
-The authors developed a standardized approach for immune monitoring of antigen-specific CD8+ T cells within peripheral blood lymphocytes (PBLs) that combines direct ex vivo analysis of Melan-A/MART-1 and influenza-specific CD8+ T cells with HLA-A2/peptide multimers and interferon-gamma ELISPOT assays.
-
-event('CD8',combine,'MHC')
-Here, we used fluorescent MHC class I tetramers combined with magnetic enrichment to detect and phenotype AAV8-specific CD8+ T cells in human PBMCs without prior amplification.
-
-event('CD8',combine,'MHC')
-Using TCR-pMHC binding avidity measurements combined to phenotype and functional assays, we performed a comprehensive study on representative tumor antigen-specific CD8 T-cell clones (n = 454) from seven patients vaccinated with different doses of Melan-A/ELA peptide (0.1 mg vs.
-
-event('CD8',combine,'MHC')
-Furthermore, by employing MHC binding algorithms and bioinformatics combined with high-throughput human T-cell screens and tetramers, HLA-class Ia restricted polyfunctional CD8(+) T-cells were identified in TB patients.
-
-event('CD8',fit,'MHC')
-In this study, utilizing the Middle East respiratory syndrome coronavirus-infected mouse model, we observed that through the unusual secondary anchor Ile5, a CD8+ T cell epitope drove the conformational fit of Trp73 on the α1 helix of murine MHC I H-2Kd In vitro renaturation and circular dichroism assays indicated that this shift of the structure did not influence the peptide/MHC I binding affinity.
-
-event('CD8',support,'MHC')
-CD8+ T cells could be detected in close proximity to MICA/B+ cells within multiple sclerosis lesions supporting an in vivo interaction between these immune effectors and stressed MICA/B-expressing oligodendrocytes.
-
-event('CD8',support,'MHC')
-Thus, our findings highlight the ability of HTNV epitope-specific CD8(+) T-cell immunity to control HTNV and support the possibility that the HTNV-NP FA9 peptide, naturally processed in vivo in an HLA-A,02-restriction manner, may be a good candidate for the development HTNV peptide vaccines.
-
 event('STAT',associate,'MHC')
 Genome-wide association studies (GWAS) have identified three loci (rs17401966 in KIF1B, rs7574865 in STAT4, rs9275319 in HLA-DQ) as being associated with hepatitis B virus-related hepatocellular carcinoma (HBV-related HCC) in a Chinese population, two loci (rs2596542 in MICA, rs9275572 located between HLA-DQA and HLA-DQB) with hepatitis C virus-related HCC (HCV-related HCC) in a Japanese population.
 
@@ -6984,27 +5943,6 @@ Compared with MHCC-97H-ROCK2, the DEmRNAs in MHCC-97H-ROCK1 were involved in the
 
 event('STAT',require,'MHC')
 We found that not only IFN-induced but also normal basal expression of MHC I required IFN receptors and signal transducer and activator of transcription (STAT) 1 , providing genetic evidence for continuous IFN signaling.
-
-event('MHC',associate,'JAK3')
-In this study, we dissected the specific roles of individual JAK/STAT pathway members on the IFN-γ response, and identified JAK1 as the primary mediator of JAK/STAT signaling associated with IFN-γ-induced expression of antigen-presenting molecules MHC-I and MHC-II, as well as PD-L1 and the cytostatic response to IFN-γ.
-
-event('MHC',involve,'JAK3')
-These include HLA-B27 and the aminopeptidases (ERAP1, ERAP2, and LNPEPS) , which are involved in antigen processing and presentation to T-cells, and several genes (IL23R, IL6R, STAT3, JAK2, IL1R1/2, IL12B, and IL7R) involved in IL23 driven pathways of inflammation.
-
-event('MHC',involve,'JAK3')
-Mutations in cell surface receptors, signal transduction molecules and transcription factors have been described, including the common gamma chain of the IL-2 (and IL-4, IL-7, IL-9 and IL-15) receptors, the kinase JAK-3, the epsilon and gamma chains of CD3, the protein tyrosine kinase ZAP-70, as well as CIITA and RFX5 involved in MHC class II gene expression.
-
-event('MHC',involve,'JAK3')
-These findings 1) indicate that inhibition of MHC class II gene expression by TGF-beta involves attenuation of the CIITA gene independently of effects on Janus kinases, 2) provide direct evidence that IFN-gamma activates both Janus and non-Janus protein tyrosine kinases, and 3) identify an accessory pathway of IFN-gamma action involving tyrosine kinases that, unlike the Jak-Stat1 pathway, are impaired by TGF-beta.
-
-event('MHC',require,'JAK3')
-We found that the Jak/STAT pathways activated by the common gamma chain (CD132) or common beta chain (CDw131) cytokine receptors are not required for MHCII expression in thymic cortical epithelia.
-
-event('MHC',require,'JAK3')
-IFN-gamma signal transduction (Jak/Stat pathway) and class II transactivator (CIITA) are required components for IFN-gamma-stimulated MHC class II expression.
-
-event('MHC',require,'JAK3')
-In addition, it is suggested that the IFN-gamma-induction of MHC class II requires PTK activities not only in the primary JAK-signal transducers and activators of transcription (STAT) pathway but also in the subsequent pathway mediated by IFN-gamma-induced intermediate proteins.
 
 event('CD4',associate,'JAK3')
 These results show that dysregulation of the Jak-STAT pathway is associated with viral persistence in vivo, and that Jak inhibitors target key events downstream of γ-C cytokine (IL-2, IL-7 and IL-15) ligation to their receptors, impacting the magnitude of the HIV reservoir in all memory CD4 T cell subsets in vitro and ex vivo.
@@ -7038,120 +5976,6 @@ Inhibition of IL-2 signaling via Jak3-Stat5 was required during this step to gen
 
 event('CD4',combine,'JAK3')
 We here present the first case of revertant mosaicism in JAK3 deficiency, manifesting as combined immunodeficiency evolving into predominant CD4+ lymphopenia.
-
-event('CD8',associate,'JAK3')
-The results showed that chicken CD8α1 is a key regulator of the expression of genes that are associated and cooperate with transcription factors in the major histocompatibility complex class I and II promoter regions and activates Janus kinase (JAK) 1/2 , signal transducer and activator of transcription (STAT) , and suppressor of cytokine signaling (SOCS) 1 signaling-related genes.
-
-event('CD8',associate,'JAK3')
-In these mice, loss of Jak3 expression was associated with a failure to proliferate in response to antigen receptor crosslinking, the accumulation of T cells manifesting an activated cell surface phenotype, and an increased CD4/CD8 ratio among peripheral T cells, all of which are characteristics that were observed in Jak3-/- animals.
-
-event('CD8',phosphorylate,'JAK3')
-The expression of signaling molecules JAK and JAK3 and the phosphorylated activation of STAT3 and STAT5 in the CD8(+) T cell were analyzed by Western blotting.
-
-event('CD8',involve,'JAK3')
-Interestingly, our results demonstrated that memory CD8+ T cells from ASYMP individuals expressed a unique set of genes involved in expansion and survival, type I interferon (IFN-I) , and JAK/STAT pathways.
-
-event('STAT',associate,'CD4')
-Female gender, decreased cluster of differentiation 4 (CD4) count and high adverse childhood experience (ACE) , were significantly associated with current depressive episode, while poor social support, high ACE, physical abuse, contacting HIV infection after birth and disclosure of status, were associated with lifetime major depressive episode.
-
-event('STAT',associate,'CD4')
-Enfuvirtide-based salvage therapy induced a progressive restoration of naïve and central memory CD4 T cells associated with a decrease in their activation state, suppression of premature priming for AICD and increased expression of Ki67.
-
-event('STAT',phosphorylate,'CD4')
-To test whether defective IL-7 signaling could be an etiologic or contributing factor in ICL, peripheral blood mononuclear cells from patients with ICL (median CD4 T-cell count, 160 cells/μL) and healthy controls (median CD4 T-cell count, 582 cells/μL) were evaluated for expression of IL-7Rα chain (CD127) and intracellular phosphorylated STAT-5 (a marker of γc cytokine signaling) after cytokine stimulation.
-
-event('STAT',phosphorylate,'CD4')
-Sequential formalin-fixed, paraffin-embedded tissue sections from 8 CVUE placentas and 10 control placentas were stained by immunohistochemistry with antibodies for CD3, CD4, CD8, CD20, CD25, FOXP3, CD56, CD68, HLA-DR, STAT-1, and phosphorylated STAT-1 [ P-(Y701)-STAT-1].
-
-event('STAT',phosphorylate,'CD4')
-Consistent with the hypothesis that CD4 T cell proliferation is driven by IL-7 as a homeostatic response to CD4 T cell depletion, levels of phosphorylated STAT-5 were found to be elevated in naive subsets of CD4 and CD8 T cells from patients with HIV infection and in the central memory subset of CD4 T cells.
-
-event('STAT',phosphorylate,'CD4')
-To investigate interactions between HIV-1 and CD4(+) cells, activated phosphorylated STAT proteins in nuclear extracts from lymphocytic and promonocytic cell lines as well as primary monocyte-derived macrophages were measured.
-
-event('STAT',phosphorylate,'CD4')
-CD4+ T cells from p53-/- mice decreased the activity of STAT-5, lowered the level of phosphorylated STAT-5, and compromised Treg cell differentiation.
-
-event('STAT',phosphorylate,'CD4')
-Hematoxylin and eosin slides were examined for the histological grades, and immunohistochemical analysis was carried out using antibodies against CD68 (pan-MΦ) , CD80 (M1 MΦ) , CD163 (M2 MΦ) , CD4 (helper T cells: Th) , CD8 (cytotoxic T cells) , CXCR3, CCR5 (Th1) , CCR4 (Th2) , signal transducer and activator of transcription (STAT1)  phosphorylated STAT1 (pSTAT1) and chemokine CXCL9.
-
-event('STAT',phosphorylate,'CD4')
-Upon IFN-γ stimulation, the \ normal\ level CD4+ T cells were more efficiently phosphorylated than those from WT mice, whereas the \ high\ level CD4+ T cells were not, suggesting that the level of STAT1 protein does not directly correlate with the level of pSTAT1 in the SI.
-
-event('STAT',involve,'CD4')
-Our study demonstrates that G6b-B expression is highly restricted to peripheral CD4+ T cells and up-regulated by the IL-4-induced STAT6 pathway, strongly suggesting that G6b-B is involved in regulation of the immune response by CD4+ T cell-mediated and IL-4 induced regulatory mechanisms.
-
-event('STAT',involve,'CD4')
-Therefore, immunosurveillance in STAT6(-/-) mice facilitates survival against metastatic cancer via an IFN-gamma-dependent mechanism involving hemopoietic and nonhemopoietic derived cells, and is not exclusively dependent on counteracting IL-13 or CD4(+) CD25(+) T cells.
-
-event('STAT',involve,'CD4')
-Different from naive CD4(+) T cells, IL-12 increasing the generation of IL-21(+) IFN-γ(+) CD4(+) T cells from memory CD4(+) T cells was only involved in STAT-4 pathway but not STAT-1.
-
-event('STAT',require,'CD4')
-STAT proteins regulate the expression of many genes required for the differentiation of various CD4(+) T helper cell lineages, and there is now accumulating evidence that SOCS also play essential roles in the regulation and maintenance of CD4(+) T-cell polarization.
-
-event('STAT',require,'CD4')
-Here, we showed that CD4+ T cells carrying a mutant gp130 that transduces the SHP2/Gab/MAPK pathway but not the STAT3-mediated one failed to develop into Th17, while CD4+ T cells whose mutant gp130 transduces the STAT3 signal only generated Th17, indicating that IL-6 acts directly on T cells through the tyrosine residues of gp130 required for STAT3 activation to promote the development of Th17.
-
-event('STAT',require,'CD4')
-Together, these results indicate that the intrinsic expression of Stat5a in CD4(+) T cells is required for Th2 cell differentiation and that Stat5a is involved in the development of CD4(+) CD25(+) immunoregulatory T cells that modulate T helper cell differentiation toward Th2 cells.
-
-event('STAT',require,'CD4')
-The antiviral effect of CD40L required activation of c-Jun N terminal kinases (JNK) 1/2 , but not induction of apoptosis or the JAK/STAT pathway that is necessary for the antiviral effects of IFNs.
-
-event('STAT',support,'CD4')
-We found that CD4-intrinsic Bcl6, Blimp-1, and STAT3 coordinately regulate expression of the Th1 master regulator T-bet supporting plasticity of CD4 T\240\cells.
-
-event('STAT',support,'CD4')
-IL-4 activates STAT6 and ERK and supports the differentiation of CD8(int) PD-L1(hi) CD44(hi) EOMES(+) innate CD8 T cells.
-
-event('STAT',support,'CD4')
-In the CD4-bound state, however, V1/V2 loop was rearranged near the bound CD4 to support CD4 binding.
-
-event('STAT',associate,'CD8')
-In contrast, the increase in HLA-ABC expression by CD8+ lymphocytes was associated with transition from 2 H4+ to 2 H4int status, which suggests that increased HLA-ABC expression occurs at an earlier stage in the acquisition of CD45RO in CD8+ cells than for CD4+ cells.
-
-event('STAT',associate,'CD8')
-We further found that interferon-γ (IFNγ) , which is produced predominantly by lupus CD8+ T cells, is the key factor that enhances IDO activity in allogeneic MSCs and that it is associated with IFNGR1/JAK-2/STAT signaling pathways.
-
-event('STAT',associate,'CD8')
-The results showed that chicken CD8α1 is a key regulator of the expression of genes that are associated and cooperate with transcription factors in the major histocompatibility complex class I and II promoter regions and activates Janus kinase (JAK) 1/2 , signal transducer and activator of transcription (STAT) , and suppressor of cytokine signaling (SOCS) 1 signaling-related genes.
-
-event('STAT',associate,'CD8')
-In chronic HCV infection, CD8+γ-H2AX+ T lymphocytes are highly differentiated with shortened telomeres, are more frequent within the liver, are associated with severe fibrosis and fail to activate Jak/Stat pathways in response to IFN-α, IL-2 or IL-6, perhaps explaining treatment failure in those with severe fibrosis.
-
-event('STAT',associate,'CD8')
-M1-like macrophages (IFN/LPS-differentiated) from GILZ-/- mice showed higher expression of the M1 markers CD86, MHC class II, iNOS, IL-6 and TNF-α associated with increased levels of phosphorylated STAT1 and lower IL-10 levels, compared to M1-differentiated cells from WT mice.
-
-event('STAT',phosphorylate,'CD8')
-Sequential formalin-fixed, paraffin-embedded tissue sections from 8 CVUE placentas and 10 control placentas were stained by immunohistochemistry with antibodies for CD3, CD4, CD8, CD20, CD25, FOXP3, CD56, CD68, HLA-DR, STAT-1, and phosphorylated STAT-1 [ P-(Y701)-STAT-1].
-
-event('STAT',phosphorylate,'CD8')
-Hematoxylin and eosin slides were examined for the histological grades, and immunohistochemical analysis was carried out using antibodies against CD68 (pan-MΦ) , CD80 (M1 MΦ) , CD163 (M2 MΦ) , CD4 (helper T cells: Th) , CD8 (cytotoxic T cells) , CXCR3, CCR5 (Th1) , CCR4 (Th2) , signal transducer and activator of transcription (STAT1)  phosphorylated STAT1 (pSTAT1) and chemokine CXCL9.
-
-event('STAT',phosphorylate,'CD8')
-Molecular events constantly induced in the CD8 cells within the BM of untreated mice include increase of both phosphorylated STAT-5 and phosphorylated p38 intracellular levels, and the reduction of CD127 membrane expression.
-
-event('STAT',phosphorylate,'CD8')
-Molecular studies revealed that GM-CSF released by antigen-stimulated CD8(+) T cells induced Bcl2a1 upregulation, which was repressed in the presence of IFN-γ by a direct interaction of phosphorylated STAT-1 with the Bcl2a1 promotor.
-
-event('STAT',phosphorylate,'CD8')
-In contrast to healthy subjects, CD8+CD25+ Tregs from asthma subjects had either increased (pSTAT-5high) or decreased (pSTAT-5low) phosphorylated STAT-5 levels within individual cells.
-
-event('STAT',phosphorylate,'CD8')
-M1-like macrophages (IFN/LPS-differentiated) from GILZ-/- mice showed higher expression of the M1 markers CD86, MHC class II, iNOS, IL-6 and TNF-α, associated with increased levels of phosphorylated STAT1 and lower IL-10 levels, compared to M1-differentiated cells from WT mice.
-
-event('STAT',involve,'CD8')
-Interestingly, our results demonstrated that memory CD8+ T cells from ASYMP individuals expressed a unique set of genes involved in expansion and survival, type I interferon (IFN-I) , and JAK/STAT pathways.
-
-event('STAT',relate,'CD8')
-We also demonstrated that the differential sensitivity of naïve CD8+ T cells and CD8+ TILs to β-AR signaling was linked to a strong downregulation of β2-AR expression related to their activation status, since in vitro-activated CD8+ T cells behaved similarly to CD8+ TILs.
-
-event('STAT',support,'CD8')
-IL-4 activates STAT6 and ERK and supports the differentiation of CD8(int) PD-L1(hi) CD44(hi) EOMES(+) innate CD8 T cells.
-
-event('STAT',support,'CD8')
-IL-21 signaling phosphorylates STAT3 and STAT5, but not ERK, and does not support CD8 T-cell differentiation.
 
 event('JAK3',associate,'STAT')
 These results imply that JAK/STAT activation is associated with replication of leukemic cells and that therapeutic approaches aimed at JAK/STAT inhibition may be considered to halt neoplastic growth.
@@ -7552,36 +6376,6 @@ We also demonstrated that the differential sensitivity of naïve CD8+ T cells an
 event('CD8',support,'STAT')
 Here, we discuss new attempts at re-educating immune suppressive tumor-associated macrophages towards a CD8 T cell supporting profile, with an emphasis on the role of STAT transcription factors on TAM functional programs.
 
-event('CD8',associate,'SARS-CoV')
-These findings imply the importance of CD4+ T cells (but not CD8+ and CD3+ T cells) in SARS-CoV-2 infection associated pneumonia and indicate that CD4+ T cells might be important for the control of SARS-CoV-2.
-
-event('CD8',associate,'SARS-CoV')
-Using this resource, we showed that genetic variations in SARS-CoV-2 are associated with loss of B cell immunogenicity, an increase in CD4 + T cell immunogenicity, and a minimum loss in CD8 + T cell immunogenicity, indicating the existence of a curious correlation between SARS-CoV-2 genetic evolutions and the immunity pressure from the host.
-
-event('CD8',recruit,'SARS-CoV')
-Baseline levels of CD8+ T cells, resting NK cells, and activated NK cells, as well as cytokines that recruit these cells, are significantly lower in lung tissues with high expression of the SARS-CoV-2 entry receptor angiotensin-converting enzyme 2 (ACE2).
-
-event('CD8',involve,'SARS-CoV')
-Flow cytometric analysis showed that both CD4+ and CD8+ T cells were involved in cellular responses to SARS-CoV M antigen.
-
-event('CD8',require,'SARS-CoV')
-As we understand more about the immune response to SARS-CoV-2 it appears that a functional CTL (CD8+) response is required to clear the infection and COVID-19 severity is increased as the CD8+ response becomes somehow diminished or exhausted.
-
-event('SARS-CoV',associate,'STAT')
-In conclusion, darunavir-cobicistat therapy was found to be associated with a significant survival benefit in critically ill patients with SARS-CoV-2 infection.
-
-event('SARS-CoV',phosphorylate,'STAT')
-In the present study, we demonstrated that signal transducer and activator of transcription (STAT) 3 , which is constitutively phosphorylated at tyrosine (Tyr)-705 and slightly phosphorylated at serine (Ser)-727 in Vero E6 cells, was dephosphorylated at Tyr-705 on SARS-CoV infection.
-
-event('SARS-CoV',collect,'STAT')
-We have analyzed 453 SARS-CoV-2 genomes collected between 20 February and 15 March 2020 from infected patients in Washington State, USA.
-
-event('SARS-CoV',combine,'STAT')
-The presence of pan JAK-STAT components in mammary alveolar cells and in Type II Pneumocytes combined with the autoregulation of both STAT1 and STAT5 suggests a prominent role of cytokine signaling pathways in cells targeted by SARS-CoV-2.
-
-event('JAK3',combine,'SARS-CoV')
-The presence of pan JAK-STAT components in mammary alveolar cells and in Type II Pneumocytes combined with the autoregulation of both STAT1 and STAT5 suggests a prominent role of cytokine signaling pathways in cells targeted by SARS-CoV-2.
-
 event('CD4',associate,'STAT')
 Female gender, decreased cluster of differentiation 4 (CD4) count and high adverse childhood experience (ACE) , were significantly associated with current depressive episode, while poor social support, high ACE, physical abuse, contacting HIV infection after birth and disclosure of status, were associated with lifetime major depressive episode.
 
@@ -7645,20 +6439,230 @@ In this reason, TRAF2 and TRAF5 in naïve CD4+ T cells negatively regulate IL-6-
 event('CD4',require,'STAT')
 Analysis of STAT5 phosphorylation in CD4 T cells indicates that it is transient and requires higher cytokine concentrations than that of STAT3.
 
-event('SARS-CoV',combine,'JAK3')
-The presence of pan JAK-STAT components in mammary alveolar cells and in Type II Pneumocytes combined with the autoregulation of both STAT1 and STAT5 suggests a prominent role of cytokine signaling pathways in cells targeted by SARS-CoV-2.
+event('CD4',associate,'MHC')
+In contrast, the increase in HLA-ABC expression by CD8+ lymphocytes was associated with transition from 2 H4+ to 2 H4int status, which suggests that increased HLA-ABC expression occurs at an earlier stage in the acquisition of CD45RO in CD8+ cells than for CD4+ cells.
 
-event('CD4',associate,'SARS-CoV')
-These findings imply the importance of CD4+ T cells (but not CD8+ and CD3+ T cells) in SARS-CoV-2 infection associated pneumonia and indicate that CD4+ T cells might be important for the control of SARS-CoV-2.
+event('CD4',associate,'MHC')
+We found that HLA-C,12:02 was significantly associated with lower plasma viral loads (pVL) and higher CD4 counts and that the HLA-A,29:01-B,07:05-C,15:05 haplotype was significantly associated with higher pVL and lower CD4 counts than those for individuals without these respective genotypes.
 
-event('CD4',associate,'SARS-CoV')
-Using this resource, we showed that genetic variations in SARS-CoV-2 are associated with loss of B cell immunogenicity, an increase in CD4 + T cell immunogenicity, and a minimum loss in CD8 + T cell immunogenicity, indicating the existence of a curious correlation between SARS-CoV-2 genetic evolutions and the immunity pressure from the host.
+event('CD4',associate,'MHC')
+, HLA-B,57 and HLA-B,81) previously associated with VL and/or CD4 trajectories in eastern and southern Africans had no obvious impact on CD4:CD8 ratio.
 
-event('CD4',involve,'SARS-CoV')
-Flow cytometric analysis showed that both CD4+ and CD8+ T cells were involved in cellular responses to SARS-CoV M antigen.
+event('CD4',associate,'MHC')
+This study sought to examine nevirapine hypersensitivity (NVP HSR) phenotypes and their relationship with differing major histocompatibility complex (MHC) Class I and Class II alleles and the associated CD4 and CD8 T-cell NVP-specific responses and their durability over time.
 
-event('CD4',require,'SARS-CoV')
-The elimination of pulmonary SARS-CoV infection required the activation of B cells by CD4(+) T cells.
+event('CD4',associate,'MHC')
+Here we investigate the relationship between the genotypes of transmitted viruses and prognostic markers of disease progression and show that infection with HLA-B,57/B,5801 escape mutants is associated with lower viral load and higher CD4+ counts.
+
+event('CD4',associate,'MHC')
+The CTLs specific for two Pol epitopes presented by HLA-B,5101, one of the HLA alleles associated with slow progression to AIDS, effectively killed HIV-1-infected CD4+ T cells and suppressed HIV-1 replication.
+
+event('CD4',associate,'MHC')
+Furthermore, homozygosity for HLA-Bw4 alleles was also significantly associated with the ability to remain AIDS free and to maintain a normal CD4 T cell count in a second cohort of HIV-1-infected individuals with well defined dates of seroconversion.
+
+event('CD4',associate,'MHC')
+In HLA-B27/B57 LTNPs, a lower activation level of their memory CD4 T cells was associated with lower amounts of cell HIV-DNA in each resting memory CD4 subset and were also associated with higher ratios of HIV Gag-specific CD8 T cells per infected resting CD4 T cell (effector/target [ E/T]).
+
+event('CD4',associate,'MHC')
+Consistent with studies of other cohorts, expression of HLA-B,52:01 was associated with high absolute CD4 counts and therefore a lack of HIV disease progression.
+
+event('CD4',associate,'MHC')
+Among the C-clade-infected individuals, we show that HLA-B,52:01 is the most protective of all the HLA-B alleles expressed in the Indian cohort and is associated with the highest absolute CD4 counts.
+
+event('CD4',associate,'MHC')
+Despite extensive research on the mechanisms of HLA-mediated immune control of HIV-1 pathogenesis, it is clear that much remains to be discovered, as exemplified by protective HLA alleles like HLA-B,81 which are associated with profound protection from CD4+ T cell decline without robust control of early plasma viremia.
+
+event('CD4',associate,'MHC')
+2) and HLA-C single nucleotide polymorphisms (SNPs, rs9264942 C/C and rs67384697 del/del) , that have been previously individually associated with spontaneous control of plasma viremia, maintenance of high CD4(+) T cell counts and delayed disease progression.
+
+event('CD4',associate,'MHC')
+HLA-A02 : 1 and HLA-C04 : 1 were both associated with high viral loads (P = 0.0313 and 0.0001 , respectively) and low CD4 cell counts (P = 0.0008 and 0.0087 , respectively).
+
+event('CD4',associate,'MHC')
+We conclude that the HLA-C,18:01 and KIR2DL2+C1 genetic variants are associated with low VL while the C,08:02 is associated with high CD4+ T lymphocyte count among cART naïve Zimbabwean adults with chronic HIV infection.
+
+event('CD4',associate,'MHC')
+We previously reported that crosslinking of MHC-II induced the endocytosis of MHC-II, which was associated with decreased surface expression levels in murine dendritic cells (DCs) and resulted in impaired activation of CD4+ T cells.
+
+event('CD4',associate,'MHC')
+Consequently, CD4+ T-cell, but not CD8+ T-cell, infiltration was a good prognostic factor in cHL, and PD-1 blockade showed antitumor efficacy against MHC-II-expressing cHL associated with CD4+ T-cell infiltration.
+
+event('CD4',associate,'MHC')
+Both mutants upregulated the major histocompatibility complex II (MHC-II)-associated invariant chain and downregulated CD4, MHC-I, and CD28, although with reduced efficiency for the latter.
+
+event('CD4',associate,'MHC')
+Our results indicate for the first time that C3 deficiency can prolong MHC-II molecule mismatched skin allograft survival, which is further confirmed to be associated with increased CD4(+) CD25(+) Treg cell population expansion and attenuated Th1/Th17 response.
+
+event('CD4',associate,'MHC')
+In two independent cohorts of anti-PD-1-treated melanoma patients, MHC-II positivity on tumour cells is associated with therapeutic response, progression-free and overall survival, as well as CD4(+) and CD8(+) tumour infiltrate.
+
+event('CD4',associate,'MHC')
+Finally, the atheroprotective effect of selective MHCII deficiency in pDCs was associated with significant reductions of proatherogenic T cell-derived interferon-γ and lesional T cell infiltration, and was abrogated in CD4(+) T cell-depleted animals.
+
+event('CD4',associate,'MHC')
+In a previous study, we found a differentially methylation region (DMR) at MHC HLA-DRB1 that was associated within relapsing-remitting MS (RRMS) patients in CD4+ T cells.
+
+event('CD4',associate,'MHC')
+The crystal structure of a complex containing the human CD4 N-terminal two-domain fragment and the murine I-A(k) class II MHC molecule with associated peptide (pMHCII) shows that only the " top corner" of the CD4 molecule directly contacts pMHCII.
+
+event('CD4',associate,'MHC')
+We considered the possibility that a structural homology between gp160 and major histocompatibility complex (MHC) molecules might be associated with the extraordinary affinity that gp120 has for its receptor, CD4.
+
+event('CD4',associate,'MHC')
+The first was located in the major histocompatibility complex (MHC) , with multiple SNPs strongly associated with CD4:CD8 ratio (rs2524054, p = 2.1 x 10 (- 28)).
+
+event('CD4',associate,'MHC')
+The number of HLA-associated mutations was significantly associated with both CD4 T cell counts (r =-0.318 , P = 0.002) and viral loads (r = 0.36 , P = 0.003).
+
+event('CD4',recruit,'MHC')
+Mice lacking MHCII in LysM+ or CD11c+ cells maintained systemic antiviral CD4+ T cell responses, but recruited fewer CD4+ T cells into infected lungs.
+
+event('CD4',recruit,'MHC')
+Using a murine breast tumor line, we showed that MHCII-expressing tumors grew more slowly than controls and recruited more functional CD4+ and CD8+ T cells.
+
+event('CD4',recruit,'MHC')
+In patients and preclinical models, MHC-II+ tumors recruited CD4+ T cells and developed dependency on PD-1 as well as Lag-3 (an MHC-II inhibitory receptor) , which was upregulated in MHC-II+ tumors at acquired resistance to anti-PD-1.
+
+event('CD4',recruit,'MHC')
+First, in targeting, it exploits the natural affinity of CD4 for gp120 to target the BsIAb to HIV-infected cells, and second, it recruits and activates, through its anti-CD3 moiety, cytotoxic T lymphocytes (CTL) to lyse target cells in a non-MHC restricted manner.
+
+event('CD4',participate,'MHC')
+CD4 is a glycoprotein that is expressed on the surface of a variety of cells of the immune system and is believed to participate in the interactions of these cells with antigen-presenting cells bearing the class II major histocompatibility (MHC) antigens.
+
+event('CD4',involve,'MHC')
+Disturbances of major histocompatibility complex class I (MHC I)-and II-related presentation pathways in IEC appear to be involved in an altered activation of CD4(+) and CD8(+) T cells in inflammatory bowel disease.
+
+event('CD4',involve,'MHC')
+In view of the preservation of CD8 lineage T cells and functional loss of CD4 lineage T cells in HIV-infected patients, it was suggested that a specific immune recognition event is at the center of the pathogenesis of this syndrome which involves preservation of an unknown antigen in the context of HLA-B27 to CD8 lineage suppressor/cytotoxic T cells.
+
+event('CD4',involve,'MHC')
+The CD8α(Neg) DC subset is specialized for MHC class II antigen presentation and is centrally involved in priming CD4 T cells.
+
+event('CD4',involve,'MHC')
+The continual evolution of the influenza-specific CD4 T cell repertoire involves both specificity and function and overlays other restrictions on CD4 T cell activity derived from viral antigen handling and MHC class II:peptide epitope display.
+
+event('CD4',involve,'MHC')
+Dog leukocyte antigen (DLA) class II genes encode major histocompatibility complex (MHC) molecules that are involved in antigen presentation to CD4(+) T cells.
+
+event('CD4',involve,'MHC')
+Class II major histocompatibility complex (MHC) proteins are involved in initiation of immune responses to foreign antigens via presentation of peptides to receptors of CD4(+) T-cells.
+
+event('CD4',involve,'MHC')
+Differentiation of CD4(+) helper and CD8(+) cytotoxic αβ T cells from CD4(+) CD8(+) thymocytes involves upregulation of lineage-specifying transcription factors and transcriptional silencing of CD8 or CD4 coreceptors, respectively, in MHC class II or I (MHCII or I)-restricted thymocytes.
+
+event('CD4',involve,'MHC')
+The principal MHC class II molecules involved in the presentation of peptides to the antigen specific receptors on CD4+ T cells genes in sheep are derived from DR and DQ genes.
+
+event('CD4',involve,'MHC')
+Here, we describe two such tools, NetMHCcons and NetMHCIIpan, for the prediction of peptide binding to MHC class I and class II molecules, respectively involved in the activation pathways of CD8+ and CD4+ T cells.
+
+event('CD4',involve,'MHC')
+Genetic predispositions center around the major histocompatibility complex (MHC) class II loci involved in antigen presentation, the key determinant of CD4+ T cell activation.
+
+event('CD4',involve,'MHC')
+We conclude that binding of gp120 to CD4 molecules on T cells may interrupt the sequential cascade of intercellular interaction involving 1) Ag/MHC class II-TCR/CD4, 2) CD40L-CD40, and 3) B71-CD28.
+
+event('CD4',involve,'MHC')
+Since MHC class II expression did not influence the degree of conjugate formation by naive or memory CD4 T cells with B cells, CD4-MHC class II interaction does not appear to be involved in binding itself, but may down-regulate the adhesion of memory but not naive CD4 T cells.
+
+event('CD4',require,'MHC')
+In the nine HLA-B:Bw4-80Ile-positive patients, we demonstrated a strong viral suppression by KIR3DL1-expressing CD8(+) T-cells that required cell-to-cell contact to switch off the activation signals in infected CD4(+) T-cells.
+
+event('CD4',require,'MHC')
+The response was MHC class II-restricted required processing of the bacterial antigen, was seen in both CD45RO+ and CD45RA+ subsets, and was not oligoclonal.
+
+event('CD4',require,'MHC')
+Notably, IL-22-mediated keratinocyte-intrinsic MHC class II expression was required for the selective accumulation of commensal-induced IFN-γ, but not IL-17A-producing CD4+ T cells within the skin.
+
+event('CD4',require,'MHC')
+In addition, the expression of MHC class II-restricted antigens by tumour cells is required at the site of successful rejection, indicating that activation of CD4+ T cells must also occur in the tumour microenvironment.
+
+event('CD4',require,'MHC')
+Adoptive transfer of B cells deficient in either MHCII or co-stimulatory molecule CD40, molecules required for B and CD4 T cell interaction, into B cell-deficient μMT-/- ApoE-/- mice failed to increase atherosclerosis.
+
+event('CD4',require,'MHC')
+However, MHC-II blocking anti-I-A/I-E antibody treatment was not able to reduce infarct size indicating that autoantigen recognition is not required for the activation of CD4+ T-cells during reperfusion.
+
+event('CD4',require,'MHC')
+CD4 T lymphocyte activation requires T cell receptor (TCR) engagement by peptide/MHC (major histocompatibility complex) (pMHC).
+
+event('CD4',require,'MHC')
+For both MHCII(POS) and MHCII(NEG) tumors, presentation of tumor-specific antigen by host antigen-presenting cells (APCs) appears to be required for CD4(+) T cell priming.
+
+event('CD4',require,'MHC')
+Sustained signals by interaction between MHC class II and TCR/CD4 is required for commitment to the CD4 helper lineage.
+
+event('CD4',require,'MHC')
+The functional development of IMP CD4(+) T cells requires hematopoietic but not thymic MHCII.
+
+event('CD4',require,'MHC')
+Consistent with this, genetic ablation of MHC II in tumor cells, both in the case of B lymphoma and B16 melanoma, did not preclude rejection of tumors by tumor antigen-specific CD4+ T cells in vivo These findings demonstrate that MHC class II expression on tumor cells themselves is not required for CD4+ T-cell-mediated rejection and that indirect display on host APC is sufficient for effective tumor elimination.
+
+event('CD4',require,'MHC')
+Priming of naive CD8+ and CD4+ T cells by dendritic cells (DCs) requires effective antigen presentation on both MHC class I and II molecules.
+
+event('CD4',require,'MHC')
+Identification of potential epitopes recognised by CD4+ T cells requires prediction of peptide binding to MHC class-II, an obligatory prerequisite for T cell recognition.
+
+event('CD4',require,'MHC')
+Thus, IFNγ-regulated molecules, but not MHC class II or antigen presentation by IECs is required for the early migration of antigen-specific CD4+ T cells into the pancreatic islets.
+
+event('CD4',require,'MHC')
+Proliferation of mature CD4+ T cells during lymphopenia (homeostatic proliferation) requires interaction with endogenous peptide MHC.
+
+event('CD4',require,'MHC')
+Antigen-specific T cell lines may be deleted by a signalling mechanism which involves molecules other than gp120/CD4 but still requires MHC class II restriction.
+
+event('CD4',relate,'MHC')
+We examined the aNKR ligand profiles HIV p24⁺ HIV iCD4s that maintained cell surface CD4 (iCD4⁺) , did not maintain CD4 (iCD4-) and uninfected CD4 (unCD4) T cells for expression of unique long (UL)-16 binding proteins-1 (ULBP-1) , ULBP-2/5/6, ULBP-3, major histocompatibility complex (MHC) class 1-related (MIC)-A, MIC-B, CD48, CD80, CD86, CD112, CD155, Intercellular adhesion molecule (ICAM)-1 , ICAM-2, HLA-E, HLA-F, HLA-A2, HLA-C, and the ligands to NKp30, NKp44, NKp46, and killer immunoglobulin-like receptor 3 DS1 (KIR3DS1) by flow cytometry on CD4 T cells from 17 HIV-1 seronegative donors activated and infected with HIV.
+
+event('CD4',collect,'MHC')
+In addition, GDNFv resulted in lower predicted clinical immunogenicity compared to GDNFwt, as demonstrated by reduced CD4+ T cell proliferation and reduced IL-2-induced secretion in peripheral blood mononucleated cells collected from volunteers representing the world\s major histocompatibility complex (MHC) haplotypes.
+
+event('CD4',combine,'MHC')
+Three-colour flow cytometry analysis was used to quantify blood dendritic cells without previous isolation from whole blood and to study the expression of functional molecules (MHC class II, CD11c, CD83, CD86) by dendritic cells from 30 HIV-positive patients, 15 of whom were treated with combined antiretroviral therapy (viral loads from undetectable to 5.4 log copies/ml, CD4 cell counts 1-1895 cells/mm3) and 11 non-infected controls.
+
+event('CD4',combine,'MHC')
+We have studied the putative roles of human immunodeficiency virus (HIV)-associated and cell surface-expressed major histocompatibility complex class I (MHC-I) molecules in the course of the HIV life cycle by the combined use of MHC-I molecule-positive and MHC-I molecule-negative virus particles and MHC-I molecule-positive and MHC-I molecule-negative CD4+ human cells.
+
+event('CD4',convert,'MHC')
+The standard model of Major Histocompatibility Complex class II (MHCII)-restricted antigen processing depicts a straightforward, linear pathway: internalized antigens are converted into peptides that load in a chaperone dependent manner onto nascent MHCII in the late endosome, the complexes subsequently trafficking to the cell surface for recognition by CD4(+) T cells (TCD4+).
+
+event('CD4',support,'MHC')
+Because MHC class II molecules are loaded with lysosomal products for CD4(+) T-cell stimulation, macroautophagy supports intracellular antigen processing onto MHC class II molecules.
+
+event('MHC',associate,'JAK3')
+In this study, we dissected the specific roles of individual JAK/STAT pathway members on the IFN-γ response, and identified JAK1 as the primary mediator of JAK/STAT signaling associated with IFN-γ-induced expression of antigen-presenting molecules MHC-I and MHC-II, as well as PD-L1 and the cytostatic response to IFN-γ.
+
+event('MHC',involve,'JAK3')
+These include HLA-B27 and the aminopeptidases (ERAP1, ERAP2, and LNPEPS) , which are involved in antigen processing and presentation to T-cells, and several genes (IL23R, IL6R, STAT3, JAK2, IL1R1/2, IL12B, and IL7R) involved in IL23 driven pathways of inflammation.
+
+event('MHC',involve,'JAK3')
+Mutations in cell surface receptors, signal transduction molecules and transcription factors have been described, including the common gamma chain of the IL-2 (and IL-4, IL-7, IL-9 and IL-15) receptors, the kinase JAK-3, the epsilon and gamma chains of CD3, the protein tyrosine kinase ZAP-70, as well as CIITA and RFX5 involved in MHC class II gene expression.
+
+event('MHC',involve,'JAK3')
+These findings 1) indicate that inhibition of MHC class II gene expression by TGF-beta involves attenuation of the CIITA gene independently of effects on Janus kinases, 2) provide direct evidence that IFN-gamma activates both Janus and non-Janus protein tyrosine kinases, and 3) identify an accessory pathway of IFN-gamma action involving tyrosine kinases that, unlike the Jak-Stat1 pathway, are impaired by TGF-beta.
+
+event('MHC',require,'JAK3')
+We found that the Jak/STAT pathways activated by the common gamma chain (CD132) or common beta chain (CDw131) cytokine receptors are not required for MHCII expression in thymic cortical epithelia.
+
+event('MHC',require,'JAK3')
+IFN-gamma signal transduction (Jak/Stat pathway) and class II transactivator (CIITA) are required components for IFN-gamma-stimulated MHC class II expression.
+
+event('MHC',require,'JAK3')
+In addition, it is suggested that the IFN-gamma-induction of MHC class II requires PTK activities not only in the primary JAK-signal transducers and activators of transcription (STAT) pathway but also in the subsequent pathway mediated by IFN-gamma-induced intermediate proteins.
+
+event('CD8',associate,'JAK3')
+The results showed that chicken CD8α1 is a key regulator of the expression of genes that are associated and cooperate with transcription factors in the major histocompatibility complex class I and II promoter regions and activates Janus kinase (JAK) 1/2 , signal transducer and activator of transcription (STAT) , and suppressor of cytokine signaling (SOCS) 1 signaling-related genes.
+
+event('CD8',associate,'JAK3')
+In these mice, loss of Jak3 expression was associated with a failure to proliferate in response to antigen receptor crosslinking, the accumulation of T cells manifesting an activated cell surface phenotype, and an increased CD4/CD8 ratio among peripheral T cells, all of which are characteristics that were observed in Jak3-/- animals.
+
+event('CD8',phosphorylate,'JAK3')
+The expression of signaling molecules JAK and JAK3 and the phosphorylated activation of STAT3 and STAT5 in the CD8(+) T cell were analyzed by Western blotting.
+
+event('CD8',involve,'JAK3')
+Interestingly, our results demonstrated that memory CD8+ T cells from ASYMP individuals expressed a unique set of genes involved in expansion and survival, type I interferon (IFN-I) , and JAK/STAT pathways.
 
 event('importin',phosphorylate,'STAT')
 The isoform importin α5 can bind phosphorylated cargos such as STAT1 and Epstein-Barr Virus Nuclear Antigen 1 , as well as the influenza virus polymerase subunit PB2.
@@ -7672,15 +6676,291 @@ Moreover, Pol was found to interfere with nuclear transportation of STAT1/2 by c
 event('importin',participate,'ORF6')
 Lastly, we describe the identification and characterization of two novel E1B-55K interacting factors, importin-alpha 1 and pp32, that may also participate in the functions previously ascribed to E1B-55K and E4-orf6.
 
-event('ORF6',bind,'ORF6')
-We mapped the region of ORF6, which binds karyopherin alpha 2 , to the C terminus of ORF6 and show that mutations in the C terminus no longer bind karyopherin alpha 2 or block the nuclear import of STAT1.
-
-event('ORF6',bind,'ORF6')
-After the fifth round of biopanning with Escherichia coli-synthesized ORF6-His tagged protein, the relative binding affinity of phage clones to ORF6 was determined using direct enzyme-linked immunosorbent assay.
-
-event('ORF6',interact,'ORF6')
-The ORF6 protein of tomato mosaic virus (ToMV) strain L (L-ORF6)  interacts in vitro with eukaryotic elongation factor 1 α, and mutation of the ORF6 gene of tobacco mosaic virus (TMV) strain U1 (U1-ORF6) reduces the pathogenicity in vivo of TMV, whereas expression of this gene from two other viruses, tobacco rattle virus (TRV) and potato virus X (PVX) , increases their pathogenicity.
-
 event('importin',involve,'CD8')
 This study showed that abdominal irradiation induces an acute remodeling of the ileum associated with an increased expression of MMPs and TIMPs that do not involve CD8+ T cells but involve mesenchymal and epithelial cells, although to a lesser extent, and probably even soluble inflammatory and fibrogenic mediators.
+
+event('CD8',associate,'MHC')
+In NK-DC co-culture, the possession of HLA-C2 by DC was associated with anti-inflammatory cytokine production (IL-1RA/IL-6) , diminished DC maturation (CD86, HLA-DR) , and absent CCR7 expression.
+
+event('CD8',associate,'MHC')
+In contrast, the increase in HLA-ABC expression by CD8+ lymphocytes was associated with transition from 2 H4+ to 2 H4int status, which suggests that increased HLA-ABC expression occurs at an earlier stage in the acquisition of CD45RO in CD8+ cells than for CD4+ cells.
+
+event('CD8',associate,'MHC')
+, HLA-B,57 and HLA-B,81) previously associated with VL and/or CD4 trajectories in eastern and southern Africans had no obvious impact on CD4:CD8 ratio.
+
+event('CD8',associate,'MHC')
+This study sought to examine nevirapine hypersensitivity (NVP HSR) phenotypes and their relationship with differing major histocompatibility complex (MHC) Class I and Class II alleles and the associated CD4 and CD8 T-cell NVP-specific responses and their durability over time.
+
+event('CD8',associate,'MHC')
+In HLA-B27/B57 LTNPs, a lower activation level of their memory CD4 T cells was associated with lower amounts of cell HIV-DNA in each resting memory CD4 subset and were also associated with higher ratios of HIV Gag-specific CD8 T cells per infected resting CD4 T cell (effector/target [ E/T]).
+
+event('CD8',associate,'MHC')
+Peptides that bound with slow off-rates to class I alleles, that is HLA-A,0201, were associated with low frequency of CD8+ T cells in PBMCs from patients with tuberculosis.
+
+event('CD8',associate,'MHC')
+Single-locus analysis revealed that the HLA-A region was associated with CD8+ T-cell numbers.
+
+event('CD8',associate,'MHC')
+HIV-1 and Mycobacterium tuberculosis coinfection caused downmodulation of HLA-A2 expression in human monocyte-derived macrophages associated with resistance to lysis by HLA-A2-restricted CD8+ T cells and failure to restrict the growth of intracellular Mycobacterium tuberculosis.
+
+event('CD8',associate,'MHC')
+Moreover, substitutions in position one of the epitope were significantly enriched in HLA-A,11-positive individuals in China and associated with different patterns of CD8+ T cell reactivity.
+
+event('CD8',associate,'MHC')
+Here, we show that tumor antigen-expressing cancer cells, which are decorated with pMHCI-IgGs containing a HLA-A,0201 molecule associated with a CMV-derived peptide, are specifically eliminated through engagement of antigen-specific CD8(+) T cells isolated from peripheral blood mononuclear cell preparations of CMV-infected humans.
+
+event('CD8',associate,'MHC')
+HLA-B,57 is associated with slower disease progression to AIDS, and CD8+ T cell responses to B,57-restricted epitopes are thought to contribute to this protective effect.
+
+event('CD8',associate,'MHC')
+The HLA-B57 allele family is associated with slow progression to disease in HIV-1-infected individuals and restricts a potent CD8 response against the p24 protein.
+
+event('CD8',associate,'MHC')
+These results have led to the identification of four new potential T CD8(+) epitopes from p53: 194-203 associating with HLA-B51 and 204-212 , 211-218 , and 235-243 associating with HLA-A24.
+
+event('CD8',associate,'MHC')
+HLA-B51 is associated in more than 60 % of the patients and its restricted CD8+ T cell response is clearly correlated with the target tissues.
+
+event('CD8',associate,'MHC')
+The results suggest that the control of HIV-1 over approximately 25 years in HLA-B,5101-positive hemophiliacs is associated with a Pol283-8-specific CD8(+) T-cell response and that lack of control of HIV-1 is associated with the appearance of Pol283-8-specific escape mutants.
+
+event('CD8',associate,'MHC')
+HLA-B27- and-B57-positive HIV-infected humans have long been associated with control of HIV replication, implying that CD8(+) T cell responses contribute to control of viral replication.
+
+event('CD8',associate,'MHC')
+HLA-B27 has been found to be associated with axial involvement either in SA and in PsA patients: it might be involved through presentation of an " arthritogenic peptide" to autoreactive CD8+ T cells or might accumulate in misfolded form and induce production pro-inflammatory cytokines by binding to several innate immune receptors.
+
+event('CD8',associate,'MHC')
+MICA expression was associated with CD80, MHC class I and MHC class II up-regulation, secretion of proinflammatory cytokines, and apoptosis inhibition, but was not accompanied by release of MIC molecules in soluble form.
+
+event('CD8',associate,'MHC')
+In two independent cohorts of anti-PD-1-treated melanoma patients, MHC-II positivity on tumour cells is associated with therapeutic response, progression-free and overall survival, as well as CD4(+) and CD8(+) tumour infiltrate.
+
+event('CD8',associate,'MHC')
+Specific MHC alleles and the degree of MHC heterogeneity are associated with enhanced CD8 T cell function and viral control during human chronic infection.
+
+event('CD8',associate,'MHC')
+High MHC class I affinity was associated specifically with immunogenic CD8+ T-cell epitopes.
+
+event('CD8',associate,'MHC')
+Such hypothesis is supported by the evidence that class I major histocompatibility complex (MHC) genes are associated with susceptibility to develop PsA and auto-reactive cells, such as CD8 T cells, T helper (h) 17 and plasma cells, have been demonstrated in PsA.
+
+event('CD8',associate,'MHC')
+Herein, the tumor growth of melanoma cell lines expressing major histocompatibility complex class I molecules at high levels (MHC-I(high)) was dramatically impaired in TNF-deficient mice, and this was associated with enhanced tumor-infiltrating CD8(+) T lymphocytes.
+
+event('CD8',associate,'MHC')
+Both MHC class I and β2-microglobulin expression was reduced or absent in 76 % of PTC specimens and was associated with reduced tumor-infiltrating immune cells, including effector (CD3(+) , CD8(+) , CD16(+)) and suppressor (FoxP3(+)) populations.
+
+event('CD8',associate,'MHC')
+We have previously shown that for the majority of antigens, adenoviral vaccines expressing the target antigen fused to the MHC associated invariant chain (Ii) induce an accelerated, augmented, and prolonged transgene-specific CD8(+) T-cell response.
+
+event('CD8',associate,'MHC')
+Certain " protective" major histocompatibility complex class I (MHC-I) alleles, such as B,57 and B,27, are associated with long-term control of HIV-1 in vivo mediated by the CD8+ cytotoxic-T-lymphocyte (CTL) response.
+
+event('CD8',associate,'MHC')
+Certain Major Histocompatibility-I (MHC-I) types are associated with superior immune containment of HIV-1 infection by CD8+ cytotoxic T lymphocytes (CTLs) , but the mechanisms mediating this containment are difficult to elucidate in vivo.
+
+event('CD8',associate,'MHC')
+These two MHC-I haplotypes are associated with immunodominant CD8+ T-cell responses targeting similar regions of viral Nef antigen.
+
+event('CD8',associate,'MHC')
+The first was located in the major histocompatibility complex (MHC) , with multiple SNPs strongly associated with CD4:CD8 ratio (rs2524054, p = 2.1 x 10 (- 28)).
+
+event('CD8',associate,'MHC')
+Remarkably, vaccinees expressing MHC-I (MHC class I) alleles previously associated with viral control completely suppressed acute phase replication of the challenge virus, implicating CD8(+) T cells in this control.
+
+event('CD8',associate,'MHC')
+Thus, the cell surface expression of Ig-like inhibitory MHC class I receptors is associated with T cell engagement into various stages of the cytolytic differentiation pathway, and the cell surface expression of CD85j or KIR witnesses to the history of qualitatively and/or quantitatively distinct T cell activation events.
+
+event('CD8',associate,'MHC')
+Here, we found a protective MHC-I haplotype, 90-10-Id (D) , which is not associated with dominant Gag-specific CD8+ T-cell responses.
+
+event('CD8',recruit,'MHC')
+We present evidence that CD8 not only modifies the affinity of cognate TCR/pMHCI binding by altering both the association rate and the dissociation rate of the TCR/pMHCI interaction, but modulates the sensitivity (triggering threshold) of the TCR as well, by recruiting TCR/pMHCI complexes to membrane microdomains at a rate which depends on the affinity of MHCI/CD8 binding.
+
+event('CD8',recruit,'MHC')
+Using a murine breast tumor line, we showed that MHCII-expressing tumors grew more slowly than controls and recruited more functional CD4+ and CD8+ T cells.
+
+event('CD8',recruit,'MHC')
+In vivo, LPS-pretreated RG2 GSCs expressed higher levels of MHC molecules, CXCL10 and TNF-α and recruited more CD8+ lymphocytes.
+
+event('CD8',involve,'MHC')
+These results show that the MHC region is involved in the genetic regulation of CD8(+) T-cell numbers in humans.
+
+event('CD8',involve,'MHC')
+Disturbances of major histocompatibility complex class I (MHC I)-and II-related presentation pathways in IEC appear to be involved in an altered activation of CD4(+) and CD8(+) T cells in inflammatory bowel disease.
+
+event('CD8',involve,'MHC')
+In view of the preservation of CD8 lineage T cells and functional loss of CD4 lineage T cells in HIV-infected patients, it was suggested that a specific immune recognition event is at the center of the pathogenesis of this syndrome which involves preservation of an unknown antigen in the context of HLA-B27 to CD8 lineage suppressor/cytotoxic T cells.
+
+event('CD8',involve,'MHC')
+Our results indicate that inhibition of SIV replication by CD8(+) T cells from animals immunized with live attenuated SIV strains involves both MHC-restricted and-unrestricted mechanisms and that MHC-unrestricted inhibition of SIV replication is due principally to soluble factors other than RANTES, MIP-1alpha, and MIP-1beta.
+
+event('CD8',involve,'MHC')
+Major histocompatibility complex class I chain-related B (MICB) is a membrane-bound glycoprotein involved in both innate and adaptive immunity through its interaction with NKG2D receptors present on γδ T, αβ CD8(+) T, and natural killer cells.
+
+event('CD8',involve,'MHC')
+CD8+ T cell-mediated alloreactivity is generally believed to involve recognition of the alpha1/alpha2 domains of donor-type class I MHC molecules as well as the peptides they bind.
+
+event('CD8',involve,'MHC')
+Host CD8 T cell response to viral infections involves recognition of 8-10-mer peptides presented by MHC-I molecules.
+
+event('CD8',involve,'MHC')
+MHC class I molecules are predominantly involved in the presentation of antigens from viral proteins to CD8+ T cells of the immune system.
+
+event('CD8',involve,'MHC')
+HLA-B,57 control of HIV involves enhanced CD8+ T cell responses against infected cells, but extensive heterogeneity exists in the level of HIV control among B,57+ individuals.
+
+event('CD8',involve,'MHC')
+Using a state-of-the-art imputation method to analyse the major histocompatibility complex (MHC) region, Ombrello and colleagues narrowed down the association between human leukocyte antigen (HLA)-B51 and Behçet\s disease to a model of five amino acids of the HLA-B molecule involved in the binding of the antigen, the interactions with receptors on CD8 T cells and natural killer cells, and the signal peptide of HLA-B, suggesting a crucial role of the cellular cytotoxicity on this disease.
+
+event('CD8',involve,'MHC')
+HLA-B27 has been found to be associated with axial involvement either in SA and in PsA patients: it might be involved through presentation of an " arthritogenic peptide" to autoreactive CD8+ T cells or might accumulate in misfolded form and induce production pro-inflammatory cytokines by binding to several innate immune receptors.
+
+event('CD8',involve,'MHC')
+Although both proteasome forms generate peptides for presentation by MHC I molecules, the immunoproteasome is the main form involved in providing peptide fragments for priming CD8 T cells.
+
+event('CD8',involve,'MHC')
+Differentiation of CD4(+) helper and CD8(+) cytotoxic αβ T cells from CD4(+) CD8(+) thymocytes involves upregulation of lineage-specifying transcription factors and transcriptional silencing of CD8 or CD4 coreceptors, respectively, in MHC class II or I (MHCII or I)-restricted thymocytes.
+
+event('CD8',involve,'MHC')
+Here, we describe two such tools, NetMHCcons and NetMHCIIpan, for the prediction of peptide binding to MHC class I and class II molecules, respectively involved in the activation pathways of CD8+ and CD4+ T cells.
+
+event('CD8',involve,'MHC')
+Cross-presentation, in which exogenous antigens are presented via MHC I complexes is involved both in the generation of anti-infectious and anti-tumoral cytotoxic CD8(+) T cells and in the maintenance of immune tolerance.
+
+event('CD8',involve,'MHC')
+Cross-presentation, in which exogenous antigens are presented via MHC I complexes, is involved both in the generation of anti-infectious and anti-tumoral cytotoxic CD8(+) T cells and in the maintenance of immune tolerance.
+
+event('CD8',involve,'MHC')
+Qa-2 and Qa-1 are murine nonclassical MHC class I molecules involved in the modulation of immune responses by interacting with T CD8(+) and NK cell inhibitory receptors.
+
+event('CD8',involve,'MHC')
+Our results suggest that the high frequency MHC class I molecule, Mamu-B,01, is not involved in SIV-specific CD8+ T lymphocyte responses.
+
+event('CD8',require,'MHC')
+Suppression of SIV replication by unstimulated CD8(+) T cells required direct contact and was major histocompatibility complex (MHC) restricted.
+
+event('CD8',require,'MHC')
+Research on CD8 T cell-mediated inflammatory diseases requires a better understanding of target epitopes and the constraints placed upon these by major histocompatibility complex (MHC) class I binding restrictions, especially those that relate to predisposing alleles.
+
+event('CD8',require,'MHC')
+Specific CD8(+) CTL recognition of melanoma requires expression of MHC class I molecules as well as melanoma-associated peptide epitopes.
+
+event('CD8',require,'MHC')
+CD8(+) T lymphocytes, which are major immune effectors require primary stimulation by dendritic cells (DC) presenting MHC class I molecule-bound epitopes.
+
+event('CD8',require,'MHC')
+We conclude that human CD8+ TEM-mediated rejection targeting graft EC class I MHC molecules requires help from CD4+ TEM cells activated by recognition of class II MHC molecules.
+
+event('CD8',require,'MHC')
+In a mouse model achieving fully MHC-mismatched allogeneic bone marrow engraftment with minimal conditioning (3 Gy total body irradiation followed by anti-CD154 and T cell-depleted allogeneic bone marrow cells) , CD4 T cells in the recipient are required to promote tolerance of preexisting alloreactive recipient CD8 T cells and thereby permit chimerism induction.
+
+event('CD8',require,'MHC')
+Priming of naive CD8+ and CD4+ T cells by dendritic cells (DCs) requires effective antigen presentation on both MHC class I and II molecules.
+
+event('CD8',require,'MHC')
+Using bone marrow chimeras, we showed that HP of naïve CD8+ T cells is primarily regulated by MHC class I on radio-resistant stromal cells, yet optimal recovery of CD8+ T cell counts still requires expression of MHC class I on both radio-resistant and radio-sensitive hematopoietic cells.
+
+event('CD8',require,'MHC')
+Immune surveillance of infected or tumor cells by CD8+ T cells requires that MHC class I molecules present a diverse repertoire of peptides on the cell surface.
+
+event('CD8',require,'MHC')
+Thus, CD8 T cell bystander activation, although independent of cognate Ag, still requires self-pMHC and TCR signaling.
+
+event('CD8',require,'MHC')
+Full activation of CD8+ T cells requires both expression of major histocompatibility complex class I molecules (HLA-ABC) and expression of the T cell costimulatory molecule CD80 or CD86.
+
+event('CD8',require,'MHC')
+Differentiation of CD8(+) CD28(low) Treg cells requires MHC class I expression on radioresistant but not on haematopoietic thymic stromal cells.
+
+event('CD8',require,'MHC')
+Generation of a CD8(+) response to extracellular antigen requires processing of the antigen by antigen presenting cells (APC) and cross-presentation to CD8(+) T cell receptors via MHC class I molecules.
+
+event('CD8',require,'MHC')
+The activation of CD8(+) T-cells requires the uptake of exogenous polypeptide antigens and proteolytic processing of these antigens to octamer or nonamer peptides, which are loaded on MHC-I complexes and presented to the T-cell.
+
+event('CD8',require,'MHC')
+Although CD8(+) T cells are shown to mediate the protective immunity against the liver stages of malaria parasites in mice, whether the direct presentation of malaria antigen by major histocompatibility complex (MHC) class I molecules expressed on the liver of infected host is required for anti-plasmodial activity of CD8(+) T cells is still unknown.
+
+event('CD8',require,'MHC')
+We further demonstrate that robust CD8(+) T-cell priming can occur through the cross-presentation pathway but requires the presence of either a strong MHC class II epitope or antibodies to the transgene product.
+
+event('CD8',require,'MHC')
+Later (several minutes) CD3ζ-CD8 interactions require CD8-MHC binding.
+
+event('CD8',require,'MHC')
+Using M1- and M2-polarized macrophages from circulating monocytes, we found that M1-polarized macrophages, with significantly higher IL-12 expression and significantly lower IL-10 and MHC class II molecule expression, was more effective at promoting granzyme B responses in CD8 T cells, and required CD80/CD86 costimulating molecules for optimal responses.
+
+event('CD8',require,'MHC')
+Although HL may be a situation in which defective immune surveillance is restored by anti-PD1 therapy, it challenges our current explanation of how anti-PD1 agents work because MHC-I expression is required for CD8-T-cell-mediated tumour antigen recognition.
+
+event('CD8',require,'MHC')
+Vaccines designed to bring forth CD8+ T cell responses in different racial and ethnic groups will require inclusion of T cell epitopes presented by various MHC class I molecules.
+
+event('CD8',require,'MHC')
+Although these CD8+ cells mediate HIV-specific, class I MHC restricted CTL activity, the predominant mechanism for inhibiting virus replication requires neither contact nor MHC matching between the CD8+ effector cells and CD4+ targets.
+
+event('CD8',require,'MHC')
+Therefore, we conclude that full CD8 memory differentiation requires only a single MHC class Ia chain, ruling out a requirement for MHC class Ib molecules in this process.
+
+event('CD8',relate,'MHC')
+Activation of CD8+ clones with flucloxacillin was processing-dependent and restricted by HLA-B,57:01 and the closely related HLA-B,58:01.
+
+event('CD8',relate,'MHC')
+Further, we show that the mechanism by which HLA-B,52:01 mediates immune protection is, at least in part related to the inability of HIV to evade the HLA-B,52:01-restricted p24 Gag-specific CD8+ T-cell response without incurring a significant loss to viral replicative capacity.
+
+event('CD8',relate,'MHC')
+We examined the aNKR ligand profiles HIV p24⁺ HIV iCD4s that maintained cell surface CD4 (iCD4⁺) , did not maintain CD4 (iCD4-) and uninfected CD4 (unCD4) T cells for expression of unique long (UL)-16 binding proteins-1 (ULBP-1) , ULBP-2/5/6, ULBP-3, major histocompatibility complex (MHC) class 1-related (MIC)-A, MIC-B, CD48, CD80, CD86, CD112, CD155, Intercellular adhesion molecule (ICAM)-1 , ICAM-2, HLA-E, HLA-F, HLA-A2, HLA-C, and the ligands to NKp30, NKp44, NKp46, and killer immunoglobulin-like receptor 3 DS1 (KIR3DS1) by flow cytometry on CD4 T cells from 17 HIV-1 seronegative donors activated and infected with HIV.
+
+event('CD8',relate,'MHC')
+Culture of PBMC with immobilized NKG2D-specific mAb or NKG2D ligand MHC class I related protein A (MICA) induces the up-regulation of CD69 and CD25 in NK and Vgamma9 Vdelta2 but not in CD8 T cells.
+
+event('CD8',relate,'MHC')
+Major histocompatibility complex(MHC) class I related chain A(MICA) expressed on the cell surface of tumor cells functions as a ligand for natural killer group 2 , member D (NKG2D) , an important immunoreceptor expressed on natural killer (NK) , CD8, and γδT cells.
+
+event('CD8',relate,'MHC')
+We studied the impact of the 3 amino acid differences between HLA-B,27:05 and the closely related HLA-B,27:02 on the HIV-specific CD8+ T-cell response hierarchy and on immune control of HIV.
+
+event('CD8',relate,'MHC')
+One of the mostly occurring tumor-derived soluble NKG2D ligands, the soluble MHC I chain related molecule (sMIC) can impair co-stimulation to CD8 T cells.
+
+event('CD8',relate,'MHC')
+encoded by Zbtb7b) , which suppresses the cytolytic program in major histocompatibility complex (MHC) class II-restricted CD4(+) thymocytes and the Runt related transcription factor 3 (Runx3) , which counteracts ThPOK in MHC class I restricted precursor cells and promotes the lineage commitment of CD8αβ(+) cytolytic T lymphocytes (CTL).
+
+event('CD8',relate,'MHC')
+Taken together, these findings indicated that MHC-I could evoke CIBP by promoting apoptosis of GABAergic interneurons in the dorsal horn, and this apoptosis was closely related to local CD8+ T cells.
+
+event('CD8',combine,'MHC')
+To address the role of bone marrow-derived profAPCs in CD8 T-cell priming and memory to mCMV, we have used here a combined sex-mismatched and MHC class-I mismatched dual-marker bone marrow chimera model in which presentation of the IE1 epitope is restricted to donor-derived sry(+) L(d+) cells of haematopoietic differentiation lineages.
+
+event('CD8',combine,'MHC')
+3) , and weak HLA-A-MICA expression combined with low CD8(+)/Treg ratio (P=0.
+
+event('CD8',combine,'MHC')
+Weak HLA-A-MICA expression combined with low CD8(+)/Treg ratio reveals a patient group with the poorest survival in cervical cancer.
+
+event('CD8',combine,'MHC')
+We developed a novel assay for quantifying virus-specific CD8(+) T cells that combines the use of HLA-A2 immunoglobulin-based artificial antigen-presenting cells (aAPCs) for stimulation of antigen-specific CD8(+) T cells in whole blood with quantitative real-time reverse transcription-PCR (qRT-PCR) to detect gamma interferon (IFN-gamma) mRNA.
+
+event('CD8',combine,'MHC')
+The authors developed a standardized approach for immune monitoring of antigen-specific CD8+ T cells within peripheral blood lymphocytes (PBLs) that combines direct ex vivo analysis of Melan-A/MART-1 and influenza-specific CD8+ T cells with HLA-A2/peptide multimers and interferon-gamma ELISPOT assays.
+
+event('CD8',combine,'MHC')
+Here, we used fluorescent MHC class I tetramers combined with magnetic enrichment to detect and phenotype AAV8-specific CD8+ T cells in human PBMCs without prior amplification.
+
+event('CD8',combine,'MHC')
+Using TCR-pMHC binding avidity measurements combined to phenotype and functional assays, we performed a comprehensive study on representative tumor antigen-specific CD8 T-cell clones (n = 454) from seven patients vaccinated with different doses of Melan-A/ELA peptide (0.1 mg vs.
+
+event('CD8',combine,'MHC')
+Furthermore, by employing MHC binding algorithms and bioinformatics combined with high-throughput human T-cell screens and tetramers, HLA-class Ia restricted polyfunctional CD8(+) T-cells were identified in TB patients.
+
+event('CD8',fit,'MHC')
+In this study, utilizing the Middle East respiratory syndrome coronavirus-infected mouse model, we observed that through the unusual secondary anchor Ile5, a CD8+ T cell epitope drove the conformational fit of Trp73 on the α1 helix of murine MHC I H-2Kd In vitro renaturation and circular dichroism assays indicated that this shift of the structure did not influence the peptide/MHC I binding affinity.
+
+event('CD8',support,'MHC')
+CD8+ T cells could be detected in close proximity to MICA/B+ cells within multiple sclerosis lesions supporting an in vivo interaction between these immune effectors and stressed MICA/B-expressing oligodendrocytes.
+
+event('CD8',support,'MHC')
+Thus, our findings highlight the ability of HTNV epitope-specific CD8(+) T-cell immunity to control HTNV and support the possibility that the HTNV-NP FA9 peptide, naturally processed in vivo in an HLA-A,02-restriction manner, may be a good candidate for the development HTNV peptide vaccines.
 
