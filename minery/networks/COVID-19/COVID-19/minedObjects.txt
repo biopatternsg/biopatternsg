@@ -1,0 +1,46 @@
+SARS-CoV-2;SARS-CoV-2
+SARS-CoV;SARS-CoV-2
+ivermectin;ivermectin
+remdesivir;remdesivir
+chloroquine;chloroquine
+integrase;integrase
+transcriptase;transcriptase
+importin;importin;IMPα;IMPα;IMPβ1;IMPβ1
+STAT1;STAT1
+RdRp;RdRp
+ACE2;angiotensin, I, converting, enzyme, 2;angiotensin, I, converting, enzyme, (peptidyl-dipeptidase, A), 2;Angiotensin-converting, enzyme, 2;ACE-related, carboxypeptidase;Angiotensin-converting, enzyme, homolog;Metalloprotease, MPROT15;Processed, angiotensin-converting, enzyme, 2
+coronavirus;coronavirus
+CNEP1R1;CTD, nuclear, envelope, phosphatase, 1, regulatory, subunit, 1;C16orf69;TMEM188;chromosome, 16, open, reading, frame, 69;transmembrane, protein, 188;FLJ38101;NEP1-R1;Nuclear, envelope, phosphatase-regulatory, subunit, 1;Transmembrane, protein, 188
+CTDNEP1;CTD, nuclear, envelope, phosphatase, 1;DULLARD;dullard, homolog, (Xenopus, laevis);HSA011916;NET56;CTD, nuclear, envelope, phosphatase, 1;Serine/threonine-protein, phosphatase, dullard
+ERV3-1;endogenous, retrovirus, group, 3, member, 1, ',', envelope;ERV3;endogenous, retroviral, sequence, 3, (includes, zinc, finger, protein, H-plk/HPF9);endogenous, retroviral, sequence, 3;endogenous, retrovirus, group, 3, ',', member, 1;endogenous, retrovirus, group, 3, member, 1;H-PLK;HERV-R;ERV-R;envR;Endogenous, retrovirus, group, 3, member, 1, Env, polyprotein;ERV-3, envelope, protein;ERV3-1, envelope, protein;Envelope, polyprotein;HERV-R, envelope, protein;HERV-R_7q21.2, provirus, ancestral, Env, polyprotein;Surface, protein;Transmembrane, protein
+ERVFC1-1;endogenous, retrovirus, group, FC1, member, 1, ',', envelope;endogenous, retrovirus, group, FC1, ',', member, 1;endogenous, retrovirus, group, FC1, member, 1;FLJ42291;envF(c)2;TCONS_l2_00027524;Endogenous, retrovirus, group, FC1, member, 1, Env, polyprotein;Envelope, polyprotein;Fc2deltaenv;HERV-F(c)2_7q36.2, provirus, ancestral, Env, polyprotein;Surface, protein;Truncated, transmembrane, protein
+ERVFRD-1;endogenous, retrovirus, group, FRD, member, 1, ',', envelope;endogenous, retrovirus, group, FRD, ',', member, 1;endogenous, retrovirus, group, FRD, member, 1;HERV-W/FRD;HERV-FRD;envFRD;ERVFRDE1;syncytin-2;Syncytin-2;Endogenous, retrovirus, group, FRD, member, 1;Envelope, polyprotein;HERV-FRD_6p24.1, provirus, ancestral, Env, polyprotein;Surface, protein;Transmembrane, protein
+ERVH-8;endogenous, retrovirus, group, H, member, 8, ',', envelope;envH1
+POM121L3P;POM121, transmembrane, nucleoporin, like, 3, ',', pseudogene;POM121L3;POM121, membrane, glycoprotein, (rat, homolog)-like, 3;POM121, membrane, glycoprotein-like, 3, (rat);POM121, membrane, glycoprotein-like, 3, pseudogene;POM121, membrane, glycoprotein-like, 3, ',', pseudogene;POM121, transmembrane, nucleoporin-like, 3, ',', pseudogene;dJ831C21.3
+nuclecapside;nuclecapside
+METTL23;methyltransferase, like, 23;C17orf95;chromosome, 17, open, reading, frame, 95;LOC124512;Methyltransferase-like, protein, 23
+spike;spike
+PLpro;PLpro
+Mpro;Mpro
+CASC3;CASC3, exon, junction, complex, subunit;cancer, susceptibility, candidate, 3;cancer, susceptibility, 3;MLN51;BTZ;Protein, CASC3;Cancer, susceptibility, candidate, gene, 3, protein;Metastatic, lymph, node, gene, 51, protein;Protein, barentsz
+MAGOH;mago, homolog, ',', exon, junction, complex, subunit;mago-nashi, (Drosophila), homolog, ',', proliferation-associated;mago-nashi, homolog, ',', proliferation-associated, (Drosophila);mago, homolog, ',', exon, junction, complex, core, component;MAGOHA;MAGOH1;Protein, mago, nashi, homolog
+MAGOHB;mago, homolog, B, ',', exon, junction, complex, subunit;mago-nashi, homolog, B, (Drosophila);mago, homolog, B, ',', exon, junction, complex, core, component;FLJ10292;MGN2;Protein, mago, nashi, homolog, 2
+PYM1;PYM, homolog, 1, ',', exon, junction, complex, associated, factor;WIBG;within, bgcn, homolog, (Drosophila);PYM;Partner, of, Y14, and, mago;PYM, homolog, 1, exon, junction, complex-associated, factor;Protein, wibg, homolog
+ExoN;ExoN
+NendoU;NendoU
+;
+CDX1;caudal, type, homeobox, 1;caudal, type, homeo, box, transcription, factor, 1;Homeobox, protein, CDX-1;Caudal-type, homeobox, protein, 1
+GATA1;GATA, binding, protein, 1;GF1;GATA-binding, protein, 1, (globin, transcription, factor, 1);globin, transcription, factor, 1;ERYF1;NFE1;GATA-1;NF-E1;Erythroid, transcription, factor;Eryf1;GATA-binding, factor, 1;NF-E1, DNA-binding, protein
+GATA2;GATA, binding, protein, 2;GATA-binding, protein, 2;NFE1B;Endothelial, transcription, factor, GATA-2
+GATA3;GATA, binding, protein, 3;GATA-binding, protein, 3;HDR;Trans-acting, T-cell-specific, transcription, factor, GATA-3;GATA-binding, factor, 3
+GATA4;GATA, binding, protein, 4;GATA-binding, protein, 4;Transcription, factor, GATA-4;GATA-binding, factor, 4
+GATA5;GATA, binding, protein, 5;GATA-binding, protein, 5;bB379O24.1;GATAS;Transcription, factor, GATA-5;GATA-binding, factor, 5
+GATA6;GATA, binding, protein, 6;GATA-binding, protein, 6;Transcription, factor, GATA-6;GATA-binding, factor, 6
+GATAD1;GATA, zinc, finger, domain, containing, 1;ODAG;RG083M05.2;FLJ22489;GATA, zinc, finger, domain-containing, protein, 1;Ocular, development-associated, gene, protein
+GATAD2A;GATA, zinc, finger, domain, containing, 2A;p66alpha;Transcriptional, repressor, p66-alpha;GATA, zinc, finger, domain-containing, protein, 2A
+GATAD2B;GATA, zinc, finger, domain, containing, 2B;P66beta;Transcriptional, repressor, p66-beta;GATA, zinc, finger, domain-containing, protein, 2B;p66/p68
+TRPS1;transcriptional, repressor, GATA, binding, 1;trichorhinophalangeal, syndrome, I;LGCR;GC79;Zinc, finger, transcription, factor, Trps1;Tricho-rhino-phalangeal, syndrome, type, I, protein;Zinc, finger, protein, GC79
+ZGLP1;zinc, finger, GATA, like, protein, 1;GLP1;GLP-1;GATAD3;GATA-type, zinc, finger, protein, 1;GATA-like, protein, 1
+RUNX1;RUNX, family, transcription, factor, 1;AML1;CBFA2;acute, myeloid, leukemia, 1;runt-related, transcription, factor, 1;runt, related, transcription, factor, 1;PEBP2A2;AMLCR1;Runt-related, transcription, factor, 1;Acute, myeloid, leukemia, 1, protein;Core-binding, factor, subunit, alpha-2;Oncogene, AML-1;Polyomavirus, enhancer-binding, protein, 2, alpha, B, subunit;SL3-3, enhancer, factor, 1, alpha, B, subunit;SL3/AKV, core-binding, factor, alpha, B, subunit
+USF1;upstream, transcription, factor, 1;UEF;MLTFI;bHLHb11;Upstream, stimulatory, factor, 1;Class, B, basic, helix-loop-helix, protein, 11;Major, late, transcription, factor, 1
+SRY;sex, determining, region, Y;TDF;Sex-determining, region, Y, protein;Testis-determining, factor
