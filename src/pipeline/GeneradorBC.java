@@ -140,10 +140,10 @@ public class GeneradorBC {
 
         BufferedReader relationsFunctions = new BufferedReader(new FileReader(new File("scripts/relations-functions.txt")));
 
-        Vector regulate = new Vector(50);
-        Vector inhibit = new Vector(50);
-        Vector associate = new Vector(50);
-        Vector bind = new Vector(50);
+        Vector regulate = new Vector(50, 10);
+        Vector inhibit = new Vector(50, 10);
+        Vector associate = new Vector(50, 10);
+        Vector bind = new Vector(50, 10);
 
         line = relationsFunctions.readLine();
 
@@ -256,7 +256,7 @@ public class GeneradorBC {
 
                 for (int ev = 0; ev < eventsS.size() - 1; ev++) {
                     archivoBCDoc.println(evnt);
-                    archivoBCDoc.println(eventsS.get(ev + 1) + "\n");                  
+                    archivoBCDoc.println(eventsS.get(ev + 1) + "\n");
 
                 }
 
@@ -545,11 +545,10 @@ public class GeneradorBC {
                                     for (Object e : eventsSentences) {
 
                                         Vector ev = (Vector) e;
-                                        String even = (String) ev.get(0);
+                                        String even = (String) ev.firstElement();
                                         if (even.equals(event)) {
 
-                                            notContains = !ev.contains(linea);
-
+                                            //notContains = !ev.contains(linea);
                                             if (!ev.contains(linea)) {
                                                 ev.add(linea);
                                                 //baseC.println("evento: " + event + "; Linea: " + cont_lineas);
@@ -641,7 +640,7 @@ public class GeneradorBC {
         return cant_eventos;
     }
 
-    public String generadorBCIntg(String red, boolean baseEventos) throws FileNotFoundException, IOException, StringIndexOutOfBoundsException, Exception {
+    public String generadorBCIntgObsolete(String red, boolean baseEventos) throws FileNotFoundException, IOException, StringIndexOutOfBoundsException, Exception {
 
         File dir = new File("minery/networks/" + red);
 
@@ -662,7 +661,7 @@ public class GeneradorBC {
             if (baseEventos) {
                 base = "kBase.pl";
             } else {
-                base = "kBaseDoc";
+                base = "kBaseDoc.txt";
             }
 
             path = "minery/networks/" + red + "/" + nextValue.getName() + "/" + base;
@@ -760,29 +759,329 @@ public class GeneradorBC {
         return red;
     }
 
+    public String generadorBCInt(String network, boolean eventsKB) throws FileNotFoundException, IOException, StringIndexOutOfBoundsException, Exception {
+
+        utilidades.texto_carga = "";
+        utilidades.momento = "";
+        utilidades.texto_etapa = utilidades.idioma.get(152);
+        new utilidades().carga();
+
+        File dir = new File("minery/networks/" + network);
+
+        BufferedReader relationsFunctions = new BufferedReader(new FileReader(new File("scripts/relations-functions.txt")));
+
+        Vector regulate = new Vector(50, 10);
+        Vector inhibit = new Vector(50, 10);
+        Vector associate = new Vector(50, 10);
+        Vector bind = new Vector(50, 10);
+
+        String line = relationsFunctions.readLine();
+
+        if (line.startsWith("//------------Regulate")) {
+            line = relationsFunctions.readLine();
+            do {
+                regulate.add(line);
+                line = relationsFunctions.readLine();
+
+            } while (!line.startsWith("//------------Inhibit"));
+        }
+
+        if (line.startsWith("//------------Inhibit")) {
+            line = relationsFunctions.readLine();
+            do {
+                inhibit.add(line);
+                line = relationsFunctions.readLine();
+
+            } while (!line.startsWith("//------------Associate"));
+        }
+
+        if (line.startsWith("//------------Associate")) {
+            line = relationsFunctions.readLine();
+            do {
+                associate.add(line);
+                line = relationsFunctions.readLine();
+
+            } while (!line.startsWith("//------------Bind"));
+        }
+
+        if (line.startsWith("//------------Bind")) {
+
+            while (relationsFunctions.ready()) {
+                line = relationsFunctions.readLine();
+                bind.add(line);
+
+            }
+        }
+
+        File listDir[] = dir.listFiles();
+
+        String base = "", path;
+
+        if (eventsKB) {
+            base = "kBase.pl";
+        } else {
+            base = "kBaseDoc.txt";
+        }
+
+        Vector events = new Vector(100, 100);
+        Vector eventsSentences = new Vector(100, 100);
+        Vector eventsSentencesGen = new Vector(100, 100);
+        String event, firstObject;
+
+        for (File nextValue : listDir) {
+
+            //System.out.println("The next value with the for Loop is: " + nextValue.getName());
+            path = "minery/networks/" + network + "/" + nextValue.getName() + "/" + base;
+
+            if (new File(path).exists()) {
+
+                BufferedReader kBaseOnProcessing = new BufferedReader(new FileReader(path)); // We process this file to produce kBase.pl or kBaseDoc.txt
+
+                while (kBaseOnProcessing.ready()) {
+
+                    line = kBaseOnProcessing.readLine();
+
+                    if (eventsKB) { // The KB of events in the current network/folder (nextvalue) is processed.
+
+                        if (line.contains("event('")) {
+
+                            String newEvent = line.split("\\)")[0] + ")";
+
+                            if (!events.contains(newEvent)) {
+
+                                events.add(newEvent);
+
+                            }
+
+                        }
+                    } else { // The documentted KB of events in the current network/folder (nextvalue) is processed.
+
+                        if (!line.contains("************")) {
+
+                            if (line.contains("event('")) {
+
+                                if (!events.contains(line)) { // If the event is a new one, we add it with its sentence to eventsSentences.
+                                    events.add(line);
+                                    Vector eventSentences = new Vector(10, 5);
+                                    eventSentences.add(line);
+                                    eventSentences.add(kBaseOnProcessing.readLine());
+                                    eventsSentences.add(eventSentences);
+
+                                } else { // otherwise, if the sentence is a new one, then we update the event's sentences in eventsSentences.
+
+                                    for (Object eventSentces : eventsSentences) {
+
+                                        Vector ev = (Vector) eventSentces;
+
+                                        String eventFirst = (String) ev.firstElement();
+
+                                        if (eventFirst.equals(line)) {
+
+                                            String newLine = kBaseOnProcessing.readLine();
+
+                                            if (!ev.contains(newLine)) {
+                                                ev.add(newLine);
+
+                                            }
+                                            break;
+
+                                        }
+
+                                    }
+
+                                }
+                            }
+
+                        }
+
+                    }
+
+                }
+            }
+        }
+
+        boolean firstGeneralEvent = true;
+        String generalFunction, function, eventGen, subject, object;
+        Vector evtGen, eventG_events_Sentences;
+
+        if (!eventsKB) {
+
+            for (Object evSentences : eventsSentences) {
+
+                Vector evS = (Vector) evSentences;
+
+                String eventFirst = (String) evS.firstElement();
+
+                subject = eventFirst.split("'")[1];
+                object = eventFirst.split("'")[3];
+
+                function = eventFirst.split(",")[1];
+
+                if (regulate.contains(function)) {
+
+                    generalFunction = "regulate";
+
+                } else {
+
+                    if (inhibit.contains(function)) {
+
+                        generalFunction = "inhibit";
+
+                    } else {
+                        if (associate.contains(function)) {
+
+                            generalFunction = "associate";
+
+                        } else {
+                            generalFunction = "bind";
+
+                        }
+                    }
+                }
+
+                eventGen = "event('" + subject + "'," + generalFunction + ",'" + object + "')";
+
+                if (firstGeneralEvent) { // If this is the first generalized event on definition, then we add it to eventsSentencesGen. 
+
+                    eventG_events_Sentences = new Vector(10, 10);
+                    eventG_events_Sentences.add(eventGen);
+                    eventG_events_Sentences.add(evS);
+                    eventsSentencesGen.add(eventG_events_Sentences);
+                    firstGeneralEvent = false;
+
+                } else { // Otherwise, we must update the list of sentences related with one of the generalized events in eventsSentencesGen or create a new one.
+
+                    boolean notContains = true;
+
+                    for (Object eventsGen : eventsSentencesGen) {
+
+                        evtGen = (Vector) eventsGen;
+
+                        firstObject = (String) evtGen.firstElement();
+
+                        if (firstObject.equals(eventGen)) {
+
+                            evtGen.add(evS);
+                            notContains = false;
+                            break;
+                        }
+
+                    }
+
+                    // If eventsSentencesGen does not contain eventGen, then we must create a new generalized event.
+                    if (notContains) {
+                        eventG_events_Sentences = new Vector(10, 10);
+                        eventG_events_Sentences.add(eventGen);
+                        eventG_events_Sentences.add(evS);
+                        eventsSentencesGen.add(eventG_events_Sentences);
+                    }
+
+                }
+            }
+
+        }
+
+        String PATH = "minery/integration/";
+        String directoryName = PATH.concat(network);
+
+        File directorio = new File(directoryName);
+
+        if (!directorio.exists()) {
+            directorio.mkdir();
+        }
+
+        File baseCIntg = new File(directorio + "/" + base);
+        FileWriter writer = new FileWriter(baseCIntg);
+
+        writer.flush();
+        PrintWriter archivoBC = new PrintWriter(writer);
+
+        if (!eventsKB) {
+            printBCIntgrd(archivoBC, eventsSentencesGen, eventsKB);
+        } else {
+            printBCIntgrd(archivoBC, events, eventsKB);
+        }
+
+        return network;
+    }
+
     private int printBCIntgrd(PrintWriter baseC, Vector eventos, boolean baseEventos) throws IOException {
 
-        String event;
+        Vector eventGen;
+        String evG, generalEvent, simpleEvent;
+        int currentEvent, sizeGeneralEvents;
 
-        if (baseEventos) {
-            baseC.println("base([");
-        }
+        try (baseC) {
 
-        for (Object evento : eventos) {
+            String event;
 
-            event = (String) evento;
+            if (baseEventos) {
 
-            baseC.println(event);
-            // System.out.println(evento);
-        }
+                baseC.println("base([");
 
-        if (baseEventos) {
-            baseC.println("]).");
+                for (Object evento : eventos) {
+
+                    event = (String) evento;
+
+                    baseC.println(event);
+                    // System.out.println(evento);
+                }
+
+                baseC.println("]).");
+
+            } else {
+
+                for (Object evenG : eventos) {
+
+                    eventGen = (Vector) evenG;
+
+                    evG = (String) eventGen.firstElement();
+
+                    generalEvent = "************  " + evG + "************  ";
+
+                    baseC.println(generalEvent + "\n");
+
+                    boolean first = true;
+
+                    for (Object eventS : eventGen) {
+
+                        if (!first) {
+
+                            Vector eventSentences = (Vector) eventS;
+
+                            String evnt = (String) eventSentences.firstElement();
+
+                            boolean firstElement = true;
+
+                            for (Object sentence : eventSentences) {
+
+                                if (!firstElement) {
+
+                                    baseC.println(evnt);
+
+                                    baseC.println((String) sentence + "\n");
+
+                                } else {
+
+                                    firstElement = false;
+
+                                }
+
+                            }
+
+                        } else {
+
+                            first = false;
+                        }
+
+                    }
+
+                }
+
+            }
         }
 
         baseC.close();
-
-        //eventos.clear();
         return eventos.size();
     }
 

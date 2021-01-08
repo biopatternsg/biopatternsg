@@ -318,8 +318,8 @@ public class confGeneral {
         }
         try {
             System.out.print(utilidades.idioma.get(13));
-            new GeneradorBC().generadorBCIntg(red, true);
-            new GeneradorBC().generadorBCIntg(red, false);
+            new GeneradorBC().generadorBCIntgObsolete(red, true);
+            new GeneradorBC().generadorBCIntgObsolete(red, false);
             System.out.println(" ...ok");
         } catch (StringIndexOutOfBoundsException ex) {
             Logger.getLogger(confGeneral.class.getName()).log(Level.SEVERE, null, ex);
