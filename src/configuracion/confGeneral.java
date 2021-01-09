@@ -73,7 +73,7 @@ public class confGeneral {
             ArrayList<String> redes = new ArrayList<>();
             redes = listarCarpetas(carpeta);
             new utilidades().limpiarPantalla();
-            System.out.println(utilidades.colorTexto1+utilidades.titulo);
+            System.out.println(utilidades.colorTexto1 + utilidades.titulo);
             System.out.println(utilidades.colorReset);
             System.out.println(utilidades.idioma.get(0));
             if (redes.size() > 0) {
@@ -152,9 +152,9 @@ public class confGeneral {
 
         while (r) {
             new utilidades().limpiarPantalla();
-            System.out.println(utilidades.colorTexto1+utilidades.titulo);
+            System.out.println(utilidades.colorTexto1 + utilidades.titulo);
             System.out.println(utilidades.colorReset);
-            
+
             System.out.println(utilidades.idioma.get(0));
             System.out.println(utilidades.idioma.get(1));
             for (int i = 0; i < redesInt.size(); i++) {
@@ -189,10 +189,10 @@ public class confGeneral {
 
         while (r) {
             ArrayList<pathway> patrones = RRG.cargarPatrones(ruta);
-           new utilidades().limpiarPantalla();
-            System.out.println(utilidades.colorTexto1+utilidades.titulo);
+            new utilidades().limpiarPantalla();
+            System.out.println(utilidades.colorTexto1 + utilidades.titulo);
             System.out.println(utilidades.colorReset);
-            
+
             System.out.println(utilidades.idioma.get(5) + " " + red);
             System.out.println(utilidades.idioma.get(6) + "       " + patrones.size() + "\n");
             System.out.println(utilidades.idioma.get(0));
@@ -246,9 +246,9 @@ public class confGeneral {
             ArrayList<String> procesos = new ArrayList<>();
             procesos = listarCarpetas(carpeta);
             new utilidades().limpiarPantalla();
-            System.out.println(utilidades.colorTexto1+utilidades.titulo);
+            System.out.println(utilidades.colorTexto1 + utilidades.titulo);
             System.out.println(utilidades.colorReset);
-            
+
             System.out.println(utilidades.idioma.get(9) + " " + red);
             System.out.println(utilidades.idioma.get(0));
             if (procesos.size() > 0) {
@@ -300,6 +300,17 @@ public class confGeneral {
 
         String rutaDest = "minery/integration/" + red;
 
+        try {
+            System.out.print(utilidades.idioma.get(13));
+            new GeneradorBC().generadorBCInt(red, true);
+            new GeneradorBC().generadorBCInt(red, false);
+            System.out.println(" ...ok");
+        } catch (StringIndexOutOfBoundsException ex) {
+            Logger.getLogger(confGeneral.class.getName()).log(Level.SEVERE, null, ex);
+        } catch (Exception ex) {
+            Logger.getLogger(confGeneral.class.getName()).log(Level.SEVERE, null, ex);
+        }
+
         for (String directorio : procesos) {
             System.out.print(utilidades.idioma.get(12) + " " + directorio);
             String rutaOri = "minery/networks/" + red + "/" + directorio;
@@ -315,16 +326,6 @@ public class confGeneral {
             integrarFT(rutaOri, rutaDest);
 
             System.out.println(" ...ok");
-        }
-        try {
-            System.out.print(utilidades.idioma.get(13));
-            new GeneradorBC().generadorBCIntgObsolete(red, true);
-            new GeneradorBC().generadorBCIntgObsolete(red, false);
-            System.out.println(" ...ok");
-        } catch (StringIndexOutOfBoundsException ex) {
-            Logger.getLogger(confGeneral.class.getName()).log(Level.SEVERE, null, ex);
-        } catch (Exception ex) {
-            Logger.getLogger(confGeneral.class.getName()).log(Level.SEVERE, null, ex);
         }
 
     }
@@ -528,10 +529,10 @@ public class confGeneral {
 
     public void pipeline(String ruta, String rutaD) throws StringIndexOutOfBoundsException, IOException {
         new utilidades().limpiarPantalla();
-        System.out.println(utilidades.colorTexto1+utilidades.titulo);
+        System.out.println(utilidades.colorTexto1 + utilidades.titulo);
         System.out.println(utilidades.colorReset);
-        
-        utilidades.proceso=ruta;
+
+        utilidades.proceso = ruta;
         minado_FT mfts = new minado_FT(); // clase que contiene los metodos donde se buscara la informacion de los objetos minados
         //String ruta = "mineria/redes/" + r + "/" + p;
         configuracion config = new configuracion(); // clase donde se guarda la informacion de configuracion inicial del proceso de minado y los diferentes checklist que indican desde donde continuar la ejecucion
@@ -596,7 +597,7 @@ public class confGeneral {
                 //String kb = "kBase.pl";
                 //new Razonador().inferir_patrones(kb, config);
                 new patrones().inferir_patrones(config, ruta);
-                
+
             } catch (Exception ex) {
                 Logger.getLogger(confGeneral.class.getName()).log(Level.SEVERE, null, ex);
             }
@@ -625,41 +626,38 @@ public class confGeneral {
     }
 
     public void seleccionarIdioma() {
-        
+
         Scanner lectura = new Scanner(System.in);
         boolean r = true;
         File carpeta = new File("language");
-        
+
         while (r) {
             new utilidades().limpiarPantalla();
-            System.out.println(utilidades.colorTexto1+""+utilidades.titulo);
+            System.out.println(utilidades.colorTexto1 + "" + utilidades.titulo);
             ArrayList<String> idiomas = new ArrayList<>();
             idiomas = listarCarpetas(carpeta);
             System.out.println(utilidades.colorReset);
             if (idiomas.size() > 0) {
-                
+
                 for (int i = 0; i < idiomas.size(); i++) {
                     System.out.println((i + 1) + ".- " + idiomas.get(i).toUpperCase());
                 }
             }
-            
+
             String resp = lectura.nextLine();
 
             for (int i = 0; i < idiomas.size(); i++) {
                 String r2 = (i + 1) + "";
                 if (resp.equals(r2)) {
-                    String rlanguage="language/"+idiomas.get(i)+"/language.xml";
+                    String rlanguage = "language/" + idiomas.get(i) + "/language.xml";
                     new utilidades().lenguaje(rlanguage);
-                    r=false;
+                    r = false;
                 }
             }
-            
-            
-        }
-        
-    }
 
-    
+        }
+
+    }
 
     public String getRed() {
         return red;
