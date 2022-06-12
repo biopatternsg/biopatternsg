@@ -16,7 +16,7 @@
  */
 package servicios;
 
-
+import com.google.gson.Gson;
 import java.util.ArrayList;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
@@ -24,78 +24,58 @@ import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 import estructura.complejoProteinico;
 import estructura.HGNC;
+import java.util.logging.Level;
+import java.util.logging.Logger;
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
 
 /**
  *
  * @author yacson-ramirez
  */
-public class lecturas_PDB extends conexionServ{
+public class lecturas_PDB extends conexionServ {
 
-    public complejoProteinico Busqueda_PDB(String cp, boolean GO, boolean MESH,String ruta) {
+    private static final String URL_PDB_OBJECT = "https://data.rcsb.org/graphql?query=";
+
+    public complejoProteinico Busqueda_PDB(String cp, boolean GO, boolean MESH, String ruta) {
+
         complejoProteinico CP = new complejoProteinico();
-        CP.setID(cp);
-        String url = "http://www.rcsb.org/pdb/rest/describeMol?structureId=" + cp;
-        try {
-            //System.out.print("leyendo: " + cp + "  ");
-            revisa_xml_PDB(conecta(url), CP, GO, MESH,ruta);
-            // System.out.println("   ....ok");
-        } catch (Exception ex) {
+        String query = URL_PDB_OBJECT + "%7B%0A%20%20entry(entry_id:%22" + cp + "%22)%20%7B%0A%20%20%20%20entry%20%7B%0A%20%20%20%20%20%20id%0A%20%20%20%20%7D%0A%20%20%20%20polymer_entities%20%7B%0A%20%20%20%20%20%20rcsb_polymer_entity_container_identifiers%20%7B%0A%20%20%20%20%20%20%20%20entry_id%0A%20%20%20%20%20%20%20%20auth_asym_ids%0A%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20entity_poly%20%7B%0A%20%20%20%20%20%20%20%20rcsb_entity_polymer_type%0A%20%20%20%20%20%20%20%20rcsb_sample_sequence_length%0A%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20rcsb_polymer_entity%20%7B%0A%20%20%20%20%20%20%20%20pdbx_description%0A%20%20%20%20%20%20%20%20pdbx_fragment%0A%20%20%20%20%20%20%20%20pdbx_ec%0A%20%20%20%20%20%20%09pdbx_mutation%0A%20%20%20%20%20%20%20%20details%0A%20%20%20%20%20%20%20%20formula_weight%0A%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20rcsb_entity_source_organism%20%7B%0A%20%20%20%20%20%20%20%20ncbi_scientific_name%0A%20%20%20%20%20%20%20%20ncbi_taxonomy_id%0A%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20rcsb_polymer_entity_name_com%20%7B%0A%20%20%20%20%20%20%20%20name%0A%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20uniprots%20%7B%0A%20%20%20%20%20%20%20%20rcsb_uniprot_container_identifiers%20%7B%0A%20%20%20%20%20%20%20%20%20%20uniprot_id%0A%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%20%20rcsb_uniprot_protein%20%7B%0A%20%20%20%20%20%20%20%20%20%20name%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20value%0A%20%20%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%7D%0A%20%20%20%20%7D%0A%20%20%7D%0A%7D";
 
+        try {
+            Object response = simpleConnectionJsonGET(query);
+            JSONObject json = new JSONObject(new Gson().toJson(response));
+            JSONArray jsonArray = json.getJSONObject("data").getJSONObject("entry").getJSONArray("polymer_entities");
+            searchPDB(jsonArray, CP, GO, MESH, ruta);
+        } catch (JSONException ex) {
+            Logger.getLogger(lecturas_PDB.class.getName()).log(Level.SEVERE, null, ex);
         }
+
         return CP;
     }
 
-    //busquedas PDB   
-    private void revisa_xml_PDB(Document doc, complejoProteinico cp, boolean GO, boolean MESH,String ruta) {
-
-        NodeList nList = doc.getElementsByTagName("polymer");
-
-        for (int i = 0; i < nList.getLength(); i++) {
-            Node nNode = nList.item(i);
-            if (nNode.getNodeType() == Node.ELEMENT_NODE) {
-                Element Element = (Element) nNode;
-                // System.out.print("tipo: "+Element.getAttribute("type")+" ");
-
-                if (Element.getAttribute("type").equalsIgnoreCase("dna")) {
-                    NodeList nList2 = Element.getElementsByTagName("polymerDescription");
-                    Node nNode2 = nList2.item(0);
-                    Element des = (Element) nNode2;
-                    //System.out.println(des.getAttribute("description"));
-                    String separa[] = des.getAttribute("description").split(" ");
-                    if (separa.length > 1) {
-                        try {
-                            cp.setDNA(separa[1]);
-                        } catch (Exception e) {
-                            // System.out.println("Error AND " + etiqueta);
-                        }
-                    } else {
-                        try {
-                            cp.setDNA(separa[0]);
-                        } catch (Exception e) {
-                            // System.out.println("Error AND " + etiqueta);
-                        }
-                    }
-
+    private void searchPDB(JSONArray jsonArray, complejoProteinico cp, boolean GO, boolean MESH, String ruta) {
+        try {
+            for (int i = 0; i < jsonArray.length(); i++) {
+                var polymerType = jsonArray.getJSONObject(i).getJSONObject("entity_poly").get("rcsb_entity_polymer_type").toString();
+                var description = jsonArray.getJSONObject(i).getJSONObject("rcsb_polymer_entity").get("pdbx_description").toString();
+                String uniprot = null;
+                try {
+                    uniprot = jsonArray.getJSONObject(i).getJSONArray("uniprots").getJSONObject(0).getJSONObject("rcsb_uniprot_container_identifiers").get("uniprot_id").toString();
+                } catch (Exception e) {
+                    uniprot = null;
+                }
+                if (polymerType.equalsIgnoreCase("dna")) {
+                    cp.setDNA(description);
                 } else {
-
-                    NodeList nList2 = Element.getElementsByTagName("macroMolecule");
-                    Node nNode2 = nList2.item(0);
-                    Element des = (Element) nNode2;
-                    String nombre = des.getAttribute("name");
-                    //System.out.println(nombre);
-
-                    NodeList nList3 = des.getElementsByTagName("accession");
-                    Node nNode3 = nList3.item(0);
-                    Element des2 = (Element) nNode3;
-                    String idUP = (des2.getAttribute("id"));
                     ArrayList<HGNC> L_HGNC = new ArrayList<>();
-                    if (idUP.length() == 6) {
-                        lecturas_Uniprot UP = new lecturas_Uniprot(idUP);
-                        L_HGNC = new lecturas_HGNC().busquedaInfGen(UP.getSimbolo(), GO, MESH,ruta);
+                    if (uniprot != null) {
+                        lecturas_Uniprot UP = new lecturas_Uniprot(uniprot);
+                        L_HGNC = new lecturas_HGNC().busquedaInfGen(UP.getSimbolo(), GO, MESH, ruta);
                     } else {
-                        L_HGNC = new lecturas_HGNC().busquedaInfGen(nombre, GO, MESH,ruta);
+                        L_HGNC = new lecturas_HGNC().busquedaInfGen(description, GO, MESH, ruta);
                     }
-                    //System.out.println(UP.getSimbolo());
 
                     for (HGNC hgnc : L_HGNC) {
                         boolean encontrado = false;
@@ -109,10 +89,13 @@ public class lecturas_PDB extends conexionServ{
                             cp.getHGNC().add(hgnc);
                         }
                     }
+
                 }
+
             }
+        } catch (JSONException ex) {
+
         }
-
     }
-
+  
 }

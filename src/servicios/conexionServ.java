@@ -15,10 +15,15 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
 package servicios;
+import com.google.gson.Gson;
 import java.net.URL;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import org.w3c.dom.Document;
+import java.net.http.HttpClient;
+import java.net.http.HttpRequest;
+import java.net.http.HttpResponse;
+import java.net.URI;
 
 /**
  *
@@ -85,6 +90,28 @@ public class conexionServ {
         }
 
         return doc;
+    }
+    
+     public Object simpleConnectionJsonGET(String route) {
+
+        var client = HttpClient.newBuilder()
+                .version(HttpClient.Version.HTTP_2)
+                .build();
+
+        var request = HttpRequest.newBuilder()
+                .uri(URI.create(route))
+                .header("Content-Type", "application/json")
+                .build();
+
+        final HttpResponse<String> response;
+
+        try {
+            response = client.send(request, HttpResponse.BodyHandlers.ofString());
+            return new Gson().fromJson(response.body(), Object.class);
+        } catch (Exception e) {
+                       
+        }
+        return null;
     }
 
 }

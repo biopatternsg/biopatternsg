@@ -19,6 +19,7 @@ package estructura;
 import com.db4o.Db4o;
 import com.db4o.ObjectContainer;
 import com.db4o.ObjectSet;
+import com.google.gson.Gson;
 import configuracion.utilidades;
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -37,18 +38,28 @@ import servicios.lecturas_TFBIND;
 import servicios.lecturas_pathwaycommons;
 import pipeline.objetosMinados;
 import configuracion.objetosMineria;
-
+import java.net.http.HttpClient;
+import java.net.http.HttpRequest;
+import java.net.http.HttpResponse;
+import java.net.URI;
+import java.util.logging.Level;
+import java.util.logging.Logger;
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
 
 /**
  *
  * @author yacson
  */
 public class factorTranscripcion {
+
     private String ID;
     private int N_Iteracion;
     private lecturas_TFBIND lecturasTFBIND;
     private ArrayList<complejoProteinico> complejoProteinico;
     private ArrayList<HGNC> HGNC;
+    private static final String URL_PDB_IDS = "https://search.rcsb.org/rcsbsearch/v1/query";
 
     public factorTranscripcion() {
 
@@ -58,19 +69,19 @@ public class factorTranscripcion {
     }
 
     //constructor para la primera Iteracion con lecturas obtenidas desde TFBIND
-    public factorTranscripcion(lecturas_TFBIND lecturasTFBIND, int NumeroObjetos, objetosMineria objetosMineria, boolean GO, boolean MESH,String ruta) {
+    public factorTranscripcion(lecturas_TFBIND lecturasTFBIND, int NumeroObjetos, objetosMineria objetosMineria, boolean GO, boolean MESH, String ruta) {
         //System.out.println(utilidades.idioma.get(142)+"" + lecturasTFBIND.getFactor() + " ...");
-               
+
         this.lecturasTFBIND = lecturasTFBIND;
         this.ID = lecturasTFBIND.getFactor();
 
         ArrayList<HGNC> infgen = new ArrayList<>();
-        infgen = new lecturas_HGNC().busquedaInfGen(ID, GO, MESH,ruta);
+        infgen = new lecturas_HGNC().busquedaInfGen(ID, GO, MESH, ruta);
 
         if (infgen.size() == 0) {
             lecturas_pathwaycommons pc = new lecturas_pathwaycommons();
             String simbolo = pc.obtenercodigoUP(ID);
-            infgen = new lecturas_HGNC().busquedaInfGen(simbolo, GO, MESH,ruta);
+            infgen = new lecturas_HGNC().busquedaInfGen(simbolo, GO, MESH, ruta);
         }
 
         this.HGNC = infgen;
@@ -82,8 +93,8 @@ public class factorTranscripcion {
 
         for (int i = 0; i < IDCP.size(); i++) {
             complejoProteinico cp = new complejoProteinico();
-            cp = new lecturas_PDB().Busqueda_PDB(IDCP.get(i), GO, MESH,ruta);
-            cp.buscar_ligandos();
+            cp = new lecturas_PDB().Busqueda_PDB(IDCP.get(i), GO, MESH, ruta);
+            //cp.buscar_ligandos();
             complejoProteinico.add(cp);
         }
     }
@@ -91,86 +102,76 @@ public class factorTranscripcion {
     public ArrayList<String> Buscar_ID_complejosProteinicos(String FT, int Limite) {
         ArrayList<String> ID_CP = new ArrayList<>();
 
-        String xml
-                = "<orgPdbQuery>\n"
-                + "\n"
-                + "<queryType>org.pdb.query.simple.AdvancedKeywordQuery</queryType>\n"
-                + "\n"
-                + "<description>Text Search for: " + FT + "</description>\n"
-                + "\n"
-                + "<keywords>" + FT + "</keywords>\n"
-                + "\n"
-                + "</orgPdbQuery>";
-
-        int Intentos_conexion = 0;
-        while (Intentos_conexion < 10) {
-            Intentos_conexion++;
-            try {
-                //System.out.println("FT " + FT);
-                List<String> pdbIds = postQuery(xml);
-                for (int i = pdbIds.size() - 1; i >= pdbIds.size() - Limite && i > 0; i--) {
-
-                    if (pdbIds.get(i) != "") {
-                        //System.out.println("CP "+pdbIds.get(i));
-                        ID_CP.add(pdbIds.get(i));
-                    }
-                }
-                break;
-            } catch (Exception e) {
-                try {
-                    //System.out.println("error");
-                    Thread.sleep(1000);
-                } catch (InterruptedException ex) {
-                    //Logger.getLogger(lecturas_rcsb.class.getName()).log(Level.SEVERE, null, ex);
-                }
+        try {
+            String query = ""
+                    + "{\n"
+                    + "  \"query\": {\n"
+                    + "    \"type\": \"group\",\n"
+                    + "    \"logical_operator\": \"and\",\n"
+                    + "    \"nodes\": [\n"
+                    + "      {\n"
+                    + "        \"type\": \"terminal\",\n"
+                    + "        \"service\": \"full_text\",\n"
+                    + "        \"parameters\": {\n"
+                    + "          \"value\": \"" + FT + "\"\n"
+                    + "        }\n"
+                    + "      }\n"
+                    + "    ]\n"
+                    + "  },\n"
+                    + "  \"return_type\": \"entry\"\n"
+                    + "}";
+            var response = simpleConnectionJsonPOST(URL_PDB_IDS, query);
+            JSONObject json = new JSONObject(new Gson().toJson(response));
+            JSONArray jsonArray = json.getJSONArray("result_set");
+            
+            for (int i = 0; i < jsonArray.length() && i < Limite; i++) {
+                ID_CP.add(jsonArray.getJSONObject(i).get("identifier").toString());
             }
-
+           
+        } catch (JSONException ex) {
+            Logger.getLogger(factorTranscripcion.class.getName()).log(Level.SEVERE, null, ex);
         }
 
         return ID_CP;
     }
 
-    private List<String> postQuery(String xml) throws IOException {
+    public Object simpleConnectionJsonPOST(String route, String data) {
 
-        URL u = new URL("http://www.rcsb.org/pdb/rest/search/?sortfield=rank");
-        String encodedXML = URLEncoder.encode(xml, "UTF-8");
-        InputStream in = doPOST(u, encodedXML);
-        List<String> pdbIds = new ArrayList<String>();
-        BufferedReader rd = new BufferedReader(new InputStreamReader(in));
-        String line;
-        while ((line = rd.readLine()) != null) {
-            pdbIds.add(line);
+        var client = HttpClient.newBuilder()
+                .version(HttpClient.Version.HTTP_2)
+                .build();
+
+        var request = HttpRequest.newBuilder()
+                .uri(URI.create(route))
+                .header("Content-Type", "application/json")
+                .POST(HttpRequest.BodyPublishers.ofString(data))
+                .build();
+
+        final HttpResponse<String> response;
+
+        try {
+            response = client.send(request, HttpResponse.BodyHandlers.ofString());
+            return new Gson().fromJson(response.body(), Object.class);
+        } catch (Exception e) {
+
         }
-
-        rd.close();
-        return pdbIds;
-    }
-
-    private static InputStream doPOST(URL url, String data) throws IOException {
-
-        URLConnection conn = url.openConnection();
-        conn.setDoOutput(true);
-        OutputStreamWriter wr = new OutputStreamWriter(conn.getOutputStream());
-        wr.write(data);
-        wr.flush();
-        return conn.getInputStream();
-
+        return null;
     }
 
     //constructor para la segunda Iteracion en adelante
-    public factorTranscripcion(String ID, int N_Iteracion, int NumeroObjetos, boolean GO, boolean MESH,String ruta) {
-        
+    public factorTranscripcion(String ID, int N_Iteracion, int NumeroObjetos, boolean GO, boolean MESH, String ruta) {
+
         this.lecturasTFBIND = new lecturas_TFBIND();
         this.ID = ID;
         this.N_Iteracion = N_Iteracion;
-        this.HGNC = new lecturas_HGNC().busquedaInfGen(ID, GO, MESH,ruta);
+        this.HGNC = new lecturas_HGNC().busquedaInfGen(ID, GO, MESH, ruta);
         this.complejoProteinico = new ArrayList<>();
 
         ArrayList<String> IDCP = Buscar_ID_complejosProteinicos(ID, NumeroObjetos);
 
         IDCP.forEach((idcp) -> {
             complejoProteinico cp = new complejoProteinico();
-            cp = new lecturas_PDB().Busqueda_PDB(idcp, GO, MESH,ruta);
+            cp = new lecturas_PDB().Busqueda_PDB(idcp, GO, MESH, ruta);
             cp.buscar_ligandos();
             complejoProteinico.add(cp);
         });
@@ -219,12 +220,12 @@ public class factorTranscripcion {
         ligandos += "]";
         if (!ligandos.equals("[]")) {
             new utilidades().carga();
-            new escribirBC("ligandos(\'" + ID.replace("\'", "") + "\'," + ligandos + ").", ruta+"/minedObjects.pl");
+            new escribirBC("ligandos(\'" + ID.replace("\'", "") + "\'," + ligandos + ").", ruta + "/minedObjects.pl");
         }
-                
+
         boolean encontrado = false;
         objetosMinados objMIn = new objetosMinados();
-        
+
         for (HGNC hgnc : HGNC) {
             String cadena_txt = "";
             String cadena = "[";
@@ -239,8 +240,8 @@ public class factorTranscripcion {
 
             cadena += "]";
             new utilidades().carga();
-            new escribirBC("sinonimos(\'" + hgnc.getSimbolo().replace("\'", "") + "\'," + cadena + ").", ruta+"/minedObjects.pl");
-            new escribirBC(cadena_txt, ruta+"/minedObjects.txt");
+            new escribirBC("sinonimos(\'" + hgnc.getSimbolo().replace("\'", "") + "\'," + cadena + ").", ruta + "/minedObjects.pl");
+            new escribirBC(cadena_txt, ruta + "/minedObjects.txt");
             ArrayList<String> lista = hgnc.ListaNombres();
             if (lista.contains(ID)) {
                 encontrado = true;
@@ -249,19 +250,19 @@ public class factorTranscripcion {
 
         if (!encontrado) {
             new utilidades().carga();
-            new escribirBC("sinonimos(\'" + ID + "\',[\'" + ID + "\']).", ruta+"/minedObjects.pl");
+            new escribirBC("sinonimos(\'" + ID + "\',[\'" + ID + "\']).", ruta + "/minedObjects.pl");
             String cadena_txt = ID + ";" + objMIn.procesarNombre(ID);
             new escribirBC(cadena_txt, "minedObjects.txt");
         }
 
         if (N_Iteracion == 0) {
             new utilidades().carga();
-            new escribirBC("transcription_factors(\'" + ID.replace("\'", "") + "\').", ruta+"/minedObjects.pl");
+            new escribirBC("transcription_factors(\'" + ID.replace("\'", "") + "\').", ruta + "/minedObjects.pl");
         }
 
     }
-    
-    public boolean buscar(factorTranscripcion objeto, String ruta){
+
+    public boolean buscar(factorTranscripcion objeto, String ruta) {
         boolean encontrado = false;
         try {
             ObjectContainer db = Db4o.openFile(ruta + "/TF.db");
@@ -282,10 +283,9 @@ public class factorTranscripcion {
         return encontrado;
     }
 
-   
-    private lecturas_HGNC lecturasHGNC(String ID, boolean GO, boolean MESH,String ruta) {
+    private lecturas_HGNC lecturasHGNC(String ID, boolean GO, boolean MESH, String ruta) {
         lecturas_HGNC HGNC = new lecturas_HGNC();
-        this.HGNC = HGNC.busquedaInfGen(ID, GO, MESH,ruta);
+        this.HGNC = HGNC.busquedaInfGen(ID, GO, MESH, ruta);
         return HGNC;
     }
 
