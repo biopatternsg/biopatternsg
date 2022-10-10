@@ -572,6 +572,324 @@ See the event's documentation in PATHWAY: 13
 ---------------------------------------------------: 
 
 PATHWAY: 40
+'MHC',bind,'STAT';'STAT',inhibit,'SARS-CoV-2'
+
+----> event: 'MHC',bind,'STAT'
+
+See the event's documentation in PATHWAY: 1
+
+----> event: 'STAT',inhibit,'SARS-CoV-2'
+
+---------------------------------------------------: 
+
+PATHWAY: 41
+'ORF6',bind,'STAT';'STAT',inhibit,'SARS-CoV-2'
+
+----> event: 'ORF6',bind,'STAT'
+
+See the event's documentation in PATHWAY: 2
+
+----> event: 'STAT',inhibit,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 40
+
+---------------------------------------------------: 
+
+PATHWAY: 42
+'importin',bind,'STAT';'STAT',inhibit,'SARS-CoV-2'
+
+----> event: 'importin',bind,'STAT'
+
+See the event's documentation in PATHWAY: 3
+
+----> event: 'STAT',inhibit,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 40
+
+---------------------------------------------------: 
+
+PATHWAY: 43
+'CD4',bind,'STAT';'STAT',inhibit,'SARS-CoV-2'
+
+----> event: 'CD4',bind,'STAT'
+
+See the event's documentation in PATHWAY: 4
+
+----> event: 'STAT',inhibit,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 40
+
+---------------------------------------------------: 
+
+PATHWAY: 44
+'CD8',bind,'STAT';'STAT',inhibit,'SARS-CoV-2'
+
+----> event: 'CD8',bind,'STAT'
+
+See the event's documentation in PATHWAY: 5
+
+----> event: 'STAT',inhibit,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 40
+
+---------------------------------------------------: 
+
+PATHWAY: 45
+'MHC',bind,'STAT';'STAT',inhibit,'SARS-CoV-2';'MHC',inhibit,'SARS-CoV-2'
+
+----> event: 'MHC',bind,'STAT'
+
+See the event's documentation in PATHWAY: 1
+
+----> event: 'STAT',inhibit,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 40
+
+----> event: 'MHC',inhibit,'SARS-CoV-2'
+
+---------------------------------------------------: 
+
+PATHWAY: 46
+'MHC',bind,'STAT';'STAT',inhibit,'SARS-CoV-2';'MHC',regulate,'SARS-CoV-2'
+
+----> event: 'MHC',bind,'STAT'
+
+See the event's documentation in PATHWAY: 1
+
+----> event: 'STAT',inhibit,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 40
+
+----> event: 'MHC',regulate,'SARS-CoV-2'
+
+---------------------------------------------------: 
+
+PATHWAY: 47
+'CD4',bind,'STAT';'STAT',inhibit,'SARS-CoV-2';'CD4',regulate,'SARS-CoV-2'
+
+----> event: 'CD4',bind,'STAT'
+
+See the event's documentation in PATHWAY: 4
+
+----> event: 'STAT',inhibit,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 40
+
+----> event: 'CD4',regulate,'SARS-CoV-2'
+
+---------------------------------------------------: 
+
+PATHWAY: 48
+'CD4',bind,'STAT';'STAT',inhibit,'SARS-CoV-2';'CD4',inhibit,'SARS-CoV-2'
+
+----> event: 'CD4',bind,'STAT'
+
+See the event's documentation in PATHWAY: 4
+
+----> event: 'STAT',inhibit,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 40
+
+----> event: 'CD4',inhibit,'SARS-CoV-2'
+
+---------------------------------------------------: 
+
+PATHWAY: 49
+'CD8',bind,'STAT';'STAT',inhibit,'SARS-CoV-2';'CD8',regulate,'SARS-CoV-2'
+
+----> event: 'CD8',bind,'STAT'
+
+See the event's documentation in PATHWAY: 5
+
+----> event: 'STAT',inhibit,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 40
+
+----> event: 'CD8',regulate,'SARS-CoV-2'
+
+---------------------------------------------------: 
+
+PATHWAY: 50
+'CD8',bind,'STAT';'STAT',inhibit,'SARS-CoV-2';'CD8',inhibit,'SARS-CoV-2'
+
+----> event: 'CD8',bind,'STAT'
+
+See the event's documentation in PATHWAY: 5
+
+----> event: 'STAT',inhibit,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 40
+
+----> event: 'CD8',inhibit,'SARS-CoV-2'
+
+---------------------------------------------------: 
+
+PATHWAY: 51
+'MHC',bind,'STAT';'STAT',regulate,'SARS-CoV-2'
+
+----> event: 'MHC',bind,'STAT'
+
+See the event's documentation in PATHWAY: 1
+
+----> event: 'STAT',regulate,'SARS-CoV-2'
+
+---------------------------------------------------: 
+
+PATHWAY: 52
+'ORF6',bind,'STAT';'STAT',regulate,'SARS-CoV-2'
+
+----> event: 'ORF6',bind,'STAT'
+
+See the event's documentation in PATHWAY: 2
+
+----> event: 'STAT',regulate,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 51
+
+---------------------------------------------------: 
+
+PATHWAY: 53
+'importin',bind,'STAT';'STAT',regulate,'SARS-CoV-2'
+
+----> event: 'importin',bind,'STAT'
+
+See the event's documentation in PATHWAY: 3
+
+----> event: 'STAT',regulate,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 51
+
+---------------------------------------------------: 
+
+PATHWAY: 54
+'CD4',bind,'STAT';'STAT',regulate,'SARS-CoV-2'
+
+----> event: 'CD4',bind,'STAT'
+
+See the event's documentation in PATHWAY: 4
+
+----> event: 'STAT',regulate,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 51
+
+---------------------------------------------------: 
+
+PATHWAY: 55
+'CD8',bind,'STAT';'STAT',regulate,'SARS-CoV-2'
+
+----> event: 'CD8',bind,'STAT'
+
+See the event's documentation in PATHWAY: 5
+
+----> event: 'STAT',regulate,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 51
+
+---------------------------------------------------: 
+
+PATHWAY: 56
+'MHC',bind,'STAT';'STAT',regulate,'SARS-CoV-2';'MHC',inhibit,'SARS-CoV-2'
+
+----> event: 'MHC',bind,'STAT'
+
+See the event's documentation in PATHWAY: 1
+
+----> event: 'STAT',regulate,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 51
+
+----> event: 'MHC',inhibit,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 45
+
+---------------------------------------------------: 
+
+PATHWAY: 57
+'MHC',bind,'STAT';'STAT',regulate,'SARS-CoV-2';'MHC',regulate,'SARS-CoV-2'
+
+----> event: 'MHC',bind,'STAT'
+
+See the event's documentation in PATHWAY: 1
+
+----> event: 'STAT',regulate,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 51
+
+----> event: 'MHC',regulate,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 46
+
+---------------------------------------------------: 
+
+PATHWAY: 58
+'CD4',bind,'STAT';'STAT',regulate,'SARS-CoV-2';'CD4',regulate,'SARS-CoV-2'
+
+----> event: 'CD4',bind,'STAT'
+
+See the event's documentation in PATHWAY: 4
+
+----> event: 'STAT',regulate,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 51
+
+----> event: 'CD4',regulate,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 47
+
+---------------------------------------------------: 
+
+PATHWAY: 59
+'CD4',bind,'STAT';'STAT',regulate,'SARS-CoV-2';'CD4',inhibit,'SARS-CoV-2'
+
+----> event: 'CD4',bind,'STAT'
+
+See the event's documentation in PATHWAY: 4
+
+----> event: 'STAT',regulate,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 51
+
+----> event: 'CD4',inhibit,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 48
+
+---------------------------------------------------: 
+
+PATHWAY: 60
+'CD8',bind,'STAT';'STAT',regulate,'SARS-CoV-2';'CD8',regulate,'SARS-CoV-2'
+
+----> event: 'CD8',bind,'STAT'
+
+See the event's documentation in PATHWAY: 5
+
+----> event: 'STAT',regulate,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 51
+
+----> event: 'CD8',regulate,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 49
+
+---------------------------------------------------: 
+
+PATHWAY: 61
+'CD8',bind,'STAT';'STAT',regulate,'SARS-CoV-2';'CD8',inhibit,'SARS-CoV-2'
+
+----> event: 'CD8',bind,'STAT'
+
+See the event's documentation in PATHWAY: 5
+
+----> event: 'STAT',regulate,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 51
+
+----> event: 'CD8',inhibit,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 50
+
+---------------------------------------------------: 
+
+PATHWAY: 62
 'MHC',bind,'CD4';'CD4',regulate,'STAT'
 
 ----> event: 'MHC',bind,'CD4'
@@ -582,7 +900,7 @@ See the event's documentation in PATHWAY: 10
 
 ---------------------------------------------------: 
 
-PATHWAY: 41
+PATHWAY: 63
 'importin',bind,'CD4';'CD4',regulate,'STAT'
 
 ----> event: 'importin',bind,'CD4'
@@ -593,7 +911,7 @@ See the event's documentation in PATHWAY: 10
 
 ---------------------------------------------------: 
 
-PATHWAY: 42
+PATHWAY: 64
 'CD8',bind,'CD4';'CD4',regulate,'STAT'
 
 ----> event: 'CD8',bind,'CD4'
@@ -604,7 +922,7 @@ See the event's documentation in PATHWAY: 10
 
 ---------------------------------------------------: 
 
-PATHWAY: 43
+PATHWAY: 65
 'STAT',bind,'CD4';'CD4',regulate,'STAT';'STAT',inhibit,'STAT'
 
 ----> event: 'STAT',bind,'CD4'
@@ -619,366 +937,16 @@ See the event's documentation in PATHWAY: 14
 
 ---------------------------------------------------: 
 
-PATHWAY: 44
+PATHWAY: 66
 'STAT',bind,'CD4';'CD4',regulate,'STAT';'STAT',regulate,'STAT'
 
 ----> event: 'STAT',bind,'CD4'
 
-See the event's documentation in PATHWAY: 43
+See the event's documentation in PATHWAY: 65
 
 ----> event: 'CD4',regulate,'STAT'
 
 See the event's documentation in PATHWAY: 10
-
-----> event: 'STAT',regulate,'STAT'
-
-See the event's documentation in PATHWAY: 27
-
----------------------------------------------------: 
-
-PATHWAY: 45
-'MHC',bind,'CD4';'CD4',regulate,'STAT';'MHC',regulate,'STAT'
-
-----> event: 'MHC',bind,'CD4'
-
-See the event's documentation in PATHWAY: 40
-
-----> event: 'CD4',regulate,'STAT'
-
-See the event's documentation in PATHWAY: 10
-
-----> event: 'MHC',regulate,'STAT'
-
-See the event's documentation in PATHWAY: 6
-
----------------------------------------------------: 
-
-PATHWAY: 46
-'MHC',bind,'CD4';'CD4',regulate,'STAT';'MHC',inhibit,'STAT'
-
-----> event: 'MHC',bind,'CD4'
-
-See the event's documentation in PATHWAY: 40
-
-----> event: 'CD4',regulate,'STAT'
-
-See the event's documentation in PATHWAY: 10
-
-----> event: 'MHC',inhibit,'STAT'
-
-See the event's documentation in PATHWAY: 7
-
----------------------------------------------------: 
-
-PATHWAY: 47
-'importin',bind,'CD4';'CD4',regulate,'STAT';'importin',inhibit,'STAT'
-
-----> event: 'importin',bind,'CD4'
-
-See the event's documentation in PATHWAY: 41
-
-----> event: 'CD4',regulate,'STAT'
-
-See the event's documentation in PATHWAY: 10
-
-----> event: 'importin',inhibit,'STAT'
-
-See the event's documentation in PATHWAY: 8
-
----------------------------------------------------: 
-
-PATHWAY: 48
-'importin',bind,'CD4';'CD4',regulate,'STAT';'importin',regulate,'STAT'
-
-----> event: 'importin',bind,'CD4'
-
-See the event's documentation in PATHWAY: 41
-
-----> event: 'CD4',regulate,'STAT'
-
-See the event's documentation in PATHWAY: 10
-
-----> event: 'importin',regulate,'STAT'
-
-See the event's documentation in PATHWAY: 9
-
----------------------------------------------------: 
-
-PATHWAY: 49
-'CD8',bind,'CD4';'CD4',regulate,'STAT';'CD8',regulate,'STAT'
-
-----> event: 'CD8',bind,'CD4'
-
-See the event's documentation in PATHWAY: 42
-
-----> event: 'CD4',regulate,'STAT'
-
-See the event's documentation in PATHWAY: 10
-
-----> event: 'CD8',regulate,'STAT'
-
-See the event's documentation in PATHWAY: 12
-
----------------------------------------------------: 
-
-PATHWAY: 50
-'CD8',bind,'CD4';'CD4',regulate,'STAT';'CD8',inhibit,'STAT'
-
-----> event: 'CD8',bind,'CD4'
-
-See the event's documentation in PATHWAY: 42
-
-----> event: 'CD4',regulate,'STAT'
-
-See the event's documentation in PATHWAY: 10
-
-----> event: 'CD8',inhibit,'STAT'
-
-See the event's documentation in PATHWAY: 13
-
----------------------------------------------------: 
-
-PATHWAY: 51
-'MHC',bind,'CD4';'CD4',inhibit,'STAT'
-
-----> event: 'MHC',bind,'CD4'
-
-See the event's documentation in PATHWAY: 40
-
-----> event: 'CD4',inhibit,'STAT'
-
-See the event's documentation in PATHWAY: 11
-
----------------------------------------------------: 
-
-PATHWAY: 52
-'importin',bind,'CD4';'CD4',inhibit,'STAT'
-
-----> event: 'importin',bind,'CD4'
-
-See the event's documentation in PATHWAY: 41
-
-----> event: 'CD4',inhibit,'STAT'
-
-See the event's documentation in PATHWAY: 11
-
----------------------------------------------------: 
-
-PATHWAY: 53
-'CD8',bind,'CD4';'CD4',inhibit,'STAT'
-
-----> event: 'CD8',bind,'CD4'
-
-See the event's documentation in PATHWAY: 42
-
-----> event: 'CD4',inhibit,'STAT'
-
-See the event's documentation in PATHWAY: 11
-
----------------------------------------------------: 
-
-PATHWAY: 54
-'STAT',bind,'CD4';'CD4',inhibit,'STAT';'STAT',inhibit,'STAT'
-
-----> event: 'STAT',bind,'CD4'
-
-See the event's documentation in PATHWAY: 43
-
-----> event: 'CD4',inhibit,'STAT'
-
-See the event's documentation in PATHWAY: 11
-
-----> event: 'STAT',inhibit,'STAT'
-
-See the event's documentation in PATHWAY: 14
-
----------------------------------------------------: 
-
-PATHWAY: 55
-'STAT',bind,'CD4';'CD4',inhibit,'STAT';'STAT',regulate,'STAT'
-
-----> event: 'STAT',bind,'CD4'
-
-See the event's documentation in PATHWAY: 43
-
-----> event: 'CD4',inhibit,'STAT'
-
-See the event's documentation in PATHWAY: 11
-
-----> event: 'STAT',regulate,'STAT'
-
-See the event's documentation in PATHWAY: 27
-
----------------------------------------------------: 
-
-PATHWAY: 56
-'MHC',bind,'CD4';'CD4',inhibit,'STAT';'MHC',regulate,'STAT'
-
-----> event: 'MHC',bind,'CD4'
-
-See the event's documentation in PATHWAY: 40
-
-----> event: 'CD4',inhibit,'STAT'
-
-See the event's documentation in PATHWAY: 11
-
-----> event: 'MHC',regulate,'STAT'
-
-See the event's documentation in PATHWAY: 6
-
----------------------------------------------------: 
-
-PATHWAY: 57
-'MHC',bind,'CD4';'CD4',inhibit,'STAT';'MHC',inhibit,'STAT'
-
-----> event: 'MHC',bind,'CD4'
-
-See the event's documentation in PATHWAY: 40
-
-----> event: 'CD4',inhibit,'STAT'
-
-See the event's documentation in PATHWAY: 11
-
-----> event: 'MHC',inhibit,'STAT'
-
-See the event's documentation in PATHWAY: 7
-
----------------------------------------------------: 
-
-PATHWAY: 58
-'importin',bind,'CD4';'CD4',inhibit,'STAT';'importin',inhibit,'STAT'
-
-----> event: 'importin',bind,'CD4'
-
-See the event's documentation in PATHWAY: 41
-
-----> event: 'CD4',inhibit,'STAT'
-
-See the event's documentation in PATHWAY: 11
-
-----> event: 'importin',inhibit,'STAT'
-
-See the event's documentation in PATHWAY: 8
-
----------------------------------------------------: 
-
-PATHWAY: 59
-'importin',bind,'CD4';'CD4',inhibit,'STAT';'importin',regulate,'STAT'
-
-----> event: 'importin',bind,'CD4'
-
-See the event's documentation in PATHWAY: 41
-
-----> event: 'CD4',inhibit,'STAT'
-
-See the event's documentation in PATHWAY: 11
-
-----> event: 'importin',regulate,'STAT'
-
-See the event's documentation in PATHWAY: 9
-
----------------------------------------------------: 
-
-PATHWAY: 60
-'CD8',bind,'CD4';'CD4',inhibit,'STAT';'CD8',regulate,'STAT'
-
-----> event: 'CD8',bind,'CD4'
-
-See the event's documentation in PATHWAY: 42
-
-----> event: 'CD4',inhibit,'STAT'
-
-See the event's documentation in PATHWAY: 11
-
-----> event: 'CD8',regulate,'STAT'
-
-See the event's documentation in PATHWAY: 12
-
----------------------------------------------------: 
-
-PATHWAY: 61
-'CD8',bind,'CD4';'CD4',inhibit,'STAT';'CD8',inhibit,'STAT'
-
-----> event: 'CD8',bind,'CD4'
-
-See the event's documentation in PATHWAY: 42
-
-----> event: 'CD4',inhibit,'STAT'
-
-See the event's documentation in PATHWAY: 11
-
-----> event: 'CD8',inhibit,'STAT'
-
-See the event's documentation in PATHWAY: 13
-
----------------------------------------------------: 
-
-PATHWAY: 62
-'MHC',bind,'CD4';'CD4',bind,'STAT'
-
-----> event: 'MHC',bind,'CD4'
-
-See the event's documentation in PATHWAY: 40
-
-----> event: 'CD4',bind,'STAT'
-
-See the event's documentation in PATHWAY: 4
-
----------------------------------------------------: 
-
-PATHWAY: 63
-'importin',bind,'CD4';'CD4',bind,'STAT'
-
-----> event: 'importin',bind,'CD4'
-
-See the event's documentation in PATHWAY: 41
-
-----> event: 'CD4',bind,'STAT'
-
-See the event's documentation in PATHWAY: 4
-
----------------------------------------------------: 
-
-PATHWAY: 64
-'CD8',bind,'CD4';'CD4',bind,'STAT'
-
-----> event: 'CD8',bind,'CD4'
-
-See the event's documentation in PATHWAY: 42
-
-----> event: 'CD4',bind,'STAT'
-
-See the event's documentation in PATHWAY: 4
-
----------------------------------------------------: 
-
-PATHWAY: 65
-'STAT',bind,'CD4';'CD4',bind,'STAT';'STAT',inhibit,'STAT'
-
-----> event: 'STAT',bind,'CD4'
-
-See the event's documentation in PATHWAY: 43
-
-----> event: 'CD4',bind,'STAT'
-
-See the event's documentation in PATHWAY: 4
-
-----> event: 'STAT',inhibit,'STAT'
-
-See the event's documentation in PATHWAY: 14
-
----------------------------------------------------: 
-
-PATHWAY: 66
-'STAT',bind,'CD4';'CD4',bind,'STAT';'STAT',regulate,'STAT'
-
-----> event: 'STAT',bind,'CD4'
-
-See the event's documentation in PATHWAY: 43
-
-----> event: 'CD4',bind,'STAT'
-
-See the event's documentation in PATHWAY: 4
 
 ----> event: 'STAT',regulate,'STAT'
 
@@ -987,11 +955,361 @@ See the event's documentation in PATHWAY: 27
 ---------------------------------------------------: 
 
 PATHWAY: 67
+'MHC',bind,'CD4';'CD4',regulate,'STAT';'MHC',regulate,'STAT'
+
+----> event: 'MHC',bind,'CD4'
+
+See the event's documentation in PATHWAY: 62
+
+----> event: 'CD4',regulate,'STAT'
+
+See the event's documentation in PATHWAY: 10
+
+----> event: 'MHC',regulate,'STAT'
+
+See the event's documentation in PATHWAY: 6
+
+---------------------------------------------------: 
+
+PATHWAY: 68
+'MHC',bind,'CD4';'CD4',regulate,'STAT';'MHC',inhibit,'STAT'
+
+----> event: 'MHC',bind,'CD4'
+
+See the event's documentation in PATHWAY: 62
+
+----> event: 'CD4',regulate,'STAT'
+
+See the event's documentation in PATHWAY: 10
+
+----> event: 'MHC',inhibit,'STAT'
+
+See the event's documentation in PATHWAY: 7
+
+---------------------------------------------------: 
+
+PATHWAY: 69
+'importin',bind,'CD4';'CD4',regulate,'STAT';'importin',inhibit,'STAT'
+
+----> event: 'importin',bind,'CD4'
+
+See the event's documentation in PATHWAY: 63
+
+----> event: 'CD4',regulate,'STAT'
+
+See the event's documentation in PATHWAY: 10
+
+----> event: 'importin',inhibit,'STAT'
+
+See the event's documentation in PATHWAY: 8
+
+---------------------------------------------------: 
+
+PATHWAY: 70
+'importin',bind,'CD4';'CD4',regulate,'STAT';'importin',regulate,'STAT'
+
+----> event: 'importin',bind,'CD4'
+
+See the event's documentation in PATHWAY: 63
+
+----> event: 'CD4',regulate,'STAT'
+
+See the event's documentation in PATHWAY: 10
+
+----> event: 'importin',regulate,'STAT'
+
+See the event's documentation in PATHWAY: 9
+
+---------------------------------------------------: 
+
+PATHWAY: 71
+'CD8',bind,'CD4';'CD4',regulate,'STAT';'CD8',regulate,'STAT'
+
+----> event: 'CD8',bind,'CD4'
+
+See the event's documentation in PATHWAY: 64
+
+----> event: 'CD4',regulate,'STAT'
+
+See the event's documentation in PATHWAY: 10
+
+----> event: 'CD8',regulate,'STAT'
+
+See the event's documentation in PATHWAY: 12
+
+---------------------------------------------------: 
+
+PATHWAY: 72
+'CD8',bind,'CD4';'CD4',regulate,'STAT';'CD8',inhibit,'STAT'
+
+----> event: 'CD8',bind,'CD4'
+
+See the event's documentation in PATHWAY: 64
+
+----> event: 'CD4',regulate,'STAT'
+
+See the event's documentation in PATHWAY: 10
+
+----> event: 'CD8',inhibit,'STAT'
+
+See the event's documentation in PATHWAY: 13
+
+---------------------------------------------------: 
+
+PATHWAY: 73
+'MHC',bind,'CD4';'CD4',inhibit,'STAT'
+
+----> event: 'MHC',bind,'CD4'
+
+See the event's documentation in PATHWAY: 62
+
+----> event: 'CD4',inhibit,'STAT'
+
+See the event's documentation in PATHWAY: 11
+
+---------------------------------------------------: 
+
+PATHWAY: 74
+'importin',bind,'CD4';'CD4',inhibit,'STAT'
+
+----> event: 'importin',bind,'CD4'
+
+See the event's documentation in PATHWAY: 63
+
+----> event: 'CD4',inhibit,'STAT'
+
+See the event's documentation in PATHWAY: 11
+
+---------------------------------------------------: 
+
+PATHWAY: 75
+'CD8',bind,'CD4';'CD4',inhibit,'STAT'
+
+----> event: 'CD8',bind,'CD4'
+
+See the event's documentation in PATHWAY: 64
+
+----> event: 'CD4',inhibit,'STAT'
+
+See the event's documentation in PATHWAY: 11
+
+---------------------------------------------------: 
+
+PATHWAY: 76
+'STAT',bind,'CD4';'CD4',inhibit,'STAT';'STAT',inhibit,'STAT'
+
+----> event: 'STAT',bind,'CD4'
+
+See the event's documentation in PATHWAY: 65
+
+----> event: 'CD4',inhibit,'STAT'
+
+See the event's documentation in PATHWAY: 11
+
+----> event: 'STAT',inhibit,'STAT'
+
+See the event's documentation in PATHWAY: 14
+
+---------------------------------------------------: 
+
+PATHWAY: 77
+'STAT',bind,'CD4';'CD4',inhibit,'STAT';'STAT',regulate,'STAT'
+
+----> event: 'STAT',bind,'CD4'
+
+See the event's documentation in PATHWAY: 65
+
+----> event: 'CD4',inhibit,'STAT'
+
+See the event's documentation in PATHWAY: 11
+
+----> event: 'STAT',regulate,'STAT'
+
+See the event's documentation in PATHWAY: 27
+
+---------------------------------------------------: 
+
+PATHWAY: 78
+'MHC',bind,'CD4';'CD4',inhibit,'STAT';'MHC',regulate,'STAT'
+
+----> event: 'MHC',bind,'CD4'
+
+See the event's documentation in PATHWAY: 62
+
+----> event: 'CD4',inhibit,'STAT'
+
+See the event's documentation in PATHWAY: 11
+
+----> event: 'MHC',regulate,'STAT'
+
+See the event's documentation in PATHWAY: 6
+
+---------------------------------------------------: 
+
+PATHWAY: 79
+'MHC',bind,'CD4';'CD4',inhibit,'STAT';'MHC',inhibit,'STAT'
+
+----> event: 'MHC',bind,'CD4'
+
+See the event's documentation in PATHWAY: 62
+
+----> event: 'CD4',inhibit,'STAT'
+
+See the event's documentation in PATHWAY: 11
+
+----> event: 'MHC',inhibit,'STAT'
+
+See the event's documentation in PATHWAY: 7
+
+---------------------------------------------------: 
+
+PATHWAY: 80
+'importin',bind,'CD4';'CD4',inhibit,'STAT';'importin',inhibit,'STAT'
+
+----> event: 'importin',bind,'CD4'
+
+See the event's documentation in PATHWAY: 63
+
+----> event: 'CD4',inhibit,'STAT'
+
+See the event's documentation in PATHWAY: 11
+
+----> event: 'importin',inhibit,'STAT'
+
+See the event's documentation in PATHWAY: 8
+
+---------------------------------------------------: 
+
+PATHWAY: 81
+'importin',bind,'CD4';'CD4',inhibit,'STAT';'importin',regulate,'STAT'
+
+----> event: 'importin',bind,'CD4'
+
+See the event's documentation in PATHWAY: 63
+
+----> event: 'CD4',inhibit,'STAT'
+
+See the event's documentation in PATHWAY: 11
+
+----> event: 'importin',regulate,'STAT'
+
+See the event's documentation in PATHWAY: 9
+
+---------------------------------------------------: 
+
+PATHWAY: 82
+'CD8',bind,'CD4';'CD4',inhibit,'STAT';'CD8',regulate,'STAT'
+
+----> event: 'CD8',bind,'CD4'
+
+See the event's documentation in PATHWAY: 64
+
+----> event: 'CD4',inhibit,'STAT'
+
+See the event's documentation in PATHWAY: 11
+
+----> event: 'CD8',regulate,'STAT'
+
+See the event's documentation in PATHWAY: 12
+
+---------------------------------------------------: 
+
+PATHWAY: 83
+'CD8',bind,'CD4';'CD4',inhibit,'STAT';'CD8',inhibit,'STAT'
+
+----> event: 'CD8',bind,'CD4'
+
+See the event's documentation in PATHWAY: 64
+
+----> event: 'CD4',inhibit,'STAT'
+
+See the event's documentation in PATHWAY: 11
+
+----> event: 'CD8',inhibit,'STAT'
+
+See the event's documentation in PATHWAY: 13
+
+---------------------------------------------------: 
+
+PATHWAY: 84
+'MHC',bind,'CD4';'CD4',bind,'STAT'
+
+----> event: 'MHC',bind,'CD4'
+
+See the event's documentation in PATHWAY: 62
+
+----> event: 'CD4',bind,'STAT'
+
+See the event's documentation in PATHWAY: 4
+
+---------------------------------------------------: 
+
+PATHWAY: 85
+'importin',bind,'CD4';'CD4',bind,'STAT'
+
+----> event: 'importin',bind,'CD4'
+
+See the event's documentation in PATHWAY: 63
+
+----> event: 'CD4',bind,'STAT'
+
+See the event's documentation in PATHWAY: 4
+
+---------------------------------------------------: 
+
+PATHWAY: 86
+'CD8',bind,'CD4';'CD4',bind,'STAT'
+
+----> event: 'CD8',bind,'CD4'
+
+See the event's documentation in PATHWAY: 64
+
+----> event: 'CD4',bind,'STAT'
+
+See the event's documentation in PATHWAY: 4
+
+---------------------------------------------------: 
+
+PATHWAY: 87
+'STAT',bind,'CD4';'CD4',bind,'STAT';'STAT',inhibit,'STAT'
+
+----> event: 'STAT',bind,'CD4'
+
+See the event's documentation in PATHWAY: 65
+
+----> event: 'CD4',bind,'STAT'
+
+See the event's documentation in PATHWAY: 4
+
+----> event: 'STAT',inhibit,'STAT'
+
+See the event's documentation in PATHWAY: 14
+
+---------------------------------------------------: 
+
+PATHWAY: 88
+'STAT',bind,'CD4';'CD4',bind,'STAT';'STAT',regulate,'STAT'
+
+----> event: 'STAT',bind,'CD4'
+
+See the event's documentation in PATHWAY: 65
+
+----> event: 'CD4',bind,'STAT'
+
+See the event's documentation in PATHWAY: 4
+
+----> event: 'STAT',regulate,'STAT'
+
+See the event's documentation in PATHWAY: 27
+
+---------------------------------------------------: 
+
+PATHWAY: 89
 'MHC',bind,'CD4';'CD4',bind,'STAT';'MHC',regulate,'STAT'
 
 ----> event: 'MHC',bind,'CD4'
 
-See the event's documentation in PATHWAY: 40
+See the event's documentation in PATHWAY: 62
 
 ----> event: 'CD4',bind,'STAT'
 
@@ -1003,12 +1321,12 @@ See the event's documentation in PATHWAY: 6
 
 ---------------------------------------------------: 
 
-PATHWAY: 68
+PATHWAY: 90
 'MHC',bind,'CD4';'CD4',bind,'STAT';'MHC',inhibit,'STAT'
 
 ----> event: 'MHC',bind,'CD4'
 
-See the event's documentation in PATHWAY: 40
+See the event's documentation in PATHWAY: 62
 
 ----> event: 'CD4',bind,'STAT'
 
@@ -1020,12 +1338,12 @@ See the event's documentation in PATHWAY: 7
 
 ---------------------------------------------------: 
 
-PATHWAY: 69
+PATHWAY: 91
 'importin',bind,'CD4';'CD4',bind,'STAT';'importin',inhibit,'STAT'
 
 ----> event: 'importin',bind,'CD4'
 
-See the event's documentation in PATHWAY: 41
+See the event's documentation in PATHWAY: 63
 
 ----> event: 'CD4',bind,'STAT'
 
@@ -1037,12 +1355,12 @@ See the event's documentation in PATHWAY: 8
 
 ---------------------------------------------------: 
 
-PATHWAY: 70
+PATHWAY: 92
 'importin',bind,'CD4';'CD4',bind,'STAT';'importin',regulate,'STAT'
 
 ----> event: 'importin',bind,'CD4'
 
-See the event's documentation in PATHWAY: 41
+See the event's documentation in PATHWAY: 63
 
 ----> event: 'CD4',bind,'STAT'
 
@@ -1054,12 +1372,12 @@ See the event's documentation in PATHWAY: 9
 
 ---------------------------------------------------: 
 
-PATHWAY: 71
+PATHWAY: 93
 'CD8',bind,'CD4';'CD4',bind,'STAT';'CD8',regulate,'STAT'
 
 ----> event: 'CD8',bind,'CD4'
 
-See the event's documentation in PATHWAY: 42
+See the event's documentation in PATHWAY: 64
 
 ----> event: 'CD4',bind,'STAT'
 
@@ -1071,12 +1389,12 @@ See the event's documentation in PATHWAY: 12
 
 ---------------------------------------------------: 
 
-PATHWAY: 72
+PATHWAY: 94
 'CD8',bind,'CD4';'CD4',bind,'STAT';'CD8',inhibit,'STAT'
 
 ----> event: 'CD8',bind,'CD4'
 
-See the event's documentation in PATHWAY: 42
+See the event's documentation in PATHWAY: 64
 
 ----> event: 'CD4',bind,'STAT'
 
@@ -1088,7 +1406,315 @@ See the event's documentation in PATHWAY: 13
 
 ---------------------------------------------------: 
 
-PATHWAY: 73
+PATHWAY: 95
+'STAT',bind,'CD4';'CD4',regulate,'SARS-CoV-2'
+
+----> event: 'STAT',bind,'CD4'
+
+See the event's documentation in PATHWAY: 65
+
+----> event: 'CD4',regulate,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 47
+
+---------------------------------------------------: 
+
+PATHWAY: 96
+'MHC',bind,'CD4';'CD4',regulate,'SARS-CoV-2'
+
+----> event: 'MHC',bind,'CD4'
+
+See the event's documentation in PATHWAY: 62
+
+----> event: 'CD4',regulate,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 47
+
+---------------------------------------------------: 
+
+PATHWAY: 97
+'importin',bind,'CD4';'CD4',regulate,'SARS-CoV-2'
+
+----> event: 'importin',bind,'CD4'
+
+See the event's documentation in PATHWAY: 63
+
+----> event: 'CD4',regulate,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 47
+
+---------------------------------------------------: 
+
+PATHWAY: 98
+'CD8',bind,'CD4';'CD4',regulate,'SARS-CoV-2'
+
+----> event: 'CD8',bind,'CD4'
+
+See the event's documentation in PATHWAY: 64
+
+----> event: 'CD4',regulate,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 47
+
+---------------------------------------------------: 
+
+PATHWAY: 99
+'STAT',bind,'CD4';'CD4',regulate,'SARS-CoV-2';'STAT',inhibit,'SARS-CoV-2'
+
+----> event: 'STAT',bind,'CD4'
+
+See the event's documentation in PATHWAY: 65
+
+----> event: 'CD4',regulate,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 47
+
+----> event: 'STAT',inhibit,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 40
+
+---------------------------------------------------: 
+
+PATHWAY: 100
+'STAT',bind,'CD4';'CD4',regulate,'SARS-CoV-2';'STAT',regulate,'SARS-CoV-2'
+
+----> event: 'STAT',bind,'CD4'
+
+See the event's documentation in PATHWAY: 65
+
+----> event: 'CD4',regulate,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 47
+
+----> event: 'STAT',regulate,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 51
+
+---------------------------------------------------: 
+
+PATHWAY: 101
+'MHC',bind,'CD4';'CD4',regulate,'SARS-CoV-2';'MHC',inhibit,'SARS-CoV-2'
+
+----> event: 'MHC',bind,'CD4'
+
+See the event's documentation in PATHWAY: 62
+
+----> event: 'CD4',regulate,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 47
+
+----> event: 'MHC',inhibit,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 45
+
+---------------------------------------------------: 
+
+PATHWAY: 102
+'MHC',bind,'CD4';'CD4',regulate,'SARS-CoV-2';'MHC',regulate,'SARS-CoV-2'
+
+----> event: 'MHC',bind,'CD4'
+
+See the event's documentation in PATHWAY: 62
+
+----> event: 'CD4',regulate,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 47
+
+----> event: 'MHC',regulate,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 46
+
+---------------------------------------------------: 
+
+PATHWAY: 103
+'CD8',bind,'CD4';'CD4',regulate,'SARS-CoV-2';'CD8',regulate,'SARS-CoV-2'
+
+----> event: 'CD8',bind,'CD4'
+
+See the event's documentation in PATHWAY: 64
+
+----> event: 'CD4',regulate,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 47
+
+----> event: 'CD8',regulate,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 49
+
+---------------------------------------------------: 
+
+PATHWAY: 104
+'CD8',bind,'CD4';'CD4',regulate,'SARS-CoV-2';'CD8',inhibit,'SARS-CoV-2'
+
+----> event: 'CD8',bind,'CD4'
+
+See the event's documentation in PATHWAY: 64
+
+----> event: 'CD4',regulate,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 47
+
+----> event: 'CD8',inhibit,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 50
+
+---------------------------------------------------: 
+
+PATHWAY: 105
+'STAT',bind,'CD4';'CD4',inhibit,'SARS-CoV-2'
+
+----> event: 'STAT',bind,'CD4'
+
+See the event's documentation in PATHWAY: 65
+
+----> event: 'CD4',inhibit,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 48
+
+---------------------------------------------------: 
+
+PATHWAY: 106
+'MHC',bind,'CD4';'CD4',inhibit,'SARS-CoV-2'
+
+----> event: 'MHC',bind,'CD4'
+
+See the event's documentation in PATHWAY: 62
+
+----> event: 'CD4',inhibit,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 48
+
+---------------------------------------------------: 
+
+PATHWAY: 107
+'importin',bind,'CD4';'CD4',inhibit,'SARS-CoV-2'
+
+----> event: 'importin',bind,'CD4'
+
+See the event's documentation in PATHWAY: 63
+
+----> event: 'CD4',inhibit,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 48
+
+---------------------------------------------------: 
+
+PATHWAY: 108
+'CD8',bind,'CD4';'CD4',inhibit,'SARS-CoV-2'
+
+----> event: 'CD8',bind,'CD4'
+
+See the event's documentation in PATHWAY: 64
+
+----> event: 'CD4',inhibit,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 48
+
+---------------------------------------------------: 
+
+PATHWAY: 109
+'STAT',bind,'CD4';'CD4',inhibit,'SARS-CoV-2';'STAT',inhibit,'SARS-CoV-2'
+
+----> event: 'STAT',bind,'CD4'
+
+See the event's documentation in PATHWAY: 65
+
+----> event: 'CD4',inhibit,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 48
+
+----> event: 'STAT',inhibit,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 40
+
+---------------------------------------------------: 
+
+PATHWAY: 110
+'STAT',bind,'CD4';'CD4',inhibit,'SARS-CoV-2';'STAT',regulate,'SARS-CoV-2'
+
+----> event: 'STAT',bind,'CD4'
+
+See the event's documentation in PATHWAY: 65
+
+----> event: 'CD4',inhibit,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 48
+
+----> event: 'STAT',regulate,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 51
+
+---------------------------------------------------: 
+
+PATHWAY: 111
+'MHC',bind,'CD4';'CD4',inhibit,'SARS-CoV-2';'MHC',inhibit,'SARS-CoV-2'
+
+----> event: 'MHC',bind,'CD4'
+
+See the event's documentation in PATHWAY: 62
+
+----> event: 'CD4',inhibit,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 48
+
+----> event: 'MHC',inhibit,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 45
+
+---------------------------------------------------: 
+
+PATHWAY: 112
+'MHC',bind,'CD4';'CD4',inhibit,'SARS-CoV-2';'MHC',regulate,'SARS-CoV-2'
+
+----> event: 'MHC',bind,'CD4'
+
+See the event's documentation in PATHWAY: 62
+
+----> event: 'CD4',inhibit,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 48
+
+----> event: 'MHC',regulate,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 46
+
+---------------------------------------------------: 
+
+PATHWAY: 113
+'CD8',bind,'CD4';'CD4',inhibit,'SARS-CoV-2';'CD8',regulate,'SARS-CoV-2'
+
+----> event: 'CD8',bind,'CD4'
+
+See the event's documentation in PATHWAY: 64
+
+----> event: 'CD4',inhibit,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 48
+
+----> event: 'CD8',regulate,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 49
+
+---------------------------------------------------: 
+
+PATHWAY: 114
+'CD8',bind,'CD4';'CD4',inhibit,'SARS-CoV-2';'CD8',inhibit,'SARS-CoV-2'
+
+----> event: 'CD8',bind,'CD4'
+
+See the event's documentation in PATHWAY: 64
+
+----> event: 'CD4',inhibit,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 48
+
+----> event: 'CD8',inhibit,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 50
+
+---------------------------------------------------: 
+
+PATHWAY: 115
 'CD4',bind,'importin';'importin',bind,'STAT'
 
 ----> event: 'CD4',bind,'importin'
@@ -1099,7 +1725,7 @@ See the event's documentation in PATHWAY: 3
 
 ---------------------------------------------------: 
 
-PATHWAY: 74
+PATHWAY: 116
 'STAT',bind,'importin';'importin',bind,'STAT';'STAT',inhibit,'STAT'
 
 ----> event: 'STAT',bind,'importin'
@@ -1114,12 +1740,12 @@ See the event's documentation in PATHWAY: 14
 
 ---------------------------------------------------: 
 
-PATHWAY: 75
+PATHWAY: 117
 'STAT',bind,'importin';'importin',bind,'STAT';'STAT',regulate,'STAT'
 
 ----> event: 'STAT',bind,'importin'
 
-See the event's documentation in PATHWAY: 74
+See the event's documentation in PATHWAY: 116
 
 ----> event: 'importin',bind,'STAT'
 
@@ -1131,12 +1757,12 @@ See the event's documentation in PATHWAY: 27
 
 ---------------------------------------------------: 
 
-PATHWAY: 76
+PATHWAY: 118
 'CD4',bind,'importin';'importin',bind,'STAT';'CD4',regulate,'STAT'
 
 ----> event: 'CD4',bind,'importin'
 
-See the event's documentation in PATHWAY: 73
+See the event's documentation in PATHWAY: 115
 
 ----> event: 'importin',bind,'STAT'
 
@@ -1148,12 +1774,12 @@ See the event's documentation in PATHWAY: 10
 
 ---------------------------------------------------: 
 
-PATHWAY: 77
+PATHWAY: 119
 'CD4',bind,'importin';'importin',bind,'STAT';'CD4',inhibit,'STAT'
 
 ----> event: 'CD4',bind,'importin'
 
-See the event's documentation in PATHWAY: 73
+See the event's documentation in PATHWAY: 115
 
 ----> event: 'importin',bind,'STAT'
 
@@ -1165,12 +1791,12 @@ See the event's documentation in PATHWAY: 11
 
 ---------------------------------------------------: 
 
-PATHWAY: 78
+PATHWAY: 120
 'CD4',bind,'importin';'importin',inhibit,'STAT'
 
 ----> event: 'CD4',bind,'importin'
 
-See the event's documentation in PATHWAY: 73
+See the event's documentation in PATHWAY: 115
 
 ----> event: 'importin',inhibit,'STAT'
 
@@ -1178,12 +1804,12 @@ See the event's documentation in PATHWAY: 8
 
 ---------------------------------------------------: 
 
-PATHWAY: 79
+PATHWAY: 121
 'STAT',bind,'importin';'importin',inhibit,'STAT';'STAT',inhibit,'STAT'
 
 ----> event: 'STAT',bind,'importin'
 
-See the event's documentation in PATHWAY: 74
+See the event's documentation in PATHWAY: 116
 
 ----> event: 'importin',inhibit,'STAT'
 
@@ -1195,12 +1821,12 @@ See the event's documentation in PATHWAY: 14
 
 ---------------------------------------------------: 
 
-PATHWAY: 80
+PATHWAY: 122
 'STAT',bind,'importin';'importin',inhibit,'STAT';'STAT',regulate,'STAT'
 
 ----> event: 'STAT',bind,'importin'
 
-See the event's documentation in PATHWAY: 74
+See the event's documentation in PATHWAY: 116
 
 ----> event: 'importin',inhibit,'STAT'
 
@@ -1212,12 +1838,12 @@ See the event's documentation in PATHWAY: 27
 
 ---------------------------------------------------: 
 
-PATHWAY: 81
+PATHWAY: 123
 'CD4',bind,'importin';'importin',inhibit,'STAT';'CD4',regulate,'STAT'
 
 ----> event: 'CD4',bind,'importin'
 
-See the event's documentation in PATHWAY: 73
+See the event's documentation in PATHWAY: 115
 
 ----> event: 'importin',inhibit,'STAT'
 
@@ -1229,12 +1855,12 @@ See the event's documentation in PATHWAY: 10
 
 ---------------------------------------------------: 
 
-PATHWAY: 82
+PATHWAY: 124
 'CD4',bind,'importin';'importin',inhibit,'STAT';'CD4',inhibit,'STAT'
 
 ----> event: 'CD4',bind,'importin'
 
-See the event's documentation in PATHWAY: 73
+See the event's documentation in PATHWAY: 115
 
 ----> event: 'importin',inhibit,'STAT'
 
@@ -1246,12 +1872,12 @@ See the event's documentation in PATHWAY: 11
 
 ---------------------------------------------------: 
 
-PATHWAY: 83
+PATHWAY: 125
 'CD4',bind,'importin';'importin',regulate,'STAT'
 
 ----> event: 'CD4',bind,'importin'
 
-See the event's documentation in PATHWAY: 73
+See the event's documentation in PATHWAY: 115
 
 ----> event: 'importin',regulate,'STAT'
 
@@ -1259,12 +1885,12 @@ See the event's documentation in PATHWAY: 9
 
 ---------------------------------------------------: 
 
-PATHWAY: 84
+PATHWAY: 126
 'STAT',bind,'importin';'importin',regulate,'STAT';'STAT',inhibit,'STAT'
 
 ----> event: 'STAT',bind,'importin'
 
-See the event's documentation in PATHWAY: 74
+See the event's documentation in PATHWAY: 116
 
 ----> event: 'importin',regulate,'STAT'
 
@@ -1276,12 +1902,12 @@ See the event's documentation in PATHWAY: 14
 
 ---------------------------------------------------: 
 
-PATHWAY: 85
+PATHWAY: 127
 'STAT',bind,'importin';'importin',regulate,'STAT';'STAT',regulate,'STAT'
 
 ----> event: 'STAT',bind,'importin'
 
-See the event's documentation in PATHWAY: 74
+See the event's documentation in PATHWAY: 116
 
 ----> event: 'importin',regulate,'STAT'
 
@@ -1293,12 +1919,12 @@ See the event's documentation in PATHWAY: 27
 
 ---------------------------------------------------: 
 
-PATHWAY: 86
+PATHWAY: 128
 'CD4',bind,'importin';'importin',regulate,'STAT';'CD4',regulate,'STAT'
 
 ----> event: 'CD4',bind,'importin'
 
-See the event's documentation in PATHWAY: 73
+See the event's documentation in PATHWAY: 115
 
 ----> event: 'importin',regulate,'STAT'
 
@@ -1310,12 +1936,12 @@ See the event's documentation in PATHWAY: 10
 
 ---------------------------------------------------: 
 
-PATHWAY: 87
+PATHWAY: 129
 'CD4',bind,'importin';'importin',regulate,'STAT';'CD4',inhibit,'STAT'
 
 ----> event: 'CD4',bind,'importin'
 
-See the event's documentation in PATHWAY: 73
+See the event's documentation in PATHWAY: 115
 
 ----> event: 'importin',regulate,'STAT'
 
@@ -1327,7 +1953,7 @@ See the event's documentation in PATHWAY: 11
 
 ---------------------------------------------------: 
 
-PATHWAY: 88
+PATHWAY: 130
 'MHC',bind,'CD8';'CD8',regulate,'STAT'
 
 ----> event: 'MHC',bind,'CD8'
@@ -1338,7 +1964,7 @@ See the event's documentation in PATHWAY: 12
 
 ---------------------------------------------------: 
 
-PATHWAY: 89
+PATHWAY: 131
 'CD4',bind,'CD8';'CD8',regulate,'STAT'
 
 ----> event: 'CD4',bind,'CD8'
@@ -1349,7 +1975,7 @@ See the event's documentation in PATHWAY: 12
 
 ---------------------------------------------------: 
 
-PATHWAY: 90
+PATHWAY: 132
 'STAT',bind,'CD8';'CD8',regulate,'STAT';'STAT',inhibit,'STAT'
 
 ----> event: 'STAT',bind,'CD8'
@@ -1364,12 +1990,12 @@ See the event's documentation in PATHWAY: 14
 
 ---------------------------------------------------: 
 
-PATHWAY: 91
+PATHWAY: 133
 'STAT',bind,'CD8';'CD8',regulate,'STAT';'STAT',regulate,'STAT'
 
 ----> event: 'STAT',bind,'CD8'
 
-See the event's documentation in PATHWAY: 90
+See the event's documentation in PATHWAY: 132
 
 ----> event: 'CD8',regulate,'STAT'
 
@@ -1381,12 +2007,12 @@ See the event's documentation in PATHWAY: 27
 
 ---------------------------------------------------: 
 
-PATHWAY: 92
+PATHWAY: 134
 'MHC',bind,'CD8';'CD8',regulate,'STAT';'MHC',regulate,'STAT'
 
 ----> event: 'MHC',bind,'CD8'
 
-See the event's documentation in PATHWAY: 88
+See the event's documentation in PATHWAY: 130
 
 ----> event: 'CD8',regulate,'STAT'
 
@@ -1398,12 +2024,12 @@ See the event's documentation in PATHWAY: 6
 
 ---------------------------------------------------: 
 
-PATHWAY: 93
+PATHWAY: 135
 'MHC',bind,'CD8';'CD8',regulate,'STAT';'MHC',inhibit,'STAT'
 
 ----> event: 'MHC',bind,'CD8'
 
-See the event's documentation in PATHWAY: 88
+See the event's documentation in PATHWAY: 130
 
 ----> event: 'CD8',regulate,'STAT'
 
@@ -1415,12 +2041,12 @@ See the event's documentation in PATHWAY: 7
 
 ---------------------------------------------------: 
 
-PATHWAY: 94
+PATHWAY: 136
 'CD4',bind,'CD8';'CD8',regulate,'STAT';'CD4',regulate,'STAT'
 
 ----> event: 'CD4',bind,'CD8'
 
-See the event's documentation in PATHWAY: 89
+See the event's documentation in PATHWAY: 131
 
 ----> event: 'CD8',regulate,'STAT'
 
@@ -1432,12 +2058,12 @@ See the event's documentation in PATHWAY: 10
 
 ---------------------------------------------------: 
 
-PATHWAY: 95
+PATHWAY: 137
 'CD4',bind,'CD8';'CD8',regulate,'STAT';'CD4',inhibit,'STAT'
 
 ----> event: 'CD4',bind,'CD8'
 
-See the event's documentation in PATHWAY: 89
+See the event's documentation in PATHWAY: 131
 
 ----> event: 'CD8',regulate,'STAT'
 
@@ -1449,12 +2075,12 @@ See the event's documentation in PATHWAY: 11
 
 ---------------------------------------------------: 
 
-PATHWAY: 96
+PATHWAY: 138
 'MHC',bind,'CD8';'CD8',inhibit,'STAT'
 
 ----> event: 'MHC',bind,'CD8'
 
-See the event's documentation in PATHWAY: 88
+See the event's documentation in PATHWAY: 130
 
 ----> event: 'CD8',inhibit,'STAT'
 
@@ -1462,12 +2088,12 @@ See the event's documentation in PATHWAY: 13
 
 ---------------------------------------------------: 
 
-PATHWAY: 97
+PATHWAY: 139
 'CD4',bind,'CD8';'CD8',inhibit,'STAT'
 
 ----> event: 'CD4',bind,'CD8'
 
-See the event's documentation in PATHWAY: 89
+See the event's documentation in PATHWAY: 131
 
 ----> event: 'CD8',inhibit,'STAT'
 
@@ -1475,12 +2101,12 @@ See the event's documentation in PATHWAY: 13
 
 ---------------------------------------------------: 
 
-PATHWAY: 98
+PATHWAY: 140
 'STAT',bind,'CD8';'CD8',inhibit,'STAT';'STAT',inhibit,'STAT'
 
 ----> event: 'STAT',bind,'CD8'
 
-See the event's documentation in PATHWAY: 90
+See the event's documentation in PATHWAY: 132
 
 ----> event: 'CD8',inhibit,'STAT'
 
@@ -1492,12 +2118,12 @@ See the event's documentation in PATHWAY: 14
 
 ---------------------------------------------------: 
 
-PATHWAY: 99
+PATHWAY: 141
 'STAT',bind,'CD8';'CD8',inhibit,'STAT';'STAT',regulate,'STAT'
 
 ----> event: 'STAT',bind,'CD8'
 
-See the event's documentation in PATHWAY: 90
+See the event's documentation in PATHWAY: 132
 
 ----> event: 'CD8',inhibit,'STAT'
 
@@ -1509,12 +2135,12 @@ See the event's documentation in PATHWAY: 27
 
 ---------------------------------------------------: 
 
-PATHWAY: 100
+PATHWAY: 142
 'MHC',bind,'CD8';'CD8',inhibit,'STAT';'MHC',regulate,'STAT'
 
 ----> event: 'MHC',bind,'CD8'
 
-See the event's documentation in PATHWAY: 88
+See the event's documentation in PATHWAY: 130
 
 ----> event: 'CD8',inhibit,'STAT'
 
@@ -1526,12 +2152,12 @@ See the event's documentation in PATHWAY: 6
 
 ---------------------------------------------------: 
 
-PATHWAY: 101
+PATHWAY: 143
 'MHC',bind,'CD8';'CD8',inhibit,'STAT';'MHC',inhibit,'STAT'
 
 ----> event: 'MHC',bind,'CD8'
 
-See the event's documentation in PATHWAY: 88
+See the event's documentation in PATHWAY: 130
 
 ----> event: 'CD8',inhibit,'STAT'
 
@@ -1543,12 +2169,12 @@ See the event's documentation in PATHWAY: 7
 
 ---------------------------------------------------: 
 
-PATHWAY: 102
+PATHWAY: 144
 'CD4',bind,'CD8';'CD8',inhibit,'STAT';'CD4',regulate,'STAT'
 
 ----> event: 'CD4',bind,'CD8'
 
-See the event's documentation in PATHWAY: 89
+See the event's documentation in PATHWAY: 131
 
 ----> event: 'CD8',inhibit,'STAT'
 
@@ -1560,12 +2186,12 @@ See the event's documentation in PATHWAY: 10
 
 ---------------------------------------------------: 
 
-PATHWAY: 103
+PATHWAY: 145
 'CD4',bind,'CD8';'CD8',inhibit,'STAT';'CD4',inhibit,'STAT'
 
 ----> event: 'CD4',bind,'CD8'
 
-See the event's documentation in PATHWAY: 89
+See the event's documentation in PATHWAY: 131
 
 ----> event: 'CD8',inhibit,'STAT'
 
@@ -1577,12 +2203,12 @@ See the event's documentation in PATHWAY: 11
 
 ---------------------------------------------------: 
 
-PATHWAY: 104
+PATHWAY: 146
 'MHC',bind,'CD8';'CD8',bind,'STAT'
 
 ----> event: 'MHC',bind,'CD8'
 
-See the event's documentation in PATHWAY: 88
+See the event's documentation in PATHWAY: 130
 
 ----> event: 'CD8',bind,'STAT'
 
@@ -1590,12 +2216,12 @@ See the event's documentation in PATHWAY: 5
 
 ---------------------------------------------------: 
 
-PATHWAY: 105
+PATHWAY: 147
 'CD4',bind,'CD8';'CD8',bind,'STAT'
 
 ----> event: 'CD4',bind,'CD8'
 
-See the event's documentation in PATHWAY: 89
+See the event's documentation in PATHWAY: 131
 
 ----> event: 'CD8',bind,'STAT'
 
@@ -1603,12 +2229,12 @@ See the event's documentation in PATHWAY: 5
 
 ---------------------------------------------------: 
 
-PATHWAY: 106
+PATHWAY: 148
 'STAT',bind,'CD8';'CD8',bind,'STAT';'STAT',inhibit,'STAT'
 
 ----> event: 'STAT',bind,'CD8'
 
-See the event's documentation in PATHWAY: 90
+See the event's documentation in PATHWAY: 132
 
 ----> event: 'CD8',bind,'STAT'
 
@@ -1620,12 +2246,12 @@ See the event's documentation in PATHWAY: 14
 
 ---------------------------------------------------: 
 
-PATHWAY: 107
+PATHWAY: 149
 'STAT',bind,'CD8';'CD8',bind,'STAT';'STAT',regulate,'STAT'
 
 ----> event: 'STAT',bind,'CD8'
 
-See the event's documentation in PATHWAY: 90
+See the event's documentation in PATHWAY: 132
 
 ----> event: 'CD8',bind,'STAT'
 
@@ -1637,12 +2263,12 @@ See the event's documentation in PATHWAY: 27
 
 ---------------------------------------------------: 
 
-PATHWAY: 108
+PATHWAY: 150
 'MHC',bind,'CD8';'CD8',bind,'STAT';'MHC',regulate,'STAT'
 
 ----> event: 'MHC',bind,'CD8'
 
-See the event's documentation in PATHWAY: 88
+See the event's documentation in PATHWAY: 130
 
 ----> event: 'CD8',bind,'STAT'
 
@@ -1654,12 +2280,12 @@ See the event's documentation in PATHWAY: 6
 
 ---------------------------------------------------: 
 
-PATHWAY: 109
+PATHWAY: 151
 'MHC',bind,'CD8';'CD8',bind,'STAT';'MHC',inhibit,'STAT'
 
 ----> event: 'MHC',bind,'CD8'
 
-See the event's documentation in PATHWAY: 88
+See the event's documentation in PATHWAY: 130
 
 ----> event: 'CD8',bind,'STAT'
 
@@ -1671,12 +2297,12 @@ See the event's documentation in PATHWAY: 7
 
 ---------------------------------------------------: 
 
-PATHWAY: 110
+PATHWAY: 152
 'CD4',bind,'CD8';'CD8',bind,'STAT';'CD4',regulate,'STAT'
 
 ----> event: 'CD4',bind,'CD8'
 
-See the event's documentation in PATHWAY: 89
+See the event's documentation in PATHWAY: 131
 
 ----> event: 'CD8',bind,'STAT'
 
@@ -1688,12 +2314,12 @@ See the event's documentation in PATHWAY: 10
 
 ---------------------------------------------------: 
 
-PATHWAY: 111
+PATHWAY: 153
 'CD4',bind,'CD8';'CD8',bind,'STAT';'CD4',inhibit,'STAT'
 
 ----> event: 'CD4',bind,'CD8'
 
-See the event's documentation in PATHWAY: 89
+See the event's documentation in PATHWAY: 131
 
 ----> event: 'CD8',bind,'STAT'
 
@@ -1702,4 +2328,5436 @@ See the event's documentation in PATHWAY: 5
 ----> event: 'CD4',inhibit,'STAT'
 
 See the event's documentation in PATHWAY: 11
+
+---------------------------------------------------: 
+
+PATHWAY: 154
+'STAT',bind,'CD8';'CD8',regulate,'SARS-CoV-2'
+
+----> event: 'STAT',bind,'CD8'
+
+See the event's documentation in PATHWAY: 132
+
+----> event: 'CD8',regulate,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 49
+
+---------------------------------------------------: 
+
+PATHWAY: 155
+'MHC',bind,'CD8';'CD8',regulate,'SARS-CoV-2'
+
+----> event: 'MHC',bind,'CD8'
+
+See the event's documentation in PATHWAY: 130
+
+----> event: 'CD8',regulate,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 49
+
+---------------------------------------------------: 
+
+PATHWAY: 156
+'CD4',bind,'CD8';'CD8',regulate,'SARS-CoV-2'
+
+----> event: 'CD4',bind,'CD8'
+
+See the event's documentation in PATHWAY: 131
+
+----> event: 'CD8',regulate,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 49
+
+---------------------------------------------------: 
+
+PATHWAY: 157
+'STAT',bind,'CD8';'CD8',regulate,'SARS-CoV-2';'STAT',inhibit,'SARS-CoV-2'
+
+----> event: 'STAT',bind,'CD8'
+
+See the event's documentation in PATHWAY: 132
+
+----> event: 'CD8',regulate,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 49
+
+----> event: 'STAT',inhibit,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 40
+
+---------------------------------------------------: 
+
+PATHWAY: 158
+'STAT',bind,'CD8';'CD8',regulate,'SARS-CoV-2';'STAT',regulate,'SARS-CoV-2'
+
+----> event: 'STAT',bind,'CD8'
+
+See the event's documentation in PATHWAY: 132
+
+----> event: 'CD8',regulate,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 49
+
+----> event: 'STAT',regulate,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 51
+
+---------------------------------------------------: 
+
+PATHWAY: 159
+'MHC',bind,'CD8';'CD8',regulate,'SARS-CoV-2';'MHC',inhibit,'SARS-CoV-2'
+
+----> event: 'MHC',bind,'CD8'
+
+See the event's documentation in PATHWAY: 130
+
+----> event: 'CD8',regulate,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 49
+
+----> event: 'MHC',inhibit,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 45
+
+---------------------------------------------------: 
+
+PATHWAY: 160
+'MHC',bind,'CD8';'CD8',regulate,'SARS-CoV-2';'MHC',regulate,'SARS-CoV-2'
+
+----> event: 'MHC',bind,'CD8'
+
+See the event's documentation in PATHWAY: 130
+
+----> event: 'CD8',regulate,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 49
+
+----> event: 'MHC',regulate,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 46
+
+---------------------------------------------------: 
+
+PATHWAY: 161
+'CD4',bind,'CD8';'CD8',regulate,'SARS-CoV-2';'CD4',regulate,'SARS-CoV-2'
+
+----> event: 'CD4',bind,'CD8'
+
+See the event's documentation in PATHWAY: 131
+
+----> event: 'CD8',regulate,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 49
+
+----> event: 'CD4',regulate,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 47
+
+---------------------------------------------------: 
+
+PATHWAY: 162
+'CD4',bind,'CD8';'CD8',regulate,'SARS-CoV-2';'CD4',inhibit,'SARS-CoV-2'
+
+----> event: 'CD4',bind,'CD8'
+
+See the event's documentation in PATHWAY: 131
+
+----> event: 'CD8',regulate,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 49
+
+----> event: 'CD4',inhibit,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 48
+
+---------------------------------------------------: 
+
+PATHWAY: 163
+'STAT',bind,'CD8';'CD8',inhibit,'SARS-CoV-2'
+
+----> event: 'STAT',bind,'CD8'
+
+See the event's documentation in PATHWAY: 132
+
+----> event: 'CD8',inhibit,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 50
+
+---------------------------------------------------: 
+
+PATHWAY: 164
+'MHC',bind,'CD8';'CD8',inhibit,'SARS-CoV-2'
+
+----> event: 'MHC',bind,'CD8'
+
+See the event's documentation in PATHWAY: 130
+
+----> event: 'CD8',inhibit,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 50
+
+---------------------------------------------------: 
+
+PATHWAY: 165
+'CD4',bind,'CD8';'CD8',inhibit,'SARS-CoV-2'
+
+----> event: 'CD4',bind,'CD8'
+
+See the event's documentation in PATHWAY: 131
+
+----> event: 'CD8',inhibit,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 50
+
+---------------------------------------------------: 
+
+PATHWAY: 166
+'STAT',bind,'CD8';'CD8',inhibit,'SARS-CoV-2';'STAT',inhibit,'SARS-CoV-2'
+
+----> event: 'STAT',bind,'CD8'
+
+See the event's documentation in PATHWAY: 132
+
+----> event: 'CD8',inhibit,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 50
+
+----> event: 'STAT',inhibit,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 40
+
+---------------------------------------------------: 
+
+PATHWAY: 167
+'STAT',bind,'CD8';'CD8',inhibit,'SARS-CoV-2';'STAT',regulate,'SARS-CoV-2'
+
+----> event: 'STAT',bind,'CD8'
+
+See the event's documentation in PATHWAY: 132
+
+----> event: 'CD8',inhibit,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 50
+
+----> event: 'STAT',regulate,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 51
+
+---------------------------------------------------: 
+
+PATHWAY: 168
+'MHC',bind,'CD8';'CD8',inhibit,'SARS-CoV-2';'MHC',inhibit,'SARS-CoV-2'
+
+----> event: 'MHC',bind,'CD8'
+
+See the event's documentation in PATHWAY: 130
+
+----> event: 'CD8',inhibit,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 50
+
+----> event: 'MHC',inhibit,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 45
+
+---------------------------------------------------: 
+
+PATHWAY: 169
+'MHC',bind,'CD8';'CD8',inhibit,'SARS-CoV-2';'MHC',regulate,'SARS-CoV-2'
+
+----> event: 'MHC',bind,'CD8'
+
+See the event's documentation in PATHWAY: 130
+
+----> event: 'CD8',inhibit,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 50
+
+----> event: 'MHC',regulate,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 46
+
+---------------------------------------------------: 
+
+PATHWAY: 170
+'CD4',bind,'CD8';'CD8',inhibit,'SARS-CoV-2';'CD4',regulate,'SARS-CoV-2'
+
+----> event: 'CD4',bind,'CD8'
+
+See the event's documentation in PATHWAY: 131
+
+----> event: 'CD8',inhibit,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 50
+
+----> event: 'CD4',regulate,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 47
+
+---------------------------------------------------: 
+
+PATHWAY: 171
+'CD4',bind,'CD8';'CD8',inhibit,'SARS-CoV-2';'CD4',inhibit,'SARS-CoV-2'
+
+----> event: 'CD4',bind,'CD8'
+
+See the event's documentation in PATHWAY: 131
+
+----> event: 'CD8',inhibit,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 50
+
+----> event: 'CD4',inhibit,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 48
+
+---------------------------------------------------: 
+
+PATHWAY: 172
+'STAT',bind,'CD8';'CD8',bind,'SARS-CoV-2'
+
+----> event: 'STAT',bind,'CD8'
+
+See the event's documentation in PATHWAY: 132
+
+----> event: 'CD8',bind,'SARS-CoV-2'
+
+---------------------------------------------------: 
+
+PATHWAY: 173
+'MHC',bind,'CD8';'CD8',bind,'SARS-CoV-2'
+
+----> event: 'MHC',bind,'CD8'
+
+See the event's documentation in PATHWAY: 130
+
+----> event: 'CD8',bind,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 172
+
+---------------------------------------------------: 
+
+PATHWAY: 174
+'CD4',bind,'CD8';'CD8',bind,'SARS-CoV-2'
+
+----> event: 'CD4',bind,'CD8'
+
+See the event's documentation in PATHWAY: 131
+
+----> event: 'CD8',bind,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 172
+
+---------------------------------------------------: 
+
+PATHWAY: 175
+'STAT',bind,'CD8';'CD8',bind,'SARS-CoV-2';'STAT',inhibit,'SARS-CoV-2'
+
+----> event: 'STAT',bind,'CD8'
+
+See the event's documentation in PATHWAY: 132
+
+----> event: 'CD8',bind,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 172
+
+----> event: 'STAT',inhibit,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 40
+
+---------------------------------------------------: 
+
+PATHWAY: 176
+'STAT',bind,'CD8';'CD8',bind,'SARS-CoV-2';'STAT',regulate,'SARS-CoV-2'
+
+----> event: 'STAT',bind,'CD8'
+
+See the event's documentation in PATHWAY: 132
+
+----> event: 'CD8',bind,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 172
+
+----> event: 'STAT',regulate,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 51
+
+---------------------------------------------------: 
+
+PATHWAY: 177
+'MHC',bind,'CD8';'CD8',bind,'SARS-CoV-2';'MHC',inhibit,'SARS-CoV-2'
+
+----> event: 'MHC',bind,'CD8'
+
+See the event's documentation in PATHWAY: 130
+
+----> event: 'CD8',bind,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 172
+
+----> event: 'MHC',inhibit,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 45
+
+---------------------------------------------------: 
+
+PATHWAY: 178
+'MHC',bind,'CD8';'CD8',bind,'SARS-CoV-2';'MHC',regulate,'SARS-CoV-2'
+
+----> event: 'MHC',bind,'CD8'
+
+See the event's documentation in PATHWAY: 130
+
+----> event: 'CD8',bind,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 172
+
+----> event: 'MHC',regulate,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 46
+
+---------------------------------------------------: 
+
+PATHWAY: 179
+'CD4',bind,'CD8';'CD8',bind,'SARS-CoV-2';'CD4',regulate,'SARS-CoV-2'
+
+----> event: 'CD4',bind,'CD8'
+
+See the event's documentation in PATHWAY: 131
+
+----> event: 'CD8',bind,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 172
+
+----> event: 'CD4',regulate,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 47
+
+---------------------------------------------------: 
+
+PATHWAY: 180
+'CD4',bind,'CD8';'CD8',bind,'SARS-CoV-2';'CD4',inhibit,'SARS-CoV-2'
+
+----> event: 'CD4',bind,'CD8'
+
+See the event's documentation in PATHWAY: 131
+
+----> event: 'CD8',bind,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 172
+
+----> event: 'CD4',inhibit,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 48
+
+---------------------------------------------------: 
+
+PATHWAY: 181
+'ORF6',bind,'STAT';'STAT',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'CD4';'CD4',regulate,'SARS-CoV-2'
+
+----> event: 'ORF6',bind,'STAT'
+
+See the event's documentation in PATHWAY: 2
+
+----> event: 'STAT',associate,'JAK3'
+
+----> event: 'JAK3',associate,'MHC'
+
+----> event: 'MHC',associate,'CD4'
+
+----> event: 'CD4',regulate,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 47
+
+---------------------------------------------------: 
+
+PATHWAY: 182
+'ORF6',bind,'STAT';'STAT',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'CD4';'CD4',inhibit,'SARS-CoV-2'
+
+----> event: 'ORF6',bind,'STAT'
+
+See the event's documentation in PATHWAY: 2
+
+----> event: 'STAT',associate,'JAK3'
+
+See the event's documentation in PATHWAY: 181
+
+----> event: 'JAK3',associate,'MHC'
+
+See the event's documentation in PATHWAY: 181
+
+----> event: 'MHC',associate,'CD4'
+
+See the event's documentation in PATHWAY: 181
+
+----> event: 'CD4',inhibit,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 48
+
+---------------------------------------------------: 
+
+PATHWAY: 183
+'importin',bind,'STAT';'STAT',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'CD4';'CD4',regulate,'SARS-CoV-2'
+
+----> event: 'importin',bind,'STAT'
+
+See the event's documentation in PATHWAY: 3
+
+----> event: 'STAT',associate,'JAK3'
+
+See the event's documentation in PATHWAY: 181
+
+----> event: 'JAK3',associate,'MHC'
+
+See the event's documentation in PATHWAY: 181
+
+----> event: 'MHC',associate,'CD4'
+
+See the event's documentation in PATHWAY: 181
+
+----> event: 'CD4',regulate,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 47
+
+---------------------------------------------------: 
+
+PATHWAY: 184
+'importin',bind,'STAT';'STAT',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'CD4';'CD4',inhibit,'SARS-CoV-2'
+
+----> event: 'importin',bind,'STAT'
+
+See the event's documentation in PATHWAY: 3
+
+----> event: 'STAT',associate,'JAK3'
+
+See the event's documentation in PATHWAY: 181
+
+----> event: 'JAK3',associate,'MHC'
+
+See the event's documentation in PATHWAY: 181
+
+----> event: 'MHC',associate,'CD4'
+
+See the event's documentation in PATHWAY: 181
+
+----> event: 'CD4',inhibit,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 48
+
+---------------------------------------------------: 
+
+PATHWAY: 185
+'CD8',bind,'STAT';'STAT',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'CD4';'CD4',regulate,'SARS-CoV-2'
+
+----> event: 'CD8',bind,'STAT'
+
+See the event's documentation in PATHWAY: 5
+
+----> event: 'STAT',associate,'JAK3'
+
+See the event's documentation in PATHWAY: 181
+
+----> event: 'JAK3',associate,'MHC'
+
+See the event's documentation in PATHWAY: 181
+
+----> event: 'MHC',associate,'CD4'
+
+See the event's documentation in PATHWAY: 181
+
+----> event: 'CD4',regulate,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 47
+
+---------------------------------------------------: 
+
+PATHWAY: 186
+'CD8',bind,'STAT';'STAT',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'CD4';'CD4',inhibit,'SARS-CoV-2'
+
+----> event: 'CD8',bind,'STAT'
+
+See the event's documentation in PATHWAY: 5
+
+----> event: 'STAT',associate,'JAK3'
+
+See the event's documentation in PATHWAY: 181
+
+----> event: 'JAK3',associate,'MHC'
+
+See the event's documentation in PATHWAY: 181
+
+----> event: 'MHC',associate,'CD4'
+
+See the event's documentation in PATHWAY: 181
+
+----> event: 'CD4',inhibit,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 48
+
+---------------------------------------------------: 
+
+PATHWAY: 187
+'ORF6',bind,'STAT';'STAT',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'CD8';'CD8',regulate,'SARS-CoV-2'
+
+----> event: 'ORF6',bind,'STAT'
+
+See the event's documentation in PATHWAY: 2
+
+----> event: 'STAT',associate,'JAK3'
+
+See the event's documentation in PATHWAY: 181
+
+----> event: 'JAK3',associate,'MHC'
+
+See the event's documentation in PATHWAY: 181
+
+----> event: 'MHC',associate,'CD8'
+
+----> event: 'CD8',regulate,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 49
+
+---------------------------------------------------: 
+
+PATHWAY: 188
+'ORF6',bind,'STAT';'STAT',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'CD8';'CD8',inhibit,'SARS-CoV-2'
+
+----> event: 'ORF6',bind,'STAT'
+
+See the event's documentation in PATHWAY: 2
+
+----> event: 'STAT',associate,'JAK3'
+
+See the event's documentation in PATHWAY: 181
+
+----> event: 'JAK3',associate,'MHC'
+
+See the event's documentation in PATHWAY: 181
+
+----> event: 'MHC',associate,'CD8'
+
+See the event's documentation in PATHWAY: 187
+
+----> event: 'CD8',inhibit,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 50
+
+---------------------------------------------------: 
+
+PATHWAY: 189
+'ORF6',bind,'STAT';'STAT',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'CD8';'CD8',bind,'SARS-CoV-2'
+
+----> event: 'ORF6',bind,'STAT'
+
+See the event's documentation in PATHWAY: 2
+
+----> event: 'STAT',associate,'JAK3'
+
+See the event's documentation in PATHWAY: 181
+
+----> event: 'JAK3',associate,'MHC'
+
+See the event's documentation in PATHWAY: 181
+
+----> event: 'MHC',associate,'CD8'
+
+See the event's documentation in PATHWAY: 187
+
+----> event: 'CD8',bind,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 172
+
+---------------------------------------------------: 
+
+PATHWAY: 190
+'importin',bind,'STAT';'STAT',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'CD8';'CD8',regulate,'SARS-CoV-2'
+
+----> event: 'importin',bind,'STAT'
+
+See the event's documentation in PATHWAY: 3
+
+----> event: 'STAT',associate,'JAK3'
+
+See the event's documentation in PATHWAY: 181
+
+----> event: 'JAK3',associate,'MHC'
+
+See the event's documentation in PATHWAY: 181
+
+----> event: 'MHC',associate,'CD8'
+
+See the event's documentation in PATHWAY: 187
+
+----> event: 'CD8',regulate,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 49
+
+---------------------------------------------------: 
+
+PATHWAY: 191
+'importin',bind,'STAT';'STAT',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'CD8';'CD8',inhibit,'SARS-CoV-2'
+
+----> event: 'importin',bind,'STAT'
+
+See the event's documentation in PATHWAY: 3
+
+----> event: 'STAT',associate,'JAK3'
+
+See the event's documentation in PATHWAY: 181
+
+----> event: 'JAK3',associate,'MHC'
+
+See the event's documentation in PATHWAY: 181
+
+----> event: 'MHC',associate,'CD8'
+
+See the event's documentation in PATHWAY: 187
+
+----> event: 'CD8',inhibit,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 50
+
+---------------------------------------------------: 
+
+PATHWAY: 192
+'importin',bind,'STAT';'STAT',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'CD8';'CD8',bind,'SARS-CoV-2'
+
+----> event: 'importin',bind,'STAT'
+
+See the event's documentation in PATHWAY: 3
+
+----> event: 'STAT',associate,'JAK3'
+
+See the event's documentation in PATHWAY: 181
+
+----> event: 'JAK3',associate,'MHC'
+
+See the event's documentation in PATHWAY: 181
+
+----> event: 'MHC',associate,'CD8'
+
+See the event's documentation in PATHWAY: 187
+
+----> event: 'CD8',bind,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 172
+
+---------------------------------------------------: 
+
+PATHWAY: 193
+'CD4',bind,'STAT';'STAT',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'CD8';'CD8',regulate,'SARS-CoV-2'
+
+----> event: 'CD4',bind,'STAT'
+
+See the event's documentation in PATHWAY: 4
+
+----> event: 'STAT',associate,'JAK3'
+
+See the event's documentation in PATHWAY: 181
+
+----> event: 'JAK3',associate,'MHC'
+
+See the event's documentation in PATHWAY: 181
+
+----> event: 'MHC',associate,'CD8'
+
+See the event's documentation in PATHWAY: 187
+
+----> event: 'CD8',regulate,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 49
+
+---------------------------------------------------: 
+
+PATHWAY: 194
+'CD4',bind,'STAT';'STAT',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'CD8';'CD8',inhibit,'SARS-CoV-2'
+
+----> event: 'CD4',bind,'STAT'
+
+See the event's documentation in PATHWAY: 4
+
+----> event: 'STAT',associate,'JAK3'
+
+See the event's documentation in PATHWAY: 181
+
+----> event: 'JAK3',associate,'MHC'
+
+See the event's documentation in PATHWAY: 181
+
+----> event: 'MHC',associate,'CD8'
+
+See the event's documentation in PATHWAY: 187
+
+----> event: 'CD8',inhibit,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 50
+
+---------------------------------------------------: 
+
+PATHWAY: 195
+'CD4',bind,'STAT';'STAT',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'CD8';'CD8',bind,'SARS-CoV-2'
+
+----> event: 'CD4',bind,'STAT'
+
+See the event's documentation in PATHWAY: 4
+
+----> event: 'STAT',associate,'JAK3'
+
+See the event's documentation in PATHWAY: 181
+
+----> event: 'JAK3',associate,'MHC'
+
+See the event's documentation in PATHWAY: 181
+
+----> event: 'MHC',associate,'CD8'
+
+See the event's documentation in PATHWAY: 187
+
+----> event: 'CD8',bind,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 172
+
+---------------------------------------------------: 
+
+PATHWAY: 196
+'ORF6',bind,'STAT';'STAT',associate,'MHC';'MHC',associate,'CD4';'CD4',regulate,'SARS-CoV-2'
+
+----> event: 'ORF6',bind,'STAT'
+
+See the event's documentation in PATHWAY: 2
+
+----> event: 'STAT',associate,'MHC'
+
+----> event: 'MHC',associate,'CD4'
+
+See the event's documentation in PATHWAY: 181
+
+----> event: 'CD4',regulate,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 47
+
+---------------------------------------------------: 
+
+PATHWAY: 197
+'ORF6',bind,'STAT';'STAT',associate,'MHC';'MHC',associate,'CD4';'CD4',inhibit,'SARS-CoV-2'
+
+----> event: 'ORF6',bind,'STAT'
+
+See the event's documentation in PATHWAY: 2
+
+----> event: 'STAT',associate,'MHC'
+
+See the event's documentation in PATHWAY: 196
+
+----> event: 'MHC',associate,'CD4'
+
+See the event's documentation in PATHWAY: 181
+
+----> event: 'CD4',inhibit,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 48
+
+---------------------------------------------------: 
+
+PATHWAY: 198
+'importin',bind,'STAT';'STAT',associate,'MHC';'MHC',associate,'CD4';'CD4',regulate,'SARS-CoV-2'
+
+----> event: 'importin',bind,'STAT'
+
+See the event's documentation in PATHWAY: 3
+
+----> event: 'STAT',associate,'MHC'
+
+See the event's documentation in PATHWAY: 196
+
+----> event: 'MHC',associate,'CD4'
+
+See the event's documentation in PATHWAY: 181
+
+----> event: 'CD4',regulate,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 47
+
+---------------------------------------------------: 
+
+PATHWAY: 199
+'importin',bind,'STAT';'STAT',associate,'MHC';'MHC',associate,'CD4';'CD4',inhibit,'SARS-CoV-2'
+
+----> event: 'importin',bind,'STAT'
+
+See the event's documentation in PATHWAY: 3
+
+----> event: 'STAT',associate,'MHC'
+
+See the event's documentation in PATHWAY: 196
+
+----> event: 'MHC',associate,'CD4'
+
+See the event's documentation in PATHWAY: 181
+
+----> event: 'CD4',inhibit,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 48
+
+---------------------------------------------------: 
+
+PATHWAY: 200
+'CD8',bind,'STAT';'STAT',associate,'MHC';'MHC',associate,'CD4';'CD4',regulate,'SARS-CoV-2'
+
+----> event: 'CD8',bind,'STAT'
+
+See the event's documentation in PATHWAY: 5
+
+----> event: 'STAT',associate,'MHC'
+
+See the event's documentation in PATHWAY: 196
+
+----> event: 'MHC',associate,'CD4'
+
+See the event's documentation in PATHWAY: 181
+
+----> event: 'CD4',regulate,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 47
+
+---------------------------------------------------: 
+
+PATHWAY: 201
+'CD8',bind,'STAT';'STAT',associate,'MHC';'MHC',associate,'CD4';'CD4',inhibit,'SARS-CoV-2'
+
+----> event: 'CD8',bind,'STAT'
+
+See the event's documentation in PATHWAY: 5
+
+----> event: 'STAT',associate,'MHC'
+
+See the event's documentation in PATHWAY: 196
+
+----> event: 'MHC',associate,'CD4'
+
+See the event's documentation in PATHWAY: 181
+
+----> event: 'CD4',inhibit,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 48
+
+---------------------------------------------------: 
+
+PATHWAY: 202
+'ORF6',bind,'STAT';'STAT',associate,'MHC';'MHC',associate,'CD8';'CD8',regulate,'SARS-CoV-2'
+
+----> event: 'ORF6',bind,'STAT'
+
+See the event's documentation in PATHWAY: 2
+
+----> event: 'STAT',associate,'MHC'
+
+See the event's documentation in PATHWAY: 196
+
+----> event: 'MHC',associate,'CD8'
+
+See the event's documentation in PATHWAY: 187
+
+----> event: 'CD8',regulate,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 49
+
+---------------------------------------------------: 
+
+PATHWAY: 203
+'ORF6',bind,'STAT';'STAT',associate,'MHC';'MHC',associate,'CD8';'CD8',inhibit,'SARS-CoV-2'
+
+----> event: 'ORF6',bind,'STAT'
+
+See the event's documentation in PATHWAY: 2
+
+----> event: 'STAT',associate,'MHC'
+
+See the event's documentation in PATHWAY: 196
+
+----> event: 'MHC',associate,'CD8'
+
+See the event's documentation in PATHWAY: 187
+
+----> event: 'CD8',inhibit,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 50
+
+---------------------------------------------------: 
+
+PATHWAY: 204
+'ORF6',bind,'STAT';'STAT',associate,'MHC';'MHC',associate,'CD8';'CD8',bind,'SARS-CoV-2'
+
+----> event: 'ORF6',bind,'STAT'
+
+See the event's documentation in PATHWAY: 2
+
+----> event: 'STAT',associate,'MHC'
+
+See the event's documentation in PATHWAY: 196
+
+----> event: 'MHC',associate,'CD8'
+
+See the event's documentation in PATHWAY: 187
+
+----> event: 'CD8',bind,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 172
+
+---------------------------------------------------: 
+
+PATHWAY: 205
+'importin',bind,'STAT';'STAT',associate,'MHC';'MHC',associate,'CD8';'CD8',regulate,'SARS-CoV-2'
+
+----> event: 'importin',bind,'STAT'
+
+See the event's documentation in PATHWAY: 3
+
+----> event: 'STAT',associate,'MHC'
+
+See the event's documentation in PATHWAY: 196
+
+----> event: 'MHC',associate,'CD8'
+
+See the event's documentation in PATHWAY: 187
+
+----> event: 'CD8',regulate,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 49
+
+---------------------------------------------------: 
+
+PATHWAY: 206
+'importin',bind,'STAT';'STAT',associate,'MHC';'MHC',associate,'CD8';'CD8',inhibit,'SARS-CoV-2'
+
+----> event: 'importin',bind,'STAT'
+
+See the event's documentation in PATHWAY: 3
+
+----> event: 'STAT',associate,'MHC'
+
+See the event's documentation in PATHWAY: 196
+
+----> event: 'MHC',associate,'CD8'
+
+See the event's documentation in PATHWAY: 187
+
+----> event: 'CD8',inhibit,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 50
+
+---------------------------------------------------: 
+
+PATHWAY: 207
+'importin',bind,'STAT';'STAT',associate,'MHC';'MHC',associate,'CD8';'CD8',bind,'SARS-CoV-2'
+
+----> event: 'importin',bind,'STAT'
+
+See the event's documentation in PATHWAY: 3
+
+----> event: 'STAT',associate,'MHC'
+
+See the event's documentation in PATHWAY: 196
+
+----> event: 'MHC',associate,'CD8'
+
+See the event's documentation in PATHWAY: 187
+
+----> event: 'CD8',bind,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 172
+
+---------------------------------------------------: 
+
+PATHWAY: 208
+'CD4',bind,'STAT';'STAT',associate,'MHC';'MHC',associate,'CD8';'CD8',regulate,'SARS-CoV-2'
+
+----> event: 'CD4',bind,'STAT'
+
+See the event's documentation in PATHWAY: 4
+
+----> event: 'STAT',associate,'MHC'
+
+See the event's documentation in PATHWAY: 196
+
+----> event: 'MHC',associate,'CD8'
+
+See the event's documentation in PATHWAY: 187
+
+----> event: 'CD8',regulate,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 49
+
+---------------------------------------------------: 
+
+PATHWAY: 209
+'CD4',bind,'STAT';'STAT',associate,'MHC';'MHC',associate,'CD8';'CD8',inhibit,'SARS-CoV-2'
+
+----> event: 'CD4',bind,'STAT'
+
+See the event's documentation in PATHWAY: 4
+
+----> event: 'STAT',associate,'MHC'
+
+See the event's documentation in PATHWAY: 196
+
+----> event: 'MHC',associate,'CD8'
+
+See the event's documentation in PATHWAY: 187
+
+----> event: 'CD8',inhibit,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 50
+
+---------------------------------------------------: 
+
+PATHWAY: 210
+'CD4',bind,'STAT';'STAT',associate,'MHC';'MHC',associate,'CD8';'CD8',bind,'SARS-CoV-2'
+
+----> event: 'CD4',bind,'STAT'
+
+See the event's documentation in PATHWAY: 4
+
+----> event: 'STAT',associate,'MHC'
+
+See the event's documentation in PATHWAY: 196
+
+----> event: 'MHC',associate,'CD8'
+
+See the event's documentation in PATHWAY: 187
+
+----> event: 'CD8',bind,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 172
+
+---------------------------------------------------: 
+
+PATHWAY: 211
+'MHC',bind,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'STAT';'STAT',bind,'STAT'
+
+----> event: 'MHC',bind,'CD4'
+
+See the event's documentation in PATHWAY: 62
+
+----> event: 'CD4',associate,'JAK3'
+
+----> event: 'JAK3',associate,'STAT'
+
+----> event: 'STAT',bind,'STAT'
+
+See the event's documentation in PATHWAY: 1
+
+---------------------------------------------------: 
+
+PATHWAY: 212
+'MHC',bind,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'STAT';'STAT',inhibit,'STAT'
+
+----> event: 'MHC',bind,'CD4'
+
+See the event's documentation in PATHWAY: 62
+
+----> event: 'CD4',associate,'JAK3'
+
+See the event's documentation in PATHWAY: 211
+
+----> event: 'JAK3',associate,'STAT'
+
+See the event's documentation in PATHWAY: 211
+
+----> event: 'STAT',inhibit,'STAT'
+
+See the event's documentation in PATHWAY: 14
+
+---------------------------------------------------: 
+
+PATHWAY: 213
+'MHC',bind,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'STAT';'STAT',regulate,'STAT'
+
+----> event: 'MHC',bind,'CD4'
+
+See the event's documentation in PATHWAY: 62
+
+----> event: 'CD4',associate,'JAK3'
+
+See the event's documentation in PATHWAY: 211
+
+----> event: 'JAK3',associate,'STAT'
+
+See the event's documentation in PATHWAY: 211
+
+----> event: 'STAT',regulate,'STAT'
+
+See the event's documentation in PATHWAY: 27
+
+---------------------------------------------------: 
+
+PATHWAY: 214
+'MHC',bind,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'STAT';'STAT',inhibit,'SARS-CoV-2'
+
+----> event: 'MHC',bind,'CD4'
+
+See the event's documentation in PATHWAY: 62
+
+----> event: 'CD4',associate,'JAK3'
+
+See the event's documentation in PATHWAY: 211
+
+----> event: 'JAK3',associate,'STAT'
+
+See the event's documentation in PATHWAY: 211
+
+----> event: 'STAT',inhibit,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 40
+
+---------------------------------------------------: 
+
+PATHWAY: 215
+'MHC',bind,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'STAT';'STAT',regulate,'SARS-CoV-2'
+
+----> event: 'MHC',bind,'CD4'
+
+See the event's documentation in PATHWAY: 62
+
+----> event: 'CD4',associate,'JAK3'
+
+See the event's documentation in PATHWAY: 211
+
+----> event: 'JAK3',associate,'STAT'
+
+See the event's documentation in PATHWAY: 211
+
+----> event: 'STAT',regulate,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 51
+
+---------------------------------------------------: 
+
+PATHWAY: 216
+'importin',bind,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'STAT';'STAT',bind,'STAT'
+
+----> event: 'importin',bind,'CD4'
+
+See the event's documentation in PATHWAY: 63
+
+----> event: 'CD4',associate,'JAK3'
+
+See the event's documentation in PATHWAY: 211
+
+----> event: 'JAK3',associate,'STAT'
+
+See the event's documentation in PATHWAY: 211
+
+----> event: 'STAT',bind,'STAT'
+
+See the event's documentation in PATHWAY: 1
+
+---------------------------------------------------: 
+
+PATHWAY: 217
+'importin',bind,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'STAT';'STAT',inhibit,'STAT'
+
+----> event: 'importin',bind,'CD4'
+
+See the event's documentation in PATHWAY: 63
+
+----> event: 'CD4',associate,'JAK3'
+
+See the event's documentation in PATHWAY: 211
+
+----> event: 'JAK3',associate,'STAT'
+
+See the event's documentation in PATHWAY: 211
+
+----> event: 'STAT',inhibit,'STAT'
+
+See the event's documentation in PATHWAY: 14
+
+---------------------------------------------------: 
+
+PATHWAY: 218
+'importin',bind,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'STAT';'STAT',regulate,'STAT'
+
+----> event: 'importin',bind,'CD4'
+
+See the event's documentation in PATHWAY: 63
+
+----> event: 'CD4',associate,'JAK3'
+
+See the event's documentation in PATHWAY: 211
+
+----> event: 'JAK3',associate,'STAT'
+
+See the event's documentation in PATHWAY: 211
+
+----> event: 'STAT',regulate,'STAT'
+
+See the event's documentation in PATHWAY: 27
+
+---------------------------------------------------: 
+
+PATHWAY: 219
+'importin',bind,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'STAT';'STAT',inhibit,'SARS-CoV-2'
+
+----> event: 'importin',bind,'CD4'
+
+See the event's documentation in PATHWAY: 63
+
+----> event: 'CD4',associate,'JAK3'
+
+See the event's documentation in PATHWAY: 211
+
+----> event: 'JAK3',associate,'STAT'
+
+See the event's documentation in PATHWAY: 211
+
+----> event: 'STAT',inhibit,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 40
+
+---------------------------------------------------: 
+
+PATHWAY: 220
+'importin',bind,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'STAT';'STAT',regulate,'SARS-CoV-2'
+
+----> event: 'importin',bind,'CD4'
+
+See the event's documentation in PATHWAY: 63
+
+----> event: 'CD4',associate,'JAK3'
+
+See the event's documentation in PATHWAY: 211
+
+----> event: 'JAK3',associate,'STAT'
+
+See the event's documentation in PATHWAY: 211
+
+----> event: 'STAT',regulate,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 51
+
+---------------------------------------------------: 
+
+PATHWAY: 221
+'CD8',bind,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'STAT';'STAT',bind,'STAT'
+
+----> event: 'CD8',bind,'CD4'
+
+See the event's documentation in PATHWAY: 64
+
+----> event: 'CD4',associate,'JAK3'
+
+See the event's documentation in PATHWAY: 211
+
+----> event: 'JAK3',associate,'STAT'
+
+See the event's documentation in PATHWAY: 211
+
+----> event: 'STAT',bind,'STAT'
+
+See the event's documentation in PATHWAY: 1
+
+---------------------------------------------------: 
+
+PATHWAY: 222
+'CD8',bind,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'STAT';'STAT',inhibit,'STAT'
+
+----> event: 'CD8',bind,'CD4'
+
+See the event's documentation in PATHWAY: 64
+
+----> event: 'CD4',associate,'JAK3'
+
+See the event's documentation in PATHWAY: 211
+
+----> event: 'JAK3',associate,'STAT'
+
+See the event's documentation in PATHWAY: 211
+
+----> event: 'STAT',inhibit,'STAT'
+
+See the event's documentation in PATHWAY: 14
+
+---------------------------------------------------: 
+
+PATHWAY: 223
+'CD8',bind,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'STAT';'STAT',regulate,'STAT'
+
+----> event: 'CD8',bind,'CD4'
+
+See the event's documentation in PATHWAY: 64
+
+----> event: 'CD4',associate,'JAK3'
+
+See the event's documentation in PATHWAY: 211
+
+----> event: 'JAK3',associate,'STAT'
+
+See the event's documentation in PATHWAY: 211
+
+----> event: 'STAT',regulate,'STAT'
+
+See the event's documentation in PATHWAY: 27
+
+---------------------------------------------------: 
+
+PATHWAY: 224
+'CD8',bind,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'STAT';'STAT',inhibit,'SARS-CoV-2'
+
+----> event: 'CD8',bind,'CD4'
+
+See the event's documentation in PATHWAY: 64
+
+----> event: 'CD4',associate,'JAK3'
+
+See the event's documentation in PATHWAY: 211
+
+----> event: 'JAK3',associate,'STAT'
+
+See the event's documentation in PATHWAY: 211
+
+----> event: 'STAT',inhibit,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 40
+
+---------------------------------------------------: 
+
+PATHWAY: 225
+'CD8',bind,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'STAT';'STAT',regulate,'SARS-CoV-2'
+
+----> event: 'CD8',bind,'CD4'
+
+See the event's documentation in PATHWAY: 64
+
+----> event: 'CD4',associate,'JAK3'
+
+See the event's documentation in PATHWAY: 211
+
+----> event: 'JAK3',associate,'STAT'
+
+See the event's documentation in PATHWAY: 211
+
+----> event: 'STAT',regulate,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 51
+
+---------------------------------------------------: 
+
+PATHWAY: 226
+'importin',bind,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'STAT';'STAT',associate,'MHC';'MHC',associate,'CD8';'CD8',regulate,'SARS-CoV-2'
+
+----> event: 'importin',bind,'CD4'
+
+See the event's documentation in PATHWAY: 63
+
+----> event: 'CD4',associate,'JAK3'
+
+See the event's documentation in PATHWAY: 211
+
+----> event: 'JAK3',associate,'STAT'
+
+See the event's documentation in PATHWAY: 211
+
+----> event: 'STAT',associate,'MHC'
+
+See the event's documentation in PATHWAY: 196
+
+----> event: 'MHC',associate,'CD8'
+
+See the event's documentation in PATHWAY: 187
+
+----> event: 'CD8',regulate,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 49
+
+---------------------------------------------------: 
+
+PATHWAY: 227
+'importin',bind,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'STAT';'STAT',associate,'MHC';'MHC',associate,'CD8';'CD8',inhibit,'SARS-CoV-2'
+
+----> event: 'importin',bind,'CD4'
+
+See the event's documentation in PATHWAY: 63
+
+----> event: 'CD4',associate,'JAK3'
+
+See the event's documentation in PATHWAY: 211
+
+----> event: 'JAK3',associate,'STAT'
+
+See the event's documentation in PATHWAY: 211
+
+----> event: 'STAT',associate,'MHC'
+
+See the event's documentation in PATHWAY: 196
+
+----> event: 'MHC',associate,'CD8'
+
+See the event's documentation in PATHWAY: 187
+
+----> event: 'CD8',inhibit,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 50
+
+---------------------------------------------------: 
+
+PATHWAY: 228
+'importin',bind,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'STAT';'STAT',associate,'MHC';'MHC',associate,'CD8';'CD8',bind,'SARS-CoV-2'
+
+----> event: 'importin',bind,'CD4'
+
+See the event's documentation in PATHWAY: 63
+
+----> event: 'CD4',associate,'JAK3'
+
+See the event's documentation in PATHWAY: 211
+
+----> event: 'JAK3',associate,'STAT'
+
+See the event's documentation in PATHWAY: 211
+
+----> event: 'STAT',associate,'MHC'
+
+See the event's documentation in PATHWAY: 196
+
+----> event: 'MHC',associate,'CD8'
+
+See the event's documentation in PATHWAY: 187
+
+----> event: 'CD8',bind,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 172
+
+---------------------------------------------------: 
+
+PATHWAY: 229
+'importin',bind,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'STAT';'STAT',bind,'STAT'
+
+----> event: 'importin',bind,'CD4'
+
+See the event's documentation in PATHWAY: 63
+
+----> event: 'CD4',associate,'JAK3'
+
+See the event's documentation in PATHWAY: 211
+
+----> event: 'JAK3',associate,'MHC'
+
+See the event's documentation in PATHWAY: 181
+
+----> event: 'MHC',associate,'STAT'
+
+----> event: 'STAT',bind,'STAT'
+
+See the event's documentation in PATHWAY: 1
+
+---------------------------------------------------: 
+
+PATHWAY: 230
+'importin',bind,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'STAT';'STAT',inhibit,'STAT'
+
+----> event: 'importin',bind,'CD4'
+
+See the event's documentation in PATHWAY: 63
+
+----> event: 'CD4',associate,'JAK3'
+
+See the event's documentation in PATHWAY: 211
+
+----> event: 'JAK3',associate,'MHC'
+
+See the event's documentation in PATHWAY: 181
+
+----> event: 'MHC',associate,'STAT'
+
+See the event's documentation in PATHWAY: 229
+
+----> event: 'STAT',inhibit,'STAT'
+
+See the event's documentation in PATHWAY: 14
+
+---------------------------------------------------: 
+
+PATHWAY: 231
+'importin',bind,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'STAT';'STAT',regulate,'STAT'
+
+----> event: 'importin',bind,'CD4'
+
+See the event's documentation in PATHWAY: 63
+
+----> event: 'CD4',associate,'JAK3'
+
+See the event's documentation in PATHWAY: 211
+
+----> event: 'JAK3',associate,'MHC'
+
+See the event's documentation in PATHWAY: 181
+
+----> event: 'MHC',associate,'STAT'
+
+See the event's documentation in PATHWAY: 229
+
+----> event: 'STAT',regulate,'STAT'
+
+See the event's documentation in PATHWAY: 27
+
+---------------------------------------------------: 
+
+PATHWAY: 232
+'importin',bind,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'STAT';'STAT',inhibit,'SARS-CoV-2'
+
+----> event: 'importin',bind,'CD4'
+
+See the event's documentation in PATHWAY: 63
+
+----> event: 'CD4',associate,'JAK3'
+
+See the event's documentation in PATHWAY: 211
+
+----> event: 'JAK3',associate,'MHC'
+
+See the event's documentation in PATHWAY: 181
+
+----> event: 'MHC',associate,'STAT'
+
+See the event's documentation in PATHWAY: 229
+
+----> event: 'STAT',inhibit,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 40
+
+---------------------------------------------------: 
+
+PATHWAY: 233
+'importin',bind,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'STAT';'STAT',regulate,'SARS-CoV-2'
+
+----> event: 'importin',bind,'CD4'
+
+See the event's documentation in PATHWAY: 63
+
+----> event: 'CD4',associate,'JAK3'
+
+See the event's documentation in PATHWAY: 211
+
+----> event: 'JAK3',associate,'MHC'
+
+See the event's documentation in PATHWAY: 181
+
+----> event: 'MHC',associate,'STAT'
+
+See the event's documentation in PATHWAY: 229
+
+----> event: 'STAT',regulate,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 51
+
+---------------------------------------------------: 
+
+PATHWAY: 234
+'CD8',bind,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'STAT';'STAT',bind,'STAT'
+
+----> event: 'CD8',bind,'CD4'
+
+See the event's documentation in PATHWAY: 64
+
+----> event: 'CD4',associate,'JAK3'
+
+See the event's documentation in PATHWAY: 211
+
+----> event: 'JAK3',associate,'MHC'
+
+See the event's documentation in PATHWAY: 181
+
+----> event: 'MHC',associate,'STAT'
+
+See the event's documentation in PATHWAY: 229
+
+----> event: 'STAT',bind,'STAT'
+
+See the event's documentation in PATHWAY: 1
+
+---------------------------------------------------: 
+
+PATHWAY: 235
+'CD8',bind,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'STAT';'STAT',inhibit,'STAT'
+
+----> event: 'CD8',bind,'CD4'
+
+See the event's documentation in PATHWAY: 64
+
+----> event: 'CD4',associate,'JAK3'
+
+See the event's documentation in PATHWAY: 211
+
+----> event: 'JAK3',associate,'MHC'
+
+See the event's documentation in PATHWAY: 181
+
+----> event: 'MHC',associate,'STAT'
+
+See the event's documentation in PATHWAY: 229
+
+----> event: 'STAT',inhibit,'STAT'
+
+See the event's documentation in PATHWAY: 14
+
+---------------------------------------------------: 
+
+PATHWAY: 236
+'CD8',bind,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'STAT';'STAT',regulate,'STAT'
+
+----> event: 'CD8',bind,'CD4'
+
+See the event's documentation in PATHWAY: 64
+
+----> event: 'CD4',associate,'JAK3'
+
+See the event's documentation in PATHWAY: 211
+
+----> event: 'JAK3',associate,'MHC'
+
+See the event's documentation in PATHWAY: 181
+
+----> event: 'MHC',associate,'STAT'
+
+See the event's documentation in PATHWAY: 229
+
+----> event: 'STAT',regulate,'STAT'
+
+See the event's documentation in PATHWAY: 27
+
+---------------------------------------------------: 
+
+PATHWAY: 237
+'CD8',bind,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'STAT';'STAT',inhibit,'SARS-CoV-2'
+
+----> event: 'CD8',bind,'CD4'
+
+See the event's documentation in PATHWAY: 64
+
+----> event: 'CD4',associate,'JAK3'
+
+See the event's documentation in PATHWAY: 211
+
+----> event: 'JAK3',associate,'MHC'
+
+See the event's documentation in PATHWAY: 181
+
+----> event: 'MHC',associate,'STAT'
+
+See the event's documentation in PATHWAY: 229
+
+----> event: 'STAT',inhibit,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 40
+
+---------------------------------------------------: 
+
+PATHWAY: 238
+'CD8',bind,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'STAT';'STAT',regulate,'SARS-CoV-2'
+
+----> event: 'CD8',bind,'CD4'
+
+See the event's documentation in PATHWAY: 64
+
+----> event: 'CD4',associate,'JAK3'
+
+See the event's documentation in PATHWAY: 211
+
+----> event: 'JAK3',associate,'MHC'
+
+See the event's documentation in PATHWAY: 181
+
+----> event: 'MHC',associate,'STAT'
+
+See the event's documentation in PATHWAY: 229
+
+----> event: 'STAT',regulate,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 51
+
+---------------------------------------------------: 
+
+PATHWAY: 239
+'STAT',bind,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'CD8';'CD8',regulate,'SARS-CoV-2'
+
+----> event: 'STAT',bind,'CD4'
+
+See the event's documentation in PATHWAY: 65
+
+----> event: 'CD4',associate,'JAK3'
+
+See the event's documentation in PATHWAY: 211
+
+----> event: 'JAK3',associate,'MHC'
+
+See the event's documentation in PATHWAY: 181
+
+----> event: 'MHC',associate,'CD8'
+
+See the event's documentation in PATHWAY: 187
+
+----> event: 'CD8',regulate,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 49
+
+---------------------------------------------------: 
+
+PATHWAY: 240
+'STAT',bind,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'CD8';'CD8',inhibit,'SARS-CoV-2'
+
+----> event: 'STAT',bind,'CD4'
+
+See the event's documentation in PATHWAY: 65
+
+----> event: 'CD4',associate,'JAK3'
+
+See the event's documentation in PATHWAY: 211
+
+----> event: 'JAK3',associate,'MHC'
+
+See the event's documentation in PATHWAY: 181
+
+----> event: 'MHC',associate,'CD8'
+
+See the event's documentation in PATHWAY: 187
+
+----> event: 'CD8',inhibit,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 50
+
+---------------------------------------------------: 
+
+PATHWAY: 241
+'STAT',bind,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'CD8';'CD8',bind,'SARS-CoV-2'
+
+----> event: 'STAT',bind,'CD4'
+
+See the event's documentation in PATHWAY: 65
+
+----> event: 'CD4',associate,'JAK3'
+
+See the event's documentation in PATHWAY: 211
+
+----> event: 'JAK3',associate,'MHC'
+
+See the event's documentation in PATHWAY: 181
+
+----> event: 'MHC',associate,'CD8'
+
+See the event's documentation in PATHWAY: 187
+
+----> event: 'CD8',bind,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 172
+
+---------------------------------------------------: 
+
+PATHWAY: 242
+'importin',bind,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'CD8';'CD8',regulate,'STAT'
+
+----> event: 'importin',bind,'CD4'
+
+See the event's documentation in PATHWAY: 63
+
+----> event: 'CD4',associate,'JAK3'
+
+See the event's documentation in PATHWAY: 211
+
+----> event: 'JAK3',associate,'MHC'
+
+See the event's documentation in PATHWAY: 181
+
+----> event: 'MHC',associate,'CD8'
+
+See the event's documentation in PATHWAY: 187
+
+----> event: 'CD8',regulate,'STAT'
+
+See the event's documentation in PATHWAY: 12
+
+---------------------------------------------------: 
+
+PATHWAY: 243
+'importin',bind,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'CD8';'CD8',inhibit,'STAT'
+
+----> event: 'importin',bind,'CD4'
+
+See the event's documentation in PATHWAY: 63
+
+----> event: 'CD4',associate,'JAK3'
+
+See the event's documentation in PATHWAY: 211
+
+----> event: 'JAK3',associate,'MHC'
+
+See the event's documentation in PATHWAY: 181
+
+----> event: 'MHC',associate,'CD8'
+
+See the event's documentation in PATHWAY: 187
+
+----> event: 'CD8',inhibit,'STAT'
+
+See the event's documentation in PATHWAY: 13
+
+---------------------------------------------------: 
+
+PATHWAY: 244
+'importin',bind,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'CD8';'CD8',bind,'STAT'
+
+----> event: 'importin',bind,'CD4'
+
+See the event's documentation in PATHWAY: 63
+
+----> event: 'CD4',associate,'JAK3'
+
+See the event's documentation in PATHWAY: 211
+
+----> event: 'JAK3',associate,'MHC'
+
+See the event's documentation in PATHWAY: 181
+
+----> event: 'MHC',associate,'CD8'
+
+See the event's documentation in PATHWAY: 187
+
+----> event: 'CD8',bind,'STAT'
+
+See the event's documentation in PATHWAY: 5
+
+---------------------------------------------------: 
+
+PATHWAY: 245
+'importin',bind,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'CD8';'CD8',regulate,'SARS-CoV-2'
+
+----> event: 'importin',bind,'CD4'
+
+See the event's documentation in PATHWAY: 63
+
+----> event: 'CD4',associate,'JAK3'
+
+See the event's documentation in PATHWAY: 211
+
+----> event: 'JAK3',associate,'MHC'
+
+See the event's documentation in PATHWAY: 181
+
+----> event: 'MHC',associate,'CD8'
+
+See the event's documentation in PATHWAY: 187
+
+----> event: 'CD8',regulate,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 49
+
+---------------------------------------------------: 
+
+PATHWAY: 246
+'importin',bind,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'CD8';'CD8',inhibit,'SARS-CoV-2'
+
+----> event: 'importin',bind,'CD4'
+
+See the event's documentation in PATHWAY: 63
+
+----> event: 'CD4',associate,'JAK3'
+
+See the event's documentation in PATHWAY: 211
+
+----> event: 'JAK3',associate,'MHC'
+
+See the event's documentation in PATHWAY: 181
+
+----> event: 'MHC',associate,'CD8'
+
+See the event's documentation in PATHWAY: 187
+
+----> event: 'CD8',inhibit,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 50
+
+---------------------------------------------------: 
+
+PATHWAY: 247
+'importin',bind,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'CD8';'CD8',bind,'SARS-CoV-2'
+
+----> event: 'importin',bind,'CD4'
+
+See the event's documentation in PATHWAY: 63
+
+----> event: 'CD4',associate,'JAK3'
+
+See the event's documentation in PATHWAY: 211
+
+----> event: 'JAK3',associate,'MHC'
+
+See the event's documentation in PATHWAY: 181
+
+----> event: 'MHC',associate,'CD8'
+
+See the event's documentation in PATHWAY: 187
+
+----> event: 'CD8',bind,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 172
+
+---------------------------------------------------: 
+
+PATHWAY: 248
+'importin',bind,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'CD8';'CD8',associate,'STAT';'STAT',bind,'STAT'
+
+----> event: 'importin',bind,'CD4'
+
+See the event's documentation in PATHWAY: 63
+
+----> event: 'CD4',associate,'JAK3'
+
+See the event's documentation in PATHWAY: 211
+
+----> event: 'JAK3',associate,'MHC'
+
+See the event's documentation in PATHWAY: 181
+
+----> event: 'MHC',associate,'CD8'
+
+See the event's documentation in PATHWAY: 187
+
+----> event: 'CD8',associate,'STAT'
+
+----> event: 'STAT',bind,'STAT'
+
+See the event's documentation in PATHWAY: 1
+
+---------------------------------------------------: 
+
+PATHWAY: 249
+'importin',bind,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'CD8';'CD8',associate,'STAT';'STAT',inhibit,'STAT'
+
+----> event: 'importin',bind,'CD4'
+
+See the event's documentation in PATHWAY: 63
+
+----> event: 'CD4',associate,'JAK3'
+
+See the event's documentation in PATHWAY: 211
+
+----> event: 'JAK3',associate,'MHC'
+
+See the event's documentation in PATHWAY: 181
+
+----> event: 'MHC',associate,'CD8'
+
+See the event's documentation in PATHWAY: 187
+
+----> event: 'CD8',associate,'STAT'
+
+See the event's documentation in PATHWAY: 248
+
+----> event: 'STAT',inhibit,'STAT'
+
+See the event's documentation in PATHWAY: 14
+
+---------------------------------------------------: 
+
+PATHWAY: 250
+'importin',bind,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'CD8';'CD8',associate,'STAT';'STAT',regulate,'STAT'
+
+----> event: 'importin',bind,'CD4'
+
+See the event's documentation in PATHWAY: 63
+
+----> event: 'CD4',associate,'JAK3'
+
+See the event's documentation in PATHWAY: 211
+
+----> event: 'JAK3',associate,'MHC'
+
+See the event's documentation in PATHWAY: 181
+
+----> event: 'MHC',associate,'CD8'
+
+See the event's documentation in PATHWAY: 187
+
+----> event: 'CD8',associate,'STAT'
+
+See the event's documentation in PATHWAY: 248
+
+----> event: 'STAT',regulate,'STAT'
+
+See the event's documentation in PATHWAY: 27
+
+---------------------------------------------------: 
+
+PATHWAY: 251
+'importin',bind,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'CD8';'CD8',associate,'STAT';'STAT',inhibit,'SARS-CoV-2'
+
+----> event: 'importin',bind,'CD4'
+
+See the event's documentation in PATHWAY: 63
+
+----> event: 'CD4',associate,'JAK3'
+
+See the event's documentation in PATHWAY: 211
+
+----> event: 'JAK3',associate,'MHC'
+
+See the event's documentation in PATHWAY: 181
+
+----> event: 'MHC',associate,'CD8'
+
+See the event's documentation in PATHWAY: 187
+
+----> event: 'CD8',associate,'STAT'
+
+See the event's documentation in PATHWAY: 248
+
+----> event: 'STAT',inhibit,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 40
+
+---------------------------------------------------: 
+
+PATHWAY: 252
+'importin',bind,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'CD8';'CD8',associate,'STAT';'STAT',regulate,'SARS-CoV-2'
+
+----> event: 'importin',bind,'CD4'
+
+See the event's documentation in PATHWAY: 63
+
+----> event: 'CD4',associate,'JAK3'
+
+See the event's documentation in PATHWAY: 211
+
+----> event: 'JAK3',associate,'MHC'
+
+See the event's documentation in PATHWAY: 181
+
+----> event: 'MHC',associate,'CD8'
+
+See the event's documentation in PATHWAY: 187
+
+----> event: 'CD8',associate,'STAT'
+
+See the event's documentation in PATHWAY: 248
+
+----> event: 'STAT',regulate,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 51
+
+---------------------------------------------------: 
+
+PATHWAY: 253
+'MHC',bind,'CD4';'CD4',associate,'STAT';'STAT',bind,'STAT'
+
+----> event: 'MHC',bind,'CD4'
+
+See the event's documentation in PATHWAY: 62
+
+----> event: 'CD4',associate,'STAT'
+
+----> event: 'STAT',bind,'STAT'
+
+See the event's documentation in PATHWAY: 1
+
+---------------------------------------------------: 
+
+PATHWAY: 254
+'MHC',bind,'CD4';'CD4',associate,'STAT';'STAT',inhibit,'STAT'
+
+----> event: 'MHC',bind,'CD4'
+
+See the event's documentation in PATHWAY: 62
+
+----> event: 'CD4',associate,'STAT'
+
+See the event's documentation in PATHWAY: 253
+
+----> event: 'STAT',inhibit,'STAT'
+
+See the event's documentation in PATHWAY: 14
+
+---------------------------------------------------: 
+
+PATHWAY: 255
+'MHC',bind,'CD4';'CD4',associate,'STAT';'STAT',regulate,'STAT'
+
+----> event: 'MHC',bind,'CD4'
+
+See the event's documentation in PATHWAY: 62
+
+----> event: 'CD4',associate,'STAT'
+
+See the event's documentation in PATHWAY: 253
+
+----> event: 'STAT',regulate,'STAT'
+
+See the event's documentation in PATHWAY: 27
+
+---------------------------------------------------: 
+
+PATHWAY: 256
+'MHC',bind,'CD4';'CD4',associate,'STAT';'STAT',inhibit,'SARS-CoV-2'
+
+----> event: 'MHC',bind,'CD4'
+
+See the event's documentation in PATHWAY: 62
+
+----> event: 'CD4',associate,'STAT'
+
+See the event's documentation in PATHWAY: 253
+
+----> event: 'STAT',inhibit,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 40
+
+---------------------------------------------------: 
+
+PATHWAY: 257
+'MHC',bind,'CD4';'CD4',associate,'STAT';'STAT',regulate,'SARS-CoV-2'
+
+----> event: 'MHC',bind,'CD4'
+
+See the event's documentation in PATHWAY: 62
+
+----> event: 'CD4',associate,'STAT'
+
+See the event's documentation in PATHWAY: 253
+
+----> event: 'STAT',regulate,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 51
+
+---------------------------------------------------: 
+
+PATHWAY: 258
+'importin',bind,'CD4';'CD4',associate,'STAT';'STAT',bind,'STAT'
+
+----> event: 'importin',bind,'CD4'
+
+See the event's documentation in PATHWAY: 63
+
+----> event: 'CD4',associate,'STAT'
+
+See the event's documentation in PATHWAY: 253
+
+----> event: 'STAT',bind,'STAT'
+
+See the event's documentation in PATHWAY: 1
+
+---------------------------------------------------: 
+
+PATHWAY: 259
+'importin',bind,'CD4';'CD4',associate,'STAT';'STAT',inhibit,'STAT'
+
+----> event: 'importin',bind,'CD4'
+
+See the event's documentation in PATHWAY: 63
+
+----> event: 'CD4',associate,'STAT'
+
+See the event's documentation in PATHWAY: 253
+
+----> event: 'STAT',inhibit,'STAT'
+
+See the event's documentation in PATHWAY: 14
+
+---------------------------------------------------: 
+
+PATHWAY: 260
+'importin',bind,'CD4';'CD4',associate,'STAT';'STAT',regulate,'STAT'
+
+----> event: 'importin',bind,'CD4'
+
+See the event's documentation in PATHWAY: 63
+
+----> event: 'CD4',associate,'STAT'
+
+See the event's documentation in PATHWAY: 253
+
+----> event: 'STAT',regulate,'STAT'
+
+See the event's documentation in PATHWAY: 27
+
+---------------------------------------------------: 
+
+PATHWAY: 261
+'importin',bind,'CD4';'CD4',associate,'STAT';'STAT',inhibit,'SARS-CoV-2'
+
+----> event: 'importin',bind,'CD4'
+
+See the event's documentation in PATHWAY: 63
+
+----> event: 'CD4',associate,'STAT'
+
+See the event's documentation in PATHWAY: 253
+
+----> event: 'STAT',inhibit,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 40
+
+---------------------------------------------------: 
+
+PATHWAY: 262
+'importin',bind,'CD4';'CD4',associate,'STAT';'STAT',regulate,'SARS-CoV-2'
+
+----> event: 'importin',bind,'CD4'
+
+See the event's documentation in PATHWAY: 63
+
+----> event: 'CD4',associate,'STAT'
+
+See the event's documentation in PATHWAY: 253
+
+----> event: 'STAT',regulate,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 51
+
+---------------------------------------------------: 
+
+PATHWAY: 263
+'CD8',bind,'CD4';'CD4',associate,'STAT';'STAT',bind,'STAT'
+
+----> event: 'CD8',bind,'CD4'
+
+See the event's documentation in PATHWAY: 64
+
+----> event: 'CD4',associate,'STAT'
+
+See the event's documentation in PATHWAY: 253
+
+----> event: 'STAT',bind,'STAT'
+
+See the event's documentation in PATHWAY: 1
+
+---------------------------------------------------: 
+
+PATHWAY: 264
+'CD8',bind,'CD4';'CD4',associate,'STAT';'STAT',inhibit,'STAT'
+
+----> event: 'CD8',bind,'CD4'
+
+See the event's documentation in PATHWAY: 64
+
+----> event: 'CD4',associate,'STAT'
+
+See the event's documentation in PATHWAY: 253
+
+----> event: 'STAT',inhibit,'STAT'
+
+See the event's documentation in PATHWAY: 14
+
+---------------------------------------------------: 
+
+PATHWAY: 265
+'CD8',bind,'CD4';'CD4',associate,'STAT';'STAT',regulate,'STAT'
+
+----> event: 'CD8',bind,'CD4'
+
+See the event's documentation in PATHWAY: 64
+
+----> event: 'CD4',associate,'STAT'
+
+See the event's documentation in PATHWAY: 253
+
+----> event: 'STAT',regulate,'STAT'
+
+See the event's documentation in PATHWAY: 27
+
+---------------------------------------------------: 
+
+PATHWAY: 266
+'CD8',bind,'CD4';'CD4',associate,'STAT';'STAT',inhibit,'SARS-CoV-2'
+
+----> event: 'CD8',bind,'CD4'
+
+See the event's documentation in PATHWAY: 64
+
+----> event: 'CD4',associate,'STAT'
+
+See the event's documentation in PATHWAY: 253
+
+----> event: 'STAT',inhibit,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 40
+
+---------------------------------------------------: 
+
+PATHWAY: 267
+'CD8',bind,'CD4';'CD4',associate,'STAT';'STAT',regulate,'SARS-CoV-2'
+
+----> event: 'CD8',bind,'CD4'
+
+See the event's documentation in PATHWAY: 64
+
+----> event: 'CD4',associate,'STAT'
+
+See the event's documentation in PATHWAY: 253
+
+----> event: 'STAT',regulate,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 51
+
+---------------------------------------------------: 
+
+PATHWAY: 268
+'importin',bind,'CD4';'CD4',associate,'STAT';'STAT',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'CD8';'CD8',regulate,'SARS-CoV-2'
+
+----> event: 'importin',bind,'CD4'
+
+See the event's documentation in PATHWAY: 63
+
+----> event: 'CD4',associate,'STAT'
+
+See the event's documentation in PATHWAY: 253
+
+----> event: 'STAT',associate,'JAK3'
+
+See the event's documentation in PATHWAY: 181
+
+----> event: 'JAK3',associate,'MHC'
+
+See the event's documentation in PATHWAY: 181
+
+----> event: 'MHC',associate,'CD8'
+
+See the event's documentation in PATHWAY: 187
+
+----> event: 'CD8',regulate,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 49
+
+---------------------------------------------------: 
+
+PATHWAY: 269
+'importin',bind,'CD4';'CD4',associate,'STAT';'STAT',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'CD8';'CD8',inhibit,'SARS-CoV-2'
+
+----> event: 'importin',bind,'CD4'
+
+See the event's documentation in PATHWAY: 63
+
+----> event: 'CD4',associate,'STAT'
+
+See the event's documentation in PATHWAY: 253
+
+----> event: 'STAT',associate,'JAK3'
+
+See the event's documentation in PATHWAY: 181
+
+----> event: 'JAK3',associate,'MHC'
+
+See the event's documentation in PATHWAY: 181
+
+----> event: 'MHC',associate,'CD8'
+
+See the event's documentation in PATHWAY: 187
+
+----> event: 'CD8',inhibit,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 50
+
+---------------------------------------------------: 
+
+PATHWAY: 270
+'importin',bind,'CD4';'CD4',associate,'STAT';'STAT',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'CD8';'CD8',bind,'SARS-CoV-2'
+
+----> event: 'importin',bind,'CD4'
+
+See the event's documentation in PATHWAY: 63
+
+----> event: 'CD4',associate,'STAT'
+
+See the event's documentation in PATHWAY: 253
+
+----> event: 'STAT',associate,'JAK3'
+
+See the event's documentation in PATHWAY: 181
+
+----> event: 'JAK3',associate,'MHC'
+
+See the event's documentation in PATHWAY: 181
+
+----> event: 'MHC',associate,'CD8'
+
+See the event's documentation in PATHWAY: 187
+
+----> event: 'CD8',bind,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 172
+
+---------------------------------------------------: 
+
+PATHWAY: 271
+'importin',bind,'CD4';'CD4',associate,'STAT';'STAT',associate,'MHC';'MHC',associate,'CD8';'CD8',regulate,'SARS-CoV-2'
+
+----> event: 'importin',bind,'CD4'
+
+See the event's documentation in PATHWAY: 63
+
+----> event: 'CD4',associate,'STAT'
+
+See the event's documentation in PATHWAY: 253
+
+----> event: 'STAT',associate,'MHC'
+
+See the event's documentation in PATHWAY: 196
+
+----> event: 'MHC',associate,'CD8'
+
+See the event's documentation in PATHWAY: 187
+
+----> event: 'CD8',regulate,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 49
+
+---------------------------------------------------: 
+
+PATHWAY: 272
+'importin',bind,'CD4';'CD4',associate,'STAT';'STAT',associate,'MHC';'MHC',associate,'CD8';'CD8',inhibit,'SARS-CoV-2'
+
+----> event: 'importin',bind,'CD4'
+
+See the event's documentation in PATHWAY: 63
+
+----> event: 'CD4',associate,'STAT'
+
+See the event's documentation in PATHWAY: 253
+
+----> event: 'STAT',associate,'MHC'
+
+See the event's documentation in PATHWAY: 196
+
+----> event: 'MHC',associate,'CD8'
+
+See the event's documentation in PATHWAY: 187
+
+----> event: 'CD8',inhibit,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 50
+
+---------------------------------------------------: 
+
+PATHWAY: 273
+'importin',bind,'CD4';'CD4',associate,'STAT';'STAT',associate,'MHC';'MHC',associate,'CD8';'CD8',bind,'SARS-CoV-2'
+
+----> event: 'importin',bind,'CD4'
+
+See the event's documentation in PATHWAY: 63
+
+----> event: 'CD4',associate,'STAT'
+
+See the event's documentation in PATHWAY: 253
+
+----> event: 'STAT',associate,'MHC'
+
+See the event's documentation in PATHWAY: 196
+
+----> event: 'MHC',associate,'CD8'
+
+See the event's documentation in PATHWAY: 187
+
+----> event: 'CD8',bind,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 172
+
+---------------------------------------------------: 
+
+PATHWAY: 274
+'importin',bind,'CD4';'CD4',associate,'MHC';'MHC',associate,'JAK3';'JAK3',associate,'STAT';'STAT',bind,'STAT'
+
+----> event: 'importin',bind,'CD4'
+
+See the event's documentation in PATHWAY: 63
+
+----> event: 'CD4',associate,'MHC'
+
+----> event: 'MHC',associate,'JAK3'
+
+----> event: 'JAK3',associate,'STAT'
+
+See the event's documentation in PATHWAY: 211
+
+----> event: 'STAT',bind,'STAT'
+
+See the event's documentation in PATHWAY: 1
+
+---------------------------------------------------: 
+
+PATHWAY: 275
+'importin',bind,'CD4';'CD4',associate,'MHC';'MHC',associate,'JAK3';'JAK3',associate,'STAT';'STAT',inhibit,'STAT'
+
+----> event: 'importin',bind,'CD4'
+
+See the event's documentation in PATHWAY: 63
+
+----> event: 'CD4',associate,'MHC'
+
+See the event's documentation in PATHWAY: 274
+
+----> event: 'MHC',associate,'JAK3'
+
+See the event's documentation in PATHWAY: 274
+
+----> event: 'JAK3',associate,'STAT'
+
+See the event's documentation in PATHWAY: 211
+
+----> event: 'STAT',inhibit,'STAT'
+
+See the event's documentation in PATHWAY: 14
+
+---------------------------------------------------: 
+
+PATHWAY: 276
+'importin',bind,'CD4';'CD4',associate,'MHC';'MHC',associate,'JAK3';'JAK3',associate,'STAT';'STAT',regulate,'STAT'
+
+----> event: 'importin',bind,'CD4'
+
+See the event's documentation in PATHWAY: 63
+
+----> event: 'CD4',associate,'MHC'
+
+See the event's documentation in PATHWAY: 274
+
+----> event: 'MHC',associate,'JAK3'
+
+See the event's documentation in PATHWAY: 274
+
+----> event: 'JAK3',associate,'STAT'
+
+See the event's documentation in PATHWAY: 211
+
+----> event: 'STAT',regulate,'STAT'
+
+See the event's documentation in PATHWAY: 27
+
+---------------------------------------------------: 
+
+PATHWAY: 277
+'importin',bind,'CD4';'CD4',associate,'MHC';'MHC',associate,'JAK3';'JAK3',associate,'STAT';'STAT',inhibit,'SARS-CoV-2'
+
+----> event: 'importin',bind,'CD4'
+
+See the event's documentation in PATHWAY: 63
+
+----> event: 'CD4',associate,'MHC'
+
+See the event's documentation in PATHWAY: 274
+
+----> event: 'MHC',associate,'JAK3'
+
+See the event's documentation in PATHWAY: 274
+
+----> event: 'JAK3',associate,'STAT'
+
+See the event's documentation in PATHWAY: 211
+
+----> event: 'STAT',inhibit,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 40
+
+---------------------------------------------------: 
+
+PATHWAY: 278
+'importin',bind,'CD4';'CD4',associate,'MHC';'MHC',associate,'JAK3';'JAK3',associate,'STAT';'STAT',regulate,'SARS-CoV-2'
+
+----> event: 'importin',bind,'CD4'
+
+See the event's documentation in PATHWAY: 63
+
+----> event: 'CD4',associate,'MHC'
+
+See the event's documentation in PATHWAY: 274
+
+----> event: 'MHC',associate,'JAK3'
+
+See the event's documentation in PATHWAY: 274
+
+----> event: 'JAK3',associate,'STAT'
+
+See the event's documentation in PATHWAY: 211
+
+----> event: 'STAT',regulate,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 51
+
+---------------------------------------------------: 
+
+PATHWAY: 279
+'CD8',bind,'CD4';'CD4',associate,'MHC';'MHC',associate,'JAK3';'JAK3',associate,'STAT';'STAT',bind,'STAT'
+
+----> event: 'CD8',bind,'CD4'
+
+See the event's documentation in PATHWAY: 64
+
+----> event: 'CD4',associate,'MHC'
+
+See the event's documentation in PATHWAY: 274
+
+----> event: 'MHC',associate,'JAK3'
+
+See the event's documentation in PATHWAY: 274
+
+----> event: 'JAK3',associate,'STAT'
+
+See the event's documentation in PATHWAY: 211
+
+----> event: 'STAT',bind,'STAT'
+
+See the event's documentation in PATHWAY: 1
+
+---------------------------------------------------: 
+
+PATHWAY: 280
+'CD8',bind,'CD4';'CD4',associate,'MHC';'MHC',associate,'JAK3';'JAK3',associate,'STAT';'STAT',inhibit,'STAT'
+
+----> event: 'CD8',bind,'CD4'
+
+See the event's documentation in PATHWAY: 64
+
+----> event: 'CD4',associate,'MHC'
+
+See the event's documentation in PATHWAY: 274
+
+----> event: 'MHC',associate,'JAK3'
+
+See the event's documentation in PATHWAY: 274
+
+----> event: 'JAK3',associate,'STAT'
+
+See the event's documentation in PATHWAY: 211
+
+----> event: 'STAT',inhibit,'STAT'
+
+See the event's documentation in PATHWAY: 14
+
+---------------------------------------------------: 
+
+PATHWAY: 281
+'CD8',bind,'CD4';'CD4',associate,'MHC';'MHC',associate,'JAK3';'JAK3',associate,'STAT';'STAT',regulate,'STAT'
+
+----> event: 'CD8',bind,'CD4'
+
+See the event's documentation in PATHWAY: 64
+
+----> event: 'CD4',associate,'MHC'
+
+See the event's documentation in PATHWAY: 274
+
+----> event: 'MHC',associate,'JAK3'
+
+See the event's documentation in PATHWAY: 274
+
+----> event: 'JAK3',associate,'STAT'
+
+See the event's documentation in PATHWAY: 211
+
+----> event: 'STAT',regulate,'STAT'
+
+See the event's documentation in PATHWAY: 27
+
+---------------------------------------------------: 
+
+PATHWAY: 282
+'CD8',bind,'CD4';'CD4',associate,'MHC';'MHC',associate,'JAK3';'JAK3',associate,'STAT';'STAT',inhibit,'SARS-CoV-2'
+
+----> event: 'CD8',bind,'CD4'
+
+See the event's documentation in PATHWAY: 64
+
+----> event: 'CD4',associate,'MHC'
+
+See the event's documentation in PATHWAY: 274
+
+----> event: 'MHC',associate,'JAK3'
+
+See the event's documentation in PATHWAY: 274
+
+----> event: 'JAK3',associate,'STAT'
+
+See the event's documentation in PATHWAY: 211
+
+----> event: 'STAT',inhibit,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 40
+
+---------------------------------------------------: 
+
+PATHWAY: 283
+'CD8',bind,'CD4';'CD4',associate,'MHC';'MHC',associate,'JAK3';'JAK3',associate,'STAT';'STAT',regulate,'SARS-CoV-2'
+
+----> event: 'CD8',bind,'CD4'
+
+See the event's documentation in PATHWAY: 64
+
+----> event: 'CD4',associate,'MHC'
+
+See the event's documentation in PATHWAY: 274
+
+----> event: 'MHC',associate,'JAK3'
+
+See the event's documentation in PATHWAY: 274
+
+----> event: 'JAK3',associate,'STAT'
+
+See the event's documentation in PATHWAY: 211
+
+----> event: 'STAT',regulate,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 51
+
+---------------------------------------------------: 
+
+PATHWAY: 284
+'importin',bind,'CD4';'CD4',associate,'MHC';'MHC',associate,'STAT';'STAT',bind,'STAT'
+
+----> event: 'importin',bind,'CD4'
+
+See the event's documentation in PATHWAY: 63
+
+----> event: 'CD4',associate,'MHC'
+
+See the event's documentation in PATHWAY: 274
+
+----> event: 'MHC',associate,'STAT'
+
+See the event's documentation in PATHWAY: 229
+
+----> event: 'STAT',bind,'STAT'
+
+See the event's documentation in PATHWAY: 1
+
+---------------------------------------------------: 
+
+PATHWAY: 285
+'importin',bind,'CD4';'CD4',associate,'MHC';'MHC',associate,'STAT';'STAT',inhibit,'STAT'
+
+----> event: 'importin',bind,'CD4'
+
+See the event's documentation in PATHWAY: 63
+
+----> event: 'CD4',associate,'MHC'
+
+See the event's documentation in PATHWAY: 274
+
+----> event: 'MHC',associate,'STAT'
+
+See the event's documentation in PATHWAY: 229
+
+----> event: 'STAT',inhibit,'STAT'
+
+See the event's documentation in PATHWAY: 14
+
+---------------------------------------------------: 
+
+PATHWAY: 286
+'importin',bind,'CD4';'CD4',associate,'MHC';'MHC',associate,'STAT';'STAT',regulate,'STAT'
+
+----> event: 'importin',bind,'CD4'
+
+See the event's documentation in PATHWAY: 63
+
+----> event: 'CD4',associate,'MHC'
+
+See the event's documentation in PATHWAY: 274
+
+----> event: 'MHC',associate,'STAT'
+
+See the event's documentation in PATHWAY: 229
+
+----> event: 'STAT',regulate,'STAT'
+
+See the event's documentation in PATHWAY: 27
+
+---------------------------------------------------: 
+
+PATHWAY: 287
+'importin',bind,'CD4';'CD4',associate,'MHC';'MHC',associate,'STAT';'STAT',inhibit,'SARS-CoV-2'
+
+----> event: 'importin',bind,'CD4'
+
+See the event's documentation in PATHWAY: 63
+
+----> event: 'CD4',associate,'MHC'
+
+See the event's documentation in PATHWAY: 274
+
+----> event: 'MHC',associate,'STAT'
+
+See the event's documentation in PATHWAY: 229
+
+----> event: 'STAT',inhibit,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 40
+
+---------------------------------------------------: 
+
+PATHWAY: 288
+'importin',bind,'CD4';'CD4',associate,'MHC';'MHC',associate,'STAT';'STAT',regulate,'SARS-CoV-2'
+
+----> event: 'importin',bind,'CD4'
+
+See the event's documentation in PATHWAY: 63
+
+----> event: 'CD4',associate,'MHC'
+
+See the event's documentation in PATHWAY: 274
+
+----> event: 'MHC',associate,'STAT'
+
+See the event's documentation in PATHWAY: 229
+
+----> event: 'STAT',regulate,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 51
+
+---------------------------------------------------: 
+
+PATHWAY: 289
+'CD8',bind,'CD4';'CD4',associate,'MHC';'MHC',associate,'STAT';'STAT',bind,'STAT'
+
+----> event: 'CD8',bind,'CD4'
+
+See the event's documentation in PATHWAY: 64
+
+----> event: 'CD4',associate,'MHC'
+
+See the event's documentation in PATHWAY: 274
+
+----> event: 'MHC',associate,'STAT'
+
+See the event's documentation in PATHWAY: 229
+
+----> event: 'STAT',bind,'STAT'
+
+See the event's documentation in PATHWAY: 1
+
+---------------------------------------------------: 
+
+PATHWAY: 290
+'CD8',bind,'CD4';'CD4',associate,'MHC';'MHC',associate,'STAT';'STAT',inhibit,'STAT'
+
+----> event: 'CD8',bind,'CD4'
+
+See the event's documentation in PATHWAY: 64
+
+----> event: 'CD4',associate,'MHC'
+
+See the event's documentation in PATHWAY: 274
+
+----> event: 'MHC',associate,'STAT'
+
+See the event's documentation in PATHWAY: 229
+
+----> event: 'STAT',inhibit,'STAT'
+
+See the event's documentation in PATHWAY: 14
+
+---------------------------------------------------: 
+
+PATHWAY: 291
+'CD8',bind,'CD4';'CD4',associate,'MHC';'MHC',associate,'STAT';'STAT',regulate,'STAT'
+
+----> event: 'CD8',bind,'CD4'
+
+See the event's documentation in PATHWAY: 64
+
+----> event: 'CD4',associate,'MHC'
+
+See the event's documentation in PATHWAY: 274
+
+----> event: 'MHC',associate,'STAT'
+
+See the event's documentation in PATHWAY: 229
+
+----> event: 'STAT',regulate,'STAT'
+
+See the event's documentation in PATHWAY: 27
+
+---------------------------------------------------: 
+
+PATHWAY: 292
+'CD8',bind,'CD4';'CD4',associate,'MHC';'MHC',associate,'STAT';'STAT',inhibit,'SARS-CoV-2'
+
+----> event: 'CD8',bind,'CD4'
+
+See the event's documentation in PATHWAY: 64
+
+----> event: 'CD4',associate,'MHC'
+
+See the event's documentation in PATHWAY: 274
+
+----> event: 'MHC',associate,'STAT'
+
+See the event's documentation in PATHWAY: 229
+
+----> event: 'STAT',inhibit,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 40
+
+---------------------------------------------------: 
+
+PATHWAY: 293
+'CD8',bind,'CD4';'CD4',associate,'MHC';'MHC',associate,'STAT';'STAT',regulate,'SARS-CoV-2'
+
+----> event: 'CD8',bind,'CD4'
+
+See the event's documentation in PATHWAY: 64
+
+----> event: 'CD4',associate,'MHC'
+
+See the event's documentation in PATHWAY: 274
+
+----> event: 'MHC',associate,'STAT'
+
+See the event's documentation in PATHWAY: 229
+
+----> event: 'STAT',regulate,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 51
+
+---------------------------------------------------: 
+
+PATHWAY: 294
+'STAT',bind,'CD4';'CD4',associate,'MHC';'MHC',associate,'CD8';'CD8',regulate,'SARS-CoV-2'
+
+----> event: 'STAT',bind,'CD4'
+
+See the event's documentation in PATHWAY: 65
+
+----> event: 'CD4',associate,'MHC'
+
+See the event's documentation in PATHWAY: 274
+
+----> event: 'MHC',associate,'CD8'
+
+See the event's documentation in PATHWAY: 187
+
+----> event: 'CD8',regulate,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 49
+
+---------------------------------------------------: 
+
+PATHWAY: 295
+'STAT',bind,'CD4';'CD4',associate,'MHC';'MHC',associate,'CD8';'CD8',inhibit,'SARS-CoV-2'
+
+----> event: 'STAT',bind,'CD4'
+
+See the event's documentation in PATHWAY: 65
+
+----> event: 'CD4',associate,'MHC'
+
+See the event's documentation in PATHWAY: 274
+
+----> event: 'MHC',associate,'CD8'
+
+See the event's documentation in PATHWAY: 187
+
+----> event: 'CD8',inhibit,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 50
+
+---------------------------------------------------: 
+
+PATHWAY: 296
+'STAT',bind,'CD4';'CD4',associate,'MHC';'MHC',associate,'CD8';'CD8',bind,'SARS-CoV-2'
+
+----> event: 'STAT',bind,'CD4'
+
+See the event's documentation in PATHWAY: 65
+
+----> event: 'CD4',associate,'MHC'
+
+See the event's documentation in PATHWAY: 274
+
+----> event: 'MHC',associate,'CD8'
+
+See the event's documentation in PATHWAY: 187
+
+----> event: 'CD8',bind,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 172
+
+---------------------------------------------------: 
+
+PATHWAY: 297
+'importin',bind,'CD4';'CD4',associate,'MHC';'MHC',associate,'CD8';'CD8',regulate,'STAT'
+
+----> event: 'importin',bind,'CD4'
+
+See the event's documentation in PATHWAY: 63
+
+----> event: 'CD4',associate,'MHC'
+
+See the event's documentation in PATHWAY: 274
+
+----> event: 'MHC',associate,'CD8'
+
+See the event's documentation in PATHWAY: 187
+
+----> event: 'CD8',regulate,'STAT'
+
+See the event's documentation in PATHWAY: 12
+
+---------------------------------------------------: 
+
+PATHWAY: 298
+'importin',bind,'CD4';'CD4',associate,'MHC';'MHC',associate,'CD8';'CD8',inhibit,'STAT'
+
+----> event: 'importin',bind,'CD4'
+
+See the event's documentation in PATHWAY: 63
+
+----> event: 'CD4',associate,'MHC'
+
+See the event's documentation in PATHWAY: 274
+
+----> event: 'MHC',associate,'CD8'
+
+See the event's documentation in PATHWAY: 187
+
+----> event: 'CD8',inhibit,'STAT'
+
+See the event's documentation in PATHWAY: 13
+
+---------------------------------------------------: 
+
+PATHWAY: 299
+'importin',bind,'CD4';'CD4',associate,'MHC';'MHC',associate,'CD8';'CD8',bind,'STAT'
+
+----> event: 'importin',bind,'CD4'
+
+See the event's documentation in PATHWAY: 63
+
+----> event: 'CD4',associate,'MHC'
+
+See the event's documentation in PATHWAY: 274
+
+----> event: 'MHC',associate,'CD8'
+
+See the event's documentation in PATHWAY: 187
+
+----> event: 'CD8',bind,'STAT'
+
+See the event's documentation in PATHWAY: 5
+
+---------------------------------------------------: 
+
+PATHWAY: 300
+'importin',bind,'CD4';'CD4',associate,'MHC';'MHC',associate,'CD8';'CD8',regulate,'SARS-CoV-2'
+
+----> event: 'importin',bind,'CD4'
+
+See the event's documentation in PATHWAY: 63
+
+----> event: 'CD4',associate,'MHC'
+
+See the event's documentation in PATHWAY: 274
+
+----> event: 'MHC',associate,'CD8'
+
+See the event's documentation in PATHWAY: 187
+
+----> event: 'CD8',regulate,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 49
+
+---------------------------------------------------: 
+
+PATHWAY: 301
+'importin',bind,'CD4';'CD4',associate,'MHC';'MHC',associate,'CD8';'CD8',inhibit,'SARS-CoV-2'
+
+----> event: 'importin',bind,'CD4'
+
+See the event's documentation in PATHWAY: 63
+
+----> event: 'CD4',associate,'MHC'
+
+See the event's documentation in PATHWAY: 274
+
+----> event: 'MHC',associate,'CD8'
+
+See the event's documentation in PATHWAY: 187
+
+----> event: 'CD8',inhibit,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 50
+
+---------------------------------------------------: 
+
+PATHWAY: 302
+'importin',bind,'CD4';'CD4',associate,'MHC';'MHC',associate,'CD8';'CD8',bind,'SARS-CoV-2'
+
+----> event: 'importin',bind,'CD4'
+
+See the event's documentation in PATHWAY: 63
+
+----> event: 'CD4',associate,'MHC'
+
+See the event's documentation in PATHWAY: 274
+
+----> event: 'MHC',associate,'CD8'
+
+See the event's documentation in PATHWAY: 187
+
+----> event: 'CD8',bind,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 172
+
+---------------------------------------------------: 
+
+PATHWAY: 303
+'importin',bind,'CD4';'CD4',associate,'MHC';'MHC',associate,'CD8';'CD8',associate,'JAK3';'JAK3',associate,'STAT';'STAT',bind,'STAT'
+
+----> event: 'importin',bind,'CD4'
+
+See the event's documentation in PATHWAY: 63
+
+----> event: 'CD4',associate,'MHC'
+
+See the event's documentation in PATHWAY: 274
+
+----> event: 'MHC',associate,'CD8'
+
+See the event's documentation in PATHWAY: 187
+
+----> event: 'CD8',associate,'JAK3'
+
+----> event: 'JAK3',associate,'STAT'
+
+See the event's documentation in PATHWAY: 211
+
+----> event: 'STAT',bind,'STAT'
+
+See the event's documentation in PATHWAY: 1
+
+---------------------------------------------------: 
+
+PATHWAY: 304
+'importin',bind,'CD4';'CD4',associate,'MHC';'MHC',associate,'CD8';'CD8',associate,'JAK3';'JAK3',associate,'STAT';'STAT',inhibit,'STAT'
+
+----> event: 'importin',bind,'CD4'
+
+See the event's documentation in PATHWAY: 63
+
+----> event: 'CD4',associate,'MHC'
+
+See the event's documentation in PATHWAY: 274
+
+----> event: 'MHC',associate,'CD8'
+
+See the event's documentation in PATHWAY: 187
+
+----> event: 'CD8',associate,'JAK3'
+
+See the event's documentation in PATHWAY: 303
+
+----> event: 'JAK3',associate,'STAT'
+
+See the event's documentation in PATHWAY: 211
+
+----> event: 'STAT',inhibit,'STAT'
+
+See the event's documentation in PATHWAY: 14
+
+---------------------------------------------------: 
+
+PATHWAY: 305
+'importin',bind,'CD4';'CD4',associate,'MHC';'MHC',associate,'CD8';'CD8',associate,'JAK3';'JAK3',associate,'STAT';'STAT',regulate,'STAT'
+
+----> event: 'importin',bind,'CD4'
+
+See the event's documentation in PATHWAY: 63
+
+----> event: 'CD4',associate,'MHC'
+
+See the event's documentation in PATHWAY: 274
+
+----> event: 'MHC',associate,'CD8'
+
+See the event's documentation in PATHWAY: 187
+
+----> event: 'CD8',associate,'JAK3'
+
+See the event's documentation in PATHWAY: 303
+
+----> event: 'JAK3',associate,'STAT'
+
+See the event's documentation in PATHWAY: 211
+
+----> event: 'STAT',regulate,'STAT'
+
+See the event's documentation in PATHWAY: 27
+
+---------------------------------------------------: 
+
+PATHWAY: 306
+'importin',bind,'CD4';'CD4',associate,'MHC';'MHC',associate,'CD8';'CD8',associate,'JAK3';'JAK3',associate,'STAT';'STAT',inhibit,'SARS-CoV-2'
+
+----> event: 'importin',bind,'CD4'
+
+See the event's documentation in PATHWAY: 63
+
+----> event: 'CD4',associate,'MHC'
+
+See the event's documentation in PATHWAY: 274
+
+----> event: 'MHC',associate,'CD8'
+
+See the event's documentation in PATHWAY: 187
+
+----> event: 'CD8',associate,'JAK3'
+
+See the event's documentation in PATHWAY: 303
+
+----> event: 'JAK3',associate,'STAT'
+
+See the event's documentation in PATHWAY: 211
+
+----> event: 'STAT',inhibit,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 40
+
+---------------------------------------------------: 
+
+PATHWAY: 307
+'importin',bind,'CD4';'CD4',associate,'MHC';'MHC',associate,'CD8';'CD8',associate,'JAK3';'JAK3',associate,'STAT';'STAT',regulate,'SARS-CoV-2'
+
+----> event: 'importin',bind,'CD4'
+
+See the event's documentation in PATHWAY: 63
+
+----> event: 'CD4',associate,'MHC'
+
+See the event's documentation in PATHWAY: 274
+
+----> event: 'MHC',associate,'CD8'
+
+See the event's documentation in PATHWAY: 187
+
+----> event: 'CD8',associate,'JAK3'
+
+See the event's documentation in PATHWAY: 303
+
+----> event: 'JAK3',associate,'STAT'
+
+See the event's documentation in PATHWAY: 211
+
+----> event: 'STAT',regulate,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 51
+
+---------------------------------------------------: 
+
+PATHWAY: 308
+'importin',bind,'CD4';'CD4',associate,'MHC';'MHC',associate,'CD8';'CD8',associate,'STAT';'STAT',bind,'STAT'
+
+----> event: 'importin',bind,'CD4'
+
+See the event's documentation in PATHWAY: 63
+
+----> event: 'CD4',associate,'MHC'
+
+See the event's documentation in PATHWAY: 274
+
+----> event: 'MHC',associate,'CD8'
+
+See the event's documentation in PATHWAY: 187
+
+----> event: 'CD8',associate,'STAT'
+
+See the event's documentation in PATHWAY: 248
+
+----> event: 'STAT',bind,'STAT'
+
+See the event's documentation in PATHWAY: 1
+
+---------------------------------------------------: 
+
+PATHWAY: 309
+'importin',bind,'CD4';'CD4',associate,'MHC';'MHC',associate,'CD8';'CD8',associate,'STAT';'STAT',inhibit,'STAT'
+
+----> event: 'importin',bind,'CD4'
+
+See the event's documentation in PATHWAY: 63
+
+----> event: 'CD4',associate,'MHC'
+
+See the event's documentation in PATHWAY: 274
+
+----> event: 'MHC',associate,'CD8'
+
+See the event's documentation in PATHWAY: 187
+
+----> event: 'CD8',associate,'STAT'
+
+See the event's documentation in PATHWAY: 248
+
+----> event: 'STAT',inhibit,'STAT'
+
+See the event's documentation in PATHWAY: 14
+
+---------------------------------------------------: 
+
+PATHWAY: 310
+'importin',bind,'CD4';'CD4',associate,'MHC';'MHC',associate,'CD8';'CD8',associate,'STAT';'STAT',regulate,'STAT'
+
+----> event: 'importin',bind,'CD4'
+
+See the event's documentation in PATHWAY: 63
+
+----> event: 'CD4',associate,'MHC'
+
+See the event's documentation in PATHWAY: 274
+
+----> event: 'MHC',associate,'CD8'
+
+See the event's documentation in PATHWAY: 187
+
+----> event: 'CD8',associate,'STAT'
+
+See the event's documentation in PATHWAY: 248
+
+----> event: 'STAT',regulate,'STAT'
+
+See the event's documentation in PATHWAY: 27
+
+---------------------------------------------------: 
+
+PATHWAY: 311
+'importin',bind,'CD4';'CD4',associate,'MHC';'MHC',associate,'CD8';'CD8',associate,'STAT';'STAT',inhibit,'SARS-CoV-2'
+
+----> event: 'importin',bind,'CD4'
+
+See the event's documentation in PATHWAY: 63
+
+----> event: 'CD4',associate,'MHC'
+
+See the event's documentation in PATHWAY: 274
+
+----> event: 'MHC',associate,'CD8'
+
+See the event's documentation in PATHWAY: 187
+
+----> event: 'CD8',associate,'STAT'
+
+See the event's documentation in PATHWAY: 248
+
+----> event: 'STAT',inhibit,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 40
+
+---------------------------------------------------: 
+
+PATHWAY: 312
+'importin',bind,'CD4';'CD4',associate,'MHC';'MHC',associate,'CD8';'CD8',associate,'STAT';'STAT',regulate,'SARS-CoV-2'
+
+----> event: 'importin',bind,'CD4'
+
+See the event's documentation in PATHWAY: 63
+
+----> event: 'CD4',associate,'MHC'
+
+See the event's documentation in PATHWAY: 274
+
+----> event: 'MHC',associate,'CD8'
+
+See the event's documentation in PATHWAY: 187
+
+----> event: 'CD8',associate,'STAT'
+
+See the event's documentation in PATHWAY: 248
+
+----> event: 'STAT',regulate,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 51
+
+---------------------------------------------------: 
+
+PATHWAY: 313
+'CD4',bind,'importin';'importin',associate,'STAT';'STAT',bind,'STAT'
+
+----> event: 'CD4',bind,'importin'
+
+See the event's documentation in PATHWAY: 115
+
+----> event: 'importin',associate,'STAT'
+
+----> event: 'STAT',bind,'STAT'
+
+See the event's documentation in PATHWAY: 1
+
+---------------------------------------------------: 
+
+PATHWAY: 314
+'CD4',bind,'importin';'importin',associate,'STAT';'STAT',inhibit,'STAT'
+
+----> event: 'CD4',bind,'importin'
+
+See the event's documentation in PATHWAY: 115
+
+----> event: 'importin',associate,'STAT'
+
+See the event's documentation in PATHWAY: 313
+
+----> event: 'STAT',inhibit,'STAT'
+
+See the event's documentation in PATHWAY: 14
+
+---------------------------------------------------: 
+
+PATHWAY: 315
+'CD4',bind,'importin';'importin',associate,'STAT';'STAT',regulate,'STAT'
+
+----> event: 'CD4',bind,'importin'
+
+See the event's documentation in PATHWAY: 115
+
+----> event: 'importin',associate,'STAT'
+
+See the event's documentation in PATHWAY: 313
+
+----> event: 'STAT',regulate,'STAT'
+
+See the event's documentation in PATHWAY: 27
+
+---------------------------------------------------: 
+
+PATHWAY: 316
+'CD4',bind,'importin';'importin',associate,'STAT';'STAT',inhibit,'SARS-CoV-2'
+
+----> event: 'CD4',bind,'importin'
+
+See the event's documentation in PATHWAY: 115
+
+----> event: 'importin',associate,'STAT'
+
+See the event's documentation in PATHWAY: 313
+
+----> event: 'STAT',inhibit,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 40
+
+---------------------------------------------------: 
+
+PATHWAY: 317
+'CD4',bind,'importin';'importin',associate,'STAT';'STAT',regulate,'SARS-CoV-2'
+
+----> event: 'CD4',bind,'importin'
+
+See the event's documentation in PATHWAY: 115
+
+----> event: 'importin',associate,'STAT'
+
+See the event's documentation in PATHWAY: 313
+
+----> event: 'STAT',regulate,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 51
+
+---------------------------------------------------: 
+
+PATHWAY: 318
+'CD4',bind,'importin';'importin',associate,'STAT';'STAT',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'CD8';'CD8',regulate,'SARS-CoV-2'
+
+----> event: 'CD4',bind,'importin'
+
+See the event's documentation in PATHWAY: 115
+
+----> event: 'importin',associate,'STAT'
+
+See the event's documentation in PATHWAY: 313
+
+----> event: 'STAT',associate,'JAK3'
+
+See the event's documentation in PATHWAY: 181
+
+----> event: 'JAK3',associate,'MHC'
+
+See the event's documentation in PATHWAY: 181
+
+----> event: 'MHC',associate,'CD8'
+
+See the event's documentation in PATHWAY: 187
+
+----> event: 'CD8',regulate,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 49
+
+---------------------------------------------------: 
+
+PATHWAY: 319
+'CD4',bind,'importin';'importin',associate,'STAT';'STAT',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'CD8';'CD8',inhibit,'SARS-CoV-2'
+
+----> event: 'CD4',bind,'importin'
+
+See the event's documentation in PATHWAY: 115
+
+----> event: 'importin',associate,'STAT'
+
+See the event's documentation in PATHWAY: 313
+
+----> event: 'STAT',associate,'JAK3'
+
+See the event's documentation in PATHWAY: 181
+
+----> event: 'JAK3',associate,'MHC'
+
+See the event's documentation in PATHWAY: 181
+
+----> event: 'MHC',associate,'CD8'
+
+See the event's documentation in PATHWAY: 187
+
+----> event: 'CD8',inhibit,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 50
+
+---------------------------------------------------: 
+
+PATHWAY: 320
+'CD4',bind,'importin';'importin',associate,'STAT';'STAT',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'CD8';'CD8',bind,'SARS-CoV-2'
+
+----> event: 'CD4',bind,'importin'
+
+See the event's documentation in PATHWAY: 115
+
+----> event: 'importin',associate,'STAT'
+
+See the event's documentation in PATHWAY: 313
+
+----> event: 'STAT',associate,'JAK3'
+
+See the event's documentation in PATHWAY: 181
+
+----> event: 'JAK3',associate,'MHC'
+
+See the event's documentation in PATHWAY: 181
+
+----> event: 'MHC',associate,'CD8'
+
+See the event's documentation in PATHWAY: 187
+
+----> event: 'CD8',bind,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 172
+
+---------------------------------------------------: 
+
+PATHWAY: 321
+'CD4',bind,'importin';'importin',associate,'STAT';'STAT',associate,'MHC';'MHC',associate,'CD8';'CD8',regulate,'SARS-CoV-2'
+
+----> event: 'CD4',bind,'importin'
+
+See the event's documentation in PATHWAY: 115
+
+----> event: 'importin',associate,'STAT'
+
+See the event's documentation in PATHWAY: 313
+
+----> event: 'STAT',associate,'MHC'
+
+See the event's documentation in PATHWAY: 196
+
+----> event: 'MHC',associate,'CD8'
+
+See the event's documentation in PATHWAY: 187
+
+----> event: 'CD8',regulate,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 49
+
+---------------------------------------------------: 
+
+PATHWAY: 322
+'CD4',bind,'importin';'importin',associate,'STAT';'STAT',associate,'MHC';'MHC',associate,'CD8';'CD8',inhibit,'SARS-CoV-2'
+
+----> event: 'CD4',bind,'importin'
+
+See the event's documentation in PATHWAY: 115
+
+----> event: 'importin',associate,'STAT'
+
+See the event's documentation in PATHWAY: 313
+
+----> event: 'STAT',associate,'MHC'
+
+See the event's documentation in PATHWAY: 196
+
+----> event: 'MHC',associate,'CD8'
+
+See the event's documentation in PATHWAY: 187
+
+----> event: 'CD8',inhibit,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 50
+
+---------------------------------------------------: 
+
+PATHWAY: 323
+'CD4',bind,'importin';'importin',associate,'STAT';'STAT',associate,'MHC';'MHC',associate,'CD8';'CD8',bind,'SARS-CoV-2'
+
+----> event: 'CD4',bind,'importin'
+
+See the event's documentation in PATHWAY: 115
+
+----> event: 'importin',associate,'STAT'
+
+See the event's documentation in PATHWAY: 313
+
+----> event: 'STAT',associate,'MHC'
+
+See the event's documentation in PATHWAY: 196
+
+----> event: 'MHC',associate,'CD8'
+
+See the event's documentation in PATHWAY: 187
+
+----> event: 'CD8',bind,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 172
+
+---------------------------------------------------: 
+
+PATHWAY: 324
+'CD4',bind,'importin';'importin',associate,'ORF6';'ORF6',bind,'STAT'
+
+----> event: 'CD4',bind,'importin'
+
+See the event's documentation in PATHWAY: 115
+
+----> event: 'importin',associate,'ORF6'
+
+----> event: 'ORF6',bind,'STAT'
+
+See the event's documentation in PATHWAY: 2
+
+---------------------------------------------------: 
+
+PATHWAY: 325
+'STAT',bind,'importin';'importin',associate,'CD8';'CD8',regulate,'SARS-CoV-2'
+
+----> event: 'STAT',bind,'importin'
+
+See the event's documentation in PATHWAY: 116
+
+----> event: 'importin',associate,'CD8'
+
+----> event: 'CD8',regulate,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 49
+
+---------------------------------------------------: 
+
+PATHWAY: 326
+'STAT',bind,'importin';'importin',associate,'CD8';'CD8',inhibit,'SARS-CoV-2'
+
+----> event: 'STAT',bind,'importin'
+
+See the event's documentation in PATHWAY: 116
+
+----> event: 'importin',associate,'CD8'
+
+See the event's documentation in PATHWAY: 325
+
+----> event: 'CD8',inhibit,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 50
+
+---------------------------------------------------: 
+
+PATHWAY: 327
+'STAT',bind,'importin';'importin',associate,'CD8';'CD8',bind,'SARS-CoV-2'
+
+----> event: 'STAT',bind,'importin'
+
+See the event's documentation in PATHWAY: 116
+
+----> event: 'importin',associate,'CD8'
+
+See the event's documentation in PATHWAY: 325
+
+----> event: 'CD8',bind,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 172
+
+---------------------------------------------------: 
+
+PATHWAY: 328
+'CD4',bind,'importin';'importin',associate,'CD8';'CD8',regulate,'STAT'
+
+----> event: 'CD4',bind,'importin'
+
+See the event's documentation in PATHWAY: 115
+
+----> event: 'importin',associate,'CD8'
+
+See the event's documentation in PATHWAY: 325
+
+----> event: 'CD8',regulate,'STAT'
+
+See the event's documentation in PATHWAY: 12
+
+---------------------------------------------------: 
+
+PATHWAY: 329
+'CD4',bind,'importin';'importin',associate,'CD8';'CD8',inhibit,'STAT'
+
+----> event: 'CD4',bind,'importin'
+
+See the event's documentation in PATHWAY: 115
+
+----> event: 'importin',associate,'CD8'
+
+See the event's documentation in PATHWAY: 325
+
+----> event: 'CD8',inhibit,'STAT'
+
+See the event's documentation in PATHWAY: 13
+
+---------------------------------------------------: 
+
+PATHWAY: 330
+'CD4',bind,'importin';'importin',associate,'CD8';'CD8',bind,'STAT'
+
+----> event: 'CD4',bind,'importin'
+
+See the event's documentation in PATHWAY: 115
+
+----> event: 'importin',associate,'CD8'
+
+See the event's documentation in PATHWAY: 325
+
+----> event: 'CD8',bind,'STAT'
+
+See the event's documentation in PATHWAY: 5
+
+---------------------------------------------------: 
+
+PATHWAY: 331
+'CD4',bind,'importin';'importin',associate,'CD8';'CD8',regulate,'SARS-CoV-2'
+
+----> event: 'CD4',bind,'importin'
+
+See the event's documentation in PATHWAY: 115
+
+----> event: 'importin',associate,'CD8'
+
+See the event's documentation in PATHWAY: 325
+
+----> event: 'CD8',regulate,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 49
+
+---------------------------------------------------: 
+
+PATHWAY: 332
+'CD4',bind,'importin';'importin',associate,'CD8';'CD8',inhibit,'SARS-CoV-2'
+
+----> event: 'CD4',bind,'importin'
+
+See the event's documentation in PATHWAY: 115
+
+----> event: 'importin',associate,'CD8'
+
+See the event's documentation in PATHWAY: 325
+
+----> event: 'CD8',inhibit,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 50
+
+---------------------------------------------------: 
+
+PATHWAY: 333
+'CD4',bind,'importin';'importin',associate,'CD8';'CD8',bind,'SARS-CoV-2'
+
+----> event: 'CD4',bind,'importin'
+
+See the event's documentation in PATHWAY: 115
+
+----> event: 'importin',associate,'CD8'
+
+See the event's documentation in PATHWAY: 325
+
+----> event: 'CD8',bind,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 172
+
+---------------------------------------------------: 
+
+PATHWAY: 334
+'CD4',bind,'importin';'importin',associate,'CD8';'CD8',associate,'JAK3';'JAK3',associate,'STAT';'STAT',bind,'STAT'
+
+----> event: 'CD4',bind,'importin'
+
+See the event's documentation in PATHWAY: 115
+
+----> event: 'importin',associate,'CD8'
+
+See the event's documentation in PATHWAY: 325
+
+----> event: 'CD8',associate,'JAK3'
+
+See the event's documentation in PATHWAY: 303
+
+----> event: 'JAK3',associate,'STAT'
+
+See the event's documentation in PATHWAY: 211
+
+----> event: 'STAT',bind,'STAT'
+
+See the event's documentation in PATHWAY: 1
+
+---------------------------------------------------: 
+
+PATHWAY: 335
+'CD4',bind,'importin';'importin',associate,'CD8';'CD8',associate,'JAK3';'JAK3',associate,'STAT';'STAT',inhibit,'STAT'
+
+----> event: 'CD4',bind,'importin'
+
+See the event's documentation in PATHWAY: 115
+
+----> event: 'importin',associate,'CD8'
+
+See the event's documentation in PATHWAY: 325
+
+----> event: 'CD8',associate,'JAK3'
+
+See the event's documentation in PATHWAY: 303
+
+----> event: 'JAK3',associate,'STAT'
+
+See the event's documentation in PATHWAY: 211
+
+----> event: 'STAT',inhibit,'STAT'
+
+See the event's documentation in PATHWAY: 14
+
+---------------------------------------------------: 
+
+PATHWAY: 336
+'CD4',bind,'importin';'importin',associate,'CD8';'CD8',associate,'JAK3';'JAK3',associate,'STAT';'STAT',regulate,'STAT'
+
+----> event: 'CD4',bind,'importin'
+
+See the event's documentation in PATHWAY: 115
+
+----> event: 'importin',associate,'CD8'
+
+See the event's documentation in PATHWAY: 325
+
+----> event: 'CD8',associate,'JAK3'
+
+See the event's documentation in PATHWAY: 303
+
+----> event: 'JAK3',associate,'STAT'
+
+See the event's documentation in PATHWAY: 211
+
+----> event: 'STAT',regulate,'STAT'
+
+See the event's documentation in PATHWAY: 27
+
+---------------------------------------------------: 
+
+PATHWAY: 337
+'CD4',bind,'importin';'importin',associate,'CD8';'CD8',associate,'JAK3';'JAK3',associate,'STAT';'STAT',inhibit,'SARS-CoV-2'
+
+----> event: 'CD4',bind,'importin'
+
+See the event's documentation in PATHWAY: 115
+
+----> event: 'importin',associate,'CD8'
+
+See the event's documentation in PATHWAY: 325
+
+----> event: 'CD8',associate,'JAK3'
+
+See the event's documentation in PATHWAY: 303
+
+----> event: 'JAK3',associate,'STAT'
+
+See the event's documentation in PATHWAY: 211
+
+----> event: 'STAT',inhibit,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 40
+
+---------------------------------------------------: 
+
+PATHWAY: 338
+'CD4',bind,'importin';'importin',associate,'CD8';'CD8',associate,'JAK3';'JAK3',associate,'STAT';'STAT',regulate,'SARS-CoV-2'
+
+----> event: 'CD4',bind,'importin'
+
+See the event's documentation in PATHWAY: 115
+
+----> event: 'importin',associate,'CD8'
+
+See the event's documentation in PATHWAY: 325
+
+----> event: 'CD8',associate,'JAK3'
+
+See the event's documentation in PATHWAY: 303
+
+----> event: 'JAK3',associate,'STAT'
+
+See the event's documentation in PATHWAY: 211
+
+----> event: 'STAT',regulate,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 51
+
+---------------------------------------------------: 
+
+PATHWAY: 339
+'CD4',bind,'importin';'importin',associate,'CD8';'CD8',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'STAT';'STAT',bind,'STAT'
+
+----> event: 'CD4',bind,'importin'
+
+See the event's documentation in PATHWAY: 115
+
+----> event: 'importin',associate,'CD8'
+
+See the event's documentation in PATHWAY: 325
+
+----> event: 'CD8',associate,'JAK3'
+
+See the event's documentation in PATHWAY: 303
+
+----> event: 'JAK3',associate,'MHC'
+
+See the event's documentation in PATHWAY: 181
+
+----> event: 'MHC',associate,'STAT'
+
+See the event's documentation in PATHWAY: 229
+
+----> event: 'STAT',bind,'STAT'
+
+See the event's documentation in PATHWAY: 1
+
+---------------------------------------------------: 
+
+PATHWAY: 340
+'CD4',bind,'importin';'importin',associate,'CD8';'CD8',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'STAT';'STAT',inhibit,'STAT'
+
+----> event: 'CD4',bind,'importin'
+
+See the event's documentation in PATHWAY: 115
+
+----> event: 'importin',associate,'CD8'
+
+See the event's documentation in PATHWAY: 325
+
+----> event: 'CD8',associate,'JAK3'
+
+See the event's documentation in PATHWAY: 303
+
+----> event: 'JAK3',associate,'MHC'
+
+See the event's documentation in PATHWAY: 181
+
+----> event: 'MHC',associate,'STAT'
+
+See the event's documentation in PATHWAY: 229
+
+----> event: 'STAT',inhibit,'STAT'
+
+See the event's documentation in PATHWAY: 14
+
+---------------------------------------------------: 
+
+PATHWAY: 341
+'CD4',bind,'importin';'importin',associate,'CD8';'CD8',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'STAT';'STAT',regulate,'STAT'
+
+----> event: 'CD4',bind,'importin'
+
+See the event's documentation in PATHWAY: 115
+
+----> event: 'importin',associate,'CD8'
+
+See the event's documentation in PATHWAY: 325
+
+----> event: 'CD8',associate,'JAK3'
+
+See the event's documentation in PATHWAY: 303
+
+----> event: 'JAK3',associate,'MHC'
+
+See the event's documentation in PATHWAY: 181
+
+----> event: 'MHC',associate,'STAT'
+
+See the event's documentation in PATHWAY: 229
+
+----> event: 'STAT',regulate,'STAT'
+
+See the event's documentation in PATHWAY: 27
+
+---------------------------------------------------: 
+
+PATHWAY: 342
+'CD4',bind,'importin';'importin',associate,'CD8';'CD8',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'STAT';'STAT',inhibit,'SARS-CoV-2'
+
+----> event: 'CD4',bind,'importin'
+
+See the event's documentation in PATHWAY: 115
+
+----> event: 'importin',associate,'CD8'
+
+See the event's documentation in PATHWAY: 325
+
+----> event: 'CD8',associate,'JAK3'
+
+See the event's documentation in PATHWAY: 303
+
+----> event: 'JAK3',associate,'MHC'
+
+See the event's documentation in PATHWAY: 181
+
+----> event: 'MHC',associate,'STAT'
+
+See the event's documentation in PATHWAY: 229
+
+----> event: 'STAT',inhibit,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 40
+
+---------------------------------------------------: 
+
+PATHWAY: 343
+'CD4',bind,'importin';'importin',associate,'CD8';'CD8',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'STAT';'STAT',regulate,'SARS-CoV-2'
+
+----> event: 'CD4',bind,'importin'
+
+See the event's documentation in PATHWAY: 115
+
+----> event: 'importin',associate,'CD8'
+
+See the event's documentation in PATHWAY: 325
+
+----> event: 'CD8',associate,'JAK3'
+
+See the event's documentation in PATHWAY: 303
+
+----> event: 'JAK3',associate,'MHC'
+
+See the event's documentation in PATHWAY: 181
+
+----> event: 'MHC',associate,'STAT'
+
+See the event's documentation in PATHWAY: 229
+
+----> event: 'STAT',regulate,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 51
+
+---------------------------------------------------: 
+
+PATHWAY: 344
+'STAT',bind,'importin';'importin',associate,'CD8';'CD8',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'CD4';'CD4',regulate,'SARS-CoV-2'
+
+----> event: 'STAT',bind,'importin'
+
+See the event's documentation in PATHWAY: 116
+
+----> event: 'importin',associate,'CD8'
+
+See the event's documentation in PATHWAY: 325
+
+----> event: 'CD8',associate,'JAK3'
+
+See the event's documentation in PATHWAY: 303
+
+----> event: 'JAK3',associate,'MHC'
+
+See the event's documentation in PATHWAY: 181
+
+----> event: 'MHC',associate,'CD4'
+
+See the event's documentation in PATHWAY: 181
+
+----> event: 'CD4',regulate,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 47
+
+---------------------------------------------------: 
+
+PATHWAY: 345
+'STAT',bind,'importin';'importin',associate,'CD8';'CD8',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'CD4';'CD4',inhibit,'SARS-CoV-2'
+
+----> event: 'STAT',bind,'importin'
+
+See the event's documentation in PATHWAY: 116
+
+----> event: 'importin',associate,'CD8'
+
+See the event's documentation in PATHWAY: 325
+
+----> event: 'CD8',associate,'JAK3'
+
+See the event's documentation in PATHWAY: 303
+
+----> event: 'JAK3',associate,'MHC'
+
+See the event's documentation in PATHWAY: 181
+
+----> event: 'MHC',associate,'CD4'
+
+See the event's documentation in PATHWAY: 181
+
+----> event: 'CD4',inhibit,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 48
+
+---------------------------------------------------: 
+
+PATHWAY: 346
+'CD4',bind,'importin';'importin',associate,'CD8';'CD8',associate,'STAT';'STAT',bind,'STAT'
+
+----> event: 'CD4',bind,'importin'
+
+See the event's documentation in PATHWAY: 115
+
+----> event: 'importin',associate,'CD8'
+
+See the event's documentation in PATHWAY: 325
+
+----> event: 'CD8',associate,'STAT'
+
+See the event's documentation in PATHWAY: 248
+
+----> event: 'STAT',bind,'STAT'
+
+See the event's documentation in PATHWAY: 1
+
+---------------------------------------------------: 
+
+PATHWAY: 347
+'CD4',bind,'importin';'importin',associate,'CD8';'CD8',associate,'STAT';'STAT',inhibit,'STAT'
+
+----> event: 'CD4',bind,'importin'
+
+See the event's documentation in PATHWAY: 115
+
+----> event: 'importin',associate,'CD8'
+
+See the event's documentation in PATHWAY: 325
+
+----> event: 'CD8',associate,'STAT'
+
+See the event's documentation in PATHWAY: 248
+
+----> event: 'STAT',inhibit,'STAT'
+
+See the event's documentation in PATHWAY: 14
+
+---------------------------------------------------: 
+
+PATHWAY: 348
+'CD4',bind,'importin';'importin',associate,'CD8';'CD8',associate,'STAT';'STAT',regulate,'STAT'
+
+----> event: 'CD4',bind,'importin'
+
+See the event's documentation in PATHWAY: 115
+
+----> event: 'importin',associate,'CD8'
+
+See the event's documentation in PATHWAY: 325
+
+----> event: 'CD8',associate,'STAT'
+
+See the event's documentation in PATHWAY: 248
+
+----> event: 'STAT',regulate,'STAT'
+
+See the event's documentation in PATHWAY: 27
+
+---------------------------------------------------: 
+
+PATHWAY: 349
+'CD4',bind,'importin';'importin',associate,'CD8';'CD8',associate,'STAT';'STAT',inhibit,'SARS-CoV-2'
+
+----> event: 'CD4',bind,'importin'
+
+See the event's documentation in PATHWAY: 115
+
+----> event: 'importin',associate,'CD8'
+
+See the event's documentation in PATHWAY: 325
+
+----> event: 'CD8',associate,'STAT'
+
+See the event's documentation in PATHWAY: 248
+
+----> event: 'STAT',inhibit,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 40
+
+---------------------------------------------------: 
+
+PATHWAY: 350
+'CD4',bind,'importin';'importin',associate,'CD8';'CD8',associate,'STAT';'STAT',regulate,'SARS-CoV-2'
+
+----> event: 'CD4',bind,'importin'
+
+See the event's documentation in PATHWAY: 115
+
+----> event: 'importin',associate,'CD8'
+
+See the event's documentation in PATHWAY: 325
+
+----> event: 'CD8',associate,'STAT'
+
+See the event's documentation in PATHWAY: 248
+
+----> event: 'STAT',regulate,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 51
+
+---------------------------------------------------: 
+
+PATHWAY: 351
+'CD4',bind,'importin';'importin',associate,'CD8';'CD8',associate,'MHC';'MHC',associate,'JAK3';'JAK3',associate,'STAT';'STAT',bind,'STAT'
+
+----> event: 'CD4',bind,'importin'
+
+See the event's documentation in PATHWAY: 115
+
+----> event: 'importin',associate,'CD8'
+
+See the event's documentation in PATHWAY: 325
+
+----> event: 'CD8',associate,'MHC'
+
+----> event: 'MHC',associate,'JAK3'
+
+See the event's documentation in PATHWAY: 274
+
+----> event: 'JAK3',associate,'STAT'
+
+See the event's documentation in PATHWAY: 211
+
+----> event: 'STAT',bind,'STAT'
+
+See the event's documentation in PATHWAY: 1
+
+---------------------------------------------------: 
+
+PATHWAY: 352
+'CD4',bind,'importin';'importin',associate,'CD8';'CD8',associate,'MHC';'MHC',associate,'JAK3';'JAK3',associate,'STAT';'STAT',inhibit,'STAT'
+
+----> event: 'CD4',bind,'importin'
+
+See the event's documentation in PATHWAY: 115
+
+----> event: 'importin',associate,'CD8'
+
+See the event's documentation in PATHWAY: 325
+
+----> event: 'CD8',associate,'MHC'
+
+See the event's documentation in PATHWAY: 351
+
+----> event: 'MHC',associate,'JAK3'
+
+See the event's documentation in PATHWAY: 274
+
+----> event: 'JAK3',associate,'STAT'
+
+See the event's documentation in PATHWAY: 211
+
+----> event: 'STAT',inhibit,'STAT'
+
+See the event's documentation in PATHWAY: 14
+
+---------------------------------------------------: 
+
+PATHWAY: 353
+'CD4',bind,'importin';'importin',associate,'CD8';'CD8',associate,'MHC';'MHC',associate,'JAK3';'JAK3',associate,'STAT';'STAT',regulate,'STAT'
+
+----> event: 'CD4',bind,'importin'
+
+See the event's documentation in PATHWAY: 115
+
+----> event: 'importin',associate,'CD8'
+
+See the event's documentation in PATHWAY: 325
+
+----> event: 'CD8',associate,'MHC'
+
+See the event's documentation in PATHWAY: 351
+
+----> event: 'MHC',associate,'JAK3'
+
+See the event's documentation in PATHWAY: 274
+
+----> event: 'JAK3',associate,'STAT'
+
+See the event's documentation in PATHWAY: 211
+
+----> event: 'STAT',regulate,'STAT'
+
+See the event's documentation in PATHWAY: 27
+
+---------------------------------------------------: 
+
+PATHWAY: 354
+'CD4',bind,'importin';'importin',associate,'CD8';'CD8',associate,'MHC';'MHC',associate,'JAK3';'JAK3',associate,'STAT';'STAT',inhibit,'SARS-CoV-2'
+
+----> event: 'CD4',bind,'importin'
+
+See the event's documentation in PATHWAY: 115
+
+----> event: 'importin',associate,'CD8'
+
+See the event's documentation in PATHWAY: 325
+
+----> event: 'CD8',associate,'MHC'
+
+See the event's documentation in PATHWAY: 351
+
+----> event: 'MHC',associate,'JAK3'
+
+See the event's documentation in PATHWAY: 274
+
+----> event: 'JAK3',associate,'STAT'
+
+See the event's documentation in PATHWAY: 211
+
+----> event: 'STAT',inhibit,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 40
+
+---------------------------------------------------: 
+
+PATHWAY: 355
+'CD4',bind,'importin';'importin',associate,'CD8';'CD8',associate,'MHC';'MHC',associate,'JAK3';'JAK3',associate,'STAT';'STAT',regulate,'SARS-CoV-2'
+
+----> event: 'CD4',bind,'importin'
+
+See the event's documentation in PATHWAY: 115
+
+----> event: 'importin',associate,'CD8'
+
+See the event's documentation in PATHWAY: 325
+
+----> event: 'CD8',associate,'MHC'
+
+See the event's documentation in PATHWAY: 351
+
+----> event: 'MHC',associate,'JAK3'
+
+See the event's documentation in PATHWAY: 274
+
+----> event: 'JAK3',associate,'STAT'
+
+See the event's documentation in PATHWAY: 211
+
+----> event: 'STAT',regulate,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 51
+
+---------------------------------------------------: 
+
+PATHWAY: 356
+'CD4',bind,'importin';'importin',associate,'CD8';'CD8',associate,'MHC';'MHC',associate,'STAT';'STAT',bind,'STAT'
+
+----> event: 'CD4',bind,'importin'
+
+See the event's documentation in PATHWAY: 115
+
+----> event: 'importin',associate,'CD8'
+
+See the event's documentation in PATHWAY: 325
+
+----> event: 'CD8',associate,'MHC'
+
+See the event's documentation in PATHWAY: 351
+
+----> event: 'MHC',associate,'STAT'
+
+See the event's documentation in PATHWAY: 229
+
+----> event: 'STAT',bind,'STAT'
+
+See the event's documentation in PATHWAY: 1
+
+---------------------------------------------------: 
+
+PATHWAY: 357
+'CD4',bind,'importin';'importin',associate,'CD8';'CD8',associate,'MHC';'MHC',associate,'STAT';'STAT',inhibit,'STAT'
+
+----> event: 'CD4',bind,'importin'
+
+See the event's documentation in PATHWAY: 115
+
+----> event: 'importin',associate,'CD8'
+
+See the event's documentation in PATHWAY: 325
+
+----> event: 'CD8',associate,'MHC'
+
+See the event's documentation in PATHWAY: 351
+
+----> event: 'MHC',associate,'STAT'
+
+See the event's documentation in PATHWAY: 229
+
+----> event: 'STAT',inhibit,'STAT'
+
+See the event's documentation in PATHWAY: 14
+
+---------------------------------------------------: 
+
+PATHWAY: 358
+'CD4',bind,'importin';'importin',associate,'CD8';'CD8',associate,'MHC';'MHC',associate,'STAT';'STAT',regulate,'STAT'
+
+----> event: 'CD4',bind,'importin'
+
+See the event's documentation in PATHWAY: 115
+
+----> event: 'importin',associate,'CD8'
+
+See the event's documentation in PATHWAY: 325
+
+----> event: 'CD8',associate,'MHC'
+
+See the event's documentation in PATHWAY: 351
+
+----> event: 'MHC',associate,'STAT'
+
+See the event's documentation in PATHWAY: 229
+
+----> event: 'STAT',regulate,'STAT'
+
+See the event's documentation in PATHWAY: 27
+
+---------------------------------------------------: 
+
+PATHWAY: 359
+'CD4',bind,'importin';'importin',associate,'CD8';'CD8',associate,'MHC';'MHC',associate,'STAT';'STAT',inhibit,'SARS-CoV-2'
+
+----> event: 'CD4',bind,'importin'
+
+See the event's documentation in PATHWAY: 115
+
+----> event: 'importin',associate,'CD8'
+
+See the event's documentation in PATHWAY: 325
+
+----> event: 'CD8',associate,'MHC'
+
+See the event's documentation in PATHWAY: 351
+
+----> event: 'MHC',associate,'STAT'
+
+See the event's documentation in PATHWAY: 229
+
+----> event: 'STAT',inhibit,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 40
+
+---------------------------------------------------: 
+
+PATHWAY: 360
+'CD4',bind,'importin';'importin',associate,'CD8';'CD8',associate,'MHC';'MHC',associate,'STAT';'STAT',regulate,'SARS-CoV-2'
+
+----> event: 'CD4',bind,'importin'
+
+See the event's documentation in PATHWAY: 115
+
+----> event: 'importin',associate,'CD8'
+
+See the event's documentation in PATHWAY: 325
+
+----> event: 'CD8',associate,'MHC'
+
+See the event's documentation in PATHWAY: 351
+
+----> event: 'MHC',associate,'STAT'
+
+See the event's documentation in PATHWAY: 229
+
+----> event: 'STAT',regulate,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 51
+
+---------------------------------------------------: 
+
+PATHWAY: 361
+'STAT',bind,'importin';'importin',associate,'CD8';'CD8',associate,'MHC';'MHC',associate,'CD4';'CD4',regulate,'SARS-CoV-2'
+
+----> event: 'STAT',bind,'importin'
+
+See the event's documentation in PATHWAY: 116
+
+----> event: 'importin',associate,'CD8'
+
+See the event's documentation in PATHWAY: 325
+
+----> event: 'CD8',associate,'MHC'
+
+See the event's documentation in PATHWAY: 351
+
+----> event: 'MHC',associate,'CD4'
+
+See the event's documentation in PATHWAY: 181
+
+----> event: 'CD4',regulate,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 47
+
+---------------------------------------------------: 
+
+PATHWAY: 362
+'STAT',bind,'importin';'importin',associate,'CD8';'CD8',associate,'MHC';'MHC',associate,'CD4';'CD4',inhibit,'SARS-CoV-2'
+
+----> event: 'STAT',bind,'importin'
+
+See the event's documentation in PATHWAY: 116
+
+----> event: 'importin',associate,'CD8'
+
+See the event's documentation in PATHWAY: 325
+
+----> event: 'CD8',associate,'MHC'
+
+See the event's documentation in PATHWAY: 351
+
+----> event: 'MHC',associate,'CD4'
+
+See the event's documentation in PATHWAY: 181
+
+----> event: 'CD4',inhibit,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 48
+
+---------------------------------------------------: 
+
+PATHWAY: 363
+'MHC',bind,'CD8';'CD8',associate,'JAK3';'JAK3',associate,'STAT';'STAT',bind,'STAT'
+
+----> event: 'MHC',bind,'CD8'
+
+See the event's documentation in PATHWAY: 130
+
+----> event: 'CD8',associate,'JAK3'
+
+See the event's documentation in PATHWAY: 303
+
+----> event: 'JAK3',associate,'STAT'
+
+See the event's documentation in PATHWAY: 211
+
+----> event: 'STAT',bind,'STAT'
+
+See the event's documentation in PATHWAY: 1
+
+---------------------------------------------------: 
+
+PATHWAY: 364
+'MHC',bind,'CD8';'CD8',associate,'JAK3';'JAK3',associate,'STAT';'STAT',inhibit,'STAT'
+
+----> event: 'MHC',bind,'CD8'
+
+See the event's documentation in PATHWAY: 130
+
+----> event: 'CD8',associate,'JAK3'
+
+See the event's documentation in PATHWAY: 303
+
+----> event: 'JAK3',associate,'STAT'
+
+See the event's documentation in PATHWAY: 211
+
+----> event: 'STAT',inhibit,'STAT'
+
+See the event's documentation in PATHWAY: 14
+
+---------------------------------------------------: 
+
+PATHWAY: 365
+'MHC',bind,'CD8';'CD8',associate,'JAK3';'JAK3',associate,'STAT';'STAT',regulate,'STAT'
+
+----> event: 'MHC',bind,'CD8'
+
+See the event's documentation in PATHWAY: 130
+
+----> event: 'CD8',associate,'JAK3'
+
+See the event's documentation in PATHWAY: 303
+
+----> event: 'JAK3',associate,'STAT'
+
+See the event's documentation in PATHWAY: 211
+
+----> event: 'STAT',regulate,'STAT'
+
+See the event's documentation in PATHWAY: 27
+
+---------------------------------------------------: 
+
+PATHWAY: 366
+'MHC',bind,'CD8';'CD8',associate,'JAK3';'JAK3',associate,'STAT';'STAT',inhibit,'SARS-CoV-2'
+
+----> event: 'MHC',bind,'CD8'
+
+See the event's documentation in PATHWAY: 130
+
+----> event: 'CD8',associate,'JAK3'
+
+See the event's documentation in PATHWAY: 303
+
+----> event: 'JAK3',associate,'STAT'
+
+See the event's documentation in PATHWAY: 211
+
+----> event: 'STAT',inhibit,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 40
+
+---------------------------------------------------: 
+
+PATHWAY: 367
+'MHC',bind,'CD8';'CD8',associate,'JAK3';'JAK3',associate,'STAT';'STAT',regulate,'SARS-CoV-2'
+
+----> event: 'MHC',bind,'CD8'
+
+See the event's documentation in PATHWAY: 130
+
+----> event: 'CD8',associate,'JAK3'
+
+See the event's documentation in PATHWAY: 303
+
+----> event: 'JAK3',associate,'STAT'
+
+See the event's documentation in PATHWAY: 211
+
+----> event: 'STAT',regulate,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 51
+
+---------------------------------------------------: 
+
+PATHWAY: 368
+'CD4',bind,'CD8';'CD8',associate,'JAK3';'JAK3',associate,'STAT';'STAT',bind,'STAT'
+
+----> event: 'CD4',bind,'CD8'
+
+See the event's documentation in PATHWAY: 131
+
+----> event: 'CD8',associate,'JAK3'
+
+See the event's documentation in PATHWAY: 303
+
+----> event: 'JAK3',associate,'STAT'
+
+See the event's documentation in PATHWAY: 211
+
+----> event: 'STAT',bind,'STAT'
+
+See the event's documentation in PATHWAY: 1
+
+---------------------------------------------------: 
+
+PATHWAY: 369
+'CD4',bind,'CD8';'CD8',associate,'JAK3';'JAK3',associate,'STAT';'STAT',inhibit,'STAT'
+
+----> event: 'CD4',bind,'CD8'
+
+See the event's documentation in PATHWAY: 131
+
+----> event: 'CD8',associate,'JAK3'
+
+See the event's documentation in PATHWAY: 303
+
+----> event: 'JAK3',associate,'STAT'
+
+See the event's documentation in PATHWAY: 211
+
+----> event: 'STAT',inhibit,'STAT'
+
+See the event's documentation in PATHWAY: 14
+
+---------------------------------------------------: 
+
+PATHWAY: 370
+'CD4',bind,'CD8';'CD8',associate,'JAK3';'JAK3',associate,'STAT';'STAT',regulate,'STAT'
+
+----> event: 'CD4',bind,'CD8'
+
+See the event's documentation in PATHWAY: 131
+
+----> event: 'CD8',associate,'JAK3'
+
+See the event's documentation in PATHWAY: 303
+
+----> event: 'JAK3',associate,'STAT'
+
+See the event's documentation in PATHWAY: 211
+
+----> event: 'STAT',regulate,'STAT'
+
+See the event's documentation in PATHWAY: 27
+
+---------------------------------------------------: 
+
+PATHWAY: 371
+'CD4',bind,'CD8';'CD8',associate,'JAK3';'JAK3',associate,'STAT';'STAT',inhibit,'SARS-CoV-2'
+
+----> event: 'CD4',bind,'CD8'
+
+See the event's documentation in PATHWAY: 131
+
+----> event: 'CD8',associate,'JAK3'
+
+See the event's documentation in PATHWAY: 303
+
+----> event: 'JAK3',associate,'STAT'
+
+See the event's documentation in PATHWAY: 211
+
+----> event: 'STAT',inhibit,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 40
+
+---------------------------------------------------: 
+
+PATHWAY: 372
+'CD4',bind,'CD8';'CD8',associate,'JAK3';'JAK3',associate,'STAT';'STAT',regulate,'SARS-CoV-2'
+
+----> event: 'CD4',bind,'CD8'
+
+See the event's documentation in PATHWAY: 131
+
+----> event: 'CD8',associate,'JAK3'
+
+See the event's documentation in PATHWAY: 303
+
+----> event: 'JAK3',associate,'STAT'
+
+See the event's documentation in PATHWAY: 211
+
+----> event: 'STAT',regulate,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 51
+
+---------------------------------------------------: 
+
+PATHWAY: 373
+'CD4',bind,'CD8';'CD8',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'STAT';'STAT',bind,'STAT'
+
+----> event: 'CD4',bind,'CD8'
+
+See the event's documentation in PATHWAY: 131
+
+----> event: 'CD8',associate,'JAK3'
+
+See the event's documentation in PATHWAY: 303
+
+----> event: 'JAK3',associate,'MHC'
+
+See the event's documentation in PATHWAY: 181
+
+----> event: 'MHC',associate,'STAT'
+
+See the event's documentation in PATHWAY: 229
+
+----> event: 'STAT',bind,'STAT'
+
+See the event's documentation in PATHWAY: 1
+
+---------------------------------------------------: 
+
+PATHWAY: 374
+'CD4',bind,'CD8';'CD8',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'STAT';'STAT',inhibit,'STAT'
+
+----> event: 'CD4',bind,'CD8'
+
+See the event's documentation in PATHWAY: 131
+
+----> event: 'CD8',associate,'JAK3'
+
+See the event's documentation in PATHWAY: 303
+
+----> event: 'JAK3',associate,'MHC'
+
+See the event's documentation in PATHWAY: 181
+
+----> event: 'MHC',associate,'STAT'
+
+See the event's documentation in PATHWAY: 229
+
+----> event: 'STAT',inhibit,'STAT'
+
+See the event's documentation in PATHWAY: 14
+
+---------------------------------------------------: 
+
+PATHWAY: 375
+'CD4',bind,'CD8';'CD8',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'STAT';'STAT',regulate,'STAT'
+
+----> event: 'CD4',bind,'CD8'
+
+See the event's documentation in PATHWAY: 131
+
+----> event: 'CD8',associate,'JAK3'
+
+See the event's documentation in PATHWAY: 303
+
+----> event: 'JAK3',associate,'MHC'
+
+See the event's documentation in PATHWAY: 181
+
+----> event: 'MHC',associate,'STAT'
+
+See the event's documentation in PATHWAY: 229
+
+----> event: 'STAT',regulate,'STAT'
+
+See the event's documentation in PATHWAY: 27
+
+---------------------------------------------------: 
+
+PATHWAY: 376
+'CD4',bind,'CD8';'CD8',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'STAT';'STAT',inhibit,'SARS-CoV-2'
+
+----> event: 'CD4',bind,'CD8'
+
+See the event's documentation in PATHWAY: 131
+
+----> event: 'CD8',associate,'JAK3'
+
+See the event's documentation in PATHWAY: 303
+
+----> event: 'JAK3',associate,'MHC'
+
+See the event's documentation in PATHWAY: 181
+
+----> event: 'MHC',associate,'STAT'
+
+See the event's documentation in PATHWAY: 229
+
+----> event: 'STAT',inhibit,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 40
+
+---------------------------------------------------: 
+
+PATHWAY: 377
+'CD4',bind,'CD8';'CD8',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'STAT';'STAT',regulate,'SARS-CoV-2'
+
+----> event: 'CD4',bind,'CD8'
+
+See the event's documentation in PATHWAY: 131
+
+----> event: 'CD8',associate,'JAK3'
+
+See the event's documentation in PATHWAY: 303
+
+----> event: 'JAK3',associate,'MHC'
+
+See the event's documentation in PATHWAY: 181
+
+----> event: 'MHC',associate,'STAT'
+
+See the event's documentation in PATHWAY: 229
+
+----> event: 'STAT',regulate,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 51
+
+---------------------------------------------------: 
+
+PATHWAY: 378
+'STAT',bind,'CD8';'CD8',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'CD4';'CD4',regulate,'SARS-CoV-2'
+
+----> event: 'STAT',bind,'CD8'
+
+See the event's documentation in PATHWAY: 132
+
+----> event: 'CD8',associate,'JAK3'
+
+See the event's documentation in PATHWAY: 303
+
+----> event: 'JAK3',associate,'MHC'
+
+See the event's documentation in PATHWAY: 181
+
+----> event: 'MHC',associate,'CD4'
+
+See the event's documentation in PATHWAY: 181
+
+----> event: 'CD4',regulate,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 47
+
+---------------------------------------------------: 
+
+PATHWAY: 379
+'STAT',bind,'CD8';'CD8',associate,'JAK3';'JAK3',associate,'MHC';'MHC',associate,'CD4';'CD4',inhibit,'SARS-CoV-2'
+
+----> event: 'STAT',bind,'CD8'
+
+See the event's documentation in PATHWAY: 132
+
+----> event: 'CD8',associate,'JAK3'
+
+See the event's documentation in PATHWAY: 303
+
+----> event: 'JAK3',associate,'MHC'
+
+See the event's documentation in PATHWAY: 181
+
+----> event: 'MHC',associate,'CD4'
+
+See the event's documentation in PATHWAY: 181
+
+----> event: 'CD4',inhibit,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 48
+
+---------------------------------------------------: 
+
+PATHWAY: 380
+'MHC',bind,'CD8';'CD8',associate,'STAT';'STAT',bind,'STAT'
+
+----> event: 'MHC',bind,'CD8'
+
+See the event's documentation in PATHWAY: 130
+
+----> event: 'CD8',associate,'STAT'
+
+See the event's documentation in PATHWAY: 248
+
+----> event: 'STAT',bind,'STAT'
+
+See the event's documentation in PATHWAY: 1
+
+---------------------------------------------------: 
+
+PATHWAY: 381
+'MHC',bind,'CD8';'CD8',associate,'STAT';'STAT',inhibit,'STAT'
+
+----> event: 'MHC',bind,'CD8'
+
+See the event's documentation in PATHWAY: 130
+
+----> event: 'CD8',associate,'STAT'
+
+See the event's documentation in PATHWAY: 248
+
+----> event: 'STAT',inhibit,'STAT'
+
+See the event's documentation in PATHWAY: 14
+
+---------------------------------------------------: 
+
+PATHWAY: 382
+'MHC',bind,'CD8';'CD8',associate,'STAT';'STAT',regulate,'STAT'
+
+----> event: 'MHC',bind,'CD8'
+
+See the event's documentation in PATHWAY: 130
+
+----> event: 'CD8',associate,'STAT'
+
+See the event's documentation in PATHWAY: 248
+
+----> event: 'STAT',regulate,'STAT'
+
+See the event's documentation in PATHWAY: 27
+
+---------------------------------------------------: 
+
+PATHWAY: 383
+'MHC',bind,'CD8';'CD8',associate,'STAT';'STAT',inhibit,'SARS-CoV-2'
+
+----> event: 'MHC',bind,'CD8'
+
+See the event's documentation in PATHWAY: 130
+
+----> event: 'CD8',associate,'STAT'
+
+See the event's documentation in PATHWAY: 248
+
+----> event: 'STAT',inhibit,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 40
+
+---------------------------------------------------: 
+
+PATHWAY: 384
+'MHC',bind,'CD8';'CD8',associate,'STAT';'STAT',regulate,'SARS-CoV-2'
+
+----> event: 'MHC',bind,'CD8'
+
+See the event's documentation in PATHWAY: 130
+
+----> event: 'CD8',associate,'STAT'
+
+See the event's documentation in PATHWAY: 248
+
+----> event: 'STAT',regulate,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 51
+
+---------------------------------------------------: 
+
+PATHWAY: 385
+'CD4',bind,'CD8';'CD8',associate,'STAT';'STAT',bind,'STAT'
+
+----> event: 'CD4',bind,'CD8'
+
+See the event's documentation in PATHWAY: 131
+
+----> event: 'CD8',associate,'STAT'
+
+See the event's documentation in PATHWAY: 248
+
+----> event: 'STAT',bind,'STAT'
+
+See the event's documentation in PATHWAY: 1
+
+---------------------------------------------------: 
+
+PATHWAY: 386
+'CD4',bind,'CD8';'CD8',associate,'STAT';'STAT',inhibit,'STAT'
+
+----> event: 'CD4',bind,'CD8'
+
+See the event's documentation in PATHWAY: 131
+
+----> event: 'CD8',associate,'STAT'
+
+See the event's documentation in PATHWAY: 248
+
+----> event: 'STAT',inhibit,'STAT'
+
+See the event's documentation in PATHWAY: 14
+
+---------------------------------------------------: 
+
+PATHWAY: 387
+'CD4',bind,'CD8';'CD8',associate,'STAT';'STAT',regulate,'STAT'
+
+----> event: 'CD4',bind,'CD8'
+
+See the event's documentation in PATHWAY: 131
+
+----> event: 'CD8',associate,'STAT'
+
+See the event's documentation in PATHWAY: 248
+
+----> event: 'STAT',regulate,'STAT'
+
+See the event's documentation in PATHWAY: 27
+
+---------------------------------------------------: 
+
+PATHWAY: 388
+'CD4',bind,'CD8';'CD8',associate,'STAT';'STAT',inhibit,'SARS-CoV-2'
+
+----> event: 'CD4',bind,'CD8'
+
+See the event's documentation in PATHWAY: 131
+
+----> event: 'CD8',associate,'STAT'
+
+See the event's documentation in PATHWAY: 248
+
+----> event: 'STAT',inhibit,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 40
+
+---------------------------------------------------: 
+
+PATHWAY: 389
+'CD4',bind,'CD8';'CD8',associate,'STAT';'STAT',regulate,'SARS-CoV-2'
+
+----> event: 'CD4',bind,'CD8'
+
+See the event's documentation in PATHWAY: 131
+
+----> event: 'CD8',associate,'STAT'
+
+See the event's documentation in PATHWAY: 248
+
+----> event: 'STAT',regulate,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 51
+
+---------------------------------------------------: 
+
+PATHWAY: 390
+'CD4',bind,'CD8';'CD8',associate,'MHC';'MHC',associate,'JAK3';'JAK3',associate,'STAT';'STAT',bind,'STAT'
+
+----> event: 'CD4',bind,'CD8'
+
+See the event's documentation in PATHWAY: 131
+
+----> event: 'CD8',associate,'MHC'
+
+See the event's documentation in PATHWAY: 351
+
+----> event: 'MHC',associate,'JAK3'
+
+See the event's documentation in PATHWAY: 274
+
+----> event: 'JAK3',associate,'STAT'
+
+See the event's documentation in PATHWAY: 211
+
+----> event: 'STAT',bind,'STAT'
+
+See the event's documentation in PATHWAY: 1
+
+---------------------------------------------------: 
+
+PATHWAY: 391
+'CD4',bind,'CD8';'CD8',associate,'MHC';'MHC',associate,'JAK3';'JAK3',associate,'STAT';'STAT',inhibit,'STAT'
+
+----> event: 'CD4',bind,'CD8'
+
+See the event's documentation in PATHWAY: 131
+
+----> event: 'CD8',associate,'MHC'
+
+See the event's documentation in PATHWAY: 351
+
+----> event: 'MHC',associate,'JAK3'
+
+See the event's documentation in PATHWAY: 274
+
+----> event: 'JAK3',associate,'STAT'
+
+See the event's documentation in PATHWAY: 211
+
+----> event: 'STAT',inhibit,'STAT'
+
+See the event's documentation in PATHWAY: 14
+
+---------------------------------------------------: 
+
+PATHWAY: 392
+'CD4',bind,'CD8';'CD8',associate,'MHC';'MHC',associate,'JAK3';'JAK3',associate,'STAT';'STAT',regulate,'STAT'
+
+----> event: 'CD4',bind,'CD8'
+
+See the event's documentation in PATHWAY: 131
+
+----> event: 'CD8',associate,'MHC'
+
+See the event's documentation in PATHWAY: 351
+
+----> event: 'MHC',associate,'JAK3'
+
+See the event's documentation in PATHWAY: 274
+
+----> event: 'JAK3',associate,'STAT'
+
+See the event's documentation in PATHWAY: 211
+
+----> event: 'STAT',regulate,'STAT'
+
+See the event's documentation in PATHWAY: 27
+
+---------------------------------------------------: 
+
+PATHWAY: 393
+'CD4',bind,'CD8';'CD8',associate,'MHC';'MHC',associate,'JAK3';'JAK3',associate,'STAT';'STAT',inhibit,'SARS-CoV-2'
+
+----> event: 'CD4',bind,'CD8'
+
+See the event's documentation in PATHWAY: 131
+
+----> event: 'CD8',associate,'MHC'
+
+See the event's documentation in PATHWAY: 351
+
+----> event: 'MHC',associate,'JAK3'
+
+See the event's documentation in PATHWAY: 274
+
+----> event: 'JAK3',associate,'STAT'
+
+See the event's documentation in PATHWAY: 211
+
+----> event: 'STAT',inhibit,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 40
+
+---------------------------------------------------: 
+
+PATHWAY: 394
+'CD4',bind,'CD8';'CD8',associate,'MHC';'MHC',associate,'JAK3';'JAK3',associate,'STAT';'STAT',regulate,'SARS-CoV-2'
+
+----> event: 'CD4',bind,'CD8'
+
+See the event's documentation in PATHWAY: 131
+
+----> event: 'CD8',associate,'MHC'
+
+See the event's documentation in PATHWAY: 351
+
+----> event: 'MHC',associate,'JAK3'
+
+See the event's documentation in PATHWAY: 274
+
+----> event: 'JAK3',associate,'STAT'
+
+See the event's documentation in PATHWAY: 211
+
+----> event: 'STAT',regulate,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 51
+
+---------------------------------------------------: 
+
+PATHWAY: 395
+'CD4',bind,'CD8';'CD8',associate,'MHC';'MHC',associate,'STAT';'STAT',bind,'STAT'
+
+----> event: 'CD4',bind,'CD8'
+
+See the event's documentation in PATHWAY: 131
+
+----> event: 'CD8',associate,'MHC'
+
+See the event's documentation in PATHWAY: 351
+
+----> event: 'MHC',associate,'STAT'
+
+See the event's documentation in PATHWAY: 229
+
+----> event: 'STAT',bind,'STAT'
+
+See the event's documentation in PATHWAY: 1
+
+---------------------------------------------------: 
+
+PATHWAY: 396
+'CD4',bind,'CD8';'CD8',associate,'MHC';'MHC',associate,'STAT';'STAT',inhibit,'STAT'
+
+----> event: 'CD4',bind,'CD8'
+
+See the event's documentation in PATHWAY: 131
+
+----> event: 'CD8',associate,'MHC'
+
+See the event's documentation in PATHWAY: 351
+
+----> event: 'MHC',associate,'STAT'
+
+See the event's documentation in PATHWAY: 229
+
+----> event: 'STAT',inhibit,'STAT'
+
+See the event's documentation in PATHWAY: 14
+
+---------------------------------------------------: 
+
+PATHWAY: 397
+'CD4',bind,'CD8';'CD8',associate,'MHC';'MHC',associate,'STAT';'STAT',regulate,'STAT'
+
+----> event: 'CD4',bind,'CD8'
+
+See the event's documentation in PATHWAY: 131
+
+----> event: 'CD8',associate,'MHC'
+
+See the event's documentation in PATHWAY: 351
+
+----> event: 'MHC',associate,'STAT'
+
+See the event's documentation in PATHWAY: 229
+
+----> event: 'STAT',regulate,'STAT'
+
+See the event's documentation in PATHWAY: 27
+
+---------------------------------------------------: 
+
+PATHWAY: 398
+'CD4',bind,'CD8';'CD8',associate,'MHC';'MHC',associate,'STAT';'STAT',inhibit,'SARS-CoV-2'
+
+----> event: 'CD4',bind,'CD8'
+
+See the event's documentation in PATHWAY: 131
+
+----> event: 'CD8',associate,'MHC'
+
+See the event's documentation in PATHWAY: 351
+
+----> event: 'MHC',associate,'STAT'
+
+See the event's documentation in PATHWAY: 229
+
+----> event: 'STAT',inhibit,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 40
+
+---------------------------------------------------: 
+
+PATHWAY: 399
+'CD4',bind,'CD8';'CD8',associate,'MHC';'MHC',associate,'STAT';'STAT',regulate,'SARS-CoV-2'
+
+----> event: 'CD4',bind,'CD8'
+
+See the event's documentation in PATHWAY: 131
+
+----> event: 'CD8',associate,'MHC'
+
+See the event's documentation in PATHWAY: 351
+
+----> event: 'MHC',associate,'STAT'
+
+See the event's documentation in PATHWAY: 229
+
+----> event: 'STAT',regulate,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 51
+
+---------------------------------------------------: 
+
+PATHWAY: 400
+'STAT',bind,'CD8';'CD8',associate,'MHC';'MHC',associate,'CD4';'CD4',regulate,'SARS-CoV-2'
+
+----> event: 'STAT',bind,'CD8'
+
+See the event's documentation in PATHWAY: 132
+
+----> event: 'CD8',associate,'MHC'
+
+See the event's documentation in PATHWAY: 351
+
+----> event: 'MHC',associate,'CD4'
+
+See the event's documentation in PATHWAY: 181
+
+----> event: 'CD4',regulate,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 47
+
+---------------------------------------------------: 
+
+PATHWAY: 401
+'STAT',bind,'CD8';'CD8',associate,'MHC';'MHC',associate,'CD4';'CD4',inhibit,'SARS-CoV-2'
+
+----> event: 'STAT',bind,'CD8'
+
+See the event's documentation in PATHWAY: 132
+
+----> event: 'CD8',associate,'MHC'
+
+See the event's documentation in PATHWAY: 351
+
+----> event: 'MHC',associate,'CD4'
+
+See the event's documentation in PATHWAY: 181
+
+----> event: 'CD4',inhibit,'SARS-CoV-2'
+
+See the event's documentation in PATHWAY: 48
 
