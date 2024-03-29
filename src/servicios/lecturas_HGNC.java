@@ -31,6 +31,10 @@ import estructura.ontologiaObjMin;
  * @author yacson
  */
 public class lecturas_HGNC extends conexionServ{
+    
+    private static String URL_SEARCH = "https://rest.genenames.org/search/";
+    private static String URL_SYMBOL = "https://rest.genenames.org/fetch/symbol/";
+    
     public lecturas_HGNC() {
 
     }
@@ -59,13 +63,13 @@ public class lecturas_HGNC extends conexionServ{
                 try {
                     cri = cri.replace(" ", "+");
 
-                    String Url = "http://rest.genenames.org/search/" + cri;
+                    String Url = URL_SEARCH + cri;
                     Document doc = conecta(Url);
                     factor = busqueda_lista_xml(doc, opcion, cri);
                 } catch (Exception e) {
                     try {
                         contenido = contenido.replace(" ", "+");
-                        String Url = "http://rest.genenames.org/search/" + contenido;
+                        String Url = URL_SEARCH + contenido;
                         Document doc = conecta(Url);
                         factor = busqueda_lista_xml(doc, opcion, cri);
 
@@ -77,7 +81,7 @@ public class lecturas_HGNC extends conexionServ{
 
                 try {
                     contenido = contenido.replace(" ", "+");
-                    String Url = "http://rest.genenames.org/search/" + contenido;
+                    String Url = URL_SEARCH + contenido;
                     Document doc = conecta(Url);
                     factor = busqueda_lista_xml(doc, opcion, contenido);
                 } catch (Exception ee) {
@@ -94,10 +98,10 @@ public class lecturas_HGNC extends conexionServ{
             for (int i = 0; i < factor.size(); i++) {
 
                 try {
-                    // String nombre = busque String  Url = "http://rest.genenames.org/search/" + contenido;
+                    // String nombre = busque String  Url = URL_SEARCH + contenido;
 
                     //System.out.println("Simbolo HUGO: " + factor.get(i));
-                    String Url = "http://rest.genenames.org/fetch/symbol/" + factor.get(i);
+                    String Url = URL_SYMBOL + factor.get(i);
                     Document doc = conecta(Url);
                     HGNC.add(busqueda_datos_xml(doc, GO, MESH,ruta));
 
