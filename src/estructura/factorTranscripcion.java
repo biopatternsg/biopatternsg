@@ -59,7 +59,7 @@ public class factorTranscripcion {
     private lecturas_TFBIND lecturasTFBIND;
     private ArrayList<complejoProteinico> complejoProteinico;
     private ArrayList<HGNC> HGNC;
-    private static final String URL_PDB_IDS = "https://search.rcsb.org/rcsbsearch/v1/query";
+    private static final String URL_PDB_IDS = "https://search.rcsb.org/rcsbsearch/v2/query";
 
     public factorTranscripcion() {
 
@@ -172,7 +172,7 @@ public class factorTranscripcion {
         IDCP.forEach((idcp) -> {
             complejoProteinico cp = new complejoProteinico();
             cp = new lecturas_PDB().Busqueda_PDB(idcp, GO, MESH, ruta);
-            cp.buscar_ligandos();
+            //cp.buscar_ligandos();
             complejoProteinico.add(cp);
         });
 
