@@ -15,7 +15,9 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
 package servicios;
+
 import com.google.gson.Gson;
+import java.io.StringReader;
 import java.net.URL;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
@@ -24,6 +26,8 @@ import java.net.http.HttpClient;
 import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
 import java.net.URI;
+import java.util.stream.Stream;
+import org.xml.sax.InputSource;
 
 /**
  *
@@ -84,16 +88,16 @@ public class conexionServ {
             URL url = new URL(Url);
             doc = db.parse(url.openStream());
             doc.getDocumentElement().normalize();
-            
+
         } catch (Exception e) {
 
         }
 
         return doc;
     }
-    
-     public Object simpleConnectionJsonGET(String route) {
 
+    public Object simpleConnectionJsonGET(String route) {
+        System.out.println(route);
         var client = HttpClient.newBuilder()
                 .version(HttpClient.Version.HTTP_2)
                 .build();
@@ -109,7 +113,29 @@ public class conexionServ {
             response = client.send(request, HttpResponse.BodyHandlers.ofString());
             return new Gson().fromJson(response.body(), Object.class);
         } catch (Exception e) {
-                       
+
+        }
+        return null;
+    }
+
+    public String simpleConnectionStringGET(String route) {
+        var client = HttpClient.newBuilder()
+                .version(HttpClient.Version.HTTP_2)
+                .build();
+
+        var request = HttpRequest.newBuilder()
+                .uri(URI.create(route))
+                .header("Content-Type", "application/json")
+                .build();
+
+        final HttpResponse<String> response;
+
+        try {
+            response = client.send(request, HttpResponse.BodyHandlers.ofString());
+            return response.body();
+        
+        } catch (Exception e) {
+
         }
         return null;
     }
