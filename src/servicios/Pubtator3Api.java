@@ -4,16 +4,22 @@
  */
 package servicios;
 
-import com.google.gson.Gson;
+import EDU.purdue.cs.bloat.reflect.Catch;
+import com.google.gson.JsonArray;
+import com.google.gson.JsonElement;
+import com.google.gson.JsonObject;
+import com.google.gson.JsonParser;
+import estructura.abstractObject.Abstract;
+import estructura.abstractObject.Event;
+import estructura.abstractObject.LocationObject;
+import estructura.abstractObject.ObjectDetail;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-import org.json.JSONArray;
 import org.json.JSONException;
-import org.json.JSONObject;
 
 /**
  *
@@ -21,68 +27,135 @@ import org.json.JSONObject;
  */
 public class Pubtator3Api extends conexionServ {
 
-    private static String URL_PUBTATOR3 = "https://www.ncbi.nlm.nih.gov/research/pubtator3-api/publications/export/biocjson?pmids=";
+    private static final String URL_PUBTATOR3 = "https://www.ncbi.nlm.nih.gov/research/pubtator3-api/publications/export/biocjson?pmids=";
 
-    public void search(String pmId) {
+    public List<Abstract> search(List<String> pubMenIds) {
+        List<Abstract> abstracs = new ArrayList<>();
+
         try {
 
-            var query = URL_PUBTATOR3 + pmId;
-            var response = simpleConnectionJsonGET(query);
-            var json = new JSONObject(new Gson().toJson(response));
-            var relations = searchRealtionsDisplay(json);
-            var keys = searchKeys(json);
-            
+            var query = URL_PUBTATOR3 + String.join(",", pubMenIds);
+            var response = simpleConnectionStringGET(query);
+            var jsonArray = convertToJson(response);
+            var PubTator3 = jsonArray.get("PubTator3").getAsJsonArray();
+
+            for (JsonElement jsonElement : PubTator3) {
+                var jsonObject = jsonElement.getAsJsonObject();
+                var abstractObject = getAbstractText(jsonObject);
+                searchRelations(jsonObject, abstractObject);
+                abstracs.add(abstractObject);
+
+            }
 
         } catch (JSONException ex) {
             Logger.getLogger(Pubtator3Api.class.getName()).log(Level.SEVERE, null, ex);
         }
 
+        return abstracs;
     }
 
-    private List<String> searchRealtionsDisplay(JSONObject json) throws JSONException {
-        List<String> relations = new ArrayList<>();
-        var jsonArray = json.getJSONArray("relations_display");
-        for (int i = 0; i < jsonArray.length(); i++) {
-            var relation = jsonArray.getJSONObject(i).get("name").toString();
-            relations.add(relation);
+    private Abstract getAbstractText(JsonObject jsonObject) {
+        var abstractObject = new Abstract();
+        var passages = jsonObject.get("passages").getAsJsonArray();
+
+        for (JsonElement jsonElement : passages) {
+            var object = jsonElement.getAsJsonObject();
+            var type = object.get("infons").getAsJsonObject().get("type").toString().replaceAll("\"", "");
+            
+            abstractObject.setPubMedId(jsonObject.get("id").toString().replaceAll("\"", ""));
+            
+            if ("title".equals(type)) {
+                abstractObject.setTitle(object.get("text").toString().replaceAll("\"", ""));
+                
+            }
+            
+            if ("abstract".equals(type)) {
+                abstractObject.setText(object.get("text").toString().replaceAll("\"", ""));
+              
+            }
+            
+           
+            getObjects(object, abstractObject);
+            
         }
-       
-        return relations;
+
+        return abstractObject;
+
     }
 
-    private Map<String, String> searchKeys(JSONObject json) throws JSONException {
-        Map<String, String> keys = new HashMap<>();
+    private void getObjects(JsonObject jsonObject, Abstract abstractObject) {
+        var annotations = jsonObject.get("annotations").getAsJsonArray();
+        for (JsonElement jsonElement : annotations) {
+            try {
+                var objectDetail = new ObjectDetail();
 
-        var jsonArray = json.getJSONArray("passages");
-        for (int i = 0; i < jsonArray.length(); i++) {
-            getAnnotations(jsonArray.getJSONObject(i), keys);
+                var annotation = jsonElement.getAsJsonObject();
+
+                var indentifier = annotation.get("infons").getAsJsonObject().get("identifier").toString().replaceAll("\"", "");
+                var accession = annotation.get("infons").getAsJsonObject().get("accession").toString().replaceAll("\"", "");
+                var name = annotation.get("infons").getAsJsonObject().get("name").toString().replaceAll("\"", "");
+
+                if (!accession.equals("null")) {
+                    
+                    objectDetail.setAccession(accession);
+                    objectDetail.setIdentifier(indentifier);
+                    objectDetail.setName(name);
+
+                    getLocations(annotation, objectDetail);
+
+                    abstractObject.addObject(objectDetail);
+                }
+            } catch (Exception e) {
+                // System.out.println(e.getMessage());
+            }
 
         }
-        return null;
+
     }
 
-    private void getAnnotations(JSONObject json, Map<String, String> keys) throws JSONException {
-        var annotations = json.getJSONArray("annotations");
-        for (int i = 0; i < annotations.length(); i++) {
-            getKeys(annotations.getJSONObject(i), keys);
+    private void getLocations(JsonObject jsonObject, ObjectDetail objectDetail) {
+        var objects = jsonObject.get("locations").getAsJsonArray();
+        for (JsonElement jsonElement : objects) {
+            var location = jsonElement.getAsJsonObject();
+            var locationObject = new LocationObject();
+            locationObject.setLength(location.get("length").getAsInt());
+            locationObject.setOffset(location.get("offset").getAsInt());
+            objectDetail.addLocation(locationObject);
+
         }
     }
 
-    private void getKeys(JSONObject json, Map<String, String> keys) throws JSONException {
-        var infos = json.getJSONObject("infons");
-        try {
-            var name = infos.get("name").toString();
-            var key = infos.get("accession").toString();
-            addkeyToMap(keys, key, name);
-        } catch (Exception e) {
-           // System.out.println(e.getCause());
+    private void searchRelations(JsonObject jsonObject, Abstract abstractObject) {
+
+        var relationsObjects = jsonObject.get("relations").getAsJsonArray();
+
+        for (JsonElement jsonElement : relationsObjects) {
+            var abstractEvent = createBiologicalRelation(jsonElement);
+            abstractObject.addEvent(abstractEvent);
+
         }
     }
 
-    private void addkeyToMap(Map<String, String> keys, String key, String name) {
-        if (name != null && key != null && !keys.containsKey(key)) {
-            keys.put(key, name);
-        }
+    private Event createBiologicalRelation(JsonElement jsonElement) {
+        var abstractEvent = new Event();
+
+        var relationObject = jsonElement.getAsJsonObject();
+        var infons = relationObject.get("infons").getAsJsonObject();
+        var role1 = infons.get("role1").getAsJsonObject().get("name").toString().replaceAll("\"", "");
+        var role2 = infons.get("role2").getAsJsonObject().get("name").toString().replaceAll("\"", "");
+        var relationTpe = infons.get("type").toString().replaceAll("\"", "");
+
+        abstractEvent.setRole1(role1);
+        abstractEvent.setRole2(role2);
+        abstractEvent.setRelationType(relationTpe);
+
+        return abstractEvent;
+    }
+
+    private JsonObject convertToJson(String input) throws JSONException {
+        JsonParser parser = new JsonParser();
+        return parser.parse(input).getAsJsonObject();
+
     }
 
 }
