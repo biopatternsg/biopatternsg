@@ -4,8 +4,7 @@
  */
 package servicios;
 
-import EDU.purdue.cs.bloat.reflect.Catch;
-import com.google.gson.JsonArray;
+
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
@@ -14,9 +13,9 @@ import estructura.abstractObject.Event;
 import estructura.abstractObject.LocationObject;
 import estructura.abstractObject.ObjectDetail;
 import java.util.ArrayList;
-import java.util.HashMap;
+
 import java.util.List;
-import java.util.Map;
+
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import org.json.JSONException;
@@ -94,12 +93,20 @@ public class Pubtator3Api extends conexionServ {
                 var indentifier = annotation.get("infons").getAsJsonObject().get("identifier").toString().replaceAll("\"", "");
                 var accession = annotation.get("infons").getAsJsonObject().get("accession").toString().replaceAll("\"", "");
                 var name = annotation.get("infons").getAsJsonObject().get("name").toString().replaceAll("\"", "");
-
+                var normalizeId = annotation.get("infons").getAsJsonObject().get("normalized_id").toString().replaceAll("\"", "");
+                var type = annotation.get("infons").getAsJsonObject().get("type").toString().replaceAll("\"", "");
+                var biotype = annotation.get("infons").getAsJsonObject().get("biotype").toString().replaceAll("\"", "");
+                var text = annotation.get("text").toString().replaceAll("\"", "");;
+                
                 if (!accession.equals("null")) {
                     
                     objectDetail.setAccession(accession);
                     objectDetail.setIdentifier(indentifier);
                     objectDetail.setName(name);
+                    objectDetail.setNormalizeID(normalizeId);
+                    objectDetail.setType(type);
+                    objectDetail.setBiotype(biotype);
+                    objectDetail.setText(text);
 
                     getLocations(annotation, objectDetail);
 

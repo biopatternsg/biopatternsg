@@ -16,7 +16,11 @@ public class ObjectDetail {
     private String name;
     private String identifier;
     private String accession;
+    private String normalizeID;
     private List<LocationObject> locations;
+    private String type;
+    private String biotype;
+    private String text;
 
     public ObjectDetail() {
         this.locations = new ArrayList<>();
@@ -68,6 +72,42 @@ public class ObjectDetail {
     public void setCode(String code) {
         this.identifier = code;
     }
+
+    public String getNormalizeID() {
+        return normalizeID;
+    }
+
+    public void setNormalizeID(String normalizeID) {
+        this.normalizeID = normalizeID;
+    }
+
+    public String getType() {
+        return type;
+    }
+
+    public void setType(String type) {
+        this.type = type;
+    }
+
+    public String getBiotype() {
+        return biotype;
+    }
+
+    public void setBiotype(String biotype) {
+        this.biotype = biotype;
+    }
+
+    public String getText() {
+        return text;
+    }
+
+    public void setText(String text) {
+        this.text = text;
+    }
+    
+    
+    
+    
 
        
     

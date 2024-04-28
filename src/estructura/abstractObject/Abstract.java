@@ -38,8 +38,9 @@ public class Abstract {
     
     
     public void find(String route, configuracion config) {
+        deleteFile(route);
         createDirectory(route + "/abstracts");
-        utilidades.texto_etapa = "==== " + utilidades.idioma.get(30) + " ====\n";
+        //utilidades.texto_etapa = "==== " + utilidades.idioma.get(30) + " ====\n";
         utilidades.momento = "";
         limpiarPantalla();
         System.out.println(utilidades.colorTexto1 + utilidades.titulo);
@@ -47,7 +48,7 @@ public class Abstract {
         System.out.println("\n" + utilidades.colorTexto2 + utilidades.texto_etapa);
         
         
-        deleteFile(route);
+        
         List<String> pubMedIds = getPubMedIds(route);
         Paginator paginator = new Paginator(pubMedIds, 50);
 
@@ -65,8 +66,8 @@ public class Abstract {
         
         writeFile(route);
         
-        config.setAbstracts(true);
-        config.guardar(route);
+        //config.setAbstracts(true);
+        //config.guardar(route);
 
     }
 
@@ -168,12 +169,12 @@ public class Abstract {
     }
     
     private void writeAbstractText(Abstract object, String route, int page){
-        new escribirBC(object.getPubMedId() + " | " + object.getTitle().concat(object.getText()) , route+"/abstracts/abstracts_"+page+".txt");
+        new escribirBC(object.getPubMedId() + " | " + object.getTitle()+" "+object.getText() , route+"/abstracts/abstracts_"+page+".txt");
     }
     
     private void writeObjects(Abstract object, String route, int page){
         object.getObjects().forEach( o -> {
-            new escribirBC(object.getPubMedId() + " | " + o.getAccession()+ " | "+ o.getName() +" | "+ o.getLocations().get(0).getOffset()+" | "+o.getLocations().get(0).getLength() , route+"/abstracts/objects_"+page+".txt");
+            new escribirBC(object.getPubMedId() + " | " + o.getAccession()+ " | "+ o.getName() +" | "+ o.getLocations().get(0).getOffset()+" | "+o.getLocations().get(0).getLength()+ " | " + o.getType()+ " | " + o.getBiotype() +" | " +o.getText(), route+"/abstracts/objects_"+page+".txt");
         });
     }
     
