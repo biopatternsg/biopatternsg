@@ -49,110 +49,86 @@ public class patrones {
 
     public void inferir_patrones(configuracion config, String ruta) {
 
+        new utilidades().limpiarPantalla();
+        utilidades.momento = "";
+        utilidades.texto_carga = "";
+        utilidades.texto_etapa = utilidades.idioma.get(153);
+        System.out.println(utilidades.colorTexto1 + utilidades.titulo);
+        System.out.println(utilidades.colorTexto1 + utilidades.proceso);
+        System.out.println("\n" + utilidades.colorTexto2 + utilidades.texto_etapa);
+        ArrayList<String> objRestricion = menuRestricionObjetos();
+        ArrayList<String> objCierre = menuMotivos();
         try {
-            new utilidades().limpiarPantalla();
-            utilidades.momento = "";
-            utilidades.texto_carga = "";
-            utilidades.texto_etapa = utilidades.idioma.get(153);
-            System.out.println(utilidades.colorTexto1 + utilidades.titulo);
-            System.out.println(utilidades.colorTexto1 + utilidades.proceso);
-            System.out.println("\n" + utilidades.colorTexto2 + utilidades.texto_etapa);
-
-            ArrayList<String> objRestricion = menuRestricionObjetos();
-
-            ArrayList<String> objCierre = menuMotivos();
-
-            try {
-                resumirBaseC(ruta);
-            } catch (Exception e) {
-            }
-            File pathways = new File(ruta + "/pathways.txt");
-            File eventsDoc = new File(ruta + "/pathways.txt");
-
-            /*
-            // En este punto se asume que hay un archivo de eventos documentados que han sido etiquetados como P, F o U.
-            // Este metodo lee ese archivo y actualiza la kBase.pl para agregar nuevos eventos del ususario y elimiar los eventos falsos
-            // que el usuario haya identificado.
-            if (eventsDoc.exists()) {
-                BufferedReader e = new BufferedReader(new FileReader(eventsDoc));
-                if (!e.readLine().contains("///**")) {
-                    kbase_update(config, ruta);
-                }
-            }
-             */
-            // System.out.println(objRestricion);
-            borrar_archivo(ruta + "/pathways.txt");
-            borrar_archivo(ruta + "/pathways.db");
-
-            String v = "style_check(-discontiguous).";
-            Query q0 = new Query(v);
-            q0.hasSolution();
-
-            String objPatr = "['" + ruta + "/pathwaysObjects'].";
-            Query q1 = new Query(objPatr);
-            q1.hasSolution();
-
-            cargarBaseC(ruta);
-
-            String archivo = "[scripts/pathwaysJPL].";
-            Query q = new Query(archivo);
-            q.hasSolution();
-
-            ArrayList<String> listaInicio = inicio(objRestricion);
-
-            ArrayList<String> objEnlace = new ArrayList<>();
-
-            listaInicio.parallelStream().forEach((obj) -> {
-                String sep1[] = obj.split(",");
-                if (!objEnlace.contains(sep1[2])) {
-                    objEnlace.add(sep1[2]);
-                }
-                //System.out.println("evento inicio:  " + obj);
-            });
-
-            ArrayList<String> listaFin = new ArrayList<>();
-
-            objCierre.forEach(obj -> listaFin.addAll(fin(obj, objRestricion)));
-
-            if (objCierre.isEmpty()) {
-                listaFin.addAll(fin("", objRestricion));
-            }
-
-            ArrayList<String> FT = new ArrayList<>();
-
-            listaFin.forEach((String fin) -> {
-                String sep[] = fin.split(",");
-                if (!FT.contains(sep[0])) {
-                    FT.add(sep[0]);
-                }
-
-                if (!objCierre.contains(sep[2])) {
-                    objCierre.add(sep[2]);
-                }
-
-                //System.out.println("evento fin:  " + fin);
-            });
-            //patrones de 2 eventos
-            patron_2_eventos(objCierre, listaInicio, objEnlace, ruta);
-
-            objEnlace.forEach(enlace -> intermedios(new ArrayList<String>(), enlace, FT, "", 0, listaInicio, listaFin, objCierre, objRestricion, ruta));
-
-            guardar_Patron(ruta);
-
-            config.setInferirPatrones(true);
-            config.guardar(ruta);
-
-            // Una vez que se han inferido los patrones, el siguiente metodo extrae desde pathways.txt todos los eventos que participan en ellos.
-            // Para cada evento se indaga en la BC docimentada kBaseDoc y se extraen todas las oraciones posibles asociadas a los mismos.
-            // El resultado de este metodo es el archivo eventsDocs.txt. Ek usuario puede proceder a etiquetas cada evento como Positivo, Falso o 
-            // agregado por si mismo (tipo U). Esta version modificada luego es utilizada por el metodo kbase_update para modificar kBase.pl.
-            if (pathways.exists()) {
-                events_documentation(config, ruta);
-            }
-
-        } catch (IOException ex) {
-            Logger.getLogger(patrones.class.getName()).log(Level.SEVERE, null, ex);
+            resumirBaseC(ruta);
+        } catch (Exception e) {
         }
+        File pathways = new File(ruta + "/pathways.txt");
+        File eventsDoc = new File(ruta + "/pathways.txt");
+        /*
+        // En este punto se asume que hay un archivo de eventos documentados que han sido etiquetados como P, F o U.
+        // Este metodo lee ese archivo y actualiza la kBase.pl para agregar nuevos eventos del ususario y elimiar los eventos falsos
+        // que el usuario haya identificado.
+        if (eventsDoc.exists()) {
+        BufferedReader e = new BufferedReader(new FileReader(eventsDoc));
+        if (!e.readLine().contains("///**")) {
+        kbase_update(config, ruta);
+        }
+        }
+        */
+        // System.out.println(objRestricion);
+        borrar_archivo(ruta + "/pathways.txt");
+        borrar_archivo(ruta + "/pathways.db");
+        String v = "style_check(-discontiguous).";
+        Query q0 = new Query(v);
+        q0.hasSolution();
+        String objPatr = "['" + ruta + "/pathwaysObjects'].";
+        Query q1 = new Query(objPatr);
+        q1.hasSolution();
+        cargarBaseC(ruta);
+        String archivo = "[scripts/pathwaysJPL].";
+        Query q = new Query(archivo);
+        q.hasSolution();
+        ArrayList<String> listaInicio = inicio(objRestricion);
+        ArrayList<String> objEnlace = new ArrayList<>();
+        listaInicio.parallelStream().forEach((obj) -> {
+            String sep1[] = obj.split(",");
+            if (!objEnlace.contains(sep1[2])) {
+                objEnlace.add(sep1[2]);
+            }
+            //System.out.println("evento inicio:  " + obj);
+        });
+        ArrayList<String> listaFin = new ArrayList<>();
+        objCierre.forEach(obj -> listaFin.addAll(fin(obj, objRestricion)));
+        if (objCierre.isEmpty()) {
+            listaFin.addAll(fin("", objRestricion));
+        }
+        ArrayList<String> FT = new ArrayList<>();
+        listaFin.forEach((String fin) -> {
+            String sep[] = fin.split(",");
+            if (!FT.contains(sep[0])) {
+                FT.add(sep[0]);
+            }
+            
+            if (!objCierre.contains(sep[2])) {
+                objCierre.add(sep[2]);
+            }
+            
+            //System.out.println("evento fin:  " + fin);
+        });
+        //patrones de 2 eventos
+        patron_2_eventos(objCierre, listaInicio, objEnlace, ruta);
+        objEnlace.forEach(enlace -> intermedios(new ArrayList<String>(), enlace, FT, "", 0, listaInicio, listaFin, objCierre, objRestricion, ruta));
+        guardar_Patron(ruta);
+        config.setInferirPatrones(true);
+        config.guardar(ruta);
+        
+        // Una vez que se han inferido los patrones, el siguiente metodo extrae desde pathways.txt todos los eventos que participan en ellos.
+        // Para cada evento se indaga en la BC docimentada kBaseDoc y se extraen todas las oraciones posibles asociadas a los mismos.
+        // El resultado de este metodo es el archivo eventsDocs.txt. Ek usuario puede proceder a etiquetas cada evento como Positivo, Falso o
+        // agregado por si mismo (tipo U). Esta version modificada luego es utilizada por el metodo kbase_update para modificar kBase.pl.
+        /*if (pathways.exists()) {
+        events_documentation(config, ruta);
+        }*/
 
     }
 
