@@ -29,7 +29,10 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
 import java.io.PrintWriter;
+import java.util.Map;
 import java.util.Vector;
 import java.util.logging.Level;
 import java.util.logging.Logger;
@@ -50,8 +53,52 @@ public class GeneradorBC {
         generador.generadorBC("kBase.pl", config, "");
 
     }
+    
+  public String generadorBC(String baseC, configuracion config, String ruta) throws FileNotFoundException, IOException, StringIndexOutOfBoundsException, Exception {
+        
+        utilidades.texto_carga = "";
+        utilidades.momento = "";
+        utilidades.texto_etapa = utilidades.idioma.get(152);
+        new utilidades().carga();
+        
 
-    public String generadorBC(String baseC, configuracion config, String ruta) throws FileNotFoundException, IOException, StringIndexOutOfBoundsException, Exception {
+         // Specify the command to be executed         
+
+                
+        ProcessBuilder builder = new ProcessBuilder("python3", "scripts/kb_generator.py", ruta);
+
+        Map<String, String> env = builder.environment();
+
+        // Set working directory
+
+        String workingDir = System.getProperty("user.dir");
+
+        builder.directory(new File(workingDir));
+
+        // Start process and get output
+
+        Process process = builder.start();
+
+        InputStream out = process.getInputStream();
+
+        // Convert output stream into a readable format
+
+        BufferedReader br = new BufferedReader(new InputStreamReader(out));
+
+        String line;
+
+        while ((line = br.readLine()) != null) {
+
+            System.out.println(line);
+            
+        }
+    
+
+        return baseC;
+
+    }     
+
+    public String generadorBC_old(String baseC, configuracion config, String ruta) throws FileNotFoundException, IOException, StringIndexOutOfBoundsException, Exception {
         utilidades.texto_carga = "";
         utilidades.momento = "";
         utilidades.texto_etapa = utilidades.idioma.get(152);

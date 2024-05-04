@@ -18,11 +18,15 @@ package pipeline;
 
 import configuracion.configuracion;
 import configuracion.utilidades;
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.Map;
+import java.util.Vector;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import org.jpl7.Query;
@@ -34,7 +38,12 @@ import org.jpl7.Term;
  */
 public class objetos_patrones {
 
-    public void generar_archivo(configuracion config, String ruta) {
+    public void generar_archivo(configuracion config, String ruta) throws IOException {        
+
+        // Se corrije errores sintacticos en minedObjects.pl y  wellKnownRules.pl
+        arreglar_archivo(ruta, "minedObjects.pl");
+        arreglar_archivo(ruta, "wellKnownRules.pl");
+        
         String v = "style_check(-discontiguous).";
         Query q0 = new Query(v);
         q0.hasSolution();
@@ -203,5 +212,67 @@ public class objetos_patrones {
         }
         pw = new PrintWriter(fichero);
     }
+    
+    private void arreglar_archivo(String ruta, String name) throws IOException {
+
+        String lineaActual;
+
+        Vector new_lines = new Vector(100, 50);
+
+        try (BufferedReader lines = new BufferedReader(new FileReader(new File(ruta + "/" + name)))) {
+
+            while (lines.ready()) {
+
+                lineaActual = lines.readLine();
+
+                if (lineaActual.contains("*")) {
+
+                    lineaActual = lineaActual.replaceAll("\\*", "");
+
+                    if (lineaActual.contains(":-")) {
+
+                        String rule_splitted[] = lineaActual.split(":-");
+                        String body_rule = rule_splitted[1];
+                        String new_body_rule = body_rule.replace(":", "_");
+                        lineaActual = rule_splitted[0] + ":-" + new_body_rule;
+
+                    } else {
+
+                        if (lineaActual.contains(":")) {
+                            lineaActual = lineaActual.replaceAll(":", "_");
+                        }
+
+                    }
+                    
+                }
+                new_lines.add(lineaActual);
+            }
+
+            lines.close();
+            new File(ruta + "/" + name).delete();
+
+        }
+
+        File file = new File(ruta + "/" + name);
+
+        if (!file.exists()) {
+            file.createNewFile();
+        }
+
+        FileWriter file_name = new FileWriter(file, true);
+
+        try (PrintWriter new_file = new PrintWriter(file_name)) {
+            String line;
+            for (Object e : new_lines) {
+
+                line = (String) e;
+                new_file.print(line + "\n");
+
+            }
+            new_file.close();            
+            
+        }       
+
+    }    
 
 }

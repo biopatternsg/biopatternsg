@@ -385,7 +385,7 @@ public class configuracion {
         }
     }
 
-    private void reanudarDesde(String ruta, String rutaD) {
+    private void reanudarDesde(String ruta, String rutaD) throws IOException {
         Scanner lectura = new Scanner(System.in);
         boolean r = true;
 
@@ -478,7 +478,7 @@ public class configuracion {
 
     //dependiendo del punto de reanudacion del proceso se ejecutaran el juego instrucciones necesarias 
     //para que el proceso termine
-    private void reanudar(int punto, objetosMineria objetosMineria, String ruta, String rutaD) {
+    private void reanudar(int punto, objetosMineria objetosMineria, String ruta, String rutaD) throws IOException {
         minado_FT mfts = new minado_FT();
         lecturas_PM lpm = new lecturas_PM();
         Abstract abstracObject = new Abstract();

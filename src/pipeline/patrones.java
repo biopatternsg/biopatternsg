@@ -1488,6 +1488,10 @@ public class patrones {
 
         ArrayList<String> eventosUP = new ArrayList<>();
         eventosUP.add("regulate");
+        eventosUP.add("cause");
+        eventosUP.add("cotreat");
+        eventosUP.add("treat");
+        eventosUP.add("positive_correlation");        
         eventosUP.add("transcriptional-activate");
         eventosUP.add("stimulate");
         eventosUP.add("up-regulate");
@@ -1525,6 +1529,7 @@ public class patrones {
         ArrayList<String> eventosDOWN = new ArrayList<>();
         eventosDOWN.add("inactivate");
         eventosDOWN.add("inhibit");
+        eventosDOWN.add("negative_correlation");    
         eventosDOWN.add("down-regulate");
         eventosDOWN.add("decrease");
         eventosDOWN.add("repress");
@@ -1544,8 +1549,10 @@ public class patrones {
 
         ArrayList<String> eventosMiddle = new ArrayList<>();
         eventosMiddle.add("trimerize");
+        eventosMiddle.add("compare");
+        eventosMiddle.add("drug_interact");          
         eventosMiddle.add("heterodimerize");
-        eventosMiddle.add("associate");
+        eventosMiddle.add("association");
         eventosMiddle.add("phosphorylate");
         eventosMiddle.add("recruit");
         eventosMiddle.add("dimerize");
@@ -1582,4 +1589,5 @@ public class patrones {
 
         return sinonimo;
     }
+    
 }
