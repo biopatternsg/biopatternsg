@@ -61,14 +61,16 @@ public class Paginator {
         if((list.size() % pageSize) > 0){
             pages++;
         }
-        
+                
         return pages;
     }
 
    
     private List<?> getPage() {
-
-        var currentPage = list.subList(pageSize * page, pageSize * page + 1);
+        var init = pageSize * (page -1);
+        var end = pageSize * page;
+        //System.out.println("init: "+init+ " end: "+end);
+        var currentPage = list.subList(init, end);
         return currentPage;
     }
 

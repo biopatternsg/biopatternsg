@@ -10,6 +10,7 @@ import estructura.Paginator;
 import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.concurrent.TimeUnit;
 import pipeline.escribirBC;
 import servicios.Pubtator3Api;
 
@@ -40,7 +41,7 @@ public class Abstract {
     public void find(String route, configuracion config) {
         deleteFile(route);
         createDirectory(route + "/abstracts");
-        //utilidades.texto_etapa = "==== " + utilidades.idioma.get(30) + " ====\n";
+        utilidades.texto_etapa = "==== " + utilidades.idioma.get(30) + " ====\n";
         utilidades.momento = "";
         limpiarPantalla();
         System.out.println(utilidades.colorTexto1 + utilidades.titulo);
@@ -54,14 +55,16 @@ public class Abstract {
 
         while (paginator.hasNext()) {
             try {
+                //System.out.println("page: "+ paginator.currentPage());
                 new utilidades().carga();
                 var events = new Pubtator3Api().search((List<String>) paginator.getElementsPage());
                 saveList(route, events);
-
+                //TimeUnit.SECONDS.sleep(1);
             } catch (Exception e) {
                // System.out.println("total pages: "+ paginator.getTotalPages());
                // System.out.println("page: "+ paginator.currentPage());
             }
+            
         }
         
         writeFile(route);
@@ -147,16 +150,13 @@ public class Abstract {
     }
 
     public void writeFile(String route) {
-        
-
+              
         List<Abstract> abstracsCollection = getAll(route);
-        
         Paginator paginator = new Paginator(abstracsCollection, 200);
         
         while (paginator.hasNext()) {
             new utilidades().carga(); 
             paginator.getElementsPage().forEach(object -> {
-            
                 writeAbstractText((Abstract) object, route, paginator.currentPage());
                 writeObjects((Abstract) object, route, paginator.currentPage());
                 writeRelations((Abstract) object, route, paginator.currentPage());
