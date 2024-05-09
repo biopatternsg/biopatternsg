@@ -205,7 +205,7 @@ public class objetos_patrones {
         new escribirBC("ligand('').", ruta2);
         */
         
-        mejorar_objetos_desde_pubtator(ruta);
+        // mejorar_objetos_desde_pubtator(ruta);
 
     }
 
