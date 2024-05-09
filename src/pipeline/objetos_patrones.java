@@ -23,6 +23,8 @@ import java.io.File;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
 import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.Map;
@@ -139,7 +141,7 @@ public class objetos_patrones {
         return lista;
     }
 
-    private void clasificar_objetos(ArrayList<String> lista, String ruta) {
+    private void clasificar_objetos(ArrayList<String> lista, String ruta) throws IOException {
 
         crear_archivo(ruta);
         String ruta2 = ruta + "/pathwaysObjects.pl";
@@ -193,12 +195,17 @@ public class objetos_patrones {
             q4.close();
 
         }
+        
+        /*
         new escribirBC("\n%las siguientes lineas son para evitar errores en el proceso no deben ser modificadas", ruta2);
         new escribirBC("enzyme('').", ruta2);
         new escribirBC("protein('').", ruta2);
         new escribirBC("transcription_factor('').", ruta2);
         new escribirBC("receptor('').", ruta2);
         new escribirBC("ligand('').", ruta2);
+        */
+        
+        mejorar_objetos_desde_pubtator(ruta);
 
     }
 
@@ -211,6 +218,41 @@ public class objetos_patrones {
             Logger.getLogger(minado_FT.class.getName()).log(Level.SEVERE, null, ex);
         }
         pw = new PrintWriter(fichero);
+    }
+    
+    
+    private void mejorar_objetos_desde_pubtator(String ruta) throws IOException {
+        
+        //  Este metodo permite mejorar los objetos del experto y del archivo pathwaysObjects.pl    
+                
+        ProcessBuilder builder = new ProcessBuilder("python3", "scripts/improve_objects_pathways.py", ruta);
+
+        Map<String, String> env = builder.environment();
+
+        // Set working directory
+
+        String workingDir = System.getProperty("user.dir");
+
+        builder.directory(new File(workingDir));
+
+        // Start process and get output
+
+        Process process = builder.start();
+
+        InputStream out = process.getInputStream();
+
+        // Convert output stream into a readable format
+
+        BufferedReader br = new BufferedReader(new InputStreamReader(out));
+
+        String line;
+
+        while ((line = br.readLine()) != null) {
+
+            System.out.println(line);
+            
+        }
+            
     }
     
     private void arreglar_archivo(String ruta, String name) throws IOException {
