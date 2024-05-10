@@ -69,8 +69,8 @@ public class Abstract {
         
         writeFile(route);
         
-        //config.setAbstracts(true);
-        //config.guardar(route);
+        config.setAbstracts(true);
+        config.guardar(route);
 
     }
 
