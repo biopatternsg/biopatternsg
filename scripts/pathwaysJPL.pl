@@ -1,8 +1,8 @@
 :-style_check(-discontiguous).
 %envento inicio del patron ligando -> receptor o receptor -> receptor
-inicio(A,E,B):-base(C),buscar_en_lista(event(A,E,B),C),buscar_en_lista(E,[bind]),(ligand(A);receptor(A)),receptor(B),not(A = B).
+inicio(A,E,B):-base(C),buscar_en_lista(event(A,E,B),C),buscar_en_lista(E,[bind,associate]),(ligand(A);receptor(A)),receptor(B),not(A = B).
 
-%inicio(A,E,B):-base(C),buscar_en_lista(event(A,E,B),C),buscar_en_lista(E,[bind]),receptor(A),receptor(B),(A = B).
+%inicio(A,E,B):-base(C),buscar_en_lista(event(A,E,B),C),buscar_en_lista(E,[bind,associate]),receptor(A),receptor(B),(A = B).
 
 %evento final patron tipo 1, tipo 2  transcription_factor -> objeto_de_cierre
 final(A,E,B):-base(C),buscar_en_lista(event(A,E,B),C),(transcription_factor(A);receptor(A)),buscar_en_lista(E,[inhibit,regulate,bind]).
@@ -18,9 +18,9 @@ finalEspecial(A,E,B):-base(C),buscar_en_lista(event(A,E,B),C),buscar_en_lista(E,
 
 %Patrones con restricciones de objetos
 
-inicio_rest(A,E,B,L):-buscar_en_lista(A,L),buscar_en_lista(B,L),base(C),buscar_en_lista(event(A,E,B),C),buscar_en_lista(E,[bind]),(ligand(A);receptor(A)),receptor(B),not(A = B).
+inicio_rest(A,E,B,L):-buscar_en_lista(A,L),buscar_en_lista(B,L),base(C),buscar_en_lista(event(A,E,B),C),buscar_en_lista(E,[bind,associate]),(ligand(A);receptor(A)),receptor(B),not(A = B).
 
-%inicio_rest(A,E,B,L):-buscar_en_lista(A,L),buscar_en_lista(B,L),base(C),buscar_en_lista(event(A,E,B),C),buscar_en_lista(E,[bind]),receptor(A),receptor(B),(A = B).
+%inicio_rest(A,E,B,L):-buscar_en_lista(A,L),buscar_en_lista(B,L),base(C),buscar_en_lista(event(A,E,B),C),buscar_en_lista(E,[bind,associate]),receptor(A),receptor(B),(A = B).
 
 final_rest(A,E,B,L):-buscar_en_lista(A,L),buscar_en_lista(B,L),base(C),buscar_en_lista(event(A,E,B),C),(transcription_factor(A);receptor(A)),buscar_en_lista(E,[bind,inhibit,regulate]).
 

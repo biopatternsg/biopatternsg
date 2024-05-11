@@ -194,8 +194,7 @@ public class objetos_patrones {
             q3.close();
             q4.close();
 
-        }
-        
+        }        
         /*
         new escribirBC("\n%las siguientes lineas son para evitar errores en el proceso no deben ser modificadas", ruta2);
         new escribirBC("enzyme('').", ruta2);
@@ -205,7 +204,8 @@ public class objetos_patrones {
         new escribirBC("ligand('').", ruta2);
         */
         
-        // mejorar_objetos_desde_pubtator(ruta);
+        
+        mejorar_objetos_desde_pubtator(ruta);
 
     }
 

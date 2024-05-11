@@ -623,6 +623,7 @@ public class configuracion {
                 } catch (Exception e) {
                 }
                 new patrones().inferir_patrones(this, ruta);
+                break;
             case 11:
                 objetos_patrones objetos_patrones = new objetos_patrones();
                 objetos_patrones.generar_archivo(this, ruta);
