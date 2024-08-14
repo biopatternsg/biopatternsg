@@ -111,7 +111,7 @@ def print_kb(knowledge_base: dict, root: str) -> None:
     kb_path = root + "/kBase.pl"
     doc_kb_path = root + "/kBaseDoc.txt"
 
-    events = [event for event, _ in knowledge_base.items()]
+    # events = [event for event, _ in knowledge_base.items()]
 
     events_count = 0
 
@@ -119,9 +119,11 @@ def print_kb(knowledge_base: dict, root: str) -> None:
 
         kb.write("base([" + "\n")
 
-        for event in events:
+        for event, values in knowledge_base.items():
             events_count += 1
-            if events_count != len(events):
+            if values['opposite']:
+                kb.write(values['opposite'] + "," + "\n")
+            if events_count != len(knowledge_base):
                 kb.write(event + "," + "\n")
             else:
                 kb.write(event + "\n")
@@ -188,6 +190,7 @@ if __name__ == '__main__':
     entities = {}
     events = {}
     objects_identities = []
+    special_relations = ['positive_correlation', 'negative_correlation']
 
     print(
         f'..getting events from the pubtator\'s files' + "\n")
@@ -246,7 +249,10 @@ if __name__ == '__main__':
                     if pubmed_id_on == pubmed_id:
                         try:
                             entity = {}
-                            entity_id = entity_line.split(" | ")[2].replace("'", "_")
+                            id_ = entity_line.split(" | ")[2].replace("'", "_")
+                            if len(id_.split(" ")) == 1:
+                                id_ = id_.upper()
+                            entity_id = id_.replace("'", "_")
                             entity['start'] = int(entity_line.split(" | ")[3])
                             entity['end'] = entity['start'] + int(entity_line.split(" | ")[4])
                             entity['name'] = abstract[entity['start']:entity['end']]
@@ -295,15 +301,25 @@ if __name__ == '__main__':
                     if pubmed_id_on == pubmed_id:
 
                         try:
-                            event = {'subject': rel_line.split("|")[2].strip(), 'relation': rel_line.split("|")[1].strip().lower(),
-                                     'object': rel_line.split("|")[3].strip()}
+                            subject_ = rel_line.split("|")[2].strip()
+                            if len(subject_.split(" ")) == 1:
+                                subject_ = subject_.upper()
+                            object_ = rel_line.split("|")[3].strip()
+                            if len(object_.split(" ")) == 1:
+                                object_ = object_.upper()
+                            rel = rel_line.split("|")[1].strip().lower()
+                            event = {'subject': subject_, 'relation': rel, 'object': object_}
                             event_pubmed_id = rel_line.split("|")[0].strip()
                             event_tag = event['subject'] + "," + event['relation'] + "," + event['object']
                             event_sents = get_event_sents(sentences, event, entities, event_pubmed_id, abstract)
 
                             if event_tag not in events.keys():
+                                opposite = None
                                 event['pubmed_ids'] = [event_pubmed_id]
                                 event['sentences'] = event_sents
+                                if rel in special_relations:
+                                    opposite = "event('" + object_ + "'," + rel + ",'" + subject_ + "')"
+                                event['opposite'] = opposite
                                 events[event_tag] = event
                             else:
                                 previous_sentences = [previous_sentence for previous_sentence, _ in

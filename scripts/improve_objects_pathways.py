@@ -17,7 +17,7 @@ if __name__ == '__main__':
     root = sys.argv[1]
     ruta = "minery/networks/COVID-19/COVID-19-IMMUNOLOGY"
     cwd = os.getcwd()
-    on_process = ruta.split("/")[-2] + "/" + ruta.split("/")[-1]
+    on_process = root.split("/")[-2] + "/" + ruta.split("/")[-1]
 
     print(f'root: {root}')
 
@@ -42,7 +42,7 @@ if __name__ == '__main__':
 # Improving the pathwaysObjects.pl file.
 
     for biotype in biotypes:
-        if biotype not in pathways_objects:
+        if biotype not in pathways_objects and biotype.startswith("ligand"):
             pathways_objects.append(biotype)
 
     with open(pathways_objects_path, 'w', encoding="utf8") as path_objects:
@@ -55,6 +55,7 @@ if __name__ == '__main__':
 
         for fact in ending_facts:
             path_objects.write(fact + "\n")
+        
 
 # Improving the expert_objects.txt file.
 

@@ -1487,102 +1487,25 @@ public class patrones {
         String sinonimo = rel;
 
         ArrayList<String> eventosUP = new ArrayList<>();
-        eventosUP.add("regulate");
         eventosUP.add("cause");
-        eventosUP.add("cotreat");
-        eventosUP.add("treat");
-        eventosUP.add("positive_correlation");        
-        eventosUP.add("transcriptional-activate");
-        eventosUP.add("stimulate");
-        eventosUP.add("up-regulate");
-        eventosUP.add("increase");
-        eventosUP.add("enhance");
-        eventosUP.add("induce");
-        eventosUP.add("trigger");
-        eventosUP.add("target");
-        eventosUP.add("express");
-        eventosUP.add("translate");
-        eventosUP.add("transcribe");
-        eventosUP.add("reactivate");
-        eventosUP.add("modulate");
-        eventosUP.add("mediate");
-        eventosUP.add("betamediate");
-        eventosUP.add("synthesize");
-        eventosUP.add("release");
-        eventosUP.add("lead");
-        eventosUP.add("raise");
-        eventosUP.add("develop");
-        eventosUP.add("incubate");
-        eventosUP.add("change");
-        eventosUP.add("betamediate");
-        eventosUP.add("control");
-        eventosUP.add("emerge");
-        eventosUP.add("stabilise");
-        eventosUP.add("stabilize");
-        eventosUP.add("reveal");
-        eventosUP.add("promote");
-        eventosUP.add("provoke");
-        eventosUP.add("infect");
-        eventosUP.add("act");
-        eventosUP.add("respond");
+        eventosUP.add("positive_correlation");
 
         ArrayList<String> eventosDOWN = new ArrayList<>();
-        eventosDOWN.add("inactivate");
-        eventosDOWN.add("inhibit");
-        eventosDOWN.add("negative_correlation");    
-        eventosDOWN.add("down-regulate");
-        eventosDOWN.add("decrease");
-        eventosDOWN.add("repress");
-        eventosDOWN.add("prevent");
-        eventosDOWN.add("suppress");
-        eventosDOWN.add("retain");
-        eventosDOWN.add("limit");
-        eventosDOWN.add("remove");
-        eventosDOWN.add("affect");
-        eventosDOWN.add("antagonize");
-        eventosDOWN.add("agonize");
-        eventosDOWN.add("fall");
-        eventosDOWN.add("destabilise");
-        eventosDOWN.add("destabilize");
-        eventosDOWN.add("reduce");
-        eventosDOWN.add("sequester");
+        eventosDOWN.add("inhibition");
+        eventosDOWN.add("negative_correlation");
 
         ArrayList<String> eventosMiddle = new ArrayList<>();
-        eventosMiddle.add("trimerize");
-        eventosMiddle.add("compare");
-        eventosMiddle.add("drug_interact");          
-        eventosMiddle.add("heterodimerize");
         eventosMiddle.add("association");
-        eventosMiddle.add("phosphorylate");
-        eventosMiddle.add("recruit");
-        eventosMiddle.add("dimerize");
-        eventosMiddle.add("participate");
-        eventosMiddle.add("involve");
-        eventosMiddle.add("require");
-        eventosMiddle.add("relate");
-        eventosMiddle.add("collect");
-        eventosMiddle.add("combine");
-        eventosMiddle.add("convert");
-        eventosMiddle.add("fit");
-        eventosMiddle.add("support");
-        eventosMiddle.add("envelop");
-        eventosMiddle.add("coordinate");
-        eventosMiddle.add("envelop");
-        eventosMiddle.add("bring");
 
         ArrayList<String> eventosStart = new ArrayList<>();
         eventosStart.add("bind");
-        eventosStart.add("recognize");
-        eventosStart.add("interact");
-        eventosStart.add("detect");
-        eventosStart.add("activate");
 
         if (eventosUP.contains(sinonimo)) {
-            sinonimo = "regulate";
+            sinonimo = "positive_correlation";
         } else if (eventosDOWN.contains(sinonimo)) {
-            sinonimo = "inhibit";
+            sinonimo = "negative_correlation";
         } else if (eventosMiddle.contains(sinonimo)) {
-            sinonimo = "associate";
+            sinonimo = "association";
         } else if (eventosStart.contains(sinonimo)) {
             sinonimo = "bind";
         }
