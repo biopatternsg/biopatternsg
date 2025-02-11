@@ -26,6 +26,8 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
 import java.io.PrintWriter;
 import java.nio.file.Files;
 import java.nio.file.Path;
@@ -126,10 +128,48 @@ public class patrones {
         // Para cada evento se indaga en la BC docimentada kBaseDoc y se extraen todas las oraciones posibles asociadas a los mismos.
         // El resultado de este metodo es el archivo eventsDocs.txt. Ek usuario puede proceder a etiquetas cada evento como Positivo, Falso o
         // agregado por si mismo (tipo U). Esta version modificada luego es utilizada por el metodo kbase_update para modificar kBase.pl.
-        /*if (pathways.exists()) {
-        events_documentation(config, ruta);
-        }*/
+        if (pathways.exists()) {
+            try {
+                generate_KB_pathways(ruta);
+            } catch (IOException ex) {
+                Logger.getLogger(patrones.class.getName()).log(Level.SEVERE, null, ex);
+            }
+        }
 
+    }
+    
+    private void generate_KB_pathways(String ruta) throws IOException {
+        
+        //  Este metodo permite generar la KB de eventos presentes en las rutas de señalización
+                
+        ProcessBuilder builder = new ProcessBuilder("python3", "scripts/kb_pathways.py", ruta);
+
+        Map<String, String> env = builder.environment();
+
+        // Set working directory
+
+        String workingDir = System.getProperty("user.dir");
+
+        builder.directory(new File(workingDir));
+
+        // Start process and get output
+
+        Process process = builder.start();
+
+        InputStream out = process.getInputStream();
+
+        // Convert output stream into a readable format
+
+        BufferedReader br = new BufferedReader(new InputStreamReader(out));
+
+        String line;
+
+        while ((line = br.readLine()) != null) {
+
+            System.out.println(line);
+            
+        }
+            
     }
 
     public void events_documentation(configuracion config, String ruta) throws IOException {

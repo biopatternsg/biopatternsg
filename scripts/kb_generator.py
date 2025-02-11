@@ -136,21 +136,35 @@ def print_kb(knowledge_base: dict, root: str) -> None:
             kb_doc.write("******************* Regulatory Event *******************" + "\n" + "\n")
             kb_doc.write(event + "\n" + "\n")
             kb_doc.write("subject names: " + ": " + str(subject_names) + "\n")
-            kb_doc.write("object names: "  + ": " + str(object_names) + "\n" + "\n")
+            kb_doc.write("object names: " + ": " + str(object_names) + "\n" + "\n")
             # kb_doc.write("PubMed IDs" + ": " + str(values['pubmed_ids']) + "\n")
             kb_doc.write("Sentences from abstracts:" + "\n")
             kb_doc.write("------------------------" + "\n" + "\n")
             # sentence_id = 1
             for sentence, pubmed_id in values['sentences']:
-                # kb_doc.write(str(sentence_id) + ". " + sentence + " PUBMED_ID: " + pubmed_id + "\n")
-                # sentence_id += 1
                 kb_doc.write(sentence + " PUBMED_ID: " + pubmed_id + "\n" + "\n")
             kb_doc.write("\n")
+            if values['opposite']:
+                subject_names, object_names = values['names']
+                kb_doc.write("******************* Regulatory Event *******************" + "\n" + "\n")
+                kb_doc.write(values['opposite'] + "\n" + "\n")
+                kb_doc.write("subject names: " + ": " + str(object_names) + "\n")
+                kb_doc.write("object names: " + ": " + str(subject_names) + "\n" + "\n")
+                # kb_doc.write("PubMed IDs" + ": " + str(values['pubmed_ids']) + "\n")
+                kb_doc.write("Sentences from abstracts:" + "\n")
+                kb_doc.write("------------------------" + "\n" + "\n")
+                # sentence_id = 1
+                for sentence, pubmed_id in values['sentences']:
+                    # kb_doc.write(str(sentence_id) + ". " + sentence + " PUBMED_ID: " + pubmed_id + "\n")
+                    # sentence_id += 1
+                    kb_doc.write(sentence + " PUBMED_ID: " + pubmed_id + "\n" + "\n")
+                kb_doc.write("\n")
 
 
 if __name__ == '__main__':
     """
-
+    A python script that generates the KB of events and entities, in prolog format using, the 
+    predictions coming from PubTator.
     """
 
     print("\n" + f'kb_generator: A python script to get regulatory events from pubtator files' + "\n")
@@ -165,12 +179,14 @@ if __name__ == '__main__':
     print(f'root: {root}')
 
     pubtator_files_path = root + '/abstracts'
+    logs_files_path = root + '/logs'
 
     if not path.exists(pubtator_files_path):
         print(f'Not "abstracts" folder available. Please check.')
         exit()
 
     nltk.download('punkt')
+    nltk.download('punkt_tab')
 
     cwd = os.getcwd()
 
@@ -195,159 +211,168 @@ if __name__ == '__main__':
     print(
         f'..getting events from the pubtator\'s files' + "\n")
 
-    block_on_process = 0
+    with open(logs_files_path + '/errors.txt', 'w', encoding="utf8") as errors:
 
-    for block in tqdm(range(blocks_to_process), desc='Files on process'):
+        block_on_process = 0
 
-        block_on_process += 1
+        for block in tqdm(range(blocks_to_process), desc='Files on process'):
 
-        abs_file = abs_files[block]
-        with open(abs_file, 'r', encoding="utf8") as abs_fl:
-            abs_lines = [line.strip() for line in abs_fl.readlines()]
+            block_on_process += 1
 
-        entity_file = entities_files[block]
-        with open(entity_file, 'r', encoding="utf8") as ent_fl:
-            entities_lines = [line.strip() for line in ent_fl.readlines()]
+            abs_file = abs_files[block]
+            with open(abs_file, 'r', encoding="utf8") as abs_fl:
+                abs_lines = [line.strip() for line in abs_fl.readlines()]
 
-        rel_file = rels_files[block]
-        with open(rel_file, 'r', encoding="utf8") as rels_fl:
-            rels_lines = [line.strip() for line in rels_fl.readlines()]
+            entity_file = entities_files[block]
+            with open(entity_file, 'r', encoding="utf8") as ent_fl:
+                entities_lines = [line.strip() for line in ent_fl.readlines()]
 
-        abs_line_on_process = 0
-        entity_on_process = 0
-        relation_on_process = 0
+            rel_file = rels_files[block]
+            with open(rel_file, 'r', encoding="utf8") as rels_fl:
+                rels_lines = [line.strip() for line in rels_fl.readlines()]
 
-        for abs_line in abs_lines:
+            abs_line_on_process = 0
+            entity_on_process = 0
+            relation_on_process = 0
 
-            abs_line_on_process += 1
-            correct_line = regex.search("[\d]+\s\|\s", abs_line)
-            pubmed_id = ""
+            for abs_line in abs_lines:
 
-            if correct_line:
-                pattern = regex.search("[\d]+\s\|\s", abs_line).group()
-                abstract = abs_line.split(pattern)[1]
-                sentences = nltk.sent_tokenize(abstract)
-                pubmed_id = pattern.split(" | ")[0]
-                next_abstract_from_entities = ""
+                abs_line_on_process += 1
+                correct_line = regex.search("[\d]+\s\|\s", abs_line)
+                pubmed_id = ""
 
-            else:
-                print(f'Error in file {abs_file}, at line: {abs_line_on_process}')
-                sys.exit()
-
-            pubmed_id_on = pubmed_id
-
-            while pubmed_id_on == pubmed_id:
-
-                if entities_lines:
-
-                    entity_line = entities_lines.pop(0)
-                    entity_on_process += 1
-
-                    if entity_line:
-                        pubmed_id_on = entity_line.split(" | ")[0]
-
-                    if pubmed_id_on == pubmed_id:
-                        try:
-                            entity = {}
-                            id_ = entity_line.split(" | ")[2].replace("'", "_")
-                            if len(id_.split(" ")) == 1:
-                                id_ = id_.upper()
-                            entity_id = id_.replace("'", "_")
-                            entity['start'] = int(entity_line.split(" | ")[3])
-                            entity['end'] = entity['start'] + int(entity_line.split(" | ")[4])
-                            entity['name'] = abstract[entity['start']:entity['end']]
-                            entity['text'] = entity_line.split(" | ")[7]
-                            entity['type'] = entity_line.split(" | ")[5]
-                            entity['biotype'] = entity_line.split(" | ")[6]
-                            entity['pubmed_id'] = entity_line.split(" | ")[0]
-
-                            if entity_id not in entities.keys():
-                                entities[entity_id] = [entity]
-                                if entity['biotype'] == 'gene':
-                                    object_identity = "protein('{}').".format(entity_id)
-                                    objects_identities.append((entity_id, object_identity))
-                                elif entity['biotype'] == 'chemical':
-                                    object_identity = "ligand('{}').".format(entity_id)
-                                    objects_identities.append((entity_id, object_identity))
-                                elif entity['biotype'] == 'disease':
-                                    object_identity = "disease('{}').".format(entity_id)
-                                    objects_identities.append((entity_id, object_identity))
-
-                            else:
-                                entities[entity_id].append(entity)
-                        except:
-                            print(f'Error in file {entity_file}, at line: {entity_on_process}')
-                            sys.exit()
-
-                    else:
-                        entities_lines.insert(0, entity_line)
-                        entity_on_process -= 1
-                        next_abstract_from_entities = pubmed_id_on
+                if correct_line:
+                    pattern = regex.search("[\d]+\s\|\s", abs_line).group()
+                    abstract = abs_line.split(pattern)[1]
+                    sentences = nltk.sent_tokenize(abstract)
+                    pubmed_id = pattern.split(" | ")[0]
+                    next_abstract_from_entities = ""
 
                 else:
-                    break
+                    print(f'Error in file {abs_file}, at line: {abs_line_on_process}')
+                    sys.exit()
 
-            pubmed_id_on = pubmed_id
+                pubmed_id_on = pubmed_id
 
-            while pubmed_id_on == pubmed_id:
+                while pubmed_id_on == pubmed_id:
 
-                if rels_lines:
+                    if entities_lines:
 
-                    rel_line = rels_lines.pop(0)
-                    relation_on_process += 1
+                        entity_line = entities_lines.pop(0)
+                        entity_on_process += 1
 
-                    pubmed_id_on = rel_line.split("|")[0].strip()
+                        if entity_line:
+                            pubmed_id_on = entity_line.split(" | ")[0]
 
-                    if pubmed_id_on == pubmed_id:
+                        if pubmed_id_on == pubmed_id:
+                            try:
+                                entity = {}
+                                id_ = entity_line.split(" | ")[2].replace("'", "_")
+                                if len(id_.split(" ")) == 1:
+                                    id_ = id_.upper()
+                                entity_id = id_.replace("'", "_")
+                                entity['start'] = int(entity_line.split(" | ")[3])
+                                entity['end'] = entity['start'] + int(entity_line.split(" | ")[4])
+                                entity['name'] = abstract[entity['start']:entity['end']]
+                                entity['text'] = entity_line.split(" | ")[7]
+                                entity['type'] = entity_line.split(" | ")[5]
+                                entity['biotype'] = entity_line.split(" | ")[6]
+                                entity['pubmed_id'] = entity_line.split(" | ")[0]
 
-                        try:
-                            subject_ = rel_line.split("|")[2].strip()
-                            if len(subject_.split(" ")) == 1:
-                                subject_ = subject_.upper()
-                            object_ = rel_line.split("|")[3].strip()
-                            if len(object_.split(" ")) == 1:
-                                object_ = object_.upper()
-                            rel = rel_line.split("|")[1].strip().lower()
-                            event = {'subject': subject_, 'relation': rel, 'object': object_}
-                            event_pubmed_id = rel_line.split("|")[0].strip()
-                            event_tag = event['subject'] + "," + event['relation'] + "," + event['object']
-                            event_sents = get_event_sents(sentences, event, entities, event_pubmed_id, abstract)
+                                if entity_id not in entities.keys():
+                                    entities[entity_id] = [entity]
+                                    if entity['biotype'] == 'gene':
+                                        object_identity = "protein('{}').".format(entity_id)
+                                        objects_identities.append((entity_id, object_identity))
+                                    elif entity['biotype'] == 'chemical':
+                                        object_identity = "ligand('{}').".format(entity_id)
+                                        objects_identities.append((entity_id, object_identity))
+                                    elif entity['biotype'] == 'disease':
+                                        object_identity = "disease('{}').".format(entity_id)
+                                        objects_identities.append((entity_id, object_identity))
 
-                            if event_tag not in events.keys():
-                                opposite = None
-                                event['pubmed_ids'] = [event_pubmed_id]
-                                event['sentences'] = event_sents
-                                if rel in special_relations:
-                                    opposite = "event('" + object_ + "'," + rel + ",'" + subject_ + "')"
-                                event['opposite'] = opposite
-                                events[event_tag] = event
-                            else:
-                                previous_sentences = [previous_sentence for previous_sentence, _ in
-                                                      events[event_tag]['sentences']]
+                                else:
+                                    entities[entity_id].append(entity)
+                            except:
+                                print(f'Error in file {entity_file}, at line: {entity_on_process}')
+                                sys.exit()
 
-                                for (sentence, pubmed_id) in event_sents:
-                                    if sentence not in previous_sentences:
-                                        events[event_tag]['sentences'].append((sentence, pubmed_id))
+                        else:
+                            entities_lines.insert(0, entity_line)
+                            entity_on_process -= 1
+                            next_abstract_from_entities = pubmed_id_on
 
-                                events[event_tag]['pubmed_ids'].append(event_pubmed_id)
-
-                        except Exception as e:
-                            print(f'Error in file {rel_file}, at line: {relation_on_process}')
-                            print(f'No sentences for the event: {event_tag}. PubMed: {pubmed_id}')
-                            print(f'Please check the objects\' file {entity_file}.'
-                                  f'There are not annotations for the entity {str(e)}')
                     else:
-                        rels_lines.insert(0, rel_line)
-                        relation_on_process -= 1
-                        """
-                        if next_abstract_from_entities != pubmed_id_on:
-                            print(f'There is a mismatch at the abstract {pubmed_id} at line {abs_line_on_process}')
-                            print(f'from entities | from relations: {next_abstract_from_entities} | {pubmed_id_on}')
-                            # sys.exit()
-                        """
+                        break
 
-                else:
-                    break
+                pubmed_id_on = pubmed_id
+
+                while pubmed_id_on == pubmed_id:
+
+                    if rels_lines:
+
+                        rel_line = rels_lines.pop(0)
+                        relation_on_process += 1
+
+                        pubmed_id_on = rel_line.split("|")[0].strip()
+
+                        if pubmed_id_on == pubmed_id:
+
+                            try:
+                                subject_ = rel_line.split("|")[2].strip()
+                                if len(subject_.split(" ")) == 1:
+                                    subject_ = subject_.upper()
+                                object_ = rel_line.split("|")[3].strip()
+                                if len(object_.split(" ")) == 1:
+                                    object_ = object_.upper()
+                                rel = rel_line.split("|")[1].strip().lower()
+                                event = {'subject': subject_, 'relation': rel, 'object': object_}
+                                event_pubmed_id = rel_line.split("|")[0].strip()
+                                event_tag = event['subject'] + "," + event['relation'] + "," + event['object']
+                                event_sents = get_event_sents(sentences, event, entities, event_pubmed_id, abstract)
+
+                                if event_tag not in events.keys():
+                                    opposite = None
+                                    event['pubmed_ids'] = [event_pubmed_id]
+                                    event['sentences'] = event_sents
+                                    if rel in special_relations:
+                                        opposite = "event('" + object_ + "'," + rel + ",'" + subject_ + "')"
+                                    event['opposite'] = opposite
+                                    events[event_tag] = event
+                                else:
+                                    previous_sentences = [previous_sentence for previous_sentence, _ in
+                                                          events[event_tag]['sentences']]
+
+                                    for (sentence, pubmed_id) in event_sents:
+                                        if sentence not in previous_sentences:
+                                            events[event_tag]['sentences'].append((sentence, pubmed_id))
+
+                                    events[event_tag]['pubmed_ids'].append(event_pubmed_id)
+
+                            except Exception as e:
+                                """
+                                print(f'Error in file {rel_file}, at line: {relation_on_process}')
+                                print(f'No sentences for the event: {event_tag}. PubMed: {pubmed_id}')
+                                print(f'Please check the objects\' file {entity_file}.'
+                                      f'There are not annotations for the entity {str(e)}')
+                                """
+                                errors.write(f'Error in file {rel_file}, at line: {relation_on_process}'+ "\n")
+                                errors.write(f'No sentences for the event: {event_tag}. PubMed: {pubmed_id}' + "\n")
+                                errors.write(f'Please check the objects\' file {entity_file}.' + "\n")
+                                errors.write(f'There are not annotations for the entity {str(e)}' + "\n")
+                                errors.write(f'----------------------------------------' + "\n")
+                        else:
+                            rels_lines.insert(0, rel_line)
+                            relation_on_process -= 1
+                            """
+                            if next_abstract_from_entities != pubmed_id_on:
+                                print(f'There is a mismatch at the abstract {pubmed_id} at line {abs_line_on_process}')
+                                print(f'from entities | from relations: {next_abstract_from_entities} | {pubmed_id_on}')
+                                # sys.exit()
+                            """
+
+                    else:
+                        break
 
     knowledge_base = get_normalized_kb(events, entities, objects_identities)
 

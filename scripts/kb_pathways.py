@@ -4,7 +4,9 @@ from os import path
 
 if __name__ == '__main__':
     """
-
+    This script generates the KB of events that give form to the set of pathways (in pathways.txt), inferred
+    with prolog, from the general KB of events. The idea about this other reduced KB, is to offer
+    a way to get the graph that represents the pathways in pathways.txt.
     """
 
     print("\n" + f'Printing the pathways\'s knowledge base  ...' + "\n")
@@ -15,7 +17,7 @@ if __name__ == '__main__':
         print(f'{arg}')
 
     root = sys.argv[1]
-    ruta = "minery/networks/COVID-19/COVID-19-IMMUNOLOGY"
+
     cwd = os.getcwd()
 
     print(f'root: {root}')
@@ -43,7 +45,8 @@ if __name__ == '__main__':
         kb_p.write("base([" + "\n")
         for event in pathways_events[:-1]:
             new_event = "event(" + event + ")"
-            kb_p.write(event + "," + "\n")
+            kb_p.write(new_event + "," + "\n")
         else:
-            kb_p.write(event + "\n")
+            new_event = "event(" + pathways_events[-1] + ")"
+            kb_p.write(new_event + "\n")
             kb_p.write("]).")
