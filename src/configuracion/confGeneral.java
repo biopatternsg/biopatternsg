@@ -20,6 +20,7 @@ import com.db4o.Db4o;
 import com.db4o.ObjectContainer;
 import com.db4o.ObjectSet;
 import com.db4o.collections.ActivatableArrayList;
+import estructura.abstractObject.Abstract;
 import estructura.factorTranscripcion;
 import estructura.objetos_Experto;
 import estructura.ontologiaGO;
@@ -579,14 +580,17 @@ public class confGeneral {
 
                 //este metodo toma la el archivo de PubMed Ids y procede a hacer la busqueda abstracts
                 //y crear una coleccion de archivos con extencion html en el directorio 'abctracts'
-                new lecturas_PM().BusquedaPM_Abstracts("abstracts", 500, config, ruta); // Número máximo de abstracts por archivo
-
+                //new lecturas_PM().BusquedaPM_Abstracts("abstracts", 500, config, ruta); // Número máximo de abstracts por archivo
+                
+                Abstract abstracObject = new Abstract();
+                abstracObject.find(ruta, config);
+                              
                 //este metodo toma la imformacion minada tanto de los objetos minados como de las ontologias y la vacia en formato prolog
                 //crea los archivos 'objetosMinados.pl' , ontologyGO.pl, ontologyMESH.pl , wellKnownRules.pl
                 mfts.vaciar_bc_pl(GO, MESH, config, ruta);
 
                 //este metodo llama al resumidor_bioinformante hace uso de la coleccion de abstracts
-                new Resumidor().resumidor(config, ruta);
+                //new Resumidor().resumidor(config, ruta);
 
                 // crea la bace de conocimiento con el listado de eventos encontrados por el resumidor
                 String kb = new GeneradorBC().generadorBC("kBase.pl", config, ruta);

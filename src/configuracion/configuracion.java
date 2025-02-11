@@ -20,6 +20,7 @@ import com.db4o.Db4o;
 import com.db4o.ObjectContainer;
 import com.db4o.ObjectSet;
 import com.db4o.collections.ActivatableArrayList;
+import estructura.abstractObject.Abstract;
 import estructura.complejoProteinico;
 import estructura.factorTranscripcion;
 import estructura.objetos_Experto;
@@ -177,8 +178,8 @@ public class configuracion {
                 this.vaciado_pl = config.vaciado_pl;
                 this.crearOntologiaGO = config.crearOntologiaGO;
                 this.crearOntologiaMESH = config.crearOntologiaMESH;
-                this.generarResumenes = config.generarResumenes;
-                this.resumenes = config.resumenes;
+                //this.generarResumenes = config.generarResumenes;
+                //this.resumenes = config.resumenes;
                 this.GenerarBC = config.GenerarBC;
                 this.objetosPatrones = config.objetosPatrones;
                 this.InferirPatrones = config.InferirPatrones;
@@ -226,8 +227,6 @@ public class configuracion {
             System.out.println(utilidades.idioma.get(30));
         } else if (!vaciado_pl) {
             System.out.println(utilidades.idioma.get(31));
-        } else if (!generarResumenes) {
-            System.out.println(utilidades.idioma.get(32) + " " + resumenes);
         } else if (!GenerarBC) {
             System.out.println(utilidades.idioma.get(33));
         } else if (!objetosPatrones) {
@@ -268,8 +267,6 @@ public class configuracion {
             reanudar(7, objMin, ruta, ruta2);
         } else if (!vaciado_pl) {
             reanudar(8, objMin, ruta, ruta2);
-        } else if (!generarResumenes) {
-            reanudar(9, objMin, ruta, ruta2);
         } else if (!GenerarBC) {
             reanudar(10, objMin, ruta, ruta2);
         } else if (!objetosPatrones) {
@@ -388,7 +385,7 @@ public class configuracion {
         }
     }
 
-    private void reanudarDesde(String ruta, String rutaD) {
+    private void reanudarDesde(String ruta, String rutaD) throws IOException {
         Scanner lectura = new Scanner(System.in);
         boolean r = true;
 
@@ -398,9 +395,9 @@ public class configuracion {
             System.out.println("2.- " + utilidades.idioma.get(29));
             System.out.println("3.- " + utilidades.idioma.get(30));
             System.out.println("4.- " + utilidades.idioma.get(31));
-            System.out.println("5.- " + utilidades.idioma.get(32));
-            System.out.println("6.- " + utilidades.idioma.get(33));
-            System.out.println("7.- " + utilidades.idioma.get(34));
+            //System.out.println("5.- " + utilidades.idioma.get(32));
+            System.out.println("5.- " + utilidades.idioma.get(33));
+            System.out.println("6.- " + utilidades.idioma.get(34));
             System.out.println("0.- " + utilidades.idioma.get(4));
 
             String resp = lectura.nextLine();
@@ -453,16 +450,8 @@ public class configuracion {
                     reanudar(8, new objetosMineria(), ruta, rutaD);
                     break;
 
+                
                 case "5":
-                    generarResumenes = false;
-                    GenerarBC = false;
-                    objetosPatrones = false;
-                    InferirPatrones = false;
-                    guardar(ruta);
-                    reanudar(9, new objetosMineria(), ruta, rutaD);
-                    break;
-
-                case "6":
                     GenerarBC = false;
                     objetosPatrones = false;
                     InferirPatrones = false;
@@ -470,7 +459,7 @@ public class configuracion {
                     reanudar(10, new objetosMineria(), ruta, rutaD);
                     break;
 
-                case "7":
+                case "6":
                     objetosPatrones = false;
                     InferirPatrones = false;
                     guardar(ruta);
@@ -489,9 +478,10 @@ public class configuracion {
 
     //dependiendo del punto de reanudacion del proceso se ejecutaran el juego instrucciones necesarias 
     //para que el proceso termine
-    private void reanudar(int punto, objetosMineria objetosMineria, String ruta, String rutaD) {
+    private void reanudar(int punto, objetosMineria objetosMineria, String ruta, String rutaD) throws IOException {
         minado_FT mfts = new minado_FT();
         lecturas_PM lpm = new lecturas_PM();
+        Abstract abstracObject = new Abstract();
         switch (punto) {
             case 1:
                 mfts.buscarHomologos(revisarObjH_E(rutaD + "/homologous", objetosMineria, ruta), objetosMineria, this, crearOntologiaGO, crearOntologiaMESH, ruta);
@@ -500,9 +490,9 @@ public class configuracion {
                 mfts.Iteraciones(false, new ArrayList<String>(), cantComplejos, numIteraciones, objetosMineria, this, 1, crearOntologiaGO, crearOntologiaMESH, ruta);
                 new combinaciones().generar_combinaciones(false, this, ruta, nombreCorto);
                 new PubMed_IDs().buscar(cantidadPMID, this, ruta);
-                lpm.BusquedaPM_Abstracts("abstracts", 500, this, ruta);
+                abstracObject.find(ruta,this);
                 mfts.vaciar_bc_pl(crearOntologiaGO, crearOntologiaMESH, this, ruta);
-                new Resumidor().resumidor(this, ruta);
+               
                 try {
                     String base_conocimiento = new GeneradorBC().generadorBC("kBase.pl", this, ruta);
                     objetos_patrones objetos_patrones = new objetos_patrones();
@@ -518,9 +508,9 @@ public class configuracion {
                 mfts.Iteraciones(false, new ArrayList<String>(), cantComplejos, numIteraciones, objetosMineria, this, 1, crearOntologiaGO, crearOntologiaMESH, ruta);
                 new combinaciones().generar_combinaciones(false, this, ruta, nombreCorto);
                 new PubMed_IDs().buscar(cantidadPMID, this, ruta);
-                lpm.BusquedaPM_Abstracts("abstracts", 500, this, ruta);
+                abstracObject.find(ruta,this);
                 mfts.vaciar_bc_pl(crearOntologiaGO, crearOntologiaMESH, this, ruta);
-                new Resumidor().resumidor(this, ruta);
+              
                 try {
                     String base_conocimiento = new GeneradorBC().generadorBC("kBase.pl", this, ruta);
                     objetos_patrones objetos_patrones = new objetos_patrones();
@@ -537,9 +527,9 @@ public class configuracion {
                 mfts.Iteraciones(false, new ArrayList<String>(), cantComplejos, numIteraciones, objetosMineria, this, 1, crearOntologiaGO, crearOntologiaMESH, ruta);
                 new combinaciones().generar_combinaciones(false, this, ruta, nombreCorto);
                 new PubMed_IDs().buscar(cantidadPMID, this, ruta);
-                lpm.BusquedaPM_Abstracts("abstracts", 500, this, ruta);
+                abstracObject.find(ruta,this);
                 mfts.vaciar_bc_pl(crearOntologiaGO, crearOntologiaMESH, this, ruta);
-                new Resumidor().resumidor(this, ruta);
+               
                 try {
                     String base_conocimiento = new GeneradorBC().generadorBC("kBase.pl", this, ruta);
                     objetos_patrones objetos_patrones = new objetos_patrones();
@@ -553,9 +543,9 @@ public class configuracion {
                 mfts.Iteraciones(true, ListaObj, cantComplejos, numIteraciones, objetosMineria, this, objetosMineria.getIteracion() + 1, crearOntologiaGO, crearOntologiaMESH, ruta);
                 new combinaciones().generar_combinaciones(false, this, ruta, nombreCorto);
                 new PubMed_IDs().buscar(cantidadPMID, this, ruta);
-                lpm.BusquedaPM_Abstracts("abstracts", 500, this, ruta);
+                abstracObject.find(ruta,this);
                 mfts.vaciar_bc_pl(crearOntologiaGO, crearOntologiaMESH, this, ruta);
-                new Resumidor().resumidor(this, ruta);
+               
                 try {
                     String base_conocimiento = new GeneradorBC().generadorBC("kBase.pl", this, ruta);
                     objetos_patrones objetos_patrones = new objetos_patrones();
@@ -568,9 +558,9 @@ public class configuracion {
             case 5:
                 new combinaciones().generar_combinaciones(false, this, ruta, nombreCorto);
                 new PubMed_IDs().buscar(cantidadPMID, this, ruta);
-                lpm.BusquedaPM_Abstracts("abstracts", 500, this, ruta);
+                abstracObject.find(ruta,this);
                 mfts.vaciar_bc_pl(crearOntologiaGO, crearOntologiaMESH, this, ruta);
-                new Resumidor().resumidor(this, ruta);
+                
                 try {
                     String base_conocimiento = new GeneradorBC().generadorBC("kBase.pl", this, ruta);
                     objetos_patrones objetos_patrones = new objetos_patrones();
@@ -581,9 +571,9 @@ public class configuracion {
                 break;
             case 6:
                 new PubMed_IDs().buscar(cantidadPMID, this, ruta);
-                lpm.BusquedaPM_Abstracts("abstracts", 500, this, ruta);
+                abstracObject.find(ruta,this);
                 mfts.vaciar_bc_pl(crearOntologiaGO, crearOntologiaMESH, this, ruta);
-                new Resumidor().resumidor(this, ruta);
+               
                 try {
                     String base_conocimiento = new GeneradorBC().generadorBC("kBase.pl", this, ruta);
                     objetos_patrones objetos_patrones = new objetos_patrones();
@@ -593,9 +583,9 @@ public class configuracion {
                 new patrones().inferir_patrones(this, ruta);
                 break;
             case 7:
-                lpm.BusquedaPM_Abstracts("abstracts", 500, this, ruta);
+                abstracObject.find(ruta,this);
                 mfts.vaciar_bc_pl(crearOntologiaGO, crearOntologiaMESH, this, ruta);
-                new Resumidor().resumidor(this, ruta);
+               
                 try {
                     String base_conocimiento = new GeneradorBC().generadorBC("kBase.pl", this, ruta);
                     objetos_patrones objetos_patrones = new objetos_patrones();
@@ -606,7 +596,7 @@ public class configuracion {
                 break;
             case 8:
                 mfts.vaciar_bc_pl(crearOntologiaGO, crearOntologiaMESH, this, ruta);
-                new Resumidor().resumidor(this, ruta);
+               
                 try {
                     String base_conocimiento = new GeneradorBC().generadorBC("kBase.pl", this, ruta);
                     objetos_patrones objetos_patrones = new objetos_patrones();
@@ -615,7 +605,7 @@ public class configuracion {
                 }
                 new patrones().inferir_patrones(this, ruta);
                 break;
-            case 9:
+            /*case 9:
                 new Resumidor().resumidor(this, ruta);
                 try {
                     String base_conocimiento = new GeneradorBC().generadorBC("kBase.pl", this, ruta);
@@ -624,7 +614,7 @@ public class configuracion {
                 } catch (Exception e) {
                 }
                 new patrones().inferir_patrones(this, ruta);
-                break;
+                break;*/
             case 10:
                 try {
                     String base_conocimiento = new GeneradorBC().generadorBC("kBase.pl", this, ruta);
@@ -633,6 +623,7 @@ public class configuracion {
                 } catch (Exception e) {
                 }
                 new patrones().inferir_patrones(this, ruta);
+                break;
             case 11:
                 objetos_patrones objetos_patrones = new objetos_patrones();
                 objetos_patrones.generar_archivo(this, ruta);

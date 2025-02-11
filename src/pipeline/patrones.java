@@ -26,6 +26,8 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
 import java.io.PrintWriter;
 import java.nio.file.Files;
 import java.nio.file.Path;
@@ -49,111 +51,125 @@ public class patrones {
 
     public void inferir_patrones(configuracion config, String ruta) {
 
+        new utilidades().limpiarPantalla();
+        utilidades.momento = "";
+        utilidades.texto_carga = "";
+        utilidades.texto_etapa = utilidades.idioma.get(153);
+        System.out.println(utilidades.colorTexto1 + utilidades.titulo);
+        System.out.println(utilidades.colorTexto1 + utilidades.proceso);
+        System.out.println("\n" + utilidades.colorTexto2 + utilidades.texto_etapa);
+        ArrayList<String> objRestricion = menuRestricionObjetos();
+        ArrayList<String> objCierre = menuMotivos();
         try {
-            new utilidades().limpiarPantalla();
-            utilidades.momento = "";
-            utilidades.texto_carga = "";
-            utilidades.texto_etapa = utilidades.idioma.get(153);
-            System.out.println(utilidades.colorTexto1 + utilidades.titulo);
-            System.out.println(utilidades.colorTexto1 + utilidades.proceso);
-            System.out.println("\n" + utilidades.colorTexto2 + utilidades.texto_etapa);
-
-            ArrayList<String> objRestricion = menuRestricionObjetos();
-
-            ArrayList<String> objCierre = menuMotivos();
-
+            resumirBaseC(ruta);
+        } catch (Exception e) {
+        }
+        File pathways = new File(ruta + "/pathways.txt");
+        File eventsDoc = new File(ruta + "/pathways.txt");
+        /*
+        // En este punto se asume que hay un archivo de eventos documentados que han sido etiquetados como P, F o U.
+        // Este metodo lee ese archivo y actualiza la kBase.pl para agregar nuevos eventos del ususario y elimiar los eventos falsos
+        // que el usuario haya identificado.
+        if (eventsDoc.exists()) {
+        BufferedReader e = new BufferedReader(new FileReader(eventsDoc));
+        if (!e.readLine().contains("///**")) {
+        kbase_update(config, ruta);
+        }
+        }
+        */
+        // System.out.println(objRestricion);
+        borrar_archivo(ruta + "/pathways.txt");
+        borrar_archivo(ruta + "/pathways.db");
+        String v = "style_check(-discontiguous).";
+        Query q0 = new Query(v);
+        q0.hasSolution();
+        String objPatr = "['" + ruta + "/pathwaysObjects'].";
+        Query q1 = new Query(objPatr);
+        q1.hasSolution();
+        cargarBaseC(ruta);
+        String archivo = "[scripts/pathwaysJPL].";
+        Query q = new Query(archivo);
+        q.hasSolution();
+        ArrayList<String> listaInicio = inicio(objRestricion);
+        ArrayList<String> objEnlace = new ArrayList<>();
+        listaInicio.parallelStream().forEach((obj) -> {
+            String sep1[] = obj.split(",");
+            if (!objEnlace.contains(sep1[2])) {
+                objEnlace.add(sep1[2]);
+            }
+            //System.out.println("evento inicio:  " + obj);
+        });
+        ArrayList<String> listaFin = new ArrayList<>();
+        objCierre.forEach(obj -> listaFin.addAll(fin(obj, objRestricion)));
+        if (objCierre.isEmpty()) {
+            listaFin.addAll(fin("", objRestricion));
+        }
+        ArrayList<String> FT = new ArrayList<>();
+        listaFin.forEach((String fin) -> {
+            String sep[] = fin.split(",");
+            if (!FT.contains(sep[0])) {
+                FT.add(sep[0]);
+            }
+            
+            if (!objCierre.contains(sep[2])) {
+                objCierre.add(sep[2]);
+            }
+            
+            //System.out.println("evento fin:  " + fin);
+        });
+        //patrones de 2 eventos
+        patron_2_eventos(objCierre, listaInicio, objEnlace, ruta);
+        objEnlace.forEach(enlace -> intermedios(new ArrayList<String>(), enlace, FT, "", 0, listaInicio, listaFin, objCierre, objRestricion, ruta));
+        guardar_Patron(ruta);
+        config.setInferirPatrones(true);
+        config.guardar(ruta);
+        
+        // Una vez que se han inferido los patrones, el siguiente metodo extrae desde pathways.txt todos los eventos que participan en ellos.
+        // Para cada evento se indaga en la BC docimentada kBaseDoc y se extraen todas las oraciones posibles asociadas a los mismos.
+        // El resultado de este metodo es el archivo eventsDocs.txt. Ek usuario puede proceder a etiquetas cada evento como Positivo, Falso o
+        // agregado por si mismo (tipo U). Esta version modificada luego es utilizada por el metodo kbase_update para modificar kBase.pl.
+        if (pathways.exists()) {
             try {
-                resumirBaseC(ruta);
-            } catch (Exception e) {
+                generate_KB_pathways(ruta);
+            } catch (IOException ex) {
+                Logger.getLogger(patrones.class.getName()).log(Level.SEVERE, null, ex);
             }
-            File pathways = new File(ruta + "/pathways.txt");
-            File eventsDoc = new File(ruta + "/pathways.txt");
-
-            /*
-            // En este punto se asume que hay un archivo de eventos documentados que han sido etiquetados como P, F o U.
-            // Este metodo lee ese archivo y actualiza la kBase.pl para agregar nuevos eventos del ususario y elimiar los eventos falsos
-            // que el usuario haya identificado.
-            if (eventsDoc.exists()) {
-                BufferedReader e = new BufferedReader(new FileReader(eventsDoc));
-                if (!e.readLine().contains("///**")) {
-                    kbase_update(config, ruta);
-                }
-            }
-             */
-            // System.out.println(objRestricion);
-            borrar_archivo(ruta + "/pathways.txt");
-            borrar_archivo(ruta + "/pathways.db");
-
-            String v = "style_check(-discontiguous).";
-            Query q0 = new Query(v);
-            q0.hasSolution();
-
-            String objPatr = "['" + ruta + "/pathwaysObjects'].";
-            Query q1 = new Query(objPatr);
-            q1.hasSolution();
-
-            cargarBaseC(ruta);
-
-            String archivo = "[scripts/pathwaysJPL].";
-            Query q = new Query(archivo);
-            q.hasSolution();
-
-            ArrayList<String> listaInicio = inicio(objRestricion);
-
-            ArrayList<String> objEnlace = new ArrayList<>();
-
-            listaInicio.parallelStream().forEach((obj) -> {
-                String sep1[] = obj.split(",");
-                if (!objEnlace.contains(sep1[2])) {
-                    objEnlace.add(sep1[2]);
-                }
-                //System.out.println("evento inicio:  " + obj);
-            });
-
-            ArrayList<String> listaFin = new ArrayList<>();
-
-            objCierre.forEach(obj -> listaFin.addAll(fin(obj, objRestricion)));
-
-            if (objCierre.isEmpty()) {
-                listaFin.addAll(fin("", objRestricion));
-            }
-
-            ArrayList<String> FT = new ArrayList<>();
-
-            listaFin.forEach((String fin) -> {
-                String sep[] = fin.split(",");
-                if (!FT.contains(sep[0])) {
-                    FT.add(sep[0]);
-                }
-
-                if (!objCierre.contains(sep[2])) {
-                    objCierre.add(sep[2]);
-                }
-
-                //System.out.println("evento fin:  " + fin);
-            });
-            //patrones de 2 eventos
-            patron_2_eventos(objCierre, listaInicio, objEnlace, ruta);
-
-            objEnlace.forEach(enlace -> intermedios(new ArrayList<String>(), enlace, FT, "", 0, listaInicio, listaFin, objCierre, objRestricion, ruta));
-
-            guardar_Patron(ruta);
-
-            config.setInferirPatrones(true);
-            config.guardar(ruta);
-
-            // Una vez que se han inferido los patrones, el siguiente metodo extrae desde pathways.txt todos los eventos que participan en ellos.
-            // Para cada evento se indaga en la BC docimentada kBaseDoc y se extraen todas las oraciones posibles asociadas a los mismos.
-            // El resultado de este metodo es el archivo eventsDocs.txt. Ek usuario puede proceder a etiquetas cada evento como Positivo, Falso o 
-            // agregado por si mismo (tipo U). Esta version modificada luego es utilizada por el metodo kbase_update para modificar kBase.pl.
-            if (pathways.exists()) {
-                events_documentation(config, ruta);
-            }
-
-        } catch (IOException ex) {
-            Logger.getLogger(patrones.class.getName()).log(Level.SEVERE, null, ex);
         }
 
+    }
+    
+    private void generate_KB_pathways(String ruta) throws IOException {
+        
+        //  Este metodo permite generar la KB de eventos presentes en las rutas de señalización
+                
+        ProcessBuilder builder = new ProcessBuilder("python3", "scripts/kb_pathways.py", ruta);
+
+        Map<String, String> env = builder.environment();
+
+        // Set working directory
+
+        String workingDir = System.getProperty("user.dir");
+
+        builder.directory(new File(workingDir));
+
+        // Start process and get output
+
+        Process process = builder.start();
+
+        InputStream out = process.getInputStream();
+
+        // Convert output stream into a readable format
+
+        BufferedReader br = new BufferedReader(new InputStreamReader(out));
+
+        String line;
+
+        while ((line = br.readLine()) != null) {
+
+            System.out.println(line);
+            
+        }
+            
     }
 
     public void events_documentation(configuracion config, String ruta) throws IOException {
@@ -1511,99 +1527,30 @@ public class patrones {
         String sinonimo = rel;
 
         ArrayList<String> eventosUP = new ArrayList<>();
-        eventosUP.add("regulate");
-        eventosUP.add("transcriptional-activate");
-        eventosUP.add("stimulate");
-        eventosUP.add("up-regulate");
-        eventosUP.add("increase");
-        eventosUP.add("enhance");
-        eventosUP.add("induce");
-        eventosUP.add("trigger");
-        eventosUP.add("target");
-        eventosUP.add("express");
-        eventosUP.add("translate");
-        eventosUP.add("transcribe");
-        eventosUP.add("reactivate");
-        eventosUP.add("modulate");
-        eventosUP.add("mediate");
-        eventosUP.add("betamediate");
-        eventosUP.add("synthesize");
-        eventosUP.add("release");
-        eventosUP.add("lead");
-        eventosUP.add("raise");
-        eventosUP.add("develop");
-        eventosUP.add("incubate");
-        eventosUP.add("change");
-        eventosUP.add("betamediate");
-        eventosUP.add("control");
-        eventosUP.add("emerge");
-        eventosUP.add("stabilise");
-        eventosUP.add("stabilize");
-        eventosUP.add("reveal");
-        eventosUP.add("promote");
-        eventosUP.add("provoke");
-        eventosUP.add("infect");
-        eventosUP.add("act");
-        eventosUP.add("respond");
+        eventosUP.add("cause");
+        eventosUP.add("positive_correlation");
 
         ArrayList<String> eventosDOWN = new ArrayList<>();
-        eventosDOWN.add("inactivate");
-        eventosDOWN.add("inhibit");
-        eventosDOWN.add("down-regulate");
-        eventosDOWN.add("decrease");
-        eventosDOWN.add("repress");
-        eventosDOWN.add("prevent");
-        eventosDOWN.add("suppress");
-        eventosDOWN.add("retain");
-        eventosDOWN.add("limit");
-        eventosDOWN.add("remove");
-        eventosDOWN.add("affect");
-        eventosDOWN.add("antagonize");
-        eventosDOWN.add("agonize");
-        eventosDOWN.add("fall");
-        eventosDOWN.add("destabilise");
-        eventosDOWN.add("destabilize");
-        eventosDOWN.add("reduce");
-        eventosDOWN.add("sequester");
+        eventosDOWN.add("inhibition");
+        eventosDOWN.add("negative_correlation");
 
         ArrayList<String> eventosMiddle = new ArrayList<>();
-        eventosMiddle.add("trimerize");
-        eventosMiddle.add("heterodimerize");
-        eventosMiddle.add("associate");
-        eventosMiddle.add("phosphorylate");
-        eventosMiddle.add("recruit");
-        eventosMiddle.add("dimerize");
-        eventosMiddle.add("participate");
-        eventosMiddle.add("involve");
-        eventosMiddle.add("require");
-        eventosMiddle.add("relate");
-        eventosMiddle.add("collect");
-        eventosMiddle.add("combine");
-        eventosMiddle.add("convert");
-        eventosMiddle.add("fit");
-        eventosMiddle.add("support");
-        eventosMiddle.add("envelop");
-        eventosMiddle.add("coordinate");
-        eventosMiddle.add("envelop");
-        eventosMiddle.add("bring");
+        eventosMiddle.add("association");
 
         ArrayList<String> eventosStart = new ArrayList<>();
         eventosStart.add("bind");
-        eventosStart.add("recognize");
-        eventosStart.add("interact");
-        eventosStart.add("detect");
-        eventosStart.add("activate");
 
         if (eventosUP.contains(sinonimo)) {
-            sinonimo = "regulate";
+            sinonimo = "positive_correlation";
         } else if (eventosDOWN.contains(sinonimo)) {
-            sinonimo = "inhibit";
+            sinonimo = "negative_correlation";
         } else if (eventosMiddle.contains(sinonimo)) {
-            sinonimo = "associate";
+            sinonimo = "association";
         } else if (eventosStart.contains(sinonimo)) {
             sinonimo = "bind";
         }
 
         return sinonimo;
     }
+    
 }
