@@ -43,6 +43,7 @@ if __name__ == '__main__':
 
     with open(kb_events_path, 'w', encoding="utf8") as kb_p:
         kb_p.write("base([" + "\n")
+        
         for event in pathways_events[:-1]:
             new_event = "event(" + event + ")"
             kb_p.write(new_event + "," + "\n")
