@@ -5,19 +5,9 @@
  */
 package pipeline;
 
-import EDU.purdue.cs.bloat.decorate.Main;
-import com.db4o.Db4o;
-import com.db4o.ObjectContainer;
-import com.db4o.ObjectSet;
-import com.db4o.collections.ActivatableArrayList;
-import configuracion.PMIDS;
-import configuracion.combinacion;
 import configuracion.confGeneral;
 import configuracion.configuracion;
 import configuracion.utilidades;
-import configuracion.listPM;
-import estructura.ontologiaGO;
-import estructura.ontologiaObjMin;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -25,18 +15,10 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.net.Authenticator;
 import java.net.PasswordAuthentication;
-import java.util.ArrayList;
-import java.util.Scanner;
-import java.util.logging.Level;
-import java.util.logging.Logger;
-import javax.print.DocFlavor;
 import javax.swing.JOptionPane;
 import javax.swing.JPasswordField;
 import javax.swing.JTextField;
-import org.jpl7.Query;
 
-import servicios.lecturas_PM;
-import servicios.lecturas_QuickGO;
 
 /**
  *
@@ -80,7 +62,7 @@ public class BioPattern {
 
     }
 
-    public Region pipelineBioPatternRP(String regionPromotora, String confiabilidad, int cant_compl_p, int num_iteraciones) throws IOException {
+    public Region pipelineBioPatternRP(String regionPromotora, String confiabilidad, int cant_compl_p, int num_iteraciones, int metodoDeBusqueda) throws IOException {
 
         //Autenticación de proxy        
         autenticarProxy("150.187.65.3", "3128");
@@ -112,7 +94,7 @@ public class BioPattern {
         minado_FT mfts = new minado_FT();
         //ruta de archivo, confiabilidad, N Iteraciones, N de objetos
     //    mfts.minado(regionPromotora, conf, num_iteraciones, cant_compl_p, buscarOntologiaGO, buscarOntologiaMESH, new configuracion());
-        mfts.minado(regionPromotora, conf, num_iteraciones,cant_compl_p , buscarOntologiaGO, buscarOntologiaMESH, new configuracion(), "","");
+        mfts.minado(regionPromotora, conf, num_iteraciones,cant_compl_p , buscarOntologiaGO, buscarOntologiaMESH, new configuracion(), "","", metodoDeBusqueda);
         mfts.obtenerFT();
 
         Region region_promotora = new Region(this.regionPromotora);

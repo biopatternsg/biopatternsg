@@ -25,9 +25,9 @@ import java.util.Hashtable;
 import java.util.List;
 import java.util.Map;
 import java.util.Queue;
-import org.jpl7.Query;
-import org.jpl7.Term;
-import org.jpl7.Variable;
+import jpl.Query;
+import jpl.Term;
+import jpl.Variable;
 
 /**
  *

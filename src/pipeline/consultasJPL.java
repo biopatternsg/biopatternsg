@@ -36,10 +36,8 @@ import java.util.Map;
 import java.util.Scanner;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-import org.jpl7.Query;
-import org.jpl7.Term;
-import org.jpl7.Variable;
-
+import jpl.Query;
+import jpl.Term;
 /**
  *
  * @author yacson

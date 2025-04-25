@@ -1,4 +1,4 @@
-/* 
+    /* 
  * bioPatternsg
  * BioPatternsg is a system that allows the integration and analysis of information related to the modeling of Gene Regulatory Networks (GRN).
  * Copyright (C) 2020
@@ -59,6 +59,7 @@ public class configuracion {
     private boolean crearOntologiaMESH;
     private int cantidadPMID;
     private String rutaPMID_experto;
+    private int metodoDeBusqueda;
 //-------------------------------------//
 
     //conjunto de variables que indican los diferen checklist que debe complir el proceso
@@ -496,7 +497,17 @@ public class configuracion {
             case 1:
                 mfts.buscarHomologos(revisarObjH_E(rutaD + "/homologous", objetosMineria, ruta), objetosMineria, this, crearOntologiaGO, crearOntologiaMESH, ruta);
                 mfts.buscarObjetosExperto(listaObjetos_homologosExperto(rutaD + "/expert_objects.txt"), objetosMineria, this, crearOntologiaGO, crearOntologiaMESH, ruta);
-                mfts.primeraIteracion(rutaD + "/" + RegionPromotora, confiabilidad_tfbind, cantComplejos, objetosMineria, this, new ActivatableArrayList<lecturas_TFBIND>(), crearOntologiaGO, crearOntologiaMESH, ruta);
+                mfts.primeraIteracion(rutaD + "/" + RegionPromotora, 
+                        confiabilidad_tfbind, 
+                        cantComplejos, 
+                        objetosMineria, 
+                        this, 
+                        new ActivatableArrayList<lecturas_TFBIND>(), 
+                        crearOntologiaGO, 
+                        crearOntologiaMESH, 
+                        ruta, 
+                        metodoDeBusqueda
+                );
                 mfts.Iteraciones(false, new ArrayList<String>(), cantComplejos, numIteraciones, objetosMineria, this, 1, crearOntologiaGO, crearOntologiaMESH, ruta);
                 new combinaciones().generar_combinaciones(false, this, ruta, nombreCorto);
                 new PubMed_IDs().buscar(cantidadPMID, this, ruta);
@@ -514,7 +525,7 @@ public class configuracion {
             case 2:
                 revisarObjH_E(rutaD + "/homologous", objetosMineria, ruta);
                 mfts.buscarObjetosExperto(revisarObjH_E(rutaD + "/expert_objects.txt", objetosMineria, ruta), objetosMineria, this, crearOntologiaGO, crearOntologiaMESH, ruta);
-                mfts.primeraIteracion(rutaD + "/" + RegionPromotora, confiabilidad_tfbind, cantComplejos, objetosMineria, this, new ArrayList<lecturas_TFBIND>(), crearOntologiaGO, crearOntologiaMESH, ruta);
+                mfts.primeraIteracion(rutaD + "/" + RegionPromotora, confiabilidad_tfbind, cantComplejos, objetosMineria, this, new ArrayList<lecturas_TFBIND>(), crearOntologiaGO, crearOntologiaMESH, ruta, metodoDeBusqueda);
                 mfts.Iteraciones(false, new ArrayList<String>(), cantComplejos, numIteraciones, objetosMineria, this, 1, crearOntologiaGO, crearOntologiaMESH, ruta);
                 new combinaciones().generar_combinaciones(false, this, ruta, nombreCorto);
                 new PubMed_IDs().buscar(cantidadPMID, this, ruta);
@@ -533,7 +544,7 @@ public class configuracion {
                 revisarObjH_E(rutaD + "/homologous", objetosMineria, ruta);
                 revisarObjH_E(rutaD + "/expert_objects.txt", objetosMineria, ruta);
                 ArrayList<lecturas_TFBIND> lecturas = actualizarListaTFBind(objetosMineria, ruta);
-                mfts.primeraIteracion(rutaD + "/" + RegionPromotora, confiabilidad_tfbind, cantComplejos, objetosMineria, this, lecturas, crearOntologiaGO, crearOntologiaMESH, ruta);
+                mfts.primeraIteracion(rutaD + "/" + RegionPromotora, confiabilidad_tfbind, cantComplejos, objetosMineria, this, lecturas, crearOntologiaGO, crearOntologiaMESH, ruta, metodoDeBusqueda);
                 mfts.Iteraciones(false, new ArrayList<String>(), cantComplejos, numIteraciones, objetosMineria, this, 1, crearOntologiaGO, crearOntologiaMESH, ruta);
                 new combinaciones().generar_combinaciones(false, this, ruta, nombreCorto);
                 new PubMed_IDs().buscar(cantidadPMID, this, ruta);
@@ -1121,6 +1132,22 @@ public class configuracion {
 
         num = num - 2;
         return num;
+    }
+    
+    public int IngresarMetodoBusquedaDeFT() {
+        Scanner lectura = new Scanner(System.in);
+        String metodoBusquedaFT; 
+        while (true) {
+            System.out.println(utilidades.idioma.get(157));
+            System.out.println("1. TFBind");
+            System.out.println("2. Jaspar");
+            System.out.println("3. TFBind/Jaspar");
+            metodoBusquedaFT = lectura.nextLine();
+            if (!metodoBusquedaFT.equals("")) {
+                break;
+            }
+        }
+        return Integer.parseInt(metodoBusquedaFT);
     }
 
     public int getNumIteraciones() {

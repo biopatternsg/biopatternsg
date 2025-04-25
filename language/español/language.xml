@@ -58,7 +58,7 @@
         <m n="53">Debe presionar las teclas (S) o (N) para seleccionar una opción..</m>
         <m n="54">Nombre de archivo región promotora: </m>
         <m n="55">Debe ingresar un nombre de archivo</m>
-        <m n="56">Indice de confiabilidad en TFbind (0-100): </m>
+        <m n="56">Indice de confiabilidad para búsqueda de TF (0-100): </m>
         <m n="57">El dato ingresado debe ser numérico entre 0 y 100</m>
         <m n="58">Numero máximo de objetos PDB :</m>
         <m n="59">El dato ingresado debe ser numérico</m>
@@ -143,7 +143,7 @@
         <m n="138">Ingrese el símbolo del ligando.</m>
         <m n="139">Cargando</m>
         <m n="140">Leyendo bloques consenso desde </m>
-        <m n="141">buscando registros FT desde TFBIND para: </m>
+        <m n="141">buscando registros FT para: </m>
         <m n="142">Buscando información para: </m>
         <m n="143">Generando colección de  abstracts.... </m>
         <m n="144">Descargando </m>
@@ -159,8 +159,8 @@
         <m n="154">4.- Actualizar la base de conocimiento de eventos.</m>
         <m n="155">5.- Documentar los patrones de regulación.</m>
         <m n="156">6.- Reanudar desde.</m>
-        
+        <m n="157">Seleccionar fuente de búsqueda para TF: </m>
+        <m n="158">Seleccione coordenadas de busqueda en Jaspar: </m>
+        <m n="159">Seleccione uno para buscar: </m>
        </menu1>
-    
-        
 </root>

@@ -24,9 +24,9 @@ import java.util.Map;
 import java.util.Queue;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-import org.jpl7.Query;
-import org.jpl7.Term;
-import org.jpl7.Variable;
+import jpl.Query;
+import jpl.Term;
+import jpl.Variable;
 
 /**
  * Basicamente encargado de: Invocar a prolog Y usando p_genes, gen_prueba y

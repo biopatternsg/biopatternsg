@@ -44,7 +44,6 @@ import pipeline.objetos_patrones;
 import pipeline.pathway;
 import pipeline.patrones;
 import servicios.lecturas_PM;
-import servicios.lecturas_TFBIND;
 
 /**
  *
@@ -550,6 +549,7 @@ public class confGeneral {
                 System.out.println("\n" + utilidades.idioma.get(15) + "\n");
 
                 String regProm = config.IngresarRegionPromotora();
+                int metodoBusquedaFT = config.IngresarMetodoBusquedaDeFT();
                 float conf = config.IngresarConfiabilidad();
                 int cantObjs = config.ingresarCantComplejos();
                 int iteraciones = config.ingresar_numIteraciones();
@@ -569,7 +569,7 @@ public class confGeneral {
                 config.guardarConfiguracion(regProm, iteraciones, cantObjs, conf, GO, MESH, nombreCorto, cantPMID, rutaPMidExp, ruta);
 
                 //este metodo ejecuta el proceso de busqueda de informacio desde objetos del experto, homologos y los objetos encontrados en los diferentes niveles de busqueda
-                mfts.minado(regProm, conf, iteraciones, cantObjs, GO, MESH, config, ruta, rutaD);
+                mfts.minado(regProm, conf, iteraciones, cantObjs, GO, MESH, config, ruta, rutaD, metodoBusquedaFT);
 
                 //este metodo genera todas las combinaciones de objetos encontrados en el proceso anterior y guarda las ombinaciones en 'mineria/combinations.db'
                 new combinaciones().generar_combinaciones(false, config, ruta, nombreCorto);
