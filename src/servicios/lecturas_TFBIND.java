@@ -200,8 +200,7 @@ public class lecturas_TFBIND {
             String linea, inicioInfo = "----------------------------------------------------------------";
             boolean mostrarInfo = false;
             int totalFT = 1;
-            System.out.println("\n" + utilidades.idioma.get(158));
-            //System.out.println("\nSeleccione coordenadas de busqueda en Jaspar");
+            System.out.println("\n" + utilidades.idioma.get(159));
             ArrayList<FTJaspar> infoBlast = new ArrayList<>();
             Scanner lectura = new Scanner(System.in);
             
@@ -242,10 +241,8 @@ public class lecturas_TFBIND {
                 }
             }
             
-            //System.out.println("\n Seleccione uno para buscar: ");
-            System.out.println("\n" + utilidades.idioma.get(159));
+            System.out.println("\n" + utilidades.idioma.get(160));
             Integer seleccionFt = lectura.nextInt();
-            //System.out.println("--> " + infoBlast.get(seleccionFt - 1).getIdentity());
             FTJaspar seleccionado = infoBlast.get(seleccionFt - 1);
             
             //Buscar en JASPAR

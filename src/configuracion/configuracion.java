@@ -1129,7 +1129,7 @@ public class configuracion {
         Scanner lectura = new Scanner(System.in);
         String metodoBusquedaFT; 
         while (true) {
-            System.out.println(utilidades.idioma.get(157));
+            System.out.println(utilidades.idioma.get(158));
             System.out.println("1. TFBind");
             System.out.println("2. Jaspar");
             System.out.println("3. TFBind/Jaspar");
