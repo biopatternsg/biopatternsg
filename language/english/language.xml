@@ -159,8 +159,9 @@
         <m n="154">4.- Updating knowledge base of events.</m>
         <m n="155">5.- Generating pathways' documentation.</m>
         <m n="156">6.- Run the system from</m>
-        <m n="157">Select search source to TF: </m>
-        <m n="158">Select search coordinates in Jaspar: </m>
-        <m n="159">Select to search: </m>
+        <m n="157">Search events Pubtator3</m>
+        <m n="158">Select search source to TF: </m>
+        <m n="159">Select search coordinates in Jaspar: </m>
+        <m n="160">Select to search: </m>
     </menu1>
 </root>

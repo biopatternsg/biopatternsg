@@ -18,11 +18,17 @@ package pipeline;
 
 import configuracion.configuracion;
 import configuracion.utilidades;
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
 import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.Map;
+import java.util.Vector;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import jpl.Query;
@@ -34,7 +40,12 @@ import jpl.Term;
  */
 public class objetos_patrones {
 
-    public void generar_archivo(configuracion config, String ruta) {
+    public void generar_archivo(configuracion config, String ruta) throws IOException {        
+
+        // Se corrije errores sintacticos en minedObjects.pl y  wellKnownRules.pl
+        arreglar_archivo(ruta, "minedObjects.pl");
+        arreglar_archivo(ruta, "wellKnownRules.pl");
+        
         String v = "style_check(-discontiguous).";
         Query q0 = new Query(v);
         q0.hasSolution();
@@ -130,7 +141,7 @@ public class objetos_patrones {
         return lista;
     }
 
-    private void clasificar_objetos(ArrayList<String> lista, String ruta) {
+    private void clasificar_objetos(ArrayList<String> lista, String ruta) throws IOException {
 
         crear_archivo(ruta);
         String ruta2 = ruta + "/pathwaysObjects.pl";
@@ -183,13 +194,18 @@ public class objetos_patrones {
             q3.close();
             q4.close();
 
-        }
+        }        
+        /*
         new escribirBC("\n%las siguientes lineas son para evitar errores en el proceso no deben ser modificadas", ruta2);
         new escribirBC("enzyme('').", ruta2);
         new escribirBC("protein('').", ruta2);
         new escribirBC("transcription_factor('').", ruta2);
         new escribirBC("receptor('').", ruta2);
         new escribirBC("ligand('').", ruta2);
+        */
+        
+        
+        mejorar_objetos_desde_pubtator(ruta);
 
     }
 
@@ -203,5 +219,102 @@ public class objetos_patrones {
         }
         pw = new PrintWriter(fichero);
     }
+    
+    
+    private void mejorar_objetos_desde_pubtator(String ruta) throws IOException {
+        
+        //  Este metodo permite mejorar los objetos del experto y del archivo pathwaysObjects.pl    
+                
+        ProcessBuilder builder = new ProcessBuilder("python3", "scripts/improve_objects_pathways.py", ruta);
+
+        Map<String, String> env = builder.environment();
+
+        // Set working directory
+
+        String workingDir = System.getProperty("user.dir");
+
+        builder.directory(new File(workingDir));
+
+        // Start process and get output
+
+        Process process = builder.start();
+
+        InputStream out = process.getInputStream();
+
+        // Convert output stream into a readable format
+
+        BufferedReader br = new BufferedReader(new InputStreamReader(out));
+
+        String line;
+
+        while ((line = br.readLine()) != null) {
+
+            System.out.println(line);
+            
+        }
+            
+    }
+    
+    private void arreglar_archivo(String ruta, String name) throws IOException {
+
+        String lineaActual;
+
+        Vector new_lines = new Vector(100, 50);
+
+        try (BufferedReader lines = new BufferedReader(new FileReader(new File(ruta + "/" + name)))) {
+
+            while (lines.ready()) {
+
+                lineaActual = lines.readLine();
+
+                if (lineaActual.contains("*")) {
+
+                    lineaActual = lineaActual.replaceAll("\\*", "");
+
+                    if (lineaActual.contains(":-")) {
+
+                        String rule_splitted[] = lineaActual.split(":-");
+                        String body_rule = rule_splitted[1];
+                        String new_body_rule = body_rule.replace(":", "_");
+                        lineaActual = rule_splitted[0] + ":-" + new_body_rule;
+
+                    } else {
+
+                        if (lineaActual.contains(":")) {
+                            lineaActual = lineaActual.replaceAll(":", "_");
+                        }
+
+                    }
+                    
+                }
+                new_lines.add(lineaActual);
+            }
+
+            lines.close();
+            new File(ruta + "/" + name).delete();
+
+        }
+
+        File file = new File(ruta + "/" + name);
+
+        if (!file.exists()) {
+            file.createNewFile();
+        }
+
+        FileWriter file_name = new FileWriter(file, true);
+
+        try (PrintWriter new_file = new PrintWriter(file_name)) {
+            String line;
+            for (Object e : new_lines) {
+
+                line = (String) e;
+                new_file.print(line + "\n");
+
+            }
+            new_file.close();            
+            
+        }       
+
+    }    
 
 }

@@ -1,8 +1,8 @@
-% bioPattern
-% An application to formulate and analyse biological regulation pathwyas related with molecular interaction networks.
+% bioPatternsg
+% An application to formulate and analyse biological signaling pathways in gene regulatory networks.
 %
 %    Copyright (C) 2017
-%    Jose Lopez, Jacinto Dávila, Yacson Ramirez, Didier Rubio, Keyla SAndoval
+%    Jose Lopez, Jacinto Dávila, Yacson Ramirez
 %
 %    This program is free software: you can redistribute it and/or modify
 %    it under the terms of the GNU Affero General Public License as
