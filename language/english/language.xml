@@ -23,7 +23,7 @@
         <m n="18">Regulatory Region file:  </m>
         <m n="19">umber of PDB objects: </m>
         <m n="20">Number of searching levels (Number of levels to build the network): </m>
-        <m n="21">Confidence for TFbind:  </m>
+        <m n="21">Confidence for Transcription Factor search:  </m>
         <m n="22">Number of PubMed IDs for every pair of combined symbols: </m>
         <m n="23">Actual state:  </m>
         <m n="24">Searching complementary information for the homologous indicated by the expert...</m>
@@ -42,7 +42,7 @@
         <m n="37">Regulatory region file: </m>
         <m n="38">Number of PDB objects: </m>
         <m n="39">Number of searching levels (Number of levels to build the network) : </m>
-        <m n="40">Confidence for TFbind: </m>
+        <m n="40">Confidence for Transcription Factor search: </m>
         <m n="41">Number of PubMed IDs for every pair of combined symbols: </m>
         <m n="42">Expert's objects from: </m>
         <m n="43">Results: </m>
@@ -58,7 +58,7 @@
         <m n="53">Choose (Y) or (N) to select an option</m>
         <m n="54">Regulatory region file name: </m>
         <m n="55">A file name must be provided...</m>
-        <m n="56">Confidence value for TFbind (0-100): </m>
+        <m n="56">Confidence value for TF search (0-100): </m>
         <m n="57">The value must be a number between 0 and 100</m>
         <m n="58">Number of PDB objects (The amount of PDB objects that must be downloaded): </m>
         <m n="59">The value must be a number</m>
@@ -143,7 +143,7 @@
         <m n="138">Provide a ligand name</m>
         <m n="139">Loading...</m>
         <m n="140">Reading consensus blocks from... </m>
-        <m n="141">Looking for FT records from TFBIND for: </m>
+        <m n="141">Looking for FT records for: </m>
         <m n="142">Searching information for: </m>
         <m n="143">Generating collection of abstracts ..... </m>
         <m n="144">Downloading...</m>
@@ -160,6 +160,8 @@
         <m n="155">5.- Generating pathways' documentation.</m>
         <m n="156">6.- Run the system from</m>
         <m n="157">Search events Pubtator3</m>
-        
+        <m n="158">Select search source to TF: </m>
+        <m n="159">Select search coordinates in Jaspar: </m>
+        <m n="160">Select to search: </m>
     </menu1>
 </root>

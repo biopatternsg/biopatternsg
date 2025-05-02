@@ -551,6 +551,7 @@ public class confGeneral {
                 System.out.println("\n" + utilidades.idioma.get(15) + "\n");
 
                 String regProm = config.IngresarRegionPromotora();
+                int metodoBusquedaFT = config.ingresarMetodoBusquedaDeFT();
                 float conf = config.IngresarConfiabilidad();
                 int cantObjs = config.ingresarCantComplejos();
                 int iteraciones = config.ingresar_numIteraciones();
@@ -567,10 +568,10 @@ public class confGeneral {
                 // crea una carpeta nueva 'mineria' donde se guardaran diferentes archivos generados durante el proceso .. si ya existe esta carpeta se eliminara con todos su contenido y se creara de nuevo vacia
                 //mfts.crearCarpeta("mineria");
                 //se guarda los datos de configuracion que se ingresaron el el menu anterior en mineria/config.db
-                config.guardarConfiguracion(regProm, iteraciones, cantObjs, conf, GO, MESH, nombreCorto, cantPMID, rutaPMidExp, ruta);
+                config.guardarConfiguracion(regProm, iteraciones, cantObjs, conf, GO, MESH, nombreCorto, cantPMID, rutaPMidExp, ruta, metodoBusquedaFT);
 
-                //este metodo ejecuta el proceso de busqueda de informacio desde objetos del experto, homologos y los objetos encontrados en los diferentes niveles de busqueda
-                mfts.minado(regProm, conf, iteraciones, cantObjs, GO, MESH, config, ruta, rutaD);
+                //este metodo ejecuta el proceso de busqueda de informacion desde objetos del experto, homologos y los objetos encontrados en los diferentes niveles de busqueda
+                mfts.minado(regProm, conf, iteraciones, cantObjs, GO, MESH, config, ruta, rutaD, metodoBusquedaFT);
 
                 //este metodo genera todas las combinaciones de objetos encontrados en el proceso anterior y guarda las ombinaciones en 'mineria/combinations.db'
                 new combinaciones().generar_combinaciones(false, config, ruta, nombreCorto);

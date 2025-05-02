@@ -78,6 +78,7 @@ public class configuracion {
     private boolean objetosPatrones; //genera archivo con clasificacion espesifica de los objetos en la BC a partir de las ontologias
     private boolean InferirPatrones; //crea los pathway usando los eventos, y la informacin de las ontologias
     private boolean nombreCorto;//nombre cortos para combinaciones de palabras clave
+    private int metodoBusquedaFT;   
     //----------------------------------------------------------------------------
 
     public configuracion() {
@@ -87,7 +88,7 @@ public class configuracion {
     }
 
     //guarda la configuracion inicial del proceso
-    public void guardarConfiguracion(String regionProm, int numIter, int cantCompl, float conf, boolean GO, boolean MESH, boolean nombreCorto, int cantPMID, String PMidExp, String ruta) {
+    public void guardarConfiguracion(String regionProm, int numIter, int cantCompl, float conf, boolean GO, boolean MESH, boolean nombreCorto, int cantPMID, String PMidExp, String ruta, int metodoBusquedaFT){
         this.RegionPromotora = regionProm;
         this.cantComplejos = cantCompl;
         this.numIteraciones = numIter;
@@ -97,6 +98,7 @@ public class configuracion {
         this.cantidadPMID = cantPMID;
         this.rutaPMID_experto = PMidExp;
         this.nombreCorto = nombreCorto;
+        this.metodoBusquedaFT = metodoBusquedaFT;
 
         ObjectContainer db = Db4o.openFile(ruta + "/config.db");
         try {
@@ -166,6 +168,7 @@ public class configuracion {
                 this.cantidadPMID = config.cantidadPMID;
                 this.rutaPMID_experto = config.rutaPMID_experto;
                 this.nombreCorto = config.nombreCorto;
+                this.metodoBusquedaFT = config.metodoBusquedaFT;
                 //------------------------------------------------------//
                 this.tfbind = config.tfbind;
                 this.homologos = config.homologos;
@@ -480,13 +483,12 @@ public class configuracion {
     //para que el proceso termine
     private void reanudar(int punto, objetosMineria objetosMineria, String ruta, String rutaD) throws IOException {
         minado_FT mfts = new minado_FT();
-        lecturas_PM lpm = new lecturas_PM();
         Abstract abstracObject = new Abstract();
         switch (punto) {
             case 1:
                 mfts.buscarHomologos(revisarObjH_E(rutaD + "/homologous", objetosMineria, ruta), objetosMineria, this, crearOntologiaGO, crearOntologiaMESH, ruta);
                 mfts.buscarObjetosExperto(listaObjetos_homologosExperto(rutaD + "/expert_objects.txt"), objetosMineria, this, crearOntologiaGO, crearOntologiaMESH, ruta);
-                mfts.primeraIteracion(rutaD + "/" + RegionPromotora, confiabilidad_tfbind, cantComplejos, objetosMineria, this, new ActivatableArrayList<lecturas_TFBIND>(), crearOntologiaGO, crearOntologiaMESH, ruta);
+                mfts.primeraIteracion(rutaD + "/" + RegionPromotora, confiabilidad_tfbind, cantComplejos, objetosMineria, this, new ActivatableArrayList<lecturas_TFBIND>(), crearOntologiaGO, crearOntologiaMESH, ruta, 1);
                 mfts.Iteraciones(false, new ArrayList<String>(), cantComplejos, numIteraciones, objetosMineria, this, 1, crearOntologiaGO, crearOntologiaMESH, ruta);
                 new combinaciones().generar_combinaciones(false, this, ruta, nombreCorto);
                 new PubMed_IDs().buscar(cantidadPMID, this, ruta);
@@ -504,7 +506,7 @@ public class configuracion {
             case 2:
                 revisarObjH_E(rutaD + "/homologous", objetosMineria, ruta);
                 mfts.buscarObjetosExperto(revisarObjH_E(rutaD + "/expert_objects.txt", objetosMineria, ruta), objetosMineria, this, crearOntologiaGO, crearOntologiaMESH, ruta);
-                mfts.primeraIteracion(rutaD + "/" + RegionPromotora, confiabilidad_tfbind, cantComplejos, objetosMineria, this, new ArrayList<lecturas_TFBIND>(), crearOntologiaGO, crearOntologiaMESH, ruta);
+                mfts.primeraIteracion(rutaD + "/" + RegionPromotora, confiabilidad_tfbind, cantComplejos, objetosMineria, this, new ArrayList<lecturas_TFBIND>(), crearOntologiaGO, crearOntologiaMESH, ruta, 1);
                 mfts.Iteraciones(false, new ArrayList<String>(), cantComplejos, numIteraciones, objetosMineria, this, 1, crearOntologiaGO, crearOntologiaMESH, ruta);
                 new combinaciones().generar_combinaciones(false, this, ruta, nombreCorto);
                 new PubMed_IDs().buscar(cantidadPMID, this, ruta);
@@ -523,7 +525,7 @@ public class configuracion {
                 revisarObjH_E(rutaD + "/homologous", objetosMineria, ruta);
                 revisarObjH_E(rutaD + "/expert_objects.txt", objetosMineria, ruta);
                 ArrayList<lecturas_TFBIND> lecturas = actualizarListaTFBind(objetosMineria, ruta);
-                mfts.primeraIteracion(rutaD + "/" + RegionPromotora, confiabilidad_tfbind, cantComplejos, objetosMineria, this, lecturas, crearOntologiaGO, crearOntologiaMESH, ruta);
+                mfts.primeraIteracion(rutaD + "/" + RegionPromotora, confiabilidad_tfbind, cantComplejos, objetosMineria, this, lecturas, crearOntologiaGO, crearOntologiaMESH, ruta, 1);
                 mfts.Iteraciones(false, new ArrayList<String>(), cantComplejos, numIteraciones, objetosMineria, this, 1, crearOntologiaGO, crearOntologiaMESH, ruta);
                 new combinaciones().generar_combinaciones(false, this, ruta, nombreCorto);
                 new PubMed_IDs().buscar(cantidadPMID, this, ruta);
@@ -1114,6 +1116,23 @@ public class configuracion {
         return num;
     }
 
+        public int ingresarMetodoBusquedaDeFT() {
+        Scanner lectura = new Scanner(System.in);
+        String metodoBusquedaFT; 
+        while (true) {
+            System.out.println(utilidades.idioma.get(158));
+            System.out.println("1. TFBind");
+            System.out.println("2. Jaspar");
+            System.out.println("3. TFBind/Jaspar");
+            metodoBusquedaFT = lectura.nextLine();
+            if (!metodoBusquedaFT.equals("")) {
+                break;
+            }
+        }
+        return Integer.parseInt(metodoBusquedaFT);
+    }
+
+    
     public int getNumIteraciones() {
         return numIteraciones;
     }
