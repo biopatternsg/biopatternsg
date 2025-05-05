@@ -23,7 +23,7 @@
         <m n="18">Región promotora:</m>
         <m n="19">Cantidad de complejos: </m>
         <m n="20">Niveles de búsqueda: </m>
-        <m n="21">Confiabilidad TFBind: </m>
+        <m n="21">Confiabilidad de busqueda de Factores de transcripcion: </m>
         <m n="22">Cantidad máxima de pubmed IDs por búsqueda: </m>
         <m n="23">Estado actual:</m>
         <m n="24">Búsqueda de homólogos</m>
@@ -42,7 +42,7 @@
         <m n="37">Región promotora:</m>
         <m n="38">Cantidad de complejos:</m>
         <m n="39">Número de niveles:</m>
-        <m n="40">Confiabilidad TFBind:</m>
+        <m n="40">Confiabilidad de busqueda de Factores de transcripcion: </m>
         <m n="41">Cantidad máxima de pubmed IDs:</m>
         <m n="42">Archivo de objetos del Experto:</m>
         <m n="43">Resultados</m>
@@ -58,7 +58,7 @@
         <m n="53">Debe presionar las teclas (S) o (N) para seleccionar una opción..</m>
         <m n="54">Nombre de archivo región promotora: </m>
         <m n="55">Debe ingresar un nombre de archivo</m>
-        <m n="56">Indice de confiabilidad en TFbind (0-100): </m>
+        <m n="56">Indice de confiabilidad para búsqueda de TF (0-100): </m>
         <m n="57">El dato ingresado debe ser numérico entre 0 y 100</m>
         <m n="58">Numero máximo de objetos PDB :</m>
         <m n="59">El dato ingresado debe ser numérico</m>
@@ -143,7 +143,7 @@
         <m n="138">Ingrese el símbolo del ligando.</m>
         <m n="139">Cargando</m>
         <m n="140">Leyendo bloques consenso desde </m>
-        <m n="141">buscando registros FT desde TFBIND para: </m>
+        <m n="141">buscando registros FT para: </m>
         <m n="142">Buscando información para: </m>
         <m n="143">Generando colección de  abstracts.... </m>
         <m n="144">Descargando </m>
@@ -160,7 +160,9 @@
         <m n="155">5.- Documentar los patrones de regulación.</m>
         <m n="156">6.- Reanudar desde.</m>
         <m n="157">Buscando eventos biologicos Pubtator3</m>
-        
+        <m n="158">Seleccionar fuente de búsqueda para TF: </m>
+        <m n="159">Seleccione coordenadas de busqueda en Jaspar: </m>
+        <m n="160">Seleccione uno para buscar: </m>
        </menu1>
     
         

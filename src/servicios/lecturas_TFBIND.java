@@ -16,6 +16,7 @@
  */
 package servicios;
 
+import com.google.gson.Gson;
 import configuracion.utilidades;
 import java.io.BufferedReader;
 import java.io.File;
@@ -25,7 +26,13 @@ import java.io.InputStreamReader;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.ArrayList;
-import javax.swing.JOptionPane;
+import java.util.List;
+import java.util.Map;
+import java.util.Scanner;
+import java.util.stream.Collectors;
+import models.DataJaspar;
+import models.FTJaspar;
+import models.Jaspar2022;
 
 public class lecturas_TFBIND {
 
@@ -46,18 +53,17 @@ public class lecturas_TFBIND {
         this.cadena = cadena;
     }
 
-    public lecturas_TFBIND(String ruta, float confiabilidad) throws IOException {
+    public lecturas_TFBIND(String ruta, float confiabilidad, int metodoBusqueda) throws IOException {
 
         BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
-        /*System.out.printf("\nIngrese Confiabilidad: ");
-        confiabilidad = Float.parseFloat(in.readLine());*/
-        leer_de_archivo(ruta, confiabilidad);
+        leer_de_archivo(ruta, confiabilidad, metodoBusqueda);
 
     }
 
-    public ArrayList<lecturas_TFBIND> leer_de_archivo(String ruta, float confiabilidad){
+    public ArrayList<lecturas_TFBIND> leer_de_archivo(String ruta, float confiabilidad, int metodoDeBusqueda){
 
-        ArrayList<lecturas_TFBIND> lecturas = new ArrayList<>();
+        ArrayList<lecturas_TFBIND> lecturasTFBIND = new ArrayList<>();
+        ArrayList<lecturas_TFBIND> lecturasJaspar = new ArrayList<>();
         File archivo = null;
         FileReader fr = null;
         BufferedReader br = null;
@@ -74,9 +80,17 @@ public class lecturas_TFBIND {
             ArrayList<String> control_factores = new ArrayList<>();
 
             while ((metodo = br.readLine()) != null) {
-
-                System.out.println(utilidades.idioma.get(141)+"" + metodo);
-                lecturas = obtener_lecturas(metodo, confiabilidad, control_factores);
+                System.out.println(utilidades.idioma.get(141) + "" +  metodo);
+                
+                //Busqueda en TFBIND
+                if(metodoDeBusqueda == 1 || metodoDeBusqueda == 3){
+                    lecturasTFBIND = obtener_lecturas(metodo, confiabilidad, control_factores);
+                }
+              
+                //Busqueda en JASPAR
+                if(metodoDeBusqueda == 2 || metodoDeBusqueda == 3) {
+                    lecturasJaspar = lecturas_Jaspar(metodo, confiabilidad, control_factores);
+                }
 
             }
             System.out.println("...ok");
@@ -94,8 +108,23 @@ public class lecturas_TFBIND {
                 e2.printStackTrace();
             }
         }
-
-        return lecturas;
+        
+         ArrayList<lecturas_TFBIND> lecturasTF = new ArrayList<>();
+        lecturasTF.addAll(lecturasTFBIND);
+        
+        Map<String, lecturas_TFBIND> lecturasTFMap = lecturasTF.stream().collect(Collectors.toMap(
+                lecturas_TFBIND::getFactor,
+                lectura -> lectura
+        ));
+        
+        for(lecturas_TFBIND lectura : lecturasJaspar) {
+            if(lecturasTFBIND.isEmpty() || !lecturasTFMap.containsKey(lectura.getFactor())) {
+                lecturasTF.add(lectura);
+            }
+        }
+        
+        
+        return lecturasTF;
     }
 
     public ArrayList<lecturas_TFBIND> obtener_lecturas(String metodo, float confiabilidad, ArrayList<String> control_factores) throws MalformedURLException, IOException {
@@ -105,13 +134,12 @@ public class lecturas_TFBIND {
         InputStreamReader isr;
         BufferedReader br;
         String linea, segmento;
-        StringBuffer buffer = new StringBuffer();
         String[] separar;
         String factor;
-        ArrayList<lecturas_TFBIND> lecturas = new ArrayList<>();
+        ArrayList<lecturas_TFBIND> lecturasTFBind = new ArrayList<>();
 
         try {
-            urlpagina = new URL("http://tfbind.hgc.jp/cgi-bin/calculate.cgi?seq=%3E+COMMENTS%0D%0A" + metodo);
+            urlpagina = new URL("https://tfbind.hgc.jp/cgi-bin/calculate.cgi?seq=%3E+COMMENTS%0D%0A" + metodo);
             isr = new InputStreamReader(urlpagina.openStream());
             br = new BufferedReader(isr);
 
@@ -136,7 +164,7 @@ public class lecturas_TFBIND {
                                 aux.setNumero(Integer.parseInt(separar[3]));
                                 aux.setSigno(separar[4]);
                                 aux.setCadena(separar[5] + "  " + separar[6]);
-                                lecturas.add(aux);
+                                lecturasTFBind.add(aux);
 
                             }
 
@@ -156,7 +184,107 @@ public class lecturas_TFBIND {
 
         }
 
-        return lecturas;
+        return lecturasTFBind;
+    }
+    
+     public ArrayList<lecturas_TFBIND> lecturas_Jaspar(String metodo, float confiabilidad, ArrayList<String> control_factores){
+        ArrayList<lecturas_TFBIND> lecturasJaspar = new ArrayList<>();
+        
+        try {
+            URL buscarCoordenadasUrl = new URL("https://genome.ucsc.edu/cgi-bin/hgBlat?type=BLAT%27s+guess&userSeq=" + metodo);
+            InputStreamReader isr = new InputStreamReader(buscarCoordenadasUrl.openStream());
+            BufferedReader br = new BufferedReader(isr);
+            String linea, inicioInfo = "----------------------------------------------------------------";
+            boolean mostrarInfo = false;
+            int totalFT = 1;
+            System.out.println("\n" + utilidades.idioma.get(158));
+            //System.out.println("\nSeleccione coordenadas de busqueda en Jaspar");
+            ArrayList<FTJaspar> infoBlast = new ArrayList<>();
+            Scanner lectura = new Scanner(System.in);
+            
+            while ((linea = br.readLine()) != null && totalFT <= 5) {
+                if(linea.contains(inicioInfo)){
+                    mostrarInfo = true;
+                }
+                if(mostrarInfo){
+                    int posicion = linea.indexOf("YourSeq ");
+                    if(posicion != -1){
+                        linea = linea.substring(posicion);
+                        String[] info = linea.split(" ");
+                        List<String> listaElementos = new ArrayList<>();
+                        
+                        for (String elemento : info) {
+                            if (!elemento.isEmpty()) {
+                                listaElementos.add(elemento);
+                            }
+                        }
+                        
+                        System.out.print(totalFT + ". IDENTITY: " + String.format("%6s", listaElementos.get(5)));
+                        System.out.print("\t|\t CHROM: " +  String.format("%6s", listaElementos.get(6)));
+                        System.out.print("\t|\t STRAND: " + String.format("%4s", listaElementos.get(7)));
+                        System.out.print("\t|\t START: " + String.format("%11s", listaElementos.get(8)));
+                        System.out.println("\t|\t END: " + String.format("%11s", listaElementos.get(9)));
+                        
+                        String porcentaje = listaElementos.get(5).replace("%", "");
+                        
+                        infoBlast.add(
+                                new FTJaspar(Double.parseDouble(porcentaje),
+                                listaElementos.get(6),
+                                listaElementos.get(7),
+                                listaElementos.get(8),
+                                listaElementos.get(9))
+                        );
+                        totalFT++;
+                    }
+                }
+            }
+            
+            //System.out.println("\n Seleccione uno para buscar: ");
+            System.out.println("\n" + utilidades.idioma.get(159));
+            Integer seleccionFt = lectura.nextInt();
+            //System.out.println("--> " + infoBlast.get(seleccionFt - 1).getIdentity());
+            FTJaspar seleccionado = infoBlast.get(seleccionFt - 1);
+            
+            //Buscar en JASPAR
+            URL buscarFTUrl = new URL("https://api.genome.ucsc.edu/getData/track?genome=hg38&track=jaspar2022&chrom=" + 
+                    seleccionado.getChromosome() + 
+                    "&start=" + seleccionado.getStart() + "&end=" + seleccionado.getEnd());
+            
+            isr = new InputStreamReader(buscarFTUrl.openStream());
+            br = new BufferedReader(isr);
+            
+            StringBuilder content = new StringBuilder(); 
+            
+            while ((linea = br.readLine()) != null) {
+                content.append(linea);
+            }
+            
+            Gson gson = new Gson(); 
+            DataJaspar data = gson.fromJson(content.toString(), DataJaspar.class);
+            
+            int maxJasparScore = data.getJaspar2022().stream()
+                    .map(it -> it.getScore())
+                    .max(Integer::compare)
+                    .orElse(0);
+            
+            float confiabilidadAjustada = maxJasparScore * confiabilidad; 
+            
+            List<Jaspar2022> lista = data.getJaspar2022().stream()
+                    .filter(item -> item.getScore() > confiabilidadAjustada)
+                    .collect(Collectors.toList());
+            
+            lecturasJaspar = lista.stream().map(it -> {
+                lecturas_TFBIND aux = new lecturas_TFBIND();
+                aux.setFactor(it.getTfName());
+                aux.setPorcentaje(((float) it.getScore() / 100));
+                aux.setSigno(("("+it.getStrand()+")"));
+                return aux;
+            }).collect(Collectors.toCollection(ArrayList::new));
+            
+        } catch (Exception e) {
+        }
+           
+        return lecturasJaspar;
     }
 
     public String getId() {
