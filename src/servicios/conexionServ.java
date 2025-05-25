@@ -37,7 +37,7 @@ import org.xml.sax.InputSource;
 public class conexionServ {
 
     public Document conecta(String Url) {
-        //System.out.println("url: " + Url);
+       // System.out.println("url: " + Url);
         Document doc = null;
         int cont = 0;
         hiloConexion conex = new hiloConexion(Url);
@@ -56,7 +56,7 @@ public class conexionServ {
             if (tmax > 40) {
                 tmax = 0;
                 conex.stop();
-                // System.out.println("Falla de conexion con: "+Url);
+         //       System.out.println("Falla de conexion con: "+Url);
                 conex = new hiloConexion(Url);
                 conex.start();
                 intentos++;
@@ -97,7 +97,7 @@ public class conexionServ {
     }
 
     public Object simpleConnectionJsonGET(String route) {
-        System.out.println(route);
+       // System.out.println(route);
         var client = HttpClient.newBuilder()
                 .version(HttpClient.Version.HTTP_2)
                 .build();
@@ -105,6 +105,7 @@ public class conexionServ {
         var request = HttpRequest.newBuilder()
                 .uri(URI.create(route))
                 .header("Content-Type", "application/json")
+                .header("Accept", "application/json")
                 .build();
 
         final HttpResponse<String> response;
@@ -126,6 +127,7 @@ public class conexionServ {
         var request = HttpRequest.newBuilder()
                 .uri(URI.create(route))
                 .header("Content-Type", "application/json")
+                .header("Accept", "application/json")
                 .build();
 
         final HttpResponse<String> response;
