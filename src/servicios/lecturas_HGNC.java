@@ -20,6 +20,7 @@ import java.util.ArrayList;
 import estructura.HGNC;
 import estructura.ontologiaObjMin;
 import java.util.List;
+import java.util.stream.Collectors;
 import org.modelmapper.ModelMapper;
 import servicios.dtos.hgnc.fetch.HgncFetchResponse;
 import servicios.dtos.hgnc.search.HGNCResponse;
@@ -69,7 +70,7 @@ public class lecturas_HGNC extends conexionServ {
         return hgncResponse.getResponse().getDocs().stream()
                 .filter(doc -> doc.getScore() == scoreMax)
                 .map(doc -> doc.getSymbol())
-                .toList();
+                .collect(Collectors.toList());
     }
 
     private HGNC searchInformation(String symbol, boolean GO, boolean MESH, String ruta) {
