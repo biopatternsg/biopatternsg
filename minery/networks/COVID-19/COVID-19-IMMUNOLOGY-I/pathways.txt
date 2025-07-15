@@ -1,0 +1,24 @@
+
+
+'CCR5',bind,'CD4';'CD4',bind,'CD8A'
+['CCR5', 'CD4', 'CD8A']
+
+
+'CXCR4',bind,'CD4';'CD4',bind,'CD8A'
+['CXCR4', 'CD4', 'CD8A']
+
+
+'INDOLINE',bind,'CD4';'CD4',bind,'CD8A'
+['INDOLINE', 'CD4', 'CD8A']
+
+
+'CCR5',bind,'CD4';'CD4',bind,'SART3'
+['CCR5', 'CD4', 'SART3']
+
+
+'CXCR4',bind,'CD4';'CD4',bind,'SART3'
+['CXCR4', 'CD4', 'SART3']
+
+
+'INDOLINE',bind,'CD4';'CD4',bind,'SART3'
+['INDOLINE', 'CD4', 'SART3']

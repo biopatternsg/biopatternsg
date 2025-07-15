@@ -1,0 +1,494 @@
+BioPatternsg
+minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reportado
+
+Searching for pathways and regulatory events that relate them
+
+Select an option
+1.- Run the process
+0.- Go back
+1
+
+Provide the start pathway: 'CCR5',bind,'CD4';'CD4',regulate,'COVID-19'
+Provide the maximun number of objects allowed in the pathways: 8
+***'CCR5',bind,'CD4';'CD4',regulate,'COVID-19'
+
+
+-----------------------------------------------------------
+Pathway=> 'CCR5',bind,'CD4';'CD4',regulate,'COVID-19'
+
+Linking events:  'COVID-19',associate,'CXCR4'; 'COVID-19',regulate,'CXCR4'; 'COVID-19',inhibit,'CXCR4'; 
+
+Pathway=> 'CXCR4',associate,'CD4';'CD4',regulate,'COVID-19';'CXCR4',inhibit,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'CCR5',bind,'CD4';'CD4',regulate,'COVID-19'
+
+Linking events:  'COVID-19',associate,'CXCR4'; 'COVID-19',regulate,'CXCR4'; 'COVID-19',inhibit,'CXCR4'; 
+
+Pathway=> 'CXCR4',bind,'CD4';'CD4',regulate,'COVID-19';'CXCR4',inhibit,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'CCR5',bind,'CD4';'CD4',regulate,'COVID-19'
+
+Linking events:  'COVID-19',associate,'MICA'; 
+
+Pathway=> 'MICA',associate,'CD4';'CD4',inhibit,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'CCR5',bind,'CD4';'CD4',regulate,'COVID-19'
+
+Linking events:  'COVID-19',associate,'HLA-B'; 
+
+Pathway=> 'HLA-B',associate,'CD4';'CD4',inhibit,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'CCR5',bind,'CD4';'CD4',regulate,'COVID-19'
+
+Linking events:  'COVID-19',associate,'HLA-C'; 
+
+Pathway=> 'HLA-C',associate,'CD4';'CD4',inhibit,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'CCR5',bind,'CD4';'CD4',regulate,'COVID-19'
+
+Linking events:  'COVID-19',associate,'CXCR4'; 'COVID-19',regulate,'CXCR4'; 'COVID-19',inhibit,'CXCR4'; 
+
+Pathway=> 'CXCR4',associate,'CD4';'CD4',inhibit,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'CCR5',bind,'CD4';'CD4',regulate,'COVID-19'
+
+Linking events:  'COVID-19',associate,'CXCR4'; 'COVID-19',regulate,'CXCR4'; 'COVID-19',inhibit,'CXCR4'; 
+
+Pathway=> 'CXCR4',bind,'CD4';'CD4',inhibit,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'CCR5',bind,'CD4';'CD4',regulate,'COVID-19'
+
+Linking events:  'COVID-19',regulate,'ACE2'; 'COVID-19',associate,'ACE2'; 
+
+Pathway=> 'ACE2',associate,'CD4';'CD4',inhibit,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'CCR5',bind,'CD4';'CD4',regulate,'COVID-19'
+
+Linking events:  'COVID-19',associate,'CXCR4'; 'COVID-19',regulate,'CXCR4'; 'COVID-19',inhibit,'CXCR4'; 
+
+Pathway=> 'CXCR4',associate,'CD4';'CD4',inhibit,'COVID-19';'CXCR4',inhibit,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'CCR5',bind,'CD4';'CD4',regulate,'COVID-19'
+
+Linking events:  'COVID-19',associate,'CXCR4'; 'COVID-19',regulate,'CXCR4'; 'COVID-19',inhibit,'CXCR4'; 
+
+Pathway=> 'CXCR4',bind,'CD4';'CD4',inhibit,'COVID-19';'CXCR4',inhibit,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'CCR5',bind,'CD4';'CD4',regulate,'COVID-19'
+
+Linking events:  'COVID-19',associate,'MICA'; 
+
+Pathway=> 'MICA',associate,'CD4';'CD4',inhibit,'ACE2'
+
+Linking events:  'ACE2',associate,'CD4'
+
+Pathway=> 'ACE2',associate,'CD4';'CD4',inhibit,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'CCR5',bind,'CD4';'CD4',regulate,'COVID-19'
+
+Linking events:  'COVID-19',associate,'MICA'; 
+
+Pathway=> 'MICA',associate,'CD4';'CD4',inhibit,'ACE2'
+
+Linking events:  'ACE2',associate,'CD4'
+
+Pathway=> 'ACE2',associate,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'CXCR4';'CXCR4',inhibit,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'CCR5',bind,'CD4';'CD4',regulate,'COVID-19'
+
+Linking events:  'COVID-19',associate,'HLA-B'; 
+
+Pathway=> 'HLA-B',associate,'CD4';'CD4',inhibit,'ACE2'
+
+Linking events:  'ACE2',regulate,'MICA'; 
+
+Pathway=> 'MICA',associate,'CD4';'CD4',inhibit,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'CCR5',bind,'CD4';'CD4',regulate,'COVID-19'
+
+Linking events:  'COVID-19',associate,'HLA-B'; 
+
+Pathway=> 'HLA-B',associate,'CD4';'CD4',inhibit,'ACE2'
+
+Linking events:  'ACE2',associate,'CD4'
+
+Pathway=> 'ACE2',associate,'CD4';'CD4',inhibit,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'CCR5',bind,'CD4';'CD4',regulate,'COVID-19'
+
+Linking events:  'COVID-19',associate,'HLA-B'; 
+
+Pathway=> 'HLA-B',associate,'CD4';'CD4',inhibit,'ACE2'
+
+Linking events:  'ACE2',regulate,'MICA'; 
+
+Pathway=> 'MICA',associate,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'CXCR4';'CXCR4',inhibit,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'CCR5',bind,'CD4';'CD4',regulate,'COVID-19'
+
+Linking events:  'COVID-19',associate,'HLA-B'; 
+
+Pathway=> 'HLA-B',associate,'CD4';'CD4',inhibit,'ACE2'
+
+Linking events:  'ACE2',associate,'CD4'
+
+Pathway=> 'ACE2',associate,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'CXCR4';'CXCR4',inhibit,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'CCR5',bind,'CD4';'CD4',regulate,'COVID-19'
+
+Linking events:  'COVID-19',associate,'HLA-C'; 
+
+Pathway=> 'HLA-C',associate,'CD4';'CD4',inhibit,'ACE2'
+
+Linking events:  'ACE2',regulate,'MICA'; 
+
+Pathway=> 'MICA',associate,'CD4';'CD4',inhibit,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'CCR5',bind,'CD4';'CD4',regulate,'COVID-19'
+
+Linking events:  'COVID-19',associate,'HLA-C'; 
+
+Pathway=> 'HLA-C',associate,'CD4';'CD4',inhibit,'ACE2'
+
+Linking events:  'ACE2',associate,'CD4'
+
+Pathway=> 'ACE2',associate,'CD4';'CD4',inhibit,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'CCR5',bind,'CD4';'CD4',regulate,'COVID-19'
+
+Linking events:  'COVID-19',associate,'HLA-C'; 
+
+Pathway=> 'HLA-C',associate,'CD4';'CD4',inhibit,'ACE2'
+
+Linking events:  'ACE2',regulate,'MICA'; 
+
+Pathway=> 'MICA',associate,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'CXCR4';'CXCR4',inhibit,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'CCR5',bind,'CD4';'CD4',regulate,'COVID-19'
+
+Linking events:  'COVID-19',associate,'HLA-C'; 
+
+Pathway=> 'HLA-C',associate,'CD4';'CD4',inhibit,'ACE2'
+
+Linking events:  'ACE2',associate,'CD4'
+
+Pathway=> 'ACE2',associate,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'CXCR4';'CXCR4',inhibit,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'CCR5',bind,'CD4';'CD4',regulate,'COVID-19'
+
+Linking events:  'COVID-19',associate,'CXCR4'; 'COVID-19',regulate,'CXCR4'; 'COVID-19',inhibit,'CXCR4'; 
+
+Pathway=> 'CXCR4',associate,'CD4';'CD4',inhibit,'ACE2'
+
+Linking events:  'ACE2',regulate,'MICA'; 
+
+Pathway=> 'MICA',associate,'CD4';'CD4',inhibit,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'CCR5',bind,'CD4';'CD4',regulate,'COVID-19'
+
+Linking events:  'COVID-19',associate,'CXCR4'; 'COVID-19',regulate,'CXCR4'; 'COVID-19',inhibit,'CXCR4'; 
+
+Pathway=> 'CXCR4',associate,'CD4';'CD4',inhibit,'ACE2'
+
+Linking events:  'ACE2',associate,'CD4'
+
+Pathway=> 'ACE2',associate,'CD4';'CD4',inhibit,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'CCR5',bind,'CD4';'CD4',regulate,'COVID-19'
+
+Linking events:  'COVID-19',associate,'CXCR4'; 'COVID-19',regulate,'CXCR4'; 'COVID-19',inhibit,'CXCR4'; 
+
+Pathway=> 'CXCR4',associate,'CD4';'CD4',inhibit,'ACE2'
+
+Linking events:  'ACE2',regulate,'MICA'; 
+
+Pathway=> 'MICA',associate,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'CXCR4';'CXCR4',inhibit,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'CCR5',bind,'CD4';'CD4',regulate,'COVID-19'
+
+Linking events:  'COVID-19',associate,'CXCR4'; 'COVID-19',regulate,'CXCR4'; 'COVID-19',inhibit,'CXCR4'; 
+
+Pathway=> 'CXCR4',associate,'CD4';'CD4',inhibit,'ACE2'
+
+Linking events:  'ACE2',associate,'CD4'
+
+Pathway=> 'ACE2',associate,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'CXCR4';'CXCR4',inhibit,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'CCR5',bind,'CD4';'CD4',regulate,'COVID-19'
+
+Linking events:  'COVID-19',associate,'CXCR4'; 'COVID-19',regulate,'CXCR4'; 'COVID-19',inhibit,'CXCR4'; 
+
+Pathway=> 'CXCR4',bind,'CD4';'CD4',inhibit,'ACE2'
+
+Linking events:  'ACE2',regulate,'MICA'; 
+
+Pathway=> 'MICA',associate,'CD4';'CD4',inhibit,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'CCR5',bind,'CD4';'CD4',regulate,'COVID-19'
+
+Linking events:  'COVID-19',associate,'CXCR4'; 'COVID-19',regulate,'CXCR4'; 'COVID-19',inhibit,'CXCR4'; 
+
+Pathway=> 'CXCR4',bind,'CD4';'CD4',inhibit,'ACE2'
+
+Linking events:  'ACE2',associate,'CD4'
+
+Pathway=> 'ACE2',associate,'CD4';'CD4',inhibit,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'CCR5',bind,'CD4';'CD4',regulate,'COVID-19'
+
+Linking events:  'COVID-19',associate,'CXCR4'; 'COVID-19',regulate,'CXCR4'; 'COVID-19',inhibit,'CXCR4'; 
+
+Pathway=> 'CXCR4',bind,'CD4';'CD4',inhibit,'ACE2'
+
+Linking events:  'ACE2',regulate,'MICA'; 
+
+Pathway=> 'MICA',associate,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'CXCR4';'CXCR4',inhibit,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'CCR5',bind,'CD4';'CD4',regulate,'COVID-19'
+
+Linking events:  'COVID-19',associate,'CXCR4'; 'COVID-19',regulate,'CXCR4'; 'COVID-19',inhibit,'CXCR4'; 
+
+Pathway=> 'CXCR4',bind,'CD4';'CD4',inhibit,'ACE2'
+
+Linking events:  'ACE2',associate,'CD4'
+
+Pathway=> 'ACE2',associate,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'CXCR4';'CXCR4',inhibit,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'CCR5',bind,'CD4';'CD4',regulate,'COVID-19'
+
+Linking events:  'COVID-19',associate,'MICA'; 
+
+Pathway=> 'MICA',associate,'CD4';'CD4',inhibit,'ACE2';'MICA',regulate,'ACE2'
+
+Linking events:  'ACE2',associate,'CD4'
+
+Pathway=> 'ACE2',associate,'CD4';'CD4',inhibit,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'CCR5',bind,'CD4';'CD4',regulate,'COVID-19'
+
+Linking events:  'COVID-19',associate,'MICA'; 
+
+Pathway=> 'MICA',associate,'CD4';'CD4',inhibit,'ACE2';'MICA',regulate,'ACE2'
+
+Linking events:  'ACE2',associate,'CD4'
+
+Pathway=> 'ACE2',associate,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'CXCR4';'CXCR4',inhibit,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'CCR5',bind,'CD4';'CD4',regulate,'COVID-19'
+
+Linking events:  'COVID-19',inhibit,'HYDROXYCHLOROQUINE'; 
+
+Pathway=> 'HYDROXYCHLOROQUINE',associate,'ACE2';'ACE2',regulate,'COVID-19';'HYDROXYCHLOROQUINE',inhibit,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'CCR5',bind,'CD4';'CD4',regulate,'COVID-19'
+
+Linking events:  'COVID-19',inhibit,'CHLOROQUINE'; 
+
+Pathway=> 'CHLOROQUINE',associate,'ACE2';'ACE2',regulate,'COVID-19';'CHLOROQUINE',inhibit,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'CCR5',bind,'CD4';'CD4',regulate,'COVID-19'
+
+Linking events:  'COVID-19',associate,'HLA-B'; 
+
+Pathway=> 'HLA-B',associate,'CXCR4';'CXCR4',inhibit,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'CCR5',bind,'CD4';'CD4',regulate,'COVID-19'
+
+Linking events:  'COVID-19',associate,'MICA'; 
+
+Pathway=> 'MICA',associate,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'CXCR4';'CXCR4',inhibit,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'CCR5',bind,'CD4';'CD4',regulate,'COVID-19'
+
+Linking events:  'COVID-19',associate,'HLA-B'; 
+
+Pathway=> 'HLA-B',associate,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'CXCR4';'CXCR4',inhibit,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'CCR5',bind,'CD4';'CD4',regulate,'COVID-19'
+
+Linking events:  'COVID-19',associate,'HLA-C'; 
+
+Pathway=> 'HLA-C',associate,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'CXCR4';'CXCR4',inhibit,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'CCR5',bind,'CD4';'CD4',regulate,'COVID-19'
+
+Linking events:  'COVID-19',regulate,'ACE2'; 'COVID-19',associate,'ACE2'; 
+
+Pathway=> 'ACE2',associate,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'CXCR4';'CXCR4',inhibit,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'CCR5',bind,'CD4';'CD4',regulate,'COVID-19'
+
+Linking events:  'COVID-19',inhibit,'HYDROXYCHLOROQUINE'; 
+
+Pathway=> 'HYDROXYCHLOROQUINE',associate,'ACE2';'ACE2',associate,'CD4';'CD4',inhibit,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'CCR5',bind,'CD4';'CD4',regulate,'COVID-19'
+
+Linking events:  'COVID-19',inhibit,'CHLOROQUINE'; 
+
+Pathway=> 'CHLOROQUINE',associate,'ACE2';'ACE2',associate,'CD4';'CD4',inhibit,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'CCR5',bind,'CD4';'CD4',regulate,'COVID-19'
+
+Linking events:  'COVID-19',inhibit,'HYDROXYCHLOROQUINE'; 
+
+Pathway=> 'HYDROXYCHLOROQUINE',associate,'ACE2';'ACE2',associate,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'CXCR4';'CXCR4',inhibit,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'CCR5',bind,'CD4';'CD4',regulate,'COVID-19'
+
+Linking events:  'COVID-19',inhibit,'CHLOROQUINE'; 
+
+Pathway=> 'CHLOROQUINE',associate,'ACE2';'ACE2',associate,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'CXCR4';'CXCR4',inhibit,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'CCR5',bind,'CD4';'CD4',regulate,'COVID-19'
+
+Linking events:  'COVID-19',associate,'HLA-B'; 
+
+Pathway=> 'HLA-B',associate,'CXCR4';'CXCR4',associate,'JAK3';'JAK3',associate,'CD4';'CD4',inhibit,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'CCR5',bind,'CD4';'CD4',regulate,'COVID-19'
+
+Linking events:  'COVID-19',associate,'HLA-B'; 
+
+Pathway=> 'HLA-B',associate,'CXCR4';'CXCR4',associate,'JAK3';'JAK3',associate,'CD4';'CD4',inhibit,'ACE2'
+
+Linking events:  'ACE2',regulate,'MICA'; 
+
+Pathway=> 'MICA',associate,'CD4';'CD4',inhibit,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'CCR5',bind,'CD4';'CD4',regulate,'COVID-19'
+
+Linking events:  'COVID-19',associate,'HLA-B'; 
+
+Pathway=> 'HLA-B',associate,'CXCR4';'CXCR4',associate,'JAK3';'JAK3',associate,'CD4';'CD4',inhibit,'ACE2'
+
+Linking events:  'ACE2',associate,'CD4'
+
+Pathway=> 'ACE2',associate,'CD4';'CD4',inhibit,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'CCR5',bind,'CD4';'CD4',regulate,'COVID-19'
+
+Linking events:  'COVID-19',associate,'HLA-B'; 
+
+Pathway=> 'HLA-B',associate,'CXCR4';'CXCR4',associate,'JAK3';'JAK3',associate,'CD4';'CD4',inhibit,'ACE2'
+
+Linking events:  'ACE2',regulate,'MICA'; 
+
+Pathway=> 'MICA',associate,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'CXCR4';'CXCR4',inhibit,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'CCR5',bind,'CD4';'CD4',regulate,'COVID-19'
+
+Linking events:  'COVID-19',associate,'HLA-B'; 
+
+Pathway=> 'HLA-B',associate,'CXCR4';'CXCR4',associate,'JAK3';'JAK3',associate,'CD4';'CD4',inhibit,'ACE2'
+
+Linking events:  'ACE2',associate,'CD4'
+
+Pathway=> 'ACE2',associate,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'CXCR4';'CXCR4',inhibit,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'CCR5',bind,'CD4';'CD4',regulate,'COVID-19'
+
+Linking events:  'COVID-19',associate,'HLA-B'; 
+
+Pathway=> 'HLA-B',associate,'CXCR4';'CXCR4',associate,'CD4';'CD4',inhibit,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'CCR5',bind,'CD4';'CD4',regulate,'COVID-19'
+
+Linking events:  'COVID-19',associate,'HLA-B'; 
+
+Pathway=> 'HLA-B',associate,'CXCR4';'CXCR4',associate,'CD4';'CD4',inhibit,'ACE2'
+
+Linking events:  'ACE2',regulate,'MICA'; 
+
+Pathway=> 'MICA',associate,'CD4';'CD4',inhibit,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'CCR5',bind,'CD4';'CD4',regulate,'COVID-19'
+
+Linking events:  'COVID-19',associate,'HLA-B'; 
+
+Pathway=> 'HLA-B',associate,'CXCR4';'CXCR4',associate,'CD4';'CD4',inhibit,'ACE2'
+
+Linking events:  'ACE2',associate,'CD4'
+
+Pathway=> 'ACE2',associate,'CD4';'CD4',inhibit,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'CCR5',bind,'CD4';'CD4',regulate,'COVID-19'
+
+Linking events:  'COVID-19',associate,'HLA-B'; 
+
+Pathway=> 'HLA-B',associate,'CXCR4';'CXCR4',associate,'CD4';'CD4',inhibit,'ACE2'
+
+Linking events:  'ACE2',regulate,'MICA'; 
+
+Pathway=> 'MICA',associate,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'CXCR4';'CXCR4',inhibit,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'CCR5',bind,'CD4';'CD4',regulate,'COVID-19'
+
+Linking events:  'COVID-19',associate,'HLA-B'; 
+
+Pathway=> 'HLA-B',associate,'CXCR4';'CXCR4',associate,'CD4';'CD4',inhibit,'ACE2'
+
+Linking events:  'ACE2',associate,'CD4'
+
+Pathway=> 'ACE2',associate,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'CXCR4';'CXCR4',inhibit,'COVID-19'
+
+
+BioPatternsg
+minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reportado
+
+Searching for pathways and regulatory events that relate them
+
+Select an option
+1.- Run the process
+0.- Go back
+
