@@ -1,0 +1,79 @@
+event('CD4',negative_correlation,'COVID-19')
+============================================
+
+Sentences from abstracts:
+------------------------
+
+Here we show a mRNA-LNP vaccine (MIT-T-COVID) based on highly conserved short peptide epitopes activates CD8+ and CD4+ T cell responses that attenuate morbidity and prevent mortality in HLA-A*02:01 transgenic mice infected with SARS-CoV-2 Beta (B.1.351). PUBMED_ID: 36969239
+
+Mice immunized with MIT-T-COVID had 17.4 times more lung infiltrating CD4+ T cells than unimmunized mice (7 dpi). PUBMED_ID: 36969239
+
+event('CD4',positive_correlation,'COVID-19')
+============================================
+
+Sentences from abstracts:
+------------------------
+
+Besides inducing a strong lung CD8 + T cell response, IBIS specifically heightened the activation of mucosal virus-specific CD4 + T cells compared to the interferon-null vaccine. PUBMED_ID: 37875475
+
+Methods: We quantified CD4+ and CD8+ T-cells reactive to overlapping peptides spanning the ancestral SARS-CoV-2 spike protein in 40 older adults (median age 79) and 50 younger health care workers (median age 39), all COVID-19 naive, using an activation-induced marker assay. PUBMED_ID: 38035132
+
+Results: A third COVID-19 mRNA vaccine dose significantly boosted spike-specific CD4+ and CD8+ T-cell frequencies to above 2-dose levels in older and younger adults. PUBMED_ID: 38035132
+
+event('CXCR4',negative_correlation,'COVID-19')
+=============================================
+
+Sentences from abstracts:
+------------------------
+
+COVID-19 Specific Immune Markers Revealed by Single Cell Phenotypic Profiling. COVID-19 is a viral infection, caused by the severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) and characterized by a complex inflammatory process and clinical immunophenotypes. Nowadays, several alterations of immune response within the respiratory tracts as well as at the level of the peripheral blood have been well documented. Nonetheless, their effects on COVID-19-related cell heterogeneity and disease progression are less defined. Here, we performed a single-cell RNA sequencing of about 400 transcripts relevant to immune cell function including surface markers, in mononuclear cells (PBMCs) from the peripheral blood of 50 subjects, infected with SARS-CoV-2 at the diagnosis and 27 healthy blood donors as control. We found that patients with COVID-19 exhibited an increase in COVID-specific surface markers in different subsets of immune cell composition. Interestingly, the expression of cell receptors, such as IFNGR1 and CXCR4, was reduced in response to the viral infection and associated with the inhibition of the related signaling pathways and immune functions. These results highlight novel immunoreceptors, selectively expressed in COVID-19 patients, which affect the immune functionality and are correlated with clinical outcomes.
+PUBMED_ID: 34944610
+
+event('CXCR4',positive_correlation,'COVID-19')
+==============================================
+
+Sentences from abstracts:
+------------------------
+
+In contrast, fatal COVID-19 cases display elevated numbers of SARS-CoV-2-specific regulatory T cells and a time-dependent escalation in activated bystander CXCR4+ T cells, as assessed by longitudinal sampling. PUBMED_ID: 34260965
+
+Together with the demonstration of increased proportions of inflammatory CXCR4+ T cells in the lungs of individuals with severe COVID-19, these results support a model where lung-homing T cells activated through bystander effects contribute to immunopathology, whereas a robust, non-suppressive SARS-CoV-2-specific T cell response limits pathogenesis and promotes recovery from severe COVID-19. PUBMED_ID: 34260965
+
+The vast majority of CD74+ T cells expressed CD44, whereas expression of CXCR2 and CXCR4 was low in controls but increased upon SARS-CoV-2 infection. PUBMED_ID: 37946732
+
+event('ACE2',positive_correlation,'COVID-19')
+=============================================
+
+Sentences from abstracts:
+------------------------
+
+In patients with COVID-19, epithelial cells showed an average three-fold increase in expression of the SARS-CoV-2 entry receptor ACE2, which correlated with interferon signals by immune cells. PUBMED_ID: 32591762
+
+event('IFNG',negative_correlation,'ACE2')
+========================================
+
+Sentences from abstracts:
+------------------------
+
+Besides, ACE2 upregulation was not only associated with CD8+ T cell/CD4+ regulatory T cell ratios but also linked with downregulation of immune-markers including CD8A, KLRC1, GZMA, GZMB, NKG7, CCL4, and IFNG. PUBMED_ID: 33422520
+
+event('CD4',negative_correlation,'ACE2')
+========================================
+
+Sentences from abstracts:
+------------------------
+
+Overexpression of ACE2 level was found in LUAD and ACE2 expression was negatively associated with various types of immune signatures including CD8+ T cells, CD4+ regulatory T cells, NK cells, and T cell activation. PUBMED_ID: 33422520
+
+Besides, ACE2 upregulation was not only associated with CD8+ T cell/CD4+ regulatory T cell ratios but also linked with downregulation of immune-markers including CD8A, KLRC1, GZMA, GZMB, NKG7, CCL4, and IFNG. PUBMED_ID: 33422520
+
+event('IFNG',positive_correlation,'COVID-19')
+============================================
+
+Sentences from abstracts:
+------------------------
+
+The IL-6, interferon-gamma and endothelial growth factor were significantly higher in COVID-19 infected compared to non-infected individuals. PUBMED_ID: 37843354
+
+
+
