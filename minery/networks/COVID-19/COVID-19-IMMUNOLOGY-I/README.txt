@@ -1,6 +1,6 @@
-# biopathwaysg
+# biopatternsg
 A system for modeling and analyzing genetic regulatory networks.
-Biopathwaysg receives a collection of objects of interest and automatically organizes knowledge bases related to those objects and their potential interactions.
+Biopatternsg receives a collection of objects of interest and automatically organizes knowledge bases related to those objects and their potential interactions.
 Authors: José Lopez <josesmooth@gmail.com>, Yacson Ramirez <yacson.ramirez@gmail.com>, Jacinto Davila <jacinto.davila@gmail.com>
 
 For the example described here, the list of objects corresponds to COVID-19 and the immune system; examples of sets of objects to model GRNs are:
