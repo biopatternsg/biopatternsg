@@ -1,0 +1,9 @@
+32591762 | Association | COVID-19 | CCR1
+32591762 | Positive_Correlation | COVID-19 | ACE2
+32591762 | Association | Respiratory Insufficiency | CCR1
+32591762 | Association | Macrophage Activation Syndrome | TNF
+32591762 | Association | Respiratory Insufficiency | CCR5
+32591762 | Association | Macrophage Activation Syndrome | CCL2
+32591762 | Association | COVID-19 | CCR5
+32591762 | Association | Macrophage Activation Syndrome | IL1B
+32591762 | Association | Macrophage Activation Syndrome | CXCL10

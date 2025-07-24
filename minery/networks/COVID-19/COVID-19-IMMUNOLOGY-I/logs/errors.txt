@@ -1,920 +1,920 @@
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_1.txt, at line: 155
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_1.txt, at line: 155
 No sentences for the event: CALCITRIOL,positive_correlation,ANGPT2. PubMed: 37423172
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_1.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_1.txt.
 There are not annotations for the entity 'ANGPT2'
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_1.txt, at line: 160
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_1.txt, at line: 160
 No sentences for the event: CALCITRIOL,positive_correlation,ANGPT4. PubMed: 37423172
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_1.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_1.txt.
 There are not annotations for the entity 'ANGPT4'
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_1.txt, at line: 181
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_1.txt, at line: 181
 No sentences for the event: LOXORIBINE,positive_correlation,TLR8. PubMed: 37778577
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_1.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_1.txt.
 There are not annotations for the entity 'TLR8'
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_1.txt, at line: 328
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_1.txt, at line: 328
 No sentences for the event: HLA-A,association,HLA-DRB1. PubMed: 33542445
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_1.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_1.txt.
 There are not annotations for the entity 'HLA-A'
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_1.txt, at line: 337
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_1.txt, at line: 337
 No sentences for the event: EXANTHEMA,association,HLA-A. PubMed: 33542445
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_1.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_1.txt.
 There are not annotations for the entity 'HLA-A'
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_1.txt, at line: 345
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_1.txt, at line: 345
 No sentences for the event: APOA5,association,HLA-A. PubMed: 33542445
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_1.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_1.txt.
 There are not annotations for the entity 'HLA-A'
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_1.txt, at line: 346
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_1.txt, at line: 346
 No sentences for the event: DYSLIPIDEMIAS,association,HLA-A. PubMed: 33542445
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_1.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_1.txt.
 There are not annotations for the entity 'HLA-A'
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_1.txt, at line: 349
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_1.txt, at line: 349
 No sentences for the event: CYP2B6,association,HLA-A. PubMed: 33542445
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_1.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_1.txt.
 There are not annotations for the entity 'HLA-A'
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_1.txt, at line: 362
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_1.txt, at line: 362
 No sentences for the event: COVID-19,association,HLA-A. PubMed: 33542445
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_1.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_1.txt.
 There are not annotations for the entity 'HLA-A'
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_1.txt, at line: 364
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_1.txt, at line: 364
 No sentences for the event: Depressive Disorder,association,HLA-A. PubMed: 33542445
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_1.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_1.txt.
 There are not annotations for the entity 'HLA-A'
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_1.txt, at line: 386
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_1.txt, at line: 386
 No sentences for the event: Tomaculous neuropathy,association,HLA-A. PubMed: 33542445
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_1.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_1.txt.
 There are not annotations for the entity 'HLA-A'
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_1.txt, at line: 403
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_1.txt, at line: 403
 No sentences for the event: HYPERBILIRUBINEMIA,association,HLA-A. PubMed: 33542445
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_1.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_1.txt.
 There are not annotations for the entity 'HLA-A'
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_1.txt, at line: 625
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_1.txt, at line: 625
 No sentences for the event: ZC3H12A,association,CASP4. PubMed: 34356509
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_1.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_1.txt.
 There are not annotations for the entity 'CASP4'
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_1.txt, at line: 645
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_1.txt, at line: 645
 No sentences for the event: ZC3H12A,positive_correlation,CASP7. PubMed: 34356509
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_1.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_1.txt.
 There are not annotations for the entity 'CASP7'
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_1.txt, at line: 785
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_1.txt, at line: 785
 No sentences for the event: 4-octyl itaconate,association,#7514#. PubMed: 37823646
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_1.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_1.txt.
 There are not annotations for the entity '#7514#'
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_1.txt, at line: 818
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_1.txt, at line: 818
 No sentences for the event: FGL2,negative_correlation,STAT5A. PubMed: 30683885
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_1.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_1.txt.
 There are not annotations for the entity 'STAT5A'
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_10.txt, at line: 18
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_10.txt, at line: 18
 No sentences for the event: SMAD5,association,MSX1. PubMed: 34995814
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_10.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_10.txt.
 There are not annotations for the entity 'SMAD5'
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_10.txt, at line: 305
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_10.txt, at line: 305
 No sentences for the event: Carcinoma Pancreatic Ductal,association,CXCL5. PubMed: 37541772
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_10.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_10.txt.
 There are not annotations for the entity 'CXCL5'
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_10.txt, at line: 313
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_10.txt, at line: 313
 No sentences for the event: CRIP1,positive_correlation,CXCL5. PubMed: 37541772
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_10.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_10.txt.
 There are not annotations for the entity 'CXCL5'
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_10.txt, at line: 322
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_10.txt, at line: 322
 No sentences for the event: INCB057643,negative_correlation,CXCR2. PubMed: 37541772
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_10.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_10.txt.
 There are not annotations for the entity 'CXCR2'
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_10.txt, at line: 669
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_10.txt, at line: 669
 No sentences for the event: Musculoskeletal Diseases,association,LINC02837. PubMed: 32099098
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_10.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_10.txt.
 There are not annotations for the entity 'LINC02837'
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_10.txt, at line: 672
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_10.txt, at line: 672
 No sentences for the event: Opioid-Related Disorders,association,LINC02837. PubMed: 32099098
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_10.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_10.txt.
 There are not annotations for the entity 'LINC02837'
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_10.txt, at line: 677
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_10.txt, at line: 677
 No sentences for the event: Abortion Spontaneous,association,NAV2. PubMed: 33239672
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_10.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_10.txt.
 There are not annotations for the entity 'NAV2'
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_10.txt, at line: 699
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_10.txt, at line: 699
 No sentences for the event: 2 2'-dipicolylamine,association,RHENIUM. PubMed: 35414868
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_10.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_10.txt.
 There are not annotations for the entity "2 2'-dipicolylamine"
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_10.txt, at line: 701
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_10.txt, at line: 701
 No sentences for the event: 2 2'-dipicolylamine,association,PLATINUM. PubMed: 35414868
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_10.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_10.txt.
 There are not annotations for the entity "2 2'-dipicolylamine"
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_10.txt, at line: 1072
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_10.txt, at line: 1072
 No sentences for the event: COVID-19,association,CCR5AS. PubMed: 37499788
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_10.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_10.txt.
 There are not annotations for the entity 'CCR5AS'
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_11.txt, at line: 300
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_11.txt, at line: 300
 No sentences for the event: NKX3-1,association,SUMO1. PubMed: 21931855
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_11.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_11.txt.
 There are not annotations for the entity 'NKX3-1'
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_11.txt, at line: 513
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_11.txt, at line: 513
 No sentences for the event: DUX,positive_correlation,DPPA4. PubMed: 31226106
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_11.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_11.txt.
 There are not annotations for the entity 'DPPA4'
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_11.txt, at line: 764
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_11.txt, at line: 764
 No sentences for the event: IFN1@,bind,IFNB1. PubMed: 34234281
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_11.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_11.txt.
 There are not annotations for the entity 'IFN1@'
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_11.txt, at line: 770
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_11.txt, at line: 770
 No sentences for the event: IFN1@,bind,IFNAR1. PubMed: 34234281
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_11.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_11.txt.
 There are not annotations for the entity 'IFN1@'
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_11.txt, at line: 780
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_11.txt, at line: 780
 No sentences for the event: 8-HYDROXY-2'-DEOXYGUANOSINE,association,PIAS2. PubMed: 34234281
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_11.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_11.txt.
 There are not annotations for the entity "8-HYDROXY-2'-DEOXYGUANOSINE"
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_11.txt, at line: 782
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_11.txt, at line: 782
 No sentences for the event: Camurati-Engelmann Syndrome,association,IFN1@. PubMed: 34234281
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_11.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_11.txt.
 There are not annotations for the entity 'IFN1@'
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_11.txt, at line: 923
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_11.txt, at line: 923
 No sentences for the event: 4(2'-aminoethyl)amino-1 8-dimethylimidazo(1 2-a)quinoxaline,negative_correlation,IL1B. PubMed: 38646919
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_11.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_11.txt.
 There are not annotations for the entity "4(2'-aminoethyl)amino-1 8-dimethylimidazo(1 2-a)quinoxaline"
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_11.txt, at line: 925
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_11.txt, at line: 925
 No sentences for the event: 4(2'-aminoethyl)amino-1 8-dimethylimidazo(1 2-a)quinoxaline,negative_correlation,OSTEOSCLEROSIS. PubMed: 38646919
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_11.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_11.txt.
 There are not annotations for the entity "4(2'-aminoethyl)amino-1 8-dimethylimidazo(1 2-a)quinoxaline"
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_11.txt, at line: 926
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_11.txt, at line: 926
 No sentences for the event: 4(2'-aminoethyl)amino-1 8-dimethylimidazo(1 2-a)quinoxaline,negative_correlation,NFKB1. PubMed: 38646919
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_11.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_11.txt.
 There are not annotations for the entity "4(2'-aminoethyl)amino-1 8-dimethylimidazo(1 2-a)quinoxaline"
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_11.txt, at line: 927
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_11.txt, at line: 927
 No sentences for the event: 4(2'-aminoethyl)amino-1 8-dimethylimidazo(1 2-a)quinoxaline,negative_correlation,FIBROSIS. PubMed: 38646919
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_11.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_11.txt.
 There are not annotations for the entity "4(2'-aminoethyl)amino-1 8-dimethylimidazo(1 2-a)quinoxaline"
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_11.txt, at line: 931
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_11.txt, at line: 931
 No sentences for the event: 4(2'-aminoethyl)amino-1 8-dimethylimidazo(1 2-a)quinoxaline,negative_correlation,Bone Marrow Diseases. PubMed: 38646919
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_11.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_11.txt.
 There are not annotations for the entity "4(2'-aminoethyl)amino-1 8-dimethylimidazo(1 2-a)quinoxaline"
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_11.txt, at line: 938
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_11.txt, at line: 938
 No sentences for the event: 4(2'-aminoethyl)amino-1 8-dimethylimidazo(1 2-a)quinoxaline,negative_correlation,TNF. PubMed: 38646919
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_11.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_11.txt.
 There are not annotations for the entity "4(2'-aminoethyl)amino-1 8-dimethylimidazo(1 2-a)quinoxaline"
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_11.txt, at line: 945
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_11.txt, at line: 945
 No sentences for the event: 4(2'-aminoethyl)amino-1 8-dimethylimidazo(1 2-a)quinoxaline,negative_correlation,THROMBOCYTOPENIA. PubMed: 38646919
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_11.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_11.txt.
 There are not annotations for the entity "4(2'-aminoethyl)amino-1 8-dimethylimidazo(1 2-a)quinoxaline"
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_11.txt, at line: 951
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_11.txt, at line: 951
 No sentences for the event: 4(2'-aminoethyl)amino-1 8-dimethylimidazo(1 2-a)quinoxaline,negative_correlation,INFLAMMATION. PubMed: 38646919
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_11.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_11.txt.
 There are not annotations for the entity "4(2'-aminoethyl)amino-1 8-dimethylimidazo(1 2-a)quinoxaline"
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_11.txt, at line: 1040
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_11.txt, at line: 1040
 No sentences for the event: Ovarian Neoplasms,association,#9113#. PubMed: 34267330
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_11.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_11.txt.
 There are not annotations for the entity '#9113#'
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_11.txt, at line: 1042
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_11.txt, at line: 1042
 No sentences for the event: Prostatic Neoplasms,association,#9113#. PubMed: 34267330
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_11.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_11.txt.
 There are not annotations for the entity '#9113#'
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_11.txt, at line: 1043
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_11.txt, at line: 1043
 No sentences for the event: Endocrine System Diseases,association,#9113#. PubMed: 34267330
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_11.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_11.txt.
 There are not annotations for the entity '#9113#'
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_11.txt, at line: 1158
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_11.txt, at line: 1158
 No sentences for the event: INFLAMMATION,association,#9475#. PubMed: 37393345
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_11.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_11.txt.
 There are not annotations for the entity '#9475#'
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_11.txt, at line: 1159
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_11.txt, at line: 1159
 No sentences for the event: Bronchial Hyperreactivity,association,#9475#. PubMed: 37393345
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_11.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_11.txt.
 There are not annotations for the entity '#9475#'
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_11.txt, at line: 1279
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_11.txt, at line: 1279
 No sentences for the event: IFIT2,positive_correlation,IFN1@. PubMed: 1314162
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_11.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_11.txt.
 There are not annotations for the entity 'IFN1@'
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_11.txt, at line: 1282
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_11.txt, at line: 1282
 No sentences for the event: IFN1@,positive_correlation,ISG15. PubMed: 1314162
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_11.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_11.txt.
 There are not annotations for the entity 'IFN1@'
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_12.txt, at line: 194
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_12.txt, at line: 194
 No sentences for the event: N-succinimidyl 8-((4'-fluorobenzyl)amino)suberate,association,KAT6B. PubMed: 17385902
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_12.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_12.txt.
 There are not annotations for the entity "N-succinimidyl 8-((4'-fluorobenzyl)amino)suberate"
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_12.txt, at line: 198
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_12.txt, at line: 198
 No sentences for the event: N-succinimidyl 8-((4'-fluorobenzyl)amino)suberate,association,TECHNETIUM. PubMed: 17385902
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_12.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_12.txt.
 There are not annotations for the entity "N-succinimidyl 8-((4'-fluorobenzyl)amino)suberate"
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_12.txt, at line: 474
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_12.txt, at line: 474
 No sentences for the event: COVID-19,association,#43740578#. PubMed: 38594245
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_12.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_12.txt.
 There are not annotations for the entity '#43740578#'
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_12.txt, at line: 512
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_12.txt, at line: 512
 No sentences for the event: CTSL,positive_correlation,CYCS. PubMed: 14581476
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_12.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_12.txt.
 There are not annotations for the entity 'CTSL'
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_12.txt, at line: 513
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_12.txt, at line: 513
 No sentences for the event: CTSH,positive_correlation,CYCS. PubMed: 14581476
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_12.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_12.txt.
 There are not annotations for the entity 'CTSH'
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_12.txt, at line: 515
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_12.txt, at line: 515
 No sentences for the event: CTSL,negative_correlation,BID. PubMed: 14581476
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_12.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_12.txt.
 There are not annotations for the entity 'CTSL'
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_12.txt, at line: 516
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_12.txt, at line: 516
 No sentences for the event: CTSH,negative_correlation,BID. PubMed: 14581476
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_12.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_12.txt.
 There are not annotations for the entity 'CTSH'
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_12.txt, at line: 618
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_12.txt, at line: 618
 No sentences for the event: IL2RG,bind,IL21. PubMed: 36201890
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_12.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_12.txt.
 There are not annotations for the entity 'IL21'
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_12.txt, at line: 619
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_12.txt, at line: 619
 No sentences for the event: IL2RG,bind,IL9. PubMed: 36201890
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_12.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_12.txt.
 There are not annotations for the entity 'IL9'
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_12.txt, at line: 625
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_12.txt, at line: 625
 No sentences for the event: IL15,bind,IL2RG. PubMed: 36201890
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_12.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_12.txt.
 There are not annotations for the entity 'IL15'
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_12.txt, at line: 742
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_12.txt, at line: 742
 No sentences for the event: Pulmonary Disease Chronic Obstructive,association,LINC02492. PubMed: 37352370
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_12.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_12.txt.
 There are not annotations for the entity 'LINC02492'
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_12.txt, at line: 883
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_12.txt, at line: 883
 No sentences for the event: N N'-monomethylenebis(pyridiniumaldoxime),cotreatment,ATROPINE. PubMed: 1106095
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_12.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_12.txt.
 There are not annotations for the entity "N N'-monomethylenebis(pyridiniumaldoxime)"
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_12.txt, at line: 884
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_12.txt, at line: 884
 No sentences for the event: N N'-monomethylenebis(pyridiniumaldoxime),negative_correlation,SARIN. PubMed: 1106095
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_12.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_12.txt.
 There are not annotations for the entity "N N'-monomethylenebis(pyridiniumaldoxime)"
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_12.txt, at line: 886
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_12.txt, at line: 886
 No sentences for the event: N N'-monomethylenebis(pyridiniumaldoxime),positive_correlation,ACHE. PubMed: 1106095
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_12.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_12.txt.
 There are not annotations for the entity "N N'-monomethylenebis(pyridiniumaldoxime)"
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_13.txt, at line: 29
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_13.txt, at line: 29
 No sentences for the event: JAK3,association,IL21. PubMed: 14678034
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_13.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_13.txt.
 There are not annotations for the entity 'IL21'
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_13.txt, at line: 567
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_13.txt, at line: 567
 No sentences for the event: Birdshot Chorioretinopathy,association,LNPEP. PubMed: 24957906
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_13.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_13.txt.
 There are not annotations for the entity 'LNPEP'
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_14.txt, at line: 154
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_14.txt, at line: 154
 No sentences for the event: NEOPLASMS,association,#3105#. PubMed: 38574928
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_14.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_14.txt.
 There are not annotations for the entity '#3105#'
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_14.txt, at line: 179
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_14.txt, at line: 179
 No sentences for the event: VIREMIA,association,#3107#. PubMed: 25477316
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_14.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_14.txt.
 There are not annotations for the entity '#3107#'
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_14.txt, at line: 181
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_14.txt, at line: 181
 No sentences for the event: #3107#,association,RS9264942. PubMed: 25477316
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_14.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_14.txt.
 There are not annotations for the entity '#3107#'
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_14.txt, at line: 339
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_14.txt, at line: 339
 No sentences for the event: COVID-19,negative_correlation,#43740568#. PubMed: 33501468
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_14.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_14.txt.
 There are not annotations for the entity '#43740568#'
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_14.txt, at line: 413
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_14.txt, at line: 413
 No sentences for the event: P.E1202Q,association,P.N764K. PubMed: 36755883
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_14.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_14.txt.
 There are not annotations for the entity 'P.N764K'
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_14.txt, at line: 414
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_14.txt, at line: 414
 No sentences for the event: P.N764K,association,P.N969K. PubMed: 36755883
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_14.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_14.txt.
 There are not annotations for the entity 'P.N764K'
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_14.txt, at line: 461
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_14.txt, at line: 461
 No sentences for the event: Inflammatory Bowel Diseases,association,C6ORF15. PubMed: 32709981
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_14.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_14.txt.
 There are not annotations for the entity 'C6ORF15'
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_14.txt, at line: 462
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_14.txt, at line: 462
 No sentences for the event: Inflammatory Bowel Diseases,association,CDSN. PubMed: 32709981
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_14.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_14.txt.
 There are not annotations for the entity 'CDSN'
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_14.txt, at line: 493
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_14.txt, at line: 493
 No sentences for the event: HIV Infections,association,IGKV3-15. PubMed: 35911762
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_14.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_14.txt.
 There are not annotations for the entity 'IGKV3-15'
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_14.txt, at line: 494
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_14.txt, at line: 494
 No sentences for the event: IGKV3-15,negative_correlation,HLA-C. PubMed: 35911762
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_14.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_14.txt.
 There are not annotations for the entity 'IGKV3-15'
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_14.txt, at line: 505
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_14.txt, at line: 505
 No sentences for the event: BETA-THALASSEMIA,association,#3043#. PubMed: 37342325
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_14.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_14.txt.
 There are not annotations for the entity '#3043#'
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_14.txt, at line: 510
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_14.txt, at line: 510
 No sentences for the event: COVID-19,association,#3043#. PubMed: 37342325
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_14.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_14.txt.
 There are not annotations for the entity '#3043#'
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_15.txt, at line: 130
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_15.txt, at line: 130
 No sentences for the event: INFECTIONS,association,P.M41V. PubMed: 38071510
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_15.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_15.txt.
 There are not annotations for the entity 'P.M41V'
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_15.txt, at line: 131
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_15.txt, at line: 131
 No sentences for the event: VEXAS syndrome,positive_correlation,P.M41V. PubMed: 38071510
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_15.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_15.txt.
 There are not annotations for the entity 'P.M41V'
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_15.txt, at line: 269
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_15.txt, at line: 269
 No sentences for the event: ENTERITIS,association,SOCS4. PubMed: 28525837
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_15.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_15.txt.
 There are not annotations for the entity 'SOCS4'
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_15.txt, at line: 271
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_15.txt, at line: 271
 No sentences for the event: ENTERITIS,association,SOCS2. PubMed: 28525837
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_15.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_15.txt.
 There are not annotations for the entity 'SOCS2'
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_15.txt, at line: 383
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_15.txt, at line: 383
 No sentences for the event: INFLAMMATION,association,TNFAIP6. PubMed: 16124062
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_15.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_15.txt.
 There are not annotations for the entity 'TNFAIP6'
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_15.txt, at line: 437
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_15.txt, at line: 437
 No sentences for the event: MEF2C,positive_correlation,NKX3-1. PubMed: 21261500
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_15.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_15.txt.
 There are not annotations for the entity 'NKX3-1'
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_15.txt, at line: 440
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_15.txt, at line: 440
 No sentences for the event: LEUKEMIA,association,NKX3-1. PubMed: 21261500
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_15.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_15.txt.
 There are not annotations for the entity 'NKX3-1'
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_15.txt, at line: 442
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_15.txt, at line: 442
 No sentences for the event: Precursor T-Cell Lymphoblastic Leukemia-Lymphoma,association,NKX3-1. PubMed: 21261500
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_15.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_15.txt.
 There are not annotations for the entity 'NKX3-1'
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_15.txt, at line: 587
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_15.txt, at line: 587
 No sentences for the event: INFLAMMATION,negative_correlation,P.A19P. PubMed: 26157031
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_15.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_15.txt.
 There are not annotations for the entity 'P.A19P'
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_15.txt, at line: 589
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_15.txt, at line: 589
 No sentences for the event: Respiratory Distress Syndrome,positive_correlation,P.A19P. PubMed: 26157031
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_15.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_15.txt.
 There are not annotations for the entity 'P.A19P'
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_15.txt, at line: 677
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_15.txt, at line: 677
 No sentences for the event: ENTERITIS,association,SOCS2. PubMed: 28494922
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_15.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_15.txt.
 There are not annotations for the entity 'SOCS2'
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_15.txt, at line: 681
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_15.txt, at line: 681
 No sentences for the event: ENTERITIS,association,SOCS4. PubMed: 28494922
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_15.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_15.txt.
 There are not annotations for the entity 'SOCS4'
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_15.txt, at line: 702
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_15.txt, at line: 702
 No sentences for the event: Sjogren's Syndrome,positive_correlation,IFNG. PubMed: 29927095
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_15.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_15.txt.
 There are not annotations for the entity "Sjogren's Syndrome"
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_15.txt, at line: 703
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_15.txt, at line: 703
 No sentences for the event: Sjogren's Syndrome,association,JAK1. PubMed: 29927095
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_15.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_15.txt.
 There are not annotations for the entity "Sjogren's Syndrome"
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_15.txt, at line: 708
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_15.txt, at line: 708
 No sentences for the event: Sjogren's Syndrome,positive_correlation,TNFSF13B. PubMed: 29927095
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_15.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_15.txt.
 There are not annotations for the entity "Sjogren's Syndrome"
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_16.txt, at line: 356
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_16.txt, at line: 356
 No sentences for the event: RAET1E,bind,KLRK1. PubMed: 24787765
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_16.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_16.txt.
 There are not annotations for the entity 'RAET1E'
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_16.txt, at line: 360
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_16.txt, at line: 360
 No sentences for the event: KLRK1,bind,RAET1G. PubMed: 24787765
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_16.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_16.txt.
 There are not annotations for the entity 'RAET1G'
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_16.txt, at line: 361
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_16.txt, at line: 361
 No sentences for the event: RAET1L,bind,KLRK1. PubMed: 24787765
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_16.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_16.txt.
 There are not annotations for the entity 'RAET1L'
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_16.txt, at line: 630
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_16.txt, at line: 630
 No sentences for the event: AGRANULOCYTOSIS,association,MICA-AS1. PubMed: 32519199
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_16.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_16.txt.
 There are not annotations for the entity 'MICA-AS1'
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_16.txt, at line: 670
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_16.txt, at line: 670
 No sentences for the event: Arthritis Rheumatoid,association,101929739. PubMed: 32831971
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_16.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_16.txt.
 There are not annotations for the entity '101929739'
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_16.txt, at line: 677
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_16.txt, at line: 677
 No sentences for the event: Sjogren's Syndrome,association,IL21. PubMed: 33247940
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_16.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_16.txt.
 There are not annotations for the entity "Sjogren's Syndrome"
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_16.txt, at line: 778
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_16.txt, at line: 778
 No sentences for the event: PSORIASIS,association,MICA-AS1. PubMed: 22914738
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_16.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_16.txt.
 There are not annotations for the entity 'MICA-AS1'
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_16.txt, at line: 843
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_16.txt, at line: 843
 No sentences for the event: Carcinoma Hepatocellular,association,XPC. PubMed: 27057306
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_16.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_16.txt.
 There are not annotations for the entity 'XPC'
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_16.txt, at line: 846
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_16.txt, at line: 846
 No sentences for the event: Carcinoma Hepatocellular,association,101929604. PubMed: 27057306
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_16.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_16.txt.
 There are not annotations for the entity '101929604'
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_16.txt, at line: 895
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_16.txt, at line: 895
 No sentences for the event: Crohn Disease,association,RAET1G. PubMed: 28684217
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_16.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_16.txt.
 There are not annotations for the entity 'RAET1G'
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_16.txt, at line: 900
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_16.txt, at line: 900
 No sentences for the event: RAET1L,bind,KLRK1. PubMed: 28684217
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_16.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_16.txt.
 There are not annotations for the entity 'RAET1L'
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_16.txt, at line: 903
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_16.txt, at line: 903
 No sentences for the event: Crohn Disease,association,RAET1L. PubMed: 28684217
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_16.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_16.txt.
 There are not annotations for the entity 'RAET1L'
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_16.txt, at line: 905
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_16.txt, at line: 905
 No sentences for the event: KLRK1,bind,RAET1G. PubMed: 28684217
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_16.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_16.txt.
 There are not annotations for the entity 'RAET1G'
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_16.txt, at line: 922
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_16.txt, at line: 922
 No sentences for the event: Mucocutaneous Lymph Node Syndrome,association,LINC01149. PubMed: 28855716
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_16.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_16.txt.
 There are not annotations for the entity 'LINC01149'
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_16.txt, at line: 1052
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_16.txt, at line: 1052
 No sentences for the event: Behcet Syndrome,association,PSORS1C1. PubMed: 35987173
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_16.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_16.txt.
 There are not annotations for the entity 'PSORS1C1'
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_17.txt, at line: 38
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_17.txt, at line: 38
 No sentences for the event: QUINOLONES,association,P.T57S. PubMed: 37267285
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_17.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_17.txt.
 There are not annotations for the entity 'P.T57S'
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_17.txt, at line: 39
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_17.txt, at line: 39
 No sentences for the event: QUINOLONES,association,P.D87N. PubMed: 37267285
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_17.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_17.txt.
 There are not annotations for the entity 'P.D87N'
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_17.txt, at line: 40
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_17.txt, at line: 40
 No sentences for the event: QUINOLONES,association,P.D87Y. PubMed: 37267285
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_17.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_17.txt.
 There are not annotations for the entity 'P.D87Y'
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_17.txt, at line: 41
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_17.txt, at line: 41
 No sentences for the event: QUINOLONES,association,P.S80I. PubMed: 37267285
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_17.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_17.txt.
 There are not annotations for the entity 'P.S80I'
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_17.txt, at line: 61
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_17.txt, at line: 61
 No sentences for the event: Behcet Syndrome,association,PALLD. PubMed: 37271218
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_17.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_17.txt.
 There are not annotations for the entity 'PALLD'
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_17.txt, at line: 62
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_17.txt, at line: 62
 No sentences for the event: Muscular dystrophy congenital with central nervous system involvement,association,PALLD. PubMed: 37271218
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_17.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_17.txt.
 There are not annotations for the entity 'PALLD'
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_17.txt, at line: 147
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_17.txt, at line: 147
 No sentences for the event: #4277#,association,P.S102R. PubMed: 25990310
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_17.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_17.txt.
 There are not annotations for the entity '#4277#'
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_17.txt, at line: 148
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_17.txt, at line: 148
 No sentences for the event: #4277#,association,#4277#. PubMed: 25990310
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_17.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_17.txt.
 There are not annotations for the entity '#4277#'
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_17.txt, at line: 152
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_17.txt, at line: 152
 No sentences for the event: Sjogren's Syndrome,association,RS3131619. PubMed: 28379387
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_17.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_17.txt.
 There are not annotations for the entity "Sjogren's Syndrome"
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_17.txt, at line: 154
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_17.txt, at line: 154
 No sentences for the event: Sjogren's Syndrome,association,MICA. PubMed: 28379387
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_17.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_17.txt.
 There are not annotations for the entity "Sjogren's Syndrome"
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_17.txt, at line: 156
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_17.txt, at line: 156
 No sentences for the event: Sjogren's Syndrome,association,HLA-C. PubMed: 28379387
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_17.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_17.txt.
 There are not annotations for the entity "Sjogren's Syndrome"
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_17.txt, at line: 157
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_17.txt, at line: 157
 No sentences for the event: Sjogren's Syndrome,association,KLRK1. PubMed: 28379387
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_17.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_17.txt.
 There are not annotations for the entity "Sjogren's Syndrome"
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_17.txt, at line: 179
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_17.txt, at line: 179
 No sentences for the event: P37,association,KPNA1. PubMed: 29781763
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_17.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_17.txt.
 There are not annotations for the entity 'P37'
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_17.txt, at line: 180
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_17.txt, at line: 180
 No sentences for the event: INFECTIONS,association,P37. PubMed: 29781763
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_17.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_17.txt.
 There are not annotations for the entity 'P37'
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_17.txt, at line: 218
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_17.txt, at line: 218
 No sentences for the event: SCHIZOPHRENIA,association,RSPH14. PubMed: 31504236
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_17.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_17.txt.
 There are not annotations for the entity 'RSPH14'
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_17.txt, at line: 599
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_17.txt, at line: 599
 No sentences for the event: ALDH3A1,association,CD274. PubMed: 37678027
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_17.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_17.txt.
 There are not annotations for the entity 'ALDH3A1'
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_17.txt, at line: 646
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_17.txt, at line: 646
 No sentences for the event: TOFACITINIB,negative_correlation,Sjogren's Syndrome. PubMed: 38007449
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_17.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_17.txt.
 There are not annotations for the entity "Sjogren's Syndrome"
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_17.txt, at line: 853
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_17.txt, at line: 853
 No sentences for the event: Sjogren's Syndrome,association,IL9. PubMed: 35944186
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_17.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_17.txt.
 There are not annotations for the entity "Sjogren's Syndrome"
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_17.txt, at line: 854
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_17.txt, at line: 854
 No sentences for the event: Sjogren's Syndrome,association,CD4. PubMed: 35944186
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_17.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_17.txt.
 There are not annotations for the entity "Sjogren's Syndrome"
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_17.txt, at line: 965
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_17.txt, at line: 965
 No sentences for the event: BRP1,association,CD8B1. PubMed: 109565
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_17.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_17.txt.
 There are not annotations for the entity 'BRP1'
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_17.txt, at line: 967
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_17.txt, at line: 967
 No sentences for the event: BRP1,association,IGKV4-74. PubMed: 109565
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_17.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_17.txt.
 There are not annotations for the entity 'BRP1'
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_17.txt, at line: 1103
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_17.txt, at line: 1103
 No sentences for the event: Sucrase-isomaltase deficiency congenital,association,SI. PubMed: 34914943
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_17.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_17.txt.
 There are not annotations for the entity 'SI'
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_17.txt, at line: 1104
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_17.txt, at line: 1104
 No sentences for the event: Signs and Symptoms Digestive,association,SI. PubMed: 34914943
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_17.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_17.txt.
 There are not annotations for the entity 'SI'
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_17.txt, at line: 1105
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_17.txt, at line: 1105
 No sentences for the event: Alzheimer Disease,association,P.P301L. PubMed: 35628609
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_17.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_17.txt.
 There are not annotations for the entity 'P.P301L'
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_18.txt, at line: 241
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_18.txt, at line: 241
 No sentences for the event: MONOBENZONE,association,8-HYDROXY-2'-DEOXYGUANOSINE. PubMed: 38283796
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_18.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_18.txt.
 There are not annotations for the entity "8-HYDROXY-2'-DEOXYGUANOSINE"
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_18.txt, at line: 497
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_18.txt, at line: 497
 No sentences for the event: N'-NITROSONORNICOTINE,positive_correlation,Cell Transformation Neoplastic. PubMed: 3180033
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_18.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_18.txt.
 There are not annotations for the entity "N'-NITROSONORNICOTINE"
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_18.txt, at line: 502
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_18.txt, at line: 502
 No sentences for the event: N'-NITROSONORNICOTINE,positive_correlation,Oropharyngeal Neoplasms. PubMed: 3679422
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_18.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_18.txt.
 There are not annotations for the entity "N'-NITROSONORNICOTINE"
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_18.txt, at line: 507
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_18.txt, at line: 507
 No sentences for the event: N'-NITROSONORNICOTINE,negative_correlation,ETHANOL. PubMed: 8313517
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_18.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_18.txt.
 There are not annotations for the entity "N'-NITROSONORNICOTINE"
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_18.txt, at line: 509
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_18.txt, at line: 509
 No sentences for the event: N'-NITROSONORNICOTINE,positive_correlation,CARCINOGENESIS. PubMed: 8688157
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_18.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_18.txt.
 There are not annotations for the entity "N'-NITROSONORNICOTINE"
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_18.txt, at line: 517
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_18.txt, at line: 517
 No sentences for the event: N'-NITROSONORNICOTINE,positive_correlation,Lung Diseases. PubMed: 15651850
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_18.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_18.txt.
 There are not annotations for the entity "N'-NITROSONORNICOTINE"
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_18.txt, at line: 713
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_18.txt, at line: 713
 No sentences for the event: Sjogren's Syndrome,association,ICOS. PubMed: 35755031
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_18.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_18.txt.
 There are not annotations for the entity "Sjogren's Syndrome"
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_18.txt, at line: 714
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_18.txt, at line: 714
 No sentences for the event: Sjogren's Syndrome,negative_correlation,CCR9. PubMed: 35755031
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_18.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_18.txt.
 There are not annotations for the entity "Sjogren's Syndrome"
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_18.txt, at line: 716
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_18.txt, at line: 716
 No sentences for the event: Sjogren's Syndrome,association,CCR2. PubMed: 35755031
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_18.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_18.txt.
 There are not annotations for the entity "Sjogren's Syndrome"
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_18.txt, at line: 717
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_18.txt, at line: 717
 No sentences for the event: Sjogren's Syndrome,association,IL21. PubMed: 35755031
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_18.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_18.txt.
 There are not annotations for the entity "Sjogren's Syndrome"
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_18.txt, at line: 719
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_18.txt, at line: 719
 No sentences for the event: Sjogren's Syndrome,association,CCR5. PubMed: 35755031
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_18.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_18.txt.
 There are not annotations for the entity "Sjogren's Syndrome"
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_18.txt, at line: 721
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_18.txt, at line: 721
 No sentences for the event: Sjogren's Syndrome,association,CXCR5. PubMed: 35755031
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_18.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_18.txt.
 There are not annotations for the entity "Sjogren's Syndrome"
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_18.txt, at line: 851
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_18.txt, at line: 851
 No sentences for the event: Neoplasm Metastasis,association,CD46. PubMed: 30203045
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_18.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_18.txt.
 There are not annotations for the entity 'CD46'
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_18.txt, at line: 855
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_18.txt, at line: 855
 No sentences for the event: Neoplasm Metastasis,association,CD55. PubMed: 30203045
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_18.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_18.txt.
 There are not annotations for the entity 'CD55'
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_18.txt, at line: 875
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_18.txt, at line: 875
 No sentences for the event: Neoplasm Metastasis,negative_correlation,IRF4. PubMed: 30203045
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_18.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_18.txt.
 There are not annotations for the entity 'IRF4'
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_18.txt, at line: 879
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_18.txt, at line: 879
 No sentences for the event: Neoplasm Metastasis,association,TLR6. PubMed: 30203045
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_18.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_18.txt.
 There are not annotations for the entity 'TLR6'
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_2.txt, at line: 330
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_2.txt, at line: 330
 No sentences for the event: MAS1L,positive_correlation,ANGPT4. PubMed: 37365840
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_2.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_2.txt.
 There are not annotations for the entity 'ANGPT4'
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_2.txt, at line: 393
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_2.txt, at line: 393
 No sentences for the event: MAS1L,positive_correlation,ANGPTL3. PubMed: 37365840
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_2.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_2.txt.
 There are not annotations for the entity 'ANGPTL3'
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_2.txt, at line: 448
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_2.txt, at line: 448
 No sentences for the event: MAS1L,positive_correlation,ANGPT2. PubMed: 37365840
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_2.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_2.txt.
 There are not annotations for the entity 'ANGPT2'
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_2.txt, at line: 632
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_2.txt, at line: 632
 No sentences for the event: N-bromoacetyl-3 3' 5-triiodothyronine,association,C1QBP. PubMed: 1519445
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_2.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_2.txt.
 There are not annotations for the entity "N-bromoacetyl-3 3' 5-triiodothyronine"
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_2.txt, at line: 635
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_2.txt, at line: 635
 No sentences for the event: C.+DEL,association,ADENOCARCINOMA. PubMed: 3180000
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_2.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_2.txt.
 There are not annotations for the entity 'C.+DEL'
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_2.txt, at line: 753
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_2.txt, at line: 753
 No sentences for the event: N-bromoacetyl-3 3' 5-triiodothyronine,association,CDKN1B. PubMed: 7768329
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_2.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_2.txt.
 There are not annotations for the entity "N-bromoacetyl-3 3' 5-triiodothyronine"
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_3.txt, at line: 290
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_3.txt, at line: 290
 No sentences for the event: Sjogren's Syndrome,positive_correlation,KLRB1. PubMed: 38636371
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_3.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_3.txt.
 There are not annotations for the entity "Sjogren's Syndrome"
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_3.txt, at line: 291
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_3.txt, at line: 291
 No sentences for the event: Sjogren's Syndrome,association,CD4. PubMed: 38636371
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_3.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_3.txt.
 There are not annotations for the entity "Sjogren's Syndrome"
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_3.txt, at line: 471
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_3.txt, at line: 471
 No sentences for the event: #1234#,association,INFLAMMATION. PubMed: 29221851
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_3.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_3.txt.
 There are not annotations for the entity '#1234#'
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_3.txt, at line: 472
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_3.txt, at line: 472
 No sentences for the event: #1234#,positive_correlation,Toxoplasmosis Ocular. PubMed: 29221851
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_3.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_3.txt.
 There are not annotations for the entity '#1234#'
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_3.txt, at line: 762
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_3.txt, at line: 762
 No sentences for the event: C.4T>A,association,Acanthamoeba Keratitis. PubMed: 38329750
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_3.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_3.txt.
 There are not annotations for the entity 'C.4T>A'
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_3.txt, at line: 889
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_3.txt, at line: 889
 No sentences for the event: LIPOPEPTIDES,association,P.L6L. PubMed: 28559889
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_3.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_3.txt.
 There are not annotations for the entity 'P.L6L'
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_3.txt, at line: 890
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_3.txt, at line: 890
 No sentences for the event: LIPOPEPTIDES,association,P.E1L. PubMed: 28559889
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_3.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_3.txt.
 There are not annotations for the entity 'P.E1L'
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_4.txt, at line: 156
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_4.txt, at line: 156
 No sentences for the event: INFECTIONS,association,P.S653K,Q. PubMed: 33031103
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_4.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_4.txt.
 There are not annotations for the entity 'P.S653K,Q'
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_4.txt, at line: 159
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_4.txt, at line: 159
 No sentences for the event: INFECTIONS,association,P.S653A,T. PubMed: 33031103
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_4.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_4.txt.
 There are not annotations for the entity 'P.S653A,T'
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_4.txt, at line: 586
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_4.txt, at line: 586
 No sentences for the event: Sjogren's Syndrome,association,NR4A2. PubMed: 28621822
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_4.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_4.txt.
 There are not annotations for the entity "Sjogren's Syndrome"
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_4.txt, at line: 587
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_4.txt, at line: 587
 No sentences for the event: Sjogren's Syndrome,association,RORC. PubMed: 28621822
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_4.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_4.txt.
 There are not annotations for the entity "Sjogren's Syndrome"
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_4.txt, at line: 590
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_4.txt, at line: 590
 No sentences for the event: Sjogren's Syndrome,association,CD4. PubMed: 28621822
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_4.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_4.txt.
 There are not annotations for the entity "Sjogren's Syndrome"
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_4.txt, at line: 592
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_4.txt, at line: 592
 No sentences for the event: Sjogren's Syndrome,association,IL17A. PubMed: 28621822
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_4.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_4.txt.
 There are not annotations for the entity "Sjogren's Syndrome"
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_5.txt, at line: 290
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_5.txt, at line: 290
 No sentences for the event: #59272#,association,P.A1020I. PubMed: 37200378
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_5.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_5.txt.
 There are not annotations for the entity '#59272#'
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_6.txt, at line: 335
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_6.txt, at line: 335
 No sentences for the event: 2-(4-(2-CARBOXYETHYL)PHENETHYLAMINO)-5'-N-ETHYLCARBOXAMIDOADENOSINE,positive_correlation,IGKV2D-29. PubMed: 31786976
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_6.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_6.txt.
 There are not annotations for the entity "2-(4-(2-CARBOXYETHYL)PHENETHYLAMINO)-5'-N-ETHYLCARBOXAMIDOADENOSINE"
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_6.txt, at line: 377
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_6.txt, at line: 377
 No sentences for the event: Sjogren's Syndrome,association,SSB. PubMed: 20012975
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_6.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_6.txt.
 There are not annotations for the entity "Sjogren's Syndrome"
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_6.txt, at line: 378
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_6.txt, at line: 378
 No sentences for the event: Sjogren's Syndrome,association,TRIM21. PubMed: 20012975
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_6.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_6.txt.
 There are not annotations for the entity "Sjogren's Syndrome"
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_6.txt, at line: 768
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_6.txt, at line: 768
 No sentences for the event: DACLIZUMAB,negative_correlation,Sjogren's Syndrome. PubMed: 35356004
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_6.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_6.txt.
 There are not annotations for the entity "Sjogren's Syndrome"
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_6.txt, at line: 769
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_6.txt, at line: 769
 No sentences for the event: Glatiramer Acetate,negative_correlation,Sjogren's Syndrome. PubMed: 35356004
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_6.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_6.txt.
 There are not annotations for the entity "Sjogren's Syndrome"
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_6.txt, at line: 772
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_6.txt, at line: 772
 No sentences for the event: Sjogren's Syndrome,association,HLA-A. PubMed: 35356004
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_6.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_6.txt.
 There are not annotations for the entity "Sjogren's Syndrome"
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_6.txt, at line: 898
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_6.txt, at line: 898
 No sentences for the event: #4297#,positive_correlation,Virus Diseases. PubMed: 25475418
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_6.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_6.txt.
 There are not annotations for the entity '#4297#'
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_6.txt, at line: 899
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_6.txt, at line: 899
 No sentences for the event: #4297#,positive_correlation,Carcinoma Hepatocellular. PubMed: 25475418
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_6.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_6.txt.
 There are not annotations for the entity '#4297#'
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_6.txt, at line: 902
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_6.txt, at line: 902
 No sentences for the event: CARCINOGENESIS,association,#4297#. PubMed: 25475418
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_6.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_6.txt.
 There are not annotations for the entity '#4297#'
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_6.txt, at line: 910
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_6.txt, at line: 910
 No sentences for the event: Virus Diseases,positive_correlation,#4297#. PubMed: 25475418
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_6.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_6.txt.
 There are not annotations for the entity '#4297#'
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_6.txt, at line: 911
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_6.txt, at line: 911
 No sentences for the event: Carcinoma Hepatocellular,positive_correlation,#4297#. PubMed: 25475418
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_6.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_6.txt.
 There are not annotations for the entity '#4297#'
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_7.txt, at line: 623
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_7.txt, at line: 623
 No sentences for the event: PEMBROLIZUMAB,association,XCL2. PubMed: 34359727
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_7.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_7.txt.
 There are not annotations for the entity 'XCL2'
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_8.txt, at line: 111
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_8.txt, at line: 111
 No sentences for the event: Colorectal Neoplasms,association,#673#. PubMed: 37853469
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_8.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_8.txt.
 There are not annotations for the entity '#673#'
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_8.txt, at line: 690
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_8.txt, at line: 690
 No sentences for the event: (1'R 5R 6R)-3-(4-amino-1 1-dimethyl-butyl)-6-(1'-hydroxyethyl)oxapenem-3-carboxylate,cotreatment,CEFOPERAZONE. PubMed: 12709336
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_8.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_8.txt.
 There are not annotations for the entity "(1'R 5R 6R)-3-(4-amino-1 1-dimethyl-butyl)-6-(1'-hydroxyethyl)oxapenem-3-carboxylate"
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_8.txt, at line: 691
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_8.txt, at line: 691
 No sentences for the event: (1'R 5R 6R)-3-(4-amino-1 1-dimethyl-butyl)-6-(1'-hydroxyethyl)oxapenem-3-carboxylate,cotreatment,CEFTAZIDIME. PubMed: 12709336
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_8.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_8.txt.
 There are not annotations for the entity "(1'R 5R 6R)-3-(4-amino-1 1-dimethyl-butyl)-6-(1'-hydroxyethyl)oxapenem-3-carboxylate"
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_8.txt, at line: 692
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_8.txt, at line: 692
 No sentences for the event: (1'R 5R 6R)-3-(4-amino-1 1-dimethyl-butyl)-6-(1'-hydroxyethyl)oxapenem-3-carboxylate,negative_correlation,AMPC. PubMed: 12709336
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_8.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_8.txt.
 There are not annotations for the entity "(1'R 5R 6R)-3-(4-amino-1 1-dimethyl-butyl)-6-(1'-hydroxyethyl)oxapenem-3-carboxylate"
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_8.txt, at line: 693
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_8.txt, at line: 693
 No sentences for the event: (1'R 5R 6R)-3-(4-amino-1 1-dimethyl-butyl)-6-(1'-hydroxyethyl)oxapenem-3-carboxylate,cotreatment,CEFTRIAXONE. PubMed: 12709336
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_8.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_8.txt.
 There are not annotations for the entity "(1'R 5R 6R)-3-(4-amino-1 1-dimethyl-butyl)-6-(1'-hydroxyethyl)oxapenem-3-carboxylate"
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_8.txt, at line: 694
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_8.txt, at line: 694
 No sentences for the event: (1'R 5R 6R)-3-(4-amino-1 1-dimethyl-butyl)-6-(1'-hydroxyethyl)oxapenem-3-carboxylate,cotreatment,CEFEPIME. PubMed: 12709336
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_8.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_8.txt.
 There are not annotations for the entity "(1'R 5R 6R)-3-(4-amino-1 1-dimethyl-butyl)-6-(1'-hydroxyethyl)oxapenem-3-carboxylate"
 ----------------------------------------
-Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/relations_9.txt, at line: 758
+Error in file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/relations_9.txt, at line: 758
 No sentences for the event: N N'-di-2-pyridinyl-1 4-benzenedimethanamine,negative_correlation,CXCR4. PubMed: 35774848
-Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reported/abstracts/objects_9.txt.
+Please check the objects' file minery/networks/COVID-19/COVID-19-IMMUNOLOGY-I/abstracts/objects_9.txt.
 There are not annotations for the entity "N N'-di-2-pyridinyl-1 4-benzenedimethanamine"
 ----------------------------------------

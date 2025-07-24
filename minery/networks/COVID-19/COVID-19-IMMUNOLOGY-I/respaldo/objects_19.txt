@@ -1,0 +1,736 @@
+38011559 | @GENE_PIKFYVE | Pikfyve | 27 | 7 | Gene | gene | PIKfyve
+38011559 | @DISEASE_Neoplasms | Neoplasms | 92 | 6 | Disease | disease | cancer
+38011559 | @DISEASE_Neoplasms | Neoplasms | 188 | 6 | Disease | disease | cancer
+38011559 | @GENE_PIKFYVE | Pikfyve | 339 | 7 | Gene | gene | PIKfyve
+38011559 | @DISEASE_Neoplasms | Neoplasms | 491 | 6 | Disease | disease | cancer
+38011559 | @DISEASE_Neoplasms | Neoplasms | 557 | 6 | Disease | disease | cancer
+38011559 | @GENE_PIKFYVE | Pikfyve | 652 | 7 | Gene | gene | PIKfyve
+38011559 | @DISEASE_Neoplasms | Neoplasms | 669 | 5 | Disease | disease | tumor
+38011559 | @DISEASE_Neoplasms | Neoplasms | 769 | 5 | Disease | disease | tumor
+38011559 | @GENE_PIKFYVE | Pikfyve | 868 | 7 | Gene | gene | Pikfyve
+38011559 | @GENE_B2M | B2m | 953 | 3 | Gene | gene | B2m
+38011559 | @DISEASE_Neoplasms | Neoplasms | 974 | 5 | Disease | disease | tumor
+38011559 | @GENE_PIKFYVE | Pikfyve | 1001 | 7 | Gene | gene | PIKfyve
+38011559 | @GENE_PIKFYVE | PIKFYVE | 1144 | 7 | Gene | gene | PIKFYVE
+38011559 | @GENE_PIKFYVE | PIKFYVE | 1299 | 7 | Gene | gene | PIKfyve
+38011559 | @DISEASE_Neoplasms | Neoplasms | 1376 | 6 | Disease | disease | cancer
+38011559 | @GENE_PIKFYVE | PIKFYVE | 1394 | 7 | Gene | gene | PIKfyve
+38011559 | @DISEASE_Neoplasms | Neoplasms | 1476 | 6 | Disease | disease | cancer
+38013161 | @DISEASE_Mucus_Inspissation_of_Respiratory_Tract | Mucus Inspissation of Respiratory Tract | 14 | 11 | Disease | disease | mucus plugs
+38013161 | @DISEASE_Pulmonary_Disease_Chronic_Obstructive | Pulmonary Disease Chronic Obstructive | 29 | 4 | Disease | disease | COPD
+38013161 | @DISEASE_Mucus_Inspissation_of_Respiratory_Tract | Mucus Inspissation of Respiratory Tract | 80 | 11 | Disease | disease | mucus plugs
+38013161 | @DISEASE_Pulmonary_Disease_Chronic_Obstructive | Pulmonary Disease Chronic Obstructive | 169 | 4 | Disease | disease | COPD
+38013161 | @DISEASE_Mucus_Inspissation_of_Respiratory_Tract | Mucus Inspissation of Respiratory Tract | 205 | 5 | Disease | disease | mucus
+38013161 | @DISEASE_Cough | Cough | 235 | 5 | Disease | disease | cough
+38013161 | @DISEASE_Mucus_Inspissation_of_Respiratory_Tract | Mucus Inspissation of Respiratory Tract | 261 | 11 | Disease | disease | mucus plugs
+38013161 | @DISEASE_Pulmonary_Disease_Chronic_Obstructive | Pulmonary Disease Chronic Obstructive | 313 | 4 | Disease | disease | COPD
+38013161 | @DISEASE_Mucus_Inspissation_of_Respiratory_Tract | Mucus Inspissation of Respiratory Tract | 386 | 11 | Disease | disease | mucus plugs
+38013161 | @DISEASE_Mucus_Inspissation_of_Respiratory_Tract | Mucus Inspissation of Respiratory Tract | 410 | 11 | Disease | disease | mucus plugs
+38013161 | @DISEASE_Mucus_Inspissation_of_Respiratory_Tract | Mucus Inspissation of Respiratory Tract | 536 | 11 | Disease | disease | mucus plugs
+38013161 | @DISEASE_Pulmonary_Disease_Chronic_Obstructive | Pulmonary Disease Chronic Obstructive | 587 | 4 | Disease | disease | COPD
+38013161 | @DISEASE_Mucus_Inspissation_of_Respiratory_Tract | Mucus Inspissation of Respiratory Tract | 621 | 5 | Disease | disease | mucus
+38013161 | @DISEASE_Mucus_Inspissation_of_Respiratory_Tract | Mucus Inspissation of Respiratory Tract | 691 | 11 | Disease | disease | mucus plugs
+38013161 | @DISEASE_Mucus_Inspissation_of_Respiratory_Tract | Mucus Inspissation of Respiratory Tract | 831 | 11 | Disease | disease | mucus plugs
+38013161 | @DISEASE_Mucus_Inspissation_of_Respiratory_Tract | Mucus Inspissation of Respiratory Tract | 874 | 11 | Disease | disease | mucus plugs
+38013161 | @DISEASE_Pulmonary_Disease_Chronic_Obstructive | Pulmonary Disease Chronic Obstructive | 1015 | 4 | Disease | disease | COPD
+38013161 | @DISEASE_Cough | Cough | 1034 | 5 | Disease | disease | cough
+38013161 | @DISEASE_Mucus_Inspissation_of_Respiratory_Tract | Mucus Inspissation of Respiratory Tract | 1102 | 11 | Disease | disease | mucus plugs
+38013161 | @DISEASE_Mucus_Inspissation_of_Respiratory_Tract | Mucus Inspissation of Respiratory Tract | 1155 | 11 | Disease | disease | mucus plugs
+38013161 | @DISEASE_Mucus_Inspissation_of_Respiratory_Tract | Mucus Inspissation of Respiratory Tract | 1192 | 11 | Disease | disease | mucus plugs
+38013161 | @DISEASE_Cough | Cough | 1333 | 5 | Disease | disease | cough
+38013161 | @DISEASE_Mucus_Inspissation_of_Respiratory_Tract | Mucus Inspissation of Respiratory Tract | 1357 | 11 | Disease | disease | mucus plugs
+38013161 | @DISEASE_Mucus_Inspissation_of_Respiratory_Tract | Mucus Inspissation of Respiratory Tract | 1385 | 11 | Disease | disease | mucus plugs
+38013161 | @DISEASE_Emphysema | Emphysema | 1471 | 9 | Disease | disease | emphysema
+38013161 | @DISEASE_Mucus_Inspissation_of_Respiratory_Tract | Mucus Inspissation of Respiratory Tract | 1596 | 11 | Disease | disease | Mucus plugs
+38013161 | @DISEASE_Pulmonary_Disease_Chronic_Obstructive | Pulmonary Disease Chronic Obstructive | 1622 | 4 | Disease | disease | COPD
+38013161 | @DISEASE_Mucus_Inspissation_of_Respiratory_Tract | Mucus Inspissation of Respiratory Tract | 1675 | 11 | Disease | disease | mucus plugs
+38013161 | @DISEASE_Mucus_Inspissation_of_Respiratory_Tract | Mucus Inspissation of Respiratory Tract | 1784 | 11 | Disease | disease | mucus plugs
+38013161 | @DISEASE_Pulmonary_Disease_Chronic_Obstructive | Pulmonary Disease Chronic Obstructive | 1843 | 4 | Disease | disease | COPD
+38023788 | @DISEASE_Neoplasms | Neoplasms | 14 | 6 | Disease | disease | Cancer
+38023788 | @DISEASE_Neoplasms | Neoplasms | 56 | 6 | Disease | disease | Cancer
+38023788 | @DISEASE_Neoplasms | Neoplasms | 222 | 6 | Disease | disease | cancer
+38023788 | @DISEASE_Neoplasms | Neoplasms | 297 | 5 | Disease | disease | tumor
+38023788 | @DISEASE_Neoplasms | Neoplasms | 422 | 6 | Disease | disease | cancer
+38023788 | @DISEASE_Neoplasms | Neoplasms | 440 | 5 | Disease | disease | tumor
+38023788 | @DISEASE_Neoplasms | Neoplasms | 472 | 5 | Disease | disease | tumor
+38023788 | @GENE_SPI1 | SPI1 | 559 | 4 | Gene | gene | PU.1
+38023788 | @GENE_IRF8 | IRF8 | 565 | 4 | Gene | gene | IRF8
+38023788 | @GENE_BATF3 | BATF3 | 575 | 5 | Gene | gene | BATF3
+38023788 | @DISEASE_Neoplasms | Neoplasms | 615 | 5 | Disease | disease | Tumor
+38023788 | @DISEASE_Neoplasms | Neoplasms | 763 | 5 | Disease | disease | Tumor
+38023788 | @GENE_PTPRC | Ptprc | 807 | 4 | Gene | gene | CD45
+38023788 | @DISEASE_Neoplasms | Neoplasms | 1042 | 5 | Disease | disease | tumor
+38023788 | @GENE_CD8A | CD8A | 1079 | 3 | Gene | gene | CD8
+38023788 | @GENE_CD4 | CD4 | 1088 | 3 | Gene | gene | CD4
+38023788 | @DISEASE_Neoplasms | Neoplasms | 1169 | 5 | Disease | disease | tumor
+38023788 | @DISEASE_Neoplasms | Neoplasms | 1198 | 5 | Disease | disease | tumor
+38023788 | @DISEASE_Neoplasms | Neoplasms | 1292 | 5 | Disease | disease | tumor
+38023788 | @DISEASE_Neoplasms | Neoplasms | 1355 | 6 | Disease | disease | cancer
+38023788 | @DISEASE_Neoplasms | Neoplasms | 1487 | 6 | Disease | disease | cancer
+38023788 | @DISEASE_Neoplasms | Neoplasms | 1543 | 5 | Disease | disease | tumor
+38023788 | @DISEASE_Neoplasms | Neoplasms | 1662 | 6 | Disease | disease | cancer
+38023788 | @DISEASE_Neoplasms | Neoplasms | 1877 | 5 | Disease | disease | tumor
+38049662 | @DISEASE_Inflammation | Inflammation | 858 | 12 | Disease | disease | inflammatory
+38049662 | @DISEASE_Metabolic_Syndrome | Metabolic Syndrome | 948 | 23 | Disease | disease | cardiometabolic disease
+38049662 | @DISEASE_Renal_Insufficiency_Chronic | Renal Insufficiency Chronic | 1044 | 22 | Disease | disease | chronic kidney disease
+38049662 | @DISEASE_Diabetes_Mellitus_Type_2 | Diabetes Mellitus Type 2 | 1070 | 15 | Disease | disease | type 2 diabetes
+38131058 | @DISEASE_Sleep_Initiation_and_Maintenance_Disorders | Sleep Initiation and Maintenance Disorders | 42 | 16 | Disease | disease | chronic insomnia
+38131058 | @DISEASE_Sleep_Initiation_and_Maintenance_Disorders | Sleep Initiation and Maintenance Disorders | 124 | 16 | Disease | disease | Chronic insomnia
+38131058 | @DISEASE_Sleep_Initiation_and_Maintenance_Disorders | Sleep Initiation and Maintenance Disorders | 1021 | 8 | Disease | disease | insomnia
+38131058 | @DISEASE_Sleep_Initiation_and_Maintenance_Disorders | Sleep Initiation and Maintenance Disorders | 1215 | 8 | Disease | disease | insomnia
+38131058 | @CHEMICAL_Benzodiazepines | Benzodiazepines | 1261 | 15 | Chemical | chemical | Benzodiazepines
+38131058 | @DISEASE_Sleep_Initiation_and_Maintenance_Disorders | Sleep Initiation and Maintenance Disorders | 1446 | 16 | Disease | disease | chronic insomnia
+38131058 | @DISEASE_Substance_Related_Disorders | Substance-Related Disorders | 1578 | 9 | Disease | disease | addiction
+38131058 | @DISEASE_Depressive_Disorder | Depressive Disorder | 1593 | 10 | Disease | disease | depression
+38131058 | @DISEASE_Amnesia | Amnesia | 1609 | 7 | Disease | disease | amnesia
+38170159 | @GENE_IRF4 | Irf4 | 0 | 30 | Gene | gene | Interferon regulatory factor 4
+38170159 | @DISEASE_Graft_vs_Host_Disease | Graft vs Host Disease | 74 | 5 | Disease | disease | aGVHD
+38170159 | @DISEASE_Colitis | Colitis | 91 | 7 | Disease | disease | colitis
+38170159 | @GENE_IRF4 | IRF4 | 100 | 30 | Gene | gene | Interferon regulatory factor 4
+38170159 | @GENE_IRF4 | IRF4 | 132 | 4 | Gene | gene | IRF4
+38170159 | @GENE_BATF | Batf | 297 | 4 | Gene | gene | BATF
+38170159 | @GENE_CD4 | Cd4 | 326 | 3 | Gene | gene | CD4
+38170159 | @DISEASE_Graft_vs_Host_Disease | Graft vs Host Disease | 349 | 31 | Disease | disease | acute graft-versus-host disease
+38170159 | @DISEASE_Graft_vs_Host_Disease | Graft vs Host Disease | 382 | 5 | Disease | disease | aGVHD
+38170159 | @DISEASE_Colitis | Colitis | 397 | 7 | Disease | disease | colitis
+38170159 | @GENE_IRF4 | Irf4 | 458 | 4 | Gene | gene | Irf4
+38170159 | @GENE_IRF4 | Irf4 | 565 | 4 | Gene | gene | Irf4
+38170159 | @GENE_CD4 | Cd4 | 573 | 3 | Gene | gene | CD4
+38170159 | @GENE_IRF4 | Irf4 | 668 | 4 | Gene | gene | Irf4
+38170159 | @GENE_CD4 | Cd4 | 676 | 3 | Gene | gene | CD4
+38170159 | @GENE_BACH2 | Bach2 | 953 | 21 | Gene | gene | BTB and CNC homolog 2
+38170159 | @GENE_IRF4 | Irf4 | 987 | 4 | Gene | gene | Irf4
+38170159 | @GENE_IRF4 | Irf4 | 1251 | 4 | Gene | gene | IRF4
+38170159 | @GENE_IRF4 | Irf4 | 1381 | 4 | Gene | gene | IRF4
+38196838 | @DISEASE_Leishmaniasis_Visceral | Leishmaniasis Visceral | 76 | 22 | Disease | disease | Visceral leishmaniasis
+38196838 | @DISEASE_Leishmaniasis_Visceral | Leishmaniasis Visceral | 132 | 22 | Disease | disease | Visceral Leishmaniasis
+38196838 | @DISEASE_Leishmaniasis_Visceral | Leishmaniasis Visceral | 156 | 2 | Disease | disease | VL
+38196838 | @DISEASE_Neglected_Diseases | Neglected Diseases | 165 | 26 | Disease | disease | neglected tropical disease
+38196838 | @DISEASE_Leishmaniasis_Visceral | Leishmaniasis Visceral | 389 | 2 | Disease | disease | VL
+38196838 | @DISEASE_Leishmaniasis_Visceral | Leishmaniasis Visceral | 427 | 39 | Disease | disease | post kala azar dermatitis leishmaniasis
+38196838 | @DISEASE_Leishmaniasis_Visceral | Leishmaniasis Visceral | 468 | 4 | Disease | disease | PKDL
+38196838 | @DISEASE_HIV_Infections | HIV Infections | 478 | 18 | Disease | disease | HIV-VL co-infected
+38196838 | @DISEASE_Drug_Related_Side_Effects_and_Adverse_Reactions | Drug-Related Side Effects and Adverse Reactions | 1328 | 8 | Disease | disease | toxicity
+38196838 | @GENE_TLR4 | TLR4 | 1524 | 5 | Gene | gene | TLR-4
+38196838 | @DISEASE_Leishmaniasis_Visceral | Leishmaniasis Visceral | 2307 | 2 | Disease | disease | VL
+38415261 | @DISEASE_Neoplasms | Neoplasms | 947 | 6 | Disease | disease | cancer
+38415261 | @GENE_APP | APP | 996 | 9 | Gene | gene | alphabeta
+38415261 | @GENE_APP | APP | 1231 | 9 | Gene | gene | alphabeta
+38570827 | @GENE_THY1 | Thy1 | 17 | 5 | Gene | gene | Thy-1
+38570827 | @DISEASE_Lymphoma | Lymphoma | 56 | 8 | Disease | disease | lymphoma
+38570827 | @DISEASE_Leukemia | Leukemia | 65 | 8 | Disease | disease | leukemia
+38570827 | @GENE_ITGAM | Itgam | 98 | 5 | Gene | gene | CD11b
+38570827 | @GENE_HAMP2 | Hamp2 | 108 | 5 | Gene | gene | Hamp2
+38570827 | @GENE_TCL1A | TCL1A | 134 | 4 | Gene | gene | TCL1
+38570827 | @DISEASE_Leukemia_Lymphocytic_Chronic_B_Cell | Leukemia Lymphocytic Chronic B-Cell | 181 | 28 | Disease | disease | chronic lymphocytic leukemia
+38570827 | @GENE_TCL1A | TCL1A | 224 | 4 | Gene | gene | TCL1
+38570827 | @GENE_ZAP70 | ZAP70 | 229 | 5 | Gene | gene | ZAP70
+38570827 | @GENE_CD5 | CD5 | 235 | 3 | Gene | gene | CD5
+38570827 | @GENE_CD5 | CD5 | 255 | 3 | Gene | gene | CD5
+38570827 | @GENE_BCR | BCR | 269 | 3 | Gene | gene | BCR
+38570827 | @GENE_ZAP70 | Zap70 | 294 | 5 | Gene | gene | ZAP70
+38570827 | @DISEASE_Leukemia_Lymphocytic_Chronic_B_Cell | Leukemia Lymphocytic Chronic B-Cell | 313 | 5 | Disease | disease | U-CLL
+38570827 | @GENE_TCL1A | TCL1A | 328 | 4 | Gene | gene | TCL1
+38570827 | @GENE_TCL1 | Tcl1 | 350 | 4 | Gene | gene | TCL1
+38570827 | @GENE_TCL1 | Tcl1 | 356 | 5 | Gene | gene | TCL1A
+38570827 | @DISEASE_275350 | 275350 | 408 | 2 | Disease | disease | TC
+38570827 | @GENE_THY1 | Thy1 | 449 | 5 | Gene | gene | Thy-1
+38570827 | @GENE_CD5 | Cd5 | 557 | 3 | Gene | gene | CD5
+38570827 | @GENE_CD5 | Cd5 | 601 | 3 | Gene | gene | CD5
+38570827 | @GENE_CD5 | Cd5 | 634 | 3 | Gene | gene | CD5
+38570827 | @DISEASE_Leukemia_Lymphocytic_Chronic_B_Cell | Leukemia Lymphocytic Chronic B-Cell | 655 | 12 | Disease | disease | CLL/lymphoma
+38570827 | @GENE_ITGAM | Itgam | 694 | 5 | Gene | gene | CD11b
+38570827 | @DISEASE_275350 | 275350 | 703 | 2 | Disease | disease | TC
+38570827 | @GENE_ZAP70 | Zap70 | 706 | 5 | Gene | gene | ZAP70
+38570827 | @GENE_CD5 | Cd5 | 712 | 3 | Gene | gene | CD5
+38570827 | @DISEASE_275350 | 275350 | 720 | 2 | Disease | disease | TC
+38570827 | @GENE_ZAP70 | Zap70 | 723 | 5 | Gene | gene | ZAP70
+38570827 | @GENE_CD5 | Cd5 | 729 | 3 | Gene | gene | CD5
+38570827 | @DISEASE_Leukemia_Lymphocytic_Chronic_B_Cell | Leukemia Lymphocytic Chronic B-Cell | 810 | 3 | Disease | disease | CLL
+38570827 | @DISEASE_Leukemia_Lymphocytic_Chronic_B_Cell | Leukemia Lymphocytic Chronic B-Cell | 818 | 5 | Disease | disease | U-CLL
+38570827 | @GENE_ZAP70 | Zap70 | 832 | 5 | Gene | gene | ZAP70
+38570827 | @GENE_CD5 | Cd5 | 838 | 3 | Gene | gene | CD5
+38570827 | @DISEASE_Leukemia_Lymphocytic_Chronic_B_Cell | Leukemia Lymphocytic Chronic B-Cell | 876 | 5 | Disease | disease | U-CLL
+38570827 | @DISEASE_Neoplasms | Neoplasms | 975 | 5 | Disease | disease | tumor
+38570827 | @GENE_TBX21 | TBX21 | 995 | 5 | Gene | gene | T-bet
+38570827 | @GENE_ITGAX | ITGAX | 1001 | 5 | Gene | gene | CD11c
+38570827 | @DISEASE_Leukemia_Lymphocytic_Chronic_B_Cell | Leukemia Lymphocytic Chronic B-Cell | 1135 | 3 | Disease | disease | CLL
+38570827 | @DISEASE_Leukemia_B_Cell | Leukemia B-Cell | 1157 | 16 | Disease | disease | ATA B cell tumor
+38570827 | @GENE_CD38 | CD38 | 1180 | 4 | Gene | gene | CD38
+38570827 | @GENE_CD44 | CD44 | 1186 | 4 | Gene | gene | CD44
+38570827 | @GENE_AICDA | AICDA | 1210 | 3 | Gene | gene | AID
+38570827 | @GENE_CD180 | CD180 | 1230 | 5 | Gene | gene | CD180
+38570827 | @DISEASE_Leukemia_Lymphocytic_Chronic_B_Cell | Leukemia Lymphocytic Chronic B-Cell | 1262 | 5 | Disease | disease | U-CLL
+38570827 | @GENE_WNT10B | Wnt10b | 1314 | 6 | Gene | gene | Wnt10b
+38570827 | @DISEASE_275350 | 275350 | 1322 | 2 | Disease | disease | TC
+38570827 | @DISEASE_Neoplasms | Neoplasms | 1381 | 5 | Disease | disease | tumor
+38570827 | @DISEASE_275350 | 275350 | 1390 | 2 | Disease | disease | TC
+38570827 | @GENE_ZAP70 | Zap70 | 1393 | 5 | Gene | gene | ZAP70
+38570827 | @GENE_CD5 | Cd5 | 1399 | 3 | Gene | gene | CD5
+38570827 | @DISEASE_275350 | 275350 | 1407 | 2 | Disease | disease | TC
+38570827 | @GENE_ZAP70 | Zap70 | 1410 | 5 | Gene | gene | ZAP70
+38570827 | @GENE_CD5 | Cd5 | 1416 | 3 | Gene | gene | CD5
+38570827 | @GENE_NFKB1 | Nfkb1 | 1432 | 6 | Gene | gene | NF-kB1
+38570827 | @GENE_ITGAM | Itgam | 1477 | 5 | Gene | gene | CD11b
+38570827 | @DISEASE_Leukemia_Lymphocytic_Chronic_B_Cell | Leukemia Lymphocytic Chronic B-Cell | 1548 | 12 | Disease | disease | CLL/lymphoma
+38570827 | @GENE_ZAP70 | Zap70 | 1640 | 5 | Gene | gene | ZAP70
+38570827 | @DISEASE_Ataxia_Telangiectasia | Ataxia Telangiectasia | 1678 | 11 | Disease | disease | ATA B tumor
+38570827 | @DISEASE_Neoplasms | Neoplasms | 1715 | 5 | Disease | disease | tumor
+38570827 | @DISEASE_Leukemia_Lymphocytic_Chronic_B_Cell | Leukemia Lymphocytic Chronic B-Cell | 1753 | 3 | Disease | disease | CLL
+38570827 | @GENE_ITGAM | Itgam | 1777 | 5 | Gene | gene | CD11b
+38570827 | @GENE_CD22 | Cd22 | 1783 | 4 | Gene | gene | CD22
+38570827 | @GENE_CD24A | Cd24a | 1791 | 4 | Gene | gene | CD24
+38570827 | @GENE_HAMP | Hamp | 1806 | 8 | Gene | gene | hepcidin
+38570827 | @GENE_HAMP2 | Hamp2 | 1815 | 5 | Gene | gene | Hamp2
+38570827 | @CHEMICAL_Iron | Iron | 1828 | 4 | Chemical | chemical | iron
+38570827 | @DISEASE_Neoplasms | Neoplasms | 1903 | 7 | Disease | disease | cancers
+38570827 | @GENE_HAMP | Hamp | 1950 | 8 | Gene | gene | hepcidin
+38570827 | @GENE_HAMP | Hamp | 1983 | 8 | Gene | gene | hepcidin
+38570827 | @CHEMICAL_Iron | Iron | 1993 | 4 | Chemical | chemical | iron
+38570827 | @DISEASE_Neoplasms | Neoplasms | 2004 | 5 | Disease | disease | tumor
+38570827 | @DISEASE_Colonic_Neoplasms | Colonic Neoplasms | 2138 | 11 | Disease | disease | colon tumor
+38570827 | @DISEASE_Neoplasms | Neoplasms | 2209 | 5 | Disease | disease | tumor
+38570827 | @GENE_ITGAM | Itgam | 2230 | 5 | Gene | gene | CD11b
+38570827 | @DISEASE_Leukemia | Leukemia | 2244 | 8 | Disease | disease | leukemia
+38570827 | @DISEASE_Leukemia_Lymphocytic_Chronic_B_Cell | Leukemia Lymphocytic Chronic B-Cell | 2253 | 3 | Disease | disease | CLL
+38570827 | @DISEASE_Neoplasms | Neoplasms | 2271 | 15 | Disease | disease | lymphoma cancer
+38570827 | @GENE_HAMP | Hamp | 2292 | 8 | Gene | gene | hepcidin
+38570827 | @GENE_HAMP2 | Hamp2 | 2309 | 5 | Gene | gene | Hamp2
+38570827 | @CHEMICAL_Iron | Iron | 2351 | 4 | Chemical | chemical | iron
+38576241 | @GENE_BMP2 | Bmp2 | 68 | 5 | Gene | gene | BMP-2
+38576241 | @GENE_CXCR4 | Cxcr4 | 78 | 5 | Gene | gene | CXCR4
+38576241 | @DISEASE_Osteoporosis | Osteoporosis | 98 | 12 | Disease | disease | osteoporosis
+38576241 | @DISEASE_Osteoporosis | Osteoporosis | 112 | 12 | Disease | disease | Osteoporosis
+38576241 | @DISEASE_Osteoporosis | Osteoporosis | 126 | 2 | Disease | disease | OP
+38576241 | @DISEASE_Bone_Diseases | Bone Diseases | 146 | 12 | Disease | disease | bone disease
+38576241 | @DISEASE_Osteoporosis | Osteoporosis | 253 | 2 | Disease | disease | OP
+38576241 | @DISEASE_Drug_Related_Side_Effects_and_Adverse_Reactions | Drug-Related Side Effects and Adverse Reactions | 291 | 8 | Disease | disease | toxicity
+38576241 | @DISEASE_Osteoporosis | Osteoporosis | 438 | 2 | Disease | disease | OP
+38576241 | @GENE_BMP2 | Bmp2 | 529 | 5 | Gene | gene | BMP-2
+38576241 | @GENE_CXCR4 | Cxcr4 | 535 | 5 | Gene | gene | CXCR4
+38576241 | @GENE_BMP2 | Bmp2 | 552 | 5 | Gene | gene | BMP-2
+38576241 | @GENE_CXCR4 | Cxcr4 | 558 | 5 | Gene | gene | CXCR4
+38576241 | @GENE_BMP2 | Bmp2 | 575 | 5 | Gene | gene | BMP-2
+38576241 | @GENE_CXCR4 | Cxcr4 | 585 | 5 | Gene | gene | CXCR4
+38576241 | @GENE_BMP2 | Bmp2 | 694 | 5 | Gene | gene | BMP-2
+38576241 | @GENE_CXCR4 | Cxcr4 | 700 | 5 | Gene | gene | CXCR4
+38576241 | @DISEASE_Osteoporosis | Osteoporosis | 720 | 2 | Disease | disease | OP
+38576241 | @DISEASE_Osteoporosis | Osteoporosis | 986 | 2 | Disease | disease | OP
+38576241 | @DISEASE_Osteoporosis | Osteoporosis | 1187 | 2 | Disease | disease | OP
+38630814 | @GENE_CXCR4 | CXCR4 | 790 | 5 | Gene | gene | CXCR4
+38630814 | @DISEASE_Brain_Ischemia | Brain Ischemia | 838 | 17 | Disease | disease | cerebral ischemia
+38630814 | @DISEASE_Infarction | Infarction | 885 | 7 | Disease | disease | infarct
+38631668 | @CHEMICAL_baohuoside_I | baohuoside I | 0 | 12 | Chemical | chemical | Icariside II
+38631668 | @CHEMICAL_Lipopolysaccharides | Lipopolysaccharides | 24 | 18 | Chemical | chemical | lipopolysaccharide
+38631668 | @DISEASE_Acute_Lung_Injury | Acute Lung Injury | 51 | 17 | Disease | disease | acute lung injury
+38631668 | @DISEASE_Neoplasms_Glandular_and_Epithelial | Neoplasms Glandular and Epithelial | 83 | 15 | Disease | disease | lung epithelial
+38631668 | @DISEASE_Inflammation | Inflammation | 99 | 12 | Disease | disease | inflammatory
+38631668 | @DISEASE_Acute_Lung_Injury | Acute Lung Injury | 183 | 17 | Disease | disease | Acute lung injury
+38631668 | @DISEASE_Acute_Lung_Injury | Acute Lung Injury | 202 | 3 | Disease | disease | ALI
+38631668 | @DISEASE_Lung_Diseases | Lung Diseases | 229 | 12 | Disease | disease | lung disease
+38631668 | @DISEASE_Inflammation | Inflammation | 259 | 12 | Disease | disease | inflammatory
+38631668 | @DISEASE_Neoplasms_Glandular_and_Epithelial | Neoplasms Glandular and Epithelial | 294 | 15 | Disease | disease | lung epithelial
+38631668 | @CHEMICAL_baohuoside_I | baohuoside I | 318 | 12 | Chemical | chemical | Icariside II
+38631668 | @CHEMICAL_baohuoside_I | baohuoside I | 332 | 6 | Chemical | chemical | ICS II
+38631668 | @DISEASE_Inflammation | Inflammation | 409 | 12 | Disease | disease | inflammatory
+38631668 | @CHEMICAL_baohuoside_I | baohuoside I | 489 | 6 | Chemical | chemical | ICS II
+38631668 | @DISEASE_Acute_Lung_Injury | Acute Lung Injury | 499 | 3 | Disease | disease | ALI
+38631668 | @CHEMICAL_baohuoside_I | baohuoside I | 626 | 6 | Chemical | chemical | ICS II
+38631668 | @DISEASE_Acute_Lung_Injury | Acute Lung Injury | 636 | 3 | Disease | disease | ALI
+38631668 | @CHEMICAL_Lipopolysaccharides | Lipopolysaccharides | 728 | 18 | Chemical | chemical | lipopolysaccharide
+38631668 | @CHEMICAL_Lipopolysaccharides | Lipopolysaccharides | 748 | 3 | Chemical | chemical | LPS
+38631668 | @DISEASE_Acute_Lung_Injury | Acute Lung Injury | 761 | 3 | Disease | disease | ALI
+38631668 | @CHEMICAL_baohuoside_I | baohuoside I | 963 | 6 | Chemical | chemical | ICS II
+38631668 | @DISEASE_Lung_Diseases | Lung Diseases | 992 | 29 | Disease | disease | lung histopathological damage
+38631668 | @DISEASE_Edema | Edema | 1023 | 5 | Disease | disease | edema
+38631668 | @DISEASE_Inflammation | Inflammation | 1034 | 12 | Disease | disease | inflammatory
+38631668 | @DISEASE_Inflammation | Inflammation | 1085 | 12 | Disease | disease | inflammatory
+38631668 | @DISEASE_Acute_Lung_Injury | Acute Lung Injury | 1111 | 3 | Disease | disease | ALI
+38631668 | @DISEASE_Acute_Lung_Injury | Acute Lung Injury | 1211 | 3 | Disease | disease | ALI
+38631668 | @CHEMICAL_baohuoside_I | baohuoside I | 1266 | 6 | Chemical | chemical | ICS II
+38631668 | @CHEMICAL_baohuoside_I | baohuoside I | 1314 | 6 | Chemical | chemical | ICS II
+38631668 | @GENE_CXCR4 | CXCR4 | 1374 | 31 | Gene | gene | C-X-C chemokine receptor type 4
+38631668 | @GENE_CXCR4 | CXCR4 | 1407 | 5 | Gene | gene | CXCR4
+38631668 | @CHEMICAL_baohuoside_I | baohuoside I | 1440 | 6 | Chemical | chemical | ICS II
+38631668 | @GENE_CGAS | Cgas | 1530 | 4 | Gene | gene | cGAS
+38631668 | @GENE_TMEM173 | Tmem173 | 1535 | 5 | Gene | gene | STING
+38631668 | @GENE_NFKB1 | Nfkb1 | 1541 | 9 | Gene | gene | NF-kappaB
+38631668 | @DISEASE_Inflammation | Inflammation | 1585 | 12 | Disease | disease | inflammatory
+38631668 | @DISEASE_Neoplasms_Glandular_and_Epithelial | Neoplasms Glandular and Epithelial | 1619 | 15 | Disease | disease | lung epithelial
+38631668 | @CHEMICAL_baohuoside_I | baohuoside I | 1682 | 6 | Chemical | chemical | ICS II
+38631668 | @CHEMICAL_Lipopolysaccharides | Lipopolysaccharides | 1703 | 3 | Chemical | chemical | LPS
+38631668 | @DISEASE_Acute_Lung_Injury | Acute Lung Injury | 1715 | 3 | Disease | disease | ALI
+38631668 | @DISEASE_Inflammation | Inflammation | 1737 | 12 | Disease | disease | inflammatory
+38631668 | @DISEASE_Acute_Lung_Injury | Acute Lung Injury | 1812 | 3 | Disease | disease | ALI
+8799160 | @GENE_IFNG | Ifng | 351 | 16 | Gene | gene | interferon gamma
+8799160 | @GENE_PSMB9 | Psmb9 | 395 | 38 | Gene | gene | low molecular mass polypeptide (LMP) 2
+8799160 | @GENE_PSMB8 | Psmb8 | 438 | 4 | Gene | gene | LMP7
+8799160 | @GENE_PSMB10 | PSMB10 | 452 | 5 | Gene | gene | MECL1
+8799160 | @GENE_PSMB7 | Psmb7 | 853 | 5 | Gene | gene | Psmb7
+8799160 | @GENE_PSMB7 | Psmb7 | 957 | 5 | Gene | gene | Psmb7
+9300697 | @GENE_IFNG | Ifng | 99 | 9 | Gene | gene | IFN-gamma
+9300697 | @GENE_IFNG | Ifng | 337 | 9 | Gene | gene | IFN-gamma
+9300697 | @GENE_HLA_C | HLA-C | 352 | 3 | Gene | gene | MHC
+9300697 | @GENE_PSMB9 | Psmb9 | 374 | 20 | Gene | gene | low Mr polypeptide 2
+9300697 | @GENE_PSMB9 | Psmb9 | 396 | 4 | Gene | gene | LMP2
+9300697 | @GENE_PSMB8 | Psmb8 | 406 | 4 | Gene | gene | LMP7
+9300697 | @GENE_PSMB9 | Psmb9 | 576 | 4 | Gene | gene | LMP2
+9300697 | @GENE_PSMB8 | Psmb8 | 587 | 4 | Gene | gene | LMP7
+9300697 | @GENE_PSMB10 | Psmb10 | 681 | 11 | Gene | gene | MECL1 and Z
+9300697 | @GENE_PSMB10 | Psmb10 | 828 | 6 | Gene | gene | Psmb10
+9300697 | @GENE_PSMB7 | Psmb7 | 839 | 5 | Gene | gene | Psmb7
+9300697 | @GENE_PSMB10 | Psmb10 | 862 | 11 | Gene | gene | MECL1 and Z
+9300697 | @GENE_PSMB10 | Psmb10 | 1078 | 6 | Gene | gene | Psmb10
+9300697 | @GENE_PSMB7 | Psmb7 | 1089 | 5 | Gene | gene | Psmb7
+9300697 | @GENE_IFNG | Ifng | 1165 | 10 | Gene | gene | IFN-gamma-
+9300697 | @GENE_PSMB10 | Psmb10 | 1258 | 6 | Gene | gene | Psmb10
+9300697 | @GENE_PSMB7 | Psmb7 | 1269 | 5 | Gene | gene | Psmb7
+9300697 | @GENE_PSMB10 | Psmb10 | 1358 | 6 | Gene | gene | Psmb10
+9300697 | @GENE_PSMB10 | Psmb10 | 1493 | 6 | Gene | gene | Psmb10
+9300697 | @GENE_HLA_C | HLA-C | 1544 | 3 | Gene | gene | MHC
+9300697 | @GENE_PSMB7 | Psmb7 | 1588 | 5 | Gene | gene | Psmb7
+9300697 | @GENE_PSMB7_PS1 | Psmb7-ps1 | 1679 | 8 | Gene | gene | Psmb7-ps
+9311996 | @GENE_PSMA4 | Psma4 | 352 | 5 | Gene | gene | PSMA4
+9311996 | @GENE_PSMA3 | Psma3 | 478 | 5 | Gene | gene | PSMA3
+9311996 | @GENE_PSMB9 | Psmb9 | 493 | 5 | Gene | gene | PSMB9
+9311996 | @GENE_PSMB9 | Psmb9 | 500 | 4 | Gene | gene | LMP2
+9311996 | @GENE_PSMB2 | Psmb2 | 1093 | 5 | Gene | gene | PSMB2
+9311996 | @GENE_PSMB3 | Psmb3 | 1107 | 5 | Gene | gene | PSMB3
+9311996 | @GENE_CCL6 | Ccl6 | 1114 | 3 | Gene | gene | C10
+9311996 | @GENE_PSMB7 | Psmb7 | 1123 | 5 | Gene | gene | PSMB7
+9311996 | @GENE_PSMB9 | PSMB9 | 1134 | 5 | Gene | gene | PSMB9
+9311996 | @GENE_PSMB9 | PSMB9 | 1141 | 4 | Gene | gene | LMP2
+9311996 | @GENE_PSMB10 | Psmb10 | 1151 | 6 | Gene | gene | PSMB10
+9311996 | @GENE_PSMB1 | Psmb1 | 1200 | 5 | Gene | gene | PSMB1
+9311996 | @GENE_PSMB6 | Psmb6 | 1212 | 5 | Gene | gene | PSMB6
+9311996 | @GENE_PSMB8 | Psmb8 | 1231 | 5 | Gene | gene | PSMB8
+9311996 | @GENE_PSMB8 | Psmb8 | 1238 | 4 | Gene | gene | LMP7
+9311996 | @GENE_IFNG | Ifng | 1444 | 16 | Gene | gene | interferon-gamma
+9382924 | @GENE_PSMB5 | Psmb5 | 62 | 5 | Gene | gene | Psmb5
+9382924 | @GENE_IFNG | Ifng | 353 | 16 | Gene | gene | interferon-gamma
+9382924 | @GENE_IFNG | Ifng | 371 | 9 | Gene | gene | IFN-gamma
+9382924 | @GENE_PSMB9 | Psmb9 | 420 | 4 | Gene | gene | LMP2
+9382924 | @GENE_PSMB8 | Psmb8 | 426 | 4 | Gene | gene | LMP7
+9382924 | @GENE_PSMB10 | Psmb10 | 436 | 6 | Gene | gene | PSMB10
+9382924 | @GENE_PSMB6 | Psmb6 | 546 | 5 | Gene | gene | PSMB6
+9382924 | @GENE_PSMB5 | Psmb5 | 553 | 5 | Gene | gene | PSMB5
+9382924 | @GENE_PSMB7 | Psmb7 | 564 | 5 | Gene | gene | PSMB7
+9382924 | @GENE_PSMB5 | Psmb5 | 826 | 5 | Gene | gene | Psmb5
+9382924 | @GENE_PSMB5 | Psmb5 | 848 | 5 | Gene | gene | PSMB5
+9382924 | @GENE_PSMB5 | Psmb5 | 863 | 5 | Gene | gene | Psmb5
+9382924 | @GENE_PSMB8 | Psmb8 | 1058 | 4 | Gene | gene | Lmp7
+9382924 | @GENE_PSMB5 | Psmb5 | 1074 | 5 | Gene | gene | Psmb5
+9382924 | @GENE_PSMB5 | Psmb5 | 1158 | 5 | Gene | gene | Psmb5
+9382924 | @GENE_PSMB5 | Psmb5 | 1296 | 5 | Gene | gene | PSMB5
+9382924 | @GENE_PSMB5 | Psmb5 | 1386 | 5 | Gene | gene | Psmb5
+9382924 | @GENE_PSMB5_PS | Psmb5-ps | 1458 | 8 | Gene | gene | Psmb5-ps
+9382924 | @GENE_PSMB5 | Psmb5 | 1512 | 5 | Gene | gene | Psmb5
+9382924 | @GENE_BCL2L2 | Bcl2l2 | 1536 | 7 | Gene | gene | Gtrgal2
+9382924 | @GENE_PSMB5_PS | Psmb5-ps | 1576 | 8 | Gene | gene | Psmb5-ps
+9382924 | @GENE_PSME3 | Psme3 | 1619 | 5 | Gene | gene | Psme3
+9382924 | @GENE_PSMB5 | Psmb5 | 1739 | 5 | Gene | gene | Psmb5
+9382924 | @GENE_PSMB5_PS | Psmb5-ps | 1792 | 8 | Gene | gene | Psmb5-ps
+10453006 | @GENE_SI:BUSM1_37I06.4 | si:busm1-37i06.4 | 628 | 17 | Gene | gene | MHC (Mhc) class I
+10453006 | @GENE_TAP2C | tap2c | 718 | 4 | Gene | gene | TAP2
+10453006 | @GENE_PSMB5 | PSMB5 | 853 | 5 | Gene | gene | PSMB5
+10453006 | @GENE_PSMB9 | PSMB9 | 867 | 5 | Gene | gene | PSMB9
+10453006 | @GENE_PSMB11 | PSMB11 | 889 | 6 | Gene | gene | PSMB11
+10453006 | @GENE_SI:BUSM1_37I06.4 | si:busm1-37i06.4 | 1358 | 11 | Gene | gene | Mhc class I
+12851310 | @GENE_NR5A1 | Nr5a1 | 22 | 22 | Gene | gene | steroidogenic factor 1
+12851310 | @DISEASE_ACTH_Deficiency_Isolated | ACTH Deficiency Isolated | 61 | 24 | Disease | disease | ACTH receptor deficiency
+12851310 | @DISEASE_Adrenocortical_Carcinoma | Adrenocortical Carcinoma | 147 | 20 | Disease | disease | adrenocortical tumor
+12851310 | @GENE_POMC | Pomc | 240 | 4 | Gene | gene | ACTH
+12851310 | @GENE_MC2R | Mc2r | 296 | 13 | Gene | gene | ACTH receptor
+12851310 | @GENE_MC2R | Mc2r | 311 | 4 | Gene | gene | MC2R
+12851310 | @GENE_NR5A1 | Nr5a1 | 412 | 22 | Gene | gene | steroidogenic factor 1
+12851310 | @GENE_NR5A1 | Nr5a1 | 436 | 3 | Gene | gene | SF1
+12851310 | @GENE_MC2R | Mc2r | 448 | 4 | Gene | gene | MC2R
+12851310 | @GENE_POMC | Pomc | 492 | 4 | Gene | gene | ACTH
+12851310 | @GENE_SF1 | Sf1 | 550 | 3 | Gene | gene | Sf1
+12851310 | @VARIANT_p.A172S_SF1_human | p.A172S | 568 | 31 | Variant | variant | Ser at codon 172 instead of Ala
+12851310 | @GENE_SF1 | Sf1 | 641 | 3 | Gene | gene | Sf1
+12851310 | @GENE_NR6A1 | Nr6a1 | 743 | 24 | Gene | gene | germ cell nuclear factor
+12851310 | @GENE_PSMB7 | Psmb7 | 805 | 5 | Gene | gene | Psmb7
+12851310 | @GENE_NR5A1 | Nr5a1 | 812 | 3 | Gene | gene | SF1
+12851310 | @GENE_NR5A1 | Nr5a1 | 826 | 3 | Gene | gene | SF1
+12851310 | @GENE_NR5A1 | Nr5a1 | 899 | 3 | Gene | gene | SF1
+12851310 | @GENE_NR5A1 | Nr5a1 | 951 | 3 | Gene | gene | SF1
+12851310 | @GENE_MC2R | Mc2r | 1012 | 4 | Gene | gene | MC2R
+12851310 | @GENE_SF1 | Sf1 | 1042 | 3 | Gene | gene | Sf1
+12851310 | @GENE_POMC | Pomc | 1085 | 4 | Gene | gene | ACTH
+12851310 | @DISEASE_Adrenocortical_Carcinoma | Adrenocortical Carcinoma | 1119 | 20 | Disease | disease | adrenocortical tumor
+17521679 | @DISEASE_Drug_Related_Side_Effects_and_Adverse_Reactions | Drug-Related Side Effects and Adverse Reactions | 227 | 10 | Disease | disease | toxicities
+17521679 | @DISEASE_Neurodegenerative_Diseases | Neurodegenerative Diseases | 307 | 21 | Disease | disease | degenerative diseases
+17521679 | @DISEASE_Drug_Related_Side_Effects_and_Adverse_Reactions | Drug-Related Side Effects and Adverse Reactions | 451 | 8 | Disease | disease | toxicity
+17521679 | @CHEMICAL_1_2_dithiol_3_thione | 1 2-dithiol-3-thione | 618 | 24 | Chemical | chemical | 3H-1,2-dithiole-3-thione
+17521679 | @CHEMICAL_1_2_dithiol_3_thione | 1 2-dithiol-3-thione | 644 | 3 | Chemical | chemical | D3T
+17521679 | @DISEASE_Neoplasms | Neoplasms | 684 | 6 | Disease | disease | cancer
+17521679 | @GENE_PSMB5 | Psmb5 | 783 | 5 | Gene | gene | PSMB5
+17521679 | @GENE_PSMB6 | Psmb6 | 790 | 5 | Gene | gene | PSMB6
+17521679 | @GENE_PSMB7 | Psmb7 | 801 | 5 | Gene | gene | PSMB7
+17521679 | @CHEMICAL_1_2_dithiol_3_thione | 1 2-dithiol-3-thione | 887 | 3 | Chemical | chemical | D3T
+17521679 | @CHEMICAL_1_2_dithiol_3_thione | 1 2-dithiol-3-thione | 1049 | 3 | Chemical | chemical | D3T
+17521679 | @CHEMICAL_1_2_dithiol_3_thione | 1 2-dithiol-3-thione | 1259 | 3 | Chemical | chemical | D3T
+17521679 | @CHEMICAL_1_2_dithiol_3_thione | 1 2-dithiol-3-thione | 1307 | 3 | Chemical | chemical | D3T
+17521679 | @DISEASE_Neuroblastoma | Neuroblastoma | 1328 | 13 | Disease | disease | neuroblastoma
+17521679 | @DISEASE_Protein_Aggregation_Pathological | Protein Aggregation Pathological | 1676 | 36 | Disease | disease | protein aggregate-mediated disorders
+19394698 | @CHEMICAL_Glucans | Glucans | 810 | 6 | Chemical | chemical | Glucan
+19394698 | @CHEMICAL_Poly_I_C | Poly I-C | 821 | 8 | Chemical | chemical | Poly I:C
+25194880 | @GENE_RCAN1 | Rcan1 | 47 | 26 | Gene | gene | regulator of calcineurin 1
+25194880 | @GENE_PSMA5 | Psma5 | 111 | 31 | Gene | gene | proteasome subunit alpha type-5
+25194880 | @GENE_PSMB7 | Psmb7 | 147 | 30 | Gene | gene | proteasome subunit beta type-7
+25194880 | @DISEASE_Down_Syndrome | Down Syndrome | 196 | 13 | Disease | disease | Down syndrome
+25194880 | @DISEASE_Down_Syndrome | Down Syndrome | 211 | 2 | Disease | disease | DS
+25194880 | @DISEASE_Alzheimer_Disease | Alzheimer Disease | 286 | 19 | Disease | disease | Alzheimer's disease
+25194880 | @DISEASE_Alzheimer_Disease | Alzheimer Disease | 307 | 2 | Disease | disease | AD
+25194880 | @DISEASE_Plaque_Amyloid | Plaque Amyloid | 337 | 16 | Disease | disease | neuritic plaques
+25194880 | @DISEASE_Diffuse_Neurofibrillary_Tangles_with_Calcification | Diffuse Neurofibrillary Tangles with Calcification | 355 | 23 | Disease | disease | neurofibrillary tangles
+25194880 | @DISEASE_Nerve_Degeneration | Nerve Degeneration | 384 | 13 | Disease | disease | neuronal loss
+25194880 | @DISEASE_Plaque_Amyloid | Plaque Amyloid | 444 | 16 | Disease | disease | neuritic plaques
+25194880 | @GENE_RCAN1 | Rcan1 | 542 | 26 | Gene | gene | regulator of calcineurin 1
+25194880 | @GENE_RCAN1 | Rcan1 | 570 | 5 | Gene | gene | RCAN1
+25194880 | @DISEASE_Malformations_of_Cortical_Development_Group_I | Malformations of Cortical Development Group I | 654 | 18 | Disease | disease | neuronal apoptosis
+25194880 | @DISEASE_Alzheimer_Disease | Alzheimer Disease | 708 | 2 | Disease | disease | AD
+25194880 | @DISEASE_Down_Syndrome | Down Syndrome | 727 | 2 | Disease | disease | DS
+25194880 | @GENE_RCAN1 | Rcan1 | 815 | 5 | Gene | gene | RCAN1
+25194880 | @GENE_PSMA5 | Psma5 | 947 | 31 | Gene | gene | proteasome subunit alpha type-5
+25194880 | @GENE_PSMB7 | Psmb7 | 983 | 30 | Gene | gene | proteasome subunit beta type-7
+25194880 | @GENE_RCAN1 | Rcan1 | 1071 | 5 | Gene | gene | RCAN1
+25194880 | @GENE_RCAN1 | Rcan1 | 1104 | 5 | Gene | gene | RCAN1
+25194880 | @DISEASE_Malformations_of_Cortical_Development_Group_I | Malformations of Cortical Development Group I | 1144 | 18 | Disease | disease | neuronal apoptosis
+25194880 | @GENE_RCAN1 | Rcan1 | 1264 | 5 | Gene | gene | RCAN1
+25194880 | @DISEASE_Malformations_of_Cortical_Development_Group_I | Malformations of Cortical Development Group I | 1279 | 18 | Disease | disease | neuronal apoptosis
+25194880 | @GENE_RCAN1 | Rcan1 | 1406 | 5 | Gene | gene | RCAN1
+25194880 | @DISEASE_Neurodegenerative_Diseases | Neurodegenerative Diseases | 1419 | 17 | Disease | disease | neurodegeneration
+25194880 | @DISEASE_Alzheimer_Disease | Alzheimer Disease | 1441 | 2 | Disease | disease | AD
+25194880 | @DISEASE_Down_Syndrome | Down Syndrome | 1460 | 2 | Disease | disease | DS
+25194880 | @GENE_RCAN1 | Rcan1 | 1564 | 5 | Gene | gene | RCAN1
+25194880 | @DISEASE_Alzheimer_Disease | Alzheimer Disease | 1587 | 2 | Disease | disease | AD
+25194880 | @DISEASE_Down_Syndrome | Down Syndrome | 1594 | 2 | Disease | disease | DS
+27226492 | @GENE_C17ORF49 | C17orf49 | 0 | 5 | Gene | gene | BAP18
+27226492 | @GENE_AR | AR | 18 | 17 | Gene | gene | androgen receptor
+27226492 | @DISEASE_Prostatic_Neoplasms | Prostatic Neoplasms | 56 | 15 | Disease | disease | prostate cancer
+27226492 | @GENE_C17ORF49 | C17orf49 | 85 | 33 | Gene | gene | BPTF associated protein of 18 kDa
+27226492 | @GENE_C17ORF49 | C17orf49 | 120 | 5 | Gene | gene | BAP18
+27226492 | @GENE_KMT2A | KMT2A | 163 | 4 | Gene | gene | MLL1
+27226492 | @GENE_WDR5 | WDR5 | 168 | 4 | Gene | gene | WDR5
+27226492 | @GENE_C17ORF49 | C17orf49 | 191 | 5 | Gene | gene | BAP18
+27226492 | @GENE_C17ORF49 | C17orf49 | 265 | 5 | Gene | gene | BAP18
+27226492 | @GENE_AR | AR | 320 | 17 | Gene | gene | Androgen receptor
+27226492 | @GENE_AR | AR | 339 | 2 | Gene | gene | AR
+27226492 | @DISEASE_Prostatic_Neoplasms | Prostatic Neoplasms | 405 | 15 | Disease | disease | prostate cancer
+27226492 | @DISEASE_Prostatic_Neoplasms | Prostatic Neoplasms | 422 | 3 | Disease | disease | PCa
+27226492 | @DISEASE_Prostatic_Neoplasms_Castration_Resistant | Prostatic Neoplasms Castration-Resistant | 431 | 36 | Disease | disease | castration-resistant prostate cancer
+27226492 | @DISEASE_Prostatic_Neoplasms_Castration_Resistant | Prostatic Neoplasms Castration-Resistant | 469 | 4 | Disease | disease | CRPC
+27226492 | @GENE_C17ORF49 | C17orf49 | 514 | 5 | Gene | gene | BAP18
+27226492 | @GENE_AR | AR | 554 | 2 | Gene | gene | AR
+27226492 | @GENE_C17ORF49 | C17orf49 | 613 | 5 | Gene | gene | BAP18
+27226492 | @GENE_KMT2A | KMT2A | 650 | 4 | Gene | gene | MLL1
+27226492 | @GENE_AR | AR | 670 | 2 | Gene | gene | AR
+27226492 | @GENE_AR | AR | 711 | 2 | Gene | gene | AR
+27226492 | @GENE_C17ORF49 | C17orf49 | 816 | 5 | Gene | gene | BAP18
+27226492 | @DISEASE_Prostatic_Neoplasms | Prostatic Neoplasms | 866 | 3 | Disease | disease | PCa
+27226492 | @GENE_C17ORF49 | C17orf49 | 887 | 5 | Gene | gene | BAP18
+27226492 | @DISEASE_Neoplasms | Neoplasms | 938 | 5 | Disease | disease | tumor
+27226492 | @GENE_C17ORF49 | C17orf49 | 1033 | 5 | Gene | gene | BAP18
+27226492 | @DISEASE_Prostatic_Neoplasms | Prostatic Neoplasms | 1062 | 3 | Disease | disease | PCa
+27226492 | @DISEASE_Prostatic_Hyperplasia | Prostatic Hyperplasia | 1097 | 28 | Disease | disease | benign prostatic hyperplasia
+27226492 | @DISEASE_Prostatic_Hyperplasia | Prostatic Hyperplasia | 1127 | 3 | Disease | disease | BPH
+27226492 | @GENE_C17ORF49 | C17orf49 | 1155 | 5 | Gene | gene | BAP18
+27226492 | @GENE_AR | AR | 1197 | 2 | Gene | gene | AR
+27226492 | @GENE_C17ORF49 | C17orf49 | 1244 | 5 | Gene | gene | BAP18
+27226492 | @DISEASE_Prostatic_Neoplasms | Prostatic Neoplasms | 1277 | 3 | Disease | disease | PCa
+27226492 | @DISEASE_Neoplasms | Neoplasms | 1292 | 5 | Disease | disease | tumor
+27493218 | @GENE_PSMB9B | psmb9b | 764 | 6 | Gene | gene | psmb9b
+27493218 | @GENE_PSMB8F | psmb8f | 773 | 6 | Gene | gene | psmb8f
+27493218 | @GENE_PSMB5 | psmb5 | 1089 | 5 | Gene | gene | Psmb5
+27493218 | @GENE_PSMB8A | psmb8a | 1095 | 5 | Gene | gene | Psmb8
+27493218 | @GENE_PSMB12 | psmb12 | 1101 | 6 | Gene | gene | Psmb11
+27493218 | @GENE_PSMB6 | psmb6 | 1109 | 5 | Gene | gene | Psmb6
+27493218 | @GENE_PSMB9A | psmb9a | 1115 | 5 | Gene | gene | Psmb9
+27493218 | @GENE_PSMB13A | psmb13a | 1121 | 6 | Gene | gene | Psmb12
+27493218 | @GENE_PSMB7 | psmb7 | 1133 | 5 | Gene | gene | Psmb7
+27493218 | @GENE_PSMB13A | psmb13a | 1139 | 6 | Gene | gene | Psmb10
+27493218 | @GENE_TAP2C | tap2c | 1173 | 4 | Gene | gene | tap2
+27493218 | @GENE_SI:BUSM1_37I06.7 | si:busm1-37i06.7 | 1182 | 11 | Gene | gene | MHC class I
+27493218 | @GENE_PSMB8A | PSMB8A | 1707 | 5 | Gene | gene | psmb8
+27493218 | @GENE_PSMB13A | psmb13a | 1751 | 6 | Gene | gene | psmb10
+29158022 | @GENE_NFE2L2 | Nfe2l2 | 18 | 4 | Gene | gene | Nrf2
+29158022 | @GENE_NFE2L2 | Nfe2l2 | 157 | 4 | Gene | gene | Nrf2
+29158022 | @GENE_NFE2L2 | Nfe2l2 | 351 | 4 | Gene | gene | Nrf2
+29158022 | @DISEASE_Neurodegenerative_Diseases | Neurodegenerative Diseases | 395 | 17 | Disease | disease | neurodegeneration
+29158022 | @CHEMICAL_morpholine | morpholine | 457 | 10 | Chemical | chemical | morpholine
+29158022 | @CHEMICAL_Chalcone | Chalcone | 479 | 8 | Chemical | chemical | chalcone
+29158022 | @GENE_NFE2L2 | Nfe2l2 | 566 | 4 | Gene | gene | Nrf2
+29158022 | @GENE_KEAP1 | Keap1 | 590 | 6 | Gene | gene | Keap-1
+29158022 | @GENE_NFE2L2 | Nfe2l2 | 636 | 4 | Gene | gene | Nrf2
+29158022 | @GENE_HMOX1 | Hmox1 | 688 | 16 | Gene | gene | heme oxygenase-1
+29158022 | @GENE_NQO1 | Nqo1 | 706 | 32 | Gene | gene | NAD(P)H:quinone oxidoreductase-1
+29158022 | @GENE_PSMB5 | Psmb5 | 901 | 5 | Gene | gene | PSMB5
+29158022 | @GENE_PSMB7 | Psmb7 | 908 | 5 | Gene | gene | PSMB7
+29158022 | @GENE_PSMB8 | Psmb8 | 915 | 5 | Gene | gene | PSMB8
+29158022 | @GENE_PSMA1 | Psma1 | 925 | 5 | Gene | gene | PSMA1
+29158022 | @GENE_SNCA | Snca | 1024 | 15 | Gene | gene | alpha-synuclein
+29158022 | @GENE_SNCA | Snca | 1057 | 9 | Gene | gene | alpha-syn
+29158022 | @VARIANT_p.A53T_SNCA_human | p.A53T | 1067 | 4 | Variant | variant | A53T
+29158022 | @GENE_CYP21A1 | Cyp21a1 | 1246 | 15 | Gene | gene | cytochrome p450
+29158022 | @DISEASE_Drug_Related_Side_Effects_and_Adverse_Reactions | Drug-Related Side Effects and Adverse Reactions | 1303 | 8 | Disease | disease | toxicity
+29158022 | @CHEMICAL_1_Methyl_4_phenyl_1_2_3_6_tetrahydropyridine | 1-Methyl-4-phenyl-1 2 3 6-tetrahydropyridine | 1351 | 44 | Chemical | chemical | 1-methyl-4-phenyl-1,2,3,6-tetrahydropyridine
+29158022 | @GENE_NFE2L2 | Nfe2l2 | 1513 | 4 | Gene | gene | Nrf2
+29158022 | @DISEASE_Neurologic_Manifestations | Neurologic Manifestations | 1573 | 14 | Disease | disease | motor deficits
+29158022 | @DISEASE_Parkinson_Disease | Parkinson Disease | 1665 | 19 | Disease | disease | Parkinson's disease
+31126898 | @CHEMICAL_Glucose | Glucose | 10 | 7 | Chemical | chemical | glucose
+31126898 | @DISEASE_Cystic_Fibrosis | Cystic Fibrosis | 80 | 15 | Disease | disease | cystic fibrosis
+31126898 | @DISEASE_Cystic_Fibrosis | Cystic Fibrosis | 123 | 15 | Disease | disease | Cystic Fibrosis
+31126898 | @DISEASE_Diabetes_Mellitus | Diabetes Mellitus | 147 | 8 | Disease | disease | diabetes
+31126898 | @DISEASE_Cystic_Fibrosis | Cystic Fibrosis | 188 | 2 | Disease | disease | CF
+31126898 | @CHEMICAL_Glucose | Glucose | 270 | 7 | Chemical | chemical | Glucose
+31126898 | @DISEASE_Cystic_Fibrosis | Cystic Fibrosis | 489 | 2 | Disease | disease | CF
+31126898 | @CHEMICAL_Glucose | Glucose | 534 | 7 | Chemical | chemical | glucose
+31126898 | @DISEASE_Cystic_Fibrosis | Cystic Fibrosis | 608 | 2 | Disease | disease | CF
+31126898 | @CHEMICAL_Glucose | Glucose | 713 | 7 | Chemical | chemical | glucose
+31126898 | @CHEMICAL_Glucose | Glucose | 847 | 7 | Chemical | chemical | Glucose
+31126898 | @GENE_INS | INS | 1234 | 7 | Gene | gene | insulin
+31126898 | @CHEMICAL_Glucose | Glucose | 1261 | 7 | Chemical | chemical | glucose
+31126898 | @DISEASE_Cystic_Fibrosis | Cystic Fibrosis | 1399 | 2 | Disease | disease | CF
+31126898 | @CHEMICAL_Glucose | Glucose | 1568 | 7 | Chemical | chemical | glucose
+31126898 | @DISEASE_Cystic_Fibrosis | Cystic Fibrosis | 1610 | 2 | Disease | disease | CF
+31672555 | @DISEASE_Cystic_Fibrosis | Cystic Fibrosis | 47 | 15 | Disease | disease | cystic fibrosis
+31672555 | @DISEASE_Meconium_Ileus | Meconium Ileus | 89 | 14 | Disease | disease | meconium ileus
+31672555 | @DISEASE_Meconium_Ileus | Meconium Ileus | 117 | 14 | Disease | disease | Meconium ileus
+31672555 | @DISEASE_Cystic_Fibrosis | Cystic Fibrosis | 172 | 15 | Disease | disease | cystic fibrosis
+31672555 | @DISEASE_Cystic_Fibrosis | Cystic Fibrosis | 189 | 2 | Disease | disease | CF
+31672555 | @DISEASE_Cystic_Fibrosis | Cystic Fibrosis | 254 | 2 | Disease | disease | CF
+31672555 | @DISEASE_Meconium_Ileus | Meconium Ileus | 283 | 14 | Disease | disease | meconium ileus
+31672555 | @DISEASE_Cystic_Fibrosis | Cystic Fibrosis | 528 | 2 | Disease | disease | CF
+31672555 | @DISEASE_Cystic_Fibrosis | Cystic Fibrosis | 1546 | 2 | Disease | disease | CF
+31672555 | @DISEASE_Meconium_Ileus | Meconium Ileus | 1649 | 14 | Disease | disease | Meconium ileus
+31672555 | @DISEASE_Cystic_Fibrosis | Cystic Fibrosis | 1707 | 2 | Disease | disease | CF
+31819107 | @DISEASE_Cystic_Fibrosis | Cystic Fibrosis | 32 | 15 | Disease | disease | Cystic Fibrosis
+31819107 | @DISEASE_Dysbiosis | Dysbiosis | 76 | 9 | Disease | disease | Dysbiosis
+31819107 | @DISEASE_Dysbiosis | Dysbiosis | 98 | 9 | Disease | disease | dysbiosis
+31819107 | @DISEASE_Cystic_Fibrosis | Cystic Fibrosis | 143 | 15 | Disease | disease | cystic fibrosis
+31819107 | @DISEASE_Cystic_Fibrosis | Cystic Fibrosis | 160 | 2 | Disease | disease | CF
+31819107 | @DISEASE_Inflammation | Inflammation | 289 | 12 | Disease | disease | inflammation
+31819107 | @DISEASE_Cystic_Fibrosis | Cystic Fibrosis | 319 | 2 | Disease | disease | CF
+31819107 | @DISEASE_Cystic_Fibrosis | Cystic Fibrosis | 374 | 2 | Disease | disease | CF
+31819107 | @DISEASE_Inflammation | Inflammation | 576 | 12 | Disease | disease | Inflammation
+31819107 | @DISEASE_Cystic_Fibrosis | Cystic Fibrosis | 660 | 2 | Disease | disease | CF
+31819107 | @DISEASE_Cystic_Fibrosis | Cystic Fibrosis | 749 | 2 | Disease | disease | CF
+31819107 | @DISEASE_Dysbiosis | Dysbiosis | 813 | 9 | Disease | disease | dysbiosis
+31819107 | @DISEASE_Cystic_Fibrosis | Cystic Fibrosis | 861 | 2 | Disease | disease | CF
+31819107 | @CHEMICAL_Fatty_Acids_Volatile | Fatty Acids Volatile | 913 | 22 | Chemical | chemical | short-chain fatty acid
+31819107 | @CHEMICAL_Fatty_Acids_Volatile | Fatty Acids Volatile | 937 | 4 | Chemical | chemical | SCFA
+31819107 | @DISEASE_Cystic_Fibrosis | Cystic Fibrosis | 1019 | 2 | Disease | disease | CF
+31819107 | @DISEASE_Inflammation | Inflammation | 1041 | 12 | Disease | disease | inflammatory
+31819107 | @DISEASE_Cystic_Fibrosis | Cystic Fibrosis | 1085 | 2 | Disease | disease | CF
+31819107 | @DISEASE_Inflammation | Inflammation | 1145 | 12 | Disease | disease | inflammatory
+31819107 | @DISEASE_Gastrointestinal_Diseases | Gastrointestinal Diseases | 1362 | 24 | Disease | disease | gastrointestinal disease
+31819107 | @DISEASE_Cystic_Fibrosis | Cystic Fibrosis | 1404 | 2 | Disease | disease | CF
+31819107 | @DISEASE_Cystic_Fibrosis | Cystic Fibrosis | 1452 | 2 | Disease | disease | CF
+32113162 | @GENE_C17ORF49 | C17orf49 | 0 | 5 | Gene | gene | BAP18
+32113162 | @GENE_CCND2 | CCND2 | 37 | 7 | Gene | gene | CCND1/2
+32113162 | @DISEASE_Squamous_Cell_Carcinoma_of_Head_and_Neck | Squamous Cell Carcinoma of Head and Neck | 85 | 28 | Disease | disease | oral squamous cell carcinoma
+32113162 | @GENE_C17ORF49 | C17orf49 | 159 | 33 | Gene | gene | BPTF associated protein of 18 kDa
+32113162 | @GENE_C17ORF49 | C17orf49 | 194 | 5 | Gene | gene | BAP18
+32113162 | @GENE_AR | AR | 230 | 17 | Gene | gene | androgen receptor
+32113162 | @DISEASE_Prostatic_Neoplasms | Prostatic Neoplasms | 258 | 15 | Disease | disease | prostate cancer
+32113162 | @GENE_C17ORF49 | C17orf49 | 300 | 5 | Gene | gene | BAP18
+32113162 | @DISEASE_Squamous_Cell_Carcinoma_of_Head_and_Neck | Squamous Cell Carcinoma of Head and Neck | 309 | 28 | Disease | disease | oral squamous cell carcinoma
+32113162 | @DISEASE_Squamous_Cell_Carcinoma_of_Head_and_Neck | Squamous Cell Carcinoma of Head and Neck | 339 | 4 | Disease | disease | OSCC
+32113162 | @DISEASE_Squamous_Cell_Carcinoma_of_Head_and_Neck | Squamous Cell Carcinoma of Head and Neck | 405 | 4 | Disease | disease | OSCC
+32113162 | @GENE_C17ORF49 | C17orf49 | 447 | 5 | Gene | gene | BAP18
+32113162 | @DISEASE_Neoplasms | Neoplasms | 682 | 5 | Disease | disease | tumor
+32113162 | @GENE_C17ORF49 | C17orf49 | 795 | 5 | Gene | gene | BAP18
+32113162 | @DISEASE_Squamous_Cell_Carcinoma_of_Head_and_Neck | Squamous Cell Carcinoma of Head and Neck | 825 | 4 | Disease | disease | OSCC
+32113162 | @GENE_C17ORF49 | C17orf49 | 868 | 5 | Gene | gene | BAP18
+32113162 | @GENE_C17ORF49 | C17orf49 | 1028 | 5 | Gene | gene | BAP18
+32113162 | @GENE_CCND1 | CCND1 | 1068 | 5 | Gene | gene | CCND1
+32113162 | @GENE_CCND2 | CCND2 | 1078 | 5 | Gene | gene | CCND2
+32113162 | @GENE_CCND2 | CCND2 | 1085 | 7 | Gene | gene | CCND1/2
+32113162 | @GENE_C17ORF49 | C17orf49 | 1122 | 5 | Gene | gene | BAP18
+32113162 | @GENE_CCND2 | CCND2 | 1168 | 7 | Gene | gene | CCND1/2
+32113162 | @GENE_KMT2A | KMT2A | 1238 | 4 | Gene | gene | MLL1
+32113162 | @GENE_C17ORF49 | C17orf49 | 1321 | 5 | Gene | gene | BAP18
+32113162 | @DISEASE_Squamous_Cell_Carcinoma_of_Head_and_Neck | Squamous Cell Carcinoma of Head and Neck | 1396 | 4 | Disease | disease | OSCC
+32113162 | @GENE_C17ORF49 | C17orf49 | 1462 | 5 | Gene | gene | BAP18
+32113162 | @GENE_CCND2 | CCND2 | 1497 | 7 | Gene | gene | CCND1/2
+32113162 | @DISEASE_Squamous_Cell_Carcinoma_of_Head_and_Neck | Squamous Cell Carcinoma of Head and Neck | 1532 | 4 | Disease | disease | OSCC
+32113162 | @GENE_C17ORF49 | C17orf49 | 1550 | 5 | Gene | gene | BAP18
+32113162 | @DISEASE_Squamous_Cell_Carcinoma_of_Head_and_Neck | Squamous Cell Carcinoma of Head and Neck | 1588 | 4 | Disease | disease | OSCC
+32986841 | @GENE_C17ORF49 | C17orf49 | 19 | 5 | Gene | gene | BAP18
+32986841 | @GENE_ESR1 | ESR1 | 82 | 7 | Gene | gene | ERalpha
+32986841 | @DISEASE_Breast_Neoplasms | Breast Neoplasms | 152 | 13 | Disease | disease | breast cancer
+32986841 | @GENE_ESR1 | ESR1 | 167 | 23 | Gene | gene | Estrogen receptor alpha
+32986841 | @GENE_ESR1 | ESR1 | 192 | 7 | Gene | gene | ERalpha
+32986841 | @GENE_ESR1 | ESR1 | 236 | 7 | Gene | gene | ERalpha
+32986841 | @DISEASE_Breast_Neoplasms | Breast Neoplasms | 253 | 13 | Disease | disease | breast cancer
+32986841 | @GENE_C17ORF49 | C17orf49 | 313 | 78 | Gene | gene | Bromodomain PHD Finger Transcription Factor (BPTF) associated protein of 18kDa
+32986841 | @GENE_C17ORF49 | C17orf49 | 393 | 5 | Gene | gene | BAP18
+32986841 | @GENE_C17ORF49 | C17orf49 | 490 | 5 | Gene | gene | BAP18
+32986841 | @DISEASE_Breast_Neoplasms | Breast Neoplasms | 527 | 13 | Disease | disease | breast cancer
+32986841 | @GENE_C17ORF49 | C17orf49 | 600 | 5 | Gene | gene | BAP18
+32986841 | @GENE_ESR1 | ESR1 | 609 | 7 | Gene | gene | ERalpha
+32986841 | @DISEASE_Breast_Neoplasms | Breast Neoplasms | 626 | 13 | Disease | disease | breast cancer
+32986841 | @GENE_CTCF | CTCF | 781 | 20 | Gene | gene | CCCTC binding factor
+32986841 | @GENE_CTCF | CTCF | 803 | 4 | Gene | gene | CTCF
+32986841 | @GENE_C17ORF49 | C17orf49 | 886 | 5 | Gene | gene | BAP18
+32986841 | @GENE_C17ORF49 | C17orf49 | 957 | 5 | Gene | gene | BAP18
+32986841 | @GENE_ESR1 | ESR1 | 990 | 7 | Gene | gene | ERalpha
+32986841 | @GENE_ESR1 | ESR1 | 1093 | 7 | Gene | gene | ERalpha
+32986841 | @DISEASE_Breast_Neoplasms | Breast Neoplasms | 1117 | 13 | Disease | disease | breast cancer
+32986841 | @GENE_C17ORF49 | C17orf49 | 1138 | 5 | Gene | gene | BAP18
+32986841 | @CHEMICAL_Estradiol | Estradiol | 1315 | 2 | Chemical | chemical | E2
+32986841 | @GENE_C17ORF49 | C17orf49 | 1332 | 5 | Gene | gene | BAP18
+32986841 | @GENE_ESR1 | ESR1 | 1409 | 7 | Gene | gene | ERalpha
+32986841 | @DISEASE_Breast_Neoplasms | Breast Neoplasms | 1426 | 13 | Disease | disease | breast cancer
+32986841 | @GENE_C17ORF49 | C17orf49 | 1463 | 5 | Gene | gene | BAP18
+32986841 | @GENE_ESR1 | ESR1 | 1505 | 7 | Gene | gene | ERalpha
+32986841 | @DISEASE_Breast_Neoplasms | Breast Neoplasms | 1607 | 13 | Disease | disease | breast cancer
+35799704 | @GENE_PSMB9 | PSMB9 | 387 | 6 | Gene | gene | beta1i
+35799704 | @GENE_PSMB9 | PSMB9 | 394 | 5 | Gene | gene | PSMB9
+35799704 | @GENE_PSMB10 | PSMB10 | 401 | 6 | Gene | gene | beta2i
+35799704 | @GENE_PSMB10 | PSMB10 | 408 | 6 | Gene | gene | PSMB10
+35799704 | @GENE_PSMB8 | PSMB8 | 427 | 5 | Gene | gene | PSMB8
+35799704 | @GENE_IGKV7_3 | IGKV7-3 | 484 | 5 | Gene | gene | beta1
+35799704 | @GENE_PSMB6 | PSMB6 | 490 | 5 | Gene | gene | PSMB6
+35799704 | @GENE_IGKV5_2 | IGKV5-2 | 497 | 5 | Gene | gene | beta2
+35799704 | @GENE_PSMB7 | PSMB7 | 503 | 5 | Gene | gene | PSMB7
+35799704 | @GENE_GPHB5 | GPHB5 | 514 | 5 | Gene | gene | beta5
+35799704 | @GENE_PSMB5 | PSMB5 | 520 | 5 | Gene | gene | PSMB5
+35799704 | @CHEMICAL_PR_957 | PR-957 | 1121 | 8 | Chemical | chemical | ONX-0914
+35799704 | @DISEASE_Virus_Diseases | Virus Diseases | 1261 | 15 | Disease | disease | viral infection
+35799704 | @DISEASE_Inflammation | Inflammation | 1278 | 12 | Disease | disease | inflammation
+35799704 | @DISEASE_Carcinogenesis | Carcinogenesis | 1296 | 13 | Disease | disease | tumorigenesis
+36927149 | @DISEASE_Chemical_and_Drug_Induced_Liver_Injury | Chemical and Drug Induced Liver Injury | 468 | 14 | Disease | disease | liver toxicity
+37344694 | @DISEASE_Inflammation | Inflammation | 42 | 12 | Disease | disease | inflammatory
+37344694 | @CHEMICAL_Nicotine | Nicotine | 158 | 8 | Chemical | chemical | nicotine
+37344694 | @DISEASE_Inflammation | Inflammation | 204 | 12 | Disease | disease | inflammation
+37344694 | @DISEASE_Respiratory_Tract_Diseases | Respiratory Tract Diseases | 464 | 20 | Disease | disease | respiratory diseases
+37344694 | @GENE_IFNG | IFNG | 642 | 9 | Gene | gene | IFN-gamma
+37344694 | @GENE_TNF | TNF | 656 | 9 | Gene | gene | TNF-alpha
+37344694 | @GENE_PSMB9 | PSMB9 | 753 | 37 | Gene | gene | low-molecular mass polypeptide (LMP)2
+37344694 | @GENE_PSMB9 | PSMB9 | 792 | 6 | Gene | gene | beta1i
+37344694 | @GENE_PSMB10 | PSMB10 | 801 | 50 | Gene | gene | multi-catalytic endopeptidase complex-like (MECL)1
+37344694 | @GENE_PSMB10 | PSMB10 | 853 | 6 | Gene | gene | beta2i
+37344694 | @GENE_PSMB8 | PSMB8 | 866 | 4 | Gene | gene | LMP7
+37344694 | @CHEMICAL_Nicotine | Nicotine | 1143 | 8 | Chemical | chemical | nicotine
+37344694 | @GENE_IFNG | IFNG | 1228 | 9 | Gene | gene | IFN-gamma
+37344694 | @GENE_TNF | TNF | 1239 | 9 | Gene | gene | TNF-alpha
+37344694 | @GENE_PSMB8 | PSMB8 | 1285 | 4 | Gene | gene | LMP7
+37344694 | @GENE_PSMB8 | PSMB8 | 1290 | 5 | Gene | gene | PSMB8
+37344694 | @GENE_PSMB9 | PSMB9 | 1297 | 4 | Gene | gene | LMP2
+37344694 | @GENE_PSMB9 | PSMB9 | 1302 | 5 | Gene | gene | PSMB9
+37344694 | @GENE_PSMB10 | PSMB10 | 1309 | 5 | Gene | gene | MECL1
+37344694 | @GENE_PSMB10 | PSMB10 | 1315 | 6 | Gene | gene | PSMB10
+37344694 | @GENE_IGKV7_3 | IGKV7-3 | 1386 | 5 | Gene | gene | beta1
+37344694 | @GENE_PSMB6 | PSMB6 | 1392 | 5 | Gene | gene | PSMB6
+37344694 | @GENE_IGKV5_2 | IGKV5-2 | 1402 | 5 | Gene | gene | beta2
+37344694 | @GENE_PSMB7 | PSMB7 | 1408 | 5 | Gene | gene | PSMB7
+37344694 | @GENE_PSMB8 | PSMB8 | 1502 | 4 | Gene | gene | LMP7
+37344694 | @GENE_PSMB8 | PSMB8 | 1634 | 4 | Gene | gene | LMP7
+37344694 | @CHEMICAL_PR_957 | PR-957 | 1650 | 8 | Chemical | chemical | ONX-0914
+37344694 | @GENE_IL6 | IL6 | 1797 | 4 | Gene | gene | IL-6
+37344694 | @GENE_CXCL8 | CXCL8 | 1803 | 4 | Gene | gene | IL-8
+37344694 | @GENE_CCL2 | CCL2 | 1809 | 4 | Gene | gene | CCL2
+37344694 | @GENE_CCL5 | CCL5 | 1819 | 4 | Gene | gene | CCL5
+37344694 | @GENE_PSMB8 | PSMB8 | 1893 | 4 | Gene | gene | LMP7
+37344694 | @DISEASE_Inflammation | Inflammation | 1930 | 12 | Disease | disease | inflammatory
+37344694 | @DISEASE_Inflammation | Inflammation | 2051 | 12 | Disease | disease | inflammation
+38128484 | @GENE_HLA_C | HLA-C | 293 | 3 | Gene | gene | MHC
+38128484 | @GENE_HLA_C | HLA-C | 447 | 3 | Gene | gene | MHC
+38128484 | @GENE_HLA_C | HLA-C | 475 | 3 | Gene | gene | MHC
+38128484 | @GENE_HLA_C | HLA-C | 922 | 3 | Gene | gene | MHC
+38169032 | @GENE_IGH_V7183 | Igh-V7183 | 660 | 3 | Gene | gene | IgG
+38169032 | @GENE_IGHG1 | Ighg1 | 713 | 4 | Gene | gene | IgG1
+38169032 | @GENE_IGH_V7183 | Igh-V7183 | 827 | 3 | Gene | gene | IgG
+38169032 | @GENE_IFNG | Ifng | 1151 | 9 | Gene | gene | IFN-gamma
+38169032 | @GENE_CD4 | Cd4 | 1194 | 3 | Gene | gene | CD4
+38169032 | @GENE_CD4 | Cd4 | 1444 | 3 | Gene | gene | CD4
+38169032 | @GENE_H2_DMA | H2-DMa | 1449 | 6 | Gene | gene | H2-DMa
+38169032 | @GENE_H2_OA | H2-Oa | 1466 | 5 | Gene | gene | H2-Oa
+38169032 | @GENE_CD4 | Cd4 | 1552 | 3 | Gene | gene | CD4
+38169032 | @DISEASE_Inflammation | Inflammation | 1884 | 12 | Disease | disease | inflammation
+38199985 | @DISEASE_Graft_vs_Host_Disease | Graft vs Host Disease | 59 | 31 | Disease | disease | acute graft-versus-host disease
+38199985 | @DISEASE_Graft_vs_Host_Disease | Graft vs Host Disease | 132 | 31 | Disease | disease | acute graft-versus-host disease
+38199985 | @DISEASE_Graft_vs_Host_Disease | Graft vs Host Disease | 165 | 5 | Disease | disease | aGVHD
+38199985 | @DISEASE_Graft_vs_Host_Disease | Graft vs Host Disease | 318 | 5 | Disease | disease | aGVHD
+38199985 | @GENE_ROCK1 | ROCK1 | 472 | 5 | Gene | gene | ROCK1
+38199985 | @DISEASE_Leukemia | Leukemia | 679 | 8 | Disease | disease | leukemia
+38199985 | @GENE_ROCK1 | ROCK1 | 830 | 5 | Gene | gene | ROCK1
+38199985 | @GENE_CD80 | CD80 | 862 | 4 | Gene | gene | CD80
+38199985 | @GENE_CD86 | CD86 | 868 | 4 | Gene | gene | CD86
+38199985 | @GENE_IL6 | IL6 | 896 | 4 | Gene | gene | IL-6
+38199985 | @GENE_IL1B | IL1B | 902 | 8 | Gene | gene | IL-1beta
+38199985 | @GENE_NOS2 | NOS2 | 912 | 4 | Gene | gene | iNOS
+38199985 | @GENE_TNF | TNF | 921 | 3 | Gene | gene | TNF
+38199985 | @GENE_NFKB1 | NFKB1 | 1117 | 9 | Gene | gene | NF-kappaB
+38237527 | @DISEASE_Inflammation | Inflammation | 19 | 12 | Disease | disease | inflammation
+38237527 | @DISEASE_Infections | Infections | 36 | 22 | Disease | disease | intracranial infection
+38237527 | @DISEASE_COVID_19 | COVID-19 | 247 | 20 | Disease | disease | SARS-CoV-2 infection
+38237527 | @DISEASE_COVID_19 | COVID-19 | 269 | 20 | Disease | disease | SARS-CoV-2 infection
+38237527 | @DISEASE_Inflammation | Inflammation | 305 | 12 | Disease | disease | inflammatory
+38237527 | @GENE_N | N | 589 | 1 | Gene | gene | N
+38237527 | @DISEASE_Infections | Infections | 811 | 22 | Disease | disease | intracranial infection
+38293085 | @DISEASE_Neoplasms | Neoplasms | 148 | 6 | Disease | disease | cancer
+38293085 | @DISEASE_Neoplasms | Neoplasms | 654 | 6 | Disease | disease | tumors
+38293085 | @DISEASE_Neoplasms | Neoplasms | 932 | 5 | Disease | disease | tumor
+38293085 | @GENE_HLA_C | HLA-C | 972 | 3 | Gene | gene | MHC
+38293085 | @GENE_LAG3 | LAG3 | 1041 | 4 | Gene | gene | LAG3
+38299328 | @DISEASE_Cushing's_symphalangism | Cushing's symphalangism | 49 | 22 | Disease | disease | Large Vessel Occlusion
+38299328 | @DISEASE_Stroke | Stroke | 99 | 6 | Disease | disease | Stroke
+38299328 | @DISEASE_Cerebral_Infarction | Cerebral Infarction | 165 | 15 | Disease | disease | ischemic stroke
+38299328 | @DISEASE_Brain_Infarction | Brain Infarction | 244 | 43 | Disease | disease | anterior circulation large vessel occlusion
+38299328 | @DISEASE_Brain_Infarction | Brain Infarction | 289 | 4 | Disease | disease | aLVO
+38299328 | @DISEASE_Brain_Infarction | Brain Infarction | 384 | 4 | Disease | disease | aLVO
+38299328 | @DISEASE_Stroke | Stroke | 502 | 6 | Disease | disease | Stroke
+38299328 | @DISEASE_Stroke | Stroke | 574 | 6 | Disease | disease | Stroke
+38299328 | @DISEASE_Stroke | Stroke | 696 | 12 | Disease | disease | acute stroke
+38299328 | @DISEASE_Brain_Infarction | Brain Infarction | 823 | 4 | Disease | disease | aLVO
+38299328 | @DISEASE_Arterial_Occlusive_Diseases | Arterial Occlusive Diseases | 877 | 18 | Disease | disease | Arterial Occlusion
+38299328 | @DISEASE_Stroke | Stroke | 919 | 6 | Disease | disease | Stroke
+38299328 | @DISEASE_Stroke | Stroke | 973 | 6 | Disease | disease | Stroke
+38299328 | @DISEASE_Stroke | Stroke | 999 | 12 | Disease | disease | Acute Stroke
+38299328 | @DISEASE_Stroke | Stroke | 1087 | 6 | Disease | disease | Stroke
+38299328 | @DISEASE_Arms_Malformation_of | Arms Malformation of | 1139 | 24 | Disease | disease | Arm or Leg Motor Deficit
+38299328 | @DISEASE_Brain_Infarction | Brain Infarction | 1236 | 4 | Disease | disease | aLVO
+38299328 | @DISEASE_Stroke | Stroke | 1328 | 6 | Disease | disease | stroke
+38299328 | @DISEASE_Brain_Infarction | Brain Infarction | 1384 | 4 | Disease | disease | aLVO
+38299328 | @DISEASE_Arterial_Occlusive_Diseases | Arterial Occlusive Diseases | 2292 | 18 | Disease | disease | arterial occlusion
+38299328 | @DISEASE_Brain_Infarction | Brain Infarction | 2466 | 4 | Disease | disease | aLVO
+38299328 | @DISEASE_Arterial_Occlusive_Diseases | Arterial Occlusive Diseases | 2539 | 18 | Disease | disease | arterial occlusion
+38299328 | @DISEASE_Stroke | Stroke | 2673 | 6 | Disease | disease | stroke
+38414132 | @GENE_SLIT3 | SLIT3 | 13 | 5 | Gene | gene | Slit3
+38414132 | @GENE_ROBO1 | Robo1 | 33 | 5 | Gene | gene | Robo1
+38414132 | @DISEASE_Cardiomegaly | Cardiomegaly | 80 | 19 | Disease | disease | Cardiac Hypertrophy
+38414132 | @GENE_SLIT3 | SLIT3 | 185 | 5 | Gene | gene | SLIT3
+38414132 | @GENE_SLIT3 | SLIT3 | 311 | 5 | Gene | gene | SLIT3
+38414132 | @GENE_SLIT3 | SLIT3 | 488 | 5 | Gene | gene | SLIT3
+38414132 | @GENE_SLIT3 | SLIT3 | 614 | 5 | Gene | gene | SLIT3
+38414132 | @DISEASE_Heart_Defects_Congenital | Heart Defects Congenital | 697 | 24 | Disease | disease | congenital heart defects
+38414132 | @DISEASE_Iron_Overload | Iron Overload | 734 | 29 | Disease | disease | ventricular pressure overload
+38414132 | @GENE_SLIT3 | SLIT3 | 837 | 5 | Gene | gene | SLIT3
+38414132 | @DISEASE_Hypertrophy | Hypertrophy | 1029 | 25 | Disease | disease | cardiomyocyte hypertrophy
+38414132 | @GENE_SLIT3 | SLIT3 | 1115 | 5 | Gene | gene | SLIT3
+38414132 | @GENE_SLIT3 | SLIT3 | 1189 | 5 | Gene | gene | SLIT3
+38414132 | @GENE_SLIT3 | SLIT3 | 1228 | 5 | Gene | gene | SLIT3
+38414132 | @DISEASE_Hypertrophy | Hypertrophy | 1245 | 25 | Disease | disease | cardiomyocyte hypertrophy
+38414132 | @DISEASE_Hypertrophy | Hypertrophy | 1296 | 11 | Disease | disease | hypertrophy
+38414132 | @GENE_ROBO1 | Robo1 | 1347 | 5 | Gene | gene | ROBO1
+38414132 | @GENE_ROBO1 | Robo1 | 1430 | 5 | Gene | gene | ROBO1
+38414132 | @GENE_SLIT3 | SLIT3 | 1445 | 5 | Gene | gene | SLIT3
+38414132 | @DISEASE_Cardiomyopathy_Hypertrophic | Cardiomyopathy Hypertrophic | 1453 | 12 | Disease | disease | hypertrophic
+38414132 | @GENE_TCF21 | Tcf21 | 1493 | 5 | Gene | gene | Tcf21
+38414132 | @GENE_TBX18 | Tbx18 | 1515 | 5 | Gene | gene | Tbx18
+38414132 | @GENE_SLIT3 | Slit3 | 1563 | 5 | Gene | gene | SLIT3
+38414132 | @DISEASE_Hypertrophy_Left_Ventricular | Hypertrophy Left Ventricular | 1599 | 26 | Disease | disease | left ventricle hypertrophy
+38414132 | @DISEASE_Fibrosis | Fibrosis | 1630 | 16 | Disease | disease | cardiac fibrosis
+38414132 | @DISEASE_Myelitis_Transverse | Myelitis Transverse | 1657 | 30 | Disease | disease | transverse aortic constriction
+38414132 | @GENE_MYH6 | Myh6 | 1702 | 9 | Gene | gene | alpha-MHC
+38414132 | @GENE_ROBO1 | Robo1 | 1748 | 5 | Gene | gene | ROBO1
+38414132 | @DISEASE_Hypertrophy | Hypertrophy | 1807 | 11 | Disease | disease | hypertrophy
+38414132 | @DISEASE_Fibrosis | Fibrosis | 1828 | 8 | Disease | disease | fibrosis
+38414132 | @DISEASE_Myelitis_Transverse | Myelitis Transverse | 1848 | 30 | Disease | disease | transverse aortic constriction
+38414132 | @GENE_SLIT3 | Slit3 | 1938 | 5 | Gene | gene | SLIT3
+38414132 | @GENE_ROBO1 | Robo1 | 1944 | 5 | Gene | gene | ROBO1
+38414132 | @DISEASE_Hypertrophy | Hypertrophy | 1989 | 25 | Disease | disease | cardiomyocyte hypertrophy

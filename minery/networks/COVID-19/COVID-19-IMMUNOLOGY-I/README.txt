@@ -1,43 +1,38 @@
-# bioPatternsg
-Sistema para el modelado y análisis de redes de regulación genética.
-BioPatterns recibe una colección de objetos de interés y organiza automáticamente bases de conocimiento relativas a tales objetos y sus posibles interacciones.
-Autores: José Lopez <josesmooth@gmail.com>, Yacson Ramirez <yacson.ramirez@gmail.com>, Jacinto Davila <jacinto.davila@gmail.com>
+# biopathwaysg
+A system for modeling and analyzing genetic regulatory networks.
+Biopathwaysg receives a collection of objects of interest and automatically organizes knowledge bases related to those objects and their potential interactions.
+Authors: José Lopez <josesmooth@gmail.com>, Yacson Ramirez <yacson.ramirez@gmail.com>, Jacinto Davila <jacinto.davila@gmail.com>
 
+For the example described here, the list of objects corresponds to COVID-19 and the immune system; examples of sets of objects to model GRNs are:
 
-Para el ejemplo que aquí se describe el listado de objetos corresponde al COVID-19 y al sistema inmune; siendo estos en particular:
+1. JAK3, STAT, SARS-CoV-2, SARS-CoV-1, ORF6, IMPORTIN, MHC, CD4, CD8, MICA, MICB, MICC, HLA-A, HLA-B, HLA-C, CCR5, CXCR4, ACE2, COVID-19, 
 
-JAK3,STAT,SARS-CoV-2,SARS-CoV,ORF6,IMPORTIN,MHC,CD4,CD8,MICA,MICB,MICC,HLA-A,HLA-B,HLA-C,CCR5,CXCR4,ACE2,COVID-19,'Severe Acute Respiratory Syndrome'
+2. JAK3,JAK1,STAT1,STAT2,STAT3,STAT4,STAT5A,STAT5B,STAT6,IPO4,IPO5,IPO7,IPO8,IPO9,IPO11,IPO13,IPO5P1,MICA,MICB,HLA-A,HLA-B,HLA-C,CCR5,ORF6,O RF8,CD4,CD8,CCR5,CXCR4,ACE2,COVID-19,IFNG,IFNA1,IFNB1,IFNGR1,IFNAR1,IFNA8,IFNA,IFNL1,IFN1@,IFNA3,IFN-ALPHA-14,IFNA21,DEXAMETHASONE,HYDROXY CHLOROQUINE, REMDESIVIR, lopinavir-ritonavir, CHLOROQUINE, TOCILIZUMAB, FAVIPIRAVIR, IVERMECTIN, CHLORINE
 
-HLA-C,STAT3,CXCR4,MICA,CD4,JAK3,STAT1,COVID-19
+3. JAK3, JAK1, STAT, IMPORTIN, MICA, MICB, HLA-A, HLA-B, HLA-C, CCR5, ORF6, ORF8, CD4, CD8, CCR5, CXCR4, ACE2, COVID-19, INTERFERON, DEXAMETHASONE, HYDROXYCHLOROQUINE, REMDESIVIR, lopinavir-ritonavir, CHLOROQUINE, TOCILIZUMAB, FAVIPIRAVIR, IVERMECTIN, CHLORINE
 
-JAK3,JAK1,STAT1,STAT2,STAT3,STAT4,STAT5A,STAT5B,STAT6,IPO4,IPO5,IPO7,IPO8,IPO9,IPO11,IPO13,IPO5P1,MICA,MICB,HLA-A,HLA-B,HLA-C,CCR5,ORF6,ORF8,CD4,CD8,CCR5,CXCR4,ACE2,COVID-19,IFNG,IFNA1,IFNB1,IFNGR1,IFNAR1,IFNA8,IFNA,IFNL1,IFN1@,IFNA3,IFN-ALPHA-14,IFNA21,DEXAMETHASONE,HYDROXYCHLOROQUINE,REMDESIVIR,lopinavir-ritonavir,CHLOROQUINE,TOCILIZUMAB,FAVIPIRAVIR,IVERMECTIN,CHLORINE
+The following list describes the content and functionality of each of the generated knowledge bases and the accompanying documentation:
 
-JAK3,JAK1,STAT,IMPORTIN,MICA,MICB,HLA-A,HLA-B,HLA-C,CCR5,ORF6,ORF8,CD4,CD8,CCR5,CXCR4,ACE2,COVID-19,INTERFERON,DEXAMETHASONE,HYDROXYCHLOROQUINE,REMDESIVIR,lopinavir-ritonavir,CHLOROQUINE,TOCILIZUMAB,FAVIPIRAVIR,IVERMECTIN,CHLORINE
+kBase.pl: Contains the general list of regulatory events proposed by the system for the collection of objects of interest.
 
-El siguiente listado describe el contenido y funcionalidad de cada una de las bases de conocimiento generadas y la documentacion que las acompana:
+kBaseDoc.txt: Contains the events described in kBase.pl, along with the sentences from which they are constructed.
 
-kBase.pl: Contiene el listado general de eventos de regulación propuestos por el sistema para la colección de objetos de interés.
+pathways.txt: Describes the collection of regulatory pathways (pathways) proposed by the system for the collection of objects of interest. The pathways end in the closing objects indicated by the user; for example, SARS-CoV-2, STAT, and ORF6.
 
-kBaseDoc.txt: Contiene los eventos descritos en kBase.pl, acompañados de las oraciones desde las que estos se construyen.
+eventsDoc.txt: Contains ONLY the events that make up the collection of pathways present in pathways.txt. Its content is defined by kBaseDoc.txt and pathways.txt. The eventsDoc.txt file is intended to make it easier for the user to review the documentation related to the pathways that the system has proposed in pathways.txt.
 
-pathways.txt: Describe la colección de patrones de regulación (pathways) propuestos por el sistema para la colección de objetos de interés. Los patrones terminan en los objetos de cierre que el usuario haya indicado; por ejemplo SARS-CoV-2, STAT, y ORF6.
+kBaseR.pl: Corresponds to a generalized version of kBase.pl. Its purpose is to model a reduced collection of events that facilitates both the search for pathways and their graphical representation. Events are generalized using the notion of synonymous events. For example, the events event('A',bind,'B'), event('A',recognize,'B'), and event('A',interact,'B') are reduced to event('A',bind,'B'). This reduction does not imply any loss of information, as the system reports all the sentences that document each possible variant of each event.
 
-eventsDoc.txt: Contiene SOLO los eventos que dan forma a la colección de patrones presentes pathways.txt. Su contenido se define desde kBaseDoc.txt y pathways.txt. El archivo eventsDoc.txt pretende facilitar al usuario la revisión de la documentación relativa a los patrones que el sistema le ha propuesto en pathways.txt.
+kBaseP.pl: Contains the subset of events defined from kBaseR.pl that shape the pathways proposed in pathways.txt. This file enables the graphical representation of the pathway network and, together with kBaseDoc.txt, allows the content of eventDoc.txt to be defined.
 
-kBaseR.pl: Corresponde a una versión generalizada de kBase.pl. Su finalidad es modelar una colección de eventos reducida que favorezca tanto la búsqueda de los patrones, como la representación gráfica de estos. Los eventos se generalizan empleando la noción de eventos sinónimos. Por ejemplo, los eventos event('A',bind,'B'), event('A',recognize,'B') y event('A',interact,'B'), se reducen a event('A',bind,'B'). Esta reducción no implica perdida de información pues el sistema reporta todas las oraciones que documentan cada variante posible de cada evento.
+pathwaysDoc.txt: Refers to the pathways listed in pathways.txt, accompanied by a breakdown of the events in each pathway and the sentences from which they are proposed. Just as eventDoc.txt allows you to review the knowledge from which regulatory events are proposed, pathwaysDoc.txt offers the ability to review the knowledge from which each pathway is proposed.
 
-kBaseP.pl: Contiene el subconjunto de eventos definidos desde kBaseR.pl que dan forma a los patrones propuestos en pathways.txt. Este archivo hace posible la representación gráfica de la red de patrones y permite, junto a kBaseDoc.txt, definir el contenido de eventDoc.txt.
+pathwaysObjects.pl: Describes the identity assigned to the objects of interest. The identity refers to whether it is a ligand, receptor, protein, or transcription factor. In principle, the system automatically assigns roles to each object, but this is reviewed manually. Only ligand or receptor objects can initiate regulatory pathways, and every pathway ends with a protein-type target object. The roles guide the exploration of pathways in the kBaseR.pl knowledge base.
 
-pathwaysDoc.txt: Se refiere a los pathways listados en pathways.txt, acompañados del desglose de los eventos de cada pathway y las oraciones desde las que estos son propuestos. Así como eventDoc.txt permite revisar el conocimiento desde el cual se proponen los eventos de regulación, pathwaysDoc.txt ofrece la posibilidad de revisar el conocimiento desde el cual se propone cada patrón.
+network-<object collection>-<print date>.jpg: Corresponds to the graphical representation of the events present in the pathways listed in pathways.txt. <object collection> indicates the closing objects for the pathways in pathways.txt. <print date> allows you to differentiate one graph from another if they are the same collection of closing objects.
 
-pathwaysObjects.pl: Describe la identidad asignada a los objetos de interés. La identidad se refiere a si se trata de un ligando, un receptor, una proteína o un factor de transcripción. En principio el sistema asigna automáticamente los roles de cada objeto pero esta es revisada manualmente. Solo los objetos del tipo ligando o receptor pueden iniciar patrones de regulación y todo patrón termina con un objeto objetivo de tipo proteína. Los roles guían la exploración de los patrones en la base de conocimiento kBaseR.pl.  
+minedObjects.txt: Defines all the standard identifiers currently defined for the collection of interest, plus those transcription factors (TFs) obtained automatically. TFs are defined from the regulatory region offered to the system (in this case, SARS-CoV-2). This list also includes objects proposed by the PDB linked to the proposed TFs. Each identifier has a line associated with it, first indicating the object's standard name and the synonyms that the system can automatically propose.
 
-network-<colección de objetos>-<fecha de impresión>.jpg: Corresponde a la representación gráfica de los eventos presentes en los patrones listados en pathways.txt. <colección de objetos> indica los objetos de cierre para los patrones en pathways.txt.
-<fecha de impresión> permite diferenciar un gráfico de otro en caso de que se trate de una misma colección de objetos de cierre.
+relations-functions.txt: It lists the synonymous interactions for each of the generic interactions that the system handles, in this case: regulate, inhibit, associate, and bind. It can be seen, for example, that for the system, the interactions bind, interact, activate, and recognize are synonymous. Other relations come from the IA available from the NCBI's PubTator service, like: comparison, association, positive_correlation, and negative_correlation.
 
-minedObjects.txt: define todos los identificadores estándares actualmente definidos para la colección de interés, mas para aquellos factores de transcripción (FTs) obtenidos automáticamente. Los FTs se definen desde la región de regulación ofrecida al sistema (en este caso la del SARS-Cov-2). Este listado también incluye objetos que PDB propone vinculados a los FTs propuestos. Cada identificador tiene asociada una linea donde primero se indica el nombre estándar del objeto y los sinónimos que el sistema logra proponer automáticamente.
-
-relations-functions.txt: Establece las interacciones sinónimas para cada una de las interacciones genéricas que el sistema maneja, en este caso: regulate, inhibit, associate y bind. Puede verse, por ejemplo, que para el sistema las interacciones bind, interact, activate y recognize son sinónimas.
-
-<object-name>_chainsPathways.txt: Describe cadenas de patrones conectados (subredes) que describen escenarios de regulación e inhibición para un objeto biologico de interés.
-
+<object-name>_chainsPathways.txt: Describes chains of connected pathways (subnetworks) that describe regulation and inhibition scenarios for a biological object of interest.
