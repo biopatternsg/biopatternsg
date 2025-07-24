@@ -6,13 +6,11 @@ Autores: José Lopez <josesmooth@gmail.com>, Yacson Ramirez <yacson.ramirez@gmai
 
 Para el ejemplo que aquí se describe el listado de objetos corresponde al COVID-19 y al sistema inmune; siendo estos en particular:
 
-JAK3,STAT,SARS-CoV-2,SARS-CoV,ORF6,IMPORTIN,MHC,CD4,CD8,MICA,MICB,MICC,HLA-A,HLA-B,HLA-C,CCR5,CXCR4,ACE2,COVID-19,'Severe Acute Respiratory Syndrome'
+1. JAK3,STAT,SARS-CoV-2,SARS-CoV,ORF6,IMPORTIN,MHC,CD4,CD8,MICA,MICB,MICC,HLA-A,HLA-B,HLA-C,CCR5,CXCR4,ACE2,COVID-19,'Severe Acute Respiratory Syndrome'
 
-HLA-C,STAT3,CXCR4,MICA,CD4,JAK3,STAT1,COVID-19
+2. HLA-C,STAT3,CXCR4,MICA,CD4,JAK3,STAT1,COVID-19
 
-JAK3,JAK1,STAT1,STAT2,STAT3,STAT4,STAT5A,STAT5B,STAT6,IPO4,IPO5,IPO7,IPO8,IPO9,IPO11,IPO13,IPO5P1,MICA,MICB,HLA-A,HLA-B,HLA-C,CCR5,ORF6,ORF8,CD4,CD8,CCR5,CXCR4,ACE2,COVID-19,IFNG,IFNA1,IFNB1,IFNGR1,IFNAR1,IFNA8,IFNA,IFNL1,IFN1@,IFNA3,IFN-ALPHA-14,IFNA21,DEXAMETHASONE,HYDROXYCHLOROQUINE,REMDESIVIR,lopinavir-ritonavir,CHLOROQUINE,TOCILIZUMAB,FAVIPIRAVIR,IVERMECTIN,CHLORINE
-
-JAK3,JAK1,STAT,IMPORTIN,MICA,MICB,HLA-A,HLA-B,HLA-C,CCR5,ORF6,ORF8,CD4,CD8,CCR5,CXCR4,ACE2,COVID-19,INTERFERON,DEXAMETHASONE,HYDROXYCHLOROQUINE,REMDESIVIR,lopinavir-ritonavir,CHLOROQUINE,TOCILIZUMAB,FAVIPIRAVIR,IVERMECTIN,CHLORINE
+3. JAK3,JAK1,STAT1,STAT2,STAT3,STAT4,STAT5A,STAT5B,STAT6,IPO4,IPO5,IPO7,IPO8,IPO9,IPO11,IPO13,IPO5P1,MICA,MICB,HLA-A,HLA-B,HLA-C,CCR5,ORF6,ORF8,CD4,CD8,CCR5,CXCR4,ACE2,COVID-19,IFNG,IFNA1,IFNB1,IFNGR1,IFNAR1,IFNA8,IFNA,IFNL1,IFN1@,IFNA3,IFN-ALPHA-14,IFNA21,DEXAMETHASONE,HYDROXYCHLOROQUINE,REMDESIVIR,lopinavir-ritonavir,CHLOROQUINE,TOCILIZUMAB,FAVIPIRAVIR,IVERMECTIN,CHLORINE
 
 El siguiente listado describe el contenido y funcionalidad de cada una de las bases de conocimiento generadas y la documentacion que las acompana:
 
@@ -37,7 +35,7 @@ network-<colección de objetos>-<fecha de impresión>.jpg: Corresponde a la repr
 
 minedObjects.txt: define todos los identificadores estándares actualmente definidos para la colección de interés, mas para aquellos factores de transcripción (FTs) obtenidos automáticamente. Los FTs se definen desde la región de regulación ofrecida al sistema (en este caso la del SARS-Cov-2). Este listado también incluye objetos que PDB propone vinculados a los FTs propuestos. Cada identificador tiene asociada una linea donde primero se indica el nombre estándar del objeto y los sinónimos que el sistema logra proponer automáticamente.
 
-relations-functions.txt: Establece las interacciones sinónimas para cada una de las interacciones genéricas que el sistema maneja, en este caso: regulate, inhibit, associate y bind. Puede verse, por ejemplo, que para el sistema las interacciones bind, interact, activate y recognize son sinónimas.
+relations-functions.txt: Establece las interacciones sinónimas para cada una de las interacciones genéricas que el sistema maneja, en este caso: regulate, inhibit, associate y bind. Puede verse, por ejemplo, que para el sistema las interacciones bind, interact, activate y recognize son sinónimas. Otras formas de interacción vienen desde la IA accesible a través del servicio Pubtator perteneciente al NCBI.
 
-<object-name>_chainsPathways.txt: Describe cadenas de patrones conectados (subredes) que describen escenarios de regulación e inhibición para un objeto biologico de interés.
+<object-name>_chainsPathways.txt: Describe cadenas de patrones conectados (subredes) que describen escenarios de regulación e inhibición para un objeto biológico de interés.
 
