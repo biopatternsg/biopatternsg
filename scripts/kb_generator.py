@@ -185,6 +185,10 @@ if __name__ == '__main__':
         print(f'Not "abstracts" folder available. Please check.')
         exit()
 
+    if path.exists(logs_files_path):
+        shutil.rmtree(logs_files_path)
+    os.mkdir(logs_files_path)
+
     nltk.download('punkt')
     nltk.download('punkt_tab')
 
