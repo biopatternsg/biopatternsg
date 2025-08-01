@@ -54,10 +54,16 @@ public class lecturas_HGNC extends conexionServ {
         ArrayList<HGNC> HGNC = new ArrayList<>();
         var symbols = searchSymbols(gene);
 
-        symbols.forEach(symbol -> {
-            var hgnc = searchInformation(symbol, GO, MESH, ruta);
+        if (symbols == null || symbols.isEmpty()) {
+            var hgnc = new HGNC();
+            hgnc.setNombre(gene);
             HGNC.add(hgnc);
-        });
+        } else {
+            symbols.forEach(symbol -> {
+                var hgnc = searchInformation(symbol, GO, MESH, ruta);
+                HGNC.add(hgnc);
+            });
+        }
 
         return HGNC;
     }
