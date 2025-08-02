@@ -40,7 +40,7 @@ public class objetos_Experto {
     public ArrayList<String> listaNombres() {
         ArrayList<String> lista = new ArrayList<>();
         lista.add(ID);
-        HGNC.forEach(hgnc -> lista.addAll(hgnc.ListaNombres()));
+        HGNC.parallelStream().forEach(hgnc -> lista.addAll(hgnc.ListaNombres()));
 
         return lista;
     }

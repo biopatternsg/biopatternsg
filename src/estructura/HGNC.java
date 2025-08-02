@@ -30,6 +30,7 @@ public class HGNC {
     private ArrayList<String> sinonimos;
     private ArrayList<String> gene_family;
     private ArrayList<String> tejidos;
+    
 
     public HGNC() {
         sinonimos = new ArrayList<>();

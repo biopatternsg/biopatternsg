@@ -34,6 +34,7 @@ import javax.swing.JOptionPane;
 import javax.swing.JPasswordField;
 import javax.swing.JTextField;
 import org.jpl7.Query;
+import servicios.lecturas_HGNC;
 
 import servicios.lecturas_PM;
 import servicios.lecturas_QuickGO;
@@ -231,15 +232,22 @@ public class BioPattern {
 
     public void pruebas() throws StringIndexOutOfBoundsException, Exception {
         
-        confGeneral confG = new confGeneral();
-        confG.seleccionarIdioma();
-        new utilidades();
-        String ruta = "minery/networks/COVID-19/COVID-19-IMMUNOLOGY";
+        System.out.println("Hola mundo");
+        lecturas_HGNC hgnc = new lecturas_HGNC();
+        
+       var result = hgnc.busquedaInfGen("OTRO", false, false, "ruta");
+       
+        result.forEach(l->l.imprimir());
+        
+        //confGeneral confG = new confGeneral();
+        //confG.seleccionarIdioma();
+        //new utilidades();
+        //String ruta = "minery/networks/COVID-19/COVID-19-IMMUNOLOGY";
         //String ruta = "minery/networks/BAXS/FABP6(I-BABP)";
         //String ruta = "minery/networks/BAXS/CYP7A1-short-names";
         
-        utilidades.proceso = ruta;
-        configuracion config = new configuracion();
+        //utilidades.proceso = ruta;
+        //configuracion config = new configuracion();
         //conf.recuperarConfiguracion(ruta);
         //este metodo llama al resumidor_bioinformante hace uso de la coleccion de abstracts
         //new Resumidor().resumidor(config, ruta);
@@ -248,7 +256,7 @@ public class BioPattern {
         //String kb = new GeneradorBC().generadorBC("kBase.pl", config, ruta);
         
         // crea la bace de conocimiento con el listado de eventos encontrados por el resumidor
-        String kb = new GeneradorBC().generadorBCInt("COVID-19", false);
+        //String kb = new GeneradorBC().generadorBCInt("COVID-19", false);
 
         // se crea el archivo 'mineria/pathwaysObjects.pl' haciendo uso de los objetos que se encontran en la base de conocimiento y la informacion en las ontologias
         //new objetos_patrones().generar_archivo(config, ruta);
