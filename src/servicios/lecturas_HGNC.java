@@ -57,6 +57,7 @@ public class lecturas_HGNC extends conexionServ {
         if (symbols == null || symbols.isEmpty()) {
             var hgnc = new HGNC();
             hgnc.setNombre(gene);
+            hgnc.setSimbolo(gene);
             HGNC.add(hgnc);
         } else {
 
