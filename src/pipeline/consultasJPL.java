@@ -478,7 +478,7 @@ public class consultasJPL {
                             }
                         }
                     }
-                    //se revisa si existen enventos de enlace para los patrones analizados
+                    //se revisa si existen eventos de enlace para los patrones analizados
                     else if (!resp.equals("")) {
                          //se verifica que la cadena sea coherente
                         if (validar_cadena(pat, p)) {
@@ -570,7 +570,7 @@ public class consultasJPL {
         
     
         //se valida que si el el objeto de cierre es el mismo en el inicio que al final el evento debe ser distindo
-        //si comienza up dete terminar down
+        //si comienza up debe terminar down
         if (!tip1.equals(tip2)) {
             return true;
         }
@@ -1282,31 +1282,20 @@ public class consultasJPL {
         String tipo = "";
 
         ArrayList<String> eventosUP = new ArrayList<>();
+        eventosUP.add("positive_correlation");
+        eventosUP.add("stimulation");
         eventosUP.add("activate");
-        eventosUP.add("phosphorylate");
-        eventosUP.add("regulate");
-        eventosUP.add("transcriptional-activate");
-        eventosUP.add("up-regulate");
-        eventosUP.add("enhance");
-        eventosUP.add("induce");
-        eventosUP.add("lead");
-        eventosUP.add("trigger");
-        eventosUP.add("translate");
-        eventosUP.add("transcribe");
-        eventosUP.add("reactivate");
-        eventosUP.add("promote");
-        eventosUP.add("synthesize");
-        eventosUP.add("bind");
+        eventosUP.add("activation"); 
         eventosUP.add("stimulate");
+        eventosUP.add("cause");
+        
 
         ArrayList<String> eventosDOWN = new ArrayList<>();
+        eventosDOWN.add("negative_correlation");        
         eventosDOWN.add("inhibit");
-        eventosDOWN.add("down-regulate");
-        eventosDOWN.add("repress");
+        eventosDOWN.add("inhibition");
         eventosDOWN.add("prevent");
-        eventosDOWN.add("suppress");
-        eventosDOWN.add("retain");
-        eventosDOWN.add("inactivate");
+        eventosDOWN.add("prevention");        
 
         String separa[] = Patron.split(";");
 
