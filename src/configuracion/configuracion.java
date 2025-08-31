@@ -324,8 +324,8 @@ public class configuracion {
             System.out.println(utilidades.idioma.get(49));
             System.out.println(utilidades.idioma.get(50));
             System.out.println(utilidades.idioma.get(51));
-            System.out.println(utilidades.idioma.get(154));
-            System.out.println(utilidades.idioma.get(155));
+            //System.out.println(utilidades.idioma.get(154));
+            //System.out.println(utilidades.idioma.get(155));
             System.out.println(utilidades.idioma.get(156));
             System.out.println(utilidades.idioma.get(4));
 
@@ -369,13 +369,13 @@ public class configuracion {
                 case "3":
                     new patrones().inferir_patrones(this, ruta);
                     break;
-                case "4":
+                /*case "4":
                     new patrones().kbase_update(this, ruta);
                     break;
                 case "5":
                     new patrones().pathways_documentation(this, ruta);
-                    break;
-                case "6":
+                    break;*/
+                case "4":
 
                     reanudarDesde(ruta, rutaD);
                     break;
@@ -396,11 +396,11 @@ public class configuracion {
             System.out.println(utilidades.idioma.get(0));
             System.out.println("1.- " + utilidades.idioma.get(28));
             System.out.println("2.- " + utilidades.idioma.get(29));
-            System.out.println("3.- " + utilidades.idioma.get(30));
-            System.out.println("4.- " + utilidades.idioma.get(31));
+            //System.out.println("3.- " + utilidades.idioma.get(30));
+            System.out.println("3.- " + utilidades.idioma.get(31));
             //System.out.println("5.- " + utilidades.idioma.get(32));
-            System.out.println("5.- " + utilidades.idioma.get(33));
-            System.out.println("6.- " + utilidades.idioma.get(34));
+            System.out.println("4.- " + utilidades.idioma.get(33));
+            //System.out.println("6.- " + utilidades.idioma.get(34));
             System.out.println("0.- " + utilidades.idioma.get(4));
 
             String resp = lectura.nextLine();
@@ -432,7 +432,7 @@ public class configuracion {
                     reanudar(6, new objetosMineria(), ruta, rutaD);
                     break;
 
-                case "3":
+               /* case "3":
                     abstracts = false;
                     vaciado_pl = false;
                     generarResumenes = false;
@@ -441,9 +441,9 @@ public class configuracion {
                     InferirPatrones = false;
                     guardar(ruta);
                     reanudar(7, new objetosMineria(), ruta, rutaD);
-                    break;
+                    break;*/
 
-                case "4":
+                case "3":
                     vaciado_pl = false;
                     generarResumenes = false;
                     GenerarBC = false;
@@ -454,7 +454,7 @@ public class configuracion {
                     break;
 
                 
-                case "5":
+                case "4":
                     GenerarBC = false;
                     objetosPatrones = false;
                     InferirPatrones = false;
@@ -462,12 +462,12 @@ public class configuracion {
                     reanudar(10, new objetosMineria(), ruta, rutaD);
                     break;
 
-                case "6":
+                /*case "6":
                     objetosPatrones = false;
                     InferirPatrones = false;
                     guardar(ruta);
                     reanudar(11, new objetosMineria(), ruta, rutaD);
-                    break;
+                    break;*/
 
                 case "0":
                     r = false;

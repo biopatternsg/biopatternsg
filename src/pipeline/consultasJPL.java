@@ -36,9 +36,9 @@ import java.util.Map;
 import java.util.Scanner;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-import org.jpl7.Query;
-import org.jpl7.Term;
-import org.jpl7.Variable;
+import jpl.Query;
+import jpl.Term;
+import jpl.Variable;
 
 /**
  *
@@ -109,13 +109,13 @@ public class consultasJPL {
             System.out.println(utilidades.colorReset);
             
             System.out.println(utilidades.colorTexto2+utilidades.idioma.get(94) + "\n");
-            System.out.println(utilidades.idioma.get(95));
+           /* System.out.println(utilidades.idioma.get(95));
             System.out.println(utilidades.idioma.get(96));
             System.out.println(utilidades.idioma.get(97));
             System.out.println(utilidades.idioma.get(98));
             System.out.println(utilidades.idioma.get(99));
             System.out.println(utilidades.idioma.get(100));
-            System.out.println(utilidades.idioma.get(101));
+            System.out.println(utilidades.idioma.get(101));*/
             System.out.println(utilidades.idioma.get(102));
             System.out.println(utilidades.idioma.get(103));
             //System.out.println("10.- Busqueda de tejidos");
@@ -125,7 +125,7 @@ public class consultasJPL {
 
             switch (resp) {
 
-                case "1":
+             /*   case "1":
                     buscar_receptores();
                     break;
                 case "2":
@@ -145,13 +145,13 @@ public class consultasJPL {
                     break;
                 case "7":
                     buscar_tipo_ligando(ruta);
-                    break;
-                case "8":
+                    break;*/
+                case "1":
                     //buscar_cadenas_pathwaysRest(ruta);
                     buscar_cadenas_pathways(ruta);
                     
                     break;
-                case "9":
+                case "2":
                     consultar_objeto(ruta);
                     break;
                 
