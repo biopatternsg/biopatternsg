@@ -36,9 +36,9 @@ import java.util.Map;
 import java.util.Scanner;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-import jpl.Query;
-import jpl.Term;
-import jpl.Variable;
+import org.jpl7.Query;
+import org.jpl7.Term;
+import org.jpl7.Variable;
 
 /**
  *
@@ -573,7 +573,7 @@ public class consultasJPL {
         //System.out.println(sep1[sep1.length - 1] + " " + tip1 + " --> " + sep2[sep2.length - 1] + "  " + tip2);
 
         //se valida que si el el objeto de cierre es el mismo en el inicio que al final el evento debe ser distindo
-        //si comienza up dete terminar down
+        //si comienza up debe terminar down
         if (!tip1.equals(tip2)) {
             return true;
         }
@@ -1284,31 +1284,20 @@ public class consultasJPL {
         String tipo = "";
 
         ArrayList<String> eventosUP = new ArrayList<>();
+        eventosUP.add("positive_correlation");
+        eventosUP.add("stimulation");
         eventosUP.add("activate");
-        eventosUP.add("phosphorylate");
-        eventosUP.add("regulate");
-        eventosUP.add("transcriptional-activate");
-        eventosUP.add("up-regulate");
-        eventosUP.add("enhance");
-        eventosUP.add("induce");
-        eventosUP.add("lead");
-        eventosUP.add("trigger");
-        eventosUP.add("translate");
-        eventosUP.add("transcribe");
-        eventosUP.add("reactivate");
-        eventosUP.add("promote");
-        eventosUP.add("synthesize");
-        eventosUP.add("bind");
+        eventosUP.add("activation"); 
         eventosUP.add("stimulate");
+        eventosUP.add("cause");
+        
 
         ArrayList<String> eventosDOWN = new ArrayList<>();
+        eventosDOWN.add("negative_correlation");        
         eventosDOWN.add("inhibit");
-        eventosDOWN.add("down-regulate");
-        eventosDOWN.add("repress");
+        eventosDOWN.add("inhibition");
         eventosDOWN.add("prevent");
-        eventosDOWN.add("suppress");
-        eventosDOWN.add("retain");
-        eventosDOWN.add("inactivate");
+        eventosDOWN.add("prevention");        
 
         String separa[] = Patron.split(";");
 
