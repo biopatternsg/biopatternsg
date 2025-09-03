@@ -36,9 +36,9 @@ import java.util.Map;
 import java.util.Scanner;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-import jpl.Query;
-import jpl.Term;
-import jpl.Variable;
+import org.jpl7.Query;
+import org.jpl7.Term;
+import org.jpl7.Variable;
 
 /**
  *
@@ -61,7 +61,9 @@ public class consultasJPL {
         //buscar_tipo_ligando();
         //buscar_tejido();
         //buscar_cadenas_pathways();
-        ///home/yacson/swi-prolog/lib/swipl-7.6.3/lib/x86_64-linux
+    
+
+    ///home/yacson/swi-prolog/lib/swipl-7.6.3/lib/x86_64-linux
     }
 
     public void menu(String ruta) {
@@ -104,12 +106,12 @@ public class consultasJPL {
         while (r) {
             System.out.println();
             new utilidades().limpiarPantalla();
-            System.out.println(utilidades.colorTexto1+utilidades.titulo);
-            System.out.println(utilidades.colorTexto1+utilidades.proceso);
+            System.out.println(utilidades.colorTexto1 + utilidades.titulo);
+            System.out.println(utilidades.colorTexto1 + utilidades.proceso);
             System.out.println(utilidades.colorReset);
-            
-            System.out.println(utilidades.colorTexto2+utilidades.idioma.get(94) + "\n");
-           /* System.out.println(utilidades.idioma.get(95));
+
+            System.out.println(utilidades.colorTexto2 + utilidades.idioma.get(94) + "\n");
+            /* System.out.println(utilidades.idioma.get(95));
             System.out.println(utilidades.idioma.get(96));
             System.out.println(utilidades.idioma.get(97));
             System.out.println(utilidades.idioma.get(98));
@@ -125,7 +127,7 @@ public class consultasJPL {
 
             switch (resp) {
 
-             /*   case "1":
+                /*   case "1":
                     buscar_receptores();
                     break;
                 case "2":
@@ -149,12 +151,12 @@ public class consultasJPL {
                 case "1":
                     //buscar_cadenas_pathwaysRest(ruta);
                     buscar_cadenas_pathways(ruta);
-                    
+
                     break;
                 case "2":
                     consultar_objeto(ruta);
                     break;
-                
+
                 case "0":
                     r = false;
                     break;
@@ -170,10 +172,10 @@ public class consultasJPL {
         while (r) {
             System.out.println();
             new utilidades().limpiarPantalla();
-            System.out.println(utilidades.colorTexto1+utilidades.titulo);
-            System.out.println(utilidades.colorTexto1+utilidades.proceso);
+            System.out.println(utilidades.colorTexto1 + utilidades.titulo);
+            System.out.println(utilidades.colorTexto1 + utilidades.proceso);
             System.out.println(utilidades.colorReset);
-            
+
             System.out.print(utilidades.idioma.get(104));
             String text = lectura.nextLine();
             String objeto = "'" + text.replace("'", "") + "'";
@@ -221,7 +223,7 @@ public class consultasJPL {
                     break;
 
                 case "2":
-                    //new ontologiaObjMin().buscarObjeto(obj.replace("'", ""), true, false, ruta);
+                    new ontologiaObjMin().buscarObjeto(obj.replace("'", ""), true, false, ruta);
                     break;
 
                 case "0":
@@ -284,16 +286,22 @@ public class consultasJPL {
             System.out.println(utilidades.idioma.get(110));
         }
 
-        String consulta3 = "buscar_tejidos(" + objeto + ",T).";
-        Query q5 = new Query(consulta3);
         ArrayList<String> tejidos = new ArrayList<>();
-        for (int i = 0; i < q5.allSolutions().length; i++) {
-            String aux = q5.allSolutions()[i].toString();
-            aux = aux.replace("{", "").replace("}", "").replace("T=", "").replace(" ", "");
+        
+        try {
+            String consulta3 = "buscar_tejidos(" + objeto + ",T).";
+            Query q5 = new Query(consulta3);
 
-            if (!tejidos.contains(aux)) {
-                tejidos.add(aux);
+            for (int i = 0; i < q5.allSolutions().length; i++) {
+                String aux = q5.allSolutions()[i].toString();
+                aux = aux.replace("{", "").replace("}", "").replace("T=", "").replace(" ", "");
+
+                if (!tejidos.contains(aux)) {
+                    tejidos.add(aux);
+                }
             }
+        } catch (Exception e) {
+               //no se consiguieron tejidos
         }
 
         if (tejidos.size() > 0) {
@@ -317,8 +325,8 @@ public class consultasJPL {
         String patIn = "'oxysterols',bind,'NR1H3';'NR1H3',regulate,'CYP7A1'";
         //pathWaysin.removeIf(p -> !p.getObjetos().get(p.getObjetos().size() - 1).equals(Objrest));
         //pathWaysin.removeIf(p -> !p.getObjetos().get(0).equals(Objresti));
-        pathWaysin.removeIf(p-> !p.getPatron().equals(patIn));
-        
+        pathWaysin.removeIf(p -> !p.getPatron().equals(patIn));
+
 //        pathWaysin.forEach(t -> System.out.println(t.getPatron()));
 //        System.out.println("\n\n");
         for (pathway pat : pathWaysin) {
@@ -340,11 +348,11 @@ public class consultasJPL {
         Scanner lectura = new Scanner(System.in);
         boolean r = true;
         while (r) {
-            
+
             System.out.println();
             new utilidades().limpiarPantalla();
-            System.out.println(utilidades.colorTexto1+utilidades.titulo);
-            System.out.println(utilidades.colorTexto1+utilidades.proceso);
+            System.out.println(utilidades.colorTexto1 + utilidades.titulo);
+            System.out.println(utilidades.colorTexto1 + utilidades.proceso);
             System.out.println(utilidades.colorReset);
 
             System.out.println(utilidades.idioma.get(111));
@@ -385,29 +393,27 @@ public class consultasJPL {
                             System.out.println(utilidades.idioma.get(114));
                         }
                     }
-                    
+
                     //se copia el arreglo de patrones
                     ArrayList<pathway> pathWaysin = new ArrayList<>();
                     pathWaysin.addAll(pathways);
-                     final String pathwayRest = Objrest;
-                   
+                    final String pathwayRest = Objrest;
+
                     //se eliminan todos los patrones que no tengan como objeto de cierre el indicado por el usuario
                     //pathWaysin.removeIf(p -> !p.getObjetos().get(p.getObjetos().size() - 1).equals(ObjrestF));
-                     
                     //se usa como patron de inicio solo el ingresado por el experto 
                     pathWaysin.removeIf(p -> !p.getPatron().equals(pathwayRest));
-                    
-                   
+
                     //Se eliminan todos los patrones que tengan mas eventos que la cantidad maxima ingresada por el experto
                     final int maximo = max;
-                    pathways.removeIf(p-> p.getPatron().split(";").length > maximo);
-                    
+                    pathways.removeIf(p -> p.getPatron().split(";").length > maximo);
+
                     for (pathway pat : pathWaysin) {
                         System.out.println("***" + pat.getPatron() + "\n\n");
                         //se recorre el arreglo de patrones y se toman solo los que complen con la cantida de objetos maxima
                         int tp = pat.getPatron().split(";").length;
                         if (tp <= max) {
-                            String ObjFinal = pat.getObjetos().get(pat.getObjetos().size() -1);
+                            String ObjFinal = pat.getObjetos().get(pat.getObjetos().size() - 1);
                             cadenaPat(pathways, pat, new ArrayList<cadenas_pathway>(), ruta, ObjFinal, max);
                         }
                     }
@@ -430,13 +436,12 @@ public class consultasJPL {
         listP2.removeIf(p -> p.getObjetos().toString().equals(pat.getObjetos().toString()));
         //se toma el objeto de cierre del patron raiz        
         String objin = pat.getObjetos().get(pat.getObjetos().size() - 1);
-        
-        
+
         listP2.stream().forEach((p) -> {
             //se verifica que los patrones cumplan con la cantidad maxima de objetos
             int pt = p.getPatron().split(";").length;
             if (pt <= max) {
-                
+
                 ArrayList<cadenas_pathway> cadenaAux = new ArrayList<>();
                 cadenaAux.addAll(cadena);
                 //System.out.println("--" + p.getPatron());
@@ -455,11 +460,11 @@ public class consultasJPL {
                         }
                     }
                     cadenas_pathway cad = new cadenas_pathway();
-                    
+
                     //si el objeto de cierre del primer patron es ingual al objeto de inicio del segundo
                     //se toma el primer evento del segundo patron como evento de enlace
                     if (objin.equals(p.getObjetos().get(0))) {
-                        
+
                         //se verifica que la cadena sea coherente
                         if (validar_cadena(pat, p)) {
                             String sep[] = p.getPatron().split(";");
@@ -477,10 +482,9 @@ public class consultasJPL {
                                 imprimirCadena(cadenaAux, ruta, objRest);
                             }
                         }
-                    }
-                    //se revisa si existen eventos de enlace para los patrones analizados
+                    } //se revisa si existen enventos de enlace para los patrones analizados
                     else if (!resp.equals("")) {
-                         //se verifica que la cadena sea coherente
+                        //se verifica que la cadena sea coherente
                         if (validar_cadena(pat, p)) {
                             cad.setPathway_inicial(pat.getPatron());
                             cad.setPathway_final(p.getPatron());
@@ -566,9 +570,8 @@ public class consultasJPL {
         String sep2[] = fin.getPatron().split(";");
         String eve_fin = sep2[sep2.length - 1];
         String tip2 = tipo_Complejo(eve_fin);
-         //System.out.println(sep1[sep1.length - 1] + " " + tip1 + " --> " + sep2[sep2.length - 1] + "  " + tip2);
-        
-    
+        //System.out.println(sep1[sep1.length - 1] + " " + tip1 + " --> " + sep2[sep2.length - 1] + "  " + tip2);
+
         //se valida que si el el objeto de cierre es el mismo en el inicio que al final el evento debe ser distindo
         //si comienza up debe terminar down
         if (!tip1.equals(tip2)) {
@@ -796,10 +799,10 @@ public class consultasJPL {
         while (r) {
             System.out.println();
             new utilidades().limpiarPantalla();
-            System.out.println(utilidades.colorTexto1+utilidades.titulo);
-            System.out.println(utilidades.colorTexto1+utilidades.proceso);
+            System.out.println(utilidades.colorTexto1 + utilidades.titulo);
+            System.out.println(utilidades.colorTexto1 + utilidades.proceso);
             System.out.println(utilidades.colorReset);
-            
+
             System.out.println(utilidades.idioma.get(117));
             System.out.println(utilidades.idioma.get(0));
             System.out.println(utilidades.idioma.get(118));
@@ -890,10 +893,10 @@ public class consultasJPL {
         while (r) {
             System.out.println();
             new utilidades().limpiarPantalla();
-            System.out.println(utilidades.colorTexto1+utilidades.titulo);
-            System.out.println(utilidades.colorTexto1+utilidades.proceso);
+            System.out.println(utilidades.colorTexto1 + utilidades.titulo);
+            System.out.println(utilidades.colorTexto1 + utilidades.proceso);
             System.out.println(utilidades.colorReset);
-            
+
             System.out.println(utilidades.idioma.get(120));
             System.out.println(utilidades.idioma.get(0));
             System.out.println(utilidades.idioma.get(118));
@@ -944,10 +947,10 @@ public class consultasJPL {
         while (r) {
             System.out.println();
             new utilidades().limpiarPantalla();
-            System.out.println(utilidades.colorTexto1+utilidades.titulo);
-            System.out.println(utilidades.colorTexto1+utilidades.proceso);
+            System.out.println(utilidades.colorTexto1 + utilidades.titulo);
+            System.out.println(utilidades.colorTexto1 + utilidades.proceso);
             System.out.println(utilidades.colorReset);
-            
+
             System.out.println(utilidades.idioma.get(121));
             System.out.println(utilidades.idioma.get(0));
             System.out.println(utilidades.idioma.get(118));
@@ -998,16 +1001,16 @@ public class consultasJPL {
     }
 
     public void buscar_receptores() {
-       
+
         Scanner lectura = new Scanner(System.in);
         boolean r = true;
         while (r) {
             System.out.println();
             new utilidades().limpiarPantalla();
-            System.out.println(utilidades.colorTexto1+utilidades.titulo);
-            System.out.println(utilidades.colorTexto1+utilidades.proceso);
+            System.out.println(utilidades.colorTexto1 + utilidades.titulo);
+            System.out.println(utilidades.colorTexto1 + utilidades.proceso);
             System.out.println(utilidades.colorReset);
-            
+
             System.out.println(utilidades.idioma.get(124) + "\n");
             System.out.println(utilidades.idioma.get(0));
             System.out.println(utilidades.idioma.get(125));
@@ -1061,16 +1064,16 @@ public class consultasJPL {
     }
 
     public void buscar_proteinas_adicionales() {
-        
+
         Scanner lectura = new Scanner(System.in);
         boolean r = true;
         while (r) {
             System.out.println();
             new utilidades().limpiarPantalla();
-            System.out.println(utilidades.colorTexto1+utilidades.titulo);
-            System.out.println(utilidades.colorTexto1+utilidades.proceso);
+            System.out.println(utilidades.colorTexto1 + utilidades.titulo);
+            System.out.println(utilidades.colorTexto1 + utilidades.proceso);
             System.out.println(utilidades.colorReset);
-            
+
             System.out.println(utilidades.idioma.get(128));
             System.out.println(utilidades.idioma.get(0));
             System.out.println(utilidades.idioma.get(118));
@@ -1135,16 +1138,15 @@ public class consultasJPL {
 
     public void interaccion_proteina_proteina(String ruta) {
 
-       
         Scanner lectura = new Scanner(System.in);
         boolean r = true;
         while (r) {
             System.out.println();
             new utilidades().limpiarPantalla();
-            System.out.println(utilidades.colorTexto1+utilidades.titulo);
-            System.out.println(utilidades.colorTexto1+utilidades.proceso);
+            System.out.println(utilidades.colorTexto1 + utilidades.titulo);
+            System.out.println(utilidades.colorTexto1 + utilidades.proceso);
             System.out.println(utilidades.colorReset);
-            
+
             System.out.println(utilidades.idioma.get(131));
             System.out.println(utilidades.idioma.get(0));
             System.out.println(utilidades.idioma.get(132));
@@ -1186,14 +1188,14 @@ public class consultasJPL {
     }
 
     public void buscar_complejos(String ruta) {
-        
+
         Scanner lectura = new Scanner(System.in);
         boolean r = true;
         while (r) {
             System.out.println();
             new utilidades().limpiarPantalla();
-            System.out.println(utilidades.colorTexto1+utilidades.titulo);
-            System.out.println(utilidades.colorTexto1+utilidades.proceso);
+            System.out.println(utilidades.colorTexto1 + utilidades.titulo);
+            System.out.println(utilidades.colorTexto1 + utilidades.proceso);
             System.out.println(utilidades.colorReset);
 
             System.out.println(utilidades.idioma.get(135));
