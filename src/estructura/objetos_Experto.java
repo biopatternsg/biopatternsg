@@ -56,26 +56,26 @@ public class objetos_Experto {
             cadena += "\'" + hgnc.getNombre().replace("\'", "") + "\'";
             cadena_txt += objMin.procesarNombre(hgnc.getNombre());
             for (String sinonimo : hgnc.getSinonimos()) {
-                cadena += ",\'" + sinonimo.replace("\'", "") + "\'";
-                cadena_txt += ";" + objMin.procesarNombre(sinonimo);
+                if (sinonimo != null) {
+                    cadena += ",\'" + sinonimo.replace("\'", "") + "\'";
+                    cadena_txt += ";" + objMin.procesarNombre(sinonimo);
+                }
             }
 
             cadena += "]";
-            //System.out.println("Experto: "+cadena);
+            //System.out.println("Experto: " + cadena);
             new escribirBC("sinonimos(\'" + hgnc.getSimbolo().replace("\'", "") + "\'," + cadena + ").", ruta + "/minedObjects.pl");
             new escribirBC(cadena_txt, ruta + "/minedObjects.txt");
             new utilidades().carga();
             if (hgnc.getTejidos().size() > 0) {
-                String cadTej ="[\'"+hgnc.getTejidos().get(0)+"\'";
+                String cadTej = "[\'" + hgnc.getTejidos().get(0) + "\'";
                 for (int i = 1; i < hgnc.getTejidos().size(); i++) {
-                    cadTej+=",\'"+hgnc.getTejidos().get(i)+"\'";
+                    cadTej += ",\'" + hgnc.getTejidos().get(i) + "\'";
                 }
-                    cadTej+="]";
+                cadTej += "]";
                 new escribirBC("tejidos(\'" + hgnc.getSimbolo().replace("\'", "") + "\'," + cadTej + ").", ruta + "/minedObjects.pl");
                 new utilidades().carga();
             }
-            
-            
 
             ArrayList<String> lista = hgnc.ListaNombres();
             if (lista.contains(ID)) {
