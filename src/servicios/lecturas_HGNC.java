@@ -55,19 +55,29 @@ public class lecturas_HGNC extends conexionServ {
         var symbols = searchSymbols(gene);
 
         if (symbols == null || symbols.isEmpty()) {
-            var hgnc = new HGNC();
-            hgnc.setNombre(gene);
-            hgnc.setSimbolo(gene);
-            HGNC.add(hgnc);
-        } else {
-
-            symbols.forEach(symbol -> {
-                var hgnc = searchInformation(symbol, GO, MESH, ruta);
-                HGNC.add(hgnc);
-            });
+            HGNC.add(defaultObject(gene));
+            return HGNC;
         }
+        
+        symbols.forEach(symbol -> {
+            var hgnc = searchInformation(symbol, GO, MESH, ruta);
+            if(hgnc.ListaNombres().contains(gene)){
+                HGNC.add(hgnc);
+            }
+        });
 
+        if(HGNC.isEmpty()){
+            HGNC.add(defaultObject(gene));
+        }
+        
         return HGNC;
+    }
+    
+    private HGNC defaultObject(String name){
+         var hgnc = new HGNC();
+            hgnc.setNombre(name);
+            hgnc.setSimbolo(name);
+            return hgnc;
     }
 
     private List<String> searchSymbols(String gene) {
