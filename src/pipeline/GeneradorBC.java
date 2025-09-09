@@ -93,7 +93,8 @@ public class GeneradorBC {
             
         }
     
-
+        config.setGenerarBC(true);
+        config.guardar(ruta);
         return baseC;
 
     }     
