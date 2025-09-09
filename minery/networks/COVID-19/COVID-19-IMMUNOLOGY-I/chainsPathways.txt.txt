@@ -481,14 +481,3 @@ Pathway=> 'HLA-B',associate,'CXCR4';'CXCR4',associate,'CD4';'CD4',inhibit,'ACE2'
 Linking events:  'ACE2',associate,'CD4'
 
 Pathway=> 'ACE2',associate,'CD4';'CD4',associate,'JAK3';'JAK3',associate,'CXCR4';'CXCR4',inhibit,'COVID-19'
-
-
-BioPatternsg
-minery/networks/COVID-19/COVID-19-IMMUNOLOGY-reportado
-
-Searching for pathways and regulatory events that relate them
-
-Select an option
-1.- Run the process
-0.- Go back
-
