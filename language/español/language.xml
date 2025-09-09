@@ -104,8 +104,8 @@
         <m n="99">5.- Búsqueda de motivos.</m>
         <m n="100">6.- Búsqueda de ligandos.</m>
         <m n="101">7.- Clasificar tipo de ligando</m>
-        <m n="102">8.- Buscar cadenas de patrones conectados.</m>
-        <m n="103">9.- Consultar árboles de un objeto</m>
+        <m n="102">1.- Buscar cadenas de patrones conectados.</m>
+        <m n="103">2.- Consultar árboles de un objeto</m>
         <m n="104">Ingrese nombre del objeto</m>
         <m n="105">¿Consultar otro objeto? ... S/N</m>
         <m n="106">1.- Árbol de Identidad.</m>
@@ -158,7 +158,7 @@
         <m n="153">Inferencia de patrones</m>
         <m n="154">4.- Actualizar la base de conocimiento de eventos.</m>
         <m n="155">5.- Documentar los patrones de regulación.</m>
-        <m n="156">6.- Reanudar desde.</m>
+        <m n="156">4.- Reanudar desde.</m>
         <m n="157">Buscando eventos biologicos Pubtator3</m>
         <m n="158">Seleccionar fuente de búsqueda para TF: </m>
         <m n="159">Seleccione coordenadas de busqueda en Jaspar: </m>
