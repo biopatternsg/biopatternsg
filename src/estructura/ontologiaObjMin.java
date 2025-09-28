@@ -78,18 +78,20 @@ public class ontologiaObjMin {
 
     public void buscarOntologiaMESH(String MESH, String ruta) {
         new utilidades().carga();
-        ontologiaMESH ontologia = new ontologiaMESH();
-        lecturas_MESH letMESH = new lecturas_MESH();
-        ontologia.setMESH(MESH);
+        if (MESH != null) {
+            ontologiaMESH ontologia = new ontologiaMESH();
+            lecturas_MESH letMESH = new lecturas_MESH();
+            ontologia.setMESH(MESH);
 
-        if (!buscarObjeto(ontologia, ruta) && !ontologia.getMESH().equals("1000048")) {
+            if (!buscarObjeto(ontologia, ruta) && !ontologia.getMESH().equals("1000048")) {
 
-            ontologia = letMESH.obtenerOntologia(MESH);
+                ontologia = letMESH.obtenerOntologia(MESH);
 
-            ontologia.getParent().forEach(ont -> buscarOntologiaMESH(ont, ruta));
+                ontologia.getParent().forEach(ont -> buscarOntologiaMESH(ont, ruta));
 
-            guardar_Ontologia(ontologia, ruta);
+                guardar_Ontologia(ontologia, ruta);
 
+            }
         }
 
     }

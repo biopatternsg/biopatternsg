@@ -99,12 +99,16 @@ public class lecturas_HGNC extends conexionServ {
         var doc = hgncResponse.getResponse().getDocs().get(0);
 
         hgnc.setNombre(doc.getName());
-        hgnc.setSimbolo(doc.getSymbol());
+        hgnc.setSimbolo(symbol);
         hgnc.setEnsembl_gene_id("");
         hgnc.setGene_family(new ArrayList<>());
         hgnc.setLocus_type(doc.getLocus_type());
-        hgnc.getSinonimos().addAll(doc.getPrev_name());
+        hgnc.getSinonimos().addAll(doc.getPrev_name()!=null?doc.getPrev_name():List.of());
+        hgnc.getSinonimos().addAll(doc.getAlias_name()!=null?doc.getAlias_name():List.of());
         hgnc.getSinonimos().add(doc.getCosmic());
+        hgnc.getSinonimos().add(doc.getSymbol());
+        
+        hgnc.getSinonimos().removeIf(l-> l == null);
 
         searchUniprot(hgnc, doc.getUniprot_ids(), GO, MESH, ruta);
 
