@@ -27,6 +27,7 @@ import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.PrintWriter;
 import java.util.ArrayList;
+import java.util.List;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.NodeList;
@@ -37,32 +38,34 @@ import org.w3c.dom.NodeList;
  */
 public class lecturas_MESH extends conexionServ{
 
-    public String busquedaTerm(String term, int tipo ) {
+    public List<String> busquedaTerm(String term, int tipo ) {
         term = term.replace(" ", "+");
-        String id = null;
+        List<String> meshIds = new ArrayList<>();
         String url;
         if (tipo == 1) {
-            url = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=mesh&term=" + term + "&retstart=6&retmax=6&tool=biomed3";
+            url = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=mesh&term=" + term + "&tool=biomed3";
         } else {
             url = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=mesh&term=" + term + "&retmax=6&tool=biomed3";
         }
        
         try {
-            Document doc = conecta(url);
+            Document doc = conexionSimple(url);
             NodeList nList = doc.getElementsByTagName("Id");
-            Element element = (Element) nList.item(0);
-            id = element.getTextContent();
+            for (int i = 0; i < nList.getLength(); i++) {
+                 Element element = (Element) nList.item(i);
+                 meshIds.add(element.getTextContent());
+            }
         } catch (Exception e) {
-
+                System.out.println("error");
         }
-        return id;
+        return meshIds;
     }
 
     public ontologiaMESH obtenerOntologia(String id) {
         String url = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=mesh&id=" + id;
         ontologiaMESH ontologia = new ontologiaMESH();
         try {
-            Document doc = conecta(url);
+            Document doc = conexionSimple(url);
             ontologia = revisa_xml(doc);
         } catch (Exception e) {
 
@@ -73,12 +76,16 @@ public class lecturas_MESH extends conexionServ{
 
     private ontologiaMESH revisa_xml(Document doc) {
         ontologiaMESH ontologia = new ontologiaMESH();
+        
         NodeList nList = doc.getElementsByTagName("Item");
         String nombre = null;
         for (int i = 0; i < nList.getLength(); i++) {
             Element element = (Element) nList.item(i);
-            if (nombre == null && element.getAttribute("Name").toString().equals("string")) {
-                nombre = element.getTextContent().toString();
+            if (element.getAttribute("Name").toString().equals("string")) {
+                if(nombre == null){
+                  nombre = element.getTextContent().toString();
+                }
+                ontologia.getSinonimos().add(element.getTextContent().toString());
             }
 
             if (element.getAttribute("Name").toString().equals("LinksType")) {

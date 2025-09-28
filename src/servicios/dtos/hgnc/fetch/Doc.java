@@ -11,6 +11,7 @@ import java.util.List;
  * @author yacson
  */
 public class Doc {
+
     
     private List<String> pubmed_id;
     private String locus_type;
@@ -19,6 +20,7 @@ public class Doc {
     private String symbol;
     private List<String> uniprot_ids;
     private List<String> prev_name;
+    private List<String> alias_name;
     private String name;
     private String cosmic;
 
@@ -94,6 +96,14 @@ public class Doc {
         this.cosmic = cosmic;
     }
     
+    
+    public List<String> getAlias_name() {
+        return alias_name;
+    }
+
+    public void setAlias_name(List<String> alias_name) {
+        this.alias_name = alias_name;
+    }
     
     
     
