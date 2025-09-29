@@ -58,37 +58,41 @@ public class lecturas_HGNC extends conexionServ {
             HGNC.add(defaultObject(gene));
             return HGNC;
         }
-        
+
         symbols.forEach(symbol -> {
             var hgnc = searchInformation(symbol, GO, MESH, ruta);
-            if(hgnc.ListaNombres().contains(gene)){
+            if (hgnc.ListaNombres().contains(gene)) {
                 HGNC.add(hgnc);
             }
         });
 
-        if(HGNC.isEmpty()){
+        if (HGNC.isEmpty()) {
             HGNC.add(defaultObject(gene));
         }
-        
+
         return HGNC;
     }
-    
-    private HGNC defaultObject(String name){
-         var hgnc = new HGNC();
-            hgnc.setNombre(name);
-            hgnc.setSimbolo(name);
-            return hgnc;
+
+    private HGNC defaultObject(String name) {
+        var hgnc = new HGNC();
+        hgnc.setNombre(name);
+        hgnc.setSimbolo(name);
+        return hgnc;
     }
 
     private List<String> searchSymbols(String gene) {
-        var response = simpleConnectionJsonGET(URL_SEARCH + gene);
-        var hgncResponse = new ModelMapper().map(response, HGNCResponse.class);
-        var scoreMax = hgncResponse.getResponse().getMaxScore();
+        try {
+            var response = simpleConnectionJsonGET(URL_SEARCH + gene);
+            var hgncResponse = new ModelMapper().map(response, HGNCResponse.class);
+            var scoreMax = hgncResponse.getResponse().getMaxScore();
 
-        return hgncResponse.getResponse().getDocs().stream()
-                .filter(doc -> doc.getScore() == scoreMax)
-                .map(doc -> doc.getSymbol())
-                .collect(Collectors.toList());
+            return hgncResponse.getResponse().getDocs().stream()
+                    .filter(doc -> doc.getScore() == scoreMax)
+                    .map(doc -> doc.getSymbol())
+                    .collect(Collectors.toList());
+        } catch (Exception e) {
+            return null;
+        }
     }
 
     private HGNC searchInformation(String symbol, boolean GO, boolean MESH, String ruta) {
@@ -103,14 +107,16 @@ public class lecturas_HGNC extends conexionServ {
         hgnc.setEnsembl_gene_id("");
         hgnc.setGene_family(new ArrayList<>());
         hgnc.setLocus_type(doc.getLocus_type());
-        hgnc.getSinonimos().addAll(doc.getPrev_name()!=null?doc.getPrev_name():List.of());
-        hgnc.getSinonimos().addAll(doc.getAlias_name()!=null?doc.getAlias_name():List.of());
+        hgnc.getSinonimos().addAll(doc.getPrev_name() != null ? doc.getPrev_name() : List.of());
+        hgnc.getSinonimos().addAll(doc.getAlias_name() != null ? doc.getAlias_name() : List.of());
         hgnc.getSinonimos().add(doc.getCosmic());
         hgnc.getSinonimos().add(doc.getSymbol());
-        
-        hgnc.getSinonimos().removeIf(l-> l == null);
 
-        searchUniprot(hgnc, doc.getUniprot_ids(), GO, MESH, ruta);
+        hgnc.getSinonimos().removeIf(l -> l == null);
+
+        if (doc.getUniprot_ids() != null) {
+            searchUniprot(hgnc, doc.getUniprot_ids(), GO, MESH, ruta);
+        }
 
         return hgnc;
     }
