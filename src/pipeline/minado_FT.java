@@ -348,7 +348,7 @@ public class minado_FT {
 
             guardarObjetos_Homologos_Experto(objExp, ruta);
 
-            buscar_coincidencia(infgen.get(0), objExp.getHGNC(), ruta);
+            findMeshTree(infgen.get(0), objExp.getHGNC(), ruta);
 
         }
         //guarda el checklist que indica que culmino la busqueda de informacion sobre los homologos
@@ -362,11 +362,10 @@ public class minado_FT {
         System.out.println("\n\n**" + utilidades.idioma.get(77));
         utilidades.texto_etapa = utilidades.idioma.get(148);
         utilidades.momento = "";
-
         for (String objeto : lista) {
             utilidades.texto_carga = "";
             utilidades.momento += "\n" + utilidades.idioma.get(78) + " " + objeto;
-            // System.out.println(utilidades.idioma.get(78)+" " + objeto);
+            System.out.println(utilidades.idioma.get(78)+" " + objeto);
             objetos_Experto objExp = new objetos_Experto();// la clase objeto_Experto tiene los aributos necesarios para guardar la informacion de cada objeto
             objExp.setID(objeto);
 
@@ -391,25 +390,14 @@ public class minado_FT {
             objExp.getHGNC().forEach(objhgnc -> objetosMineria.agregar_objeto(objhgnc));
 
             guardarObjetos_Homologos_Experto(objExp, ruta);
-            buscar_coincidencia(infgen.get(0), objExp.getHGNC(), ruta);
+            findMeshTree(infgen.get(0), objExp.getHGNC(), ruta);
         }
         //guarda el checklist que indica que culmino la busqueda de informacion sobre los objetos del experto
         config.setObjetosExperto(true);
         config.guardar(ruta);
     }
 
-    public void buscar_coincidencia(HGNC biologicalObject, ArrayList<HGNC> hgnc, String ruta) {
-        boolean encontrado = false;
-
-        for (HGNC h : hgnc) {
-            ArrayList<String> lista = h.ListaNombres();
-            if (lista.contains(biologicalObject.getSimbolo())) {
-                encontrado = true;
-                break;
-            }
-        }
-
-        if (!encontrado) {
+    public void findMeshTree(HGNC biologicalObject, ArrayList<HGNC> hgnc, String ruta) {
             ontologiaObjMin ontologia = new ontologiaObjMin();
             ontologia.setNombre(biologicalObject.getNombre());
             try {
@@ -421,8 +409,6 @@ public class minado_FT {
             } catch (Exception e) {
 
             }
-
-        }
 
     }
 

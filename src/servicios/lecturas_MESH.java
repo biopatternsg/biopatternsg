@@ -56,7 +56,7 @@ public class lecturas_MESH extends conexionServ{
                  meshIds.add(element.getTextContent());
             }
         } catch (Exception e) {
-                System.out.println("error");
+                //System.out.println("error");
         }
         return meshIds;
     }
@@ -110,10 +110,8 @@ public class lecturas_MESH extends conexionServ{
                     list.add(element.getTextContent());
                     //System.out.println(element.getTextContent());
                 }
-
             }
-
         }
-        
+  
     }
 }
