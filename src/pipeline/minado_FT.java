@@ -42,7 +42,7 @@ import servicios.lecturas_pathwaycommons;
 
 public class minado_FT {
 
-    public void minado(String regProm, float confiabilidad, int Iteraciones, int numeroObjetos, boolean GO, boolean MESH, configuracion config, String ruta, String rutaD, int metodoDeBusqueda) {
+    public void minado(String regProm, float confiabilidad, int Iteraciones, int numeroObjetos, boolean GO, boolean MESH, configuracion config, String ruta, String rutaD, int metodoDeBusqueda, String chromosoma, int coordenadaInicio, int coordenadaFin) {
 
         //lleva un control de los objetos minados y los nuevos objetos encontrados en el proceso
         objetosMineria objetosMineria = new objetosMineria();
@@ -50,19 +50,19 @@ public class minado_FT {
         new objetosMinados().crear_archivo(ruta);
 
         //busca informacion en los diferentes servicios sobre cada homologo en la lista de homologos
-        buscarHomologos(listaObjetos_homologosExperto(rutaD + "/homologous"), objetosMineria, config, GO, MESH, ruta);
+        //buscarHomologos(listaObjetos_homologosExperto(rutaD + "/homologous"), objetosMineria, config, GO, MESH, ruta);
 
         //busca informacion en los diferentes servicios sobre cada objetos agregado por el experto
-        buscarObjetosExperto(listaObjetos_homologosExperto(rutaD + "/expert_objects.txt"), objetosMineria, config, GO, MESH, ruta);
+        //buscarObjetosExperto(listaObjetos_homologosExperto(rutaD + "/expert_objects.txt"), objetosMineria, config, GO, MESH, ruta);
 
         //primera Iteracion partiendo de TFBind
-        primeraIteracion(rutaD + "/" + regProm, confiabilidad, numeroObjetos, objetosMineria, config, new ArrayList<lecturas_TFBIND>(), GO, MESH, ruta, metodoDeBusqueda);
+        primeraIteracion(rutaD + "/" + regProm, confiabilidad, numeroObjetos, objetosMineria, config, new ArrayList<lecturas_TFBIND>(), GO, MESH, ruta, metodoDeBusqueda, chromosoma, coordenadaInicio, coordenadaFin);
 
         //Segunda Iteracion en adelante partiendo de nuevos objetos encontrados en PDB
         Iteraciones(false, new ArrayList<String>(), numeroObjetos, Iteraciones, objetosMineria, config, 1, GO, MESH, ruta);
     }
 
-    public void primeraIteracion(String regProm, float confiabilidad, int numeroObjetos, objetosMineria objetosMineria, configuracion config, ArrayList<lecturas_TFBIND> lecturas, boolean GO, boolean MESH, String ruta, int metodoDeBusqueda) {
+    public void primeraIteracion(String regProm, float confiabilidad, int numeroObjetos, objetosMineria objetosMineria, configuracion config, ArrayList<lecturas_TFBIND> lecturas, boolean GO, boolean MESH, String ruta, int metodoDeBusqueda, String chromosoma, int coordenadaInicio, int coordenadaFin) {
         //Primera Iteracion
         System.out.println("\n\n" + utilidades.idioma.get(70) + "\n");
         objetosMineria.setIteracion(0);
@@ -74,7 +74,7 @@ public class minado_FT {
         if (lecturas.size() == 0) {
             // se envia la ruta del archivo con la region promotora
             // y el procentaje de confiabilidad para obtener las lecturas de tfbind
-            lecturasTFB = lecturasTFBID(regProm, confiabilidad, metodoDeBusqueda);
+            lecturasTFB = lecturasTFBID(regProm, confiabilidad, metodoDeBusqueda, chromosoma, coordenadaInicio, coordenadaFin);
             utilidades.momento = "* " + lecturasTFB.size() + " " + utilidades.idioma.get(71);
             //System.out.println("* " + lecturasTFB.size() + " "+utilidades.idioma.get(71));
             //se guardan el lista de lecturas tfbind en caso de que se reinicie el proceso
@@ -171,10 +171,10 @@ public class minado_FT {
 //  se obtinen lecturas de TFBIND recibe la ruta del archivo bloquesconsenso 
 //  y el porsentaje de confiabnilidad, debuelve un listado con los factores de transcripcion 
 //  encontrados y algunas caracteristicas que ofrece TFBIND
-    private ArrayList<lecturas_TFBIND> lecturasTFBID(String ruta, float confiabilidad, int metodoDeBusqueda) {
+    private ArrayList<lecturas_TFBIND> lecturasTFBID(String ruta, float confiabilidad, int metodoDeBusqueda, String chromosoma, int coordenadaInicio, int coordenadaFin) {
         lecturas_TFBIND lecturasTFBIND = new lecturas_TFBIND();
 
-        return lecturasTFBIND.leer_de_archivo(ruta, confiabilidad, metodoDeBusqueda);
+        return lecturasTFBIND.leer_de_archivo(ruta, confiabilidad, metodoDeBusqueda,chromosoma, coordenadaInicio, coordenadaFin);
 
     }
 

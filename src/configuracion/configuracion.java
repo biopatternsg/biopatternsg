@@ -30,16 +30,11 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Scanner;
-import java.util.logging.Level;
-import java.util.logging.Logger;
-import pipeline.BioPattern;
 import pipeline.GeneradorBC;
-import pipeline.PubMed_IDs;
-import pipeline.Resumidor;
+import pipeline.PubMed_IDs;;
 import pipeline.combinaciones;
 import servicios.lecturas_TFBIND;
 import pipeline.consultasJPL;
-import servicios.lecturas_PM;
 import pipeline.minado_FT;
 import pipeline.objetos_patrones;
 import pipeline.pathway;
@@ -55,6 +50,9 @@ public class configuracion {
     private int numIteraciones;
     private int cantComplejos;
     private float confiabilidad_tfbind;
+    private String chromosoma;
+    private int coordenadaInicio;
+    private int coordenadaFin;
     private String RegionPromotora;
     private boolean crearOntologiaGO;
     private boolean crearOntologiaMESH;
@@ -147,6 +145,7 @@ public class configuracion {
             }
         } catch (Exception e) {
             System.out.println(utilidades.idioma.get(17));
+            System.out.println(e);
         } finally {
             db.close();
         }
@@ -169,6 +168,9 @@ public class configuracion {
                 this.rutaPMID_experto = config.rutaPMID_experto;
                 this.nombreCorto = config.nombreCorto;
                 this.metodoBusquedaFT = config.metodoBusquedaFT;
+                this.chromosoma = config.chromosoma;
+                this.coordenadaInicio = config.coordenadaInicio;
+                this.coordenadaFin = config.coordenadaFin;
                 //------------------------------------------------------//
                 this.tfbind = config.tfbind;
                 this.homologos = config.homologos;
@@ -190,6 +192,7 @@ public class configuracion {
             }
         } catch (Exception e) {
             System.out.println(utilidades.idioma.get(17));
+            System.out.println(e);
         } finally {
             db.close();
         }
@@ -488,7 +491,7 @@ public class configuracion {
             case 1:
                 mfts.buscarHomologos(revisarObjH_E(rutaD + "/homologous", objetosMineria, ruta), objetosMineria, this, crearOntologiaGO, crearOntologiaMESH, ruta);
                 mfts.buscarObjetosExperto(listaObjetos_homologosExperto(rutaD + "/expert_objects.txt"), objetosMineria, this, crearOntologiaGO, crearOntologiaMESH, ruta);
-                mfts.primeraIteracion(rutaD + "/" + RegionPromotora, confiabilidad_tfbind, cantComplejos, objetosMineria, this, new ActivatableArrayList<lecturas_TFBIND>(), crearOntologiaGO, crearOntologiaMESH, ruta, 1);
+                mfts.primeraIteracion(rutaD + "/" + RegionPromotora, confiabilidad_tfbind, cantComplejos, objetosMineria, this, new ActivatableArrayList<lecturas_TFBIND>(), crearOntologiaGO, crearOntologiaMESH, ruta, 1, chromosoma, coordenadaInicio, coordenadaFin);
                 mfts.Iteraciones(false, new ArrayList<String>(), cantComplejos, numIteraciones, objetosMineria, this, 1, crearOntologiaGO, crearOntologiaMESH, ruta);
                 new combinaciones().generar_combinaciones(false, this, ruta, nombreCorto);
                 new PubMed_IDs().buscar(cantidadPMID, this, ruta);
@@ -506,7 +509,7 @@ public class configuracion {
             case 2:
                 revisarObjH_E(rutaD + "/homologous", objetosMineria, ruta);
                 mfts.buscarObjetosExperto(revisarObjH_E(rutaD + "/expert_objects.txt", objetosMineria, ruta), objetosMineria, this, crearOntologiaGO, crearOntologiaMESH, ruta);
-                mfts.primeraIteracion(rutaD + "/" + RegionPromotora, confiabilidad_tfbind, cantComplejos, objetosMineria, this, new ArrayList<lecturas_TFBIND>(), crearOntologiaGO, crearOntologiaMESH, ruta, 1);
+                mfts.primeraIteracion(rutaD + "/" + RegionPromotora, confiabilidad_tfbind, cantComplejos, objetosMineria, this, new ArrayList<lecturas_TFBIND>(), crearOntologiaGO, crearOntologiaMESH, ruta, 1, chromosoma, coordenadaInicio, coordenadaFin);
                 mfts.Iteraciones(false, new ArrayList<String>(), cantComplejos, numIteraciones, objetosMineria, this, 1, crearOntologiaGO, crearOntologiaMESH, ruta);
                 new combinaciones().generar_combinaciones(false, this, ruta, nombreCorto);
                 new PubMed_IDs().buscar(cantidadPMID, this, ruta);
@@ -525,7 +528,7 @@ public class configuracion {
                 revisarObjH_E(rutaD + "/homologous", objetosMineria, ruta);
                 revisarObjH_E(rutaD + "/expert_objects.txt", objetosMineria, ruta);
                 ArrayList<lecturas_TFBIND> lecturas = actualizarListaTFBind(objetosMineria, ruta);
-                mfts.primeraIteracion(rutaD + "/" + RegionPromotora, confiabilidad_tfbind, cantComplejos, objetosMineria, this, lecturas, crearOntologiaGO, crearOntologiaMESH, ruta, 1);
+                mfts.primeraIteracion(rutaD + "/" + RegionPromotora, confiabilidad_tfbind, cantComplejos, objetosMineria, this, lecturas, crearOntologiaGO, crearOntologiaMESH, ruta, 1, chromosoma, coordenadaInicio, coordenadaFin);
                 mfts.Iteraciones(false, new ArrayList<String>(), cantComplejos, numIteraciones, objetosMineria, this, 1, crearOntologiaGO, crearOntologiaMESH, ruta);
                 new combinaciones().generar_combinaciones(false, this, ruta, nombreCorto);
                 new PubMed_IDs().buscar(cantidadPMID, this, ruta);
@@ -819,7 +822,7 @@ public class configuracion {
         float conf;
         while (true) {
             try {
-                System.out.print(utilidades.idioma.get(56));
+                System.out.print("\t" + utilidades.idioma.get(56));
                 String confi = lectura.nextLine();
                 conf = Float.parseFloat(confi) / 100;
 
@@ -833,6 +836,30 @@ public class configuracion {
             }
         }
         return conf;
+    }
+    
+    public int coordenadaInicioDeCadena(){
+        Scanner lectura = new Scanner(System.in);
+        System.out.print("\t" + utilidades.idioma.get(162));
+        String confi = lectura.nextLine();
+        
+        return Integer.parseInt(confi);
+    }
+    
+    public int coordenadaFinDeCadena(){
+        Scanner lectura = new Scanner(System.in);
+        System.out.print("\t" + utilidades.idioma.get(163));
+        String confi = lectura.nextLine();
+        
+        return Integer.parseInt(confi);
+    }
+    
+    public String chromosoma(){
+        Scanner lectura = new Scanner(System.in);
+        System.out.print("\t" + utilidades.idioma.get(161));
+        String confi = lectura.nextLine();
+        
+        return confi;
     }
 
     public int ingresarCantComplejos() {

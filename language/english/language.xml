@@ -163,5 +163,8 @@
         <m n="158">Select search source for TF: </m>
         <m n="159">Select search coordinates in Jaspar: </m>
         <m n="160">Select to search: </m>
+        <m n="161">Chromosome for TF search: </m>
+        <m n="162">Start coordinate for TF search: </m>
+        <m n="163">Final coordinate for TF search: </m>
     </menu1>
 </root>

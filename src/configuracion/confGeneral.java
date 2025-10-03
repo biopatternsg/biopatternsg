@@ -30,6 +30,7 @@ import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
+import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.Scanner;
 import java.util.logging.Level;
@@ -553,6 +554,9 @@ public class confGeneral {
                 String regProm = config.IngresarRegionPromotora();
                 int metodoBusquedaFT = config.ingresarMetodoBusquedaDeFT();
                 float conf = config.IngresarConfiabilidad();
+                String chrom = metodoBusquedaFT == 2 || metodoBusquedaFT == 3 ? config.chromosoma() : "";
+                int inicioCadena = metodoBusquedaFT == 2 || metodoBusquedaFT == 3 ? config.coordenadaInicioDeCadena() : 0;
+                int finCadena = metodoBusquedaFT == 2 || metodoBusquedaFT == 3 ? config.coordenadaFinDeCadena() : 0;
                 int cantObjs = config.ingresarCantComplejos();
                 int iteraciones = config.ingresar_numIteraciones();
                 //boolean GO = config.buscarGO();
@@ -571,7 +575,7 @@ public class confGeneral {
                 config.guardarConfiguracion(regProm, iteraciones, cantObjs, conf, GO, MESH, nombreCorto, cantPMID, rutaPMidExp, ruta, metodoBusquedaFT);
 
                 //este metodo ejecuta el proceso de busqueda de informacion desde objetos del experto, homologos y los objetos encontrados en los diferentes niveles de busqueda
-                mfts.minado(regProm, conf, iteraciones, cantObjs, GO, MESH, config, ruta, rutaD, metodoBusquedaFT);
+                mfts.minado(regProm, conf, iteraciones, cantObjs, GO, MESH, config, ruta, rutaD, metodoBusquedaFT, chrom, inicioCadena, finCadena);
 
                 //este metodo genera todas las combinaciones de objetos encontrados en el proceso anterior y guarda las ombinaciones en 'mineria/combinations.db'
                 new combinaciones().generar_combinaciones(false, config, ruta, nombreCorto);
