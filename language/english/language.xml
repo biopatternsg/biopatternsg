@@ -23,7 +23,7 @@
         <m n="18">Regulatory Region file:  </m>
         <m n="19">umber of PDB objects: </m>
         <m n="20">Number of searching levels (Number of levels to build the network): </m>
-        <m n="21">Confidence for Transcription Factor search:  </m>
+        <m n="21">Confidence for Transcription Factor searching:  </m>
         <m n="22">Number of PubMed IDs for every pair of combined symbols: </m>
         <m n="23">Actual state:  </m>
         <m n="24">Searching complementary information for the homologous indicated by the expert...</m>
@@ -42,7 +42,7 @@
         <m n="37">Regulatory region file: </m>
         <m n="38">Number of PDB objects: </m>
         <m n="39">Number of searching levels (Number of levels to build the network) : </m>
-        <m n="40">Confidence for Transcription Factor search: </m>
+        <m n="40">Confidence for Transcription Factors search: </m>
         <m n="41">Number of PubMed IDs for every pair of combined symbols: </m>
         <m n="42">Expert's objects from: </m>
         <m n="43">Results: </m>
@@ -54,11 +54,11 @@
         <m n="49">1.- New process</m>
         <m n="50">2.- Go to the GRN analysis menu.</m>
         <m n="51">3.- Go to infer pathways.</m>
-        <m n="52">The data for the running process will be lost, do you want to continue?.. Y/N</m>
+        <m n="52">The data for the running process will be lost, do you want to continue?.. (Y/N): </m>
         <m n="53">Choose (Y) or (N) to select an option</m>
         <m n="54">Regulatory region file name: </m>
         <m n="55">A file name must be provided...</m>
-        <m n="56">Confidence value for TF search (0-100): </m>
+        <m n="56">Confidence value for TFs search (0-100): </m>
         <m n="57">The value must be a number between 0 and 100</m>
         <m n="58">Number of PDB objects (The amount of PDB objects that must be downloaded): </m>
         <m n="59">The value must be a number</m>
@@ -66,7 +66,7 @@
         <m n="61">Number of PubMed IDs for every pair of combined symbols: </m>
         <m n="62">There is a configuration for mining process...</m>
         <m n="63">Do you want to continue with the process? (Y/N): </m>
-        <m n="64">Search ontology in GO  ..(Y/N):</m>
+        <m n="64">Search ontology in GO  ..(Y/N): </m>
         <m n="65">Only short names to combine and generate paired symbols ..(Y/N): </m>
         <m n="66">Search ontology in MESH  ..(Y/N): </m>
         <m n="67">Do you want to specify your own set of PubMed IDs? ..(Y/N): </m>
@@ -104,16 +104,16 @@
         <m n="99">5.- Motifs/pathways searching</m>
         <m n="100">6.- Ligands searching</m>
         <m n="101">7.- Defining ligand type</m>
-        <m n="102">1.- Search of connected pathways</m>
+        <m n="102">1.- Search for connected pathways</m>
         <m n="103">2.- Qyerying an object</m>
         <m n="104">Provide the name of the object: </m>
-        <m n="105">Another object to query? ...(Y/N)</m>
+        <m n="105">Another object to query? ...(Y/N) </m>
         <m n="106">1.- Identity tree (from Mesh)</m>
         <m n="107">2.- GeneOntology trees</m>
         <m n="108">Symbol: </m>
         <m n="109">-Transcription Factor (TFBind) </m>
         <m n="110">-PDB ligand </m>
-        <m n="111">Searching for pathways and regulatory events that relate them</m>
+        <m n="111">Searching for pathways and regulatory events that relate them:</m>
         <m n="112">1.- Run the process</m>
         <m n="113">Provide the start pathway: </m>
         <m n="114">The data is not correct</m>
@@ -159,8 +159,8 @@
         <m n="154">4.- Updating knowledge base of events.</m>
         <m n="155">5.- Generating pathways' documentation.</m>
         <m n="156">4.- Run the system from</m>
-        <m n="157">Search events Pubtator3</m>
-        <m n="158">Select search source to TF: </m>
+        <m n="157">Search for events from Pubtator3</m>
+        <m n="158">Select search source for TF: </m>
         <m n="159">Select search coordinates in Jaspar: </m>
         <m n="160">Select to search: </m>
     </menu1>

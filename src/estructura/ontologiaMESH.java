@@ -21,6 +21,7 @@ import com.db4o.ObjectContainer;
 import com.db4o.ObjectSet;
 import configuracion.utilidades;
 import java.util.ArrayList;
+import java.util.List;
 import pipeline.escribirBC;
 
 /**
@@ -31,10 +32,20 @@ public class ontologiaMESH {
 
     private String MESH;
     private String Nombre;
+    private List<String> sinonimos;
     private ArrayList<String> parent;
 
+    public List<String> getSinonimos() {
+        return sinonimos;
+    }
+
+    public void setSinonimos(List<String> sinonimos) {
+        this.sinonimos = sinonimos;
+    }
+    
     public ontologiaMESH() {
         parent = new ArrayList<>();
+        this.sinonimos = new ArrayList<>();
     }
 
     public String getNombre() {

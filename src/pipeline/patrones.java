@@ -60,10 +60,7 @@ public class patrones {
         System.out.println("\n" + utilidades.colorTexto2 + utilidades.texto_etapa);
         ArrayList<String> objRestricion = menuRestricionObjetos();
         ArrayList<String> objCierre = menuMotivos();
-        try {
-            resumirBaseC(ruta);
-        } catch (Exception e) {
-        }
+
         File pathways = new File(ruta + "/pathways.txt");
         File eventsDoc = new File(ruta + "/pathways.txt");
         /*
@@ -935,6 +932,10 @@ public class patrones {
             System.out.print(utilidades.idioma.get(85));
             String resp = lectura.nextLine();
             if (resp.equalsIgnoreCase("s") || resp.equalsIgnoreCase("y")) {
+                try {
+                    resumirBaseC(ruta);
+                } catch (Exception e) {
+                }
                 String bc = "['" + ruta + "/kBaseR'].";
                 Query q2 = new Query(bc);
                 q2.hasSolution();

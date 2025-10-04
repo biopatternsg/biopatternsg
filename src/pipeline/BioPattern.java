@@ -33,6 +33,7 @@ import javax.print.DocFlavor;
 import javax.swing.JOptionPane;
 import javax.swing.JPasswordField;
 import javax.swing.JTextField;
+import object_pathways.BuildPathwayObjects;
 import org.jpl7.Query;
 
 import servicios.lecturas_PM;
@@ -54,8 +55,8 @@ public class BioPattern {
        BioPattern biopattern = new BioPattern();
        //biopattern.pipelineBioPattern(args[0], args[1], args[2], Integer.parseInt(args[3]), Integer.parseInt(args[4]), Integer.parseInt(args[5]), "abstracts", true);
        //biopattern.pipelineBioPatternRP(args[1], args[2], Integer.parseInt(args[4]), Integer.parseInt(args[5]));        //biopattern.pruebas();
-       biopattern.pipelineBioPattern();        
-       //biopattern.pruebas();
+       //biopattern.pipelineBioPattern();        
+       biopattern.pruebas();
     }
 
     public BioPattern(String secuenciaP, String regionP) throws FileNotFoundException, IOException {
@@ -231,16 +232,20 @@ public class BioPattern {
 
     public void pruebas() throws StringIndexOutOfBoundsException, Exception {
         
-        confGeneral confG = new confGeneral();
-        confG.seleccionarIdioma();
-        new utilidades();
-        String ruta = "minery/networks/COVID-19/COVID-19-IMMUNOLOGY";
+        //confGeneral confG = new confGeneral();
+        //confG.seleccionarIdioma();
+       // new utilidades();
+        String ruta = "minery/networks/COVID-19/COVID-19";
         //String ruta = "minery/networks/BAXS/FABP6(I-BABP)";
         //String ruta = "minery/networks/BAXS/CYP7A1-short-names";
+        new BuildPathwayObjects().execute(ruta);
         
-        utilidades.proceso = ruta;
-        configuracion config = new configuracion();
-        //conf.recuperarConfiguracion(ruta);
+        //utilidades.proceso = ruta;
+        //configuracion config = new configuracion();
+        //config.recuperarConfiguracion(ruta);
+        
+        //minado_FT mft = new minado_FT();
+        //mft.vaciar_bc_pl(false, true, config, ruta);
         //este metodo llama al resumidor_bioinformante hace uso de la coleccion de abstracts
         //new Resumidor().resumidor(config, ruta);
 
@@ -248,7 +253,7 @@ public class BioPattern {
         //String kb = new GeneradorBC().generadorBC("kBase.pl", config, ruta);
         
         // crea la bace de conocimiento con el listado de eventos encontrados por el resumidor
-        String kb = new GeneradorBC().generadorBCInt("COVID-19", false);
+       // String kb = new GeneradorBC().generadorBCInt("COVID-19", false);
 
         // se crea el archivo 'mineria/pathwaysObjects.pl' haciendo uso de los objetos que se encontran en la base de conocimiento y la informacion en las ontologias
         //new objetos_patrones().generar_archivo(config, ruta);

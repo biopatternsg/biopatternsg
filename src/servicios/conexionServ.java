@@ -156,13 +156,20 @@ class hiloConexion extends Thread {
 
     public void run() {
         try {
-            //System.out.print("url: " + Url);
+            
             DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
             DocumentBuilder db = dbf.newDocumentBuilder();
             URL url = new URL(Url);
             doc = db.parse(url.openStream());
             doc.getDocumentElement().normalize();
-            //System.out.println("  .....ok");
+            
+           /* //System.out.print("url: " + Url);
+            DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
+            DocumentBuilder db = dbf.newDocumentBuilder();
+            URL url = new URL(Url);
+            doc = db.parse(url.openStream());
+            doc.getDocumentElement().normalize();
+            //System.out.println("  .....ok");*/
         } catch (Exception e) {
 
         }

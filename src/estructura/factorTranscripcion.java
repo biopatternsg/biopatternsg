@@ -129,7 +129,7 @@ public class factorTranscripcion {
             }
            
         } catch (JSONException ex) {
-            Logger.getLogger(factorTranscripcion.class.getName()).log(Level.SEVERE, null, ex);
+            //Logger.getLogger(factorTranscripcion.class.getName()).log(Level.SEVERE, null, ex);
         }
 
         return ID_CP;

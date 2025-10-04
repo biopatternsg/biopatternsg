@@ -127,7 +127,6 @@ public class BuildPathwayObjects {
                 route + MESH_ONTOLOGY,
                 route + MINED_OBJECTS,
                 route + WELL_KNOWN_RULES,
-                route + KBASE,
                 GENERATOR_PATHWAYS_OBJECTS
         );
     }

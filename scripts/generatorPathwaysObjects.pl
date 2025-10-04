@@ -1,4 +1,5 @@
 :-style_check(-discontiguous).
+
 %:-[mineria/ontologiaMESH].
 %:-[mineria/objetosMinados].
 %:-[mineria/well_know_rules].
