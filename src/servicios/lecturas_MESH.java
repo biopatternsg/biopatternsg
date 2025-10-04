@@ -49,6 +49,7 @@ public class lecturas_MESH extends conexionServ{
         }
        
         try {
+            Thread.sleep(500);
             Document doc = conexionSimple(url);
             NodeList nList = doc.getElementsByTagName("Id");
             for (int i = 0; i < nList.getLength(); i++) {
@@ -65,6 +66,7 @@ public class lecturas_MESH extends conexionServ{
         String url = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=mesh&id=" + id;
         ontologiaMESH ontologia = new ontologiaMESH();
         try {
+            Thread.sleep(500);
             Document doc = conexionSimple(url);
             ontologia = revisa_xml(doc);
         } catch (Exception e) {
