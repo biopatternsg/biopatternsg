@@ -23,6 +23,7 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
+import java.math.BigDecimal;
 import java.net.Authenticator;
 import java.net.PasswordAuthentication;
 import java.util.ArrayList;
@@ -80,7 +81,7 @@ public class BioPattern {
 
     }
 
-    public Region pipelineBioPatternRP(String regionPromotora, String confiabilidad, int cant_compl_p, int num_iteraciones, int metodoDeBusqueda) throws IOException {
+    public Region pipelineBioPatternRP(String regionPromotora, String confiabilidad, int cant_compl_p, int num_iteraciones, int metodoDeBusqueda, String chromosoma, int coordenadaInicio, int coordenadaFin) throws IOException {
 
         //Autenticación de proxy        
         autenticarProxy("150.187.65.3", "3128");
@@ -112,7 +113,7 @@ public class BioPattern {
         minado_FT mfts = new minado_FT();
         //ruta de archivo, confiabilidad, N Iteraciones, N de objetos
     //    mfts.minado(regionPromotora, conf, num_iteraciones, cant_compl_p, buscarOntologiaGO, buscarOntologiaMESH, new configuracion());
-        mfts.minado(regionPromotora, conf, num_iteraciones,cant_compl_p , buscarOntologiaGO, buscarOntologiaMESH, new configuracion(), "","", metodoDeBusqueda);
+        mfts.minado(regionPromotora, conf, num_iteraciones,cant_compl_p , buscarOntologiaGO, buscarOntologiaMESH, new configuracion(), "","", metodoDeBusqueda, chromosoma, coordenadaInicio, coordenadaFin);
         mfts.obtenerFT();
 
         Region region_promotora = new Region(this.regionPromotora);

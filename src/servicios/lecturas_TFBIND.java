@@ -23,6 +23,7 @@ import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.math.BigDecimal;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.ArrayList;
@@ -53,14 +54,14 @@ public class lecturas_TFBIND {
         this.cadena = cadena;
     }
 
-    public lecturas_TFBIND(String ruta, float confiabilidad, int metodoBusqueda) throws IOException {
+    public lecturas_TFBIND(String ruta, float confiabilidad, int metodoBusqueda, String chrom, int coodenadaInicio, int coordenadaFin) throws IOException {
 
         BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
-        leer_de_archivo(ruta, confiabilidad, metodoBusqueda);
+        leer_de_archivo(ruta, confiabilidad, metodoBusqueda, chrom, coodenadaInicio, coordenadaFin);
 
     }
 
-    public ArrayList<lecturas_TFBIND> leer_de_archivo(String ruta, float confiabilidad, int metodoDeBusqueda){
+    public ArrayList<lecturas_TFBIND> leer_de_archivo(String ruta, float confiabilidad, int metodoDeBusqueda, String chrom, int coodenadaInicio, int coordenadaFin ){
 
         ArrayList<lecturas_TFBIND> lecturasTFBIND = new ArrayList<>();
         ArrayList<lecturas_TFBIND> lecturasJaspar = new ArrayList<>();
@@ -89,7 +90,8 @@ public class lecturas_TFBIND {
               
                 //Busqueda en JASPAR
                 if(metodoDeBusqueda == 2 || metodoDeBusqueda == 3) {
-                    lecturasJaspar = lecturas_Jaspar(metodo, confiabilidad, control_factores);
+                    //TODO: debo mandarle las coordenadas y el chromosoma
+                    lecturasJaspar = lecturas_Jaspar(metodo, confiabilidad, control_factores, chrom, coodenadaInicio, coordenadaFin);
                 }
 
             }
@@ -187,71 +189,18 @@ public class lecturas_TFBIND {
         return lecturasTFBind;
     }
     
-     public ArrayList<lecturas_TFBIND> lecturas_Jaspar(String metodo, float confiabilidad, ArrayList<String> control_factores){
+     public ArrayList<lecturas_TFBIND> lecturas_Jaspar(String metodo, float confiabilidad, ArrayList<String> control_factores, String chrom, int coodenadaInicio, int coordenadaFin){
         ArrayList<lecturas_TFBIND> lecturasJaspar = new ArrayList<>();
         
         try {
-            URL buscarCoordenadasUrl = new URL("https://genome.ucsc.edu/cgi-bin/hgBlat?type=BLAT%27s+guess&userSeq=" + metodo);
-            InputStreamReader isr = new InputStreamReader(buscarCoordenadasUrl.openStream());
-            BufferedReader br = new BufferedReader(isr);
-            String linea, inicioInfo = "----------------------------------------------------------------";
-            boolean mostrarInfo = false;
-            int totalFT = 1;
-            System.out.println("\n" + utilidades.idioma.get(158));
-            //System.out.println("\nSeleccione coordenadas de busqueda en Jaspar");
-            ArrayList<FTJaspar> infoBlast = new ArrayList<>();
-            Scanner lectura = new Scanner(System.in);
-            
-            while ((linea = br.readLine()) != null && totalFT <= 5) {
-                if(linea.contains(inicioInfo)){
-                    mostrarInfo = true;
-                }
-                if(mostrarInfo){
-                    int posicion = linea.indexOf("YourSeq ");
-                    if(posicion != -1){
-                        linea = linea.substring(posicion);
-                        String[] info = linea.split(" ");
-                        List<String> listaElementos = new ArrayList<>();
-                        
-                        for (String elemento : info) {
-                            if (!elemento.isEmpty()) {
-                                listaElementos.add(elemento);
-                            }
-                        }
-                        
-                        System.out.print(totalFT + ". IDENTITY: " + String.format("%6s", listaElementos.get(5)));
-                        System.out.print("\t|\t CHROM: " +  String.format("%6s", listaElementos.get(6)));
-                        System.out.print("\t|\t STRAND: " + String.format("%4s", listaElementos.get(7)));
-                        System.out.print("\t|\t START: " + String.format("%11s", listaElementos.get(8)));
-                        System.out.println("\t|\t END: " + String.format("%11s", listaElementos.get(9)));
-                        
-                        String porcentaje = listaElementos.get(5).replace("%", "");
-                        
-                        infoBlast.add(
-                                new FTJaspar(Double.parseDouble(porcentaje),
-                                listaElementos.get(6),
-                                listaElementos.get(7),
-                                listaElementos.get(8),
-                                listaElementos.get(9))
-                        );
-                        totalFT++;
-                    }
-                }
-            }
-            
-            //System.out.println("\n Seleccione uno para buscar: ");
-            System.out.println("\n" + utilidades.idioma.get(159));
-            Integer seleccionFt = lectura.nextInt();
-            //System.out.println("--> " + infoBlast.get(seleccionFt - 1).getIdentity());
-            FTJaspar seleccionado = infoBlast.get(seleccionFt - 1);
-            
-            //Buscar en JASPAR
+     //Buscar en JASPAR
             URL buscarFTUrl = new URL("https://api.genome.ucsc.edu/getData/track?genome=hg38&track=jaspar2022&chrom=" + 
-                    seleccionado.getChromosome() + 
-                    "&start=" + seleccionado.getStart() + "&end=" + seleccionado.getEnd());
+                    chrom + 
+                    "&start=" + coodenadaInicio + "&end=" + coordenadaFin);
             
-            isr = new InputStreamReader(buscarFTUrl.openStream());
-            br = new BufferedReader(isr);
+            String linea;
+            InputStreamReader isr = new InputStreamReader(buscarFTUrl.openStream());
+            BufferedReader br = new BufferedReader(isr);
             
             StringBuilder content = new StringBuilder(); 
             

@@ -160,8 +160,11 @@
         <m n="155">5.- Generating pathways' documentation.</m>
         <m n="156">4.- Run the system from</m>
         <m n="157">Search for events from Pubtator3</m>
-        <m n="158">Select search source for TF: </m>
+        <m n="158">Select search source for Transcription Factors: </m>
         <m n="159">Select search coordinates in Jaspar: </m>
         <m n="160">Select to search: </m>
+        <m n="161">Chromosome for Transcription Factors search: </m>
+        <m n="162">Start coordinate for Transcription Factors search: </m>
+        <m n="163">Final coordinate for Transcription Factors search: </m>
     </menu1>
 </root>

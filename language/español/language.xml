@@ -160,9 +160,12 @@
         <m n="155">5.- Documentar los patrones de regulación.</m>
         <m n="156">4.- Reanudar desde.</m>
         <m n="157">Buscando eventos biologicos Pubtator3</m>
-        <m n="158">Seleccionar fuente de búsqueda para TF: </m>
+        <m n="158">Seleccionar fuente de búsqueda para Factores de Transcripcion: </m>
         <m n="159">Seleccione coordenadas de busqueda en Jaspar: </m>
         <m n="160">Seleccione uno para buscar: </m>
+        <m n="161">Ingrese cromosoma para busqueda de Factores de Transcripcion: </m>
+        <m n="162">Ingrese coordenada de inicio para busqueda de Factores de Transcripcion: </m>
+        <m n="163">Ingrese coordenada de fin para busqueda de Factores de Transcripcion: </m>
        </menu1>
     
         
