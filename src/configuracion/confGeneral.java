@@ -34,6 +34,7 @@ import java.util.ArrayList;
 import java.util.Scanner;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+import pathways_objects.BuildPathwayObjects;
 import pipeline.GeneradorBC;
 import pipeline.PubMed_IDs;
 import pipeline.Resumidor;
@@ -597,7 +598,7 @@ public class confGeneral {
                 String kb = new GeneradorBC().generadorBC("kBase.pl", config, ruta);
 
                 // se crea el archivo 'mineria/pathwaysObjects.pl' haciendo uso de los objetos que se encontran en la base de conocimiento y la informacion en las ontologias
-                new objetos_patrones().generar_archivo(config, ruta);
+                new BuildPathwayObjects().execute(ruta, config);
 
                 //String kb = "kBase.pl";
                 //new Razonador().inferir_patrones(kb, config);

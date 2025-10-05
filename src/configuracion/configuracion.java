@@ -32,6 +32,7 @@ import java.util.ArrayList;
 import java.util.Scanner;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+import pathways_objects.BuildPathwayObjects;
 import pipeline.BioPattern;
 import pipeline.GeneradorBC;
 import pipeline.PubMed_IDs;
@@ -78,7 +79,7 @@ public class configuracion {
     private boolean objetosPatrones; //genera archivo con clasificacion espesifica de los objetos en la BC a partir de las ontologias
     private boolean InferirPatrones; //crea los pathway usando los eventos, y la informacin de las ontologias
     private boolean nombreCorto;//nombre cortos para combinaciones de palabras clave
-    private int metodoBusquedaFT;   
+    private int metodoBusquedaFT;
     //----------------------------------------------------------------------------
 
     public configuracion() {
@@ -88,7 +89,7 @@ public class configuracion {
     }
 
     //guarda la configuracion inicial del proceso
-    public void guardarConfiguracion(String regionProm, int numIter, int cantCompl, float conf, boolean GO, boolean MESH, boolean nombreCorto, int cantPMID, String PMidExp, String ruta, int metodoBusquedaFT){
+    public void guardarConfiguracion(String regionProm, int numIter, int cantCompl, float conf, boolean GO, boolean MESH, boolean nombreCorto, int cantPMID, String PMidExp, String ruta, int metodoBusquedaFT) {
         this.RegionPromotora = regionProm;
         this.cantComplejos = cantCompl;
         this.numIteraciones = numIter;
@@ -432,7 +433,7 @@ public class configuracion {
                     reanudar(6, new objetosMineria(), ruta, rutaD);
                     break;
 
-               /* case "3":
+                /* case "3":
                     abstracts = false;
                     vaciado_pl = false;
                     generarResumenes = false;
@@ -442,7 +443,6 @@ public class configuracion {
                     guardar(ruta);
                     reanudar(7, new objetosMineria(), ruta, rutaD);
                     break;*/
-
                 case "3":
                     vaciado_pl = false;
                     generarResumenes = false;
@@ -453,7 +453,6 @@ public class configuracion {
                     reanudar(8, new objetosMineria(), ruta, rutaD);
                     break;
 
-                
                 case "4":
                     GenerarBC = false;
                     objetosPatrones = false;
@@ -468,7 +467,6 @@ public class configuracion {
                     guardar(ruta);
                     reanudar(11, new objetosMineria(), ruta, rutaD);
                     break;*/
-
                 case "0":
                     r = false;
                     break;
@@ -492,13 +490,13 @@ public class configuracion {
                 mfts.Iteraciones(false, new ArrayList<String>(), cantComplejos, numIteraciones, objetosMineria, this, 1, crearOntologiaGO, crearOntologiaMESH, ruta);
                 new combinaciones().generar_combinaciones(false, this, ruta, nombreCorto);
                 new PubMed_IDs().buscar(cantidadPMID, this, ruta);
-                abstracObject.find(ruta,this);
+                abstracObject.find(ruta, this);
                 mfts.vaciar_bc_pl(crearOntologiaGO, crearOntologiaMESH, this, ruta);
-               
+
                 try {
                     String base_conocimiento = new GeneradorBC().generadorBC("kBase.pl", this, ruta);
-                    objetos_patrones objetos_patrones = new objetos_patrones();
-                    objetos_patrones.generar_archivo(this, ruta);
+                    BuildPathwayObjects buildPathwayObjects = new BuildPathwayObjects();
+                    buildPathwayObjects.execute(ruta, this);
                 } catch (Exception e) {
                 }
                 new patrones().inferir_patrones(this, ruta);
@@ -510,13 +508,13 @@ public class configuracion {
                 mfts.Iteraciones(false, new ArrayList<String>(), cantComplejos, numIteraciones, objetosMineria, this, 1, crearOntologiaGO, crearOntologiaMESH, ruta);
                 new combinaciones().generar_combinaciones(false, this, ruta, nombreCorto);
                 new PubMed_IDs().buscar(cantidadPMID, this, ruta);
-                abstracObject.find(ruta,this);
+                abstracObject.find(ruta, this);
                 mfts.vaciar_bc_pl(crearOntologiaGO, crearOntologiaMESH, this, ruta);
-              
+
                 try {
                     String base_conocimiento = new GeneradorBC().generadorBC("kBase.pl", this, ruta);
-                    objetos_patrones objetos_patrones = new objetos_patrones();
-                    objetos_patrones.generar_archivo(this, ruta);
+                    BuildPathwayObjects buildPathwayObjects = new BuildPathwayObjects();
+                    buildPathwayObjects.execute(ruta, this);
                 } catch (Exception e) {
                 }
                 new patrones().inferir_patrones(this, ruta);
@@ -529,13 +527,13 @@ public class configuracion {
                 mfts.Iteraciones(false, new ArrayList<String>(), cantComplejos, numIteraciones, objetosMineria, this, 1, crearOntologiaGO, crearOntologiaMESH, ruta);
                 new combinaciones().generar_combinaciones(false, this, ruta, nombreCorto);
                 new PubMed_IDs().buscar(cantidadPMID, this, ruta);
-                abstracObject.find(ruta,this);
+                abstracObject.find(ruta, this);
                 mfts.vaciar_bc_pl(crearOntologiaGO, crearOntologiaMESH, this, ruta);
-               
+
                 try {
                     String base_conocimiento = new GeneradorBC().generadorBC("kBase.pl", this, ruta);
-                    objetos_patrones objetos_patrones = new objetos_patrones();
-                    objetos_patrones.generar_archivo(this, ruta);
+                    BuildPathwayObjects buildPathwayObjects = new BuildPathwayObjects();
+                    buildPathwayObjects.execute(ruta, this);
                 } catch (Exception e) {
                 }
                 new patrones().inferir_patrones(this, ruta);
@@ -545,13 +543,13 @@ public class configuracion {
                 mfts.Iteraciones(true, ListaObj, cantComplejos, numIteraciones, objetosMineria, this, objetosMineria.getIteracion() + 1, crearOntologiaGO, crearOntologiaMESH, ruta);
                 new combinaciones().generar_combinaciones(false, this, ruta, nombreCorto);
                 new PubMed_IDs().buscar(cantidadPMID, this, ruta);
-                abstracObject.find(ruta,this);
+                abstracObject.find(ruta, this);
                 mfts.vaciar_bc_pl(crearOntologiaGO, crearOntologiaMESH, this, ruta);
-               
+
                 try {
                     String base_conocimiento = new GeneradorBC().generadorBC("kBase.pl", this, ruta);
-                    objetos_patrones objetos_patrones = new objetos_patrones();
-                    objetos_patrones.generar_archivo(this, ruta);
+                    BuildPathwayObjects buildPathwayObjects = new BuildPathwayObjects();
+                    buildPathwayObjects.execute(ruta, this);
                 } catch (Exception e) {
                 }
                 new patrones().inferir_patrones(this, ruta);
@@ -560,49 +558,49 @@ public class configuracion {
             case 5:
                 new combinaciones().generar_combinaciones(false, this, ruta, nombreCorto);
                 new PubMed_IDs().buscar(cantidadPMID, this, ruta);
-                abstracObject.find(ruta,this);
+                abstracObject.find(ruta, this);
                 mfts.vaciar_bc_pl(crearOntologiaGO, crearOntologiaMESH, this, ruta);
-                
+
                 try {
                     String base_conocimiento = new GeneradorBC().generadorBC("kBase.pl", this, ruta);
-                    objetos_patrones objetos_patrones = new objetos_patrones();
-                    objetos_patrones.generar_archivo(this, ruta);
+                    BuildPathwayObjects buildPathwayObjects = new BuildPathwayObjects();
+                    buildPathwayObjects.execute(ruta, this);
                 } catch (Exception e) {
                 }
                 new patrones().inferir_patrones(this, ruta);
                 break;
             case 6:
                 new PubMed_IDs().buscar(cantidadPMID, this, ruta);
-                abstracObject.find(ruta,this);
+                abstracObject.find(ruta, this);
                 mfts.vaciar_bc_pl(crearOntologiaGO, crearOntologiaMESH, this, ruta);
-               
+
                 try {
                     String base_conocimiento = new GeneradorBC().generadorBC("kBase.pl", this, ruta);
-                    objetos_patrones objetos_patrones = new objetos_patrones();
-                    objetos_patrones.generar_archivo(this, ruta);
+                    BuildPathwayObjects buildPathwayObjects = new BuildPathwayObjects();
+                    buildPathwayObjects.execute(ruta, this);
                 } catch (Exception e) {
                 }
                 new patrones().inferir_patrones(this, ruta);
                 break;
             case 7:
-                abstracObject.find(ruta,this);
+                abstracObject.find(ruta, this);
                 mfts.vaciar_bc_pl(crearOntologiaGO, crearOntologiaMESH, this, ruta);
-               
+
                 try {
                     String base_conocimiento = new GeneradorBC().generadorBC("kBase.pl", this, ruta);
-                    objetos_patrones objetos_patrones = new objetos_patrones();
-                    objetos_patrones.generar_archivo(this, ruta);
+                    BuildPathwayObjects buildPathwayObjects = new BuildPathwayObjects();
+                    buildPathwayObjects.execute(ruta, this);
                 } catch (Exception e) {
                 }
                 new patrones().inferir_patrones(this, ruta);
                 break;
             case 8:
                 mfts.vaciar_bc_pl(crearOntologiaGO, crearOntologiaMESH, this, ruta);
-               
+
                 try {
                     String base_conocimiento = new GeneradorBC().generadorBC("kBase.pl", this, ruta);
-                    objetos_patrones objetos_patrones = new objetos_patrones();
-                    objetos_patrones.generar_archivo(this, ruta);
+                    BuildPathwayObjects buildPathwayObjects = new BuildPathwayObjects();
+                    buildPathwayObjects.execute(ruta, this);
                 } catch (Exception e) {
                 }
                 new patrones().inferir_patrones(this, ruta);
@@ -611,8 +609,8 @@ public class configuracion {
                 new Resumidor().resumidor(this, ruta);
                 try {
                     String base_conocimiento = new GeneradorBC().generadorBC("kBase.pl", this, ruta);
-                    objetos_patrones objetos_patrones = new objetos_patrones();
-                    objetos_patrones.generar_archivo(this, ruta);
+                    BuildPathwayObjects buildPathwayObjects = new BuildPathwayObjects();
+                    buildPathwayObjects.execute(ruta,this);
                 } catch (Exception e) {
                 }
                 new patrones().inferir_patrones(this, ruta);
@@ -620,15 +618,15 @@ public class configuracion {
             case 10:
                 try {
                     String base_conocimiento = new GeneradorBC().generadorBC("kBase.pl", this, ruta);
-                    objetos_patrones objetos_patrones = new objetos_patrones();
-                    objetos_patrones.generar_archivo(this, ruta);
+                    BuildPathwayObjects buildPathwayObjects = new BuildPathwayObjects();
+                    buildPathwayObjects.execute(ruta, this);
                 } catch (Exception e) {
                 }
                 new patrones().inferir_patrones(this, ruta);
                 break;
             case 11:
-                objetos_patrones objetos_patrones = new objetos_patrones();
-                objetos_patrones.generar_archivo(this, ruta);
+                BuildPathwayObjects buildPathwayObjects = new BuildPathwayObjects();
+                buildPathwayObjects.execute(ruta, this);
                 new patrones().inferir_patrones(this, ruta);
                 break;
             case 12:
@@ -1116,9 +1114,9 @@ public class configuracion {
         return num;
     }
 
-        public int ingresarMetodoBusquedaDeFT() {
+    public int ingresarMetodoBusquedaDeFT() {
         Scanner lectura = new Scanner(System.in);
-        String metodoBusquedaFT; 
+        String metodoBusquedaFT;
         while (true) {
             System.out.println(utilidades.idioma.get(158));
             System.out.println("1. TFBind");
@@ -1132,7 +1130,6 @@ public class configuracion {
         return Integer.parseInt(metodoBusquedaFT);
     }
 
-    
     public int getNumIteraciones() {
         return numIteraciones;
     }
