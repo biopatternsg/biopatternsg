@@ -1,0 +1,43 @@
+ACO2
+IDH2
+IDH3A
+IDH3B
+IDH3G
+NADP(3-)
+CS
+heme b
+coenzyme Q10
+FH
+MDH2
+citrate(3-)
+hydrogenphosphate
+4-hydroxybutyrate
+NNT
+tetra-mu3-sulfido-tetrairon(2+)
+ATP(4-)
+2-oxoglutarate(2-)
+SDHA
+SDHB
+SDHC
+SDHD
+(S)-malate(2-)
+oxaloacetate(2-)
+SUCLA2
+SUCLG1
+TRAP1
+D-threo-isocitrate(3-)
+ADP(3-)
+SUCLG2
+Fe3S4 iron-sulfur cluster
+NAD(1-)
+coenzyme A(4-)
+acetyl-CoA(4-)
+NADPH(4-)
+NADH(2-)
+manganese(2+)
+ubiquinol-10
+succinyl-CoA(5-)
+hydron
+magnesium(2+)
+fumarate(2-)
+succinate(2-)

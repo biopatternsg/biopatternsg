@@ -1,0 +1,17 @@
+Number of vertices in Ref .sif = 43
+Number of vertices in BioPattern kBase.pl =6017
+Number of edges in Ref .sif = 290
+Number of edges in BioPattern kBase.pl = 62574
+Common Paths found in this .sif and in the .pl
+The structure is: Initial Vertex, Relationship in Sif, Relationship in BioPatterns, Final Vertex
+[('SDHA','in-complex-with',bind,'SDHB')]
+[('SDHA','in-complex-with',negative_correlation,'SDHB')]
+[('SDHA','in-complex-with',association,'SDHB')]
+[('SDHA','in-complex-with',association,'SDHC')]
+[('SDHA','in-complex-with',negative_correlation,'SDHC')]
+[('SUCLA2','in-complex-with',negative_correlation,'SUCLG2')]
+[('SUCLA2','catalysis-precedes',negative_correlation,'SUCLG2')]
+[('SUCLA2','controls-production-of',negative_correlation,'SUCLG2')]
+[('SUCLA2','consumption-controlled-by',negative_correlation,'SUCLG2')]
+[('SUCLA2','used-to-produce',negative_correlation,'SUCLG2')]
+Number of paths common to Sif Ref and BioPatterns = 10

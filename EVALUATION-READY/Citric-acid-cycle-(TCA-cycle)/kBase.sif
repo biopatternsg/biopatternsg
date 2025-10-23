@@ -1,0 +1,145 @@
+ACO2	catalysis-precedes	IDH2
+ACO2	catalysis-precedes	IDH3A
+ACO2	catalysis-precedes	IDH3B
+ACO2	catalysis-precedes	IDH3G
+ACO2	controls-production-of	D-threo-isocitrate(3-)
+CS	catalysis-precedes	D-threo-isocitrate(3-)
+CS	controls-production-of	citrate(3-)
+CS	controls-production-of	coenzyme A(4-)
+FH	catalysis-precedes	MDH2
+FH	controls-production-of	(S)-malate(2-)
+FH	controls-production-of	2-oxoglutarate(2-)
+FH	in-complex-with	2-oxoglutarate(2-)
+FH	in-complex-with	2-oxoglutarate(2-)
+FH	controls-production-of	2-oxoglutarate(2-)
+FH	in-complex-with	2-oxoglutarate(2-)
+FH	controls-production-of	2-oxoglutarate(2-)
+FH	controls-production-of	2-oxoglutarate(2-)
+FH	catalysis-precedes	2-oxoglutarate(2-)
+FH	controls-production-of	oxaloacetate(2-)
+NNT	controls-transport-of-chemical	hydron
+NNT	controls-production-of	NADH(2-)
+NNT	controls-production-of	NADP(3-)
+SDHA	catalysis-precedes	NADP(3-)
+SDHA	in-complex-with	SDHB
+SDHA	in-complex-with	SDHC
+SDHA	in-complex-with	SDHD
+SDHA	controls-production-of	fumarate(2-)
+SDHA	controls-production-of	ubiquinol-10
+SDHA	catalysis-precedes	ubiquinol-10
+SDHA	in-complex-with	ubiquinol-10
+SDHA	in-complex-with	ubiquinol-10
+SDHA	controls-production-of	ubiquinol-10
+SDHA	controls-production-of	ubiquinol-10
+SDHA	catalysis-precedes	ubiquinol-10
+SDHA	in-complex-with	ubiquinol-10
+SDHA	controls-production-of	ubiquinol-10
+SDHA	controls-production-of	ubiquinol-10
+SDHA	catalysis-precedes	ubiquinol-10
+SDHA	controls-production-of	ubiquinol-10
+SDHA	controls-production-of	ubiquinol-10
+SUCLA2	catalysis-precedes	ubiquinol-10
+SUCLA2	catalysis-precedes	ubiquinol-10
+SUCLA2	catalysis-precedes	ubiquinol-10
+SUCLA2	catalysis-precedes	ubiquinol-10
+SUCLA2	in-complex-with	SUCLG1
+SUCLA2	catalysis-precedes	TRAP1
+SUCLA2	controls-production-of	succinate(2-)
+SUCLA2	controls-production-of	ATP(4-)
+SUCLA2	controls-production-of	ATP(4-)
+SUCLA2	catalysis-precedes	ATP(4-)
+SUCLA2	catalysis-precedes	ATP(4-)
+SUCLA2	catalysis-precedes	ATP(4-)
+SUCLA2	catalysis-precedes	ATP(4-)
+SUCLA2	in-complex-with	SUCLG2
+SUCLA2	catalysis-precedes	SUCLG2
+SUCLA2	controls-production-of	SUCLG2
+SUCLA2	controls-production-of	SUCLG2
+SUCLA2	controls-production-of	SUCLG2
+SUCLA2	catalysis-precedes	SUCLG2
+SUCLA2	catalysis-precedes	SUCLG2
+SUCLA2	catalysis-precedes	SUCLG2
+SUCLA2	catalysis-precedes	SUCLG2
+SUCLA2	catalysis-precedes	SUCLG2
+SUCLA2	controls-production-of	SUCLG2
+SUCLA2	controls-production-of	SUCLG2
+SUCLA2	catalysis-precedes	SUCLG2
+SUCLA2	controls-production-of	SUCLG2
+SUCLA2	controls-production-of	SUCLG2
+SUCLA2	consumption-controlled-by	SUCLG2
+SUCLA2	consumption-controlled-by	SUCLG2
+SUCLA2	consumption-controlled-by	SUCLG2
+SUCLA2	consumption-controlled-by	SUCLG2
+SUCLA2	used-to-produce	SUCLG2
+SUCLA2	consumption-controlled-by	SUCLG2
+SUCLA2	used-to-produce	SUCLG2
+SUCLA2	consumption-controlled-by	SUCLG2
+SUCLA2	used-to-produce	SUCLG2
+SUCLA2	used-to-produce	SUCLG2
+SUCLA2	reacts-with	acetyl-CoA(4-)
+4-hydroxybutyrate	chemical-affects	acetyl-CoA(4-)
+4-hydroxybutyrate	chemical-affects	acetyl-CoA(4-)
+4-hydroxybutyrate	chemical-affects	acetyl-CoA(4-)
+4-hydroxybutyrate	chemical-affects	acetyl-CoA(4-)
+4-hydroxybutyrate	consumption-controlled-by	acetyl-CoA(4-)
+4-hydroxybutyrate	used-to-produce	acetyl-CoA(4-)
+magnesium(2+)	chemical-affects	acetyl-CoA(4-)
+magnesium(2+)	chemical-affects	acetyl-CoA(4-)
+magnesium(2+)	chemical-affects	acetyl-CoA(4-)
+heme b	chemical-affects	acetyl-CoA(4-)
+heme b	chemical-affects	acetyl-CoA(4-)
+heme b	chemical-affects	acetyl-CoA(4-)
+heme b	chemical-affects	acetyl-CoA(4-)
+manganese(2+)	chemical-affects	acetyl-CoA(4-)
+manganese(2+)	chemical-affects	acetyl-CoA(4-)
+manganese(2+)	chemical-affects	acetyl-CoA(4-)
+manganese(2+)	chemical-affects	acetyl-CoA(4-)
+manganese(2+)	consumption-controlled-by	acetyl-CoA(4-)
+manganese(2+)	used-to-produce	acetyl-CoA(4-)
+manganese(2+)	consumption-controlled-by	acetyl-CoA(4-)
+manganese(2+)	consumption-controlled-by	acetyl-CoA(4-)
+manganese(2+)	consumption-controlled-by	acetyl-CoA(4-)
+manganese(2+)	consumption-controlled-by	acetyl-CoA(4-)
+manganese(2+)	consumption-controlled-by	acetyl-CoA(4-)
+manganese(2+)	used-to-produce	acetyl-CoA(4-)
+manganese(2+)	reacts-with	coenzyme Q10
+manganese(2+)	used-to-produce	coenzyme Q10
+tetra-mu3-sulfido-tetrairon(2+)	chemical-affects	coenzyme Q10
+hydrogenphosphate	consumption-controlled-by	coenzyme Q10
+hydrogenphosphate	consumption-controlled-by	coenzyme Q10
+hydrogenphosphate	consumption-controlled-by	coenzyme Q10
+hydrogenphosphate	used-to-produce	coenzyme Q10
+hydrogenphosphate	used-to-produce	coenzyme Q10
+hydrogenphosphate	reacts-with	ADP(3-)
+hydrogenphosphate	used-to-produce	ADP(3-)
+hydrogenphosphate	reacts-with	succinyl-CoA(5-)
+hydrogenphosphate	consumption-controlled-by	succinyl-CoA(5-)
+hydrogenphosphate	consumption-controlled-by	succinyl-CoA(5-)
+hydrogenphosphate	used-to-produce	succinyl-CoA(5-)
+hydrogenphosphate	used-to-produce	succinyl-CoA(5-)
+hydrogenphosphate	used-to-produce	succinyl-CoA(5-)
+hydrogenphosphate	reacts-with	succinyl-CoA(5-)
+hydrogenphosphate	consumption-controlled-by	succinyl-CoA(5-)
+hydrogenphosphate	consumption-controlled-by	succinyl-CoA(5-)
+hydrogenphosphate	consumption-controlled-by	succinyl-CoA(5-)
+hydrogenphosphate	consumption-controlled-by	succinyl-CoA(5-)
+hydrogenphosphate	consumption-controlled-by	succinyl-CoA(5-)
+hydrogenphosphate	used-to-produce	succinyl-CoA(5-)
+hydrogenphosphate	used-to-produce	succinyl-CoA(5-)
+hydrogenphosphate	consumption-controlled-by	succinyl-CoA(5-)
+hydrogenphosphate	used-to-produce	succinyl-CoA(5-)
+hydrogenphosphate	used-to-produce	succinyl-CoA(5-)
+hydrogenphosphate	consumption-controlled-by	succinyl-CoA(5-)
+hydrogenphosphate	consumption-controlled-by	succinyl-CoA(5-)
+hydrogenphosphate	consumption-controlled-by	succinyl-CoA(5-)
+hydrogenphosphate	used-to-produce	succinyl-CoA(5-)
+hydrogenphosphate	used-to-produce	succinyl-CoA(5-)
+hydrogenphosphate	used-to-produce	succinyl-CoA(5-)
+NAD(1-)	consumption-controlled-by	succinyl-CoA(5-)
+NAD(1-)	reacts-with	NADPH(4-)
+NAD(1-)	used-to-produce	NADPH(4-)
+NAD(1-)	used-to-produce	NADPH(4-)
+NAD(1-)	consumption-controlled-by	NADPH(4-)
+NAD(1-)	used-to-produce	NADPH(4-)
+NAD(1-)	used-to-produce	NADPH(4-)
+Fe3S4 iron-sulfur cluster	chemical-affects	NADPH(4-)
