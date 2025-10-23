@@ -1,0 +1,202 @@
+ADPGK	catalysis-precedes	GPI
+ADPGK	catalysis-precedes	PGM2L1
+ADPGK	controls-production-of	adenosine 5\'-monophosphate(2-)
+ADPGK	controls-production-of	alpha-D-glucose 6-phosphate(2-)
+ALDOA	catalysis-precedes	GAPDHS
+ALDOA	catalysis-precedes	GAPDH
+ALDOA	catalysis-precedes	TPI1
+ALDOA	controls-production-of	glycerone phosphate(2-)
+ALDOA	controls-production-of	D-glyceraldehyde 3-phosphate(2-)
+ALDOB	catalysis-precedes	D-glyceraldehyde 3-phosphate(2-)
+ALDOB	catalysis-precedes	D-glyceraldehyde 3-phosphate(2-)
+ALDOB	catalysis-precedes	D-glyceraldehyde 3-phosphate(2-)
+ALDOB	controls-production-of	D-glyceraldehyde 3-phosphate(2-)
+ALDOB	controls-production-of	D-glyceraldehyde 3-phosphate(2-)
+ALDOC	catalysis-precedes	D-glyceraldehyde 3-phosphate(2-)
+ALDOC	catalysis-precedes	D-glyceraldehyde 3-phosphate(2-)
+ALDOC	catalysis-precedes	D-glyceraldehyde 3-phosphate(2-)
+ALDOC	controls-production-of	D-glyceraldehyde 3-phosphate(2-)
+ALDOC	controls-production-of	D-glyceraldehyde 3-phosphate(2-)
+BPGM	controls-production-of	2,3-bisphosphoglycerate
+ENO1	catalysis-precedes	PKLR
+ENO1	catalysis-precedes	PKM
+ENO1	controls-production-of	phosphonatoenolpyruvate
+ENO2	catalysis-precedes	phosphonatoenolpyruvate
+ENO2	catalysis-precedes	phosphonatoenolpyruvate
+ENO2	controls-production-of	phosphonatoenolpyruvate
+ENO3	catalysis-precedes	phosphonatoenolpyruvate
+ENO3	catalysis-precedes	phosphonatoenolpyruvate
+ENO3	controls-production-of	phosphonatoenolpyruvate
+ENO4	catalysis-precedes	phosphonatoenolpyruvate
+ENO4	catalysis-precedes	phosphonatoenolpyruvate
+ENO4	controls-production-of	phosphonatoenolpyruvate
+ENO4	catalysis-precedes	phosphonatoenolpyruvate
+ENO4	catalysis-precedes	PGK1
+ENO4	catalysis-precedes	PGK2
+ENO4	catalysis-precedes	PGK2
+ENO4	catalysis-precedes	PGK2
+ENO4	catalysis-precedes	PGK2
+ENO4	catalysis-precedes	PGK2
+ENO4	catalysis-precedes	PGK2
+ENO4	controls-production-of	3-phosphonato-D-glyceroyl phosphate(4-)
+ENO4	controls-production-of	3-phosphonato-D-glyceroyl phosphate(4-)
+GCK	catalysis-precedes	3-phosphonato-D-glyceroyl phosphate(4-)
+GCK	catalysis-precedes	3-phosphonato-D-glyceroyl phosphate(4-)
+GCK	controls-production-of	3-phosphonato-D-glyceroyl phosphate(4-)
+GNPDA1	catalysis-precedes	PFKL
+GNPDA1	catalysis-precedes	PFKM
+GNPDA1	catalysis-precedes	PFKP
+GNPDA1	controls-production-of	ammonium
+GNPDA1	controls-production-of	beta-D-fructofuranose 6-phosphate(2-)
+GNPDA2	catalysis-precedes	beta-D-fructofuranose 6-phosphate(2-)
+GNPDA2	catalysis-precedes	beta-D-fructofuranose 6-phosphate(2-)
+GNPDA2	catalysis-precedes	beta-D-fructofuranose 6-phosphate(2-)
+GNPDA2	controls-production-of	beta-D-fructofuranose 6-phosphate(2-)
+GNPDA2	controls-production-of	beta-D-fructofuranose 6-phosphate(2-)
+GNPDA2	catalysis-precedes	beta-D-fructofuranose 6-phosphate(2-)
+GNPDA2	catalysis-precedes	beta-D-fructofuranose 6-phosphate(2-)
+GNPDA2	catalysis-precedes	beta-D-fructofuranose 6-phosphate(2-)
+GNPDA2	controls-production-of	beta-D-fructofuranose 6-phosphate(2-)
+HK1	catalysis-precedes	beta-D-fructofuranose 6-phosphate(2-)
+HK1	catalysis-precedes	beta-D-fructofuranose 6-phosphate(2-)
+HK1	controls-production-of	beta-D-fructofuranose 6-phosphate(2-)
+HK2	catalysis-precedes	beta-D-fructofuranose 6-phosphate(2-)
+HK2	catalysis-precedes	beta-D-fructofuranose 6-phosphate(2-)
+HK2	controls-production-of	beta-D-fructofuranose 6-phosphate(2-)
+HK3	catalysis-precedes	beta-D-fructofuranose 6-phosphate(2-)
+HK3	catalysis-precedes	beta-D-fructofuranose 6-phosphate(2-)
+HK3	controls-production-of	beta-D-fructofuranose 6-phosphate(2-)
+HKDC1	catalysis-precedes	beta-D-fructofuranose 6-phosphate(2-)
+HKDC1	catalysis-precedes	beta-D-fructofuranose 6-phosphate(2-)
+HKDC1	controls-production-of	beta-D-fructofuranose 6-phosphate(2-)
+HKDC1	catalysis-precedes	beta-D-fructofuranose 6-phosphate(2-)
+HKDC1	catalysis-precedes	beta-D-fructofuranose 6-phosphate(2-)
+HKDC1	catalysis-precedes	beta-D-fructofuranose 6-phosphate(2-)
+HKDC1	in-complex-with	beta-D-fructofuranose 6-phosphate(2-)
+HKDC1	in-complex-with	beta-D-fructofuranose 6-phosphate(2-)
+HKDC1	controls-production-of	beta-D-fructofuranose 1,6-bisphosphate(4-)
+HKDC1	catalysis-precedes	beta-D-fructofuranose 1,6-bisphosphate(4-)
+HKDC1	catalysis-precedes	beta-D-fructofuranose 1,6-bisphosphate(4-)
+HKDC1	catalysis-precedes	beta-D-fructofuranose 1,6-bisphosphate(4-)
+HKDC1	controls-production-of	beta-D-fructofuranose 1,6-bisphosphate(4-)
+HKDC1	catalysis-precedes	beta-D-fructofuranose 1,6-bisphosphate(4-)
+HKDC1	catalysis-precedes	beta-D-fructofuranose 1,6-bisphosphate(4-)
+HKDC1	catalysis-precedes	beta-D-fructofuranose 1,6-bisphosphate(4-)
+HKDC1	controls-production-of	beta-D-fructofuranose 1,6-bisphosphate(4-)
+PGAM1	catalysis-precedes	beta-D-fructofuranose 1,6-bisphosphate(4-)
+PGAM1	catalysis-precedes	beta-D-fructofuranose 1,6-bisphosphate(4-)
+PGAM1	catalysis-precedes	beta-D-fructofuranose 1,6-bisphosphate(4-)
+PGAM1	catalysis-precedes	beta-D-fructofuranose 1,6-bisphosphate(4-)
+PGAM1	controls-production-of	2-phosphonato-D-glycerate(3-)
+PGAM2	catalysis-precedes	2-phosphonato-D-glycerate(3-)
+PGAM2	catalysis-precedes	2-phosphonato-D-glycerate(3-)
+PGAM2	catalysis-precedes	2-phosphonato-D-glycerate(3-)
+PGAM2	catalysis-precedes	2-phosphonato-D-glycerate(3-)
+PGAM2	controls-production-of	2-phosphonato-D-glycerate(3-)
+PGAM2	catalysis-precedes	2-phosphonato-D-glycerate(3-)
+PGAM2	catalysis-precedes	2-phosphonato-D-glycerate(3-)
+PGAM2	catalysis-precedes	PGP
+PGAM2	controls-production-of	ATP(4-)
+PGAM2	controls-production-of	3-phosphonato-D-glycerate(3-)
+PGAM2	catalysis-precedes	3-phosphonato-D-glycerate(3-)
+PGAM2	catalysis-precedes	3-phosphonato-D-glycerate(3-)
+PGAM2	catalysis-precedes	3-phosphonato-D-glycerate(3-)
+PGAM2	controls-production-of	3-phosphonato-D-glycerate(3-)
+PGAM2	controls-production-of	3-phosphonato-D-glycerate(3-)
+PGAM2	catalysis-precedes	3-phosphonato-D-glycerate(3-)
+PGAM2	catalysis-precedes	3-phosphonato-D-glycerate(3-)
+PGAM2	catalysis-precedes	3-phosphonato-D-glycerate(3-)
+PGAM2	controls-production-of	alpha-D-glucose 1,6-bisphosphate
+PGAM2	controls-production-of	alpha-D-glucose 1,6-bisphosphate
+PGAM2	controls-production-of	glycerol
+PGAM2	controls-production-of	pyruvate
+PGAM2	controls-production-of	pyruvate
+PGAM2	controls-production-of	pyruvate
+PGAM2	controls-production-of	pyruvate
+PGAM2	catalysis-precedes	pyruvate
+PGAM2	catalysis-precedes	pyruvate
+PGAM2	controls-production-of	pyruvate
+alpha-D-glucosamine 6-phosphate	consumption-controlled-by	pyruvate
+alpha-D-glucosamine 6-phosphate	consumption-controlled-by	pyruvate
+alpha-D-glucosamine 6-phosphate	used-to-produce	pyruvate
+alpha-D-glucosamine 6-phosphate	used-to-produce	pyruvate
+alpha-D-glucose	consumption-controlled-by	pyruvate
+alpha-D-glucose	consumption-controlled-by	pyruvate
+alpha-D-glucose	consumption-controlled-by	pyruvate
+alpha-D-glucose	consumption-controlled-by	pyruvate
+alpha-D-glucose	consumption-controlled-by	pyruvate
+alpha-D-glucose	consumption-controlled-by	pyruvate
+alpha-D-glucose	used-to-produce	pyruvate
+alpha-D-glucose	reacts-with	ADP(3-)
+alpha-D-glucose	used-to-produce	ADP(3-)
+magnesium(2+)	chemical-affects	ADP(3-)
+magnesium(2+)	chemical-affects	ADP(3-)
+magnesium(2+)	chemical-affects	ADP(3-)
+magnesium(2+)	chemical-affects	ADP(3-)
+magnesium(2+)	chemical-affects	ADP(3-)
+magnesium(2+)	chemical-affects	ADP(3-)
+magnesium(2+)	chemical-affects	ADP(3-)
+magnesium(2+)	chemical-affects	ADP(3-)
+magnesium(2+)	chemical-affects	ADP(3-)
+magnesium(2+)	chemical-affects	ADP(3-)
+magnesium(2+)	chemical-affects	ADP(3-)
+potassium(1+)	chemical-affects	ADP(3-)
+potassium(1+)	chemical-affects	ADP(3-)
+potassium(1+)	consumption-controlled-by	ADP(3-)
+potassium(1+)	consumption-controlled-by	ADP(3-)
+potassium(1+)	consumption-controlled-by	ADP(3-)
+potassium(1+)	used-to-produce	ADP(3-)
+potassium(1+)	used-to-produce	ADP(3-)
+hydrogenphosphate	consumption-controlled-by	ADP(3-)
+hydrogenphosphate	consumption-controlled-by	ADP(3-)
+hydrogenphosphate	used-to-produce	ADP(3-)
+hydrogenphosphate	reacts-with	ADP(3-)
+hydrogenphosphate	consumption-controlled-by	ADP(3-)
+hydrogenphosphate	consumption-controlled-by	ADP(3-)
+hydrogenphosphate	consumption-controlled-by	ADP(3-)
+hydrogenphosphate	consumption-controlled-by	ADP(3-)
+hydrogenphosphate	consumption-controlled-by	ADP(3-)
+hydrogenphosphate	used-to-produce	ADP(3-)
+hydrogenphosphate	used-to-produce	ADP(3-)
+hydrogenphosphate	used-to-produce	ADP(3-)
+hydrogenphosphate	reacts-with	ADP(3-)
+hydrogenphosphate	used-to-produce	ADP(3-)
+hydrogenphosphate	used-to-produce	ADP(3-)
+hydrogenphosphate	reacts-with	ADP(3-)
+hydrogenphosphate	consumption-controlled-by	ADP(3-)
+hydrogenphosphate	consumption-controlled-by	ADP(3-)
+hydrogenphosphate	consumption-controlled-by	ADP(3-)
+hydrogenphosphate	consumption-controlled-by	ADP(3-)
+hydrogenphosphate	used-to-produce	ADP(3-)
+hydrogenphosphate	used-to-produce	ADP(3-)
+hydrogenphosphate	used-to-produce	ADP(3-)
+hydrogenphosphate	reacts-with	ADP(3-)
+hydrogenphosphate	used-to-produce	ADP(3-)
+hydrogenphosphate	consumption-controlled-by	ADP(3-)
+hydrogenphosphate	consumption-controlled-by	ADP(3-)
+hydrogenphosphate	consumption-controlled-by	ADP(3-)
+hydrogenphosphate	used-to-produce	ADP(3-)
+hydrogenphosphate	consumption-controlled-by	ADP(3-)
+hydrogenphosphate	used-to-produce	ADP(3-)
+hydrogenphosphate	consumption-controlled-by	ADP(3-)
+hydrogenphosphate	consumption-controlled-by	ADP(3-)
+hydrogenphosphate	used-to-produce	ADP(3-)
+hydrogenphosphate	used-to-produce	ADP(3-)
+hydrogenphosphate	used-to-produce	ADP(3-)
+hydrogenphosphate	consumption-controlled-by	ADP(3-)
+hydrogenphosphate	consumption-controlled-by	ADP(3-)
+hydrogenphosphate	consumption-controlled-by	ADP(3-)
+hydrogenphosphate	used-to-produce	ADP(3-)
+hydrogenphosphate	used-to-produce	ADP(3-)
+hydrogenphosphate	consumption-controlled-by	ADP(3-)
+hydrogenphosphate	consumption-controlled-by	ADP(3-)
+hydrogenphosphate	consumption-controlled-by	ADP(3-)
+hydrogenphosphate	consumption-controlled-by	ADP(3-)
+hydrogenphosphate	used-to-produce	ADP(3-)
+hydrogenphosphate	consumption-controlled-by	ADP(3-)
+hydrogenphosphate	consumption-controlled-by	ADP(3-)
+hydrogenphosphate	used-to-produce	ADP(3-)
+hydrogenphosphate	used-to-produce	ADP(3-)
+hydrogenphosphate	consumption-controlled-by	ADP(3-)
+hydrogenphosphate	consumption-controlled-by	ADP(3-)
+hydrogenphosphate	used-to-produce	ADP(3-)
