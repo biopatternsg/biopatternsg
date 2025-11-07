@@ -371,7 +371,7 @@ find_subpath_mapping(H, G, V, Visited, [(V,NV)|NewMapping]) :-
     synonyms(V, VSyn), 
     synonyms(Hnext, HSyn), 
     member(NV, VSyn), member(NHnext, HSyn), 
-    edge(G, NV, NHnext, _), 
+    (edge(G, NV, NHnext, _); edge(G, NHnext, NV, _)), 
     find_subpath_mapping(H, G, Hnext, [Hnext|Visited], NewMapping).
 
 % Base case: Subpath with size > 1 in H cannot no longer be extended from V
@@ -418,10 +418,10 @@ compare_relations(Graph1, Graph2, Table) :-
 compare_relations_in_subpath(_Graph1, _Graph2, [], []).
 
 compare_relations_in_subpath(Graph1, Graph2, [(Xh, Xg),(Yh, Yg)], [(Xh,Rel1,Rel2,Yh)]) :-
-	edge(Graph1, Xh, Yh, Rel1), edge(Graph2, Xg, Yg, Rel2).
+	edge(Graph1, Xh, Yh, Rel1), (edge(Graph2, Xg, Yg, Rel2); edge(Graph2, Yg, Xg, Rel2)).
 
 compare_relations_in_subpath(Graph1, Graph2, [(Xh, Xg),(Yh, Yg)|RPath], [(Xh,Rel1,Rel2,Yh)|Table]) :-
-	edge(Graph1, Xh, Yh, Rel1), edge(Graph2, Xg, Yg, Rel2),
+	edge(Graph1, Xh, Yh, Rel1), (edge(Graph2, Xg, Yg, Rel2); edge(Graph2, Yg, Xg, Rel2)),
 	compare_relations_in_subpath(Graph1, Graph2, [(Yh, Yg)|RPath], Table). 
 	
 produce_all_common_paths(CC, N) :-

@@ -1,7 +1,7 @@
 Number of vertices in Ref .sif = 13
 Number of vertices in BioPattern kBase.pl =615
-Number of edges in Ref .sif = 138
-Number of edges in BioPattern kBase.pl = 4006
+Number of edges in Ref .sif = 69
+Number of edges in BioPattern kBase.pl = 2003
 Common Paths found in this .sif and in the .pl
 The structure is: Initial Vertex, Relationship in Sif, Relationship in BioPatterns, Final Vertex
 [('DUSP3','controls-phosphorylation-of',association,'MAPK1')]

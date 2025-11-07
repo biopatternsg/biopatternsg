@@ -1,9 +1,10 @@
 Number of vertices in Ref .sif = 101
 Number of vertices in BioPattern kBase.pl =1902
-Number of edges in Ref .sif = 8178
-Number of edges in BioPattern kBase.pl = 15678
+Number of edges in Ref .sif = 4089
+Number of edges in BioPattern kBase.pl = 7839
 Common Paths found in this .sif and in the .pl
 The structure is: Initial Vertex, Relationship in Sif, Relationship in BioPatterns, Final Vertex
+[('ARID4A','in-complex-with',association,'BRMS1')]
 [('CHD3','in-complex-with',association,'GATAD2A')]
 [('CHD3','controls-state-change-of',bind,'GATAD2B')]
 [('CHD3','in-complex-with',bind,'GATAD2B')]
@@ -15,4 +16,4 @@ The structure is: Initial Vertex, Relationship in Sif, Relationship in BioPatter
 [('GPS2','in-complex-with',association,'NCOR1')]
 [('GPS2','in-complex-with',bind,'NCOR2')]
 [('GPS2','in-complex-with',association,'NCOR2')]
-Number of paths common to Sif Ref and BioPatterns = 11
+Number of paths common to Sif Ref and BioPatterns = 12

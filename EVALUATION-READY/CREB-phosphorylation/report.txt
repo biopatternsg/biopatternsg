@@ -1,13 +1,21 @@
 Number of vertices in Ref .sif = 7
 Number of vertices in BioPattern kBase.pl =1176
-Number of edges in Ref .sif = 36
-Number of edges in BioPattern kBase.pl = 13761
+Number of edges in Ref .sif = 12
+Number of edges in BioPattern kBase.pl = 4587
 Common Paths found in this .sif and in the .pl
 The structure is: Initial Vertex, Relationship in Sif, Relationship in BioPatterns, Final Vertex
+[('MAPKAPK2','controls-phosphorylation-of',association,'CREB1')]
+[('MAPKAPK2','controls-state-change-of',association,'CREB1')]
+[('RPS6KA1','controls-phosphorylation-of',association,'CREB1')]
+[('RPS6KA1','controls-state-change-of',association,'CREB1')]
+[('RPS6KA3','controls-phosphorylation-of',association,'CREB1')]
 [('RPS6KA3','controls-phosphorylation-of',negative_correlation,'CREB1')]
 [('RPS6KA3','controls-phosphorylation-of',positive_correlation,'CREB1')]
+[('RPS6KA3','controls-state-change-of',association,'CREB1')]
 [('RPS6KA3','controls-state-change-of',negative_correlation,'CREB1')]
 [('RPS6KA3','controls-state-change-of',positive_correlation,'CREB1')]
 [('RPS6KA5','controls-phosphorylation-of',positive_correlation,'ATF1')]
+[('RPS6KA5','controls-phosphorylation-of',association,'ATF1')]
 [('RPS6KA5','controls-state-change-of',positive_correlation,'ATF1')]
-Number of paths common to Sif Ref and BioPatterns = 6
+[('RPS6KA5','controls-state-change-of',association,'ATF1')]
+Number of paths common to Sif Ref and BioPatterns = 14
