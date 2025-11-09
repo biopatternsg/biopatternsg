@@ -1,0 +1,258 @@
+﻿PARTICIPANT_A	INTERACTION_TYPE	PARTICIPANT_B	INTERACTION_DATA_SOURCE	INTERACTION_PUBMED_ID	PATHWAY_NAMES	MEDIATOR_IDS
+ADPGK	catalysis-precedes	GPI	Reactome	11371164;13538944;22219026;23168256;7989588	Glycolysis	http://bioregistry.io/reactome:R-HSA-70471;reactome:Catalysis977;reactome:Catalysis978;http://bioregistry.io/reactome:R-HSA-5696021
+ADPGK	catalysis-precedes	PGM2L1	Reactome	17804405;18927083;22219026;23168256	Glycolysis	http://bioregistry.io/reactome:R-HSA-8955760;reactome:Catalysis977;reactome:Catalysis989;http://bioregistry.io/reactome:R-HSA-5696021
+ADPGK	controls-production-of	chebi:456215	Reactome	22219026;23168256	Glycolysis	reactome:Catalysis977;http://bioregistry.io/reactome:R-HSA-5696021
+ADPGK	controls-production-of	chebi:58225	Reactome	22219026;23168256	Glycolysis	reactome:Catalysis977;http://bioregistry.io/reactome:R-HSA-5696021
+ALDOA	catalysis-precedes	GAPDHS	Reactome	10714828;183598;18910716;18910717;2793178;3170585;3355497;6696436;7144574;7717389	Glycolysis	reactome:Catalysis985;http://bioregistry.io/reactome:R-HSA-71496;reactome:Catalysis987;http://bioregistry.io/reactome:R-HSA-70449
+ALDOA	catalysis-precedes	GAPDH	Reactome	10714828;183598;18910716;18910717;2793178;3170585;3355497;6696436;7144574;7717389	Glycolysis	reactome:Catalysis985;http://bioregistry.io/reactome:R-HSA-71496;reactome:Catalysis987;http://bioregistry.io/reactome:R-HSA-70449
+ALDOA	catalysis-precedes	TPI1	Reactome	16511037;3355497;6434534;6696436;7717389	Glycolysis	http://bioregistry.io/reactome:R-HSA-70454;reactome:Catalysis985;reactome:Catalysis986;http://bioregistry.io/reactome:R-HSA-71496
+ALDOA	controls-production-of	chebi:57642	Reactome	3355497;6696436;7717389	Glycolysis	reactome:Catalysis985;http://bioregistry.io/reactome:R-HSA-71496
+ALDOA	controls-production-of	chebi:59776	Reactome	3355497;6696436;7717389	Glycolysis	reactome:Catalysis985;http://bioregistry.io/reactome:R-HSA-71496
+ALDOB	catalysis-precedes	GAPDHS	Reactome	10714828;183598;18910716;18910717;2793178;3170585;3355497;6696436;7144574;7717389	Glycolysis	reactome:Catalysis985;http://bioregistry.io/reactome:R-HSA-71496;reactome:Catalysis987;http://bioregistry.io/reactome:R-HSA-70449
+ALDOB	catalysis-precedes	GAPDH	Reactome	10714828;183598;18910716;18910717;2793178;3170585;3355497;6696436;7144574;7717389	Glycolysis	reactome:Catalysis985;http://bioregistry.io/reactome:R-HSA-71496;reactome:Catalysis987;http://bioregistry.io/reactome:R-HSA-70449
+ALDOB	catalysis-precedes	TPI1	Reactome	16511037;3355497;6434534;6696436;7717389	Glycolysis	http://bioregistry.io/reactome:R-HSA-70454;reactome:Catalysis985;reactome:Catalysis986;http://bioregistry.io/reactome:R-HSA-71496
+ALDOB	controls-production-of	chebi:57642	Reactome	3355497;6696436;7717389	Glycolysis	reactome:Catalysis985;http://bioregistry.io/reactome:R-HSA-71496
+ALDOB	controls-production-of	chebi:59776	Reactome	3355497;6696436;7717389	Glycolysis	reactome:Catalysis985;http://bioregistry.io/reactome:R-HSA-71496
+ALDOC	catalysis-precedes	GAPDHS	Reactome	10714828;183598;18910716;18910717;2793178;3170585;3355497;6696436;7144574;7717389	Glycolysis	reactome:Catalysis985;http://bioregistry.io/reactome:R-HSA-71496;reactome:Catalysis987;http://bioregistry.io/reactome:R-HSA-70449
+ALDOC	catalysis-precedes	GAPDH	Reactome	10714828;183598;18910716;18910717;2793178;3170585;3355497;6696436;7144574;7717389	Glycolysis	reactome:Catalysis985;http://bioregistry.io/reactome:R-HSA-71496;reactome:Catalysis987;http://bioregistry.io/reactome:R-HSA-70449
+ALDOC	catalysis-precedes	TPI1	Reactome	16511037;3355497;6434534;6696436;7717389	Glycolysis	http://bioregistry.io/reactome:R-HSA-70454;reactome:Catalysis985;reactome:Catalysis986;http://bioregistry.io/reactome:R-HSA-71496
+ALDOC	controls-production-of	chebi:57642	Reactome	3355497;6696436;7717389	Glycolysis	reactome:Catalysis985;http://bioregistry.io/reactome:R-HSA-71496
+ALDOC	controls-production-of	chebi:59776	Reactome	3355497;6696436;7717389	Glycolysis	reactome:Catalysis985;http://bioregistry.io/reactome:R-HSA-71496
+BPGM	controls-production-of	chebi:19324	Reactome	4555506;5687724	Glycolysis	reactome:Catalysis988;http://bioregistry.io/reactome:R-HSA-6798335
+ENO1	catalysis-precedes	PKLR	Reactome	11506403;11960989;15982340;15996096;18191611;1896471;2040271;23446454;2462567;3126495;3208766;34383978;3529090;4413246	Glycolysis	reactome:Catalysis993;reactome:Catalysis994;http://bioregistry.io/reactome:R-HSA-71670;http://bioregistry.io/reactome:R-HSA-71660
+ENO1	catalysis-precedes	PKM	Reactome	11506403;11960989;15982340;15996096;18191611;1896471;2040271;23446454;2462567;3126495;3208766;34383978;3529090;4413246	Glycolysis	reactome:Catalysis993;reactome:Catalysis994;http://bioregistry.io/reactome:R-HSA-71670;http://bioregistry.io/reactome:R-HSA-71660;reactome:Control415
+ENO1	controls-production-of	chebi:58702	Reactome	11506403;23446454;2462567;3208766;3529090;4413246	Glycolysis	reactome:Catalysis993;http://bioregistry.io/reactome:R-HSA-71660
+ENO2	catalysis-precedes	PKLR	Reactome	11506403;11960989;15982340;15996096;18191611;1896471;2040271;23446454;2462567;3126495;3208766;34383978;3529090;4413246	Glycolysis	reactome:Catalysis993;reactome:Catalysis994;http://bioregistry.io/reactome:R-HSA-71670;http://bioregistry.io/reactome:R-HSA-71660
+ENO2	catalysis-precedes	PKM	Reactome	11506403;11960989;15982340;15996096;18191611;1896471;2040271;23446454;2462567;3126495;3208766;34383978;3529090;4413246	Glycolysis	reactome:Catalysis993;reactome:Catalysis994;http://bioregistry.io/reactome:R-HSA-71670;http://bioregistry.io/reactome:R-HSA-71660;reactome:Control415
+ENO2	controls-production-of	chebi:58702	Reactome	11506403;23446454;2462567;3208766;3529090;4413246	Glycolysis	reactome:Catalysis993;http://bioregistry.io/reactome:R-HSA-71660
+ENO3	catalysis-precedes	PKLR	Reactome	11506403;11960989;15982340;15996096;18191611;1896471;2040271;23446454;2462567;3126495;3208766;34383978;3529090;4413246	Glycolysis	reactome:Catalysis993;reactome:Catalysis994;http://bioregistry.io/reactome:R-HSA-71670;http://bioregistry.io/reactome:R-HSA-71660
+ENO3	catalysis-precedes	PKM	Reactome	11506403;11960989;15982340;15996096;18191611;1896471;2040271;23446454;2462567;3126495;3208766;34383978;3529090;4413246	Glycolysis	reactome:Catalysis993;reactome:Catalysis994;http://bioregistry.io/reactome:R-HSA-71670;http://bioregistry.io/reactome:R-HSA-71660;reactome:Control415
+ENO3	controls-production-of	chebi:58702	Reactome	11506403;23446454;2462567;3208766;3529090;4413246	Glycolysis	reactome:Catalysis993;http://bioregistry.io/reactome:R-HSA-71660
+ENO4	catalysis-precedes	PKLR	Reactome	11506403;11960989;15982340;15996096;18191611;1896471;2040271;23446454;2462567;3126495;3208766;34383978;3529090;4413246	Glycolysis	reactome:Catalysis993;reactome:Catalysis994;http://bioregistry.io/reactome:R-HSA-71670;http://bioregistry.io/reactome:R-HSA-71660
+ENO4	catalysis-precedes	PKM	Reactome	11506403;11960989;15982340;15996096;18191611;1896471;2040271;23446454;2462567;3126495;3208766;34383978;3529090;4413246	Glycolysis	reactome:Catalysis993;reactome:Catalysis994;http://bioregistry.io/reactome:R-HSA-71670;http://bioregistry.io/reactome:R-HSA-71660;reactome:Control415
+ENO4	controls-production-of	chebi:58702	Reactome	11506403;23446454;2462567;3208766;3529090;4413246	Glycolysis	reactome:Catalysis993;http://bioregistry.io/reactome:R-HSA-71660
+GAPDH	catalysis-precedes	BPGM	Reactome	10714828;183598;18910716;18910717;2793178;3170585;4555506;5687724;7144574	Glycolysis	reactome:Catalysis987;reactome:Catalysis988;http://bioregistry.io/reactome:R-HSA-6798335;http://bioregistry.io/reactome:R-HSA-70449
+GAPDH	catalysis-precedes	PGK1	Reactome	10714828;1278465;183598;18910716;18910717;2793178;3170585;3453121;5009693;6771269;7144574;7391027	Glycolysis	http://bioregistry.io/reactome:R-HSA-71850;reactome:Catalysis987;reactome:Catalysis990;http://bioregistry.io/reactome:R-HSA-70449
+GAPDH	catalysis-precedes	PGK2	Reactome	10714828;1278465;183598;18910716;18910717;2793178;3170585;3453121;5009693;6771269;7144574;7391027	Glycolysis	http://bioregistry.io/reactome:R-HSA-71850;reactome:Catalysis987;reactome:Catalysis990;http://bioregistry.io/reactome:R-HSA-70449
+GAPDH	catalysis-precedes	PGM2L1	Reactome	10714828;17804405;183598;18910716;18910717;18927083;2793178;3170585;7144574	Glycolysis	http://bioregistry.io/reactome:R-HSA-8955760;reactome:Catalysis987;reactome:Catalysis989;http://bioregistry.io/reactome:R-HSA-70449
+GAPDHS	catalysis-precedes	BPGM	Reactome	10714828;183598;18910716;18910717;2793178;3170585;4555506;5687724;7144574	Glycolysis	reactome:Catalysis987;reactome:Catalysis988;http://bioregistry.io/reactome:R-HSA-6798335;http://bioregistry.io/reactome:R-HSA-70449
+GAPDHS	catalysis-precedes	PGK1	Reactome	10714828;1278465;183598;18910716;18910717;2793178;3170585;3453121;5009693;6771269;7144574;7391027	Glycolysis	http://bioregistry.io/reactome:R-HSA-71850;reactome:Catalysis987;reactome:Catalysis990;http://bioregistry.io/reactome:R-HSA-70449
+GAPDHS	catalysis-precedes	PGK2	Reactome	10714828;1278465;183598;18910716;18910717;2793178;3170585;3453121;5009693;6771269;7144574;7391027	Glycolysis	http://bioregistry.io/reactome:R-HSA-71850;reactome:Catalysis987;reactome:Catalysis990;http://bioregistry.io/reactome:R-HSA-70449
+GAPDHS	catalysis-precedes	PGM2L1	Reactome	10714828;17804405;183598;18910716;18910717;18927083;2793178;3170585;7144574	Glycolysis	http://bioregistry.io/reactome:R-HSA-8955760;reactome:Catalysis987;reactome:Catalysis989;http://bioregistry.io/reactome:R-HSA-70449
+GAPDHS	controls-production-of	chebi:57604	Reactome	10714828;183598;18910716;18910717;2793178;3170585;7144574	Glycolysis	reactome:Catalysis987;http://bioregistry.io/reactome:R-HSA-70449
+GAPDH	controls-production-of	chebi:57604	Reactome	10714828;183598;18910716;18910717;2793178;3170585;7144574	Glycolysis	reactome:Catalysis987;http://bioregistry.io/reactome:R-HSA-70449
+GCK	catalysis-precedes	GPI	Reactome	11371164;11780755;13538944;1871135;25648650;30517626;34782236;7150652;7989588;8325892;8786021;9493266	Glycolysis	http://bioregistry.io/reactome:R-HSA-70420;http://bioregistry.io/reactome:R-HSA-70471;reactome:Catalysis976;reactome:Catalysis978
+GCK	catalysis-precedes	PGM2L1	Reactome	11780755;17804405;1871135;18927083;25648650;30517626;34782236;7150652;8325892;8786021;9493266	Glycolysis	http://bioregistry.io/reactome:R-HSA-70420;http://bioregistry.io/reactome:R-HSA-8955760;reactome:Catalysis976;reactome:Catalysis989
+GCK	controls-production-of	chebi:58225	Reactome	11780755;1871135;25648650;30517626;34782236;7150652;8325892;8786021;9493266	Glycolysis	http://bioregistry.io/reactome:R-HSA-70420;reactome:Catalysis976
+GNPDA1	catalysis-precedes	PFKL	Reactome	12616532;12965206;2960695;6444721;6451249;7825568;8117307;9438414	Glycolysis	reactome:Catalysis984;http://bioregistry.io/reactome:R-HSA-70467;reactome:Catalysis979;http://bioregistry.io/reactome:R-HSA-6799604
+GNPDA1	catalysis-precedes	PFKM	Reactome	12616532;12965206;2960695;6444721;6451249;7825568;8117307;9438414	Glycolysis	reactome:Catalysis984;http://bioregistry.io/reactome:R-HSA-70467;reactome:Catalysis979;http://bioregistry.io/reactome:R-HSA-6799604
+GNPDA1	catalysis-precedes	PFKP	Reactome	12616532;12965206;2960695;6444721;6451249;7825568;8117307;9438414	Glycolysis	reactome:Catalysis984;http://bioregistry.io/reactome:R-HSA-70467;reactome:Catalysis979;http://bioregistry.io/reactome:R-HSA-6799604
+GNPDA1	controls-production-of	chebi:28938	Reactome	12616532;12965206;9438414	Glycolysis	reactome:Catalysis979;http://bioregistry.io/reactome:R-HSA-6799604
+GNPDA1	controls-production-of	chebi:57634	Reactome	12616532;12965206;9438414	Glycolysis	reactome:Catalysis979;http://bioregistry.io/reactome:R-HSA-6799604
+GNPDA2	catalysis-precedes	PFKL	Reactome	12616532;12965206;2960695;6444721;6451249;7825568;8117307;9438414	Glycolysis	reactome:Catalysis984;http://bioregistry.io/reactome:R-HSA-70467;reactome:Catalysis979;http://bioregistry.io/reactome:R-HSA-6799604
+GNPDA2	catalysis-precedes	PFKM	Reactome	12616532;12965206;2960695;6444721;6451249;7825568;8117307;9438414	Glycolysis	reactome:Catalysis984;http://bioregistry.io/reactome:R-HSA-70467;reactome:Catalysis979;http://bioregistry.io/reactome:R-HSA-6799604
+GNPDA2	catalysis-precedes	PFKP	Reactome	12616532;12965206;2960695;6444721;6451249;7825568;8117307;9438414	Glycolysis	reactome:Catalysis984;http://bioregistry.io/reactome:R-HSA-70467;reactome:Catalysis979;http://bioregistry.io/reactome:R-HSA-6799604
+GNPDA2	controls-production-of	chebi:28938	Reactome	12616532;12965206;9438414	Glycolysis	reactome:Catalysis979;http://bioregistry.io/reactome:R-HSA-6799604
+GNPDA2	controls-production-of	chebi:57634	Reactome	12616532;12965206;9438414	Glycolysis	reactome:Catalysis979;http://bioregistry.io/reactome:R-HSA-6799604
+GPI	catalysis-precedes	PFKL	Reactome	11371164;13538944;2960695;6444721;6451249;7825568;7989588;8117307	Glycolysis	reactome:Catalysis984;http://bioregistry.io/reactome:R-HSA-70467;http://bioregistry.io/reactome:R-HSA-70471;reactome:Catalysis978
+GPI	catalysis-precedes	PFKM	Reactome	11371164;13538944;2960695;6444721;6451249;7825568;7989588;8117307	Glycolysis	reactome:Catalysis984;http://bioregistry.io/reactome:R-HSA-70467;http://bioregistry.io/reactome:R-HSA-70471;reactome:Catalysis978
+GPI	catalysis-precedes	PFKP	Reactome	11371164;13538944;2960695;6444721;6451249;7825568;7989588;8117307	Glycolysis	reactome:Catalysis984;http://bioregistry.io/reactome:R-HSA-70467;http://bioregistry.io/reactome:R-HSA-70471;reactome:Catalysis978
+GPI	controls-production-of	chebi:57634	Reactome	11371164;13538944;7989588	Glycolysis	http://bioregistry.io/reactome:R-HSA-70471;reactome:Catalysis978
+HK1	catalysis-precedes	GPI	Reactome	11371164;11780755;13538944;1871135;25648650;30517626;34782236;7150652;7989588;8325892;8786021;9493266	Glycolysis	http://bioregistry.io/reactome:R-HSA-70420;http://bioregistry.io/reactome:R-HSA-70471;reactome:Catalysis976;reactome:Catalysis978
+HK1	catalysis-precedes	PGM2L1	Reactome	11780755;17804405;1871135;18927083;25648650;30517626;34782236;7150652;8325892;8786021;9493266	Glycolysis	http://bioregistry.io/reactome:R-HSA-70420;http://bioregistry.io/reactome:R-HSA-8955760;reactome:Catalysis976;reactome:Catalysis989
+HK1	controls-production-of	chebi:58225	Reactome	11780755;1871135;25648650;30517626;34782236;7150652;8325892;8786021;9493266	Glycolysis	http://bioregistry.io/reactome:R-HSA-70420;reactome:Catalysis976
+HK2	catalysis-precedes	GPI	Reactome	11371164;11780755;13538944;1871135;25648650;30517626;34782236;7150652;7989588;8325892;8786021;9493266	Glycolysis	http://bioregistry.io/reactome:R-HSA-70420;http://bioregistry.io/reactome:R-HSA-70471;reactome:Catalysis976;reactome:Catalysis978
+HK2	catalysis-precedes	PGM2L1	Reactome	11780755;17804405;1871135;18927083;25648650;30517626;34782236;7150652;8325892;8786021;9493266	Glycolysis	http://bioregistry.io/reactome:R-HSA-70420;http://bioregistry.io/reactome:R-HSA-8955760;reactome:Catalysis976;reactome:Catalysis989
+HK2	controls-production-of	chebi:58225	Reactome	11780755;1871135;25648650;30517626;34782236;7150652;8325892;8786021;9493266	Glycolysis	http://bioregistry.io/reactome:R-HSA-70420;reactome:Catalysis976
+HK3	catalysis-precedes	GPI	Reactome	11371164;11780755;13538944;1871135;25648650;30517626;34782236;7150652;7989588;8325892;8786021;9493266	Glycolysis	http://bioregistry.io/reactome:R-HSA-70420;http://bioregistry.io/reactome:R-HSA-70471;reactome:Catalysis976;reactome:Catalysis978
+HK3	catalysis-precedes	PGM2L1	Reactome	11780755;17804405;1871135;18927083;25648650;30517626;34782236;7150652;8325892;8786021;9493266	Glycolysis	http://bioregistry.io/reactome:R-HSA-70420;http://bioregistry.io/reactome:R-HSA-8955760;reactome:Catalysis976;reactome:Catalysis989
+HK3	controls-production-of	chebi:58225	Reactome	11780755;1871135;25648650;30517626;34782236;7150652;8325892;8786021;9493266	Glycolysis	http://bioregistry.io/reactome:R-HSA-70420;reactome:Catalysis976
+HKDC1	catalysis-precedes	GPI	Reactome	11371164;11780755;13538944;1871135;25648650;30517626;34782236;7150652;7989588;8325892;8786021;9493266	Glycolysis	http://bioregistry.io/reactome:R-HSA-70420;http://bioregistry.io/reactome:R-HSA-70471;reactome:Catalysis976;reactome:Catalysis978
+HKDC1	catalysis-precedes	PGM2L1	Reactome	11780755;17804405;1871135;18927083;25648650;30517626;34782236;7150652;8325892;8786021;9493266	Glycolysis	http://bioregistry.io/reactome:R-HSA-70420;http://bioregistry.io/reactome:R-HSA-8955760;reactome:Catalysis976;reactome:Catalysis989
+HKDC1	controls-production-of	chebi:58225	Reactome	11780755;1871135;25648650;30517626;34782236;7150652;8325892;8786021;9493266	Glycolysis	http://bioregistry.io/reactome:R-HSA-70420;reactome:Catalysis976
+PFKL	catalysis-precedes	ALDOA	Reactome	2960695;3355497;6444721;6451249;6696436;7717389;7825568;8117307	Glycolysis	reactome:Catalysis984;http://bioregistry.io/reactome:R-HSA-70467;reactome:Catalysis985;http://bioregistry.io/reactome:R-HSA-71496
+PFKL	catalysis-precedes	ALDOB	Reactome	2960695;3355497;6444721;6451249;6696436;7717389;7825568;8117307	Glycolysis	reactome:Catalysis984;http://bioregistry.io/reactome:R-HSA-70467;reactome:Catalysis985;http://bioregistry.io/reactome:R-HSA-71496
+PFKL	catalysis-precedes	ALDOC	Reactome	2960695;3355497;6444721;6451249;6696436;7717389;7825568;8117307	Glycolysis	reactome:Catalysis984;http://bioregistry.io/reactome:R-HSA-70467;reactome:Catalysis985;http://bioregistry.io/reactome:R-HSA-71496
+PFKL	in-complex-with	PFKM	Reactome		Glycolysis	reactome:Complex3221;reactome:Complex3222;reactome:Complex3223
+PFKL	in-complex-with	PFKP	Reactome		Glycolysis	reactome:Complex3228;reactome:Complex3226;reactome:Complex3227
+PFKL	controls-production-of	chebi:32966	Reactome	2960695;6444721;6451249;7825568;8117307	Glycolysis	reactome:Catalysis984;http://bioregistry.io/reactome:R-HSA-70467
+PFKM	catalysis-precedes	ALDOA	Reactome	2960695;3355497;6444721;6451249;6696436;7717389;7825568;8117307	Glycolysis	reactome:Catalysis984;http://bioregistry.io/reactome:R-HSA-70467;reactome:Catalysis985;http://bioregistry.io/reactome:R-HSA-71496
+PFKM	catalysis-precedes	ALDOB	Reactome	2960695;3355497;6444721;6451249;6696436;7717389;7825568;8117307	Glycolysis	reactome:Catalysis984;http://bioregistry.io/reactome:R-HSA-70467;reactome:Catalysis985;http://bioregistry.io/reactome:R-HSA-71496
+PFKM	catalysis-precedes	ALDOC	Reactome	2960695;3355497;6444721;6451249;6696436;7717389;7825568;8117307	Glycolysis	reactome:Catalysis984;http://bioregistry.io/reactome:R-HSA-70467;reactome:Catalysis985;http://bioregistry.io/reactome:R-HSA-71496
+PFKM	controls-production-of	chebi:32966	Reactome	2960695;6444721;6451249;7825568;8117307	Glycolysis	reactome:Catalysis984;http://bioregistry.io/reactome:R-HSA-70467
+PFKP	catalysis-precedes	ALDOA	Reactome	2960695;3355497;6444721;6451249;6696436;7717389;7825568;8117307	Glycolysis	reactome:Catalysis984;http://bioregistry.io/reactome:R-HSA-70467;reactome:Catalysis985;http://bioregistry.io/reactome:R-HSA-71496
+PFKP	catalysis-precedes	ALDOB	Reactome	2960695;3355497;6444721;6451249;6696436;7717389;7825568;8117307	Glycolysis	reactome:Catalysis984;http://bioregistry.io/reactome:R-HSA-70467;reactome:Catalysis985;http://bioregistry.io/reactome:R-HSA-71496
+PFKP	catalysis-precedes	ALDOC	Reactome	2960695;3355497;6444721;6451249;6696436;7717389;7825568;8117307	Glycolysis	reactome:Catalysis984;http://bioregistry.io/reactome:R-HSA-70467;reactome:Catalysis985;http://bioregistry.io/reactome:R-HSA-71496
+PFKP	controls-production-of	chebi:32966	Reactome	2960695;6444721;6451249;7825568;8117307	Glycolysis	reactome:Catalysis984;http://bioregistry.io/reactome:R-HSA-70467
+PGAM1	catalysis-precedes	ENO1	Reactome	11506403;15710582;23446454;2462567;2846554;3208766;3529090;4413246;4827367;8447317	Glycolysis	reactome:Catalysis992;reactome:Catalysis993;http://bioregistry.io/reactome:R-HSA-71654;http://bioregistry.io/reactome:R-HSA-71660
+PGAM1	catalysis-precedes	ENO2	Reactome	11506403;15710582;23446454;2462567;2846554;3208766;3529090;4413246;4827367;8447317	Glycolysis	reactome:Catalysis992;reactome:Catalysis993;http://bioregistry.io/reactome:R-HSA-71654;http://bioregistry.io/reactome:R-HSA-71660
+PGAM1	catalysis-precedes	ENO3	Reactome	11506403;15710582;23446454;2462567;2846554;3208766;3529090;4413246;4827367;8447317	Glycolysis	reactome:Catalysis992;reactome:Catalysis993;http://bioregistry.io/reactome:R-HSA-71654;http://bioregistry.io/reactome:R-HSA-71660
+PGAM1	catalysis-precedes	ENO4	Reactome	11506403;15710582;23446454;2462567;2846554;3208766;3529090;4413246;4827367;8447317	Glycolysis	reactome:Catalysis992;reactome:Catalysis993;http://bioregistry.io/reactome:R-HSA-71654;http://bioregistry.io/reactome:R-HSA-71660
+PGAM1	controls-production-of	chebi:58289	Reactome	15710582;2846554;4827367;8447317	Glycolysis	reactome:Catalysis992;http://bioregistry.io/reactome:R-HSA-71654
+PGAM2	catalysis-precedes	ENO1	Reactome	11506403;15710582;23446454;2462567;2846554;3208766;3529090;4413246;4827367;8447317	Glycolysis	reactome:Catalysis992;reactome:Catalysis993;http://bioregistry.io/reactome:R-HSA-71654;http://bioregistry.io/reactome:R-HSA-71660
+PGAM2	catalysis-precedes	ENO2	Reactome	11506403;15710582;23446454;2462567;2846554;3208766;3529090;4413246;4827367;8447317	Glycolysis	reactome:Catalysis992;reactome:Catalysis993;http://bioregistry.io/reactome:R-HSA-71654;http://bioregistry.io/reactome:R-HSA-71660
+PGAM2	catalysis-precedes	ENO3	Reactome	11506403;15710582;23446454;2462567;2846554;3208766;3529090;4413246;4827367;8447317	Glycolysis	reactome:Catalysis992;reactome:Catalysis993;http://bioregistry.io/reactome:R-HSA-71654;http://bioregistry.io/reactome:R-HSA-71660
+PGAM2	catalysis-precedes	ENO4	Reactome	11506403;15710582;23446454;2462567;2846554;3208766;3529090;4413246;4827367;8447317	Glycolysis	reactome:Catalysis992;reactome:Catalysis993;http://bioregistry.io/reactome:R-HSA-71654;http://bioregistry.io/reactome:R-HSA-71660
+PGAM2	controls-production-of	chebi:58289	Reactome	15710582;2846554;4827367;8447317	Glycolysis	reactome:Catalysis992;http://bioregistry.io/reactome:R-HSA-71654
+PGK1	catalysis-precedes	PGAM1	Reactome	1278465;15710582;2846554;3453121;4827367;5009693;6771269;7391027;8447317	Glycolysis	http://bioregistry.io/reactome:R-HSA-71850;reactome:Catalysis992;http://bioregistry.io/reactome:R-HSA-71654;reactome:Catalysis990
+PGK1	catalysis-precedes	PGAM2	Reactome	1278465;15710582;2846554;3453121;4827367;5009693;6771269;7391027;8447317	Glycolysis	http://bioregistry.io/reactome:R-HSA-71850;reactome:Catalysis992;http://bioregistry.io/reactome:R-HSA-71654;reactome:Catalysis990
+PGK1	catalysis-precedes	PGP	Reactome	1278465;26755581;3453121;5009693;6771269;7391027	Glycolysis	http://bioregistry.io/reactome:R-HSA-71850;http://bioregistry.io/reactome:R-HSA-8955794;reactome:Catalysis990;reactome:Catalysis991
+PGK1	controls-production-of	chebi:30616	Reactome	1278465;3453121;5009693;6771269;7391027	Glycolysis	http://bioregistry.io/reactome:R-HSA-71850;reactome:Catalysis990
+PGK1	controls-production-of	chebi:58272	Reactome	1278465;3453121;5009693;6771269;7391027	Glycolysis	http://bioregistry.io/reactome:R-HSA-71850;reactome:Catalysis990
+PGK2	catalysis-precedes	PGAM1	Reactome	1278465;15710582;2846554;3453121;4827367;5009693;6771269;7391027;8447317	Glycolysis	http://bioregistry.io/reactome:R-HSA-71850;reactome:Catalysis992;http://bioregistry.io/reactome:R-HSA-71654;reactome:Catalysis990
+PGK2	catalysis-precedes	PGAM2	Reactome	1278465;15710582;2846554;3453121;4827367;5009693;6771269;7391027;8447317	Glycolysis	http://bioregistry.io/reactome:R-HSA-71850;reactome:Catalysis992;http://bioregistry.io/reactome:R-HSA-71654;reactome:Catalysis990
+PGK2	catalysis-precedes	PGP	Reactome	1278465;26755581;3453121;5009693;6771269;7391027	Glycolysis	http://bioregistry.io/reactome:R-HSA-71850;http://bioregistry.io/reactome:R-HSA-8955794;reactome:Catalysis990;reactome:Catalysis991
+PGK2	controls-production-of	chebi:30616	Reactome	1278465;3453121;5009693;6771269;7391027	Glycolysis	http://bioregistry.io/reactome:R-HSA-71850;reactome:Catalysis990
+PGK2	controls-production-of	chebi:58272	Reactome	1278465;3453121;5009693;6771269;7391027	Glycolysis	http://bioregistry.io/reactome:R-HSA-71850;reactome:Catalysis990
+PGM2L1	catalysis-precedes	PGAM1	Reactome	15710582;17804405;18927083;2846554;4827367;8447317	Glycolysis	reactome:Catalysis992;http://bioregistry.io/reactome:R-HSA-8955760;http://bioregistry.io/reactome:R-HSA-71654;reactome:Catalysis989
+PGM2L1	catalysis-precedes	PGAM2	Reactome	15710582;17804405;18927083;2846554;4827367;8447317	Glycolysis	reactome:Catalysis992;http://bioregistry.io/reactome:R-HSA-8955760;http://bioregistry.io/reactome:R-HSA-71654;reactome:Catalysis989
+PGM2L1	catalysis-precedes	PGP	Reactome	17804405;18927083;26755581	Glycolysis	http://bioregistry.io/reactome:R-HSA-8955760;http://bioregistry.io/reactome:R-HSA-8955794;reactome:Catalysis989;reactome:Catalysis991
+PGM2L1	controls-production-of	chebi:18148	Reactome	17804405;18927083	Glycolysis	http://bioregistry.io/reactome:R-HSA-8955760;reactome:Catalysis989
+PGM2L1	controls-production-of	chebi:58272	Reactome	17804405;18927083	Glycolysis	http://bioregistry.io/reactome:R-HSA-8955760;reactome:Catalysis989
+PGP	controls-production-of	chebi:17754	Reactome	26755581	Glycolysis	http://bioregistry.io/reactome:R-HSA-8955794;reactome:Catalysis991
+PKLR	controls-production-of	chebi:15361	Reactome	11960989;15982340;15996096;18191611;1896471;2040271;3126495;34383978	Glycolysis	reactome:Catalysis994;http://bioregistry.io/reactome:R-HSA-71670
+PKLR	controls-production-of	chebi:30616	Reactome	11960989;15982340;15996096;18191611;1896471;2040271;3126495;34383978	Glycolysis	reactome:Catalysis994;http://bioregistry.io/reactome:R-HSA-71670
+PKM	controls-production-of	chebi:15361	Reactome	11960989;15982340;15996096;18191611;1896471;2040271;3126495;34383978	Glycolysis	reactome:Catalysis994;http://bioregistry.io/reactome:R-HSA-71670;reactome:Control415
+PKM	controls-production-of	chebi:30616	Reactome	11960989;15982340;15996096;18191611;1896471;2040271;3126495;34383978	Glycolysis	reactome:Catalysis994;http://bioregistry.io/reactome:R-HSA-71670;reactome:Control415
+TPI1	catalysis-precedes	GAPDHS	Reactome	10714828;16511037;183598;18910716;18910717;2793178;3170585;6434534;7144574	Glycolysis	http://bioregistry.io/reactome:R-HSA-70454;reactome:Catalysis986;reactome:Catalysis987;http://bioregistry.io/reactome:R-HSA-70449
+TPI1	catalysis-precedes	GAPDH	Reactome	10714828;16511037;183598;18910716;18910717;2793178;3170585;6434534;7144574	Glycolysis	http://bioregistry.io/reactome:R-HSA-70454;reactome:Catalysis986;reactome:Catalysis987;http://bioregistry.io/reactome:R-HSA-70449
+TPI1	controls-production-of	chebi:59776	Reactome	16511037;6434534	Glycolysis	http://bioregistry.io/reactome:R-HSA-70454;reactome:Catalysis986
+chebi:15873	consumption-controlled-by	GNPDA1	Reactome	12616532;12965206;9438414	Glycolysis	reactome:Catalysis979;http://bioregistry.io/reactome:R-HSA-6799604
+chebi:15873	consumption-controlled-by	GNPDA2	Reactome	12616532;12965206;9438414	Glycolysis	reactome:Catalysis979;http://bioregistry.io/reactome:R-HSA-6799604
+chebi:15873	used-to-produce	chebi:28938	Reactome	12616532;12965206;9438414	Glycolysis	http://bioregistry.io/reactome:R-HSA-6799604
+chebi:15873	used-to-produce	chebi:57634	Reactome	12616532;12965206;9438414	Glycolysis	http://bioregistry.io/reactome:R-HSA-6799604
+chebi:17925	consumption-controlled-by	ADPGK	Reactome	22219026;23168256	Glycolysis	reactome:Catalysis977;http://bioregistry.io/reactome:R-HSA-5696021
+chebi:17925	consumption-controlled-by	GCK	Reactome	11780755;1871135;25648650;30517626;34782236;7150652;8325892;8786021;9493266	Glycolysis	http://bioregistry.io/reactome:R-HSA-70420;reactome:Catalysis976
+chebi:17925	consumption-controlled-by	HK1	Reactome	11780755;1871135;25648650;30517626;34782236;7150652;8325892;8786021;9493266	Glycolysis	http://bioregistry.io/reactome:R-HSA-70420;reactome:Catalysis976
+chebi:17925	consumption-controlled-by	HK2	Reactome	11780755;1871135;25648650;30517626;34782236;7150652;8325892;8786021;9493266	Glycolysis	http://bioregistry.io/reactome:R-HSA-70420;reactome:Catalysis976
+chebi:17925	consumption-controlled-by	HK3	Reactome	11780755;1871135;25648650;30517626;34782236;7150652;8325892;8786021;9493266	Glycolysis	http://bioregistry.io/reactome:R-HSA-70420;reactome:Catalysis976
+chebi:17925	consumption-controlled-by	HKDC1	Reactome	11780755;1871135;25648650;30517626;34782236;7150652;8325892;8786021;9493266	Glycolysis	http://bioregistry.io/reactome:R-HSA-70420;reactome:Catalysis976
+chebi:17925	used-to-produce	chebi:456215	Reactome	22219026;23168256	Glycolysis	http://bioregistry.io/reactome:R-HSA-5696021
+chebi:17925	reacts-with	chebi:456216	Reactome	22219026;23168256	Glycolysis	http://bioregistry.io/reactome:R-HSA-5696021
+chebi:17925	used-to-produce	chebi:58225	Reactome	11780755;1871135;22219026;23168256;25648650;30517626;34782236;7150652;8325892;8786021;9493266	Glycolysis	http://bioregistry.io/reactome:R-HSA-70420;http://bioregistry.io/reactome:R-HSA-5696021
+chebi:18420	chemical-affects	ADPGK	Reactome		Glycolysis	reactome:Complex3208
+chebi:18420	chemical-affects	ENO1	Reactome		Glycolysis	reactome:Complex3184
+chebi:18420	chemical-affects	ENO2	Reactome		Glycolysis	reactome:Complex3185
+chebi:18420	chemical-affects	ENO3	Reactome		Glycolysis	reactome:Complex3186
+chebi:18420	chemical-affects	ENO4	Reactome		Glycolysis	reactome:Complex3187
+chebi:18420	chemical-affects	PGK1	Reactome		Glycolysis	reactome:Complex3192
+chebi:18420	chemical-affects	PGK2	Reactome		Glycolysis	reactome:Complex3193
+chebi:18420	chemical-affects	PGM2L1	Reactome		Glycolysis	reactome:Complex3230
+chebi:18420	chemical-affects	PGP	Reactome		Glycolysis	reactome:Complex3232
+chebi:18420	chemical-affects	PKLR	Reactome		Glycolysis	reactome:Complex3236
+chebi:18420	chemical-affects	PKM	Reactome		Glycolysis	reactome:Complex3235;reactome:Complex3234
+chebi:29103	chemical-affects	PKLR	Reactome		Glycolysis	reactome:Complex3236
+chebi:29103	chemical-affects	PKM	Reactome		Glycolysis	reactome:Complex3235;reactome:Complex3234
+chebi:32966	consumption-controlled-by	ALDOA	Reactome	3355497;6696436;7717389	Glycolysis	reactome:Catalysis985;http://bioregistry.io/reactome:R-HSA-71496
+chebi:32966	consumption-controlled-by	ALDOB	Reactome	3355497;6696436;7717389	Glycolysis	reactome:Catalysis985;http://bioregistry.io/reactome:R-HSA-71496
+chebi:32966	consumption-controlled-by	ALDOC	Reactome	3355497;6696436;7717389	Glycolysis	reactome:Catalysis985;http://bioregistry.io/reactome:R-HSA-71496
+chebi:32966	used-to-produce	chebi:57642	Reactome	3355497;6696436;7717389	Glycolysis	http://bioregistry.io/reactome:R-HSA-71496
+chebi:32966	used-to-produce	chebi:59776	Reactome	3355497;6696436;7717389	Glycolysis	http://bioregistry.io/reactome:R-HSA-71496
+chebi:43474	consumption-controlled-by	GAPDHS	Reactome	10714828;183598;18910716;18910717;2793178;3170585;7144574	Glycolysis	reactome:Catalysis987;http://bioregistry.io/reactome:R-HSA-70449
+chebi:43474	consumption-controlled-by	GAPDH	Reactome	10714828;183598;18910716;18910717;2793178;3170585;7144574	Glycolysis	reactome:Catalysis987;http://bioregistry.io/reactome:R-HSA-70449
+chebi:43474	used-to-produce	chebi:57604	Reactome	10714828;183598;18910716;18910717;2793178;3170585;7144574	Glycolysis	http://bioregistry.io/reactome:R-HSA-70449
+chebi:43474	reacts-with	chebi:59776	Reactome	10714828;183598;18910716;18910717;2793178;3170585;7144574	Glycolysis	http://bioregistry.io/reactome:R-HSA-70449
+chebi:456216	consumption-controlled-by	ADPGK	Reactome	22219026;23168256	Glycolysis	reactome:Catalysis977;http://bioregistry.io/reactome:R-HSA-5696021
+chebi:456216	consumption-controlled-by	PGK1	Reactome	1278465;3453121;5009693;6771269;7391027	Glycolysis	http://bioregistry.io/reactome:R-HSA-71850;reactome:Catalysis990
+chebi:456216	consumption-controlled-by	PGK2	Reactome	1278465;3453121;5009693;6771269;7391027	Glycolysis	http://bioregistry.io/reactome:R-HSA-71850;reactome:Catalysis990
+chebi:456216	consumption-controlled-by	PKLR	Reactome	11960989;15982340;15996096;18191611;1896471;2040271;3126495;34383978	Glycolysis	reactome:Catalysis994;http://bioregistry.io/reactome:R-HSA-71670
+chebi:456216	consumption-controlled-by	PKM	Reactome	11960989;15982340;15996096;18191611;1896471;2040271;3126495;34383978	Glycolysis	reactome:Catalysis994;http://bioregistry.io/reactome:R-HSA-71670;reactome:Control415
+chebi:456216	used-to-produce	chebi:15361	Reactome	11960989;15982340;15996096;18191611;1896471;2040271;3126495;34383978	Glycolysis	http://bioregistry.io/reactome:R-HSA-71670
+chebi:456216	used-to-produce	chebi:30616	Reactome	11960989;1278465;15982340;15996096;18191611;1896471;2040271;3126495;34383978;3453121;5009693;6771269;7391027	Glycolysis	http://bioregistry.io/reactome:R-HSA-71850;http://bioregistry.io/reactome:R-HSA-71670
+chebi:456216	used-to-produce	chebi:456215	Reactome	22219026;23168256	Glycolysis	http://bioregistry.io/reactome:R-HSA-5696021
+chebi:456216	reacts-with	chebi:57604	Reactome	1278465;3453121;5009693;6771269;7391027	Glycolysis	http://bioregistry.io/reactome:R-HSA-71850
+chebi:456216	used-to-produce	chebi:58225	Reactome	22219026;23168256	Glycolysis	http://bioregistry.io/reactome:R-HSA-5696021
+chebi:456216	used-to-produce	chebi:58272	Reactome	1278465;3453121;5009693;6771269;7391027	Glycolysis	http://bioregistry.io/reactome:R-HSA-71850
+chebi:456216	reacts-with	chebi:58702	Reactome	11960989;15982340;15996096;18191611;1896471;2040271;3126495;34383978	Glycolysis	http://bioregistry.io/reactome:R-HSA-71670
+chebi:57604	consumption-controlled-by	BPGM	Reactome	4555506;5687724	Glycolysis	reactome:Catalysis988;http://bioregistry.io/reactome:R-HSA-6798335
+chebi:57604	consumption-controlled-by	PGK1	Reactome	1278465;3453121;5009693;6771269;7391027	Glycolysis	http://bioregistry.io/reactome:R-HSA-71850;reactome:Catalysis990
+chebi:57604	consumption-controlled-by	PGK2	Reactome	1278465;3453121;5009693;6771269;7391027	Glycolysis	http://bioregistry.io/reactome:R-HSA-71850;reactome:Catalysis990
+chebi:57604	consumption-controlled-by	PGM2L1	Reactome	17804405;18927083	Glycolysis	http://bioregistry.io/reactome:R-HSA-8955760;reactome:Catalysis989
+chebi:57604	used-to-produce	chebi:18148	Reactome	17804405;18927083	Glycolysis	http://bioregistry.io/reactome:R-HSA-8955760
+chebi:57604	used-to-produce	chebi:19324	Reactome	4555506;5687724	Glycolysis	http://bioregistry.io/reactome:R-HSA-6798335
+chebi:57604	used-to-produce	chebi:30616	Reactome	1278465;3453121;5009693;6771269;7391027	Glycolysis	http://bioregistry.io/reactome:R-HSA-71850
+chebi:57604	reacts-with	chebi:58225	Reactome	17804405;18927083	Glycolysis	http://bioregistry.io/reactome:R-HSA-8955760
+chebi:57604	used-to-produce	chebi:58272	Reactome	1278465;17804405;18927083;3453121;5009693;6771269;7391027	Glycolysis	http://bioregistry.io/reactome:R-HSA-71850;http://bioregistry.io/reactome:R-HSA-8955760
+chebi:57634	consumption-controlled-by	PFKL	Reactome	2960695;6444721;6451249;7825568;8117307	Glycolysis	reactome:Catalysis984;http://bioregistry.io/reactome:R-HSA-70467
+chebi:57634	consumption-controlled-by	PFKM	Reactome	2960695;6444721;6451249;7825568;8117307	Glycolysis	reactome:Catalysis984;http://bioregistry.io/reactome:R-HSA-70467
+chebi:57634	consumption-controlled-by	PFKP	Reactome	2960695;6444721;6451249;7825568;8117307	Glycolysis	reactome:Catalysis984;http://bioregistry.io/reactome:R-HSA-70467
+chebi:57634	used-to-produce	chebi:32966	Reactome	2960695;6444721;6451249;7825568;8117307	Glycolysis	http://bioregistry.io/reactome:R-HSA-70467
+chebi:57642	consumption-controlled-by	TPI1	Reactome	16511037;6434534	Glycolysis	http://bioregistry.io/reactome:R-HSA-70454;reactome:Catalysis986
+chebi:57642	used-to-produce	chebi:59776	Reactome	16511037;6434534	Glycolysis	http://bioregistry.io/reactome:R-HSA-70454
+chebi:58225	consumption-controlled-by	GPI	Reactome	11371164;13538944;7989588	Glycolysis	http://bioregistry.io/reactome:R-HSA-70471;reactome:Catalysis978
+chebi:58225	consumption-controlled-by	PGM2L1	Reactome	17804405;18927083	Glycolysis	http://bioregistry.io/reactome:R-HSA-8955760;reactome:Catalysis989
+chebi:58225	used-to-produce	chebi:18148	Reactome	17804405;18927083	Glycolysis	http://bioregistry.io/reactome:R-HSA-8955760
+chebi:58225	used-to-produce	chebi:57634	Reactome	11371164;13538944;7989588	Glycolysis	http://bioregistry.io/reactome:R-HSA-70471
+chebi:58225	used-to-produce	chebi:58272	Reactome	17804405;18927083	Glycolysis	http://bioregistry.io/reactome:R-HSA-8955760
+chebi:58272	consumption-controlled-by	PGAM1	Reactome	15710582;2846554;4827367;8447317	Glycolysis	reactome:Catalysis992;http://bioregistry.io/reactome:R-HSA-71654
+chebi:58272	consumption-controlled-by	PGAM2	Reactome	15710582;2846554;4827367;8447317	Glycolysis	reactome:Catalysis992;http://bioregistry.io/reactome:R-HSA-71654
+chebi:58272	consumption-controlled-by	PGP	Reactome	26755581	Glycolysis	http://bioregistry.io/reactome:R-HSA-8955794;reactome:Catalysis991
+chebi:58272	used-to-produce	chebi:17754	Reactome	26755581	Glycolysis	http://bioregistry.io/reactome:R-HSA-8955794
+chebi:58272	used-to-produce	chebi:58289	Reactome	15710582;2846554;4827367;8447317	Glycolysis	http://bioregistry.io/reactome:R-HSA-71654
+chebi:58289	consumption-controlled-by	ENO1	Reactome	11506403;23446454;2462567;3208766;3529090;4413246	Glycolysis	reactome:Catalysis993;http://bioregistry.io/reactome:R-HSA-71660
+chebi:58289	consumption-controlled-by	ENO2	Reactome	11506403;23446454;2462567;3208766;3529090;4413246	Glycolysis	reactome:Catalysis993;http://bioregistry.io/reactome:R-HSA-71660
+chebi:58289	consumption-controlled-by	ENO3	Reactome	11506403;23446454;2462567;3208766;3529090;4413246	Glycolysis	reactome:Catalysis993;http://bioregistry.io/reactome:R-HSA-71660
+chebi:58289	consumption-controlled-by	ENO4	Reactome	11506403;23446454;2462567;3208766;3529090;4413246	Glycolysis	reactome:Catalysis993;http://bioregistry.io/reactome:R-HSA-71660
+chebi:58289	used-to-produce	chebi:58702	Reactome	11506403;23446454;2462567;3208766;3529090;4413246	Glycolysis	http://bioregistry.io/reactome:R-HSA-71660
+chebi:58702	consumption-controlled-by	PKLR	Reactome	11960989;15982340;15996096;18191611;1896471;2040271;3126495;34383978	Glycolysis	reactome:Catalysis994;http://bioregistry.io/reactome:R-HSA-71670
+chebi:58702	consumption-controlled-by	PKM	Reactome	11960989;15982340;15996096;18191611;1896471;2040271;3126495;34383978	Glycolysis	reactome:Catalysis994;http://bioregistry.io/reactome:R-HSA-71670;reactome:Control415
+chebi:58702	used-to-produce	chebi:15361	Reactome	11960989;15982340;15996096;18191611;1896471;2040271;3126495;34383978	Glycolysis	http://bioregistry.io/reactome:R-HSA-71670
+chebi:58702	used-to-produce	chebi:30616	Reactome	11960989;15982340;15996096;18191611;1896471;2040271;3126495;34383978	Glycolysis	http://bioregistry.io/reactome:R-HSA-71670
+chebi:59776	consumption-controlled-by	GAPDHS	Reactome	10714828;183598;18910716;18910717;2793178;3170585;7144574	Glycolysis	reactome:Catalysis987;http://bioregistry.io/reactome:R-HSA-70449
+chebi:59776	consumption-controlled-by	GAPDH	Reactome	10714828;183598;18910716;18910717;2793178;3170585;7144574	Glycolysis	reactome:Catalysis987;http://bioregistry.io/reactome:R-HSA-70449
+chebi:59776	used-to-produce	chebi:57604	Reactome	10714828;183598;18910716;18910717;2793178;3170585;7144574	Glycolysis	http://bioregistry.io/reactome:R-HSA-70449
+
+PARTICIPANT	PARTICIPANT_TYPE	PARTICIPANT_NAME	UNIFICATION_XREF	RELATIONSHIP_XREF
+GPI	ProteinReference	G6PI_HUMAN	uniprot:P06744	hgnc.symbol:GPI;ncbigene:2821
+chebi:57634	SmallMoleculeReference	beta-D-fructofuranose 6-phosphate(2-)	chebi:CHEBI:57634	
+ADPGK	ProteinReference	ADPGK_HUMAN	uniprot:Q9BRR6	hgnc.symbol:ADPGK;ncbigene:83440
+chebi:43474	SmallMoleculeReference	hydrogenphosphate	chebi:CHEBI:43474	
+ENO1	ProteinReference	ENOA_HUMAN	uniprot:P06733	hgnc.symbol:ENO1;ncbigene:2023
+ENO2	ProteinReference	ENOG_HUMAN	uniprot:P09104	hgnc.symbol:ENO2;ncbigene:2026
+ENO3	ProteinReference	ENOB_HUMAN	uniprot:P13929	hgnc.symbol:ENO3;ncbigene:2027
+ENO4	ProteinReference	ENO4_HUMAN	uniprot:A6NNW6	hgnc.symbol:ENO4;ncbigene:387712
+HK2	ProteinReference	HXK2_HUMAN	uniprot:P52789	hgnc.symbol:HK2;ncbigene:3099
+HK1	ProteinReference	HXK1_HUMAN	uniprot:P19367	hgnc.symbol:HK1;ncbigene:3098
+HK3	ProteinReference	HXK3_HUMAN	uniprot:P52790	hgnc.symbol:HK3;ncbigene:3101
+chebi:19324	SmallMoleculeReference	2,3-bisphosphoglycerate	chebi:CHEBI:19324	
+chebi:57642	SmallMoleculeReference	glycerone phosphate(2-)	chebi:CHEBI:57642	
+chebi:15361	SmallMoleculeReference	pyruvate	chebi:CHEBI:15361	
+TPI1	ProteinReference	TPIS_HUMAN	uniprot:P60174	hgnc.symbol:TPI1;ncbigene:7167
+PGAM1	ProteinReference	PGAM1_HUMAN	uniprot:P18669	hgnc.symbol:PGAM1;ncbigene:5223
+PGAM2	ProteinReference	PGAM2_HUMAN	uniprot:P15259	hgnc.symbol:PGAM2;ncbigene:5224
+BPGM	ProteinReference	PMGE_HUMAN	uniprot:P07738	hgnc.symbol:BPGM;ncbigene:669
+chebi:17925	SmallMoleculeReference	alpha-D-glucose	chebi:CHEBI:17925	
+PGM2L1	ProteinReference	PGM2L_HUMAN	uniprot:Q6PCE3	hgnc.symbol:PGM2L1;ncbigene:283209
+chebi:15873	SmallMoleculeReference	alpha-D-glucosamine 6-phosphate	chebi:CHEBI:15873	
+PKM	ProteinReference	KPYM_HUMAN	uniprot:P14618	hgnc.symbol:PKM;ncbigene:5315
+chebi:18148	SmallMoleculeReference	alpha-D-glucose 1,6-bisphosphate	chebi:CHEBI:18148	
+chebi:18420	SmallMoleculeReference	magnesium(2+)	chebi:CHEBI:18420	
+HKDC1	ProteinReference	HKDC1_HUMAN	uniprot:Q2TB90	hgnc.symbol:HKDC1;ncbigene:80201
+GAPDHS	ProteinReference	G3PT_HUMAN	uniprot:O14556	hgnc.symbol:GAPDHS;ncbigene:26330
+chebi:59776	SmallMoleculeReference	D-glyceraldehyde 3-phosphate(2-)	chebi:CHEBI:59776	
+PGP	ProteinReference	PGP_HUMAN	uniprot:A6NDG6	hgnc.symbol:PGP;ncbigene:283871
+chebi:28938	SmallMoleculeReference	ammonium	chebi:CHEBI:28938	
+ALDOC	ProteinReference	ALDOC_HUMAN	uniprot:P09972	hgnc.symbol:ALDOC;ncbigene:230
+ALDOB	ProteinReference	ALDOB_HUMAN	uniprot:P05062	hgnc.symbol:ALDOB;ncbigene:229
+chebi:58289	SmallMoleculeReference	2-phosphonato-D-glycerate(3-)	chebi:CHEBI:58289	
+ALDOA	ProteinReference	ALDOA_HUMAN	uniprot:P04075	hgnc.symbol:ALDOA;ncbigene:226
+GAPDH	ProteinReference	G3P_HUMAN	uniprot:P04406	hgnc.symbol:GAPDH;ncbigene:2597
+chebi:58702	SmallMoleculeReference	phosphonatoenolpyruvate	chebi:CHEBI:58702	
+chebi:29103	SmallMoleculeReference	potassium(1+)	chebi:CHEBI:29103	
+chebi:30616	SmallMoleculeReference	ATP(4-)	chebi:CHEBI:30616	
+chebi:58272	SmallMoleculeReference	3-phosphonato-D-glycerate(3-)	chebi:CHEBI:58272	
+PGK1	ProteinReference	PGK1_HUMAN	uniprot:P00558	hgnc.symbol:PGK1;ncbigene:5230
+chebi:456215	SmallMoleculeReference	adenosine 5'-monophosphate(2-)	chebi:CHEBI:456215	
+chebi:456216	SmallMoleculeReference	ADP(3-)	chebi:CHEBI:456216	
+PGK2	ProteinReference	PGK2_HUMAN	uniprot:P07205	hgnc.symbol:PGK2;ncbigene:5232
+chebi:32966	SmallMoleculeReference	beta-D-fructofuranose 1,6-bisphosphate(4-)	chebi:CHEBI:32966	
+chebi:57604	SmallMoleculeReference	3-phosphonato-D-glyceroyl phosphate(4-)	chebi:CHEBI:57604	
+PKLR	ProteinReference	KPYR_HUMAN	uniprot:P30613	hgnc.symbol:PKLR;ncbigene:5313
+GCK	ProteinReference	HXK4_HUMAN	uniprot:P35557	hgnc.symbol:GCK;ncbigene:2645
+chebi:17754	SmallMoleculeReference	glycerol	chebi:CHEBI:17754	
+PFKL	ProteinReference	PFKAL_HUMAN	uniprot:P17858	hgnc.symbol:PFKL;ncbigene:5211
+GNPDA1	ProteinReference	GNPI1_HUMAN	uniprot:P46926	hgnc.symbol:GNPDA1;ncbigene:10007
+GNPDA2	ProteinReference	GNPI2_HUMAN	uniprot:Q8TDQ7	hgnc.symbol:GNPDA2;ncbigene:132789
+chebi:58225	SmallMoleculeReference	alpha-D-glucose 6-phosphate(2-)	chebi:CHEBI:58225	
+PFKM	ProteinReference	PFKAM_HUMAN	uniprot:P08237	hgnc.symbol:PFKM;ncbigene:5213
+PFKP	ProteinReference	PFKAP_HUMAN	uniprot:Q01813	hgnc.symbol:PFKP;ncbigene:5214

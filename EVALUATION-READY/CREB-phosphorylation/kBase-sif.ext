@@ -1,0 +1,22 @@
+﻿PARTICIPANT_A	INTERACTION_TYPE	PARTICIPANT_B	INTERACTION_DATA_SOURCE	INTERACTION_PUBMED_ID	PATHWAY_NAMES	MEDIATOR_IDS
+MAPKAPK2	controls-phosphorylation-of	CREB1	Reactome	7551568	CREB phosphorylation	reactome:Catalysis486;http://bioregistry.io/reactome:R-HSA-199917
+MAPKAPK2	controls-state-change-of	CREB1	Reactome	7551568	CREB phosphorylation	reactome:Catalysis486;http://bioregistry.io/reactome:R-HSA-199917
+RPS6KA1	controls-phosphorylation-of	CREB1	Reactome	9770464	CREB phosphorylation	http://bioregistry.io/reactome:R-HSA-199895;reactome:Catalysis485
+RPS6KA1	controls-state-change-of	CREB1	Reactome	9770464	CREB phosphorylation	http://bioregistry.io/reactome:R-HSA-199895;reactome:Catalysis485
+RPS6KA2	controls-phosphorylation-of	CREB1	Reactome	9770464	CREB phosphorylation	http://bioregistry.io/reactome:R-HSA-199895;reactome:Catalysis485
+RPS6KA2	controls-state-change-of	CREB1	Reactome	9770464	CREB phosphorylation	http://bioregistry.io/reactome:R-HSA-199895;reactome:Catalysis485
+RPS6KA3	controls-phosphorylation-of	CREB1	Reactome	9770464	CREB phosphorylation	http://bioregistry.io/reactome:R-HSA-199895;reactome:Catalysis485
+RPS6KA3	controls-state-change-of	CREB1	Reactome	9770464	CREB phosphorylation	http://bioregistry.io/reactome:R-HSA-199895;reactome:Catalysis485
+RPS6KA5	controls-phosphorylation-of	ATF1	Reactome	12414794	CREB phosphorylation	http://bioregistry.io/reactome:R-HSA-199910;reactome:Catalysis484
+RPS6KA5	controls-state-change-of	ATF1	Reactome	12414794	CREB phosphorylation	http://bioregistry.io/reactome:R-HSA-199910;reactome:Catalysis484
+RPS6KA5	controls-phosphorylation-of	CREB1	Reactome	9687510	CREB phosphorylation	reactome:Catalysis483;http://bioregistry.io/reactome:R-HSA-199935
+RPS6KA5	controls-state-change-of	CREB1	Reactome	9687510	CREB phosphorylation	reactome:Catalysis483;http://bioregistry.io/reactome:R-HSA-199935
+
+PARTICIPANT	PARTICIPANT_TYPE	PARTICIPANT_NAME	UNIFICATION_XREF	RELATIONSHIP_XREF
+ATF1	ProteinReference	ATF1_HUMAN	uniprot:P18846	hgnc.symbol:ATF1;ncbigene:466
+RPS6KA3	ProteinReference	KS6A3_HUMAN	uniprot:P51812	hgnc.symbol:RPS6KA3;ncbigene:6197
+CREB1	ProteinReference	CREB1_HUMAN	uniprot:P16220	hgnc.symbol:CREB1;ncbigene:1385
+RPS6KA5	ProteinReference	KS6A5_HUMAN	uniprot:O75582	hgnc.symbol:RPS6KA5;ncbigene:9252
+RPS6KA2	ProteinReference	KS6A2_HUMAN	uniprot:Q15349	hgnc.symbol:RPS6KA2;ncbigene:6196
+MAPKAPK2	ProteinReference	MAPK2_HUMAN	uniprot:P49137	hgnc.symbol:MAPKAPK2;ncbigene:9261
+RPS6KA1	ProteinReference	KS6A1_HUMAN	uniprot:Q15418	hgnc.symbol:RPS6KA1;ncbigene:6195
