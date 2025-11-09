@@ -1,202 +1,202 @@
-ADPGK	catalysis-precedes	GPI
+﻿ADPGK	catalysis-precedes	GPI
 ADPGK	catalysis-precedes	PGM2L1
-ADPGK	controls-production-of	adenosine 5\'-monophosphate(2-)
-ADPGK	controls-production-of	alpha-D-glucose 6-phosphate(2-)
+ADPGK	controls-production-of	chebi:456215
+ADPGK	controls-production-of	chebi:58225
 ALDOA	catalysis-precedes	GAPDHS
 ALDOA	catalysis-precedes	GAPDH
 ALDOA	catalysis-precedes	TPI1
-ALDOA	controls-production-of	glycerone phosphate(2-)
-ALDOA	controls-production-of	D-glyceraldehyde 3-phosphate(2-)
-ALDOB	catalysis-precedes	D-glyceraldehyde 3-phosphate(2-)
-ALDOB	catalysis-precedes	D-glyceraldehyde 3-phosphate(2-)
-ALDOB	catalysis-precedes	D-glyceraldehyde 3-phosphate(2-)
-ALDOB	controls-production-of	D-glyceraldehyde 3-phosphate(2-)
-ALDOB	controls-production-of	D-glyceraldehyde 3-phosphate(2-)
-ALDOC	catalysis-precedes	D-glyceraldehyde 3-phosphate(2-)
-ALDOC	catalysis-precedes	D-glyceraldehyde 3-phosphate(2-)
-ALDOC	catalysis-precedes	D-glyceraldehyde 3-phosphate(2-)
-ALDOC	controls-production-of	D-glyceraldehyde 3-phosphate(2-)
-ALDOC	controls-production-of	D-glyceraldehyde 3-phosphate(2-)
-BPGM	controls-production-of	2,3-bisphosphoglycerate
+ALDOA	controls-production-of	chebi:57642
+ALDOA	controls-production-of	chebi:59776
+ALDOB	catalysis-precedes	GAPDHS
+ALDOB	catalysis-precedes	GAPDH
+ALDOB	catalysis-precedes	TPI1
+ALDOB	controls-production-of	chebi:57642
+ALDOB	controls-production-of	chebi:59776
+ALDOC	catalysis-precedes	GAPDHS
+ALDOC	catalysis-precedes	GAPDH
+ALDOC	catalysis-precedes	TPI1
+ALDOC	controls-production-of	chebi:57642
+ALDOC	controls-production-of	chebi:59776
+BPGM	controls-production-of	chebi:19324
 ENO1	catalysis-precedes	PKLR
 ENO1	catalysis-precedes	PKM
-ENO1	controls-production-of	phosphonatoenolpyruvate
-ENO2	catalysis-precedes	phosphonatoenolpyruvate
-ENO2	catalysis-precedes	phosphonatoenolpyruvate
-ENO2	controls-production-of	phosphonatoenolpyruvate
-ENO3	catalysis-precedes	phosphonatoenolpyruvate
-ENO3	catalysis-precedes	phosphonatoenolpyruvate
-ENO3	controls-production-of	phosphonatoenolpyruvate
-ENO4	catalysis-precedes	phosphonatoenolpyruvate
-ENO4	catalysis-precedes	phosphonatoenolpyruvate
-ENO4	controls-production-of	phosphonatoenolpyruvate
-ENO4	catalysis-precedes	phosphonatoenolpyruvate
-ENO4	catalysis-precedes	PGK1
-ENO4	catalysis-precedes	PGK2
-ENO4	catalysis-precedes	PGK2
-ENO4	catalysis-precedes	PGK2
-ENO4	catalysis-precedes	PGK2
-ENO4	catalysis-precedes	PGK2
-ENO4	catalysis-precedes	PGK2
-ENO4	controls-production-of	3-phosphonato-D-glyceroyl phosphate(4-)
-ENO4	controls-production-of	3-phosphonato-D-glyceroyl phosphate(4-)
-GCK	catalysis-precedes	3-phosphonato-D-glyceroyl phosphate(4-)
-GCK	catalysis-precedes	3-phosphonato-D-glyceroyl phosphate(4-)
-GCK	controls-production-of	3-phosphonato-D-glyceroyl phosphate(4-)
+ENO1	controls-production-of	chebi:58702
+ENO2	catalysis-precedes	PKLR
+ENO2	catalysis-precedes	PKM
+ENO2	controls-production-of	chebi:58702
+ENO3	catalysis-precedes	PKLR
+ENO3	catalysis-precedes	PKM
+ENO3	controls-production-of	chebi:58702
+ENO4	catalysis-precedes	PKLR
+ENO4	catalysis-precedes	PKM
+ENO4	controls-production-of	chebi:58702
+GAPDH	catalysis-precedes	BPGM
+GAPDH	catalysis-precedes	PGK1
+GAPDH	catalysis-precedes	PGK2
+GAPDH	catalysis-precedes	PGM2L1
+GAPDHS	catalysis-precedes	BPGM
+GAPDHS	catalysis-precedes	PGK1
+GAPDHS	catalysis-precedes	PGK2
+GAPDHS	catalysis-precedes	PGM2L1
+GAPDHS	controls-production-of	chebi:57604
+GAPDH	controls-production-of	chebi:57604
+GCK	catalysis-precedes	GPI
+GCK	catalysis-precedes	PGM2L1
+GCK	controls-production-of	chebi:58225
 GNPDA1	catalysis-precedes	PFKL
 GNPDA1	catalysis-precedes	PFKM
 GNPDA1	catalysis-precedes	PFKP
-GNPDA1	controls-production-of	ammonium
-GNPDA1	controls-production-of	beta-D-fructofuranose 6-phosphate(2-)
-GNPDA2	catalysis-precedes	beta-D-fructofuranose 6-phosphate(2-)
-GNPDA2	catalysis-precedes	beta-D-fructofuranose 6-phosphate(2-)
-GNPDA2	catalysis-precedes	beta-D-fructofuranose 6-phosphate(2-)
-GNPDA2	controls-production-of	beta-D-fructofuranose 6-phosphate(2-)
-GNPDA2	controls-production-of	beta-D-fructofuranose 6-phosphate(2-)
-GNPDA2	catalysis-precedes	beta-D-fructofuranose 6-phosphate(2-)
-GNPDA2	catalysis-precedes	beta-D-fructofuranose 6-phosphate(2-)
-GNPDA2	catalysis-precedes	beta-D-fructofuranose 6-phosphate(2-)
-GNPDA2	controls-production-of	beta-D-fructofuranose 6-phosphate(2-)
-HK1	catalysis-precedes	beta-D-fructofuranose 6-phosphate(2-)
-HK1	catalysis-precedes	beta-D-fructofuranose 6-phosphate(2-)
-HK1	controls-production-of	beta-D-fructofuranose 6-phosphate(2-)
-HK2	catalysis-precedes	beta-D-fructofuranose 6-phosphate(2-)
-HK2	catalysis-precedes	beta-D-fructofuranose 6-phosphate(2-)
-HK2	controls-production-of	beta-D-fructofuranose 6-phosphate(2-)
-HK3	catalysis-precedes	beta-D-fructofuranose 6-phosphate(2-)
-HK3	catalysis-precedes	beta-D-fructofuranose 6-phosphate(2-)
-HK3	controls-production-of	beta-D-fructofuranose 6-phosphate(2-)
-HKDC1	catalysis-precedes	beta-D-fructofuranose 6-phosphate(2-)
-HKDC1	catalysis-precedes	beta-D-fructofuranose 6-phosphate(2-)
-HKDC1	controls-production-of	beta-D-fructofuranose 6-phosphate(2-)
-HKDC1	catalysis-precedes	beta-D-fructofuranose 6-phosphate(2-)
-HKDC1	catalysis-precedes	beta-D-fructofuranose 6-phosphate(2-)
-HKDC1	catalysis-precedes	beta-D-fructofuranose 6-phosphate(2-)
-HKDC1	in-complex-with	beta-D-fructofuranose 6-phosphate(2-)
-HKDC1	in-complex-with	beta-D-fructofuranose 6-phosphate(2-)
-HKDC1	controls-production-of	beta-D-fructofuranose 1,6-bisphosphate(4-)
-HKDC1	catalysis-precedes	beta-D-fructofuranose 1,6-bisphosphate(4-)
-HKDC1	catalysis-precedes	beta-D-fructofuranose 1,6-bisphosphate(4-)
-HKDC1	catalysis-precedes	beta-D-fructofuranose 1,6-bisphosphate(4-)
-HKDC1	controls-production-of	beta-D-fructofuranose 1,6-bisphosphate(4-)
-HKDC1	catalysis-precedes	beta-D-fructofuranose 1,6-bisphosphate(4-)
-HKDC1	catalysis-precedes	beta-D-fructofuranose 1,6-bisphosphate(4-)
-HKDC1	catalysis-precedes	beta-D-fructofuranose 1,6-bisphosphate(4-)
-HKDC1	controls-production-of	beta-D-fructofuranose 1,6-bisphosphate(4-)
-PGAM1	catalysis-precedes	beta-D-fructofuranose 1,6-bisphosphate(4-)
-PGAM1	catalysis-precedes	beta-D-fructofuranose 1,6-bisphosphate(4-)
-PGAM1	catalysis-precedes	beta-D-fructofuranose 1,6-bisphosphate(4-)
-PGAM1	catalysis-precedes	beta-D-fructofuranose 1,6-bisphosphate(4-)
-PGAM1	controls-production-of	2-phosphonato-D-glycerate(3-)
-PGAM2	catalysis-precedes	2-phosphonato-D-glycerate(3-)
-PGAM2	catalysis-precedes	2-phosphonato-D-glycerate(3-)
-PGAM2	catalysis-precedes	2-phosphonato-D-glycerate(3-)
-PGAM2	catalysis-precedes	2-phosphonato-D-glycerate(3-)
-PGAM2	controls-production-of	2-phosphonato-D-glycerate(3-)
-PGAM2	catalysis-precedes	2-phosphonato-D-glycerate(3-)
-PGAM2	catalysis-precedes	2-phosphonato-D-glycerate(3-)
-PGAM2	catalysis-precedes	PGP
-PGAM2	controls-production-of	ATP(4-)
-PGAM2	controls-production-of	3-phosphonato-D-glycerate(3-)
-PGAM2	catalysis-precedes	3-phosphonato-D-glycerate(3-)
-PGAM2	catalysis-precedes	3-phosphonato-D-glycerate(3-)
-PGAM2	catalysis-precedes	3-phosphonato-D-glycerate(3-)
-PGAM2	controls-production-of	3-phosphonato-D-glycerate(3-)
-PGAM2	controls-production-of	3-phosphonato-D-glycerate(3-)
-PGAM2	catalysis-precedes	3-phosphonato-D-glycerate(3-)
-PGAM2	catalysis-precedes	3-phosphonato-D-glycerate(3-)
-PGAM2	catalysis-precedes	3-phosphonato-D-glycerate(3-)
-PGAM2	controls-production-of	alpha-D-glucose 1,6-bisphosphate
-PGAM2	controls-production-of	alpha-D-glucose 1,6-bisphosphate
-PGAM2	controls-production-of	glycerol
-PGAM2	controls-production-of	pyruvate
-PGAM2	controls-production-of	pyruvate
-PGAM2	controls-production-of	pyruvate
-PGAM2	controls-production-of	pyruvate
-PGAM2	catalysis-precedes	pyruvate
-PGAM2	catalysis-precedes	pyruvate
-PGAM2	controls-production-of	pyruvate
-alpha-D-glucosamine 6-phosphate	consumption-controlled-by	pyruvate
-alpha-D-glucosamine 6-phosphate	consumption-controlled-by	pyruvate
-alpha-D-glucosamine 6-phosphate	used-to-produce	pyruvate
-alpha-D-glucosamine 6-phosphate	used-to-produce	pyruvate
-alpha-D-glucose	consumption-controlled-by	pyruvate
-alpha-D-glucose	consumption-controlled-by	pyruvate
-alpha-D-glucose	consumption-controlled-by	pyruvate
-alpha-D-glucose	consumption-controlled-by	pyruvate
-alpha-D-glucose	consumption-controlled-by	pyruvate
-alpha-D-glucose	consumption-controlled-by	pyruvate
-alpha-D-glucose	used-to-produce	pyruvate
-alpha-D-glucose	reacts-with	ADP(3-)
-alpha-D-glucose	used-to-produce	ADP(3-)
-magnesium(2+)	chemical-affects	ADP(3-)
-magnesium(2+)	chemical-affects	ADP(3-)
-magnesium(2+)	chemical-affects	ADP(3-)
-magnesium(2+)	chemical-affects	ADP(3-)
-magnesium(2+)	chemical-affects	ADP(3-)
-magnesium(2+)	chemical-affects	ADP(3-)
-magnesium(2+)	chemical-affects	ADP(3-)
-magnesium(2+)	chemical-affects	ADP(3-)
-magnesium(2+)	chemical-affects	ADP(3-)
-magnesium(2+)	chemical-affects	ADP(3-)
-magnesium(2+)	chemical-affects	ADP(3-)
-potassium(1+)	chemical-affects	ADP(3-)
-potassium(1+)	chemical-affects	ADP(3-)
-potassium(1+)	consumption-controlled-by	ADP(3-)
-potassium(1+)	consumption-controlled-by	ADP(3-)
-potassium(1+)	consumption-controlled-by	ADP(3-)
-potassium(1+)	used-to-produce	ADP(3-)
-potassium(1+)	used-to-produce	ADP(3-)
-hydrogenphosphate	consumption-controlled-by	ADP(3-)
-hydrogenphosphate	consumption-controlled-by	ADP(3-)
-hydrogenphosphate	used-to-produce	ADP(3-)
-hydrogenphosphate	reacts-with	ADP(3-)
-hydrogenphosphate	consumption-controlled-by	ADP(3-)
-hydrogenphosphate	consumption-controlled-by	ADP(3-)
-hydrogenphosphate	consumption-controlled-by	ADP(3-)
-hydrogenphosphate	consumption-controlled-by	ADP(3-)
-hydrogenphosphate	consumption-controlled-by	ADP(3-)
-hydrogenphosphate	used-to-produce	ADP(3-)
-hydrogenphosphate	used-to-produce	ADP(3-)
-hydrogenphosphate	used-to-produce	ADP(3-)
-hydrogenphosphate	reacts-with	ADP(3-)
-hydrogenphosphate	used-to-produce	ADP(3-)
-hydrogenphosphate	used-to-produce	ADP(3-)
-hydrogenphosphate	reacts-with	ADP(3-)
-hydrogenphosphate	consumption-controlled-by	ADP(3-)
-hydrogenphosphate	consumption-controlled-by	ADP(3-)
-hydrogenphosphate	consumption-controlled-by	ADP(3-)
-hydrogenphosphate	consumption-controlled-by	ADP(3-)
-hydrogenphosphate	used-to-produce	ADP(3-)
-hydrogenphosphate	used-to-produce	ADP(3-)
-hydrogenphosphate	used-to-produce	ADP(3-)
-hydrogenphosphate	reacts-with	ADP(3-)
-hydrogenphosphate	used-to-produce	ADP(3-)
-hydrogenphosphate	consumption-controlled-by	ADP(3-)
-hydrogenphosphate	consumption-controlled-by	ADP(3-)
-hydrogenphosphate	consumption-controlled-by	ADP(3-)
-hydrogenphosphate	used-to-produce	ADP(3-)
-hydrogenphosphate	consumption-controlled-by	ADP(3-)
-hydrogenphosphate	used-to-produce	ADP(3-)
-hydrogenphosphate	consumption-controlled-by	ADP(3-)
-hydrogenphosphate	consumption-controlled-by	ADP(3-)
-hydrogenphosphate	used-to-produce	ADP(3-)
-hydrogenphosphate	used-to-produce	ADP(3-)
-hydrogenphosphate	used-to-produce	ADP(3-)
-hydrogenphosphate	consumption-controlled-by	ADP(3-)
-hydrogenphosphate	consumption-controlled-by	ADP(3-)
-hydrogenphosphate	consumption-controlled-by	ADP(3-)
-hydrogenphosphate	used-to-produce	ADP(3-)
-hydrogenphosphate	used-to-produce	ADP(3-)
-hydrogenphosphate	consumption-controlled-by	ADP(3-)
-hydrogenphosphate	consumption-controlled-by	ADP(3-)
-hydrogenphosphate	consumption-controlled-by	ADP(3-)
-hydrogenphosphate	consumption-controlled-by	ADP(3-)
-hydrogenphosphate	used-to-produce	ADP(3-)
-hydrogenphosphate	consumption-controlled-by	ADP(3-)
-hydrogenphosphate	consumption-controlled-by	ADP(3-)
-hydrogenphosphate	used-to-produce	ADP(3-)
-hydrogenphosphate	used-to-produce	ADP(3-)
-hydrogenphosphate	consumption-controlled-by	ADP(3-)
-hydrogenphosphate	consumption-controlled-by	ADP(3-)
-hydrogenphosphate	used-to-produce	ADP(3-)
+GNPDA1	controls-production-of	chebi:28938
+GNPDA1	controls-production-of	chebi:57634
+GNPDA2	catalysis-precedes	PFKL
+GNPDA2	catalysis-precedes	PFKM
+GNPDA2	catalysis-precedes	PFKP
+GNPDA2	controls-production-of	chebi:28938
+GNPDA2	controls-production-of	chebi:57634
+GPI	catalysis-precedes	PFKL
+GPI	catalysis-precedes	PFKM
+GPI	catalysis-precedes	PFKP
+GPI	controls-production-of	chebi:57634
+HK1	catalysis-precedes	GPI
+HK1	catalysis-precedes	PGM2L1
+HK1	controls-production-of	chebi:58225
+HK2	catalysis-precedes	GPI
+HK2	catalysis-precedes	PGM2L1
+HK2	controls-production-of	chebi:58225
+HK3	catalysis-precedes	GPI
+HK3	catalysis-precedes	PGM2L1
+HK3	controls-production-of	chebi:58225
+HKDC1	catalysis-precedes	GPI
+HKDC1	catalysis-precedes	PGM2L1
+HKDC1	controls-production-of	chebi:58225
+PFKL	catalysis-precedes	ALDOA
+PFKL	catalysis-precedes	ALDOB
+PFKL	catalysis-precedes	ALDOC
+PFKL	in-complex-with	PFKM
+PFKL	in-complex-with	PFKP
+PFKL	controls-production-of	chebi:32966
+PFKM	catalysis-precedes	ALDOA
+PFKM	catalysis-precedes	ALDOB
+PFKM	catalysis-precedes	ALDOC
+PFKM	controls-production-of	chebi:32966
+PFKP	catalysis-precedes	ALDOA
+PFKP	catalysis-precedes	ALDOB
+PFKP	catalysis-precedes	ALDOC
+PFKP	controls-production-of	chebi:32966
+PGAM1	catalysis-precedes	ENO1
+PGAM1	catalysis-precedes	ENO2
+PGAM1	catalysis-precedes	ENO3
+PGAM1	catalysis-precedes	ENO4
+PGAM1	controls-production-of	chebi:58289
+PGAM2	catalysis-precedes	ENO1
+PGAM2	catalysis-precedes	ENO2
+PGAM2	catalysis-precedes	ENO3
+PGAM2	catalysis-precedes	ENO4
+PGAM2	controls-production-of	chebi:58289
+PGK1	catalysis-precedes	PGAM1
+PGK1	catalysis-precedes	PGAM2
+PGK1	catalysis-precedes	PGP
+PGK1	controls-production-of	chebi:30616
+PGK1	controls-production-of	chebi:58272
+PGK2	catalysis-precedes	PGAM1
+PGK2	catalysis-precedes	PGAM2
+PGK2	catalysis-precedes	PGP
+PGK2	controls-production-of	chebi:30616
+PGK2	controls-production-of	chebi:58272
+PGM2L1	catalysis-precedes	PGAM1
+PGM2L1	catalysis-precedes	PGAM2
+PGM2L1	catalysis-precedes	PGP
+PGM2L1	controls-production-of	chebi:18148
+PGM2L1	controls-production-of	chebi:58272
+PGP	controls-production-of	chebi:17754
+PKLR	controls-production-of	chebi:15361
+PKLR	controls-production-of	chebi:30616
+PKM	controls-production-of	chebi:15361
+PKM	controls-production-of	chebi:30616
+TPI1	catalysis-precedes	GAPDHS
+TPI1	catalysis-precedes	GAPDH
+TPI1	controls-production-of	chebi:59776
+chebi:15873	consumption-controlled-by	GNPDA1
+chebi:15873	consumption-controlled-by	GNPDA2
+chebi:15873	used-to-produce	chebi:28938
+chebi:15873	used-to-produce	chebi:57634
+chebi:17925	consumption-controlled-by	ADPGK
+chebi:17925	consumption-controlled-by	GCK
+chebi:17925	consumption-controlled-by	HK1
+chebi:17925	consumption-controlled-by	HK2
+chebi:17925	consumption-controlled-by	HK3
+chebi:17925	consumption-controlled-by	HKDC1
+chebi:17925	used-to-produce	chebi:456215
+chebi:17925	reacts-with	chebi:456216
+chebi:17925	used-to-produce	chebi:58225
+chebi:18420	chemical-affects	ADPGK
+chebi:18420	chemical-affects	ENO1
+chebi:18420	chemical-affects	ENO2
+chebi:18420	chemical-affects	ENO3
+chebi:18420	chemical-affects	ENO4
+chebi:18420	chemical-affects	PGK1
+chebi:18420	chemical-affects	PGK2
+chebi:18420	chemical-affects	PGM2L1
+chebi:18420	chemical-affects	PGP
+chebi:18420	chemical-affects	PKLR
+chebi:18420	chemical-affects	PKM
+chebi:29103	chemical-affects	PKLR
+chebi:29103	chemical-affects	PKM
+chebi:32966	consumption-controlled-by	ALDOA
+chebi:32966	consumption-controlled-by	ALDOB
+chebi:32966	consumption-controlled-by	ALDOC
+chebi:32966	used-to-produce	chebi:57642
+chebi:32966	used-to-produce	chebi:59776
+chebi:43474	consumption-controlled-by	GAPDHS
+chebi:43474	consumption-controlled-by	GAPDH
+chebi:43474	used-to-produce	chebi:57604
+chebi:43474	reacts-with	chebi:59776
+chebi:456216	consumption-controlled-by	ADPGK
+chebi:456216	consumption-controlled-by	PGK1
+chebi:456216	consumption-controlled-by	PGK2
+chebi:456216	consumption-controlled-by	PKLR
+chebi:456216	consumption-controlled-by	PKM
+chebi:456216	used-to-produce	chebi:15361
+chebi:456216	used-to-produce	chebi:30616
+chebi:456216	used-to-produce	chebi:456215
+chebi:456216	reacts-with	chebi:57604
+chebi:456216	used-to-produce	chebi:58225
+chebi:456216	used-to-produce	chebi:58272
+chebi:456216	reacts-with	chebi:58702
+chebi:57604	consumption-controlled-by	BPGM
+chebi:57604	consumption-controlled-by	PGK1
+chebi:57604	consumption-controlled-by	PGK2
+chebi:57604	consumption-controlled-by	PGM2L1
+chebi:57604	used-to-produce	chebi:18148
+chebi:57604	used-to-produce	chebi:19324
+chebi:57604	used-to-produce	chebi:30616
+chebi:57604	reacts-with	chebi:58225
+chebi:57604	used-to-produce	chebi:58272
+chebi:57634	consumption-controlled-by	PFKL
+chebi:57634	consumption-controlled-by	PFKM
+chebi:57634	consumption-controlled-by	PFKP
+chebi:57634	used-to-produce	chebi:32966
+chebi:57642	consumption-controlled-by	TPI1
+chebi:57642	used-to-produce	chebi:59776
+chebi:58225	consumption-controlled-by	GPI
+chebi:58225	consumption-controlled-by	PGM2L1
+chebi:58225	used-to-produce	chebi:18148
+chebi:58225	used-to-produce	chebi:57634
+chebi:58225	used-to-produce	chebi:58272
+chebi:58272	consumption-controlled-by	PGAM1
+chebi:58272	consumption-controlled-by	PGAM2
+chebi:58272	consumption-controlled-by	PGP
+chebi:58272	used-to-produce	chebi:17754
+chebi:58272	used-to-produce	chebi:58289
+chebi:58289	consumption-controlled-by	ENO1
+chebi:58289	consumption-controlled-by	ENO2
+chebi:58289	consumption-controlled-by	ENO3
+chebi:58289	consumption-controlled-by	ENO4
+chebi:58289	used-to-produce	chebi:58702
+chebi:58702	consumption-controlled-by	PKLR
+chebi:58702	consumption-controlled-by	PKM
+chebi:58702	used-to-produce	chebi:15361
+chebi:58702	used-to-produce	chebi:30616
+chebi:59776	consumption-controlled-by	GAPDHS
+chebi:59776	consumption-controlled-by	GAPDH
+chebi:59776	used-to-produce	chebi:57604

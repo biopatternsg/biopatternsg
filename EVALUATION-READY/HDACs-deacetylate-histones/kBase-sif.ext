@@ -4122,8 +4122,8 @@ BRMS1	ProteinReference	BRMS1_HUMAN	uniprot:Q9HCU9	hgnc.symbol:BRMS1;ncbigene:258
 H4C15	ProteinReference	H4_HUMAN	uniprot:P62805	hgnc.symbol:H4C1;hgnc.symbol:H4C11;hgnc.symbol:H4C12;hgnc.symbol:H4C13;hgnc.symbol:H4C14;hgnc.symbol:H4C15;hgnc.symbol:H4C16;hgnc.symbol:H4C2;hgnc.symbol:H4C3;hgnc.symbol:H4C4;hgnc.symbol:H4C5;hgnc.symbol:H4C6;hgnc.symbol:H4C8;hgnc.symbol:H4C9;ncbigene:121504;ncbigene:554313;ncbigene:8294;ncbigene:8359;ncbigene:8360;ncbigene:8361;ncbigene:8362;ncbigene:8363;ncbigene:8364;ncbigene:8365;ncbigene:8366;ncbigene:8367;ncbigene:8368;ncbigene:8370
 H4C14	ProteinReference	H4_HUMAN	uniprot:P62805	hgnc.symbol:H4C1;hgnc.symbol:H4C11;hgnc.symbol:H4C12;hgnc.symbol:H4C13;hgnc.symbol:H4C14;hgnc.symbol:H4C15;hgnc.symbol:H4C16;hgnc.symbol:H4C2;hgnc.symbol:H4C3;hgnc.symbol:H4C4;hgnc.symbol:H4C5;hgnc.symbol:H4C6;hgnc.symbol:H4C8;hgnc.symbol:H4C9;ncbigene:121504;ncbigene:554313;ncbigene:8294;ncbigene:8359;ncbigene:8360;ncbigene:8361;ncbigene:8362;ncbigene:8363;ncbigene:8364;ncbigene:8365;ncbigene:8366;ncbigene:8367;ncbigene:8368;ncbigene:8370
 TBL1XR1	ProteinReference	TBL1R_HUMAN	uniprot:Q9BZK7	hgnc.symbol:TBL1XR1;ncbigene:79718
-H4C13	ProteinReference	H4_HUMAN	uniprot:P62805	hgnc.symbol:H4C1;hgnc.symbol:H4C11;hgnc.symbol:H4C12;hgnc.symbol:H4C13;hgnc.symbol:H4C14;hgnc.symbol:H4C15;hgnc.symbol:H4C16;hgnc.symbol:H4C2;hgnc.symbol:H4C3;hgnc.symbol:H4C4;hgnc.symbol:H4C5;hgnc.symbol:H4C6;hgnc.symbol:H4C8;hgnc.symbol:H4C9;ncbigene:121504;ncbigene:554313;ncbigene:8294;ncbigene:8359;ncbigene:8360;ncbigene:8361;ncbigene:8362;ncbigene:8363;ncbigene:8364;ncbigene:8365;ncbigene:8366;ncbigene:8367;ncbigene:8368;ncbigene:8370
 chebi:6852	SmallMoleculeReference	Methyl 5-hydroxy-2-benzimidazole carbamate	chebi:CHEBI:6852	
+H4C13	ProteinReference	H4_HUMAN	uniprot:P62805	hgnc.symbol:H4C1;hgnc.symbol:H4C11;hgnc.symbol:H4C12;hgnc.symbol:H4C13;hgnc.symbol:H4C14;hgnc.symbol:H4C15;hgnc.symbol:H4C16;hgnc.symbol:H4C2;hgnc.symbol:H4C3;hgnc.symbol:H4C4;hgnc.symbol:H4C5;hgnc.symbol:H4C6;hgnc.symbol:H4C8;hgnc.symbol:H4C9;ncbigene:121504;ncbigene:554313;ncbigene:8294;ncbigene:8359;ncbigene:8360;ncbigene:8361;ncbigene:8362;ncbigene:8363;ncbigene:8364;ncbigene:8365;ncbigene:8366;ncbigene:8367;ncbigene:8368;ncbigene:8370
 H4C12	ProteinReference	H4_HUMAN	uniprot:P62805	hgnc.symbol:H4C1;hgnc.symbol:H4C11;hgnc.symbol:H4C12;hgnc.symbol:H4C13;hgnc.symbol:H4C14;hgnc.symbol:H4C15;hgnc.symbol:H4C16;hgnc.symbol:H4C2;hgnc.symbol:H4C3;hgnc.symbol:H4C4;hgnc.symbol:H4C5;hgnc.symbol:H4C6;hgnc.symbol:H4C8;hgnc.symbol:H4C9;ncbigene:121504;ncbigene:554313;ncbigene:8294;ncbigene:8359;ncbigene:8360;ncbigene:8361;ncbigene:8362;ncbigene:8363;ncbigene:8364;ncbigene:8365;ncbigene:8366;ncbigene:8367;ncbigene:8368;ncbigene:8370
 H4C11	ProteinReference	H4_HUMAN	uniprot:P62805	hgnc.symbol:H4C1;hgnc.symbol:H4C11;hgnc.symbol:H4C12;hgnc.symbol:H4C13;hgnc.symbol:H4C14;hgnc.symbol:H4C15;hgnc.symbol:H4C16;hgnc.symbol:H4C2;hgnc.symbol:H4C3;hgnc.symbol:H4C4;hgnc.symbol:H4C5;hgnc.symbol:H4C6;hgnc.symbol:H4C8;hgnc.symbol:H4C9;ncbigene:121504;ncbigene:554313;ncbigene:8294;ncbigene:8359;ncbigene:8360;ncbigene:8361;ncbigene:8362;ncbigene:8363;ncbigene:8364;ncbigene:8365;ncbigene:8366;ncbigene:8367;ncbigene:8368;ncbigene:8370
 PHF21A	ProteinReference	PF21A_HUMAN	uniprot:Q96BD5	hgnc.symbol:PHF21A;ncbigene:51317
@@ -4149,12 +4149,12 @@ H3C8	ProteinReference	H31_HUMAN	uniprot:P68431	hgnc.symbol:H3C1;hgnc.symbol:H3C1
 chebi:30089	SmallMoleculeReference	acetate	chebi:CHEBI:30089	
 H2BC17	ProteinReference	H2B1O_HUMAN	uniprot:P23527	hgnc.symbol:H2BC17;ncbigene:8348
 H2BC18	ProteinReference	H2B2F_HUMAN	uniprot:Q5QNW6	hgnc.symbol:H2BC18;ncbigene:440689
-H2BC12	ProteinReference	H2B1K_HUMAN	uniprot:O60814	hgnc.symbol:H2BC12;ncbigene:85236
 NCOR2	ProteinReference	NCOR2_HUMAN	uniprot:Q9Y618	hgnc.symbol:NCOR2;ncbigene:9612
+H2BC12	ProteinReference	H2B1K_HUMAN	uniprot:O60814	hgnc.symbol:H2BC12;ncbigene:85236
 H2BC13	ProteinReference	H2B1L_HUMAN	uniprot:Q99880	hgnc.symbol:H2BC13;ncbigene:8340
 H2BC14	ProteinReference	H2B1M_HUMAN	uniprot:Q99879	hgnc.symbol:H2BC14;ncbigene:8342
-H2BC15	ProteinReference	H2B1N_HUMAN	uniprot:Q99877	hgnc.symbol:H2BC15;ncbigene:8341
 NCOR1	ProteinReference	NCOR1_HUMAN	uniprot:O75376	hgnc.symbol:NCOR1;ncbigene:9611
+H2BC15	ProteinReference	H2B1N_HUMAN	uniprot:Q99877	hgnc.symbol:H2BC15;ncbigene:8341
 H2BC10	ProteinReference	H2B1C_HUMAN	uniprot:P62807	hgnc.symbol:H2BC10;hgnc.symbol:H2BC4;hgnc.symbol:H2BC6;hgnc.symbol:H2BC7;hgnc.symbol:H2BC8;ncbigene:3017;ncbigene:8339;ncbigene:8343;ncbigene:8344;ncbigene:8346;ncbigene:8347
 H2BC11	ProteinReference	H2B1J_HUMAN	uniprot:P06899	hgnc.symbol:H2BC11;ncbigene:8970
 HDAC2	ProteinReference	HDAC2_HUMAN	uniprot:Q92769	hgnc.symbol:HDAC2;ncbigene:3066
@@ -4165,8 +4165,8 @@ GPS2	ProteinReference	GPS2_HUMAN	uniprot:Q13227	hgnc.symbol:GPS2;ncbigene:2874
 HDAC8	ProteinReference	HDAC8_HUMAN	uniprot:Q9BY41	hgnc.symbol:HDAC8;ncbigene:55869
 H3C15	ProteinReference	H32_HUMAN	uniprot:Q71DI3	hgnc.symbol:H3C13;hgnc.symbol:H3C14;hgnc.symbol:H3C15;ncbigene:126961;ncbigene:333932;ncbigene:653604
 MTA1	ProteinReference	MTA1_HUMAN	uniprot:Q13330	hgnc.symbol:MTA1;ncbigene:9112
-H3C13	ProteinReference	H32_HUMAN	uniprot:Q71DI3	hgnc.symbol:H3C13;hgnc.symbol:H3C14;hgnc.symbol:H3C15;ncbigene:126961;ncbigene:333932;ncbigene:653604
 RBBP4	ProteinReference	RBBP4_HUMAN	uniprot:Q09028	hgnc.symbol:RBBP4;ncbigene:5928
+H3C13	ProteinReference	H32_HUMAN	uniprot:Q71DI3	hgnc.symbol:H3C13;hgnc.symbol:H3C14;hgnc.symbol:H3C15;ncbigene:126961;ncbigene:333932;ncbigene:653604
 H3C14	ProteinReference	H32_HUMAN	uniprot:Q71DI3	hgnc.symbol:H3C13;hgnc.symbol:H3C14;hgnc.symbol:H3C15;ncbigene:126961;ncbigene:333932;ncbigene:653604
 H3C11	ProteinReference	H31_HUMAN	uniprot:P68431	hgnc.symbol:H3C1;hgnc.symbol:H3C10;hgnc.symbol:H3C11;hgnc.symbol:H3C12;hgnc.symbol:H3C2;hgnc.symbol:H3C3;hgnc.symbol:H3C4;hgnc.symbol:H3C6;hgnc.symbol:H3C7;hgnc.symbol:H3C8;ncbigene:8350;ncbigene:8351;ncbigene:8352;ncbigene:8353;ncbigene:8354;ncbigene:8355;ncbigene:8356;ncbigene:8357;ncbigene:8358;ncbigene:8968
 SAP30L	ProteinReference	SP30L_HUMAN	uniprot:Q9HAJ7	hgnc.symbol:SAP30L;ncbigene:79685

@@ -18,5 +18,5 @@ RPS6KA3	ProteinReference	KS6A3_HUMAN	uniprot:P51812	hgnc.symbol:RPS6KA3;ncbigene
 CREB1	ProteinReference	CREB1_HUMAN	uniprot:P16220	hgnc.symbol:CREB1;ncbigene:1385
 RPS6KA5	ProteinReference	KS6A5_HUMAN	uniprot:O75582	hgnc.symbol:RPS6KA5;ncbigene:9252
 RPS6KA2	ProteinReference	KS6A2_HUMAN	uniprot:Q15349	hgnc.symbol:RPS6KA2;ncbigene:6196
-MAPKAPK2	ProteinReference	MAPK2_HUMAN	uniprot:P49137	hgnc.symbol:MAPKAPK2;ncbigene:9261
 RPS6KA1	ProteinReference	KS6A1_HUMAN	uniprot:Q15418	hgnc.symbol:RPS6KA1;ncbigene:6195
+MAPKAPK2	ProteinReference	MAPK2_HUMAN	uniprot:P49137	hgnc.symbol:MAPKAPK2;ncbigene:9261

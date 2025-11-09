@@ -228,9 +228,9 @@ PKM	ProteinReference	KPYM_HUMAN	uniprot:P14618	hgnc.symbol:PKM;ncbigene:5315
 chebi:18148	SmallMoleculeReference	alpha-D-glucose 1,6-bisphosphate	chebi:CHEBI:18148	
 chebi:18420	SmallMoleculeReference	magnesium(2+)	chebi:CHEBI:18420	
 HKDC1	ProteinReference	HKDC1_HUMAN	uniprot:Q2TB90	hgnc.symbol:HKDC1;ncbigene:80201
-GAPDHS	ProteinReference	G3PT_HUMAN	uniprot:O14556	hgnc.symbol:GAPDHS;ncbigene:26330
 chebi:59776	SmallMoleculeReference	D-glyceraldehyde 3-phosphate(2-)	chebi:CHEBI:59776	
 PGP	ProteinReference	PGP_HUMAN	uniprot:A6NDG6	hgnc.symbol:PGP;ncbigene:283871
+GAPDHS	ProteinReference	G3PT_HUMAN	uniprot:O14556	hgnc.symbol:GAPDHS;ncbigene:26330
 chebi:28938	SmallMoleculeReference	ammonium	chebi:CHEBI:28938	
 ALDOC	ProteinReference	ALDOC_HUMAN	uniprot:P09972	hgnc.symbol:ALDOC;ncbigene:230
 ALDOB	ProteinReference	ALDOB_HUMAN	uniprot:P05062	hgnc.symbol:ALDOB;ncbigene:229
