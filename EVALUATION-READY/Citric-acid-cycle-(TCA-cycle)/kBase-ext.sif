@@ -1,0 +1,191 @@
+﻿PARTICIPANT_A	INTERACTION_TYPE	PARTICIPANT_B	INTERACTION_DATA_SOURCE	INTERACTION_PUBMED_ID	PATHWAY_NAMES	MEDIATOR_IDS
+ACO2	catalysis-precedes	IDH2	Reactome	1052766;11278619;12207025;14832224;18806796;18914071;1946331;20847235;34354088	Citric acid cycle (TCA cycle)	http://bioregistry.io/reactome:R-HSA-70971;reactome:Control586;reactome:Catalysis1971;reactome:Control590;http://bioregistry.io/reactome:R-HSA-450984;reactome:Catalysis1969
+ACO2	catalysis-precedes	IDH3A	Reactome	1052766;14555658;16737955;17432878;18806796;1946331;20435888;33349631;34354088;4336621	Citric acid cycle (TCA cycle)	http://bioregistry.io/reactome:R-HSA-70971;reactome:Control586;reactome:Catalysis1970;http://bioregistry.io/reactome:R-HSA-70967;reactome:Catalysis1969
+ACO2	catalysis-precedes	IDH3B	Reactome	1052766;14555658;16737955;17432878;18806796;1946331;20435888;33349631;34354088;4336621	Citric acid cycle (TCA cycle)	http://bioregistry.io/reactome:R-HSA-70971;reactome:Control586;reactome:Catalysis1970;http://bioregistry.io/reactome:R-HSA-70967;reactome:Catalysis1969
+ACO2	catalysis-precedes	IDH3G	Reactome	1052766;14555658;16737955;17432878;18806796;1946331;20435888;33349631;34354088;4336621	Citric acid cycle (TCA cycle)	http://bioregistry.io/reactome:R-HSA-70971;reactome:Control586;reactome:Catalysis1970;http://bioregistry.io/reactome:R-HSA-70967;reactome:Catalysis1969
+ACO2	controls-production-of	chebi:15562	Reactome	1052766;1946331;34354088	Citric acid cycle (TCA cycle)	http://bioregistry.io/reactome:R-HSA-70971;reactome:Control586;reactome:Catalysis1969
+CS	catalysis-precedes	ACO2	Reactome	1052766;1946331;25537779;28887308;34354088;34548590;6824331;9792662;9809442	Citric acid cycle (TCA cycle)	http://bioregistry.io/reactome:R-HSA-70971;reactome:Control586;http://bioregistry.io/reactome:R-HSA-70975;reactome:Catalysis1968;reactome:Catalysis1969
+CS	controls-production-of	chebi:16947	Reactome	25537779;28887308;34548590;6824331;9792662;9809442	Citric acid cycle (TCA cycle)	http://bioregistry.io/reactome:R-HSA-70975;reactome:Catalysis1968
+CS	controls-production-of	chebi:57287	Reactome	25537779;28887308;34548590;6824331;9792662;9809442	Citric acid cycle (TCA cycle)	http://bioregistry.io/reactome:R-HSA-70975;reactome:Catalysis1968
+FH	catalysis-precedes	MDH2	Reactome	16740313;30761759;33058874;35366151;36139014;36420423;37512586;8200987;9792106	Citric acid cycle (TCA cycle)	http://bioregistry.io/reactome:R-HSA-70982;reactome:Catalysis1980;http://bioregistry.io/reactome:R-HSA-70979;reactome:Catalysis1979
+FH	controls-production-of	chebi:15589	Reactome	30761759;33058874;37512586;8200987	Citric acid cycle (TCA cycle)	http://bioregistry.io/reactome:R-HSA-70982;reactome:Catalysis1979
+IDH2	controls-production-of	chebi:16810	Reactome	11278619;12207025;14832224;18806796;18914071;20847235	Citric acid cycle (TCA cycle)	reactome:Catalysis1971;reactome:Control590;http://bioregistry.io/reactome:R-HSA-450984
+IDH3A	in-complex-with	IDH3B	Reactome		Citric acid cycle (TCA cycle)	reactome:Complex3914
+IDH3A	in-complex-with	IDH3G	Reactome		Citric acid cycle (TCA cycle)	reactome:Complex3914
+IDH3A	controls-production-of	chebi:16810	Reactome	14555658;16737955;17432878;18806796;20435888;33349631;4336621	Citric acid cycle (TCA cycle)	reactome:Catalysis1970;http://bioregistry.io/reactome:R-HSA-70967
+IDH3B	in-complex-with	IDH3G	Reactome		Citric acid cycle (TCA cycle)	reactome:Complex3914
+IDH3B	controls-production-of	chebi:16810	Reactome	14555658;16737955;17432878;18806796;20435888;33349631;4336621	Citric acid cycle (TCA cycle)	reactome:Catalysis1970;http://bioregistry.io/reactome:R-HSA-70967
+IDH3G	controls-production-of	chebi:16810	Reactome	14555658;16737955;17432878;18806796;20435888;33349631;4336621	Citric acid cycle (TCA cycle)	reactome:Catalysis1970;http://bioregistry.io/reactome:R-HSA-70967
+MDH2	catalysis-precedes	CS	Reactome	16740313;25537779;28887308;34548590;35366151;36139014;36420423;6824331;9792106;9792662;9809442	Citric acid cycle (TCA cycle)	reactome:Catalysis1980;http://bioregistry.io/reactome:R-HSA-70979;http://bioregistry.io/reactome:R-HSA-70975;reactome:Catalysis1968
+MDH2	controls-production-of	chebi:16452	Reactome	16740313;35366151;36139014;36420423;9792106	Citric acid cycle (TCA cycle)	reactome:Catalysis1980;http://bioregistry.io/reactome:R-HSA-70979
+NNT	controls-transport-of-chemical	chebi:15378	Reactome	10673423;2005110;31462775;34155914;8616157	Citric acid cycle (TCA cycle)	reactome:Catalysis1972;http://bioregistry.io/reactome:R-HSA-450971
+NNT	controls-production-of	chebi:57945	Reactome	10673423;2005110;31462775;34155914;8616157	Citric acid cycle (TCA cycle)	reactome:Catalysis1972;http://bioregistry.io/reactome:R-HSA-450971
+NNT	controls-production-of	chebi:58349	Reactome	10673423;2005110;31462775;34155914;8616157	Citric acid cycle (TCA cycle)	reactome:Catalysis1972;http://bioregistry.io/reactome:R-HSA-450971
+SDHA	catalysis-precedes	FH	Reactome	14249115;14946179;15652751;15987702;16143825;17182618;23564345;23747254;25564869;27189937;27374498;30761759;30844107;33058874;37512586;8200987	Citric acid cycle (TCA cycle)	http://bioregistry.io/reactome:R-HSA-70982;http://bioregistry.io/reactome:R-HSA-70994;reactome:Catalysis1978;reactome:Catalysis1979
+SDHA	in-complex-with	SDHB	Reactome		Citric acid cycle (TCA cycle)	reactome:Complex3926
+SDHA	in-complex-with	SDHC	Reactome		Citric acid cycle (TCA cycle)	reactome:Complex3926
+SDHA	in-complex-with	SDHD	Reactome		Citric acid cycle (TCA cycle)	reactome:Complex3926
+SDHA	controls-production-of	chebi:29806	Reactome	14249115;14946179;15652751;15987702;16143825;17182618;23564345;23747254;25564869;27189937;27374498;30844107	Citric acid cycle (TCA cycle)	http://bioregistry.io/reactome:R-HSA-70994;reactome:Catalysis1978
+SDHA	controls-production-of	chebi:64183	Reactome	14249115;14946179;15652751;15987702;16143825;17182618;23564345;23747254;25564869;27189937;27374498;30844107	Citric acid cycle (TCA cycle)	http://bioregistry.io/reactome:R-HSA-70994;reactome:Catalysis1978
+SDHB	catalysis-precedes	FH	Reactome	14249115;14946179;15652751;15987702;16143825;17182618;23564345;23747254;25564869;27189937;27374498;30761759;30844107;33058874;37512586;8200987	Citric acid cycle (TCA cycle)	http://bioregistry.io/reactome:R-HSA-70982;http://bioregistry.io/reactome:R-HSA-70994;reactome:Catalysis1978;reactome:Catalysis1979
+SDHB	in-complex-with	SDHC	Reactome		Citric acid cycle (TCA cycle)	reactome:Complex3926
+SDHB	in-complex-with	SDHD	Reactome		Citric acid cycle (TCA cycle)	reactome:Complex3926
+SDHB	controls-production-of	chebi:29806	Reactome	14249115;14946179;15652751;15987702;16143825;17182618;23564345;23747254;25564869;27189937;27374498;30844107	Citric acid cycle (TCA cycle)	http://bioregistry.io/reactome:R-HSA-70994;reactome:Catalysis1978
+SDHB	controls-production-of	chebi:64183	Reactome	14249115;14946179;15652751;15987702;16143825;17182618;23564345;23747254;25564869;27189937;27374498;30844107	Citric acid cycle (TCA cycle)	http://bioregistry.io/reactome:R-HSA-70994;reactome:Catalysis1978
+SDHC	catalysis-precedes	FH	Reactome	14249115;14946179;15652751;15987702;16143825;17182618;23564345;23747254;25564869;27189937;27374498;30761759;30844107;33058874;37512586;8200987	Citric acid cycle (TCA cycle)	http://bioregistry.io/reactome:R-HSA-70982;http://bioregistry.io/reactome:R-HSA-70994;reactome:Catalysis1978;reactome:Catalysis1979
+SDHC	in-complex-with	SDHD	Reactome		Citric acid cycle (TCA cycle)	reactome:Complex3928
+SDHC	controls-production-of	chebi:29806	Reactome	14249115;14946179;15652751;15987702;16143825;17182618;23564345;23747254;25564869;27189937;27374498;30844107	Citric acid cycle (TCA cycle)	http://bioregistry.io/reactome:R-HSA-70994;reactome:Catalysis1978
+SDHC	controls-production-of	chebi:64183	Reactome	14249115;14946179;15652751;15987702;16143825;17182618;23564345;23747254;25564869;27189937;27374498;30844107	Citric acid cycle (TCA cycle)	http://bioregistry.io/reactome:R-HSA-70994;reactome:Catalysis1978
+SDHD	catalysis-precedes	FH	Reactome	14249115;14946179;15652751;15987702;16143825;17182618;23564345;23747254;25564869;27189937;27374498;30761759;30844107;33058874;37512586;8200987	Citric acid cycle (TCA cycle)	http://bioregistry.io/reactome:R-HSA-70982;http://bioregistry.io/reactome:R-HSA-70994;reactome:Catalysis1978;reactome:Catalysis1979
+SDHD	controls-production-of	chebi:29806	Reactome	14249115;14946179;15652751;15987702;16143825;17182618;23564345;23747254;25564869;27189937;27374498;30844107	Citric acid cycle (TCA cycle)	http://bioregistry.io/reactome:R-HSA-70994;reactome:Catalysis1978
+SDHD	controls-production-of	chebi:64183	Reactome	14249115;14946179;15652751;15987702;16143825;17182618;23564345;23747254;25564869;27189937;27374498;30844107	Citric acid cycle (TCA cycle)	http://bioregistry.io/reactome:R-HSA-70994;reactome:Catalysis1978
+SUCLA2	catalysis-precedes	SDHA	Reactome	10727444;13181903;14249115;14946179;15234968;15652751;15877282;15987702;16143825;17182618;23564345;23747254;25564869;27189937;27374498;30844107;33230783;9765290;9765291	Citric acid cycle (TCA cycle)	http://bioregistry.io/reactome:R-HSA-70994;reactome:Catalysis1976;http://bioregistry.io/reactome:R-HSA-70997;reactome:Catalysis1978
+SUCLA2	catalysis-precedes	SDHB	Reactome	10727444;13181903;14249115;14946179;15234968;15652751;15877282;15987702;16143825;17182618;23564345;23747254;25564869;27189937;27374498;30844107;33230783;9765290;9765291	Citric acid cycle (TCA cycle)	http://bioregistry.io/reactome:R-HSA-70994;reactome:Catalysis1976;http://bioregistry.io/reactome:R-HSA-70997;reactome:Catalysis1978
+SUCLA2	catalysis-precedes	SDHC	Reactome	10727444;13181903;14249115;14946179;15234968;15652751;15877282;15987702;16143825;17182618;23564345;23747254;25564869;27189937;27374498;30844107;33230783;9765290;9765291	Citric acid cycle (TCA cycle)	http://bioregistry.io/reactome:R-HSA-70994;reactome:Catalysis1976;http://bioregistry.io/reactome:R-HSA-70997;reactome:Catalysis1978
+SUCLA2	catalysis-precedes	SDHD	Reactome	10727444;13181903;14249115;14946179;15234968;15652751;15877282;15987702;16143825;17182618;23564345;23747254;25564869;27189937;27374498;30844107;33230783;9765290;9765291	Citric acid cycle (TCA cycle)	http://bioregistry.io/reactome:R-HSA-70994;reactome:Catalysis1976;http://bioregistry.io/reactome:R-HSA-70997;reactome:Catalysis1978
+SUCLA2	in-complex-with	SUCLG1	Reactome		Citric acid cycle (TCA cycle)	reactome:Complex3922
+SUCLA2	catalysis-precedes	TRAP1	Reactome	10727444;13181903;14249115;14946179;15234968;15652751;15877282;15987702;16143825;17182618;23564345;23747254;25564869;27189937;27374498;30844107;33230783;9765290;9765291	Citric acid cycle (TCA cycle)	http://bioregistry.io/reactome:R-HSA-70994;http://bioregistry.io/reactome:R-HSA-8874496;reactome:Catalysis1976;http://bioregistry.io/reactome:R-HSA-70997
+SUCLA2	controls-production-of	chebi:30031	Reactome	10727444;13181903;15234968;15877282;33230783;9765290;9765291	Citric acid cycle (TCA cycle)	reactome:Catalysis1976;http://bioregistry.io/reactome:R-HSA-70997
+SUCLA2	controls-production-of	chebi:30616	Reactome	10727444;13181903;15234968;15877282;33230783;9765290;9765291	Citric acid cycle (TCA cycle)	reactome:Catalysis1976;http://bioregistry.io/reactome:R-HSA-70997
+SUCLA2	controls-production-of	chebi:57287	Reactome	10727444;13181903;15234968;15877282;33230783;9765290;9765291	Citric acid cycle (TCA cycle)	reactome:Catalysis1976;http://bioregistry.io/reactome:R-HSA-70997
+SUCLG1	catalysis-precedes	SDHA	Reactome	10727444;13181903;14249115;14946179;15234968;15652751;15877282;15987702;16143825;17182618;17668387;23564345;23747254;25564869;27189937;27374498;30844107;33230783;9765290;9765291	Citric acid cycle (TCA cycle)	http://bioregistry.io/reactome:R-HSA-70994;http://bioregistry.io/reactome:R-HSA-71775;reactome:Catalysis1976;reactome:Catalysis1977;http://bioregistry.io/reactome:R-HSA-70997;reactome:Catalysis1978
+SUCLG1	catalysis-precedes	SDHB	Reactome	10727444;13181903;14249115;14946179;15234968;15652751;15877282;15987702;16143825;17182618;17668387;23564345;23747254;25564869;27189937;27374498;30844107;33230783;9765290;9765291	Citric acid cycle (TCA cycle)	http://bioregistry.io/reactome:R-HSA-70994;http://bioregistry.io/reactome:R-HSA-71775;reactome:Catalysis1976;reactome:Catalysis1977;http://bioregistry.io/reactome:R-HSA-70997;reactome:Catalysis1978
+SUCLG1	catalysis-precedes	SDHC	Reactome	10727444;13181903;14249115;14946179;15234968;15652751;15877282;15987702;16143825;17182618;17668387;23564345;23747254;25564869;27189937;27374498;30844107;33230783;9765290;9765291	Citric acid cycle (TCA cycle)	http://bioregistry.io/reactome:R-HSA-70994;http://bioregistry.io/reactome:R-HSA-71775;reactome:Catalysis1976;reactome:Catalysis1977;http://bioregistry.io/reactome:R-HSA-70997;reactome:Catalysis1978
+SUCLG1	catalysis-precedes	SDHD	Reactome	10727444;13181903;14249115;14946179;15234968;15652751;15877282;15987702;16143825;17182618;17668387;23564345;23747254;25564869;27189937;27374498;30844107;33230783;9765290;9765291	Citric acid cycle (TCA cycle)	http://bioregistry.io/reactome:R-HSA-70994;http://bioregistry.io/reactome:R-HSA-71775;reactome:Catalysis1976;reactome:Catalysis1977;http://bioregistry.io/reactome:R-HSA-70997;reactome:Catalysis1978
+SUCLG1	in-complex-with	SUCLG2	Reactome		Citric acid cycle (TCA cycle)	reactome:Complex3924
+SUCLG1	catalysis-precedes	TRAP1	Reactome	10727444;13181903;14249115;14946179;15234968;15652751;15877282;15987702;16143825;17182618;17668387;23564345;23747254;25564869;27189937;27374498;30844107;33230783;9765290;9765291	Citric acid cycle (TCA cycle)	http://bioregistry.io/reactome:R-HSA-70994;http://bioregistry.io/reactome:R-HSA-71775;http://bioregistry.io/reactome:R-HSA-8874496;reactome:Catalysis1976;reactome:Catalysis1977;http://bioregistry.io/reactome:R-HSA-70997
+SUCLG1	controls-production-of	chebi:30031	Reactome	10727444;13181903;15234968;15877282;17668387;33230783;9765290;9765291	Citric acid cycle (TCA cycle)	http://bioregistry.io/reactome:R-HSA-71775;reactome:Catalysis1976;reactome:Catalysis1977;http://bioregistry.io/reactome:R-HSA-70997
+SUCLG1	controls-production-of	chebi:30616	Reactome	10727444;13181903;15234968;15877282;33230783;9765290;9765291	Citric acid cycle (TCA cycle)	reactome:Catalysis1976;http://bioregistry.io/reactome:R-HSA-70997
+SUCLG1	controls-production-of	chebi:57287	Reactome	10727444;13181903;15234968;15877282;17668387;33230783;9765290;9765291	Citric acid cycle (TCA cycle)	http://bioregistry.io/reactome:R-HSA-71775;reactome:Catalysis1976;reactome:Catalysis1977;http://bioregistry.io/reactome:R-HSA-70997
+SUCLG2	catalysis-precedes	SDHA	Reactome	10727444;13181903;14249115;14946179;15234968;15652751;15987702;16143825;17182618;17668387;23564345;23747254;25564869;27189937;27374498;30844107;33230783;9765290;9765291	Citric acid cycle (TCA cycle)	http://bioregistry.io/reactome:R-HSA-71775;http://bioregistry.io/reactome:R-HSA-70994;reactome:Catalysis1977;reactome:Catalysis1978
+SUCLG2	catalysis-precedes	SDHB	Reactome	10727444;13181903;14249115;14946179;15234968;15652751;15987702;16143825;17182618;17668387;23564345;23747254;25564869;27189937;27374498;30844107;33230783;9765290;9765291	Citric acid cycle (TCA cycle)	http://bioregistry.io/reactome:R-HSA-71775;http://bioregistry.io/reactome:R-HSA-70994;reactome:Catalysis1977;reactome:Catalysis1978
+SUCLG2	catalysis-precedes	SDHC	Reactome	10727444;13181903;14249115;14946179;15234968;15652751;15987702;16143825;17182618;17668387;23564345;23747254;25564869;27189937;27374498;30844107;33230783;9765290;9765291	Citric acid cycle (TCA cycle)	http://bioregistry.io/reactome:R-HSA-71775;http://bioregistry.io/reactome:R-HSA-70994;reactome:Catalysis1977;reactome:Catalysis1978
+SUCLG2	catalysis-precedes	SDHD	Reactome	10727444;13181903;14249115;14946179;15234968;15652751;15987702;16143825;17182618;17668387;23564345;23747254;25564869;27189937;27374498;30844107;33230783;9765290;9765291	Citric acid cycle (TCA cycle)	http://bioregistry.io/reactome:R-HSA-71775;http://bioregistry.io/reactome:R-HSA-70994;reactome:Catalysis1977;reactome:Catalysis1978
+SUCLG2	catalysis-precedes	TRAP1	Reactome	10727444;13181903;14249115;14946179;15234968;15652751;15987702;16143825;17182618;17668387;23564345;23747254;25564869;27189937;27374498;30844107;33230783;9765290;9765291	Citric acid cycle (TCA cycle)	http://bioregistry.io/reactome:R-HSA-71775;http://bioregistry.io/reactome:R-HSA-70994;http://bioregistry.io/reactome:R-HSA-8874496;reactome:Catalysis1977
+SUCLG2	controls-production-of	chebi:30031	Reactome	10727444;13181903;15234968;17668387;33230783;9765290;9765291	Citric acid cycle (TCA cycle)	http://bioregistry.io/reactome:R-HSA-71775;reactome:Catalysis1977
+SUCLG2	controls-production-of	chebi:57287	Reactome	10727444;13181903;15234968;17668387;33230783;9765290;9765291	Citric acid cycle (TCA cycle)	http://bioregistry.io/reactome:R-HSA-71775;reactome:Catalysis1977
+TRAP1	catalysis-precedes	FH	Reactome	14249115;14946179;15652751;15987702;16143825;17182618;23564345;23747254;25564869;27189937;27374498;30761759;30844107;33058874;37512586;8200987	Citric acid cycle (TCA cycle)	http://bioregistry.io/reactome:R-HSA-70982;http://bioregistry.io/reactome:R-HSA-70994;http://bioregistry.io/reactome:R-HSA-8874496;reactome:Catalysis1979
+TRAP1	controls-production-of	chebi:29806	Reactome	14249115;14946179;15652751;15987702;16143825;17182618;23564345;23747254;25564869;27189937;27374498;30844107	Citric acid cycle (TCA cycle)	http://bioregistry.io/reactome:R-HSA-70994;http://bioregistry.io/reactome:R-HSA-8874496
+TRAP1	controls-production-of	chebi:64183	Reactome	14249115;14946179;15652751;15987702;16143825;17182618;23564345;23747254;25564869;27189937;27374498;30844107	Citric acid cycle (TCA cycle)	http://bioregistry.io/reactome:R-HSA-70994;http://bioregistry.io/reactome:R-HSA-8874496
+chebi:15562	consumption-controlled-by	IDH2	Reactome	11278619;12207025;14832224;18806796;18914071;20847235	Citric acid cycle (TCA cycle)	reactome:Catalysis1971;reactome:Control590;http://bioregistry.io/reactome:R-HSA-450984
+chebi:15562	consumption-controlled-by	IDH3A	Reactome	14555658;16737955;17432878;18806796;20435888;33349631;4336621	Citric acid cycle (TCA cycle)	reactome:Catalysis1970;http://bioregistry.io/reactome:R-HSA-70967
+chebi:15562	consumption-controlled-by	IDH3B	Reactome	14555658;16737955;17432878;18806796;20435888;33349631;4336621	Citric acid cycle (TCA cycle)	reactome:Catalysis1970;http://bioregistry.io/reactome:R-HSA-70967
+chebi:15562	consumption-controlled-by	IDH3G	Reactome	14555658;16737955;17432878;18806796;20435888;33349631;4336621	Citric acid cycle (TCA cycle)	reactome:Catalysis1970;http://bioregistry.io/reactome:R-HSA-70967
+chebi:15562	used-to-produce	chebi:16810	Reactome	11278619;12207025;14555658;14832224;16737955;17432878;18806796;18914071;20435888;20847235;33349631;4336621	Citric acid cycle (TCA cycle)	http://bioregistry.io/reactome:R-HSA-70967;http://bioregistry.io/reactome:R-HSA-450984
+chebi:15589	consumption-controlled-by	MDH2	Reactome	16740313;35366151;36139014;36420423;9792106	Citric acid cycle (TCA cycle)	reactome:Catalysis1980;http://bioregistry.io/reactome:R-HSA-70979
+chebi:15589	used-to-produce	chebi:16452	Reactome	16740313;35366151;36139014;36420423;9792106	Citric acid cycle (TCA cycle)	http://bioregistry.io/reactome:R-HSA-70979
+chebi:16452	consumption-controlled-by	CS	Reactome	25537779;28887308;34548590;6824331;9792662;9809442	Citric acid cycle (TCA cycle)	http://bioregistry.io/reactome:R-HSA-70975;reactome:Catalysis1968
+chebi:16452	used-to-produce	chebi:16947	Reactome	25537779;28887308;34548590;6824331;9792662;9809442	Citric acid cycle (TCA cycle)	http://bioregistry.io/reactome:R-HSA-70975
+chebi:16452	used-to-produce	chebi:57287	Reactome	25537779;28887308;34548590;6824331;9792662;9809442	Citric acid cycle (TCA cycle)	http://bioregistry.io/reactome:R-HSA-70975
+chebi:16452	reacts-with	chebi:57288	Reactome	25537779;28887308;34548590;6824331;9792662;9809442	Citric acid cycle (TCA cycle)	http://bioregistry.io/reactome:R-HSA-70975
+chebi:16724	chemical-affects	SDHA	Reactome		Citric acid cycle (TCA cycle)	reactome:Complex3926
+chebi:16724	chemical-affects	SDHB	Reactome		Citric acid cycle (TCA cycle)	reactome:Complex3926
+chebi:16724	chemical-affects	SDHC	Reactome		Citric acid cycle (TCA cycle)	reactome:Complex3928
+chebi:16724	chemical-affects	SDHD	Reactome		Citric acid cycle (TCA cycle)	reactome:Complex3928
+chebi:16947	consumption-controlled-by	ACO2	Reactome	1052766;1946331;34354088	Citric acid cycle (TCA cycle)	http://bioregistry.io/reactome:R-HSA-70971;reactome:Control586;reactome:Catalysis1969
+chebi:16947	used-to-produce	chebi:15562	Reactome	1052766;1946331;34354088	Citric acid cycle (TCA cycle)	http://bioregistry.io/reactome:R-HSA-70971
+chebi:18420	chemical-affects	SUCLA2	Reactome		Citric acid cycle (TCA cycle)	reactome:Complex3923
+chebi:18420	chemical-affects	SUCLG1	Reactome		Citric acid cycle (TCA cycle)	reactome:Complex3922;reactome:Complex3924
+chebi:18420	chemical-affects	SUCLG2	Reactome		Citric acid cycle (TCA cycle)	reactome:Complex3925
+chebi:26355	chemical-affects	SDHA	Reactome		Citric acid cycle (TCA cycle)	reactome:Complex3926
+chebi:26355	chemical-affects	SDHB	Reactome		Citric acid cycle (TCA cycle)	reactome:Complex3926
+chebi:26355	chemical-affects	SDHC	Reactome		Citric acid cycle (TCA cycle)	reactome:Complex3928
+chebi:26355	chemical-affects	SDHD	Reactome		Citric acid cycle (TCA cycle)	reactome:Complex3928
+chebi:29035	chemical-affects	IDH2	Reactome		Citric acid cycle (TCA cycle)	reactome:Complex3915
+chebi:29035	chemical-affects	IDH3A	Reactome		Citric acid cycle (TCA cycle)	reactome:Complex3914
+chebi:29035	chemical-affects	IDH3B	Reactome		Citric acid cycle (TCA cycle)	reactome:Complex3914
+chebi:29035	chemical-affects	IDH3G	Reactome		Citric acid cycle (TCA cycle)	reactome:Complex3914
+chebi:29806	consumption-controlled-by	FH	Reactome	30761759;33058874;37512586;8200987	Citric acid cycle (TCA cycle)	http://bioregistry.io/reactome:R-HSA-70982;reactome:Catalysis1979
+chebi:29806	used-to-produce	chebi:15589	Reactome	30761759;33058874;37512586;8200987	Citric acid cycle (TCA cycle)	http://bioregistry.io/reactome:R-HSA-70982
+chebi:30031	consumption-controlled-by	SDHA	Reactome	14249115;14946179;15652751;15987702;16143825;17182618;23564345;23747254;25564869;27189937;27374498;30844107	Citric acid cycle (TCA cycle)	http://bioregistry.io/reactome:R-HSA-70994;reactome:Catalysis1978
+chebi:30031	consumption-controlled-by	SDHB	Reactome	14249115;14946179;15652751;15987702;16143825;17182618;23564345;23747254;25564869;27189937;27374498;30844107	Citric acid cycle (TCA cycle)	http://bioregistry.io/reactome:R-HSA-70994;reactome:Catalysis1978
+chebi:30031	consumption-controlled-by	SDHC	Reactome	14249115;14946179;15652751;15987702;16143825;17182618;23564345;23747254;25564869;27189937;27374498;30844107	Citric acid cycle (TCA cycle)	http://bioregistry.io/reactome:R-HSA-70994;reactome:Catalysis1978
+chebi:30031	consumption-controlled-by	SDHD	Reactome	14249115;14946179;15652751;15987702;16143825;17182618;23564345;23747254;25564869;27189937;27374498;30844107	Citric acid cycle (TCA cycle)	http://bioregistry.io/reactome:R-HSA-70994;reactome:Catalysis1978
+chebi:30031	consumption-controlled-by	TRAP1	Reactome	14249115;14946179;15652751;15987702;16143825;17182618;23564345;23747254;25564869;27189937;27374498;30844107	Citric acid cycle (TCA cycle)	http://bioregistry.io/reactome:R-HSA-70994;http://bioregistry.io/reactome:R-HSA-8874496
+chebi:30031	used-to-produce	chebi:29806	Reactome	14249115;14946179;15652751;15987702;16143825;17182618;23564345;23747254;25564869;27189937;27374498;30844107	Citric acid cycle (TCA cycle)	http://bioregistry.io/reactome:R-HSA-70994
+chebi:30031	reacts-with	chebi:46245	Reactome	14249115;14946179;15652751;15987702;16143825;17182618;23564345;23747254;25564869;27189937;27374498;30844107	Citric acid cycle (TCA cycle)	http://bioregistry.io/reactome:R-HSA-70994
+chebi:30031	used-to-produce	chebi:64183	Reactome	14249115;14946179;15652751;15987702;16143825;17182618;23564345;23747254;25564869;27189937;27374498;30844107	Citric acid cycle (TCA cycle)	http://bioregistry.io/reactome:R-HSA-70994
+chebi:33722	chemical-affects	ACO2	Reactome		Citric acid cycle (TCA cycle)	reactome:Complex3911
+chebi:43474	consumption-controlled-by	SUCLA2	Reactome	10727444;13181903;15234968;15877282;33230783;9765290;9765291	Citric acid cycle (TCA cycle)	reactome:Catalysis1976;http://bioregistry.io/reactome:R-HSA-70997
+chebi:43474	consumption-controlled-by	SUCLG1	Reactome	10727444;13181903;15234968;15877282;17668387;33230783;9765290;9765291	Citric acid cycle (TCA cycle)	http://bioregistry.io/reactome:R-HSA-71775;reactome:Catalysis1976;reactome:Catalysis1977;http://bioregistry.io/reactome:R-HSA-70997
+chebi:43474	consumption-controlled-by	SUCLG2	Reactome	10727444;13181903;15234968;17668387;33230783;9765290;9765291	Citric acid cycle (TCA cycle)	http://bioregistry.io/reactome:R-HSA-71775;reactome:Catalysis1977
+chebi:43474	used-to-produce	chebi:30031	Reactome	10727444;13181903;15234968;15877282;17668387;33230783;9765290;9765291	Citric acid cycle (TCA cycle)	http://bioregistry.io/reactome:R-HSA-71775;http://bioregistry.io/reactome:R-HSA-70997
+chebi:43474	used-to-produce	chebi:30616	Reactome	10727444;13181903;15234968;15877282;33230783;9765290;9765291	Citric acid cycle (TCA cycle)	http://bioregistry.io/reactome:R-HSA-70997
+chebi:43474	reacts-with	chebi:456216	Reactome	10727444;13181903;15234968;15877282;33230783;9765290;9765291	Citric acid cycle (TCA cycle)	http://bioregistry.io/reactome:R-HSA-70997
+chebi:43474	used-to-produce	chebi:57287	Reactome	10727444;13181903;15234968;15877282;17668387;33230783;9765290;9765291	Citric acid cycle (TCA cycle)	http://bioregistry.io/reactome:R-HSA-71775;http://bioregistry.io/reactome:R-HSA-70997
+chebi:43474	reacts-with	chebi:57292	Reactome	10727444;13181903;15234968;15877282;17668387;33230783;9765290;9765291	Citric acid cycle (TCA cycle)	http://bioregistry.io/reactome:R-HSA-71775;http://bioregistry.io/reactome:R-HSA-70997
+chebi:456216	consumption-controlled-by	SUCLA2	Reactome	10727444;13181903;15234968;15877282;33230783;9765290;9765291	Citric acid cycle (TCA cycle)	reactome:Catalysis1976;http://bioregistry.io/reactome:R-HSA-70997
+chebi:456216	consumption-controlled-by	SUCLG1	Reactome	10727444;13181903;15234968;15877282;33230783;9765290;9765291	Citric acid cycle (TCA cycle)	reactome:Catalysis1976;http://bioregistry.io/reactome:R-HSA-70997
+chebi:456216	used-to-produce	chebi:30031	Reactome	10727444;13181903;15234968;15877282;33230783;9765290;9765291	Citric acid cycle (TCA cycle)	http://bioregistry.io/reactome:R-HSA-70997
+chebi:456216	used-to-produce	chebi:30616	Reactome	10727444;13181903;15234968;15877282;33230783;9765290;9765291	Citric acid cycle (TCA cycle)	http://bioregistry.io/reactome:R-HSA-70997
+chebi:456216	used-to-produce	chebi:57287	Reactome	10727444;13181903;15234968;15877282;33230783;9765290;9765291	Citric acid cycle (TCA cycle)	http://bioregistry.io/reactome:R-HSA-70997
+chebi:456216	reacts-with	chebi:57292	Reactome	10727444;13181903;15234968;15877282;33230783;9765290;9765291	Citric acid cycle (TCA cycle)	http://bioregistry.io/reactome:R-HSA-70997
+chebi:46245	consumption-controlled-by	SDHA	Reactome	14249115;14946179;15652751;15987702;16143825;17182618;23564345;23747254;25564869;27189937;27374498;30844107	Citric acid cycle (TCA cycle)	http://bioregistry.io/reactome:R-HSA-70994;reactome:Catalysis1978
+chebi:46245	consumption-controlled-by	SDHB	Reactome	14249115;14946179;15652751;15987702;16143825;17182618;23564345;23747254;25564869;27189937;27374498;30844107	Citric acid cycle (TCA cycle)	http://bioregistry.io/reactome:R-HSA-70994;reactome:Catalysis1978
+chebi:46245	consumption-controlled-by	SDHC	Reactome	14249115;14946179;15652751;15987702;16143825;17182618;23564345;23747254;25564869;27189937;27374498;30844107	Citric acid cycle (TCA cycle)	http://bioregistry.io/reactome:R-HSA-70994;reactome:Catalysis1978
+chebi:46245	consumption-controlled-by	SDHD	Reactome	14249115;14946179;15652751;15987702;16143825;17182618;23564345;23747254;25564869;27189937;27374498;30844107	Citric acid cycle (TCA cycle)	http://bioregistry.io/reactome:R-HSA-70994;reactome:Catalysis1978
+chebi:46245	consumption-controlled-by	TRAP1	Reactome	14249115;14946179;15652751;15987702;16143825;17182618;23564345;23747254;25564869;27189937;27374498;30844107	Citric acid cycle (TCA cycle)	http://bioregistry.io/reactome:R-HSA-70994;http://bioregistry.io/reactome:R-HSA-8874496
+chebi:46245	used-to-produce	chebi:29806	Reactome	14249115;14946179;15652751;15987702;16143825;17182618;23564345;23747254;25564869;27189937;27374498;30844107	Citric acid cycle (TCA cycle)	http://bioregistry.io/reactome:R-HSA-70994
+chebi:46245	used-to-produce	chebi:64183	Reactome	14249115;14946179;15652751;15987702;16143825;17182618;23564345;23747254;25564869;27189937;27374498;30844107	Citric acid cycle (TCA cycle)	http://bioregistry.io/reactome:R-HSA-70994
+chebi:57288	consumption-controlled-by	CS	Reactome	25537779;28887308;34548590;6824331;9792662;9809442	Citric acid cycle (TCA cycle)	http://bioregistry.io/reactome:R-HSA-70975;reactome:Catalysis1968
+chebi:57288	used-to-produce	chebi:16947	Reactome	25537779;28887308;34548590;6824331;9792662;9809442	Citric acid cycle (TCA cycle)	http://bioregistry.io/reactome:R-HSA-70975
+chebi:57288	used-to-produce	chebi:57287	Reactome	25537779;28887308;34548590;6824331;9792662;9809442	Citric acid cycle (TCA cycle)	http://bioregistry.io/reactome:R-HSA-70975
+chebi:57292	consumption-controlled-by	SUCLA2	Reactome	10727444;13181903;15234968;15877282;33230783;9765290;9765291	Citric acid cycle (TCA cycle)	reactome:Catalysis1976;http://bioregistry.io/reactome:R-HSA-70997
+chebi:57292	consumption-controlled-by	SUCLG1	Reactome	10727444;13181903;15234968;15877282;17668387;33230783;9765290;9765291	Citric acid cycle (TCA cycle)	http://bioregistry.io/reactome:R-HSA-71775;reactome:Catalysis1976;reactome:Catalysis1977;http://bioregistry.io/reactome:R-HSA-70997
+chebi:57292	consumption-controlled-by	SUCLG2	Reactome	10727444;13181903;15234968;17668387;33230783;9765290;9765291	Citric acid cycle (TCA cycle)	http://bioregistry.io/reactome:R-HSA-71775;reactome:Catalysis1977
+chebi:57292	used-to-produce	chebi:30031	Reactome	10727444;13181903;15234968;15877282;17668387;33230783;9765290;9765291	Citric acid cycle (TCA cycle)	http://bioregistry.io/reactome:R-HSA-71775;http://bioregistry.io/reactome:R-HSA-70997
+chebi:57292	used-to-produce	chebi:30616	Reactome	10727444;13181903;15234968;15877282;33230783;9765290;9765291	Citric acid cycle (TCA cycle)	http://bioregistry.io/reactome:R-HSA-70997
+chebi:57292	used-to-produce	chebi:57287	Reactome	10727444;13181903;15234968;15877282;17668387;33230783;9765290;9765291	Citric acid cycle (TCA cycle)	http://bioregistry.io/reactome:R-HSA-71775;http://bioregistry.io/reactome:R-HSA-70997
+chebi:57540	consumption-controlled-by	NNT	Reactome	10673423;2005110;31462775;34155914;8616157	Citric acid cycle (TCA cycle)	reactome:Catalysis1972;http://bioregistry.io/reactome:R-HSA-450971
+chebi:57540	reacts-with	chebi:57783	Reactome	10673423;2005110;31462775;34155914;8616157	Citric acid cycle (TCA cycle)	http://bioregistry.io/reactome:R-HSA-450971
+chebi:57540	used-to-produce	chebi:57945	Reactome	10673423;2005110;31462775;34155914;8616157	Citric acid cycle (TCA cycle)	http://bioregistry.io/reactome:R-HSA-450971
+chebi:57540	used-to-produce	chebi:58349	Reactome	10673423;2005110;31462775;34155914;8616157	Citric acid cycle (TCA cycle)	http://bioregistry.io/reactome:R-HSA-450971
+chebi:57783	consumption-controlled-by	NNT	Reactome	10673423;2005110;31462775;34155914;8616157	Citric acid cycle (TCA cycle)	reactome:Catalysis1972;http://bioregistry.io/reactome:R-HSA-450971
+chebi:57783	used-to-produce	chebi:57945	Reactome	10673423;2005110;31462775;34155914;8616157	Citric acid cycle (TCA cycle)	http://bioregistry.io/reactome:R-HSA-450971
+chebi:57783	used-to-produce	chebi:58349	Reactome	10673423;2005110;31462775;34155914;8616157	Citric acid cycle (TCA cycle)	http://bioregistry.io/reactome:R-HSA-450971
+chebi:64606	chemical-affects	ACO2	Reactome		Citric acid cycle (TCA cycle)	reactome:Complex3912
+
+PARTICIPANT	PARTICIPANT_TYPE	PARTICIPANT_NAME	UNIFICATION_XREF	RELATIONSHIP_XREF
+FH	ProteinReference	FUMH_HUMAN	uniprot:P07954	hgnc.symbol:FH;ncbigene:2271
+chebi:58349	SmallMoleculeReference	NADP(3-)	chebi:CHEBI:58349	
+chebi:26355	SmallMoleculeReference	heme b	chebi:CHEBI:26355	
+chebi:46245	SmallMoleculeReference	coenzyme Q10	chebi:CHEBI:46245	
+chebi:16947	SmallMoleculeReference	citrate(3-)	chebi:CHEBI:16947	
+chebi:43474	SmallMoleculeReference	hydrogenphosphate	chebi:CHEBI:43474	
+chebi:16724	SmallMoleculeReference	4-hydroxybutyrate	chebi:CHEBI:16724	
+chebi:33722	SmallMoleculeReference	tetra-mu3-sulfido-tetrairon(2+)	chebi:CHEBI:33722	
+chebi:30616	SmallMoleculeReference	ATP(4-)	chebi:CHEBI:30616	
+chebi:16810	SmallMoleculeReference	2-oxoglutarate(2-)	chebi:CHEBI:16810	
+chebi:15589	SmallMoleculeReference	(S)-malate(2-)	chebi:CHEBI:15589	
+chebi:16452	SmallMoleculeReference	oxaloacetate(2-)	chebi:CHEBI:16452	
+NNT	ProteinReference	NNTM_HUMAN	uniprot:Q13423	hgnc.symbol:NNT;ncbigene:23530
+chebi:15562	SmallMoleculeReference	D-threo-isocitrate(3-)	chebi:CHEBI:15562	
+IDH3B	ProteinReference	IDH3B_HUMAN	uniprot:O43837	hgnc.symbol:IDH3B;ncbigene:3420
+chebi:456216	SmallMoleculeReference	ADP(3-)	chebi:CHEBI:456216	
+chebi:64606	SmallMoleculeReference	Fe3S4 iron-sulfur cluster	chebi:CHEBI:64606	
+chebi:57540	SmallMoleculeReference	NAD(1-)	chebi:CHEBI:57540	
+chebi:57287	SmallMoleculeReference	coenzyme A(4-)	chebi:CHEBI:57287	
+chebi:57288	SmallMoleculeReference	acetyl-CoA(4-)	chebi:CHEBI:57288	
+chebi:57783	SmallMoleculeReference	NADPH(4-)	chebi:CHEBI:57783	
+IDH3A	ProteinReference	IDH3A_HUMAN	uniprot:P50213	hgnc.symbol:IDH3A;ncbigene:3419
+TRAP1	ProteinReference	TRAP1_HUMAN	uniprot:Q12931	hgnc.symbol:TRAP1;ncbigene:10131
+chebi:57945	SmallMoleculeReference	NADH(2-)	chebi:CHEBI:57945	
+chebi:29035	SmallMoleculeReference	manganese(2+)	chebi:CHEBI:29035	
+IDH3G	ProteinReference	IDH3G_HUMAN	uniprot:P51553	hgnc.symbol:IDH3G;ncbigene:3421
+MDH2	ProteinReference	MDHM_HUMAN	uniprot:P40926	hgnc.symbol:MDH2;ncbigene:4191
+IDH2	ProteinReference	IDHP_HUMAN	uniprot:P48735	hgnc.symbol:IDH2;ncbigene:3418
+chebi:64183	SmallMoleculeReference	ubiquinol-10	chebi:CHEBI:64183	
+SDHC	ProteinReference	C560_HUMAN	uniprot:Q99643	hgnc.symbol:SDHC;ncbigene:6391
+SDHD	ProteinReference	DHSD_HUMAN	uniprot:O14521	hgnc.symbol:SDHD;ncbigene:6392
+SDHA	ProteinReference	SDHA_HUMAN	uniprot:P31040	hgnc.symbol:SDHA;ncbigene:6389
+SDHB	ProteinReference	SDHB_HUMAN	uniprot:P21912	hgnc.symbol:SDHB;ncbigene:6390
+CS	ProteinReference	CISY_HUMAN	uniprot:O75390	hgnc.symbol:CS;ncbigene:1431
+chebi:57292	SmallMoleculeReference	succinyl-CoA(5-)	chebi:CHEBI:57292	
+chebi:15378	SmallMoleculeReference	hydron	chebi:CHEBI:15378	
+SUCLA2	ProteinReference	SUCB1_HUMAN	uniprot:Q9P2R7	hgnc.symbol:SUCLA2;ncbigene:8803
+chebi:18420	SmallMoleculeReference	magnesium(2+)	chebi:CHEBI:18420	
+chebi:29806	SmallMoleculeReference	fumarate(2-)	chebi:CHEBI:29806	
+chebi:30031	SmallMoleculeReference	succinate(2-)	chebi:CHEBI:30031	
+SUCLG2	ProteinReference	SUCB2_HUMAN	uniprot:Q96I99	hgnc.symbol:SUCLG2;ncbigene:8801
+SUCLG1	ProteinReference	SUCA_HUMAN	uniprot:P53597	hgnc.symbol:SUCLG1;ncbigene:8802
+ACO2	ProteinReference	ACON_HUMAN	uniprot:Q99798	hgnc.symbol:ACO2;ncbigene:50
