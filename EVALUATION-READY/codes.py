@@ -168,7 +168,7 @@ def chebi_names(eval_path: str, experiment: str, files_needed: list):
 
 if __name__ == '__main__':
     """
-    Script to get the synonyms for the objects in the EVALUATION folder.
+    Script to get the chebi names for the small molecules codes in each experiment.
     """
 
     print('\n' + f'codes.py:')
