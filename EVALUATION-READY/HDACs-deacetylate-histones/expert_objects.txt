@@ -71,7 +71,7 @@ SAP18
 SAP30L
 SAP30
 SUDS3
-moxalactam
+acetate
 CHD3
 GATAD2A
 GATAD2B
@@ -94,8 +94,8 @@ RCOR1
 REST
 HDAC8
 1D-myo-inositol 1,4,5,6-tetrakisphosphate(8-)
+moxalactam
 Methyl 5-hydroxy-2-benzimidazole carbamate
-acetate
-nelfinavir
 Moxonidine
 neamine
+nelfinavir

@@ -3,41 +3,41 @@ IDH2
 IDH3A
 IDH3B
 IDH3G
-NADP(3-)
+D-threo-isocitrate(3-)
 CS
-heme b
-coenzyme Q10
+citrate(3-)
+coenzyme A(4-)
 FH
 MDH2
-citrate(3-)
-hydrogenphosphate
-4-hydroxybutyrate
-NNT
-tetra-mu3-sulfido-tetrairon(2+)
-ATP(4-)
+(S)-malate(2-)
 2-oxoglutarate(2-)
+oxaloacetate(2-)
+NNT
+hydron
+NADH(2-)
+NADP(3-)
 SDHA
 SDHB
 SDHC
 SDHD
-(S)-malate(2-)
-oxaloacetate(2-)
+fumarate(2-)
+ubiquinol-10
 SUCLA2
 SUCLG1
 TRAP1
-D-threo-isocitrate(3-)
-ADP(3-)
-SUCLG2
-Fe3S4 iron-sulfur cluster
-NAD(1-)
-coenzyme A(4-)
-acetyl-CoA(4-)
-NADPH(4-)
-NADH(2-)
-manganese(2+)
-ubiquinol-10
-succinyl-CoA(5-)
-hydron
-magnesium(2+)
-fumarate(2-)
 succinate(2-)
+ATP(4-)
+SUCLG2
+acetyl-CoA(4-)
+4-hydroxybutyrate
+magnesium(2+)
+heme b
+manganese(2+)
+coenzyme Q10
+tetra-mu3-sulfido-tetrairon(2+)
+hydrogenphosphate
+ADP(3-)
+succinyl-CoA(5-)
+NAD(1-)
+NADPH(4-)
+Fe3S4 iron-sulfur cluster
