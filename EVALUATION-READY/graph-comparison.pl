@@ -367,9 +367,12 @@ is_common_subpath(H, G, Path) :-
 %    find_subpath_mapping(H, G, Hnext, [Hnext|Visited], NewMapping).
 % using synonyms lists:
 find_subpath_mapping(H, G, V, Visited, [(V,NV)|NewMapping]) :-
-    edge(H, V, Hnext, _), not(member(Hnext, Visited)),
-    synonyms(V, VSyn), 
-    synonyms(Hnext, HSyn), 
+    edge(H, V, Hnext, _), 
+    not(member(Hnext, Visited)),
+    (chebi_name(V, VV) ; VV = V), % either has a chebi name or not
+    (chebi_name(Hnext, HH) ; HH = Hnext), % either has a chebi name or not
+    synonyms(VV, VSyn), 
+    synonyms(HH, HSyn), 
     member(NV, VSyn), member(NHnext, HSyn), 
     (edge(G, NV, NHnext, _); edge(G, NHnext, NV, _)), 
     find_subpath_mapping(H, G, Hnext, [Hnext|Visited], NewMapping).
@@ -460,6 +463,7 @@ write_each_event([(X1h, Y1h, Rel1), (X2h, Y2h, Rel2)|Rest]) :-
 prepare :-  
 	[kBase],
 	[synonyms], 
+	[chebi_names], 
 	load_file_ref('kBase.sif'), % for instance. It is a tsv really
 	transform_kb,
 	listing(edge/4).
