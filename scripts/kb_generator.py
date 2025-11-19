@@ -52,9 +52,10 @@ def get_event_sents(sentences: list, event: dict, entities: dict, pubmed_id: str
     return relation_sents
 
 
-def get_normalized_kb(events: dict, entities: dict, objects_identities_: list) -> dict:
+def get_normalized_kb(events: dict, entities: dict, objects_identities_: list) -> tuple:
 
     knowledge_base = {}
+    object_synonyms = {}
     biotypes_path = root + "/biotypes.pl"
     identities_path = root + "/kb_objects.txt"
 
@@ -77,33 +78,47 @@ def get_normalized_kb(events: dict, entities: dict, objects_identities_: list) -
         relation = values['relation']
         subject_entities = entities[subject]
         object_entities = entities[object]
-        subject_names = []
-        object_names = []
+        subject_names = [subject]
+        object_names = [object]
 
         for subject_entity in subject_entities:
+
             subject_name = subject_entity['name']
+
             if subject_name not in subject_names:
-                subject_names.append(subject_name)
+                subject_names.append(subject_name) # Adding all the different ways an object is named in the abstracts,
+
+            if subject_entity['ID'] not in subject_names:
+                subject_names.append(subject_entity['ID']) # Adding the original symbol from pubtator (field 2 from entities file)
+
+            if subject_entity['text'] not in subject_names:
+                subject_names.append(subject_entity['text']) # Adding the original text from pubtator (field 7 from entities file)
+
+        if subject not in object_synonyms.keys():
+            object_synonyms[subject] = subject_names
 
         for object_entity in object_entities:
+
             object_name = object_entity['name']
+
             if object_name not in object_names:
                 object_names.append(object_name)
-        """
-        shortest_subject = str(min(subject_names, key=len))
-        shortest_object = str(min(object_names, key=len))
-        """
-        if "'" in subject:
-            subject = subject.replace("'","_")
-        if "'" in object:
-            object =object.replace("'","_")
+
+            if object_entity['ID'] not in object_names:
+                object_names.append(object_entity['ID']) # Adding the original symbol from pubtator (field 2 from entities file)
+
+            if object_entity['text'] not in object_names:
+                object_names.append(object_entity['text']) # Adding the original text from pubtator (field 7 from entities file)
+
+        if object not in object_synonyms.keys():
+            object_synonyms[object] = object_names
 
         new_event = "event('" + subject + "'," + relation + ",'" + object + "')"
 
         knowledge_base[new_event] = values
         knowledge_base[new_event]['names'] = (subject_names, object_names)
 
-    return knowledge_base
+    return knowledge_base, object_synonyms
 
 
 def print_kb(knowledge_base: dict, root: str) -> None:
@@ -161,9 +176,23 @@ def print_kb(knowledge_base: dict, root: str) -> None:
                 kb_doc.write("\n")
 
 
+def print_synonyms(objects_synonyms: dict, root: str) -> None:
+
+    synonyms_path = root + "/synonyms.pl"
+
+    with open(synonyms_path, 'w', encoding="utf8") as syms_fl:
+
+        syms_fl.write("% Objects and their synonyms from Pubtator" + '\n'  + '\n')
+
+        for obj, synonyms in objects_synonyms.items():
+
+            syms_fl.write(f'synonyms(\'{obj}\', {synonyms}).' + '\n')
+            # print(f'synonyms(\'{obj}\', {synonyms}).')
+
+
 if __name__ == '__main__':
     """
-    A python script that generates the KB of events and entities, in prolog format using, the 
+    A python script that generates the KB of events and entities in prolog format using the 
     predictions coming from PubTator.
     """
 
@@ -178,6 +207,7 @@ if __name__ == '__main__':
 
     print(f'root: {root}')
 
+    # getting the abstracts downloaded from pubtator
     pubtator_files_path = root + '/abstracts'
     logs_files_path = root + '/logs'
 
@@ -189,12 +219,13 @@ if __name__ == '__main__':
         shutil.rmtree(logs_files_path)
     os.mkdir(logs_files_path)
 
+    # Getting ready nltk for nlp processing
     nltk.download('punkt')
     nltk.download('punkt_tab')
 
     cwd = os.getcwd()
 
-    # ---- Processing the .txt abstracts files to get entities and relations ---#
+    # ---- Processing the .txt files in the abstracts folder to get entities and relations ---#
 
     abs_files = [str(x) for x in Path(pubtator_files_path).glob("**/abstract*.txt")]
     abs_files.sort()
@@ -210,6 +241,8 @@ if __name__ == '__main__':
     entities = {}
     events = {}
     objects_identities = []
+
+    # These relations are processed in a different way when we are building the regulatory events.
     special_relations = ['positive_correlation', 'negative_correlation']
 
     print(
@@ -242,6 +275,8 @@ if __name__ == '__main__':
             for abs_line in abs_lines:
 
                 abs_line_on_process += 1
+
+                # A correct abstract line is one that starts with a pubmed id
                 correct_line = regex.search("[\d]+\s\|\s", abs_line)
                 pubmed_id = ""
 
@@ -271,14 +306,21 @@ if __name__ == '__main__':
                         if pubmed_id_on == pubmed_id:
                             try:
                                 entity = {}
-                                id_ = entity_line.split(" | ")[2].replace("'", "_")
+                                id_ = entity_line.split(" | ")[2]
+                                if "'" in  id_:
+                                    id_ = id_.replace("'", "\\'")
                                 if len(id_.split(" ")) == 1:
                                     id_ = id_.upper()
-                                entity_id = id_.replace("'", "_")
+                                entity_id = id_
+                                entity['ID'] = id_
                                 entity['start'] = int(entity_line.split(" | ")[3])
                                 entity['end'] = entity['start'] + int(entity_line.split(" | ")[4])
                                 entity['name'] = abstract[entity['start']:entity['end']]
+                                if "'" in  entity['name']:
+                                    entity['name'] = entity['name'].replace("'", "\\'")
                                 entity['text'] = entity_line.split(" | ")[7]
+                                if "'" in  entity['text']:
+                                    entity['text'] = entity['text'].replace("'", "\\'")
                                 entity['type'] = entity_line.split(" | ")[5]
                                 entity['biotype'] = entity_line.split(" | ")[6]
                                 entity['pubmed_id'] = entity_line.split(" | ")[0]
@@ -324,10 +366,14 @@ if __name__ == '__main__':
 
                             try:
                                 subject_ = rel_line.split("|")[2].strip()
-                                if len(subject_.split(" ")) == 1:
+                                if "'" in subject_:
+                                    subject_ = subject_.replace("'", "\\'")
+                                if len(subject_.split(" ")) == 1 and not "'" in subject_:
                                     subject_ = subject_.upper()
                                 object_ = rel_line.split("|")[3].strip()
-                                if len(object_.split(" ")) == 1:
+                                if "'" in object_:
+                                    object_ = object_.replace("'", "\\'")
+                                if len(object_.split(" ")) == 1 and not "'" in object_:
                                     object_ = object_.upper()
                                 rel = rel_line.split("|")[1].strip().lower()
                                 event = {'subject': subject_, 'relation': rel, 'object': object_}
@@ -378,6 +424,8 @@ if __name__ == '__main__':
                     else:
                         break
 
-    knowledge_base = get_normalized_kb(events, entities, objects_identities)
+    knowledge_base, synonyms = get_normalized_kb(events, entities, objects_identities)
 
     print_kb(knowledge_base, root)
+
+    print_synonyms(synonyms, root)

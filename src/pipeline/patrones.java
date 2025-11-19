@@ -1456,7 +1456,8 @@ public class patrones {
         even = obj1 + "," + eve + "," + obj2;
 
         return even;
-    }
+    }   
+   
 
     public void resumirBaseC(String ruta) {
         borrar_archivo(ruta + "/kBaseR.pl");

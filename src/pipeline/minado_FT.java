@@ -518,7 +518,7 @@ public class minado_FT {
         ontologiaObjMin ontologias = new ontologiaObjMin();
         ontologias.vaciarOntologia_pl(GO, MESH, ruta);
 
-        // config.setVaciado_pl(true);
+        config.setVaciado_pl(true);
         // config.guardar(ruta);
     }
 

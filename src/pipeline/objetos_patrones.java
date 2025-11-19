@@ -40,12 +40,12 @@ import org.jpl7.Term;
  */
 public class objetos_patrones {
 
-    public void generar_archivo(configuracion config, String ruta) throws IOException {        
+    public void generar_archivo(configuracion config, String ruta) throws IOException {
 
         // Se corrije errores sintacticos en minedObjects.pl y  wellKnownRules.pl
         arreglar_archivo(ruta, "minedObjects.pl");
         arreglar_archivo(ruta, "wellKnownRules.pl");
-        
+
         String v = "style_check(-discontiguous).";
         Query q0 = new Query(v);
         q0.hasSolution();
@@ -101,9 +101,9 @@ public class objetos_patrones {
 
             config.setObjetosPatrones(true);
             config.guardar(ruta);
-        }else{
-           
-           System.exit(0);
+        } else {
+
+            System.exit(0);
         }
     }
 
@@ -115,23 +115,30 @@ public class objetos_patrones {
         Query q2 = new Query(consulta);
         Map<String, Term>[] solutions = q2.allSolutions();
         for (int i = 0; i < solutions.length; i++) {
-            String separa[] = solutions[i].toString().split(",");
 
-            String separa1[] = separa[0].split("=");
+            try {
+                
+                String separa[] = solutions[i].toString().split(",");
 
-            String objeto = separa1[1].replace("'", "");
+                String separa1[] = separa[0].split("=");
 
-            if (!lista.contains(objeto)) {
-                lista.add(objeto);
-            }
+                String objeto = separa1[1].replace("'", "");
 
-            String separa2[] = separa[1].split("=");
+                if (!lista.contains(objeto)) {
+                    lista.add(objeto);
+                }
 
-            objeto = separa2[1].replace("'", "");
-            objeto = objeto.replace("}", "");
+                String separa2[] = separa[1].split("=");
 
-            if (!lista.contains(objeto)) {
-                lista.add(objeto);
+                objeto = separa2[1].replace("'", "");
+                objeto = objeto.replace("}", "");
+
+                if (!lista.contains(objeto)) {
+                    lista.add(objeto);
+                }
+
+            } catch (Exception e) {
+
             }
 
         }
@@ -194,7 +201,7 @@ public class objetos_patrones {
             q3.close();
             q4.close();
 
-        }        
+        }
         /*
         new escribirBC("\n%las siguientes lineas son para evitar errores en el proceso no deben ser modificadas", ruta2);
         new escribirBC("enzyme('').", ruta2);
@@ -202,9 +209,8 @@ public class objetos_patrones {
         new escribirBC("transcription_factor('').", ruta2);
         new escribirBC("receptor('').", ruta2);
         new escribirBC("ligand('').", ruta2);
-        */
-        
-        
+         */
+
         mejorar_objetos_desde_pubtator(ruta);
 
     }
@@ -219,30 +225,25 @@ public class objetos_patrones {
         }
         pw = new PrintWriter(fichero);
     }
-    
-    
+
     private void mejorar_objetos_desde_pubtator(String ruta) throws IOException {
-        
+
         //  Este metodo permite mejorar los objetos del experto y del archivo pathwaysObjects.pl    
-                
         ProcessBuilder builder = new ProcessBuilder("python3", "scripts/improve_objects_pathways.py", ruta);
 
         Map<String, String> env = builder.environment();
 
         // Set working directory
-
         String workingDir = System.getProperty("user.dir");
 
         builder.directory(new File(workingDir));
 
         // Start process and get output
-
         Process process = builder.start();
 
         InputStream out = process.getInputStream();
 
         // Convert output stream into a readable format
-
         BufferedReader br = new BufferedReader(new InputStreamReader(out));
 
         String line;
@@ -250,11 +251,11 @@ public class objetos_patrones {
         while ((line = br.readLine()) != null) {
 
             System.out.println(line);
-            
+
         }
-            
+
     }
-    
+
     private void arreglar_archivo(String ruta, String name) throws IOException {
 
         String lineaActual;
@@ -285,7 +286,7 @@ public class objetos_patrones {
                         }
 
                     }
-                    
+
                 }
                 new_lines.add(lineaActual);
             }
@@ -311,10 +312,10 @@ public class objetos_patrones {
                 new_file.print(line + "\n");
 
             }
-            new_file.close();            
-            
-        }       
+            new_file.close();
 
-    }    
+        }
+
+    }
 
 }
