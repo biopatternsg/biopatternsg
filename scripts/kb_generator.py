@@ -136,8 +136,10 @@ def print_kb(knowledge_base: dict, root: str) -> None:
 
         for event, values in knowledge_base.items():
             events_count += 1
+            """
             if values['opposite']:
                 kb.write(values['opposite'] + "," + "\n")
+            """
             if events_count != len(knowledge_base):
                 kb.write(event + "," + "\n")
             else:
@@ -159,6 +161,7 @@ def print_kb(knowledge_base: dict, root: str) -> None:
             for sentence, pubmed_id in values['sentences']:
                 kb_doc.write(sentence + " PUBMED_ID: " + pubmed_id + "\n" + "\n")
             kb_doc.write("\n")
+            """
             if values['opposite']:
                 subject_names, object_names = values['names']
                 kb_doc.write("******************* Regulatory Event *******************" + "\n" + "\n")
@@ -174,6 +177,7 @@ def print_kb(knowledge_base: dict, root: str) -> None:
                     # sentence_id += 1
                     kb_doc.write(sentence + " PUBMED_ID: " + pubmed_id + "\n" + "\n")
                 kb_doc.write("\n")
+            """
 
 
 def print_synonyms(objects_synonyms: dict, root: str) -> None:
@@ -382,12 +386,14 @@ if __name__ == '__main__':
                                 event_sents = get_event_sents(sentences, event, entities, event_pubmed_id, abstract)
 
                                 if event_tag not in events.keys():
-                                    opposite = None
+                                    # opposite = None
                                     event['pubmed_ids'] = [event_pubmed_id]
                                     event['sentences'] = event_sents
+                                    """
                                     if rel in special_relations:
                                         opposite = "event('" + object_ + "'," + rel + ",'" + subject_ + "')"
                                     event['opposite'] = opposite
+                                    """
                                     events[event_tag] = event
                                 else:
                                     previous_sentences = [previous_sentence for previous_sentence, _ in
