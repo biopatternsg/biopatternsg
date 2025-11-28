@@ -1,6 +1,6 @@
 % graph-comparison.pl
-% by Gemini 2.5 flash (does not work)
-% by J. Dávila (does work) 
+% by Gemini 2.5 flash (keeping its representations)
+% by J. Dávila (actual comparison) 
 
 :- dynamic vertex/2, edge/4. 
 :- discontiguous vertex/2, edge/4.
@@ -154,238 +154,48 @@ same_basic_properties(G1, G2) :-
     get_degree_sequence(G1, DS1), get_degree_sequence(G2, DS2),
     DS1 = DS2.
 
-% --- 2. Graph Isomorphism ---
+% in_ref
+in_ref(Golden, X, Y, (Xh, Rel1, Yh)) :-
+	edge(Golden, Xh, Yh, Rel1), 
+	(chebi_name(Xh, X) ; X = Xh), 
+      	(chebi_name(Yh, Y) ; Y = Yh).  
+      	
+in_kb(System, X, Y, (Xg, Rel2, Yg)) :-
+      	synonyms(X, XSyn), 
+    	synonyms(Y, YSyn), 
+    	member(Xg, XSyn), member(Yg, YSyn),
+      	(edge(System, Xg, Yg, Rel2); edge(System, Yg, Xg, Rel2)). 
 
-% isomorphic(G1, G2)
-% Determines if two graphs G1 and G2 are isomorphic, considering edge labels.
-% It first performs basic property checks and then attempts to find a
-% bijective mapping that preserves adjacency and edge labels.
-isomorphic(G1, G2) :-
-    % Preliminary checks for efficiency: if basic properties don't match,
-    % they cannot be isomorphic.
-    same_basic_properties(G1, G2),
-    % Get vertices of both graphs
-    get_vertices(G1, V1),
-    get_vertices(G2, V2),
-    % Find a permutation (bijection) from V1 to V2.
-    % MappingList will be a list of (V1_node, V2_node) pairs.
-    permutation_mapping(V1, V2, MappingList),
-    % Check if this mapping preserves adjacency and edge labels.
-    preserves_adjacency(G1, G2, MappingList).
+% find interaction
+true_positive(Golden, System, (Xh, Rel1, Yh)-(Xg, Rel2, Yg) ) :-
+	in_ref(Golden, X, Y, (Xh, Rel1, Yh)), 
+	in_kb(System, X, Y, (Xg, Rel2, Yg)). 
 
-% permutation_mapping(List1, List2, MappingList)
-% Generates a permutation of List2 and creates a mapping list from List1 to List2.
-% This is a custom predicate as standard `permutation/2` doesn't build the mapping.
-permutation_mapping([], [], []).
-permutation_mapping([H1|T1], L2, [(H1, H2)|MappingTail]) :-
-    select(H2, L2, RemainingL2), % Select H2 from L2, leaving RemainingL2
-    permutation_mapping(T1, RemainingL2, MappingTail).
-
-% preserves_adjacency(G1, G2, MappingList)
-% Checks if the given MappingList (a list of (V1_node, V2_node) pairs)
-% ensures that for every pair of vertices in G1, their adjacency status
-% (connected or not connected, AND label if connected) is mirrored by their
-% mapped counterparts in G2.
-preserves_adjacency(G1, G2, MappingList) :-
-    get_vertices(G1, V1),
-    % Iterate over all unique pairs of vertices (U, V) in G1.
-    forall(
-        (member(U, V1), member(V, V1), U @< V),
-        (
-            % Find the mapped vertices for U and V
-            member((U, MappedU), MappingList),
-            member((V, MappedV), MappingList),
-            % Check if adjacency and label are preserved
-            (
-                (
-                    % If connected in G1 with a specific label
-                    connected_labeled(G1, U, V, LabelG1)
-                ) -> (
-                    % Then must be connected in G2 with the SAME label
-                    connected_labeled(G2, MappedU, MappedV, LabelG1)
-                )
-                ; % else (not connected in G1, or connected with a different label)
-                (
-                    % If NOT connected in G1 (with any label)
-                    \+ connected_labeled(G1, U, V, _)
-                ) -> (
-                    % Then must NOT be connected in G2 (with any label)
-                    \+ connected_labeled(G2, MappedU, MappedV, _)
-                )
-            )
-        )
-    ).
-
-% --- 3. Subgraph Check ---
-
-% is_subgraph(H, G)
-% Checks if graph H is a subgraph of graph G.
-% This means all vertices of H must be in G, and all edges of H must be in G
-% (and their endpoints must also be in G), including matching edge labels.
-is_subgraph(H, G) :-
-    % All vertices of H must be vertices of G.
-    forall(vertex(H, Vh), vertex(G, Vh)),
-    % All unique edges of H must be edges of G, and their endpoints must be in G,
-    % and the labels must match.
-    forall(
-        (edge(H, Uh, Vh, Lh), Uh @< Vh), % Iterate over unique labeled edges in H
-        (
-            vertex(G, Uh), % Ensure endpoints are in G
-            vertex(G, Vh),
-            edge(G, Uh, Vh, Lh) % Ensure the edge with the same label exists in G
-        )
-    ).
-
-
-% --- Subgraph Isomorphism (Brute-force Solution - for comparison) ---
-
-% is_subgraph_isomorphic_bruteforce(H, G)
-% Checks if graph G contains a subgraph that is isomorphic to graph H,
-% considering edge labels, using the brute-force method (generating induced subgraphs).
-is_subgraph_isomorphic(H, G) :-
-    get_vertices(H, Vh),
-    length(Vh, NumVh), % Get the number of vertices in graph H
-    get_vertices(G, Vg),
-    % Find a subset of vertices in G that has the same number of vertices as H.
-    subset_of_size(Vg, NumVh, SubVg),
-    % Create a temporary induced subgraph (g_prime) from G using the selected subset of vertices.
-    % Edges in g_prime will carry their original labels from G.
-    make_induced_subgraph(G, SubVg, g_prime),
-    % Check if H is isomorphic to this induced subgraph.
-    isomorphic(H, g_prime),
-    % Clean up the temporary induced subgraph facts to avoid conflicts in subsequent queries.
-    listing(edge(g_prime,  _, _, _)), 
-    retractall(vertex(g_prime, _)),
-    retractall(edge(g_prime, _, _, _)). % Updated to retract edge/4 facts
-
-% subset_of_size(List, Size, Subset)
-% Generates subsets of List that have a specific Size.
-subset_of_size(List, Size, Subset) :-
-    length(Subset, Size),
-    subset(List, Subset). % `subset/2` is often a built-in or standard library predicate.
-                          % If not, a simple definition is provided below.
-
-% make_induced_subgraph(OriginalGraphID, VerticesSubset, InducedGraphID)
-% Dynamically asserts facts for an induced subgraph.
-% An induced subgraph contains all edges from the original graph whose
-% endpoints are both in the VerticesSubset, preserving their labels.
-make_induced_subgraph(OriginalGraphID, VerticesSubset, InducedGraphID) :-
-    % Assert vertices for the new induced subgraph
-    forall(member(V, VerticesSubset), assertz(vertex(InducedGraphID, V))),
-    % Assert edges for the new induced subgraph, preserving labels
-    forall(
-        (
-            member(U, VerticesSubset),
-            member(V, VerticesSubset),
-            U @< V, % Ensure unique edge pairs
-            connected_labeled(OriginalGraphID, U, V, Label)
-        ),
-        (
-            assertz(edge(InducedGraphID, U, V, Label)),
-            assertz(edge(InducedGraphID, V, U, Label)) % Assert symmetrically for connected_labeled/4
-        )
-    ).
-
-% --- Basic subset/2 predicate (if not built-in) ---
-% subset([], []).
-% subset([H|T], [H|SubT]) :-
-%     subset(T, SubT).
-% subset([_|T], SubT) :-
-%     subset(T, SubT).
-
-% --- Example Queries ---
-% To run these, load the .pl file in a Prolog interpreter (e.g., SWI-Prolog).
-
-% General Graph Comparison:
-% ?- num_vertices(graph_a, N).
-% N = 4.
-% ?- num_edges(graph_a, N).
-% N = 4.
-% ?- degree(graph_a, v1, D).
-% D = 2.
-% ?- get_degree_sequence(graph_a, DS).
-% DS = [2, 2, 2, 2].
-% ?- get_degree_sequence(graph_b, DS).
-% DS = [2, 3, 3, 2].
-% ?- same_basic_properties(graph_a, graph_e).
-% true.
-% ?- same_basic_properties(graph_a, graph_b).
-% false.
-
-% Graph Isomorphism (now considers edge labels):
-% ?- isomorphic(graph_a, graph_e).
-% true. % Graph A (C4) is isomorphic to Graph E (another C4 with different labels)
-% ?- isomorphic(graph_a, graph_b).
-% false. % Graph A (C4) is not isomorphic to Graph B (contains a triangle and different labels)
-% ?- isomorphic(graph_c, graph_d).
-% false. % Graph C (K3) is not isomorphic to Graph D (P3)
-% ?- isomorphic(graph_d, graph_f).
-% false. % Graph D (P3) is NOT isomorphic to Graph F (P3) because of different edge labels.
-
-% Subgraph Check (now considers edge labels):
-% ?- is_subgraph(graph_h, graph_a).
-% false. % graph_h is not a direct subgraph of graph_a because vertex names don't match exactly.
-%        % `is_subgraph` is for direct containment, not structural similarity.
-%        % For example, vertex(graph_h, s1) is not vertex(graph_a, s1).
-
-% Subgraph Isomorphism (using the efficient backtracking solution):
-% ?- is_subgraph_isomorphic(graph_g, graph_b).
-% true. % Graph B contains a subgraph isomorphic to Graph G (K3 with specific labels).
-%        % The (a,b,c) vertices in graph_b form a K3 with edges (a,b,'link1'), (b,c,'link2'), (a,c,'link4'),
-%        % which exactly matches graph_g's structure and labels.
-% ?- is_subgraph_isomorphic(graph_c, graph_b).
-% false. % Graph B does NOT contain a subgraph isomorphic to Graph C, because the edge labels ('blue', 'red', 'green')
-%        % of Graph C do not match the labels ('link1', 'link2', 'link4') of the triangle in Graph B.
-% ?- is_subgraph_isomorphic(graph_h, graph_a).
-% true. % Graph A contains a subgraph isomorphic to Graph H (P3 with specific labels).
-%        % For example, (v1,v2,v3) in graph_a has edges (v1,v2,'road') and (v2,v3,'path'),
-%        % which matches graph_h's (s1,s2,'road') and (s2,s3,'path').
-% ?- is_subgraph_isomorphic(graph_d, graph_a).
-% false. % Graph A does NOT contain a subgraph isomorphic to Graph D, because Graph D's edge labels
-%        % ('segment_a', 'segment_b') do not match any sequence of two consecutive edge labels in Graph A
-%        % (which has 'road', 'path' or 'path', 'road').
-% ?- is_subgraph_isomorphic(graph_a, graph_c).
-% false. % Graph C (K3) does not contain a subgraph isomorphic to Graph A (C4)
-%        % (C4 has 4 vertices, K3 has 3).
-
-% is_common_subpath(H, G, Path)
-
-% Checks if graph G contains a subpath that is also in graph H,
-% considering edge labels, using an efficient backtracking algorithm.
-is_common_subpath(H, G, Path) :-
-    get_vertices(H, Vh_list),
-    %get_vertices(G, Vg_list),
-    select(V, Vh_list, _RestH), 
-    % Start the backtracking search for a mapping.
-    find_subpath_mapping(H, G, V, [V], Path),
-    length(Path,N), N>1. 
-
-% find_subpath_mapping(H, G, V, Visited, Path)
-% find_subpath_mapping(H, G, V, Visited, [(V,V)|NewMapping]) :-
-%    edge(H, V, Hnext, _), not(member(Hnext, Visited)), 
-%    edge(G, V, Hnext, _), 
-%    find_subpath_mapping(H, G, Hnext, [Hnext|Visited], NewMapping).
-% using synonyms lists:
-find_subpath_mapping(H, G, V, Visited, [(V,NV)|NewMapping]) :-
-    edge(H, V, Hnext, _), 
-    not(member(Hnext, Visited)),
-    (chebi_name(V, VV) ; VV = V), % either has a chebi name or not
-    (chebi_name(Hnext, HH) ; HH = Hnext), % either has a chebi name or not
-    synonyms(VV, VSyn), 
-    synonyms(HH, HSyn), 
-    member(NV, VSyn), member(NHnext, HSyn), 
-    (edge(G, NV, NHnext, _); edge(G, NHnext, NV, _)), 
-    find_subpath_mapping(H, G, Hnext, [Hnext|Visited], NewMapping).
-
-% Base case: Subpath with size > 1 in H cannot no longer be extended from V
-find_subpath_mapping(_H, _, V, _, [(V,V)]).  
-    
-somehow_connected(G, X, Y, _) :-
-	edge(G, X,Y, _).
+count_true_positives(Golden, System, Table, TP) :-
+	findall(Interaction, true_positive(Golden, System, Interaction), ATable),
+	remove_duplicates(ATable, Table),
+	length(Table, TP). 
 	
-somehow_connected(G, X, Y, Visited) :-
-	edge(G, X,Z, _), not(member(Z, Visited)), 
-	somehow_connected(G, Z, Y, [Z|Visited]). 
+false_negative(Golden, System, (Xh, Rel1, Yh)-(Xg, Rel2, Yg) ) :-
+	in_ref(Golden, X, Y, (Xh, Rel1, Yh)), 
+	not(in_kb(System, X, Y, (Xg, Rel2, Yg))). 
+	
+count_false_negatives(Golden, System, Table, FN) :-
+	findall(Interaction, false_negative(Golden, System, Interaction), ATable),
+	remove_duplicates(ATable, Table),
+	length(Table, FN).
+	
+false_positive(Golden, System, (Xh, Rel1, Yh)-(Xg, Rel2, Yg) ) :-
+	in_kb(System, X, Y, (Xg, Rel2, Yg)),
+	not(in_ref(Golden, X, Y, (Xh, Rel1, Yh))). 
+	
+count_false_positives(Golden, System, Table, FP) :-
+	findall(Interaction, false_positive(Golden, System, Interaction), ATable),
+	remove_duplicates(ATable, Table),
+	length(Table, FP).
+	
+fraction(T, F, Fr) :- Fr is T/(T+F).
+f1score(P, R, F1) :- F1 is 2*P*R/(P+R). 
 
 % load_file_ref('covid.csv').
 load_file_ref(File) :- 
@@ -416,22 +226,7 @@ remove_duplicates([A|R], [A|RR]) :-
 compare_relations(Graph1, Graph2, Table) :-
 	findall((X,Rel1,Rel2,Y), (edge(Graph1, X, Y, Rel1), edge(Graph2, X, Y, Rel2)), ATable),
 	remove_duplicates(ATable, Table). 
-	
-% compare_relations_in_subpath(Graph1, Graph2, Path, Table).
-compare_relations_in_subpath(_Graph1, _Graph2, [], []).
-
-compare_relations_in_subpath(Graph1, Graph2, [(Xh, Xg),(Yh, Yg)], [(Xh,Rel1,Rel2,Yh)]) :-
-	edge(Graph1, Xh, Yh, Rel1), (edge(Graph2, Xg, Yg, Rel2); edge(Graph2, Yg, Xg, Rel2)).
-
-compare_relations_in_subpath(Graph1, Graph2, [(Xh, Xg),(Yh, Yg)|RPath], [(Xh,Rel1,Rel2,Yh)|Table]) :-
-	edge(Graph1, Xh, Yh, Rel1), (edge(Graph2, Xg, Yg, Rel2); edge(Graph2, Yg, Xg, Rel2)),
-	compare_relations_in_subpath(Graph1, Graph2, [(Yh, Yg)|RPath], Table). 
-	
-produce_all_common_paths(CC, N) :-
-	findall(Table, (is_common_subpath(ref, kb, Path), compare_relations_in_subpath(ref, kb, Path, Table)), C),
-	remove_duplicates(C, CC), 
-	length(CC,N).
-	
+		
 print_list([]).
 print_list([A|B]) :-
 	writeq(A), nl, 
@@ -449,17 +244,7 @@ write_each_event([(X1h, Y1h, Rel1), (X2h, Y2h, Rel2)|Rest]) :-
 	write_each_event(Rest). 
 	
 	
-% how to execute the whole test
-% ['../graph-comparison.pl'].
-% [kBase].
-% load_file_ref('kBase.sif'). % for instance. It is a tsv really
-% transform_kb.
-% listing(edge/4).
-% is_subgraph_isomorphic(ref, kb, Mapping).
-% compare_relations(ref, kb, Table). 
-% is_common_subpath(ref, kb, Path).
-% is_common_subpath(ref, kb, Path), compare_relations_in_subpath(ref, kb, Path, Table). 
-	
+% how to execute the whole test	
 prepare :-  
 	[kBase],
 	[synonyms], 
@@ -468,11 +253,18 @@ prepare :-
 	transform_kb,
 	listing(edge/4).
 	
-compare :-
-	produce_all_common_paths(Table, N), 
-	write('The structure is: Initial Vertex, Relationship in Sif, Relationship in BioPatterns, Final Vertex'), nl, 
-	print_list(Table), 
-	write('Number of paths common to Sif Ref and BioPatterns = '), writeln(N). 
+compare :- count_true_positives(ref, kb, _Table1, TP),
+	   count_false_positives(ref, kb, _Table2, FP),
+	   count_false_negatives(ref, kb, _Table3, FN),
+	   fraction(TP, FP, Precision),
+	   fraction(TP, FN, Recall), 
+	   f1score(Precision, Recall, F1),
+	   write('True Positives (the ref has them and the system predicts them): '), writeln(TP), 
+	   write('False Positives (the ref does not have them but the system predicts them): '), writeln(FP), 
+	   write('False Negatives (the ref has them but the system does not predict them): '), writeln(FN),
+	   write('Prediction (TP/(TP+FP)), from all the predictions, how many are correct: '), writeln(Precision),
+	   write('Recall (TP/(TP+FN)): from all the correct ones, how many are predicted: '), writeln(Recall),
+	   write('F1 Score (2*Precision*Recall)/(Precision*Recall): '), writeln(F1). 
 	
 verify :- time(is_subgraph_isomorphic(ref, kb)). 
 	
@@ -487,8 +279,8 @@ report :-
 	num_edges(ref, NERef), writeln(NERef), 
 	write('Number of edges in BioPattern kBase.pl = '),
 	num_edges(kb, NEBio), writeln(NEBio), 
-	writeln('Common Paths found in this .sif and in the .pl'), 
 	time(compare).
 
 run :-
 	prepare, compare, tell('report.txt'), report, told.  
+
