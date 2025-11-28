@@ -150,8 +150,8 @@ FH	ProteinReference	FUMH_HUMAN	uniprot:P07954	hgnc.symbol:FH;ncbigene:2271
 chebi:58349	SmallMoleculeReference	NADP(3-)	chebi:CHEBI:58349	
 chebi:26355	SmallMoleculeReference	heme b	chebi:CHEBI:26355	
 chebi:43474	SmallMoleculeReference	hydrogenphosphate	chebi:CHEBI:43474	
-chebi:16947	SmallMoleculeReference	citrate(3-)	chebi:CHEBI:16947	
 chebi:46245	SmallMoleculeReference	coenzyme Q10	chebi:CHEBI:46245	
+chebi:16947	SmallMoleculeReference	citrate(3-)	chebi:CHEBI:16947	
 chebi:33722	SmallMoleculeReference	tetra-mu3-sulfido-tetrairon(2+)	chebi:CHEBI:33722	
 chebi:16724	SmallMoleculeReference	4-hydroxybutyrate	chebi:CHEBI:16724	
 chebi:30616	SmallMoleculeReference	ATP(4-)	chebi:CHEBI:30616	
@@ -165,14 +165,14 @@ chebi:456216	SmallMoleculeReference	ADP(3-)	chebi:CHEBI:456216
 chebi:64606	SmallMoleculeReference	Fe3S4 iron-sulfur cluster	chebi:CHEBI:64606	
 chebi:57540	SmallMoleculeReference	NAD(1-)	chebi:CHEBI:57540	
 chebi:57287	SmallMoleculeReference	coenzyme A(4-)	chebi:CHEBI:57287	
-chebi:57288	SmallMoleculeReference	acetyl-CoA(4-)	chebi:CHEBI:57288	
 chebi:57783	SmallMoleculeReference	NADPH(4-)	chebi:CHEBI:57783	
+chebi:57288	SmallMoleculeReference	acetyl-CoA(4-)	chebi:CHEBI:57288	
 IDH3A	ProteinReference	IDH3A_HUMAN	uniprot:P50213	hgnc.symbol:IDH3A;ncbigene:3419
 TRAP1	ProteinReference	TRAP1_HUMAN	uniprot:Q12931	hgnc.symbol:TRAP1;ncbigene:10131
 chebi:57945	SmallMoleculeReference	NADH(2-)	chebi:CHEBI:57945	
 chebi:29035	SmallMoleculeReference	manganese(2+)	chebi:CHEBI:29035	
-MDH2	ProteinReference	MDHM_HUMAN	uniprot:P40926	hgnc.symbol:MDH2;ncbigene:4191
 IDH3G	ProteinReference	IDH3G_HUMAN	uniprot:P51553	hgnc.symbol:IDH3G;ncbigene:3421
+MDH2	ProteinReference	MDHM_HUMAN	uniprot:P40926	hgnc.symbol:MDH2;ncbigene:4191
 IDH2	ProteinReference	IDHP_HUMAN	uniprot:P48735	hgnc.symbol:IDH2;ncbigene:3418
 chebi:64183	SmallMoleculeReference	ubiquinol-10	chebi:CHEBI:64183	
 SDHC	ProteinReference	C560_HUMAN	uniprot:Q99643	hgnc.symbol:SDHC;ncbigene:6391
@@ -184,8 +184,8 @@ CS	ProteinReference	CISY_HUMAN	uniprot:O75390	hgnc.symbol:CS;ncbigene:1431
 chebi:15378	SmallMoleculeReference	hydron	chebi:CHEBI:15378	
 SUCLA2	ProteinReference	SUCB1_HUMAN	uniprot:Q9P2R7	hgnc.symbol:SUCLA2;ncbigene:8803
 chebi:18420	SmallMoleculeReference	magnesium(2+)	chebi:CHEBI:18420	
-chebi:30031	SmallMoleculeReference	succinate(2-)	chebi:CHEBI:30031	
 chebi:29806	SmallMoleculeReference	fumarate(2-)	chebi:CHEBI:29806	
+chebi:30031	SmallMoleculeReference	succinate(2-)	chebi:CHEBI:30031	
 SUCLG2	ProteinReference	SUCB2_HUMAN	uniprot:Q96I99	hgnc.symbol:SUCLG2;ncbigene:8801
 SUCLG1	ProteinReference	SUCA_HUMAN	uniprot:P53597	hgnc.symbol:SUCLG1;ncbigene:8802
 ACO2	ProteinReference	ACON_HUMAN	uniprot:Q99798	hgnc.symbol:ACO2;ncbigene:50

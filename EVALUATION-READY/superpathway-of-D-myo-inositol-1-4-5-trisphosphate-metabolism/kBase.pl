@@ -1,0 +1,14 @@
+base([
+event('INPP5A',association,'ITPKA'),
+event('INPP5F',association,'PTEN'),
+event('INPP5D',association,'PTEN'),
+event('PTEN',negative_correlation,'PTEN'),
+event('PTEN',association,'MINPP1'),
+event('IPMK',association,'PTEN'),
+event('INPP5D',association,'INPPL1'),
+event('INPP5B',bind,'OCRL'),
+event('INPP5B',association,'OCRL'),
+event('ITPKA',bind,'ITPKB'),
+event('INPP5B',association,'PTEN'),
+event('INPPL1',positive_correlation,'PTEN')
+]).

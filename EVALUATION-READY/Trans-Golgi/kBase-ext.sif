@@ -1,0 +1,25 @@
+﻿PARTICIPANT_A	INTERACTION_TYPE	PARTICIPANT_B	INTERACTION_DATA_SOURCE	INTERACTION_PUBMED_ID	PATHWAY_NAMES	MEDIATOR_IDS
+GBF1	controls-state-change-of	ARF1	Reactome	8810314;9614177	trans-Golgi Network Vesicle Budding	http://bioregistry.io/reactome:R-HSA-350769;reactome:Catalysis5835
+GBF1	controls-transport-of	ARF1	Reactome	8810314;9614177	trans-Golgi Network Vesicle Budding	http://bioregistry.io/reactome:R-HSA-350769;reactome:Catalysis5835
+SNAP23	in-complex-with	STX4	Reactome		trans-Golgi Network Vesicle Budding	reactome:Complex14358;reactome:Complex14359;reactome:Complex14360
+SNAP23	controls-state-change-of	VAMP2	Reactome	11994746	trans-Golgi Network Vesicle Budding	http://bioregistry.io/reactome:R-HSA-376369
+SNAP23	in-complex-with	VAMP2	Reactome		trans-Golgi Network Vesicle Budding	reactome:Complex14358
+SNAP23	controls-state-change-of	VAMP7	Reactome	11101518;14993220	trans-Golgi Network Vesicle Budding	http://bioregistry.io/reactome:R-HSA-376357
+SNAP23	in-complex-with	VAMP7	Reactome		trans-Golgi Network Vesicle Budding	reactome:Complex14359
+SNAP23	controls-state-change-of	VAMP8	Reactome	16984405;18692471;18973100;24494924;9727496	trans-Golgi Network Vesicle Budding	http://bioregistry.io/reactome:R-HSA-376364
+SNAP23	in-complex-with	VAMP8	Reactome		trans-Golgi Network Vesicle Budding	reactome:Complex14360
+STX4	controls-state-change-of	VAMP2	Reactome	11994746	trans-Golgi Network Vesicle Budding	http://bioregistry.io/reactome:R-HSA-376369
+STX4	in-complex-with	VAMP2	Reactome		trans-Golgi Network Vesicle Budding	reactome:Complex14358
+STX4	controls-state-change-of	VAMP7	Reactome	11101518;14993220	trans-Golgi Network Vesicle Budding	http://bioregistry.io/reactome:R-HSA-376357
+STX4	in-complex-with	VAMP7	Reactome		trans-Golgi Network Vesicle Budding	reactome:Complex14359
+STX4	controls-state-change-of	VAMP8	Reactome	16984405;18692471;18973100;24494924;9727496	trans-Golgi Network Vesicle Budding	http://bioregistry.io/reactome:R-HSA-376364
+STX4	in-complex-with	VAMP8	Reactome		trans-Golgi Network Vesicle Budding	reactome:Complex14360
+
+PARTICIPANT	PARTICIPANT_TYPE	PARTICIPANT_NAME	UNIFICATION_XREF	RELATIONSHIP_XREF
+VAMP8	ProteinReference	VAMP8_HUMAN	uniprot:Q9BV40	hgnc.symbol:VAMP8;ncbigene:8673
+ARF1	ProteinReference	ARF1_HUMAN	uniprot:P84077	hgnc.symbol:ARF1;ncbigene:375
+VAMP7	ProteinReference	VAMP7_HUMAN	uniprot:P51809	hgnc.symbol:VAMP7;ncbigene:6845
+SNAP23	ProteinReference	SNP23_HUMAN	uniprot:O00161	hgnc.symbol:SNAP23;ncbigene:8773
+GBF1	ProteinReference	GBF1_HUMAN	uniprot:Q92538	hgnc.symbol:GBF1;ncbigene:8729
+STX4	ProteinReference	STX4_HUMAN	uniprot:Q12846	hgnc.symbol:STX4;ncbigene:6810
+VAMP2	ProteinReference	VAMP2_HUMAN	uniprot:P63027	hgnc.symbol:VAMP2;ncbigene:6844

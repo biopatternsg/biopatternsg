@@ -1,0 +1,11 @@
+Number of vertices in Ref .sif = 31
+Number of vertices in BioPattern kBase.pl =11
+Number of edges in Ref .sif = 137
+Number of edges in BioPattern kBase.pl = 12
+Common Paths found in this .sif and in the .pl
+The structure is: Initial Vertex, Relationship in Sif, Relationship in BioPatterns, Final Vertex
+[('ITPKA','catalysis-precedes',association,'INPP5A')]
+[('PTEN','catalysis-precedes',association,'INPP5B')]
+[('PTEN','catalysis-precedes',association,'INPP5F')]
+[('PTEN','catalysis-precedes',positive_correlation,'INPPL1')]
+Number of paths common to Sif Ref and BioPatterns = 4

@@ -1,0 +1,70 @@
+﻿PARTICIPANT_A	INTERACTION_TYPE	PARTICIPANT_B	INTERACTION_DATA_SOURCE	INTERACTION_PUBMED_ID	PATHWAY_NAMES	MEDIATOR_IDS
+BECN1	controls-state-change-of	MAP1LC3B	Reactome	15331731;21799305;25135833;31231549	Translation of Replicase and Assembly of the Replication Transcription Complex	http://bioregistry.io/reactome:R-HSA-5683643;http://bioregistry.io/reactome:R-HSA-9698265
+BECN1	controls-transport-of	MAP1LC3B	Reactome	15331731;21799305;25135833;31231549	Translation of Replicase and Assembly of the Replication Transcription Complex	http://bioregistry.io/reactome:R-HSA-5683643;http://bioregistry.io/reactome:R-HSA-9698265
+BECN1	in-complex-with	PIK3C3	Reactome		Translation of Replicase and Assembly of the Replication Transcription Complex	reactome:Complex6419
+BECN1	in-complex-with	PIK3R4	Reactome		Translation of Replicase and Assembly of the Replication Transcription Complex	reactome:Complex6419
+BECN1	in-complex-with	UVRAG	Reactome		Translation of Replicase and Assembly of the Replication Transcription Complex	reactome:Complex6419
+CHMP2A	in-complex-with	CHMP3	Reactome		Translation of Replicase and Assembly of the Replication Transcription Complex	reactome:Complex6129
+CHMP2A	in-complex-with	CHMP4A	Reactome		Translation of Replicase and Assembly of the Replication Transcription Complex	reactome:Complex6129
+CHMP2A	in-complex-with	CHMP4B	Reactome		Translation of Replicase and Assembly of the Replication Transcription Complex	reactome:Complex6129
+CHMP2A	in-complex-with	CHMP4C	Reactome		Translation of Replicase and Assembly of the Replication Transcription Complex	reactome:Complex6129
+CHMP2A	in-complex-with	CHMP6	Reactome		Translation of Replicase and Assembly of the Replication Transcription Complex	reactome:Complex6129
+CHMP2A	in-complex-with	CHMP7	Reactome		Translation of Replicase and Assembly of the Replication Transcription Complex	reactome:Complex6129
+CHMP2A	controls-state-change-of	MAP1LC3B	Reactome	15331731;21799305;25135833;31231549	Translation of Replicase and Assembly of the Replication Transcription Complex	http://bioregistry.io/reactome:R-HSA-5683644;http://bioregistry.io/reactome:R-HSA-9698265
+CHMP2A	controls-transport-of	MAP1LC3B	Reactome	15331731;21799305;25135833;31231549	Translation of Replicase and Assembly of the Replication Transcription Complex	http://bioregistry.io/reactome:R-HSA-5683644;http://bioregistry.io/reactome:R-HSA-9698265
+CHMP2B	in-complex-with	CHMP3	Reactome		Translation of Replicase and Assembly of the Replication Transcription Complex	reactome:Complex6129
+CHMP2B	in-complex-with	CHMP4A	Reactome		Translation of Replicase and Assembly of the Replication Transcription Complex	reactome:Complex6129
+CHMP2B	in-complex-with	CHMP4B	Reactome		Translation of Replicase and Assembly of the Replication Transcription Complex	reactome:Complex6129
+CHMP2B	in-complex-with	CHMP4C	Reactome		Translation of Replicase and Assembly of the Replication Transcription Complex	reactome:Complex6129
+CHMP2B	in-complex-with	CHMP6	Reactome		Translation of Replicase and Assembly of the Replication Transcription Complex	reactome:Complex6129
+CHMP2B	in-complex-with	CHMP7	Reactome		Translation of Replicase and Assembly of the Replication Transcription Complex	reactome:Complex6129
+CHMP2B	controls-state-change-of	MAP1LC3B	Reactome	15331731;21799305;25135833;31231549	Translation of Replicase and Assembly of the Replication Transcription Complex	http://bioregistry.io/reactome:R-HSA-5683644;http://bioregistry.io/reactome:R-HSA-9698265
+CHMP2B	controls-transport-of	MAP1LC3B	Reactome	15331731;21799305;25135833;31231549	Translation of Replicase and Assembly of the Replication Transcription Complex	http://bioregistry.io/reactome:R-HSA-5683644;http://bioregistry.io/reactome:R-HSA-9698265
+CHMP3	in-complex-with	CHMP4A	Reactome		Translation of Replicase and Assembly of the Replication Transcription Complex	reactome:Complex6129
+CHMP3	in-complex-with	CHMP4B	Reactome		Translation of Replicase and Assembly of the Replication Transcription Complex	reactome:Complex6129
+CHMP3	in-complex-with	CHMP4C	Reactome		Translation of Replicase and Assembly of the Replication Transcription Complex	reactome:Complex6129
+CHMP3	in-complex-with	CHMP6	Reactome		Translation of Replicase and Assembly of the Replication Transcription Complex	reactome:Complex6129
+CHMP3	in-complex-with	CHMP7	Reactome		Translation of Replicase and Assembly of the Replication Transcription Complex	reactome:Complex6129
+CHMP3	controls-state-change-of	MAP1LC3B	Reactome	15331731;21799305;25135833;31231549	Translation of Replicase and Assembly of the Replication Transcription Complex	http://bioregistry.io/reactome:R-HSA-5683644;http://bioregistry.io/reactome:R-HSA-9698265
+CHMP3	controls-transport-of	MAP1LC3B	Reactome	15331731;21799305;25135833;31231549	Translation of Replicase and Assembly of the Replication Transcription Complex	http://bioregistry.io/reactome:R-HSA-5683644;http://bioregistry.io/reactome:R-HSA-9698265
+CHMP4A	in-complex-with	CHMP6	Reactome		Translation of Replicase and Assembly of the Replication Transcription Complex	reactome:Complex6129
+CHMP4A	in-complex-with	CHMP7	Reactome		Translation of Replicase and Assembly of the Replication Transcription Complex	reactome:Complex6129
+CHMP4A	controls-state-change-of	MAP1LC3B	Reactome	15331731;21799305;25135833;31231549	Translation of Replicase and Assembly of the Replication Transcription Complex	http://bioregistry.io/reactome:R-HSA-5683644;http://bioregistry.io/reactome:R-HSA-9698265
+CHMP4A	controls-transport-of	MAP1LC3B	Reactome	15331731;21799305;25135833;31231549	Translation of Replicase and Assembly of the Replication Transcription Complex	http://bioregistry.io/reactome:R-HSA-5683644;http://bioregistry.io/reactome:R-HSA-9698265
+CHMP4B	in-complex-with	CHMP6	Reactome		Translation of Replicase and Assembly of the Replication Transcription Complex	reactome:Complex6129
+CHMP4B	in-complex-with	CHMP7	Reactome		Translation of Replicase and Assembly of the Replication Transcription Complex	reactome:Complex6129
+CHMP4B	controls-state-change-of	MAP1LC3B	Reactome	15331731;21799305;25135833;31231549	Translation of Replicase and Assembly of the Replication Transcription Complex	http://bioregistry.io/reactome:R-HSA-5683644;http://bioregistry.io/reactome:R-HSA-9698265
+CHMP4B	controls-transport-of	MAP1LC3B	Reactome	15331731;21799305;25135833;31231549	Translation of Replicase and Assembly of the Replication Transcription Complex	http://bioregistry.io/reactome:R-HSA-5683644;http://bioregistry.io/reactome:R-HSA-9698265
+CHMP4C	in-complex-with	CHMP6	Reactome		Translation of Replicase and Assembly of the Replication Transcription Complex	reactome:Complex6129
+CHMP4C	in-complex-with	CHMP7	Reactome		Translation of Replicase and Assembly of the Replication Transcription Complex	reactome:Complex6129
+CHMP4C	controls-state-change-of	MAP1LC3B	Reactome	15331731;21799305;25135833;31231549	Translation of Replicase and Assembly of the Replication Transcription Complex	http://bioregistry.io/reactome:R-HSA-5683644;http://bioregistry.io/reactome:R-HSA-9698265
+CHMP4C	controls-transport-of	MAP1LC3B	Reactome	15331731;21799305;25135833;31231549	Translation of Replicase and Assembly of the Replication Transcription Complex	http://bioregistry.io/reactome:R-HSA-5683644;http://bioregistry.io/reactome:R-HSA-9698265
+CHMP6	in-complex-with	CHMP7	Reactome		Translation of Replicase and Assembly of the Replication Transcription Complex	reactome:Complex6129
+CHMP6	controls-state-change-of	MAP1LC3B	Reactome	15331731;21799305;25135833;31231549	Translation of Replicase and Assembly of the Replication Transcription Complex	http://bioregistry.io/reactome:R-HSA-5683644;http://bioregistry.io/reactome:R-HSA-9698265
+CHMP6	controls-transport-of	MAP1LC3B	Reactome	15331731;21799305;25135833;31231549	Translation of Replicase and Assembly of the Replication Transcription Complex	http://bioregistry.io/reactome:R-HSA-5683644;http://bioregistry.io/reactome:R-HSA-9698265
+CHMP7	controls-state-change-of	MAP1LC3B	Reactome	15331731;21799305;25135833;31231549	Translation of Replicase and Assembly of the Replication Transcription Complex	http://bioregistry.io/reactome:R-HSA-5683644;http://bioregistry.io/reactome:R-HSA-9698265
+CHMP7	controls-transport-of	MAP1LC3B	Reactome	15331731;21799305;25135833;31231549	Translation of Replicase and Assembly of the Replication Transcription Complex	http://bioregistry.io/reactome:R-HSA-5683644;http://bioregistry.io/reactome:R-HSA-9698265
+PIK3C3	controls-state-change-of	MAP1LC3B	Reactome	15331731;21799305;25135833;31231549	Translation of Replicase and Assembly of the Replication Transcription Complex	http://bioregistry.io/reactome:R-HSA-5683643;http://bioregistry.io/reactome:R-HSA-9698265
+PIK3C3	controls-transport-of	MAP1LC3B	Reactome	15331731;21799305;25135833;31231549	Translation of Replicase and Assembly of the Replication Transcription Complex	http://bioregistry.io/reactome:R-HSA-5683643;http://bioregistry.io/reactome:R-HSA-9698265
+PIK3C3	in-complex-with	PIK3R4	Reactome		Translation of Replicase and Assembly of the Replication Transcription Complex	reactome:Complex6419
+PIK3C3	in-complex-with	UVRAG	Reactome		Translation of Replicase and Assembly of the Replication Transcription Complex	reactome:Complex6419
+PIK3R4	controls-state-change-of	MAP1LC3B	Reactome	15331731;21799305;25135833;31231549	Translation of Replicase and Assembly of the Replication Transcription Complex	http://bioregistry.io/reactome:R-HSA-5683643;http://bioregistry.io/reactome:R-HSA-9698265
+PIK3R4	controls-transport-of	MAP1LC3B	Reactome	15331731;21799305;25135833;31231549	Translation of Replicase and Assembly of the Replication Transcription Complex	http://bioregistry.io/reactome:R-HSA-5683643;http://bioregistry.io/reactome:R-HSA-9698265
+PIK3R4	in-complex-with	UVRAG	Reactome		Translation of Replicase and Assembly of the Replication Transcription Complex	reactome:Complex6419
+UVRAG	controls-state-change-of	MAP1LC3B	Reactome	15331731;21799305;25135833;31231549	Translation of Replicase and Assembly of the Replication Transcription Complex	http://bioregistry.io/reactome:R-HSA-5683643;http://bioregistry.io/reactome:R-HSA-9698265
+UVRAG	controls-transport-of	MAP1LC3B	Reactome	15331731;21799305;25135833;31231549	Translation of Replicase and Assembly of the Replication Transcription Complex	http://bioregistry.io/reactome:R-HSA-5683643;http://bioregistry.io/reactome:R-HSA-9698265
+
+PARTICIPANT	PARTICIPANT_TYPE	PARTICIPANT_NAME	UNIFICATION_XREF	RELATIONSHIP_XREF
+UVRAG	ProteinReference	UVRAG_HUMAN	uniprot:Q9P2Y5	hgnc.symbol:UVRAG;ncbigene:7405
+BECN1	ProteinReference	BECN1_HUMAN	uniprot:Q14457	hgnc.symbol:BECN1;ncbigene:8678
+PIK3R4	ProteinReference	PI3R4_HUMAN	uniprot:Q99570	hgnc.symbol:PIK3R4;ncbigene:30849
+MAP1LC3B	ProteinReference	MLP3B_HUMAN	uniprot:Q9GZQ8	hgnc.symbol:MAP1LC3B;ncbigene:81631
+CHMP2B	ProteinReference	CHM2B_HUMAN	uniprot:Q9UQN3	hgnc.symbol:CHMP2B;ncbigene:25978
+CHMP4C	ProteinReference	CHM4C_HUMAN	uniprot:Q96CF2	hgnc.symbol:CHMP4C;ncbigene:92421
+CHMP2A	ProteinReference	CHM2A_HUMAN	uniprot:O43633	hgnc.symbol:CHMP2A;ncbigene:27243
+CHMP3	ProteinReference	CHMP3_HUMAN	uniprot:Q9Y3E7	hgnc.symbol:CHMP3;ncbigene:100526767;ncbigene:51652
+CHMP4B	ProteinReference	CHM4B_HUMAN	uniprot:Q9H444	hgnc.symbol:CHMP4B;ncbigene:128866
+CHMP4A	ProteinReference	CHM4A_HUMAN	uniprot:Q9BY43	hgnc.symbol:CHMP4A;ncbigene:29082
+PIK3C3	ProteinReference	PK3C3_HUMAN	uniprot:Q8NEB9	hgnc.symbol:PIK3C3;ncbigene:5289
+CHMP6	ProteinReference	CHMP6_HUMAN	uniprot:Q96FZ7	hgnc.symbol:CHMP6;ncbigene:79643
+CHMP7	ProteinReference	CHMP7_HUMAN	uniprot:Q8WUX9	hgnc.symbol:CHMP7;ncbigene:91782

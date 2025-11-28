@@ -1,0 +1,8 @@
+Number of vertices in Ref .sif = 35
+Number of vertices in BioPattern kBase.pl =8
+Number of edges in Ref .sif = 104
+Number of edges in BioPattern kBase.pl = 5
+Common Paths found in this .sif and in the .pl
+The structure is: Initial Vertex, Relationship in Sif, Relationship in BioPatterns, Final Vertex
+[('MCAT','controls-state-change-of',bind,'NDUFAB1')]
+Number of paths common to Sif Ref and BioPatterns = 1

@@ -1,0 +1,35 @@
+ACAA2
+ACSF2
+3-oxo-fatty acyl-CoA
+coenzyme A(4-)
+ACAD10
+2-methylpentadec-2-enoyl-CoA
+ACAD11
+2,3-dehydrobehenoyl-CoA
+ACOT11
+long-chain fatty acid
+medium-chain fatty acid
+ACOT12
+ACOT13
+ACOT1
+ACOT2
+ACOT7
+ACOT9
+diphosphate(3-)
+adenosine 5'-monophosphate(2-)
+medium-chain fatty acyl-CoA
+MCAT
+NDUFAB1
+PCTP
+THEM4
+THEM5
+acyl-CoA
+acetyl-CoA(4-)
+long-chain fatty acyl-CoA
+ACBD6
+ACBD7
+DBI
+malonyl-CoA(5-)
+FAD(3-)
+docosanoyl-CoA
+2-methylpentadecenoyl-CoA

@@ -1,0 +1,836 @@
+﻿PARTICIPANT_A	INTERACTION_TYPE	PARTICIPANT_B	INTERACTION_DATA_SOURCE	INTERACTION_PUBMED_ID	PATHWAY_NAMES	MEDIATOR_IDS
+ABCE1	in-complex-with	RNASEL	Reactome		Interferon alpha/beta signaling	reactome:Complex1849
+H2AC20	controls-state-change-of	IFNA10	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2AC20	controls-transport-of	IFNA10	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2AC20	controls-state-change-of	IFNA13	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2AC20	controls-transport-of	IFNA13	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2AC20	controls-state-change-of	IFNA14	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2AC20	controls-transport-of	IFNA14	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2AC20	controls-state-change-of	IFNA16	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2AC20	controls-transport-of	IFNA16	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2AC20	controls-state-change-of	IFNA17	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2AC20	controls-transport-of	IFNA17	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2AC20	controls-state-change-of	IFNA1	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2AC20	controls-transport-of	IFNA1	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2AC20	controls-state-change-of	IFNA21	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2AC20	controls-transport-of	IFNA21	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2AC20	controls-state-change-of	IFNA2	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2AC20	controls-transport-of	IFNA2	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2AC20	controls-state-change-of	IFNA4	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2AC20	controls-transport-of	IFNA4	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2AC20	controls-state-change-of	IFNA5	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2AC20	controls-transport-of	IFNA5	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2AC20	controls-state-change-of	IFNA6	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2AC20	controls-transport-of	IFNA6	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2AC20	controls-state-change-of	IFNA7	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2AC20	controls-transport-of	IFNA7	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2AC20	controls-state-change-of	IFNA8	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2AC20	controls-transport-of	IFNA8	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2AC20	controls-state-change-of	IFNAR2	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2AC20	in-complex-with	IFNAR2	Reactome		Interferon alpha/beta signaling	reactome:Complex1808
+H2AC20	controls-state-change-of	IFNB1	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2AC20	controls-transport-of	IFNB1	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2AC20	controls-state-change-of	JAK1	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2AC20	in-complex-with	JAK1	Reactome		Interferon alpha/beta signaling	reactome:Complex1808
+H2AC20	controls-state-change-of	STAT2	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2AC20	in-complex-with	STAT2	Reactome		Interferon alpha/beta signaling	reactome:Complex1808
+H2BC10	controls-state-change-of	IFNA10	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC10	controls-transport-of	IFNA10	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC10	controls-state-change-of	IFNA13	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC10	controls-transport-of	IFNA13	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC10	controls-state-change-of	IFNA14	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC10	controls-transport-of	IFNA14	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC10	controls-state-change-of	IFNA16	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC10	controls-transport-of	IFNA16	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC10	controls-state-change-of	IFNA17	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC10	controls-transport-of	IFNA17	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC10	controls-state-change-of	IFNA1	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC10	controls-transport-of	IFNA1	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC10	controls-state-change-of	IFNA21	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC10	controls-transport-of	IFNA21	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC10	controls-state-change-of	IFNA2	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC10	controls-transport-of	IFNA2	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC10	controls-state-change-of	IFNA4	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC10	controls-transport-of	IFNA4	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC10	controls-state-change-of	IFNA5	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC10	controls-transport-of	IFNA5	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC10	controls-state-change-of	IFNA6	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC10	controls-transport-of	IFNA6	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC10	controls-state-change-of	IFNA7	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC10	controls-transport-of	IFNA7	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC10	controls-state-change-of	IFNA8	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC10	controls-transport-of	IFNA8	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC10	controls-state-change-of	IFNAR2	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC10	in-complex-with	IFNAR2	Reactome		Interferon alpha/beta signaling	reactome:Complex1808
+H2BC10	controls-state-change-of	IFNB1	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC10	controls-transport-of	IFNB1	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC10	controls-state-change-of	JAK1	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC10	in-complex-with	JAK1	Reactome		Interferon alpha/beta signaling	reactome:Complex1808
+H2BC10	controls-state-change-of	STAT2	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC10	in-complex-with	STAT2	Reactome		Interferon alpha/beta signaling	reactome:Complex1808
+H2BC13	controls-state-change-of	IFNA10	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC13	controls-transport-of	IFNA10	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC13	controls-state-change-of	IFNA13	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC13	controls-transport-of	IFNA13	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC13	controls-state-change-of	IFNA14	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC13	controls-transport-of	IFNA14	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC13	controls-state-change-of	IFNA16	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC13	controls-transport-of	IFNA16	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC13	controls-state-change-of	IFNA17	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC13	controls-transport-of	IFNA17	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC13	controls-state-change-of	IFNA1	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC13	controls-transport-of	IFNA1	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC13	controls-state-change-of	IFNA21	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC13	controls-transport-of	IFNA21	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC13	controls-state-change-of	IFNA2	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC13	controls-transport-of	IFNA2	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC13	controls-state-change-of	IFNA4	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC13	controls-transport-of	IFNA4	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC13	controls-state-change-of	IFNA5	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC13	controls-transport-of	IFNA5	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC13	controls-state-change-of	IFNA6	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC13	controls-transport-of	IFNA6	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC13	controls-state-change-of	IFNA7	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC13	controls-transport-of	IFNA7	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC13	controls-state-change-of	IFNA8	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC13	controls-transport-of	IFNA8	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC13	controls-state-change-of	IFNAR2	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC13	in-complex-with	IFNAR2	Reactome		Interferon alpha/beta signaling	reactome:Complex1808
+H2BC13	controls-state-change-of	IFNB1	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC13	controls-transport-of	IFNB1	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC13	controls-state-change-of	JAK1	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC13	in-complex-with	JAK1	Reactome		Interferon alpha/beta signaling	reactome:Complex1808
+H2BC13	controls-state-change-of	STAT2	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC13	in-complex-with	STAT2	Reactome		Interferon alpha/beta signaling	reactome:Complex1808
+H2BC4	controls-state-change-of	IFNA10	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC4	controls-transport-of	IFNA10	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC4	controls-state-change-of	IFNA13	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC4	controls-transport-of	IFNA13	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC4	controls-state-change-of	IFNA14	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC4	controls-transport-of	IFNA14	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC4	controls-state-change-of	IFNA16	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC4	controls-transport-of	IFNA16	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC4	controls-state-change-of	IFNA17	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC4	controls-transport-of	IFNA17	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC4	controls-state-change-of	IFNA1	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC4	controls-transport-of	IFNA1	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC4	controls-state-change-of	IFNA21	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC4	controls-transport-of	IFNA21	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC4	controls-state-change-of	IFNA2	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC4	controls-transport-of	IFNA2	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC4	controls-state-change-of	IFNA4	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC4	controls-transport-of	IFNA4	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC4	controls-state-change-of	IFNA5	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC4	controls-transport-of	IFNA5	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC4	controls-state-change-of	IFNA6	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC4	controls-transport-of	IFNA6	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC4	controls-state-change-of	IFNA7	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC4	controls-transport-of	IFNA7	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC4	controls-state-change-of	IFNA8	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC4	controls-transport-of	IFNA8	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC4	controls-state-change-of	IFNAR2	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC4	in-complex-with	IFNAR2	Reactome		Interferon alpha/beta signaling	reactome:Complex1808
+H2BC4	controls-state-change-of	IFNB1	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC4	controls-transport-of	IFNB1	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC4	controls-state-change-of	JAK1	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC4	in-complex-with	JAK1	Reactome		Interferon alpha/beta signaling	reactome:Complex1808
+H2BC4	controls-state-change-of	STAT2	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC4	in-complex-with	STAT2	Reactome		Interferon alpha/beta signaling	reactome:Complex1808
+H2BC6	controls-state-change-of	IFNA10	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC6	controls-transport-of	IFNA10	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC6	controls-state-change-of	IFNA13	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC6	controls-transport-of	IFNA13	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC6	controls-state-change-of	IFNA14	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC6	controls-transport-of	IFNA14	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC6	controls-state-change-of	IFNA16	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC6	controls-transport-of	IFNA16	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC6	controls-state-change-of	IFNA17	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC6	controls-transport-of	IFNA17	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC6	controls-state-change-of	IFNA1	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC6	controls-transport-of	IFNA1	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC6	controls-state-change-of	IFNA21	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC6	controls-transport-of	IFNA21	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC6	controls-state-change-of	IFNA2	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC6	controls-transport-of	IFNA2	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC6	controls-state-change-of	IFNA4	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC6	controls-transport-of	IFNA4	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC6	controls-state-change-of	IFNA5	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC6	controls-transport-of	IFNA5	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC6	controls-state-change-of	IFNA6	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC6	controls-transport-of	IFNA6	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC6	controls-state-change-of	IFNA7	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC6	controls-transport-of	IFNA7	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC6	controls-state-change-of	IFNA8	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC6	controls-transport-of	IFNA8	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC6	controls-state-change-of	IFNAR2	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC6	in-complex-with	IFNAR2	Reactome		Interferon alpha/beta signaling	reactome:Complex1808
+H2BC6	controls-state-change-of	IFNB1	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC6	controls-transport-of	IFNB1	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC6	controls-state-change-of	JAK1	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC6	in-complex-with	JAK1	Reactome		Interferon alpha/beta signaling	reactome:Complex1808
+H2BC6	controls-state-change-of	STAT2	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC6	in-complex-with	STAT2	Reactome		Interferon alpha/beta signaling	reactome:Complex1808
+H2BC7	controls-state-change-of	IFNA10	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC7	controls-transport-of	IFNA10	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC7	controls-state-change-of	IFNA13	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC7	controls-transport-of	IFNA13	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC7	controls-state-change-of	IFNA14	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC7	controls-transport-of	IFNA14	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC7	controls-state-change-of	IFNA16	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC7	controls-transport-of	IFNA16	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC7	controls-state-change-of	IFNA17	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC7	controls-transport-of	IFNA17	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC7	controls-state-change-of	IFNA1	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC7	controls-transport-of	IFNA1	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC7	controls-state-change-of	IFNA21	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC7	controls-transport-of	IFNA21	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC7	controls-state-change-of	IFNA2	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC7	controls-transport-of	IFNA2	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC7	controls-state-change-of	IFNA4	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC7	controls-transport-of	IFNA4	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC7	controls-state-change-of	IFNA5	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC7	controls-transport-of	IFNA5	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC7	controls-state-change-of	IFNA6	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC7	controls-transport-of	IFNA6	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC7	controls-state-change-of	IFNA7	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC7	controls-transport-of	IFNA7	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC7	controls-state-change-of	IFNA8	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC7	controls-transport-of	IFNA8	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC7	controls-state-change-of	IFNAR2	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC7	in-complex-with	IFNAR2	Reactome		Interferon alpha/beta signaling	reactome:Complex1808
+H2BC7	controls-state-change-of	IFNB1	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC7	controls-transport-of	IFNB1	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC7	controls-state-change-of	JAK1	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC7	in-complex-with	JAK1	Reactome		Interferon alpha/beta signaling	reactome:Complex1808
+H2BC7	controls-state-change-of	STAT2	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC7	in-complex-with	STAT2	Reactome		Interferon alpha/beta signaling	reactome:Complex1808
+H2BC8	controls-state-change-of	IFNA10	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC8	controls-transport-of	IFNA10	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC8	controls-state-change-of	IFNA13	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC8	controls-transport-of	IFNA13	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC8	controls-state-change-of	IFNA14	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC8	controls-transport-of	IFNA14	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC8	controls-state-change-of	IFNA16	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC8	controls-transport-of	IFNA16	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC8	controls-state-change-of	IFNA17	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC8	controls-transport-of	IFNA17	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC8	controls-state-change-of	IFNA1	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC8	controls-transport-of	IFNA1	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC8	controls-state-change-of	IFNA21	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC8	controls-transport-of	IFNA21	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC8	controls-state-change-of	IFNA2	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC8	controls-transport-of	IFNA2	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC8	controls-state-change-of	IFNA4	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC8	controls-transport-of	IFNA4	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC8	controls-state-change-of	IFNA5	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC8	controls-transport-of	IFNA5	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC8	controls-state-change-of	IFNA6	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC8	controls-transport-of	IFNA6	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC8	controls-state-change-of	IFNA7	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC8	controls-transport-of	IFNA7	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC8	controls-state-change-of	IFNA8	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC8	controls-transport-of	IFNA8	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC8	controls-state-change-of	IFNAR2	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC8	in-complex-with	IFNAR2	Reactome		Interferon alpha/beta signaling	reactome:Complex1808
+H2BC8	controls-state-change-of	IFNB1	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC8	controls-transport-of	IFNB1	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC8	controls-state-change-of	JAK1	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC8	in-complex-with	JAK1	Reactome		Interferon alpha/beta signaling	reactome:Complex1808
+H2BC8	controls-state-change-of	STAT2	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+H2BC8	in-complex-with	STAT2	Reactome		Interferon alpha/beta signaling	reactome:Complex1808
+IFNA10	controls-state-change-of	IFNAR1	Reactome	7526154;8605876	Interferon alpha/beta signaling	reactome:Catalysis659;http://bioregistry.io/reactome:R-HSA-909730
+IFNA10	in-complex-with	IFNAR1	Reactome		Interferon alpha/beta signaling	reactome:Complex1811;reactome:Complex1821;reactome:Complex1826;reactome:Complex1824;reactome:Complex1813;reactome:Complex1819;reactome:Complex1817
+IFNA10	in-complex-with	IFNAR2	Reactome		Interferon alpha/beta signaling	reactome:Complex1821;reactome:Complex1815;reactome:Complex1826;reactome:Complex1824;reactome:Complex1807
+IFNA10	controls-state-change-of	JAK1	Reactome	11100472;8702790;9334213	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-909729;reactome:Catalysis658
+IFNA10	in-complex-with	JAK1	Reactome		Interferon alpha/beta signaling	reactome:Complex1821;reactome:Complex1815;reactome:Complex1826;reactome:Complex1824;reactome:Complex1807
+IFNA10	in-complex-with	SOCS1	Reactome		Interferon alpha/beta signaling	reactome:Complex1817
+IFNA10	in-complex-with	SOCS3	Reactome		Interferon alpha/beta signaling	reactome:Complex1817
+IFNA10	controls-phosphorylation-of	STAT1	Reactome	17351669;7510216	Interferon alpha/beta signaling	reactome:Catalysis662;http://bioregistry.io/reactome:R-HSA-909718
+IFNA10	controls-state-change-of	STAT1	Reactome	10982844;16214811;17351669;32953130;7510216;8232552	Interferon alpha/beta signaling	reactome:Catalysis662;http://bioregistry.io/reactome:R-HSA-909718;http://bioregistry.io/reactome:R-HSA-909726;reactome:Catalysis661
+IFNA10	in-complex-with	STAT1	Reactome		Interferon alpha/beta signaling	reactome:Complex1826
+IFNA10	in-complex-with	STAT2	Reactome		Interferon alpha/beta signaling	reactome:Complex1821;reactome:Complex1815;reactome:Complex1826;reactome:Complex1824;reactome:Complex1807
+IFNA10	controls-state-change-of	TYK2	Reactome	11100472;8702790;9334213	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-909729;reactome:Catalysis658
+IFNA10	in-complex-with	TYK2	Reactome		Interferon alpha/beta signaling	reactome:Complex1811;reactome:Complex1821;reactome:Complex1826;reactome:Complex1813;reactome:Complex1824;reactome:Complex1819;reactome:Complex1817
+IFNA13	controls-state-change-of	IFNAR1	Reactome	7526154;8605876	Interferon alpha/beta signaling	reactome:Catalysis659;http://bioregistry.io/reactome:R-HSA-909730
+IFNA13	in-complex-with	IFNAR1	Reactome		Interferon alpha/beta signaling	reactome:Complex1811;reactome:Complex1821;reactome:Complex1826;reactome:Complex1824;reactome:Complex1813;reactome:Complex1819;reactome:Complex1817
+IFNA13	in-complex-with	IFNAR2	Reactome		Interferon alpha/beta signaling	reactome:Complex1821;reactome:Complex1815;reactome:Complex1826;reactome:Complex1824;reactome:Complex1807
+IFNA13	controls-state-change-of	JAK1	Reactome	11100472;8702790;9334213	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-909729;reactome:Catalysis658
+IFNA13	in-complex-with	JAK1	Reactome		Interferon alpha/beta signaling	reactome:Complex1821;reactome:Complex1815;reactome:Complex1826;reactome:Complex1824;reactome:Complex1807
+IFNA13	in-complex-with	SOCS1	Reactome		Interferon alpha/beta signaling	reactome:Complex1817
+IFNA13	in-complex-with	SOCS3	Reactome		Interferon alpha/beta signaling	reactome:Complex1817
+IFNA13	controls-phosphorylation-of	STAT1	Reactome	17351669;7510216	Interferon alpha/beta signaling	reactome:Catalysis662;http://bioregistry.io/reactome:R-HSA-909718
+IFNA13	controls-state-change-of	STAT1	Reactome	10982844;16214811;17351669;32953130;7510216;8232552	Interferon alpha/beta signaling	reactome:Catalysis662;http://bioregistry.io/reactome:R-HSA-909718;http://bioregistry.io/reactome:R-HSA-909726;reactome:Catalysis661
+IFNA13	in-complex-with	STAT1	Reactome		Interferon alpha/beta signaling	reactome:Complex1826
+IFNA13	in-complex-with	STAT2	Reactome		Interferon alpha/beta signaling	reactome:Complex1821;reactome:Complex1826;reactome:Complex1815;reactome:Complex1824;reactome:Complex1807
+IFNA13	controls-state-change-of	TYK2	Reactome	11100472;8702790;9334213	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-909729;reactome:Catalysis658
+IFNA13	in-complex-with	TYK2	Reactome		Interferon alpha/beta signaling	reactome:Complex1811;reactome:Complex1821;reactome:Complex1826;reactome:Complex1813;reactome:Complex1824;reactome:Complex1819;reactome:Complex1817
+IFNA14	controls-state-change-of	IFNAR1	Reactome	7526154;8605876	Interferon alpha/beta signaling	reactome:Catalysis659;http://bioregistry.io/reactome:R-HSA-909730
+IFNA14	in-complex-with	IFNAR1	Reactome		Interferon alpha/beta signaling	reactome:Complex1811;reactome:Complex1821;reactome:Complex1826;reactome:Complex1824;reactome:Complex1813;reactome:Complex1819;reactome:Complex1817
+IFNA14	in-complex-with	IFNAR2	Reactome		Interferon alpha/beta signaling	reactome:Complex1821;reactome:Complex1815;reactome:Complex1826;reactome:Complex1824;reactome:Complex1807
+IFNA14	controls-state-change-of	JAK1	Reactome	11100472;8702790;9334213	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-909729;reactome:Catalysis658
+IFNA14	in-complex-with	JAK1	Reactome		Interferon alpha/beta signaling	reactome:Complex1821;reactome:Complex1815;reactome:Complex1826;reactome:Complex1824;reactome:Complex1807
+IFNA14	in-complex-with	SOCS1	Reactome		Interferon alpha/beta signaling	reactome:Complex1817
+IFNA14	in-complex-with	SOCS3	Reactome		Interferon alpha/beta signaling	reactome:Complex1817
+IFNA14	controls-phosphorylation-of	STAT1	Reactome	17351669;7510216	Interferon alpha/beta signaling	reactome:Catalysis662;http://bioregistry.io/reactome:R-HSA-909718
+IFNA14	controls-state-change-of	STAT1	Reactome	10982844;16214811;17351669;32953130;7510216;8232552	Interferon alpha/beta signaling	reactome:Catalysis662;http://bioregistry.io/reactome:R-HSA-909718;http://bioregistry.io/reactome:R-HSA-909726;reactome:Catalysis661
+IFNA14	in-complex-with	STAT1	Reactome		Interferon alpha/beta signaling	reactome:Complex1826
+IFNA14	in-complex-with	STAT2	Reactome		Interferon alpha/beta signaling	reactome:Complex1821;reactome:Complex1815;reactome:Complex1826;reactome:Complex1824;reactome:Complex1807
+IFNA14	controls-state-change-of	TYK2	Reactome	11100472;8702790;9334213	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-909729;reactome:Catalysis658
+IFNA14	in-complex-with	TYK2	Reactome		Interferon alpha/beta signaling	reactome:Complex1811;reactome:Complex1821;reactome:Complex1826;reactome:Complex1813;reactome:Complex1824;reactome:Complex1819;reactome:Complex1817
+IFNA16	controls-state-change-of	IFNAR1	Reactome	7526154;8605876	Interferon alpha/beta signaling	reactome:Catalysis659;http://bioregistry.io/reactome:R-HSA-909730
+IFNA16	in-complex-with	IFNAR1	Reactome		Interferon alpha/beta signaling	reactome:Complex1811;reactome:Complex1821;reactome:Complex1826;reactome:Complex1824;reactome:Complex1813;reactome:Complex1819;reactome:Complex1817
+IFNA16	in-complex-with	IFNAR2	Reactome		Interferon alpha/beta signaling	reactome:Complex1821;reactome:Complex1815;reactome:Complex1826;reactome:Complex1824;reactome:Complex1807
+IFNA16	controls-state-change-of	JAK1	Reactome	11100472;8702790;9334213	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-909729;reactome:Catalysis658
+IFNA16	in-complex-with	JAK1	Reactome		Interferon alpha/beta signaling	reactome:Complex1821;reactome:Complex1815;reactome:Complex1826;reactome:Complex1824;reactome:Complex1807
+IFNA16	in-complex-with	SOCS1	Reactome		Interferon alpha/beta signaling	reactome:Complex1817
+IFNA16	in-complex-with	SOCS3	Reactome		Interferon alpha/beta signaling	reactome:Complex1817
+IFNA16	controls-phosphorylation-of	STAT1	Reactome	17351669;7510216	Interferon alpha/beta signaling	reactome:Catalysis662;http://bioregistry.io/reactome:R-HSA-909718
+IFNA16	controls-state-change-of	STAT1	Reactome	10982844;16214811;17351669;32953130;7510216;8232552	Interferon alpha/beta signaling	reactome:Catalysis662;http://bioregistry.io/reactome:R-HSA-909718;http://bioregistry.io/reactome:R-HSA-909726;reactome:Catalysis661
+IFNA16	in-complex-with	STAT1	Reactome		Interferon alpha/beta signaling	reactome:Complex1826
+IFNA16	in-complex-with	STAT2	Reactome		Interferon alpha/beta signaling	reactome:Complex1821;reactome:Complex1815;reactome:Complex1826;reactome:Complex1824;reactome:Complex1807
+IFNA16	controls-state-change-of	TYK2	Reactome	11100472;8702790;9334213	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-909729;reactome:Catalysis658
+IFNA16	in-complex-with	TYK2	Reactome		Interferon alpha/beta signaling	reactome:Complex1811;reactome:Complex1821;reactome:Complex1826;reactome:Complex1813;reactome:Complex1824;reactome:Complex1819;reactome:Complex1817
+IFNA17	controls-state-change-of	IFNAR1	Reactome	7526154;8605876	Interferon alpha/beta signaling	reactome:Catalysis659;http://bioregistry.io/reactome:R-HSA-909730
+IFNA17	in-complex-with	IFNAR1	Reactome		Interferon alpha/beta signaling	reactome:Complex1811;reactome:Complex1821;reactome:Complex1826;reactome:Complex1824;reactome:Complex1813;reactome:Complex1819;reactome:Complex1817
+IFNA17	in-complex-with	IFNAR2	Reactome		Interferon alpha/beta signaling	reactome:Complex1821;reactome:Complex1815;reactome:Complex1826;reactome:Complex1824;reactome:Complex1807
+IFNA17	controls-state-change-of	JAK1	Reactome	11100472;8702790;9334213	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-909729;reactome:Catalysis658
+IFNA17	in-complex-with	JAK1	Reactome		Interferon alpha/beta signaling	reactome:Complex1821;reactome:Complex1815;reactome:Complex1826;reactome:Complex1824;reactome:Complex1807
+IFNA17	in-complex-with	SOCS1	Reactome		Interferon alpha/beta signaling	reactome:Complex1817
+IFNA17	in-complex-with	SOCS3	Reactome		Interferon alpha/beta signaling	reactome:Complex1817
+IFNA17	controls-phosphorylation-of	STAT1	Reactome	17351669;7510216	Interferon alpha/beta signaling	reactome:Catalysis662;http://bioregistry.io/reactome:R-HSA-909718
+IFNA17	controls-state-change-of	STAT1	Reactome	10982844;16214811;17351669;32953130;7510216;8232552	Interferon alpha/beta signaling	reactome:Catalysis662;http://bioregistry.io/reactome:R-HSA-909718;http://bioregistry.io/reactome:R-HSA-909726;reactome:Catalysis661
+IFNA17	in-complex-with	STAT1	Reactome		Interferon alpha/beta signaling	reactome:Complex1826
+IFNA17	in-complex-with	STAT2	Reactome		Interferon alpha/beta signaling	reactome:Complex1821;reactome:Complex1815;reactome:Complex1826;reactome:Complex1824;reactome:Complex1807
+IFNA17	controls-state-change-of	TYK2	Reactome	11100472;8702790;9334213	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-909729;reactome:Catalysis658
+IFNA17	in-complex-with	TYK2	Reactome		Interferon alpha/beta signaling	reactome:Complex1811;reactome:Complex1821;reactome:Complex1826;reactome:Complex1813;reactome:Complex1824;reactome:Complex1819;reactome:Complex1817
+IFNA1	controls-state-change-of	IFNAR1	Reactome	7526154;8605876	Interferon alpha/beta signaling	reactome:Catalysis659;http://bioregistry.io/reactome:R-HSA-909730
+IFNA1	in-complex-with	IFNAR1	Reactome		Interferon alpha/beta signaling	reactome:Complex1811;reactome:Complex1821;reactome:Complex1826;reactome:Complex1824;reactome:Complex1813;reactome:Complex1819;reactome:Complex1817
+IFNA1	in-complex-with	IFNAR2	Reactome		Interferon alpha/beta signaling	reactome:Complex1821;reactome:Complex1815;reactome:Complex1826;reactome:Complex1824;reactome:Complex1807
+IFNA1	controls-state-change-of	JAK1	Reactome	11100472;8702790;9334213	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-909729;reactome:Catalysis658
+IFNA1	in-complex-with	JAK1	Reactome		Interferon alpha/beta signaling	reactome:Complex1821;reactome:Complex1815;reactome:Complex1826;reactome:Complex1824;reactome:Complex1807
+IFNA1	in-complex-with	SOCS1	Reactome		Interferon alpha/beta signaling	reactome:Complex1817
+IFNA1	in-complex-with	SOCS3	Reactome		Interferon alpha/beta signaling	reactome:Complex1817
+IFNA1	controls-phosphorylation-of	STAT1	Reactome	17351669;7510216	Interferon alpha/beta signaling	reactome:Catalysis662;http://bioregistry.io/reactome:R-HSA-909718
+IFNA1	controls-state-change-of	STAT1	Reactome	10982844;16214811;17351669;32953130;7510216;8232552	Interferon alpha/beta signaling	reactome:Catalysis662;http://bioregistry.io/reactome:R-HSA-909718;http://bioregistry.io/reactome:R-HSA-909726;reactome:Catalysis661
+IFNA1	in-complex-with	STAT1	Reactome		Interferon alpha/beta signaling	reactome:Complex1826
+IFNA1	in-complex-with	STAT2	Reactome		Interferon alpha/beta signaling	reactome:Complex1821;reactome:Complex1826;reactome:Complex1815;reactome:Complex1824;reactome:Complex1807
+IFNA1	controls-state-change-of	TYK2	Reactome	11100472;8702790;9334213	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-909729;reactome:Catalysis658
+IFNA1	in-complex-with	TYK2	Reactome		Interferon alpha/beta signaling	reactome:Complex1811;reactome:Complex1821;reactome:Complex1826;reactome:Complex1813;reactome:Complex1824;reactome:Complex1819;reactome:Complex1817
+IFNA21	controls-state-change-of	IFNAR1	Reactome	7526154;8605876	Interferon alpha/beta signaling	reactome:Catalysis659;http://bioregistry.io/reactome:R-HSA-909730
+IFNA21	in-complex-with	IFNAR1	Reactome		Interferon alpha/beta signaling	reactome:Complex1811;reactome:Complex1821;reactome:Complex1826;reactome:Complex1824;reactome:Complex1813;reactome:Complex1819;reactome:Complex1817
+IFNA21	in-complex-with	IFNAR2	Reactome		Interferon alpha/beta signaling	reactome:Complex1821;reactome:Complex1815;reactome:Complex1826;reactome:Complex1824;reactome:Complex1807
+IFNA21	controls-state-change-of	JAK1	Reactome	11100472;8702790;9334213	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-909729;reactome:Catalysis658
+IFNA21	in-complex-with	JAK1	Reactome		Interferon alpha/beta signaling	reactome:Complex1821;reactome:Complex1815;reactome:Complex1826;reactome:Complex1824;reactome:Complex1807
+IFNA21	in-complex-with	SOCS1	Reactome		Interferon alpha/beta signaling	reactome:Complex1817
+IFNA21	in-complex-with	SOCS3	Reactome		Interferon alpha/beta signaling	reactome:Complex1817
+IFNA21	controls-phosphorylation-of	STAT1	Reactome	17351669;7510216	Interferon alpha/beta signaling	reactome:Catalysis662;http://bioregistry.io/reactome:R-HSA-909718
+IFNA21	controls-state-change-of	STAT1	Reactome	10982844;16214811;17351669;32953130;7510216;8232552	Interferon alpha/beta signaling	reactome:Catalysis662;http://bioregistry.io/reactome:R-HSA-909718;http://bioregistry.io/reactome:R-HSA-909726;reactome:Catalysis661
+IFNA21	in-complex-with	STAT1	Reactome		Interferon alpha/beta signaling	reactome:Complex1826
+IFNA21	in-complex-with	STAT2	Reactome		Interferon alpha/beta signaling	reactome:Complex1821;reactome:Complex1815;reactome:Complex1826;reactome:Complex1824;reactome:Complex1807
+IFNA21	controls-state-change-of	TYK2	Reactome	11100472;8702790;9334213	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-909729;reactome:Catalysis658
+IFNA21	in-complex-with	TYK2	Reactome		Interferon alpha/beta signaling	reactome:Complex1811;reactome:Complex1821;reactome:Complex1826;reactome:Complex1813;reactome:Complex1824;reactome:Complex1819;reactome:Complex1817
+IFNA2	controls-state-change-of	IFNAR1	Reactome	7526154;8605876	Interferon alpha/beta signaling	reactome:Catalysis659;http://bioregistry.io/reactome:R-HSA-909730
+IFNA2	in-complex-with	IFNAR1	Reactome		Interferon alpha/beta signaling	reactome:Complex1811;reactome:Complex1821;reactome:Complex1826;reactome:Complex1824;reactome:Complex1813;reactome:Complex1819;reactome:Complex1817
+IFNA2	in-complex-with	IFNAR2	Reactome		Interferon alpha/beta signaling	reactome:Complex1821;reactome:Complex1815;reactome:Complex1826;reactome:Complex1824;reactome:Complex1807
+IFNA2	controls-state-change-of	JAK1	Reactome	11100472;8702790;9334213	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-909729;reactome:Catalysis658
+IFNA2	in-complex-with	JAK1	Reactome		Interferon alpha/beta signaling	reactome:Complex1821;reactome:Complex1815;reactome:Complex1826;reactome:Complex1824;reactome:Complex1807
+IFNA2	in-complex-with	SOCS1	Reactome		Interferon alpha/beta signaling	reactome:Complex1817
+IFNA2	in-complex-with	SOCS3	Reactome		Interferon alpha/beta signaling	reactome:Complex1817
+IFNA2	controls-phosphorylation-of	STAT1	Reactome	17351669;7510216	Interferon alpha/beta signaling	reactome:Catalysis662;http://bioregistry.io/reactome:R-HSA-909718
+IFNA2	controls-state-change-of	STAT1	Reactome	10982844;16214811;17351669;32953130;7510216;8232552	Interferon alpha/beta signaling	reactome:Catalysis662;http://bioregistry.io/reactome:R-HSA-909718;http://bioregistry.io/reactome:R-HSA-909726;reactome:Catalysis661
+IFNA2	in-complex-with	STAT1	Reactome		Interferon alpha/beta signaling	reactome:Complex1826
+IFNA2	in-complex-with	STAT2	Reactome		Interferon alpha/beta signaling	reactome:Complex1821;reactome:Complex1815;reactome:Complex1826;reactome:Complex1824;reactome:Complex1807
+IFNA2	controls-state-change-of	TYK2	Reactome	11100472;8702790;9334213	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-909729;reactome:Catalysis658
+IFNA2	in-complex-with	TYK2	Reactome		Interferon alpha/beta signaling	reactome:Complex1811;reactome:Complex1821;reactome:Complex1826;reactome:Complex1813;reactome:Complex1824;reactome:Complex1819;reactome:Complex1817
+IFNA4	controls-state-change-of	IFNAR1	Reactome	7526154;8605876	Interferon alpha/beta signaling	reactome:Catalysis659;http://bioregistry.io/reactome:R-HSA-909730
+IFNA4	in-complex-with	IFNAR1	Reactome		Interferon alpha/beta signaling	reactome:Complex1811;reactome:Complex1821;reactome:Complex1826;reactome:Complex1824;reactome:Complex1813;reactome:Complex1819;reactome:Complex1817
+IFNA4	in-complex-with	IFNAR2	Reactome		Interferon alpha/beta signaling	reactome:Complex1821;reactome:Complex1815;reactome:Complex1826;reactome:Complex1824;reactome:Complex1807
+IFNA4	controls-state-change-of	JAK1	Reactome	11100472;8702790;9334213	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-909729;reactome:Catalysis658
+IFNA4	in-complex-with	JAK1	Reactome		Interferon alpha/beta signaling	reactome:Complex1821;reactome:Complex1815;reactome:Complex1826;reactome:Complex1824;reactome:Complex1807
+IFNA4	in-complex-with	SOCS1	Reactome		Interferon alpha/beta signaling	reactome:Complex1817
+IFNA4	in-complex-with	SOCS3	Reactome		Interferon alpha/beta signaling	reactome:Complex1817
+IFNA4	controls-phosphorylation-of	STAT1	Reactome	17351669;7510216	Interferon alpha/beta signaling	reactome:Catalysis662;http://bioregistry.io/reactome:R-HSA-909718
+IFNA4	controls-state-change-of	STAT1	Reactome	10982844;16214811;17351669;32953130;7510216;8232552	Interferon alpha/beta signaling	reactome:Catalysis662;http://bioregistry.io/reactome:R-HSA-909718;http://bioregistry.io/reactome:R-HSA-909726;reactome:Catalysis661
+IFNA4	in-complex-with	STAT1	Reactome		Interferon alpha/beta signaling	reactome:Complex1826
+IFNA4	in-complex-with	STAT2	Reactome		Interferon alpha/beta signaling	reactome:Complex1821;reactome:Complex1815;reactome:Complex1826;reactome:Complex1824;reactome:Complex1807
+IFNA4	controls-state-change-of	TYK2	Reactome	11100472;8702790;9334213	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-909729;reactome:Catalysis658
+IFNA4	in-complex-with	TYK2	Reactome		Interferon alpha/beta signaling	reactome:Complex1811;reactome:Complex1821;reactome:Complex1826;reactome:Complex1813;reactome:Complex1824;reactome:Complex1819;reactome:Complex1817
+IFNA5	controls-state-change-of	IFNAR1	Reactome	7526154;8605876	Interferon alpha/beta signaling	reactome:Catalysis659;http://bioregistry.io/reactome:R-HSA-909730
+IFNA5	in-complex-with	IFNAR1	Reactome		Interferon alpha/beta signaling	reactome:Complex1811;reactome:Complex1821;reactome:Complex1826;reactome:Complex1824;reactome:Complex1813;reactome:Complex1819;reactome:Complex1817
+IFNA5	in-complex-with	IFNAR2	Reactome		Interferon alpha/beta signaling	reactome:Complex1821;reactome:Complex1815;reactome:Complex1826;reactome:Complex1824;reactome:Complex1807
+IFNA5	controls-state-change-of	JAK1	Reactome	11100472;8702790;9334213	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-909729;reactome:Catalysis658
+IFNA5	in-complex-with	JAK1	Reactome		Interferon alpha/beta signaling	reactome:Complex1821;reactome:Complex1815;reactome:Complex1826;reactome:Complex1824;reactome:Complex1807
+IFNA5	in-complex-with	SOCS1	Reactome		Interferon alpha/beta signaling	reactome:Complex1817
+IFNA5	in-complex-with	SOCS3	Reactome		Interferon alpha/beta signaling	reactome:Complex1817
+IFNA5	controls-phosphorylation-of	STAT1	Reactome	17351669;7510216	Interferon alpha/beta signaling	reactome:Catalysis662;http://bioregistry.io/reactome:R-HSA-909718
+IFNA5	controls-state-change-of	STAT1	Reactome	10982844;16214811;17351669;32953130;7510216;8232552	Interferon alpha/beta signaling	reactome:Catalysis662;http://bioregistry.io/reactome:R-HSA-909718;http://bioregistry.io/reactome:R-HSA-909726;reactome:Catalysis661
+IFNA5	in-complex-with	STAT1	Reactome		Interferon alpha/beta signaling	reactome:Complex1826
+IFNA5	in-complex-with	STAT2	Reactome		Interferon alpha/beta signaling	reactome:Complex1821;reactome:Complex1815;reactome:Complex1826;reactome:Complex1824;reactome:Complex1807
+IFNA5	controls-state-change-of	TYK2	Reactome	11100472;8702790;9334213	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-909729;reactome:Catalysis658
+IFNA5	in-complex-with	TYK2	Reactome		Interferon alpha/beta signaling	reactome:Complex1811;reactome:Complex1821;reactome:Complex1826;reactome:Complex1813;reactome:Complex1824;reactome:Complex1819;reactome:Complex1817
+IFNA6	controls-state-change-of	IFNAR1	Reactome	7526154;8605876	Interferon alpha/beta signaling	reactome:Catalysis659;http://bioregistry.io/reactome:R-HSA-909730
+IFNA6	in-complex-with	IFNAR1	Reactome		Interferon alpha/beta signaling	reactome:Complex1811;reactome:Complex1821;reactome:Complex1826;reactome:Complex1824;reactome:Complex1813;reactome:Complex1819;reactome:Complex1817
+IFNA6	in-complex-with	IFNAR2	Reactome		Interferon alpha/beta signaling	reactome:Complex1821;reactome:Complex1815;reactome:Complex1826;reactome:Complex1824;reactome:Complex1807
+IFNA6	controls-state-change-of	JAK1	Reactome	11100472;8702790;9334213	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-909729;reactome:Catalysis658
+IFNA6	in-complex-with	JAK1	Reactome		Interferon alpha/beta signaling	reactome:Complex1821;reactome:Complex1815;reactome:Complex1826;reactome:Complex1824;reactome:Complex1807
+IFNA6	in-complex-with	SOCS1	Reactome		Interferon alpha/beta signaling	reactome:Complex1817
+IFNA6	in-complex-with	SOCS3	Reactome		Interferon alpha/beta signaling	reactome:Complex1817
+IFNA6	controls-phosphorylation-of	STAT1	Reactome	17351669;7510216	Interferon alpha/beta signaling	reactome:Catalysis662;http://bioregistry.io/reactome:R-HSA-909718
+IFNA6	controls-state-change-of	STAT1	Reactome	10982844;16214811;17351669;32953130;7510216;8232552	Interferon alpha/beta signaling	reactome:Catalysis662;http://bioregistry.io/reactome:R-HSA-909718;http://bioregistry.io/reactome:R-HSA-909726;reactome:Catalysis661
+IFNA6	in-complex-with	STAT1	Reactome		Interferon alpha/beta signaling	reactome:Complex1826
+IFNA6	in-complex-with	STAT2	Reactome		Interferon alpha/beta signaling	reactome:Complex1821;reactome:Complex1815;reactome:Complex1826;reactome:Complex1824;reactome:Complex1807
+IFNA6	controls-state-change-of	TYK2	Reactome	11100472;8702790;9334213	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-909729;reactome:Catalysis658
+IFNA6	in-complex-with	TYK2	Reactome		Interferon alpha/beta signaling	reactome:Complex1811;reactome:Complex1821;reactome:Complex1826;reactome:Complex1813;reactome:Complex1824;reactome:Complex1819;reactome:Complex1817
+IFNA7	controls-state-change-of	IFNAR1	Reactome	7526154;8605876	Interferon alpha/beta signaling	reactome:Catalysis659;http://bioregistry.io/reactome:R-HSA-909730
+IFNA7	in-complex-with	IFNAR1	Reactome		Interferon alpha/beta signaling	reactome:Complex1811;reactome:Complex1821;reactome:Complex1826;reactome:Complex1824;reactome:Complex1813;reactome:Complex1819;reactome:Complex1817
+IFNA7	in-complex-with	IFNAR2	Reactome		Interferon alpha/beta signaling	reactome:Complex1821;reactome:Complex1815;reactome:Complex1826;reactome:Complex1824;reactome:Complex1807
+IFNA7	controls-state-change-of	JAK1	Reactome	11100472;8702790;9334213	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-909729;reactome:Catalysis658
+IFNA7	in-complex-with	JAK1	Reactome		Interferon alpha/beta signaling	reactome:Complex1821;reactome:Complex1815;reactome:Complex1826;reactome:Complex1824;reactome:Complex1807
+IFNA7	in-complex-with	SOCS1	Reactome		Interferon alpha/beta signaling	reactome:Complex1817
+IFNA7	in-complex-with	SOCS3	Reactome		Interferon alpha/beta signaling	reactome:Complex1817
+IFNA7	controls-phosphorylation-of	STAT1	Reactome	17351669;7510216	Interferon alpha/beta signaling	reactome:Catalysis662;http://bioregistry.io/reactome:R-HSA-909718
+IFNA7	controls-state-change-of	STAT1	Reactome	10982844;16214811;17351669;32953130;7510216;8232552	Interferon alpha/beta signaling	reactome:Catalysis662;http://bioregistry.io/reactome:R-HSA-909718;http://bioregistry.io/reactome:R-HSA-909726;reactome:Catalysis661
+IFNA7	in-complex-with	STAT1	Reactome		Interferon alpha/beta signaling	reactome:Complex1826
+IFNA7	in-complex-with	STAT2	Reactome		Interferon alpha/beta signaling	reactome:Complex1821;reactome:Complex1815;reactome:Complex1826;reactome:Complex1824;reactome:Complex1807
+IFNA7	controls-state-change-of	TYK2	Reactome	11100472;8702790;9334213	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-909729;reactome:Catalysis658
+IFNA7	in-complex-with	TYK2	Reactome		Interferon alpha/beta signaling	reactome:Complex1811;reactome:Complex1821;reactome:Complex1826;reactome:Complex1813;reactome:Complex1824;reactome:Complex1819;reactome:Complex1817
+IFNA8	controls-state-change-of	IFNAR1	Reactome	7526154;8605876	Interferon alpha/beta signaling	reactome:Catalysis659;http://bioregistry.io/reactome:R-HSA-909730
+IFNA8	in-complex-with	IFNAR1	Reactome		Interferon alpha/beta signaling	reactome:Complex1811;reactome:Complex1821;reactome:Complex1826;reactome:Complex1824;reactome:Complex1813;reactome:Complex1819;reactome:Complex1817
+IFNA8	in-complex-with	IFNAR2	Reactome		Interferon alpha/beta signaling	reactome:Complex1821;reactome:Complex1815;reactome:Complex1826;reactome:Complex1824;reactome:Complex1807
+IFNA8	controls-state-change-of	JAK1	Reactome	11100472;8702790;9334213	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-909729;reactome:Catalysis658
+IFNA8	in-complex-with	JAK1	Reactome		Interferon alpha/beta signaling	reactome:Complex1821;reactome:Complex1815;reactome:Complex1826;reactome:Complex1824;reactome:Complex1807
+IFNA8	in-complex-with	SOCS1	Reactome		Interferon alpha/beta signaling	reactome:Complex1817
+IFNA8	in-complex-with	SOCS3	Reactome		Interferon alpha/beta signaling	reactome:Complex1817
+IFNA8	controls-phosphorylation-of	STAT1	Reactome	17351669;7510216	Interferon alpha/beta signaling	reactome:Catalysis662;http://bioregistry.io/reactome:R-HSA-909718
+IFNA8	controls-state-change-of	STAT1	Reactome	10982844;16214811;17351669;32953130;7510216;8232552	Interferon alpha/beta signaling	reactome:Catalysis662;http://bioregistry.io/reactome:R-HSA-909718;http://bioregistry.io/reactome:R-HSA-909726;reactome:Catalysis661
+IFNA8	in-complex-with	STAT1	Reactome		Interferon alpha/beta signaling	reactome:Complex1826
+IFNA8	in-complex-with	STAT2	Reactome		Interferon alpha/beta signaling	reactome:Complex1821;reactome:Complex1815;reactome:Complex1826;reactome:Complex1824;reactome:Complex1807
+IFNA8	controls-state-change-of	TYK2	Reactome	11100472;8702790;9334213	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-909729;reactome:Catalysis658
+IFNA8	in-complex-with	TYK2	Reactome		Interferon alpha/beta signaling	reactome:Complex1811;reactome:Complex1821;reactome:Complex1826;reactome:Complex1813;reactome:Complex1824;reactome:Complex1819;reactome:Complex1817
+IFNAR1	in-complex-with	IFNAR2	Reactome		Interferon alpha/beta signaling	reactome:Complex1811;reactome:Complex1821;reactome:Complex1826;reactome:Complex1824;reactome:Complex1813;reactome:Complex1819;reactome:Complex1817
+IFNAR1	in-complex-with	IFNB1	Reactome		Interferon alpha/beta signaling	reactome:Complex1811;reactome:Complex1821;reactome:Complex1826;reactome:Complex1813;reactome:Complex1824;reactome:Complex1819;reactome:Complex1817
+IFNAR1	controls-state-change-of	JAK1	Reactome	11100472;8702790;9334213	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-909729;reactome:Catalysis658
+IFNAR1	in-complex-with	JAK1	Reactome		Interferon alpha/beta signaling	reactome:Complex1811;reactome:Complex1821;reactome:Complex1826;reactome:Complex1824;reactome:Complex1813;reactome:Complex1819;reactome:Complex1817
+IFNAR1	in-complex-with	SOCS1	Reactome		Interferon alpha/beta signaling	reactome:Complex1818
+IFNAR1	in-complex-with	SOCS3	Reactome		Interferon alpha/beta signaling	reactome:Complex1818
+IFNAR1	controls-phosphorylation-of	STAT1	Reactome	17351669;7510216	Interferon alpha/beta signaling	reactome:Catalysis662;http://bioregistry.io/reactome:R-HSA-909718
+IFNAR1	controls-state-change-of	STAT1	Reactome	10982844;16214811;17351669;32953130;7510216;8232552	Interferon alpha/beta signaling	reactome:Catalysis662;http://bioregistry.io/reactome:R-HSA-909718;http://bioregistry.io/reactome:R-HSA-909726;reactome:Catalysis661
+IFNAR1	in-complex-with	STAT1	Reactome		Interferon alpha/beta signaling	reactome:Complex1827
+IFNAR1	in-complex-with	STAT2	Reactome		Interferon alpha/beta signaling	reactome:Complex1822;reactome:Complex1811;reactome:Complex1821;reactome:Complex1827;reactome:Complex1826;reactome:Complex1825;reactome:Complex1824;reactome:Complex1813;reactome:Complex1819;reactome:Complex1817
+IFNAR1	controls-state-change-of	TYK2	Reactome	11100472;8702790;9334213	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-909729;reactome:Catalysis658
+IFNAR1	in-complex-with	TYK2	Reactome		Interferon alpha/beta signaling	reactome:Complex1822;reactome:Complex1810;reactome:Complex1820;reactome:Complex1827;reactome:Complex1825;reactome:Complex1814;reactome:Complex1818
+IFNAR2	controls-state-change-of	IFNAR1	Reactome	7526154;8605876	Interferon alpha/beta signaling	reactome:Catalysis659;http://bioregistry.io/reactome:R-HSA-909730
+IFNAR2	in-complex-with	IFNB1	Reactome		Interferon alpha/beta signaling	reactome:Complex1821;reactome:Complex1815;reactome:Complex1826;reactome:Complex1824;reactome:Complex1807
+IFNAR2	controls-state-change-of	JAK1	Reactome	11100472;8702790;9334213	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-909729;reactome:Catalysis658
+IFNAR2	in-complex-with	JAK1	Reactome		Interferon alpha/beta signaling	reactome:Complex1816;reactome:Complex1806
+IFNAR2	in-complex-with	LAT2	Reactome		Interferon alpha/beta signaling	reactome:Complex1808
+IFNAR2	in-complex-with	SOCS1	Reactome		Interferon alpha/beta signaling	reactome:Complex1817
+IFNAR2	in-complex-with	SOCS3	Reactome		Interferon alpha/beta signaling	reactome:Complex1817
+IFNAR2	controls-phosphorylation-of	STAT1	Reactome	17351669;7510216	Interferon alpha/beta signaling	reactome:Catalysis662;http://bioregistry.io/reactome:R-HSA-909718
+IFNAR2	controls-state-change-of	STAT1	Reactome	10982844;16214811;17351669;32953130;7510216;8232552	Interferon alpha/beta signaling	reactome:Catalysis662;http://bioregistry.io/reactome:R-HSA-909718;http://bioregistry.io/reactome:R-HSA-909726;reactome:Catalysis661
+IFNAR2	in-complex-with	STAT1	Reactome		Interferon alpha/beta signaling	reactome:Complex1826
+IFNAR2	in-complex-with	STAT2	Reactome		Interferon alpha/beta signaling	reactome:Complex1821;reactome:Complex1816;reactome:Complex1826;reactome:Complex1824;reactome:Complex1806
+IFNAR2	controls-state-change-of	TYK2	Reactome	11100472;8702790;9334213	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-909729;reactome:Catalysis658
+IFNAR2	in-complex-with	TYK2	Reactome		Interferon alpha/beta signaling	reactome:Complex1811;reactome:Complex1821;reactome:Complex1826;reactome:Complex1824;reactome:Complex1813;reactome:Complex1819;reactome:Complex1817
+IFNAR2	in-complex-with	ZNF84	Reactome		Interferon alpha/beta signaling	reactome:Complex1808
+IFNB1	controls-state-change-of	IFNAR1	Reactome	7526154;8605876	Interferon alpha/beta signaling	reactome:Catalysis659;http://bioregistry.io/reactome:R-HSA-909730
+IFNB1	controls-state-change-of	JAK1	Reactome	11100472;8702790;9334213	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-909729;reactome:Catalysis658
+IFNB1	in-complex-with	JAK1	Reactome		Interferon alpha/beta signaling	reactome:Complex1821;reactome:Complex1815;reactome:Complex1826;reactome:Complex1824;reactome:Complex1807
+IFNB1	in-complex-with	SOCS1	Reactome		Interferon alpha/beta signaling	reactome:Complex1817
+IFNB1	in-complex-with	SOCS3	Reactome		Interferon alpha/beta signaling	reactome:Complex1817
+IFNB1	controls-phosphorylation-of	STAT1	Reactome	17351669;7510216	Interferon alpha/beta signaling	reactome:Catalysis662;http://bioregistry.io/reactome:R-HSA-909718
+IFNB1	controls-state-change-of	STAT1	Reactome	10982844;16214811;17351669;32953130;7510216;8232552	Interferon alpha/beta signaling	reactome:Catalysis662;http://bioregistry.io/reactome:R-HSA-909718;http://bioregistry.io/reactome:R-HSA-909726;reactome:Catalysis661
+IFNB1	in-complex-with	STAT1	Reactome		Interferon alpha/beta signaling	reactome:Complex1826
+IFNB1	in-complex-with	STAT2	Reactome		Interferon alpha/beta signaling	reactome:Complex1821;reactome:Complex1815;reactome:Complex1826;reactome:Complex1824;reactome:Complex1807
+IFNB1	controls-state-change-of	TYK2	Reactome	11100472;8702790;9334213	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-909729;reactome:Catalysis658
+IFNB1	in-complex-with	TYK2	Reactome		Interferon alpha/beta signaling	reactome:Complex1811;reactome:Complex1821;reactome:Complex1826;reactome:Complex1813;reactome:Complex1824;reactome:Complex1819;reactome:Complex1817
+IRF9	in-complex-with	KPNA1	Reactome		Interferon alpha/beta signaling	reactome:Complex1834
+IRF9	in-complex-with	KPNB1	Reactome		Interferon alpha/beta signaling	reactome:Complex1837
+IRF9	in-complex-with	STAT1	Reactome		Interferon alpha/beta signaling	reactome:Complex1839;reactome:Complex1830
+IRF9	in-complex-with	STAT2	Reactome		Interferon alpha/beta signaling	reactome:Complex1839;reactome:Complex1830
+JAK1	controls-state-change-of	IFNAR1	Reactome	7526154;8605876	Interferon alpha/beta signaling	reactome:Catalysis659;http://bioregistry.io/reactome:R-HSA-909730
+JAK1	in-complex-with	LAT2	Reactome		Interferon alpha/beta signaling	reactome:Complex1808
+JAK1	in-complex-with	SOCS1	Reactome		Interferon alpha/beta signaling	reactome:Complex1817
+JAK1	in-complex-with	SOCS3	Reactome		Interferon alpha/beta signaling	reactome:Complex1817
+JAK1	controls-phosphorylation-of	STAT1	Reactome	17351669;7510216	Interferon alpha/beta signaling	reactome:Catalysis662;http://bioregistry.io/reactome:R-HSA-909718
+JAK1	controls-state-change-of	STAT1	Reactome	10982844;16214811;17351669;32953130;7510216;8232552	Interferon alpha/beta signaling	reactome:Catalysis662;http://bioregistry.io/reactome:R-HSA-909718;http://bioregistry.io/reactome:R-HSA-909726;reactome:Catalysis661
+JAK1	in-complex-with	STAT1	Reactome		Interferon alpha/beta signaling	reactome:Complex1826
+JAK1	in-complex-with	STAT2	Reactome		Interferon alpha/beta signaling	reactome:Complex1821;reactome:Complex1816;reactome:Complex1826;reactome:Complex1824;reactome:Complex1806
+JAK1	in-complex-with	TYK2	Reactome		Interferon alpha/beta signaling	reactome:Complex1811;reactome:Complex1821;reactome:Complex1826;reactome:Complex1824;reactome:Complex1813;reactome:Complex1819;reactome:Complex1817
+JAK1	in-complex-with	ZNF84	Reactome		Interferon alpha/beta signaling	reactome:Complex1808
+KPNA1	in-complex-with	KPNB1	Reactome		Interferon alpha/beta signaling	reactome:Complex1838;reactome:Complex1837
+KPNA1	in-complex-with	STAT1	Reactome		Interferon alpha/beta signaling	reactome:Complex1834;reactome:Complex1838;reactome:Complex1835
+KPNA1	in-complex-with	STAT2	Reactome		Interferon alpha/beta signaling	reactome:Complex1834
+KPNB1	in-complex-with	STAT1	Reactome		Interferon alpha/beta signaling	reactome:Complex1838;reactome:Complex1837
+KPNB1	in-complex-with	STAT2	Reactome		Interferon alpha/beta signaling	reactome:Complex1837
+LAT2	controls-state-change-of	IFNA10	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+LAT2	controls-transport-of	IFNA10	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+LAT2	controls-state-change-of	IFNA13	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+LAT2	controls-transport-of	IFNA13	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+LAT2	controls-state-change-of	IFNA14	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+LAT2	controls-transport-of	IFNA14	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+LAT2	controls-state-change-of	IFNA16	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+LAT2	controls-transport-of	IFNA16	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+LAT2	controls-state-change-of	IFNA17	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+LAT2	controls-transport-of	IFNA17	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+LAT2	controls-state-change-of	IFNA1	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+LAT2	controls-transport-of	IFNA1	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+LAT2	controls-state-change-of	IFNA21	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+LAT2	controls-transport-of	IFNA21	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+LAT2	controls-state-change-of	IFNA2	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+LAT2	controls-transport-of	IFNA2	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+LAT2	controls-state-change-of	IFNA4	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+LAT2	controls-transport-of	IFNA4	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+LAT2	controls-state-change-of	IFNA5	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+LAT2	controls-transport-of	IFNA5	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+LAT2	controls-state-change-of	IFNA6	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+LAT2	controls-transport-of	IFNA6	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+LAT2	controls-state-change-of	IFNA7	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+LAT2	controls-transport-of	IFNA7	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+LAT2	controls-state-change-of	IFNA8	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+LAT2	controls-transport-of	IFNA8	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+LAT2	controls-state-change-of	IFNAR2	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+LAT2	controls-state-change-of	IFNB1	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+LAT2	controls-transport-of	IFNB1	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+LAT2	controls-state-change-of	JAK1	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+LAT2	controls-state-change-of	STAT2	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+LAT2	in-complex-with	STAT2	Reactome		Interferon alpha/beta signaling	reactome:Complex1808
+PTPN11	controls-state-change-of	IFNA10	Reactome	10982844;16214811;32953130;8232552	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-912707;http://bioregistry.io/reactome:R-HSA-909726
+PTPN11	controls-state-change-of	IFNA13	Reactome	10982844;16214811;32953130;8232552	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-912707;http://bioregistry.io/reactome:R-HSA-909726
+PTPN11	controls-state-change-of	IFNA14	Reactome	10982844;16214811;32953130;8232552	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-912707;http://bioregistry.io/reactome:R-HSA-909726
+PTPN11	controls-state-change-of	IFNA16	Reactome	10982844;16214811;32953130;8232552	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-912707;http://bioregistry.io/reactome:R-HSA-909726
+PTPN11	controls-state-change-of	IFNA17	Reactome	10982844;16214811;32953130;8232552	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-912707;http://bioregistry.io/reactome:R-HSA-909726
+PTPN11	controls-state-change-of	IFNA1	Reactome	10982844;16214811;32953130;8232552	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-912707;http://bioregistry.io/reactome:R-HSA-909726
+PTPN11	controls-state-change-of	IFNA21	Reactome	10982844;16214811;32953130;8232552	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-912707;http://bioregistry.io/reactome:R-HSA-909726
+PTPN11	controls-state-change-of	IFNA2	Reactome	10982844;16214811;32953130;8232552	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-912707;http://bioregistry.io/reactome:R-HSA-909726
+PTPN11	controls-state-change-of	IFNA4	Reactome	10982844;16214811;32953130;8232552	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-912707;http://bioregistry.io/reactome:R-HSA-909726
+PTPN11	controls-state-change-of	IFNA5	Reactome	10982844;16214811;32953130;8232552	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-912707;http://bioregistry.io/reactome:R-HSA-909726
+PTPN11	controls-state-change-of	IFNA6	Reactome	10982844;16214811;32953130;8232552	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-912707;http://bioregistry.io/reactome:R-HSA-909726
+PTPN11	controls-state-change-of	IFNA7	Reactome	10982844;16214811;32953130;8232552	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-912707;http://bioregistry.io/reactome:R-HSA-909726
+PTPN11	controls-state-change-of	IFNA8	Reactome	10982844;16214811;32953130;8232552	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-912707;http://bioregistry.io/reactome:R-HSA-909726
+PTPN11	controls-state-change-of	IFNAR1	Reactome	10982844;16214811;32953130;8232552	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-912707;http://bioregistry.io/reactome:R-HSA-909726
+PTPN11	controls-state-change-of	IFNAR2	Reactome	10982844;16214811;32953130;8232552	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-912707;http://bioregistry.io/reactome:R-HSA-909726
+PTPN11	controls-state-change-of	IFNB1	Reactome	10982844;16214811;32953130;8232552	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-912707;http://bioregistry.io/reactome:R-HSA-909726
+PTPN11	controls-state-change-of	JAK1	Reactome	10982844;16214811;32953130;8232552	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-912707;http://bioregistry.io/reactome:R-HSA-909726
+PTPN11	controls-phosphorylation-of	STAT1	Reactome	10982844;16214811;32953130;8232552	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-912707;http://bioregistry.io/reactome:R-HSA-909726
+PTPN11	controls-state-change-of	STAT1	Reactome	10982844;16214811;32953130;8232552	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-912707;http://bioregistry.io/reactome:R-HSA-909726
+PTPN11	controls-transport-of	STAT1	Reactome	10982844;16214811;32953130;8232552	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-912707;http://bioregistry.io/reactome:R-HSA-909726
+PTPN11	controls-state-change-of	STAT2	Reactome	10982844;16214811;32953130;8232552	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-912707;http://bioregistry.io/reactome:R-HSA-909726
+PTPN11	controls-state-change-of	TYK2	Reactome	10982844;16214811;32953130;8232552	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-912707;http://bioregistry.io/reactome:R-HSA-909726
+PTPN6	controls-state-change-of	IFNA10	Reactome	10982844;16214811;32953130;8232552	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-912707;http://bioregistry.io/reactome:R-HSA-909726
+PTPN6	controls-state-change-of	IFNA13	Reactome	10982844;16214811;32953130;8232552	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-912707;http://bioregistry.io/reactome:R-HSA-909726
+PTPN6	controls-state-change-of	IFNA14	Reactome	10982844;16214811;32953130;8232552	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-912707;http://bioregistry.io/reactome:R-HSA-909726
+PTPN6	controls-state-change-of	IFNA16	Reactome	10982844;16214811;32953130;8232552	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-912707;http://bioregistry.io/reactome:R-HSA-909726
+PTPN6	controls-state-change-of	IFNA17	Reactome	10982844;16214811;32953130;8232552	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-912707;http://bioregistry.io/reactome:R-HSA-909726
+PTPN6	controls-state-change-of	IFNA1	Reactome	10982844;16214811;32953130;8232552	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-912707;http://bioregistry.io/reactome:R-HSA-909726
+PTPN6	controls-state-change-of	IFNA21	Reactome	10982844;16214811;32953130;8232552	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-912707;http://bioregistry.io/reactome:R-HSA-909726
+PTPN6	controls-state-change-of	IFNA2	Reactome	10982844;16214811;32953130;8232552	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-912707;http://bioregistry.io/reactome:R-HSA-909726
+PTPN6	controls-state-change-of	IFNA4	Reactome	10982844;16214811;32953130;8232552	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-912707;http://bioregistry.io/reactome:R-HSA-909726
+PTPN6	controls-state-change-of	IFNA5	Reactome	10982844;16214811;32953130;8232552	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-912707;http://bioregistry.io/reactome:R-HSA-909726
+PTPN6	controls-state-change-of	IFNA6	Reactome	10982844;16214811;32953130;8232552	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-912707;http://bioregistry.io/reactome:R-HSA-909726
+PTPN6	controls-state-change-of	IFNA7	Reactome	10982844;16214811;32953130;8232552	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-912707;http://bioregistry.io/reactome:R-HSA-909726
+PTPN6	controls-state-change-of	IFNA8	Reactome	10982844;16214811;32953130;8232552	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-912707;http://bioregistry.io/reactome:R-HSA-909726
+PTPN6	controls-state-change-of	IFNAR1	Reactome	10982844;16214811;32953130;8232552	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-912707;http://bioregistry.io/reactome:R-HSA-909726
+PTPN6	controls-state-change-of	IFNAR2	Reactome	10982844;16214811;32953130;8232552	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-912707;http://bioregistry.io/reactome:R-HSA-909726
+PTPN6	controls-state-change-of	IFNB1	Reactome	10982844;16214811;32953130;8232552	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-912707;http://bioregistry.io/reactome:R-HSA-909726
+PTPN6	controls-state-change-of	JAK1	Reactome	10982844;16214811;32953130;8232552	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-912707;http://bioregistry.io/reactome:R-HSA-909726
+PTPN6	controls-phosphorylation-of	STAT1	Reactome	10982844;16214811;32953130;8232552	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-912707;http://bioregistry.io/reactome:R-HSA-909726
+PTPN6	controls-state-change-of	STAT1	Reactome	10982844;16214811;32953130;8232552	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-912707;http://bioregistry.io/reactome:R-HSA-909726
+PTPN6	controls-transport-of	STAT1	Reactome	10982844;16214811;32953130;8232552	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-912707;http://bioregistry.io/reactome:R-HSA-909726
+PTPN6	controls-state-change-of	STAT2	Reactome	10982844;16214811;32953130;8232552	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-912707;http://bioregistry.io/reactome:R-HSA-909726
+PTPN6	controls-state-change-of	TYK2	Reactome	10982844;16214811;32953130;8232552	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-912707;http://bioregistry.io/reactome:R-HSA-909726
+RPS27A	controls-state-change-of	IFNA10	Reactome	17251292;8605876	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-909719;reactome:Control182
+RPS27A	controls-state-change-of	IFNA13	Reactome	17251292;8605876	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-909719;reactome:Control182
+RPS27A	controls-state-change-of	IFNA14	Reactome	17251292;8605876	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-909719;reactome:Control182
+RPS27A	controls-state-change-of	IFNA16	Reactome	17251292;8605876	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-909719;reactome:Control182
+RPS27A	controls-state-change-of	IFNA17	Reactome	17251292;8605876	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-909719;reactome:Control182
+RPS27A	controls-state-change-of	IFNA1	Reactome	17251292;8605876	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-909719;reactome:Control182
+RPS27A	controls-state-change-of	IFNA21	Reactome	17251292;8605876	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-909719;reactome:Control182
+RPS27A	controls-state-change-of	IFNA2	Reactome	17251292;8605876	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-909719;reactome:Control182
+RPS27A	controls-state-change-of	IFNA4	Reactome	17251292;8605876	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-909719;reactome:Control182
+RPS27A	controls-state-change-of	IFNA5	Reactome	17251292;8605876	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-909719;reactome:Control182
+RPS27A	controls-state-change-of	IFNA6	Reactome	17251292;8605876	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-909719;reactome:Control182
+RPS27A	controls-state-change-of	IFNA7	Reactome	17251292;8605876	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-909719;reactome:Control182
+RPS27A	controls-state-change-of	IFNA8	Reactome	17251292;8605876	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-909719;reactome:Control182
+RPS27A	controls-state-change-of	IFNAR1	Reactome	17251292;8605876	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-909719;reactome:Control182
+RPS27A	controls-state-change-of	IFNAR2	Reactome	17251292;8605876	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-909719;reactome:Control182
+RPS27A	controls-state-change-of	IFNB1	Reactome	17251292;8605876	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-909719;reactome:Control182
+RPS27A	controls-state-change-of	JAK1	Reactome	17251292;8605876	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-909719;reactome:Control182
+RPS27A	controls-state-change-of	STAT2	Reactome	17251292;8605876	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-909719;reactome:Control182
+RPS27A	controls-transport-of	STAT2	Reactome	17251292;8605876	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-909719;reactome:Control182
+RPS27A	in-complex-with	STAT2	Reactome		Interferon alpha/beta signaling	reactome:Complex1823
+RPS27A	controls-state-change-of	TYK2	Reactome	17251292;8605876	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-909719;reactome:Control182
+SOCS1	controls-state-change-of	IFNA10	Reactome	11100472;8702790;9334213	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-912708;http://bioregistry.io/reactome:R-HSA-909729
+SOCS1	controls-state-change-of	IFNA13	Reactome	11100472;8702790;9334213	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-912708;http://bioregistry.io/reactome:R-HSA-909729
+SOCS1	controls-state-change-of	IFNA14	Reactome	11100472;8702790;9334213	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-912708;http://bioregistry.io/reactome:R-HSA-909729
+SOCS1	controls-state-change-of	IFNA16	Reactome	11100472;8702790;9334213	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-912708;http://bioregistry.io/reactome:R-HSA-909729
+SOCS1	controls-state-change-of	IFNA17	Reactome	11100472;8702790;9334213	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-912708;http://bioregistry.io/reactome:R-HSA-909729
+SOCS1	controls-state-change-of	IFNA1	Reactome	11100472;8702790;9334213	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-912708;http://bioregistry.io/reactome:R-HSA-909729
+SOCS1	controls-state-change-of	IFNA21	Reactome	11100472;8702790;9334213	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-912708;http://bioregistry.io/reactome:R-HSA-909729
+SOCS1	controls-state-change-of	IFNA2	Reactome	11100472;8702790;9334213	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-912708;http://bioregistry.io/reactome:R-HSA-909729
+SOCS1	controls-state-change-of	IFNA4	Reactome	11100472;8702790;9334213	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-912708;http://bioregistry.io/reactome:R-HSA-909729
+SOCS1	controls-state-change-of	IFNA5	Reactome	11100472;8702790;9334213	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-912708;http://bioregistry.io/reactome:R-HSA-909729
+SOCS1	controls-state-change-of	IFNA6	Reactome	11100472;8702790;9334213	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-912708;http://bioregistry.io/reactome:R-HSA-909729
+SOCS1	controls-state-change-of	IFNA7	Reactome	11100472;8702790;9334213	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-912708;http://bioregistry.io/reactome:R-HSA-909729
+SOCS1	controls-state-change-of	IFNA8	Reactome	11100472;8702790;9334213	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-912708;http://bioregistry.io/reactome:R-HSA-909729
+SOCS1	controls-state-change-of	IFNAR1	Reactome	11100472;8702790;9334213	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-912708;http://bioregistry.io/reactome:R-HSA-909729
+SOCS1	controls-state-change-of	IFNAR2	Reactome	11100472;8702790;9334213	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-912708;http://bioregistry.io/reactome:R-HSA-909729
+SOCS1	controls-state-change-of	IFNB1	Reactome	11100472;8702790;9334213	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-912708;http://bioregistry.io/reactome:R-HSA-909729
+SOCS1	controls-phosphorylation-of	JAK1	Reactome	11100472;8702790;9334213	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-912708;http://bioregistry.io/reactome:R-HSA-909729
+SOCS1	controls-state-change-of	JAK1	Reactome	11100472;8702790;9334213	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-912708;http://bioregistry.io/reactome:R-HSA-909729
+SOCS1	controls-state-change-of	STAT2	Reactome	11100472;8702790;9334213	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-912708;http://bioregistry.io/reactome:R-HSA-909729
+SOCS1	in-complex-with	STAT2	Reactome		Interferon alpha/beta signaling	reactome:Complex1817
+SOCS1	controls-phosphorylation-of	TYK2	Reactome	11100472;8702790;9334213	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-912708;http://bioregistry.io/reactome:R-HSA-909729
+SOCS1	controls-state-change-of	TYK2	Reactome	11100472;8702790;9334213	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-912708;http://bioregistry.io/reactome:R-HSA-909729
+SOCS1	in-complex-with	TYK2	Reactome		Interferon alpha/beta signaling	reactome:Complex1818
+SOCS3	controls-state-change-of	IFNA10	Reactome	11100472;8702790;9334213	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-912708;http://bioregistry.io/reactome:R-HSA-909729
+SOCS3	controls-state-change-of	IFNA13	Reactome	11100472;8702790;9334213	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-912708;http://bioregistry.io/reactome:R-HSA-909729
+SOCS3	controls-state-change-of	IFNA14	Reactome	11100472;8702790;9334213	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-912708;http://bioregistry.io/reactome:R-HSA-909729
+SOCS3	controls-state-change-of	IFNA16	Reactome	11100472;8702790;9334213	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-912708;http://bioregistry.io/reactome:R-HSA-909729
+SOCS3	controls-state-change-of	IFNA17	Reactome	11100472;8702790;9334213	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-912708;http://bioregistry.io/reactome:R-HSA-909729
+SOCS3	controls-state-change-of	IFNA1	Reactome	11100472;8702790;9334213	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-912708;http://bioregistry.io/reactome:R-HSA-909729
+SOCS3	controls-state-change-of	IFNA21	Reactome	11100472;8702790;9334213	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-912708;http://bioregistry.io/reactome:R-HSA-909729
+SOCS3	controls-state-change-of	IFNA2	Reactome	11100472;8702790;9334213	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-912708;http://bioregistry.io/reactome:R-HSA-909729
+SOCS3	controls-state-change-of	IFNA4	Reactome	11100472;8702790;9334213	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-912708;http://bioregistry.io/reactome:R-HSA-909729
+SOCS3	controls-state-change-of	IFNA5	Reactome	11100472;8702790;9334213	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-912708;http://bioregistry.io/reactome:R-HSA-909729
+SOCS3	controls-state-change-of	IFNA6	Reactome	11100472;8702790;9334213	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-912708;http://bioregistry.io/reactome:R-HSA-909729
+SOCS3	controls-state-change-of	IFNA7	Reactome	11100472;8702790;9334213	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-912708;http://bioregistry.io/reactome:R-HSA-909729
+SOCS3	controls-state-change-of	IFNA8	Reactome	11100472;8702790;9334213	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-912708;http://bioregistry.io/reactome:R-HSA-909729
+SOCS3	controls-state-change-of	IFNAR1	Reactome	11100472;8702790;9334213	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-912708;http://bioregistry.io/reactome:R-HSA-909729
+SOCS3	controls-state-change-of	IFNAR2	Reactome	11100472;8702790;9334213	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-912708;http://bioregistry.io/reactome:R-HSA-909729
+SOCS3	controls-state-change-of	IFNB1	Reactome	11100472;8702790;9334213	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-912708;http://bioregistry.io/reactome:R-HSA-909729
+SOCS3	controls-phosphorylation-of	JAK1	Reactome	11100472;8702790;9334213	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-912708;http://bioregistry.io/reactome:R-HSA-909729
+SOCS3	controls-state-change-of	JAK1	Reactome	11100472;8702790;9334213	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-912708;http://bioregistry.io/reactome:R-HSA-909729
+SOCS3	controls-state-change-of	STAT2	Reactome	11100472;8702790;9334213	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-912708;http://bioregistry.io/reactome:R-HSA-909729
+SOCS3	in-complex-with	STAT2	Reactome		Interferon alpha/beta signaling	reactome:Complex1817
+SOCS3	controls-phosphorylation-of	TYK2	Reactome	11100472;8702790;9334213	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-912708;http://bioregistry.io/reactome:R-HSA-909729
+SOCS3	controls-state-change-of	TYK2	Reactome	11100472;8702790;9334213	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-912708;http://bioregistry.io/reactome:R-HSA-909729
+SOCS3	in-complex-with	TYK2	Reactome		Interferon alpha/beta signaling	reactome:Complex1818
+STAT1	in-complex-with	STAT2	Reactome		Interferon alpha/beta signaling	reactome:Complex1826;reactome:Complex1828;reactome:Complex1840
+STAT1	in-complex-with	TYK2	Reactome		Interferon alpha/beta signaling	reactome:Complex1827
+STAT2	controls-state-change-of	IFNAR1	Reactome	7526154;8605876	Interferon alpha/beta signaling	reactome:Catalysis659;http://bioregistry.io/reactome:R-HSA-909730
+STAT2	controls-state-change-of	JAK1	Reactome	11100472;8702790;9334213	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-909729;reactome:Catalysis658
+STAT2	controls-phosphorylation-of	STAT1	Reactome	17351669;7510216	Interferon alpha/beta signaling	reactome:Catalysis662;http://bioregistry.io/reactome:R-HSA-909718
+STAT2	controls-state-change-of	STAT1	Reactome	10982844;16214811;17351669;32953130;7510216;8232552	Interferon alpha/beta signaling	reactome:Catalysis662;http://bioregistry.io/reactome:R-HSA-909718;http://bioregistry.io/reactome:R-HSA-909726;reactome:Catalysis661
+STAT2	controls-state-change-of	TYK2	Reactome	11100472;8702790;9334213	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-909729;reactome:Catalysis658
+STAT2	in-complex-with	TYK2	Reactome		Interferon alpha/beta signaling	reactome:Complex1811;reactome:Complex1822;reactome:Complex1821;reactome:Complex1827;reactome:Complex1826;reactome:Complex1825;reactome:Complex1824;reactome:Complex1813;reactome:Complex1819;reactome:Complex1817
+STAT2	in-complex-with	UBA52	Reactome		Interferon alpha/beta signaling	reactome:Complex1823
+STAT2	in-complex-with	UBB	Reactome		Interferon alpha/beta signaling	reactome:Complex1823
+STAT2	in-complex-with	UBC	Reactome		Interferon alpha/beta signaling	reactome:Complex1823
+STAT2	in-complex-with	ZNF84	Reactome		Interferon alpha/beta signaling	reactome:Complex1808
+TYK2	controls-state-change-of	IFNAR1	Reactome	7526154;8605876	Interferon alpha/beta signaling	reactome:Catalysis659;http://bioregistry.io/reactome:R-HSA-909730
+TYK2	controls-phosphorylation-of	STAT1	Reactome	17351669;7510216	Interferon alpha/beta signaling	reactome:Catalysis662;http://bioregistry.io/reactome:R-HSA-909718
+TYK2	controls-state-change-of	STAT1	Reactome	10982844;16214811;17351669;32953130;7510216;8232552	Interferon alpha/beta signaling	reactome:Catalysis662;http://bioregistry.io/reactome:R-HSA-909718;http://bioregistry.io/reactome:R-HSA-909726;reactome:Catalysis661
+UBA52	controls-state-change-of	IFNA10	Reactome	17251292;8605876	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-909719;reactome:Control182
+UBA52	controls-state-change-of	IFNA13	Reactome	17251292;8605876	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-909719;reactome:Control182
+UBA52	controls-state-change-of	IFNA14	Reactome	17251292;8605876	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-909719;reactome:Control182
+UBA52	controls-state-change-of	IFNA16	Reactome	17251292;8605876	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-909719;reactome:Control182
+UBA52	controls-state-change-of	IFNA17	Reactome	17251292;8605876	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-909719;reactome:Control182
+UBA52	controls-state-change-of	IFNA1	Reactome	17251292;8605876	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-909719;reactome:Control182
+UBA52	controls-state-change-of	IFNA21	Reactome	17251292;8605876	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-909719;reactome:Control182
+UBA52	controls-state-change-of	IFNA2	Reactome	17251292;8605876	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-909719;reactome:Control182
+UBA52	controls-state-change-of	IFNA4	Reactome	17251292;8605876	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-909719;reactome:Control182
+UBA52	controls-state-change-of	IFNA5	Reactome	17251292;8605876	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-909719;reactome:Control182
+UBA52	controls-state-change-of	IFNA6	Reactome	17251292;8605876	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-909719;reactome:Control182
+UBA52	controls-state-change-of	IFNA7	Reactome	17251292;8605876	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-909719;reactome:Control182
+UBA52	controls-state-change-of	IFNA8	Reactome	17251292;8605876	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-909719;reactome:Control182
+UBA52	controls-state-change-of	IFNAR1	Reactome	17251292;8605876	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-909719;reactome:Control182
+UBA52	controls-state-change-of	IFNAR2	Reactome	17251292;8605876	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-909719;reactome:Control182
+UBA52	controls-state-change-of	IFNB1	Reactome	17251292;8605876	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-909719;reactome:Control182
+UBA52	controls-state-change-of	JAK1	Reactome	17251292;8605876	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-909719;reactome:Control182
+UBA52	controls-state-change-of	STAT2	Reactome	17251292;8605876	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-909719;reactome:Control182
+UBA52	controls-transport-of	STAT2	Reactome	17251292;8605876	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-909719;reactome:Control182
+UBA52	controls-state-change-of	TYK2	Reactome	17251292;8605876	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-909719;reactome:Control182
+UBB	controls-state-change-of	IFNA10	Reactome	17251292;8605876	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-909719;reactome:Control182
+UBB	controls-state-change-of	IFNA13	Reactome	17251292;8605876	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-909719;reactome:Control182
+UBB	controls-state-change-of	IFNA14	Reactome	17251292;8605876	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-909719;reactome:Control182
+UBB	controls-state-change-of	IFNA16	Reactome	17251292;8605876	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-909719;reactome:Control182
+UBB	controls-state-change-of	IFNA17	Reactome	17251292;8605876	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-909719;reactome:Control182
+UBB	controls-state-change-of	IFNA1	Reactome	17251292;8605876	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-909719;reactome:Control182
+UBB	controls-state-change-of	IFNA21	Reactome	17251292;8605876	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-909719;reactome:Control182
+UBB	controls-state-change-of	IFNA2	Reactome	17251292;8605876	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-909719;reactome:Control182
+UBB	controls-state-change-of	IFNA4	Reactome	17251292;8605876	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-909719;reactome:Control182
+UBB	controls-state-change-of	IFNA5	Reactome	17251292;8605876	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-909719;reactome:Control182
+UBB	controls-state-change-of	IFNA6	Reactome	17251292;8605876	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-909719;reactome:Control182
+UBB	controls-state-change-of	IFNA7	Reactome	17251292;8605876	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-909719;reactome:Control182
+UBB	controls-state-change-of	IFNA8	Reactome	17251292;8605876	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-909719;reactome:Control182
+UBB	controls-state-change-of	IFNAR1	Reactome	17251292;8605876	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-909719;reactome:Control182
+UBB	controls-state-change-of	IFNAR2	Reactome	17251292;8605876	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-909719;reactome:Control182
+UBB	controls-state-change-of	IFNB1	Reactome	17251292;8605876	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-909719;reactome:Control182
+UBB	controls-state-change-of	JAK1	Reactome	17251292;8605876	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-909719;reactome:Control182
+UBB	controls-state-change-of	STAT2	Reactome	17251292;8605876	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-909719;reactome:Control182
+UBB	controls-transport-of	STAT2	Reactome	17251292;8605876	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-909719;reactome:Control182
+UBB	controls-state-change-of	TYK2	Reactome	17251292;8605876	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-909719;reactome:Control182
+UBC	controls-state-change-of	IFNA10	Reactome	17251292;8605876	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-909719;reactome:Control182
+UBC	controls-state-change-of	IFNA13	Reactome	17251292;8605876	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-909719;reactome:Control182
+UBC	controls-state-change-of	IFNA14	Reactome	17251292;8605876	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-909719;reactome:Control182
+UBC	controls-state-change-of	IFNA16	Reactome	17251292;8605876	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-909719;reactome:Control182
+UBC	controls-state-change-of	IFNA17	Reactome	17251292;8605876	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-909719;reactome:Control182
+UBC	controls-state-change-of	IFNA1	Reactome	17251292;8605876	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-909719;reactome:Control182
+UBC	controls-state-change-of	IFNA21	Reactome	17251292;8605876	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-909719;reactome:Control182
+UBC	controls-state-change-of	IFNA2	Reactome	17251292;8605876	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-909719;reactome:Control182
+UBC	controls-state-change-of	IFNA4	Reactome	17251292;8605876	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-909719;reactome:Control182
+UBC	controls-state-change-of	IFNA5	Reactome	17251292;8605876	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-909719;reactome:Control182
+UBC	controls-state-change-of	IFNA6	Reactome	17251292;8605876	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-909719;reactome:Control182
+UBC	controls-state-change-of	IFNA7	Reactome	17251292;8605876	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-909719;reactome:Control182
+UBC	controls-state-change-of	IFNA8	Reactome	17251292;8605876	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-909719;reactome:Control182
+UBC	controls-state-change-of	IFNAR1	Reactome	17251292;8605876	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-909719;reactome:Control182
+UBC	controls-state-change-of	IFNAR2	Reactome	17251292;8605876	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-909719;reactome:Control182
+UBC	controls-state-change-of	IFNB1	Reactome	17251292;8605876	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-909719;reactome:Control182
+UBC	controls-state-change-of	JAK1	Reactome	17251292;8605876	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-909719;reactome:Control182
+UBC	controls-state-change-of	STAT2	Reactome	17251292;8605876	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-909719;reactome:Control182
+UBC	controls-transport-of	STAT2	Reactome	17251292;8605876	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-909719;reactome:Control182
+UBC	controls-state-change-of	TYK2	Reactome	17251292;8605876	Interferon alpha/beta signaling	http://bioregistry.io/reactome:R-HSA-909719;reactome:Control182
+ZNF84	controls-state-change-of	IFNA10	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+ZNF84	controls-transport-of	IFNA10	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+ZNF84	controls-state-change-of	IFNA13	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+ZNF84	controls-transport-of	IFNA13	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+ZNF84	controls-state-change-of	IFNA14	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+ZNF84	controls-transport-of	IFNA14	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+ZNF84	controls-state-change-of	IFNA16	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+ZNF84	controls-transport-of	IFNA16	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+ZNF84	controls-state-change-of	IFNA17	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+ZNF84	controls-transport-of	IFNA17	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+ZNF84	controls-state-change-of	IFNA1	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+ZNF84	controls-transport-of	IFNA1	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+ZNF84	controls-state-change-of	IFNA21	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+ZNF84	controls-transport-of	IFNA21	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+ZNF84	controls-state-change-of	IFNA2	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+ZNF84	controls-transport-of	IFNA2	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+ZNF84	controls-state-change-of	IFNA4	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+ZNF84	controls-transport-of	IFNA4	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+ZNF84	controls-state-change-of	IFNA5	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+ZNF84	controls-transport-of	IFNA5	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+ZNF84	controls-state-change-of	IFNA6	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+ZNF84	controls-transport-of	IFNA6	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+ZNF84	controls-state-change-of	IFNA7	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+ZNF84	controls-transport-of	IFNA7	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+ZNF84	controls-state-change-of	IFNA8	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+ZNF84	controls-transport-of	IFNA8	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+ZNF84	controls-state-change-of	IFNAR2	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+ZNF84	controls-state-change-of	IFNB1	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+ZNF84	controls-transport-of	IFNB1	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+ZNF84	controls-state-change-of	JAK1	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+ZNF84	controls-state-change-of	STAT2	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control178;http://bioregistry.io/reactome:R-HSA-909720
+chebi:15871	chemical-affects	IFNA10	Reactome	10395669;11786546;12842042;15312780;15449939;15778442;16171819;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control179;http://bioregistry.io/reactome:R-HSA-909724;reactome:Control180;http://bioregistry.io/reactome:R-HSA-909720
+chebi:15871	chemical-affects	IFNA13	Reactome	10395669;11786546;12842042;15312780;15449939;15778442;16171819;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control179;http://bioregistry.io/reactome:R-HSA-909724;reactome:Control180;http://bioregistry.io/reactome:R-HSA-909720
+chebi:15871	chemical-affects	IFNA14	Reactome	10395669;11786546;12842042;15312780;15449939;15778442;16171819;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control179;http://bioregistry.io/reactome:R-HSA-909724;reactome:Control180;http://bioregistry.io/reactome:R-HSA-909720
+chebi:15871	chemical-affects	IFNA16	Reactome	10395669;11786546;12842042;15312780;15449939;15778442;16171819;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control179;http://bioregistry.io/reactome:R-HSA-909724;reactome:Control180;http://bioregistry.io/reactome:R-HSA-909720
+chebi:15871	chemical-affects	IFNA17	Reactome	10395669;11786546;12842042;15312780;15449939;15778442;16171819;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control179;http://bioregistry.io/reactome:R-HSA-909724;reactome:Control180;http://bioregistry.io/reactome:R-HSA-909720
+chebi:15871	chemical-affects	IFNA1	Reactome	10395669;11786546;12842042;15312780;15449939;15778442;16171819;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control179;http://bioregistry.io/reactome:R-HSA-909724;reactome:Control180;http://bioregistry.io/reactome:R-HSA-909720
+chebi:15871	chemical-affects	IFNA21	Reactome	10395669;11786546;12842042;15312780;15449939;15778442;16171819;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control179;http://bioregistry.io/reactome:R-HSA-909724;reactome:Control180;http://bioregistry.io/reactome:R-HSA-909720
+chebi:15871	chemical-affects	IFNA2	Reactome	10395669;11786546;12842042;15312780;15449939;15778442;16171819;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control179;http://bioregistry.io/reactome:R-HSA-909724;reactome:Control180;http://bioregistry.io/reactome:R-HSA-909720
+chebi:15871	chemical-affects	IFNA4	Reactome	10395669;11786546;12842042;15312780;15449939;15778442;16171819;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control179;http://bioregistry.io/reactome:R-HSA-909724;reactome:Control180;http://bioregistry.io/reactome:R-HSA-909720
+chebi:15871	chemical-affects	IFNA5	Reactome	10395669;11786546;12842042;15312780;15449939;15778442;16171819;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control179;http://bioregistry.io/reactome:R-HSA-909724;reactome:Control180;http://bioregistry.io/reactome:R-HSA-909720
+chebi:15871	chemical-affects	IFNA6	Reactome	10395669;11786546;12842042;15312780;15449939;15778442;16171819;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control179;http://bioregistry.io/reactome:R-HSA-909724;reactome:Control180;http://bioregistry.io/reactome:R-HSA-909720
+chebi:15871	chemical-affects	IFNA7	Reactome	10395669;11786546;12842042;15312780;15449939;15778442;16171819;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control179;http://bioregistry.io/reactome:R-HSA-909724;reactome:Control180;http://bioregistry.io/reactome:R-HSA-909720
+chebi:15871	chemical-affects	IFNA8	Reactome	10395669;11786546;12842042;15312780;15449939;15778442;16171819;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control179;http://bioregistry.io/reactome:R-HSA-909724;reactome:Control180;http://bioregistry.io/reactome:R-HSA-909720
+chebi:15871	chemical-affects	IFNAR1	Reactome	15312780;15449939;16171819;17969444	Interferon alpha/beta signaling	reactome:Complex1812;http://bioregistry.io/reactome:R-HSA-909724;reactome:Control180
+chebi:15871	chemical-affects	IFNAR2	Reactome	10395669;11786546;12842042;15312780;15449939;15778442;16171819;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control179;http://bioregistry.io/reactome:R-HSA-909724;reactome:Complex1809;reactome:Control180;http://bioregistry.io/reactome:R-HSA-909720
+chebi:15871	chemical-affects	IFNB1	Reactome	10395669;11786546;12842042;15312780;15449939;15778442;16171819;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control179;http://bioregistry.io/reactome:R-HSA-909724;reactome:Control180;http://bioregistry.io/reactome:R-HSA-909720
+chebi:15871	chemical-affects	JAK1	Reactome	10395669;11786546;12842042;15312780;15449939;15778442;16171819;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control179;http://bioregistry.io/reactome:R-HSA-909724;reactome:Complex1809;reactome:Control180;http://bioregistry.io/reactome:R-HSA-909720
+chebi:15871	chemical-affects	STAT2	Reactome	10395669;11786546;12842042;15312780;15449939;15778442;16171819;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control179;http://bioregistry.io/reactome:R-HSA-909724;reactome:Complex1809;reactome:Control180;http://bioregistry.io/reactome:R-HSA-909720
+chebi:15871	chemical-affects	TYK2	Reactome	15312780;15449939;16171819;17969444	Interferon alpha/beta signaling	reactome:Complex1812;http://bioregistry.io/reactome:R-HSA-909724;reactome:Control180
+chebi:16966	chemical-affects	IFNA10	Reactome	10395669;11786546;12842042;15312780;15449939;15778442;16171819;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control179;http://bioregistry.io/reactome:R-HSA-909724;reactome:Control180;http://bioregistry.io/reactome:R-HSA-909720
+chebi:16966	chemical-affects	IFNA13	Reactome	10395669;11786546;12842042;15312780;15449939;15778442;16171819;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control179;http://bioregistry.io/reactome:R-HSA-909724;reactome:Control180;http://bioregistry.io/reactome:R-HSA-909720
+chebi:16966	chemical-affects	IFNA14	Reactome	10395669;11786546;12842042;15312780;15449939;15778442;16171819;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control179;http://bioregistry.io/reactome:R-HSA-909724;reactome:Control180;http://bioregistry.io/reactome:R-HSA-909720
+chebi:16966	chemical-affects	IFNA16	Reactome	10395669;11786546;12842042;15312780;15449939;15778442;16171819;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control179;http://bioregistry.io/reactome:R-HSA-909724;reactome:Control180;http://bioregistry.io/reactome:R-HSA-909720
+chebi:16966	chemical-affects	IFNA17	Reactome	10395669;11786546;12842042;15312780;15449939;15778442;16171819;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control179;http://bioregistry.io/reactome:R-HSA-909724;reactome:Control180;http://bioregistry.io/reactome:R-HSA-909720
+chebi:16966	chemical-affects	IFNA1	Reactome	10395669;11786546;12842042;15312780;15449939;15778442;16171819;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control179;http://bioregistry.io/reactome:R-HSA-909724;reactome:Control180;http://bioregistry.io/reactome:R-HSA-909720
+chebi:16966	chemical-affects	IFNA21	Reactome	10395669;11786546;12842042;15312780;15449939;15778442;16171819;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control179;http://bioregistry.io/reactome:R-HSA-909724;reactome:Control180;http://bioregistry.io/reactome:R-HSA-909720
+chebi:16966	chemical-affects	IFNA2	Reactome	10395669;11786546;12842042;15312780;15449939;15778442;16171819;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control179;http://bioregistry.io/reactome:R-HSA-909724;reactome:Control180;http://bioregistry.io/reactome:R-HSA-909720
+chebi:16966	chemical-affects	IFNA4	Reactome	10395669;11786546;12842042;15312780;15449939;15778442;16171819;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control179;http://bioregistry.io/reactome:R-HSA-909724;reactome:Control180;http://bioregistry.io/reactome:R-HSA-909720
+chebi:16966	chemical-affects	IFNA5	Reactome	10395669;11786546;12842042;15312780;15449939;15778442;16171819;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control179;http://bioregistry.io/reactome:R-HSA-909724;reactome:Control180;http://bioregistry.io/reactome:R-HSA-909720
+chebi:16966	chemical-affects	IFNA6	Reactome	10395669;11786546;12842042;15312780;15449939;15778442;16171819;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control179;http://bioregistry.io/reactome:R-HSA-909724;reactome:Control180;http://bioregistry.io/reactome:R-HSA-909720
+chebi:16966	chemical-affects	IFNA7	Reactome	10395669;11786546;12842042;15312780;15449939;15778442;16171819;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control179;http://bioregistry.io/reactome:R-HSA-909724;reactome:Control180;http://bioregistry.io/reactome:R-HSA-909720
+chebi:16966	chemical-affects	IFNA8	Reactome	10395669;11786546;12842042;15312780;15449939;15778442;16171819;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control179;http://bioregistry.io/reactome:R-HSA-909724;reactome:Control180;http://bioregistry.io/reactome:R-HSA-909720
+chebi:16966	chemical-affects	IFNAR1	Reactome	15312780;15449939;16171819;17969444	Interferon alpha/beta signaling	reactome:Complex1812;http://bioregistry.io/reactome:R-HSA-909724;reactome:Control180
+chebi:16966	chemical-affects	IFNAR2	Reactome	10395669;11786546;12842042;15312780;15449939;15778442;16171819;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control179;http://bioregistry.io/reactome:R-HSA-909724;reactome:Complex1809;reactome:Control180;http://bioregistry.io/reactome:R-HSA-909720
+chebi:16966	chemical-affects	IFNB1	Reactome	10395669;11786546;12842042;15312780;15449939;15778442;16171819;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control179;http://bioregistry.io/reactome:R-HSA-909724;reactome:Control180;http://bioregistry.io/reactome:R-HSA-909720
+chebi:16966	chemical-affects	JAK1	Reactome	10395669;11786546;12842042;15312780;15449939;15778442;16171819;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control179;http://bioregistry.io/reactome:R-HSA-909724;reactome:Complex1809;reactome:Control180;http://bioregistry.io/reactome:R-HSA-909720
+chebi:16966	chemical-affects	STAT2	Reactome	10395669;11786546;12842042;15312780;15449939;15778442;16171819;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control179;http://bioregistry.io/reactome:R-HSA-909724;reactome:Complex1809;reactome:Control180;http://bioregistry.io/reactome:R-HSA-909720
+chebi:16966	chemical-affects	TYK2	Reactome	15312780;15449939;16171819;17969444	Interferon alpha/beta signaling	reactome:Complex1812;http://bioregistry.io/reactome:R-HSA-909724;reactome:Control180
+chebi:5677	chemical-affects	IFNA10	Reactome	10395669;11786546;12842042;15312780;15449939;15778442;16171819;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control179;http://bioregistry.io/reactome:R-HSA-909724;reactome:Control180;http://bioregistry.io/reactome:R-HSA-909720
+chebi:5677	chemical-affects	IFNA13	Reactome	10395669;11786546;12842042;15312780;15449939;15778442;16171819;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control179;http://bioregistry.io/reactome:R-HSA-909724;reactome:Control180;http://bioregistry.io/reactome:R-HSA-909720
+chebi:5677	chemical-affects	IFNA14	Reactome	10395669;11786546;12842042;15312780;15449939;15778442;16171819;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control179;http://bioregistry.io/reactome:R-HSA-909724;reactome:Control180;http://bioregistry.io/reactome:R-HSA-909720
+chebi:5677	chemical-affects	IFNA16	Reactome	10395669;11786546;12842042;15312780;15449939;15778442;16171819;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control179;http://bioregistry.io/reactome:R-HSA-909724;reactome:Control180;http://bioregistry.io/reactome:R-HSA-909720
+chebi:5677	chemical-affects	IFNA17	Reactome	10395669;11786546;12842042;15312780;15449939;15778442;16171819;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control179;http://bioregistry.io/reactome:R-HSA-909724;reactome:Control180;http://bioregistry.io/reactome:R-HSA-909720
+chebi:5677	chemical-affects	IFNA1	Reactome	10395669;11786546;12842042;15312780;15449939;15778442;16171819;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control179;http://bioregistry.io/reactome:R-HSA-909724;reactome:Control180;http://bioregistry.io/reactome:R-HSA-909720
+chebi:5677	chemical-affects	IFNA21	Reactome	10395669;11786546;12842042;15312780;15449939;15778442;16171819;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control179;http://bioregistry.io/reactome:R-HSA-909724;reactome:Control180;http://bioregistry.io/reactome:R-HSA-909720
+chebi:5677	chemical-affects	IFNA2	Reactome	10395669;11786546;12842042;15312780;15449939;15778442;16171819;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control179;http://bioregistry.io/reactome:R-HSA-909724;reactome:Control180;http://bioregistry.io/reactome:R-HSA-909720
+chebi:5677	chemical-affects	IFNA4	Reactome	10395669;11786546;12842042;15312780;15449939;15778442;16171819;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control179;http://bioregistry.io/reactome:R-HSA-909724;reactome:Control180;http://bioregistry.io/reactome:R-HSA-909720
+chebi:5677	chemical-affects	IFNA5	Reactome	10395669;11786546;12842042;15312780;15449939;15778442;16171819;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control179;http://bioregistry.io/reactome:R-HSA-909724;reactome:Control180;http://bioregistry.io/reactome:R-HSA-909720
+chebi:5677	chemical-affects	IFNA6	Reactome	10395669;11786546;12842042;15312780;15449939;15778442;16171819;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control179;http://bioregistry.io/reactome:R-HSA-909724;reactome:Control180;http://bioregistry.io/reactome:R-HSA-909720
+chebi:5677	chemical-affects	IFNA7	Reactome	10395669;11786546;12842042;15312780;15449939;15778442;16171819;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control179;http://bioregistry.io/reactome:R-HSA-909724;reactome:Control180;http://bioregistry.io/reactome:R-HSA-909720
+chebi:5677	chemical-affects	IFNA8	Reactome	10395669;11786546;12842042;15312780;15449939;15778442;16171819;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control179;http://bioregistry.io/reactome:R-HSA-909724;reactome:Control180;http://bioregistry.io/reactome:R-HSA-909720
+chebi:5677	chemical-affects	IFNAR1	Reactome	15312780;15449939;16171819;17969444	Interferon alpha/beta signaling	reactome:Complex1812;http://bioregistry.io/reactome:R-HSA-909724;reactome:Control180
+chebi:5677	chemical-affects	IFNAR2	Reactome	10395669;11786546;12842042;15312780;15449939;15778442;16171819;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control179;http://bioregistry.io/reactome:R-HSA-909724;reactome:Complex1809;reactome:Control180;http://bioregistry.io/reactome:R-HSA-909720
+chebi:5677	chemical-affects	IFNB1	Reactome	10395669;11786546;12842042;15312780;15449939;15778442;16171819;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control179;http://bioregistry.io/reactome:R-HSA-909724;reactome:Control180;http://bioregistry.io/reactome:R-HSA-909720
+chebi:5677	chemical-affects	JAK1	Reactome	10395669;11786546;12842042;15312780;15449939;15778442;16171819;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control179;http://bioregistry.io/reactome:R-HSA-909724;reactome:Complex1809;reactome:Control180;http://bioregistry.io/reactome:R-HSA-909720
+chebi:5677	chemical-affects	STAT2	Reactome	10395669;11786546;12842042;15312780;15449939;15778442;16171819;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control179;http://bioregistry.io/reactome:R-HSA-909724;reactome:Complex1809;reactome:Control180;http://bioregistry.io/reactome:R-HSA-909720
+chebi:5677	chemical-affects	TYK2	Reactome	15312780;15449939;16171819;17969444	Interferon alpha/beta signaling	reactome:Complex1812;http://bioregistry.io/reactome:R-HSA-909724;reactome:Control180
+chebi:9619	chemical-affects	IFNA10	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control179;http://bioregistry.io/reactome:R-HSA-909720
+chebi:9619	chemical-affects	IFNA13	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control179;http://bioregistry.io/reactome:R-HSA-909720
+chebi:9619	chemical-affects	IFNA14	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control179;http://bioregistry.io/reactome:R-HSA-909720
+chebi:9619	chemical-affects	IFNA16	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control179;http://bioregistry.io/reactome:R-HSA-909720
+chebi:9619	chemical-affects	IFNA17	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control179;http://bioregistry.io/reactome:R-HSA-909720
+chebi:9619	chemical-affects	IFNA1	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control179;http://bioregistry.io/reactome:R-HSA-909720
+chebi:9619	chemical-affects	IFNA21	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control179;http://bioregistry.io/reactome:R-HSA-909720
+chebi:9619	chemical-affects	IFNA2	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control179;http://bioregistry.io/reactome:R-HSA-909720
+chebi:9619	chemical-affects	IFNA4	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control179;http://bioregistry.io/reactome:R-HSA-909720
+chebi:9619	chemical-affects	IFNA5	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control179;http://bioregistry.io/reactome:R-HSA-909720
+chebi:9619	chemical-affects	IFNA6	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control179;http://bioregistry.io/reactome:R-HSA-909720
+chebi:9619	chemical-affects	IFNA7	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control179;http://bioregistry.io/reactome:R-HSA-909720
+chebi:9619	chemical-affects	IFNA8	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control179;http://bioregistry.io/reactome:R-HSA-909720
+chebi:9619	chemical-affects	IFNAR2	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control179;reactome:Complex1809;http://bioregistry.io/reactome:R-HSA-909720
+chebi:9619	chemical-affects	IFNB1	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control179;http://bioregistry.io/reactome:R-HSA-909720
+chebi:9619	chemical-affects	JAK1	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control179;reactome:Complex1809;http://bioregistry.io/reactome:R-HSA-909720
+chebi:9619	chemical-affects	STAT2	Reactome	10395669;11786546;12842042;15312780;15778442;17969444;8156998;9121453;9334213	Interferon alpha/beta signaling	reactome:Control179;reactome:Complex1809;http://bioregistry.io/reactome:R-HSA-909720
+
+PARTICIPANT	PARTICIPANT_TYPE	PARTICIPANT_NAME	UNIFICATION_XREF	RELATIONSHIP_XREF
+IFNA5	ProteinReference	IFNA5_HUMAN	uniprot:P01569	hgnc.symbol:IFNA5;ncbigene:3442
+IFNA4	ProteinReference	IFNA4_HUMAN	uniprot:P05014	hgnc.symbol:IFNA4;ncbigene:3441
+IFNA7	ProteinReference	IFNA7_HUMAN	uniprot:P01567	hgnc.symbol:IFNA7;ncbigene:3444
+RNASEL	ProteinReference	RN5A_HUMAN	uniprot:Q05823	hgnc.symbol:RNASEL;ncbigene:6041
+IFNA6	ProteinReference	IFNA6_HUMAN	uniprot:P05013	hgnc.symbol:IFNA6;ncbigene:3443
+IFNA1	ProteinReference	IFNA1_HUMAN	uniprot:P01562	hgnc.symbol:IFNA1;hgnc.symbol:IFNA13;ncbigene:3439;ncbigene:3447
+IFNA2	ProteinReference	IFNA2_HUMAN	uniprot:P01563	hgnc.symbol:IFNA2;ncbigene:3440
+chebi:16966	SmallMoleculeReference	heteroglycan	chebi:CHEBI:16966	
+IFNA8	ProteinReference	IFNA8_HUMAN	uniprot:P32881	hgnc.symbol:IFNA8;ncbigene:3445
+chebi:5677	SmallMoleculeReference	Hernandezine	chebi:CHEBI:5677	
+SOCS3	ProteinReference	SOCS3_HUMAN	uniprot:O14543	hgnc.symbol:SOCS3;ncbigene:9021
+SOCS1	ProteinReference	SOCS1_HUMAN	uniprot:O15524	hgnc.symbol:SOCS1;ncbigene:8651
+UBB	ProteinReference	UBB_HUMAN	uniprot:P0CG47	hgnc.symbol:UBB;ncbigene:7314
+ZNF84	ProteinReference	ZNF84_HUMAN	uniprot:P51523	hgnc.symbol:ZNF84;ncbigene:7637
+UBC	ProteinReference	UBC_HUMAN	uniprot:P0CG48	hgnc.symbol:UBC;ncbigene:7316
+RPS27A	ProteinReference	RS27A_HUMAN	uniprot:P62979	hgnc.symbol:RPS27A;ncbigene:6233
+chebi:9619	SmallMoleculeReference	tolmetin sodium	chebi:CHEBI:9619	
+JAK1	ProteinReference	JAK1_HUMAN	uniprot:P23458	hgnc.symbol:JAK1;ncbigene:3716
+IFNA21	ProteinReference	IFN21_HUMAN	uniprot:P01568	hgnc.symbol:IFNA21;ncbigene:3452
+KPNA1	ProteinReference	IMA5_HUMAN	uniprot:P52294	hgnc.symbol:KPNA1;ncbigene:3836
+IFNAR2	ProteinReference	INAR2_HUMAN	uniprot:P48551	hgnc.symbol:IFNAR2;ncbigene:3455
+IFNA13	ProteinReference	IFNA1_HUMAN	uniprot:P01562	hgnc.symbol:IFNA1;hgnc.symbol:IFNA13;ncbigene:3439;ncbigene:3447
+H2BC7	ProteinReference	H2B1C_HUMAN	uniprot:P62807	hgnc.symbol:H2BC10;hgnc.symbol:H2BC4;hgnc.symbol:H2BC6;hgnc.symbol:H2BC7;hgnc.symbol:H2BC8;ncbigene:3017;ncbigene:8339;ncbigene:8343;ncbigene:8344;ncbigene:8346;ncbigene:8347
+IFNA14	ProteinReference	IFN14_HUMAN	uniprot:P01570	hgnc.symbol:IFNA14;ncbigene:3448
+H2BC8	ProteinReference	H2B1C_HUMAN	uniprot:P62807	hgnc.symbol:H2BC10;hgnc.symbol:H2BC4;hgnc.symbol:H2BC6;hgnc.symbol:H2BC7;hgnc.symbol:H2BC8;ncbigene:3017;ncbigene:8339;ncbigene:8343;ncbigene:8344;ncbigene:8346;ncbigene:8347
+IFNA16	ProteinReference	IFN16_HUMAN	uniprot:P05015	hgnc.symbol:IFNA16;ncbigene:3449
+IFNB1	ProteinReference	IFNB_HUMAN	uniprot:P01574	hgnc.symbol:IFNB1;ncbigene:3456
+STAT1	ProteinReference	STAT1_HUMAN	uniprot:P42224	hgnc.symbol:STAT1;ncbigene:6772
+H2BC6	ProteinReference	H2B1C_HUMAN	uniprot:P62807	hgnc.symbol:H2BC10;hgnc.symbol:H2BC4;hgnc.symbol:H2BC6;hgnc.symbol:H2BC7;hgnc.symbol:H2BC8;ncbigene:3017;ncbigene:8339;ncbigene:8343;ncbigene:8344;ncbigene:8346;ncbigene:8347
+IFNA17	ProteinReference	IFN17_HUMAN	uniprot:P01571	hgnc.symbol:IFNA17;ncbigene:3451
+STAT2	ProteinReference	STAT2_HUMAN	uniprot:P52630	hgnc.symbol:STAT2;ncbigene:6773
+H2BC4	ProteinReference	H2B1C_HUMAN	uniprot:P62807	hgnc.symbol:H2BC10;hgnc.symbol:H2BC4;hgnc.symbol:H2BC6;hgnc.symbol:H2BC7;hgnc.symbol:H2BC8;ncbigene:3017;ncbigene:8339;ncbigene:8343;ncbigene:8344;ncbigene:8346;ncbigene:8347
+PTPN11	ProteinReference	PTN11_HUMAN	uniprot:Q06124	hgnc.symbol:PTPN11;ncbigene:5781
+TYK2	ProteinReference	TYK2_HUMAN	uniprot:P29597	hgnc.symbol:TYK2;ncbigene:7297
+LAT2	ProteinReference	NTAL_HUMAN	uniprot:Q9GZY6	hgnc.symbol:LAT2;ncbigene:7462
+H2BC13	ProteinReference	H2B1L_HUMAN	uniprot:Q99880	hgnc.symbol:H2BC13;ncbigene:8340
+H2AC20	ProteinReference	H2A2C_HUMAN	uniprot:Q16777	hgnc.symbol:H2AC20;ncbigene:8338
+H2BC10	ProteinReference	H2B1C_HUMAN	uniprot:P62807	hgnc.symbol:H2BC10;hgnc.symbol:H2BC4;hgnc.symbol:H2BC6;hgnc.symbol:H2BC7;hgnc.symbol:H2BC8;ncbigene:3017;ncbigene:8339;ncbigene:8343;ncbigene:8344;ncbigene:8346;ncbigene:8347
+chebi:15871	SmallMoleculeReference	o-orsellinate depside	chebi:CHEBI:15871	
+PTPN6	ProteinReference	PTN6_HUMAN	uniprot:P29350	hgnc.symbol:PTPN6;ncbigene:5777
+ABCE1	ProteinReference	ABCE1_HUMAN	uniprot:P61221	hgnc.symbol:ABCE1;ncbigene:6059
+UBA52	ProteinReference	RL40_HUMAN	uniprot:P62987	hgnc.symbol:UBA52;ncbigene:7311
+KPNB1	ProteinReference	IMB1_HUMAN	uniprot:Q14974	hgnc.symbol:KPNB1;ncbigene:3837
+IRF9	ProteinReference	IRF9_HUMAN	uniprot:Q00978	hgnc.symbol:IRF9;ncbigene:10379
+IFNA10	ProteinReference	IFN10_HUMAN	uniprot:P01566	hgnc.symbol:IFNA10;ncbigene:3446
+IFNAR1	ProteinReference	INAR1_HUMAN	uniprot:P17181	hgnc.symbol:IFNAR1;ncbigene:3454

@@ -1,0 +1,55 @@
+﻿PARTICIPANT_A	INTERACTION_TYPE	PARTICIPANT_B	INTERACTION_DATA_SOURCE	INTERACTION_PUBMED_ID	PATHWAY_NAMES	MEDIATOR_IDS
+IFNG	in-complex-with	IFNGR1	Reactome		IFNG signaling activates MAPKs	reactome:Complex1864;reactome:Complex1860
+IFNG	in-complex-with	IFNGR2	Reactome		IFNG signaling activates MAPKs	reactome:Complex1864;reactome:Complex1860
+IFNG	in-complex-with	JAK1	Reactome		IFNG signaling activates MAPKs	reactome:Complex1864;reactome:Complex1860
+IFNG	in-complex-with	JAK2	Reactome		IFNG signaling activates MAPKs	reactome:Complex1864;reactome:Complex1860
+IFNG	controls-phosphorylation-of	MAPK1	Reactome	10067896;9446616	IFNG signaling activates MAPKs	reactome:Catalysis675;http://bioregistry.io/reactome:R-HSA-9732753
+IFNG	controls-state-change-of	MAPK1	Reactome	10067896;9446616	IFNG signaling activates MAPKs	reactome:Catalysis675;http://bioregistry.io/reactome:R-HSA-9732753
+IFNG	controls-phosphorylation-of	MAPK3	Reactome	10067896;9446616	IFNG signaling activates MAPKs	reactome:Catalysis675;http://bioregistry.io/reactome:R-HSA-9732753
+IFNG	controls-state-change-of	MAPK3	Reactome	10067896;9446616	IFNG signaling activates MAPKs	reactome:Catalysis675;http://bioregistry.io/reactome:R-HSA-9732753
+IFNGR1	in-complex-with	IFNGR2	Reactome		IFNG signaling activates MAPKs	reactome:Complex1865;reactome:Complex1861
+IFNGR1	in-complex-with	JAK1	Reactome		IFNG signaling activates MAPKs	reactome:Complex1866;reactome:Complex1862
+IFNGR1	in-complex-with	JAK2	Reactome		IFNG signaling activates MAPKs	reactome:Complex1865;reactome:Complex1861
+IFNGR1	controls-phosphorylation-of	MAPK1	Reactome	10067896;9446616	IFNG signaling activates MAPKs	reactome:Catalysis675;http://bioregistry.io/reactome:R-HSA-9732753
+IFNGR1	controls-state-change-of	MAPK1	Reactome	10067896;9446616	IFNG signaling activates MAPKs	reactome:Catalysis675;http://bioregistry.io/reactome:R-HSA-9732753
+IFNGR1	controls-phosphorylation-of	MAPK3	Reactome	10067896;9446616	IFNG signaling activates MAPKs	reactome:Catalysis675;http://bioregistry.io/reactome:R-HSA-9732753
+IFNGR1	controls-state-change-of	MAPK3	Reactome	10067896;9446616	IFNG signaling activates MAPKs	reactome:Catalysis675;http://bioregistry.io/reactome:R-HSA-9732753
+IFNGR1	controls-state-change-of	RAF1	Reactome	9446616	IFNG signaling activates MAPKs	reactome:Catalysis674;http://bioregistry.io/reactome:R-HSA-9732738
+IFNGR1	in-complex-with	RAF1	Reactome		IFNG signaling activates MAPKs	reactome:Complex1876;reactome:Complex1875
+IFNGR2	in-complex-with	JAK1	Reactome		IFNG signaling activates MAPKs	reactome:Complex1865;reactome:Complex1861
+IFNGR2	in-complex-with	JAK2	Reactome		IFNG signaling activates MAPKs	reactome:Complex1859
+IFNGR2	controls-phosphorylation-of	MAPK1	Reactome	10067896;9446616	IFNG signaling activates MAPKs	reactome:Catalysis675;http://bioregistry.io/reactome:R-HSA-9732753
+IFNGR2	controls-state-change-of	MAPK1	Reactome	10067896;9446616	IFNG signaling activates MAPKs	reactome:Catalysis675;http://bioregistry.io/reactome:R-HSA-9732753
+IFNGR2	controls-phosphorylation-of	MAPK3	Reactome	10067896;9446616	IFNG signaling activates MAPKs	reactome:Catalysis675;http://bioregistry.io/reactome:R-HSA-9732753
+IFNGR2	controls-state-change-of	MAPK3	Reactome	10067896;9446616	IFNG signaling activates MAPKs	reactome:Catalysis675;http://bioregistry.io/reactome:R-HSA-9732753
+IFNGR2	controls-state-change-of	RAF1	Reactome	9446616	IFNG signaling activates MAPKs	reactome:Catalysis674;http://bioregistry.io/reactome:R-HSA-9732738
+IFNGR2	in-complex-with	RAF1	Reactome		IFNG signaling activates MAPKs	reactome:Complex1876;reactome:Complex1875
+IFNG	controls-state-change-of	RAF1	Reactome	9446616	IFNG signaling activates MAPKs	reactome:Catalysis674;http://bioregistry.io/reactome:R-HSA-9732738
+IFNG	in-complex-with	RAF1	Reactome		IFNG signaling activates MAPKs	reactome:Complex1876;reactome:Complex1875
+JAK1	in-complex-with	JAK2	Reactome		IFNG signaling activates MAPKs	reactome:Complex1865;reactome:Complex1861
+JAK1	controls-phosphorylation-of	MAPK1	Reactome	10067896;9446616	IFNG signaling activates MAPKs	reactome:Catalysis675;http://bioregistry.io/reactome:R-HSA-9732753
+JAK1	controls-state-change-of	MAPK1	Reactome	10067896;9446616	IFNG signaling activates MAPKs	reactome:Catalysis675;http://bioregistry.io/reactome:R-HSA-9732753
+JAK1	controls-phosphorylation-of	MAPK3	Reactome	10067896;9446616	IFNG signaling activates MAPKs	reactome:Catalysis675;http://bioregistry.io/reactome:R-HSA-9732753
+JAK1	controls-state-change-of	MAPK3	Reactome	10067896;9446616	IFNG signaling activates MAPKs	reactome:Catalysis675;http://bioregistry.io/reactome:R-HSA-9732753
+JAK1	controls-state-change-of	RAF1	Reactome	9446616	IFNG signaling activates MAPKs	reactome:Catalysis674;http://bioregistry.io/reactome:R-HSA-9732738
+JAK1	in-complex-with	RAF1	Reactome		IFNG signaling activates MAPKs	reactome:Complex1876;reactome:Complex1875
+JAK2	controls-phosphorylation-of	MAPK1	Reactome	10067896;9446616	IFNG signaling activates MAPKs	reactome:Catalysis675;http://bioregistry.io/reactome:R-HSA-9732753
+JAK2	controls-state-change-of	MAPK1	Reactome	10067896;9446616	IFNG signaling activates MAPKs	reactome:Catalysis675;http://bioregistry.io/reactome:R-HSA-9732753
+JAK2	controls-phosphorylation-of	MAPK3	Reactome	10067896;9446616	IFNG signaling activates MAPKs	reactome:Catalysis675;http://bioregistry.io/reactome:R-HSA-9732753
+JAK2	controls-state-change-of	MAPK3	Reactome	10067896;9446616	IFNG signaling activates MAPKs	reactome:Catalysis675;http://bioregistry.io/reactome:R-HSA-9732753
+JAK2	controls-state-change-of	RAF1	Reactome	9446616	IFNG signaling activates MAPKs	reactome:Catalysis674;http://bioregistry.io/reactome:R-HSA-9732738
+JAK2	in-complex-with	RAF1	Reactome		IFNG signaling activates MAPKs	reactome:Complex1876;reactome:Complex1875
+RAF1	controls-phosphorylation-of	MAPK1	Reactome	10067896;9446616	IFNG signaling activates MAPKs	reactome:Catalysis675;http://bioregistry.io/reactome:R-HSA-9732753
+RAF1	controls-state-change-of	MAPK1	Reactome	10067896;9446616	IFNG signaling activates MAPKs	reactome:Catalysis675;http://bioregistry.io/reactome:R-HSA-9732753
+RAF1	controls-phosphorylation-of	MAPK3	Reactome	10067896;9446616	IFNG signaling activates MAPKs	reactome:Catalysis675;http://bioregistry.io/reactome:R-HSA-9732753
+RAF1	controls-state-change-of	MAPK3	Reactome	10067896;9446616	IFNG signaling activates MAPKs	reactome:Catalysis675;http://bioregistry.io/reactome:R-HSA-9732753
+
+PARTICIPANT	PARTICIPANT_TYPE	PARTICIPANT_NAME	UNIFICATION_XREF	RELATIONSHIP_XREF
+IFNG	ProteinReference	IFNG_HUMAN	uniprot:P01579	hgnc.symbol:IFNG;ncbigene:3458
+IFNGR1	ProteinReference	INGR1_HUMAN	uniprot:P15260	hgnc.symbol:IFNGR1;ncbigene:3459
+IFNGR2	ProteinReference	INGR2_HUMAN	uniprot:P38484	hgnc.symbol:IFNGR2;ncbigene:3460
+MAPK1	ProteinReference	MK01_HUMAN	uniprot:P28482	hgnc.symbol:MAPK1;ncbigene:5594
+RAF1	ProteinReference	RAF1_HUMAN	uniprot:P04049	hgnc.symbol:RAF1;ncbigene:5894
+JAK2	ProteinReference	JAK2_HUMAN	uniprot:O60674	hgnc.symbol:JAK2;ncbigene:3717
+MAPK3	ProteinReference	MK03_HUMAN	uniprot:P27361	hgnc.symbol:MAPK3;ncbigene:5595
+JAK1	ProteinReference	JAK1_HUMAN	uniprot:P23458	hgnc.symbol:JAK1;ncbigene:3716

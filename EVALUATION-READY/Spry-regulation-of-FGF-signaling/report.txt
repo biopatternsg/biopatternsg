@@ -1,0 +1,43 @@
+Number of vertices in Ref .sif = 16
+Number of vertices in BioPattern kBase.pl =12
+Number of edges in Ref .sif = 44
+Number of edges in BioPattern kBase.pl = 50
+Common Paths found in this .sif and in the .pl
+The structure is: Initial Vertex, Relationship in Sif, Relationship in BioPatterns, Final Vertex
+[('CBL','in-complex-with',bind,'SPRY2')]
+[('CBL','in-complex-with',association,'SPRY2')]
+[('CBL','in-complex-with',negative_correlation,'SPRY2')]
+[('CBL','in-complex-with',positive_correlation,'SPRY2')]
+[('CBL','in-complex-with',association,'UBC')]
+[('MAPK1','controls-state-change-of',positive_correlation,'BRAF'),('BRAF','in-complex-with',association,'SPRY2')]
+[('MAPK1','controls-state-change-of',positive_correlation,'BRAF'),('BRAF','in-complex-with',negative_correlation,'SPRY2')]
+[('MAPK1','controls-state-change-of',association,'BRAF'),('BRAF','in-complex-with',association,'SPRY2')]
+[('MAPK1','controls-state-change-of',association,'BRAF'),('BRAF','in-complex-with',negative_correlation,'SPRY2')]
+[('MAPK1','controls-state-change-of',positive_correlation,'BRAF')]
+[('MAPK1','controls-state-change-of',association,'BRAF')]
+[('MAPK1','controls-phosphorylation-of',positive_correlation,'SPRY2')]
+[('MAPK1','controls-phosphorylation-of',negative_correlation,'SPRY2')]
+[('MAPK1','controls-state-change-of',positive_correlation,'SPRY2')]
+[('MAPK1','controls-state-change-of',negative_correlation,'SPRY2')]
+[('MAPK3','controls-state-change-of',association,'BRAF'),('BRAF','in-complex-with',association,'SPRY2')]
+[('MAPK3','controls-state-change-of',association,'BRAF'),('BRAF','in-complex-with',negative_correlation,'SPRY2')]
+[('MAPK3','controls-state-change-of',positive_correlation,'BRAF'),('BRAF','in-complex-with',association,'SPRY2')]
+[('MAPK3','controls-state-change-of',positive_correlation,'BRAF'),('BRAF','in-complex-with',negative_correlation,'SPRY2')]
+[('MAPK3','controls-state-change-of',association,'BRAF')]
+[('MAPK3','controls-state-change-of',positive_correlation,'BRAF')]
+[('MAPK3','controls-phosphorylation-of',association,'SPRY2')]
+[('MAPK3','controls-phosphorylation-of',negative_correlation,'SPRY2')]
+[('MAPK3','controls-phosphorylation-of',positive_correlation,'SPRY2')]
+[('MAPK3','controls-state-change-of',association,'SPRY2')]
+[('MAPK3','controls-state-change-of',negative_correlation,'SPRY2')]
+[('MAPK3','controls-state-change-of',positive_correlation,'SPRY2')]
+[('MKNK1','controls-phosphorylation-of',positive_correlation,'SPRY2')]
+[('MKNK1','controls-state-change-of',positive_correlation,'SPRY2')]
+[('PTPN11','controls-state-change-of',association,'SPRY2')]
+[('BRAF','in-complex-with',association,'SPRY2')]
+[('BRAF','in-complex-with',negative_correlation,'SPRY2')]
+[('GRB2','in-complex-with',association,'SPRY2')]
+[('GRB2','in-complex-with',bind,'SPRY2')]
+[('PPP2CA','controls-state-change-of',association,'SPRY2')]
+[('PPP2CA','in-complex-with',association,'SPRY2')]
+Number of paths common to Sif Ref and BioPatterns = 36

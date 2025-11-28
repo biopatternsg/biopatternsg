@@ -1,0 +1,247 @@
+﻿PARTICIPANT_A	INTERACTION_TYPE	PARTICIPANT_B	INTERACTION_DATA_SOURCE	INTERACTION_PUBMED_ID	PATHWAY_NAMES	MEDIATOR_IDS
+ANOS1	in-complex-with	FGFR1	Reactome		Negative regulation of FGFR1 signaling	reactome:Complex6569
+CBL	in-complex-with	FGF10	Reactome		Negative regulation of FGFR1 signaling	reactome:Complex6606
+CBL	in-complex-with	FGF17	Reactome		Negative regulation of FGFR1 signaling	reactome:Complex6606
+CBL	in-complex-with	FGF1	Reactome		Negative regulation of FGFR1 signaling	reactome:Complex6606
+CBL	in-complex-with	FGF20	Reactome		Negative regulation of FGFR1 signaling	reactome:Complex6606
+CBL	in-complex-with	FGF22	Reactome		Negative regulation of FGFR1 signaling	reactome:Complex6606
+CBL	in-complex-with	FGF23	Reactome		Negative regulation of FGFR1 signaling	reactome:Complex6606
+CBL	in-complex-with	FGF2	Reactome		Negative regulation of FGFR1 signaling	reactome:Complex6606
+CBL	in-complex-with	FGF3	Reactome		Negative regulation of FGFR1 signaling	reactome:Complex6606
+CBL	in-complex-with	FGF4	Reactome		Negative regulation of FGFR1 signaling	reactome:Complex6606
+CBL	in-complex-with	FGF5	Reactome		Negative regulation of FGFR1 signaling	reactome:Complex6606
+CBL	in-complex-with	FGF6	Reactome		Negative regulation of FGFR1 signaling	reactome:Complex6606
+CBL	in-complex-with	FGF8	Reactome		Negative regulation of FGFR1 signaling	reactome:Complex6606
+CBL	in-complex-with	FGF9	Reactome		Negative regulation of FGFR1 signaling	reactome:Complex6606
+CBL	in-complex-with	FGFR1	Reactome		Negative regulation of FGFR1 signaling	reactome:Complex6606
+CBL	in-complex-with	FRS2	Reactome		Negative regulation of FGFR1 signaling	reactome:Complex6606
+CBL	in-complex-with	GRB2	Reactome		Negative regulation of FGFR1 signaling	reactome:Complex6532
+CBL	in-complex-with	KL	Reactome		Negative regulation of FGFR1 signaling	reactome:Complex6606
+CBL	in-complex-with	PTPN11	Reactome		Negative regulation of FGFR1 signaling	reactome:Complex6606
+CBL	in-complex-with	RPS27A	Reactome		Negative regulation of FGFR1 signaling	reactome:Complex6607
+CBL	in-complex-with	UBA52	Reactome		Negative regulation of FGFR1 signaling	reactome:Complex6607
+CBL	in-complex-with	UBB	Reactome		Negative regulation of FGFR1 signaling	reactome:Complex6607
+CBL	in-complex-with	UBC	Reactome		Negative regulation of FGFR1 signaling	reactome:Complex6607
+FGF10	in-complex-with	FGFR1	Reactome			reactome:Complex6564
+FGF10	in-complex-with	FRS2	Reactome		Negative regulation of FGFR1 signaling	reactome:Complex6585;reactome:Complex6605;reactome:Complex6587
+FGF10	in-complex-with	GRB2	Reactome		Negative regulation of FGFR1 signaling	reactome:Complex6606
+FGF10	in-complex-with	PTPN11	Reactome		Negative regulation of FGFR1 signaling	reactome:Complex6601
+FGF10	in-complex-with	RPS27A	Reactome		Negative regulation of FGFR1 signaling	reactome:Complex6607
+FGF10	in-complex-with	UBA52	Reactome		Negative regulation of FGFR1 signaling	reactome:Complex6607
+FGF10	in-complex-with	UBB	Reactome		Negative regulation of FGFR1 signaling	reactome:Complex6607
+FGF10	in-complex-with	UBC	Reactome		Negative regulation of FGFR1 signaling	reactome:Complex6607
+FGF17	in-complex-with	FGFR1	Reactome			reactome:Complex6570
+FGF17	in-complex-with	FRS2	Reactome		Negative regulation of FGFR1 signaling	reactome:Complex6585;reactome:Complex6605;reactome:Complex6587
+FGF17	in-complex-with	GRB2	Reactome		Negative regulation of FGFR1 signaling	reactome:Complex6606
+FGF17	in-complex-with	PTPN11	Reactome		Negative regulation of FGFR1 signaling	reactome:Complex6601
+FGF17	in-complex-with	RPS27A	Reactome		Negative regulation of FGFR1 signaling	reactome:Complex6607
+FGF17	in-complex-with	UBA52	Reactome		Negative regulation of FGFR1 signaling	reactome:Complex6607
+FGF17	in-complex-with	UBB	Reactome		Negative regulation of FGFR1 signaling	reactome:Complex6607
+FGF17	in-complex-with	UBC	Reactome		Negative regulation of FGFR1 signaling	reactome:Complex6607
+FGF1	in-complex-with	FGFR1	Reactome			reactome:Complex6570;reactome:Complex6564
+FGF1	in-complex-with	FRS2	Reactome		Negative regulation of FGFR1 signaling	reactome:Complex6585;reactome:Complex6605;reactome:Complex6587
+FGF1	in-complex-with	GRB2	Reactome		Negative regulation of FGFR1 signaling	reactome:Complex6606
+FGF1	in-complex-with	PTPN11	Reactome		Negative regulation of FGFR1 signaling	reactome:Complex6601
+FGF1	in-complex-with	RPS27A	Reactome		Negative regulation of FGFR1 signaling	reactome:Complex6607
+FGF1	in-complex-with	UBA52	Reactome		Negative regulation of FGFR1 signaling	reactome:Complex6607
+FGF1	in-complex-with	UBB	Reactome		Negative regulation of FGFR1 signaling	reactome:Complex6607
+FGF1	in-complex-with	UBC	Reactome		Negative regulation of FGFR1 signaling	reactome:Complex6607
+FGF20	in-complex-with	FGFR1	Reactome			reactome:Complex6570
+FGF20	in-complex-with	FRS2	Reactome		Negative regulation of FGFR1 signaling	reactome:Complex6585;reactome:Complex6605;reactome:Complex6587
+FGF20	in-complex-with	GRB2	Reactome		Negative regulation of FGFR1 signaling	reactome:Complex6606
+FGF20	in-complex-with	PTPN11	Reactome		Negative regulation of FGFR1 signaling	reactome:Complex6601
+FGF20	in-complex-with	RPS27A	Reactome		Negative regulation of FGFR1 signaling	reactome:Complex6607
+FGF20	in-complex-with	UBA52	Reactome		Negative regulation of FGFR1 signaling	reactome:Complex6607
+FGF20	in-complex-with	UBB	Reactome		Negative regulation of FGFR1 signaling	reactome:Complex6607
+FGF20	in-complex-with	UBC	Reactome		Negative regulation of FGFR1 signaling	reactome:Complex6607
+FGF22	in-complex-with	FGFR1	Reactome			reactome:Complex6564
+FGF22	in-complex-with	FRS2	Reactome		Negative regulation of FGFR1 signaling	reactome:Complex6585;reactome:Complex6605;reactome:Complex6587
+FGF22	in-complex-with	GRB2	Reactome		Negative regulation of FGFR1 signaling	reactome:Complex6606
+FGF22	in-complex-with	PTPN11	Reactome		Negative regulation of FGFR1 signaling	reactome:Complex6601
+FGF22	in-complex-with	RPS27A	Reactome		Negative regulation of FGFR1 signaling	reactome:Complex6607
+FGF22	in-complex-with	UBA52	Reactome		Negative regulation of FGFR1 signaling	reactome:Complex6607
+FGF22	in-complex-with	UBB	Reactome		Negative regulation of FGFR1 signaling	reactome:Complex6607
+FGF22	in-complex-with	UBC	Reactome		Negative regulation of FGFR1 signaling	reactome:Complex6607
+FGF23	in-complex-with	FGFR1	Reactome			reactome:Complex6570;reactome:Complex6577
+FGF23	in-complex-with	FRS2	Reactome		Negative regulation of FGFR1 signaling	reactome:Complex6585;reactome:Complex6605;reactome:Complex6587
+FGF23	in-complex-with	GRB2	Reactome		Negative regulation of FGFR1 signaling	reactome:Complex6606
+FGF23	in-complex-with	KL	Reactome			reactome:Complex6571
+FGF23	in-complex-with	PTPN11	Reactome		Negative regulation of FGFR1 signaling	reactome:Complex6601
+FGF23	in-complex-with	RPS27A	Reactome		Negative regulation of FGFR1 signaling	reactome:Complex6607
+FGF23	in-complex-with	UBA52	Reactome		Negative regulation of FGFR1 signaling	reactome:Complex6607
+FGF23	in-complex-with	UBB	Reactome		Negative regulation of FGFR1 signaling	reactome:Complex6607
+FGF23	in-complex-with	UBC	Reactome		Negative regulation of FGFR1 signaling	reactome:Complex6607
+FGF2	in-complex-with	FGFR1	Reactome			reactome:Complex6570;reactome:Complex6564
+FGF2	in-complex-with	FRS2	Reactome		Negative regulation of FGFR1 signaling	reactome:Complex6585;reactome:Complex6605;reactome:Complex6587
+FGF2	in-complex-with	GRB2	Reactome		Negative regulation of FGFR1 signaling	reactome:Complex6606
+FGF2	in-complex-with	PTPN11	Reactome		Negative regulation of FGFR1 signaling	reactome:Complex6601
+FGF2	in-complex-with	RPS27A	Reactome		Negative regulation of FGFR1 signaling	reactome:Complex6607
+FGF2	in-complex-with	UBA52	Reactome		Negative regulation of FGFR1 signaling	reactome:Complex6607
+FGF2	in-complex-with	UBB	Reactome		Negative regulation of FGFR1 signaling	reactome:Complex6607
+FGF2	in-complex-with	UBC	Reactome		Negative regulation of FGFR1 signaling	reactome:Complex6607
+FGF3	in-complex-with	FGFR1	Reactome			reactome:Complex6564
+FGF3	in-complex-with	FRS2	Reactome		Negative regulation of FGFR1 signaling	reactome:Complex6585;reactome:Complex6605;reactome:Complex6587
+FGF3	in-complex-with	GRB2	Reactome		Negative regulation of FGFR1 signaling	reactome:Complex6606
+FGF3	in-complex-with	PTPN11	Reactome		Negative regulation of FGFR1 signaling	reactome:Complex6601
+FGF3	in-complex-with	RPS27A	Reactome		Negative regulation of FGFR1 signaling	reactome:Complex6607
+FGF3	in-complex-with	UBA52	Reactome		Negative regulation of FGFR1 signaling	reactome:Complex6607
+FGF3	in-complex-with	UBB	Reactome		Negative regulation of FGFR1 signaling	reactome:Complex6607
+FGF3	in-complex-with	UBC	Reactome		Negative regulation of FGFR1 signaling	reactome:Complex6607
+FGF4	in-complex-with	FGFR1	Reactome			reactome:Complex6570
+FGF4	in-complex-with	FRS2	Reactome		Negative regulation of FGFR1 signaling	reactome:Complex6585;reactome:Complex6605;reactome:Complex6587
+FGF4	in-complex-with	GRB2	Reactome		Negative regulation of FGFR1 signaling	reactome:Complex6606
+FGF4	in-complex-with	PTPN11	Reactome		Negative regulation of FGFR1 signaling	reactome:Complex6601
+FGF4	in-complex-with	RPS27A	Reactome		Negative regulation of FGFR1 signaling	reactome:Complex6607
+FGF4	in-complex-with	UBA52	Reactome		Negative regulation of FGFR1 signaling	reactome:Complex6607
+FGF4	in-complex-with	UBB	Reactome		Negative regulation of FGFR1 signaling	reactome:Complex6607
+FGF4	in-complex-with	UBC	Reactome		Negative regulation of FGFR1 signaling	reactome:Complex6607
+FGF5	in-complex-with	FGFR1	Reactome			reactome:Complex6570
+FGF5	in-complex-with	FRS2	Reactome		Negative regulation of FGFR1 signaling	reactome:Complex6585;reactome:Complex6605;reactome:Complex6587
+FGF5	in-complex-with	GRB2	Reactome		Negative regulation of FGFR1 signaling	reactome:Complex6606
+FGF5	in-complex-with	PTPN11	Reactome		Negative regulation of FGFR1 signaling	reactome:Complex6601
+FGF5	in-complex-with	RPS27A	Reactome		Negative regulation of FGFR1 signaling	reactome:Complex6607
+FGF5	in-complex-with	UBA52	Reactome		Negative regulation of FGFR1 signaling	reactome:Complex6607
+FGF5	in-complex-with	UBB	Reactome		Negative regulation of FGFR1 signaling	reactome:Complex6607
+FGF5	in-complex-with	UBC	Reactome		Negative regulation of FGFR1 signaling	reactome:Complex6607
+FGF6	in-complex-with	FGFR1	Reactome			reactome:Complex6570
+FGF6	in-complex-with	FRS2	Reactome		Negative regulation of FGFR1 signaling	reactome:Complex6585;reactome:Complex6605;reactome:Complex6587
+FGF6	in-complex-with	GRB2	Reactome		Negative regulation of FGFR1 signaling	reactome:Complex6606
+FGF6	in-complex-with	PTPN11	Reactome		Negative regulation of FGFR1 signaling	reactome:Complex6601
+FGF6	in-complex-with	RPS27A	Reactome		Negative regulation of FGFR1 signaling	reactome:Complex6607
+FGF6	in-complex-with	UBA52	Reactome		Negative regulation of FGFR1 signaling	reactome:Complex6607
+FGF6	in-complex-with	UBB	Reactome		Negative regulation of FGFR1 signaling	reactome:Complex6607
+FGF6	in-complex-with	UBC	Reactome		Negative regulation of FGFR1 signaling	reactome:Complex6607
+FGF8	in-complex-with	FGFR1	Reactome			reactome:Complex6570
+FGF8	in-complex-with	FRS2	Reactome		Negative regulation of FGFR1 signaling	reactome:Complex6585;reactome:Complex6605;reactome:Complex6587
+FGF8	in-complex-with	GRB2	Reactome		Negative regulation of FGFR1 signaling	reactome:Complex6606
+FGF8	in-complex-with	PTPN11	Reactome		Negative regulation of FGFR1 signaling	reactome:Complex6601
+FGF8	in-complex-with	RPS27A	Reactome		Negative regulation of FGFR1 signaling	reactome:Complex6607
+FGF8	in-complex-with	UBA52	Reactome		Negative regulation of FGFR1 signaling	reactome:Complex6607
+FGF8	in-complex-with	UBB	Reactome		Negative regulation of FGFR1 signaling	reactome:Complex6607
+FGF8	in-complex-with	UBC	Reactome		Negative regulation of FGFR1 signaling	reactome:Complex6607
+FGF9	in-complex-with	FGFR1	Reactome			reactome:Complex6570
+FGF9	in-complex-with	FRS2	Reactome		Negative regulation of FGFR1 signaling	reactome:Complex6585;reactome:Complex6605;reactome:Complex6587
+FGF9	in-complex-with	GRB2	Reactome		Negative regulation of FGFR1 signaling	reactome:Complex6606
+FGF9	in-complex-with	PTPN11	Reactome		Negative regulation of FGFR1 signaling	reactome:Complex6601
+FGF9	in-complex-with	RPS27A	Reactome		Negative regulation of FGFR1 signaling	reactome:Complex6607
+FGF9	in-complex-with	UBA52	Reactome		Negative regulation of FGFR1 signaling	reactome:Complex6607
+FGF9	in-complex-with	UBB	Reactome		Negative regulation of FGFR1 signaling	reactome:Complex6607
+FGF9	in-complex-with	UBC	Reactome		Negative regulation of FGFR1 signaling	reactome:Complex6607
+FGFR1	in-complex-with	FRS2	Reactome		Negative regulation of FGFR1 signaling	reactome:Complex6585;reactome:Complex6605;reactome:Complex6587
+FGFR1	in-complex-with	GRB2	Reactome		Negative regulation of FGFR1 signaling	reactome:Complex6606
+FGFR1	in-complex-with	KL	Reactome			reactome:Complex6577
+FGFR1	in-complex-with	PTPN11	Reactome		Negative regulation of FGFR1 signaling	reactome:Complex6601
+FGFR1	in-complex-with	RPS27A	Reactome		Negative regulation of FGFR1 signaling	reactome:Complex6607
+FGFR1	in-complex-with	UBA52	Reactome		Negative regulation of FGFR1 signaling	reactome:Complex6607
+FGFR1	in-complex-with	UBB	Reactome		Negative regulation of FGFR1 signaling	reactome:Complex6607
+FGFR1	in-complex-with	UBC	Reactome		Negative regulation of FGFR1 signaling	reactome:Complex6607
+FRS2	in-complex-with	GRB2	Reactome		Negative regulation of FGFR1 signaling	reactome:Complex6606
+FRS2	in-complex-with	KL	Reactome		Negative regulation of FGFR1 signaling	reactome:Complex6585;reactome:Complex6605;reactome:Complex6587
+FRS2	in-complex-with	PTPN11	Reactome		Negative regulation of FGFR1 signaling	reactome:Complex6601
+FRS2	in-complex-with	RPS27A	Reactome		Negative regulation of FGFR1 signaling	reactome:Complex6607
+FRS2	in-complex-with	UBA52	Reactome		Negative regulation of FGFR1 signaling	reactome:Complex6607
+FRS2	in-complex-with	UBB	Reactome		Negative regulation of FGFR1 signaling	reactome:Complex6607
+FRS2	in-complex-with	UBC	Reactome		Negative regulation of FGFR1 signaling	reactome:Complex6607
+GRB2	in-complex-with	KL	Reactome		Negative regulation of FGFR1 signaling	reactome:Complex6606
+GRB2	in-complex-with	PTPN11	Reactome		Negative regulation of FGFR1 signaling	reactome:Complex6606
+GRB2	in-complex-with	RPS27A	Reactome		Negative regulation of FGFR1 signaling	reactome:Complex6607
+GRB2	in-complex-with	UBA52	Reactome		Negative regulation of FGFR1 signaling	reactome:Complex6607
+GRB2	in-complex-with	UBB	Reactome		Negative regulation of FGFR1 signaling	reactome:Complex6607
+GRB2	in-complex-with	UBC	Reactome		Negative regulation of FGFR1 signaling	reactome:Complex6607
+KL	in-complex-with	PTPN11	Reactome		Negative regulation of FGFR1 signaling	reactome:Complex6601
+KL	in-complex-with	RPS27A	Reactome		Negative regulation of FGFR1 signaling	reactome:Complex6607
+KL	in-complex-with	UBA52	Reactome		Negative regulation of FGFR1 signaling	reactome:Complex6607
+KL	in-complex-with	UBB	Reactome		Negative regulation of FGFR1 signaling	reactome:Complex6607
+KL	in-complex-with	UBC	Reactome		Negative regulation of FGFR1 signaling	reactome:Complex6607
+MAPK1	controls-state-change-of	FGF10	Reactome	12419216;12974390;18452557;19652666	Negative regulation of FGFR1 signaling	http://bioregistry.io/reactome:R-HSA-5654560;reactome:Catalysis3736
+MAPK1	controls-state-change-of	FGF17	Reactome	12419216;12974390;18452557;19652666	Negative regulation of FGFR1 signaling	http://bioregistry.io/reactome:R-HSA-5654560;reactome:Catalysis3736
+MAPK1	controls-state-change-of	FGF1	Reactome	12419216;12974390;18452557;19652666	Negative regulation of FGFR1 signaling	http://bioregistry.io/reactome:R-HSA-5654560;reactome:Catalysis3736
+MAPK1	controls-state-change-of	FGF20	Reactome	12419216;12974390;18452557;19652666	Negative regulation of FGFR1 signaling	http://bioregistry.io/reactome:R-HSA-5654560;reactome:Catalysis3736
+MAPK1	controls-state-change-of	FGF22	Reactome	12419216;12974390;18452557;19652666	Negative regulation of FGFR1 signaling	http://bioregistry.io/reactome:R-HSA-5654560;reactome:Catalysis3736
+MAPK1	controls-state-change-of	FGF23	Reactome	12419216;12974390;18452557;19652666	Negative regulation of FGFR1 signaling	http://bioregistry.io/reactome:R-HSA-5654560;reactome:Catalysis3736
+MAPK1	controls-state-change-of	FGF2	Reactome	12419216;12974390;18452557;19652666	Negative regulation of FGFR1 signaling	http://bioregistry.io/reactome:R-HSA-5654560;reactome:Catalysis3736
+MAPK1	controls-state-change-of	FGF3	Reactome	12419216;12974390;18452557;19652666	Negative regulation of FGFR1 signaling	http://bioregistry.io/reactome:R-HSA-5654560;reactome:Catalysis3736
+MAPK1	controls-state-change-of	FGF4	Reactome	12419216;12974390;18452557;19652666	Negative regulation of FGFR1 signaling	http://bioregistry.io/reactome:R-HSA-5654560;reactome:Catalysis3736
+MAPK1	controls-state-change-of	FGF5	Reactome	12419216;12974390;18452557;19652666	Negative regulation of FGFR1 signaling	http://bioregistry.io/reactome:R-HSA-5654560;reactome:Catalysis3736
+MAPK1	controls-state-change-of	FGF6	Reactome	12419216;12974390;18452557;19652666	Negative regulation of FGFR1 signaling	http://bioregistry.io/reactome:R-HSA-5654560;reactome:Catalysis3736
+MAPK1	controls-state-change-of	FGF8	Reactome	12419216;12974390;18452557;19652666	Negative regulation of FGFR1 signaling	http://bioregistry.io/reactome:R-HSA-5654560;reactome:Catalysis3736
+MAPK1	controls-state-change-of	FGF9	Reactome	12419216;12974390;18452557;19652666	Negative regulation of FGFR1 signaling	http://bioregistry.io/reactome:R-HSA-5654560;reactome:Catalysis3736
+MAPK1	controls-state-change-of	FGFR1	Reactome	12419216;12974390;18452557;19652666	Negative regulation of FGFR1 signaling	http://bioregistry.io/reactome:R-HSA-5654560;reactome:Catalysis3736
+MAPK1	controls-phosphorylation-of	FRS2	Reactome	12419216;12974390;18452557;19652666	Negative regulation of FGFR1 signaling	http://bioregistry.io/reactome:R-HSA-5654560;reactome:Catalysis3736
+MAPK1	controls-state-change-of	FRS2	Reactome	12419216;12974390;18452557;19652666	Negative regulation of FGFR1 signaling	http://bioregistry.io/reactome:R-HSA-5654560;reactome:Catalysis3736
+MAPK1	controls-state-change-of	KL	Reactome	12419216;12974390;18452557;19652666	Negative regulation of FGFR1 signaling	http://bioregistry.io/reactome:R-HSA-5654560;reactome:Catalysis3736
+MAPK1	controls-transport-of	KL	Reactome	12419216;12974390;18452557;19652666	Negative regulation of FGFR1 signaling	http://bioregistry.io/reactome:R-HSA-5654560;reactome:Catalysis3736
+MAPK3	controls-state-change-of	FGF10	Reactome	12419216;12974390;18452557;19652666	Negative regulation of FGFR1 signaling	http://bioregistry.io/reactome:R-HSA-5654560;reactome:Catalysis3736
+MAPK3	controls-state-change-of	FGF17	Reactome	12419216;12974390;18452557;19652666	Negative regulation of FGFR1 signaling	http://bioregistry.io/reactome:R-HSA-5654560;reactome:Catalysis3736
+MAPK3	controls-state-change-of	FGF1	Reactome	12419216;12974390;18452557;19652666	Negative regulation of FGFR1 signaling	http://bioregistry.io/reactome:R-HSA-5654560;reactome:Catalysis3736
+MAPK3	controls-state-change-of	FGF20	Reactome	12419216;12974390;18452557;19652666	Negative regulation of FGFR1 signaling	http://bioregistry.io/reactome:R-HSA-5654560;reactome:Catalysis3736
+MAPK3	controls-state-change-of	FGF22	Reactome	12419216;12974390;18452557;19652666	Negative regulation of FGFR1 signaling	http://bioregistry.io/reactome:R-HSA-5654560;reactome:Catalysis3736
+MAPK3	controls-state-change-of	FGF23	Reactome	12419216;12974390;18452557;19652666	Negative regulation of FGFR1 signaling	http://bioregistry.io/reactome:R-HSA-5654560;reactome:Catalysis3736
+MAPK3	controls-state-change-of	FGF2	Reactome	12419216;12974390;18452557;19652666	Negative regulation of FGFR1 signaling	http://bioregistry.io/reactome:R-HSA-5654560;reactome:Catalysis3736
+MAPK3	controls-state-change-of	FGF3	Reactome	12419216;12974390;18452557;19652666	Negative regulation of FGFR1 signaling	http://bioregistry.io/reactome:R-HSA-5654560;reactome:Catalysis3736
+MAPK3	controls-state-change-of	FGF4	Reactome	12419216;12974390;18452557;19652666	Negative regulation of FGFR1 signaling	http://bioregistry.io/reactome:R-HSA-5654560;reactome:Catalysis3736
+MAPK3	controls-state-change-of	FGF5	Reactome	12419216;12974390;18452557;19652666	Negative regulation of FGFR1 signaling	http://bioregistry.io/reactome:R-HSA-5654560;reactome:Catalysis3736
+MAPK3	controls-state-change-of	FGF6	Reactome	12419216;12974390;18452557;19652666	Negative regulation of FGFR1 signaling	http://bioregistry.io/reactome:R-HSA-5654560;reactome:Catalysis3736
+MAPK3	controls-state-change-of	FGF8	Reactome	12419216;12974390;18452557;19652666	Negative regulation of FGFR1 signaling	http://bioregistry.io/reactome:R-HSA-5654560;reactome:Catalysis3736
+MAPK3	controls-state-change-of	FGF9	Reactome	12419216;12974390;18452557;19652666	Negative regulation of FGFR1 signaling	http://bioregistry.io/reactome:R-HSA-5654560;reactome:Catalysis3736
+MAPK3	controls-state-change-of	FGFR1	Reactome	12419216;12974390;18452557;19652666	Negative regulation of FGFR1 signaling	http://bioregistry.io/reactome:R-HSA-5654560;reactome:Catalysis3736
+MAPK3	controls-phosphorylation-of	FRS2	Reactome	12419216;12974390;18452557;19652666	Negative regulation of FGFR1 signaling	http://bioregistry.io/reactome:R-HSA-5654560;reactome:Catalysis3736
+MAPK3	controls-state-change-of	FRS2	Reactome	12419216;12974390;18452557;19652666	Negative regulation of FGFR1 signaling	http://bioregistry.io/reactome:R-HSA-5654560;reactome:Catalysis3736
+MAPK3	controls-state-change-of	KL	Reactome	12419216;12974390;18452557;19652666	Negative regulation of FGFR1 signaling	http://bioregistry.io/reactome:R-HSA-5654560;reactome:Catalysis3736
+MAPK3	controls-transport-of	KL	Reactome	12419216;12974390;18452557;19652666	Negative regulation of FGFR1 signaling	http://bioregistry.io/reactome:R-HSA-5654560;reactome:Catalysis3736
+PTPN11	in-complex-with	RPS27A	Reactome		Negative regulation of FGFR1 signaling	reactome:Complex6607
+PTPN11	in-complex-with	UBA52	Reactome		Negative regulation of FGFR1 signaling	reactome:Complex6607
+PTPN11	in-complex-with	UBB	Reactome		Negative regulation of FGFR1 signaling	reactome:Complex6607
+PTPN11	in-complex-with	UBC	Reactome		Negative regulation of FGFR1 signaling	reactome:Complex6607
+chebi:28815	chemical-affects	CBL	Reactome		Negative regulation of FGFR1 signaling	reactome:Complex6606
+chebi:28815	chemical-affects	FGF10	Reactome			reactome:Complex6564
+chebi:28815	chemical-affects	FGF17	Reactome			reactome:Complex6570
+chebi:28815	chemical-affects	FGF1	Reactome			reactome:Complex6570;reactome:Complex6564
+chebi:28815	chemical-affects	FGF20	Reactome			reactome:Complex6570
+chebi:28815	chemical-affects	FGF22	Reactome			reactome:Complex6564
+chebi:28815	chemical-affects	FGF23	Reactome			reactome:Complex6570;reactome:Complex6577
+chebi:28815	chemical-affects	FGF2	Reactome			reactome:Complex6570;reactome:Complex6564
+chebi:28815	chemical-affects	FGF3	Reactome			reactome:Complex6564
+chebi:28815	chemical-affects	FGF4	Reactome			reactome:Complex6570
+chebi:28815	chemical-affects	FGF5	Reactome			reactome:Complex6570
+chebi:28815	chemical-affects	FGF6	Reactome			reactome:Complex6570
+chebi:28815	chemical-affects	FGF8	Reactome			reactome:Complex6570
+chebi:28815	chemical-affects	FGF9	Reactome			reactome:Complex6570
+chebi:28815	chemical-affects	FGFR1	Reactome			reactome:Complex6570;reactome:Complex6564;reactome:Complex6577
+chebi:28815	chemical-affects	FRS2	Reactome		Negative regulation of FGFR1 signaling	reactome:Complex6585;reactome:Complex6605;reactome:Complex6587
+chebi:28815	chemical-affects	GRB2	Reactome		Negative regulation of FGFR1 signaling	reactome:Complex6606
+chebi:28815	chemical-affects	KL	Reactome			reactome:Complex6577
+chebi:28815	chemical-affects	PTPN11	Reactome		Negative regulation of FGFR1 signaling	reactome:Complex6601
+chebi:28815	chemical-affects	RPS27A	Reactome		Negative regulation of FGFR1 signaling	reactome:Complex6607
+chebi:28815	chemical-affects	UBA52	Reactome		Negative regulation of FGFR1 signaling	reactome:Complex6607
+chebi:28815	chemical-affects	UBB	Reactome		Negative regulation of FGFR1 signaling	reactome:Complex6607
+chebi:28815	chemical-affects	UBC	Reactome		Negative regulation of FGFR1 signaling	reactome:Complex6607
+
+PARTICIPANT	PARTICIPANT_TYPE	PARTICIPANT_NAME	UNIFICATION_XREF	RELATIONSHIP_XREF
+FGF1	ProteinReference	FGF1_HUMAN	uniprot:P05230	hgnc.symbol:FGF1;ncbigene:2246
+CBL	ProteinReference	CBL_HUMAN	uniprot:P22681	hgnc.symbol:CBL;ncbigene:867
+FGF2	ProteinReference	FGF2_HUMAN	uniprot:P09038	hgnc.symbol:FGF2;ncbigene:2247
+FGF3	ProteinReference	FGF3_HUMAN	uniprot:P11487	hgnc.symbol:FGF3;ncbigene:2248
+FGF4	ProteinReference	FGF4_HUMAN	uniprot:P08620	hgnc.symbol:FGF4;ncbigene:2249
+FGF5	ProteinReference	FGF5_HUMAN	uniprot:P12034	hgnc.symbol:FGF5;ncbigene:2250
+FGF6	ProteinReference	FGF6_HUMAN	uniprot:P10767	hgnc.symbol:FGF6;ncbigene:2251
+FGF8	ProteinReference	FGF8_HUMAN	uniprot:P55075	hgnc.symbol:FGF8;ncbigene:2253
+FGF9	ProteinReference	FGF9_HUMAN	uniprot:P31371	hgnc.symbol:FGF9;ncbigene:2254
+UBB	ProteinReference	UBB_HUMAN	uniprot:P0CG47	hgnc.symbol:UBB;ncbigene:7314
+UBC	ProteinReference	UBC_HUMAN	uniprot:P0CG48	hgnc.symbol:UBC;ncbigene:7316
+FGF20	ProteinReference	FGF20_HUMAN	uniprot:Q9NP95	hgnc.symbol:FGF20;ncbigene:26281
+MAPK1	ProteinReference	MK01_HUMAN	uniprot:P28482	hgnc.symbol:MAPK1;ncbigene:5594
+RPS27A	ProteinReference	RS27A_HUMAN	uniprot:P62979	hgnc.symbol:RPS27A;ncbigene:6233
+FGF23	ProteinReference	FGF23_HUMAN	uniprot:Q9GZV9	hgnc.symbol:FGF23;ncbigene:8074
+FGF22	ProteinReference	FGF22_HUMAN	uniprot:Q9HCT0	hgnc.symbol:FGF22;ncbigene:27006
+MAPK3	ProteinReference	MK03_HUMAN	uniprot:P27361	hgnc.symbol:MAPK3;ncbigene:5595
+KL	ProteinReference	KLOT_HUMAN	uniprot:Q9UEF7	hgnc.symbol:KL;ncbigene:9365
+FRS2	ProteinReference	FRS2_HUMAN	uniprot:Q8WU20	hgnc.symbol:FRS2;ncbigene:10818
+PTPN11	ProteinReference	PTN11_HUMAN	uniprot:Q06124	hgnc.symbol:PTPN11;ncbigene:5781
+FGF17	ProteinReference	FGF17_HUMAN	uniprot:O60258	hgnc.symbol:FGF17;ncbigene:8822
+ANOS1	ProteinReference	KALM_HUMAN	uniprot:P23352	hgnc.symbol:ANOS1;ncbigene:3730
+GRB2	ProteinReference	GRB2_HUMAN	uniprot:P62993	hgnc.symbol:GRB2;ncbigene:2885
+UBA52	ProteinReference	RL40_HUMAN	uniprot:P62987	hgnc.symbol:UBA52;ncbigene:7311
+FGFR1	ProteinReference	FGFR1_HUMAN	uniprot:P11362	hgnc.symbol:FGFR1;ncbigene:2260
+FGF10	ProteinReference	FGF10_HUMAN	uniprot:O15520	hgnc.symbol:FGF10;ncbigene:2255
+chebi:28815	SmallMoleculeReference	heparan sulfate	chebi:CHEBI:28815	

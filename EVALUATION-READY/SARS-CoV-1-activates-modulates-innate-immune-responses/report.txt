@@ -1,0 +1,33 @@
+Number of vertices in Ref .sif = 22
+Number of vertices in BioPattern kBase.pl =18
+Number of edges in Ref .sif = 21
+Number of edges in BioPattern kBase.pl = 75
+Common Paths found in this .sif and in the .pl
+The structure is: Initial Vertex, Relationship in Sif, Relationship in BioPatterns, Final Vertex
+[('ITCH','controls-state-change-of',negative_correlation,'MAVS'),('MAVS','in-complex-with',negative_correlation,'PCBP2')]
+[('ITCH','controls-state-change-of',negative_correlation,'MAVS'),('MAVS','in-complex-with',association,'PCBP2')]
+[('ITCH','in-complex-with',negative_correlation,'MAVS'),('MAVS','in-complex-with',negative_correlation,'PCBP2')]
+[('ITCH','in-complex-with',negative_correlation,'MAVS'),('MAVS','in-complex-with',association,'PCBP2')]
+[('ITCH','controls-state-change-of',negative_correlation,'MAVS'),('MAVS','in-complex-with',association,'TOMM70')]
+[('ITCH','in-complex-with',negative_correlation,'MAVS'),('MAVS','in-complex-with',association,'TOMM70')]
+[('ITCH','controls-state-change-of',negative_correlation,'MAVS')]
+[('ITCH','in-complex-with',negative_correlation,'MAVS')]
+[('KPNA2','in-complex-with',association,'KPNB1')]
+[('KPNA2','in-complex-with',bind,'KPNB1')]
+[('NFKB1','in-complex-with',negative_correlation,'NFKBIA'),('NFKBIA','in-complex-with',bind,'RELA')]
+[('NFKB1','in-complex-with',association,'NFKBIA'),('NFKBIA','in-complex-with',bind,'RELA')]
+[('NFKB1','in-complex-with',bind,'NFKBIA'),('NFKBIA','in-complex-with',bind,'RELA')]
+[('NFKB1','in-complex-with',negative_correlation,'NFKBIA')]
+[('NFKB1','in-complex-with',association,'NFKBIA')]
+[('NFKB1','in-complex-with',bind,'NFKBIA')]
+[('NFKB1','in-complex-with',association,'RELA')]
+[('NFKB1','in-complex-with',negative_correlation,'RELA')]
+[('NFKB1','in-complex-with',bind,'RELA')]
+[('NFKB1','in-complex-with',positive_correlation,'RELA')]
+[('SIKE1','in-complex-with',negative_correlation,'TBK1')]
+[('SIKE1','in-complex-with',association,'TBK1')]
+[('MAVS','in-complex-with',negative_correlation,'PCBP2')]
+[('MAVS','in-complex-with',association,'PCBP2')]
+[('MAVS','in-complex-with',association,'TOMM70')]
+[('NFKBIA','in-complex-with',bind,'RELA')]
+Number of paths common to Sif Ref and BioPatterns = 26

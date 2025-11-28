@@ -1,0 +1,31 @@
+BPNT2
+myo-inositol
+p-hydroxymercuribenzoate
+INPP5D
+p-hydroxymercuribenzoate
+IMPA1
+IMPA2
+INPP1
+1D-myo-inositol 4-phosphate(2-)
+INPP5A
+1D-myo-inositol 1,4-bisphosphate(4-)
+1D-myo-inositol 1,3,4-trisphosphate(6-)
+INPP5B
+INPP5F
+INPP5J
+INPP5K
+INPPL1
+IPMK
+OCRL
+SYNJ1
+SYNJ2
+1D-myo-inositol 1,3,4,5-tetrakisphosphate(8-)
+ITPKA
+ITPKB
+ITPKC
+MINPP1
+1D-myo-inositol 1,4,5-trisphosphate(6-)
+PTEN
+magnesium(2+)
+calcium(2+)
+2,3-bisphosphonato-D-glycerate(5-)

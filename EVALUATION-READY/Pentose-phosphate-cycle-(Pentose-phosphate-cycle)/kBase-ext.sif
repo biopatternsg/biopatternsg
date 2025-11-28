@@ -1,0 +1,79 @@
+﻿PARTICIPANT_A	INTERACTION_TYPE	PARTICIPANT_B	INTERACTION_DATA_SOURCE	INTERACTION_PUBMED_ID	PATHWAY_NAMES	MEDIATOR_IDS
+CHEBI:15946	used-to-produce	CHEBI:16905	INOH		Pentose phosphate cycle ( Pentose phosphate cycle )	inoh:id1373675115_Phosphorylation
+CHEBI:15946	used-to-produce	CHEBI:37736	INOH		Pentose phosphate cycle ( Pentose phosphate cycle )	inoh:id1373675115_Phosphorylation
+CHEBI:15946	consumption-controlled-by	PFKL	INOH		Pentose phosphate cycle ( Pentose phosphate cycle )	inoh:id1373675115_Phosphorylation;inoh:id1165294416_Catalyze
+CHEBI:15946	consumption-controlled-by	PFKM	INOH		Pentose phosphate cycle ( Pentose phosphate cycle )	inoh:id1373675115_Phosphorylation;inoh:id789714944_Catalyze
+CHEBI:15946	consumption-controlled-by	PFKP	INOH		Pentose phosphate cycle ( Pentose phosphate cycle )	inoh:id615355123_Catalyze;inoh:id1373675115_Phosphorylation
+CHEBI:16905	used-to-produce	CHEBI:15946	INOH		Pentose phosphate cycle ( Pentose phosphate cycle )	inoh:id1261873553_Dephosphorylation
+CHEBI:16905	used-to-produce	CHEBI:61553	INOH		Pentose phosphate cycle ( Pentose phosphate cycle )	inoh:id1261873553_Dephosphorylation
+CHEBI:16905	consumption-controlled-by	FBP1	INOH		Pentose phosphate cycle ( Pentose phosphate cycle )	inoh:id1261873553_Dephosphorylation;inoh:id1383485149_Catalyze
+CHEBI:16905	consumption-controlled-by	FBP2	INOH		Pentose phosphate cycle ( Pentose phosphate cycle )	inoh:id1261873553_Dephosphorylation;inoh:id1783113306_Catalyze
+CHEBI:37736	used-to-produce	CHEBI:15946	INOH		Pentose phosphate cycle ( Pentose phosphate cycle )	inoh:id1261873553_Dephosphorylation
+CHEBI:37736	used-to-produce	CHEBI:61553	INOH		Pentose phosphate cycle ( Pentose phosphate cycle )	inoh:id1261873553_Dephosphorylation
+CHEBI:37736	consumption-controlled-by	FBP1	INOH		Pentose phosphate cycle ( Pentose phosphate cycle )	inoh:id1261873553_Dephosphorylation;inoh:id1383485149_Catalyze
+CHEBI:37736	consumption-controlled-by	FBP2	INOH		Pentose phosphate cycle ( Pentose phosphate cycle )	inoh:id1261873553_Dephosphorylation;inoh:id1783113306_Catalyze
+CHEBI:61553	used-to-produce	CHEBI:16905	INOH		Pentose phosphate cycle ( Pentose phosphate cycle )	inoh:id1373675115_Phosphorylation
+CHEBI:61553	used-to-produce	CHEBI:37736	INOH		Pentose phosphate cycle ( Pentose phosphate cycle )	inoh:id1373675115_Phosphorylation
+CHEBI:61553	consumption-controlled-by	PFKL	INOH		Pentose phosphate cycle ( Pentose phosphate cycle )	inoh:id1373675115_Phosphorylation;inoh:id1165294416_Catalyze
+CHEBI:61553	consumption-controlled-by	PFKM	INOH		Pentose phosphate cycle ( Pentose phosphate cycle )	inoh:id1373675115_Phosphorylation;inoh:id789714944_Catalyze
+CHEBI:61553	consumption-controlled-by	PFKP	INOH		Pentose phosphate cycle ( Pentose phosphate cycle )	inoh:id615355123_Catalyze;inoh:id1373675115_Phosphorylation
+FBP1	controls-production-of	CHEBI:15946	INOH		Pentose phosphate cycle ( Pentose phosphate cycle )	inoh:id1261873553_Dephosphorylation;inoh:id1383485149_Catalyze
+FBP1	controls-production-of	CHEBI:61553	INOH		Pentose phosphate cycle ( Pentose phosphate cycle )	inoh:id1261873553_Dephosphorylation;inoh:id1383485149_Catalyze
+FBP2	controls-production-of	CHEBI:15946	INOH		Pentose phosphate cycle ( Pentose phosphate cycle )	inoh:id1261873553_Dephosphorylation;inoh:id1783113306_Catalyze
+FBP2	controls-production-of	CHEBI:61553	INOH		Pentose phosphate cycle ( Pentose phosphate cycle )	inoh:id1261873553_Dephosphorylation;inoh:id1783113306_Catalyze
+G6PD	controls-production-of	chebi:16938	INOH		Pentose phosphate cycle ( Pentose phosphate cycle )	inoh:id92980005_Oxidation_Reduction;inoh:id515676971_Catalyze
+H6PD	controls-production-of	chebi:48928	INOH		Pentose phosphate cycle ( Pentose phosphate cycle )	inoh:id140000159_Hydrolysis;inoh:id375339767_Catalyze
+PFKL	controls-production-of	CHEBI:16905	INOH		Pentose phosphate cycle ( Pentose phosphate cycle )	inoh:id1373675115_Phosphorylation;inoh:id1165294416_Catalyze
+PFKL	controls-production-of	CHEBI:37736	INOH		Pentose phosphate cycle ( Pentose phosphate cycle )	inoh:id1373675115_Phosphorylation;inoh:id1165294416_Catalyze
+PFKM	controls-production-of	CHEBI:16905	INOH		Pentose phosphate cycle ( Pentose phosphate cycle )	inoh:id1373675115_Phosphorylation;inoh:id789714944_Catalyze
+PFKM	controls-production-of	CHEBI:37736	INOH		Pentose phosphate cycle ( Pentose phosphate cycle )	inoh:id1373675115_Phosphorylation;inoh:id789714944_Catalyze
+PFKP	controls-production-of	CHEBI:16905	INOH		Pentose phosphate cycle ( Pentose phosphate cycle )	inoh:id615355123_Catalyze;inoh:id1373675115_Phosphorylation
+PFKP	controls-production-of	CHEBI:37736	INOH		Pentose phosphate cycle ( Pentose phosphate cycle )	inoh:id615355123_Catalyze;inoh:id1373675115_Phosphorylation
+PGD	controls-production-of	chebi:17363	INOH		Pentose phosphate cycle ( Pentose phosphate cycle )	inoh:id1656865174_Oxidation_Reduction;inoh:id1342267834_Catalyze
+PGLS	controls-production-of	chebi:48928	INOH		Pentose phosphate cycle ( Pentose phosphate cycle )	inoh:id140000159_Hydrolysis;inoh:id471464620_Catalyze
+RBKS	controls-production-of	CHEBI:16132	INOH		Pentose phosphate cycle ( Pentose phosphate cycle )	inoh:id134882064_Catalyze;inoh:id1149708835_Phosphorylation
+RBKS	controls-production-of	CHEBI:17797	INOH		Pentose phosphate cycle ( Pentose phosphate cycle )	inoh:id2109713665_Phosphorylation;inoh:id869831186_Catalyze
+RBKS	controls-production-of	CHEBI:190741	INOH		Pentose phosphate cycle ( Pentose phosphate cycle )	inoh:id134882064_Catalyze;inoh:id1149708835_Phosphorylation
+RBKS	controls-production-of	CHEBI:52742	INOH		Pentose phosphate cycle ( Pentose phosphate cycle )	inoh:id2109713665_Phosphorylation;inoh:id869831186_Catalyze
+RBKS	controls-production-of	CHEBI:55513	INOH		Pentose phosphate cycle ( Pentose phosphate cycle )	inoh:id134882064_Catalyze;inoh:id1149708835_Phosphorylation
+chebi:16938	consumption-controlled-by	H6PD	INOH		Pentose phosphate cycle ( Pentose phosphate cycle )	inoh:id140000159_Hydrolysis;inoh:id375339767_Catalyze
+chebi:16938	consumption-controlled-by	PGLS	INOH		Pentose phosphate cycle ( Pentose phosphate cycle )	inoh:id140000159_Hydrolysis;inoh:id471464620_Catalyze
+chebi:16938	used-to-produce	chebi:48928	INOH		Pentose phosphate cycle ( Pentose phosphate cycle )	inoh:id140000159_Hydrolysis
+chebi:28816	used-to-produce	CHEBI:16132	INOH		Pentose phosphate cycle ( Pentose phosphate cycle )	inoh:id1149708835_Phosphorylation
+chebi:28816	used-to-produce	CHEBI:190741	INOH		Pentose phosphate cycle ( Pentose phosphate cycle )	inoh:id1149708835_Phosphorylation
+chebi:28816	used-to-produce	CHEBI:55513	INOH		Pentose phosphate cycle ( Pentose phosphate cycle )	inoh:id1149708835_Phosphorylation
+chebi:28816	consumption-controlled-by	RBKS	INOH		Pentose phosphate cycle ( Pentose phosphate cycle )	inoh:id134882064_Catalyze;inoh:id1149708835_Phosphorylation
+chebi:4170	consumption-controlled-by	G6PD	INOH		Pentose phosphate cycle ( Pentose phosphate cycle )	inoh:id92980005_Oxidation_Reduction;inoh:id515676971_Catalyze
+chebi:4170	used-to-produce	chebi:16938	INOH		Pentose phosphate cycle ( Pentose phosphate cycle )	inoh:id92980005_Oxidation_Reduction
+chebi:47013	used-to-produce	CHEBI:17797	INOH		Pentose phosphate cycle ( Pentose phosphate cycle )	inoh:id2109713665_Phosphorylation
+chebi:47013	used-to-produce	CHEBI:52742	INOH		Pentose phosphate cycle ( Pentose phosphate cycle )	inoh:id2109713665_Phosphorylation
+chebi:47013	consumption-controlled-by	RBKS	INOH		Pentose phosphate cycle ( Pentose phosphate cycle )	inoh:id2109713665_Phosphorylation;inoh:id869831186_Catalyze
+chebi:48928	consumption-controlled-by	PGD	INOH		Pentose phosphate cycle ( Pentose phosphate cycle )	inoh:id1656865174_Oxidation_Reduction;inoh:id1342267834_Catalyze
+chebi:48928	used-to-produce	chebi:17363	INOH		Pentose phosphate cycle ( Pentose phosphate cycle )	inoh:id1656865174_Oxidation_Reduction
+
+PARTICIPANT	PARTICIPANT_TYPE	PARTICIPANT_NAME	UNIFICATION_XREF	RELATIONSHIP_XREF
+H6PD	ProteinReference	G6PE_HUMAN	uniprot:O95479	hgnc.symbol:H6PD;ncbigene:9563
+CHEBI:190741	SmallMoleculeReference	2-Deoxy-D-ribose 5-phosphate		
+CHEBI:15946	SmallMoleculeReference	D-Fructose 6-phosphate		
+CHEBI:37736	SmallMoleculeReference	D-Fructose 1,6-bisphosphate		
+chebi:47013	SmallMoleculeReference	D-ribofuranose	chebi:CHEBI:47013	
+CHEBI:17797	SmallMoleculeReference	D-Ribose 5-phosphate		
+chebi:17363	SmallMoleculeReference	D-ribulose 5-phosphate	chebi:CHEBI:17363	
+PGLS	ProteinReference	6PGL_HUMAN	uniprot:O95336	hgnc.symbol:PGLS;ncbigene:25796
+CHEBI:52742	SmallMoleculeReference	D-Ribose 5-phosphate		
+CHEBI:55513	SmallMoleculeReference	2-Deoxy-D-ribose 5-phosphate		
+G6PD	ProteinReference	G6PD_HUMAN	uniprot:P11413	hgnc.symbol:G6PD;ncbigene:2539
+chebi:4170	SmallMoleculeReference	D-glucopyranose 6-phosphate	chebi:CHEBI:4170	
+CHEBI:16905	SmallMoleculeReference	D-Fructose 1,6-bisphosphate		
+chebi:16938	SmallMoleculeReference	6-O-phosphono-D-glucono-1,5-lactone	chebi:CHEBI:16938	
+PGD	ProteinReference	6PGD_HUMAN	uniprot:P52209	hgnc.symbol:PGD;ncbigene:5226
+chebi:48928	SmallMoleculeReference	6-phospho-D-gluconic acid	chebi:CHEBI:48928	
+PFKL	ProteinReference	PFKAL_HUMAN	uniprot:P17858	hgnc.symbol:PFKL;ncbigene:5211
+CHEBI:16132	SmallMoleculeReference	2-Deoxy-D-ribose 5-phosphate		
+CHEBI:61553	SmallMoleculeReference	D-Fructose 6-phosphate		
+chebi:28816	SmallMoleculeReference	2-deoxy-D-ribose	chebi:CHEBI:28816	
+PFKM	ProteinReference	PFKAM_HUMAN	uniprot:P08237	hgnc.symbol:PFKM;ncbigene:5213
+FBP1	ProteinReference	F16P1_HUMAN	uniprot:P09467	hgnc.symbol:FBP1;ncbigene:2203
+RBKS	ProteinReference	RBSK_HUMAN	uniprot:Q9H477	hgnc.symbol:RBKS;ncbigene:64080
+PFKP	ProteinReference	PFKAP_HUMAN	uniprot:Q01813	hgnc.symbol:PFKP;ncbigene:5214
+FBP2	ProteinReference	F16P2_HUMAN	uniprot:O00757	hgnc.symbol:FBP2;ncbigene:8789

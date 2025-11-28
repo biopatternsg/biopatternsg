@@ -1,0 +1,46 @@
+﻿PARTICIPANT_A	INTERACTION_TYPE	PARTICIPANT_B	INTERACTION_DATA_SOURCE	INTERACTION_PUBMED_ID	PATHWAY_NAMES	MEDIATOR_IDS
+IFIH1	in-complex-with	TKFC	Reactome		SARS-CoV-1 activates/modulates innate immune responses	reactome:Complex1389
+IKBKE	in-complex-with	SIKE1	Reactome		SARS-CoV-1 activates/modulates innate immune responses	reactome:Complex1396
+IRAK2	in-complex-with	TRAF6	Reactome		SARS-CoV-1 activates/modulates innate immune responses	reactome:Complex1116;reactome:Complex1115;reactome:Complex1114
+ITCH	controls-state-change-of	MAVS	Reactome	19881509;25135833	SARS-CoV-1 activates/modulates innate immune responses	http://bioregistry.io/reactome:R-HSA-9685195;reactome:Catalysis5647
+ITCH	in-complex-with	MAVS	Reactome		SARS-CoV-1 activates/modulates innate immune responses	reactome:Complex13646
+ITCH	in-complex-with	PCBP2	Reactome		SARS-CoV-1 activates/modulates innate immune responses	reactome:Complex13646
+KPNA2	in-complex-with	KPNB1	Reactome		SARS-CoV-1 activates/modulates innate immune responses	reactome:Complex13649
+MAVS	in-complex-with	NLRP3	Reactome		SARS-CoV-1 activates/modulates innate immune responses	reactome:Complex13636
+MAVS	in-complex-with	PCBP2	Reactome		SARS-CoV-1 activates/modulates innate immune responses	reactome:Complex13645;reactome:Complex13646
+MAVS	in-complex-with	PYCARD	Reactome		SARS-CoV-1 activates/modulates innate immune responses	reactome:Complex13634
+MAVS	in-complex-with	TOMM70	Reactome		SARS-CoV-1 activates/modulates innate immune responses	reactome:Complex1452
+NFKB1	in-complex-with	NFKBIA	Reactome		SARS-CoV-1 activates/modulates innate immune responses	reactome:Complex483;reactome:Complex13630
+NFKB1	in-complex-with	RELA	Reactome		SARS-CoV-1 activates/modulates innate immune responses	reactome:Complex480
+NFKBIA	in-complex-with	RELA	Reactome		SARS-CoV-1 activates/modulates innate immune responses	reactome:Complex483;reactome:Complex13630
+NLRP3	in-complex-with	PYCARD	Reactome		SARS-CoV-1 activates/modulates innate immune responses	reactome:Complex13634
+NLRP3	in-complex-with	TOMM70	Reactome		SARS-CoV-1 activates/modulates innate immune responses	reactome:Complex13636
+PYCARD	in-complex-with	TOMM70	Reactome		SARS-CoV-1 activates/modulates innate immune responses	reactome:Complex13634
+SIKE1	in-complex-with	TBK1	Reactome		SARS-CoV-1 activates/modulates innate immune responses	reactome:Complex1396
+chebi:36704	chemical-affects	TLR7	Reactome		SARS-CoV-1 activates/modulates innate immune responses	reactome:Complex1085
+chebi:36706	chemical-affects	TLR7	Reactome		SARS-CoV-1 activates/modulates innate immune responses	reactome:Complex1085
+chebi:5801	chemical-affects	TLR7	Reactome	11812998;12032557;14976261;14976262;15661881;16985170;23123977;23520111;24316048;24342772;24855048;25609809;26929371;27742543;30566863;32361001;33718825	SARS-CoV-1 activates/modulates innate immune responses	reactome:Control100;http://bioregistry.io/reactome:R-HSA-167983;reactome:Complex1086
+
+PARTICIPANT	PARTICIPANT_TYPE	PARTICIPANT_NAME	UNIFICATION_XREF	RELATIONSHIP_XREF
+TOMM70	ProteinReference	TOM70_HUMAN	uniprot:O94826	hgnc.symbol:TOMM70;ncbigene:9868
+chebi:36704	SmallMoleculeReference	imiquimod	chebi:CHEBI:36704	
+chebi:36706	SmallMoleculeReference	resiquimod	chebi:CHEBI:36706	
+NFKB1	ProteinReference	NFKB1_HUMAN	uniprot:P19838	hgnc.symbol:NFKB1;ncbigene:4790
+RELA	ProteinReference	TF65_HUMAN	uniprot:Q04206	hgnc.symbol:RELA;ncbigene:5970
+PYCARD	ProteinReference	ASC_HUMAN	uniprot:Q9ULZ3	hgnc.symbol:PYCARD;ncbigene:29108
+IFIH1	ProteinReference	IFIH1_HUMAN	uniprot:Q9BYX4	hgnc.symbol:IFIH1;ncbigene:64135
+NFKBIA	ProteinReference	IKBA_HUMAN	uniprot:P25963	hgnc.symbol:NFKBIA;ncbigene:4792
+MAVS	ProteinReference	MAVS_HUMAN	uniprot:Q7Z434	hgnc.symbol:MAVS;ncbigene:57506
+ITCH	ProteinReference	ITCH_HUMAN	uniprot:Q96J02	hgnc.symbol:ITCH;ncbigene:83737
+SIKE1	ProteinReference	SIKE1_HUMAN	uniprot:Q9BRV8	hgnc.symbol:SIKE1;ncbigene:80143
+chebi:5801	SmallMoleculeReference	hydroxychloroquine	chebi:CHEBI:5801	
+TKFC	ProteinReference	TKFC_HUMAN	uniprot:Q3LXA3	hgnc.symbol:TKFC;ncbigene:26007
+TBK1	ProteinReference	TBK1_HUMAN	uniprot:Q9UHD2	hgnc.symbol:TBK1;ncbigene:29110
+IRAK2	ProteinReference	IRAK2_HUMAN	uniprot:O43187	hgnc.symbol:IRAK2;ncbigene:3656
+TRAF6	ProteinReference	TRAF6_HUMAN	uniprot:Q9Y4K3	hgnc.symbol:TRAF6;ncbigene:7189
+PCBP2	ProteinReference	PCBP2_HUMAN	uniprot:Q15366	hgnc.symbol:PCBP2;ncbigene:5094
+NLRP3	ProteinReference	NLRP3_HUMAN	uniprot:Q96P20	hgnc.symbol:NLRP3;ncbigene:114548
+TLR7	ProteinReference	TLR7_HUMAN	uniprot:Q9NYK1	hgnc.symbol:TLR7;ncbigene:51284
+KPNA2	ProteinReference	IMA1_HUMAN	uniprot:P52292	hgnc.symbol:KPNA2;ncbigene:3838
+IKBKE	ProteinReference	IKKE_HUMAN	uniprot:Q14164	hgnc.symbol:IKBKE;ncbigene:9641
+KPNB1	ProteinReference	IMB1_HUMAN	uniprot:Q14974	hgnc.symbol:KPNB1;ncbigene:3837

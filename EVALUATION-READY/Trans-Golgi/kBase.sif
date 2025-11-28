@@ -1,0 +1,15 @@
+﻿GBF1	controls-state-change-of	ARF1
+GBF1	controls-transport-of	ARF1
+SNAP23	in-complex-with	STX4
+SNAP23	controls-state-change-of	VAMP2
+SNAP23	in-complex-with	VAMP2
+SNAP23	controls-state-change-of	VAMP7
+SNAP23	in-complex-with	VAMP7
+SNAP23	controls-state-change-of	VAMP8
+SNAP23	in-complex-with	VAMP8
+STX4	controls-state-change-of	VAMP2
+STX4	in-complex-with	VAMP2
+STX4	controls-state-change-of	VAMP7
+STX4	in-complex-with	VAMP7
+STX4	controls-state-change-of	VAMP8
+STX4	in-complex-with	VAMP8

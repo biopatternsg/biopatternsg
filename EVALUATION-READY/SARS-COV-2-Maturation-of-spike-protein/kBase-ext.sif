@@ -1,0 +1,105 @@
+﻿PARTICIPANT_A	INTERACTION_TYPE	PARTICIPANT_B	INTERACTION_DATA_SOURCE	INTERACTION_PUBMED_ID	PATHWAY_NAMES	MEDIATOR_IDS
+DAD1	in-complex-with	DDOST	Reactome		Maturation of spike protein	reactome:Complex5075
+DAD1	in-complex-with	MAGT1	Reactome		Maturation of spike protein	reactome:Complex5075
+DAD1	in-complex-with	RPN1	Reactome		Maturation of spike protein	reactome:Complex5075
+DAD1	in-complex-with	RPN2	Reactome		Maturation of spike protein	reactome:Complex5075
+DAD1	in-complex-with	STT3A	Reactome		Maturation of spike protein	reactome:Complex5075
+DAD1	in-complex-with	TUSC3	Reactome		Maturation of spike protein	reactome:Complex5075
+DAD1	controls-production-of	chebi:57683	Reactome	11470266;32363391;32366695;32518941;32676595	Maturation of spike protein	reactome:Catalysis5684;http://bioregistry.io/reactome:R-HSA-9694793
+DDOST	in-complex-with	MAGT1	Reactome		Maturation of spike protein	reactome:Complex5075
+DDOST	in-complex-with	RPN1	Reactome		Maturation of spike protein	reactome:Complex5075
+DDOST	in-complex-with	RPN2	Reactome		Maturation of spike protein	reactome:Complex5075
+DDOST	in-complex-with	STT3A	Reactome		Maturation of spike protein	reactome:Complex5075
+DDOST	in-complex-with	TUSC3	Reactome		Maturation of spike protein	reactome:Complex5075
+DDOST	controls-production-of	chebi:57683	Reactome	11470266;32363391;32366695;32518941;32676595	Maturation of spike protein	reactome:Catalysis5684;http://bioregistry.io/reactome:R-HSA-9694793
+GANAB	in-complex-with	PRKCSH	Reactome		Maturation of spike protein	reactome:Complex5079
+GANAB	controls-production-of	chebi:15903	Reactome	10929008;12145188;32366695	Maturation of spike protein	reactome:Catalysis5685;reactome:Control2218;http://bioregistry.io/reactome:R-HSA-9694364
+GOLGA7	in-complex-with	ZDHHC5	Reactome		Maturation of spike protein	reactome:Complex13754
+GOLGA7	in-complex-with	ZDHHC9	Reactome		Maturation of spike protein	reactome:Complex8609
+GOLGA7	controls-production-of	chebi:57287	Reactome	17134730;20580052;33310888;34117209;34428449;34528721;34599882;34961524	Maturation of spike protein	reactome:Catalysis5689;http://bioregistry.io/reactome:R-HSA-9694341
+MAGT1	in-complex-with	RPN1	Reactome		Maturation of spike protein	reactome:Complex5075
+MAGT1	in-complex-with	RPN2	Reactome		Maturation of spike protein	reactome:Complex5075
+MAGT1	in-complex-with	STT3A	Reactome		Maturation of spike protein	reactome:Complex5075
+MAGT1	in-complex-with	TUSC3	Reactome		Maturation of spike protein	reactome:Complex5075
+MAGT1	controls-production-of	chebi:57683	Reactome	11470266;32363391;32366695;32518941;32676595	Maturation of spike protein	reactome:Catalysis5684;http://bioregistry.io/reactome:R-HSA-9694793
+MOGS	controls-production-of	chebi:15903	Reactome	10929008;12145188;32366695	Maturation of spike protein	reactome:Catalysis5685;reactome:Catalysis5686;reactome:Control2218;http://bioregistry.io/reactome:R-HSA-9694364
+PRKCSH	controls-production-of	chebi:15903	Reactome	10929008;12145188;32366695	Maturation of spike protein	reactome:Catalysis5685;reactome:Control2218;http://bioregistry.io/reactome:R-HSA-9694364
+RPN1	in-complex-with	RPN2	Reactome		Maturation of spike protein	reactome:Complex5075
+RPN1	in-complex-with	STT3A	Reactome		Maturation of spike protein	reactome:Complex5075
+RPN1	in-complex-with	TUSC3	Reactome		Maturation of spike protein	reactome:Complex5075
+RPN1	controls-production-of	chebi:57683	Reactome	11470266;32363391;32366695;32518941;32676595	Maturation of spike protein	reactome:Catalysis5684;http://bioregistry.io/reactome:R-HSA-9694793
+RPN2	in-complex-with	STT3A	Reactome		Maturation of spike protein	reactome:Complex5075
+RPN2	in-complex-with	TUSC3	Reactome		Maturation of spike protein	reactome:Complex5075
+RPN2	controls-production-of	chebi:57683	Reactome	11470266;32363391;32366695;32518941;32676595	Maturation of spike protein	reactome:Catalysis5684;http://bioregistry.io/reactome:R-HSA-9694793
+STT3A	in-complex-with	TUSC3	Reactome		Maturation of spike protein	reactome:Complex5075
+STT3A	controls-production-of	chebi:57683	Reactome	11470266;32363391;32366695;32518941;32676595	Maturation of spike protein	reactome:Catalysis5684;http://bioregistry.io/reactome:R-HSA-9694793
+TUSC3	controls-production-of	chebi:57683	Reactome	11470266;32363391;32366695;32518941;32676595	Maturation of spike protein	reactome:Catalysis5684;http://bioregistry.io/reactome:R-HSA-9694793
+ZDHHC11	controls-production-of	chebi:57287	Reactome	17134730;20580052;33310888;34117209;34428449;34528721;34599882;34961524	Maturation of spike protein	reactome:Catalysis5689;http://bioregistry.io/reactome:R-HSA-9694341
+ZDHHC20	controls-production-of	chebi:57287	Reactome	17134730;20580052;33310888;34117209;34428449;34528721;34599882;34961524	Maturation of spike protein	reactome:Catalysis5689;http://bioregistry.io/reactome:R-HSA-9694341
+ZDHHC2	controls-production-of	chebi:57287	Reactome	17134730;20580052;33310888;34117209;34428449;34528721;34599882;34961524	Maturation of spike protein	reactome:Catalysis5689;http://bioregistry.io/reactome:R-HSA-9694341
+ZDHHC3	controls-production-of	chebi:57287	Reactome	17134730;20580052;33310888;34117209;34428449;34528721;34599882;34961524	Maturation of spike protein	reactome:Catalysis5689;http://bioregistry.io/reactome:R-HSA-9694341
+ZDHHC5	controls-production-of	chebi:57287	Reactome	17134730;20580052;33310888;34117209;34428449;34528721;34599882;34961524	Maturation of spike protein	reactome:Catalysis5689;http://bioregistry.io/reactome:R-HSA-9694341
+ZDHHC8	controls-production-of	chebi:57287	Reactome	17134730;20580052;33310888;34117209;34428449;34528721;34599882;34961524	Maturation of spike protein	reactome:Catalysis5689;http://bioregistry.io/reactome:R-HSA-9694341
+ZDHHC9	controls-production-of	chebi:57287	Reactome	17134730;20580052;33310888;34117209;34428449;34528721;34599882;34961524	Maturation of spike protein	reactome:Catalysis5689;http://bioregistry.io/reactome:R-HSA-9694341
+chebi:27918	chemical-affects	GANAB	Reactome		Maturation of spike protein	reactome:Complex13599
+chebi:27918	chemical-affects	MOGS	Reactome		Maturation of spike protein	reactome:Complex13599
+chebi:27918	chemical-affects	PRKCSH	Reactome		Maturation of spike protein	reactome:Complex13599
+chebi:28196	chemical-affects	GANAB	Reactome		Maturation of spike protein	reactome:Complex13599
+chebi:28196	chemical-affects	MOGS	Reactome		Maturation of spike protein	reactome:Complex13599
+chebi:28196	chemical-affects	PRKCSH	Reactome		Maturation of spike protein	reactome:Complex13599
+chebi:42355	chemical-affects	GANAB	Reactome		Maturation of spike protein	reactome:Complex13599
+chebi:42355	chemical-affects	MOGS	Reactome		Maturation of spike protein	reactome:Complex13599
+chebi:42355	chemical-affects	PRKCSH	Reactome		Maturation of spike protein	reactome:Complex13599
+chebi:44369	chemical-affects	GANAB	Reactome		Maturation of spike protein	reactome:Complex13599
+chebi:44369	chemical-affects	MOGS	Reactome		Maturation of spike protein	reactome:Complex13599
+chebi:44369	chemical-affects	PRKCSH	Reactome		Maturation of spike protein	reactome:Complex13599
+chebi:4744	chemical-affects	GANAB	Reactome		Maturation of spike protein	reactome:Complex13599
+chebi:4744	chemical-affects	MOGS	Reactome		Maturation of spike protein	reactome:Complex13599
+chebi:4744	chemical-affects	PRKCSH	Reactome		Maturation of spike protein	reactome:Complex13599
+chebi:53019	consumption-controlled-by	DAD1	Reactome	11470266;32363391;32366695;32518941;32676595	Maturation of spike protein	reactome:Catalysis5684;http://bioregistry.io/reactome:R-HSA-9694793
+chebi:53019	consumption-controlled-by	DDOST	Reactome	11470266;32363391;32366695;32518941;32676595	Maturation of spike protein	reactome:Catalysis5684;http://bioregistry.io/reactome:R-HSA-9694793
+chebi:53019	consumption-controlled-by	MAGT1	Reactome	11470266;32363391;32366695;32518941;32676595	Maturation of spike protein	reactome:Catalysis5684;http://bioregistry.io/reactome:R-HSA-9694793
+chebi:53019	consumption-controlled-by	RPN1	Reactome	11470266;32363391;32366695;32518941;32676595	Maturation of spike protein	reactome:Catalysis5684;http://bioregistry.io/reactome:R-HSA-9694793
+chebi:53019	consumption-controlled-by	RPN2	Reactome	11470266;32363391;32366695;32518941;32676595	Maturation of spike protein	reactome:Catalysis5684;http://bioregistry.io/reactome:R-HSA-9694793
+chebi:53019	consumption-controlled-by	STT3A	Reactome	11470266;32363391;32366695;32518941;32676595	Maturation of spike protein	reactome:Catalysis5684;http://bioregistry.io/reactome:R-HSA-9694793
+chebi:53019	consumption-controlled-by	TUSC3	Reactome	11470266;32363391;32366695;32518941;32676595	Maturation of spike protein	reactome:Catalysis5684;http://bioregistry.io/reactome:R-HSA-9694793
+chebi:53019	used-to-produce	chebi:57683	Reactome	11470266;32363391;32366695;32518941;32676595	Maturation of spike protein	http://bioregistry.io/reactome:R-HSA-9694793
+chebi:57379	consumption-controlled-by	GOLGA7	Reactome	17134730;20580052;33310888;34117209;34428449;34528721;34599882;34961524	Maturation of spike protein	reactome:Catalysis5689;http://bioregistry.io/reactome:R-HSA-9694341
+chebi:57379	consumption-controlled-by	ZDHHC11	Reactome	17134730;20580052;33310888;34117209;34428449;34528721;34599882;34961524	Maturation of spike protein	reactome:Catalysis5689;http://bioregistry.io/reactome:R-HSA-9694341
+chebi:57379	consumption-controlled-by	ZDHHC20	Reactome	17134730;20580052;33310888;34117209;34428449;34528721;34599882;34961524	Maturation of spike protein	reactome:Catalysis5689;http://bioregistry.io/reactome:R-HSA-9694341
+chebi:57379	consumption-controlled-by	ZDHHC2	Reactome	17134730;20580052;33310888;34117209;34428449;34528721;34599882;34961524	Maturation of spike protein	reactome:Catalysis5689;http://bioregistry.io/reactome:R-HSA-9694341
+chebi:57379	consumption-controlled-by	ZDHHC3	Reactome	17134730;20580052;33310888;34117209;34428449;34528721;34599882;34961524	Maturation of spike protein	reactome:Catalysis5689;http://bioregistry.io/reactome:R-HSA-9694341
+chebi:57379	consumption-controlled-by	ZDHHC5	Reactome	17134730;20580052;33310888;34117209;34428449;34528721;34599882;34961524	Maturation of spike protein	reactome:Catalysis5689;http://bioregistry.io/reactome:R-HSA-9694341
+chebi:57379	consumption-controlled-by	ZDHHC8	Reactome	17134730;20580052;33310888;34117209;34428449;34528721;34599882;34961524	Maturation of spike protein	reactome:Catalysis5689;http://bioregistry.io/reactome:R-HSA-9694341
+chebi:57379	consumption-controlled-by	ZDHHC9	Reactome	17134730;20580052;33310888;34117209;34428449;34528721;34599882;34961524	Maturation of spike protein	reactome:Catalysis5689;http://bioregistry.io/reactome:R-HSA-9694341
+chebi:57379	used-to-produce	chebi:57287	Reactome	17134730;20580052;33310888;34117209;34428449;34528721;34599882;34961524	Maturation of spike protein	http://bioregistry.io/reactome:R-HSA-9694341
+
+PARTICIPANT	PARTICIPANT_TYPE	PARTICIPANT_NAME	UNIFICATION_XREF	RELATIONSHIP_XREF
+chebi:53019	SmallMoleculeReference	glycan G00008	chebi:CHEBI:53019	
+RPN2	ProteinReference	RPN2_HUMAN	uniprot:P04844	hgnc.symbol:RPN2;ncbigene:6185
+PRKCSH	ProteinReference	GLU2B_HUMAN	uniprot:P14314	hgnc.symbol:PRKCSH;ncbigene:5589
+TUSC3	ProteinReference	TUSC3_HUMAN	uniprot:Q13454	hgnc.symbol:TUSC3;ncbigene:7991
+ZDHHC20	ProteinReference	ZDH20_HUMAN	uniprot:Q5W0Z9	hgnc.symbol:ZDHHC20;ncbigene:253832
+chebi:57379	SmallMoleculeReference	palmitoyl-CoA(4-)	chebi:CHEBI:57379	
+RPN1	ProteinReference	RPN1_HUMAN	uniprot:P04843	hgnc.symbol:RPN1;ncbigene:6184
+ZDHHC5	ProteinReference	ZDHC5_HUMAN	uniprot:Q9C0B5	hgnc.symbol:ZDHHC5;ncbigene:25921
+chebi:28196	SmallMoleculeReference	erythromycin B	chebi:CHEBI:28196	
+ZDHHC8	ProteinReference	ZDHC8_HUMAN	uniprot:Q9ULC8	hgnc.symbol:ZDHHC8;ncbigene:29801
+MAGT1	ProteinReference	MAGT1_HUMAN	uniprot:Q9H0U3	hgnc.symbol:MAGT1;ncbigene:84061
+ZDHHC2	ProteinReference	ZDHC2_HUMAN	uniprot:Q9UIJ5	hgnc.symbol:ZDHHC2;ncbigene:51201
+ZDHHC3	ProteinReference	ZDHC3_HUMAN	uniprot:Q9NYG2	hgnc.symbol:ZDHHC3;ncbigene:51304
+GANAB	ProteinReference	GANAB_HUMAN	uniprot:Q14697	hgnc.symbol:GANAB;ncbigene:23193
+chebi:27918	SmallMoleculeReference	dihydrostreptomycin 3''-phosphate	chebi:CHEBI:27918	
+chebi:4744	SmallMoleculeReference	Echimidine	chebi:CHEBI:4744	
+chebi:42355	SmallMoleculeReference	erythromycin A	chebi:CHEBI:42355	
+chebi:57287	SmallMoleculeReference	coenzyme A(4-)	chebi:CHEBI:57287	
+chebi:57683	SmallMoleculeReference	dolichyl phosphate(2-)	chebi:CHEBI:57683	
+GOLGA7	ProteinReference	GOGA7_HUMAN	uniprot:Q7Z5G4	hgnc.symbol:GOLGA7;ncbigene:51125
+chebi:15903	SmallMoleculeReference	beta-D-glucose	chebi:CHEBI:15903	
+MOGS	ProteinReference	MOGS_HUMAN	uniprot:Q13724	hgnc.symbol:MOGS;ncbigene:7841
+ZDHHC11	ProteinReference	ZDH11_HUMAN	uniprot:Q9H8X9	hgnc.symbol:ZDHHC11;ncbigene:79844
+DDOST	ProteinReference	OST48_HUMAN	uniprot:P39656	hgnc.symbol:DDOST;ncbigene:1650
+ZDHHC9	ProteinReference	ZDHC9_HUMAN	uniprot:Q9Y397	hgnc.symbol:ZDHHC9;ncbigene:51114
+chebi:44369	SmallMoleculeReference	duvoglustat	chebi:CHEBI:44369	
+DAD1	ProteinReference	DAD1_HUMAN	uniprot:P61803	hgnc.symbol:DAD1;ncbigene:1603
+STT3A	ProteinReference	STT3A_HUMAN	uniprot:P46977	hgnc.symbol:STT3A;ncbigene:3703

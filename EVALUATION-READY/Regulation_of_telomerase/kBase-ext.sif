@@ -1,0 +1,303 @@
+﻿PARTICIPANT_A	INTERACTION_TYPE	PARTICIPANT_B	INTERACTION_DATA_SOURCE	INTERACTION_PUBMED_ID	PATHWAY_NAMES	MEDIATOR_IDS
+ABL1	in-complex-with	TERT	pid		Regulation of Telomerase	pid:pid_35054
+ACD	in-complex-with	DCLRE1B	pid		Regulation of Telomerase	pid:pid_35322
+ACD	in-complex-with	POT1	pid		Regulation of Telomerase	pid:pid_35322;pid:pid_35226
+ACD	in-complex-with	TERF1	pid		Regulation of Telomerase	pid:pid_35322;pid:pid_35226
+ACD	in-complex-with	TERF2	pid		Regulation of Telomerase	pid:pid_35322;pid:pid_35226
+ACD	in-complex-with	TINF2	pid		Regulation of Telomerase	pid:pid_35322;pid:pid_35226
+AKT1	in-complex-with	DKC1	pid		Regulation of Telomerase	pid:pid_35336
+AKT1	in-complex-with	HSP90AA1	pid		Regulation of Telomerase	pid:pid_35336
+AKT1	in-complex-with	MTOR	pid		Regulation of Telomerase	pid:pid_35336
+AKT1	controls-state-change-of	NFKB1	pid	10224060	Regulation of Telomerase	pid:pid_34882;pid:pid_34894
+AKT1	in-complex-with	PTGES3	pid		Regulation of Telomerase	pid:pid_35336
+AKT1	in-complex-with	RPS6KB1	pid		Regulation of Telomerase	pid:pid_35336
+AKT1	controls-expression-of	TERT	pid	15048073;15843522	Regulation of Telomerase	pid:pid_35211;pid:pid_35212
+AKT1	controls-phosphorylation-of	TERT	pid	10224060	Regulation of Telomerase	pid:pid_34882;pid:pid_34894
+AKT1	controls-state-change-of	TERT	pid	10224060	Regulation of Telomerase	pid:pid_34882;pid:pid_34894
+AKT1	in-complex-with	TERT	pid		Regulation of Telomerase	pid:pid_35336
+AKT1	controls-state-change-of	YWHAE	pid	10224060	Regulation of Telomerase	pid:pid_34882;pid:pid_34894
+ATM	in-complex-with	TERF2	pid		Regulation of Telomerase	pid:pid_35203;pid:pid_34778
+BLM	in-complex-with	TERF2	pid		Regulation of Telomerase	pid:pid_35310
+CDKN1B	controls-state-change-of	DKC1	pid	15710386	Regulation of Telomerase	pid:pid_35101;pid:pid_35120
+CDKN1B	controls-state-change-of	HSP90AA1	pid	15710386	Regulation of Telomerase	pid:pid_35101;pid:pid_35120
+CDKN1B	controls-state-change-of	PTGES3	pid	15710386	Regulation of Telomerase	pid:pid_35101;pid:pid_35120
+CDKN1B	controls-state-change-of	TERT	pid	15710386	Regulation of Telomerase	pid:pid_35101;pid:pid_35120
+DCLRE1B	in-complex-with	POT1	pid		Regulation of Telomerase	pid:pid_35322
+DCLRE1B	in-complex-with	TERF1	pid		Regulation of Telomerase	pid:pid_35322
+DCLRE1B	in-complex-with	TERF2	pid		Regulation of Telomerase	pid:pid_35322
+DCLRE1B	in-complex-with	TINF2	pid		Regulation of Telomerase	pid:pid_35322
+DKC1	in-complex-with	HNRNPC	pid		Regulation of Telomerase	pid:pid_35183
+DKC1	in-complex-with	HSP90AA1	pid		Regulation of Telomerase	pid:pid_34738;pid:pid_34759;pid:pid_34934;pid:pid_34724;pid:pid_34899;pid:pid_34830;pid:pid_35183;pid:pid_35142;pid:pid_35363;pid:pid_35110;pid:pid_35102;pid:pid_35126;pid:pid_35336;pid:pid_35249
+DKC1	in-complex-with	HUS1	pid		Regulation of Telomerase	pid:pid_34738
+DKC1	in-complex-with	MTOR	pid		Regulation of Telomerase	pid:pid_35336
+DKC1	in-complex-with	NCL	pid		Regulation of Telomerase	pid:pid_34830
+DKC1	in-complex-with	PINX1	pid		Regulation of Telomerase	pid:pid_34759
+DKC1	in-complex-with	PTGES3	pid		Regulation of Telomerase	pid:pid_34738;pid:pid_34759;pid:pid_34934;pid:pid_34724;pid:pid_34899;pid:pid_34830;pid:pid_35183;pid:pid_35142;pid:pid_35363;pid:pid_35110;pid:pid_35102;pid:pid_35126;pid:pid_35336;pid:pid_35249
+DKC1	in-complex-with	RAD1	pid		Regulation of Telomerase	pid:pid_34738
+DKC1	in-complex-with	RAD9A	pid		Regulation of Telomerase	pid:pid_34738
+DKC1	in-complex-with	RPS6KB1	pid		Regulation of Telomerase	pid:pid_35336
+DKC1	in-complex-with	SMG5	pid		Regulation of Telomerase	pid:pid_35363
+DKC1	in-complex-with	SMG6	pid		Regulation of Telomerase	pid:pid_35126
+DKC1	in-complex-with	TERT	pid		Regulation of Telomerase	pid:pid_34738;pid:pid_34759;pid:pid_34934;pid:pid_34724;pid:pid_34899;pid:pid_34830;pid:pid_35183;pid:pid_35142;pid:pid_35363;pid:pid_35110;pid:pid_35102;pid:pid_35126;pid:pid_35336;pid:pid_35249
+E2F1	controls-expression-of	TERT	pid	11433024	Regulation of Telomerase	pid:pid_34844;pid:pid_34843
+EGF	in-complex-with	EGFR	pid		Regulation of Telomerase	pid:pid_35275
+EGFR	controls-expression-of	TERT	pid	12037663	Regulation of Telomerase	pid:pid_35273;pid:pid_35274
+EGF	controls-expression-of	TERT	pid	12037663	Regulation of Telomerase	pid:pid_35273;pid:pid_35274
+ESR1	controls-phosphorylation-of	AKT1	pid	15048073	Regulation of Telomerase	pid:pid_35079;pid:pid_35076
+ESR1	controls-state-change-of	AKT1	pid	15048073	Regulation of Telomerase	pid:pid_35079;pid:pid_35076
+ESR1	controls-transport-of	AKT1	pid	15048073	Regulation of Telomerase	pid:pid_35079;pid:pid_35076
+FOS	in-complex-with	JUN	pid		Regulation of Telomerase	pid:pid_2402
+FOS	controls-expression-of	TERT	pid	16135795	Regulation of Telomerase	pid:pid_35027;pid:pid_35026
+HDAC1	in-complex-with	HDAC2	pid		Regulation of Telomerase	pid:pid_34977;pid:pid_35008
+HDAC1	in-complex-with	RBBP4	pid		Regulation of Telomerase	pid:pid_34977;pid:pid_35008
+HDAC1	in-complex-with	RBBP7	pid		Regulation of Telomerase	pid:pid_34977;pid:pid_35008
+HDAC1	in-complex-with	SAP18	pid		Regulation of Telomerase	pid:pid_34977;pid:pid_35008
+HDAC1	in-complex-with	SAP30	pid		Regulation of Telomerase	pid:pid_34977;pid:pid_35008
+HDAC1	in-complex-with	SIN3A	pid		Regulation of Telomerase	pid:pid_34977;pid:pid_35008
+HDAC1	in-complex-with	SIN3B	pid		Regulation of Telomerase	pid:pid_34977;pid:pid_35008
+HDAC1	controls-expression-of	TERT	pid		Regulation of Telomerase	pid:pid_35292;pid:pid_35291
+HDAC1	in-complex-with	UBE3A	pid		Regulation of Telomerase	pid:pid_35008
+HDAC1	in-complex-with	ZNFX1	pid		Regulation of Telomerase	pid:pid_34977;pid:pid_35008
+HDAC2	in-complex-with	RBBP4	pid		Regulation of Telomerase	pid:pid_34977;pid:pid_35008
+HDAC2	in-complex-with	RBBP7	pid		Regulation of Telomerase	pid:pid_34977;pid:pid_35008
+HDAC2	in-complex-with	SAP18	pid		Regulation of Telomerase	pid:pid_34977;pid:pid_35008
+HDAC2	in-complex-with	SAP30	pid		Regulation of Telomerase	pid:pid_34977;pid:pid_35008
+HDAC2	in-complex-with	SIN3A	pid		Regulation of Telomerase	pid:pid_34977;pid:pid_35008
+HDAC2	in-complex-with	SIN3B	pid		Regulation of Telomerase	pid:pid_34977;pid:pid_35008
+HDAC2	in-complex-with	SP1	pid		Regulation of Telomerase	pid:pid_34877
+HDAC2	in-complex-with	SP3	pid		Regulation of Telomerase	pid:pid_34870
+HDAC2	controls-expression-of	TERT	pid	10637317;12151407	Regulation of Telomerase	pid:pid_35292;pid:pid_34869;pid:pid_34876;pid:pid_35291;pid:pid_34866
+HDAC2	in-complex-with	UBE3A	pid		Regulation of Telomerase	pid:pid_35008
+HDAC2	in-complex-with	ZNFX1	pid		Regulation of Telomerase	pid:pid_34977;pid:pid_35008
+HNRNPC	in-complex-with	HSP90AA1	pid		Regulation of Telomerase	pid:pid_35183
+HNRNPC	in-complex-with	PTGES3	pid		Regulation of Telomerase	pid:pid_35183
+HNRNPC	in-complex-with	TERT	pid		Regulation of Telomerase	pid:pid_35183
+HSP90AA1	in-complex-with	HUS1	pid		Regulation of Telomerase	pid:pid_34738
+HSP90AA1	in-complex-with	MTOR	pid		Regulation of Telomerase	pid:pid_35336
+HSP90AA1	in-complex-with	NCL	pid		Regulation of Telomerase	pid:pid_34830
+HSP90AA1	in-complex-with	PINX1	pid		Regulation of Telomerase	pid:pid_34759
+HSP90AA1	in-complex-with	PTGES3	pid		Regulation of Telomerase	pid:pid_34738;pid:pid_34759;pid:pid_34934;pid:pid_34724;pid:pid_34899;pid:pid_34830;pid:pid_35183;pid:pid_35142;pid:pid_35363;pid:pid_35110;pid:pid_35102;pid:pid_35126;pid:pid_35336;pid:pid_35249
+HSP90AA1	in-complex-with	RAD1	pid		Regulation of Telomerase	pid:pid_34738
+HSP90AA1	in-complex-with	RAD9A	pid		Regulation of Telomerase	pid:pid_34738
+HSP90AA1	in-complex-with	RPS6KB1	pid		Regulation of Telomerase	pid:pid_35336
+HSP90AA1	in-complex-with	SMG5	pid		Regulation of Telomerase	pid:pid_35363
+HSP90AA1	in-complex-with	SMG6	pid		Regulation of Telomerase	pid:pid_35126
+HSP90AA1	in-complex-with	TERT	pid		Regulation of Telomerase	pid:pid_34738;pid:pid_34759;pid:pid_34934;pid:pid_34724;pid:pid_34899;pid:pid_34830;pid:pid_35183;pid:pid_35142;pid:pid_35363;pid:pid_35110;pid:pid_35102;pid:pid_35126;pid:pid_35336;pid:pid_35249
+HUS1	in-complex-with	PTGES3	pid		Regulation of Telomerase	pid:pid_34738
+HUS1	in-complex-with	RAD1	pid		Regulation of Telomerase	pid:pid_34738;pid:pid_34719
+HUS1	in-complex-with	RAD9A	pid		Regulation of Telomerase	pid:pid_34738;pid:pid_34719
+HUS1	in-complex-with	TERT	pid		Regulation of Telomerase	pid:pid_34738
+IFNAR2	controls-expression-of	TERT	pid	11110707;15710386	Regulation of Telomerase	pid:pid_35398;pid:pid_35399
+IFNG	controls-expression-of	CDKN1B	pid	15710386	Regulation of Telomerase	pid:pid_34813;pid:pid_34812
+IFNG	controls-state-change-of	DKC1	pid	15710386	Regulation of Telomerase	pid:pid_35119;pid:pid_35101
+IFNG	controls-state-change-of	HSP90AA1	pid	15710386	Regulation of Telomerase	pid:pid_35119;pid:pid_35101
+IFNG	in-complex-with	IRF1	pid		Regulation of Telomerase	pid:pid_34714
+IFNG	controls-state-change-of	PTGES3	pid	15710386	Regulation of Telomerase	pid:pid_35119;pid:pid_35101
+IFNG	controls-expression-of	TERT	pid	12545159	Regulation of Telomerase	pid:pid_34713;pid:pid_34712
+IFNG	controls-state-change-of	TERT	pid	15710386	Regulation of Telomerase	pid:pid_35119;pid:pid_35101
+IL2	controls-phosphorylation-of	AKT1	pid	15843522	Regulation of Telomerase	pid:pid_34860;pid:pid_34863
+IL2	controls-state-change-of	AKT1	pid	12586360;15843522	Regulation of Telomerase	pid:pid_34860;pid:pid_35335;pid:pid_35351;pid:pid_34863
+IL2	controls-transport-of	AKT1	pid	15843522	Regulation of Telomerase	pid:pid_34860;pid:pid_34863
+IL2	controls-state-change-of	DKC1	pid	12586360	Regulation of Telomerase	pid:pid_35335;pid:pid_35351
+IL2	controls-state-change-of	HSP90AA1	pid	12586360	Regulation of Telomerase	pid:pid_35335;pid:pid_35351
+IL2	controls-phosphorylation-of	MAPK1	pid	15843522	Regulation of Telomerase	pid:pid_35267;pid:pid_35270
+IL2	controls-state-change-of	MAPK1	pid	15843522	Regulation of Telomerase	pid:pid_35267;pid:pid_35270
+IL2	controls-phosphorylation-of	MAPK3	pid	15843522	Regulation of Telomerase	pid:pid_35267;pid:pid_35270
+IL2	controls-state-change-of	MAPK3	pid	15843522	Regulation of Telomerase	pid:pid_35267;pid:pid_35270
+IL2	controls-state-change-of	MTOR	pid	12586360	Regulation of Telomerase	pid:pid_35335;pid:pid_35351
+IL2	controls-state-change-of	PTGES3	pid	12586360	Regulation of Telomerase	pid:pid_35335;pid:pid_35351
+IL2	controls-state-change-of	RPS6KB1	pid	12586360	Regulation of Telomerase	pid:pid_35335;pid:pid_35351
+IL2	controls-expression-of	TERT	pid		Regulation of Telomerase	pid:pid_34711;pid:pid_34710
+IL2	controls-state-change-of	TERT	pid	12586360	Regulation of Telomerase	pid:pid_35335;pid:pid_35351
+IRF1	controls-expression-of	CDKN1B	pid	15710386	Regulation of Telomerase	pid:pid_34813;pid:pid_34812
+IRF1	controls-state-change-of	DKC1	pid	15710386	Regulation of Telomerase	pid:pid_35119;pid:pid_35101
+IRF1	controls-state-change-of	HSP90AA1	pid	15710386	Regulation of Telomerase	pid:pid_35119;pid:pid_35101
+IRF1	controls-state-change-of	PTGES3	pid	15710386	Regulation of Telomerase	pid:pid_35119;pid:pid_35101
+IRF1	controls-expression-of	TERT	pid	12545159	Regulation of Telomerase	pid:pid_34713;pid:pid_34712
+IRF1	controls-state-change-of	TERT	pid	15710386	Regulation of Telomerase	pid:pid_35119;pid:pid_35101
+JUN	controls-expression-of	TERT	pid	16135795	Regulation of Telomerase	pid:pid_35027;pid:pid_35026
+MAX	in-complex-with	MXD1	pid		Regulation of Telomerase	pid:pid_35069
+MAX	controls-expression-of	TERT	pid	16765199	Regulation of Telomerase	pid:pid_35067;pid:pid_35068
+MRE11	in-complex-with	NBN	pid		Regulation of Telomerase	pid:pid_35385;pid:pid_35381
+MRE11	in-complex-with	RAD50	pid		Regulation of Telomerase	pid:pid_35385;pid:pid_35381
+MRE11	in-complex-with	TERF2IP	pid		Regulation of Telomerase	pid:pid_35385
+MRE11	in-complex-with	TERF2	pid		Regulation of Telomerase	pid:pid_35385
+MTOR	in-complex-with	PTGES3	pid		Regulation of Telomerase	pid:pid_35336
+MTOR	in-complex-with	RPS6KB1	pid		Regulation of Telomerase	pid:pid_35336
+MTOR	in-complex-with	TERT	pid		Regulation of Telomerase	pid:pid_35336
+MXD1	controls-expression-of	TERT	pid	16765199	Regulation of Telomerase	pid:pid_35067;pid:pid_35068
+MYC	in-complex-with	SMAD3	pid		Regulation of Telomerase	pid:pid_35083
+MYC	controls-expression-of	TERT	pid	10637317;12151407;16785237	Regulation of Telomerase	pid:pid_34868;pid:pid_35082;pid:pid_34866;pid:pid_35081
+NBN	in-complex-with	RAD50	pid		Regulation of Telomerase	pid:pid_35385;pid:pid_35381
+NBN	in-complex-with	TERF2IP	pid		Regulation of Telomerase	pid:pid_35385
+NBN	in-complex-with	TERF2	pid		Regulation of Telomerase	pid:pid_35385
+NCL	in-complex-with	PTGES3	pid		Regulation of Telomerase	pid:pid_34830
+NCL	in-complex-with	TERT	pid		Regulation of Telomerase	pid:pid_34830
+NFKB1	in-complex-with	TERT	pid		Regulation of Telomerase	pid:pid_34883
+NFKB1	in-complex-with	YWHAE	pid		Regulation of Telomerase	pid:pid_34883
+NR2F2	controls-expression-of	TERT	pid	15331176	Regulation of Telomerase	pid:pid_34789;pid:pid_34788
+PARP2	in-complex-with	TERF2	pid		Regulation of Telomerase	pid:pid_35166
+PIF1	controls-state-change-of	DKC1	pid	16522649	Regulation of Telomerase	pid:pid_34944;pid:pid_34933
+PIF1	controls-state-change-of	HSP90AA1	pid	16522649	Regulation of Telomerase	pid:pid_34944;pid:pid_34933
+PIF1	controls-state-change-of	PTGES3	pid	16522649	Regulation of Telomerase	pid:pid_34944;pid:pid_34933
+PIF1	controls-state-change-of	TERT	pid	16522649	Regulation of Telomerase	pid:pid_34944;pid:pid_34933
+PINX1	in-complex-with	PTGES3	pid		Regulation of Telomerase	pid:pid_34759
+PINX1	in-complex-with	TERT	pid		Regulation of Telomerase	pid:pid_34759
+POT1	in-complex-with	TERF1	pid		Regulation of Telomerase	pid:pid_35322;pid:pid_35226
+POT1	in-complex-with	TERF2	pid		Regulation of Telomerase	pid:pid_35322;pid:pid_35226
+POT1	in-complex-with	TINF2	pid		Regulation of Telomerase	pid:pid_35322;pid:pid_35226
+PRKCA	controls-state-change-of	DKC1	pid	16508638;9837921	Regulation of Telomerase	pid:pid_35153;pid:pid_35141
+PRKCA	controls-state-change-of	HSP90AA1	pid	16508638;9837921	Regulation of Telomerase	pid:pid_35153;pid:pid_35141
+PRKCA	controls-state-change-of	PTGES3	pid	16508638;9837921	Regulation of Telomerase	pid:pid_35153;pid:pid_35141
+PRKCA	controls-expression-of	TERT	pid	11742099;12681489	Regulation of Telomerase	pid:pid_35376;pid:pid_35377
+PRKCA	controls-phosphorylation-of	TERT	pid	16508638;9837921	Regulation of Telomerase	pid:pid_35153;pid:pid_35141
+PRKCA	controls-state-change-of	TERT	pid	16508638;9837921	Regulation of Telomerase	pid:pid_35153;pid:pid_35141
+PTGES3	in-complex-with	RAD1	pid		Regulation of Telomerase	pid:pid_34738
+PTGES3	in-complex-with	RAD9A	pid		Regulation of Telomerase	pid:pid_34738
+PTGES3	in-complex-with	RPS6KB1	pid		Regulation of Telomerase	pid:pid_35336
+PTGES3	in-complex-with	SMG5	pid		Regulation of Telomerase	pid:pid_35363
+PTGES3	in-complex-with	SMG6	pid		Regulation of Telomerase	pid:pid_35126
+PTGES3	in-complex-with	TERT	pid		Regulation of Telomerase	pid:pid_34738;pid:pid_34759;pid:pid_34934;pid:pid_34724;pid:pid_34899;pid:pid_34830;pid:pid_35183;pid:pid_35142;pid:pid_35363;pid:pid_35110;pid:pid_35102;pid:pid_35126;pid:pid_35336;pid:pid_35249
+RAD1	in-complex-with	RAD9A	pid		Regulation of Telomerase	pid:pid_34738;pid:pid_34719
+RAD1	in-complex-with	TERT	pid		Regulation of Telomerase	pid:pid_34738
+RAD50	in-complex-with	TERF2IP	pid		Regulation of Telomerase	pid:pid_35385
+RAD50	in-complex-with	TERF2	pid		Regulation of Telomerase	pid:pid_35385
+RAD9A	in-complex-with	TERT	pid		Regulation of Telomerase	pid:pid_34738
+RBBP4	in-complex-with	RBBP7	pid		Regulation of Telomerase	pid:pid_34977;pid:pid_35008
+RBBP4	in-complex-with	SAP18	pid		Regulation of Telomerase	pid:pid_34977;pid:pid_35008
+RBBP4	in-complex-with	SAP30	pid		Regulation of Telomerase	pid:pid_34977;pid:pid_35008
+RBBP4	in-complex-with	SIN3A	pid		Regulation of Telomerase	pid:pid_34977;pid:pid_35008
+RBBP4	in-complex-with	SIN3B	pid		Regulation of Telomerase	pid:pid_34977;pid:pid_35008
+RBBP4	controls-expression-of	TERT	pid		Regulation of Telomerase	pid:pid_35292;pid:pid_35291
+RBBP4	in-complex-with	UBE3A	pid		Regulation of Telomerase	pid:pid_35008
+RBBP4	in-complex-with	ZNFX1	pid		Regulation of Telomerase	pid:pid_34977;pid:pid_35008
+RBBP7	in-complex-with	SAP18	pid		Regulation of Telomerase	pid:pid_34977;pid:pid_35008
+RBBP7	in-complex-with	SAP30	pid		Regulation of Telomerase	pid:pid_34977;pid:pid_35008
+RBBP7	in-complex-with	SIN3A	pid		Regulation of Telomerase	pid:pid_34977;pid:pid_35008
+RBBP7	in-complex-with	SIN3B	pid		Regulation of Telomerase	pid:pid_34977;pid:pid_35008
+RBBP7	controls-expression-of	TERT	pid		Regulation of Telomerase	pid:pid_35292;pid:pid_35291
+RBBP7	in-complex-with	UBE3A	pid		Regulation of Telomerase	pid:pid_35008
+RBBP7	in-complex-with	ZNFX1	pid		Regulation of Telomerase	pid:pid_34977;pid:pid_35008
+RPS6KB1	in-complex-with	TERT	pid		Regulation of Telomerase	pid:pid_35336
+SAP18	in-complex-with	SAP30	pid		Regulation of Telomerase	pid:pid_34977;pid:pid_35008
+SAP18	in-complex-with	SIN3A	pid		Regulation of Telomerase	pid:pid_34977;pid:pid_35008
+SAP18	in-complex-with	SIN3B	pid		Regulation of Telomerase	pid:pid_34977;pid:pid_35008
+SAP18	controls-expression-of	TERT	pid		Regulation of Telomerase	pid:pid_35292;pid:pid_35291
+SAP18	in-complex-with	UBE3A	pid		Regulation of Telomerase	pid:pid_35008
+SAP18	in-complex-with	ZNFX1	pid		Regulation of Telomerase	pid:pid_34977;pid:pid_35008
+SAP30	in-complex-with	SIN3A	pid		Regulation of Telomerase	pid:pid_34977;pid:pid_35008
+SAP30	in-complex-with	SIN3B	pid		Regulation of Telomerase	pid:pid_34977;pid:pid_35008
+SAP30	controls-expression-of	TERT	pid		Regulation of Telomerase	pid:pid_35292;pid:pid_35291
+SAP30	in-complex-with	UBE3A	pid		Regulation of Telomerase	pid:pid_35008
+SAP30	in-complex-with	ZNFX1	pid		Regulation of Telomerase	pid:pid_34977;pid:pid_35008
+SIN3A	in-complex-with	SIN3B	pid		Regulation of Telomerase	pid:pid_34977;pid:pid_35008
+SIN3A	controls-expression-of	TERT	pid		Regulation of Telomerase	pid:pid_35292;pid:pid_35291
+SIN3A	in-complex-with	UBE3A	pid		Regulation of Telomerase	pid:pid_35008
+SIN3A	in-complex-with	ZNFX1	pid		Regulation of Telomerase	pid:pid_34977;pid:pid_35008
+SIN3B	controls-expression-of	TERT	pid		Regulation of Telomerase	pid:pid_35292;pid:pid_35291
+SIN3B	in-complex-with	UBE3A	pid		Regulation of Telomerase	pid:pid_35008
+SIN3B	in-complex-with	ZNFX1	pid		Regulation of Telomerase	pid:pid_34977;pid:pid_35008
+SMAD3	controls-expression-of	TERT	pid	16785237	Regulation of Telomerase	pid:pid_35082;pid:pid_35081
+SMG5	in-complex-with	TERT	pid		Regulation of Telomerase	pid:pid_35363
+SMG6	in-complex-with	TERT	pid		Regulation of Telomerase	pid:pid_35126
+SP1	controls-expression-of	TERT	pid	10637317;12151407	Regulation of Telomerase	pid:pid_34867;pid:pid_34876;pid:pid_34866
+SP3	controls-expression-of	TERT	pid	10637317;12151407	Regulation of Telomerase	pid:pid_34869;pid:pid_34866
+TERF1	in-complex-with	TERF2	pid		Regulation of Telomerase	pid:pid_35322;pid:pid_35226
+TERF1	in-complex-with	TINF2	pid		Regulation of Telomerase	pid:pid_35322;pid:pid_35226
+TERF1	in-complex-with	TNKS	pid		Regulation of Telomerase	pid:pid_34966
+TERF2	controls-phosphorylation-of	ATM	pid	12956959	Regulation of Telomerase	pid:pid_34777;pid:pid_34772
+TERF2	controls-state-change-of	ATM	pid	12956959	Regulation of Telomerase	pid:pid_34777;pid:pid_34772
+TERF2	in-complex-with	TERF2IP	pid		Regulation of Telomerase	pid:pid_35385
+TERF2	in-complex-with	TINF2	pid		Regulation of Telomerase	pid:pid_35322;pid:pid_35226
+TERF2	in-complex-with	WRN	pid		Regulation of Telomerase	pid:pid_35042
+TERT	controls-expression-of	CCND1	pid	16843438	Regulation of Telomerase	pid:pid_35354;pid:pid_35355
+TERT	in-complex-with	XRCC5	pid		Regulation of Telomerase	pid:pid_34924
+TERT	in-complex-with	XRCC6	pid		Regulation of Telomerase	pid:pid_34924
+TERT	in-complex-with	YWHAE	pid		Regulation of Telomerase	pid:pid_34883
+TGFB1	controls-phosphorylation-of	SMAD3	pid	16785237	Regulation of Telomerase	pid:pid_34794;pid:pid_34801
+TGFB1	controls-state-change-of	SMAD3	pid	16785237	Regulation of Telomerase	pid:pid_34794;pid:pid_34801
+UBE3A	controls-state-change-of	DKC1	pid	15655249;16869756	Regulation of Telomerase	pid:pid_34910;pid:pid_34898
+UBE3A	controls-state-change-of	HSP90AA1	pid	15655249;16869756	Regulation of Telomerase	pid:pid_34910;pid:pid_34898
+UBE3A	controls-state-change-of	PTGES3	pid	15655249;16869756	Regulation of Telomerase	pid:pid_34910;pid:pid_34898
+UBE3A	controls-expression-of	TERT	pid	15371341;15655249;16869756	Regulation of Telomerase	pid:pid_35160;pid:pid_35159
+UBE3A	controls-phosphorylation-of	TERT	pid	15655249;16869756	Regulation of Telomerase	pid:pid_34910;pid:pid_34898
+UBE3A	controls-state-change-of	TERT	pid	15655249;16869756	Regulation of Telomerase	pid:pid_34910;pid:pid_34898
+UBE3A	in-complex-with	ZNFX1	pid		Regulation of Telomerase	pid:pid_35008
+WT1	controls-expression-of	TERT	pid	10601322	Regulation of Telomerase	pid:pid_35294;pid:pid_35293
+XRCC5	in-complex-with	XRCC6	pid		Regulation of Telomerase	pid:pid_34924;pid:pid_34921;pid:pid_35092
+ZNFX1	controls-expression-of	TERT	pid		Regulation of Telomerase	pid:pid_35292;pid:pid_35291
+chebi:50114	chemical-affects	AKT1	pid	15048073	Regulation of Telomerase	pid:pid_35079;pid:pid_35076
+chebi:50114	chemical-affects	ESR1	pid		Regulation of Telomerase	pid:pid_34954
+
+PARTICIPANT	PARTICIPANT_TYPE	PARTICIPANT_NAME	UNIFICATION_XREF	RELATIONSHIP_XREF
+YWHAE	ProteinReference	1433E_HUMAN	uniprot:P62258	hgnc.symbol:YWHAE;ncbigene:7531
+DCLRE1B	ProteinReference	DCR1B_HUMAN	uniprot:Q9H816	hgnc.symbol:DCLRE1B;ncbigene:64858
+CDKN1B	ProteinReference	CDN1B_HUMAN	uniprot:P46527	hgnc.symbol:CDKN1B;ncbigene:1027
+MRE11	ProteinReference	MRE11_HUMAN	uniprot:P49959	hgnc.symbol:MRE11;ncbigene:4361
+PINX1	ProteinReference	PINX1_HUMAN	uniprot:Q96BK5	hgnc.symbol:PINX1;ncbigene:54984
+UBE3A	ProteinReference	UBE3A_HUMAN	uniprot:Q05086	hgnc.symbol:UBE3A;ncbigene:7337
+SMG5	ProteinReference	SMG5_HUMAN	uniprot:Q9UPR3	hgnc.symbol:SMG5;ncbigene:23381
+SMG6	ProteinReference	EST1A_HUMAN	uniprot:Q86US8	hgnc.symbol:SMG6;ncbigene:23293
+SIN3B	ProteinReference	SIN3B_HUMAN	uniprot:O75182	hgnc.symbol:SIN3B;ncbigene:23309
+CCND1	ProteinReference	CCND1_HUMAN	uniprot:P24385	hgnc.symbol:CCND1;ncbigene:595
+SIN3A	ProteinReference	SIN3A_HUMAN	uniprot:Q96ST3	hgnc.symbol:SIN3A;ncbigene:25942
+MYC	ProteinReference	MYC_HUMAN	uniprot:P01106	hgnc.symbol:MYC;ncbigene:4609
+AKT1	ProteinReference	AKT1_HUMAN	uniprot:P31749	hgnc.symbol:AKT1;ncbigene:207
+NBN	ProteinReference	NBN_HUMAN	uniprot:O60934	hgnc.symbol:NBN;ncbigene:4683
+IFNAR2	ProteinReference	INAR2_HUMAN	uniprot:P48551	hgnc.symbol:IFNAR2;ncbigene:3455
+HSP90AA1	ProteinReference	HS90A_HUMAN	uniprot:P07900	hgnc.symbol:HSP90AA1;ncbigene:3320
+chebi:50114	SmallMoleculeReference	estrogen	chebi:CHEBI:50114	
+PARP2	ProteinReference	PARP2_HUMAN	uniprot:Q9UGN5	hgnc.symbol:PARP2;ncbigene:10038
+TINF2	ProteinReference	TINF2_HUMAN	uniprot:Q9BSI4	hgnc.symbol:TINF2;ncbigene:26277
+HUS1	ProteinReference	HUS1_HUMAN	uniprot:O60921	hgnc.symbol:HUS1;ncbigene:3364
+PRKCA	ProteinReference	KPCA_HUMAN	uniprot:P17252	hgnc.symbol:PRKCA;ncbigene:5578
+FOS	ProteinReference	FOS_HUMAN	uniprot:P01100	hgnc.symbol:FOS;ncbigene:2353
+TERF1	ProteinReference	TERF1_HUMAN	uniprot:P54274	hgnc.symbol:TERF1;ncbigene:7013
+TERF2	ProteinReference	TERF2_HUMAN	uniprot:Q15554	hgnc.symbol:TERF2;ncbigene:7014
+SAP30	ProteinReference	SAP30_HUMAN	uniprot:O75446	hgnc.symbol:SAP30;ncbigene:8819
+IFNG	ProteinReference	IFNG_HUMAN	uniprot:P01579	hgnc.symbol:IFNG;ncbigene:3458
+DKC1	ProteinReference	DKC1_HUMAN	uniprot:O60832	hgnc.symbol:DKC1;ncbigene:1736
+IRF1	ProteinReference	IRF1_HUMAN	uniprot:P10914	hgnc.symbol:IRF1;ncbigene:3659
+NCL	ProteinReference	NUCL_HUMAN	uniprot:P19338	hgnc.symbol:NCL;ncbigene:4691
+TERF2IP	ProteinReference	TE2IP_HUMAN	uniprot:Q9NYB0	hgnc.symbol:TERF2IP;ncbigene:54386
+POT1	ProteinReference	POTE1_HUMAN	uniprot:Q9NUX5	hgnc.symbol:POT1;ncbigene:25913
+PIF1	ProteinReference	PIF1_HUMAN	uniprot:Q9H611	hgnc.symbol:PIF1;ncbigene:80119
+HDAC2	ProteinReference	HDAC2_HUMAN	uniprot:Q92769	hgnc.symbol:HDAC2;ncbigene:3066
+BLM	ProteinReference	BLM_HUMAN	uniprot:P54132	hgnc.symbol:BLM;ncbigene:641
+HDAC1	ProteinReference	HDAC1_HUMAN	uniprot:Q13547	hgnc.symbol:HDAC1;ncbigene:3065
+MAX	ProteinReference	MAX_HUMAN	uniprot:P61244	hgnc.symbol:MAX;ncbigene:4149
+TNKS	ProteinReference	TNKS1_HUMAN	uniprot:O95271	hgnc.symbol:TNKS;ncbigene:8658
+EGFR	ProteinReference	EGFR_HUMAN	uniprot:P00533	hgnc.symbol:EGFR;ncbigene:1956
+WRN	ProteinReference	WRN_HUMAN	uniprot:Q14191	hgnc.symbol:WRN;ncbigene:7486
+TERT	ProteinReference	TERT_HUMAN	uniprot:O14746	hgnc.symbol:TERT;ncbigene:7015
+RBBP4	ProteinReference	RBBP4_HUMAN	uniprot:Q09028	hgnc.symbol:RBBP4;ncbigene:5928
+E2F1	ProteinReference	E2F1_HUMAN	uniprot:Q01094	hgnc.symbol:E2F1;ncbigene:1869
+ABL1	ProteinReference	ABL1_HUMAN	uniprot:P00519	hgnc.symbol:ABL1;ncbigene:25
+SAP18	ProteinReference	SAP18_HUMAN	uniprot:O00422	hgnc.symbol:SAP18;ncbigene:10284
+MAPK1	ProteinReference	MK01_HUMAN	uniprot:P28482	hgnc.symbol:MAPK1;ncbigene:5594
+RBBP7	ProteinReference	RBBP7_HUMAN	uniprot:Q16576	hgnc.symbol:RBBP7;ncbigene:5931
+MAPK3	ProteinReference	MK03_HUMAN	uniprot:P27361	hgnc.symbol:MAPK3;ncbigene:5595
+ACD	ProteinReference	ACD_HUMAN	uniprot:Q96AP0	hgnc.symbol:ACD;ncbigene:65057
+XRCC6	ProteinReference	XRCC6_HUMAN	uniprot:P12956	hgnc.symbol:XRCC6;ncbigene:2547
+JUN	ProteinReference	JUN_HUMAN	uniprot:P05412	hgnc.symbol:JUN;ncbigene:3725
+TGFB1	ProteinReference	TGFB1_HUMAN	uniprot:P01137	hgnc.symbol:TGFB1;ncbigene:7040
+SMAD3	ProteinReference	SMAD3_HUMAN	uniprot:P84022	hgnc.symbol:SMAD3;ncbigene:4088
+EGF	ProteinReference	EGF_HUMAN	uniprot:P01133	hgnc.symbol:EGF;ncbigene:1950
+XRCC5	ProteinReference	XRCC5_HUMAN	uniprot:P13010	hgnc.symbol:XRCC5;ncbigene:7520
+PTGES3	ProteinReference	TEBP_HUMAN	uniprot:Q15185	hgnc.symbol:PTGES3;ncbigene:10728
+NR2F2	ProteinReference	COT2_HUMAN	uniprot:P24468	hgnc.symbol:NR2F2;ncbigene:7026
+ESR1	ProteinReference	ESR1_HUMAN	uniprot:P03372	hgnc.symbol:ESR1;ncbigene:2099
+MTOR	ProteinReference	MTOR_HUMAN	uniprot:P42345	hgnc.symbol:MTOR;ncbigene:2475
+IL2	ProteinReference	IL2_HUMAN	uniprot:P60568	hgnc.symbol:IL2;ncbigene:3558
+NFKB1	ProteinReference	NFKB1_HUMAN	uniprot:P19838	hgnc.symbol:NFKB1;ncbigene:4790
+RAD50	ProteinReference	RAD50_HUMAN	uniprot:Q92878	hgnc.symbol:RAD50;ncbigene:10111
+ZNFX1	ProteinReference	ZNFX1_HUMAN	uniprot:Q9P2E3	hgnc.symbol:ZNFX1;ncbigene:57169
+RPS6KB1	ProteinReference	KS6B1_HUMAN	uniprot:P23443	hgnc.symbol:RPS6KB1;ncbigene:6198
+SP1	ProteinReference	SP1_HUMAN	uniprot:P08047	hgnc.symbol:SP1;ncbigene:6667
+WT1	ProteinReference	WT1_HUMAN	uniprot:P19544	hgnc.symbol:WT1;ncbigene:7490
+SP3	ProteinReference	SP3_HUMAN	uniprot:Q02447	hgnc.symbol:SP3;ncbigene:6670
+RAD1	ProteinReference	RAD1_HUMAN	uniprot:O60671	hgnc.symbol:RAD1;ncbigene:5810
+ATM	ProteinReference	ATM_HUMAN	uniprot:Q13315	hgnc.symbol:ATM;ncbigene:472
+HNRNPC	ProteinReference	HNRPC_HUMAN	uniprot:P07910	hgnc.symbol:HNRNPC;ncbigene:3183
+MXD1	ProteinReference	MAD1_HUMAN	uniprot:Q05195	hgnc.symbol:MXD1;ncbigene:4084
+RAD9A	ProteinReference	RAD9A_HUMAN	uniprot:Q99638	hgnc.symbol:RAD9A;ncbigene:5883

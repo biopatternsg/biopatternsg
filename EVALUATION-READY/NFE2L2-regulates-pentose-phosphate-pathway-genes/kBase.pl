@@ -1,0 +1,15 @@
+base([
+event('CREBBP',bind,'EP300'),
+event('CREBBP',positive_correlation,'EP300'),
+event('CREBBP',association,'EP300'),
+event('CREBBP',association,'NFE2L2'),
+event('NFE2L2',positive_correlation,'TKT'),
+event('NFE2L2',association,'TKT'),
+event('CREBBP',negative_correlation,'EP300'),
+event('MAFG',association,'NFE2L2'),
+event('MAFG',bind,'NFE2L2'),
+event('MAFG',positive_correlation,'NFE2L2'),
+event('CREBBP',positive_correlation,'NFE2L2'),
+event('CREBBP',positive_correlation,'MAFG'),
+event('EP300',association,'NFE2L2')
+]).

@@ -43,12 +43,12 @@ def files_needed_in(files_needed: list, files: list) -> bool:
 
 def chebi_names(eval_path: str, experiment: str, files_needed: list):
     """
-    This method process the EVALUATION-READY folder and sets for each experiment the chebi_names.pl and
+    This method process the EVALUATION folder and sets for each experiment in it the chebi_names.pl and
     the expert_objects.txt files.
 
     Args:
-        eval_path: The path to the EVALUATION-READY folder
-        experiment: An experiment from the EVALUATION-READY folder
+        eval_path: The path to the EVALUATION folder
+        experiment: An experiment from the EVALUATION folder
         files_needed: The list of files that must be already present in the
                       experiment's folder on process.
 
@@ -163,12 +163,12 @@ def chebi_names(eval_path: str, experiment: str, files_needed: list):
         if chebi_codes_and_names:
             chebi_fl.write(chebi_codes_and_names)
         else:
-            chebi_fl.write("No small molecules in this experiment.")
+            chebi_fl.write(f'chebi_name(nadie, nadie).')
 
 
 if __name__ == '__main__':
     """
-    Script to get the chebi names for the small molecules codes in each experiment.
+    Script to get the synonyms for the objects in the EVALUATION folder.
     """
 
     print('\n' + f'codes.py:')
@@ -180,6 +180,11 @@ if __name__ == '__main__':
     cwd = os.getcwd()
 
     evaluation_path = cwd + '/'
+
+    # Taking care about the existence of the EVALUATION folder
+    if not path.exists(evaluation_path):
+        print(f'The EVALUATION folder does not exist.')
+        exit()
 
     experiments = list_directories(evaluation_path)
 

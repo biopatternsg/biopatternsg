@@ -1,0 +1,48 @@
+﻿PARTICIPANT_A	INTERACTION_TYPE	PARTICIPANT_B	INTERACTION_DATA_SOURCE	INTERACTION_PUBMED_ID	PATHWAY_NAMES	MEDIATOR_IDS
+GRB2	controls-state-change-of	HRAS	Reactome		Signalling to RAS	http://bioregistry.io/reactome:R-HSA-5686071;reactome:Catalysis3788
+GRB2	controls-state-change-of	KRAS	Reactome		Signalling to RAS	http://bioregistry.io/reactome:R-HSA-5686071;reactome:Catalysis3788
+GRB2	controls-state-change-of	NRAS	Reactome		Signalling to RAS	http://bioregistry.io/reactome:R-HSA-5686071;reactome:Catalysis3788
+GRB2	in-complex-with	SHC1	Reactome		Signalling to RAS	reactome:Complex6738
+GRB2	in-complex-with	SHC2	Reactome		Signalling to RAS	reactome:Complex6738
+GRB2	in-complex-with	SHC3	Reactome		Signalling to RAS	reactome:Complex6738
+GRB2	in-complex-with	SOS1	Reactome		Signalling to RAS	reactome:Complex1589
+NGF	in-complex-with	NTRK1	Reactome		Signalling to RAS	reactome:Complex6727
+NGF	controls-state-change-of	SHC1	Reactome		Signalling to RAS	reactome:Catalysis3787;http://bioregistry.io/reactome:R-HSA-167019
+NGF	in-complex-with	SHC1	Reactome		Signalling to RAS	reactome:Complex6736;reactome:Complex6735
+NGF	controls-state-change-of	SHC2	Reactome		Signalling to RAS	reactome:Catalysis3787;http://bioregistry.io/reactome:R-HSA-167019
+NGF	in-complex-with	SHC2	Reactome		Signalling to RAS	reactome:Complex6736;reactome:Complex6735
+NGF	controls-state-change-of	SHC3	Reactome		Signalling to RAS	reactome:Catalysis3787;http://bioregistry.io/reactome:R-HSA-167019
+NGF	in-complex-with	SHC3	Reactome		Signalling to RAS	reactome:Complex6736;reactome:Complex6735
+NTRK1	controls-state-change-of	SHC1	Reactome		Signalling to RAS	reactome:Catalysis3787;http://bioregistry.io/reactome:R-HSA-167019
+NTRK1	in-complex-with	SHC1	Reactome		Signalling to RAS	reactome:Complex6736;reactome:Complex6735
+NTRK1	controls-state-change-of	SHC2	Reactome		Signalling to RAS	reactome:Catalysis3787;http://bioregistry.io/reactome:R-HSA-167019
+NTRK1	in-complex-with	SHC2	Reactome		Signalling to RAS	reactome:Complex6736;reactome:Complex6735
+NTRK1	controls-state-change-of	SHC3	Reactome		Signalling to RAS	reactome:Catalysis3787;http://bioregistry.io/reactome:R-HSA-167019
+NTRK1	in-complex-with	SHC3	Reactome		Signalling to RAS	reactome:Complex6736;reactome:Complex6735
+SHC1	controls-state-change-of	HRAS	Reactome		Signalling to RAS	http://bioregistry.io/reactome:R-HSA-5686071;reactome:Catalysis3788
+SHC1	controls-state-change-of	KRAS	Reactome		Signalling to RAS	http://bioregistry.io/reactome:R-HSA-5686071;reactome:Catalysis3788
+SHC1	controls-state-change-of	NRAS	Reactome		Signalling to RAS	http://bioregistry.io/reactome:R-HSA-5686071;reactome:Catalysis3788
+SHC1	in-complex-with	SOS1	Reactome		Signalling to RAS	reactome:Complex6738
+SHC2	controls-state-change-of	HRAS	Reactome		Signalling to RAS	http://bioregistry.io/reactome:R-HSA-5686071;reactome:Catalysis3788
+SHC2	controls-state-change-of	KRAS	Reactome		Signalling to RAS	http://bioregistry.io/reactome:R-HSA-5686071;reactome:Catalysis3788
+SHC2	controls-state-change-of	NRAS	Reactome		Signalling to RAS	http://bioregistry.io/reactome:R-HSA-5686071;reactome:Catalysis3788
+SHC2	in-complex-with	SOS1	Reactome		Signalling to RAS	reactome:Complex6738
+SHC3	controls-state-change-of	HRAS	Reactome		Signalling to RAS	http://bioregistry.io/reactome:R-HSA-5686071;reactome:Catalysis3788
+SHC3	controls-state-change-of	KRAS	Reactome		Signalling to RAS	http://bioregistry.io/reactome:R-HSA-5686071;reactome:Catalysis3788
+SHC3	controls-state-change-of	NRAS	Reactome		Signalling to RAS	http://bioregistry.io/reactome:R-HSA-5686071;reactome:Catalysis3788
+SHC3	in-complex-with	SOS1	Reactome		Signalling to RAS	reactome:Complex6738
+SOS1	controls-state-change-of	HRAS	Reactome		Signalling to RAS	http://bioregistry.io/reactome:R-HSA-5686071;reactome:Catalysis3788
+SOS1	controls-state-change-of	KRAS	Reactome		Signalling to RAS	http://bioregistry.io/reactome:R-HSA-5686071;reactome:Catalysis3788
+SOS1	controls-state-change-of	NRAS	Reactome		Signalling to RAS	http://bioregistry.io/reactome:R-HSA-5686071;reactome:Catalysis3788
+
+PARTICIPANT	PARTICIPANT_TYPE	PARTICIPANT_NAME	UNIFICATION_XREF	RELATIONSHIP_XREF
+NTRK1	ProteinReference	NTRK1_HUMAN	uniprot:P04629	hgnc.symbol:NTRK1;ncbigene:4914
+SHC2	ProteinReference	SHC2_HUMAN	uniprot:P98077	hgnc.symbol:SHC2;ncbigene:25759
+NRAS	ProteinReference	RASN_HUMAN	uniprot:P01111	hgnc.symbol:NRAS;ncbigene:4893
+SHC3	ProteinReference	SHC3_HUMAN	uniprot:Q92529	hgnc.symbol:SHC3;ncbigene:53358
+SHC1	ProteinReference	SHC1_HUMAN	uniprot:P29353	hgnc.symbol:SHC1;ncbigene:6464
+GRB2	ProteinReference	GRB2_HUMAN	uniprot:P62993	hgnc.symbol:GRB2;ncbigene:2885
+KRAS	ProteinReference	RASK_HUMAN	uniprot:P01116	hgnc.symbol:KRAS;ncbigene:3845
+NGF	ProteinReference	NGF_HUMAN	uniprot:P01138	hgnc.symbol:NGF;ncbigene:4803
+SOS1	ProteinReference	SOS1_HUMAN	uniprot:Q07889	hgnc.symbol:SOS1;ncbigene:6654
+HRAS	ProteinReference	RASH_HUMAN	uniprot:P01112	hgnc.symbol:HRAS;ncbigene:3265

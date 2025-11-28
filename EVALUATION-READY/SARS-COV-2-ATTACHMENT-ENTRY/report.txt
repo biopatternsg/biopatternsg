@@ -1,0 +1,33 @@
+Number of vertices in Ref .sif = 35
+Number of vertices in BioPattern kBase.pl =16
+Number of edges in Ref .sif = 329
+Number of edges in BioPattern kBase.pl = 31
+Common Paths found in this .sif and in the .pl
+The structure is: Initial Vertex, Relationship in Sif, Relationship in BioPatterns, Final Vertex
+[('FURIN','controls-state-change-of',association,'ACE2')]
+[('FURIN','controls-state-change-of',bind,'ACE2')]
+[('FURIN','controls-state-change-of',negative_correlation,'ACE2')]
+[('FURIN','controls-transport-of',association,'ACE2')]
+[('FURIN','controls-transport-of',bind,'ACE2')]
+[('FURIN','controls-transport-of',negative_correlation,'ACE2')]
+[('FURIN','controls-state-change-of',association,'GPC3')]
+[('FURIN','controls-transport-of',association,'GPC3')]
+[('FURIN','controls-state-change-of',association,'SDC1')]
+[('FURIN','controls-transport-of',association,'SDC1')]
+[('HAVCR1','controls-state-change-of',association,'ACE2')]
+[('HAVCR1','controls-transport-of',association,'ACE2')]
+[('NRP1','controls-state-change-of',association,'ACE2')]
+[('NRP1','controls-state-change-of',bind,'ACE2')]
+[('NRP1','controls-transport-of',association,'ACE2')]
+[('NRP1','controls-transport-of',bind,'ACE2')]
+[('PHB2','controls-state-change-of',positive_correlation,'ACE2')]
+[('PHB2','controls-transport-of',positive_correlation,'ACE2')]
+[('TMPRSS2','controls-state-change-of',association,'ACE2')]
+[('TMPRSS2','controls-state-change-of',bind,'ACE2')]
+[('TMPRSS2','controls-state-change-of',positive_correlation,'ACE2')]
+[('TMPRSS2','controls-transport-of',association,'ACE2')]
+[('TMPRSS2','controls-transport-of',bind,'ACE2')]
+[('TMPRSS2','controls-transport-of',positive_correlation,'ACE2')]
+[('CTSL','controls-state-change-of',association,'ACE2')]
+[('CTSL','controls-transport-of',association,'ACE2')]
+Number of paths common to Sif Ref and BioPatterns = 26

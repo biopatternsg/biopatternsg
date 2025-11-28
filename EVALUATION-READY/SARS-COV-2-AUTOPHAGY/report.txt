@@ -1,0 +1,41 @@
+Number of vertices in Ref .sif = 10
+Number of vertices in BioPattern kBase.pl =8
+Number of edges in Ref .sif = 29
+Number of edges in BioPattern kBase.pl = 16
+Common Paths found in this .sif and in the .pl
+The structure is: Initial Vertex, Relationship in Sif, Relationship in BioPatterns, Final Vertex
+[('VPS11','in-complex-with',association,'VPS18'),('VPS18','in-complex-with',association,'VPS33A'),('VPS33A','in-complex-with',bind,'VPS33B')]
+[('VPS11','in-complex-with',association,'VPS18'),('VPS18','in-complex-with',association,'VPS33A'),('VPS33A','in-complex-with',association,'VPS41')]
+[('VPS11','in-complex-with',association,'VPS18'),('VPS18','in-complex-with',association,'VPS33A')]
+[('VPS11','in-complex-with',association,'VPS18'),('VPS18','in-complex-with',bind,'VPS39'),('VPS39','in-complex-with',bind,'VPS41')]
+[('VPS11','in-complex-with',association,'VPS18'),('VPS18','in-complex-with',bind,'VPS39')]
+[('VPS11','in-complex-with',association,'VPS18'),('VPS18','in-complex-with',positive_correlation,'VPS41')]
+[('VPS11','in-complex-with',association,'VPS18'),('VPS18','in-complex-with',association,'VPS41')]
+[('VPS11','in-complex-with',association,'VPS18'),('VPS18','in-complex-with',bind,'VPS41')]
+[('VPS11','in-complex-with',association,'VPS18'),('VPS18','in-complex-with',association,'VPS45')]
+[('VPS11','in-complex-with',association,'VPS18')]
+[('VPS11','in-complex-with',bind,'VPS39'),('VPS39','in-complex-with',bind,'VPS41')]
+[('VPS11','in-complex-with',association,'VPS39'),('VPS39','in-complex-with',bind,'VPS41')]
+[('VPS11','in-complex-with',bind,'VPS39')]
+[('VPS11','in-complex-with',association,'VPS39')]
+[('VPS11','in-complex-with',bind,'VPS41')]
+[('VPS16','in-complex-with',bind,'VPS33A'),('VPS33A','in-complex-with',bind,'VPS33B')]
+[('VPS16','in-complex-with',association,'VPS33A'),('VPS33A','in-complex-with',bind,'VPS33B')]
+[('VPS16','in-complex-with',bind,'VPS33A'),('VPS33A','in-complex-with',association,'VPS41')]
+[('VPS16','in-complex-with',association,'VPS33A'),('VPS33A','in-complex-with',association,'VPS41')]
+[('VPS16','in-complex-with',bind,'VPS33A')]
+[('VPS16','in-complex-with',association,'VPS33A')]
+[('VPS16','in-complex-with',association,'VPS41')]
+[('VPS18','in-complex-with',association,'VPS33A'),('VPS33A','in-complex-with',bind,'VPS33B')]
+[('VPS18','in-complex-with',association,'VPS33A'),('VPS33A','in-complex-with',association,'VPS41')]
+[('VPS18','in-complex-with',association,'VPS33A')]
+[('VPS18','in-complex-with',bind,'VPS39'),('VPS39','in-complex-with',bind,'VPS41')]
+[('VPS18','in-complex-with',bind,'VPS39')]
+[('VPS18','in-complex-with',positive_correlation,'VPS41')]
+[('VPS18','in-complex-with',association,'VPS41')]
+[('VPS18','in-complex-with',bind,'VPS41')]
+[('VPS18','in-complex-with',association,'VPS45')]
+[('VPS33A','in-complex-with',bind,'VPS33B')]
+[('VPS33A','in-complex-with',association,'VPS41')]
+[('VPS39','in-complex-with',bind,'VPS41')]
+Number of paths common to Sif Ref and BioPatterns = 34
