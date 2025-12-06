@@ -244,14 +244,23 @@ write_each_event([(X1h, Y1h, Rel1), (X2h, Y2h, Rel2)|Rest]) :-
 	write_each_event(Rest). 
 	
 	
-% how to execute the whole test	
+% how to execute the whole test
+% prepare comparison with restricted kBase.pl
 prepare :-  
 	[kBase],
 	[synonyms], 
 	[chebi_names], 
 	load_file_ref('kBase.sif'), % for instance. It is a tsv really
-	transform_kb,
-	listing(edge/4).
+	transform_kb.
+	%listing(edge/4).
+	
+prepare_g :-
+	[kBase_g],
+	[synonyms_g],
+	[chebi_names], 
+	load_file_ref('kBase.sif'), % for instance. It is a tsv really
+	transform_kb.
+	%listing(edge/4).
 	
 compare :- count_true_positives(ref, kb, _Table1, TP),
 	   count_false_positives(ref, kb, _Table2, FP),
@@ -262,25 +271,37 @@ compare :- count_true_positives(ref, kb, _Table1, TP),
 	   write('True Positives (the ref has them and the system predicts them): '), writeln(TP), 
 	   write('False Positives (the ref does not have them but the system predicts them): '), writeln(FP), 
 	   write('False Negatives (the ref has them but the system does not predict them): '), writeln(FN),
-	   write('Prediction (TP/(TP+FP)), from all the predictions, how many are correct: '), writeln(Precision),
+	   write('Precision (TP/(TP+FP)), from all the predictions, how many are correct: '), writeln(Precision),
 	   write('Recall (TP/(TP+FN)): from all the correct ones, how many are predicted: '), writeln(Recall),
-	   write('F1 Score (2*Precision*Recall)/(Precision*Recall): '), writeln(F1). 
+	   write('F1 Score (2*Precision*Recall)/(Precision*Recall): '), writeln(F1),
+	   write(TP), write('\t'), write(FP), write('\t'), write(FN), write('\t'), write(Precision), write('\t'), write(Recall), write('\t'), writeln(F1). 
 	
-verify :- time(is_subgraph_isomorphic(ref, kb)). 
-	
-down :- get_edges(ref, ERef), write_kb_ref(ERef). 	
-	
+down :- get_edges(ref, ERef), write_kb_ref(ERef). 
+
+% save the .sif into a .pl graph like kBase.pl for drawing
+sif2kb :- load_file_ref('kBase.sif'), tell('kbSif.pl'), down, told, halt.
+
+% F1-Score type reporting
 report :-
 	write('Number of vertices in Ref .sif = '), 
 	num_vertices(ref, NVRef), writeln(NVRef), 
-	write('Number of vertices in BioPattern kBase.pl ='), 
+	write('Number of vertices in BioPattern ='), 
 	num_vertices(kb, NVBio), writeln(NVBio), 
 	write('Number of edges in Ref .sif = '),
 	num_edges(ref, NERef), writeln(NERef), 
-	write('Number of edges in BioPattern kBase.pl = '),
+	write('Number of edges in BioPattern = '),
 	num_edges(kb, NEBio), writeln(NEBio), 
 	time(compare).
 
+% to produce the report about the smaller/more restricted kBase.pl
 run :-
-	prepare, compare, tell('report.txt'), report, told.  
+	prepare, compare, tell('report.txt'), 
+	writeln('Report on kBase.sif vs kBase.pl'), 
+	report, told, halt. % <- halting to avoid mixing kbs
+	
+% to produce the report about the bigger/unrestricted kBase.pl
+run_g :- 
+	prepare_g, compare, tell('report_g.txt'), 
+	writeln('Report on kBase.sif vs kBase_g.pl'), 
+	report, told, halt. % <- halting to avoid mixing kbs
 

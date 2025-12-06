@@ -1,15 +1,11 @@
+Report on kBase.sif vs kBase.pl
 Number of vertices in Ref .sif = 53
-Number of vertices in BioPattern kBase.pl =23
-Number of edges in Ref .sif = 606
-Number of edges in BioPattern kBase.pl = 105
-Common Paths found in this .sif and in the .pl
-The structure is: Initial Vertex, Relationship in Sif, Relationship in BioPatterns, Final Vertex
-[('HK2','catalysis-precedes',association,'GPI')]
-[('PFKL','in-complex-with',bind,'PFKP')]
-[('TPI1','catalysis-precedes',bind,'GAPDH'),('GAPDH','catalysis-precedes',association,'BPGM')]
-[('TPI1','catalysis-precedes',bind,'GAPDH'),('GAPDH','catalysis-precedes',association,'PGK1')]
-[('TPI1','catalysis-precedes',bind,'GAPDH')]
-[('ENO1','catalysis-precedes',association,'PKM')]
-[('GAPDH','catalysis-precedes',association,'BPGM')]
-[('GAPDH','catalysis-precedes',association,'PGK1')]
-Number of paths common to Sif Ref and BioPatterns = 8
+Number of vertices in BioPattern =1435
+Number of edges in Ref .sif = 202
+Number of edges in BioPattern = 3320
+True Positives (the ref has them and the system predicts them): 13
+False Positives (the ref does not have them but the system predicts them): 6611
+False Negatives (the ref has them but the system does not predict them): 189
+Precision (TP/(TP+FP)), from all the predictions, how many are correct: 0.00196256038647343
+Recall (TP/(TP+FN)): from all the correct ones, how many are predicted: 0.06435643564356436
+F1 Score (2*Precision*Recall)/(Precision*Recall): 0.003808965719308526

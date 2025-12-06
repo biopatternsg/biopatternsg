@@ -1,53 +1,11 @@
+Report on kBase.sif vs kBase.pl
 Number of vertices in Ref .sif = 13
-Number of vertices in BioPattern kBase.pl =11
-Number of edges in Ref .sif = 138
-Number of edges in BioPattern kBase.pl = 60
-Common Paths found in this .sif and in the .pl
-The structure is: Initial Vertex, Relationship in Sif, Relationship in BioPatterns, Final Vertex
-[('DUSP3','controls-phosphorylation-of',association,'MAPK1')]
-[('DUSP3','controls-phosphorylation-of',negative_correlation,'MAPK1')]
-[('DUSP3','controls-phosphorylation-of',positive_correlation,'MAPK1')]
-[('DUSP3','controls-state-change-of',association,'MAPK1')]
-[('DUSP3','controls-state-change-of',negative_correlation,'MAPK1')]
-[('DUSP3','controls-state-change-of',positive_correlation,'MAPK1')]
-[('DUSP3','controls-phosphorylation-of',association,'MAPK3')]
-[('DUSP3','controls-state-change-of',association,'MAPK3')]
-[('DUSP3','in-complex-with',positive_correlation,'VRK3'),('VRK3','controls-phosphorylation-of',negative_correlation,'MAPK1')]
-[('DUSP3','in-complex-with',positive_correlation,'VRK3'),('VRK3','controls-state-change-of',negative_correlation,'MAPK1')]
-[('DUSP3','in-complex-with',positive_correlation,'VRK3')]
-[('DUSP4','controls-phosphorylation-of',association,'MAPK1')]
-[('DUSP4','controls-phosphorylation-of',negative_correlation,'MAPK1')]
-[('DUSP4','controls-phosphorylation-of',positive_correlation,'MAPK1')]
-[('DUSP4','controls-state-change-of',association,'MAPK1')]
-[('DUSP4','controls-state-change-of',negative_correlation,'MAPK1')]
-[('DUSP4','controls-state-change-of',positive_correlation,'MAPK1')]
-[('DUSP4','controls-phosphorylation-of',association,'MAPK3')]
-[('DUSP4','controls-phosphorylation-of',negative_correlation,'MAPK3')]
-[('DUSP4','controls-state-change-of',association,'MAPK3')]
-[('DUSP4','controls-state-change-of',negative_correlation,'MAPK3')]
-[('DUSP6','controls-phosphorylation-of',positive_correlation,'MAPK1')]
-[('DUSP6','controls-phosphorylation-of',negative_correlation,'MAPK1')]
-[('DUSP6','controls-phosphorylation-of',association,'MAPK1')]
-[('DUSP6','controls-state-change-of',positive_correlation,'MAPK1')]
-[('DUSP6','controls-state-change-of',negative_correlation,'MAPK1')]
-[('DUSP6','controls-state-change-of',association,'MAPK1')]
-[('DUSP6','controls-phosphorylation-of',positive_correlation,'MAPK3')]
-[('DUSP6','controls-phosphorylation-of',association,'MAPK3')]
-[('DUSP6','controls-phosphorylation-of',negative_correlation,'MAPK3')]
-[('DUSP6','controls-state-change-of',positive_correlation,'MAPK3')]
-[('DUSP6','controls-state-change-of',association,'MAPK3')]
-[('DUSP6','controls-state-change-of',negative_correlation,'MAPK3')]
-[('DUSP6','controls-phosphorylation-of',association,'MAPK7')]
-[('DUSP6','controls-phosphorylation-of',negative_correlation,'MAPK7')]
-[('DUSP6','controls-state-change-of',association,'MAPK7')]
-[('DUSP6','controls-state-change-of',negative_correlation,'MAPK7')]
-[('DUSP7','controls-phosphorylation-of',association,'MAPK1')]
-[('DUSP7','controls-state-change-of',association,'MAPK1')]
-[('DUSP7','controls-phosphorylation-of',association,'MAPK3')]
-[('DUSP7','controls-state-change-of',association,'MAPK3')]
-[('PPP2CA','in-complex-with',association,'PPP2R1A')]
-[('PPP2CA','in-complex-with',bind,'PPP2R1B')]
-[('PPP2CA','in-complex-with',association,'PPP2R1B')]
-[('VRK3','controls-phosphorylation-of',negative_correlation,'MAPK1')]
-[('VRK3','controls-state-change-of',negative_correlation,'MAPK1')]
-Number of paths common to Sif Ref and BioPatterns = 46
+Number of vertices in BioPattern =1046
+Number of edges in Ref .sif = 69
+Number of edges in BioPattern = 2317
+True Positives (the ref has them and the system predicts them): 65
+False Positives (the ref does not have them but the system predicts them): 4470
+False Negatives (the ref has them but the system does not predict them): 36
+Precision (TP/(TP+FP)), from all the predictions, how many are correct: 0.014332965821389196
+Recall (TP/(TP+FN)): from all the correct ones, how many are predicted: 0.6435643564356436
+F1 Score (2*Precision*Recall)/(Precision*Recall): 0.028041415012942193
