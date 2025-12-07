@@ -9,3 +9,4 @@ False Negatives (the ref has them but the system does not predict them): 2
 Precision (TP/(TP+FP)), from all the predictions, how many are correct: 0.002751031636863824
 Recall (TP/(TP+FN)): from all the correct ones, how many are predicted: 0.9
 F1 Score (2*Precision*Recall)/(Precision*Recall): 0.005485296358372696
+18	6525	2	0.002751031636863824	0.9	0.005485296358372696

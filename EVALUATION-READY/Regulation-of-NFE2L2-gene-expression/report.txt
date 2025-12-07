@@ -1,44 +1,12 @@
+Report on kBase.sif vs kBase.pl
 Number of vertices in Ref .sif = 8
-Number of vertices in BioPattern kBase.pl =8
+Number of vertices in BioPattern =3008
 Number of edges in Ref .sif = 13
-Number of edges in BioPattern kBase.pl = 63
-Common Paths found in this .sif and in the .pl
-The structure is: Initial Vertex, Relationship in Sif, Relationship in BioPatterns, Final Vertex
-[('CREBBP','controls-expression-of',association,'NFE2L2')]
-[('CREBBP','controls-expression-of',positive_correlation,'NFE2L2')]
-[('CREBBP','in-complex-with',association,'NFE2L2')]
-[('CREBBP','in-complex-with',positive_correlation,'NFE2L2')]
-[('EP300','controls-expression-of',association,'NFE2L2')]
-[('EP300','controls-expression-of',bind,'NFE2L2')]
-[('EP300','in-complex-with',association,'NFE2L2')]
-[('EP300','in-complex-with',bind,'NFE2L2')]
-[('MYC','controls-expression-of',negative_correlation,'NFE2L2')]
-[('MYC','controls-expression-of',association,'NFE2L2')]
-[('MYC','controls-expression-of',positive_correlation,'NFE2L2')]
-[('NFKB1','controls-expression-of',association,'NFE2L2')]
-[('NFKB1','controls-expression-of',positive_correlation,'NFE2L2')]
-[('NFKB1','controls-expression-of',negative_correlation,'NFE2L2')]
-[('NFKB1','in-complex-with',association,'RELA'),('RELA','controls-expression-of',positive_correlation,'NFE2L2')]
-[('NFKB1','in-complex-with',association,'RELA'),('RELA','controls-expression-of',negative_correlation,'NFE2L2')]
-[('NFKB1','in-complex-with',association,'RELA'),('RELA','controls-expression-of',association,'NFE2L2')]
-[('NFKB1','in-complex-with',bind,'RELA'),('RELA','controls-expression-of',positive_correlation,'NFE2L2')]
-[('NFKB1','in-complex-with',bind,'RELA'),('RELA','controls-expression-of',negative_correlation,'NFE2L2')]
-[('NFKB1','in-complex-with',bind,'RELA'),('RELA','controls-expression-of',association,'NFE2L2')]
-[('NFKB1','in-complex-with',positive_correlation,'RELA'),('RELA','controls-expression-of',positive_correlation,'NFE2L2')]
-[('NFKB1','in-complex-with',positive_correlation,'RELA'),('RELA','controls-expression-of',negative_correlation,'NFE2L2')]
-[('NFKB1','in-complex-with',positive_correlation,'RELA'),('RELA','controls-expression-of',association,'NFE2L2')]
-[('NFKB1','in-complex-with',negative_correlation,'RELA'),('RELA','controls-expression-of',positive_correlation,'NFE2L2')]
-[('NFKB1','in-complex-with',negative_correlation,'RELA'),('RELA','controls-expression-of',negative_correlation,'NFE2L2')]
-[('NFKB1','in-complex-with',negative_correlation,'RELA'),('RELA','controls-expression-of',association,'NFE2L2')]
-[('NFKB1','in-complex-with',association,'RELA')]
-[('NFKB1','in-complex-with',bind,'RELA')]
-[('NFKB1','in-complex-with',positive_correlation,'RELA')]
-[('NFKB1','in-complex-with',negative_correlation,'RELA')]
-[('NOTCH1','controls-expression-of',association,'NFE2L2')]
-[('NOTCH1','controls-expression-of',positive_correlation,'NFE2L2')]
-[('MAFK','controls-expression-of',association,'NFE2L2')]
-[('MAFK','in-complex-with',association,'NFE2L2')]
-[('RELA','controls-expression-of',positive_correlation,'NFE2L2')]
-[('RELA','controls-expression-of',negative_correlation,'NFE2L2')]
-[('RELA','controls-expression-of',association,'NFE2L2')]
-Number of paths common to Sif Ref and BioPatterns = 37
+Number of edges in BioPattern = 7344
+True Positives (the ref has them and the system predicts them): 35
+False Positives (the ref does not have them but the system predicts them): 14281
+False Negatives (the ref has them but the system does not predict them): 1
+Precision (TP/(TP+FP)), from all the predictions, how many are correct: 0.0024448169879854706
+Recall (TP/(TP+FN)): from all the correct ones, how many are predicted: 0.9722222222222222
+F1 Score (2*Precision*Recall)/(Precision+Recall): 0.00487736900780379
+35	14281	1	0.0024448169879854706	0.9722222222222222	0.00487736900780379

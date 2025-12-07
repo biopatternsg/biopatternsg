@@ -1,46 +1,12 @@
+Report on kBase.sif vs kBase.pl
 Number of vertices in Ref .sif = 7
-Number of vertices in BioPattern kBase.pl =7
+Number of vertices in BioPattern =334
 Number of edges in Ref .sif = 15
-Number of edges in BioPattern kBase.pl = 18
-Common Paths found in this .sif and in the .pl
-The structure is: Initial Vertex, Relationship in Sif, Relationship in BioPatterns, Final Vertex
-[('GBF1','controls-state-change-of',positive_correlation,'ARF1')]
-[('GBF1','controls-state-change-of',association,'ARF1')]
-[('GBF1','controls-state-change-of',bind,'ARF1')]
-[('GBF1','controls-state-change-of',negative_correlation,'ARF1')]
-[('GBF1','controls-transport-of',positive_correlation,'ARF1')]
-[('GBF1','controls-transport-of',association,'ARF1')]
-[('GBF1','controls-transport-of',bind,'ARF1')]
-[('GBF1','controls-transport-of',negative_correlation,'ARF1')]
-[('SNAP23','in-complex-with',association,'STX4'),('STX4','controls-state-change-of',bind,'VAMP2')]
-[('SNAP23','in-complex-with',association,'STX4'),('STX4','controls-state-change-of',association,'VAMP2')]
-[('SNAP23','in-complex-with',association,'STX4'),('STX4','in-complex-with',bind,'VAMP2')]
-[('SNAP23','in-complex-with',association,'STX4'),('STX4','in-complex-with',association,'VAMP2')]
-[('SNAP23','in-complex-with',association,'STX4'),('STX4','controls-state-change-of',association,'VAMP7')]
-[('SNAP23','in-complex-with',association,'STX4'),('STX4','controls-state-change-of',bind,'VAMP7')]
-[('SNAP23','in-complex-with',association,'STX4'),('STX4','in-complex-with',association,'VAMP7')]
-[('SNAP23','in-complex-with',association,'STX4'),('STX4','in-complex-with',bind,'VAMP7')]
-[('SNAP23','in-complex-with',association,'STX4'),('STX4','controls-state-change-of',association,'VAMP8')]
-[('SNAP23','in-complex-with',association,'STX4'),('STX4','in-complex-with',association,'VAMP8')]
-[('SNAP23','in-complex-with',association,'STX4')]
-[('SNAP23','controls-state-change-of',association,'VAMP2')]
-[('SNAP23','controls-state-change-of',bind,'VAMP2')]
-[('SNAP23','in-complex-with',association,'VAMP2')]
-[('SNAP23','in-complex-with',bind,'VAMP2')]
-[('SNAP23','controls-state-change-of',association,'VAMP7')]
-[('SNAP23','controls-state-change-of',bind,'VAMP7')]
-[('SNAP23','in-complex-with',association,'VAMP7')]
-[('SNAP23','in-complex-with',bind,'VAMP7')]
-[('SNAP23','controls-state-change-of',association,'VAMP8')]
-[('SNAP23','in-complex-with',association,'VAMP8')]
-[('STX4','controls-state-change-of',bind,'VAMP2')]
-[('STX4','controls-state-change-of',association,'VAMP2')]
-[('STX4','in-complex-with',bind,'VAMP2')]
-[('STX4','in-complex-with',association,'VAMP2')]
-[('STX4','controls-state-change-of',association,'VAMP7')]
-[('STX4','controls-state-change-of',bind,'VAMP7')]
-[('STX4','in-complex-with',association,'VAMP7')]
-[('STX4','in-complex-with',bind,'VAMP7')]
-[('STX4','controls-state-change-of',association,'VAMP8')]
-[('STX4','in-complex-with',association,'VAMP8')]
-Number of paths common to Sif Ref and BioPatterns = 39
+Number of edges in BioPattern = 594
+True Positives (the ref has them and the system predicts them): 32
+False Positives (the ref does not have them but the system predicts them): 1131
+False Negatives (the ref has them but the system does not predict them): 0
+Precision (TP/(TP+FP)), from all the predictions, how many are correct: 0.027515047291487533
+Recall (TP/(TP+FN)): from all the correct ones, how many are predicted: 1
+F1 Score (2*Precision*Recall)/(Precision+Recall): 0.05355648535564853
+32	1131	0	0.027515047291487533	1	0.05355648535564853

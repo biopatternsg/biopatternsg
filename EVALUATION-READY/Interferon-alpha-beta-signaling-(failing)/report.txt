@@ -1,10 +1,12 @@
+Report on kBase.sif vs kBase.pl
 Number of vertices in Ref .sif = 46
-Number of vertices in BioPattern kBase.pl =24
+Number of vertices in BioPattern =2847
 Number of edges in Ref .sif = 787
-Number of edges in BioPattern kBase.pl = 235
-True Positives (the ref has them and the system predicts them): 341
-False Positives (the ref does not have them but the system predicts them): 226
-False Negatives (the ref has them but the system does not predict them): 643
-Prediction (TP/(TP+FP)), from all the predictions, how many are correct: 0.6014109347442681
-Recall (TP/(TP+FN)): from all the correct ones, how many are predicted: 0.3465447154471545
-F1 Score (2*Precision*Recall)/(Precision*Recall): 0.4397163120567376
+Number of edges in BioPattern = 9078
+True Positives (the ref has them and the system predicts them): 447
+False Positives (the ref does not have them but the system predicts them): 17368
+False Negatives (the ref has them but the system does not predict them): 626
+Precision (TP/(TP+FP)), from all the predictions, how many are correct: 0.025091215268032558
+Recall (TP/(TP+FN)): from all the correct ones, how many are predicted: 0.41658900279589933
+F1 Score (2*Precision*Recall)/(Precision*Recall): 0.04733163913595934
+447	17368	626	0.025091215268032558	0.41658900279589933	0.04733163913595934

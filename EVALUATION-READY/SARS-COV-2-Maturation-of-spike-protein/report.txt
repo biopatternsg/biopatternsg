@@ -1,9 +1,12 @@
+Report on kBase.sif vs kBase.pl
 Number of vertices in Ref .sif = 28
-Number of vertices in BioPattern kBase.pl =2
+Number of vertices in BioPattern =31
 Number of edges in Ref .sif = 74
-Number of edges in BioPattern kBase.pl = 2
-Common Paths found in this .sif and in the .pl
-The structure is: Initial Vertex, Relationship in Sif, Relationship in BioPatterns, Final Vertex
-[('GANAB','in-complex-with',association,'PRKCSH')]
-[('GANAB','in-complex-with',bind,'PRKCSH')]
-Number of paths common to Sif Ref and BioPatterns = 2
+Number of edges in BioPattern = 35
+True Positives (the ref has them and the system predicts them): 2
+False Positives (the ref does not have them but the system predicts them): 68
+False Negatives (the ref has them but the system does not predict them): 73
+Precision (TP/(TP+FP)), from all the predictions, how many are correct: 0.02857142857142857
+Recall (TP/(TP+FN)): from all the correct ones, how many are predicted: 0.02666666666666667
+F1 Score (2*Precision*Recall)/(Precision+Recall): 0.027586206896551724
+2	68	73	0.02857142857142857	0.02666666666666667	0.027586206896551724

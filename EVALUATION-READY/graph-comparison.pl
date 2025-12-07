@@ -176,26 +176,30 @@ count_true_positives(Golden, System, Table, TP) :-
 	remove_duplicates(ATable, Table),
 	length(Table, TP). 
 	
-false_negative(Golden, System, (Xh, Rel1, Yh)-(Xg, Rel2, Yg) ) :-
+%false_negative(Golden, System, (Xh, Rel1, Yh)-(Xg, Rel2, Yg) ) :-
+false_negative(Golden, System, (Xh, Rel1, Yh)-not_predicted ) :-
 	in_ref(Golden, X, Y, (Xh, Rel1, Yh)), 
-	not(in_kb(System, X, Y, (Xg, Rel2, Yg))). 
+	not(in_kb(System, X, Y, _)). 
 	
 count_false_negatives(Golden, System, Table, FN) :-
 	findall(Interaction, false_negative(Golden, System, Interaction), ATable),
 	remove_duplicates(ATable, Table),
 	length(Table, FN).
 	
-false_positive(Golden, System, (Xh, Rel1, Yh)-(Xg, Rel2, Yg) ) :-
+%false_positive(Golden, System, (Xh, Rel1, Yh)-(Xg, Rel2, Yg) ) :-
+false_positive(Golden, System, does_not_exist-(Xg, Rel2, Yg) ) :-
 	in_kb(System, X, Y, (Xg, Rel2, Yg)),
-	not(in_ref(Golden, X, Y, (Xh, Rel1, Yh))). 
+	not(in_ref(Golden, X, Y, _)). 
 	
 count_false_positives(Golden, System, Table, FP) :-
 	findall(Interaction, false_positive(Golden, System, Interaction), ATable),
 	remove_duplicates(ATable, Table),
 	length(Table, FP).
 	
-fraction(T, F, Fr) :- Fr is T/(T+F).
-f1score(P, R, F1) :- F1 is 2*P*R/(P+R). 
+fraction(T, F, Fr) :- S is T+F, S>0, Fr is T/(T+F), !.
+fraction(0,0, undefined). 
+f1score(P, R, F1) :- S is P+R, S>0, F1 is 2*P*R/(P+R), !. 
+f1score(0,0, undefined). 
 
 % load_file_ref('covid.csv').
 load_file_ref(File) :- 
@@ -216,16 +220,18 @@ reorder_kb(_, [], []).
 reorder_kb(N, [event(X,Rel,Y)|Rest], [edge(N, X, Y, Rel)|NRest] ):-
 	reorder_kb(N, Rest, NRest). 
 	
-remove_duplicates([], []).
-remove_duplicates([A|R], RR) :-
+remove_duplicates(L,S) :- list_to_set(L, S).  
+
+remove_duplicates_([], []).
+remove_duplicates_([A|R], RR) :-
 	member(A, R), !, 
-	remove_duplicates(R, RR).
-remove_duplicates([A|R], [A|RR]) :-
-	remove_duplicates(R, RR).
+	remove_duplicates_(R, RR).
+remove_duplicates_([A|R], [A|RR]) :-
+	remove_duplicates_(R, RR).
 
 compare_relations(Graph1, Graph2, Table) :-
 	findall((X,Rel1,Rel2,Y), (edge(Graph1, X, Y, Rel1), edge(Graph2, X, Y, Rel2)), ATable),
-	remove_duplicates(ATable, Table). 
+	remove_duplicates_(ATable, Table). 
 		
 print_list([]).
 print_list([A|B]) :-
@@ -273,7 +279,7 @@ compare :- count_true_positives(ref, kb, _Table1, TP),
 	   write('False Negatives (the ref has them but the system does not predict them): '), writeln(FN),
 	   write('Precision (TP/(TP+FP)), from all the predictions, how many are correct: '), writeln(Precision),
 	   write('Recall (TP/(TP+FN)): from all the correct ones, how many are predicted: '), writeln(Recall),
-	   write('F1 Score (2*Precision*Recall)/(Precision*Recall): '), writeln(F1),
+	   write('F1 Score (2*Precision*Recall)/(Precision+Recall): '), writeln(F1),
 	   write(TP), write('\t'), write(FP), write('\t'), write(FN), write('\t'), write(Precision), write('\t'), write(Recall), write('\t'), writeln(F1). 
 	
 down :- get_edges(ref, ERef), write_kb_ref(ERef). 

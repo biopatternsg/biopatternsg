@@ -1,11 +1,12 @@
+Report on kBase.sif vs kBase.pl
 Number of vertices in Ref .sif = 31
-Number of vertices in BioPattern kBase.pl =11
+Number of vertices in BioPattern =1380
 Number of edges in Ref .sif = 137
-Number of edges in BioPattern kBase.pl = 12
-Common Paths found in this .sif and in the .pl
-The structure is: Initial Vertex, Relationship in Sif, Relationship in BioPatterns, Final Vertex
-[('ITPKA','catalysis-precedes',association,'INPP5A')]
-[('PTEN','catalysis-precedes',association,'INPP5B')]
-[('PTEN','catalysis-precedes',association,'INPP5F')]
-[('PTEN','catalysis-precedes',positive_correlation,'INPPL1')]
-Number of paths common to Sif Ref and BioPatterns = 4
+Number of edges in BioPattern = 2464
+True Positives (the ref has them and the system predicts them): 5
+False Positives (the ref does not have them but the system predicts them): 4832
+False Negatives (the ref has them but the system does not predict them): 133
+Precision (TP/(TP+FP)), from all the predictions, how many are correct: 0.0010336985734959686
+Recall (TP/(TP+FN)): from all the correct ones, how many are predicted: 0.036231884057971016
+F1 Score (2*Precision*Recall)/(Precision+Recall): 0.0020100502512562816
+5	4832	133	0.0010336985734959686	0.036231884057971016	0.0020100502512562816

@@ -1,33 +1,12 @@
+Report on kBase.sif vs kBase.pl
 Number of vertices in Ref .sif = 35
-Number of vertices in BioPattern kBase.pl =16
+Number of vertices in BioPattern =2183
 Number of edges in Ref .sif = 329
-Number of edges in BioPattern kBase.pl = 31
-Common Paths found in this .sif and in the .pl
-The structure is: Initial Vertex, Relationship in Sif, Relationship in BioPatterns, Final Vertex
-[('FURIN','controls-state-change-of',association,'ACE2')]
-[('FURIN','controls-state-change-of',bind,'ACE2')]
-[('FURIN','controls-state-change-of',negative_correlation,'ACE2')]
-[('FURIN','controls-transport-of',association,'ACE2')]
-[('FURIN','controls-transport-of',bind,'ACE2')]
-[('FURIN','controls-transport-of',negative_correlation,'ACE2')]
-[('FURIN','controls-state-change-of',association,'GPC3')]
-[('FURIN','controls-transport-of',association,'GPC3')]
-[('FURIN','controls-state-change-of',association,'SDC1')]
-[('FURIN','controls-transport-of',association,'SDC1')]
-[('HAVCR1','controls-state-change-of',association,'ACE2')]
-[('HAVCR1','controls-transport-of',association,'ACE2')]
-[('NRP1','controls-state-change-of',association,'ACE2')]
-[('NRP1','controls-state-change-of',bind,'ACE2')]
-[('NRP1','controls-transport-of',association,'ACE2')]
-[('NRP1','controls-transport-of',bind,'ACE2')]
-[('PHB2','controls-state-change-of',positive_correlation,'ACE2')]
-[('PHB2','controls-transport-of',positive_correlation,'ACE2')]
-[('TMPRSS2','controls-state-change-of',association,'ACE2')]
-[('TMPRSS2','controls-state-change-of',bind,'ACE2')]
-[('TMPRSS2','controls-state-change-of',positive_correlation,'ACE2')]
-[('TMPRSS2','controls-transport-of',association,'ACE2')]
-[('TMPRSS2','controls-transport-of',bind,'ACE2')]
-[('TMPRSS2','controls-transport-of',positive_correlation,'ACE2')]
-[('CTSL','controls-state-change-of',association,'ACE2')]
-[('CTSL','controls-transport-of',association,'ACE2')]
-Number of paths common to Sif Ref and BioPatterns = 26
+Number of edges in BioPattern = 4746
+True Positives (the ref has them and the system predicts them): 30
+False Positives (the ref does not have them but the system predicts them): 9312
+False Negatives (the ref has them but the system does not predict them): 311
+Precision (TP/(TP+FP)), from all the predictions, how many are correct: 0.0032113037893384713
+Recall (TP/(TP+FN)): from all the correct ones, how many are predicted: 0.08797653958944282
+F1 Score (2*Precision*Recall)/(Precision+Recall): 0.00619642672725395
+30	9312	311	0.0032113037893384713	0.08797653958944282	0.00619642672725395

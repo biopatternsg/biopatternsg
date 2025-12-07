@@ -1,50 +1,12 @@
+Report on kBase.sif vs kBase.pl
 Number of vertices in Ref .sif = 35
-Number of vertices in BioPattern kBase.pl =16
+Number of vertices in BioPattern =943
 Number of edges in Ref .sif = 591
-Number of edges in BioPattern kBase.pl = 19
-Common Paths found in this .sif and in the .pl
-The structure is: Initial Vertex, Relationship in Sif, Relationship in BioPatterns, Final Vertex
-[('RPS10','in-complex-with',bind,'RPS3')]
-[('RPS12','in-complex-with',association,'RPS4X'),('RPS4X','in-complex-with',association,'RPS5')]
-[('RPS12','in-complex-with',association,'RPS4X')]
-[('RPS12','in-complex-with',association,'RPS5')]
-[('RPS13','in-complex-with',association,'RPS27'),('RPS27','in-complex-with',association,'RPS4X'),('RPS4X','in-complex-with',association,'RPS5')]
-[('RPS13','in-complex-with',association,'RPS27'),('RPS27','in-complex-with',association,'RPS4X')]
-[('RPS13','in-complex-with',association,'RPS27')]
-[('RPS16','in-complex-with',association,'RPS19'),('RPS19','in-complex-with',association,'RPS3')]
-[('RPS16','in-complex-with',positive_correlation,'RPS19'),('RPS19','in-complex-with',association,'RPS3')]
-[('RPS16','in-complex-with',association,'RPS19'),('RPS19','in-complex-with',positive_correlation,'RPS6')]
-[('RPS16','in-complex-with',positive_correlation,'RPS19'),('RPS19','in-complex-with',positive_correlation,'RPS6')]
-[('RPS16','in-complex-with',association,'RPS19'),('RPS19','in-complex-with',association,'RPS7')]
-[('RPS16','in-complex-with',positive_correlation,'RPS19'),('RPS19','in-complex-with',association,'RPS7')]
-[('RPS16','in-complex-with',association,'RPS19')]
-[('RPS16','in-complex-with',positive_correlation,'RPS19')]
-[('RPS17','in-complex-with',association,'RPS19'),('RPS19','in-complex-with',association,'RPS3')]
-[('RPS17','in-complex-with',association,'RPS19'),('RPS19','in-complex-with',positive_correlation,'RPS6')]
-[('RPS17','in-complex-with',association,'RPS19'),('RPS19','in-complex-with',association,'RPS7')]
-[('RPS17','in-complex-with',association,'RPS19')]
-[('RPS17','in-complex-with',association,'RPS7')]
-[('RPS18','in-complex-with',association,'RPS19'),('RPS19','in-complex-with',association,'RPS3')]
-[('RPS18','in-complex-with',association,'RPS19'),('RPS19','in-complex-with',positive_correlation,'RPS6')]
-[('RPS18','in-complex-with',association,'RPS19'),('RPS19','in-complex-with',association,'RPS7')]
-[('RPS18','in-complex-with',association,'RPS19')]
-[('RPS18','in-complex-with',association,'RPS27'),('RPS27','in-complex-with',association,'RPS4X'),('RPS4X','in-complex-with',association,'RPS5')]
-[('RPS18','in-complex-with',association,'RPS27'),('RPS27','in-complex-with',association,'RPS4X')]
-[('RPS18','in-complex-with',association,'RPS27')]
-[('RPS19','in-complex-with',association,'RPS3')]
-[('RPS19','in-complex-with',positive_correlation,'RPS6')]
-[('RPS19','in-complex-with',association,'RPS7')]
-[('RPS2','in-complex-with',association,'RPS27'),('RPS27','in-complex-with',association,'RPS4X'),('RPS4X','in-complex-with',association,'RPS5')]
-[('RPS2','in-complex-with',association,'RPS27'),('RPS27','in-complex-with',association,'RPS4X')]
-[('RPS2','in-complex-with',association,'RPS27')]
-[('RPS2','in-complex-with',bind,'RPS3')]
-[('RPS21','in-complex-with',association,'RPS27'),('RPS27','in-complex-with',association,'RPS4X'),('RPS4X','in-complex-with',association,'RPS5')]
-[('RPS21','in-complex-with',association,'RPS27'),('RPS27','in-complex-with',association,'RPS4X')]
-[('RPS21','in-complex-with',association,'RPS27')]
-[('RPS24','in-complex-with',association,'RPS27'),('RPS27','in-complex-with',association,'RPS4X'),('RPS4X','in-complex-with',association,'RPS5')]
-[('RPS24','in-complex-with',association,'RPS27'),('RPS27','in-complex-with',association,'RPS4X')]
-[('RPS24','in-complex-with',association,'RPS27')]
-[('RPS27','in-complex-with',association,'RPS4X'),('RPS4X','in-complex-with',association,'RPS5')]
-[('RPS27','in-complex-with',association,'RPS4X')]
-[('RPS4X','in-complex-with',association,'RPS5')]
-Number of paths common to Sif Ref and BioPatterns = 43
+Number of edges in BioPattern = 1739
+True Positives (the ref has them and the system predicts them): 27
+False Positives (the ref does not have them but the system predicts them): 3437
+False Negatives (the ref has them but the system does not predict them): 565
+Precision (TP/(TP+FP)), from all the predictions, how many are correct: 0.00779445727482679
+Recall (TP/(TP+FN)): from all the correct ones, how many are predicted: 0.04560810810810811
+F1 Score (2*Precision*Recall)/(Precision+Recall): 0.01331360946745562
+27	3437	565	0.00779445727482679	0.04560810810810811	0.01331360946745562
