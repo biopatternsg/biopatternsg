@@ -1,0 +1,9 @@
+% Objects and their synonyms from Pubtator
+
+synonyms('G6PD', ['G6PD', 'glucose-6-phosphate dehydrogenase', 'glucose 6-phosphate dehydrogenase', 'G6PDH', 'glucose- 6-phosphate dehydrogenase', 'glucose 6 phosphate dehydrogenase', 'Glucose-6-phosphate dehydrogenase', 'Glucose 6-phosphate dehydrogenase', 'G-6-PD', 'Glucose 6-Phosphate Dehydrogenase', 'G-6PD', 'glucose-6-phosphate-dehydrogenase', 'G6-PD', '-glucose-6-phosphate dehydrogenase', 'glucose-6- phosphate dehydrogenase', 'g6pd']).
+synonyms('PGLS', ['PGLS', '6-phosphogluconolactonase', '6PGL']).
+synonyms('PFKL', ['PFKL', 'PFK-L', 'phosphofructokinase-1', 'PFK1', 'phosphofructokinase-1 liver type', 'pfkl', 'Pfkl']).
+synonyms('PFKP', ['PFKP', 'phosphofructokinase platelet', 'PFK-P', 'ATP: D-fructose-6-phosphate 1-phosphotransferase', 'Pfkp', 'Phosphofructokinase, platelet', 'Phosphofructokinase platelet', 'ATP-dependent 6-phosphofructokinase, platelet type']).
+synonyms('PFKM', ['PFKM', '6-phosphofructo-1-kinase', 'Phosphofructokinase', 'phosphofructokinase, muscle', 'Phosphofructokinase-1', 'phosphofructokinase-1', 'PFK-1', 'PFK-M', 'phosphofructokinase 1', 'phosphofructokinase (PFK) 1', 'PFK1', 'Phosphofructokinase muscle isoform', 'Pfkm']).
+synonyms('FBP2', ['FBP2', 'hexosediphosphatase', 'FBPase-2', 'fructose 1,6 bisphosphatase I', 'FBPase', 'Fructose bisphosphatase 2', 'fructose 1,6-bisphosphatase', 'Fructose-1,6-Bisphosphatase 2', 'fructose-1,6-bisphosphatase 2', 'Fbp2', 'Fructose 1,6-Bisphosphatase 2', 'fructose 1,6-bisphosphatase 2', 'fructose-1,6-bisphosphatase', 'fructose-1,6-bisphosphatase-2', 'Fructose 1,6-bisphosphatase 2', 'fructose 1,6-bisphphosphatase', 'FBPase2', 'Fbp-2', 'FBP-2', 'FBP']).
+synonyms('PGD', ['PGD', '6PGD', '6-phosphogluconate dehydrogenase', '6-PGD', '6-phospho-gluconate dehydrogenase', 'PGD-ENO1', 'phosphogluconate dehydrogenase', '6-phosphogluconic dehydrogenase', 'phospho-gluconate dehydrogenase', '6-phosphoglucerate dehydrogenase']).
