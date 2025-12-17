@@ -13,29 +13,24 @@ aligned('MAVS').
 aligned('TBK1').
 aligned('TRAF3').
 aligned('RNF135').
-aligned('SIKE1').
 aligned('TRIM25').
 aligned('TRIM4').
 
 % No aligned objects: 
 
-no_aligned(none).
-
+no_aligned('RIGI').
+no_aligned('SIKE1').
 
 % User's objects with alternative alignments: 
 
-aligned_as('IRF3', ['IRF3', 'IRF7', 'IRF-3', 'IRF3.L']).
-aligned_as('IRF7', ['IRF7', 'LOC101795904']).
-aligned_as('MAVS', ['MAVS', 'PLATELET SIGNAL PROCESSING DEFECT']).
-aligned_as('TRAF3', ['TRAF3', 'LOC106611198']).
-aligned_as('RIGI', ['DDX58', 'GENOMIC INSTABILITY']).
+aligned_as('IRF3', ['IRF3', 'IRF7']).
 
 % General report of aligned and no aligned objects: 
 
-aligned_objs(['CREBBP', 'IFNB1', 'IRF3', 'EP300', 'IFIH1', 'IKBKE', 'IRF7', 'MAVS', 'TBK1', 'TRAF3', 'RNF135', 'SIKE1', 'TRIM25', 'TRIM4'], 14).
+aligned_objs(['CREBBP', 'IFNB1', 'IRF3', 'EP300', 'IFIH1', 'IKBKE', 'IRF7', 'MAVS', 'TBK1', 'TRAF3', 'RNF135', 'TRIM25', 'TRIM4'], 13).
 
-no_aligned_objs([], 0).
+no_aligned_objs(['RIGI', 'SIKE1'], 2).
 
-aligned_as(['IRF3', 'IRF7', 'MAVS', 'TRAF3', 'RIGI'], 5).
+aligned_as(['IRF3'], 1).
 
-aligned_and_alternatives(['SIKE1', 'GENOMIC INSTABILITY', 'LOC101795904', 'TRIM4', 'TRIM25', 'IRF-3', 'LOC106611198', 'TBK1', 'CREBBP', 'IFIH1', 'IKBKE', 'RNF135', 'PLATELET SIGNAL PROCESSING DEFECT', 'DDX58', 'IFNB1', 'EP300', 'IRF3.L', 'TRAF3', 'MAVS', 'IRF3', 'IRF7'], 21).
+aligned_and_alternatives(['CREBBP', 'IRF3', 'IKBKE', 'TRIM4', 'MAVS', 'EP300', 'TRAF3', 'IFNB1', 'TBK1', 'TRIM25', 'IRF7', 'RNF135', 'IFIH1'], 13).
