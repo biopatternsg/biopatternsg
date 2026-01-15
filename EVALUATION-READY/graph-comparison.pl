@@ -268,9 +268,18 @@ prepare_g :-
 	transform_kb.
 	%listing(edge/4).
 	
-compare :- count_true_positives(ref, kb, _Table1, TP),
-	   count_false_positives(ref, kb, _Table2, FP),
-	   count_false_negatives(ref, kb, _Table3, FN),
+compare :- count_true_positives(ref, kb, Table1, TP),
+	   writeln('============================= TP Table ========================='), 
+	   writeln(Table1), 
+	   writeln('================================================================'),  
+	   count_false_positives(ref, kb, Table2, FP),
+	   writeln('============================= FP Table ========================='), 
+	   writeln(Table2), 
+	   writeln('================================================================'),  
+	   count_false_negatives(ref, kb, Table3, FN),
+	   writeln('============================= FN Table ========================='), 
+	   writeln(Table3), 
+	   writeln('================================================================'),  
 	   fraction(TP, FP, Precision),
 	   fraction(TP, FN, Recall), 
 	   f1score(Precision, Recall, F1),
