@@ -1,0 +1,21 @@
+Simple Report on kBase.sif vs kBase.pl
+Number of vertices in Ref .sif = 7
+Number of vertices in BioPattern =7
+Number of edges in Ref .sif = 12
+Number of edges in BioPattern = 27
+============================= TP Table =========================
+[(MAPKAPK2,CREB1),(RPS6KA1,CREB1),(RPS6KA2,CREB1),(RPS6KA3,CREB1),(RPS6KA5,ATF1),(RPS6KA5,CREB1)]
+================================================================
+============================= FP Table =========================
+[(CREB1,MAPKAPK2),(CREB1,RPS6KA5),(CREB1,ATF1),(CREB1,RPS6KA1),(CREB1,RPS6KA3),(CREB1,RPS6KA2),(MAPKAPK2,RPS6KA5),(MAPKAPK2,ATF1),(MAPKAPK2,RPS6KA1),(MAPKAPK2,RPS6KA3),(MAPKAPK2,RPS6KA2),(RPS6KA5,MAPKAPK2),(RPS6KA5,RPS6KA1),(RPS6KA5,RPS6KA3),(RPS6KA5,RPS6KA2),(ATF1,CREB1),(ATF1,MAPKAPK2),(ATF1,RPS6KA5),(ATF1,RPS6KA1),(ATF1,RPS6KA3),(ATF1,RPS6KA2),(RPS6KA1,MAPKAPK2),(RPS6KA1,RPS6KA5),(RPS6KA1,ATF1),(RPS6KA1,RPS6KA3),(RPS6KA1,RPS6KA2),(RPS6KA3,MAPKAPK2),(RPS6KA3,RPS6KA5),(RPS6KA3,ATF1),(RPS6KA3,RPS6KA1),(RPS6KA3,RPS6KA2),(RPS6KA2,MAPKAPK2),(RPS6KA2,RPS6KA5),(RPS6KA2,ATF1),(RPS6KA2,RPS6KA1),(RPS6KA2,RPS6KA3)]
+================================================================
+============================= FN Table =========================
+[]
+================================================================
+True Positives (the ref has them and the system predicts them): 6
+False Positives (the ref does not have them but the system predicts them): 36
+False Negatives (the ref has them but the system does not predict them): 0
+Precision (TP/(TP+FP)), from all the predictions, how many are correct: 0.14285714285714285
+Recall (TP/(TP+FN)): from all the correct ones, how many are predicted: 1
+F1 Score (2*Precision*Recall)/(Precision+Recall): 0.25
+6	36	0	0.14285714285714285	1	0.25

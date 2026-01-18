@@ -160,39 +160,72 @@ in_ref(Golden, X, Y, (Xh, Rel1, Yh)) :-
 	(chebi_name(Xh, X) ; X = Xh), 
       	(chebi_name(Yh, Y) ; Y = Yh).  
       	
+in_ref_s(Golden, X, Y, (Xh, Yh)) :-
+	(edge(Golden, Xh, Yh, _Rel1)), 
+	(chebi_name(Xh, X) ; X = Xh), 
+      	(chebi_name(Yh, Y) ; Y = Yh).  
+      	
 in_kb(System, X, Y, (Xg, Rel2, Yg)) :-
       	synonyms(X, XSyn), 
     	synonyms(Y, YSyn), 
     	member(Xg, XSyn), member(Yg, YSyn),
       	(edge(System, Xg, Yg, Rel2); edge(System, Yg, Xg, Rel2)). 
+      	
+in_kb_s(System, X, Y, (Xg, Yg)) :-
+      	synonyms(X, XSyn), 
+    	synonyms(Y, YSyn), 
+    	member(Xg, XSyn), member(Yg, YSyn),
+    	Xg \= Yg, 
+      	path(System, Xg, Yg, 1). 
+      	
+path(System, Xg, Yg, 0) :- edge(System, Xg, Yg, _Rel2). 
+path(System, Xg, Yg, 0) :- edge(System, Yg, Xg, association).  
+path(System, Xg, Yg, N)  :- N>0, 
+	%write('from:'), write(Xg), write('to:'), writeln(Yg), 
+	(edge(System, Xg, Zg, _Rel2); edge(System, Zg, Xg, association)), 
+	NN is N-1, 
+	path(System, Zg, Yg, NN). 
 
 % find interaction
-true_positive(Golden, System, (Xh, Rel1, Yh)-(Xg, Rel2, Yg) ) :-
+% true_positive
+true_positive(full, Golden, System, (Xh, Rel1, Yh)-(Xg, Rel2, Yg) ) :-
 	in_ref(Golden, X, Y, (Xh, Rel1, Yh)), 
 	in_kb(System, X, Y, (Xg, Rel2, Yg)). 
 
-count_true_positives(Golden, System, Table, TP) :-
-	findall(Interaction, true_positive(Golden, System, Interaction), ATable),
+true_positive(simple, Golden, System, (X,Y) ) :-
+	in_ref_s(Golden, X, Y, _),  X \= Y, 
+	in_kb_s(System, X, Y, _). 
+
+count_true_positives(Method, Golden, System, Table, TP) :-
+	findall(Interaction, true_positive(Method, Golden, System, Interaction), ATable),
 	remove_duplicates(ATable, Table),
 	length(Table, TP). 
 	
 %false_negative(Golden, System, (Xh, Rel1, Yh)-(Xg, Rel2, Yg) ) :-
-false_negative(Golden, System, (Xh, Rel1, Yh)-not_predicted ) :-
+false_negative(full, Golden, System, (Xh, Rel1, Yh)-not_predicted ) :-
 	in_ref(Golden, X, Y, (Xh, Rel1, Yh)), 
 	not(in_kb(System, X, Y, _)). 
 	
-count_false_negatives(Golden, System, Table, FN) :-
-	findall(Interaction, false_negative(Golden, System, Interaction), ATable),
+false_negative(simple, Golden, System, (X, Y) ) :-
+	in_ref_s(Golden, X, Y, _),  X \= Y, 
+	not(in_kb_s(System, X, Y, _)). 
+	
+count_false_negatives(Method, Golden, System, Table, FN) :-
+	findall(Interaction, false_negative(Method, Golden, System, Interaction), ATable),
 	remove_duplicates(ATable, Table),
 	length(Table, FN).
 	
 %false_positive(Golden, System, (Xh, Rel1, Yh)-(Xg, Rel2, Yg) ) :-
-false_positive(Golden, System, does_not_exist-(Xg, Rel2, Yg) ) :-
+false_positive(full, Golden, System, does_not_exist-(Xg, Rel2, Yg) ) :-
 	in_kb(System, X, Y, (Xg, Rel2, Yg)),
 	not(in_ref(Golden, X, Y, _)). 
 	
-count_false_positives(Golden, System, Table, FP) :-
-	findall(Interaction, false_positive(Golden, System, Interaction), ATable),
+false_positive(simple, Golden, System, (X,Y) ) :- 
+	in_kb_s(System, X, Y, _), X \= Y, 
+	\+(in_ref_s(Golden, X, Y, _)). 
+	
+count_false_positives(Method, Golden, System, Table, FP) :-
+	findall(Interaction, false_positive(Method, Golden, System, Interaction), ATable),
 	remove_duplicates(ATable, Table),
 	length(Table, FP).
 	
@@ -243,10 +276,10 @@ write_kb_ref(ERef) :-
 	
 write_each_event([]). 
 write_each_event([(Xh, Yh, Rel1)]) :-
-	write('event('), write(Xh), write(', '), write(Rel1), write(', '), write(Yh), writeln(')'). 
+	write('event('), writeq(Xh), write(', '), writeq(Rel1), write(', '), writeq(Yh), writeln(')'). 
 write_each_event([(X1h, Y1h, Rel1), (X2h, Y2h, Rel2)|Rest]) :-	
-	write('event('), write(X1h), write(', '), write(Rel1), write(', '), write(Y1h), write('),'), nl, 
-	write('event('), write(X2h), write(', '), write(Rel2), write(', '), write(Y2h), write(')'), nl, 
+	write('event('), writeq(X1h), write(', '), writeq(Rel1), write(', '), writeq(Y1h), write('),'), nl, 
+	write('event('), writeq(X2h), write(', '), writeq(Rel2), write(', '), writeq(Y2h), write(')'), nl, 
 	write_each_event(Rest). 
 	
 	
@@ -268,15 +301,15 @@ prepare_g :-
 	transform_kb.
 	%listing(edge/4).
 	
-compare :- count_true_positives(ref, kb, Table1, TP),
+compare :- count_true_positives(full, ref, kb, Table1, TP),
 	   writeln('============================= TP Table ========================='), 
 	   writeln(Table1), 
 	   writeln('================================================================'),  
-	   count_false_positives(ref, kb, Table2, FP),
+	   count_false_positives(full, ref, kb, Table2, FP),
 	   writeln('============================= FP Table ========================='), 
 	   writeln(Table2), 
 	   writeln('================================================================'),  
-	   count_false_negatives(ref, kb, Table3, FN),
+	   count_false_negatives(full, ref, kb, Table3, FN),
 	   writeln('============================= FN Table ========================='), 
 	   writeln(Table3), 
 	   writeln('================================================================'),  
@@ -290,7 +323,30 @@ compare :- count_true_positives(ref, kb, Table1, TP),
 	   write('Recall (TP/(TP+FN)): from all the correct ones, how many are predicted: '), writeln(Recall),
 	   write('F1 Score (2*Precision*Recall)/(Precision+Recall): '), writeln(F1),
 	   write(TP), write('\t'), write(FP), write('\t'), write(FN), write('\t'), write(Precision), write('\t'), write(Recall), write('\t'), writeln(F1). 
-	
+
+compare_simple :- count_true_positives(simple, ref, kb, Table1, TP),
+	   writeln('============================= TP Table ========================='), 
+	   writeln(Table1), 
+	   writeln('================================================================'),  
+	   count_false_positives(simple, ref, kb, Table2, FP),
+	   writeln('============================= FP Table ========================='), 
+	   writeln(Table2), 
+	   writeln('================================================================'),  
+	   count_false_negatives(simple, ref, kb, Table3, FN),
+	   writeln('============================= FN Table ========================='), 
+	   writeln(Table3), 
+	   writeln('================================================================'),  
+	   fraction(TP, FP, Precision),
+	   fraction(TP, FN, Recall), 
+	   f1score(Precision, Recall, F1),
+	   write('True Positives (the ref has them and the system predicts them): '), writeln(TP), 
+	   write('False Positives (the ref does not have them but the system predicts them): '), writeln(FP), 
+	   write('False Negatives (the ref has them but the system does not predict them): '), writeln(FN),
+	   write('Precision (TP/(TP+FP)), from all the predictions, how many are correct: '), writeln(Precision),
+	   write('Recall (TP/(TP+FN)): from all the correct ones, how many are predicted: '), writeln(Recall),
+	   write('F1 Score (2*Precision*Recall)/(Precision+Recall): '), writeln(F1),
+	   write(TP), write('\t'), write(FP), write('\t'), write(FN), write('\t'), write(Precision), write('\t'), write(Recall), write('\t'), writeln(F1). 
+
 down :- get_edges(ref, ERef), write_kb_ref(ERef). 
 
 % save the .sif into a .pl graph like kBase.pl for drawing
@@ -307,16 +363,33 @@ report :-
 	write('Number of edges in BioPattern = '),
 	num_edges(kb, NEBio), writeln(NEBio), 
 	time(compare).
+	
+report_simple :-
+	write('Number of vertices in Ref .sif = '), 
+	num_vertices(ref, NVRef), writeln(NVRef), 
+	write('Number of vertices in BioPattern ='), 
+	num_vertices(kb, NVBio), writeln(NVBio), 
+	write('Number of edges in Ref .sif = '),
+	num_edges(ref, NERef), writeln(NERef), 
+	write('Number of edges in BioPattern = '),
+	num_edges(kb, NEBio), writeln(NEBio), 
+	time(compare_simple).	
+	
+% to produce the report with the simplest comparison
+run_s :-
+	prepare, tell('report_simple.txt'), 
+	writeln('Simple Report on kBase.sif vs kBase.pl'), 
+	report_simple, told, halt. % <- halting to avoid mixing kbs
 
 % to produce the report about the smaller/more restricted kBase.pl
 run :-
-	prepare, compare, tell('report.txt'), 
+	prepare, tell('report.txt'), 
 	writeln('Report on kBase.sif vs kBase.pl'), 
 	report, told, halt. % <- halting to avoid mixing kbs
 	
 % to produce the report about the bigger/unrestricted kBase.pl
 run_g :- 
-	prepare_g, compare, tell('report_g.txt'), 
+	prepare_g, tell('report_g.txt'), 
 	writeln('Report on kBase.sif vs kBase_g.pl'), 
 	report, told, halt. % <- halting to avoid mixing kbs
 
