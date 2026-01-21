@@ -134,7 +134,14 @@ def chebi_names(eval_path: str, experiment: str, files_needed: list):
             name = chebi_objects[symbol]
             objects[index] = name
 
-    expert_objects = "\n".join(objects)
+    # Some chebi codes points to the same small molecule then we need to remove the repeated ones.
+    # This is not an error, that comes like that from the metadata coming from Pathways Commons.
+    objects_ = []
+    for obj_ in objects:
+        if obj_ not in objects_:
+            objects_.append(obj_)
+
+    expert_objects = "\n".join(objects_)
 
     path_to_expert_objects = eval_path + experiment + "/" + "expert_objects.txt"
 

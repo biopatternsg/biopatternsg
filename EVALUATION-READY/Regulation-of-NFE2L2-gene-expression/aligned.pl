@@ -29,4 +29,4 @@ no_aligned_objs([], 0).
 
 aligned_as(['MYC', 'RELA'], 2).
 
-aligned_and_alternatives(['CREBBP', 'NFKB1', 'RELA', 'EP300', 'MYRICETIN', 'MYC', 'REL', 'NOTCH1', 'MAFK', 'NFE2L2'], 10).
+aligned_and_alternatives(['MYRICETIN', 'RELA', 'EP300', 'MYC', 'CREBBP', 'NFKB1', 'MAFK', 'NFE2L2', 'NOTCH1', 'REL'], 10).

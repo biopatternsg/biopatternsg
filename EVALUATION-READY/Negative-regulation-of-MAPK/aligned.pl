@@ -55,4 +55,4 @@ no_aligned_objs(['PAQR3', 'YWHAB', 'DUSP10', 'DUSP16', 'DUSP2', 'DUSP8', 'PPP2R5
 
 aligned_as(['RAF1'], 1).
 
-aligned_and_alternatives(['PPP2R5A', 'PTPN3', 'PPP2R5D', 'ARAF', 'DUSP9', 'MAPK12', 'DUSP7', 'PPP2CA', 'PPP2R1B', '107131151', 'PPP5C', 'MAPK3', 'DUSP6', 'PPP2R5C', 'RAF1', 'KSR1', 'BRAF', 'DUSP5', 'PEBP1', 'NRAS', 'DUSP1', 'PTPN7', 'DUSP4', 'BRAP', 'MAPK1', 'PPP2R1A', 'HRAS', 'KRAS', 'MARK3'], 29).
+aligned_and_alternatives(['PTPN3', 'MAPK3', 'DUSP4', 'PPP2R1B', 'PPP2R5D', 'DUSP9', 'PEBP1', 'NRAS', 'PTPN7', 'KRAS', 'PPP2R5A', 'DUSP7', 'RAF1', 'ARAF', 'MAPK1', 'HRAS', 'DUSP1', 'PPP2R5C', '107131151', 'PPP2R1A', 'PPP2CA', 'DUSP5', 'KSR1', 'MAPK12', 'BRAF', 'DUSP6', 'PPP5C', 'BRAP', 'MARK3'], 29).

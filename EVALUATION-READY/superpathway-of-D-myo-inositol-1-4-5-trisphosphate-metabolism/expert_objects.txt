@@ -2,7 +2,6 @@ BPNT2
 myo-inositol
 p-hydroxymercuribenzoate
 INPP5D
-p-hydroxymercuribenzoate
 IMPA1
 IMPA2
 INPP1

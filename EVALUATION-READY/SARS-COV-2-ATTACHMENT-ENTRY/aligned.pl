@@ -53,4 +53,4 @@ no_aligned_objs(['GPC2', 'HSPG2', 'DDX42', 'MGAT4A', 'RNF139', 'RNF24', '5(S)-HP
 
 aligned_as([], 0).
 
-aligned_and_alternatives(['SDC1', 'LEVAMISOLE', 'GPC5', 'ACE2', 'HAVCR1', 'AGRN', 'CTSL', 'TMPRSS2', 'GPC6', 'GPC3', 'GPC4', 'SDC4', 'PHB2', 'NRP1', 'SDC3', 'GPC1', 'SDC2', 'FURIN'], 18).
+aligned_and_alternatives(['CTSL', 'FURIN', 'GPC6', 'GPC5', 'SDC1', 'LEVAMISOLE', 'AGRN', 'SDC3', 'SDC4', 'GPC3', 'ACE2', 'GPC4', 'HAVCR1', 'PHB2', 'NRP1', 'TMPRSS2', 'GPC1', 'SDC2'], 18).

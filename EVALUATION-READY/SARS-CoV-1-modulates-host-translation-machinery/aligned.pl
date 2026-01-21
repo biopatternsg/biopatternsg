@@ -55,4 +55,4 @@ no_aligned_objs(['FAU', 'RPS11', 'RPS15A', 'RPS15', 'RPS20', 'RPS23', 'RPS25', '
 
 aligned_as(['RPS13', 'RPS2', 'RPS5'], 3).
 
-aligned_and_alternatives(['RPS2', 'RPS7', 'RPS4X', 'RPS10', 'RPS21', 'RPS18', 'RPS24', 'RPS5', 'RPS5A', 'RPS27', 'RPS13', 'RPS12', 'RPS17', 'AT1G77750', 'RPS8', 'RPS16', 'RPS19', 'RPS3', 'RPS3A', 'RPS14', 'RPS6', 'RPS27L'], 22).
+aligned_and_alternatives(['RPS27L', 'RPS7', 'RPS21', 'RPS8', 'RPS17', 'RPS5A', 'RPS2', 'RPS12', 'RPS13', 'AT1G77750', 'RPS4X', 'RPS18', 'RPS27', 'RPS14', 'RPS19', 'RPS6', 'RPS3A', 'RPS24', 'RPS16', 'RPS10', 'RPS5', 'RPS3'], 22).

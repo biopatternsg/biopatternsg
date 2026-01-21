@@ -17,7 +17,7 @@ no_aligned(none).
 
 % User's objects with alternative alignments: 
 
-aligned_as(none, none).
+aligned_as('RPS6KA3', ['RPS6KA3', 'RPS6KA3A']).
 
 % General report of aligned and no aligned objects: 
 
@@ -25,6 +25,6 @@ aligned_objs(['MAPKAPK2', 'CREB1', 'RPS6KA1', 'RPS6KA2', 'RPS6KA3', 'RPS6KA5', '
 
 no_aligned_objs([], 0).
 
-aligned_as([], 0).
+aligned_as(['RPS6KA3'], 1).
 
-aligned_and_alternatives(['RPS6KA2', 'MAPKAPK2', 'ATF1', 'CREB1', 'RPS6KA3', 'RPS6KA1', 'RPS6KA5'], 7).
+aligned_and_alternatives(['CREB1', 'RPS6KA3', 'RPS6KA5', 'ATF1', 'MAPKAPK2', 'RPS6KA1', 'RPS6KA2', 'RPS6KA3A'], 8).

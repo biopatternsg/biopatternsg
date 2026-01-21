@@ -1,0 +1,21 @@
+Simple Report on kBase.sif vs kBase.pl
+Number of vertices in Ref .sif = 10
+Number of vertices in BioPattern =12
+Number of edges in Ref .sif = 35
+Number of edges in BioPattern = 102
+============================= TP Table =========================
+[(GRB2,HRAS),(GRB2,KRAS),(GRB2,NRAS),(GRB2,SHC1),(GRB2,SHC2),(GRB2,SHC3),(GRB2,SOS1),(NGF,NTRK1),(NGF,SHC1),(NGF,SHC2),(NGF,SHC3),(NTRK1,SHC1),(NTRK1,SHC2),(NTRK1,SHC3),(SHC1,HRAS),(SHC1,KRAS),(SHC1,NRAS),(SHC1,SOS1),(SHC2,HRAS),(SHC2,KRAS),(SHC2,NRAS),(SHC2,SOS1),(SHC3,HRAS),(SHC3,KRAS),(SHC3,NRAS),(SHC3,SOS1),(SOS1,HRAS),(SOS1,KRAS),(SOS1,NRAS)]
+================================================================
+============================= FP Table =========================
+[(NGF,GRB2),(NGF,HRAS),(NGF,KRAS),(NGF,NRAS),(NGF,NEUROBLASTOMA),(NGF,SOS1),(NGF,SOS),(SHC3,NGF),(SHC3,GRB2),(SHC3,SHC1),(SHC3,NTRK1),(SHC3,NEUROBLASTOMA),(SHC3,SOS),(SHC3,SHC2),(GRB2,NGF),(GRB2,NTRK1),(GRB2,NEUROBLASTOMA),(GRB2,SOS),(SHC1,NGF),(SHC1,SHC3),(SHC1,GRB2),(SHC1,NTRK1),(SHC1,NEUROBLASTOMA),(SHC1,SOS),(SHC1,SHC2),(HRAS,NGF),(HRAS,SHC3),(HRAS,GRB2),(HRAS,SHC1),(HRAS,KRAS),(HRAS,NRAS),(HRAS,NTRK1),(HRAS,NEUROBLASTOMA),(HRAS,SOS1),(HRAS,SOS),(HRAS,SHC2),(KRAS,NGF),(KRAS,SHC3),(KRAS,GRB2),(KRAS,SHC1),(KRAS,HRAS),(KRAS,NRAS),(KRAS,NTRK1),(KRAS,NEUROBLASTOMA),(KRAS,SOS1),(KRAS,SOS),(KRAS,SHC2),(NRAS,NGF),(NRAS,SHC3),(NRAS,GRB2),(NRAS,SHC1),(NRAS,HRAS),(NRAS,KRAS),(NRAS,NTRK1),(NRAS,NEUROBLASTOMA),(NRAS,SOS1),(NRAS,SOS),(NRAS,SHC2),(NTRK1,NGF),(NTRK1,GRB2),(NTRK1,HRAS),(NTRK1,KRAS),(NTRK1,NRAS),(NTRK1,NEUROBLASTOMA),(NTRK1,SOS1),(NTRK1,SOS),(NEUROBLASTOMA,NGF),(NEUROBLASTOMA,SHC3),(NEUROBLASTOMA,GRB2),(NEUROBLASTOMA,SHC1),(NEUROBLASTOMA,HRAS),(NEUROBLASTOMA,KRAS),(NEUROBLASTOMA,NRAS),(NEUROBLASTOMA,NTRK1),(NEUROBLASTOMA,SOS1),(NEUROBLASTOMA,SOS),(NEUROBLASTOMA,SHC2),(SOS1,NGF),(SOS1,SHC3),(SOS1,GRB2),(SOS1,SHC1),(SOS1,NTRK1),(SOS1,NEUROBLASTOMA),(SOS1,SOS),(SOS1,SHC2),(SOS,NGF),(SOS,SHC3),(SOS,GRB2),(SOS,SHC1),(SOS,HRAS),(SOS,KRAS),(SOS,NRAS),(SOS,NTRK1),(SOS,NEUROBLASTOMA),(SOS,SOS1),(SOS,SHC2),(SHC2,NGF),(SHC2,SHC3),(SHC2,GRB2),(SHC2,SHC1),(SHC2,NTRK1),(SHC2,NEUROBLASTOMA),(SHC2,SOS)]
+================================================================
+============================= FN Table =========================
+[]
+================================================================
+True Positives (the ref has them and the system predicts them): 29
+False Positives (the ref does not have them but the system predicts them): 103
+False Negatives (the ref has them but the system does not predict them): 0
+Precision (TP/(TP+FP)), from all the predictions, how many are correct: 0.2196969696969697
+Recall (TP/(TP+FN)): from all the correct ones, how many are predicted: 1
+F1 Score (2*Precision*Recall)/(Precision+Recall): 0.36024844720496896
+29	103	0	0.2196969696969697	1	0.36024844720496896

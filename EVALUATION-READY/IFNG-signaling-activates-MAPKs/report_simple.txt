@@ -1,0 +1,21 @@
+Simple Report on kBase.sif vs kBase.pl
+Number of vertices in Ref .sif = 8
+Number of vertices in BioPattern =11
+Number of edges in Ref .sif = 44
+Number of edges in BioPattern = 57
+============================= TP Table =========================
+[(IFNG,IFNGR1),(IFNG,IFNGR2),(IFNG,JAK1),(IFNG,JAK2),(IFNG,MAPK1),(IFNG,MAPK3),(IFNGR1,IFNGR2),(IFNGR1,JAK1),(IFNGR1,JAK2),(IFNGR1,MAPK1),(IFNGR1,MAPK3),(IFNGR1,RAF1),(IFNGR2,JAK1),(IFNGR2,JAK2),(IFNGR2,MAPK1),(IFNGR2,MAPK3),(IFNGR2,RAF1),(IFNG,RAF1),(JAK1,JAK2),(JAK1,MAPK1),(JAK1,MAPK3),(JAK1,RAF1),(JAK2,MAPK1),(JAK2,MAPK3),(JAK2,RAF1),(RAF1,MAPK1),(RAF1,MAPK3)]
+================================================================
+============================= FP Table =========================
+[(IFNGR1,IFNG),(IFNGR1,IFNGR1L),(IFNGR1,IFNG1),(IFNGR1,JAK2B),(JAK1,IFNGR1),(JAK1,IFNG),(JAK1,IFNGR1L),(JAK1,IFNG1),(JAK1,IFNGR2),(JAK1,JAK2B),(IFNG,IFNGR1L),(IFNG,IFNG1),(IFNG,JAK2B),(JAK2,IFNGR1),(JAK2,JAK1),(JAK2,IFNG),(JAK2,IFNGR1L),(JAK2,IFNG1),(JAK2,IFNGR2),(IFNGR1L,IFNGR1),(IFNGR1L,JAK1),(IFNGR1L,IFNG),(IFNGR1L,JAK2),(IFNGR1L,IFNG1),(IFNGR1L,RAF1),(IFNGR1L,MAPK1),(IFNGR1L,MAPK3),(IFNGR1L,IFNGR2),(IFNGR1L,JAK2B),(IFNG1,IFNGR1),(IFNG1,JAK1),(IFNG1,IFNG),(IFNG1,JAK2),(IFNG1,IFNGR1L),(IFNG1,RAF1),(IFNG1,MAPK1),(IFNG1,MAPK3),(IFNG1,IFNGR2),(IFNG1,JAK2B),(RAF1,IFNGR1),(RAF1,JAK1),(RAF1,IFNG),(RAF1,JAK2),(RAF1,IFNGR1L),(RAF1,IFNG1),(RAF1,IFNGR2),(RAF1,JAK2B),(MAPK1,IFNGR1),(MAPK1,JAK1),(MAPK1,IFNG),(MAPK1,JAK2),(MAPK1,IFNGR1L),(MAPK1,IFNG1),(MAPK1,RAF1),(MAPK1,MAPK3),(MAPK1,IFNGR2),(MAPK1,JAK2B),(MAPK3,IFNGR1),(MAPK3,JAK1),(MAPK3,IFNG),(MAPK3,JAK2),(MAPK3,IFNGR1L),(MAPK3,IFNG1),(MAPK3,RAF1),(MAPK3,MAPK1),(MAPK3,IFNGR2),(MAPK3,JAK2B),(IFNGR2,IFNGR1),(IFNGR2,IFNG),(IFNGR2,IFNGR1L),(IFNGR2,IFNG1),(IFNGR2,JAK2B),(JAK2B,IFNGR1),(JAK2B,JAK1),(JAK2B,IFNG),(JAK2B,IFNGR1L),(JAK2B,IFNG1),(JAK2B,RAF1),(JAK2B,MAPK1),(JAK2B,MAPK3),(JAK2B,IFNGR2)]
+================================================================
+============================= FN Table =========================
+[]
+================================================================
+True Positives (the ref has them and the system predicts them): 27
+False Positives (the ref does not have them but the system predicts them): 81
+False Negatives (the ref has them but the system does not predict them): 0
+Precision (TP/(TP+FP)), from all the predictions, how many are correct: 0.25
+Recall (TP/(TP+FN)): from all the correct ones, how many are predicted: 1
+F1 Score (2*Precision*Recall)/(Precision+Recall): 0.4
+27	81	0	0.25	1	0.4

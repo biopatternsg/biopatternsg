@@ -1,0 +1,21 @@
+Simple Report on kBase.sif vs kBase.pl
+Number of vertices in Ref .sif = 28
+Number of vertices in BioPattern =13
+Number of edges in Ref .sif = 74
+Number of edges in BioPattern = 23
+============================= TP Table =========================
+[(DAD1,DDOST),(DAD1,RPN1),(DAD1,RPN2),(DAD1,STT3A),(DDOST,RPN1),(DDOST,RPN2),(DDOST,STT3A),(RPN1,RPN2),(RPN1,STT3A),(RPN2,STT3A)]
+================================================================
+============================= FP Table =========================
+[(DDOST,DAD1),(RPN2,DDOST),(RPN2,DAD1),(RPN2,RPN1),(RPN1,DDOST),(RPN1,DAD1),(STT3A,DDOST),(STT3A,RPN2),(STT3A,DAD1),(STT3A,RPN1),(ZDHHC9,ZDHHC5),(ZDHHC9,ZDHHC8),(ZDHHC5,ZDHHC9),(ZDHHC5,ZDHHC8),(ZDHHC8,ZDHHC9),(ZDHHC8,ZDHHC5)]
+================================================================
+============================= FN Table =========================
+[(DAD1,MAGT1),(DAD1,TUSC3),(DAD1,dolichyl phosphate(2-)),(DAD1,chebi:57683),(DDOST,MAGT1),(DDOST,TUSC3),(DDOST,dolichyl phosphate(2-)),(DDOST,chebi:57683),(GANAB,PRKCSH),(GANAB,beta-D-glucose),(GANAB,chebi:15903),(GOLGA7,ZDHHC5),(GOLGA7,ZDHHC9),(GOLGA7,coenzyme A(4-)),(GOLGA7,chebi:57287),(MAGT1,RPN1),(MAGT1,RPN2),(MAGT1,STT3A),(MAGT1,TUSC3),(MAGT1,dolichyl phosphate(2-)),(MAGT1,chebi:57683),(MOGS,beta-D-glucose),(MOGS,chebi:15903),(PRKCSH,beta-D-glucose),(PRKCSH,chebi:15903),(RPN1,TUSC3),(RPN1,dolichyl phosphate(2-)),(RPN1,chebi:57683),(RPN2,TUSC3),(RPN2,dolichyl phosphate(2-)),(RPN2,chebi:57683),(STT3A,TUSC3),(STT3A,dolichyl phosphate(2-)),(STT3A,chebi:57683),(TUSC3,dolichyl phosphate(2-)),(TUSC3,chebi:57683),(ZDHHC11,coenzyme A(4-)),(ZDHHC11,chebi:57287),(ZDHHC20,coenzyme A(4-)),(ZDHHC20,chebi:57287),(ZDHHC2,coenzyme A(4-)),(ZDHHC2,chebi:57287),(ZDHHC3,coenzyme A(4-)),(ZDHHC3,chebi:57287),(ZDHHC5,coenzyme A(4-)),(ZDHHC5,chebi:57287),(ZDHHC8,coenzyme A(4-)),(ZDHHC8,chebi:57287),(ZDHHC9,coenzyme A(4-)),(ZDHHC9,chebi:57287),(dihydrostreptomycin 3''-phosphate,GANAB),(chebi:27918,GANAB),(dihydrostreptomycin 3''-phosphate,MOGS),(chebi:27918,MOGS),(dihydrostreptomycin 3''-phosphate,PRKCSH),(chebi:27918,PRKCSH),(erythromycin B,GANAB),(chebi:28196,GANAB),(erythromycin B,MOGS),(chebi:28196,MOGS),(erythromycin B,PRKCSH),(chebi:28196,PRKCSH),(erythromycin A,GANAB),(chebi:42355,GANAB),(erythromycin A,MOGS),(chebi:42355,MOGS),(erythromycin A,PRKCSH),(chebi:42355,PRKCSH),(duvoglustat,GANAB),(chebi:44369,GANAB),(duvoglustat,MOGS),(chebi:44369,MOGS),(duvoglustat,PRKCSH),(chebi:44369,PRKCSH),(Echimidine,GANAB),(chebi:4744,GANAB),(Echimidine,MOGS),(chebi:4744,MOGS),(Echimidine,PRKCSH),(chebi:4744,PRKCSH),(glycan G00008,DAD1),(chebi:53019,DAD1),(glycan G00008,DDOST),(chebi:53019,DDOST),(glycan G00008,MAGT1),(chebi:53019,MAGT1),(glycan G00008,RPN1),(chebi:53019,RPN1),(glycan G00008,RPN2),(chebi:53019,RPN2),(glycan G00008,STT3A),(chebi:53019,STT3A),(glycan G00008,TUSC3),(chebi:53019,TUSC3),(glycan G00008,dolichyl phosphate(2-)),(glycan G00008,chebi:57683),(chebi:53019,dolichyl phosphate(2-)),(chebi:53019,chebi:57683),(palmitoyl-CoA(4-),GOLGA7),(chebi:57379,GOLGA7),(palmitoyl-CoA(4-),ZDHHC11),(chebi:57379,ZDHHC11),(palmitoyl-CoA(4-),ZDHHC20),(chebi:57379,ZDHHC20),(palmitoyl-CoA(4-),ZDHHC2),(chebi:57379,ZDHHC2),(palmitoyl-CoA(4-),ZDHHC3),(chebi:57379,ZDHHC3),(palmitoyl-CoA(4-),ZDHHC5),(chebi:57379,ZDHHC5),(palmitoyl-CoA(4-),ZDHHC8),(chebi:57379,ZDHHC8),(palmitoyl-CoA(4-),ZDHHC9),(chebi:57379,ZDHHC9),(palmitoyl-CoA(4-),coenzyme A(4-)),(palmitoyl-CoA(4-),chebi:57287),(chebi:57379,coenzyme A(4-)),(chebi:57379,chebi:57287)]
+================================================================
+True Positives (the ref has them and the system predicts them): 10
+False Positives (the ref does not have them but the system predicts them): 16
+False Negatives (the ref has them but the system does not predict them): 118
+Precision (TP/(TP+FP)), from all the predictions, how many are correct: 0.38461538461538464
+Recall (TP/(TP+FN)): from all the correct ones, how many are predicted: 0.078125
+F1 Score (2*Precision*Recall)/(Precision+Recall): 0.12987012987012986
+10	16	118	0.38461538461538464	0.078125	0.12987012987012986

@@ -1,0 +1,21 @@
+Simple Report on kBase.sif vs kBase.pl
+Number of vertices in Ref .sif = 7
+Number of vertices in BioPattern =5
+Number of edges in Ref .sif = 9
+Number of edges in BioPattern = 23
+============================= TP Table =========================
+[(CREBBP,MAFG),(CREBBP,NFE2L2),(EP300,MAFG),(EP300,NFE2L2),(MAFG,NFE2L2)]
+================================================================
+============================= FP Table =========================
+[(CREBBP,EP300),(CREBBP,TKT),(MAFG,CREBBP),(MAFG,EP300),(MAFG,TKT),(NFE2L2,CREBBP),(NFE2L2,MAFG),(NFE2L2,EP300),(EP300,CREBBP),(EP300,TKT),(TKT,CREBBP),(TKT,MAFG),(TKT,EP300)]
+================================================================
+============================= FN Table =========================
+[(NFE2L2,magnesium(2+)),(NFE2L2,chebi:18420),(NFE2L2,thiamine(1+) diphosphate(3-)),(NFE2L2,chebi:58937),(magnesium(2+),TKT),(chebi:18420,TKT),(thiamine(1+) diphosphate(3-),TKT),(chebi:58937,TKT)]
+================================================================
+True Positives (the ref has them and the system predicts them): 5
+False Positives (the ref does not have them but the system predicts them): 13
+False Negatives (the ref has them but the system does not predict them): 8
+Precision (TP/(TP+FP)), from all the predictions, how many are correct: 0.2777777777777778
+Recall (TP/(TP+FN)): from all the correct ones, how many are predicted: 0.38461538461538464
+F1 Score (2*Precision*Recall)/(Precision+Recall): 0.3225806451612903
+5	13	8	0.2777777777777778	0.38461538461538464	0.3225806451612903

@@ -29,4 +29,4 @@ no_aligned_objs([], 0).
 
 aligned_as(['GBF1', 'ARF1', 'STX4'], 3).
 
-aligned_and_alternatives(['STX4A', 'GARZ', 'VAMP2', 'ARF1', 'VAMP8', 'STX4', 'GBF1', 'VAMP7', 'ARF79F', 'SNAP23'], 10).
+aligned_and_alternatives(['GBF1', 'ARF79F', 'STX4', 'VAMP2', 'VAMP7', 'VAMP8', 'STX4A', 'GARZ', 'ARF1', 'SNAP23'], 10).

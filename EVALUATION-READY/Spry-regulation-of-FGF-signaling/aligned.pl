@@ -36,4 +36,4 @@ no_aligned_objs(['RPS27A', 'UBA52'], 2).
 
 aligned_as(['CBL', 'UBC', 'GRB2'], 3).
 
-aligned_and_alternatives(['MAPK1', 'BRAF', 'GRB2', 'UBB', 'URINARY BLADDER NEOPLASMS', 'CBL', 'SPRY2', 'DRK', 'UBC', 'PPP2R1A', 'PPP2CB', 'SRC', 'MKNK1', 'MAPK3', 'LYMPHOMA B-CELL', 'PPP2CA', 'PTPN11'], 17).
+aligned_and_alternatives(['PPP2CB', 'MKNK1', 'PTPN11', 'UBC', 'DRK', 'BRAF', 'UBB', 'URINARY BLADDER NEOPLASMS', 'LYMPHOMA B-CELL', 'MAPK1', 'SRC', 'PPP2CA', 'GRB2', 'CBL', 'PPP2R1A', 'MAPK3', 'SPRY2'], 17).

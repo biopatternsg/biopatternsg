@@ -29,4 +29,4 @@ no_aligned_objs(['MAP1LC3B', 'TUFM'], 2).
 
 aligned_as(['VPS11', 'VPS39'], 2).
 
-aligned_and_alternatives(['VPS39', 'VPS16', 'VPS41', 'VPS11', 'VPS33A', 'VAM6', 'VPS18', 'VPS33B', 'VPS45', 'PEP5'], 10).
+aligned_and_alternatives(['VPS18', 'VPS39', 'VPS16', 'VPS41', 'VPS45', 'PEP5', 'VPS11', 'VAM6', 'VPS33A', 'VPS33B'], 10).

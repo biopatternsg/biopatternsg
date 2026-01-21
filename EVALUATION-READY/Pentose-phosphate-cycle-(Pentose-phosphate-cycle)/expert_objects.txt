@@ -1,25 +1,31 @@
-D-Fructose 6-phosphate
-D-Fructose 1,6-bisphosphate
-D-Fructose 1,6-bisphosphate
-PFKL
-PFKM
-PFKP
-D-Fructose 6-phosphate
-FBP1
-FBP2
+DERA
+TALDO1
+TKT
+acetaldehyde
+D-glyceraldehyde 3-phosphate(2-)
 G6PD
-6-O-phosphono-D-glucono-1,5-lactone
-H6PD
-6-phospho-D-gluconic acid
-PGD
-D-ribulose 5-phosphate
 PGLS
+6-O-phosphono-D-glucono-1,5-lactone
+PGD
+RPEL1
+RPE
+RPIA
+D-ribulose 5-phosphate(2-)
+6-phosphonatooxy-D-gluconate
+PGM2
+2-deoxy-D-ribose 5-phosphate(2-)
+D-ribofuranose 5-phosphate(2-)
 RBKS
-2-Deoxy-D-ribose 5-phosphate
-D-Ribose 5-phosphate
-2-Deoxy-D-ribose 5-phosphate
-D-Ribose 5-phosphate
-2-Deoxy-D-ribose 5-phosphate
-2-deoxy-D-ribose
-D-glucopyranose 6-phosphate
+D-xylulose 5-phosphate(2-)
+SHPK
+sedoheptulose 7-phosphate
+D-erythrose 4-phosphate(2-)
+beta-D-fructofuranose 6-phosphate(2-)
+sedoheptulose
+magnesium(2+)
+iron(2+)
 D-ribofuranose
+2-deoxy-alpha-D-ribose 1-phosphate(2-)
+alpha-D-ribose 1-phosphate(2-)
+alpha-D-glucose 6-phosphate(2-)
+thiamine(1+) diphosphate(3-)
