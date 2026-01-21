@@ -178,8 +178,8 @@ in_kb_s(System, X, Y, (Xg, Yg)) :-
     	Xg \= Yg, 
       	path(System, Xg, Yg, 1). 
       	
-path(System, Xg, Yg, 0) :- edge(System, Xg, Yg, _Rel2). 
-path(System, Xg, Yg, 0) :- edge(System, Yg, Xg, association).  
+path(System, Xg, Yg, _) :- edge(System, Xg, Yg, _Rel2). 
+path(System, Xg, Yg, _) :- edge(System, Yg, Xg, association).  
 path(System, Xg, Yg, N)  :- N>0, 
 	%write('from:'), write(Xg), write('to:'), writeln(Yg), 
 	(edge(System, Xg, Zg, _Rel2); edge(System, Zg, Xg, association)), 
