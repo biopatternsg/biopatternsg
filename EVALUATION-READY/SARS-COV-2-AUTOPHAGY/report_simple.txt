@@ -4,18 +4,18 @@ Number of vertices in BioPattern =10
 Number of edges in Ref .sif = 29
 Number of edges in BioPattern = 21
 ============================= TP Table =========================
-[(VPS11,VPS16),(VPS11,VPS18),(VPS11,VPS33A),(VPS11,VPS39),(VPS11,VPS41),(VPS11,VPS45),(VPS16,VPS18),(VPS16,VPS33A),(VPS16,VPS39),(VPS16,VPS41),(VPS18,VPS33A),(VPS18,VPS39),(VPS18,VPS41),(VPS33A,VPS39),(VPS33A,VPS41),(VPS33A,VPS45),(VPS33B,VPS39),(VPS33B,VPS41),(VPS39,VPS41),(VPS39,VPS45),(VPS41,VPS45)]
+[(VPS11,VPS16),(VPS11,VPS18),(VPS11,VPS33A),(VPS11,VPS39),(VPS11,VPS41),(VPS11,VPS45),(VPS16,VPS18),(VPS16,VPS33A),(VPS16,VPS39),(VPS16,VPS41),(VPS18,VPS33A),(VPS18,VPS39),(VPS18,VPS41),(VPS18,VPS45),(VPS33A,VPS39),(VPS33A,VPS41),(VPS33A,VPS45),(VPS33B,VPS39),(VPS33B,VPS41),(VPS39,VPS41),(VPS39,VPS45),(VPS41,VPS45)]
 ================================================================
 ============================= FP Table =========================
-[(VPS39,VPS11),(VPS39,VPS16),(VPS39,VPS33A),(VPS39,VPS18),(VPS39,PEP5),(VPS11,VAM6),(VPS41,VPS39),(VPS41,VPS11),(VPS41,VPS16),(VPS41,VPS33A),(VPS41,VPS18),(VPS41,VAM6),(VPS41,PEP5),(VPS16,VPS11),(VPS16,VAM6),(VPS16,PEP5),(VPS33A,VPS11),(VPS33A,VPS16),(VPS33A,VPS18),(VPS33A,VAM6),(VPS33A,PEP5),(VPS18,VPS11),(VPS18,VPS16),(VPS18,VAM6),(VPS18,PEP5),(VAM6,VPS11),(VAM6,VPS41),(VAM6,VPS16),(VAM6,VPS33A),(VAM6,VPS18),(VAM6,PEP5),(VAM6,VPS45),(PEP5,VPS39),(PEP5,VPS41),(PEP5,VPS16),(PEP5,VPS33A),(PEP5,VPS18),(PEP5,VAM6),(PEP5,VPS45),(VPS33B,VPS11),(VPS33B,VPS16),(VPS33B,VPS18),(VPS33B,VAM6),(VPS33B,PEP5),(VPS45,VPS11),(VPS45,VPS41),(VPS45,VPS33A),(VPS45,PEP5)]
+[(VPS39,VPS11),(VPS39,VPS16),(VPS39,VPS33A),(VPS39,VPS18),(VPS39,PEP5),(VPS11,VAM6),(VPS41,VPS39),(VPS41,VPS11),(VPS41,VPS16),(VPS41,VPS33A),(VPS41,VPS18),(VPS41,VAM6),(VPS41,PEP5),(VPS16,VPS11),(VPS16,VAM6),(VPS16,PEP5),(VPS33A,VPS11),(VPS33A,VPS16),(VPS33A,VPS18),(VPS33A,VAM6),(VPS33A,PEP5),(VPS18,VPS11),(VPS18,VPS16),(VPS18,VAM6),(VPS18,PEP5),(VAM6,VPS11),(VAM6,VPS41),(VAM6,VPS16),(VAM6,VPS33A),(VAM6,VPS18),(VAM6,PEP5),(VAM6,VPS45),(PEP5,VPS39),(PEP5,VPS41),(PEP5,VPS16),(PEP5,VPS33A),(PEP5,VPS18),(PEP5,VAM6),(PEP5,VPS45),(VPS33B,VPS11),(VPS33B,VPS16),(VPS33B,VPS33A),(VPS33B,VPS18),(VPS33B,VAM6),(VPS33B,PEP5),(VPS45,VPS11),(VPS45,VPS41),(VPS45,VPS33A),(VPS45,VPS18),(VPS45,PEP5)]
 ================================================================
 ============================= FN Table =========================
-[(MAP1LC3B,TUFM),(VPS11,VPS33B),(VPS16,VPS33B),(VPS16,VPS45),(VPS18,VPS33B),(VPS18,VPS45),(VPS33A,VPS33B),(VPS33B,VPS45)]
+[(MAP1LC3B,TUFM),(VPS11,VPS33B),(VPS16,VPS33B),(VPS16,VPS45),(VPS18,VPS33B),(VPS33A,VPS33B),(VPS33B,VPS45)]
 ================================================================
-True Positives (the ref has them and the system predicts them): 21
-False Positives (the ref does not have them but the system predicts them): 48
-False Negatives (the ref has them but the system does not predict them): 8
-Precision (TP/(TP+FP)), from all the predictions, how many are correct: 0.30434782608695654
-Recall (TP/(TP+FN)): from all the correct ones, how many are predicted: 0.7241379310344828
-F1 Score (2*Precision*Recall)/(Precision+Recall): 0.42857142857142866
-21	48	8	0.30434782608695654	0.7241379310344828	0.42857142857142866
+True Positives (the ref has them and the system predicts them): 22
+False Positives (the ref does not have them but the system predicts them): 50
+False Negatives (the ref has them but the system does not predict them): 7
+Precision (TP/(TP+FP)), from all the predictions, how many are correct: 0.3055555555555556
+Recall (TP/(TP+FN)): from all the correct ones, how many are predicted: 0.7586206896551724
+F1 Score (2*Precision*Recall)/(Precision+Recall): 0.4356435643564357
+22	50	7	0.3055555555555556	0.7586206896551724	0.4356435643564357
