@@ -1,0 +1,1112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="1893.7175pt"
+   height="829.41296pt"
+   style="overflow:hidden"
+   version="1.1"
+   id="svg409"
+   sodipodi:docname="sm-4-covid-wide-19-CXCR4-subnetworks.svg"
+   inkscape:export-filename="sm-4-covid-wide-19-CXCR4-subnetworks.png"
+   inkscape:export-xdpi="600"
+   inkscape:export-ydpi="600"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs413" />
+  <sodipodi:namedview
+     id="namedview411"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="pt"
+     showgrid="false"
+     inkscape:zoom="0.2140266"
+     inkscape:cx="843.35311"
+     inkscape:cy="551.33333"
+     inkscape:window-width="1280"
+     inkscape:window-height="891"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg409" />
+  <g
+     id="viewport-20260110164018410"
+     class="svg-pan-zoom_viewport"
+     transform="matrix(1.348489,0,0,1.348639,-4.7197115,-4.7202365)">
+    <g
+       id="graph0"
+       class="graph"
+       transform="translate(4,823)">
+      <title
+         id="title2">%3</title>
+      <g
+         id="node1"
+         class="node">
+        <title
+           id="title4">S</title>
+        <ellipse
+           fill="#d3d3d3"
+           stroke="#000000"
+           cx="132"
+           cy="-801"
+           rx="27"
+           ry="18"
+           id="ellipse6" />
+        <text
+           text-anchor="middle"
+           x="132"
+           y="-797.29999"
+           font-family="Times, serif"
+           font-size="14px"
+           id="text8">S</text>
+      </g>
+      <g
+         id="node2"
+         class="node">
+        <title
+           id="title11">CD4</title>
+        <ellipse
+           fill="#d3d3d3"
+           stroke="#000000"
+           cx="601"
+           cy="-714"
+           rx="30.59"
+           ry="18"
+           id="ellipse13" />
+        <text
+           text-anchor="middle"
+           x="601"
+           y="-710.29999"
+           font-family="Times, serif"
+           font-size="14px"
+           id="text15">CD4</text>
+      </g>
+      <g
+         id="edge1"
+         class="edge">
+        <title
+           id="title18">S-&gt;CD4</title>
+        <path
+           fill="none"
+           stroke="#000000"
+           d="m 158.39,-796.31 c 42.11,5.98 127.02,18.41 198.61,31.31 73.15,13.18 158.07,31.2 205.98,41.62"
+           id="path20" />
+        <polygon
+           fill="#000000"
+           stroke="#000000"
+           points="563.88,-726.76 572.91,-721.21 562.39,-719.92 "
+           id="polygon22" />
+        <text
+           text-anchor="middle"
+           x="446"
+           y="-753.79999"
+           font-family="Times, serif"
+           font-size="14px"
+           id="text24">bind</text>
+      </g>
+      <g
+         id="edge5"
+         class="edge">
+        <title
+           id="title27">S-&gt;CD4</title>
+        <path
+           fill="none"
+           stroke="#000000"
+           d="m 153.99,-790.38 c 27.34,11.53 75.7,30.53 119.01,40.38 101.62,23.1 224.5,31.05 287.07,33.71"
+           id="path29" />
+        <polygon
+           fill="#000000"
+           stroke="#000000"
+           points="560.46,-719.78 570.31,-715.88 560.18,-712.79 "
+           id="polygon31" />
+        <text
+           text-anchor="middle"
+           x="313"
+           y="-753.79999"
+           font-family="Times, serif"
+           font-size="14px"
+           id="text33">association</text>
+      </g>
+      <g
+         id="node4"
+         class="node">
+        <title
+           id="title36">ACE2</title>
+        <ellipse
+           fill="#d3d3d3"
+           stroke="#000000"
+           cx="257"
+           cy="-105"
+           rx="36.290001"
+           ry="18"
+           id="ellipse38" />
+        <text
+           text-anchor="middle"
+           x="257"
+           y="-101.3"
+           font-family="Times, serif"
+           font-size="14px"
+           id="text40">ACE2</text>
+      </g>
+      <g
+         id="edge36"
+         class="edge">
+        <title
+           id="title43">S-&gt;ACE2</title>
+        <path
+           fill="none"
+           stroke="#000000"
+           d="m 126.94,-783.24 c -4.69,17.02 -10.94,44.21 -10.94,68.24 0,0 0,0 0,524 0,45.95 55.59,67.71 96.96,77.54"
+           id="path45" />
+        <polygon
+           fill="#000000"
+           stroke="#000000"
+           points="213.86,-116.85 222.87,-111.27 212.35,-110.01 "
+           id="polygon47" />
+        <text
+           text-anchor="middle"
+           x="132"
+           y="-449.29999"
+           font-family="Times, serif"
+           font-size="14px"
+           id="text49">bind</text>
+      </g>
+      <g
+         id="edge37"
+         class="edge">
+        <title
+           id="title52">S-&gt;ACE2</title>
+        <path
+           fill="none"
+           stroke="#000000"
+           d="M 106.24,-795.44 C 67.82,-787 0,-765.02 0,-715 c 0,0 0,0 0,524 0,44.15 138.47,69.29 212.13,79.53"
+           id="path54" />
+        <polygon
+           fill="#000000"
+           stroke="#000000"
+           points="212.63,-114.93 222.07,-110.12 211.69,-108 "
+           id="polygon56" />
+        <text
+           text-anchor="middle"
+           x="40"
+           y="-449.29999"
+           font-family="Times, serif"
+           font-size="14px"
+           id="text58">association</text>
+      </g>
+      <g
+         id="node3"
+         class="node">
+        <title
+           id="title61">IFNG</title>
+        <ellipse
+           fill="#d3d3d3"
+           stroke="#000000"
+           cx="606"
+           cy="-627"
+           rx="36"
+           ry="18"
+           id="ellipse63" />
+        <text
+           text-anchor="middle"
+           x="606"
+           y="-623.29999"
+           font-family="Times, serif"
+           font-size="14px"
+           id="text65">IFNG</text>
+      </g>
+      <g
+         id="edge2"
+         class="edge">
+        <title
+           id="title68">CD4-&gt;IFNG</title>
+        <path
+           fill="none"
+           stroke="#000000"
+           d="m 617.43,-698.55 c 5.4,5.78 10.74,12.89 13.57,20.55 3.26,8.82 0.47,18.13 -4.26,26.3"
+           id="path70" />
+        <polygon
+           fill="#000000"
+           stroke="#000000"
+           points="629.58,-649.65 621.04,-643.37 623.8,-653.6 "
+           id="polygon72" />
+        <text
+           text-anchor="middle"
+           x="672"
+           y="-666.79999"
+           font-family="Times, serif"
+           font-size="14px"
+           id="text74">association</text>
+      </g>
+      <g
+         id="edge31"
+         class="edge">
+        <title
+           id="title77">CD4-&gt;ACE2</title>
+        <path
+           fill="none"
+           stroke="#000000"
+           d="M 570.47,-711.96 C 486.28,-708.26 257,-692.29 257,-628 c 0,0 0,0 0,437 0,19.25 0,40.95 0,57.6"
+           id="path79" />
+        <polygon
+           fill="#000000"
+           stroke="#000000"
+           points="260.5,-133.26 257,-123.26 253.5,-133.26 "
+           id="polygon81" />
+        <text
+           text-anchor="middle"
+           x="330.5"
+           y="-405.79999"
+           font-family="Times, serif"
+           font-size="14px"
+           id="text83">negative_correlation</text>
+      </g>
+      <g
+         id="node5"
+         class="node">
+        <title
+           id="title86">COVID-19</title>
+        <ellipse
+           fill="#d3d3d3"
+           stroke="#000000"
+           cx="1319"
+           cy="-18"
+           rx="56.59"
+           ry="18"
+           id="ellipse88" />
+        <text
+           text-anchor="middle"
+           x="1319"
+           y="-14.3"
+           font-family="Times, serif"
+           font-size="14px"
+           id="text90">COVID-19</text>
+      </g>
+      <g
+         id="edge32"
+         class="edge">
+        <title
+           id="title93">CD4-&gt;COVID-19</title>
+        <path
+           fill="none"
+           stroke="#000000"
+           d="m 631.41,-711.95 c 163.69,5.87 932.59,35.96 932.59,83.95 0,0 0,0 0,524 0,38.91 -111.72,64.03 -184.27,76.24"
+           id="path95" />
+        <polygon
+           fill="#000000"
+           stroke="#000000"
+           points="1380.2,-24.29 1369.76,-26.12 1379.06,-31.2 "
+           id="polygon97" />
+        <text
+           text-anchor="middle"
+           x="1635"
+           y="-362.29999"
+           font-family="Times, serif"
+           font-size="14px"
+           id="text99">positive_correlation</text>
+      </g>
+      <g
+         id="edge33"
+         class="edge">
+        <title
+           id="title102">CD4-&gt;COVID-19</title>
+        <path
+           fill="none"
+           stroke="#000000"
+           d="m 631.52,-712.37 c 181.45,3.96 1110.48,27.01 1110.48,84.37 0,0 0,0 0,524 0,71.78 -237.1,83.73 -356.28,85.19"
+           id="path104" />
+        <polygon
+           fill="#000000"
+           stroke="#000000"
+           points="1385.64,-15.31 1375.61,-18.7 1385.57,-22.3 "
+           id="polygon106" />
+        <text
+           text-anchor="middle"
+           x="1815.5"
+           y="-362.29999"
+           font-family="Times, serif"
+           font-size="14px"
+           id="text108">negative_correlation</text>
+      </g>
+      <g
+         id="node7"
+         class="node">
+        <title
+           id="title111">JAK3</title>
+        <ellipse
+           fill="#d3d3d3"
+           stroke="#000000"
+           cx="768"
+           cy="-366"
+           rx="33.290001"
+           ry="18"
+           id="ellipse113" />
+        <text
+           text-anchor="middle"
+           x="768"
+           y="-362.29999"
+           font-family="Times, serif"
+           font-size="14px"
+           id="text115">JAK3</text>
+      </g>
+      <g
+         id="edge30"
+         class="edge">
+        <title
+           id="title118">CD4-&gt;JAK3</title>
+        <path
+           fill="none"
+           stroke="#000000"
+           d="m 630.58,-708.65 c 63.84,11.24 212.83,47.91 263.42,150.65 7.07,14.35 4.98,20.79 0,36 -10.29,31.43 -65.96,95.35 -88,120 -4.06,4.54 -8.64,9.13 -13.18,13.43"
+           id="path120" />
+        <polygon
+           fill="#000000"
+           stroke="#000000"
+           points="795.05,-385.86 785.32,-381.67 790.31,-391.01 "
+           id="polygon122" />
+        <text
+           text-anchor="middle"
+           x="938"
+           y="-536.29999"
+           font-family="Times, serif"
+           font-size="14px"
+           id="text124">association</text>
+      </g>
+      <g
+         id="node8"
+         class="node">
+        <title
+           id="title127">STAT3</title>
+        <ellipse
+           fill="#d3d3d3"
+           stroke="#000000"
+           cx="691"
+           cy="-192"
+           rx="40.09"
+           ry="18"
+           id="ellipse129" />
+        <text
+           text-anchor="middle"
+           x="691"
+           y="-188.3"
+           font-family="Times, serif"
+           font-size="14px"
+           id="text131">STAT3</text>
+      </g>
+      <g
+         id="edge28"
+         class="edge">
+        <title
+           id="title134">CD4-&gt;STAT3</title>
+        <path
+           fill="none"
+           stroke="#000000"
+           d="M 570.82,-710.75 C 495.63,-704.33 306,-682.7 306,-628 c 0,0 0,0 0,132.5 0,27.6 -5.7,41.17 14,60.5 27.56,27.05 55.43,-6.83 85,18 69.33,58.23 5.42,132.3 76,189 24.02,19.3 105.85,28.31 159.99,32.24"
+           id="path136" />
+        <polygon
+           fill="#000000"
+           stroke="#000000"
+           points="641.35,-199.24 651.09,-195.06 640.87,-192.26 "
+           id="polygon138" />
+        <text
+           text-anchor="middle"
+           x="360"
+           y="-449.29999"
+           font-family="Times, serif"
+           font-size="14px"
+           id="text140">association</text>
+      </g>
+      <g
+         id="edge29"
+         class="edge">
+        <title
+           id="title143">IFNG-&gt;CD4</title>
+        <path
+           fill="none"
+           stroke="#000000"
+           d="m 577.26,-637.76 c -11.54,-5.5 -23.66,-13.65 -30.26,-25.24 -7.98,-14.01 5.04,-26.36 20.29,-35.28"
+           id="path145" />
+        <polygon
+           fill="#000000"
+           stroke="#000000"
+           points="565.91,-701.52 576.38,-703.13 569.2,-695.34 "
+           id="polygon147" />
+        <text
+           text-anchor="middle"
+           x="587"
+           y="-666.79999"
+           font-family="Times, serif"
+           font-size="14px"
+           id="text149">association</text>
+      </g>
+      <g
+         id="edge3"
+         class="edge">
+        <title
+           id="title152">IFNG-&gt;ACE2</title>
+        <path
+           fill="none"
+           stroke="#000000"
+           d="m 594.48,-609.58 c -3.84,5.76 -8.02,12.35 -11.48,18.58 -37.07,66.76 -33.93,89.81 -72,156 -71.54,124.39 -185.21,254.05 -232.38,305.74"
+           id="path154" />
+        <polygon
+           fill="#000000"
+           stroke="#000000"
+           points="280.98,-126.65 271.64,-121.65 275.82,-131.39 "
+           id="polygon156" />
+        <text
+           text-anchor="middle"
+           x="519"
+           y="-362.29999"
+           font-family="Times, serif"
+           font-size="14px"
+           id="text158">association</text>
+      </g>
+      <g
+         id="edge24"
+         class="edge">
+        <title
+           id="title161">IFNG-&gt;JAK3</title>
+        <path
+           fill="none"
+           stroke="#000000"
+           d="m 601.28,-608.93 c -6.49,27 -15.35,80.54 3.72,119.93 25.82,53.35 87.75,89.15 127.4,107.5"
+           id="path163" />
+        <polygon
+           fill="#000000"
+           stroke="#000000"
+           points="734.03,-384.6 741.72,-377.31 731.17,-378.21 "
+           id="polygon165" />
+        <text
+           text-anchor="middle"
+           x="645"
+           y="-492.79999"
+           font-family="Times, serif"
+           font-size="14px"
+           id="text167">association</text>
+      </g>
+      <g
+         id="edge9"
+         class="edge">
+        <title
+           id="title170">IFNG-&gt;STAT3</title>
+        <path
+           fill="none"
+           stroke="#000000"
+           d="m 597.46,-609.31 c -2.52,5.67 -5,12.13 -6.46,18.31 -19.38,81.76 -24.12,107.17 -5,189 16.76,71.75 62.51,146.79 87.74,184.41"
+           id="path172" />
+        <polygon
+           fill="#000000"
+           stroke="#000000"
+           points="676.66,-219.53 679.38,-209.29 670.87,-215.59 "
+           id="polygon174" />
+        <text
+           text-anchor="middle"
+           x="626"
+           y="-405.79999"
+           font-family="Times, serif"
+           font-size="14px"
+           id="text176">association</text>
+      </g>
+      <g
+         id="node9"
+         class="node">
+        <title
+           id="title179">STAT1</title>
+        <ellipse
+           fill="#d3d3d3"
+           stroke="#000000"
+           cx="863"
+           cy="-279"
+           rx="40.09"
+           ry="18"
+           id="ellipse181" />
+        <text
+           text-anchor="middle"
+           x="863"
+           y="-275.29999"
+           font-family="Times, serif"
+           font-size="14px"
+           id="text183">STAT1</text>
+      </g>
+      <g
+         id="edge27"
+         class="edge">
+        <title
+           id="title186">IFNG-&gt;STAT1</title>
+        <path
+           fill="none"
+           stroke="#000000"
+           d="m 640.94,-622.74 c 27.32,3.96 65.22,12.67 93.06,31.74 31.46,21.55 23.87,42.2 51,69 9.74,9.62 17.39,6.62 25,18 41.36,61.83 50.59,152.18 52.55,196.88"
+           id="path188" />
+        <polygon
+           fill="#000000"
+           stroke="#000000"
+           points="866.05,-307.15 862.9,-297.03 859.06,-306.91 "
+           id="polygon190" />
+        <text
+           text-anchor="middle"
+           x="881"
+           y="-449.29999"
+           font-family="Times, serif"
+           font-size="14px"
+           id="text192">association</text>
+      </g>
+      <g
+         id="node10"
+         class="node">
+        <title
+           id="title195">STAT6</title>
+        <ellipse
+           fill="#d3d3d3"
+           stroke="#000000"
+           cx="686"
+           cy="-540"
+           rx="40.09"
+           ry="18"
+           id="ellipse197" />
+        <text
+           text-anchor="middle"
+           x="686"
+           y="-536.29999"
+           font-family="Times, serif"
+           font-size="14px"
+           id="text199">STAT6</text>
+      </g>
+      <g
+         id="edge20"
+         class="edge">
+        <title
+           id="title202">IFNG-&gt;STAT6</title>
+        <path
+           fill="none"
+           stroke="#000000"
+           d="m 620.67,-610.41 c 12.11,12.86 29.46,31.3 43.25,45.95"
+           id="path204" />
+        <polygon
+           fill="#000000"
+           stroke="#000000"
+           points="666.84,-566.46 671.15,-556.78 661.75,-561.66 "
+           id="polygon206" />
+        <text
+           text-anchor="middle"
+           x="690"
+           y="-579.79999"
+           font-family="Times, serif"
+           font-size="14px"
+           id="text208">association</text>
+      </g>
+      <g
+         id="edge13"
+         class="edge">
+        <title
+           id="title211">ACE2-&gt;CD4</title>
+        <path
+           fill="none"
+           stroke="#000000"
+           d="M 227.76,-115.86 C 197.31,-128.2 154,-152.51 154,-191 c 0,-176 0,-176 0,-176 0,-22.23 -2.12,-27.99 1,-50 5.06,-35.76 21,-42.38 21,-78.5 0,-132.5 0,-132.5 0,-132.5 0,-77.92 278.15,-85.4 384.41,-85.41"
+           id="path213" />
+        <polygon
+           fill="#000000"
+           stroke="#000000"
+           points="560.44,-716.91 570.44,-713.39 560.43,-709.91 "
+           id="polygon215" />
+        <text
+           text-anchor="middle"
+           x="195"
+           y="-405.79999"
+           font-family="Times, serif"
+           font-size="14px"
+           id="text217">association</text>
+      </g>
+      <g
+         id="edge4"
+         class="edge">
+        <title
+           id="title220">ACE2-&gt;COVID-19</title>
+        <path
+           fill="none"
+           stroke="#000000"
+           d="m 291.95,-99.89 c 79.71,9.27 281.11,32.06 450.05,45.89 185.07,15.15 404.04,26.68 511.23,31.91"
+           id="path222" />
+        <polygon
+           fill="#000000"
+           stroke="#000000"
+           points="1253.43,-25.58 1263.24,-21.6 1253.09,-18.59 "
+           id="polygon224" />
+        <text
+           text-anchor="middle"
+           x="813"
+           y="-57.799999"
+           font-family="Times, serif"
+           font-size="14px"
+           id="text226">positive_correlation</text>
+      </g>
+      <g
+         id="node6"
+         class="node">
+        <title
+           id="title229">CXCR4</title>
+        <ellipse
+           fill="#d3d3d3"
+           stroke="#000000"
+           cx="1117"
+           cy="-453"
+           rx="43.59"
+           ry="18"
+           id="ellipse231" />
+        <text
+           text-anchor="middle"
+           x="1117"
+           y="-449.29999"
+           font-family="Times, serif"
+           font-size="14px"
+           id="text233">CXCR4</text>
+      </g>
+      <g
+         id="edge6"
+         class="edge">
+        <title
+           id="title236">CXCR4-&gt;CD4</title>
+        <path
+           fill="none"
+           stroke="#000000"
+           d="M 1104.43,-470.46 C 1066.38,-520.03 953.68,-665.35 930,-678 881.07,-704.14 718.66,-710.76 641.89,-712.43"
+           id="path238" />
+        <polygon
+           fill="#000000"
+           stroke="#000000"
+           points="641.57,-708.94 631.64,-712.64 641.71,-715.94 "
+           id="polygon240" />
+        <text
+           text-anchor="middle"
+           x="1060"
+           y="-579.79999"
+           font-family="Times, serif"
+           font-size="14px"
+           id="text242">association</text>
+      </g>
+      <g
+         id="edge7"
+         class="edge">
+        <title
+           id="title245">CXCR4-&gt;CD4</title>
+        <path
+           fill="none"
+           stroke="#000000"
+           d="m 1120.09,-471.2 c 4.02,-27.67 7.92,-82.69 -16.09,-119.8 -42.49,-65.68 -78.46,-63.26 -153,-87 -56.73,-18.07 -230.1,-28.92 -309.51,-33.06"
+           id="path247" />
+        <polygon
+           fill="#000000"
+           stroke="#000000"
+           points="641.19,-707.57 631.38,-711.58 641.55,-714.56 "
+           id="polygon249" />
+        <text
+           text-anchor="middle"
+           x="1127"
+           y="-579.79999"
+           font-family="Times, serif"
+           font-size="14px"
+           id="text251">bind</text>
+      </g>
+      <g
+         id="edge15"
+         class="edge">
+        <title
+           id="title254">CXCR4-&gt;COVID-19</title>
+        <path
+           fill="none"
+           stroke="#000000"
+           d="m 1154.34,-443.42 c 51.08,13.97 140.81,47.02 179.66,113.42 3.37,5.75 2.98,9.04 0,15 -23.85,47.7 -72.15,24.3 -96,72 -34.76,69.53 25.19,157.72 59.51,199.68"
+           id="path256" />
+        <polygon
+           fill="#000000"
+           stroke="#000000"
+           points="1300.27,-45.48 1304,-35.56 1294.9,-40.99 "
+           id="polygon258" />
+        <text
+           text-anchor="middle"
+           x="1309"
+           y="-231.8"
+           font-family="Times, serif"
+           font-size="14px"
+           id="text260">positive_correlation</text>
+      </g>
+      <g
+         id="edge16"
+         class="edge">
+        <title
+           id="title263">CXCR4-&gt;COVID-19</title>
+        <path
+           fill="none"
+           stroke="#000000"
+           d="m 1159.05,-448.27 c 79.28,8.2 242.95,31.19 242.95,81.27 0,0 0,0 0,263 0,28.04 -23.41,50.27 -45.36,64.95"
+           id="path265" />
+        <polygon
+           fill="#000000"
+           stroke="#000000"
+           points="1358.35,-35.99 1348.03,-33.6 1354.61,-41.9 "
+           id="polygon267" />
+        <text
+           text-anchor="middle"
+           x="1475.5"
+           y="-231.8"
+           font-family="Times, serif"
+           font-size="14px"
+           id="text269">negative_correlation</text>
+      </g>
+      <g
+         id="edge17"
+         class="edge">
+        <title
+           id="title272">CXCR4-&gt;JAK3</title>
+        <path
+           fill="none"
+           stroke="#000000"
+           d="m 1075.09,-448.01 c -44.68,4.88 -117.23,14.57 -178.09,31.01 -18.18,4.91 -62.47,22.56 -94.08,35.5"
+           id="path274" />
+        <polygon
+           fill="#000000"
+           stroke="#000000"
+           points="804.14,-378.22 793.56,-377.65 801.48,-384.69 "
+           id="polygon276" />
+        <text
+           text-anchor="middle"
+           x="937"
+           y="-405.79999"
+           font-family="Times, serif"
+           font-size="14px"
+           id="text278">association</text>
+      </g>
+      <g
+         id="edge8"
+         class="edge">
+        <title
+           id="title281">JAK3-&gt;CD4</title>
+        <path
+           fill="none"
+           stroke="#000000"
+           d="m 777.35,-383.51 c 18.08,-31.98 56.19,-99.78 57.65,-105.49 1.66,-6.46 2.79,-8.94 0,-15 -5.14,-11.17 -12.97,-8.69 -21,-18 -53.47,-62.01 -32.95,-106.27 -98,-156 -21.66,-16.56 -51.17,-25.33 -74.87,-29.96"
+           id="path283" />
+        <polygon
+           fill="#000000"
+           stroke="#000000"
+           points="640.27,-704.55 631.03,-709.75 641.49,-711.45 "
+           id="polygon285" />
+        <text
+           text-anchor="middle"
+           x="854"
+           y="-536.29999"
+           font-family="Times, serif"
+           font-size="14px"
+           id="text287">association</text>
+      </g>
+      <g
+         id="edge25"
+         class="edge">
+        <title
+           id="title290">JAK3-&gt;CXCR4</title>
+        <path
+           fill="none"
+           stroke="#000000"
+           d="M 800.96,-368.36 C 843.1,-371.02 917.7,-378.87 977,-402 c 11.37,-4.43 11.93,-9.86 23,-15 22.18,-10.29 48.13,-18.41 69.94,-24.23"
+           id="path292" />
+        <polygon
+           fill="#000000"
+           stroke="#000000"
+           points="1069.08,-444.62 1079.64,-443.74 1070.84,-437.85 "
+           id="polygon294" />
+        <text
+           text-anchor="middle"
+           x="1040"
+           y="-405.79999"
+           font-family="Times, serif"
+           font-size="14px"
+           id="text296">association</text>
+      </g>
+      <g
+         id="edge22"
+         class="edge">
+        <title
+           id="title299">JAK3-&gt;STAT3</title>
+        <path
+           fill="none"
+           stroke="#000000"
+           d="m 759.28,-348.39 c -7.08,13.67 -17.17,33.62 -25.28,51.39 -11.9,26.09 -24.29,56.44 -32.69,77.6"
+           id="path301" />
+        <polygon
+           fill="#000000"
+           stroke="#000000"
+           points="704.56,-218.11 697.63,-210.09 698.05,-220.68 "
+           id="polygon303" />
+        <text
+           text-anchor="middle"
+           x="774"
+           y="-275.29999"
+           font-family="Times, serif"
+           font-size="14px"
+           id="text305">association</text>
+      </g>
+      <g
+         id="edge35"
+         class="edge">
+        <title
+           id="title308">JAK3-&gt;STAT3</title>
+        <path
+           fill="none"
+           stroke="#000000"
+           d="m 743.6,-353.56 c -20.67,11.18 -48.91,30.35 -61.6,56.56 -11.79,24.36 -6.76,55.69 -0.53,77.57"
+           id="path310" />
+        <polygon
+           fill="#000000"
+           stroke="#000000"
+           points="684.84,-220.4 684.47,-209.81 678.15,-218.32 "
+           id="polygon312" />
+        <text
+           text-anchor="middle"
+           x="698"
+           y="-275.29999"
+           font-family="Times, serif"
+           font-size="14px"
+           id="text314">bind</text>
+      </g>
+      <g
+         id="edge18"
+         class="edge">
+        <title
+           id="title317">JAK3-&gt;STAT1</title>
+        <path
+           fill="none"
+           stroke="#000000"
+           d="m 763.81,-347.75 c -1.5,10.4 -1.44,23.4 5.19,32.75 3.37,4.74 28.82,14.07 52.39,21.9"
+           id="path319" />
+        <polygon
+           fill="#000000"
+           stroke="#000000"
+           points="822.55,-296.4 830.96,-289.96 820.37,-289.75 "
+           id="polygon321" />
+        <text
+           text-anchor="middle"
+           x="809"
+           y="-318.79999"
+           font-family="Times, serif"
+           font-size="14px"
+           id="text323">association</text>
+      </g>
+      <g
+         id="edge26"
+         class="edge">
+        <title
+           id="title326">JAK3-&gt;STAT6</title>
+        <path
+           fill="none"
+           stroke="#000000"
+           d="M 750.84,-381.72 C 737.13,-394.44 718.53,-414.04 708,-435 c -12.19,-24.26 -17.64,-54.99 -20.06,-76.74"
+           id="path328" />
+        <polygon
+           fill="#000000"
+           stroke="#000000"
+           points="684.43,-511.63 686.95,-521.92 691.4,-512.3 "
+           id="polygon330" />
+        <text
+           text-anchor="middle"
+           x="748"
+           y="-449.29999"
+           font-family="Times, serif"
+           font-size="14px"
+           id="text332">association</text>
+      </g>
+      <g
+         id="edge34"
+         class="edge">
+        <title
+           id="title335">STAT3-&gt;CD4</title>
+        <path
+           fill="none"
+           stroke="#000000"
+           d="M 666.12,-206.28 C 623.62,-229.97 536.28,-283.18 481,-348 c -45.82,-53.72 -59,-76.89 -59,-147.5 0,-132.5 0,-132.5 0,-132.5 0,-60.96 85.75,-78.25 138.55,-83.12"
+           id="path337" />
+        <polygon
+           fill="#000000"
+           stroke="#000000"
+           points="560.38,-714.62 570.64,-711.94 560.95,-707.64 "
+           id="polygon339" />
+        <text
+           text-anchor="middle"
+           x="467"
+           y="-449.29999"
+           font-family="Times, serif"
+           font-size="14px"
+           id="text341">association</text>
+      </g>
+      <g
+         id="edge10"
+         class="edge">
+        <title
+           id="title344">STAT3-&gt;ACE2</title>
+        <path
+           fill="none"
+           stroke="#000000"
+           d="m 654.74,-183.9 c -79.58,15.59 -269.24,52.73 -354.69,69.47"
+           id="path346" />
+        <polygon
+           fill="#000000"
+           stroke="#000000"
+           points="300.64,-110.98 290.15,-112.49 299.3,-117.85 "
+           id="polygon348" />
+        <text
+           text-anchor="middle"
+           x="570"
+           y="-144.8"
+           font-family="Times, serif"
+           font-size="14px"
+           id="text350">positive_correlation</text>
+      </g>
+      <g
+         id="edge11"
+         class="edge">
+        <title
+           id="title353">STAT3-&gt;CXCR4</title>
+        <path
+           fill="none"
+           stroke="#000000"
+           d="m 730.91,-195.12 c 61.95,-3.86 177.9,-13.47 214.09,-32.88 53.28,-28.58 48.92,-57.65 90,-102 30.33,-32.74 48.47,-32.91 70,-72 3.85,-6.99 6.47,-15.19 8.26,-22.91"
+           id="path355" />
+        <polygon
+           fill="#000000"
+           stroke="#000000"
+           points="1109.87,-425.82 1115.21,-434.97 1116.74,-424.49 "
+           id="polygon357" />
+        <text
+           text-anchor="middle"
+           x="1108.5"
+           y="-318.79999"
+           font-family="Times, serif"
+           font-size="14px"
+           id="text359">negative_correlation</text>
+      </g>
+      <g
+         id="edge12"
+         class="edge">
+        <title
+           id="title362">STAT3-&gt;CXCR4</title>
+        <path
+           fill="none"
+           stroke="#000000"
+           d="m 730.9,-194.69 c 54.72,-3.06 155.77,-11.4 239.1,-33.31 98.5,-25.9 155.28,-2.41 212,-87 25.06,-37.37 -12.32,-85.92 -39.93,-114.05"
+           id="path364" />
+        <polygon
+           fill="#000000"
+           stroke="#000000"
+           points="1139.26,-426.9 1134.6,-436.42 1144.17,-431.89 "
+           id="polygon366" />
+        <text
+           text-anchor="middle"
+           x="1259"
+           y="-318.79999"
+           font-family="Times, serif"
+           font-size="14px"
+           id="text368">positive_correlation</text>
+      </g>
+      <g
+         id="edge14"
+         class="edge">
+        <title
+           id="title371">STAT3-&gt;CXCR4</title>
+        <path
+           fill="none"
+           stroke="#000000"
+           d="m 730.96,-195.24 c 37.65,-3.36 94.86,-11.77 140.04,-32.76 21.21,-9.85 27.28,-14.05 41,-33 19.22,-26.54 4.12,-44.6 26,-69 23.62,-26.34 114.97,-49.17 142,-72 8.2,-6.93 15.62,-16.02 21.62,-24.55"
+           id="path373" />
+        <polygon
+           fill="#000000"
+           stroke="#000000"
+           points="1098.87,-428.74 1107.33,-435.12 1104.69,-424.86 "
+           id="polygon375" />
+        <text
+           text-anchor="middle"
+           x="978"
+           y="-318.79999"
+           font-family="Times, serif"
+           font-size="14px"
+           id="text377">association</text>
+      </g>
+      <g
+         id="edge19"
+         class="edge">
+        <title
+           id="title380">STAT1-&gt;COVID-19</title>
+        <path
+           fill="none"
+           stroke="#000000"
+           d="m 883.21,-263.25 c 53.34,38.46 203.22,143.34 339.79,209.25 14.94,7.21 31.78,13.82 47.13,19.31"
+           id="path382" />
+        <polygon
+           fill="#000000"
+           stroke="#000000"
+           points="1271.68,-37.85 1279.97,-31.25 1269.37,-31.24 "
+           id="polygon384" />
+        <text
+           text-anchor="middle"
+           x="1133"
+           y="-144.8"
+           font-family="Times, serif"
+           font-size="14px"
+           id="text386">positive_correlation</text>
+      </g>
+      <g
+         id="edge23"
+         class="edge">
+        <title
+           id="title389">STAT1-&gt;STAT3</title>
+        <path
+           fill="none"
+           stroke="#000000"
+           d="m 836.88,-265.09 c -29.51,14.58 -77.69,38.39 -110.55,54.63"
+           id="path391" />
+        <polygon
+           fill="#000000"
+           stroke="#000000"
+           points="727.6,-207.18 717.09,-205.89 724.5,-213.46 "
+           id="polygon393" />
+        <text
+           text-anchor="middle"
+           x="827"
+           y="-231.8"
+           font-family="Times, serif"
+           font-size="14px"
+           id="text395">association</text>
+      </g>
+      <g
+         id="edge21"
+         class="edge">
+        <title
+           id="title398">STAT6-&gt;CXCR4</title>
+        <path
+           fill="none"
+           stroke="#000000"
+           d="m 721.93,-531.44 c 47.55,9.97 134.02,27.92 208.07,42.44 46.66,9.15 99.98,19.07 137.71,26.01"
+           id="path400" />
+        <polygon
+           fill="#000000"
+           stroke="#000000"
+           points="1068.72,-466.36 1077.92,-461.11 1067.46,-459.48 "
+           id="polygon402" />
+        <text
+           text-anchor="middle"
+           x="970"
+           y="-492.79999"
+           font-family="Times, serif"
+           font-size="14px"
+           id="text404">association</text>
+      </g>
+    </g>
+  </g>
+</svg>
