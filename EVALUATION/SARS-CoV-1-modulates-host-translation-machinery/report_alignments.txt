@@ -1,0 +1,12 @@
+Report of aligned objets expert_objets.txt vs synonyms.pl
+objects= 35
+aligned= 35
+no_aligned= 0
+aligned_as= 0
+sm= 0
+sm_aligned= 0
+sm_no_aligned= 0
+sm_aligned_as= 0
+interactions= 29
+
+35	35	0	0	0	0	0	0	29

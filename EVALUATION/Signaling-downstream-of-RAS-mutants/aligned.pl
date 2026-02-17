@@ -55,7 +55,7 @@ no_aligned('1-PHOSPHATIDYL-1D-MYO-INOSITOL 4,5-BISPHOSPHATE(5-)').
 
 % User's objects with alternative alignments: 
 
-aligned_as('FGA', ['ADENOCARCINOMA', 'FGA', 'ADENOMA']).
+aligned_as('FGA', ['FGA', 'ADENOCARCINOMA', 'ADENOMA']).
 aligned_as('KRAS', ['SARCOMA', 'KRAS']).
 aligned_as('RAF1', ['RAF1', 'RAF']).
 aligned_as('VWF', ['VWF', 'VON WILLEBRAND FACTOR DEFICIENCY']).
@@ -69,4 +69,4 @@ no_aligned_objs(['PHB1', 'MAGNESIUM(2+)', 'MANGANESE(2+)', 'CALCIUM(2+)', '1-PHO
 
 aligned_as(['FGA', 'KRAS', 'RAF1', 'VWF', 'IQGAP1'], 5).
 
-aligned_and_alternatives(['FGA', 'ITGB3', 'RAP1A', 'BRAF', 'CAMK2G', 'FN1', 'KSR1', 'NRAS', 'MAPK3', 'SARCOMA', 'APBB1IP', 'JAK2', 'CALM1', 'FGG', 'VCL', 'CAMK2A', 'BRAP', 'MAP3K11', 'TLN1', 'FGB', 'MAP2K2', 'ADENOCARCINOMA', 'IQGAP3', 'SRC', 'RAP1B', 'KSR2', 'ARAF', 'VWF', 'PEBP1', 'MARK3', 'MAP2K1', 'ARRB2', 'RAF', 'MAPK1', 'IQGAP1', 'CSK', 'YWHAB', 'ADENOMA', 'HRAS', 'RAF1', 'CNKSR1', 'VON WILLEBRAND FACTOR DEFICIENCY', 'CAMK2D', 'CNKSR2', 'KRAS', 'ARRB1', 'CAMK2B', 'ITGA2B'], 48).
+aligned_and_alternatives(['ARRB2', 'SARCOMA', 'KSR1', 'CNKSR1', 'BRAF', 'MAP2K1', 'FN1', 'CAMK2G', 'NRAS', 'PEBP1', 'CSK', 'VON WILLEBRAND FACTOR DEFICIENCY', 'CAMK2A', 'ARAF', 'TLN1', 'CALM1', 'IQGAP1', 'FGB', 'RAF', 'RAP1B', 'CAMK2B', 'IQGAP3', 'MAPK3', 'FGA', 'CNKSR2', 'HRAS', 'VCL', 'VWF', 'KSR2', 'ADENOCARCINOMA', 'RAF1', 'JAK2', 'RAP1A', 'ADENOMA', 'APBB1IP', 'MAP2K2', 'BRAP', 'YWHAB', 'MAP3K11', 'ARRB1', 'ITGB3', 'KRAS', 'CAMK2D', 'ITGA2B', 'MARK3', 'SRC', 'FGG', 'MAPK1'], 48).

@@ -25,4 +25,4 @@ no_aligned_objs(['MAGNESIUM(2+)', 'THIAMINE(1+) DIPHOSPHATE(3-)'], 2).
 
 aligned_as([], 0).
 
-aligned_and_alternatives(['EP300', 'CREBBP', 'MAFG', 'TKT', 'NFE2L2'], 5).
+aligned_and_alternatives(['MAFG', 'NFE2L2', 'EP300', 'TKT', 'CREBBP'], 5).

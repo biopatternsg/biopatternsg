@@ -32,7 +32,7 @@ no_aligned(none).
 
 % User's objects with alternative alignments: 
 
-aligned_as('TRAF6', ['LOC222344', 'TRAF6']).
+aligned_as('TRAF6', ['TRAF6', 'LOC222344']).
 aligned_as('ITCH', ['ITCH', 'PRURITUS']).
 aligned_as('MAVS', ['MAVS', 'PLATELET SIGNAL PROCESSING DEFECT']).
 aligned_as('NLRP3', ['DFNA34', 'NLRP3']).
@@ -48,4 +48,4 @@ no_aligned_objs([], 0).
 
 aligned_as(['TRAF6', 'ITCH', 'MAVS', 'NLRP3', 'NFKBIA', 'RELA', 'TLR7'], 7).
 
-aligned_and_alternatives(['LOC222344', 'TRAF6', 'TBK1', 'DFNA34', 'PCBP2', 'KPNA2', 'RESIQUIMOD', 'PLATELET SIGNAL PROCESSING DEFECT', 'LOC108266215', 'TOMM70', 'TLR7', 'REL', 'LOC106586812', 'HYDROXYCHLOROQUINE', 'PRURITUS', 'MAVS', 'KPNB1', 'ITCH', 'IKBKE', 'PYCARD', 'IMIQUIMOD', 'NFKB1', 'IFIH1', 'NFKBIA', 'NFKBIAB', 'TKFC', 'SIKE1', 'IRAK2', 'RELA', 'NLRP3'], 30).
+aligned_and_alternatives(['NLRP3', 'KPNA2', 'TKFC', 'NFKBIAB', 'PRURITUS', 'SIKE1', 'NFKBIA', 'TBK1', 'LOC108266215', 'PCBP2', 'RESIQUIMOD', 'LOC222344', 'TRAF6', 'TLR7', 'IRAK2', 'IKBKE', 'IMIQUIMOD', 'HYDROXYCHLOROQUINE', 'PLATELET SIGNAL PROCESSING DEFECT', 'RELA', 'REL', 'ITCH', 'IFIH1', 'PYCARD', 'DFNA34', 'KPNB1', 'LOC106586812', 'TOMM70', 'NFKB1', 'MAVS'], 30).

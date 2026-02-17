@@ -66,16 +66,23 @@ def get_alignments(alig_lines: list) -> tuple:
 
     for alig_line in alig_lines:
 
-        if alig_line.startswith("aligned_objs("):
-            aligned_objects = alig_line.split("([")[1].split("],")[0].split(", ")
+        if alig_line.startswith("aligned("):
+            if not alig_line == "aligned(none).":
+                aligned_object = alig_line.split("aligned(")[1].split(").")[0]
+                if aligned_object not in aligned_objects:
+                    aligned_objects.append(aligned_object)
 
-        if alig_line.startswith("no_aligned_objs("):
-            no_aligned_objects = alig_line.split("([")[1].split("],")[0].split(", ")
-
+        if alig_line.startswith("no_aligned("):
+            if not alig_line == "no_aligned(none).":
+                no_aligned_object = alig_line.split("no_aligned(")[1].split(").")[0]
+                if no_aligned_object not in no_aligned_objects:
+                    no_aligned_objects.append(no_aligned_object)
+    """
     if aligned_objects[0] == '':
         aligned_objects = []
     if no_aligned_objects[0] == '':
         no_aligned_objects = []
+    """
 
     return aligned_objects, no_aligned_objects
 
@@ -100,14 +107,14 @@ def get_sm_alignments(algned_objs: list, no_aligned_objs: list, small_molecules:
 
 def aligned(eval_path: str, experiment: str, files_needed: list):
     """
-    This method process the EVALUATION folder and sets for each experiment in it the chebi_names.pl and
-    the expert_objects.txt files.
+    This method process the EVALUATION folder and sets for each experiment how its objects are 
+    aligned with the objects predicted by PubTator.
 
     Args:
         eval_path: The path to the EVALUATION folder
         experiment: An experiment from the EVALUATION folder
         files_needed: The list of files that must be already present in the
-                      experiment's folder on process.
+                      experiment's folder id order to produce the related report.
 
     Returns:
         None
@@ -149,11 +156,18 @@ def aligned(eval_path: str, experiment: str, files_needed: list):
 
     metrics = [len(expert_objects), len(algned_objs), len(no_aligned_objs), aligned_as_objs, len(small_molecules), len(aligned_sm), len(no_aligned_sm), sm_aligned_as, len(kb_lines) - 2]
 
-    metrics_to_report = [str(i) for i in metrics]
+    metrics = [str(i) for i in metrics]
+    tags_ = ["objects", "aligned", "no_aligned", "aligned_as", "sm", "sm_aligned", "sm_no_aligned", "sm_aligned_as", "interactions", "\n"]
 
-    to_report = "\t".join(metrics_to_report)
+    to_report = "\t".join(metrics)
+    tags = "\t".join(tags_)
 
     with open(path_to_report_alignments, 'w', encoding="utf8") as report_fl:
+
+        report_fl.write("Report of aligned objets expert_objets.txt vs synonyms.pl" + "\n")
+        for t in range(len(metrics)):
+            report_fl.write(f'{tags_[t]}= {metrics[t]}' + '\n')
+        report_fl.write('\n')
         report_fl.write(to_report)
 
 if __name__ == '__main__':
@@ -180,7 +194,7 @@ if __name__ == '__main__':
 
     experiments_failing = []
 
-    files_needed = ["chebi_names.pl", "expert_objects.txt", "kBase.pl", "aligned_r.pl"]
+    files_needed = ["chebi_names.pl", "expert_objects.txt", "kBase.pl", "aligned.pl"]
 
     for experiment in experiments:
         experiment_path =  evaluation_path + experiment

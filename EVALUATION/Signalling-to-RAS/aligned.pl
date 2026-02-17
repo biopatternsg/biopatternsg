@@ -31,4 +31,4 @@ no_aligned_objs([], 0).
 
 aligned_as(['NRAS', 'SOS1'], 2).
 
-aligned_and_alternatives(['SHC2', 'SHC3', 'HRAS', 'KRAS', 'SOS1', 'SOS', 'NGF', 'NTRK1', 'NEUROBLASTOMA', 'SHC1', 'GRB2', 'NRAS'], 12).
+aligned_and_alternatives(['KRAS', 'SOS1', 'NGF', 'NEUROBLASTOMA', 'NTRK1', 'SOS', 'SHC3', 'SHC2', 'NRAS', 'SHC1', 'GRB2', 'HRAS'], 12).

@@ -27,4 +27,4 @@ no_aligned_objs([], 0).
 
 aligned_as(['RPS6KA3'], 1).
 
-aligned_and_alternatives(['CREB1', 'RPS6KA3', 'RPS6KA5', 'ATF1', 'MAPKAPK2', 'RPS6KA1', 'RPS6KA2', 'RPS6KA3A'], 8).
+aligned_and_alternatives(['RPS6KA3A', 'CREB1', 'RPS6KA2', 'ATF1', 'RPS6KA1', 'MAPKAPK2', 'RPS6KA5', 'RPS6KA3'], 8).

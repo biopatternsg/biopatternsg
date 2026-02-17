@@ -18,7 +18,6 @@ no_aligned(none).
 % User's objects with alternative alignments: 
 
 aligned_as('GBF1', ['GBF1', 'GARZ']).
-aligned_as('ARF1', ['ARF1', 'ARF79F']).
 aligned_as('STX4', ['STX4', 'STX4A']).
 
 % General report of aligned and no aligned objects: 
@@ -27,6 +26,6 @@ aligned_objs(['GBF1', 'ARF1', 'SNAP23', 'STX4', 'VAMP2', 'VAMP7', 'VAMP8'], 7).
 
 no_aligned_objs([], 0).
 
-aligned_as(['GBF1', 'ARF1', 'STX4'], 3).
+aligned_as(['GBF1', 'STX4'], 2).
 
-aligned_and_alternatives(['GBF1', 'ARF79F', 'STX4', 'VAMP2', 'VAMP7', 'VAMP8', 'STX4A', 'GARZ', 'ARF1', 'SNAP23'], 10).
+aligned_and_alternatives(['VAMP7', 'VAMP2', 'GBF1', 'STX4A', 'SNAP23', 'GARZ', 'STX4', 'VAMP8', 'ARF1'], 9).

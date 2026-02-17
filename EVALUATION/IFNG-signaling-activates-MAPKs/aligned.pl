@@ -20,7 +20,6 @@ no_aligned(none).
 
 aligned_as('IFNG', ['IFNG', 'IFNG1']).
 aligned_as('IFNGR1', ['IFNGR1', 'IFNGR1L']).
-aligned_as('JAK2', ['JAK2', 'JAK2B']).
 aligned_as('MAPK1', ['MAPK1', 'MAPK3']).
 
 % General report of aligned and no aligned objects: 
@@ -29,6 +28,6 @@ aligned_objs(['IFNG', 'IFNGR1', 'IFNGR2', 'JAK1', 'JAK2', 'MAPK1', 'MAPK3', 'RAF
 
 no_aligned_objs([], 0).
 
-aligned_as(['IFNG', 'IFNGR1', 'JAK2', 'MAPK1'], 4).
+aligned_as(['IFNG', 'IFNGR1', 'MAPK1'], 3).
 
-aligned_and_alternatives(['IFNG', 'JAK2', 'IFNGR1L', 'MAPK3', 'RAF1', 'MAPK1', 'IFNGR2', 'JAK1', 'IFNG1', 'JAK2B', 'IFNGR1'], 11).
+aligned_and_alternatives(['MAPK1', 'IFNGR1', 'IFNGR1L', 'RAF1', 'IFNG1', 'JAK2', 'MAPK3', 'JAK1', 'IFNG', 'IFNGR2'], 10).

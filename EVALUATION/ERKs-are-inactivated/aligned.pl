@@ -33,4 +33,4 @@ no_aligned_objs([], 0).
 
 aligned_as(['MAPK1'], 1).
 
-aligned_and_alternatives(['PPP2R1B', 'DUSP6', 'MAPK3', 'PPP2R1A', 'MAPK14', 'VRK3', 'DUSP7', 'DUSP4', 'MAPK7', 'PPP2R5D', 'MAPK1', 'DUSP3', 'PPP2CB', 'PPP2CA'], 14).
+aligned_and_alternatives(['DUSP6', 'PPP2R1B', 'PPP2R1A', 'PPP2CB', 'MAPK3', 'DUSP4', 'DUSP7', 'MAPK7', 'DUSP3', 'MAPK1', 'VRK3', 'MAPK14', 'PPP2R5D', 'PPP2CA'], 14).

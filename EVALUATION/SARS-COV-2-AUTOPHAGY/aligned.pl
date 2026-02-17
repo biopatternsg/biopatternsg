@@ -2,6 +2,8 @@
 
 % Aligned objects: 
 
+aligned('MAP1LC3B').
+aligned('TUFM').
 aligned('VPS11').
 aligned('VPS16').
 aligned('VPS18').
@@ -13,20 +15,19 @@ aligned('VPS45').
 
 % No aligned objects: 
 
-no_aligned('MAP1LC3B').
-no_aligned('TUFM').
+no_aligned(none).
+
 
 % User's objects with alternative alignments: 
 
-aligned_as('VPS11', ['VPS11', 'PEP5']).
-aligned_as('VPS39', ['VPS39', 'VAM6']).
+aligned_as(none, none).
 
 % General report of aligned and no aligned objects: 
 
-aligned_objs(['VPS11', 'VPS16', 'VPS18', 'VPS33A', 'VPS33B', 'VPS39', 'VPS41', 'VPS45'], 8).
+aligned_objs(['MAP1LC3B', 'TUFM', 'VPS11', 'VPS16', 'VPS18', 'VPS33A', 'VPS33B', 'VPS39', 'VPS41', 'VPS45'], 10).
 
-no_aligned_objs(['MAP1LC3B', 'TUFM'], 2).
+no_aligned_objs([], 0).
 
-aligned_as(['VPS11', 'VPS39'], 2).
+aligned_as([], 0).
 
-aligned_and_alternatives(['VPS18', 'VPS39', 'VPS16', 'VPS41', 'VPS45', 'PEP5', 'VPS11', 'VAM6', 'VPS33A', 'VPS33B'], 10).
+aligned_and_alternatives(['VPS33B', 'TUFM', 'VPS39', 'VPS41', 'VPS33A', 'VPS45', 'VPS18', 'VPS11', 'MAP1LC3B', 'VPS16'], 10).

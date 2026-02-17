@@ -33,4 +33,4 @@ no_aligned_objs([], 0).
 
 aligned_as([], 0).
 
-aligned_and_alternatives(['BECN1', 'PIK3C3', 'CHMP4A', 'CHMP2A', 'CHMP4B', 'CHMP6', 'MAP1LC3B', 'CHMP3', 'CHMP2B', 'UVRAG', 'CHMP7', 'CHMP4C', 'PIK3R4'], 13).
+aligned_and_alternatives(['CHMP2A', 'BECN1', 'MAP1LC3B', 'CHMP4B', 'CHMP7', 'CHMP4A', 'PIK3R4', 'UVRAG', 'CHMP3', 'CHMP2B', 'CHMP4C', 'PIK3C3', 'CHMP6'], 13).
