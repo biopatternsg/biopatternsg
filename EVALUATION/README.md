@@ -58,8 +58,8 @@ in the EVALUATION folder.
 The output when running the script must look like this:
 
 aligned.py:
-Reporting the alignments of the user's objects with the names from PubTator:
-****************************************************************************
+Reporting the alignments of the references objects with the names from PubTator:
+*******************************************************************************
 
 100%|██████████| 30/30 [00:00<00:00, 1674.93it/s]
 
@@ -83,6 +83,11 @@ When finished (it may take a few seconds), it will leave the file kbSif.pl
 used to compare later on the golden reference with kBase.pl.
 
 # codes.py: Getting the chebi names for the chebi codes in each experiment.
+
+This script is necessary to produce the chebi_names.pl file used later on
+to run the evaluations for Table 9 and Table 11. The chebi_names.pl file
+describes the small molecules that are present in each network coming
+from Pathways Commons.
 
 The codes.py script was tested with Python 3.12.4
 and requires the tqdm python package. In order to
