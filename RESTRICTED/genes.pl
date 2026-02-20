@@ -1767,7 +1767,6 @@ protein('CHAF1A').
 protein('DDB1').
 protein('PTPN2').
 protein('UL41').
-protein('C\'').
 protein('DCST1').
 protein('NLRX1').
 protein('SRF').
