@@ -128,7 +128,7 @@ def aligned(eval_path: str, experiment: str, files_needed: list):
     path_to_chebi_names = eval_path + experiment + "/" + files_needed[0] # chebi file
     path_to_expert_objects = eval_path + experiment + "/" + files_needed[1] # "expert_objects.txt"
     path_to_kBase = eval_path + experiment + "/" + files_needed[2]# "kBase.pl"
-    path_to_aligned = eval_path + experiment + "/" + files_needed[3] # "aligned.pl"
+    path_to_aligned = eval_path + experiment + "/" + files_needed[3] # "aligned_r.pl"
 
     path_to_report_alignments = eval_path + experiment + "/" + "report_alignments.txt"
 
@@ -175,7 +175,7 @@ if __name__ == '__main__':
     Script to get the synonyms for the objects in the EVALUATION folder.
     """
 
-    print('\n' + f'codes.py:')
+    print('\n' + f'aligned.py:')
     print(f'Reporting the alignments of the user\'s objects with the names from PubTator: ')
     print(f'****************************************************************************' + '\n')
 
@@ -194,7 +194,7 @@ if __name__ == '__main__':
 
     experiments_failing = []
 
-    files_needed = ["chebi_names.pl", "expert_objects.txt", "kBase.pl", "aligned.pl"]
+    files_needed = ["chebi_names.pl", "expert_objects.txt", "kBase.pl", "aligned_r.pl"]
 
     for experiment in experiments:
         experiment_path =  evaluation_path + experiment
