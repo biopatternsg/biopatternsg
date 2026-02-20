@@ -38,7 +38,7 @@ $ swipl
 
 When finished (it may take a few seconds), it will leave the file report_simple.txt
 
-# aligned.py: Script to report the aligned objects from the user w.r.t the objects in the knowledge base kBase.pl.
+# aligned.py: Script to report the aligned objects from the reference w.r.t the objects in the knowledge base kBase.pl.
 
 The aligned.py script was tested with Python 3.12.4
 and requires the tqdm python package. In order to
@@ -63,7 +63,9 @@ Reporting the alignments of the user's objects with the names from PubTator:
 
 100%|██████████| 30/30 [00:00<00:00, 1674.93it/s]
 
-# Saving the ref sif in Prolog format (necessary if you only want to get the kbSif.pl file for a particular experiment.
+# Saving the ref sif in Prolog format.
+
+Necessary if you only want to get the kbSif.pl file for a particular experiment.
 
 cd into corresponding folder
 
