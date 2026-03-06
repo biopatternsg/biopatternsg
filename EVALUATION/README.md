@@ -38,7 +38,10 @@ $ swipl
 
 When finished (it may take a few seconds), it will leave the file report_simple.txt
 
-# aligned.py: Script to report the aligned objects from the reference w.r.t the objects in the knowledge base kBase.pl.
+# Running the evaluation regarding Table 8
+
+# aligned.py:
+Script to report the aligned objects from the reference w.r.t the objects in the knowledge base kBase.pl.
 
 The aligned.py script was tested with Python 3.12.4
 and requires the tqdm python package. In order to
