@@ -40,7 +40,7 @@ Reporting the alignments of the references objects with the names from PubTator:
 
 100%|██████████| 30/30 [00:00<00:00, 1674.93it/s]
 
-# Running a level 2 evaluation for and experiment in Table 9
+# Running a level 2 evaluation for and experiment in Table 9.
 
 cd EVALUATION
 
@@ -60,7 +60,7 @@ When finished (it may take a few seconds), it will leave the file report.txt
 
 ?- halt.
 
-# Running a level 3 evaluation for and experiment in Table 11
+# Running a level 3 evaluation for and experiment in Table 11.
 
 cd EVALUATION
 
