@@ -1,8 +1,7 @@
 # Regarding the evaluation statistics reported in the paper.
 
 The file named Evaluation-Statistics-TP-FP-FN-P-R-F1.ods contains
-the tables 8, 9, 11, 12, 13, 14, and 15 reported in the paper, and they
-describe the three evaluation levels presented in our work.
+the evaluation tables 8, 9, 11, 12, 13, 14, and 15 reported in the paper.
 
 Table 8 - Evaluation level 1.
 
