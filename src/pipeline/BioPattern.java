@@ -165,7 +165,7 @@ public class BioPattern {
 
         new Resumidor().resumidor(config, "");
 
-        String base_conocimiento = new GeneradorBC().generadorBC("kBase.pl", config, "");
+        new GeneradorBC().generadorBC(config, "");
 
         //Se infieren los distintos patrones de regulacion para la secuencia problema.
         new Razonador().inferir_patrones("kBase.pl", config, "");

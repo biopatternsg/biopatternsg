@@ -115,31 +115,45 @@ public class objetos_patrones {
         Query q2 = new Query(consulta);
         Map<String, Term>[] solutions = q2.allSolutions();
         for (int i = 0; i < solutions.length; i++) {
+            /*
+            String separa[] = solutions[i].toString().split(",");
 
-            try {
-                
-                String separa[] = solutions[i].toString().split(",");
+            String separa1[] = separa[0].split("=");
 
-                String separa1[] = separa[0].split("=");
+            String objeto = separa1[1].replace("'", "");
 
-                String objeto = separa1[1].replace("'", "");
-
-                if (!lista.contains(objeto)) {
-                    lista.add(objeto);
-                }
-
-                String separa2[] = separa[1].split("=");
-
-                objeto = separa2[1].replace("'", "");
-                objeto = objeto.replace("}", "");
-
-                if (!lista.contains(objeto)) {
-                    lista.add(objeto);
-                }
-
-            } catch (Exception e) {
-
+            if (!lista.contains(objeto)) {
+                lista.add(objeto);
             }
+
+            String separa2[] = separa[1].split("=");
+
+            objeto = separa2[1].replace("'", "");
+            objeto = objeto.replace("}", "");
+
+            if (!lista.contains(objeto)) {
+                lista.add(objeto);
+            }
+             */
+            Term termA = solutions[i].get("A");
+            if (termA != null) {
+                var name = termA.name();
+                name = name.replace("'", "\\'");
+                if (!lista.contains(name)) {
+                    lista.add(name);
+                }
+            }
+            
+            Term termB = solutions[i].get("B");
+            if (termB != null) {
+                var name = termB.name();
+                name = name.replace("'", "\\'");
+                if (!lista.contains(name)) {
+                    lista.add(name);
+                }
+            }
+
+
 
         }
 

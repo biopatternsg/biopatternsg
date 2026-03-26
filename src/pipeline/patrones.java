@@ -73,7 +73,7 @@ public class patrones {
         kbase_update(config, ruta);
         }
         }
-        */
+         */
         // System.out.println(objRestricion);
         borrar_archivo(ruta + "/pathways.txt");
         borrar_archivo(ruta + "/pathways.db");
@@ -107,11 +107,11 @@ public class patrones {
             if (!FT.contains(sep[0])) {
                 FT.add(sep[0]);
             }
-            
+
             if (!objCierre.contains(sep[2])) {
                 objCierre.add(sep[2]);
             }
-            
+
             //System.out.println("evento fin:  " + fin);
         });
         //patrones de 2 eventos
@@ -120,7 +120,7 @@ public class patrones {
         guardar_Patron(ruta);
         config.setInferirPatrones(true);
         config.guardar(ruta);
-        
+
         // Una vez que se han inferido los patrones, el siguiente metodo extrae desde pathways.txt todos los eventos que participan en ellos.
         // Para cada evento se indaga en la BC docimentada kBaseDoc y se extraen todas las oraciones posibles asociadas a los mismos.
         // El resultado de este metodo es el archivo eventsDocs.txt. Ek usuario puede proceder a etiquetas cada evento como Positivo, Falso o
@@ -134,29 +134,25 @@ public class patrones {
         }
 
     }
-    
+
     private void generate_KB_pathways(String ruta) throws IOException {
-        
+
         //  Este metodo permite generar la KB de eventos presentes en las rutas de señalización
-                
         ProcessBuilder builder = new ProcessBuilder("python3", "scripts/kb_pathways.py", ruta);
 
         Map<String, String> env = builder.environment();
 
         // Set working directory
-
         String workingDir = System.getProperty("user.dir");
 
         builder.directory(new File(workingDir));
 
         // Start process and get output
-
         Process process = builder.start();
 
         InputStream out = process.getInputStream();
 
         // Convert output stream into a readable format
-
         BufferedReader br = new BufferedReader(new InputStreamReader(out));
 
         String line;
@@ -164,9 +160,9 @@ public class patrones {
         while ((line = br.readLine()) != null) {
 
             System.out.println(line);
-            
+
         }
-            
+
     }
 
     public void events_documentation(configuracion config, String ruta) throws IOException {
@@ -494,8 +490,8 @@ public class patrones {
 
                         pathwaysDoc.print("---------------------------------------------------: " + "\n" + "\n");
 
-                        pathwaysDoc.print("PATHWAY: " + numPathway + "\n" );
-                         pathwaysDoc.print( line + "\n" + "\n");
+                        pathwaysDoc.print("PATHWAY: " + numPathway + "\n");
+                        pathwaysDoc.print(line + "\n" + "\n");
 
                         events = line.split(";");
 
@@ -527,7 +523,7 @@ public class patrones {
                                 }
 
                                 boolean contains;
-                                
+
                                 for (Object v : relats) {
 
                                     event = "event(" + eventSplitted[0] + "," + v + "," + eventSplitted[2] + ")";
@@ -981,9 +977,12 @@ public class patrones {
                 System.out.print(utilidades.idioma.get(87) + "\n");
                 String objeto = lectura.nextLine();
                 if (!objeto.equals("")) {
-                    String sep[] = objeto.split(",");
+                    String sep[] = objeto.split(";");
                     for (int i = 0; i < sep.length; i++) {
-                        String obj = sep[i].replace("'", "");
+                        sep[i] = sep[i].trim();
+                    }
+                    for (String sep1 : sep) {
+                        String obj = sep1.replace("'", "\\'");
                         obj = "'" + obj + "'";
                         objetos.add(obj);
                     }
@@ -1456,8 +1455,7 @@ public class patrones {
         even = obj1 + "," + eve + "," + obj2;
 
         return even;
-    }   
-   
+    }
 
     public void resumirBaseC(String ruta) {
         borrar_archivo(ruta + "/kBaseR.pl");
@@ -1554,5 +1552,5 @@ public class patrones {
 
         return sinonimo;
     }
-    
+
 }

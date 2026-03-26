@@ -89,7 +89,7 @@
         <m n="84">Saving combinaciones.db failed...</m>
         <m n="85">Do you want to use a reduced knowledge base?  .. (Y/N): </m>
         <m n="86">Do you want to limit the objects in the pathways to a specific list?  ..(Y/N): </m>
-        <m n="87">Provide a list of objects' symbols separated by (,): for example: EGF,EGFR,Ras,CREB,SST</m>
+        <m n="87">Provide a list of objects' symbols separated by (;): for example: EGF;EGFR;Ras;CREB;SST</m>
         <m n="88">Provide a valid list...</m>
         <m n="89">Do you want to provide a symbol object to finish the pathways? ..(Y/N): </m>
         <m n="90">Provide the object name: </m>
