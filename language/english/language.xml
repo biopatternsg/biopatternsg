@@ -89,7 +89,7 @@
         <m n="84">Saving combinaciones.db failed...</m>
         <m n="85">Do you want to use a reduced knowledge base?  .. (Y/N): </m>
         <m n="86">Do you want to limit the objects in the pathways to a specific list?  ..(Y/N): </m>
-        <m n="87">Provide a list of objects' symbols separated by (,): for example: EGF,EGFR,Ras,CREB,SST</m>
+        <m n="87">Provide a list of objects' symbols separated by (;): for example: EGF;EGFR;Ras;CREB;SST</m>
         <m n="88">Provide a valid list...</m>
         <m n="89">Do you want to provide a symbol object to finish the pathways? ..(Y/N): </m>
         <m n="90">Provide the object name: </m>
@@ -160,8 +160,11 @@
         <m n="155">5.- Generating pathways' documentation.</m>
         <m n="156">4.- Run the system from</m>
         <m n="157">Search for events from Pubtator3</m>
-        <m n="158">Select search source for TF: </m>
+        <m n="158">Select search source for Transcription Factors: </m>
         <m n="159">Select search coordinates in Jaspar: </m>
         <m n="160">Select to search: </m>
+        <m n="161">Chromosome for Transcription Factors search: </m>
+        <m n="162">Start coordinate for Transcription Factors search: </m>
+        <m n="163">Final coordinate for Transcription Factors search: </m>
     </menu1>
 </root>

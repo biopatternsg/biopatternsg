@@ -89,7 +89,7 @@
         <m n="84">Error al guardar combinaciones.db...</m>
         <m n="85">¿Desea usar una base de conocimiento reducida? ..S/N:</m>
         <m n="86">¿Desea restringir los patrones a un listado de objetos específicos? ..S/N: </m>
-        <m n="87">Ingrese un listado de objetos separados por (,): Ejemplo: EGF,EGFR,Ras,CREB,SST</m>
+        <m n="87">Ingrese un listado de objetos separados por (;): Ejemplo: EGF;EGFR;Ras;CREB;SST</m>
         <m n="88">Debe ingresar un listado valido</m>
         <m n="89">¿Desea agregar objeto de cierre a los patrones?..S/N:</m>
         <m n="90">Ingrese el nombre del objeto:</m>
@@ -160,9 +160,12 @@
         <m n="155">5.- Documentar los patrones de regulación.</m>
         <m n="156">4.- Reanudar desde.</m>
         <m n="157">Buscando eventos biologicos Pubtator3</m>
-        <m n="158">Seleccionar fuente de búsqueda para TF: </m>
+        <m n="158">Seleccionar fuente de búsqueda para Factores de Transcripcion: </m>
         <m n="159">Seleccione coordenadas de busqueda en Jaspar: </m>
         <m n="160">Seleccione uno para buscar: </m>
+        <m n="161">Ingrese cromosoma para busqueda de Factores de Transcripcion: </m>
+        <m n="162">Ingrese coordenada de inicio para busqueda de Factores de Transcripcion: </m>
+        <m n="163">Ingrese coordenada de fin para busqueda de Factores de Transcripcion: </m>
        </menu1>
     
         
