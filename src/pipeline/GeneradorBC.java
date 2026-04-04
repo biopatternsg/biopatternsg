@@ -22,6 +22,7 @@ package pipeline;
  */
 import configuracion.configuracion;
 import configuracion.utilidades;
+import java.io.*;
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.File;
@@ -32,7 +33,9 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.io.PrintWriter;
+import java.util.ArrayList;
 import java.util.Map;
+import java.util.Scanner;
 import java.util.Vector;
 import java.util.logging.Level;
 import java.util.logging.Logger;
@@ -50,39 +53,45 @@ public class GeneradorBC {
         //baseC.generador("ENSG00000157005SST1-gen-comparable-1-salida.txt");
         //baseC.generador("abstracts-experimento-SRIF-26112015-Part-I-II-salida.txt");
         configuracion config = new configuracion();
-        generador.generadorBC("kBase.pl", config, "");
+        generador.generadorBC(config, "");
 
     }
-    
-  public String generadorBC(String baseC, configuracion config, String ruta) throws FileNotFoundException, IOException, StringIndexOutOfBoundsException, Exception {
-        
+
+    public void generadorBC(configuracion config, String ruta) throws FileNotFoundException, IOException, StringIndexOutOfBoundsException, Exception {
+
         utilidades.texto_carga = "";
         utilidades.momento = "";
         utilidades.texto_etapa = utilidades.idioma.get(152);
         new utilidades().carga();
-        
-
-         // Specify the command to be executed         
-
-                
-        ProcessBuilder builder = new ProcessBuilder("python3", "scripts/kb_generator.py", ruta);
-
-        Map<String, String> env = builder.environment();
 
         // Set working directory
-
         String workingDir = System.getProperty("user.dir");
+
+        String kindOfRestriction = menuKindOfRestrictionKB();
+
+        String restricted_list = "";
+
+        if ("R".equals(kindOfRestriction) || "V".equals(kindOfRestriction)) {
+
+            restricted_list = menuRestrictionObjetsKB();
+
+        }
+
+        System.out.print("\n" + "Getting events from PubTator\'s metadata, please wait...." + "\n");
+
+        // Specify the command to be executed         
+        ProcessBuilder builder = new ProcessBuilder("python3", "scripts/kb_generator.py", ruta, kindOfRestriction, restricted_list, workingDir);
+
+        Map<String, String> env = builder.environment();
 
         builder.directory(new File(workingDir));
 
         // Start process and get output
-
         Process process = builder.start();
 
         InputStream out = process.getInputStream();
 
         // Convert output stream into a readable format
-
         BufferedReader br = new BufferedReader(new InputStreamReader(out));
 
         String line;
@@ -90,14 +99,78 @@ public class GeneradorBC {
         while ((line = br.readLine()) != null) {
 
             System.out.println(line);
-            
+
         }
-    
+
         config.setGenerarBC(true);
         config.guardar(ruta);
-        return baseC;
 
-    }     
+    }
+
+
+    //Se ingresan los objetos que vana restringir la KB
+    private String menuRestrictionObjetsKB() {
+
+        String objetos = "";
+        Scanner lectura = new Scanner(System.in);
+        boolean r = false;
+
+        while (true) {
+
+            System.out.print(utilidades.idioma.get(87) + "\n");
+            objetos = lectura.nextLine();
+            if (!objetos.equals("")) {
+                break;
+
+            } else {
+                System.out.println(utilidades.idioma.get(88));
+            }
+
+        }
+
+        return objetos;
+    }
+
+    //Se ingresan los objetos que vana restringir la KB
+    private String menuKindOfRestrictionKB() {
+
+        String kindOfRestriction = "";
+        Scanner lectura = new Scanner(System.in);
+        boolean r = false;
+
+        while (true) {
+            //System.out.print(utilidades.idioma.get(86));
+            System.out.print("Do you want to restrict the knowledge base of events (Y | N): ");
+            String resp = lectura.nextLine();
+            if (resp.equalsIgnoreCase("s") || resp.equalsIgnoreCase("y")) {
+                r = true;
+                break;
+            } else if (resp.equalsIgnoreCase("n")) {
+                kindOfRestriction = resp.toUpperCase();
+                break;
+            } else {
+                System.out.println(utilidades.idioma.get(53));
+            }
+        }
+
+        if (r) {
+            while (true) {
+                // System.out.print(utilidades.idioma.get(87) + "\n");
+                System.out.print("Please, set the kind of restriction (R | V): ");
+                String resp = lectura.nextLine();
+                if (resp.equalsIgnoreCase("R") || resp.equalsIgnoreCase("V")) {
+                    kindOfRestriction = resp.toUpperCase();
+                    break;
+                } else {
+                    //System.out.println(utilidades.idioma.get(53));
+                    System.out.println("Your answer must be R or V");
+                }
+            }
+
+        }
+
+        return kindOfRestriction;
+    }
 
     public String generadorBC_old(String baseC, configuracion config, String ruta) throws FileNotFoundException, IOException, StringIndexOutOfBoundsException, Exception {
         utilidades.texto_carga = "";

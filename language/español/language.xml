@@ -89,7 +89,7 @@
         <m n="84">Error al guardar combinaciones.db...</m>
         <m n="85">¿Desea usar una base de conocimiento reducida? ..S/N:</m>
         <m n="86">¿Desea restringir los patrones a un listado de objetos específicos? ..S/N: </m>
-        <m n="87">Ingrese un listado de objetos separados por (,): Ejemplo: EGF,EGFR,Ras,CREB,SST</m>
+        <m n="87">Ingrese un listado de objetos separados por (;): Ejemplo: EGF;EGFR;Ras;CREB;SST</m>
         <m n="88">Debe ingresar un listado valido</m>
         <m n="89">¿Desea agregar objeto de cierre a los patrones?..S/N:</m>
         <m n="90">Ingrese el nombre del objeto:</m>

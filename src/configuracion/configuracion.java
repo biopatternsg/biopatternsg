@@ -500,7 +500,7 @@ public class configuracion {
                 mfts.vaciar_bc_pl(crearOntologiaGO, crearOntologiaMESH, this, ruta);
                
                 try {
-                    String base_conocimiento = new GeneradorBC().generadorBC("kBase.pl", this, ruta);
+                    new GeneradorBC().generadorBC(this, ruta);
                     objetos_patrones objetos_patrones = new objetos_patrones();
                     objetos_patrones.generar_archivo(this, ruta);
                 } catch (Exception e) {
@@ -518,7 +518,7 @@ public class configuracion {
                 mfts.vaciar_bc_pl(crearOntologiaGO, crearOntologiaMESH, this, ruta);
               
                 try {
-                    String base_conocimiento = new GeneradorBC().generadorBC("kBase.pl", this, ruta);
+                    new GeneradorBC().generadorBC(this, ruta);
                     objetos_patrones objetos_patrones = new objetos_patrones();
                     objetos_patrones.generar_archivo(this, ruta);
                 } catch (Exception e) {
@@ -537,7 +537,7 @@ public class configuracion {
                 mfts.vaciar_bc_pl(crearOntologiaGO, crearOntologiaMESH, this, ruta);
                
                 try {
-                    String base_conocimiento = new GeneradorBC().generadorBC("kBase.pl", this, ruta);
+                    new GeneradorBC().generadorBC(this, ruta);
                     objetos_patrones objetos_patrones = new objetos_patrones();
                     objetos_patrones.generar_archivo(this, ruta);
                 } catch (Exception e) {
@@ -553,7 +553,7 @@ public class configuracion {
                 mfts.vaciar_bc_pl(crearOntologiaGO, crearOntologiaMESH, this, ruta);
                
                 try {
-                    String base_conocimiento = new GeneradorBC().generadorBC("kBase.pl", this, ruta);
+                    new GeneradorBC().generadorBC(this, ruta);
                     objetos_patrones objetos_patrones = new objetos_patrones();
                     objetos_patrones.generar_archivo(this, ruta);
                 } catch (Exception e) {
@@ -568,7 +568,7 @@ public class configuracion {
                 mfts.vaciar_bc_pl(crearOntologiaGO, crearOntologiaMESH, this, ruta);
                 
                 try {
-                    String base_conocimiento = new GeneradorBC().generadorBC("kBase.pl", this, ruta);
+                    new GeneradorBC().generadorBC(this, ruta);
                     objetos_patrones objetos_patrones = new objetos_patrones();
                     objetos_patrones.generar_archivo(this, ruta);
                 } catch (Exception e) {
@@ -581,7 +581,7 @@ public class configuracion {
                 mfts.vaciar_bc_pl(crearOntologiaGO, crearOntologiaMESH, this, ruta);
                
                 try {
-                    String base_conocimiento = new GeneradorBC().generadorBC("kBase.pl", this, ruta);
+                    new GeneradorBC().generadorBC(this, ruta);
                     objetos_patrones objetos_patrones = new objetos_patrones();
                     objetos_patrones.generar_archivo(this, ruta);
                 } catch (Exception e) {
@@ -593,7 +593,7 @@ public class configuracion {
                 mfts.vaciar_bc_pl(crearOntologiaGO, crearOntologiaMESH, this, ruta);
                
                 try {
-                    String base_conocimiento = new GeneradorBC().generadorBC("kBase.pl", this, ruta);
+                    new GeneradorBC().generadorBC(this, ruta);
                     objetos_patrones objetos_patrones = new objetos_patrones();
                     objetos_patrones.generar_archivo(this, ruta);
                 } catch (Exception e) {
@@ -604,7 +604,7 @@ public class configuracion {
                 mfts.vaciar_bc_pl(crearOntologiaGO, crearOntologiaMESH, this, ruta);
                
                 try {
-                    String base_conocimiento = new GeneradorBC().generadorBC("kBase.pl", this, ruta);
+                    new GeneradorBC().generadorBC(this, ruta);
                     objetos_patrones objetos_patrones = new objetos_patrones();
                     objetos_patrones.generar_archivo(this, ruta);
                 } catch (Exception e) {
@@ -623,7 +623,7 @@ public class configuracion {
                 break;*/
             case 10:
                 try {
-                    String base_conocimiento = new GeneradorBC().generadorBC("kBase.pl", this, ruta);
+                    new GeneradorBC().generadorBC(this, ruta);
                     objetos_patrones objetos_patrones = new objetos_patrones();
                     objetos_patrones.generar_archivo(this, ruta);
                 } catch (Exception e) {

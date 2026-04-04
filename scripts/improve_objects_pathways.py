@@ -8,18 +8,19 @@ if __name__ == '__main__':
     Regarding this, we add all the new biotypes coming from PubTator to the pathwaysObjects.pl file.
     """
 
-    print("\n" + f'Improving pathwaysObjects.pl ...' + "\n")
+    # print("\n" + f'Improving pathwaysObjects.pl ...' + "\n")
 
     # Setting the main folders
-
+    """
     for arg in sys.argv:
         print(f'{arg}')
+    """
 
     root = sys.argv[1]
 
     cwd = os.getcwd()
 
-    print(f'root: {root}')
+    # print(f'root: {root}')
 
     pathways_objects_path = root + '/pathwaysObjects.pl'
     biotypes_objects_path = root + '/biotypes.pl'
