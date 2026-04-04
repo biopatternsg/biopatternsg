@@ -554,6 +554,7 @@ public class confGeneral {
                 String regProm = config.IngresarRegionPromotora();
                 int metodoBusquedaFT = config.ingresarMetodoBusquedaDeFT();
                 float conf = config.IngresarConfiabilidad();
+                String genomaFTSearch = metodoBusquedaFT == 2 || metodoBusquedaFT == 3 ? config.genomeFTSearch(): "";
                 String chrom = metodoBusquedaFT == 2 || metodoBusquedaFT == 3 ? config.chromosoma() : "";
                 int inicioCadena = metodoBusquedaFT == 2 || metodoBusquedaFT == 3 ? config.coordenadaInicioDeCadena() : 0;
                 int finCadena = metodoBusquedaFT == 2 || metodoBusquedaFT == 3 ? config.coordenadaFinDeCadena() : 0;
@@ -575,7 +576,7 @@ public class confGeneral {
                 config.guardarConfiguracion(regProm, iteraciones, cantObjs, conf, GO, MESH, nombreCorto, cantPMID, rutaPMidExp, ruta, metodoBusquedaFT);
 
                 //este metodo ejecuta el proceso de busqueda de informacion desde objetos del experto, homologos y los objetos encontrados en los diferentes niveles de busqueda
-                mfts.minado(regProm, conf, iteraciones, cantObjs, GO, MESH, config, ruta, rutaD, metodoBusquedaFT, chrom, inicioCadena, finCadena);
+                mfts.minado(regProm, conf, iteraciones, cantObjs, GO, MESH, config, ruta, rutaD, metodoBusquedaFT, chrom, inicioCadena, finCadena, genomaFTSearch);
 
                 //este metodo genera todas las combinaciones de objetos encontrados en el proceso anterior y guarda las ombinaciones en 'mineria/combinations.db'
                 new combinaciones().generar_combinaciones(false, config, ruta, nombreCorto);
