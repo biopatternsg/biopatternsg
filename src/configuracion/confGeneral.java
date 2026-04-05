@@ -260,9 +260,12 @@ public class confGeneral {
                     System.out.println((i + 1) + ".- " + procesos.get(i));
                 }
             }
+            
+            /*
+            Se oculta la opcion para integrar redes
             if (procesos.size() > 1) {
                 System.out.println("\n" + utilidades.idioma.get(11));
-            }
+            }*/
             // System.out.println("\nN.-Crear un nuevo proceso");
             System.out.println(utilidades.idioma.get(4));
             String resp = lectura.nextLine();
@@ -284,9 +287,11 @@ public class confGeneral {
 //                String ruta = "mineria/redes/" + red + "/" + proceso;
 //                pipeline(ruta);
 //            }
-            if (resp.equalsIgnoreCase("I")) {
+            
+            //Se oculta la opcion para integrar redes
+            /*if (resp.equalsIgnoreCase("I")) {
                 integrarRed(red, procesos);
-            }
+            }*/
 
             if (resp.equals("0")) {
                 r = false;
