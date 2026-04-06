@@ -54,14 +54,14 @@ public class lecturas_TFBIND {
         this.cadena = cadena;
     }
 
-    public lecturas_TFBIND(String ruta, float confiabilidad, int metodoBusqueda, String chrom, int coodenadaInicio, int coordenadaFin) throws IOException {
+    public lecturas_TFBIND(String ruta, float confiabilidad, int metodoBusqueda, String chrom, int coodenadaInicio, int coordenadaFin, String genomaFTSearch) throws IOException {
 
         BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
-        leer_de_archivo(ruta, confiabilidad, metodoBusqueda, chrom, coodenadaInicio, coordenadaFin);
+        leer_de_archivo(ruta, confiabilidad, metodoBusqueda, chrom, coodenadaInicio, coordenadaFin, genomaFTSearch);
 
     }
 
-    public ArrayList<lecturas_TFBIND> leer_de_archivo(String ruta, float confiabilidad, int metodoDeBusqueda, String chrom, int coodenadaInicio, int coordenadaFin ){
+    public ArrayList<lecturas_TFBIND> leer_de_archivo(String ruta, float confiabilidad, int metodoDeBusqueda, String chrom, int coodenadaInicio, int coordenadaFin, String genomaFTSearch){
 
         ArrayList<lecturas_TFBIND> lecturasTFBIND = new ArrayList<>();
         ArrayList<lecturas_TFBIND> lecturasJaspar = new ArrayList<>();
@@ -90,8 +90,7 @@ public class lecturas_TFBIND {
               
                 //Busqueda en JASPAR
                 if(metodoDeBusqueda == 2 || metodoDeBusqueda == 3) {
-                    //TODO: debo mandarle las coordenadas y el chromosoma
-                    lecturasJaspar = lecturas_Jaspar(metodo, confiabilidad, control_factores, chrom, coodenadaInicio, coordenadaFin);
+                    lecturasJaspar = lecturas_Jaspar(metodo, confiabilidad, control_factores, chrom, coodenadaInicio, coordenadaFin, genomaFTSearch);
                 }
 
             }
@@ -189,14 +188,12 @@ public class lecturas_TFBIND {
         return lecturasTFBind;
     }
     
-     public ArrayList<lecturas_TFBIND> lecturas_Jaspar(String metodo, float confiabilidad, ArrayList<String> control_factores, String chrom, int coodenadaInicio, int coordenadaFin){
+     public ArrayList<lecturas_TFBIND> lecturas_Jaspar(String metodo, float confiabilidad, ArrayList<String> control_factores, String chrom, int coodenadaInicio, int coordenadaFin, String genomaFTSearch){
         ArrayList<lecturas_TFBIND> lecturasJaspar = new ArrayList<>();
         
         try {
      //Buscar en JASPAR
-            URL buscarFTUrl = new URL("https://api.genome.ucsc.edu/getData/track?genome=hg38&track=jaspar2022&chrom=" + 
-                    chrom + 
-                    "&start=" + coodenadaInicio + "&end=" + coordenadaFin);
+            URL buscarFTUrl = new URL("https://api.genome.ucsc.edu/getData/track?genome=" + genomaFTSearch + "&track=jaspar2022&chrom=" + chrom + "&start=" + coodenadaInicio + "&end=" + coordenadaFin);
             
             String linea;
             InputStreamReader isr = new InputStreamReader(buscarFTUrl.openStream());
