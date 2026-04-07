@@ -3825,3 +3825,4 @@ go('protein phosphatase type 1 complex',is_a,'protein serine/threonine phosphata
 go('protein serine/threonine phosphatase complex',is_a,'phosphatase complex').
 go('phosphatase complex',is_a,'catalytic complex').
 go('protein phosphatase type 1 complex',part_of,'cytoplasm').
+go('leukocyte differentiation',part_of,'hemopoiesis').
