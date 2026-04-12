@@ -1,11 +1,11 @@
 DERA
 TALDO1
 TKT
-acetaldehyde
-D-glyceraldehyde 3-phosphate(2-)
+acetaldehyde | acetaldehyde
+D-glyceraldehyde 3-phosphate(2-) | 3-Phosphoglyceraldehyde | glyceraldehyde 3-phosphate
 G6PD
 PGLS
-6-O-phosphono-D-glucono-1,5-lactone
+6-O-phosphono-D-glucono-1,5-lactone | 6-Phosphogluconolactone
 PGD
 RPEL1
 RPE
