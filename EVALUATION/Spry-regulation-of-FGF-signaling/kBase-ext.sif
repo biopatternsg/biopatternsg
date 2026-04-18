@@ -1,0 +1,63 @@
+﻿PARTICIPANT_A	INTERACTION_TYPE	PARTICIPANT_B	INTERACTION_DATA_SOURCE	INTERACTION_PUBMED_ID	PATHWAY_NAMES	MEDIATOR_IDS
+BRAF	in-complex-with	SPRY2	Reactome		Spry regulation of FGF signaling	reactome:Complex6619;reactome:Complex6618
+CBL	in-complex-with	RPS27A	Reactome		Spry regulation of FGF signaling	reactome:Complex6616
+CBL	in-complex-with	SPRY2	Reactome		Spry regulation of FGF signaling	reactome:Complex6616;reactome:Complex6615
+CBL	in-complex-with	UBA52	Reactome		Spry regulation of FGF signaling	reactome:Complex6616
+CBL	in-complex-with	UBB	Reactome		Spry regulation of FGF signaling	reactome:Complex6616
+CBL	in-complex-with	UBC	Reactome		Spry regulation of FGF signaling	reactome:Complex6616
+GRB2	in-complex-with	PPP2CA	Reactome		Spry regulation of FGF signaling	reactome:Complex6614
+GRB2	in-complex-with	PPP2CB	Reactome		Spry regulation of FGF signaling	reactome:Complex6614
+GRB2	in-complex-with	PPP2R1A	Reactome		Spry regulation of FGF signaling	reactome:Complex6614
+GRB2	in-complex-with	SPRY2	Reactome		Spry regulation of FGF signaling	reactome:Complex6614
+MAPK1	controls-state-change-of	BRAF	Reactome	11698404;19690147	Spry regulation of FGF signaling	http://bioregistry.io/reactome:R-HSA-1295634;http://bioregistry.io/reactome:R-HSA-1295627
+MAPK1	controls-phosphorylation-of	SPRY2	Reactome	11698404;19690147	Spry regulation of FGF signaling	http://bioregistry.io/reactome:R-HSA-1295634;http://bioregistry.io/reactome:R-HSA-1295627
+MAPK1	controls-state-change-of	SPRY2	Reactome	11698404;19690147	Spry regulation of FGF signaling	http://bioregistry.io/reactome:R-HSA-1295634;http://bioregistry.io/reactome:R-HSA-1295627
+MAPK3	controls-state-change-of	BRAF	Reactome	11698404;19690147	Spry regulation of FGF signaling	http://bioregistry.io/reactome:R-HSA-1295634;http://bioregistry.io/reactome:R-HSA-1295627
+MAPK3	controls-phosphorylation-of	SPRY2	Reactome	11698404;19690147	Spry regulation of FGF signaling	http://bioregistry.io/reactome:R-HSA-1295634;http://bioregistry.io/reactome:R-HSA-1295627
+MAPK3	controls-state-change-of	SPRY2	Reactome	11698404;19690147	Spry regulation of FGF signaling	http://bioregistry.io/reactome:R-HSA-1295634;http://bioregistry.io/reactome:R-HSA-1295627
+MKNK1	controls-state-change-of	PPP2CA	Reactome	16479008;19690147	Spry regulation of FGF signaling	reactome:Catalysis3741;http://bioregistry.io/reactome:R-HSA-934559
+MKNK1	controls-state-change-of	PPP2CB	Reactome	16479008;19690147	Spry regulation of FGF signaling	reactome:Catalysis3741;http://bioregistry.io/reactome:R-HSA-934559
+MKNK1	controls-state-change-of	PPP2R1A	Reactome	16479008;19690147	Spry regulation of FGF signaling	reactome:Catalysis3741;http://bioregistry.io/reactome:R-HSA-934559
+MKNK1	controls-phosphorylation-of	SPRY2	Reactome	16479008;19690147	Spry regulation of FGF signaling	reactome:Catalysis3741;http://bioregistry.io/reactome:R-HSA-934559
+MKNK1	controls-state-change-of	SPRY2	Reactome	16479008;19690147	Spry regulation of FGF signaling	reactome:Catalysis3741;http://bioregistry.io/reactome:R-HSA-934559
+PPP2CA	in-complex-with	PPP2R1A	Reactome		Spry regulation of FGF signaling	reactome:Complex6609
+PPP2CA	controls-state-change-of	SPRY2	Reactome	17255109	Spry regulation of FGF signaling	http://bioregistry.io/reactome:R-HSA-1295632;reactome:Catalysis3738
+PPP2CA	in-complex-with	SPRY2	Reactome		Spry regulation of FGF signaling	reactome:Complex6608;reactome:Complex6613;reactome:Complex6612;reactome:Complex6611;reactome:Complex6610
+PPP2CB	in-complex-with	PPP2R1A	Reactome		Spry regulation of FGF signaling	reactome:Complex6609
+PPP2CB	controls-state-change-of	SPRY2	Reactome	17255109	Spry regulation of FGF signaling	http://bioregistry.io/reactome:R-HSA-1295632;reactome:Catalysis3738
+PPP2CB	in-complex-with	SPRY2	Reactome		Spry regulation of FGF signaling	reactome:Complex6608;reactome:Complex6613;reactome:Complex6612;reactome:Complex6611;reactome:Complex6610
+PPP2R1A	controls-state-change-of	SPRY2	Reactome	17255109	Spry regulation of FGF signaling	http://bioregistry.io/reactome:R-HSA-1295632;reactome:Catalysis3738
+PPP2R1A	in-complex-with	SPRY2	Reactome		Spry regulation of FGF signaling	reactome:Complex6608;reactome:Complex6613;reactome:Complex6612;reactome:Complex6611;reactome:Complex6610
+PTPN11	controls-state-change-of	GRB2	Reactome	15031289;17993263	Spry regulation of FGF signaling	reactome:Catalysis3742;http://bioregistry.io/reactome:R-HSA-1549564
+PTPN11	controls-transport-of	GRB2	Reactome	15031289;17993263	Spry regulation of FGF signaling	reactome:Catalysis3742;http://bioregistry.io/reactome:R-HSA-1549564
+PTPN11	controls-state-change-of	PPP2CA	Reactome	15031289;17993263	Spry regulation of FGF signaling	reactome:Catalysis3742;http://bioregistry.io/reactome:R-HSA-1549564
+PTPN11	controls-state-change-of	PPP2CB	Reactome	15031289;17993263	Spry regulation of FGF signaling	reactome:Catalysis3742;http://bioregistry.io/reactome:R-HSA-1549564
+PTPN11	controls-state-change-of	PPP2R1A	Reactome	15031289;17993263	Spry regulation of FGF signaling	reactome:Catalysis3742;http://bioregistry.io/reactome:R-HSA-1549564
+PTPN11	controls-state-change-of	SPRY2	Reactome	15031289;17993263	Spry regulation of FGF signaling	reactome:Catalysis3742;http://bioregistry.io/reactome:R-HSA-1549564
+RPS27A	in-complex-with	SPRY2	Reactome		Spry regulation of FGF signaling	reactome:Complex6617;reactome:Complex6616
+SPRY2	in-complex-with	UBA52	Reactome		Spry regulation of FGF signaling	reactome:Complex6617;reactome:Complex6616
+SPRY2	in-complex-with	UBB	Reactome		Spry regulation of FGF signaling	reactome:Complex6617;reactome:Complex6616
+SPRY2	in-complex-with	UBC	Reactome		Spry regulation of FGF signaling	reactome:Complex6617;reactome:Complex6616
+SRC	controls-state-change-of	PPP2CA	Reactome	12815057;15564375;15637081;16479008	Spry regulation of FGF signaling	http://bioregistry.io/reactome:R-HSA-1295609;reactome:Catalysis3739
+SRC	controls-state-change-of	PPP2CB	Reactome	12815057;15564375;15637081;16479008	Spry regulation of FGF signaling	http://bioregistry.io/reactome:R-HSA-1295609;reactome:Catalysis3739
+SRC	controls-state-change-of	PPP2R1A	Reactome	12815057;15564375;15637081;16479008	Spry regulation of FGF signaling	http://bioregistry.io/reactome:R-HSA-1295609;reactome:Catalysis3739
+SRC	controls-phosphorylation-of	SPRY2	Reactome	12815057;15564375;15637081;16479008	Spry regulation of FGF signaling	http://bioregistry.io/reactome:R-HSA-1295609;reactome:Catalysis3739
+SRC	controls-state-change-of	SPRY2	Reactome	12815057;15564375;15637081;16479008	Spry regulation of FGF signaling	http://bioregistry.io/reactome:R-HSA-1295609;reactome:Catalysis3739
+
+PARTICIPANT	PARTICIPANT_TYPE	PARTICIPANT_NAME	UNIFICATION_XREF	RELATIONSHIP_XREF
+SRC	ProteinReference	SRC_HUMAN	uniprot:P12931	hgnc.symbol:SRC;ncbigene:6714
+BRAF	ProteinReference	BRAF_HUMAN	uniprot:P15056	hgnc.symbol:BRAF;ncbigene:673
+PTPN11	ProteinReference	PTN11_HUMAN	uniprot:Q06124	hgnc.symbol:PTPN11;ncbigene:5781
+CBL	ProteinReference	CBL_HUMAN	uniprot:P22681	hgnc.symbol:CBL;ncbigene:867
+PPP2CA	ProteinReference	PP2AA_HUMAN	uniprot:P67775	hgnc.symbol:PPP2CA;ncbigene:5515
+PPP2CB	ProteinReference	PP2AB_HUMAN	uniprot:P62714	hgnc.symbol:PPP2CB;ncbigene:5516
+UBB	ProteinReference	UBB_HUMAN	uniprot:P0CG47	hgnc.symbol:UBB;ncbigene:7314
+PPP2R1A	ProteinReference	2AAA_HUMAN	uniprot:P30153	hgnc.symbol:PPP2R1A;ncbigene:5518
+MKNK1	ProteinReference	MKNK1_HUMAN	uniprot:Q9BUB5	hgnc.symbol:MKNK1;ncbigene:8569
+UBC	ProteinReference	UBC_HUMAN	uniprot:P0CG48	hgnc.symbol:UBC;ncbigene:7316
+SPRY2	ProteinReference	SPY2_HUMAN	uniprot:O43597	hgnc.symbol:SPRY2;ncbigene:10253
+MAPK1	ProteinReference	MK01_HUMAN	uniprot:P28482	hgnc.symbol:MAPK1;ncbigene:5594
+GRB2	ProteinReference	GRB2_HUMAN	uniprot:P62993	hgnc.symbol:GRB2;ncbigene:2885
+RPS27A	ProteinReference	RS27A_HUMAN	uniprot:P62979	hgnc.symbol:RPS27A;ncbigene:6233
+UBA52	ProteinReference	RL40_HUMAN	uniprot:P62987	hgnc.symbol:UBA52;ncbigene:7311
+MAPK3	ProteinReference	MK03_HUMAN	uniprot:P27361	hgnc.symbol:MAPK3;ncbigene:5595

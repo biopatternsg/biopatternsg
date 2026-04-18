@@ -1,0 +1,19 @@
+﻿PARTICIPANT_A	INTERACTION_TYPE	PARTICIPANT_B	INTERACTION_DATA_SOURCE	INTERACTION_PUBMED_ID	PATHWAY_NAMES	MEDIATOR_IDS
+CREBBP	in-complex-with	MAFG	Reactome		NFE2L2 regulates pentose phosphate pathway genes	reactome:Complex9727;reactome:Complex9726
+CREBBP	in-complex-with	NFE2L2	Reactome		NFE2L2 regulates pentose phosphate pathway genes	reactome:Complex9693
+EP300	in-complex-with	MAFG	Reactome		NFE2L2 regulates pentose phosphate pathway genes	reactome:Complex9727;reactome:Complex9726
+EP300	in-complex-with	NFE2L2	Reactome		NFE2L2 regulates pentose phosphate pathway genes	reactome:Complex9693
+MAFG	in-complex-with	NFE2L2	Reactome		NFE2L2 regulates pentose phosphate pathway genes	reactome:Complex9727;reactome:Complex9726
+NFE2L2	controls-production-of	chebi:18420	Reactome	31989830;32284348;32582032;33859744	NFE2L2 regulates pentose phosphate pathway genes	http://bioregistry.io/reactome:R-HSA-9761852;reactome:Control1530
+NFE2L2	controls-production-of	chebi:58937	Reactome	31989830;32284348;32582032;33859744	NFE2L2 regulates pentose phosphate pathway genes	http://bioregistry.io/reactome:R-HSA-9761852;reactome:Control1530
+chebi:18420	chemical-affects	TKT	Reactome		NFE2L2 regulates pentose phosphate pathway genes	reactome:Complex3254
+chebi:58937	chemical-affects	TKT	Reactome		NFE2L2 regulates pentose phosphate pathway genes	reactome:Complex3254
+
+PARTICIPANT	PARTICIPANT_TYPE	PARTICIPANT_NAME	UNIFICATION_XREF	RELATIONSHIP_XREF
+chebi:58937	SmallMoleculeReference	thiamine(1+) diphosphate(3-)	chebi:CHEBI:58937	
+CREBBP	ProteinReference	CBP_HUMAN	uniprot:Q92793	hgnc.symbol:CREBBP;ncbigene:1387
+MAFG	ProteinReference	MAFG_HUMAN	uniprot:O15525	hgnc.symbol:MAFG;ncbigene:4097
+chebi:18420	SmallMoleculeReference	magnesium(2+)	chebi:CHEBI:18420	
+EP300	ProteinReference	EP300_HUMAN	uniprot:Q09472	hgnc.symbol:EP300;ncbigene:2033
+TKT	ProteinReference	TKT_HUMAN	uniprot:P29401	hgnc.symbol:TKT;ncbigene:7086
+NFE2L2	ProteinReference	NF2L2_HUMAN	uniprot:Q16236	hgnc.symbol:NFE2L2;ncbigene:4780

@@ -1,0 +1,31 @@
+DERA
+TALDO1
+TKT
+acetaldehyde | acetaldehyde
+D-glyceraldehyde 3-phosphate(2-) | 3-Phosphoglyceraldehyde | glyceraldehyde 3-phosphate
+G6PD
+PGLS
+6-O-phosphono-D-glucono-1,5-lactone | 6-Phosphogluconolactone
+PGD
+RPEL1
+RPE
+RPIA
+D-ribulose 5-phosphate(2-)
+6-phosphonatooxy-D-gluconate
+PGM2
+2-deoxy-D-ribose 5-phosphate(2-)
+D-ribofuranose 5-phosphate(2-)
+RBKS
+D-xylulose 5-phosphate(2-)
+SHPK
+sedoheptulose 7-phosphate
+D-erythrose 4-phosphate(2-)
+beta-D-fructofuranose 6-phosphate(2-)
+sedoheptulose
+magnesium(2+)
+iron(2+)
+D-ribofuranose
+2-deoxy-alpha-D-ribose 1-phosphate(2-)
+alpha-D-ribose 1-phosphate(2-)
+alpha-D-glucose 6-phosphate(2-)
+thiamine(1+) diphosphate(3-)

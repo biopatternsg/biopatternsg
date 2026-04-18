@@ -1,0 +1,53 @@
+ADPGK
+GPI
+PGM2L1
+adenosine 5'-monophosphate(2-)
+alpha-D-glucose 6-phosphate(2-)
+ALDOA
+GAPDHS
+GAPDH
+TPI1
+glycerone phosphate(2-)
+D-glyceraldehyde 3-phosphate(2-)
+ALDOB
+ALDOC
+BPGM
+2,3-bisphosphoglycerate
+ENO1
+PKLR
+PKM
+phosphonatoenolpyruvate
+ENO2
+ENO3
+ENO4
+PGK1
+PGK2
+3-phosphonato-D-glyceroyl phosphate(4-)
+GCK
+GNPDA1
+PFKL
+PFKM
+PFKP
+ammonium
+beta-D-fructofuranose 6-phosphate(2-)
+GNPDA2
+HK1
+HK2
+HK3
+HKDC1
+beta-D-fructofuranose 1,6-bisphosphate(4-)
+PGAM1
+2-phosphonato-D-glycerate(3-)
+PGAM2
+PGP
+ATP(4-)
+3-phosphonato-D-glycerate(3-)
+alpha-D-glucose 1,6-bisphosphate
+glycerol
+pyruvate
+alpha-D-glucosamine 6-phosphate
+alpha-D-glucose
+ADP(3-)
+magnesium(2+)
+potassium(1+)
+hydrogenphosphate

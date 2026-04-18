@@ -1,0 +1,253 @@
+﻿PARTICIPANT_A	INTERACTION_TYPE	PARTICIPANT_B	INTERACTION_DATA_SOURCE	INTERACTION_PUBMED_ID	PATHWAY_NAMES	MEDIATOR_IDS
+ARAF	in-complex-with	HRAS	Reactome		Negative regulation of MAPK pathway	reactome:Complex8674;reactome:Complex8692;reactome:Complex8691
+ARAF	in-complex-with	KRAS	Reactome		Negative regulation of MAPK pathway	reactome:Complex8674;reactome:Complex8692;reactome:Complex8691
+ARAF	in-complex-with	NRAS	Reactome		Negative regulation of MAPK pathway	reactome:Complex8674;reactome:Complex8692;reactome:Complex8691
+ARAF	in-complex-with	PAQR3	Reactome		Negative regulation of MAPK pathway	reactome:Complex8689
+ARAF	in-complex-with	PEBP1	Reactome		Negative regulation of MAPK pathway	reactome:Complex8673
+ARAF	in-complex-with	RAF1	Reactome		Negative regulation of MAPK pathway	reactome:Complex8674;reactome:Complex8692;reactome:Complex8691
+ARAF	in-complex-with	YWHAB	Reactome		Negative regulation of MAPK pathway	reactome:Complex8674;reactome:Complex8692;reactome:Complex8691
+BRAF	in-complex-with	HRAS	Reactome		Negative regulation of MAPK pathway	reactome:Complex8674;reactome:Complex8692;reactome:Complex8691
+BRAF	in-complex-with	KRAS	Reactome		Negative regulation of MAPK pathway	reactome:Complex8674;reactome:Complex8692;reactome:Complex8691
+BRAF	in-complex-with	NRAS	Reactome		Negative regulation of MAPK pathway	reactome:Complex8674;reactome:Complex8692;reactome:Complex8691
+BRAF	in-complex-with	PAQR3	Reactome		Negative regulation of MAPK pathway	reactome:Complex8689
+BRAF	in-complex-with	PEBP1	Reactome		Negative regulation of MAPK pathway	reactome:Complex8673
+BRAF	in-complex-with	RAF1	Reactome		Negative regulation of MAPK pathway	reactome:Complex8674;reactome:Complex8692;reactome:Complex8691
+BRAF	in-complex-with	YWHAB	Reactome		Negative regulation of MAPK pathway	reactome:Complex8674;reactome:Complex8692;reactome:Complex8691
+BRAP	in-complex-with	HRAS	Reactome		Negative regulation of MAPK pathway	reactome:Complex8696;reactome:Complex8695
+BRAP	in-complex-with	KRAS	Reactome		Negative regulation of MAPK pathway	reactome:Complex8696;reactome:Complex8695
+BRAP	in-complex-with	KSR1	Reactome		Negative regulation of MAPK pathway	reactome:Complex8660
+BRAP	in-complex-with	MARK3	Reactome		Negative regulation of MAPK pathway	reactome:Complex8660
+BRAP	in-complex-with	NRAS	Reactome		Negative regulation of MAPK pathway	reactome:Complex8696;reactome:Complex8695
+DUSP10	controls-phosphorylation-of	MAPK1	Reactome	17208316;20463170;22569528	Negative regulation of MAPK pathway	reactome:Catalysis4253;http://bioregistry.io/reactome:R-HSA-5675376;reactome:Catalysis4252;http://bioregistry.io/reactome:R-HSA-5675373
+DUSP10	controls-state-change-of	MAPK1	Reactome	17208316;20463170;22569528	Negative regulation of MAPK pathway	reactome:Catalysis4253;http://bioregistry.io/reactome:R-HSA-5675376;reactome:Catalysis4252;http://bioregistry.io/reactome:R-HSA-5675373
+DUSP10	controls-phosphorylation-of	MAPK3	Reactome	17208316;20463170;22569528	Negative regulation of MAPK pathway	reactome:Catalysis4253;http://bioregistry.io/reactome:R-HSA-5675376;reactome:Catalysis4252;http://bioregistry.io/reactome:R-HSA-5675373
+DUSP10	controls-state-change-of	MAPK3	Reactome	17208316;20463170;22569528	Negative regulation of MAPK pathway	reactome:Catalysis4253;http://bioregistry.io/reactome:R-HSA-5675376;reactome:Catalysis4252;http://bioregistry.io/reactome:R-HSA-5675373
+DUSP16	controls-phosphorylation-of	MAPK1	Reactome	17208316;20463170;22569528	Negative regulation of MAPK pathway	reactome:Catalysis4253;http://bioregistry.io/reactome:R-HSA-5675376;reactome:Catalysis4252;http://bioregistry.io/reactome:R-HSA-5675373
+DUSP16	controls-state-change-of	MAPK1	Reactome	17208316;20463170;22569528	Negative regulation of MAPK pathway	reactome:Catalysis4253;http://bioregistry.io/reactome:R-HSA-5675376;reactome:Catalysis4252;http://bioregistry.io/reactome:R-HSA-5675373
+DUSP16	controls-phosphorylation-of	MAPK3	Reactome	17208316;20463170;22569528	Negative regulation of MAPK pathway	reactome:Catalysis4253;http://bioregistry.io/reactome:R-HSA-5675376;reactome:Catalysis4252;http://bioregistry.io/reactome:R-HSA-5675373
+DUSP16	controls-state-change-of	MAPK3	Reactome	17208316;20463170;22569528	Negative regulation of MAPK pathway	reactome:Catalysis4253;http://bioregistry.io/reactome:R-HSA-5675376;reactome:Catalysis4252;http://bioregistry.io/reactome:R-HSA-5675373
+DUSP1	controls-phosphorylation-of	MAPK1	Reactome	17208316;20463170;22569528	Negative regulation of MAPK pathway	reactome:Catalysis4253;http://bioregistry.io/reactome:R-HSA-5675373
+DUSP1	controls-state-change-of	MAPK1	Reactome	17208316;20463170;22569528	Negative regulation of MAPK pathway	reactome:Catalysis4253;http://bioregistry.io/reactome:R-HSA-5675373
+DUSP1	controls-phosphorylation-of	MAPK3	Reactome	17208316;20463170;22569528	Negative regulation of MAPK pathway	reactome:Catalysis4253;http://bioregistry.io/reactome:R-HSA-5675373
+DUSP1	controls-state-change-of	MAPK3	Reactome	17208316;20463170;22569528	Negative regulation of MAPK pathway	reactome:Catalysis4253;http://bioregistry.io/reactome:R-HSA-5675373
+DUSP2	controls-phosphorylation-of	MAPK1	Reactome	17208316;20463170;22569528	Negative regulation of MAPK pathway	reactome:Catalysis4253;http://bioregistry.io/reactome:R-HSA-5675373
+DUSP2	controls-state-change-of	MAPK1	Reactome	17208316;20463170;22569528	Negative regulation of MAPK pathway	reactome:Catalysis4253;http://bioregistry.io/reactome:R-HSA-5675373
+DUSP2	controls-phosphorylation-of	MAPK3	Reactome	17208316;20463170;22569528	Negative regulation of MAPK pathway	reactome:Catalysis4253;http://bioregistry.io/reactome:R-HSA-5675373
+DUSP2	controls-state-change-of	MAPK3	Reactome	17208316;20463170;22569528	Negative regulation of MAPK pathway	reactome:Catalysis4253;http://bioregistry.io/reactome:R-HSA-5675373
+DUSP4	controls-phosphorylation-of	MAPK1	Reactome	17208316;20463170;22569528	Negative regulation of MAPK pathway	reactome:Catalysis4253;http://bioregistry.io/reactome:R-HSA-5675373
+DUSP4	controls-state-change-of	MAPK1	Reactome	17208316;20463170;22569528	Negative regulation of MAPK pathway	reactome:Catalysis4253;http://bioregistry.io/reactome:R-HSA-5675373
+DUSP4	controls-phosphorylation-of	MAPK3	Reactome	17208316;20463170;22569528	Negative regulation of MAPK pathway	reactome:Catalysis4253;http://bioregistry.io/reactome:R-HSA-5675373
+DUSP4	controls-state-change-of	MAPK3	Reactome	17208316;20463170;22569528	Negative regulation of MAPK pathway	reactome:Catalysis4253;http://bioregistry.io/reactome:R-HSA-5675373
+DUSP5	controls-phosphorylation-of	MAPK1	Reactome	17208316;20463170;22569528	Negative regulation of MAPK pathway	reactome:Catalysis4253;http://bioregistry.io/reactome:R-HSA-5675373
+DUSP5	controls-state-change-of	MAPK1	Reactome	17208316;20463170;22569528	Negative regulation of MAPK pathway	reactome:Catalysis4253;http://bioregistry.io/reactome:R-HSA-5675373
+DUSP5	controls-phosphorylation-of	MAPK3	Reactome	17208316;20463170;22569528	Negative regulation of MAPK pathway	reactome:Catalysis4253;http://bioregistry.io/reactome:R-HSA-5675373
+DUSP5	controls-state-change-of	MAPK3	Reactome	17208316;20463170;22569528	Negative regulation of MAPK pathway	reactome:Catalysis4253;http://bioregistry.io/reactome:R-HSA-5675373
+DUSP6	controls-phosphorylation-of	MAPK1	Reactome	17208316;20463170;22569528	Negative regulation of MAPK pathway	http://bioregistry.io/reactome:R-HSA-5675376;reactome:Catalysis4252
+DUSP6	controls-state-change-of	MAPK1	Reactome	17208316;20463170;22569528	Negative regulation of MAPK pathway	http://bioregistry.io/reactome:R-HSA-5675376;reactome:Catalysis4252
+DUSP6	controls-phosphorylation-of	MAPK3	Reactome	17208316;20463170;22569528	Negative regulation of MAPK pathway	http://bioregistry.io/reactome:R-HSA-5675376;reactome:Catalysis4252
+DUSP6	controls-state-change-of	MAPK3	Reactome	17208316;20463170;22569528	Negative regulation of MAPK pathway	http://bioregistry.io/reactome:R-HSA-5675376;reactome:Catalysis4252
+DUSP7	controls-phosphorylation-of	MAPK1	Reactome	17208316;20463170;22569528	Negative regulation of MAPK pathway	http://bioregistry.io/reactome:R-HSA-5675376;reactome:Catalysis4252
+DUSP7	controls-state-change-of	MAPK1	Reactome	17208316;20463170;22569528	Negative regulation of MAPK pathway	http://bioregistry.io/reactome:R-HSA-5675376;reactome:Catalysis4252
+DUSP7	controls-phosphorylation-of	MAPK3	Reactome	17208316;20463170;22569528	Negative regulation of MAPK pathway	http://bioregistry.io/reactome:R-HSA-5675376;reactome:Catalysis4252
+DUSP7	controls-state-change-of	MAPK3	Reactome	17208316;20463170;22569528	Negative regulation of MAPK pathway	http://bioregistry.io/reactome:R-HSA-5675376;reactome:Catalysis4252
+DUSP8	controls-phosphorylation-of	MAPK1	Reactome	17208316;20463170;22569528	Negative regulation of MAPK pathway	reactome:Catalysis4253;http://bioregistry.io/reactome:R-HSA-5675376;reactome:Catalysis4252;http://bioregistry.io/reactome:R-HSA-5675373
+DUSP8	controls-state-change-of	MAPK1	Reactome	17208316;20463170;22569528	Negative regulation of MAPK pathway	reactome:Catalysis4253;http://bioregistry.io/reactome:R-HSA-5675376;reactome:Catalysis4252;http://bioregistry.io/reactome:R-HSA-5675373
+DUSP8	controls-phosphorylation-of	MAPK3	Reactome	17208316;20463170;22569528	Negative regulation of MAPK pathway	reactome:Catalysis4253;http://bioregistry.io/reactome:R-HSA-5675376;reactome:Catalysis4252;http://bioregistry.io/reactome:R-HSA-5675373
+DUSP8	controls-state-change-of	MAPK3	Reactome	17208316;20463170;22569528	Negative regulation of MAPK pathway	reactome:Catalysis4253;http://bioregistry.io/reactome:R-HSA-5675376;reactome:Catalysis4252;http://bioregistry.io/reactome:R-HSA-5675373
+DUSP9	controls-phosphorylation-of	MAPK1	Reactome	17208316;20463170;22569528	Negative regulation of MAPK pathway	http://bioregistry.io/reactome:R-HSA-5675376;reactome:Catalysis4252
+DUSP9	controls-state-change-of	MAPK1	Reactome	17208316;20463170;22569528	Negative regulation of MAPK pathway	http://bioregistry.io/reactome:R-HSA-5675376;reactome:Catalysis4252
+DUSP9	controls-phosphorylation-of	MAPK3	Reactome	17208316;20463170;22569528	Negative regulation of MAPK pathway	http://bioregistry.io/reactome:R-HSA-5675376;reactome:Catalysis4252
+DUSP9	controls-state-change-of	MAPK3	Reactome	17208316;20463170;22569528	Negative regulation of MAPK pathway	http://bioregistry.io/reactome:R-HSA-5675376;reactome:Catalysis4252
+HRAS	controls-state-change-of	BRAP	Reactome	14724641;18332145;19091743	Negative regulation of MAPK pathway	reactome:Catalysis4254;http://bioregistry.io/reactome:R-HSA-5674022
+HRAS	in-complex-with	KSR1	Reactome		Negative regulation of MAPK pathway	reactome:Complex8674;reactome:Complex8692;reactome:Complex8691
+HRAS	in-complex-with	PEBP1	Reactome		Negative regulation of MAPK pathway	reactome:Complex8673
+HRAS	in-complex-with	RAF1	Reactome		Negative regulation of MAPK pathway	reactome:Complex8674;reactome:Complex8692;reactome:Complex8691
+HRAS	in-complex-with	YWHAB	Reactome		Negative regulation of MAPK pathway	reactome:Complex8674;reactome:Complex8692;reactome:Complex8691
+KRAS	controls-state-change-of	BRAP	Reactome	14724641;18332145;19091743	Negative regulation of MAPK pathway	reactome:Catalysis4254;http://bioregistry.io/reactome:R-HSA-5674022
+KRAS	in-complex-with	KSR1	Reactome		Negative regulation of MAPK pathway	reactome:Complex8674;reactome:Complex8692;reactome:Complex8691
+KRAS	in-complex-with	PEBP1	Reactome		Negative regulation of MAPK pathway	reactome:Complex8673
+KRAS	in-complex-with	RAF1	Reactome		Negative regulation of MAPK pathway	reactome:Complex8674;reactome:Complex8692;reactome:Complex8691
+KRAS	in-complex-with	YWHAB	Reactome		Negative regulation of MAPK pathway	reactome:Complex8674;reactome:Complex8692;reactome:Complex8691
+KSR1	in-complex-with	MARK3	Reactome		Negative regulation of MAPK pathway	reactome:Complex8661
+KSR1	in-complex-with	NRAS	Reactome		Negative regulation of MAPK pathway	reactome:Complex8674;reactome:Complex8692;reactome:Complex8691
+KSR1	in-complex-with	PEBP1	Reactome		Negative regulation of MAPK pathway	reactome:Complex8673
+KSR1	in-complex-with	RAF1	Reactome		Negative regulation of MAPK pathway	reactome:Complex8674;reactome:Complex8692;reactome:Complex8691
+KSR1	in-complex-with	YWHAB	Reactome		Negative regulation of MAPK pathway	reactome:Complex8674;reactome:Complex8692;reactome:Complex8691
+MAPK12	controls-state-change-of	PTPN3	Reactome	15851477;20332238;22730326;25314968	Negative regulation of MAPK pathway	http://bioregistry.io/reactome:R-HSA-8868118;reactome:Catalysis4257
+MAPK12	in-complex-with	PTPN3	Reactome		Negative regulation of MAPK pathway	reactome:Complex8702;reactome:Complex8703
+MAPK1	in-complex-with	PTPN7	Reactome		Negative regulation of MAPK pathway	reactome:Complex8697;reactome:Complex8698
+MAPK3	in-complex-with	PTPN7	Reactome		Negative regulation of MAPK pathway	reactome:Complex8697;reactome:Complex8698
+NRAS	controls-state-change-of	BRAP	Reactome	14724641;18332145;19091743	Negative regulation of MAPK pathway	reactome:Catalysis4254;http://bioregistry.io/reactome:R-HSA-5674022
+NRAS	in-complex-with	PEBP1	Reactome		Negative regulation of MAPK pathway	reactome:Complex8673
+NRAS	in-complex-with	RAF1	Reactome		Negative regulation of MAPK pathway	reactome:Complex8674;reactome:Complex8692;reactome:Complex8691
+NRAS	in-complex-with	YWHAB	Reactome		Negative regulation of MAPK pathway	reactome:Complex8674;reactome:Complex8692;reactome:Complex8691
+PAQR3	in-complex-with	RAF1	Reactome		Negative regulation of MAPK pathway	reactome:Complex8689
+PEBP1	in-complex-with	RAF1	Reactome		Negative regulation of MAPK pathway	reactome:Complex8673
+PEBP1	in-complex-with	YWHAB	Reactome		Negative regulation of MAPK pathway	reactome:Complex8673
+PPP2CA	controls-state-change-of	ARAF	Reactome	15664191;21779496	Negative regulation of MAPK pathway	http://bioregistry.io/reactome:R-HSA-5675431;reactome:Catalysis4251
+PPP2CA	controls-state-change-of	BRAF	Reactome	15664191;21779496	Negative regulation of MAPK pathway	http://bioregistry.io/reactome:R-HSA-5675431;reactome:Catalysis4251
+PPP2CA	controls-state-change-of	HRAS	Reactome	15664191;21779496	Negative regulation of MAPK pathway	http://bioregistry.io/reactome:R-HSA-5675431;reactome:Catalysis4251
+PPP2CA	controls-state-change-of	KRAS	Reactome	15664191;21779496	Negative regulation of MAPK pathway	http://bioregistry.io/reactome:R-HSA-5675431;reactome:Catalysis4251
+PPP2CA	controls-state-change-of	KSR1	Reactome	15664191;21779496	Negative regulation of MAPK pathway	http://bioregistry.io/reactome:R-HSA-5675431;reactome:Catalysis4251
+PPP2CA	controls-state-change-of	NRAS	Reactome	15664191;21779496	Negative regulation of MAPK pathway	http://bioregistry.io/reactome:R-HSA-5675431;reactome:Catalysis4251
+PPP2CA	in-complex-with	PPP2R1A	Reactome		Negative regulation of MAPK pathway	reactome:Complex516
+PPP2CA	in-complex-with	PPP2R1B	Reactome		Negative regulation of MAPK pathway	reactome:Complex516
+PPP2CA	in-complex-with	PPP2R5A	Reactome		Negative regulation of MAPK pathway	reactome:Complex516
+PPP2CA	in-complex-with	PPP2R5B	Reactome		Negative regulation of MAPK pathway	reactome:Complex516
+PPP2CA	in-complex-with	PPP2R5C	Reactome		Negative regulation of MAPK pathway	reactome:Complex516
+PPP2CA	in-complex-with	PPP2R5D	Reactome		Negative regulation of MAPK pathway	reactome:Complex516
+PPP2CA	in-complex-with	PPP2R5E	Reactome		Negative regulation of MAPK pathway	reactome:Complex516
+PPP2CA	controls-phosphorylation-of	RAF1	Reactome	15664191;21779496	Negative regulation of MAPK pathway	http://bioregistry.io/reactome:R-HSA-5675431;reactome:Catalysis4251
+PPP2CA	controls-state-change-of	RAF1	Reactome	15664191;21779496	Negative regulation of MAPK pathway	http://bioregistry.io/reactome:R-HSA-5675431;reactome:Catalysis4251
+PPP2CA	controls-transport-of	RAF1	Reactome	15664191;21779496	Negative regulation of MAPK pathway	http://bioregistry.io/reactome:R-HSA-5675431;reactome:Catalysis4251
+PPP2CA	controls-state-change-of	YWHAB	Reactome	15664191;21779496	Negative regulation of MAPK pathway	http://bioregistry.io/reactome:R-HSA-5675431;reactome:Catalysis4251
+PPP2CB	controls-state-change-of	ARAF	Reactome	15664191;21779496	Negative regulation of MAPK pathway	http://bioregistry.io/reactome:R-HSA-5675431;reactome:Catalysis4251
+PPP2CB	controls-state-change-of	BRAF	Reactome	15664191;21779496	Negative regulation of MAPK pathway	http://bioregistry.io/reactome:R-HSA-5675431;reactome:Catalysis4251
+PPP2CB	controls-state-change-of	HRAS	Reactome	15664191;21779496	Negative regulation of MAPK pathway	http://bioregistry.io/reactome:R-HSA-5675431;reactome:Catalysis4251
+PPP2CB	controls-state-change-of	KRAS	Reactome	15664191;21779496	Negative regulation of MAPK pathway	http://bioregistry.io/reactome:R-HSA-5675431;reactome:Catalysis4251
+PPP2CB	controls-state-change-of	KSR1	Reactome	15664191;21779496	Negative regulation of MAPK pathway	http://bioregistry.io/reactome:R-HSA-5675431;reactome:Catalysis4251
+PPP2CB	controls-state-change-of	NRAS	Reactome	15664191;21779496	Negative regulation of MAPK pathway	http://bioregistry.io/reactome:R-HSA-5675431;reactome:Catalysis4251
+PPP2CB	in-complex-with	PPP2R1A	Reactome		Negative regulation of MAPK pathway	reactome:Complex516
+PPP2CB	in-complex-with	PPP2R1B	Reactome		Negative regulation of MAPK pathway	reactome:Complex516
+PPP2CB	in-complex-with	PPP2R5A	Reactome		Negative regulation of MAPK pathway	reactome:Complex516
+PPP2CB	in-complex-with	PPP2R5B	Reactome		Negative regulation of MAPK pathway	reactome:Complex516
+PPP2CB	in-complex-with	PPP2R5C	Reactome		Negative regulation of MAPK pathway	reactome:Complex516
+PPP2CB	in-complex-with	PPP2R5D	Reactome		Negative regulation of MAPK pathway	reactome:Complex516
+PPP2CB	in-complex-with	PPP2R5E	Reactome		Negative regulation of MAPK pathway	reactome:Complex516
+PPP2CB	controls-phosphorylation-of	RAF1	Reactome	15664191;21779496	Negative regulation of MAPK pathway	http://bioregistry.io/reactome:R-HSA-5675431;reactome:Catalysis4251
+PPP2CB	controls-state-change-of	RAF1	Reactome	15664191;21779496	Negative regulation of MAPK pathway	http://bioregistry.io/reactome:R-HSA-5675431;reactome:Catalysis4251
+PPP2CB	controls-transport-of	RAF1	Reactome	15664191;21779496	Negative regulation of MAPK pathway	http://bioregistry.io/reactome:R-HSA-5675431;reactome:Catalysis4251
+PPP2CB	controls-state-change-of	YWHAB	Reactome	15664191;21779496	Negative regulation of MAPK pathway	http://bioregistry.io/reactome:R-HSA-5675431;reactome:Catalysis4251
+PPP2R1A	controls-state-change-of	ARAF	Reactome	15664191;21779496	Negative regulation of MAPK pathway	http://bioregistry.io/reactome:R-HSA-5675431;reactome:Catalysis4251
+PPP2R1A	controls-state-change-of	BRAF	Reactome	15664191;21779496	Negative regulation of MAPK pathway	http://bioregistry.io/reactome:R-HSA-5675431;reactome:Catalysis4251
+PPP2R1A	controls-state-change-of	HRAS	Reactome	15664191;21779496	Negative regulation of MAPK pathway	http://bioregistry.io/reactome:R-HSA-5675431;reactome:Catalysis4251
+PPP2R1A	controls-state-change-of	KRAS	Reactome	15664191;21779496	Negative regulation of MAPK pathway	http://bioregistry.io/reactome:R-HSA-5675431;reactome:Catalysis4251
+PPP2R1A	controls-state-change-of	KSR1	Reactome	15664191;21779496	Negative regulation of MAPK pathway	http://bioregistry.io/reactome:R-HSA-5675431;reactome:Catalysis4251
+PPP2R1A	controls-state-change-of	NRAS	Reactome	15664191;21779496	Negative regulation of MAPK pathway	http://bioregistry.io/reactome:R-HSA-5675431;reactome:Catalysis4251
+PPP2R1A	in-complex-with	PPP2R5A	Reactome		Negative regulation of MAPK pathway	reactome:Complex516
+PPP2R1A	in-complex-with	PPP2R5B	Reactome		Negative regulation of MAPK pathway	reactome:Complex516
+PPP2R1A	in-complex-with	PPP2R5C	Reactome		Negative regulation of MAPK pathway	reactome:Complex516
+PPP2R1A	in-complex-with	PPP2R5D	Reactome		Negative regulation of MAPK pathway	reactome:Complex516
+PPP2R1A	in-complex-with	PPP2R5E	Reactome		Negative regulation of MAPK pathway	reactome:Complex516
+PPP2R1A	controls-phosphorylation-of	RAF1	Reactome	15664191;21779496	Negative regulation of MAPK pathway	http://bioregistry.io/reactome:R-HSA-5675431;reactome:Catalysis4251
+PPP2R1A	controls-state-change-of	RAF1	Reactome	15664191;21779496	Negative regulation of MAPK pathway	http://bioregistry.io/reactome:R-HSA-5675431;reactome:Catalysis4251
+PPP2R1A	controls-transport-of	RAF1	Reactome	15664191;21779496	Negative regulation of MAPK pathway	http://bioregistry.io/reactome:R-HSA-5675431;reactome:Catalysis4251
+PPP2R1A	controls-state-change-of	YWHAB	Reactome	15664191;21779496	Negative regulation of MAPK pathway	http://bioregistry.io/reactome:R-HSA-5675431;reactome:Catalysis4251
+PPP2R1B	controls-state-change-of	ARAF	Reactome	15664191;21779496	Negative regulation of MAPK pathway	http://bioregistry.io/reactome:R-HSA-5675431;reactome:Catalysis4251
+PPP2R1B	controls-state-change-of	BRAF	Reactome	15664191;21779496	Negative regulation of MAPK pathway	http://bioregistry.io/reactome:R-HSA-5675431;reactome:Catalysis4251
+PPP2R1B	controls-state-change-of	HRAS	Reactome	15664191;21779496	Negative regulation of MAPK pathway	http://bioregistry.io/reactome:R-HSA-5675431;reactome:Catalysis4251
+PPP2R1B	controls-state-change-of	KRAS	Reactome	15664191;21779496	Negative regulation of MAPK pathway	http://bioregistry.io/reactome:R-HSA-5675431;reactome:Catalysis4251
+PPP2R1B	controls-state-change-of	KSR1	Reactome	15664191;21779496	Negative regulation of MAPK pathway	http://bioregistry.io/reactome:R-HSA-5675431;reactome:Catalysis4251
+PPP2R1B	controls-state-change-of	NRAS	Reactome	15664191;21779496	Negative regulation of MAPK pathway	http://bioregistry.io/reactome:R-HSA-5675431;reactome:Catalysis4251
+PPP2R1B	in-complex-with	PPP2R5A	Reactome		Negative regulation of MAPK pathway	reactome:Complex516
+PPP2R1B	in-complex-with	PPP2R5B	Reactome		Negative regulation of MAPK pathway	reactome:Complex516
+PPP2R1B	in-complex-with	PPP2R5C	Reactome		Negative regulation of MAPK pathway	reactome:Complex516
+PPP2R1B	in-complex-with	PPP2R5D	Reactome		Negative regulation of MAPK pathway	reactome:Complex516
+PPP2R1B	in-complex-with	PPP2R5E	Reactome		Negative regulation of MAPK pathway	reactome:Complex516
+PPP2R1B	controls-phosphorylation-of	RAF1	Reactome	15664191;21779496	Negative regulation of MAPK pathway	http://bioregistry.io/reactome:R-HSA-5675431;reactome:Catalysis4251
+PPP2R1B	controls-state-change-of	RAF1	Reactome	15664191;21779496	Negative regulation of MAPK pathway	http://bioregistry.io/reactome:R-HSA-5675431;reactome:Catalysis4251
+PPP2R1B	controls-transport-of	RAF1	Reactome	15664191;21779496	Negative regulation of MAPK pathway	http://bioregistry.io/reactome:R-HSA-5675431;reactome:Catalysis4251
+PPP2R1B	controls-state-change-of	YWHAB	Reactome	15664191;21779496	Negative regulation of MAPK pathway	http://bioregistry.io/reactome:R-HSA-5675431;reactome:Catalysis4251
+PPP2R5A	controls-state-change-of	ARAF	Reactome	15664191;21779496	Negative regulation of MAPK pathway	http://bioregistry.io/reactome:R-HSA-5675431;reactome:Catalysis4251
+PPP2R5A	controls-state-change-of	BRAF	Reactome	15664191;21779496	Negative regulation of MAPK pathway	http://bioregistry.io/reactome:R-HSA-5675431;reactome:Catalysis4251
+PPP2R5A	controls-state-change-of	HRAS	Reactome	15664191;21779496	Negative regulation of MAPK pathway	http://bioregistry.io/reactome:R-HSA-5675431;reactome:Catalysis4251
+PPP2R5A	controls-state-change-of	KRAS	Reactome	15664191;21779496	Negative regulation of MAPK pathway	http://bioregistry.io/reactome:R-HSA-5675431;reactome:Catalysis4251
+PPP2R5A	controls-state-change-of	KSR1	Reactome	15664191;21779496	Negative regulation of MAPK pathway	http://bioregistry.io/reactome:R-HSA-5675431;reactome:Catalysis4251
+PPP2R5A	controls-state-change-of	NRAS	Reactome	15664191;21779496	Negative regulation of MAPK pathway	http://bioregistry.io/reactome:R-HSA-5675431;reactome:Catalysis4251
+PPP2R5A	controls-phosphorylation-of	RAF1	Reactome	15664191;21779496	Negative regulation of MAPK pathway	http://bioregistry.io/reactome:R-HSA-5675431;reactome:Catalysis4251
+PPP2R5A	controls-state-change-of	RAF1	Reactome	15664191;21779496	Negative regulation of MAPK pathway	http://bioregistry.io/reactome:R-HSA-5675431;reactome:Catalysis4251
+PPP2R5A	controls-transport-of	RAF1	Reactome	15664191;21779496	Negative regulation of MAPK pathway	http://bioregistry.io/reactome:R-HSA-5675431;reactome:Catalysis4251
+PPP2R5A	controls-state-change-of	YWHAB	Reactome	15664191;21779496	Negative regulation of MAPK pathway	http://bioregistry.io/reactome:R-HSA-5675431;reactome:Catalysis4251
+PPP2R5B	controls-state-change-of	ARAF	Reactome	15664191;21779496	Negative regulation of MAPK pathway	http://bioregistry.io/reactome:R-HSA-5675431;reactome:Catalysis4251
+PPP2R5B	controls-state-change-of	BRAF	Reactome	15664191;21779496	Negative regulation of MAPK pathway	http://bioregistry.io/reactome:R-HSA-5675431;reactome:Catalysis4251
+PPP2R5B	controls-state-change-of	HRAS	Reactome	15664191;21779496	Negative regulation of MAPK pathway	http://bioregistry.io/reactome:R-HSA-5675431;reactome:Catalysis4251
+PPP2R5B	controls-state-change-of	KRAS	Reactome	15664191;21779496	Negative regulation of MAPK pathway	http://bioregistry.io/reactome:R-HSA-5675431;reactome:Catalysis4251
+PPP2R5B	controls-state-change-of	KSR1	Reactome	15664191;21779496	Negative regulation of MAPK pathway	http://bioregistry.io/reactome:R-HSA-5675431;reactome:Catalysis4251
+PPP2R5B	controls-state-change-of	NRAS	Reactome	15664191;21779496	Negative regulation of MAPK pathway	http://bioregistry.io/reactome:R-HSA-5675431;reactome:Catalysis4251
+PPP2R5B	controls-phosphorylation-of	RAF1	Reactome	15664191;21779496	Negative regulation of MAPK pathway	http://bioregistry.io/reactome:R-HSA-5675431;reactome:Catalysis4251
+PPP2R5B	controls-state-change-of	RAF1	Reactome	15664191;21779496	Negative regulation of MAPK pathway	http://bioregistry.io/reactome:R-HSA-5675431;reactome:Catalysis4251
+PPP2R5B	controls-transport-of	RAF1	Reactome	15664191;21779496	Negative regulation of MAPK pathway	http://bioregistry.io/reactome:R-HSA-5675431;reactome:Catalysis4251
+PPP2R5B	controls-state-change-of	YWHAB	Reactome	15664191;21779496	Negative regulation of MAPK pathway	http://bioregistry.io/reactome:R-HSA-5675431;reactome:Catalysis4251
+PPP2R5C	controls-state-change-of	ARAF	Reactome	15664191;21779496	Negative regulation of MAPK pathway	http://bioregistry.io/reactome:R-HSA-5675431;reactome:Catalysis4251
+PPP2R5C	controls-state-change-of	BRAF	Reactome	15664191;21779496	Negative regulation of MAPK pathway	http://bioregistry.io/reactome:R-HSA-5675431;reactome:Catalysis4251
+PPP2R5C	controls-state-change-of	HRAS	Reactome	15664191;21779496	Negative regulation of MAPK pathway	http://bioregistry.io/reactome:R-HSA-5675431;reactome:Catalysis4251
+PPP2R5C	controls-state-change-of	KRAS	Reactome	15664191;21779496	Negative regulation of MAPK pathway	http://bioregistry.io/reactome:R-HSA-5675431;reactome:Catalysis4251
+PPP2R5C	controls-state-change-of	KSR1	Reactome	15664191;21779496	Negative regulation of MAPK pathway	http://bioregistry.io/reactome:R-HSA-5675431;reactome:Catalysis4251
+PPP2R5C	controls-state-change-of	NRAS	Reactome	15664191;21779496	Negative regulation of MAPK pathway	http://bioregistry.io/reactome:R-HSA-5675431;reactome:Catalysis4251
+PPP2R5C	controls-phosphorylation-of	RAF1	Reactome	15664191;21779496	Negative regulation of MAPK pathway	http://bioregistry.io/reactome:R-HSA-5675431;reactome:Catalysis4251
+PPP2R5C	controls-state-change-of	RAF1	Reactome	15664191;21779496	Negative regulation of MAPK pathway	http://bioregistry.io/reactome:R-HSA-5675431;reactome:Catalysis4251
+PPP2R5C	controls-transport-of	RAF1	Reactome	15664191;21779496	Negative regulation of MAPK pathway	http://bioregistry.io/reactome:R-HSA-5675431;reactome:Catalysis4251
+PPP2R5C	controls-state-change-of	YWHAB	Reactome	15664191;21779496	Negative regulation of MAPK pathway	http://bioregistry.io/reactome:R-HSA-5675431;reactome:Catalysis4251
+PPP2R5D	controls-state-change-of	ARAF	Reactome	15664191;21779496	Negative regulation of MAPK pathway	http://bioregistry.io/reactome:R-HSA-5675431;reactome:Catalysis4251
+PPP2R5D	controls-state-change-of	BRAF	Reactome	15664191;21779496	Negative regulation of MAPK pathway	http://bioregistry.io/reactome:R-HSA-5675431;reactome:Catalysis4251
+PPP2R5D	controls-state-change-of	HRAS	Reactome	15664191;21779496	Negative regulation of MAPK pathway	http://bioregistry.io/reactome:R-HSA-5675431;reactome:Catalysis4251
+PPP2R5D	controls-state-change-of	KRAS	Reactome	15664191;21779496	Negative regulation of MAPK pathway	http://bioregistry.io/reactome:R-HSA-5675431;reactome:Catalysis4251
+PPP2R5D	controls-state-change-of	KSR1	Reactome	15664191;21779496	Negative regulation of MAPK pathway	http://bioregistry.io/reactome:R-HSA-5675431;reactome:Catalysis4251
+PPP2R5D	controls-state-change-of	NRAS	Reactome	15664191;21779496	Negative regulation of MAPK pathway	http://bioregistry.io/reactome:R-HSA-5675431;reactome:Catalysis4251
+PPP2R5D	controls-phosphorylation-of	RAF1	Reactome	15664191;21779496	Negative regulation of MAPK pathway	http://bioregistry.io/reactome:R-HSA-5675431;reactome:Catalysis4251
+PPP2R5D	controls-state-change-of	RAF1	Reactome	15664191;21779496	Negative regulation of MAPK pathway	http://bioregistry.io/reactome:R-HSA-5675431;reactome:Catalysis4251
+PPP2R5D	controls-transport-of	RAF1	Reactome	15664191;21779496	Negative regulation of MAPK pathway	http://bioregistry.io/reactome:R-HSA-5675431;reactome:Catalysis4251
+PPP2R5D	controls-state-change-of	YWHAB	Reactome	15664191;21779496	Negative regulation of MAPK pathway	http://bioregistry.io/reactome:R-HSA-5675431;reactome:Catalysis4251
+PPP2R5E	controls-state-change-of	ARAF	Reactome	15664191;21779496	Negative regulation of MAPK pathway	http://bioregistry.io/reactome:R-HSA-5675431;reactome:Catalysis4251
+PPP2R5E	controls-state-change-of	BRAF	Reactome	15664191;21779496	Negative regulation of MAPK pathway	http://bioregistry.io/reactome:R-HSA-5675431;reactome:Catalysis4251
+PPP2R5E	controls-state-change-of	HRAS	Reactome	15664191;21779496	Negative regulation of MAPK pathway	http://bioregistry.io/reactome:R-HSA-5675431;reactome:Catalysis4251
+PPP2R5E	controls-state-change-of	KRAS	Reactome	15664191;21779496	Negative regulation of MAPK pathway	http://bioregistry.io/reactome:R-HSA-5675431;reactome:Catalysis4251
+PPP2R5E	controls-state-change-of	KSR1	Reactome	15664191;21779496	Negative regulation of MAPK pathway	http://bioregistry.io/reactome:R-HSA-5675431;reactome:Catalysis4251
+PPP2R5E	controls-state-change-of	NRAS	Reactome	15664191;21779496	Negative regulation of MAPK pathway	http://bioregistry.io/reactome:R-HSA-5675431;reactome:Catalysis4251
+PPP2R5E	controls-phosphorylation-of	RAF1	Reactome	15664191;21779496	Negative regulation of MAPK pathway	http://bioregistry.io/reactome:R-HSA-5675431;reactome:Catalysis4251
+PPP2R5E	controls-state-change-of	RAF1	Reactome	15664191;21779496	Negative regulation of MAPK pathway	http://bioregistry.io/reactome:R-HSA-5675431;reactome:Catalysis4251
+PPP2R5E	controls-transport-of	RAF1	Reactome	15664191;21779496	Negative regulation of MAPK pathway	http://bioregistry.io/reactome:R-HSA-5675431;reactome:Catalysis4251
+PPP2R5E	controls-state-change-of	YWHAB	Reactome	15664191;21779496	Negative regulation of MAPK pathway	http://bioregistry.io/reactome:R-HSA-5675431;reactome:Catalysis4251
+PPP5C	controls-state-change-of	ARAF	Reactome	16892053;21779496	Negative regulation of MAPK pathway	http://bioregistry.io/reactome:R-HSA-5675433;reactome:Catalysis4250
+PPP5C	controls-state-change-of	BRAF	Reactome	16892053;21779496	Negative regulation of MAPK pathway	http://bioregistry.io/reactome:R-HSA-5675433;reactome:Catalysis4250
+PPP5C	controls-state-change-of	HRAS	Reactome	16892053;21779496	Negative regulation of MAPK pathway	http://bioregistry.io/reactome:R-HSA-5675433;reactome:Catalysis4250
+PPP5C	controls-state-change-of	KRAS	Reactome	16892053;21779496	Negative regulation of MAPK pathway	http://bioregistry.io/reactome:R-HSA-5675433;reactome:Catalysis4250
+PPP5C	controls-state-change-of	KSR1	Reactome	16892053;21779496	Negative regulation of MAPK pathway	http://bioregistry.io/reactome:R-HSA-5675433;reactome:Catalysis4250
+PPP5C	controls-state-change-of	NRAS	Reactome	16892053;21779496	Negative regulation of MAPK pathway	http://bioregistry.io/reactome:R-HSA-5675433;reactome:Catalysis4250
+PPP5C	controls-phosphorylation-of	RAF1	Reactome	16892053;21779496	Negative regulation of MAPK pathway	http://bioregistry.io/reactome:R-HSA-5675433;reactome:Catalysis4250
+PPP5C	controls-state-change-of	RAF1	Reactome	16892053;21779496	Negative regulation of MAPK pathway	http://bioregistry.io/reactome:R-HSA-5675433;reactome:Catalysis4250
+PPP5C	controls-transport-of	RAF1	Reactome	16892053;21779496	Negative regulation of MAPK pathway	http://bioregistry.io/reactome:R-HSA-5675433;reactome:Catalysis4250
+PPP5C	controls-state-change-of	YWHAB	Reactome	16892053;21779496	Negative regulation of MAPK pathway	http://bioregistry.io/reactome:R-HSA-5675433;reactome:Catalysis4250
+PTPN3	controls-state-change-of	MAPK12	Reactome	15851477;20332238;25314968	Negative regulation of MAPK pathway	reactome:Catalysis4256;http://bioregistry.io/reactome:R-HSA-8867658
+PTPN7	controls-state-change-of	MAPK1	Reactome	10206983;10702794	Negative regulation of MAPK pathway	reactome:Catalysis4255;http://bioregistry.io/reactome:R-HSA-9635739
+PTPN7	controls-state-change-of	MAPK3	Reactome	10206983;10702794	Negative regulation of MAPK pathway	reactome:Catalysis4255;http://bioregistry.io/reactome:R-HSA-9635739
+RAF1	in-complex-with	YWHAB	Reactome		Negative regulation of MAPK pathway	reactome:Complex8674;reactome:Complex8692;reactome:Complex8691
+
+PARTICIPANT	PARTICIPANT_TYPE	PARTICIPANT_NAME	UNIFICATION_XREF	RELATIONSHIP_XREF
+YWHAB	ProteinReference	1433B_HUMAN	uniprot:P31946	hgnc.symbol:YWHAB;ncbigene:7529
+ARAF	ProteinReference	ARAF_HUMAN	uniprot:P10398	hgnc.symbol:ARAF;ncbigene:369
+PEBP1	ProteinReference	PEBP1_HUMAN	uniprot:P30086	hgnc.symbol:PEBP1;ncbigene:5037
+DUSP16	ProteinReference	DUS16_HUMAN	uniprot:Q9BY84	hgnc.symbol:DUSP16;ncbigene:80824
+PPP2CA	ProteinReference	PP2AA_HUMAN	uniprot:P67775	hgnc.symbol:PPP2CA;ncbigene:5515
+PPP2CB	ProteinReference	PP2AB_HUMAN	uniprot:P62714	hgnc.symbol:PPP2CB;ncbigene:5516
+NRAS	ProteinReference	RASN_HUMAN	uniprot:P01111	hgnc.symbol:NRAS;ncbigene:4893
+DUSP10	ProteinReference	DUS10_HUMAN	uniprot:Q9Y6W6	hgnc.symbol:DUSP10;ncbigene:11221
+PPP2R1B	ProteinReference	2AAB_HUMAN	uniprot:P30154	hgnc.symbol:PPP2R1B;ncbigene:5519
+PPP2R5E	ProteinReference	2A5E_HUMAN	uniprot:Q16537	hgnc.symbol:PPP2R5E;ncbigene:5529
+PPP2R1A	ProteinReference	2AAA_HUMAN	uniprot:P30153	hgnc.symbol:PPP2R1A;ncbigene:5518
+MAPK1	ProteinReference	MK01_HUMAN	uniprot:P28482	hgnc.symbol:MAPK1;ncbigene:5594
+HRAS	ProteinReference	RASH_HUMAN	uniprot:P01112	hgnc.symbol:HRAS;ncbigene:3265
+MARK3	ProteinReference	MARK3_HUMAN	uniprot:P27448	hgnc.symbol:MARK3;ncbigene:4140
+MAPK3	ProteinReference	MK03_HUMAN	uniprot:P27361	hgnc.symbol:MAPK3;ncbigene:5595
+BRAP	ProteinReference	BRAP_HUMAN	uniprot:Q7Z569	hgnc.symbol:BRAP;ncbigene:8315
+DUSP4	ProteinReference	DUS4_HUMAN	uniprot:Q13115	hgnc.symbol:DUSP4;ncbigene:1846
+DUSP5	ProteinReference	DUS5_HUMAN	uniprot:Q16690	hgnc.symbol:DUSP5;ncbigene:1847
+DUSP2	ProteinReference	DUS2_HUMAN	uniprot:Q05923	hgnc.symbol:DUSP2;ncbigene:1844
+KSR1	ProteinReference	KSR1_HUMAN	uniprot:Q8IVT5	hgnc.symbol:KSR1;ncbigene:8844
+DUSP1	ProteinReference	DUS1_HUMAN	uniprot:P28562	hgnc.symbol:DUSP1;ncbigene:1843
+PAQR3	ProteinReference	PAQR3_HUMAN	uniprot:Q6TCH7	hgnc.symbol:PAQR3;ncbigene:152559
+PPP2R5B	ProteinReference	2A5B_HUMAN	uniprot:Q15173	hgnc.symbol:PPP2R5B;ncbigene:5526
+PPP2R5A	ProteinReference	2A5A_HUMAN	uniprot:Q15172	hgnc.symbol:PPP2R5A;ncbigene:5525
+PPP2R5D	ProteinReference	2A5D_HUMAN	uniprot:Q14738	hgnc.symbol:PPP2R5D;ncbigene:5528
+BRAF	ProteinReference	BRAF_HUMAN	uniprot:P15056	hgnc.symbol:BRAF;ncbigene:673
+PPP2R5C	ProteinReference	2A5G_HUMAN	uniprot:Q13362	hgnc.symbol:PPP2R5C;ncbigene:5527
+DUSP8	ProteinReference	DUS8_HUMAN	uniprot:Q13202	hgnc.symbol:DUSP8;ncbigene:1850
+DUSP9	ProteinReference	DUS9_HUMAN	uniprot:Q99956	hgnc.symbol:DUSP9;ncbigene:1852
+DUSP6	ProteinReference	DUS6_HUMAN	uniprot:Q16828	hgnc.symbol:DUSP6;ncbigene:1848
+MAPK12	ProteinReference	MK12_HUMAN	uniprot:P53778	hgnc.symbol:MAPK12;ncbigene:6300
+DUSP7	ProteinReference	DUS7_HUMAN	uniprot:Q16829	hgnc.symbol:DUSP7;ncbigene:1849
+PPP5C	ProteinReference	PPP5_HUMAN	uniprot:P53041	hgnc.symbol:PPP5C;ncbigene:5536
+KRAS	ProteinReference	RASK_HUMAN	uniprot:P01116	hgnc.symbol:KRAS;ncbigene:3845
+PTPN7	ProteinReference	PTN7_HUMAN	uniprot:P35236	hgnc.symbol:PTPN7;ncbigene:5778
+RAF1	ProteinReference	RAF1_HUMAN	uniprot:P04049	hgnc.symbol:RAF1;ncbigene:5894
+PTPN3	ProteinReference	PTN3_HUMAN	uniprot:P26045	hgnc.symbol:PTPN3;ncbigene:5774

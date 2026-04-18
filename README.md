@@ -9,3 +9,5 @@ https://github.com/biopatternsg/biopatternsg
 Please, do not hesitate to contact us at this email address: biopatternsg@gmail.com, for any problem,comment or doubt.
 
 How to Cite: Lopez J., Ramirez Y., Dávila J., Bastidas M. A logical and ontological framework for knowledge discovery on gene regulatory networks. Case study: Bile Acid and Xenobiotic System (BAXS). Journal of Bioinformatics and Genomics, [S.l.], n. 2 (14), dec. 2020. ISSN 2530-1381. Available at: doi: http://dx.doi.org/10.18454/jbg.2020.2.14.1. Date accessed: 09 May. 2025.
+
+

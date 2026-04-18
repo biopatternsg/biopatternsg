@@ -1,0 +1,885 @@
+﻿PARTICIPANT_A	INTERACTION_TYPE	PARTICIPANT_B	INTERACTION_DATA_SOURCE	INTERACTION_PUBMED_ID	PATHWAY_NAMES	MEDIATOR_IDS
+APBB1IP	in-complex-with	BRAF	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+APBB1IP	in-complex-with	CSK	Reactome			reactome:Complex2886
+APBB1IP	in-complex-with	FGA	Reactome			reactome:Complex2888
+APBB1IP	in-complex-with	FGB	Reactome			reactome:Complex2888
+APBB1IP	in-complex-with	FGG	Reactome			reactome:Complex2888
+APBB1IP	in-complex-with	FN1	Reactome			reactome:Complex2888
+APBB1IP	in-complex-with	HRAS	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+APBB1IP	in-complex-with	ITGA2B	Reactome			reactome:Complex2886
+APBB1IP	in-complex-with	ITGB3	Reactome			reactome:Complex2886
+APBB1IP	in-complex-with	KRAS	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+APBB1IP	controls-state-change-of	MAP2K1	Reactome	15035987;16364920;20130576;20141835;20179705;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Catalysis5170;http://bioregistry.io/reactome:R-HSA-6802943
+APBB1IP	in-complex-with	MAP2K1	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+APBB1IP	controls-state-change-of	MAP2K2	Reactome	15035987;16364920;20130576;20141835;20179705;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Catalysis5170;http://bioregistry.io/reactome:R-HSA-6802943
+APBB1IP	in-complex-with	MAP2K2	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+APBB1IP	controls-state-change-of	MAPK1	Reactome	15035987;16364920;20130576;20141835;20179705;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-6802918;reactome:Catalysis5171
+APBB1IP	in-complex-with	MAPK1	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+APBB1IP	controls-state-change-of	MAPK3	Reactome	15035987;16364920;20130576;20141835;20179705;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-6802918;reactome:Catalysis5171
+APBB1IP	in-complex-with	MAPK3	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+APBB1IP	in-complex-with	NRAS	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+APBB1IP	in-complex-with	RAF1	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+APBB1IP	in-complex-with	RAP1A	Reactome			reactome:Complex2881
+APBB1IP	in-complex-with	RAP1B	Reactome			reactome:Complex2881
+APBB1IP	in-complex-with	SRC	Reactome			reactome:Complex2886
+APBB1IP	in-complex-with	TLN1	Reactome			reactome:Complex2882
+APBB1IP	in-complex-with	VCL	Reactome			reactome:Complex8670
+APBB1IP	in-complex-with	VWF	Reactome			reactome:Complex2888
+APBB1IP	in-complex-with	YWHAB	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+ARAF	controls-state-change-of	APBB1IP	Reactome	15035987;16364920;20130576;20141835;20179705;21779496;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-8936736;http://bioregistry.io/reactome:R-HSA-6802942
+ARAF	controls-transport-of	APBB1IP	Reactome	15035987;16364920;20130576;20141835;20179705;21779496;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-8936736;http://bioregistry.io/reactome:R-HSA-6802942
+ARAF	controls-state-change-of	ARRB1	Reactome	15035987;16364920;20130576;20141835;20179705;21779496;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-8936736;http://bioregistry.io/reactome:R-HSA-6802942
+ARAF	controls-transport-of	ARRB1	Reactome	15035987;16364920;20130576;20141835;20179705;21779496;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-8936736;http://bioregistry.io/reactome:R-HSA-6802942
+ARAF	controls-state-change-of	ARRB2	Reactome	15035987;16364920;20130576;20141835;20179705;21779496;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-8936736;http://bioregistry.io/reactome:R-HSA-6802942
+ARAF	controls-transport-of	ARRB2	Reactome	15035987;16364920;20130576;20141835;20179705;21779496;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-8936736;http://bioregistry.io/reactome:R-HSA-6802942
+ARAF	controls-state-change-of	BRAF	Reactome	15035987;16364920;20130576;20141835;20179705;21779496;23680146;24957944;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Catalysis5169;http://bioregistry.io/reactome:R-HSA-8936736;http://bioregistry.io/reactome:R-HSA-6802941;http://bioregistry.io/reactome:R-HSA-6802942
+ARAF	controls-state-change-of	CNKSR1	Reactome	15035987;16364920;20130576;20141835;20179705;21779496;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-8936736;http://bioregistry.io/reactome:R-HSA-6802942
+ARAF	controls-transport-of	CNKSR1	Reactome	15035987;16364920;20130576;20141835;20179705;21779496;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-8936736;http://bioregistry.io/reactome:R-HSA-6802942
+ARAF	controls-state-change-of	CNKSR2	Reactome	15035987;16364920;20130576;20141835;20179705;21779496;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-8936736;http://bioregistry.io/reactome:R-HSA-6802942
+ARAF	controls-transport-of	CNKSR2	Reactome	15035987;16364920;20130576;20141835;20179705;21779496;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-8936736;http://bioregistry.io/reactome:R-HSA-6802942
+ARAF	controls-state-change-of	CSK	Reactome	15035987;16364920;20130576;20141835;20179705;21779496;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-8936736;http://bioregistry.io/reactome:R-HSA-6802942
+ARAF	controls-transport-of	CSK	Reactome	15035987;16364920;20130576;20141835;20179705;21779496;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-8936736;http://bioregistry.io/reactome:R-HSA-6802942
+ARAF	controls-state-change-of	FGA	Reactome	15035987;16364920;20130576;20141835;20179705;21779496;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-8936736;http://bioregistry.io/reactome:R-HSA-6802942
+ARAF	controls-transport-of	FGA	Reactome	15035987;16364920;20130576;20141835;20179705;21779496;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-8936736;http://bioregistry.io/reactome:R-HSA-6802942
+ARAF	controls-state-change-of	FGB	Reactome	15035987;16364920;20130576;20141835;20179705;21779496;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-8936736;http://bioregistry.io/reactome:R-HSA-6802942
+ARAF	controls-transport-of	FGB	Reactome	15035987;16364920;20130576;20141835;20179705;21779496;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-8936736;http://bioregistry.io/reactome:R-HSA-6802942
+ARAF	controls-state-change-of	FGG	Reactome	15035987;16364920;20130576;20141835;20179705;21779496;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-8936736;http://bioregistry.io/reactome:R-HSA-6802942
+ARAF	controls-transport-of	FGG	Reactome	15035987;16364920;20130576;20141835;20179705;21779496;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-8936736;http://bioregistry.io/reactome:R-HSA-6802942
+ARAF	controls-state-change-of	FN1	Reactome	15035987;16364920;20130576;20141835;20179705;21779496;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-8936736;http://bioregistry.io/reactome:R-HSA-6802942
+ARAF	controls-transport-of	FN1	Reactome	15035987;16364920;20130576;20141835;20179705;21779496;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-8936736;http://bioregistry.io/reactome:R-HSA-6802942
+ARAF	controls-state-change-of	HRAS	Reactome	15035987;16364920;20130576;20141835;20179705;21779496;23680146;24957944;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Catalysis5169;http://bioregistry.io/reactome:R-HSA-8936736;http://bioregistry.io/reactome:R-HSA-6802941;http://bioregistry.io/reactome:R-HSA-6802942
+ARAF	in-complex-with	HRAS	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex8674
+ARAF	controls-state-change-of	IQGAP1	Reactome	15035987;16364920;20130576;20141835;20179705;21779496;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-8936736;http://bioregistry.io/reactome:R-HSA-6802942
+ARAF	controls-transport-of	IQGAP1	Reactome	15035987;16364920;20130576;20141835;20179705;21779496;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-8936736;http://bioregistry.io/reactome:R-HSA-6802942
+ARAF	controls-state-change-of	ITGA2B	Reactome	15035987;16364920;20130576;20141835;20179705;21779496;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-8936736;http://bioregistry.io/reactome:R-HSA-6802942
+ARAF	controls-transport-of	ITGA2B	Reactome	15035987;16364920;20130576;20141835;20179705;21779496;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-8936736;http://bioregistry.io/reactome:R-HSA-6802942
+ARAF	controls-state-change-of	ITGB3	Reactome	15035987;16364920;20130576;20141835;20179705;21779496;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-8936736;http://bioregistry.io/reactome:R-HSA-6802942
+ARAF	controls-transport-of	ITGB3	Reactome	15035987;16364920;20130576;20141835;20179705;21779496;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-8936736;http://bioregistry.io/reactome:R-HSA-6802942
+ARAF	controls-state-change-of	KRAS	Reactome	15035987;16364920;20130576;20141835;20179705;21779496;23680146;24957944;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Catalysis5169;http://bioregistry.io/reactome:R-HSA-8936736;http://bioregistry.io/reactome:R-HSA-6802941;http://bioregistry.io/reactome:R-HSA-6802942
+ARAF	in-complex-with	KRAS	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex8674
+ARAF	controls-state-change-of	KSR1	Reactome	15035987;16364920;20130576;20141835;20179705;21779496;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-8936736;http://bioregistry.io/reactome:R-HSA-6802942
+ARAF	controls-transport-of	KSR1	Reactome	15035987;16364920;20130576;20141835;20179705;21779496;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-8936736;http://bioregistry.io/reactome:R-HSA-6802942
+ARAF	controls-state-change-of	KSR2	Reactome	15035987;16364920;20130576;20141835;20179705;21779496;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-8936736;http://bioregistry.io/reactome:R-HSA-6802942
+ARAF	controls-transport-of	KSR2	Reactome	15035987;16364920;20130576;20141835;20179705;21779496;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-8936736;http://bioregistry.io/reactome:R-HSA-6802942
+ARAF	controls-state-change-of	MAP2K1	Reactome	15035987;16364920;20130576;20141835;20179705;21779496;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-8936736;http://bioregistry.io/reactome:R-HSA-6802942
+ARAF	controls-transport-of	MAP2K1	Reactome	15035987;16364920;20130576;20141835;20179705;21779496;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-8936736;http://bioregistry.io/reactome:R-HSA-6802942
+ARAF	controls-state-change-of	MAP2K2	Reactome	15035987;16364920;20130576;20141835;20179705;21779496;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-8936736;http://bioregistry.io/reactome:R-HSA-6802942
+ARAF	controls-transport-of	MAP2K2	Reactome	15035987;16364920;20130576;20141835;20179705;21779496;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-8936736;http://bioregistry.io/reactome:R-HSA-6802942
+ARAF	controls-state-change-of	MAPK1	Reactome	15035987;16364920;20130576;20141835;20179705;21779496;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-8936736;http://bioregistry.io/reactome:R-HSA-6802942
+ARAF	controls-transport-of	MAPK1	Reactome	15035987;16364920;20130576;20141835;20179705;21779496;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-8936736;http://bioregistry.io/reactome:R-HSA-6802942
+ARAF	controls-state-change-of	MAPK3	Reactome	15035987;16364920;20130576;20141835;20179705;21779496;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-8936736;http://bioregistry.io/reactome:R-HSA-6802942
+ARAF	controls-transport-of	MAPK3	Reactome	15035987;16364920;20130576;20141835;20179705;21779496;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-8936736;http://bioregistry.io/reactome:R-HSA-6802942
+ARAF	controls-state-change-of	MARK3	Reactome	15035987;16364920;20130576;20141835;20179705;21779496;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-8936736;http://bioregistry.io/reactome:R-HSA-6802942
+ARAF	controls-transport-of	MARK3	Reactome	15035987;16364920;20130576;20141835;20179705;21779496;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-8936736;http://bioregistry.io/reactome:R-HSA-6802942
+ARAF	controls-state-change-of	NRAS	Reactome	15035987;16364920;20130576;20141835;20179705;21779496;23680146;24957944;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Catalysis5169;http://bioregistry.io/reactome:R-HSA-8936736;http://bioregistry.io/reactome:R-HSA-6802941;http://bioregistry.io/reactome:R-HSA-6802942
+ARAF	in-complex-with	NRAS	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex8674
+ARAF	in-complex-with	PEBP1	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex8673
+ARAF	controls-phosphorylation-of	RAF1	Reactome	15035987;16364920;20130576;20141835;20179705;23680146;24957944;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Catalysis5169;http://bioregistry.io/reactome:R-HSA-6802941
+ARAF	controls-state-change-of	RAF1	Reactome	15035987;16364920;20130576;20141835;20179705;21779496;23680146;24957944;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Catalysis5169;http://bioregistry.io/reactome:R-HSA-8936736;http://bioregistry.io/reactome:R-HSA-6802941;http://bioregistry.io/reactome:R-HSA-6802942
+ARAF	in-complex-with	RAF1	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex8674
+ARAF	controls-state-change-of	RAP1A	Reactome	15035987;16364920;20130576;20141835;20179705;21779496;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-8936736;http://bioregistry.io/reactome:R-HSA-6802942
+ARAF	controls-transport-of	RAP1A	Reactome	15035987;16364920;20130576;20141835;20179705;21779496;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-8936736;http://bioregistry.io/reactome:R-HSA-6802942
+ARAF	controls-state-change-of	RAP1B	Reactome	15035987;16364920;20130576;20141835;20179705;21779496;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-8936736;http://bioregistry.io/reactome:R-HSA-6802942
+ARAF	controls-transport-of	RAP1B	Reactome	15035987;16364920;20130576;20141835;20179705;21779496;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-8936736;http://bioregistry.io/reactome:R-HSA-6802942
+ARAF	controls-state-change-of	SRC	Reactome	15035987;16364920;20130576;20141835;20179705;21779496;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-8936736;http://bioregistry.io/reactome:R-HSA-6802942
+ARAF	controls-transport-of	SRC	Reactome	15035987;16364920;20130576;20141835;20179705;21779496;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-8936736;http://bioregistry.io/reactome:R-HSA-6802942
+ARAF	controls-state-change-of	TLN1	Reactome	15035987;16364920;20130576;20141835;20179705;21779496;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-8936736;http://bioregistry.io/reactome:R-HSA-6802942
+ARAF	controls-transport-of	TLN1	Reactome	15035987;16364920;20130576;20141835;20179705;21779496;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-8936736;http://bioregistry.io/reactome:R-HSA-6802942
+ARAF	controls-state-change-of	VCL	Reactome	15035987;16364920;20130576;20141835;20179705;21779496;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-8936736;http://bioregistry.io/reactome:R-HSA-6802942
+ARAF	controls-transport-of	VCL	Reactome	15035987;16364920;20130576;20141835;20179705;21779496;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-8936736;http://bioregistry.io/reactome:R-HSA-6802942
+ARAF	controls-state-change-of	VWF	Reactome	15035987;16364920;20130576;20141835;20179705;21779496;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-8936736;http://bioregistry.io/reactome:R-HSA-6802942
+ARAF	controls-transport-of	VWF	Reactome	15035987;16364920;20130576;20141835;20179705;21779496;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-8936736;http://bioregistry.io/reactome:R-HSA-6802942
+ARAF	controls-state-change-of	YWHAB	Reactome	15035987;16364920;20130576;20141835;20179705;21779496;23680146;24957944;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Catalysis5169;http://bioregistry.io/reactome:R-HSA-8936736;http://bioregistry.io/reactome:R-HSA-6802941;http://bioregistry.io/reactome:R-HSA-6802942
+ARAF	in-complex-with	YWHAB	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex8674
+ARRB1	in-complex-with	BRAF	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+ARRB1	in-complex-with	HRAS	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+ARRB1	in-complex-with	KRAS	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+ARRB1	controls-state-change-of	MAP2K1	Reactome	15035987;16364920;20130576;20141835;20179705;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Catalysis5170;http://bioregistry.io/reactome:R-HSA-6802943
+ARRB1	in-complex-with	MAP2K1	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+ARRB1	controls-state-change-of	MAP2K2	Reactome	15035987;16364920;20130576;20141835;20179705;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Catalysis5170;http://bioregistry.io/reactome:R-HSA-6802943
+ARRB1	in-complex-with	MAP2K2	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+ARRB1	controls-state-change-of	MAPK1	Reactome	15035987;16364920;20130576;20141835;20179705;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-6802918;reactome:Catalysis5171
+ARRB1	in-complex-with	MAPK1	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+ARRB1	controls-state-change-of	MAPK3	Reactome	15035987;16364920;20130576;20141835;20179705;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-6802918;reactome:Catalysis5171
+ARRB1	in-complex-with	MAPK3	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+ARRB1	in-complex-with	NRAS	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+ARRB1	in-complex-with	RAF1	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+ARRB1	in-complex-with	YWHAB	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+ARRB2	in-complex-with	BRAF	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+ARRB2	in-complex-with	HRAS	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+ARRB2	in-complex-with	KRAS	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+ARRB2	controls-state-change-of	MAP2K1	Reactome	15035987;16364920;20130576;20141835;20179705;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Catalysis5170;http://bioregistry.io/reactome:R-HSA-6802943
+ARRB2	in-complex-with	MAP2K1	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+ARRB2	controls-state-change-of	MAP2K2	Reactome	15035987;16364920;20130576;20141835;20179705;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Catalysis5170;http://bioregistry.io/reactome:R-HSA-6802943
+ARRB2	in-complex-with	MAP2K2	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+ARRB2	controls-state-change-of	MAPK1	Reactome	15035987;16364920;20130576;20141835;20179705;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-6802918;reactome:Catalysis5171
+ARRB2	in-complex-with	MAPK1	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+ARRB2	controls-state-change-of	MAPK3	Reactome	15035987;16364920;20130576;20141835;20179705;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-6802918;reactome:Catalysis5171
+ARRB2	in-complex-with	MAPK3	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+ARRB2	in-complex-with	NRAS	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+ARRB2	in-complex-with	RAF1	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+ARRB2	in-complex-with	YWHAB	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+BRAF	in-complex-with	CNKSR1	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+BRAF	in-complex-with	CNKSR2	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+BRAF	in-complex-with	CSK	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+BRAF	in-complex-with	FGA	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+BRAF	in-complex-with	FGB	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+BRAF	in-complex-with	FGG	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+BRAF	in-complex-with	FN1	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+BRAF	in-complex-with	HRAS	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex8674;reactome:Complex12124;reactome:Complex12126;reactome:Complex12125
+BRAF	in-complex-with	IQGAP1	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+BRAF	in-complex-with	ITGA2B	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+BRAF	in-complex-with	ITGB3	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+BRAF	in-complex-with	KRAS	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex8674;reactome:Complex12124;reactome:Complex12126;reactome:Complex12125
+BRAF	in-complex-with	KSR1	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+BRAF	in-complex-with	KSR2	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+BRAF	controls-state-change-of	MAP2K1	Reactome	15035987;16364920;20130576;20141835;20179705;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Catalysis5170;http://bioregistry.io/reactome:R-HSA-6802943
+BRAF	in-complex-with	MAP2K1	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+BRAF	controls-state-change-of	MAP2K2	Reactome	15035987;16364920;20130576;20141835;20179705;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Catalysis5170;http://bioregistry.io/reactome:R-HSA-6802943
+BRAF	in-complex-with	MAP2K2	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+BRAF	controls-state-change-of	MAPK1	Reactome	15035987;16364920;20130576;20141835;20179705;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-6802918;reactome:Catalysis5171
+BRAF	in-complex-with	MAPK1	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+BRAF	controls-state-change-of	MAPK3	Reactome	15035987;16364920;20130576;20141835;20179705;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-6802918;reactome:Catalysis5171
+BRAF	in-complex-with	MAPK3	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+BRAF	in-complex-with	MARK3	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+BRAF	in-complex-with	NRAS	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex8674;reactome:Complex12124;reactome:Complex12126;reactome:Complex12125
+BRAF	in-complex-with	PEBP1	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex8673
+BRAF	in-complex-with	RAF1	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex8674;reactome:Complex12126;reactome:Complex12125
+BRAF	in-complex-with	RAP1A	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+BRAF	in-complex-with	RAP1B	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+BRAF	in-complex-with	SRC	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+BRAF	in-complex-with	TLN1	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+BRAF	in-complex-with	VCL	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+BRAF	in-complex-with	VWF	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+BRAF	in-complex-with	YWHAB	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex8674;reactome:Complex12126;reactome:Complex12125
+BRAP	controls-state-change-of	BRAF	Reactome	15035987;20130576;20141835;20179705;22510884;23352452;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-8936731;http://bioregistry.io/reactome:R-HSA-8936735
+BRAP	controls-state-change-of	HRAS	Reactome	15035987;20130576;20141835;20179705;22510884;23352452;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-8936731;http://bioregistry.io/reactome:R-HSA-8936735
+BRAP	controls-state-change-of	KRAS	Reactome	15035987;20130576;20141835;20179705;22510884;23352452;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-8936731;http://bioregistry.io/reactome:R-HSA-8936735
+BRAP	in-complex-with	KSR1	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex8660
+BRAP	in-complex-with	MARK3	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex8660
+BRAP	controls-state-change-of	NRAS	Reactome	15035987;20130576;20141835;20179705;22510884;23352452;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-8936731;http://bioregistry.io/reactome:R-HSA-8936735
+BRAP	controls-state-change-of	RAF1	Reactome	15035987;20130576;20141835;20179705;22510884;23352452;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-8936731;http://bioregistry.io/reactome:R-HSA-8936735
+BRAP	controls-transport-of	RAF1	Reactome	15035987;20130576;20141835;20179705;22510884;23352452;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-8936731;http://bioregistry.io/reactome:R-HSA-8936735
+BRAP	controls-state-change-of	YWHAB	Reactome	15035987;20130576;20141835;20179705;22510884;23352452;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-8936731;http://bioregistry.io/reactome:R-HSA-8936735
+BRAP	controls-transport-of	YWHAB	Reactome	15035987;20130576;20141835;20179705;22510884;23352452;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-8936731;http://bioregistry.io/reactome:R-HSA-8936735
+CALM1	controls-state-change-of	BRAF	Reactome	15035987;16364920;20130576;20141835;20179705;23680146;24957944;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Catalysis5169;http://bioregistry.io/reactome:R-HSA-6802941
+CALM1	in-complex-with	CAMK2A	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex7848
+CALM1	in-complex-with	CAMK2B	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex7848
+CALM1	in-complex-with	CAMK2D	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex7848
+CALM1	in-complex-with	CAMK2G	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex7848
+CALM1	controls-state-change-of	HRAS	Reactome	15035987;16364920;20130576;20141835;20179705;23680146;24957944;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Catalysis5169;http://bioregistry.io/reactome:R-HSA-6802941
+CALM1	controls-state-change-of	KRAS	Reactome	15035987;16364920;20130576;20141835;20179705;23680146;24957944;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Catalysis5169;http://bioregistry.io/reactome:R-HSA-6802941
+CALM1	controls-state-change-of	NRAS	Reactome	15035987;16364920;20130576;20141835;20179705;23680146;24957944;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Catalysis5169;http://bioregistry.io/reactome:R-HSA-6802941
+CALM1	controls-phosphorylation-of	RAF1	Reactome	15035987;16364920;20130576;20141835;20179705;23680146;24957944;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Catalysis5169;http://bioregistry.io/reactome:R-HSA-6802941
+CALM1	controls-state-change-of	RAF1	Reactome	15035987;16364920;20130576;20141835;20179705;23680146;24957944;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Catalysis5169;http://bioregistry.io/reactome:R-HSA-6802941
+CALM1	controls-state-change-of	YWHAB	Reactome	15035987;16364920;20130576;20141835;20179705;23680146;24957944;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Catalysis5169;http://bioregistry.io/reactome:R-HSA-6802941
+CAMK2A	controls-state-change-of	BRAF	Reactome	15035987;16364920;20130576;20141835;20179705;23680146;24957944;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Catalysis5169;http://bioregistry.io/reactome:R-HSA-6802941
+CAMK2A	controls-state-change-of	HRAS	Reactome	15035987;16364920;20130576;20141835;20179705;23680146;24957944;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Catalysis5169;http://bioregistry.io/reactome:R-HSA-6802941
+CAMK2A	controls-state-change-of	KRAS	Reactome	15035987;16364920;20130576;20141835;20179705;23680146;24957944;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Catalysis5169;http://bioregistry.io/reactome:R-HSA-6802941
+CAMK2A	controls-state-change-of	NRAS	Reactome	15035987;16364920;20130576;20141835;20179705;23680146;24957944;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Catalysis5169;http://bioregistry.io/reactome:R-HSA-6802941
+CAMK2A	controls-phosphorylation-of	RAF1	Reactome	15035987;16364920;20130576;20141835;20179705;23680146;24957944;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Catalysis5169;http://bioregistry.io/reactome:R-HSA-6802941
+CAMK2A	controls-state-change-of	RAF1	Reactome	15035987;16364920;20130576;20141835;20179705;23680146;24957944;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Catalysis5169;http://bioregistry.io/reactome:R-HSA-6802941
+CAMK2A	controls-state-change-of	YWHAB	Reactome	15035987;16364920;20130576;20141835;20179705;23680146;24957944;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Catalysis5169;http://bioregistry.io/reactome:R-HSA-6802941
+CAMK2B	controls-state-change-of	BRAF	Reactome	15035987;16364920;20130576;20141835;20179705;23680146;24957944;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Catalysis5169;http://bioregistry.io/reactome:R-HSA-6802941
+CAMK2B	controls-state-change-of	HRAS	Reactome	15035987;16364920;20130576;20141835;20179705;23680146;24957944;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Catalysis5169;http://bioregistry.io/reactome:R-HSA-6802941
+CAMK2B	controls-state-change-of	KRAS	Reactome	15035987;16364920;20130576;20141835;20179705;23680146;24957944;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Catalysis5169;http://bioregistry.io/reactome:R-HSA-6802941
+CAMK2B	controls-state-change-of	NRAS	Reactome	15035987;16364920;20130576;20141835;20179705;23680146;24957944;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Catalysis5169;http://bioregistry.io/reactome:R-HSA-6802941
+CAMK2B	controls-phosphorylation-of	RAF1	Reactome	15035987;16364920;20130576;20141835;20179705;23680146;24957944;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Catalysis5169;http://bioregistry.io/reactome:R-HSA-6802941
+CAMK2B	controls-state-change-of	RAF1	Reactome	15035987;16364920;20130576;20141835;20179705;23680146;24957944;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Catalysis5169;http://bioregistry.io/reactome:R-HSA-6802941
+CAMK2B	controls-state-change-of	YWHAB	Reactome	15035987;16364920;20130576;20141835;20179705;23680146;24957944;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Catalysis5169;http://bioregistry.io/reactome:R-HSA-6802941
+CAMK2D	controls-state-change-of	BRAF	Reactome	15035987;16364920;20130576;20141835;20179705;23680146;24957944;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Catalysis5169;http://bioregistry.io/reactome:R-HSA-6802941
+CAMK2D	controls-state-change-of	HRAS	Reactome	15035987;16364920;20130576;20141835;20179705;23680146;24957944;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Catalysis5169;http://bioregistry.io/reactome:R-HSA-6802941
+CAMK2D	controls-state-change-of	KRAS	Reactome	15035987;16364920;20130576;20141835;20179705;23680146;24957944;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Catalysis5169;http://bioregistry.io/reactome:R-HSA-6802941
+CAMK2D	controls-state-change-of	NRAS	Reactome	15035987;16364920;20130576;20141835;20179705;23680146;24957944;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Catalysis5169;http://bioregistry.io/reactome:R-HSA-6802941
+CAMK2D	controls-phosphorylation-of	RAF1	Reactome	15035987;16364920;20130576;20141835;20179705;23680146;24957944;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Catalysis5169;http://bioregistry.io/reactome:R-HSA-6802941
+CAMK2D	controls-state-change-of	RAF1	Reactome	15035987;16364920;20130576;20141835;20179705;23680146;24957944;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Catalysis5169;http://bioregistry.io/reactome:R-HSA-6802941
+CAMK2D	controls-state-change-of	YWHAB	Reactome	15035987;16364920;20130576;20141835;20179705;23680146;24957944;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Catalysis5169;http://bioregistry.io/reactome:R-HSA-6802941
+CAMK2G	controls-state-change-of	BRAF	Reactome	15035987;16364920;20130576;20141835;20179705;23680146;24957944;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Catalysis5169;http://bioregistry.io/reactome:R-HSA-6802941
+CAMK2G	controls-state-change-of	HRAS	Reactome	15035987;16364920;20130576;20141835;20179705;23680146;24957944;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Catalysis5169;http://bioregistry.io/reactome:R-HSA-6802941
+CAMK2G	controls-state-change-of	KRAS	Reactome	15035987;16364920;20130576;20141835;20179705;23680146;24957944;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Catalysis5169;http://bioregistry.io/reactome:R-HSA-6802941
+CAMK2G	controls-state-change-of	NRAS	Reactome	15035987;16364920;20130576;20141835;20179705;23680146;24957944;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Catalysis5169;http://bioregistry.io/reactome:R-HSA-6802941
+CAMK2G	controls-phosphorylation-of	RAF1	Reactome	15035987;16364920;20130576;20141835;20179705;23680146;24957944;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Catalysis5169;http://bioregistry.io/reactome:R-HSA-6802941
+CAMK2G	controls-state-change-of	RAF1	Reactome	15035987;16364920;20130576;20141835;20179705;23680146;24957944;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Catalysis5169;http://bioregistry.io/reactome:R-HSA-6802941
+CAMK2G	controls-state-change-of	YWHAB	Reactome	15035987;16364920;20130576;20141835;20179705;23680146;24957944;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Catalysis5169;http://bioregistry.io/reactome:R-HSA-6802941
+CNKSR1	in-complex-with	HRAS	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+CNKSR1	in-complex-with	KRAS	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+CNKSR1	controls-state-change-of	MAP2K1	Reactome	15035987;16364920;20130576;20141835;20179705;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Catalysis5170;http://bioregistry.io/reactome:R-HSA-6802943
+CNKSR1	in-complex-with	MAP2K1	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+CNKSR1	controls-state-change-of	MAP2K2	Reactome	15035987;16364920;20130576;20141835;20179705;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Catalysis5170;http://bioregistry.io/reactome:R-HSA-6802943
+CNKSR1	in-complex-with	MAP2K2	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+CNKSR1	controls-state-change-of	MAPK1	Reactome	15035987;16364920;20130576;20141835;20179705;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-6802918;reactome:Catalysis5171
+CNKSR1	in-complex-with	MAPK1	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+CNKSR1	controls-state-change-of	MAPK3	Reactome	15035987;16364920;20130576;20141835;20179705;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-6802918;reactome:Catalysis5171
+CNKSR1	in-complex-with	MAPK3	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+CNKSR1	in-complex-with	NRAS	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+CNKSR1	in-complex-with	RAF1	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+CNKSR1	in-complex-with	YWHAB	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+CNKSR2	in-complex-with	HRAS	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+CNKSR2	in-complex-with	KRAS	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+CNKSR2	controls-state-change-of	MAP2K1	Reactome	15035987;16364920;20130576;20141835;20179705;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Catalysis5170;http://bioregistry.io/reactome:R-HSA-6802943
+CNKSR2	in-complex-with	MAP2K1	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+CNKSR2	controls-state-change-of	MAP2K2	Reactome	15035987;16364920;20130576;20141835;20179705;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Catalysis5170;http://bioregistry.io/reactome:R-HSA-6802943
+CNKSR2	in-complex-with	MAP2K2	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+CNKSR2	controls-state-change-of	MAPK1	Reactome	15035987;16364920;20130576;20141835;20179705;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-6802918;reactome:Catalysis5171
+CNKSR2	in-complex-with	MAPK1	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+CNKSR2	controls-state-change-of	MAPK3	Reactome	15035987;16364920;20130576;20141835;20179705;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-6802918;reactome:Catalysis5171
+CNKSR2	in-complex-with	MAPK3	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+CNKSR2	in-complex-with	NRAS	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+CNKSR2	in-complex-with	RAF1	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+CNKSR2	in-complex-with	YWHAB	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+CSK	in-complex-with	FGA	Reactome			reactome:Complex2888
+CSK	in-complex-with	FGB	Reactome			reactome:Complex2888
+CSK	in-complex-with	FGG	Reactome			reactome:Complex2888
+CSK	in-complex-with	FN1	Reactome			reactome:Complex2888
+CSK	in-complex-with	HRAS	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+CSK	in-complex-with	ITGA2B	Reactome			reactome:Complex2883
+CSK	in-complex-with	ITGB3	Reactome			reactome:Complex2883
+CSK	in-complex-with	KRAS	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+CSK	controls-state-change-of	MAP2K1	Reactome	15035987;16364920;20130576;20141835;20179705;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Catalysis5170;http://bioregistry.io/reactome:R-HSA-6802943
+CSK	in-complex-with	MAP2K1	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+CSK	controls-state-change-of	MAP2K2	Reactome	15035987;16364920;20130576;20141835;20179705;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Catalysis5170;http://bioregistry.io/reactome:R-HSA-6802943
+CSK	in-complex-with	MAP2K2	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+CSK	controls-state-change-of	MAPK1	Reactome	15035987;16364920;20130576;20141835;20179705;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-6802918;reactome:Catalysis5171
+CSK	in-complex-with	MAPK1	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+CSK	controls-state-change-of	MAPK3	Reactome	15035987;16364920;20130576;20141835;20179705;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-6802918;reactome:Catalysis5171
+CSK	in-complex-with	MAPK3	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+CSK	in-complex-with	NRAS	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+CSK	in-complex-with	RAF1	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+CSK	in-complex-with	RAP1A	Reactome			reactome:Complex2886
+CSK	in-complex-with	RAP1B	Reactome			reactome:Complex2886
+CSK	in-complex-with	SRC	Reactome			reactome:Complex2884
+CSK	in-complex-with	TLN1	Reactome			reactome:Complex2886
+CSK	in-complex-with	VCL	Reactome			reactome:Complex8670
+CSK	in-complex-with	VWF	Reactome			reactome:Complex2888
+CSK	in-complex-with	YWHAB	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+FGA	in-complex-with	FGB	Reactome			reactome:Complex2887
+FGA	in-complex-with	FGG	Reactome			reactome:Complex2887
+FGA	in-complex-with	HRAS	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+FGA	in-complex-with	ITGA2B	Reactome			reactome:Complex2888
+FGA	in-complex-with	ITGB3	Reactome			reactome:Complex2888
+FGA	in-complex-with	KRAS	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+FGA	controls-state-change-of	MAP2K1	Reactome	15035987;16364920;20130576;20141835;20179705;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Catalysis5170;http://bioregistry.io/reactome:R-HSA-6802943
+FGA	in-complex-with	MAP2K1	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+FGA	controls-state-change-of	MAP2K2	Reactome	15035987;16364920;20130576;20141835;20179705;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Catalysis5170;http://bioregistry.io/reactome:R-HSA-6802943
+FGA	in-complex-with	MAP2K2	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+FGA	controls-state-change-of	MAPK1	Reactome	15035987;16364920;20130576;20141835;20179705;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-6802918;reactome:Catalysis5171
+FGA	in-complex-with	MAPK1	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+FGA	controls-state-change-of	MAPK3	Reactome	15035987;16364920;20130576;20141835;20179705;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-6802918;reactome:Catalysis5171
+FGA	in-complex-with	MAPK3	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+FGA	in-complex-with	NRAS	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+FGA	in-complex-with	RAF1	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+FGA	in-complex-with	RAP1A	Reactome			reactome:Complex2888
+FGA	in-complex-with	RAP1B	Reactome			reactome:Complex2888
+FGA	in-complex-with	SRC	Reactome			reactome:Complex2888
+FGA	in-complex-with	TLN1	Reactome			reactome:Complex2888
+FGA	in-complex-with	VCL	Reactome			reactome:Complex8670
+FGA	in-complex-with	YWHAB	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+FGB	in-complex-with	FGG	Reactome			reactome:Complex2887
+FGB	in-complex-with	HRAS	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+FGB	in-complex-with	ITGA2B	Reactome			reactome:Complex2888
+FGB	in-complex-with	ITGB3	Reactome			reactome:Complex2888
+FGB	in-complex-with	KRAS	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+FGB	controls-state-change-of	MAP2K1	Reactome	15035987;16364920;20130576;20141835;20179705;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Catalysis5170;http://bioregistry.io/reactome:R-HSA-6802943
+FGB	in-complex-with	MAP2K1	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+FGB	controls-state-change-of	MAP2K2	Reactome	15035987;16364920;20130576;20141835;20179705;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Catalysis5170;http://bioregistry.io/reactome:R-HSA-6802943
+FGB	in-complex-with	MAP2K2	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+FGB	controls-state-change-of	MAPK1	Reactome	15035987;16364920;20130576;20141835;20179705;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-6802918;reactome:Catalysis5171
+FGB	in-complex-with	MAPK1	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+FGB	controls-state-change-of	MAPK3	Reactome	15035987;16364920;20130576;20141835;20179705;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-6802918;reactome:Catalysis5171
+FGB	in-complex-with	MAPK3	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+FGB	in-complex-with	NRAS	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+FGB	in-complex-with	RAF1	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+FGB	in-complex-with	RAP1A	Reactome			reactome:Complex2888
+FGB	in-complex-with	RAP1B	Reactome			reactome:Complex2888
+FGB	in-complex-with	SRC	Reactome			reactome:Complex2888
+FGB	in-complex-with	TLN1	Reactome			reactome:Complex2888
+FGB	in-complex-with	VCL	Reactome			reactome:Complex8670
+FGB	in-complex-with	YWHAB	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+FGG	in-complex-with	HRAS	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+FGG	in-complex-with	ITGA2B	Reactome			reactome:Complex2888
+FGG	in-complex-with	ITGB3	Reactome			reactome:Complex2888
+FGG	in-complex-with	KRAS	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+FGG	controls-state-change-of	MAP2K1	Reactome	15035987;16364920;20130576;20141835;20179705;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Catalysis5170;http://bioregistry.io/reactome:R-HSA-6802943
+FGG	in-complex-with	MAP2K1	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+FGG	controls-state-change-of	MAP2K2	Reactome	15035987;16364920;20130576;20141835;20179705;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Catalysis5170;http://bioregistry.io/reactome:R-HSA-6802943
+FGG	in-complex-with	MAP2K2	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+FGG	controls-state-change-of	MAPK1	Reactome	15035987;16364920;20130576;20141835;20179705;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-6802918;reactome:Catalysis5171
+FGG	in-complex-with	MAPK1	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+FGG	controls-state-change-of	MAPK3	Reactome	15035987;16364920;20130576;20141835;20179705;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-6802918;reactome:Catalysis5171
+FGG	in-complex-with	MAPK3	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+FGG	in-complex-with	NRAS	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+FGG	in-complex-with	RAF1	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+FGG	in-complex-with	RAP1A	Reactome			reactome:Complex2888
+FGG	in-complex-with	RAP1B	Reactome			reactome:Complex2888
+FGG	in-complex-with	SRC	Reactome			reactome:Complex2888
+FGG	in-complex-with	TLN1	Reactome			reactome:Complex2888
+FGG	in-complex-with	VCL	Reactome			reactome:Complex8670
+FGG	in-complex-with	YWHAB	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+FN1	in-complex-with	HRAS	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+FN1	in-complex-with	ITGA2B	Reactome			reactome:Complex2888
+FN1	in-complex-with	ITGB3	Reactome			reactome:Complex2888
+FN1	in-complex-with	KRAS	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+FN1	controls-state-change-of	MAP2K1	Reactome	15035987;16364920;20130576;20141835;20179705;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Catalysis5170;http://bioregistry.io/reactome:R-HSA-6802943
+FN1	in-complex-with	MAP2K1	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+FN1	controls-state-change-of	MAP2K2	Reactome	15035987;16364920;20130576;20141835;20179705;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Catalysis5170;http://bioregistry.io/reactome:R-HSA-6802943
+FN1	in-complex-with	MAP2K2	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+FN1	controls-state-change-of	MAPK1	Reactome	15035987;16364920;20130576;20141835;20179705;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-6802918;reactome:Catalysis5171
+FN1	in-complex-with	MAPK1	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+FN1	controls-state-change-of	MAPK3	Reactome	15035987;16364920;20130576;20141835;20179705;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-6802918;reactome:Catalysis5171
+FN1	in-complex-with	MAPK3	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+FN1	in-complex-with	NRAS	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+FN1	in-complex-with	RAF1	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+FN1	in-complex-with	RAP1A	Reactome			reactome:Complex2888
+FN1	in-complex-with	RAP1B	Reactome			reactome:Complex2888
+FN1	in-complex-with	SRC	Reactome			reactome:Complex2888
+FN1	in-complex-with	TLN1	Reactome			reactome:Complex2888
+FN1	in-complex-with	VCL	Reactome			reactome:Complex8670
+FN1	in-complex-with	YWHAB	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+HRAS	in-complex-with	IQGAP1	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+HRAS	in-complex-with	ITGA2B	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+HRAS	in-complex-with	ITGB3	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+HRAS	in-complex-with	KSR1	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex8674;reactome:Complex12127;reactome:Complex12129
+HRAS	in-complex-with	KSR2	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+HRAS	controls-state-change-of	MAP2K1	Reactome	15035987;16364920;20130576;20141835;20179705;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Catalysis5170;http://bioregistry.io/reactome:R-HSA-6802943
+HRAS	in-complex-with	MAP2K1	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+HRAS	controls-state-change-of	MAP2K2	Reactome	15035987;16364920;20130576;20141835;20179705;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Catalysis5170;http://bioregistry.io/reactome:R-HSA-6802943
+HRAS	in-complex-with	MAP2K2	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+HRAS	controls-state-change-of	MAPK1	Reactome	15035987;16364920;20130576;20141835;20179705;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-6802918;reactome:Catalysis5171
+HRAS	in-complex-with	MAPK1	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+HRAS	controls-state-change-of	MAPK3	Reactome	15035987;16364920;20130576;20141835;20179705;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-6802918;reactome:Catalysis5171
+HRAS	in-complex-with	MAPK3	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+HRAS	in-complex-with	MARK3	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+HRAS	in-complex-with	PEBP1	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex8673
+HRAS	in-complex-with	RAF1	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex8674;reactome:Complex12126;reactome:Complex12125
+HRAS	in-complex-with	RAP1A	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+HRAS	in-complex-with	RAP1B	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+HRAS	in-complex-with	SRC	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+HRAS	in-complex-with	TLN1	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+HRAS	in-complex-with	VCL	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+HRAS	in-complex-with	VWF	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+HRAS	in-complex-with	YWHAB	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex8674;reactome:Complex12126;reactome:Complex12125
+IQGAP1	in-complex-with	KRAS	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+IQGAP1	controls-state-change-of	MAP2K1	Reactome	15035987;16364920;20130576;20141835;20179705;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Catalysis5170;http://bioregistry.io/reactome:R-HSA-6802943
+IQGAP1	in-complex-with	MAP2K1	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+IQGAP1	controls-state-change-of	MAP2K2	Reactome	15035987;16364920;20130576;20141835;20179705;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Catalysis5170;http://bioregistry.io/reactome:R-HSA-6802943
+IQGAP1	in-complex-with	MAP2K2	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+IQGAP1	controls-state-change-of	MAPK1	Reactome	15035987;16364920;20130576;20141835;20179705;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-6802918;reactome:Catalysis5171
+IQGAP1	in-complex-with	MAPK1	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+IQGAP1	controls-state-change-of	MAPK3	Reactome	15035987;16364920;20130576;20141835;20179705;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-6802918;reactome:Catalysis5171
+IQGAP1	in-complex-with	MAPK3	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+IQGAP1	in-complex-with	NRAS	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+IQGAP1	in-complex-with	RAF1	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+IQGAP1	in-complex-with	YWHAB	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+ITGA2B	in-complex-with	ITGB3	Reactome			reactome:Complex2885
+ITGA2B	in-complex-with	KRAS	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+ITGA2B	controls-state-change-of	MAP2K1	Reactome	15035987;16364920;20130576;20141835;20179705;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Catalysis5170;http://bioregistry.io/reactome:R-HSA-6802943
+ITGA2B	in-complex-with	MAP2K1	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+ITGA2B	controls-state-change-of	MAP2K2	Reactome	15035987;16364920;20130576;20141835;20179705;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Catalysis5170;http://bioregistry.io/reactome:R-HSA-6802943
+ITGA2B	in-complex-with	MAP2K2	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+ITGA2B	controls-state-change-of	MAPK1	Reactome	15035987;16364920;20130576;20141835;20179705;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-6802918;reactome:Catalysis5171
+ITGA2B	in-complex-with	MAPK1	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+ITGA2B	controls-state-change-of	MAPK3	Reactome	15035987;16364920;20130576;20141835;20179705;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-6802918;reactome:Catalysis5171
+ITGA2B	in-complex-with	MAPK3	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+ITGA2B	in-complex-with	NRAS	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+ITGA2B	in-complex-with	RAF1	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+ITGA2B	in-complex-with	RAP1A	Reactome			reactome:Complex2886
+ITGA2B	in-complex-with	RAP1B	Reactome			reactome:Complex2886
+ITGA2B	in-complex-with	SRC	Reactome			reactome:Complex2883
+ITGA2B	in-complex-with	TLN1	Reactome			reactome:Complex2886
+ITGA2B	in-complex-with	VCL	Reactome			reactome:Complex8670
+ITGA2B	in-complex-with	VWF	Reactome			reactome:Complex2888
+ITGA2B	in-complex-with	YWHAB	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+ITGB3	in-complex-with	KRAS	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+ITGB3	controls-state-change-of	MAP2K1	Reactome	15035987;16364920;20130576;20141835;20179705;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Catalysis5170;http://bioregistry.io/reactome:R-HSA-6802943
+ITGB3	in-complex-with	MAP2K1	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+ITGB3	controls-state-change-of	MAP2K2	Reactome	15035987;16364920;20130576;20141835;20179705;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Catalysis5170;http://bioregistry.io/reactome:R-HSA-6802943
+ITGB3	in-complex-with	MAP2K2	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+ITGB3	controls-state-change-of	MAPK1	Reactome	15035987;16364920;20130576;20141835;20179705;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-6802918;reactome:Catalysis5171
+ITGB3	in-complex-with	MAPK1	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+ITGB3	controls-state-change-of	MAPK3	Reactome	15035987;16364920;20130576;20141835;20179705;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-6802918;reactome:Catalysis5171
+ITGB3	in-complex-with	MAPK3	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+ITGB3	in-complex-with	NRAS	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+ITGB3	in-complex-with	RAF1	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+ITGB3	in-complex-with	RAP1A	Reactome			reactome:Complex2886
+ITGB3	in-complex-with	RAP1B	Reactome			reactome:Complex2886
+ITGB3	in-complex-with	SRC	Reactome			reactome:Complex2883
+ITGB3	in-complex-with	TLN1	Reactome			reactome:Complex2886
+ITGB3	in-complex-with	VCL	Reactome			reactome:Complex8670
+ITGB3	in-complex-with	VWF	Reactome			reactome:Complex2888
+ITGB3	in-complex-with	YWHAB	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+JAK2	controls-state-change-of	BRAF	Reactome	15035987;16364920;20130576;20141835;20179705;23680146;24957944;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Catalysis5169;http://bioregistry.io/reactome:R-HSA-6802941
+JAK2	controls-state-change-of	HRAS	Reactome	15035987;16364920;20130576;20141835;20179705;23680146;24957944;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Catalysis5169;http://bioregistry.io/reactome:R-HSA-6802941
+JAK2	controls-state-change-of	KRAS	Reactome	15035987;16364920;20130576;20141835;20179705;23680146;24957944;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Catalysis5169;http://bioregistry.io/reactome:R-HSA-6802941
+JAK2	controls-state-change-of	NRAS	Reactome	15035987;16364920;20130576;20141835;20179705;23680146;24957944;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Catalysis5169;http://bioregistry.io/reactome:R-HSA-6802941
+JAK2	controls-phosphorylation-of	RAF1	Reactome	15035987;16364920;20130576;20141835;20179705;23680146;24957944;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Catalysis5169;http://bioregistry.io/reactome:R-HSA-6802941
+JAK2	controls-state-change-of	RAF1	Reactome	15035987;16364920;20130576;20141835;20179705;23680146;24957944;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Catalysis5169;http://bioregistry.io/reactome:R-HSA-6802941
+JAK2	controls-state-change-of	YWHAB	Reactome	15035987;16364920;20130576;20141835;20179705;23680146;24957944;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Catalysis5169;http://bioregistry.io/reactome:R-HSA-6802941
+KRAS	in-complex-with	KSR1	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex8674;reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+KRAS	in-complex-with	KSR2	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+KRAS	controls-state-change-of	MAP2K1	Reactome	15035987;16364920;20130576;20141835;20179705;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Catalysis5170;http://bioregistry.io/reactome:R-HSA-6802943
+KRAS	in-complex-with	MAP2K1	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+KRAS	controls-state-change-of	MAP2K2	Reactome	15035987;16364920;20130576;20141835;20179705;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Catalysis5170;http://bioregistry.io/reactome:R-HSA-6802943
+KRAS	in-complex-with	MAP2K2	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+KRAS	controls-state-change-of	MAPK1	Reactome	15035987;16364920;20130576;20141835;20179705;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-6802918;reactome:Catalysis5171
+KRAS	in-complex-with	MAPK1	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+KRAS	controls-state-change-of	MAPK3	Reactome	15035987;16364920;20130576;20141835;20179705;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-6802918;reactome:Catalysis5171
+KRAS	in-complex-with	MAPK3	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+KRAS	in-complex-with	MARK3	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+KRAS	in-complex-with	PEBP1	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex8673
+KRAS	in-complex-with	RAF1	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex8674;reactome:Complex12126;reactome:Complex12125
+KRAS	in-complex-with	RAP1A	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+KRAS	in-complex-with	RAP1B	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+KRAS	in-complex-with	SRC	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+KRAS	in-complex-with	TLN1	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+KRAS	in-complex-with	VCL	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+KRAS	in-complex-with	VWF	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+KRAS	in-complex-with	YWHAB	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex8674;reactome:Complex12126;reactome:Complex12125
+KSR1	controls-state-change-of	BRAF	Reactome	15035987;20130576;20141835;20179705;22510884;23352452;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-8936731;http://bioregistry.io/reactome:R-HSA-8936735
+KSR1	controls-state-change-of	HRAS	Reactome	15035987;20130576;20141835;20179705;22510884;23352452;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-8936731;http://bioregistry.io/reactome:R-HSA-8936735
+KSR1	controls-state-change-of	KRAS	Reactome	15035987;20130576;20141835;20179705;22510884;23352452;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-8936731;http://bioregistry.io/reactome:R-HSA-8936735
+KSR1	controls-state-change-of	MAP2K1	Reactome	15035987;16364920;20130576;20141835;20179705;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Catalysis5170;http://bioregistry.io/reactome:R-HSA-6802943
+KSR1	in-complex-with	MAP2K1	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+KSR1	controls-state-change-of	MAP2K2	Reactome	15035987;16364920;20130576;20141835;20179705;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Catalysis5170;http://bioregistry.io/reactome:R-HSA-6802943
+KSR1	in-complex-with	MAP2K2	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+KSR1	controls-state-change-of	MAPK1	Reactome	15035987;16364920;20130576;20141835;20179705;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-6802918;reactome:Catalysis5171
+KSR1	in-complex-with	MAPK1	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+KSR1	controls-state-change-of	MAPK3	Reactome	15035987;16364920;20130576;20141835;20179705;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-6802918;reactome:Catalysis5171
+KSR1	in-complex-with	MAPK3	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+KSR1	in-complex-with	MARK3	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex8661;reactome:Complex8658
+KSR1	controls-state-change-of	NRAS	Reactome	15035987;20130576;20141835;20179705;22510884;23352452;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-8936731;http://bioregistry.io/reactome:R-HSA-8936735
+KSR1	in-complex-with	NRAS	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex8674;reactome:Complex12127;reactome:Complex12129
+KSR1	in-complex-with	PEBP1	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex8673
+KSR1	controls-state-change-of	RAF1	Reactome	15035987;20130576;20141835;20179705;22510884;23352452;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-8936731;http://bioregistry.io/reactome:R-HSA-8936735
+KSR1	controls-transport-of	RAF1	Reactome	15035987;20130576;20141835;20179705;22510884;23352452;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-8936731;http://bioregistry.io/reactome:R-HSA-8936735
+KSR1	in-complex-with	RAF1	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex8674;reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+KSR1	controls-state-change-of	YWHAB	Reactome	15035987;20130576;20141835;20179705;22510884;23352452;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-8936731;http://bioregistry.io/reactome:R-HSA-8936735
+KSR1	controls-transport-of	YWHAB	Reactome	15035987;20130576;20141835;20179705;22510884;23352452;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-8936731;http://bioregistry.io/reactome:R-HSA-8936735
+KSR1	in-complex-with	YWHAB	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex8674;reactome:Complex12127;reactome:Complex12129
+KSR2	controls-state-change-of	MAP2K1	Reactome	15035987;16364920;20130576;20141835;20179705;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Catalysis5170;http://bioregistry.io/reactome:R-HSA-6802943
+KSR2	in-complex-with	MAP2K1	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+KSR2	controls-state-change-of	MAP2K2	Reactome	15035987;16364920;20130576;20141835;20179705;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Catalysis5170;http://bioregistry.io/reactome:R-HSA-6802943
+KSR2	in-complex-with	MAP2K2	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+KSR2	controls-state-change-of	MAPK1	Reactome	15035987;16364920;20130576;20141835;20179705;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-6802918;reactome:Catalysis5171
+KSR2	in-complex-with	MAPK1	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+KSR2	controls-state-change-of	MAPK3	Reactome	15035987;16364920;20130576;20141835;20179705;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-6802918;reactome:Catalysis5171
+KSR2	in-complex-with	MAPK3	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+KSR2	in-complex-with	NRAS	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+KSR2	in-complex-with	RAF1	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+KSR2	in-complex-with	YWHAB	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+MAP2K1	controls-state-change-of	BRAF	Reactome	15035987;16364920;20130576;20141835;20179705;23680146;24957944;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Catalysis5169;http://bioregistry.io/reactome:R-HSA-6802941
+MAP2K1	controls-state-change-of	HRAS	Reactome	15035987;16364920;20130576;20141835;20179705;23680146;24957944;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Catalysis5169;http://bioregistry.io/reactome:R-HSA-6802941
+MAP2K1	controls-state-change-of	KRAS	Reactome	15035987;16364920;20130576;20141835;20179705;23680146;24957944;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Catalysis5169;http://bioregistry.io/reactome:R-HSA-6802941
+MAP2K1	in-complex-with	MAP2K2	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex6771;reactome:Complex6766
+MAP2K1	controls-state-change-of	MAPK1	Reactome	15035987;16364920;20130576;20141835;20179705;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-6802918;reactome:Catalysis5171
+MAP2K1	in-complex-with	MAPK1	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+MAP2K1	controls-state-change-of	MAPK3	Reactome	15035987;16364920;20130576;20141835;20179705;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-6802918;reactome:Catalysis5171
+MAP2K1	in-complex-with	MAPK3	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+MAP2K1	in-complex-with	MARK3	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+MAP2K1	controls-state-change-of	NRAS	Reactome	15035987;16364920;20130576;20141835;20179705;23680146;24957944;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Catalysis5169;http://bioregistry.io/reactome:R-HSA-6802941
+MAP2K1	in-complex-with	NRAS	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+MAP2K1	controls-phosphorylation-of	RAF1	Reactome	15035987;16364920;20130576;20141835;20179705;23680146;24957944;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Catalysis5169;http://bioregistry.io/reactome:R-HSA-6802941
+MAP2K1	controls-state-change-of	RAF1	Reactome	15035987;16364920;20130576;20141835;20179705;23680146;24957944;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Catalysis5169;http://bioregistry.io/reactome:R-HSA-6802941
+MAP2K1	in-complex-with	RAF1	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+MAP2K1	in-complex-with	RAP1A	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+MAP2K1	in-complex-with	RAP1B	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+MAP2K1	in-complex-with	SRC	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+MAP2K1	in-complex-with	TLN1	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+MAP2K1	in-complex-with	VCL	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+MAP2K1	in-complex-with	VWF	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+MAP2K1	controls-state-change-of	YWHAB	Reactome	15035987;16364920;20130576;20141835;20179705;23680146;24957944;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Catalysis5169;http://bioregistry.io/reactome:R-HSA-6802941
+MAP2K1	in-complex-with	YWHAB	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+MAP2K2	controls-state-change-of	BRAF	Reactome	15035987;16364920;20130576;20141835;20179705;23680146;24957944;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Catalysis5169;http://bioregistry.io/reactome:R-HSA-6802941
+MAP2K2	controls-state-change-of	HRAS	Reactome	15035987;16364920;20130576;20141835;20179705;23680146;24957944;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Catalysis5169;http://bioregistry.io/reactome:R-HSA-6802941
+MAP2K2	controls-state-change-of	KRAS	Reactome	15035987;16364920;20130576;20141835;20179705;23680146;24957944;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Catalysis5169;http://bioregistry.io/reactome:R-HSA-6802941
+MAP2K2	controls-state-change-of	MAPK1	Reactome	15035987;16364920;20130576;20141835;20179705;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-6802918;reactome:Catalysis5171
+MAP2K2	in-complex-with	MAPK1	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+MAP2K2	controls-state-change-of	MAPK3	Reactome	15035987;16364920;20130576;20141835;20179705;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-6802918;reactome:Catalysis5171
+MAP2K2	in-complex-with	MAPK3	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+MAP2K2	in-complex-with	MARK3	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+MAP2K2	controls-state-change-of	NRAS	Reactome	15035987;16364920;20130576;20141835;20179705;23680146;24957944;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Catalysis5169;http://bioregistry.io/reactome:R-HSA-6802941
+MAP2K2	in-complex-with	NRAS	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+MAP2K2	controls-phosphorylation-of	RAF1	Reactome	15035987;16364920;20130576;20141835;20179705;23680146;24957944;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Catalysis5169;http://bioregistry.io/reactome:R-HSA-6802941
+MAP2K2	controls-state-change-of	RAF1	Reactome	15035987;16364920;20130576;20141835;20179705;23680146;24957944;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Catalysis5169;http://bioregistry.io/reactome:R-HSA-6802941
+MAP2K2	in-complex-with	RAF1	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+MAP2K2	in-complex-with	RAP1A	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+MAP2K2	in-complex-with	RAP1B	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+MAP2K2	in-complex-with	SRC	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+MAP2K2	in-complex-with	TLN1	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+MAP2K2	in-complex-with	VCL	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+MAP2K2	in-complex-with	VWF	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+MAP2K2	controls-state-change-of	YWHAB	Reactome	15035987;16364920;20130576;20141835;20179705;23680146;24957944;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Catalysis5169;http://bioregistry.io/reactome:R-HSA-6802941
+MAP2K2	in-complex-with	YWHAB	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+MAP3K11	controls-state-change-of	BRAF	Reactome	15035987;20130576;20141835;20179705;22510884;23352452;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-8936731;http://bioregistry.io/reactome:R-HSA-8936745
+MAP3K11	controls-state-change-of	HRAS	Reactome	15035987;20130576;20141835;20179705;22510884;23352452;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-8936731;http://bioregistry.io/reactome:R-HSA-8936745
+MAP3K11	controls-state-change-of	KRAS	Reactome	15035987;20130576;20141835;20179705;22510884;23352452;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-8936731;http://bioregistry.io/reactome:R-HSA-8936745
+MAP3K11	controls-state-change-of	NRAS	Reactome	15035987;20130576;20141835;20179705;22510884;23352452;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-8936731;http://bioregistry.io/reactome:R-HSA-8936745
+MAP3K11	controls-state-change-of	RAF1	Reactome	15035987;20130576;20141835;20179705;22510884;23352452;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-8936731;http://bioregistry.io/reactome:R-HSA-8936745
+MAP3K11	controls-transport-of	RAF1	Reactome	15035987;20130576;20141835;20179705;22510884;23352452;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-8936731;http://bioregistry.io/reactome:R-HSA-8936745
+MAP3K11	controls-state-change-of	YWHAB	Reactome	15035987;20130576;20141835;20179705;22510884;23352452;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-8936731;http://bioregistry.io/reactome:R-HSA-8936745
+MAP3K11	controls-transport-of	YWHAB	Reactome	15035987;20130576;20141835;20179705;22510884;23352452;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-8936731;http://bioregistry.io/reactome:R-HSA-8936745
+MAPK1	controls-state-change-of	MAP2K1	Reactome	15035987;16364920;20130576;20141835;20179705;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Catalysis5170;http://bioregistry.io/reactome:R-HSA-6802943
+MAPK1	controls-state-change-of	MAP2K2	Reactome	15035987;16364920;20130576;20141835;20179705;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Catalysis5170;http://bioregistry.io/reactome:R-HSA-6802943
+MAPK1	in-complex-with	MARK3	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+MAPK1	in-complex-with	NRAS	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+MAPK1	in-complex-with	RAF1	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+MAPK1	in-complex-with	RAP1A	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+MAPK1	in-complex-with	RAP1B	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+MAPK1	in-complex-with	SRC	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+MAPK1	in-complex-with	TLN1	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+MAPK1	in-complex-with	VCL	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+MAPK1	in-complex-with	VWF	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+MAPK1	in-complex-with	YWHAB	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+MAPK3	controls-state-change-of	MAP2K1	Reactome	15035987;16364920;20130576;20141835;20179705;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Catalysis5170;http://bioregistry.io/reactome:R-HSA-6802943
+MAPK3	controls-state-change-of	MAP2K2	Reactome	15035987;16364920;20130576;20141835;20179705;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Catalysis5170;http://bioregistry.io/reactome:R-HSA-6802943
+MAPK3	in-complex-with	MARK3	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+MAPK3	in-complex-with	NRAS	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+MAPK3	in-complex-with	RAF1	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+MAPK3	in-complex-with	RAP1A	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+MAPK3	in-complex-with	RAP1B	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+MAPK3	in-complex-with	SRC	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+MAPK3	in-complex-with	TLN1	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+MAPK3	in-complex-with	VCL	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+MAPK3	in-complex-with	VWF	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+MAPK3	in-complex-with	YWHAB	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+MARK3	controls-state-change-of	BRAF	Reactome	15035987;20130576;20141835;20179705;22510884;23352452;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-8936731;http://bioregistry.io/reactome:R-HSA-8936735
+MARK3	controls-state-change-of	HRAS	Reactome	15035987;20130576;20141835;20179705;22510884;23352452;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-8936731;http://bioregistry.io/reactome:R-HSA-8936735
+MARK3	controls-state-change-of	KRAS	Reactome	15035987;20130576;20141835;20179705;22510884;23352452;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-8936731;http://bioregistry.io/reactome:R-HSA-8936735
+MARK3	controls-state-change-of	MAP2K1	Reactome	15035987;16364920;20130576;20141835;20179705;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Catalysis5170;http://bioregistry.io/reactome:R-HSA-6802943
+MARK3	controls-state-change-of	MAP2K2	Reactome	15035987;16364920;20130576;20141835;20179705;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Catalysis5170;http://bioregistry.io/reactome:R-HSA-6802943
+MARK3	controls-state-change-of	MAPK1	Reactome	15035987;16364920;20130576;20141835;20179705;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-6802918;reactome:Catalysis5171
+MARK3	controls-state-change-of	MAPK3	Reactome	15035987;16364920;20130576;20141835;20179705;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-6802918;reactome:Catalysis5171
+MARK3	controls-state-change-of	NRAS	Reactome	15035987;20130576;20141835;20179705;22510884;23352452;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-8936731;http://bioregistry.io/reactome:R-HSA-8936735
+MARK3	in-complex-with	NRAS	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+MARK3	controls-state-change-of	RAF1	Reactome	15035987;20130576;20141835;20179705;22510884;23352452;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-8936731;http://bioregistry.io/reactome:R-HSA-8936735
+MARK3	controls-transport-of	RAF1	Reactome	15035987;20130576;20141835;20179705;22510884;23352452;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-8936731;http://bioregistry.io/reactome:R-HSA-8936735
+MARK3	in-complex-with	RAF1	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+MARK3	controls-state-change-of	YWHAB	Reactome	15035987;20130576;20141835;20179705;22510884;23352452;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-8936731;http://bioregistry.io/reactome:R-HSA-8936735
+MARK3	controls-transport-of	YWHAB	Reactome	15035987;20130576;20141835;20179705;22510884;23352452;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-8936731;http://bioregistry.io/reactome:R-HSA-8936735
+MARK3	in-complex-with	YWHAB	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+NRAS	controls-state-change-of	MAP2K1	Reactome	15035987;16364920;20130576;20141835;20179705;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Catalysis5170;http://bioregistry.io/reactome:R-HSA-6802943
+NRAS	controls-state-change-of	MAP2K2	Reactome	15035987;16364920;20130576;20141835;20179705;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Catalysis5170;http://bioregistry.io/reactome:R-HSA-6802943
+NRAS	controls-state-change-of	MAPK1	Reactome	15035987;16364920;20130576;20141835;20179705;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-6802918;reactome:Catalysis5171
+NRAS	controls-state-change-of	MAPK3	Reactome	15035987;16364920;20130576;20141835;20179705;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-6802918;reactome:Catalysis5171
+NRAS	in-complex-with	PEBP1	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex8673
+NRAS	in-complex-with	RAF1	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex8674;reactome:Complex12126;reactome:Complex12125
+NRAS	in-complex-with	RAP1A	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+NRAS	in-complex-with	RAP1B	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+NRAS	in-complex-with	SRC	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+NRAS	in-complex-with	TLN1	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+NRAS	in-complex-with	VCL	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+NRAS	in-complex-with	VWF	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+NRAS	in-complex-with	YWHAB	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex8674;reactome:Complex12126;reactome:Complex12125
+PEBP1	controls-state-change-of	APBB1IP	Reactome	15035987;16364920;20130576;20141835;20179705;21779496;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-8936736;http://bioregistry.io/reactome:R-HSA-6802942
+PEBP1	controls-transport-of	APBB1IP	Reactome	15035987;16364920;20130576;20141835;20179705;21779496;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-8936736;http://bioregistry.io/reactome:R-HSA-6802942
+PEBP1	controls-state-change-of	ARRB1	Reactome	15035987;16364920;20130576;20141835;20179705;21779496;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-8936736;http://bioregistry.io/reactome:R-HSA-6802942
+PEBP1	controls-transport-of	ARRB1	Reactome	15035987;16364920;20130576;20141835;20179705;21779496;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-8936736;http://bioregistry.io/reactome:R-HSA-6802942
+PEBP1	controls-state-change-of	ARRB2	Reactome	15035987;16364920;20130576;20141835;20179705;21779496;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-8936736;http://bioregistry.io/reactome:R-HSA-6802942
+PEBP1	controls-transport-of	ARRB2	Reactome	15035987;16364920;20130576;20141835;20179705;21779496;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-8936736;http://bioregistry.io/reactome:R-HSA-6802942
+PEBP1	controls-state-change-of	BRAF	Reactome	15035987;16364920;20130576;20141835;20179705;21779496;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-8936736;http://bioregistry.io/reactome:R-HSA-6802942
+PEBP1	controls-state-change-of	CNKSR1	Reactome	15035987;16364920;20130576;20141835;20179705;21779496;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-8936736;http://bioregistry.io/reactome:R-HSA-6802942
+PEBP1	controls-transport-of	CNKSR1	Reactome	15035987;16364920;20130576;20141835;20179705;21779496;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-8936736;http://bioregistry.io/reactome:R-HSA-6802942
+PEBP1	controls-state-change-of	CNKSR2	Reactome	15035987;16364920;20130576;20141835;20179705;21779496;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-8936736;http://bioregistry.io/reactome:R-HSA-6802942
+PEBP1	controls-transport-of	CNKSR2	Reactome	15035987;16364920;20130576;20141835;20179705;21779496;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-8936736;http://bioregistry.io/reactome:R-HSA-6802942
+PEBP1	controls-state-change-of	CSK	Reactome	15035987;16364920;20130576;20141835;20179705;21779496;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-8936736;http://bioregistry.io/reactome:R-HSA-6802942
+PEBP1	controls-transport-of	CSK	Reactome	15035987;16364920;20130576;20141835;20179705;21779496;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-8936736;http://bioregistry.io/reactome:R-HSA-6802942
+PEBP1	controls-state-change-of	FGA	Reactome	15035987;16364920;20130576;20141835;20179705;21779496;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-8936736;http://bioregistry.io/reactome:R-HSA-6802942
+PEBP1	controls-transport-of	FGA	Reactome	15035987;16364920;20130576;20141835;20179705;21779496;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-8936736;http://bioregistry.io/reactome:R-HSA-6802942
+PEBP1	controls-state-change-of	FGB	Reactome	15035987;16364920;20130576;20141835;20179705;21779496;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-8936736;http://bioregistry.io/reactome:R-HSA-6802942
+PEBP1	controls-transport-of	FGB	Reactome	15035987;16364920;20130576;20141835;20179705;21779496;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-8936736;http://bioregistry.io/reactome:R-HSA-6802942
+PEBP1	controls-state-change-of	FGG	Reactome	15035987;16364920;20130576;20141835;20179705;21779496;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-8936736;http://bioregistry.io/reactome:R-HSA-6802942
+PEBP1	controls-transport-of	FGG	Reactome	15035987;16364920;20130576;20141835;20179705;21779496;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-8936736;http://bioregistry.io/reactome:R-HSA-6802942
+PEBP1	controls-state-change-of	FN1	Reactome	15035987;16364920;20130576;20141835;20179705;21779496;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-8936736;http://bioregistry.io/reactome:R-HSA-6802942
+PEBP1	controls-transport-of	FN1	Reactome	15035987;16364920;20130576;20141835;20179705;21779496;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-8936736;http://bioregistry.io/reactome:R-HSA-6802942
+PEBP1	controls-state-change-of	HRAS	Reactome	15035987;16364920;20130576;20141835;20179705;21779496;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-8936736;http://bioregistry.io/reactome:R-HSA-6802942
+PEBP1	controls-state-change-of	IQGAP1	Reactome	15035987;16364920;20130576;20141835;20179705;21779496;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-8936736;http://bioregistry.io/reactome:R-HSA-6802942
+PEBP1	controls-transport-of	IQGAP1	Reactome	15035987;16364920;20130576;20141835;20179705;21779496;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-8936736;http://bioregistry.io/reactome:R-HSA-6802942
+PEBP1	controls-state-change-of	ITGA2B	Reactome	15035987;16364920;20130576;20141835;20179705;21779496;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-8936736;http://bioregistry.io/reactome:R-HSA-6802942
+PEBP1	controls-transport-of	ITGA2B	Reactome	15035987;16364920;20130576;20141835;20179705;21779496;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-8936736;http://bioregistry.io/reactome:R-HSA-6802942
+PEBP1	controls-state-change-of	ITGB3	Reactome	15035987;16364920;20130576;20141835;20179705;21779496;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-8936736;http://bioregistry.io/reactome:R-HSA-6802942
+PEBP1	controls-transport-of	ITGB3	Reactome	15035987;16364920;20130576;20141835;20179705;21779496;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-8936736;http://bioregistry.io/reactome:R-HSA-6802942
+PEBP1	controls-state-change-of	KRAS	Reactome	15035987;16364920;20130576;20141835;20179705;21779496;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-8936736;http://bioregistry.io/reactome:R-HSA-6802942
+PEBP1	controls-state-change-of	KSR1	Reactome	15035987;16364920;20130576;20141835;20179705;21779496;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-8936736;http://bioregistry.io/reactome:R-HSA-6802942
+PEBP1	controls-transport-of	KSR1	Reactome	15035987;16364920;20130576;20141835;20179705;21779496;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-8936736;http://bioregistry.io/reactome:R-HSA-6802942
+PEBP1	controls-state-change-of	KSR2	Reactome	15035987;16364920;20130576;20141835;20179705;21779496;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-8936736;http://bioregistry.io/reactome:R-HSA-6802942
+PEBP1	controls-transport-of	KSR2	Reactome	15035987;16364920;20130576;20141835;20179705;21779496;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-8936736;http://bioregistry.io/reactome:R-HSA-6802942
+PEBP1	controls-state-change-of	MAP2K1	Reactome	15035987;16364920;20130576;20141835;20179705;21779496;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-8936736;http://bioregistry.io/reactome:R-HSA-6802942
+PEBP1	controls-transport-of	MAP2K1	Reactome	15035987;16364920;20130576;20141835;20179705;21779496;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-8936736;http://bioregistry.io/reactome:R-HSA-6802942
+PEBP1	controls-state-change-of	MAP2K2	Reactome	15035987;16364920;20130576;20141835;20179705;21779496;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-8936736;http://bioregistry.io/reactome:R-HSA-6802942
+PEBP1	controls-transport-of	MAP2K2	Reactome	15035987;16364920;20130576;20141835;20179705;21779496;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-8936736;http://bioregistry.io/reactome:R-HSA-6802942
+PEBP1	controls-state-change-of	MAPK1	Reactome	15035987;16364920;20130576;20141835;20179705;21779496;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-8936736;http://bioregistry.io/reactome:R-HSA-6802942
+PEBP1	controls-transport-of	MAPK1	Reactome	15035987;16364920;20130576;20141835;20179705;21779496;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-8936736;http://bioregistry.io/reactome:R-HSA-6802942
+PEBP1	controls-state-change-of	MAPK3	Reactome	15035987;16364920;20130576;20141835;20179705;21779496;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-8936736;http://bioregistry.io/reactome:R-HSA-6802942
+PEBP1	controls-transport-of	MAPK3	Reactome	15035987;16364920;20130576;20141835;20179705;21779496;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-8936736;http://bioregistry.io/reactome:R-HSA-6802942
+PEBP1	controls-state-change-of	MARK3	Reactome	15035987;16364920;20130576;20141835;20179705;21779496;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-8936736;http://bioregistry.io/reactome:R-HSA-6802942
+PEBP1	controls-transport-of	MARK3	Reactome	15035987;16364920;20130576;20141835;20179705;21779496;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-8936736;http://bioregistry.io/reactome:R-HSA-6802942
+PEBP1	controls-state-change-of	NRAS	Reactome	15035987;16364920;20130576;20141835;20179705;21779496;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-8936736;http://bioregistry.io/reactome:R-HSA-6802942
+PEBP1	controls-state-change-of	RAF1	Reactome	15035987;16364920;20130576;20141835;20179705;21779496;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-8936736;http://bioregistry.io/reactome:R-HSA-6802942
+PEBP1	in-complex-with	RAF1	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex8673
+PEBP1	controls-state-change-of	RAP1A	Reactome	15035987;16364920;20130576;20141835;20179705;21779496;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-8936736;http://bioregistry.io/reactome:R-HSA-6802942
+PEBP1	controls-transport-of	RAP1A	Reactome	15035987;16364920;20130576;20141835;20179705;21779496;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-8936736;http://bioregistry.io/reactome:R-HSA-6802942
+PEBP1	controls-state-change-of	RAP1B	Reactome	15035987;16364920;20130576;20141835;20179705;21779496;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-8936736;http://bioregistry.io/reactome:R-HSA-6802942
+PEBP1	controls-transport-of	RAP1B	Reactome	15035987;16364920;20130576;20141835;20179705;21779496;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-8936736;http://bioregistry.io/reactome:R-HSA-6802942
+PEBP1	controls-state-change-of	SRC	Reactome	15035987;16364920;20130576;20141835;20179705;21779496;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-8936736;http://bioregistry.io/reactome:R-HSA-6802942
+PEBP1	controls-transport-of	SRC	Reactome	15035987;16364920;20130576;20141835;20179705;21779496;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-8936736;http://bioregistry.io/reactome:R-HSA-6802942
+PEBP1	controls-state-change-of	TLN1	Reactome	15035987;16364920;20130576;20141835;20179705;21779496;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-8936736;http://bioregistry.io/reactome:R-HSA-6802942
+PEBP1	controls-transport-of	TLN1	Reactome	15035987;16364920;20130576;20141835;20179705;21779496;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-8936736;http://bioregistry.io/reactome:R-HSA-6802942
+PEBP1	controls-state-change-of	VCL	Reactome	15035987;16364920;20130576;20141835;20179705;21779496;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-8936736;http://bioregistry.io/reactome:R-HSA-6802942
+PEBP1	controls-transport-of	VCL	Reactome	15035987;16364920;20130576;20141835;20179705;21779496;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-8936736;http://bioregistry.io/reactome:R-HSA-6802942
+PEBP1	controls-state-change-of	VWF	Reactome	15035987;16364920;20130576;20141835;20179705;21779496;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-8936736;http://bioregistry.io/reactome:R-HSA-6802942
+PEBP1	controls-transport-of	VWF	Reactome	15035987;16364920;20130576;20141835;20179705;21779496;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-8936736;http://bioregistry.io/reactome:R-HSA-6802942
+PEBP1	controls-state-change-of	YWHAB	Reactome	15035987;16364920;20130576;20141835;20179705;21779496;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-8936736;http://bioregistry.io/reactome:R-HSA-6802942
+PEBP1	in-complex-with	YWHAB	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex8673
+PHB1	controls-state-change-of	BRAF	Reactome	15035987;20130576;20141835;20179705;22510884;23352452;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-6802937;http://bioregistry.io/reactome:R-HSA-8936744
+PHB1	controls-transport-of	BRAF	Reactome	15035987;20130576;20141835;20179705;22510884;23352452;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-6802937;http://bioregistry.io/reactome:R-HSA-8936744
+PHB1	controls-state-change-of	HRAS	Reactome	15035987;20130576;20141835;20179705;22510884;23352452;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-6802937;http://bioregistry.io/reactome:R-HSA-8936744
+PHB1	controls-state-change-of	KRAS	Reactome	15035987;20130576;20141835;20179705;22510884;23352452;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-6802937;http://bioregistry.io/reactome:R-HSA-8936744
+PHB1	controls-state-change-of	NRAS	Reactome	15035987;20130576;20141835;20179705;22510884;23352452;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-6802937;http://bioregistry.io/reactome:R-HSA-8936744
+RAF1	controls-state-change-of	MAP2K1	Reactome	15035987;16364920;20130576;20141835;20179705;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Catalysis5170;http://bioregistry.io/reactome:R-HSA-6802943
+RAF1	controls-state-change-of	MAP2K2	Reactome	15035987;16364920;20130576;20141835;20179705;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Catalysis5170;http://bioregistry.io/reactome:R-HSA-6802943
+RAF1	controls-state-change-of	MAPK1	Reactome	15035987;16364920;20130576;20141835;20179705;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-6802918;reactome:Catalysis5171
+RAF1	controls-state-change-of	MAPK3	Reactome	15035987;16364920;20130576;20141835;20179705;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-6802918;reactome:Catalysis5171
+RAF1	in-complex-with	RAP1A	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+RAF1	in-complex-with	RAP1B	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+RAF1	in-complex-with	SRC	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+RAF1	in-complex-with	TLN1	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+RAF1	in-complex-with	VCL	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+RAF1	in-complex-with	VWF	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+RAF1	in-complex-with	YWHAB	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex8674;reactome:Complex12089;reactome:Complex12099;reactome:Complex12085
+RAP1A	controls-state-change-of	MAP2K1	Reactome	15035987;16364920;20130576;20141835;20179705;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Catalysis5170;http://bioregistry.io/reactome:R-HSA-6802943
+RAP1A	controls-state-change-of	MAP2K2	Reactome	15035987;16364920;20130576;20141835;20179705;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Catalysis5170;http://bioregistry.io/reactome:R-HSA-6802943
+RAP1A	controls-state-change-of	MAPK1	Reactome	15035987;16364920;20130576;20141835;20179705;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-6802918;reactome:Catalysis5171
+RAP1A	controls-state-change-of	MAPK3	Reactome	15035987;16364920;20130576;20141835;20179705;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-6802918;reactome:Catalysis5171
+RAP1A	in-complex-with	SRC	Reactome			reactome:Complex2886
+RAP1A	in-complex-with	TLN1	Reactome			reactome:Complex2882
+RAP1A	in-complex-with	VCL	Reactome			reactome:Complex8670
+RAP1A	in-complex-with	VWF	Reactome			reactome:Complex2888
+RAP1A	in-complex-with	YWHAB	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+RAP1B	controls-state-change-of	MAP2K1	Reactome	15035987;16364920;20130576;20141835;20179705;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Catalysis5170;http://bioregistry.io/reactome:R-HSA-6802943
+RAP1B	controls-state-change-of	MAP2K2	Reactome	15035987;16364920;20130576;20141835;20179705;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Catalysis5170;http://bioregistry.io/reactome:R-HSA-6802943
+RAP1B	controls-state-change-of	MAPK1	Reactome	15035987;16364920;20130576;20141835;20179705;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-6802918;reactome:Catalysis5171
+RAP1B	controls-state-change-of	MAPK3	Reactome	15035987;16364920;20130576;20141835;20179705;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-6802918;reactome:Catalysis5171
+RAP1B	in-complex-with	SRC	Reactome			reactome:Complex2886
+RAP1B	in-complex-with	TLN1	Reactome			reactome:Complex2882
+RAP1B	in-complex-with	VCL	Reactome			reactome:Complex8670
+RAP1B	in-complex-with	VWF	Reactome			reactome:Complex2888
+RAP1B	in-complex-with	YWHAB	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+SRC	controls-state-change-of	BRAF	Reactome	15035987;16364920;20130576;20141835;20179705;23680146;24957944;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Catalysis5169;http://bioregistry.io/reactome:R-HSA-6802941
+SRC	controls-state-change-of	HRAS	Reactome	15035987;16364920;20130576;20141835;20179705;23680146;24957944;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Catalysis5169;http://bioregistry.io/reactome:R-HSA-6802941
+SRC	controls-state-change-of	KRAS	Reactome	15035987;16364920;20130576;20141835;20179705;23680146;24957944;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Catalysis5169;http://bioregistry.io/reactome:R-HSA-6802941
+SRC	controls-state-change-of	MAP2K1	Reactome	15035987;16364920;20130576;20141835;20179705;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Catalysis5170;http://bioregistry.io/reactome:R-HSA-6802943
+SRC	controls-state-change-of	MAP2K2	Reactome	15035987;16364920;20130576;20141835;20179705;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Catalysis5170;http://bioregistry.io/reactome:R-HSA-6802943
+SRC	controls-state-change-of	MAPK1	Reactome	15035987;16364920;20130576;20141835;20179705;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-6802918;reactome:Catalysis5171
+SRC	controls-state-change-of	MAPK3	Reactome	15035987;16364920;20130576;20141835;20179705;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-6802918;reactome:Catalysis5171
+SRC	controls-state-change-of	NRAS	Reactome	15035987;16364920;20130576;20141835;20179705;23680146;24957944;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Catalysis5169;http://bioregistry.io/reactome:R-HSA-6802941
+SRC	controls-phosphorylation-of	RAF1	Reactome	15035987;16364920;20130576;20141835;20179705;23680146;24957944;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Catalysis5169;http://bioregistry.io/reactome:R-HSA-6802941
+SRC	controls-state-change-of	RAF1	Reactome	15035987;16364920;20130576;20141835;20179705;23680146;24957944;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Catalysis5169;http://bioregistry.io/reactome:R-HSA-6802941
+SRC	in-complex-with	TLN1	Reactome			reactome:Complex2886
+SRC	in-complex-with	VCL	Reactome			reactome:Complex8670
+SRC	in-complex-with	VWF	Reactome			reactome:Complex2888
+SRC	controls-state-change-of	YWHAB	Reactome	15035987;16364920;20130576;20141835;20179705;23680146;24957944;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Catalysis5169;http://bioregistry.io/reactome:R-HSA-6802941
+SRC	in-complex-with	YWHAB	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+TLN1	controls-state-change-of	MAP2K1	Reactome	15035987;16364920;20130576;20141835;20179705;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Catalysis5170;http://bioregistry.io/reactome:R-HSA-6802943
+TLN1	controls-state-change-of	MAP2K2	Reactome	15035987;16364920;20130576;20141835;20179705;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Catalysis5170;http://bioregistry.io/reactome:R-HSA-6802943
+TLN1	controls-state-change-of	MAPK1	Reactome	15035987;16364920;20130576;20141835;20179705;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-6802918;reactome:Catalysis5171
+TLN1	controls-state-change-of	MAPK3	Reactome	15035987;16364920;20130576;20141835;20179705;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-6802918;reactome:Catalysis5171
+TLN1	in-complex-with	VCL	Reactome			reactome:Complex8670
+TLN1	in-complex-with	VWF	Reactome			reactome:Complex2888
+TLN1	in-complex-with	YWHAB	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+VCL	controls-state-change-of	MAP2K1	Reactome	15035987;16364920;20130576;20141835;20179705;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Catalysis5170;http://bioregistry.io/reactome:R-HSA-6802943
+VCL	controls-state-change-of	MAP2K2	Reactome	15035987;16364920;20130576;20141835;20179705;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Catalysis5170;http://bioregistry.io/reactome:R-HSA-6802943
+VCL	controls-state-change-of	MAPK1	Reactome	15035987;16364920;20130576;20141835;20179705;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-6802918;reactome:Catalysis5171
+VCL	controls-state-change-of	MAPK3	Reactome	15035987;16364920;20130576;20141835;20179705;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-6802918;reactome:Catalysis5171
+VCL	in-complex-with	VWF	Reactome			reactome:Complex8670
+VCL	in-complex-with	YWHAB	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+VWF	controls-state-change-of	MAP2K1	Reactome	15035987;16364920;20130576;20141835;20179705;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Catalysis5170;http://bioregistry.io/reactome:R-HSA-6802943
+VWF	controls-state-change-of	MAP2K2	Reactome	15035987;16364920;20130576;20141835;20179705;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Catalysis5170;http://bioregistry.io/reactome:R-HSA-6802943
+VWF	controls-state-change-of	MAPK1	Reactome	15035987;16364920;20130576;20141835;20179705;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-6802918;reactome:Catalysis5171
+VWF	controls-state-change-of	MAPK3	Reactome	15035987;16364920;20130576;20141835;20179705;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-6802918;reactome:Catalysis5171
+VWF	in-complex-with	YWHAB	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+YWHAB	controls-state-change-of	MAP2K1	Reactome	15035987;16364920;20130576;20141835;20179705;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Catalysis5170;http://bioregistry.io/reactome:R-HSA-6802943
+YWHAB	controls-state-change-of	MAP2K2	Reactome	15035987;16364920;20130576;20141835;20179705;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Catalysis5170;http://bioregistry.io/reactome:R-HSA-6802943
+YWHAB	controls-state-change-of	MAPK1	Reactome	15035987;16364920;20130576;20141835;20179705;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-6802918;reactome:Catalysis5171
+YWHAB	controls-state-change-of	MAPK3	Reactome	15035987;16364920;20130576;20141835;20179705;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	http://bioregistry.io/reactome:R-HSA-6802918;reactome:Catalysis5171
+chebi:18420	chemical-affects	APBB1IP	Reactome			reactome:Complex2888
+chebi:18420	chemical-affects	BRAF	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+chebi:18420	chemical-affects	CSK	Reactome			reactome:Complex2888
+chebi:18420	chemical-affects	FGA	Reactome			reactome:Complex2888
+chebi:18420	chemical-affects	FGB	Reactome			reactome:Complex2888
+chebi:18420	chemical-affects	FGG	Reactome			reactome:Complex2888
+chebi:18420	chemical-affects	FN1	Reactome			reactome:Complex2888
+chebi:18420	chemical-affects	HRAS	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+chebi:18420	chemical-affects	ITGA2B	Reactome			reactome:Complex2888
+chebi:18420	chemical-affects	ITGB3	Reactome			reactome:Complex2888
+chebi:18420	chemical-affects	KRAS	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+chebi:18420	chemical-affects	MAP2K1	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+chebi:18420	chemical-affects	MAP2K2	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+chebi:18420	chemical-affects	MAPK1	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+chebi:18420	chemical-affects	MAPK3	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+chebi:18420	chemical-affects	NRAS	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+chebi:18420	chemical-affects	RAF1	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+chebi:18420	chemical-affects	RAP1A	Reactome			reactome:Complex2888
+chebi:18420	chemical-affects	RAP1B	Reactome			reactome:Complex2888
+chebi:18420	chemical-affects	SRC	Reactome			reactome:Complex2888
+chebi:18420	chemical-affects	TLN1	Reactome			reactome:Complex2888
+chebi:18420	chemical-affects	VCL	Reactome			reactome:Complex8670
+chebi:18420	chemical-affects	VWF	Reactome			reactome:Complex2888
+chebi:18420	chemical-affects	YWHAB	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+chebi:27540	chemical-affects	APBB1IP	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+chebi:27540	chemical-affects	ARRB1	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+chebi:27540	chemical-affects	ARRB2	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+chebi:27540	chemical-affects	BRAF	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12123
+chebi:27540	chemical-affects	CNKSR1	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+chebi:27540	chemical-affects	CNKSR2	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+chebi:27540	chemical-affects	CSK	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+chebi:27540	chemical-affects	FGA	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+chebi:27540	chemical-affects	FGB	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+chebi:27540	chemical-affects	FGG	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+chebi:27540	chemical-affects	FN1	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+chebi:27540	chemical-affects	HRAS	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12124;reactome:Complex12126;reactome:Complex12125
+chebi:27540	chemical-affects	IQGAP1	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+chebi:27540	chemical-affects	ITGA2B	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+chebi:27540	chemical-affects	ITGB3	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+chebi:27540	chemical-affects	KRAS	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12124;reactome:Complex12126;reactome:Complex12125
+chebi:27540	chemical-affects	KSR1	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+chebi:27540	chemical-affects	KSR2	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+chebi:27540	chemical-affects	MAP2K1	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+chebi:27540	chemical-affects	MAP2K2	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+chebi:27540	chemical-affects	MAPK1	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+chebi:27540	chemical-affects	MAPK3	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+chebi:27540	chemical-affects	MARK3	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+chebi:27540	chemical-affects	NRAS	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12124;reactome:Complex12126;reactome:Complex12125
+chebi:27540	chemical-affects	RAF1	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12126;reactome:Complex12125
+chebi:27540	chemical-affects	RAP1A	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+chebi:27540	chemical-affects	RAP1B	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+chebi:27540	chemical-affects	SRC	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+chebi:27540	chemical-affects	TLN1	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+chebi:27540	chemical-affects	VCL	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+chebi:27540	chemical-affects	VWF	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+chebi:27540	chemical-affects	YWHAB	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12126;reactome:Complex12125
+chebi:29035	chemical-affects	APBB1IP	Reactome			reactome:Complex2888
+chebi:29035	chemical-affects	BRAF	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+chebi:29035	chemical-affects	CSK	Reactome			reactome:Complex2888
+chebi:29035	chemical-affects	FGA	Reactome			reactome:Complex2888
+chebi:29035	chemical-affects	FGB	Reactome			reactome:Complex2888
+chebi:29035	chemical-affects	FGG	Reactome			reactome:Complex2888
+chebi:29035	chemical-affects	FN1	Reactome			reactome:Complex2888
+chebi:29035	chemical-affects	HRAS	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+chebi:29035	chemical-affects	ITGA2B	Reactome			reactome:Complex2888
+chebi:29035	chemical-affects	ITGB3	Reactome			reactome:Complex2888
+chebi:29035	chemical-affects	KRAS	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+chebi:29035	chemical-affects	MAP2K1	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+chebi:29035	chemical-affects	MAP2K2	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+chebi:29035	chemical-affects	MAPK1	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+chebi:29035	chemical-affects	MAPK3	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+chebi:29035	chemical-affects	NRAS	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+chebi:29035	chemical-affects	RAF1	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+chebi:29035	chemical-affects	RAP1A	Reactome			reactome:Complex2888
+chebi:29035	chemical-affects	RAP1B	Reactome			reactome:Complex2888
+chebi:29035	chemical-affects	SRC	Reactome			reactome:Complex2888
+chebi:29035	chemical-affects	TLN1	Reactome			reactome:Complex2888
+chebi:29035	chemical-affects	VCL	Reactome			reactome:Complex8670
+chebi:29035	chemical-affects	VWF	Reactome			reactome:Complex2888
+chebi:29035	chemical-affects	YWHAB	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+chebi:29108	chemical-affects	APBB1IP	Reactome			reactome:Complex2888
+chebi:29108	chemical-affects	BRAF	Reactome	15035987;16364920;20130576;20141835;20179705;23680146;24957944;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Catalysis5169;reactome:Complex12127;reactome:Complex12129;http://bioregistry.io/reactome:R-HSA-6802941
+chebi:29108	chemical-affects	CALM1	Reactome			reactome:Complex150
+chebi:29108	chemical-affects	CAMK2A	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex7848
+chebi:29108	chemical-affects	CAMK2B	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex7848
+chebi:29108	chemical-affects	CAMK2D	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex7848
+chebi:29108	chemical-affects	CAMK2G	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex7848
+chebi:29108	chemical-affects	CSK	Reactome			reactome:Complex2888
+chebi:29108	chemical-affects	FGA	Reactome			reactome:Complex2888
+chebi:29108	chemical-affects	FGB	Reactome			reactome:Complex2888
+chebi:29108	chemical-affects	FGG	Reactome			reactome:Complex2888
+chebi:29108	chemical-affects	FN1	Reactome			reactome:Complex2888
+chebi:29108	chemical-affects	HRAS	Reactome	15035987;16364920;20130576;20141835;20179705;23680146;24957944;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Catalysis5169;reactome:Complex12127;reactome:Complex12129;http://bioregistry.io/reactome:R-HSA-6802941
+chebi:29108	chemical-affects	ITGA2B	Reactome			reactome:Complex2888
+chebi:29108	chemical-affects	ITGB3	Reactome			reactome:Complex2888
+chebi:29108	chemical-affects	KRAS	Reactome	15035987;16364920;20130576;20141835;20179705;23680146;24957944;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Catalysis5169;reactome:Complex12127;reactome:Complex12129;http://bioregistry.io/reactome:R-HSA-6802941
+chebi:29108	chemical-affects	MAP2K1	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+chebi:29108	chemical-affects	MAP2K2	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+chebi:29108	chemical-affects	MAPK1	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+chebi:29108	chemical-affects	MAPK3	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+chebi:29108	chemical-affects	NRAS	Reactome	15035987;16364920;20130576;20141835;20179705;23680146;24957944;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Catalysis5169;reactome:Complex12127;reactome:Complex12129;http://bioregistry.io/reactome:R-HSA-6802941
+chebi:29108	chemical-affects	RAF1	Reactome	15035987;16364920;20130576;20141835;20179705;23680146;24957944;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Catalysis5169;reactome:Complex12127;reactome:Complex12129;http://bioregistry.io/reactome:R-HSA-6802941
+chebi:29108	chemical-affects	RAP1A	Reactome			reactome:Complex2888
+chebi:29108	chemical-affects	RAP1B	Reactome			reactome:Complex2888
+chebi:29108	chemical-affects	SRC	Reactome			reactome:Complex2888
+chebi:29108	chemical-affects	TLN1	Reactome			reactome:Complex2888
+chebi:29108	chemical-affects	VCL	Reactome			reactome:Complex8670
+chebi:29108	chemical-affects	VWF	Reactome			reactome:Complex2888
+chebi:29108	chemical-affects	YWHAB	Reactome	15035987;16364920;20130576;20141835;20179705;23680146;24957944;25435214;25907612	Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Catalysis5169;reactome:Complex12127;reactome:Complex12129;http://bioregistry.io/reactome:R-HSA-6802941
+chebi:58456	chemical-affects	APBB1IP	Reactome			reactome:Complex8670;reactome:Complex2881
+chebi:58456	chemical-affects	BRAF	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+chebi:58456	chemical-affects	CSK	Reactome			reactome:Complex8670;reactome:Complex2886
+chebi:58456	chemical-affects	FGA	Reactome			reactome:Complex2888;reactome:Complex8670
+chebi:58456	chemical-affects	FGB	Reactome			reactome:Complex2888;reactome:Complex8670
+chebi:58456	chemical-affects	FGG	Reactome			reactome:Complex2888;reactome:Complex8670
+chebi:58456	chemical-affects	FN1	Reactome			reactome:Complex2888;reactome:Complex8670
+chebi:58456	chemical-affects	HRAS	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+chebi:58456	chemical-affects	ITGA2B	Reactome			reactome:Complex8670;reactome:Complex2886
+chebi:58456	chemical-affects	ITGB3	Reactome			reactome:Complex8670;reactome:Complex2886
+chebi:58456	chemical-affects	KRAS	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+chebi:58456	chemical-affects	MAP2K1	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+chebi:58456	chemical-affects	MAP2K2	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+chebi:58456	chemical-affects	MAPK1	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+chebi:58456	chemical-affects	MAPK3	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+chebi:58456	chemical-affects	NRAS	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+chebi:58456	chemical-affects	RAF1	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+chebi:58456	chemical-affects	RAP1A	Reactome			reactome:Complex8670;reactome:Complex2881
+chebi:58456	chemical-affects	RAP1B	Reactome			reactome:Complex8670;reactome:Complex2881
+chebi:58456	chemical-affects	SRC	Reactome			reactome:Complex8670;reactome:Complex2886
+chebi:58456	chemical-affects	TLN1	Reactome			reactome:Complex8670;reactome:Complex2882
+chebi:58456	chemical-affects	VCL	Reactome			reactome:Complex8670;reactome:Complex8671
+chebi:58456	chemical-affects	VWF	Reactome			reactome:Complex2888;reactome:Complex8670
+chebi:58456	chemical-affects	YWHAB	Reactome		Paradoxical activation of RAF signaling by kinase inactive BRAF	reactome:Complex12128;reactome:Complex12127;reactome:Complex12129
+
+PARTICIPANT	PARTICIPANT_TYPE	PARTICIPANT_NAME	UNIFICATION_XREF	RELATIONSHIP_XREF
+CAMK2B	ProteinReference	KCC2B_HUMAN	uniprot:Q13554	hgnc.symbol:CAMK2B;ncbigene:816
+CAMK2D	ProteinReference	KCC2D_HUMAN	uniprot:Q13557	hgnc.symbol:CAMK2D;ncbigene:817
+chebi:27540	SmallMoleculeReference	hexanoyl-CoA	chebi:CHEBI:27540	
+PHB1	ProteinReference	PHB1_HUMAN	uniprot:P35232	hgnc.symbol:PHB1;ncbigene:5245
+chebi:29108	SmallMoleculeReference	calcium(2+)	chebi:CHEBI:29108	
+YWHAB	ProteinReference	1433B_HUMAN	uniprot:P31946	hgnc.symbol:YWHAB;ncbigene:7529
+SRC	ProteinReference	SRC_HUMAN	uniprot:P12931	hgnc.symbol:SRC;ncbigene:6714
+ITGB3	ProteinReference	ITB3_HUMAN	uniprot:P05106	hgnc.symbol:ITGB3;ncbigene:3690
+ITGA2B	ProteinReference	ITA2B_HUMAN	uniprot:P08514	hgnc.symbol:ITGA2B;ncbigene:3674
+CAMK2A	ProteinReference	KCC2A_HUMAN	uniprot:Q9UQM7	hgnc.symbol:CAMK2A;ncbigene:815
+ARAF	ProteinReference	ARAF_HUMAN	uniprot:P10398	hgnc.symbol:ARAF;ncbigene:369
+PEBP1	ProteinReference	PEBP1_HUMAN	uniprot:P30086	hgnc.symbol:PEBP1;ncbigene:5037
+ARRB1	ProteinReference	ARRB1_HUMAN	uniprot:P49407	hgnc.symbol:ARRB1;ncbigene:408
+IQGAP1	ProteinReference	IQGA1_HUMAN	uniprot:P46940	hgnc.symbol:IQGAP1;ncbigene:8826
+ARRB2	ProteinReference	ARRB2_HUMAN	uniprot:P32121	hgnc.symbol:ARRB2;ncbigene:409
+RAP1B	ProteinReference	RAP1B_HUMAN	uniprot:P61224	hgnc.symbol:RAP1B;ncbigene:5908
+NRAS	ProteinReference	RASN_HUMAN	uniprot:P01111	hgnc.symbol:NRAS;ncbigene:4893
+RAP1A	ProteinReference	RAP1A_HUMAN	uniprot:P62834	hgnc.symbol:RAP1A;ncbigene:5906
+MAPK1	ProteinReference	MK01_HUMAN	uniprot:P28482	hgnc.symbol:MAPK1;ncbigene:5594
+chebi:58456	SmallMoleculeReference	1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate(5-)	chebi:CHEBI:58456	
+CSK	ProteinReference	CSK_HUMAN	uniprot:P41240	hgnc.symbol:CSK;ncbigene:1445
+JAK2	ProteinReference	JAK2_HUMAN	uniprot:O60674	hgnc.symbol:JAK2;ncbigene:3717
+HRAS	ProteinReference	RASH_HUMAN	uniprot:P01112	hgnc.symbol:HRAS;ncbigene:3265
+MARK3	ProteinReference	MARK3_HUMAN	uniprot:P27448	hgnc.symbol:MARK3;ncbigene:4140
+CAMK2G	ProteinReference	KCC2G_HUMAN	uniprot:Q13555	hgnc.symbol:CAMK2G;ncbigene:818
+MAPK3	ProteinReference	MK03_HUMAN	uniprot:P27361	hgnc.symbol:MAPK3;ncbigene:5595
+BRAP	ProteinReference	BRAP_HUMAN	uniprot:Q7Z569	hgnc.symbol:BRAP;ncbigene:8315
+FGB	ProteinReference	FIBB_HUMAN	uniprot:P02675	hgnc.symbol:FGB;ncbigene:2244
+FGA	ProteinReference	FIBA_HUMAN	uniprot:P02671	hgnc.symbol:FGA;ncbigene:2243
+MAP2K1	ProteinReference	MP2K1_HUMAN	uniprot:Q02750	hgnc.symbol:MAP2K1;ncbigene:5604
+MAP2K2	ProteinReference	MP2K2_HUMAN	uniprot:P36507	hgnc.symbol:MAP2K2;ncbigene:5605
+KSR1	ProteinReference	KSR1_HUMAN	uniprot:Q8IVT5	hgnc.symbol:KSR1;ncbigene:8844
+chebi:29035	SmallMoleculeReference	manganese(2+)	chebi:CHEBI:29035	
+VWF	ProteinReference	VWF_HUMAN	uniprot:P04275	hgnc.symbol:VWF;ncbigene:7450
+FGG	ProteinReference	FIBG_HUMAN	uniprot:P02679	hgnc.symbol:FGG;ncbigene:2266
+FN1	ProteinReference	FINC_HUMAN	uniprot:P02751	hgnc.symbol:FN1;ncbigene:2335
+BRAF	ProteinReference	BRAF_HUMAN	uniprot:P15056	hgnc.symbol:BRAF;ncbigene:673
+KSR2	ProteinReference	KSR2_HUMAN	uniprot:Q6VAB6	hgnc.symbol:KSR2;ncbigene:283455
+APBB1IP	ProteinReference	AB1IP_HUMAN	uniprot:Q7Z5R6	hgnc.symbol:APBB1IP;ncbigene:54518
+CNKSR2	ProteinReference	CNKR2_HUMAN	uniprot:Q8WXI2	hgnc.symbol:CNKSR2;ncbigene:22866
+CNKSR1	ProteinReference	CNKR1_HUMAN	uniprot:Q969H4	hgnc.symbol:CNKSR1;ncbigene:10256
+chebi:18420	SmallMoleculeReference	magnesium(2+)	chebi:CHEBI:18420	
+KRAS	ProteinReference	RASK_HUMAN	uniprot:P01116	hgnc.symbol:KRAS;ncbigene:3845
+RAF1	ProteinReference	RAF1_HUMAN	uniprot:P04049	hgnc.symbol:RAF1;ncbigene:5894
+TLN1	ProteinReference	TLN1_HUMAN	uniprot:Q9Y490	hgnc.symbol:TLN1;ncbigene:7094
+CALM1	ProteinReference	CALM1_HUMAN	uniprot:P0DP23	hgnc.symbol:CALM1;ncbigene:801;ncbigene:805;ncbigene:808
+VCL	ProteinReference	VINC_HUMAN	uniprot:P18206	hgnc.symbol:VCL;ncbigene:7414
+MAP3K11	ProteinReference	M3K11_HUMAN	uniprot:Q16584	hgnc.symbol:MAP3K11;ncbigene:4296

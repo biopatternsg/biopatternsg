@@ -1,0 +1,85 @@
+﻿PARTICIPANT_A	INTERACTION_TYPE	PARTICIPANT_B	INTERACTION_DATA_SOURCE	INTERACTION_PUBMED_ID	PATHWAY_NAMES	MEDIATOR_IDS
+DUSP3	controls-phosphorylation-of	MAPK1	Reactome	17322878	ERKs are inactivated	http://bioregistry.io/reactome:R-HSA-203797;reactome:Catalysis482;http://bioregistry.io/reactome:R-HSA-8942517
+DUSP3	controls-state-change-of	MAPK1	Reactome	17322878	ERKs are inactivated	http://bioregistry.io/reactome:R-HSA-203797;reactome:Catalysis482;http://bioregistry.io/reactome:R-HSA-8942517
+DUSP3	controls-phosphorylation-of	MAPK3	Reactome	17322878	ERKs are inactivated	http://bioregistry.io/reactome:R-HSA-203797;reactome:Catalysis482;http://bioregistry.io/reactome:R-HSA-8942517
+DUSP3	controls-state-change-of	MAPK3	Reactome	17322878	ERKs are inactivated	http://bioregistry.io/reactome:R-HSA-203797;reactome:Catalysis482;http://bioregistry.io/reactome:R-HSA-8942517
+DUSP3	controls-phosphorylation-of	MAPK7	Reactome	17322878	ERKs are inactivated	http://bioregistry.io/reactome:R-HSA-203797;reactome:Catalysis482;http://bioregistry.io/reactome:R-HSA-8942517
+DUSP3	controls-state-change-of	MAPK7	Reactome	17322878	ERKs are inactivated	http://bioregistry.io/reactome:R-HSA-203797;reactome:Catalysis482;http://bioregistry.io/reactome:R-HSA-8942517
+DUSP3	in-complex-with	VRK3	Reactome		ERKs are inactivated	reactome:Complex1035
+DUSP4	controls-phosphorylation-of	MAPK1	Reactome	17322878	ERKs are inactivated	http://bioregistry.io/reactome:R-HSA-203797;reactome:Catalysis482
+DUSP4	controls-state-change-of	MAPK1	Reactome	17322878	ERKs are inactivated	http://bioregistry.io/reactome:R-HSA-203797;reactome:Catalysis482
+DUSP4	controls-phosphorylation-of	MAPK3	Reactome	17322878	ERKs are inactivated	http://bioregistry.io/reactome:R-HSA-203797;reactome:Catalysis482
+DUSP4	controls-state-change-of	MAPK3	Reactome	17322878	ERKs are inactivated	http://bioregistry.io/reactome:R-HSA-203797;reactome:Catalysis482
+DUSP4	controls-phosphorylation-of	MAPK7	Reactome	17322878	ERKs are inactivated	http://bioregistry.io/reactome:R-HSA-203797;reactome:Catalysis482
+DUSP4	controls-state-change-of	MAPK7	Reactome	17322878	ERKs are inactivated	http://bioregistry.io/reactome:R-HSA-203797;reactome:Catalysis482
+DUSP6	controls-phosphorylation-of	MAPK1	Reactome	17322878	ERKs are inactivated	http://bioregistry.io/reactome:R-HSA-203797;reactome:Catalysis482
+DUSP6	controls-state-change-of	MAPK1	Reactome	17322878	ERKs are inactivated	http://bioregistry.io/reactome:R-HSA-203797;reactome:Catalysis482
+DUSP6	controls-phosphorylation-of	MAPK3	Reactome	17322878	ERKs are inactivated	http://bioregistry.io/reactome:R-HSA-203797;reactome:Catalysis482
+DUSP6	controls-state-change-of	MAPK3	Reactome	17322878	ERKs are inactivated	http://bioregistry.io/reactome:R-HSA-203797;reactome:Catalysis482
+DUSP6	controls-phosphorylation-of	MAPK7	Reactome	17322878	ERKs are inactivated	http://bioregistry.io/reactome:R-HSA-203797;reactome:Catalysis482
+DUSP6	controls-state-change-of	MAPK7	Reactome	17322878	ERKs are inactivated	http://bioregistry.io/reactome:R-HSA-203797;reactome:Catalysis482
+DUSP7	controls-phosphorylation-of	MAPK1	Reactome	17322878	ERKs are inactivated	http://bioregistry.io/reactome:R-HSA-203797;reactome:Catalysis482
+DUSP7	controls-state-change-of	MAPK1	Reactome	17322878	ERKs are inactivated	http://bioregistry.io/reactome:R-HSA-203797;reactome:Catalysis482
+DUSP7	controls-phosphorylation-of	MAPK3	Reactome	17322878	ERKs are inactivated	http://bioregistry.io/reactome:R-HSA-203797;reactome:Catalysis482
+DUSP7	controls-state-change-of	MAPK3	Reactome	17322878	ERKs are inactivated	http://bioregistry.io/reactome:R-HSA-203797;reactome:Catalysis482
+DUSP7	controls-phosphorylation-of	MAPK7	Reactome	17322878	ERKs are inactivated	http://bioregistry.io/reactome:R-HSA-203797;reactome:Catalysis482
+DUSP7	controls-state-change-of	MAPK7	Reactome	17322878	ERKs are inactivated	http://bioregistry.io/reactome:R-HSA-203797;reactome:Catalysis482
+PPP2CA	controls-phosphorylation-of	MAPK1	Reactome	16456541	ERKs are inactivated	reactome:Catalysis481;http://bioregistry.io/reactome:R-HSA-199959
+PPP2CA	controls-state-change-of	MAPK1	Reactome	16456541	ERKs are inactivated	reactome:Catalysis481;http://bioregistry.io/reactome:R-HSA-199959
+PPP2CA	controls-phosphorylation-of	MAPK3	Reactome	16456541	ERKs are inactivated	reactome:Catalysis481;http://bioregistry.io/reactome:R-HSA-199959
+PPP2CA	controls-state-change-of	MAPK3	Reactome	16456541	ERKs are inactivated	reactome:Catalysis481;http://bioregistry.io/reactome:R-HSA-199959
+PPP2CA	controls-phosphorylation-of	MAPK7	Reactome	16456541	ERKs are inactivated	reactome:Catalysis481;http://bioregistry.io/reactome:R-HSA-199959
+PPP2CA	controls-state-change-of	MAPK7	Reactome	16456541	ERKs are inactivated	reactome:Catalysis481;http://bioregistry.io/reactome:R-HSA-199959
+PPP2CA	in-complex-with	PPP2R1A	Reactome		ERKs are inactivated	reactome:Complex1034
+PPP2CA	in-complex-with	PPP2R1B	Reactome		ERKs are inactivated	reactome:Complex1034
+PPP2CA	in-complex-with	PPP2R5D	Reactome		ERKs are inactivated	reactome:Complex1034
+PPP2CB	controls-phosphorylation-of	MAPK1	Reactome	16456541	ERKs are inactivated	reactome:Catalysis481;http://bioregistry.io/reactome:R-HSA-199959
+PPP2CB	controls-state-change-of	MAPK1	Reactome	16456541	ERKs are inactivated	reactome:Catalysis481;http://bioregistry.io/reactome:R-HSA-199959
+PPP2CB	controls-phosphorylation-of	MAPK3	Reactome	16456541	ERKs are inactivated	reactome:Catalysis481;http://bioregistry.io/reactome:R-HSA-199959
+PPP2CB	controls-state-change-of	MAPK3	Reactome	16456541	ERKs are inactivated	reactome:Catalysis481;http://bioregistry.io/reactome:R-HSA-199959
+PPP2CB	controls-phosphorylation-of	MAPK7	Reactome	16456541	ERKs are inactivated	reactome:Catalysis481;http://bioregistry.io/reactome:R-HSA-199959
+PPP2CB	controls-state-change-of	MAPK7	Reactome	16456541	ERKs are inactivated	reactome:Catalysis481;http://bioregistry.io/reactome:R-HSA-199959
+PPP2CB	in-complex-with	PPP2R1A	Reactome		ERKs are inactivated	reactome:Complex1034
+PPP2CB	in-complex-with	PPP2R1B	Reactome		ERKs are inactivated	reactome:Complex1034
+PPP2CB	in-complex-with	PPP2R5D	Reactome		ERKs are inactivated	reactome:Complex1034
+PPP2R1A	controls-phosphorylation-of	MAPK1	Reactome	16456541	ERKs are inactivated	reactome:Catalysis481;http://bioregistry.io/reactome:R-HSA-199959
+PPP2R1A	controls-state-change-of	MAPK1	Reactome	16456541	ERKs are inactivated	reactome:Catalysis481;http://bioregistry.io/reactome:R-HSA-199959
+PPP2R1A	controls-phosphorylation-of	MAPK3	Reactome	16456541	ERKs are inactivated	reactome:Catalysis481;http://bioregistry.io/reactome:R-HSA-199959
+PPP2R1A	controls-state-change-of	MAPK3	Reactome	16456541	ERKs are inactivated	reactome:Catalysis481;http://bioregistry.io/reactome:R-HSA-199959
+PPP2R1A	controls-phosphorylation-of	MAPK7	Reactome	16456541	ERKs are inactivated	reactome:Catalysis481;http://bioregistry.io/reactome:R-HSA-199959
+PPP2R1A	controls-state-change-of	MAPK7	Reactome	16456541	ERKs are inactivated	reactome:Catalysis481;http://bioregistry.io/reactome:R-HSA-199959
+PPP2R1A	in-complex-with	PPP2R5D	Reactome		ERKs are inactivated	reactome:Complex1034
+PPP2R1B	controls-phosphorylation-of	MAPK1	Reactome	16456541	ERKs are inactivated	reactome:Catalysis481;http://bioregistry.io/reactome:R-HSA-199959
+PPP2R1B	controls-state-change-of	MAPK1	Reactome	16456541	ERKs are inactivated	reactome:Catalysis481;http://bioregistry.io/reactome:R-HSA-199959
+PPP2R1B	controls-phosphorylation-of	MAPK3	Reactome	16456541	ERKs are inactivated	reactome:Catalysis481;http://bioregistry.io/reactome:R-HSA-199959
+PPP2R1B	controls-state-change-of	MAPK3	Reactome	16456541	ERKs are inactivated	reactome:Catalysis481;http://bioregistry.io/reactome:R-HSA-199959
+PPP2R1B	controls-phosphorylation-of	MAPK7	Reactome	16456541	ERKs are inactivated	reactome:Catalysis481;http://bioregistry.io/reactome:R-HSA-199959
+PPP2R1B	controls-state-change-of	MAPK7	Reactome	16456541	ERKs are inactivated	reactome:Catalysis481;http://bioregistry.io/reactome:R-HSA-199959
+PPP2R1B	in-complex-with	PPP2R5D	Reactome		ERKs are inactivated	reactome:Complex1034
+PPP2R5D	controls-phosphorylation-of	MAPK1	Reactome	16456541	ERKs are inactivated	reactome:Catalysis481;http://bioregistry.io/reactome:R-HSA-199959
+PPP2R5D	controls-state-change-of	MAPK1	Reactome	16456541	ERKs are inactivated	reactome:Catalysis481;http://bioregistry.io/reactome:R-HSA-199959
+PPP2R5D	controls-phosphorylation-of	MAPK3	Reactome	16456541	ERKs are inactivated	reactome:Catalysis481;http://bioregistry.io/reactome:R-HSA-199959
+PPP2R5D	controls-state-change-of	MAPK3	Reactome	16456541	ERKs are inactivated	reactome:Catalysis481;http://bioregistry.io/reactome:R-HSA-199959
+PPP2R5D	controls-phosphorylation-of	MAPK7	Reactome	16456541	ERKs are inactivated	reactome:Catalysis481;http://bioregistry.io/reactome:R-HSA-199959
+PPP2R5D	controls-state-change-of	MAPK7	Reactome	16456541	ERKs are inactivated	reactome:Catalysis481;http://bioregistry.io/reactome:R-HSA-199959
+VRK3	controls-phosphorylation-of	MAPK1	Reactome	17322878	ERKs are inactivated	http://bioregistry.io/reactome:R-HSA-203797;http://bioregistry.io/reactome:R-HSA-8942517
+VRK3	controls-state-change-of	MAPK1	Reactome	17322878	ERKs are inactivated	http://bioregistry.io/reactome:R-HSA-203797;http://bioregistry.io/reactome:R-HSA-8942517
+VRK3	controls-phosphorylation-of	MAPK3	Reactome	17322878	ERKs are inactivated	http://bioregistry.io/reactome:R-HSA-203797;http://bioregistry.io/reactome:R-HSA-8942517
+VRK3	controls-state-change-of	MAPK3	Reactome	17322878	ERKs are inactivated	http://bioregistry.io/reactome:R-HSA-203797;http://bioregistry.io/reactome:R-HSA-8942517
+VRK3	controls-phosphorylation-of	MAPK7	Reactome	17322878	ERKs are inactivated	http://bioregistry.io/reactome:R-HSA-203797;http://bioregistry.io/reactome:R-HSA-8942517
+VRK3	controls-state-change-of	MAPK7	Reactome	17322878	ERKs are inactivated	http://bioregistry.io/reactome:R-HSA-203797;http://bioregistry.io/reactome:R-HSA-8942517
+
+PARTICIPANT	PARTICIPANT_TYPE	PARTICIPANT_NAME	UNIFICATION_XREF	RELATIONSHIP_XREF
+DUSP4	ProteinReference	DUS4_HUMAN	uniprot:Q13115	hgnc.symbol:DUSP4;ncbigene:1846
+DUSP3	ProteinReference	DUS3_HUMAN	uniprot:P51452	hgnc.symbol:DUSP3;ncbigene:1845
+PPP2R5D	ProteinReference	2A5D_HUMAN	uniprot:Q14738	hgnc.symbol:PPP2R5D;ncbigene:5528
+VRK3	ProteinReference	VRK3_HUMAN	uniprot:Q8IV63	hgnc.symbol:VRK3;ncbigene:51231
+DUSP6	ProteinReference	DUS6_HUMAN	uniprot:Q16828	hgnc.symbol:DUSP6;ncbigene:1848
+DUSP7	ProteinReference	DUS7_HUMAN	uniprot:Q16829	hgnc.symbol:DUSP7;ncbigene:1849
+PPP2CA	ProteinReference	PP2AA_HUMAN	uniprot:P67775	hgnc.symbol:PPP2CA;ncbigene:5515
+PPP2CB	ProteinReference	PP2AB_HUMAN	uniprot:P62714	hgnc.symbol:PPP2CB;ncbigene:5516
+MAPK7	ProteinReference	MK07_HUMAN	uniprot:Q13164	hgnc.symbol:MAPK7;ncbigene:5598
+PPP2R1B	ProteinReference	2AAB_HUMAN	uniprot:P30154	hgnc.symbol:PPP2R1B;ncbigene:5519
+PPP2R1A	ProteinReference	2AAA_HUMAN	uniprot:P30153	hgnc.symbol:PPP2R1A;ncbigene:5518
+MAPK1	ProteinReference	MK01_HUMAN	uniprot:P28482	hgnc.symbol:MAPK1;ncbigene:5594
+MAPK3	ProteinReference	MK03_HUMAN	uniprot:P27361	hgnc.symbol:MAPK3;ncbigene:5595

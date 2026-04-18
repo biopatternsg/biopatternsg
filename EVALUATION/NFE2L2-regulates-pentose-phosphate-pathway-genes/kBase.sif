@@ -1,0 +1,9 @@
+﻿CREBBP	in-complex-with	MAFG
+CREBBP	in-complex-with	NFE2L2
+EP300	in-complex-with	MAFG
+EP300	in-complex-with	NFE2L2
+MAFG	in-complex-with	NFE2L2
+NFE2L2	controls-production-of	chebi:18420
+NFE2L2	controls-production-of	chebi:58937
+chebi:18420	chemical-affects	TKT
+chebi:58937	chemical-affects	TKT

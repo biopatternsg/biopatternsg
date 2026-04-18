@@ -1,0 +1,1 @@
+chebi_name('chebi:28815', 'heparan sulfate').

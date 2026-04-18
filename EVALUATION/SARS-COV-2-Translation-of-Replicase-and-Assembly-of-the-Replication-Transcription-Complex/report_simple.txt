@@ -1,0 +1,21 @@
+Simple Report on kBase.sif vs kBase.pl
+Number of vertices in Ref .sif = 13
+Number of vertices in BioPattern =13
+Number of edges in Ref .sif = 54
+Number of edges in BioPattern = 53
+============================= TP Table =========================
+[(BECN1,MAP1LC3B),(BECN1,PIK3C3),(BECN1,PIK3R4),(BECN1,UVRAG),(CHMP2A,CHMP3),(CHMP2A,CHMP4A),(CHMP2A,CHMP4B),(CHMP2A,CHMP4C),(CHMP2A,CHMP6),(CHMP2A,CHMP7),(CHMP2B,CHMP3),(CHMP2B,CHMP4A),(CHMP2B,CHMP4B),(CHMP2B,CHMP4C),(CHMP2B,CHMP7),(CHMP3,CHMP4A),(CHMP3,CHMP4B),(CHMP3,CHMP6),(CHMP3,CHMP7),(CHMP4A,CHMP6),(CHMP4A,CHMP7),(CHMP4B,CHMP6),(CHMP4B,CHMP7),(CHMP4C,CHMP7),(CHMP6,CHMP7),(PIK3C3,MAP1LC3B),(PIK3C3,PIK3R4),(PIK3C3,UVRAG),(PIK3R4,MAP1LC3B),(PIK3R4,UVRAG),(UVRAG,MAP1LC3B)]
+================================================================
+============================= FP Table =========================
+[(PIK3C3,BECN1),(MAP1LC3B,PIK3C3),(MAP1LC3B,PIK3R4),(MAP1LC3B,UVRAG),(MAP1LC3B,BECN1),(PIK3R4,PIK3C3),(PIK3R4,BECN1),(UVRAG,PIK3C3),(UVRAG,PIK3R4),(UVRAG,BECN1),(CHMP4B,CHMP2B),(CHMP4B,CHMP4A),(CHMP4B,CHMP2A),(CHMP4B,CHMP3),(CHMP4B,CHMP4C),(CHMP7,CHMP4B),(CHMP7,CHMP2B),(CHMP7,CHMP4A),(CHMP7,CHMP6),(CHMP7,CHMP2A),(CHMP7,CHMP3),(CHMP7,CHMP4C),(CHMP2B,CHMP2A),(CHMP4A,CHMP4B),(CHMP4A,CHMP2B),(CHMP4A,CHMP2A),(CHMP4A,CHMP3),(CHMP4A,CHMP4C),(CHMP6,CHMP4B),(CHMP6,CHMP4A),(CHMP6,CHMP2A),(CHMP6,CHMP3),(CHMP2A,CHMP2B),(CHMP3,CHMP2A),(CHMP4C,CHMP4B),(CHMP4C,CHMP2B),(CHMP4C,CHMP4A),(CHMP4C,CHMP2A),(CHMP4C,CHMP3)]
+================================================================
+============================= FN Table =========================
+[(CHMP2A,MAP1LC3B),(CHMP2B,CHMP6),(CHMP2B,MAP1LC3B),(CHMP3,CHMP4C),(CHMP3,MAP1LC3B),(CHMP4A,MAP1LC3B),(CHMP4B,MAP1LC3B),(CHMP4C,CHMP6),(CHMP4C,MAP1LC3B),(CHMP6,MAP1LC3B),(CHMP7,MAP1LC3B)]
+================================================================
+True Positives (the ref has them and the system predicts them): 31
+False Positives (the ref does not have them but the system predicts them): 39
+False Negatives (the ref has them but the system does not predict them): 11
+Precision (TP/(TP+FP)), from all the predictions, how many are correct: 0.44285714285714284
+Recall (TP/(TP+FN)): from all the correct ones, how many are predicted: 0.7380952380952381
+F1 Score (2*Precision*Recall)/(Precision+Recall): 0.5535714285714286
+31	39	11	0.44285714285714284	0.7380952380952381	0.5535714285714286

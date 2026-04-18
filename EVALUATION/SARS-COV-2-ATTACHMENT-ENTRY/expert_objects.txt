@@ -1,0 +1,35 @@
+ACE2
+AGRN
+GPC1
+GPC2
+GPC3
+GPC4
+GPC5
+GPC6
+HSPG2
+SDC1
+SDC2
+SDC3
+SDC4
+CTSL
+DDX42
+FURIN
+HAVCR1
+MGAT4A
+NRP1
+PHB2
+RNF139
+RNF24
+TMPRSS2
+5(S)-HPETE
+alpha-D-mannopyranuronic acid
+ceramide
+trans-4-hydroxy-L-proline
+trans-oct-2-enoyl-CoA
+Antirrhinoside
+D-fucono-1,4-lactone
+D-xylonic acid
+isoniazide
+levamisole
+oxymetazoline
+Solacapine

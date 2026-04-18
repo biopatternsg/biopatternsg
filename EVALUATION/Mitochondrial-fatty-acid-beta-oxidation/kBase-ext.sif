@@ -1,0 +1,142 @@
+﻿PARTICIPANT_A	INTERACTION_TYPE	PARTICIPANT_B	INTERACTION_DATA_SOURCE	INTERACTION_PUBMED_ID	PATHWAY_NAMES	MEDIATOR_IDS
+ACAA2	catalysis-precedes	ACSF2	Reactome	17762044;4721607;8241273	Mitochondrial Fatty Acid Beta-Oxidation	http://bioregistry.io/reactome:R-HSA-5696004;reactome:Catalysis1331;reactome:Catalysis1333;http://bioregistry.io/reactome:R-HSA-8874745
+ACAA2	controls-production-of	chebi:15489	Reactome	4721607;8241273	Mitochondrial Fatty Acid Beta-Oxidation	reactome:Catalysis1331;http://bioregistry.io/reactome:R-HSA-8874745
+ACAA2	controls-production-of	chebi:57287	Reactome	4721607;8241273	Mitochondrial Fatty Acid Beta-Oxidation	reactome:Catalysis1331;http://bioregistry.io/reactome:R-HSA-8874745
+ACAD10	controls-production-of	chebi:85945	Reactome	21237683	Mitochondrial Fatty Acid Beta-Oxidation	reactome:Catalysis1326;http://bioregistry.io/reactome:R-HSA-5695980
+ACAD11	controls-production-of	chebi:85880	Reactome	21237683	Mitochondrial Fatty Acid Beta-Oxidation	http://bioregistry.io/reactome:R-HSA-5695989;reactome:Catalysis1327
+ACOT11	controls-production-of	chebi:15904	Reactome	11696000;15638818;16423998;16934754;16940157;19170545;20338778;20470824;22465940;23700546;23901139;24732803;25002576	Mitochondrial Fatty Acid Beta-Oxidation	reactome:Catalysis1335;http://bioregistry.io/reactome:R-HSA-5690043
+ACOT11	controls-production-of	chebi:57287	Reactome	11696000;15638818;16423998;16934754;16940157;19170545;20338778;20470824;22465940;23700546;23901139;24732803;25002576	Mitochondrial Fatty Acid Beta-Oxidation	reactome:Catalysis1335;http://bioregistry.io/reactome:R-HSA-5690043
+ACOT11	controls-production-of	chebi:59554	Reactome	11696000;15638818;16423998;16934754;16940157;19170545;20338778;20470824;22465940;23700546;23901139;24732803;25002576	Mitochondrial Fatty Acid Beta-Oxidation	reactome:Catalysis1335;http://bioregistry.io/reactome:R-HSA-5690043
+ACOT12	controls-production-of	chebi:15904	Reactome	11696000;15638818;16423998;16934754;16940157;19170545;20338778;20470824;22465940;23700546;23901139;24732803;25002576	Mitochondrial Fatty Acid Beta-Oxidation	reactome:Catalysis1335;http://bioregistry.io/reactome:R-HSA-5690043
+ACOT12	controls-production-of	chebi:57287	Reactome	11696000;15638818;16423998;16934754;16940157;19170545;20338778;20470824;22465940;23700546;23901139;24732803;25002576	Mitochondrial Fatty Acid Beta-Oxidation	reactome:Catalysis1335;http://bioregistry.io/reactome:R-HSA-5690043
+ACOT12	controls-production-of	chebi:59554	Reactome	11696000;15638818;16423998;16934754;16940157;19170545;20338778;20470824;22465940;23700546;23901139;24732803;25002576	Mitochondrial Fatty Acid Beta-Oxidation	reactome:Catalysis1335;http://bioregistry.io/reactome:R-HSA-5690043
+ACOT13	controls-production-of	chebi:15904	Reactome	11696000;15638818;16423998;16934754;16940157;19170545;20338778;20470824;22465940;23700546;23901139;24732803;25002576	Mitochondrial Fatty Acid Beta-Oxidation	reactome:Catalysis1335;http://bioregistry.io/reactome:R-HSA-5690043
+ACOT13	controls-production-of	chebi:57287	Reactome	11696000;15638818;16423998;16934754;16940157;19170545;20338778;20470824;22465940;23700546;23901139;24732803;25002576	Mitochondrial Fatty Acid Beta-Oxidation	reactome:Catalysis1335;http://bioregistry.io/reactome:R-HSA-5690043
+ACOT13	controls-production-of	chebi:59554	Reactome	11696000;15638818;16423998;16934754;16940157;19170545;20338778;20470824;22465940;23700546;23901139;24732803;25002576	Mitochondrial Fatty Acid Beta-Oxidation	reactome:Catalysis1335;http://bioregistry.io/reactome:R-HSA-5690043
+ACOT1	controls-production-of	chebi:15904	Reactome	11696000;15638818;16423998;16934754;16940157;19170545;20338778;20470824;22465940;23700546;23901139;24732803;25002576	Mitochondrial Fatty Acid Beta-Oxidation	reactome:Catalysis1335;http://bioregistry.io/reactome:R-HSA-5690043
+ACOT1	controls-production-of	chebi:57287	Reactome	11696000;15638818;16423998;16934754;16940157;19170545;20338778;20470824;22465940;23700546;23901139;24732803;25002576	Mitochondrial Fatty Acid Beta-Oxidation	reactome:Catalysis1335;http://bioregistry.io/reactome:R-HSA-5690043
+ACOT1	controls-production-of	chebi:59554	Reactome	11696000;15638818;16423998;16934754;16940157;19170545;20338778;20470824;22465940;23700546;23901139;24732803;25002576	Mitochondrial Fatty Acid Beta-Oxidation	reactome:Catalysis1335;http://bioregistry.io/reactome:R-HSA-5690043
+ACOT2	catalysis-precedes	ACSF2	Reactome	16940157;17762044;20470824;22465940;22586271;22871024;23700546	Mitochondrial Fatty Acid Beta-Oxidation	http://bioregistry.io/reactome:R-HSA-5696004;reactome:Catalysis1333;reactome:Catalysis1334;http://bioregistry.io/reactome:R-HSA-5690066
+ACOT2	controls-production-of	chebi:15904	Reactome	16940157;20470824;22465940;22586271;22871024;23700546	Mitochondrial Fatty Acid Beta-Oxidation	reactome:Catalysis1334;http://bioregistry.io/reactome:R-HSA-5690066
+ACOT2	controls-production-of	chebi:57287	Reactome	16940157;20470824;22465940;22586271;22871024;23700546	Mitochondrial Fatty Acid Beta-Oxidation	reactome:Catalysis1334;http://bioregistry.io/reactome:R-HSA-5690066
+ACOT2	controls-production-of	chebi:59554	Reactome	16940157;20470824;22465940;22586271;22871024;23700546	Mitochondrial Fatty Acid Beta-Oxidation	reactome:Catalysis1334;http://bioregistry.io/reactome:R-HSA-5690066
+ACOT7	controls-production-of	chebi:15904	Reactome	11696000;15638818;16423998;16934754;16940157;19170545;20338778;20470824;22465940;23700546;23901139;24732803;25002576	Mitochondrial Fatty Acid Beta-Oxidation	reactome:Catalysis1335;http://bioregistry.io/reactome:R-HSA-5690043
+ACOT7	controls-production-of	chebi:57287	Reactome	11696000;15638818;16423998;16934754;16940157;19170545;20338778;20470824;22465940;23700546;23901139;24732803;25002576	Mitochondrial Fatty Acid Beta-Oxidation	reactome:Catalysis1335;http://bioregistry.io/reactome:R-HSA-5690043
+ACOT7	controls-production-of	chebi:59554	Reactome	11696000;15638818;16423998;16934754;16940157;19170545;20338778;20470824;22465940;23700546;23901139;24732803;25002576	Mitochondrial Fatty Acid Beta-Oxidation	reactome:Catalysis1335;http://bioregistry.io/reactome:R-HSA-5690043
+ACOT9	catalysis-precedes	ACSF2	Reactome	16940157;17762044;20470824;22465940;22586271;22871024;23700546	Mitochondrial Fatty Acid Beta-Oxidation	http://bioregistry.io/reactome:R-HSA-5696004;reactome:Catalysis1333;reactome:Catalysis1334;http://bioregistry.io/reactome:R-HSA-5690066
+ACOT9	controls-production-of	chebi:15904	Reactome	16940157;20470824;22465940;22586271;22871024;23700546	Mitochondrial Fatty Acid Beta-Oxidation	reactome:Catalysis1334;http://bioregistry.io/reactome:R-HSA-5690066
+ACOT9	controls-production-of	chebi:57287	Reactome	16940157;20470824;22465940;22586271;22871024;23700546	Mitochondrial Fatty Acid Beta-Oxidation	reactome:Catalysis1334;http://bioregistry.io/reactome:R-HSA-5690066
+ACOT9	controls-production-of	chebi:59554	Reactome	16940157;20470824;22465940;22586271;22871024;23700546	Mitochondrial Fatty Acid Beta-Oxidation	reactome:Catalysis1334;http://bioregistry.io/reactome:R-HSA-5690066
+ACSF2	controls-production-of	chebi:33019	Reactome	17762044	Mitochondrial Fatty Acid Beta-Oxidation	http://bioregistry.io/reactome:R-HSA-5696004;reactome:Catalysis1333
+ACSF2	controls-production-of	chebi:456215	Reactome	17762044	Mitochondrial Fatty Acid Beta-Oxidation	http://bioregistry.io/reactome:R-HSA-5696004;reactome:Catalysis1333
+ACSF2	controls-production-of	chebi:61907	Reactome	17762044	Mitochondrial Fatty Acid Beta-Oxidation	http://bioregistry.io/reactome:R-HSA-5696004;reactome:Catalysis1333
+MCAT	catalysis-precedes	ACSF2	Reactome	12882974;17762044	Mitochondrial Fatty Acid Beta-Oxidation	http://bioregistry.io/reactome:R-HSA-5696004;reactome:Catalysis1332;reactome:Catalysis1333;http://bioregistry.io/reactome:R-HSA-8933547
+MCAT	controls-state-change-of	NDUFAB1	Reactome	12882974	Mitochondrial Fatty Acid Beta-Oxidation	reactome:Catalysis1332;http://bioregistry.io/reactome:R-HSA-8933547
+MCAT	controls-production-of	chebi:57287	Reactome	12882974	Mitochondrial Fatty Acid Beta-Oxidation	reactome:Catalysis1332;http://bioregistry.io/reactome:R-HSA-8933547
+PCTP	controls-production-of	chebi:15904	Reactome	11696000;15638818;16423998;16934754;16940157;19170545;20338778;20470824;22465940;23700546;23901139;24732803;25002576	Mitochondrial Fatty Acid Beta-Oxidation	http://bioregistry.io/reactome:R-HSA-8873902;http://bioregistry.io/reactome:R-HSA-5690043
+PCTP	controls-production-of	chebi:57287	Reactome	11696000;15638818;16423998;16934754;16940157;19170545;20338778;20470824;22465940;23700546;23901139;24732803;25002576	Mitochondrial Fatty Acid Beta-Oxidation	http://bioregistry.io/reactome:R-HSA-8873902;http://bioregistry.io/reactome:R-HSA-5690043
+PCTP	controls-production-of	chebi:59554	Reactome	11696000;15638818;16423998;16934754;16940157;19170545;20338778;20470824;22465940;23700546;23901139;24732803;25002576	Mitochondrial Fatty Acid Beta-Oxidation	http://bioregistry.io/reactome:R-HSA-8873902;http://bioregistry.io/reactome:R-HSA-5690043
+THEM4	catalysis-precedes	ACSF2	Reactome	16940157;17762044;20470824;22465940;22586271;22871024;23700546	Mitochondrial Fatty Acid Beta-Oxidation	http://bioregistry.io/reactome:R-HSA-5696004;reactome:Catalysis1333;reactome:Catalysis1334;http://bioregistry.io/reactome:R-HSA-5690066
+THEM4	controls-production-of	chebi:15904	Reactome	16940157;20470824;22465940;22586271;22871024;23700546	Mitochondrial Fatty Acid Beta-Oxidation	reactome:Catalysis1334;http://bioregistry.io/reactome:R-HSA-5690066
+THEM4	controls-production-of	chebi:57287	Reactome	16940157;20470824;22465940;22586271;22871024;23700546	Mitochondrial Fatty Acid Beta-Oxidation	reactome:Catalysis1334;http://bioregistry.io/reactome:R-HSA-5690066
+THEM4	controls-production-of	chebi:59554	Reactome	16940157;20470824;22465940;22586271;22871024;23700546	Mitochondrial Fatty Acid Beta-Oxidation	reactome:Catalysis1334;http://bioregistry.io/reactome:R-HSA-5690066
+THEM5	catalysis-precedes	ACSF2	Reactome	16940157;17762044;20470824;22465940;22586271;22871024;23700546	Mitochondrial Fatty Acid Beta-Oxidation	http://bioregistry.io/reactome:R-HSA-5696004;reactome:Catalysis1333;reactome:Catalysis1334;http://bioregistry.io/reactome:R-HSA-5690066
+THEM5	controls-production-of	chebi:15904	Reactome	16940157;20470824;22465940;22586271;22871024;23700546	Mitochondrial Fatty Acid Beta-Oxidation	reactome:Catalysis1334;http://bioregistry.io/reactome:R-HSA-5690066
+THEM5	controls-production-of	chebi:57287	Reactome	16940157;20470824;22465940;22586271;22871024;23700546	Mitochondrial Fatty Acid Beta-Oxidation	reactome:Catalysis1334;http://bioregistry.io/reactome:R-HSA-5690066
+THEM5	controls-production-of	chebi:59554	Reactome	16940157;20470824;22465940;22586271;22871024;23700546	Mitochondrial Fatty Acid Beta-Oxidation	reactome:Catalysis1334;http://bioregistry.io/reactome:R-HSA-5690066
+chebi:17984	consumption-controlled-by	ACAA2	Reactome	4721607;8241273	Mitochondrial Fatty Acid Beta-Oxidation	reactome:Catalysis1331;http://bioregistry.io/reactome:R-HSA-8874745
+chebi:17984	used-to-produce	chebi:15489	Reactome	4721607;8241273	Mitochondrial Fatty Acid Beta-Oxidation	http://bioregistry.io/reactome:R-HSA-8874745
+chebi:17984	used-to-produce	chebi:57287	Reactome	4721607;8241273	Mitochondrial Fatty Acid Beta-Oxidation	http://bioregistry.io/reactome:R-HSA-8874745
+chebi:17984	reacts-with	chebi:57288	Reactome	4721607;8241273	Mitochondrial Fatty Acid Beta-Oxidation	http://bioregistry.io/reactome:R-HSA-8874745
+chebi:33184	chemical-affects	ACBD6	Reactome		Mitochondrial Fatty Acid Beta-Oxidation	reactome:Complex3456
+chebi:33184	chemical-affects	ACBD7	Reactome		Mitochondrial Fatty Acid Beta-Oxidation	reactome:Complex3457
+chebi:33184	consumption-controlled-by	ACOT11	Reactome	11696000;15638818;16423998;16934754;16940157;19170545;20338778;20470824;22465940;23700546;23901139;24732803;25002576	Mitochondrial Fatty Acid Beta-Oxidation	reactome:Catalysis1335;http://bioregistry.io/reactome:R-HSA-5690043
+chebi:33184	consumption-controlled-by	ACOT12	Reactome	11696000;15638818;16423998;16934754;16940157;19170545;20338778;20470824;22465940;23700546;23901139;24732803;25002576	Mitochondrial Fatty Acid Beta-Oxidation	reactome:Catalysis1335;http://bioregistry.io/reactome:R-HSA-5690043
+chebi:33184	consumption-controlled-by	ACOT13	Reactome	11696000;15638818;16423998;16934754;16940157;19170545;20338778;20470824;22465940;23700546;23901139;24732803;25002576	Mitochondrial Fatty Acid Beta-Oxidation	reactome:Catalysis1335;http://bioregistry.io/reactome:R-HSA-5690043
+chebi:33184	consumption-controlled-by	ACOT1	Reactome	11696000;15638818;16423998;16934754;16940157;19170545;20338778;20470824;22465940;23700546;23901139;24732803;25002576	Mitochondrial Fatty Acid Beta-Oxidation	reactome:Catalysis1335;http://bioregistry.io/reactome:R-HSA-5690043
+chebi:33184	consumption-controlled-by	ACOT2	Reactome	16940157;20470824;22465940;22586271;22871024;23700546	Mitochondrial Fatty Acid Beta-Oxidation	reactome:Catalysis1334;http://bioregistry.io/reactome:R-HSA-5690066
+chebi:33184	consumption-controlled-by	ACOT7	Reactome	11696000;15638818;16423998;16934754;16940157;19170545;20338778;20470824;22465940;23700546;23901139;24732803;25002576	Mitochondrial Fatty Acid Beta-Oxidation	reactome:Catalysis1335;http://bioregistry.io/reactome:R-HSA-5690043
+chebi:33184	consumption-controlled-by	ACOT9	Reactome	16940157;20470824;22465940;22586271;22871024;23700546	Mitochondrial Fatty Acid Beta-Oxidation	reactome:Catalysis1334;http://bioregistry.io/reactome:R-HSA-5690066
+chebi:33184	chemical-affects	DBI	Reactome		Mitochondrial Fatty Acid Beta-Oxidation	reactome:Complex3457
+chebi:33184	consumption-controlled-by	PCTP	Reactome	11696000;15638818;16423998;16934754;16940157;19170545;20338778;20470824;22465940;23700546;23901139;24732803;25002576	Mitochondrial Fatty Acid Beta-Oxidation	http://bioregistry.io/reactome:R-HSA-8873902;http://bioregistry.io/reactome:R-HSA-5690043
+chebi:33184	consumption-controlled-by	THEM4	Reactome	16940157;20470824;22465940;22586271;22871024;23700546	Mitochondrial Fatty Acid Beta-Oxidation	reactome:Catalysis1334;http://bioregistry.io/reactome:R-HSA-5690066
+chebi:33184	consumption-controlled-by	THEM5	Reactome	16940157;20470824;22465940;22586271;22871024;23700546	Mitochondrial Fatty Acid Beta-Oxidation	reactome:Catalysis1334;http://bioregistry.io/reactome:R-HSA-5690066
+chebi:33184	used-to-produce	chebi:15904	Reactome	11696000;15638818;16423998;16934754;16940157;19170545;20338778;20470824;22465940;22586271;22871024;23700546;23901139;24732803;25002576	Mitochondrial Fatty Acid Beta-Oxidation	http://bioregistry.io/reactome:R-HSA-5690066;http://bioregistry.io/reactome:R-HSA-5690043
+chebi:33184	used-to-produce	chebi:57287	Reactome	11696000;15638818;16423998;16934754;16940157;19170545;20338778;20470824;22465940;22586271;22871024;23700546;23901139;24732803;25002576	Mitochondrial Fatty Acid Beta-Oxidation	http://bioregistry.io/reactome:R-HSA-5690066;http://bioregistry.io/reactome:R-HSA-5690043
+chebi:33184	used-to-produce	chebi:59554	Reactome	11696000;15638818;16423998;16934754;16940157;19170545;20338778;20470824;22465940;22586271;22871024;23700546;23901139;24732803;25002576	Mitochondrial Fatty Acid Beta-Oxidation	http://bioregistry.io/reactome:R-HSA-5690066;http://bioregistry.io/reactome:R-HSA-5690043
+chebi:57287	consumption-controlled-by	ACSF2	Reactome	17762044	Mitochondrial Fatty Acid Beta-Oxidation	http://bioregistry.io/reactome:R-HSA-5696004;reactome:Catalysis1333
+chebi:57287	used-to-produce	chebi:33019	Reactome	17762044	Mitochondrial Fatty Acid Beta-Oxidation	http://bioregistry.io/reactome:R-HSA-5696004
+chebi:57287	used-to-produce	chebi:456215	Reactome	17762044	Mitochondrial Fatty Acid Beta-Oxidation	http://bioregistry.io/reactome:R-HSA-5696004
+chebi:57287	reacts-with	chebi:59554	Reactome	17762044	Mitochondrial Fatty Acid Beta-Oxidation	http://bioregistry.io/reactome:R-HSA-5696004
+chebi:57287	used-to-produce	chebi:61907	Reactome	17762044	Mitochondrial Fatty Acid Beta-Oxidation	http://bioregistry.io/reactome:R-HSA-5696004
+chebi:57288	consumption-controlled-by	ACAA2	Reactome	4721607;8241273	Mitochondrial Fatty Acid Beta-Oxidation	reactome:Catalysis1331;http://bioregistry.io/reactome:R-HSA-8874745
+chebi:57288	used-to-produce	chebi:15489	Reactome	4721607;8241273	Mitochondrial Fatty Acid Beta-Oxidation	http://bioregistry.io/reactome:R-HSA-8874745
+chebi:57288	used-to-produce	chebi:57287	Reactome	4721607;8241273	Mitochondrial Fatty Acid Beta-Oxidation	http://bioregistry.io/reactome:R-HSA-8874745
+chebi:57384	consumption-controlled-by	MCAT	Reactome	12882974	Mitochondrial Fatty Acid Beta-Oxidation	reactome:Catalysis1332;http://bioregistry.io/reactome:R-HSA-8933547
+chebi:57384	used-to-produce	chebi:57287	Reactome	12882974	Mitochondrial Fatty Acid Beta-Oxidation	http://bioregistry.io/reactome:R-HSA-8933547
+chebi:57692	consumption-controlled-by	ACAD10	Reactome	21237683	Mitochondrial Fatty Acid Beta-Oxidation	reactome:Catalysis1326;http://bioregistry.io/reactome:R-HSA-5695980
+chebi:57692	consumption-controlled-by	ACAD11	Reactome	21237683	Mitochondrial Fatty Acid Beta-Oxidation	http://bioregistry.io/reactome:R-HSA-5695989;reactome:Catalysis1327
+chebi:57692	reacts-with	chebi:65088	Reactome	21237683	Mitochondrial Fatty Acid Beta-Oxidation	http://bioregistry.io/reactome:R-HSA-5695989
+chebi:57692	used-to-produce	chebi:85880	Reactome	21237683	Mitochondrial Fatty Acid Beta-Oxidation	http://bioregistry.io/reactome:R-HSA-5695989
+chebi:57692	reacts-with	chebi:85944	Reactome	21237683	Mitochondrial Fatty Acid Beta-Oxidation	http://bioregistry.io/reactome:R-HSA-5695980
+chebi:57692	used-to-produce	chebi:85945	Reactome	21237683	Mitochondrial Fatty Acid Beta-Oxidation	http://bioregistry.io/reactome:R-HSA-5695980
+chebi:59554	consumption-controlled-by	ACSF2	Reactome	17762044	Mitochondrial Fatty Acid Beta-Oxidation	http://bioregistry.io/reactome:R-HSA-5696004;reactome:Catalysis1333
+chebi:59554	used-to-produce	chebi:33019	Reactome	17762044	Mitochondrial Fatty Acid Beta-Oxidation	http://bioregistry.io/reactome:R-HSA-5696004
+chebi:59554	used-to-produce	chebi:456215	Reactome	17762044	Mitochondrial Fatty Acid Beta-Oxidation	http://bioregistry.io/reactome:R-HSA-5696004
+chebi:59554	used-to-produce	chebi:61907	Reactome	17762044	Mitochondrial Fatty Acid Beta-Oxidation	http://bioregistry.io/reactome:R-HSA-5696004
+chebi:61907	chemical-affects	ACBD7	Reactome		Mitochondrial Fatty Acid Beta-Oxidation	reactome:Complex3457
+chebi:61907	consumption-controlled-by	ACOT11	Reactome	11696000;15638818;16423998;16934754;16940157;19170545;20338778;20470824;22465940;23700546;23901139;24732803;25002576	Mitochondrial Fatty Acid Beta-Oxidation	reactome:Catalysis1335;http://bioregistry.io/reactome:R-HSA-5690043
+chebi:61907	consumption-controlled-by	ACOT12	Reactome	11696000;15638818;16423998;16934754;16940157;19170545;20338778;20470824;22465940;23700546;23901139;24732803;25002576	Mitochondrial Fatty Acid Beta-Oxidation	reactome:Catalysis1335;http://bioregistry.io/reactome:R-HSA-5690043
+chebi:61907	consumption-controlled-by	ACOT13	Reactome	11696000;15638818;16423998;16934754;16940157;19170545;20338778;20470824;22465940;23700546;23901139;24732803;25002576	Mitochondrial Fatty Acid Beta-Oxidation	reactome:Catalysis1335;http://bioregistry.io/reactome:R-HSA-5690043
+chebi:61907	consumption-controlled-by	ACOT1	Reactome	11696000;15638818;16423998;16934754;16940157;19170545;20338778;20470824;22465940;23700546;23901139;24732803;25002576	Mitochondrial Fatty Acid Beta-Oxidation	reactome:Catalysis1335;http://bioregistry.io/reactome:R-HSA-5690043
+chebi:61907	consumption-controlled-by	ACOT2	Reactome	16940157;20470824;22465940;22586271;22871024;23700546	Mitochondrial Fatty Acid Beta-Oxidation	reactome:Catalysis1334;http://bioregistry.io/reactome:R-HSA-5690066
+chebi:61907	consumption-controlled-by	ACOT7	Reactome	11696000;15638818;16423998;16934754;16940157;19170545;20338778;20470824;22465940;23700546;23901139;24732803;25002576	Mitochondrial Fatty Acid Beta-Oxidation	reactome:Catalysis1335;http://bioregistry.io/reactome:R-HSA-5690043
+chebi:61907	consumption-controlled-by	ACOT9	Reactome	16940157;20470824;22465940;22586271;22871024;23700546	Mitochondrial Fatty Acid Beta-Oxidation	reactome:Catalysis1334;http://bioregistry.io/reactome:R-HSA-5690066
+chebi:61907	chemical-affects	DBI	Reactome		Mitochondrial Fatty Acid Beta-Oxidation	reactome:Complex3457
+chebi:61907	consumption-controlled-by	PCTP	Reactome	11696000;15638818;16423998;16934754;16940157;19170545;20338778;20470824;22465940;23700546;23901139;24732803;25002576	Mitochondrial Fatty Acid Beta-Oxidation	http://bioregistry.io/reactome:R-HSA-8873902;http://bioregistry.io/reactome:R-HSA-5690043
+chebi:61907	consumption-controlled-by	THEM4	Reactome	16940157;20470824;22465940;22586271;22871024;23700546	Mitochondrial Fatty Acid Beta-Oxidation	reactome:Catalysis1334;http://bioregistry.io/reactome:R-HSA-5690066
+chebi:61907	consumption-controlled-by	THEM5	Reactome	16940157;20470824;22465940;22586271;22871024;23700546	Mitochondrial Fatty Acid Beta-Oxidation	reactome:Catalysis1334;http://bioregistry.io/reactome:R-HSA-5690066
+chebi:61907	used-to-produce	chebi:15904	Reactome	11696000;15638818;16423998;16934754;16940157;19170545;20338778;20470824;22465940;22586271;22871024;23700546;23901139;24732803;25002576	Mitochondrial Fatty Acid Beta-Oxidation	http://bioregistry.io/reactome:R-HSA-5690066;http://bioregistry.io/reactome:R-HSA-5690043
+chebi:61907	used-to-produce	chebi:57287	Reactome	11696000;15638818;16423998;16934754;16940157;19170545;20338778;20470824;22465940;22586271;22871024;23700546;23901139;24732803;25002576	Mitochondrial Fatty Acid Beta-Oxidation	http://bioregistry.io/reactome:R-HSA-5690066;http://bioregistry.io/reactome:R-HSA-5690043
+chebi:61907	used-to-produce	chebi:59554	Reactome	11696000;15638818;16423998;16934754;16940157;19170545;20338778;20470824;22465940;22586271;22871024;23700546;23901139;24732803;25002576	Mitochondrial Fatty Acid Beta-Oxidation	http://bioregistry.io/reactome:R-HSA-5690066;http://bioregistry.io/reactome:R-HSA-5690043
+chebi:65088	consumption-controlled-by	ACAD11	Reactome	21237683	Mitochondrial Fatty Acid Beta-Oxidation	http://bioregistry.io/reactome:R-HSA-5695989;reactome:Catalysis1327
+chebi:65088	used-to-produce	chebi:85880	Reactome	21237683	Mitochondrial Fatty Acid Beta-Oxidation	http://bioregistry.io/reactome:R-HSA-5695989
+chebi:85944	consumption-controlled-by	ACAD10	Reactome	21237683	Mitochondrial Fatty Acid Beta-Oxidation	reactome:Catalysis1326;http://bioregistry.io/reactome:R-HSA-5695980
+chebi:85944	used-to-produce	chebi:85945	Reactome	21237683	Mitochondrial Fatty Acid Beta-Oxidation	http://bioregistry.io/reactome:R-HSA-5695980
+
+PARTICIPANT	PARTICIPANT_TYPE	PARTICIPANT_NAME	UNIFICATION_XREF	RELATIONSHIP_XREF
+ACAA2	ProteinReference	THIM_HUMAN	uniprot:P42765	hgnc.symbol:ACAA2;ncbigene:10449
+chebi:85945	SmallMoleculeReference	2-methylpentadec-2-enoyl-CoA	chebi:CHEBI:85945	
+chebi:85944	SmallMoleculeReference	2-methylpentadecenoyl-CoA	chebi:CHEBI:85944	
+PCTP	ProteinReference	PPCT_HUMAN	uniprot:Q9UKL6	hgnc.symbol:PCTP;ncbigene:58488
+DBI	ProteinReference	ACBP_HUMAN	uniprot:P07108	hgnc.symbol:DBI;ncbigene:1622
+chebi:65088	SmallMoleculeReference	docosanoyl-CoA	chebi:CHEBI:65088	
+chebi:85880	SmallMoleculeReference	2,3-dehydrobehenoyl-CoA	chebi:CHEBI:85880	
+chebi:17984	SmallMoleculeReference	acyl-CoA	chebi:CHEBI:17984	
+chebi:15489	SmallMoleculeReference	3-oxo-fatty acyl-CoA	chebi:CHEBI:15489	
+THEM5	ProteinReference	THEM5_HUMAN	uniprot:Q8N1Q8	hgnc.symbol:THEM5;ncbigene:284486
+chebi:456215	SmallMoleculeReference	adenosine 5'-monophosphate(2-)	chebi:CHEBI:456215	
+THEM4	ProteinReference	THEM4_HUMAN	uniprot:Q5T1C6	hgnc.symbol:THEM4;ncbigene:117145
+chebi:57287	SmallMoleculeReference	coenzyme A(4-)	chebi:CHEBI:57287	
+chebi:57288	SmallMoleculeReference	acetyl-CoA(4-)	chebi:CHEBI:57288	
+ACAD11	ProteinReference	ACD11_HUMAN	uniprot:Q709F0	hgnc.symbol:ACAD11;ncbigene:84129
+chebi:57384	SmallMoleculeReference	malonyl-CoA(5-)	chebi:CHEBI:57384	
+ACAD10	ProteinReference	ACD10_HUMAN	uniprot:Q6JQN1	hgnc.symbol:ACAD10;ncbigene:80724
+ACBD7	ProteinReference	ACBD7_HUMAN	uniprot:Q8N6N7	hgnc.symbol:ACBD7;ncbigene:414149
+ACOT9	ProteinReference	ACOT9_HUMAN	uniprot:Q9Y305	hgnc.symbol:ACOT9;ncbigene:23597
+ACBD6	ProteinReference	ACBD6_HUMAN	uniprot:Q9BR61	hgnc.symbol:ACBD6;ncbigene:84320
+chebi:61907	SmallMoleculeReference	medium-chain fatty acyl-CoA	chebi:CHEBI:61907	
+ACOT7	ProteinReference	BACH_HUMAN	uniprot:O00154	hgnc.symbol:ACOT7;ncbigene:11332
+ACOT11	ProteinReference	ACO11_HUMAN	uniprot:Q8WXI4	hgnc.symbol:ACOT11;ncbigene:26027
+ACOT12	ProteinReference	ACO12_HUMAN	uniprot:Q8WYK0	hgnc.symbol:ACOT12;ncbigene:134526
+ACOT13	ProteinReference	ACO13_HUMAN	uniprot:Q9NPJ3	hgnc.symbol:ACOT13;ncbigene:55856
+chebi:15904	SmallMoleculeReference	long-chain fatty acid	chebi:CHEBI:15904	
+chebi:33019	SmallMoleculeReference	diphosphate(3-)	chebi:CHEBI:33019	
+MCAT	ProteinReference	FABD_HUMAN	uniprot:Q8IVS2	hgnc.symbol:MCAT;ncbigene:27349
+ACSF2	ProteinReference	ACSF2_HUMAN	uniprot:Q96CM8	hgnc.symbol:ACSF2;ncbigene:80221
+chebi:33184	SmallMoleculeReference	long-chain fatty acyl-CoA	chebi:CHEBI:33184	
+NDUFAB1	ProteinReference	ACPM_HUMAN	uniprot:O14561	hgnc.symbol:NDUFAB1;ncbigene:4706
+ACOT2	ProteinReference	ACOT2_HUMAN	uniprot:P49753	hgnc.symbol:ACOT2;ncbigene:10965
+ACOT1	ProteinReference	ACOT1_HUMAN	uniprot:Q86TX2	hgnc.symbol:ACOT1;ncbigene:641371
+chebi:59554	SmallMoleculeReference	medium-chain fatty acid	chebi:CHEBI:59554	
+chebi:57692	SmallMoleculeReference	FAD(3-)	chebi:CHEBI:57692	

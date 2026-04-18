@@ -1,0 +1,21 @@
+Report on kBase.sif vs kBase.pl
+Number of vertices in Ref .sif = 7
+Number of vertices in BioPattern =5
+Number of edges in Ref .sif = 9
+Number of edges in BioPattern = 23
+============================= TP Table =========================
+[(CREBBP,in-complex-with,MAFG)-(CREBBP,positive_correlation,MAFG),(CREBBP,in-complex-with,NFE2L2)-(CREBBP,association,NFE2L2),(CREBBP,in-complex-with,NFE2L2)-(CREBBP,positive_correlation,NFE2L2),(CREBBP,in-complex-with,NFE2L2)-(CREBBP,bind,NFE2L2),(EP300,in-complex-with,MAFG)-(EP300,association,MAFG),(EP300,in-complex-with,NFE2L2)-(EP300,positive_correlation,NFE2L2),(EP300,in-complex-with,NFE2L2)-(EP300,association,NFE2L2),(MAFG,in-complex-with,NFE2L2)-(MAFG,association,NFE2L2),(MAFG,in-complex-with,NFE2L2)-(MAFG,bind,NFE2L2),(MAFG,in-complex-with,NFE2L2)-(MAFG,positive_correlation,NFE2L2)]
+================================================================
+============================= FP Table =========================
+[does_not_exist-(CREBBP,bind,EP300),does_not_exist-(CREBBP,association,EP300),does_not_exist-(CREBBP,positive_correlation,EP300),does_not_exist-(CREBBP,negative_correlation,EP300),does_not_exist-(MAFG,positive_correlation,CREBBP),does_not_exist-(MAFG,association,EP300),does_not_exist-(NFE2L2,positive_correlation,CREBBP),does_not_exist-(NFE2L2,association,CREBBP),does_not_exist-(NFE2L2,bind,CREBBP),does_not_exist-(NFE2L2,positive_correlation,MAFG),does_not_exist-(NFE2L2,association,MAFG),does_not_exist-(NFE2L2,bind,MAFG),does_not_exist-(NFE2L2,positive_correlation,EP300),does_not_exist-(NFE2L2,association,EP300),does_not_exist-(NFE2L2,association,TKT),does_not_exist-(NFE2L2,positive_correlation,TKT),does_not_exist-(EP300,positive_correlation,CREBBP),does_not_exist-(EP300,negative_correlation,CREBBP),does_not_exist-(EP300,bind,CREBBP),does_not_exist-(EP300,association,CREBBP),does_not_exist-(TKT,positive_correlation,NFE2L2),does_not_exist-(TKT,association,NFE2L2)]
+================================================================
+============================= FN Table =========================
+[(NFE2L2,controls-production-of,chebi:18420)-not_predicted,(NFE2L2,controls-production-of,chebi:58937)-not_predicted,(chebi:18420,chemical-affects,TKT)-not_predicted,(chebi:58937,chemical-affects,TKT)-not_predicted]
+================================================================
+True Positives (the ref has them and the system predicts them): 10
+False Positives (the ref does not have them but the system predicts them): 22
+False Negatives (the ref has them but the system does not predict them): 4
+Precision (TP/(TP+FP)), from all the predictions, how many are correct: 0.3125
+Recall (TP/(TP+FN)): from all the correct ones, how many are predicted: 0.7142857142857143
+F1 Score (2*Precision*Recall)/(Precision+Recall): 0.43478260869565216
+10	22	4	0.3125	0.7142857142857143	0.43478260869565216

@@ -1,0 +1,104 @@
+﻿PARTICIPANT_A	INTERACTION_TYPE	PARTICIPANT_B	INTERACTION_DATA_SOURCE	INTERACTION_PUBMED_ID	PATHWAY_NAMES	MEDIATOR_IDS
+CREBBP	controls-expression-of	IFNB1	Reactome	11244049;20627800	TRAF3-dependent IRF activation pathway	http://bioregistry.io/reactome:R-HSA-1028811;http://bioregistry.io/reactome:R-HSA-1028812
+CREBBP	in-complex-with	IRF3	Reactome		TRAF3-dependent IRF activation pathway	reactome:Complex1406
+EP300	controls-expression-of	IFNB1	Reactome	11244049;20627800	TRAF3-dependent IRF activation pathway	http://bioregistry.io/reactome:R-HSA-1028811;http://bioregistry.io/reactome:R-HSA-1028812
+EP300	in-complex-with	IRF3	Reactome		TRAF3-dependent IRF activation pathway	reactome:Complex1406
+IFIH1	controls-state-change-of	IKBKE	Reactome	10421793;11839743;12692549;22619329;23453969;23453971;23453972;23478265;24722368;29125880;32979938;33372174	TRAF3-dependent IRF activation pathway	reactome:Catalysis541;http://bioregistry.io/reactome:R-HSA-9705320
+IFIH1	in-complex-with	IKBKE	Reactome		TRAF3-dependent IRF activation pathway	reactome:Complex1397;reactome:Complex1401;reactome:Complex1399
+IFIH1	controls-state-change-of	IRF3	Reactome	10893229;12692549;14703513;16914100;17526488;9463386	TRAF3-dependent IRF activation pathway	reactome:Catalysis542;http://bioregistry.io/reactome:R-HSA-918229
+IFIH1	in-complex-with	IRF3	Reactome		TRAF3-dependent IRF activation pathway	reactome:Complex1403
+IFIH1	controls-state-change-of	IRF7	Reactome	10893229;12692549;14703513;16914100;17526488;9463386	TRAF3-dependent IRF activation pathway	reactome:Catalysis542;http://bioregistry.io/reactome:R-HSA-918229
+IFIH1	in-complex-with	IRF7	Reactome		TRAF3-dependent IRF activation pathway	reactome:Complex1403
+IFIH1	in-complex-with	MAVS	Reactome		TRAF3-dependent IRF activation pathway	reactome:Complex1392
+IFIH1	controls-state-change-of	TBK1	Reactome	10421793;11839743;12692549;22619329;23453969;23453971;23453972;23478265;24722368;29125880;32979938;33372174	TRAF3-dependent IRF activation pathway	reactome:Catalysis541;http://bioregistry.io/reactome:R-HSA-9705320
+IFIH1	in-complex-with	TBK1	Reactome		TRAF3-dependent IRF activation pathway	reactome:Complex1397;reactome:Complex1401;reactome:Complex1399
+IFIH1	in-complex-with	TRAF3	Reactome		TRAF3-dependent IRF activation pathway	reactome:Complex1395
+IKBKE	controls-state-change-of	IRF3	Reactome	10893229;12692549;14703513;16914100;17526488;9463386	TRAF3-dependent IRF activation pathway	reactome:Catalysis542;http://bioregistry.io/reactome:R-HSA-918229
+IKBKE	in-complex-with	IRF3	Reactome		TRAF3-dependent IRF activation pathway	reactome:Complex1403
+IKBKE	controls-state-change-of	IRF7	Reactome	10893229;12692549;14703513;16914100;17526488;9463386	TRAF3-dependent IRF activation pathway	reactome:Catalysis542;http://bioregistry.io/reactome:R-HSA-918229
+IKBKE	in-complex-with	IRF7	Reactome		TRAF3-dependent IRF activation pathway	reactome:Complex1403
+IKBKE	in-complex-with	MAVS	Reactome		TRAF3-dependent IRF activation pathway	reactome:Complex1397;reactome:Complex1401;reactome:Complex1399
+IKBKE	in-complex-with	RIGI	Reactome		TRAF3-dependent IRF activation pathway	reactome:Complex1397;reactome:Complex1401;reactome:Complex1399
+IKBKE	in-complex-with	RNF135	Reactome		TRAF3-dependent IRF activation pathway	reactome:Complex1397;reactome:Complex1401;reactome:Complex1399
+IKBKE	in-complex-with	SIKE1	Reactome		TRAF3-dependent IRF activation pathway	reactome:Complex1396
+IKBKE	in-complex-with	TRAF3	Reactome		TRAF3-dependent IRF activation pathway	reactome:Complex1397;reactome:Complex1401;reactome:Complex1399
+IKBKE	in-complex-with	TRIM25	Reactome		TRAF3-dependent IRF activation pathway	reactome:Complex1397;reactome:Complex1401;reactome:Complex1399
+IKBKE	in-complex-with	TRIM4	Reactome		TRAF3-dependent IRF activation pathway	reactome:Complex1397;reactome:Complex1401;reactome:Complex1399
+IRF3	controls-expression-of	IFNB1	Reactome	11244049;20627800	TRAF3-dependent IRF activation pathway	http://bioregistry.io/reactome:R-HSA-1028811;http://bioregistry.io/reactome:R-HSA-1028812
+IRF3	in-complex-with	IRF7	Reactome		TRAF3-dependent IRF activation pathway	reactome:Complex1405;reactome:Complex1404
+IRF3	in-complex-with	MAVS	Reactome		TRAF3-dependent IRF activation pathway	reactome:Complex1403
+IRF3	in-complex-with	RIGI	Reactome		TRAF3-dependent IRF activation pathway	reactome:Complex1403
+IRF3	in-complex-with	RNF135	Reactome		TRAF3-dependent IRF activation pathway	reactome:Complex1403
+IRF3	in-complex-with	TBK1	Reactome		TRAF3-dependent IRF activation pathway	reactome:Complex1403
+IRF3	in-complex-with	TRAF3	Reactome		TRAF3-dependent IRF activation pathway	reactome:Complex1403
+IRF3	in-complex-with	TRIM25	Reactome		TRAF3-dependent IRF activation pathway	reactome:Complex1403
+IRF3	in-complex-with	TRIM4	Reactome		TRAF3-dependent IRF activation pathway	reactome:Complex1403
+IRF7	in-complex-with	MAVS	Reactome		TRAF3-dependent IRF activation pathway	reactome:Complex1403
+IRF7	in-complex-with	RIGI	Reactome		TRAF3-dependent IRF activation pathway	reactome:Complex1403
+IRF7	in-complex-with	RNF135	Reactome		TRAF3-dependent IRF activation pathway	reactome:Complex1403
+IRF7	in-complex-with	TBK1	Reactome		TRAF3-dependent IRF activation pathway	reactome:Complex1403
+IRF7	in-complex-with	TRAF3	Reactome		TRAF3-dependent IRF activation pathway	reactome:Complex1403
+IRF7	in-complex-with	TRIM25	Reactome		TRAF3-dependent IRF activation pathway	reactome:Complex1403
+IRF7	in-complex-with	TRIM4	Reactome		TRAF3-dependent IRF activation pathway	reactome:Complex1403
+MAVS	controls-state-change-of	IKBKE	Reactome	10421793;11839743;12692549;22619329;23453969;23453971;23453972;23478265;24722368;29125880;32979938;33372174	TRAF3-dependent IRF activation pathway	reactome:Catalysis541;http://bioregistry.io/reactome:R-HSA-9705320
+MAVS	controls-state-change-of	IRF3	Reactome	10893229;12692549;14703513;16914100;17526488;9463386	TRAF3-dependent IRF activation pathway	reactome:Catalysis542;http://bioregistry.io/reactome:R-HSA-918229
+MAVS	controls-state-change-of	IRF7	Reactome	10893229;12692549;14703513;16914100;17526488;9463386	TRAF3-dependent IRF activation pathway	reactome:Catalysis542;http://bioregistry.io/reactome:R-HSA-918229
+MAVS	in-complex-with	RIGI	Reactome		TRAF3-dependent IRF activation pathway	reactome:Complex1392
+MAVS	in-complex-with	RNF135	Reactome		TRAF3-dependent IRF activation pathway	reactome:Complex1392
+MAVS	controls-state-change-of	TBK1	Reactome	10421793;11839743;12692549;22619329;23453969;23453971;23453972;23478265;24722368;29125880;32979938;33372174	TRAF3-dependent IRF activation pathway	reactome:Catalysis541;http://bioregistry.io/reactome:R-HSA-9705320
+MAVS	in-complex-with	TBK1	Reactome		TRAF3-dependent IRF activation pathway	reactome:Complex1397;reactome:Complex1401;reactome:Complex1399
+MAVS	in-complex-with	TRAF3	Reactome		TRAF3-dependent IRF activation pathway	reactome:Complex1395
+MAVS	in-complex-with	TRIM25	Reactome		TRAF3-dependent IRF activation pathway	reactome:Complex1392
+MAVS	in-complex-with	TRIM4	Reactome		TRAF3-dependent IRF activation pathway	reactome:Complex1392
+RIGI	controls-state-change-of	IKBKE	Reactome	10421793;11839743;12692549;22619329;23453969;23453971;23453972;23478265;24722368;29125880;32979938;33372174	TRAF3-dependent IRF activation pathway	reactome:Catalysis541;http://bioregistry.io/reactome:R-HSA-9705320
+RIGI	controls-state-change-of	IRF3	Reactome	10893229;12692549;14703513;16914100;17526488;9463386	TRAF3-dependent IRF activation pathway	reactome:Catalysis542;http://bioregistry.io/reactome:R-HSA-918229
+RIGI	controls-state-change-of	IRF7	Reactome	10893229;12692549;14703513;16914100;17526488;9463386	TRAF3-dependent IRF activation pathway	reactome:Catalysis542;http://bioregistry.io/reactome:R-HSA-918229
+RIGI	in-complex-with	RNF135	Reactome			reactome:Complex1387
+RIGI	controls-state-change-of	TBK1	Reactome	10421793;11839743;12692549;22619329;23453969;23453971;23453972;23478265;24722368;29125880;32979938;33372174	TRAF3-dependent IRF activation pathway	reactome:Catalysis541;http://bioregistry.io/reactome:R-HSA-9705320
+RIGI	in-complex-with	TBK1	Reactome		TRAF3-dependent IRF activation pathway	reactome:Complex1397;reactome:Complex1401;reactome:Complex1399
+RIGI	in-complex-with	TRAF3	Reactome		TRAF3-dependent IRF activation pathway	reactome:Complex1395
+RIGI	in-complex-with	TRIM25	Reactome			reactome:Complex1387
+RIGI	in-complex-with	TRIM4	Reactome			reactome:Complex1387
+RNF135	controls-state-change-of	IKBKE	Reactome	10421793;11839743;12692549;22619329;23453969;23453971;23453972;23478265;24722368;29125880;32979938;33372174	TRAF3-dependent IRF activation pathway	reactome:Catalysis541;http://bioregistry.io/reactome:R-HSA-9705320
+RNF135	controls-state-change-of	IRF3	Reactome	10893229;12692549;14703513;16914100;17526488;9463386	TRAF3-dependent IRF activation pathway	reactome:Catalysis542;http://bioregistry.io/reactome:R-HSA-918229
+RNF135	controls-state-change-of	IRF7	Reactome	10893229;12692549;14703513;16914100;17526488;9463386	TRAF3-dependent IRF activation pathway	reactome:Catalysis542;http://bioregistry.io/reactome:R-HSA-918229
+RNF135	controls-state-change-of	TBK1	Reactome	10421793;11839743;12692549;22619329;23453969;23453971;23453972;23478265;24722368;29125880;32979938;33372174	TRAF3-dependent IRF activation pathway	reactome:Catalysis541;http://bioregistry.io/reactome:R-HSA-9705320
+RNF135	in-complex-with	TBK1	Reactome		TRAF3-dependent IRF activation pathway	reactome:Complex1397;reactome:Complex1401;reactome:Complex1399
+RNF135	in-complex-with	TRAF3	Reactome		TRAF3-dependent IRF activation pathway	reactome:Complex1395
+SIKE1	in-complex-with	TBK1	Reactome		TRAF3-dependent IRF activation pathway	reactome:Complex1396
+TBK1	controls-state-change-of	IRF3	Reactome	10893229;12692549;14703513;16914100;17526488;9463386	TRAF3-dependent IRF activation pathway	reactome:Catalysis542;http://bioregistry.io/reactome:R-HSA-918229
+TBK1	controls-state-change-of	IRF7	Reactome	10893229;12692549;14703513;16914100;17526488;9463386	TRAF3-dependent IRF activation pathway	reactome:Catalysis542;http://bioregistry.io/reactome:R-HSA-918229
+TBK1	in-complex-with	TRAF3	Reactome		TRAF3-dependent IRF activation pathway	reactome:Complex1397;reactome:Complex1401;reactome:Complex1399
+TBK1	in-complex-with	TRIM25	Reactome		TRAF3-dependent IRF activation pathway	reactome:Complex1397;reactome:Complex1401;reactome:Complex1399
+TBK1	in-complex-with	TRIM4	Reactome		TRAF3-dependent IRF activation pathway	reactome:Complex1397;reactome:Complex1401;reactome:Complex1399
+TRAF3	controls-state-change-of	IKBKE	Reactome	10421793;11839743;12692549;22619329;23453969;23453971;23453972;23478265;24722368;29125880;32979938;33372174	TRAF3-dependent IRF activation pathway	reactome:Catalysis541;http://bioregistry.io/reactome:R-HSA-9705320
+TRAF3	controls-state-change-of	IRF3	Reactome	10893229;12692549;14703513;16914100;17526488;9463386	TRAF3-dependent IRF activation pathway	reactome:Catalysis542;http://bioregistry.io/reactome:R-HSA-918229
+TRAF3	controls-state-change-of	IRF7	Reactome	10893229;12692549;14703513;16914100;17526488;9463386	TRAF3-dependent IRF activation pathway	reactome:Catalysis542;http://bioregistry.io/reactome:R-HSA-918229
+TRAF3	controls-state-change-of	TBK1	Reactome	10421793;11839743;12692549;22619329;23453969;23453971;23453972;23478265;24722368;29125880;32979938;33372174	TRAF3-dependent IRF activation pathway	reactome:Catalysis541;http://bioregistry.io/reactome:R-HSA-9705320
+TRAF3	in-complex-with	TRIM25	Reactome		TRAF3-dependent IRF activation pathway	reactome:Complex1395
+TRAF3	in-complex-with	TRIM4	Reactome		TRAF3-dependent IRF activation pathway	reactome:Complex1395
+TRIM25	controls-state-change-of	IKBKE	Reactome	10421793;11839743;12692549;22619329;23453969;23453971;23453972;23478265;24722368;29125880;32979938;33372174	TRAF3-dependent IRF activation pathway	reactome:Catalysis541;http://bioregistry.io/reactome:R-HSA-9705320
+TRIM25	controls-state-change-of	IRF3	Reactome	10893229;12692549;14703513;16914100;17526488;9463386	TRAF3-dependent IRF activation pathway	reactome:Catalysis542;http://bioregistry.io/reactome:R-HSA-918229
+TRIM25	controls-state-change-of	IRF7	Reactome	10893229;12692549;14703513;16914100;17526488;9463386	TRAF3-dependent IRF activation pathway	reactome:Catalysis542;http://bioregistry.io/reactome:R-HSA-918229
+TRIM25	controls-state-change-of	TBK1	Reactome	10421793;11839743;12692549;22619329;23453969;23453971;23453972;23478265;24722368;29125880;32979938;33372174	TRAF3-dependent IRF activation pathway	reactome:Catalysis541;http://bioregistry.io/reactome:R-HSA-9705320
+TRIM4	controls-state-change-of	IKBKE	Reactome	10421793;11839743;12692549;22619329;23453969;23453971;23453972;23478265;24722368;29125880;32979938;33372174	TRAF3-dependent IRF activation pathway	reactome:Catalysis541;http://bioregistry.io/reactome:R-HSA-9705320
+TRIM4	controls-state-change-of	IRF3	Reactome	10893229;12692549;14703513;16914100;17526488;9463386	TRAF3-dependent IRF activation pathway	reactome:Catalysis542;http://bioregistry.io/reactome:R-HSA-918229
+TRIM4	controls-state-change-of	IRF7	Reactome	10893229;12692549;14703513;16914100;17526488;9463386	TRAF3-dependent IRF activation pathway	reactome:Catalysis542;http://bioregistry.io/reactome:R-HSA-918229
+TRIM4	controls-state-change-of	TBK1	Reactome	10421793;11839743;12692549;22619329;23453969;23453971;23453972;23478265;24722368;29125880;32979938;33372174	TRAF3-dependent IRF activation pathway	reactome:Catalysis541;http://bioregistry.io/reactome:R-HSA-9705320
+
+PARTICIPANT	PARTICIPANT_TYPE	PARTICIPANT_NAME	UNIFICATION_XREF	RELATIONSHIP_XREF
+CREBBP	ProteinReference	CBP_HUMAN	uniprot:Q92793	hgnc.symbol:CREBBP;ncbigene:1387
+IFNB1	ProteinReference	IFNB_HUMAN	uniprot:P01574	hgnc.symbol:IFNB1;ncbigene:3456
+RNF135	ProteinReference	RN135_HUMAN	uniprot:Q8IUD6	hgnc.symbol:RNF135;ncbigene:84282
+IFIH1	ProteinReference	IFIH1_HUMAN	uniprot:Q9BYX4	hgnc.symbol:IFIH1;ncbigene:64135
+SIKE1	ProteinReference	SIKE1_HUMAN	uniprot:Q9BRV8	hgnc.symbol:SIKE1;ncbigene:80143
+MAVS	ProteinReference	MAVS_HUMAN	uniprot:Q7Z434	hgnc.symbol:MAVS;ncbigene:57506
+TBK1	ProteinReference	TBK1_HUMAN	uniprot:Q9UHD2	hgnc.symbol:TBK1;ncbigene:29110
+IRF3	ProteinReference	IRF3_HUMAN	uniprot:Q14653	hgnc.symbol:IRF3;ncbigene:3661
+TRIM4	ProteinReference	TRIM4_HUMAN	uniprot:Q9C037	hgnc.symbol:TRIM4;ncbigene:89122
+TRAF3	ProteinReference	TRAF3_HUMAN	uniprot:Q13114	hgnc.symbol:TRAF3;ncbigene:7187
+IRF7	ProteinReference	IRF7_HUMAN	uniprot:Q92985	hgnc.symbol:IRF7;ncbigene:3665
+TRIM25	ProteinReference	TRI25_HUMAN	uniprot:Q14258	hgnc.symbol:TRIM25;ncbigene:7706
+EP300	ProteinReference	EP300_HUMAN	uniprot:Q09472	hgnc.symbol:EP300;ncbigene:2033
+IKBKE	ProteinReference	IKKE_HUMAN	uniprot:Q14164	hgnc.symbol:IKBKE;ncbigene:9641
+RIGI	ProteinReference	RIGI_HUMAN	uniprot:O95786	hgnc.symbol:RIGI;ncbigene:23586

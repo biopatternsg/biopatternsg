@@ -1,0 +1,37 @@
+base([
+event(GRB2, controls-state-change-of, HRAS),
+event(GRB2, controls-state-change-of, KRAS)
+event(GRB2, controls-state-change-of, NRAS),
+event(GRB2, in-complex-with, SHC1)
+event(GRB2, in-complex-with, SHC2),
+event(GRB2, in-complex-with, SHC3)
+event(GRB2, in-complex-with, SOS1),
+event(NGF, in-complex-with, NTRK1)
+event(NGF, controls-state-change-of, SHC1),
+event(NGF, in-complex-with, SHC1)
+event(NGF, controls-state-change-of, SHC2),
+event(NGF, in-complex-with, SHC2)
+event(NGF, controls-state-change-of, SHC3),
+event(NGF, in-complex-with, SHC3)
+event(NTRK1, controls-state-change-of, SHC1),
+event(NTRK1, in-complex-with, SHC1)
+event(NTRK1, controls-state-change-of, SHC2),
+event(NTRK1, in-complex-with, SHC2)
+event(NTRK1, controls-state-change-of, SHC3),
+event(NTRK1, in-complex-with, SHC3)
+event(SHC1, controls-state-change-of, HRAS),
+event(SHC1, controls-state-change-of, KRAS)
+event(SHC1, controls-state-change-of, NRAS),
+event(SHC1, in-complex-with, SOS1)
+event(SHC2, controls-state-change-of, HRAS),
+event(SHC2, controls-state-change-of, KRAS)
+event(SHC2, controls-state-change-of, NRAS),
+event(SHC2, in-complex-with, SOS1)
+event(SHC3, controls-state-change-of, HRAS),
+event(SHC3, controls-state-change-of, KRAS)
+event(SHC3, controls-state-change-of, NRAS),
+event(SHC3, in-complex-with, SOS1)
+event(SOS1, controls-state-change-of, HRAS),
+event(SOS1, controls-state-change-of, KRAS)
+event(SOS1, controls-state-change-of, NRAS)
+]).

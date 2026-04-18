@@ -1,0 +1,21 @@
+Simple Report on kBase.sif vs kBase.pl
+Number of vertices in Ref .sif = 8
+Number of vertices in BioPattern =10
+Number of edges in Ref .sif = 13
+Number of edges in BioPattern = 159
+============================= TP Table =========================
+[(CREBBP,MAFK),(CREBBP,NFE2L2),(EP300,MAFK),(EP300,NFE2L2),(MAFK,NFE2L2),(MYC,NFE2L2),(NFKB1,NFE2L2),(NFKB1,RELA),(NOTCH1,NFE2L2),(RELA,NFE2L2)]
+================================================================
+============================= FP Table =========================
+[(NFKB1,EP300),(NFKB1,CREBBP),(NFKB1,MYC),(NFKB1,MAFK),(NFKB1,NOTCH1),(NFKB1,MYRICETIN),(NFKB1,REL),(RELA,NFKB1),(RELA,EP300),(RELA,CREBBP),(RELA,MYC),(RELA,MAFK),(RELA,NOTCH1),(RELA,MYRICETIN),(RELA,REL),(EP300,NFKB1),(EP300,RELA),(EP300,CREBBP),(EP300,MYC),(EP300,NOTCH1),(EP300,MYRICETIN),(EP300,REL),(CREBBP,NFKB1),(CREBBP,RELA),(CREBBP,EP300),(CREBBP,MYC),(CREBBP,NOTCH1),(CREBBP,MYRICETIN),(CREBBP,REL),(MYC,NFKB1),(MYC,RELA),(MYC,EP300),(MYC,CREBBP),(MYC,MAFK),(MYC,NOTCH1),(MYC,MYRICETIN),(MYC,REL),(NFE2L2,NFKB1),(NFE2L2,RELA),(NFE2L2,EP300),(NFE2L2,CREBBP),(NFE2L2,MYC),(NFE2L2,MAFK),(NFE2L2,NOTCH1),(NFE2L2,MYRICETIN),(NFE2L2,REL),(MAFK,NFKB1),(MAFK,RELA),(MAFK,EP300),(MAFK,CREBBP),(MAFK,MYC),(MAFK,NOTCH1),(MAFK,MYRICETIN),(MAFK,REL),(NOTCH1,NFKB1),(NOTCH1,RELA),(NOTCH1,EP300),(NOTCH1,CREBBP),(NOTCH1,MYC),(NOTCH1,MAFK),(NOTCH1,MYRICETIN),(NOTCH1,REL),(MYRICETIN,NFKB1),(MYRICETIN,RELA),(MYRICETIN,EP300),(MYRICETIN,CREBBP),(MYRICETIN,MYC),(MYRICETIN,NFE2L2),(MYRICETIN,MAFK),(MYRICETIN,NOTCH1),(MYRICETIN,REL),(REL,NFKB1),(REL,RELA),(REL,EP300),(REL,CREBBP),(REL,MYC),(REL,NFE2L2),(REL,MAFK),(REL,NOTCH1),(REL,MYRICETIN)]
+================================================================
+============================= FN Table =========================
+[]
+================================================================
+True Positives (the ref has them and the system predicts them): 10
+False Positives (the ref does not have them but the system predicts them): 80
+False Negatives (the ref has them but the system does not predict them): 0
+Precision (TP/(TP+FP)), from all the predictions, how many are correct: 0.1111111111111111
+Recall (TP/(TP+FN)): from all the correct ones, how many are predicted: 1
+F1 Score (2*Precision*Recall)/(Precision+Recall): 0.19999999999999998
+10	80	0	0.1111111111111111	1	0.19999999999999998

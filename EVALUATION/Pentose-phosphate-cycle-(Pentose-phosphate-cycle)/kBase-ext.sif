@@ -1,0 +1,152 @@
+﻿PARTICIPANT_A	INTERACTION_TYPE	PARTICIPANT_B	INTERACTION_DATA_SOURCE	INTERACTION_PUBMED_ID	PATHWAY_NAMES	MEDIATOR_IDS
+DERA	catalysis-precedes	TALDO1	Reactome	10869557;11283793;25229427;8300619	Pentose phosphate pathway	http://bioregistry.io/reactome:R-HSA-71334;http://bioregistry.io/reactome:R-HSA-6787321;reactome:Catalysis1023;reactome:Catalysis1017
+DERA	catalysis-precedes	TKT	Reactome	25229427;9357955	Pentose phosphate pathway	reactome:Catalysis1020;http://bioregistry.io/reactome:R-HSA-6787321;reactome:Catalysis1023;reactome:Catalysis1016;http://bioregistry.io/reactome:R-HSA-163741;http://bioregistry.io/reactome:R-HSA-163751
+DERA	controls-production-of	chebi:15343	Reactome	25229427	Pentose phosphate pathway	http://bioregistry.io/reactome:R-HSA-6787321;reactome:Catalysis1023
+DERA	controls-production-of	chebi:59776	Reactome	25229427	Pentose phosphate pathway	http://bioregistry.io/reactome:R-HSA-6787321;reactome:Catalysis1023
+G6PD	catalysis-precedes	PGLS	Reactome	10518023;10745013;24066844;3932573;5666113	Pentose phosphate pathway	http://bioregistry.io/reactome:R-HSA-70377;http://bioregistry.io/reactome:R-HSA-71296;reactome:Catalysis1007;reactome:Catalysis1008
+G6PD	controls-production-of	chebi:16938	Reactome	10745013;24066844;5666113	Pentose phosphate pathway	http://bioregistry.io/reactome:R-HSA-70377;reactome:Catalysis1007
+PGD	catalysis-precedes	RPEL1	Reactome	20923965;2581946;3932573;3994686;7396409;9920387	Pentose phosphate pathway	http://bioregistry.io/reactome:R-HSA-71303;reactome:Catalysis1013;http://bioregistry.io/reactome:R-HSA-71299;reactome:Catalysis1009
+PGD	catalysis-precedes	RPE	Reactome	20923965;2581946;3932573;3994686;7396409;9920387	Pentose phosphate pathway	http://bioregistry.io/reactome:R-HSA-71303;reactome:Catalysis1013;http://bioregistry.io/reactome:R-HSA-71299;reactome:Catalysis1009
+PGD	catalysis-precedes	RPIA	Reactome	14988808;3932573;3994686;9920387	Pentose phosphate pathway	reactome:Catalysis1012;http://bioregistry.io/reactome:R-HSA-71299;reactome:Catalysis1009;http://bioregistry.io/reactome:R-HSA-71306
+PGD	controls-production-of	chebi:58121	Reactome	3932573;3994686;9920387	Pentose phosphate pathway	http://bioregistry.io/reactome:R-HSA-71299;reactome:Catalysis1009
+PGLS	catalysis-precedes	PGD	Reactome	10518023;3932573;3994686;9920387	Pentose phosphate pathway	http://bioregistry.io/reactome:R-HSA-71296;http://bioregistry.io/reactome:R-HSA-71299;reactome:Catalysis1008;reactome:Catalysis1009
+PGLS	controls-production-of	chebi:58759	Reactome	10518023;3932573	Pentose phosphate pathway	http://bioregistry.io/reactome:R-HSA-71296;reactome:Catalysis1008
+PGM2	catalysis-precedes	DERA	Reactome	17804405;25229427	Pentose phosphate pathway	http://bioregistry.io/reactome:R-HSA-6787321;reactome:Catalysis1022;http://bioregistry.io/reactome:R-HSA-8982667;reactome:Catalysis1023
+PGM2	catalysis-precedes	RPIA	Reactome	14988808;17804405	Pentose phosphate pathway	reactome:Catalysis1021;reactome:Catalysis1011;http://bioregistry.io/reactome:R-HSA-177784;http://bioregistry.io/reactome:R-HSA-6787329
+PGM2	catalysis-precedes	TKT	Reactome	17804405;9357955	Pentose phosphate pathway	reactome:Catalysis1021;http://bioregistry.io/reactome:R-HSA-71324;reactome:Catalysis1015;http://bioregistry.io/reactome:R-HSA-6787329
+PGM2	controls-production-of	chebi:57651	Reactome	17804405	Pentose phosphate pathway	reactome:Catalysis1022;http://bioregistry.io/reactome:R-HSA-8982667
+PGM2	controls-production-of	chebi:78346	Reactome	17804405	Pentose phosphate pathway	reactome:Catalysis1021;http://bioregistry.io/reactome:R-HSA-6787329
+RBKS	catalysis-precedes	RPIA	Reactome	14988808;17585908;18560757	Pentose phosphate pathway	reactome:Catalysis1010;reactome:Catalysis1011;http://bioregistry.io/reactome:R-HSA-8955844;http://bioregistry.io/reactome:R-HSA-177784
+RBKS	catalysis-precedes	TKT	Reactome	17585908;18560757;9357955	Pentose phosphate pathway	reactome:Catalysis1010;http://bioregistry.io/reactome:R-HSA-71324;reactome:Catalysis1015;http://bioregistry.io/reactome:R-HSA-8955844
+RBKS	controls-production-of	chebi:78346	Reactome	17585908;18560757	Pentose phosphate pathway	reactome:Catalysis1010;http://bioregistry.io/reactome:R-HSA-8955844
+RPEL1	catalysis-precedes	RPIA	Reactome	14988808;2581946;7396409	Pentose phosphate pathway	reactome:Catalysis1012;reactome:Catalysis1014;http://bioregistry.io/reactome:R-HSA-71306;http://bioregistry.io/reactome:R-HSA-199803
+RPEL1	catalysis-precedes	TKT	Reactome	20923965;2581946;7396409;9357955	Pentose phosphate pathway	http://bioregistry.io/reactome:R-HSA-71335;http://bioregistry.io/reactome:R-HSA-71324;http://bioregistry.io/reactome:R-HSA-71303;reactome:Catalysis1013;reactome:Catalysis1015;reactome:Catalysis1019
+RPEL1	controls-production-of	chebi:57737	Reactome	20923965;2581946;7396409	Pentose phosphate pathway	http://bioregistry.io/reactome:R-HSA-71303;reactome:Catalysis1013
+RPEL1	controls-production-of	chebi:58121	Reactome	2581946;7396409	Pentose phosphate pathway	reactome:Catalysis1014;http://bioregistry.io/reactome:R-HSA-199803
+RPE	catalysis-precedes	RPIA	Reactome	14988808;2581946;7396409	Pentose phosphate pathway	reactome:Catalysis1012;reactome:Catalysis1014;http://bioregistry.io/reactome:R-HSA-71306;http://bioregistry.io/reactome:R-HSA-199803
+RPE	catalysis-precedes	TKT	Reactome	20923965;2581946;7396409;9357955	Pentose phosphate pathway	http://bioregistry.io/reactome:R-HSA-71335;http://bioregistry.io/reactome:R-HSA-71324;http://bioregistry.io/reactome:R-HSA-71303;reactome:Catalysis1013;reactome:Catalysis1015;reactome:Catalysis1019
+RPE	controls-production-of	chebi:57737	Reactome	20923965;2581946;7396409	Pentose phosphate pathway	http://bioregistry.io/reactome:R-HSA-71303;reactome:Catalysis1013
+RPE	controls-production-of	chebi:58121	Reactome	2581946;7396409	Pentose phosphate pathway	reactome:Catalysis1014;http://bioregistry.io/reactome:R-HSA-199803
+RPIA	catalysis-precedes	RPEL1	Reactome	14988808;20923965;2581946;7396409	Pentose phosphate pathway	reactome:Catalysis1011;http://bioregistry.io/reactome:R-HSA-71303;reactome:Catalysis1013;http://bioregistry.io/reactome:R-HSA-177784
+RPIA	catalysis-precedes	RPE	Reactome	14988808;20923965;2581946;7396409	Pentose phosphate pathway	reactome:Catalysis1011;http://bioregistry.io/reactome:R-HSA-71303;reactome:Catalysis1013;http://bioregistry.io/reactome:R-HSA-177784
+RPIA	catalysis-precedes	TKT	Reactome	14988808;9357955	Pentose phosphate pathway	http://bioregistry.io/reactome:R-HSA-71324;reactome:Catalysis1012;reactome:Catalysis1015;http://bioregistry.io/reactome:R-HSA-71306
+RPIA	controls-production-of	chebi:58121	Reactome	14988808	Pentose phosphate pathway	reactome:Catalysis1011;http://bioregistry.io/reactome:R-HSA-177784
+RPIA	controls-production-of	chebi:78346	Reactome	14988808	Pentose phosphate pathway	reactome:Catalysis1012;http://bioregistry.io/reactome:R-HSA-71306
+SHPK	catalysis-precedes	TALDO1	Reactome	10869557;11283793;18186520;18775706;22682222;8300619	Pentose phosphate pathway	http://bioregistry.io/reactome:R-HSA-71334;reactome:Catalysis1024;http://bioregistry.io/reactome:R-HSA-8959719;reactome:Catalysis1017
+SHPK	catalysis-precedes	TKT	Reactome	18186520;18775706;22682222;9357955	Pentose phosphate pathway	reactome:Catalysis1024;reactome:Catalysis1016;http://bioregistry.io/reactome:R-HSA-8959719;http://bioregistry.io/reactome:R-HSA-163741
+SHPK	controls-production-of	chebi:15721	Reactome	18186520;18775706;22682222	Pentose phosphate pathway	reactome:Catalysis1024;http://bioregistry.io/reactome:R-HSA-8959719
+TALDO1	catalysis-precedes	TKT	Reactome	10869557;11283793;8300619;9357955	Pentose phosphate pathway	http://bioregistry.io/reactome:R-HSA-71334;reactome:Catalysis1020;http://bioregistry.io/reactome:R-HSA-71335;reactome:Catalysis1016;reactome:Catalysis1017;reactome:Catalysis1018;reactome:Catalysis1019;http://bioregistry.io/reactome:R-HSA-163741;http://bioregistry.io/reactome:R-HSA-163751;http://bioregistry.io/reactome:R-HSA-163764
+TALDO1	controls-production-of	chebi:15721	Reactome	10869557;11283793;8300619	Pentose phosphate pathway	reactome:Catalysis1018;http://bioregistry.io/reactome:R-HSA-163764
+TALDO1	controls-production-of	chebi:16897	Reactome	10869557;11283793;8300619	Pentose phosphate pathway	http://bioregistry.io/reactome:R-HSA-71334;reactome:Catalysis1017
+TALDO1	controls-production-of	chebi:57634	Reactome	10869557;11283793;8300619	Pentose phosphate pathway	http://bioregistry.io/reactome:R-HSA-71334;reactome:Catalysis1017
+TALDO1	controls-production-of	chebi:59776	Reactome	10869557;11283793;8300619	Pentose phosphate pathway	reactome:Catalysis1018;http://bioregistry.io/reactome:R-HSA-163764
+TKT	catalysis-precedes	RPEL1	Reactome	2581946;7396409;9357955	Pentose phosphate pathway	reactome:Catalysis1020;reactome:Catalysis1014;reactome:Catalysis1016;http://bioregistry.io/reactome:R-HSA-163741;http://bioregistry.io/reactome:R-HSA-163751;http://bioregistry.io/reactome:R-HSA-199803
+TKT	catalysis-precedes	RPE	Reactome	2581946;7396409;9357955	Pentose phosphate pathway	reactome:Catalysis1020;reactome:Catalysis1014;reactome:Catalysis1016;http://bioregistry.io/reactome:R-HSA-163741;http://bioregistry.io/reactome:R-HSA-163751;http://bioregistry.io/reactome:R-HSA-199803
+TKT	catalysis-precedes	RPIA	Reactome	14988808;9357955	Pentose phosphate pathway	reactome:Catalysis1011;reactome:Catalysis1016;http://bioregistry.io/reactome:R-HSA-177784;http://bioregistry.io/reactome:R-HSA-163741
+TKT	catalysis-precedes	TALDO1	Reactome	10869557;11283793;8300619;9357955	Pentose phosphate pathway	reactome:Catalysis1020;http://bioregistry.io/reactome:R-HSA-71334;http://bioregistry.io/reactome:R-HSA-71324;http://bioregistry.io/reactome:R-HSA-71335;reactome:Catalysis1015;reactome:Catalysis1017;reactome:Catalysis1018;reactome:Catalysis1019;http://bioregistry.io/reactome:R-HSA-163751;http://bioregistry.io/reactome:R-HSA-163764
+TKT	controls-production-of	chebi:15721	Reactome	9357955	Pentose phosphate pathway	http://bioregistry.io/reactome:R-HSA-71324;reactome:Catalysis1015
+TKT	controls-production-of	chebi:16897	Reactome	9357955	Pentose phosphate pathway	reactome:Catalysis1020;http://bioregistry.io/reactome:R-HSA-163751
+TKT	controls-production-of	chebi:57634	Reactome	9357955	Pentose phosphate pathway	http://bioregistry.io/reactome:R-HSA-71335;reactome:Catalysis1019
+TKT	controls-production-of	chebi:57737	Reactome	9357955	Pentose phosphate pathway	reactome:Catalysis1020;reactome:Catalysis1016;http://bioregistry.io/reactome:R-HSA-163741;http://bioregistry.io/reactome:R-HSA-163751
+TKT	controls-production-of	chebi:59776	Reactome	9357955	Pentose phosphate pathway	http://bioregistry.io/reactome:R-HSA-71324;http://bioregistry.io/reactome:R-HSA-71335;reactome:Catalysis1015;reactome:Catalysis1019
+TKT	controls-production-of	chebi:78346	Reactome	9357955	Pentose phosphate pathway	reactome:Catalysis1016;http://bioregistry.io/reactome:R-HSA-163741
+chebi:15721	consumption-controlled-by	TALDO1	Reactome	10869557;11283793;8300619	Pentose phosphate pathway	http://bioregistry.io/reactome:R-HSA-71334;reactome:Catalysis1017
+chebi:15721	consumption-controlled-by	TKT	Reactome	9357955	Pentose phosphate pathway	reactome:Catalysis1016;http://bioregistry.io/reactome:R-HSA-163741
+chebi:15721	used-to-produce	chebi:16897	Reactome	10869557;11283793;8300619	Pentose phosphate pathway	http://bioregistry.io/reactome:R-HSA-71334
+chebi:15721	used-to-produce	chebi:57634	Reactome	10869557;11283793;8300619	Pentose phosphate pathway	http://bioregistry.io/reactome:R-HSA-71334
+chebi:15721	used-to-produce	chebi:57737	Reactome	9357955	Pentose phosphate pathway	http://bioregistry.io/reactome:R-HSA-163741
+chebi:15721	reacts-with	chebi:59776	Reactome	10869557;11283793;8300619;9357955	Pentose phosphate pathway	http://bioregistry.io/reactome:R-HSA-71334;http://bioregistry.io/reactome:R-HSA-163741
+chebi:15721	used-to-produce	chebi:78346	Reactome	9357955	Pentose phosphate pathway	http://bioregistry.io/reactome:R-HSA-163741
+chebi:16802	consumption-controlled-by	SHPK	Reactome	18186520;18775706;22682222	Pentose phosphate pathway	reactome:Catalysis1024;http://bioregistry.io/reactome:R-HSA-8959719
+chebi:16802	used-to-produce	chebi:15721	Reactome	18186520;18775706;22682222	Pentose phosphate pathway	http://bioregistry.io/reactome:R-HSA-8959719
+chebi:16897	consumption-controlled-by	TALDO1	Reactome	10869557;11283793;8300619	Pentose phosphate pathway	reactome:Catalysis1018;http://bioregistry.io/reactome:R-HSA-163764
+chebi:16897	consumption-controlled-by	TKT	Reactome	9357955	Pentose phosphate pathway	http://bioregistry.io/reactome:R-HSA-71335;reactome:Catalysis1019
+chebi:16897	used-to-produce	chebi:15721	Reactome	10869557;11283793;8300619	Pentose phosphate pathway	http://bioregistry.io/reactome:R-HSA-163764
+chebi:16897	reacts-with	chebi:57634	Reactome	10869557;11283793;8300619	Pentose phosphate pathway	http://bioregistry.io/reactome:R-HSA-163764
+chebi:16897	used-to-produce	chebi:57634	Reactome	9357955	Pentose phosphate pathway	http://bioregistry.io/reactome:R-HSA-71335
+chebi:16897	reacts-with	chebi:57737	Reactome	9357955	Pentose phosphate pathway	http://bioregistry.io/reactome:R-HSA-71335
+chebi:16897	used-to-produce	chebi:59776	Reactome	10869557;11283793;8300619;9357955	Pentose phosphate pathway	http://bioregistry.io/reactome:R-HSA-71335;http://bioregistry.io/reactome:R-HSA-163764
+chebi:16938	consumption-controlled-by	PGLS	Reactome	10518023;3932573	Pentose phosphate pathway	http://bioregistry.io/reactome:R-HSA-71296;reactome:Catalysis1008
+chebi:16938	used-to-produce	chebi:58759	Reactome	10518023;3932573	Pentose phosphate pathway	http://bioregistry.io/reactome:R-HSA-71296
+chebi:18420	chemical-affects	PGM2	Reactome		Pentose phosphate pathway	reactome:Complex3256
+chebi:18420	chemical-affects	TKT	Reactome		Pentose phosphate pathway	reactome:Complex3254
+chebi:29033	chemical-affects	RPEL1	Reactome			reactome:Complex3253
+chebi:29033	chemical-affects	RPE	Reactome			reactome:Complex3251
+chebi:47013	consumption-controlled-by	RBKS	Reactome	17585908;18560757	Pentose phosphate pathway	reactome:Catalysis1010;http://bioregistry.io/reactome:R-HSA-8955844
+chebi:47013	used-to-produce	chebi:78346	Reactome	17585908;18560757	Pentose phosphate pathway	http://bioregistry.io/reactome:R-HSA-8955844
+chebi:57259	consumption-controlled-by	PGM2	Reactome	17804405	Pentose phosphate pathway	reactome:Catalysis1022;http://bioregistry.io/reactome:R-HSA-8982667
+chebi:57259	used-to-produce	chebi:57651	Reactome	17804405	Pentose phosphate pathway	http://bioregistry.io/reactome:R-HSA-8982667
+chebi:57634	consumption-controlled-by	TALDO1	Reactome	10869557;11283793;8300619	Pentose phosphate pathway	reactome:Catalysis1018;http://bioregistry.io/reactome:R-HSA-163764
+chebi:57634	consumption-controlled-by	TKT	Reactome	9357955	Pentose phosphate pathway	reactome:Catalysis1020;http://bioregistry.io/reactome:R-HSA-163751
+chebi:57634	used-to-produce	chebi:15721	Reactome	10869557;11283793;8300619	Pentose phosphate pathway	http://bioregistry.io/reactome:R-HSA-163764
+chebi:57634	used-to-produce	chebi:16897	Reactome	9357955	Pentose phosphate pathway	http://bioregistry.io/reactome:R-HSA-163751
+chebi:57634	used-to-produce	chebi:57737	Reactome	9357955	Pentose phosphate pathway	http://bioregistry.io/reactome:R-HSA-163751
+chebi:57634	reacts-with	chebi:59776	Reactome	9357955	Pentose phosphate pathway	http://bioregistry.io/reactome:R-HSA-163751
+chebi:57634	used-to-produce	chebi:59776	Reactome	10869557;11283793;8300619	Pentose phosphate pathway	http://bioregistry.io/reactome:R-HSA-163764
+chebi:57651	consumption-controlled-by	DERA	Reactome	25229427	Pentose phosphate pathway	http://bioregistry.io/reactome:R-HSA-6787321;reactome:Catalysis1023
+chebi:57651	used-to-produce	chebi:15343	Reactome	25229427	Pentose phosphate pathway	http://bioregistry.io/reactome:R-HSA-6787321
+chebi:57651	used-to-produce	chebi:59776	Reactome	25229427	Pentose phosphate pathway	http://bioregistry.io/reactome:R-HSA-6787321
+chebi:57720	consumption-controlled-by	PGM2	Reactome	17804405	Pentose phosphate pathway	reactome:Catalysis1021;http://bioregistry.io/reactome:R-HSA-6787329
+chebi:57720	used-to-produce	chebi:78346	Reactome	17804405	Pentose phosphate pathway	http://bioregistry.io/reactome:R-HSA-6787329
+chebi:57737	consumption-controlled-by	RPEL1	Reactome	2581946;7396409	Pentose phosphate pathway	reactome:Catalysis1014;http://bioregistry.io/reactome:R-HSA-199803
+chebi:57737	consumption-controlled-by	RPE	Reactome	2581946;7396409	Pentose phosphate pathway	reactome:Catalysis1014;http://bioregistry.io/reactome:R-HSA-199803
+chebi:57737	consumption-controlled-by	TKT	Reactome	9357955	Pentose phosphate pathway	http://bioregistry.io/reactome:R-HSA-71324;http://bioregistry.io/reactome:R-HSA-71335;reactome:Catalysis1015;reactome:Catalysis1019
+chebi:57737	used-to-produce	chebi:15721	Reactome	9357955	Pentose phosphate pathway	http://bioregistry.io/reactome:R-HSA-71324
+chebi:57737	used-to-produce	chebi:57634	Reactome	9357955	Pentose phosphate pathway	http://bioregistry.io/reactome:R-HSA-71335
+chebi:57737	used-to-produce	chebi:58121	Reactome	2581946;7396409	Pentose phosphate pathway	http://bioregistry.io/reactome:R-HSA-199803
+chebi:57737	used-to-produce	chebi:59776	Reactome	9357955	Pentose phosphate pathway	http://bioregistry.io/reactome:R-HSA-71335;http://bioregistry.io/reactome:R-HSA-71324
+chebi:57737	reacts-with	chebi:78346	Reactome	9357955	Pentose phosphate pathway	http://bioregistry.io/reactome:R-HSA-71324
+chebi:58121	consumption-controlled-by	RPEL1	Reactome	20923965;2581946;7396409	Pentose phosphate pathway	http://bioregistry.io/reactome:R-HSA-71303;reactome:Catalysis1013
+chebi:58121	consumption-controlled-by	RPE	Reactome	20923965;2581946;7396409	Pentose phosphate pathway	http://bioregistry.io/reactome:R-HSA-71303;reactome:Catalysis1013
+chebi:58121	consumption-controlled-by	RPIA	Reactome	14988808	Pentose phosphate pathway	reactome:Catalysis1012;http://bioregistry.io/reactome:R-HSA-71306
+chebi:58121	used-to-produce	chebi:57737	Reactome	20923965;2581946;7396409	Pentose phosphate pathway	http://bioregistry.io/reactome:R-HSA-71303
+chebi:58121	used-to-produce	chebi:78346	Reactome	14988808	Pentose phosphate pathway	http://bioregistry.io/reactome:R-HSA-71306
+chebi:58225	consumption-controlled-by	G6PD	Reactome	10745013;24066844;5666113	Pentose phosphate pathway	http://bioregistry.io/reactome:R-HSA-70377;reactome:Catalysis1007
+chebi:58225	used-to-produce	chebi:16938	Reactome	10745013;24066844;5666113	Pentose phosphate pathway	http://bioregistry.io/reactome:R-HSA-70377
+chebi:58759	consumption-controlled-by	PGD	Reactome	3932573;3994686;9920387	Pentose phosphate pathway	http://bioregistry.io/reactome:R-HSA-71299;reactome:Catalysis1009
+chebi:58759	used-to-produce	chebi:58121	Reactome	3932573;3994686;9920387	Pentose phosphate pathway	http://bioregistry.io/reactome:R-HSA-71299
+chebi:58937	chemical-affects	TKT	Reactome		Pentose phosphate pathway	reactome:Complex3254
+chebi:59776	consumption-controlled-by	TALDO1	Reactome	10869557;11283793;8300619	Pentose phosphate pathway	http://bioregistry.io/reactome:R-HSA-71334;reactome:Catalysis1017
+chebi:59776	consumption-controlled-by	TKT	Reactome	9357955	Pentose phosphate pathway	reactome:Catalysis1020;reactome:Catalysis1016;http://bioregistry.io/reactome:R-HSA-163741;http://bioregistry.io/reactome:R-HSA-163751
+chebi:59776	used-to-produce	chebi:16897	Reactome	10869557;11283793;8300619;9357955	Pentose phosphate pathway	http://bioregistry.io/reactome:R-HSA-71334;http://bioregistry.io/reactome:R-HSA-163751
+chebi:59776	used-to-produce	chebi:57634	Reactome	10869557;11283793;8300619	Pentose phosphate pathway	http://bioregistry.io/reactome:R-HSA-71334
+chebi:59776	used-to-produce	chebi:57737	Reactome	9357955	Pentose phosphate pathway	http://bioregistry.io/reactome:R-HSA-163741;http://bioregistry.io/reactome:R-HSA-163751
+chebi:59776	used-to-produce	chebi:78346	Reactome	9357955	Pentose phosphate pathway	http://bioregistry.io/reactome:R-HSA-163741
+chebi:78346	consumption-controlled-by	RPIA	Reactome	14988808	Pentose phosphate pathway	reactome:Catalysis1011;http://bioregistry.io/reactome:R-HSA-177784
+chebi:78346	consumption-controlled-by	TKT	Reactome	9357955	Pentose phosphate pathway	http://bioregistry.io/reactome:R-HSA-71324;reactome:Catalysis1015
+chebi:78346	used-to-produce	chebi:15721	Reactome	9357955	Pentose phosphate pathway	http://bioregistry.io/reactome:R-HSA-71324
+chebi:78346	used-to-produce	chebi:58121	Reactome	14988808	Pentose phosphate pathway	http://bioregistry.io/reactome:R-HSA-177784
+chebi:78346	used-to-produce	chebi:59776	Reactome	9357955	Pentose phosphate pathway	http://bioregistry.io/reactome:R-HSA-71324
+
+PARTICIPANT	PARTICIPANT_TYPE	PARTICIPANT_NAME	UNIFICATION_XREF	RELATIONSHIP_XREF
+chebi:57737	SmallMoleculeReference	D-xylulose 5-phosphate(2-)	chebi:CHEBI:57737	
+RPEL1	ProteinReference	RPEL1_HUMAN	uniprot:Q2QD12	hgnc.symbol:RPEL1;ncbigene:729020
+chebi:57634	SmallMoleculeReference	beta-D-fructofuranose 6-phosphate(2-)	chebi:CHEBI:57634	
+RPE	ProteinReference	RPE_HUMAN	uniprot:Q96AT9	hgnc.symbol:RPE;ncbigene:6120
+chebi:57259	SmallMoleculeReference	2-deoxy-alpha-D-ribose 1-phosphate(2-)	chebi:CHEBI:57259	
+chebi:47013	SmallMoleculeReference	D-ribofuranose	chebi:CHEBI:47013	
+chebi:16802	SmallMoleculeReference	sedoheptulose	chebi:CHEBI:16802	
+chebi:16897	SmallMoleculeReference	D-erythrose 4-phosphate(2-)	chebi:CHEBI:16897	
+chebi:15721	SmallMoleculeReference	sedoheptulose 7-phosphate	chebi:CHEBI:15721	
+chebi:15343	SmallMoleculeReference	acetaldehyde	chebi:CHEBI:15343	
+PGM2	ProteinReference	PGM2_HUMAN	uniprot:Q96G03	hgnc.symbol:PGM2;ncbigene:55276
+PGLS	ProteinReference	6PGL_HUMAN	uniprot:O95336	hgnc.symbol:PGLS;ncbigene:25796
+chebi:58937	SmallMoleculeReference	thiamine(1+) diphosphate(3-)	chebi:CHEBI:58937	
+G6PD	ProteinReference	G6PD_HUMAN	uniprot:P11413	hgnc.symbol:G6PD;ncbigene:2539
+chebi:78346	SmallMoleculeReference	D-ribofuranose 5-phosphate(2-)	chebi:CHEBI:78346	
+chebi:58759	SmallMoleculeReference	6-phosphonatooxy-D-gluconate	chebi:CHEBI:58759	
+chebi:57720	SmallMoleculeReference	alpha-D-ribose 1-phosphate(2-)	chebi:CHEBI:57720	
+TALDO1	ProteinReference	TALDO_HUMAN	uniprot:P37837	hgnc.symbol:TALDO1;ncbigene:6888
+chebi:29033	SmallMoleculeReference	iron(2+)	chebi:CHEBI:29033	
+chebi:16938	SmallMoleculeReference	6-O-phosphono-D-glucono-1,5-lactone	chebi:CHEBI:16938	
+PGD	ProteinReference	6PGD_HUMAN	uniprot:P52209	hgnc.symbol:PGD;ncbigene:5226
+DERA	ProteinReference	DEOC_HUMAN	uniprot:Q9Y315	hgnc.symbol:DERA;ncbigene:51071
+RPIA	ProteinReference	RPIA_HUMAN	uniprot:P49247	hgnc.symbol:RPIA;ncbigene:22934
+chebi:18420	SmallMoleculeReference	magnesium(2+)	chebi:CHEBI:18420	
+SHPK	ProteinReference	SHPK_HUMAN	uniprot:Q9UHJ6	hgnc.symbol:SHPK;ncbigene:23729
+chebi:59776	SmallMoleculeReference	D-glyceraldehyde 3-phosphate(2-)	chebi:CHEBI:59776	
+chebi:58225	SmallMoleculeReference	alpha-D-glucose 6-phosphate(2-)	chebi:CHEBI:58225	
+chebi:57651	SmallMoleculeReference	2-deoxy-D-ribose 5-phosphate(2-)	chebi:CHEBI:57651	
+TKT	ProteinReference	TKT_HUMAN	uniprot:P29401	hgnc.symbol:TKT;ncbigene:7086
+chebi:58121	SmallMoleculeReference	D-ribulose 5-phosphate(2-)	chebi:CHEBI:58121	
+RBKS	ProteinReference	RBSK_HUMAN	uniprot:Q9H477	hgnc.symbol:RBKS;ncbigene:64080

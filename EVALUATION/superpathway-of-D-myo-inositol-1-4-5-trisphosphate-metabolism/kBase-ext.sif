@@ -1,0 +1,171 @@
+﻿PARTICIPANT_A	INTERACTION_TYPE	PARTICIPANT_B	INTERACTION_DATA_SOURCE	INTERACTION_PUBMED_ID	PATHWAY_NAMES	MEDIATOR_IDS
+BPNT2	controls-production-of	chebi:17268	HumanCyc		superpathway of D-myo-inositol (1,4,5)-trisphosphate metabolism	humancyc:BiochemicalReaction4302421;humancyc:Catalysis4302498
+CHEBI:149520	chemical-affects	INPP5D	HumanCyc	8769125	superpathway of D-myo-inositol (1,4,5)-trisphosphate metabolism	humancyc:Modulation4294060;humancyc:Catalysis4294058
+CHEBI:49644	chemical-affects	INPP5D	HumanCyc	8769125	superpathway of D-myo-inositol (1,4,5)-trisphosphate metabolism	humancyc:Modulation4294060;humancyc:Catalysis4294058
+IMPA1	controls-production-of	chebi:17268	HumanCyc	17068342	superpathway of D-myo-inositol (1,4,5)-trisphosphate metabolism	humancyc:BiochemicalReaction4302421;humancyc:Catalysis4302465
+IMPA2	controls-production-of	chebi:17268	HumanCyc	17068342	superpathway of D-myo-inositol (1,4,5)-trisphosphate metabolism	humancyc:Catalysis4302440;humancyc:BiochemicalReaction4302421
+INPP1	catalysis-precedes	BPNT2	HumanCyc	8390685	superpathway of D-myo-inositol (1,4,5)-trisphosphate metabolism	humancyc:BiochemicalReaction4302421;humancyc:Catalysis4302498;humancyc:BiochemicalReaction4307243;humancyc:Catalysis4307260
+INPP1	catalysis-precedes	IMPA1	HumanCyc	17068342;8390685	superpathway of D-myo-inositol (1,4,5)-trisphosphate metabolism	humancyc:BiochemicalReaction4302421;humancyc:Catalysis4302465;humancyc:BiochemicalReaction4307243;humancyc:Catalysis4307260
+INPP1	catalysis-precedes	IMPA2	HumanCyc	17068342;8390685	superpathway of D-myo-inositol (1,4,5)-trisphosphate metabolism	humancyc:Catalysis4302440;humancyc:BiochemicalReaction4302421;humancyc:BiochemicalReaction4307243;humancyc:Catalysis4307260
+INPP1	controls-production-of	chebi:58469	HumanCyc	8390685	superpathway of D-myo-inositol (1,4,5)-trisphosphate metabolism	humancyc:BiochemicalReaction4307243;humancyc:Catalysis4307260
+INPP5A	catalysis-precedes	INPP1	HumanCyc	8383126;8390685	superpathway of D-myo-inositol (1,4,5)-trisphosphate metabolism	humancyc:BiochemicalReaction4325555;humancyc:Catalysis4325567;humancyc:BiochemicalReaction4307243;humancyc:Catalysis4307260
+INPP5A	controls-production-of	chebi:58282	HumanCyc	8383126	superpathway of D-myo-inositol (1,4,5)-trisphosphate metabolism	humancyc:BiochemicalReaction4325555;humancyc:Catalysis4325567
+INPP5A	controls-production-of	chebi:58414	HumanCyc	8383126	superpathway of D-myo-inositol (1,4,5)-trisphosphate metabolism	humancyc:Catalysis4294074;humancyc:BiochemicalReaction4294041;humancyc:Catalysis4294104
+INPP5B	catalysis-precedes	INPP1	HumanCyc	1718960;8390685	superpathway of D-myo-inositol (1,4,5)-trisphosphate metabolism	humancyc:BiochemicalReaction4325555;humancyc:Catalysis4325559;humancyc:BiochemicalReaction4307243;humancyc:Catalysis4307260
+INPP5B	controls-production-of	chebi:58282	HumanCyc	1718960	superpathway of D-myo-inositol (1,4,5)-trisphosphate metabolism	humancyc:BiochemicalReaction4325555;humancyc:Catalysis4325559
+INPP5B	controls-production-of	chebi:58414	HumanCyc	1718960	superpathway of D-myo-inositol (1,4,5)-trisphosphate metabolism	humancyc:BiochemicalReaction4294041;humancyc:Catalysis4294066
+INPP5D	controls-production-of	chebi:58414	HumanCyc	8769125	superpathway of D-myo-inositol (1,4,5)-trisphosphate metabolism	humancyc:BiochemicalReaction4294041;humancyc:Catalysis4294058
+INPP5F	catalysis-precedes	INPP1	HumanCyc	8390685	superpathway of D-myo-inositol (1,4,5)-trisphosphate metabolism	humancyc:BiochemicalReaction4325555;humancyc:BiochemicalReaction4307243;humancyc:Catalysis4325571;humancyc:Catalysis4307260
+INPP5F	controls-production-of	chebi:58282	HumanCyc		superpathway of D-myo-inositol (1,4,5)-trisphosphate metabolism	humancyc:BiochemicalReaction4325555;humancyc:Catalysis4325571
+INPP5J	catalysis-precedes	INPP1	HumanCyc	10593988;8390685	superpathway of D-myo-inositol (1,4,5)-trisphosphate metabolism	humancyc:BiochemicalReaction4325555;humancyc:Catalysis4325569;humancyc:BiochemicalReaction4307243;humancyc:Catalysis4307260
+INPP5J	controls-production-of	chebi:58282	HumanCyc	10593988	superpathway of D-myo-inositol (1,4,5)-trisphosphate metabolism	humancyc:BiochemicalReaction4325555;humancyc:Catalysis4325569
+INPP5J	controls-production-of	chebi:58414	HumanCyc	10593988	superpathway of D-myo-inositol (1,4,5)-trisphosphate metabolism	humancyc:BiochemicalReaction4294041;humancyc:Catalysis4294100;humancyc:Catalysis4294102
+INPP5K	catalysis-precedes	INPP1	HumanCyc	10753883;8390685	superpathway of D-myo-inositol (1,4,5)-trisphosphate metabolism	humancyc:BiochemicalReaction4325555;humancyc:Catalysis4325561;humancyc:Catalysis4325573;humancyc:BiochemicalReaction4307243;humancyc:Catalysis4307260
+INPP5K	controls-production-of	chebi:58282	HumanCyc	10753883	superpathway of D-myo-inositol (1,4,5)-trisphosphate metabolism	humancyc:BiochemicalReaction4325555;humancyc:Catalysis4325561;humancyc:Catalysis4325573
+INPP5K	controls-production-of	chebi:58414	HumanCyc	10753883	superpathway of D-myo-inositol (1,4,5)-trisphosphate metabolism	humancyc:Catalysis4294068;humancyc:BiochemicalReaction4294041;humancyc:Catalysis4294106
+INPPL1	catalysis-precedes	INPP1	HumanCyc	8390685	superpathway of D-myo-inositol (1,4,5)-trisphosphate metabolism	humancyc:BiochemicalReaction4325555;humancyc:Catalysis4325575;humancyc:BiochemicalReaction4307243;humancyc:Catalysis4307260
+INPPL1	controls-production-of	chebi:58282	HumanCyc		superpathway of D-myo-inositol (1,4,5)-trisphosphate metabolism	humancyc:BiochemicalReaction4325555;humancyc:Catalysis4325575
+INPPL1	controls-production-of	chebi:58414	HumanCyc	9824312	superpathway of D-myo-inositol (1,4,5)-trisphosphate metabolism	humancyc:Catalysis4294062;humancyc:BiochemicalReaction4294041
+IPMK	catalysis-precedes	INPP5A	HumanCyc	12223481;8383126	superpathway of D-myo-inositol (1,4,5)-trisphosphate metabolism	humancyc:BiochemicalReaction4309297;humancyc:Catalysis4294074;humancyc:Catalysis4309300;humancyc:BiochemicalReaction4294041;humancyc:Catalysis4294104
+IPMK	catalysis-precedes	INPP5B	HumanCyc	12223481;1718960	superpathway of D-myo-inositol (1,4,5)-trisphosphate metabolism	humancyc:BiochemicalReaction4309297;humancyc:Catalysis4309300;humancyc:BiochemicalReaction4294041;humancyc:Catalysis4294066
+IPMK	catalysis-precedes	INPP5D	HumanCyc	12223481;8769125	superpathway of D-myo-inositol (1,4,5)-trisphosphate metabolism	humancyc:BiochemicalReaction4309297;humancyc:Catalysis4309300;humancyc:BiochemicalReaction4294041;humancyc:Catalysis4294058
+IPMK	catalysis-precedes	INPP5J	HumanCyc	10593988;12223481	superpathway of D-myo-inositol (1,4,5)-trisphosphate metabolism	humancyc:BiochemicalReaction4309297;humancyc:Catalysis4309300;humancyc:BiochemicalReaction4294041;humancyc:Catalysis4294100;humancyc:Catalysis4294102
+IPMK	catalysis-precedes	INPP5K	HumanCyc	10753883;12223481	superpathway of D-myo-inositol (1,4,5)-trisphosphate metabolism	humancyc:BiochemicalReaction4309297;humancyc:Catalysis4309300;humancyc:Catalysis4294068;humancyc:BiochemicalReaction4294041;humancyc:Catalysis4294106
+IPMK	catalysis-precedes	INPPL1	HumanCyc	12223481;9824312	superpathway of D-myo-inositol (1,4,5)-trisphosphate metabolism	humancyc:BiochemicalReaction4309297;humancyc:Catalysis4309300;humancyc:Catalysis4294062;humancyc:BiochemicalReaction4294041
+IPMK	catalysis-precedes	OCRL	HumanCyc	12223481;7761412	superpathway of D-myo-inositol (1,4,5)-trisphosphate metabolism	humancyc:BiochemicalReaction4309297;humancyc:Catalysis4309300;humancyc:BiochemicalReaction4294041;humancyc:Catalysis4294070
+IPMK	catalysis-precedes	SYNJ1	HumanCyc	12223481;8552192	superpathway of D-myo-inositol (1,4,5)-trisphosphate metabolism	humancyc:BiochemicalReaction4309297;humancyc:Catalysis4294064;humancyc:Catalysis4309300;humancyc:BiochemicalReaction4294041
+IPMK	catalysis-precedes	SYNJ2	HumanCyc	12223481;9388224	superpathway of D-myo-inositol (1,4,5)-trisphosphate metabolism	humancyc:BiochemicalReaction4309297;humancyc:Catalysis4309300;humancyc:Catalysis4294072;humancyc:BiochemicalReaction4294041
+IPMK	controls-production-of	chebi:57895	HumanCyc	12223481	superpathway of D-myo-inositol (1,4,5)-trisphosphate metabolism	humancyc:BiochemicalReaction4309297;humancyc:Catalysis4309300
+ITPKA	catalysis-precedes	INPP5A	HumanCyc	8383126;9374536	superpathway of D-myo-inositol (1,4,5)-trisphosphate metabolism	humancyc:BiochemicalReaction4309297;humancyc:Catalysis4294074;humancyc:BiochemicalReaction4294041;humancyc:Catalysis4309349;humancyc:Catalysis4294104
+ITPKA	catalysis-precedes	INPP5B	HumanCyc	1718960;9374536	superpathway of D-myo-inositol (1,4,5)-trisphosphate metabolism	humancyc:BiochemicalReaction4309297;humancyc:BiochemicalReaction4294041;humancyc:Catalysis4309349;humancyc:Catalysis4294066
+ITPKA	catalysis-precedes	INPP5D	HumanCyc	8769125;9374536	superpathway of D-myo-inositol (1,4,5)-trisphosphate metabolism	humancyc:BiochemicalReaction4309297;humancyc:BiochemicalReaction4294041;humancyc:Catalysis4309349;humancyc:Catalysis4294058
+ITPKA	catalysis-precedes	INPP5J	HumanCyc	10593988;9374536	superpathway of D-myo-inositol (1,4,5)-trisphosphate metabolism	humancyc:BiochemicalReaction4309297;humancyc:BiochemicalReaction4294041;humancyc:Catalysis4309349;humancyc:Catalysis4294100;humancyc:Catalysis4294102
+ITPKA	catalysis-precedes	INPP5K	HumanCyc	10753883;9374536	superpathway of D-myo-inositol (1,4,5)-trisphosphate metabolism	humancyc:BiochemicalReaction4309297;humancyc:Catalysis4294068;humancyc:BiochemicalReaction4294041;humancyc:Catalysis4309349;humancyc:Catalysis4294106
+ITPKA	catalysis-precedes	INPPL1	HumanCyc	9374536;9824312	superpathway of D-myo-inositol (1,4,5)-trisphosphate metabolism	humancyc:BiochemicalReaction4309297;humancyc:Catalysis4294062;humancyc:BiochemicalReaction4294041;humancyc:Catalysis4309349
+ITPKA	catalysis-precedes	OCRL	HumanCyc	7761412;9374536	superpathway of D-myo-inositol (1,4,5)-trisphosphate metabolism	humancyc:BiochemicalReaction4309297;humancyc:BiochemicalReaction4294041;humancyc:Catalysis4309349;humancyc:Catalysis4294070
+ITPKA	catalysis-precedes	SYNJ1	HumanCyc	8552192;9374536	superpathway of D-myo-inositol (1,4,5)-trisphosphate metabolism	humancyc:BiochemicalReaction4309297;humancyc:Catalysis4294064;humancyc:BiochemicalReaction4294041;humancyc:Catalysis4309349
+ITPKA	catalysis-precedes	SYNJ2	HumanCyc	9374536;9388224	superpathway of D-myo-inositol (1,4,5)-trisphosphate metabolism	humancyc:BiochemicalReaction4309297;humancyc:Catalysis4294072;humancyc:BiochemicalReaction4294041;humancyc:Catalysis4309349
+ITPKA	controls-production-of	chebi:57895	HumanCyc	9374536	superpathway of D-myo-inositol (1,4,5)-trisphosphate metabolism	humancyc:BiochemicalReaction4309297;humancyc:Catalysis4309349
+ITPKB	catalysis-precedes	INPP5A	HumanCyc	11846419;8383126;9374536	superpathway of D-myo-inositol (1,4,5)-trisphosphate metabolism	humancyc:BiochemicalReaction4309297;humancyc:Catalysis4294074;humancyc:Catalysis4309321;humancyc:BiochemicalReaction4294041;humancyc:Catalysis4294104
+ITPKB	catalysis-precedes	INPP5B	HumanCyc	11846419;1718960;9374536	superpathway of D-myo-inositol (1,4,5)-trisphosphate metabolism	humancyc:BiochemicalReaction4309297;humancyc:Catalysis4309321;humancyc:BiochemicalReaction4294041;humancyc:Catalysis4294066
+ITPKB	catalysis-precedes	INPP5D	HumanCyc	11846419;8769125;9374536	superpathway of D-myo-inositol (1,4,5)-trisphosphate metabolism	humancyc:BiochemicalReaction4309297;humancyc:Catalysis4309321;humancyc:BiochemicalReaction4294041;humancyc:Catalysis4294058
+ITPKB	catalysis-precedes	INPP5J	HumanCyc	10593988;11846419;9374536	superpathway of D-myo-inositol (1,4,5)-trisphosphate metabolism	humancyc:BiochemicalReaction4309297;humancyc:Catalysis4309321;humancyc:BiochemicalReaction4294041;humancyc:Catalysis4294100;humancyc:Catalysis4294102
+ITPKB	catalysis-precedes	INPP5K	HumanCyc	10753883;11846419;9374536	superpathway of D-myo-inositol (1,4,5)-trisphosphate metabolism	humancyc:BiochemicalReaction4309297;humancyc:Catalysis4309321;humancyc:Catalysis4294068;humancyc:BiochemicalReaction4294041;humancyc:Catalysis4294106
+ITPKB	catalysis-precedes	INPPL1	HumanCyc	11846419;9374536;9824312	superpathway of D-myo-inositol (1,4,5)-trisphosphate metabolism	humancyc:BiochemicalReaction4309297;humancyc:Catalysis4294062;humancyc:Catalysis4309321;humancyc:BiochemicalReaction4294041
+ITPKB	catalysis-precedes	OCRL	HumanCyc	11846419;7761412;9374536	superpathway of D-myo-inositol (1,4,5)-trisphosphate metabolism	humancyc:BiochemicalReaction4309297;humancyc:Catalysis4309321;humancyc:BiochemicalReaction4294041;humancyc:Catalysis4294070
+ITPKB	catalysis-precedes	SYNJ1	HumanCyc	11846419;8552192;9374536	superpathway of D-myo-inositol (1,4,5)-trisphosphate metabolism	humancyc:BiochemicalReaction4309297;humancyc:Catalysis4294064;humancyc:Catalysis4309321;humancyc:BiochemicalReaction4294041
+ITPKB	catalysis-precedes	SYNJ2	HumanCyc	11846419;9374536;9388224	superpathway of D-myo-inositol (1,4,5)-trisphosphate metabolism	humancyc:BiochemicalReaction4309297;humancyc:Catalysis4309321;humancyc:Catalysis4294072;humancyc:BiochemicalReaction4294041
+ITPKB	controls-production-of	chebi:57895	HumanCyc	11846419;9374536	superpathway of D-myo-inositol (1,4,5)-trisphosphate metabolism	humancyc:BiochemicalReaction4309297;humancyc:Catalysis4309321
+ITPKC	catalysis-precedes	INPP5A	HumanCyc	11085927;8383126	superpathway of D-myo-inositol (1,4,5)-trisphosphate metabolism	humancyc:BiochemicalReaction4309297;humancyc:Catalysis4294074;humancyc:BiochemicalReaction4294041;humancyc:Catalysis4309369;humancyc:Catalysis4294104
+ITPKC	catalysis-precedes	INPP5B	HumanCyc	11085927;1718960	superpathway of D-myo-inositol (1,4,5)-trisphosphate metabolism	humancyc:BiochemicalReaction4309297;humancyc:BiochemicalReaction4294041;humancyc:Catalysis4294066;humancyc:Catalysis4309369
+ITPKC	catalysis-precedes	INPP5D	HumanCyc	11085927;8769125	superpathway of D-myo-inositol (1,4,5)-trisphosphate metabolism	humancyc:BiochemicalReaction4309297;humancyc:BiochemicalReaction4294041;humancyc:Catalysis4309369;humancyc:Catalysis4294058
+ITPKC	catalysis-precedes	INPP5J	HumanCyc	10593988;11085927	superpathway of D-myo-inositol (1,4,5)-trisphosphate metabolism	humancyc:BiochemicalReaction4309297;humancyc:BiochemicalReaction4294041;humancyc:Catalysis4294100;humancyc:Catalysis4309369;humancyc:Catalysis4294102
+ITPKC	catalysis-precedes	INPP5K	HumanCyc	10753883;11085927	superpathway of D-myo-inositol (1,4,5)-trisphosphate metabolism	humancyc:BiochemicalReaction4309297;humancyc:Catalysis4294068;humancyc:BiochemicalReaction4294041;humancyc:Catalysis4309369;humancyc:Catalysis4294106
+ITPKC	catalysis-precedes	INPPL1	HumanCyc	11085927;9824312	superpathway of D-myo-inositol (1,4,5)-trisphosphate metabolism	humancyc:BiochemicalReaction4309297;humancyc:Catalysis4294062;humancyc:BiochemicalReaction4294041;humancyc:Catalysis4309369
+ITPKC	catalysis-precedes	OCRL	HumanCyc	11085927;7761412	superpathway of D-myo-inositol (1,4,5)-trisphosphate metabolism	humancyc:BiochemicalReaction4309297;humancyc:BiochemicalReaction4294041;humancyc:Catalysis4309369;humancyc:Catalysis4294070
+ITPKC	catalysis-precedes	SYNJ1	HumanCyc	11085927;8552192	superpathway of D-myo-inositol (1,4,5)-trisphosphate metabolism	humancyc:BiochemicalReaction4309297;humancyc:Catalysis4294064;humancyc:BiochemicalReaction4294041;humancyc:Catalysis4309369
+ITPKC	catalysis-precedes	SYNJ2	HumanCyc	11085927;9388224	superpathway of D-myo-inositol (1,4,5)-trisphosphate metabolism	humancyc:BiochemicalReaction4309297;humancyc:Catalysis4294072;humancyc:BiochemicalReaction4294041;humancyc:Catalysis4309369
+ITPKC	controls-production-of	chebi:57895	HumanCyc	11085927	superpathway of D-myo-inositol (1,4,5)-trisphosphate metabolism	humancyc:BiochemicalReaction4309297;humancyc:Catalysis4309369
+MINPP1	catalysis-precedes	INPP5A	HumanCyc	8383126;9923613	superpathway of D-myo-inositol (1,4,5)-trisphosphate metabolism	humancyc:Catalysis4299103;humancyc:BiochemicalReaction4325555;humancyc:Catalysis4325567;humancyc:BiochemicalReaction4299058
+MINPP1	catalysis-precedes	INPP5B	HumanCyc	1718960;9923613	superpathway of D-myo-inositol (1,4,5)-trisphosphate metabolism	humancyc:Catalysis4299103;humancyc:BiochemicalReaction4325555;humancyc:Catalysis4325559;humancyc:BiochemicalReaction4299058
+MINPP1	catalysis-precedes	INPP5F	HumanCyc	9923613	superpathway of D-myo-inositol (1,4,5)-trisphosphate metabolism	humancyc:Catalysis4299103;humancyc:BiochemicalReaction4325555;humancyc:BiochemicalReaction4299058;humancyc:Catalysis4325571
+MINPP1	catalysis-precedes	INPP5J	HumanCyc	10593988;9923613	superpathway of D-myo-inositol (1,4,5)-trisphosphate metabolism	humancyc:Catalysis4299103;humancyc:BiochemicalReaction4325555;humancyc:Catalysis4325569;humancyc:BiochemicalReaction4299058
+MINPP1	catalysis-precedes	INPP5K	HumanCyc	10753883;9923613	superpathway of D-myo-inositol (1,4,5)-trisphosphate metabolism	humancyc:Catalysis4299103;humancyc:BiochemicalReaction4325555;humancyc:BiochemicalReaction4299058;humancyc:Catalysis4325561;humancyc:Catalysis4325573
+MINPP1	catalysis-precedes	INPPL1	HumanCyc	9923613	superpathway of D-myo-inositol (1,4,5)-trisphosphate metabolism	humancyc:Catalysis4299103;humancyc:BiochemicalReaction4325555;humancyc:BiochemicalReaction4299058;humancyc:Catalysis4325575
+MINPP1	catalysis-precedes	OCRL	HumanCyc	7761412;9923613	superpathway of D-myo-inositol (1,4,5)-trisphosphate metabolism	humancyc:Catalysis4299103;humancyc:BiochemicalReaction4325555;humancyc:BiochemicalReaction4299058;humancyc:Catalysis4325563
+MINPP1	catalysis-precedes	SYNJ1	HumanCyc	8552192;9923613	superpathway of D-myo-inositol (1,4,5)-trisphosphate metabolism	humancyc:Catalysis4299103;humancyc:BiochemicalReaction4325555;humancyc:Catalysis4325557;humancyc:BiochemicalReaction4299058
+MINPP1	catalysis-precedes	SYNJ2	HumanCyc	9388224;9923613	superpathway of D-myo-inositol (1,4,5)-trisphosphate metabolism	humancyc:Catalysis4299103;humancyc:BiochemicalReaction4325555;humancyc:Catalysis4325565;humancyc:BiochemicalReaction4299058
+MINPP1	controls-production-of	chebi:203600	HumanCyc	9923613	superpathway of D-myo-inositol (1,4,5)-trisphosphate metabolism	humancyc:Catalysis4299103;humancyc:BiochemicalReaction4299058
+OCRL	catalysis-precedes	INPP1	HumanCyc	7761412;8390685	superpathway of D-myo-inositol (1,4,5)-trisphosphate metabolism	humancyc:BiochemicalReaction4325555;humancyc:Catalysis4325563;humancyc:BiochemicalReaction4307243;humancyc:Catalysis4307260
+OCRL	controls-production-of	chebi:58282	HumanCyc	7761412	superpathway of D-myo-inositol (1,4,5)-trisphosphate metabolism	humancyc:BiochemicalReaction4325555;humancyc:Catalysis4325563
+OCRL	controls-production-of	chebi:58414	HumanCyc	7761412	superpathway of D-myo-inositol (1,4,5)-trisphosphate metabolism	humancyc:BiochemicalReaction4294041;humancyc:Catalysis4294070
+PTEN	catalysis-precedes	INPP5A	HumanCyc	8383126;9593664	superpathway of D-myo-inositol (1,4,5)-trisphosphate metabolism	humancyc:BiochemicalReaction4325555;humancyc:Catalysis4325567;humancyc:Catalysis4299077;humancyc:BiochemicalReaction4299058
+PTEN	catalysis-precedes	INPP5B	HumanCyc	1718960;9593664	superpathway of D-myo-inositol (1,4,5)-trisphosphate metabolism	humancyc:BiochemicalReaction4325555;humancyc:Catalysis4325559;humancyc:Catalysis4299077;humancyc:BiochemicalReaction4299058
+PTEN	catalysis-precedes	INPP5F	HumanCyc	9593664	superpathway of D-myo-inositol (1,4,5)-trisphosphate metabolism	humancyc:BiochemicalReaction4325555;humancyc:Catalysis4299077;humancyc:BiochemicalReaction4299058;humancyc:Catalysis4325571
+PTEN	catalysis-precedes	INPP5J	HumanCyc	10593988;9593664	superpathway of D-myo-inositol (1,4,5)-trisphosphate metabolism	humancyc:BiochemicalReaction4325555;humancyc:Catalysis4325569;humancyc:Catalysis4299077;humancyc:BiochemicalReaction4299058
+PTEN	catalysis-precedes	INPP5K	HumanCyc	10753883;9593664	superpathway of D-myo-inositol (1,4,5)-trisphosphate metabolism	humancyc:BiochemicalReaction4325555;humancyc:Catalysis4299077;humancyc:BiochemicalReaction4299058;humancyc:Catalysis4325561;humancyc:Catalysis4325573
+PTEN	catalysis-precedes	INPPL1	HumanCyc	9593664	superpathway of D-myo-inositol (1,4,5)-trisphosphate metabolism	humancyc:BiochemicalReaction4325555;humancyc:Catalysis4299077;humancyc:BiochemicalReaction4299058;humancyc:Catalysis4325575
+PTEN	catalysis-precedes	OCRL	HumanCyc	7761412;9593664	superpathway of D-myo-inositol (1,4,5)-trisphosphate metabolism	humancyc:BiochemicalReaction4325555;humancyc:Catalysis4299077;humancyc:BiochemicalReaction4299058;humancyc:Catalysis4325563
+PTEN	catalysis-precedes	SYNJ1	HumanCyc	8552192;9593664	superpathway of D-myo-inositol (1,4,5)-trisphosphate metabolism	humancyc:BiochemicalReaction4325555;humancyc:Catalysis4299077;humancyc:Catalysis4325557;humancyc:BiochemicalReaction4299058
+PTEN	catalysis-precedes	SYNJ2	HumanCyc	9388224;9593664	superpathway of D-myo-inositol (1,4,5)-trisphosphate metabolism	humancyc:BiochemicalReaction4325555;humancyc:Catalysis4299077;humancyc:Catalysis4325565;humancyc:BiochemicalReaction4299058
+PTEN	controls-production-of	chebi:203600	HumanCyc	9593664	superpathway of D-myo-inositol (1,4,5)-trisphosphate metabolism	humancyc:Catalysis4299077;humancyc:BiochemicalReaction4299058
+SYNJ1	catalysis-precedes	INPP1	HumanCyc	8390685;8552192	superpathway of D-myo-inositol (1,4,5)-trisphosphate metabolism	humancyc:BiochemicalReaction4325555;humancyc:Catalysis4325557;humancyc:BiochemicalReaction4307243;humancyc:Catalysis4307260
+SYNJ1	controls-production-of	chebi:58282	HumanCyc	8552192	superpathway of D-myo-inositol (1,4,5)-trisphosphate metabolism	humancyc:BiochemicalReaction4325555;humancyc:Catalysis4325557
+SYNJ1	controls-production-of	chebi:58414	HumanCyc	8552192	superpathway of D-myo-inositol (1,4,5)-trisphosphate metabolism	humancyc:Catalysis4294064;humancyc:BiochemicalReaction4294041
+SYNJ2	catalysis-precedes	INPP1	HumanCyc	8390685;9388224	superpathway of D-myo-inositol (1,4,5)-trisphosphate metabolism	humancyc:BiochemicalReaction4325555;humancyc:Catalysis4325565;humancyc:BiochemicalReaction4307243;humancyc:Catalysis4307260
+SYNJ2	controls-production-of	chebi:58282	HumanCyc	9388224	superpathway of D-myo-inositol (1,4,5)-trisphosphate metabolism	humancyc:BiochemicalReaction4325555;humancyc:Catalysis4325565
+SYNJ2	controls-production-of	chebi:58414	HumanCyc	9388224	superpathway of D-myo-inositol (1,4,5)-trisphosphate metabolism	humancyc:Catalysis4294072;humancyc:BiochemicalReaction4294041
+chebi:18420	chemical-affects	IMPA1	HumanCyc	1377913;17068342	superpathway of D-myo-inositol (1,4,5)-trisphosphate metabolism	humancyc:Catalysis4302465;humancyc:Modulation4302496
+chebi:18420	chemical-affects	INPP5A	HumanCyc	6285891;8383126	superpathway of D-myo-inositol (1,4,5)-trisphosphate metabolism	humancyc:Catalysis4294074;humancyc:Modulation4294096
+chebi:203600	consumption-controlled-by	INPP5A	HumanCyc	8383126	superpathway of D-myo-inositol (1,4,5)-trisphosphate metabolism	humancyc:BiochemicalReaction4325555;humancyc:Catalysis4325567
+chebi:203600	consumption-controlled-by	INPP5B	HumanCyc	1718960	superpathway of D-myo-inositol (1,4,5)-trisphosphate metabolism	humancyc:BiochemicalReaction4325555;humancyc:Catalysis4325559
+chebi:203600	consumption-controlled-by	INPP5F	HumanCyc		superpathway of D-myo-inositol (1,4,5)-trisphosphate metabolism	humancyc:BiochemicalReaction4325555;humancyc:Catalysis4325571
+chebi:203600	consumption-controlled-by	INPP5J	HumanCyc	10593988	superpathway of D-myo-inositol (1,4,5)-trisphosphate metabolism	humancyc:BiochemicalReaction4325555;humancyc:Catalysis4325569
+chebi:203600	consumption-controlled-by	INPP5K	HumanCyc	10753883	superpathway of D-myo-inositol (1,4,5)-trisphosphate metabolism	humancyc:BiochemicalReaction4325555;humancyc:Catalysis4325561;humancyc:Catalysis4325573
+chebi:203600	consumption-controlled-by	INPPL1	HumanCyc		superpathway of D-myo-inositol (1,4,5)-trisphosphate metabolism	humancyc:BiochemicalReaction4325555;humancyc:Catalysis4325575
+chebi:203600	consumption-controlled-by	IPMK	HumanCyc	12223481	superpathway of D-myo-inositol (1,4,5)-trisphosphate metabolism	humancyc:BiochemicalReaction4309297;humancyc:Catalysis4309300
+chebi:203600	consumption-controlled-by	ITPKA	HumanCyc	9374536	superpathway of D-myo-inositol (1,4,5)-trisphosphate metabolism	humancyc:BiochemicalReaction4309297;humancyc:Catalysis4309349
+chebi:203600	consumption-controlled-by	ITPKB	HumanCyc	11846419;9374536	superpathway of D-myo-inositol (1,4,5)-trisphosphate metabolism	humancyc:BiochemicalReaction4309297;humancyc:Catalysis4309321
+chebi:203600	consumption-controlled-by	ITPKC	HumanCyc	11085927	superpathway of D-myo-inositol (1,4,5)-trisphosphate metabolism	humancyc:BiochemicalReaction4309297;humancyc:Catalysis4309369
+chebi:203600	consumption-controlled-by	OCRL	HumanCyc	7761412	superpathway of D-myo-inositol (1,4,5)-trisphosphate metabolism	humancyc:BiochemicalReaction4325555;humancyc:Catalysis4325563
+chebi:203600	consumption-controlled-by	SYNJ1	HumanCyc	8552192	superpathway of D-myo-inositol (1,4,5)-trisphosphate metabolism	humancyc:BiochemicalReaction4325555;humancyc:Catalysis4325557
+chebi:203600	consumption-controlled-by	SYNJ2	HumanCyc	9388224	superpathway of D-myo-inositol (1,4,5)-trisphosphate metabolism	humancyc:BiochemicalReaction4325555;humancyc:Catalysis4325565
+chebi:203600	used-to-produce	chebi:57895	HumanCyc		superpathway of D-myo-inositol (1,4,5)-trisphosphate metabolism	humancyc:BiochemicalReaction4309297
+chebi:203600	used-to-produce	chebi:58282	HumanCyc		superpathway of D-myo-inositol (1,4,5)-trisphosphate metabolism	humancyc:BiochemicalReaction4325555
+chebi:29108	chemical-affects	ITPKA	HumanCyc	1847047;9374536	superpathway of D-myo-inositol (1,4,5)-trisphosphate metabolism	humancyc:Catalysis4309349;humancyc:Modulation4309367
+chebi:29108	chemical-affects	ITPKB	HumanCyc	11846419;9374536	superpathway of D-myo-inositol (1,4,5)-trisphosphate metabolism	humancyc:Catalysis4309321;humancyc:Modulation4309348
+chebi:29108	chemical-affects	ITPKC	HumanCyc	11085927	superpathway of D-myo-inositol (1,4,5)-trisphosphate metabolism	humancyc:Catalysis4309369;humancyc:Modulation4309391
+chebi:57895	consumption-controlled-by	INPP5A	HumanCyc	8383126	superpathway of D-myo-inositol (1,4,5)-trisphosphate metabolism	humancyc:Catalysis4294074;humancyc:BiochemicalReaction4294041;humancyc:Catalysis4294104
+chebi:57895	consumption-controlled-by	INPP5B	HumanCyc	1718960	superpathway of D-myo-inositol (1,4,5)-trisphosphate metabolism	humancyc:BiochemicalReaction4294041;humancyc:Catalysis4294066
+chebi:57895	consumption-controlled-by	INPP5D	HumanCyc	8769125	superpathway of D-myo-inositol (1,4,5)-trisphosphate metabolism	humancyc:BiochemicalReaction4294041;humancyc:Catalysis4294058
+chebi:57895	consumption-controlled-by	INPP5J	HumanCyc	10593988	superpathway of D-myo-inositol (1,4,5)-trisphosphate metabolism	humancyc:BiochemicalReaction4294041;humancyc:Catalysis4294100;humancyc:Catalysis4294102
+chebi:57895	consumption-controlled-by	INPP5K	HumanCyc	10753883	superpathway of D-myo-inositol (1,4,5)-trisphosphate metabolism	humancyc:Catalysis4294068;humancyc:BiochemicalReaction4294041;humancyc:Catalysis4294106
+chebi:57895	consumption-controlled-by	INPPL1	HumanCyc	9824312	superpathway of D-myo-inositol (1,4,5)-trisphosphate metabolism	humancyc:Catalysis4294062;humancyc:BiochemicalReaction4294041
+chebi:57895	consumption-controlled-by	MINPP1	HumanCyc	9923613	superpathway of D-myo-inositol (1,4,5)-trisphosphate metabolism	humancyc:Catalysis4299103;humancyc:BiochemicalReaction4299058
+chebi:57895	consumption-controlled-by	OCRL	HumanCyc	7761412	superpathway of D-myo-inositol (1,4,5)-trisphosphate metabolism	humancyc:BiochemicalReaction4294041;humancyc:Catalysis4294070
+chebi:57895	consumption-controlled-by	PTEN	HumanCyc	9593664	superpathway of D-myo-inositol (1,4,5)-trisphosphate metabolism	humancyc:Catalysis4299077;humancyc:BiochemicalReaction4299058
+chebi:57895	consumption-controlled-by	SYNJ1	HumanCyc	8552192	superpathway of D-myo-inositol (1,4,5)-trisphosphate metabolism	humancyc:Catalysis4294064;humancyc:BiochemicalReaction4294041
+chebi:57895	consumption-controlled-by	SYNJ2	HumanCyc	9388224	superpathway of D-myo-inositol (1,4,5)-trisphosphate metabolism	humancyc:Catalysis4294072;humancyc:BiochemicalReaction4294041
+chebi:57895	used-to-produce	chebi:203600	HumanCyc		superpathway of D-myo-inositol (1,4,5)-trisphosphate metabolism	humancyc:BiochemicalReaction4299058
+chebi:57895	used-to-produce	chebi:58414	HumanCyc		superpathway of D-myo-inositol (1,4,5)-trisphosphate metabolism	humancyc:BiochemicalReaction4294041
+chebi:58248	chemical-affects	INPP5A	HumanCyc	6285891;8383126	superpathway of D-myo-inositol (1,4,5)-trisphosphate metabolism	humancyc:Catalysis4294074;humancyc:Modulation4294099
+chebi:58248	chemical-affects	INPP5D	HumanCyc	8769125	superpathway of D-myo-inositol (1,4,5)-trisphosphate metabolism	humancyc:Modulation4294061;humancyc:Catalysis4294058
+chebi:58282	consumption-controlled-by	INPP1	HumanCyc	8390685	superpathway of D-myo-inositol (1,4,5)-trisphosphate metabolism	humancyc:BiochemicalReaction4307243;humancyc:Catalysis4307260
+chebi:58282	used-to-produce	chebi:58469	HumanCyc		superpathway of D-myo-inositol (1,4,5)-trisphosphate metabolism	humancyc:BiochemicalReaction4307243
+chebi:58469	consumption-controlled-by	BPNT2	HumanCyc		superpathway of D-myo-inositol (1,4,5)-trisphosphate metabolism	humancyc:BiochemicalReaction4302421;humancyc:Catalysis4302498
+chebi:58469	consumption-controlled-by	IMPA1	HumanCyc	17068342	superpathway of D-myo-inositol (1,4,5)-trisphosphate metabolism	humancyc:BiochemicalReaction4302421;humancyc:Catalysis4302465
+chebi:58469	consumption-controlled-by	IMPA2	HumanCyc	17068342	superpathway of D-myo-inositol (1,4,5)-trisphosphate metabolism	humancyc:Catalysis4302440;humancyc:BiochemicalReaction4302421
+chebi:58469	used-to-produce	chebi:17268	HumanCyc		superpathway of D-myo-inositol (1,4,5)-trisphosphate metabolism	humancyc:BiochemicalReaction4302421
+
+PARTICIPANT	PARTICIPANT_TYPE	PARTICIPANT_NAME	UNIFICATION_XREF	RELATIONSHIP_XREF
+chebi:29108	SmallMoleculeReference	calcium(2+)	chebi:CHEBI:29108	
+INPP1	ProteinReference	INPP_HUMAN	uniprot:P49441	hgnc.symbol:INPP1;ncbigene:3628
+chebi:58248	SmallMoleculeReference	2,3-bisphosphonato-D-glycerate(5-)	chebi:CHEBI:58248	
+chebi:58469	SmallMoleculeReference	1D-myo-inositol 4-phosphate(2-)	chebi:CHEBI:58469	
+CHEBI:49644	SmallMoleculeReference	p-hydroxymercuribenzoate	biocyc:PHMB;chemspider:15605527;metanetx:MNXM66210;pubchem.compound:3647458	
+INPPL1	ProteinReference	SHIP2_HUMAN	uniprot:O15357	hgnc.symbol:INPPL1;ncbigene:3636
+PTEN	ProteinReference	PTEN_HUMAN	uniprot:P60484	hgnc.symbol:PTEN;ncbigene:5728
+chebi:203600	SmallMoleculeReference	1D-myo-inositol 1,4,5-trisphosphate(6-)	chebi:CHEBI:203600	
+INPP5B	ProteinReference	I5P2_HUMAN	uniprot:P32019	hgnc.symbol:INPP5B;ncbigene:3633
+INPP5A	ProteinReference	I5P1_HUMAN	uniprot:Q14642	hgnc.symbol:INPP5A;ncbigene:3632
+INPP5F	ProteinReference	SAC2_HUMAN	uniprot:Q9Y2H2	hgnc.symbol:INPP5F;ncbigene:22876
+IMPA1	ProteinReference	IMPA1_HUMAN	uniprot:P29218	hgnc.symbol:IMPA1;ncbigene:3612
+IMPA2	ProteinReference	IMPA2_HUMAN	uniprot:O14732	hgnc.symbol:IMPA2;ncbigene:3613
+INPP5D	ProteinReference	SHIP1_HUMAN	uniprot:Q92835	hgnc.symbol:INPP5D;ncbigene:3635
+chebi:17268	SmallMoleculeReference	myo-inositol	chebi:CHEBI:17268	
+INPP5J	ProteinReference	PI5PA_HUMAN	uniprot:Q15735	hgnc.symbol:INPP5J;ncbigene:27124
+INPP5K	ProteinReference	INP5K_HUMAN	uniprot:Q9BT40	hgnc.symbol:INPP5K;ncbigene:51763
+BPNT2	ProteinReference	IMPA3_HUMAN	uniprot:Q9NX62	hgnc.symbol:BPNT2;ncbigene:54928
+CHEBI:149520	SmallMoleculeReference	p-hydroxymercuribenzoate	biocyc:PHMB;chemspider:15605527;metanetx:MNXM66210;pubchem.compound:3647458	
+IPMK	ProteinReference	IPMK_HUMAN	uniprot:Q8NFU5	hgnc.symbol:IPMK;ncbigene:253430
+chebi:58414	SmallMoleculeReference	1D-myo-inositol 1,3,4-trisphosphate(6-)	chebi:CHEBI:58414	
+OCRL	ProteinReference	OCRL_HUMAN	uniprot:Q01968	hgnc.symbol:OCRL;ncbigene:4952
+SYNJ2	ProteinReference	SYNJ2_HUMAN	uniprot:O15056	hgnc.symbol:SYNJ2;ncbigene:8871
+chebi:58282	SmallMoleculeReference	1D-myo-inositol 1,4-bisphosphate(4-)	chebi:CHEBI:58282	
+ITPKB	ProteinReference	IP3KB_HUMAN	uniprot:P27987	hgnc.symbol:ITPKB;ncbigene:3707
+MINPP1	ProteinReference	MINP1_HUMAN	uniprot:Q9UNW1	hgnc.symbol:MINPP1;ncbigene:9562
+ITPKC	ProteinReference	IP3KC_HUMAN	uniprot:Q96DU7	hgnc.symbol:ITPKC;ncbigene:80271
+SYNJ1	ProteinReference	SYNJ1_HUMAN	uniprot:O43426	hgnc.symbol:SYNJ1;ncbigene:8867
+chebi:18420	SmallMoleculeReference	magnesium(2+)	chebi:CHEBI:18420	
+ITPKA	ProteinReference	IP3KA_HUMAN	uniprot:P23677	hgnc.symbol:ITPKA;ncbigene:3706
+chebi:57895	SmallMoleculeReference	1D-myo-inositol 1,3,4,5-tetrakisphosphate(8-)	chebi:CHEBI:57895	

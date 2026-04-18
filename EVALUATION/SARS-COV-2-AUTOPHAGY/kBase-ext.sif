@@ -1,0 +1,42 @@
+﻿PARTICIPANT_A	INTERACTION_TYPE	PARTICIPANT_B	INTERACTION_DATA_SOURCE	INTERACTION_PUBMED_ID	PATHWAY_NAMES	MEDIATOR_IDS
+MAP1LC3B	in-complex-with	TUFM	Reactome		SARS-CoV-2 modulates autophagy	reactome:Complex13813
+VPS11	in-complex-with	VPS16	Reactome		SARS-CoV-2 modulates autophagy	reactome:Complex13810
+VPS11	in-complex-with	VPS18	Reactome		SARS-CoV-2 modulates autophagy	reactome:Complex13810
+VPS11	in-complex-with	VPS33A	Reactome		SARS-CoV-2 modulates autophagy	reactome:Complex13810
+VPS11	in-complex-with	VPS33B	Reactome		SARS-CoV-2 modulates autophagy	reactome:Complex13810
+VPS11	in-complex-with	VPS39	Reactome		SARS-CoV-2 modulates autophagy	reactome:Complex13810
+VPS11	in-complex-with	VPS41	Reactome		SARS-CoV-2 modulates autophagy	reactome:Complex13810
+VPS11	in-complex-with	VPS45	Reactome		SARS-CoV-2 modulates autophagy	reactome:Complex13810
+VPS16	in-complex-with	VPS18	Reactome		SARS-CoV-2 modulates autophagy	reactome:Complex13810
+VPS16	in-complex-with	VPS33A	Reactome		SARS-CoV-2 modulates autophagy	reactome:Complex13810
+VPS16	in-complex-with	VPS33B	Reactome		SARS-CoV-2 modulates autophagy	reactome:Complex13810
+VPS16	in-complex-with	VPS39	Reactome		SARS-CoV-2 modulates autophagy	reactome:Complex13810
+VPS16	in-complex-with	VPS41	Reactome		SARS-CoV-2 modulates autophagy	reactome:Complex13810
+VPS16	in-complex-with	VPS45	Reactome		SARS-CoV-2 modulates autophagy	reactome:Complex13810
+VPS18	in-complex-with	VPS33A	Reactome		SARS-CoV-2 modulates autophagy	reactome:Complex13810
+VPS18	in-complex-with	VPS33B	Reactome		SARS-CoV-2 modulates autophagy	reactome:Complex13810
+VPS18	in-complex-with	VPS39	Reactome		SARS-CoV-2 modulates autophagy	reactome:Complex13810
+VPS18	in-complex-with	VPS41	Reactome		SARS-CoV-2 modulates autophagy	reactome:Complex13810
+VPS18	in-complex-with	VPS45	Reactome		SARS-CoV-2 modulates autophagy	reactome:Complex13810
+VPS33A	in-complex-with	VPS33B	Reactome		SARS-CoV-2 modulates autophagy	reactome:Complex13810
+VPS33A	in-complex-with	VPS39	Reactome		SARS-CoV-2 modulates autophagy	reactome:Complex13810
+VPS33A	in-complex-with	VPS41	Reactome		SARS-CoV-2 modulates autophagy	reactome:Complex13810
+VPS33A	in-complex-with	VPS45	Reactome		SARS-CoV-2 modulates autophagy	reactome:Complex13810
+VPS33B	in-complex-with	VPS39	Reactome		SARS-CoV-2 modulates autophagy	reactome:Complex13810
+VPS33B	in-complex-with	VPS41	Reactome		SARS-CoV-2 modulates autophagy	reactome:Complex13810
+VPS33B	in-complex-with	VPS45	Reactome		SARS-CoV-2 modulates autophagy	reactome:Complex13810
+VPS39	in-complex-with	VPS41	Reactome		SARS-CoV-2 modulates autophagy	reactome:Complex13810
+VPS39	in-complex-with	VPS45	Reactome		SARS-CoV-2 modulates autophagy	reactome:Complex13810
+VPS41	in-complex-with	VPS45	Reactome		SARS-CoV-2 modulates autophagy	reactome:Complex13810
+
+PARTICIPANT	PARTICIPANT_TYPE	PARTICIPANT_NAME	UNIFICATION_XREF	RELATIONSHIP_XREF
+VPS18	ProteinReference	VPS18_HUMAN	uniprot:Q9P253	hgnc.symbol:VPS18;ncbigene:57617
+MAP1LC3B	ProteinReference	MLP3B_HUMAN	uniprot:Q9GZQ8	hgnc.symbol:MAP1LC3B;ncbigene:81631
+VPS33A	ProteinReference	VP33A_HUMAN	uniprot:Q96AX1	hgnc.symbol:VPS33A;ncbigene:65082
+VPS33B	ProteinReference	VP33B_HUMAN	uniprot:Q9H267	hgnc.symbol:VPS33B;ncbigene:26276
+VPS41	ProteinReference	VPS41_HUMAN	uniprot:P49754	hgnc.symbol:VPS41;ncbigene:27072
+VPS11	ProteinReference	VPS11_HUMAN	uniprot:Q9H270	hgnc.symbol:VPS11;ncbigene:55823
+VPS45	ProteinReference	VPS45_HUMAN	uniprot:Q9NRW7	hgnc.symbol:VPS45;ncbigene:11311
+VPS39	ProteinReference	VPS39_HUMAN	uniprot:Q96JC1	hgnc.symbol:VPS39;ncbigene:23339
+TUFM	ProteinReference	EFTU_HUMAN	uniprot:P49411	hgnc.symbol:TUFM;ncbigene:7284
+VPS16	ProteinReference	VPS16_HUMAN	uniprot:Q9H269	hgnc.symbol:VPS16;ncbigene:64601

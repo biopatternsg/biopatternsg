@@ -1,0 +1,24 @@
+﻿PARTICIPANT_A	INTERACTION_TYPE	PARTICIPANT_B	INTERACTION_DATA_SOURCE	INTERACTION_PUBMED_ID	PATHWAY_NAMES	MEDIATOR_IDS
+CREBBP	in-complex-with	MAFK	Reactome		Regulation of NFE2L2 gene expression	reactome:Complex9694
+CREBBP	controls-expression-of	NFE2L2	Reactome	11940647;22581777	Regulation of NFE2L2 gene expression	reactome:Control1500;http://bioregistry.io/reactome:R-HSA-9796060
+CREBBP	in-complex-with	NFE2L2	Reactome		Regulation of NFE2L2 gene expression	reactome:Complex9693
+EP300	in-complex-with	MAFK	Reactome		Regulation of NFE2L2 gene expression	reactome:Complex9694
+EP300	controls-expression-of	NFE2L2	Reactome	11940647;22581777	Regulation of NFE2L2 gene expression	reactome:Control1500;http://bioregistry.io/reactome:R-HSA-9796060
+EP300	in-complex-with	NFE2L2	Reactome		Regulation of NFE2L2 gene expression	reactome:Complex9693
+MAFK	controls-expression-of	NFE2L2	Reactome	11940647;22581777	Regulation of NFE2L2 gene expression	reactome:Control1500;http://bioregistry.io/reactome:R-HSA-9796060
+MAFK	in-complex-with	NFE2L2	Reactome		Regulation of NFE2L2 gene expression	reactome:Complex9694
+MYC	controls-expression-of	NFE2L2	Reactome	21734707;22789539;24298019;29450944;29526543;32582032;32640524;32649885;33859744	Regulation of NFE2L2 gene expression	http://bioregistry.io/reactome:R-HSA-9762100;reactome:Control1498
+NFKB1	controls-expression-of	NFE2L2	Reactome	23077289	Regulation of NFE2L2 gene expression	reactome:Control1499;http://bioregistry.io/reactome:R-HSA-9796046
+NFKB1	in-complex-with	RELA	Reactome		Regulation of NFE2L2 gene expression	reactome:Complex484
+NOTCH1	controls-expression-of	NFE2L2	Reactome	21734707;22789539;24298019;29450944;29526543;32582032;32640524;32649885;33859744	Regulation of NFE2L2 gene expression	http://bioregistry.io/reactome:R-HSA-9762100;reactome:Control1497
+RELA	controls-expression-of	NFE2L2	Reactome	23077289	Regulation of NFE2L2 gene expression	reactome:Control1499;http://bioregistry.io/reactome:R-HSA-9796046
+
+PARTICIPANT	PARTICIPANT_TYPE	PARTICIPANT_NAME	UNIFICATION_XREF	RELATIONSHIP_XREF
+CREBBP	ProteinReference	CBP_HUMAN	uniprot:Q92793	hgnc.symbol:CREBBP;ncbigene:1387
+NOTCH1	ProteinReference	NOTC1_HUMAN	uniprot:P46531	hgnc.symbol:NOTCH1;ncbigene:4851
+MYC	ProteinReference	MYC_HUMAN	uniprot:P01106	hgnc.symbol:MYC;ncbigene:4609
+EP300	ProteinReference	EP300_HUMAN	uniprot:Q09472	hgnc.symbol:EP300;ncbigene:2033
+MAFK	ProteinReference	MAFK_HUMAN	uniprot:O60675	hgnc.symbol:MAFK;ncbigene:7975
+NFKB1	ProteinReference	NFKB1_HUMAN	uniprot:P19838	hgnc.symbol:NFKB1;ncbigene:4790
+RELA	ProteinReference	TF65_HUMAN	uniprot:Q04206	hgnc.symbol:RELA;ncbigene:5970
+NFE2L2	ProteinReference	NF2L2_HUMAN	uniprot:Q16236	hgnc.symbol:NFE2L2;ncbigene:4780

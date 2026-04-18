@@ -1,0 +1,21 @@
+Report on kBase.sif vs kBase.pl
+Number of vertices in Ref .sif = 10
+Number of vertices in BioPattern =10
+Number of edges in Ref .sif = 29
+Number of edges in BioPattern = 21
+============================= TP Table =========================
+[(VPS11,in-complex-with,VPS18)-(VPS11,association,VPS18),(VPS11,in-complex-with,VPS33A)-(VPS11,association,VPS33A),(VPS11,in-complex-with,VPS39)-(VPS11,bind,VPS39),(VPS11,in-complex-with,VPS39)-(VPS11,association,VPS39),(VPS11,in-complex-with,VPS41)-(VPS11,bind,VPS41),(VPS16,in-complex-with,VPS33A)-(VPS16,bind,VPS33A),(VPS16,in-complex-with,VPS33A)-(VPS16,association,VPS33A),(VPS16,in-complex-with,VPS41)-(VPS16,association,VPS41),(VPS18,in-complex-with,VPS33A)-(VPS18,association,VPS33A),(VPS18,in-complex-with,VPS39)-(VPS18,bind,VPS39),(VPS18,in-complex-with,VPS41)-(VPS18,positive_correlation,VPS41),(VPS18,in-complex-with,VPS41)-(VPS18,association,VPS41),(VPS18,in-complex-with,VPS41)-(VPS18,bind,VPS41),(VPS18,in-complex-with,VPS45)-(VPS18,association,VPS45),(VPS33A,in-complex-with,VPS33B)-(VPS33A,bind,VPS33B),(VPS33A,in-complex-with,VPS39)-(VPS33A,association,VPS39),(VPS33A,in-complex-with,VPS41)-(VPS33A,association,VPS41),(VPS39,in-complex-with,VPS41)-(VPS39,bind,VPS41)]
+================================================================
+============================= FP Table =========================
+[does_not_exist-(VPS39,bind,VPS11),does_not_exist-(VPS39,association,VPS11),does_not_exist-(VPS39,association,VPS33A),does_not_exist-(VPS39,bind,VPS18),does_not_exist-(VPS11,bind,VPS39),does_not_exist-(VPS11,association,VPS39),does_not_exist-(VPS41,bind,VPS39),does_not_exist-(VPS41,bind,VPS11),does_not_exist-(VPS41,association,VPS16),does_not_exist-(VPS41,association,VPS33A),does_not_exist-(VPS41,positive_correlation,VPS18),does_not_exist-(VPS41,association,VPS18),does_not_exist-(VPS41,bind,VPS18),does_not_exist-(VPS33A,association,VPS11),does_not_exist-(VPS33A,association,VPS16),does_not_exist-(VPS33A,bind,VPS16),does_not_exist-(VPS33A,association,VPS18),does_not_exist-(VPS33A,association,VPS39),does_not_exist-(VPS18,association,VPS11),does_not_exist-(VPS18,bind,VPS39),does_not_exist-(VPS39,bind,VPS41),does_not_exist-(VAM6,bind,PEP5),does_not_exist-(VPS11,bind,VPS41),does_not_exist-(VPS11,association,VPS33A),does_not_exist-(VPS11,association,VPS18),does_not_exist-(PEP5,bind,VAM6),does_not_exist-(VPS33B,bind,VPS33A),does_not_exist-(VPS45,association,VPS18)]
+================================================================
+============================= FN Table =========================
+[(MAP1LC3B,in-complex-with,TUFM)-not_predicted,(VPS11,in-complex-with,VPS16)-not_predicted,(VPS11,in-complex-with,VPS33B)-not_predicted,(VPS11,in-complex-with,VPS45)-not_predicted,(VPS16,in-complex-with,VPS18)-not_predicted,(VPS16,in-complex-with,VPS33B)-not_predicted,(VPS16,in-complex-with,VPS39)-not_predicted,(VPS16,in-complex-with,VPS45)-not_predicted,(VPS18,in-complex-with,VPS33B)-not_predicted,(VPS33A,in-complex-with,VPS45)-not_predicted,(VPS33B,in-complex-with,VPS39)-not_predicted,(VPS33B,in-complex-with,VPS41)-not_predicted,(VPS33B,in-complex-with,VPS45)-not_predicted,(VPS39,in-complex-with,VPS45)-not_predicted,(VPS41,in-complex-with,VPS45)-not_predicted]
+================================================================
+True Positives (the ref has them and the system predicts them): 18
+False Positives (the ref does not have them but the system predicts them): 28
+False Negatives (the ref has them but the system does not predict them): 15
+Precision (TP/(TP+FP)), from all the predictions, how many are correct: 0.391304347826087
+Recall (TP/(TP+FN)): from all the correct ones, how many are predicted: 0.5454545454545454
+F1 Score (2*Precision*Recall)/(Precision+Recall): 0.4556962025316456
+18	28	15	0.391304347826087	0.5454545454545454	0.4556962025316456

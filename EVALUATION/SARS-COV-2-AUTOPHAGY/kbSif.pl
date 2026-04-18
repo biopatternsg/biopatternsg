@@ -1,0 +1,31 @@
+base([
+event(MAP1LC3B, in-complex-with, TUFM),
+event(VPS11, in-complex-with, VPS16)
+event(VPS11, in-complex-with, VPS18),
+event(VPS11, in-complex-with, VPS33A)
+event(VPS11, in-complex-with, VPS33B),
+event(VPS11, in-complex-with, VPS39)
+event(VPS11, in-complex-with, VPS41),
+event(VPS11, in-complex-with, VPS45)
+event(VPS16, in-complex-with, VPS18),
+event(VPS16, in-complex-with, VPS33A)
+event(VPS16, in-complex-with, VPS33B),
+event(VPS16, in-complex-with, VPS39)
+event(VPS16, in-complex-with, VPS41),
+event(VPS16, in-complex-with, VPS45)
+event(VPS18, in-complex-with, VPS33A),
+event(VPS18, in-complex-with, VPS33B)
+event(VPS18, in-complex-with, VPS39),
+event(VPS18, in-complex-with, VPS41)
+event(VPS18, in-complex-with, VPS45),
+event(VPS33A, in-complex-with, VPS33B)
+event(VPS33A, in-complex-with, VPS39),
+event(VPS33A, in-complex-with, VPS41)
+event(VPS33A, in-complex-with, VPS45),
+event(VPS33B, in-complex-with, VPS39)
+event(VPS33B, in-complex-with, VPS41),
+event(VPS33B, in-complex-with, VPS45)
+event(VPS39, in-complex-with, VPS41),
+event(VPS39, in-complex-with, VPS45)
+event(VPS41, in-complex-with, VPS45)
+]).

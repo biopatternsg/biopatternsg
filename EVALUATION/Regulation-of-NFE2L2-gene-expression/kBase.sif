@@ -1,0 +1,13 @@
+﻿CREBBP	in-complex-with	MAFK
+CREBBP	controls-expression-of	NFE2L2
+CREBBP	in-complex-with	NFE2L2
+EP300	in-complex-with	MAFK
+EP300	controls-expression-of	NFE2L2
+EP300	in-complex-with	NFE2L2
+MAFK	controls-expression-of	NFE2L2
+MAFK	in-complex-with	NFE2L2
+MYC	controls-expression-of	NFE2L2
+NFKB1	controls-expression-of	NFE2L2
+NFKB1	in-complex-with	RELA
+NOTCH1	controls-expression-of	NFE2L2
+RELA	controls-expression-of	NFE2L2

@@ -1,0 +1,880 @@
+﻿PARTICIPANT_A	INTERACTION_TYPE	PARTICIPANT_B	INTERACTION_DATA_SOURCE	INTERACTION_PUBMED_ID	PATHWAY_NAMES	MEDIATOR_IDS
+APBB1IP	in-complex-with	BRAF	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+APBB1IP	in-complex-with	CSK	Reactome			reactome:Complex2886
+APBB1IP	in-complex-with	FGA	Reactome			reactome:Complex2888
+APBB1IP	in-complex-with	FGB	Reactome			reactome:Complex2888
+APBB1IP	in-complex-with	FGG	Reactome			reactome:Complex2888
+APBB1IP	in-complex-with	FN1	Reactome			reactome:Complex2888
+APBB1IP	in-complex-with	HRAS	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+APBB1IP	in-complex-with	ITGA2B	Reactome			reactome:Complex2886
+APBB1IP	in-complex-with	ITGB3	Reactome			reactome:Complex2886
+APBB1IP	in-complex-with	KRAS	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+APBB1IP	controls-state-change-of	MAP2K1	Reactome	18562239;24121058;24651010	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802926;reactome:Catalysis5162
+APBB1IP	in-complex-with	MAP2K1	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+APBB1IP	controls-state-change-of	MAP2K2	Reactome	18562239;24121058;24651010	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802926;reactome:Catalysis5162
+APBB1IP	in-complex-with	MAP2K2	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+APBB1IP	controls-state-change-of	MAPK1	Reactome	18562239;24121058;24651010	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802922;reactome:Catalysis5163
+APBB1IP	in-complex-with	MAPK1	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+APBB1IP	controls-state-change-of	MAPK3	Reactome	18562239;24121058;24651010	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802922;reactome:Catalysis5163
+APBB1IP	in-complex-with	MAPK3	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+APBB1IP	in-complex-with	NRAS	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+APBB1IP	in-complex-with	RAF1	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+APBB1IP	in-complex-with	RAP1A	Reactome			reactome:Complex2881
+APBB1IP	in-complex-with	RAP1B	Reactome			reactome:Complex2881
+APBB1IP	in-complex-with	SRC	Reactome			reactome:Complex2886
+APBB1IP	in-complex-with	TLN1	Reactome			reactome:Complex2882
+APBB1IP	in-complex-with	VCL	Reactome			reactome:Complex8670
+APBB1IP	in-complex-with	VWF	Reactome			reactome:Complex2888
+APBB1IP	in-complex-with	YWHAB	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+ARAF	controls-state-change-of	APBB1IP	Reactome	15035987;16364920;21779496;24957944	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802925;http://bioregistry.io/reactome:R-HSA-8936734
+ARAF	controls-transport-of	APBB1IP	Reactome	15035987;16364920;21779496;24957944	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802925;http://bioregistry.io/reactome:R-HSA-8936734
+ARAF	controls-state-change-of	ARRB1	Reactome	15035987;16364920;21779496;24957944	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802925;http://bioregistry.io/reactome:R-HSA-8936734
+ARAF	controls-transport-of	ARRB1	Reactome	15035987;16364920;21779496;24957944	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802925;http://bioregistry.io/reactome:R-HSA-8936734
+ARAF	controls-state-change-of	ARRB2	Reactome	15035987;16364920;21779496;24957944	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802925;http://bioregistry.io/reactome:R-HSA-8936734
+ARAF	controls-transport-of	ARRB2	Reactome	15035987;16364920;21779496;24957944	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802925;http://bioregistry.io/reactome:R-HSA-8936734
+ARAF	controls-phosphorylation-of	BRAF	Reactome	11325826;16364920;16508002;17018604;20141835;20179705;22043453;22510884;24202393;25435214	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802924;reactome:Catalysis5161
+ARAF	controls-state-change-of	BRAF	Reactome	11325826;15035987;16364920;16508002;17018604;20141835;20179705;21779496;22043453;22510884;24202393;24957944;25435214	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802925;http://bioregistry.io/reactome:R-HSA-6802924;http://bioregistry.io/reactome:R-HSA-8936734;reactome:Catalysis5161
+ARAF	controls-transport-of	BRAF	Reactome	11325826;16364920;16508002;17018604;20141835;20179705;22043453;22510884;24202393;25435214	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802924;reactome:Catalysis5161
+ARAF	controls-state-change-of	CNKSR1	Reactome	15035987;16364920;21779496;24957944	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802925;http://bioregistry.io/reactome:R-HSA-8936734
+ARAF	controls-transport-of	CNKSR1	Reactome	15035987;16364920;21779496;24957944	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802925;http://bioregistry.io/reactome:R-HSA-8936734
+ARAF	controls-state-change-of	CNKSR2	Reactome	15035987;16364920;21779496;24957944	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802925;http://bioregistry.io/reactome:R-HSA-8936734
+ARAF	controls-transport-of	CNKSR2	Reactome	15035987;16364920;21779496;24957944	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802925;http://bioregistry.io/reactome:R-HSA-8936734
+ARAF	controls-state-change-of	CSK	Reactome	15035987;16364920;21779496;24957944	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802925;http://bioregistry.io/reactome:R-HSA-8936734
+ARAF	controls-transport-of	CSK	Reactome	15035987;16364920;21779496;24957944	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802925;http://bioregistry.io/reactome:R-HSA-8936734
+ARAF	controls-state-change-of	FGA	Reactome	15035987;16364920;21779496;24957944	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802925;http://bioregistry.io/reactome:R-HSA-8936734
+ARAF	controls-transport-of	FGA	Reactome	15035987;16364920;21779496;24957944	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802925;http://bioregistry.io/reactome:R-HSA-8936734
+ARAF	controls-state-change-of	FGB	Reactome	15035987;16364920;21779496;24957944	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802925;http://bioregistry.io/reactome:R-HSA-8936734
+ARAF	controls-transport-of	FGB	Reactome	15035987;16364920;21779496;24957944	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802925;http://bioregistry.io/reactome:R-HSA-8936734
+ARAF	controls-state-change-of	FGG	Reactome	15035987;16364920;21779496;24957944	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802925;http://bioregistry.io/reactome:R-HSA-8936734
+ARAF	controls-transport-of	FGG	Reactome	15035987;16364920;21779496;24957944	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802925;http://bioregistry.io/reactome:R-HSA-8936734
+ARAF	controls-state-change-of	FN1	Reactome	15035987;16364920;21779496;24957944	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802925;http://bioregistry.io/reactome:R-HSA-8936734
+ARAF	controls-transport-of	FN1	Reactome	15035987;16364920;21779496;24957944	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802925;http://bioregistry.io/reactome:R-HSA-8936734
+ARAF	controls-state-change-of	HRAS	Reactome	11325826;15035987;16364920;16508002;17018604;20141835;20179705;21779496;22043453;22510884;24202393;24957944;25435214	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802925;http://bioregistry.io/reactome:R-HSA-6802924;http://bioregistry.io/reactome:R-HSA-8936734;reactome:Catalysis5161
+ARAF	in-complex-with	HRAS	Reactome		Signaling downstream of RAS mutants	reactome:Complex8674
+ARAF	controls-state-change-of	IQGAP1	Reactome	15035987;16364920;21779496;24957944	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802925;http://bioregistry.io/reactome:R-HSA-8936734
+ARAF	controls-transport-of	IQGAP1	Reactome	15035987;16364920;21779496;24957944	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802925;http://bioregistry.io/reactome:R-HSA-8936734
+ARAF	controls-state-change-of	ITGA2B	Reactome	15035987;16364920;21779496;24957944	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802925;http://bioregistry.io/reactome:R-HSA-8936734
+ARAF	controls-transport-of	ITGA2B	Reactome	15035987;16364920;21779496;24957944	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802925;http://bioregistry.io/reactome:R-HSA-8936734
+ARAF	controls-state-change-of	ITGB3	Reactome	15035987;16364920;21779496;24957944	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802925;http://bioregistry.io/reactome:R-HSA-8936734
+ARAF	controls-transport-of	ITGB3	Reactome	15035987;16364920;21779496;24957944	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802925;http://bioregistry.io/reactome:R-HSA-8936734
+ARAF	controls-state-change-of	KRAS	Reactome	11325826;15035987;16364920;16508002;17018604;20141835;20179705;21779496;22043453;22510884;24202393;24957944;25435214	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802925;http://bioregistry.io/reactome:R-HSA-6802924;http://bioregistry.io/reactome:R-HSA-8936734;reactome:Catalysis5161
+ARAF	in-complex-with	KRAS	Reactome		Signaling downstream of RAS mutants	reactome:Complex8674
+ARAF	controls-state-change-of	KSR1	Reactome	15035987;16364920;21779496;24957944	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802925;http://bioregistry.io/reactome:R-HSA-8936734
+ARAF	controls-transport-of	KSR1	Reactome	15035987;16364920;21779496;24957944	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802925;http://bioregistry.io/reactome:R-HSA-8936734
+ARAF	controls-state-change-of	KSR2	Reactome	15035987;16364920;21779496;24957944	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802925;http://bioregistry.io/reactome:R-HSA-8936734
+ARAF	controls-transport-of	KSR2	Reactome	15035987;16364920;21779496;24957944	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802925;http://bioregistry.io/reactome:R-HSA-8936734
+ARAF	controls-state-change-of	MAP2K1	Reactome	15035987;16364920;21779496;24957944	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802925;http://bioregistry.io/reactome:R-HSA-8936734
+ARAF	controls-transport-of	MAP2K1	Reactome	15035987;16364920;21779496;24957944	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802925;http://bioregistry.io/reactome:R-HSA-8936734
+ARAF	controls-state-change-of	MAP2K2	Reactome	15035987;16364920;21779496;24957944	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802925;http://bioregistry.io/reactome:R-HSA-8936734
+ARAF	controls-transport-of	MAP2K2	Reactome	15035987;16364920;21779496;24957944	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802925;http://bioregistry.io/reactome:R-HSA-8936734
+ARAF	controls-state-change-of	MAPK1	Reactome	15035987;16364920;21779496;24957944	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802925;http://bioregistry.io/reactome:R-HSA-8936734
+ARAF	controls-transport-of	MAPK1	Reactome	15035987;16364920;21779496;24957944	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802925;http://bioregistry.io/reactome:R-HSA-8936734
+ARAF	controls-state-change-of	MAPK3	Reactome	15035987;16364920;21779496;24957944	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802925;http://bioregistry.io/reactome:R-HSA-8936734
+ARAF	controls-transport-of	MAPK3	Reactome	15035987;16364920;21779496;24957944	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802925;http://bioregistry.io/reactome:R-HSA-8936734
+ARAF	controls-state-change-of	MARK3	Reactome	15035987;16364920;21779496;24957944	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802925;http://bioregistry.io/reactome:R-HSA-8936734
+ARAF	controls-transport-of	MARK3	Reactome	15035987;16364920;21779496;24957944	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802925;http://bioregistry.io/reactome:R-HSA-8936734
+ARAF	controls-state-change-of	NRAS	Reactome	11325826;15035987;16364920;16508002;17018604;20141835;20179705;21779496;22043453;22510884;24202393;24957944;25435214	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802925;http://bioregistry.io/reactome:R-HSA-6802924;http://bioregistry.io/reactome:R-HSA-8936734;reactome:Catalysis5161
+ARAF	in-complex-with	NRAS	Reactome		Signaling downstream of RAS mutants	reactome:Complex8674
+ARAF	in-complex-with	PEBP1	Reactome		Signaling downstream of RAS mutants	reactome:Complex8673
+ARAF	controls-phosphorylation-of	RAF1	Reactome	11325826;16364920;16508002;17018604;20141835;20179705;22043453;22510884;24202393;25435214	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802924;reactome:Catalysis5161
+ARAF	controls-state-change-of	RAF1	Reactome	11325826;15035987;16364920;16508002;17018604;20141835;20179705;21779496;22043453;22510884;24202393;24957944;25435214	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802925;http://bioregistry.io/reactome:R-HSA-6802924;http://bioregistry.io/reactome:R-HSA-8936734;reactome:Catalysis5161
+ARAF	in-complex-with	RAF1	Reactome		Signaling downstream of RAS mutants	reactome:Complex8674
+ARAF	controls-state-change-of	RAP1A	Reactome	15035987;16364920;21779496;24957944	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802925;http://bioregistry.io/reactome:R-HSA-8936734
+ARAF	controls-transport-of	RAP1A	Reactome	15035987;16364920;21779496;24957944	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802925;http://bioregistry.io/reactome:R-HSA-8936734
+ARAF	controls-state-change-of	RAP1B	Reactome	15035987;16364920;21779496;24957944	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802925;http://bioregistry.io/reactome:R-HSA-8936734
+ARAF	controls-transport-of	RAP1B	Reactome	15035987;16364920;21779496;24957944	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802925;http://bioregistry.io/reactome:R-HSA-8936734
+ARAF	controls-state-change-of	SRC	Reactome	15035987;16364920;21779496;24957944	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802925;http://bioregistry.io/reactome:R-HSA-8936734
+ARAF	controls-transport-of	SRC	Reactome	15035987;16364920;21779496;24957944	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802925;http://bioregistry.io/reactome:R-HSA-8936734
+ARAF	controls-state-change-of	TLN1	Reactome	15035987;16364920;21779496;24957944	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802925;http://bioregistry.io/reactome:R-HSA-8936734
+ARAF	controls-transport-of	TLN1	Reactome	15035987;16364920;21779496;24957944	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802925;http://bioregistry.io/reactome:R-HSA-8936734
+ARAF	controls-state-change-of	VCL	Reactome	15035987;16364920;21779496;24957944	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802925;http://bioregistry.io/reactome:R-HSA-8936734
+ARAF	controls-transport-of	VCL	Reactome	15035987;16364920;21779496;24957944	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802925;http://bioregistry.io/reactome:R-HSA-8936734
+ARAF	controls-state-change-of	VWF	Reactome	15035987;16364920;21779496;24957944	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802925;http://bioregistry.io/reactome:R-HSA-8936734
+ARAF	controls-transport-of	VWF	Reactome	15035987;16364920;21779496;24957944	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802925;http://bioregistry.io/reactome:R-HSA-8936734
+ARAF	controls-state-change-of	YWHAB	Reactome	11325826;15035987;16364920;16508002;17018604;20141835;20179705;21779496;22043453;22510884;24202393;24957944;25435214	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802925;http://bioregistry.io/reactome:R-HSA-6802924;http://bioregistry.io/reactome:R-HSA-8936734;reactome:Catalysis5161
+ARAF	in-complex-with	YWHAB	Reactome		Signaling downstream of RAS mutants	reactome:Complex8674
+ARRB1	in-complex-with	BRAF	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+ARRB1	in-complex-with	HRAS	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+ARRB1	in-complex-with	KRAS	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+ARRB1	controls-state-change-of	MAP2K1	Reactome	18562239;24121058;24651010	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802926;reactome:Catalysis5162
+ARRB1	in-complex-with	MAP2K1	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+ARRB1	controls-state-change-of	MAP2K2	Reactome	18562239;24121058;24651010	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802926;reactome:Catalysis5162
+ARRB1	in-complex-with	MAP2K2	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+ARRB1	controls-state-change-of	MAPK1	Reactome	18562239;24121058;24651010	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802922;reactome:Catalysis5163
+ARRB1	in-complex-with	MAPK1	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+ARRB1	controls-state-change-of	MAPK3	Reactome	18562239;24121058;24651010	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802922;reactome:Catalysis5163
+ARRB1	in-complex-with	MAPK3	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+ARRB1	in-complex-with	NRAS	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+ARRB1	in-complex-with	RAF1	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+ARRB1	in-complex-with	YWHAB	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+ARRB2	in-complex-with	BRAF	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+ARRB2	in-complex-with	HRAS	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+ARRB2	in-complex-with	KRAS	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+ARRB2	controls-state-change-of	MAP2K1	Reactome	18562239;24121058;24651010	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802926;reactome:Catalysis5162
+ARRB2	in-complex-with	MAP2K1	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+ARRB2	controls-state-change-of	MAP2K2	Reactome	18562239;24121058;24651010	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802926;reactome:Catalysis5162
+ARRB2	in-complex-with	MAP2K2	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+ARRB2	controls-state-change-of	MAPK1	Reactome	18562239;24121058;24651010	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802922;reactome:Catalysis5163
+ARRB2	in-complex-with	MAPK1	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+ARRB2	controls-state-change-of	MAPK3	Reactome	18562239;24121058;24651010	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802922;reactome:Catalysis5163
+ARRB2	in-complex-with	MAPK3	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+ARRB2	in-complex-with	NRAS	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+ARRB2	in-complex-with	RAF1	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+ARRB2	in-complex-with	YWHAB	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+BRAF	in-complex-with	CNKSR1	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+BRAF	in-complex-with	CNKSR2	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+BRAF	in-complex-with	CSK	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+BRAF	in-complex-with	FGA	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+BRAF	in-complex-with	FGB	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+BRAF	in-complex-with	FGG	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+BRAF	in-complex-with	FN1	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+BRAF	in-complex-with	HRAS	Reactome		Signaling downstream of RAS mutants	reactome:Complex8674;reactome:Complex12091;reactome:Complex12087;reactome:Complex12096
+BRAF	in-complex-with	IQGAP1	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+BRAF	in-complex-with	ITGA2B	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+BRAF	in-complex-with	ITGB3	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+BRAF	in-complex-with	KRAS	Reactome		Signaling downstream of RAS mutants	reactome:Complex8674;reactome:Complex12091;reactome:Complex12087;reactome:Complex12096
+BRAF	in-complex-with	KSR1	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+BRAF	in-complex-with	KSR2	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+BRAF	controls-state-change-of	MAP2K1	Reactome	18562239;24121058;24651010	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802926;reactome:Catalysis5162
+BRAF	in-complex-with	MAP2K1	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+BRAF	controls-state-change-of	MAP2K2	Reactome	18562239;24121058;24651010	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802926;reactome:Catalysis5162
+BRAF	in-complex-with	MAP2K2	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+BRAF	controls-state-change-of	MAPK1	Reactome	18562239;24121058;24651010	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802922;reactome:Catalysis5163
+BRAF	in-complex-with	MAPK1	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+BRAF	controls-state-change-of	MAPK3	Reactome	18562239;24121058;24651010	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802922;reactome:Catalysis5163
+BRAF	in-complex-with	MAPK3	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+BRAF	in-complex-with	MARK3	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+BRAF	in-complex-with	NRAS	Reactome		Signaling downstream of RAS mutants	reactome:Complex8674;reactome:Complex12091;reactome:Complex12087;reactome:Complex12096
+BRAF	in-complex-with	PEBP1	Reactome		Signaling downstream of RAS mutants	reactome:Complex8673
+BRAF	in-complex-with	RAF1	Reactome		Signaling downstream of RAS mutants	reactome:Complex8674;reactome:Complex12102;reactome:Complex12095
+BRAF	in-complex-with	RAP1A	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+BRAF	in-complex-with	RAP1B	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+BRAF	in-complex-with	SRC	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+BRAF	in-complex-with	TLN1	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+BRAF	in-complex-with	VCL	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+BRAF	in-complex-with	VWF	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+BRAF	in-complex-with	YWHAB	Reactome		Signaling downstream of RAS mutants	reactome:Complex12090;reactome:Complex8674;reactome:Complex12102;reactome:Complex12101;reactome:Complex12086;reactome:Complex12095
+BRAP	controls-state-change-of	BRAF	Reactome	16364920;16702958;17018604;20130576;20141835;20179705;21514245;21993244;22043453;22510884;22589270;23352452;23453624;24202393	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6803240;http://bioregistry.io/reactome:R-HSA-8936733
+BRAP	controls-transport-of	BRAF	Reactome	16364920;16702958;17018604;20130576;20141835;20179705;21514245;21993244;22043453;22510884;22589270;23352452;23453624;24202393	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6803240;http://bioregistry.io/reactome:R-HSA-8936733
+BRAP	controls-state-change-of	HRAS	Reactome	16364920;16702958;17018604;20130576;20141835;20179705;21514245;21993244;22043453;22510884;22589270;23352452;23453624;24202393	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6803240;http://bioregistry.io/reactome:R-HSA-8936733
+BRAP	controls-state-change-of	KRAS	Reactome	16364920;16702958;17018604;20130576;20141835;20179705;21514245;21993244;22043453;22510884;22589270;23352452;23453624;24202393	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6803240;http://bioregistry.io/reactome:R-HSA-8936733
+BRAP	in-complex-with	KSR1	Reactome		Signaling downstream of RAS mutants	reactome:Complex8660
+BRAP	in-complex-with	MARK3	Reactome		Signaling downstream of RAS mutants	reactome:Complex8660
+BRAP	controls-state-change-of	NRAS	Reactome	16364920;16702958;17018604;20130576;20141835;20179705;21514245;21993244;22043453;22510884;22589270;23352452;23453624;24202393	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6803240;http://bioregistry.io/reactome:R-HSA-8936733
+BRAP	controls-state-change-of	RAF1	Reactome	16364920;16702958;17018604;20130576;20141835;20179705;21514245;21993244;22043453;22510884;22589270;23352452;23453624;24202393	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6803240;http://bioregistry.io/reactome:R-HSA-8936733
+BRAP	controls-transport-of	RAF1	Reactome	16364920;16702958;17018604;20130576;20141835;20179705;21514245;21993244;22043453;22510884;22589270;23352452;23453624;24202393	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6803240;http://bioregistry.io/reactome:R-HSA-8936733
+BRAP	controls-state-change-of	YWHAB	Reactome	16364920;16702958;17018604;20130576;20141835;20179705;21514245;21993244;22043453;22510884;22589270;23352452;23453624;24202393	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6803240;http://bioregistry.io/reactome:R-HSA-8936733
+BRAP	controls-transport-of	YWHAB	Reactome	16364920;16702958;17018604;20130576;20141835;20179705;21514245;21993244;22043453;22510884;22589270;23352452;23453624;24202393	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6803240;http://bioregistry.io/reactome:R-HSA-8936733
+CALM1	controls-phosphorylation-of	BRAF	Reactome	11325826;16364920;16508002;17018604;20141835;20179705;22043453;22510884;24202393;25435214	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802924;reactome:Catalysis5161
+CALM1	controls-state-change-of	BRAF	Reactome	11325826;16364920;16508002;17018604;20141835;20179705;22043453;22510884;24202393;25435214	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802924;reactome:Catalysis5161
+CALM1	controls-transport-of	BRAF	Reactome	11325826;16364920;16508002;17018604;20141835;20179705;22043453;22510884;24202393;25435214	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802924;reactome:Catalysis5161
+CALM1	in-complex-with	CAMK2A	Reactome		Signaling downstream of RAS mutants	reactome:Complex7848
+CALM1	in-complex-with	CAMK2B	Reactome		Signaling downstream of RAS mutants	reactome:Complex7848
+CALM1	in-complex-with	CAMK2D	Reactome		Signaling downstream of RAS mutants	reactome:Complex7848
+CALM1	in-complex-with	CAMK2G	Reactome		Signaling downstream of RAS mutants	reactome:Complex7848
+CALM1	controls-state-change-of	HRAS	Reactome	11325826;16364920;16508002;17018604;20141835;20179705;22043453;22510884;24202393;25435214	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802924;reactome:Catalysis5161
+CALM1	controls-state-change-of	KRAS	Reactome	11325826;16364920;16508002;17018604;20141835;20179705;22043453;22510884;24202393;25435214	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802924;reactome:Catalysis5161
+CALM1	controls-state-change-of	NRAS	Reactome	11325826;16364920;16508002;17018604;20141835;20179705;22043453;22510884;24202393;25435214	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802924;reactome:Catalysis5161
+CALM1	controls-phosphorylation-of	RAF1	Reactome	11325826;16364920;16508002;17018604;20141835;20179705;22043453;22510884;24202393;25435214	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802924;reactome:Catalysis5161
+CALM1	controls-state-change-of	RAF1	Reactome	11325826;16364920;16508002;17018604;20141835;20179705;22043453;22510884;24202393;25435214	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802924;reactome:Catalysis5161
+CALM1	controls-state-change-of	YWHAB	Reactome	11325826;16364920;16508002;17018604;20141835;20179705;22043453;22510884;24202393;25435214	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802924;reactome:Catalysis5161
+CAMK2A	controls-phosphorylation-of	BRAF	Reactome	11325826;16364920;16508002;17018604;20141835;20179705;22043453;22510884;24202393;25435214	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802924;reactome:Catalysis5161
+CAMK2A	controls-state-change-of	BRAF	Reactome	11325826;16364920;16508002;17018604;20141835;20179705;22043453;22510884;24202393;25435214	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802924;reactome:Catalysis5161
+CAMK2A	controls-transport-of	BRAF	Reactome	11325826;16364920;16508002;17018604;20141835;20179705;22043453;22510884;24202393;25435214	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802924;reactome:Catalysis5161
+CAMK2A	controls-state-change-of	HRAS	Reactome	11325826;16364920;16508002;17018604;20141835;20179705;22043453;22510884;24202393;25435214	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802924;reactome:Catalysis5161
+CAMK2A	controls-state-change-of	KRAS	Reactome	11325826;16364920;16508002;17018604;20141835;20179705;22043453;22510884;24202393;25435214	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802924;reactome:Catalysis5161
+CAMK2A	controls-state-change-of	NRAS	Reactome	11325826;16364920;16508002;17018604;20141835;20179705;22043453;22510884;24202393;25435214	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802924;reactome:Catalysis5161
+CAMK2A	controls-phosphorylation-of	RAF1	Reactome	11325826;16364920;16508002;17018604;20141835;20179705;22043453;22510884;24202393;25435214	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802924;reactome:Catalysis5161
+CAMK2A	controls-state-change-of	RAF1	Reactome	11325826;16364920;16508002;17018604;20141835;20179705;22043453;22510884;24202393;25435214	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802924;reactome:Catalysis5161
+CAMK2A	controls-state-change-of	YWHAB	Reactome	11325826;16364920;16508002;17018604;20141835;20179705;22043453;22510884;24202393;25435214	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802924;reactome:Catalysis5161
+CAMK2B	controls-phosphorylation-of	BRAF	Reactome	11325826;16364920;16508002;17018604;20141835;20179705;22043453;22510884;24202393;25435214	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802924;reactome:Catalysis5161
+CAMK2B	controls-state-change-of	BRAF	Reactome	11325826;16364920;16508002;17018604;20141835;20179705;22043453;22510884;24202393;25435214	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802924;reactome:Catalysis5161
+CAMK2B	controls-transport-of	BRAF	Reactome	11325826;16364920;16508002;17018604;20141835;20179705;22043453;22510884;24202393;25435214	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802924;reactome:Catalysis5161
+CAMK2B	controls-state-change-of	HRAS	Reactome	11325826;16364920;16508002;17018604;20141835;20179705;22043453;22510884;24202393;25435214	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802924;reactome:Catalysis5161
+CAMK2B	controls-state-change-of	KRAS	Reactome	11325826;16364920;16508002;17018604;20141835;20179705;22043453;22510884;24202393;25435214	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802924;reactome:Catalysis5161
+CAMK2B	controls-state-change-of	NRAS	Reactome	11325826;16364920;16508002;17018604;20141835;20179705;22043453;22510884;24202393;25435214	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802924;reactome:Catalysis5161
+CAMK2B	controls-phosphorylation-of	RAF1	Reactome	11325826;16364920;16508002;17018604;20141835;20179705;22043453;22510884;24202393;25435214	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802924;reactome:Catalysis5161
+CAMK2B	controls-state-change-of	RAF1	Reactome	11325826;16364920;16508002;17018604;20141835;20179705;22043453;22510884;24202393;25435214	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802924;reactome:Catalysis5161
+CAMK2B	controls-state-change-of	YWHAB	Reactome	11325826;16364920;16508002;17018604;20141835;20179705;22043453;22510884;24202393;25435214	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802924;reactome:Catalysis5161
+CAMK2D	controls-phosphorylation-of	BRAF	Reactome	11325826;16364920;16508002;17018604;20141835;20179705;22043453;22510884;24202393;25435214	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802924;reactome:Catalysis5161
+CAMK2D	controls-state-change-of	BRAF	Reactome	11325826;16364920;16508002;17018604;20141835;20179705;22043453;22510884;24202393;25435214	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802924;reactome:Catalysis5161
+CAMK2D	controls-transport-of	BRAF	Reactome	11325826;16364920;16508002;17018604;20141835;20179705;22043453;22510884;24202393;25435214	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802924;reactome:Catalysis5161
+CAMK2D	controls-state-change-of	HRAS	Reactome	11325826;16364920;16508002;17018604;20141835;20179705;22043453;22510884;24202393;25435214	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802924;reactome:Catalysis5161
+CAMK2D	controls-state-change-of	KRAS	Reactome	11325826;16364920;16508002;17018604;20141835;20179705;22043453;22510884;24202393;25435214	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802924;reactome:Catalysis5161
+CAMK2D	controls-state-change-of	NRAS	Reactome	11325826;16364920;16508002;17018604;20141835;20179705;22043453;22510884;24202393;25435214	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802924;reactome:Catalysis5161
+CAMK2D	controls-phosphorylation-of	RAF1	Reactome	11325826;16364920;16508002;17018604;20141835;20179705;22043453;22510884;24202393;25435214	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802924;reactome:Catalysis5161
+CAMK2D	controls-state-change-of	RAF1	Reactome	11325826;16364920;16508002;17018604;20141835;20179705;22043453;22510884;24202393;25435214	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802924;reactome:Catalysis5161
+CAMK2D	controls-state-change-of	YWHAB	Reactome	11325826;16364920;16508002;17018604;20141835;20179705;22043453;22510884;24202393;25435214	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802924;reactome:Catalysis5161
+CAMK2G	controls-phosphorylation-of	BRAF	Reactome	11325826;16364920;16508002;17018604;20141835;20179705;22043453;22510884;24202393;25435214	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802924;reactome:Catalysis5161
+CAMK2G	controls-state-change-of	BRAF	Reactome	11325826;16364920;16508002;17018604;20141835;20179705;22043453;22510884;24202393;25435214	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802924;reactome:Catalysis5161
+CAMK2G	controls-transport-of	BRAF	Reactome	11325826;16364920;16508002;17018604;20141835;20179705;22043453;22510884;24202393;25435214	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802924;reactome:Catalysis5161
+CAMK2G	controls-state-change-of	HRAS	Reactome	11325826;16364920;16508002;17018604;20141835;20179705;22043453;22510884;24202393;25435214	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802924;reactome:Catalysis5161
+CAMK2G	controls-state-change-of	KRAS	Reactome	11325826;16364920;16508002;17018604;20141835;20179705;22043453;22510884;24202393;25435214	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802924;reactome:Catalysis5161
+CAMK2G	controls-state-change-of	NRAS	Reactome	11325826;16364920;16508002;17018604;20141835;20179705;22043453;22510884;24202393;25435214	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802924;reactome:Catalysis5161
+CAMK2G	controls-phosphorylation-of	RAF1	Reactome	11325826;16364920;16508002;17018604;20141835;20179705;22043453;22510884;24202393;25435214	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802924;reactome:Catalysis5161
+CAMK2G	controls-state-change-of	RAF1	Reactome	11325826;16364920;16508002;17018604;20141835;20179705;22043453;22510884;24202393;25435214	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802924;reactome:Catalysis5161
+CAMK2G	controls-state-change-of	YWHAB	Reactome	11325826;16364920;16508002;17018604;20141835;20179705;22043453;22510884;24202393;25435214	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802924;reactome:Catalysis5161
+CNKSR1	in-complex-with	HRAS	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+CNKSR1	in-complex-with	KRAS	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+CNKSR1	controls-state-change-of	MAP2K1	Reactome	18562239;24121058;24651010	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802926;reactome:Catalysis5162
+CNKSR1	in-complex-with	MAP2K1	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+CNKSR1	controls-state-change-of	MAP2K2	Reactome	18562239;24121058;24651010	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802926;reactome:Catalysis5162
+CNKSR1	in-complex-with	MAP2K2	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+CNKSR1	controls-state-change-of	MAPK1	Reactome	18562239;24121058;24651010	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802922;reactome:Catalysis5163
+CNKSR1	in-complex-with	MAPK1	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+CNKSR1	controls-state-change-of	MAPK3	Reactome	18562239;24121058;24651010	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802922;reactome:Catalysis5163
+CNKSR1	in-complex-with	MAPK3	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+CNKSR1	in-complex-with	NRAS	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+CNKSR1	in-complex-with	RAF1	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+CNKSR1	in-complex-with	YWHAB	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+CNKSR2	in-complex-with	HRAS	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+CNKSR2	in-complex-with	KRAS	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+CNKSR2	controls-state-change-of	MAP2K1	Reactome	18562239;24121058;24651010	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802926;reactome:Catalysis5162
+CNKSR2	in-complex-with	MAP2K1	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+CNKSR2	controls-state-change-of	MAP2K2	Reactome	18562239;24121058;24651010	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802926;reactome:Catalysis5162
+CNKSR2	in-complex-with	MAP2K2	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+CNKSR2	controls-state-change-of	MAPK1	Reactome	18562239;24121058;24651010	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802922;reactome:Catalysis5163
+CNKSR2	in-complex-with	MAPK1	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+CNKSR2	controls-state-change-of	MAPK3	Reactome	18562239;24121058;24651010	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802922;reactome:Catalysis5163
+CNKSR2	in-complex-with	MAPK3	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+CNKSR2	in-complex-with	NRAS	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+CNKSR2	in-complex-with	RAF1	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+CNKSR2	in-complex-with	YWHAB	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+CSK	in-complex-with	FGA	Reactome			reactome:Complex2888
+CSK	in-complex-with	FGB	Reactome			reactome:Complex2888
+CSK	in-complex-with	FGG	Reactome			reactome:Complex2888
+CSK	in-complex-with	FN1	Reactome			reactome:Complex2888
+CSK	in-complex-with	HRAS	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+CSK	in-complex-with	ITGA2B	Reactome			reactome:Complex2883
+CSK	in-complex-with	ITGB3	Reactome			reactome:Complex2883
+CSK	in-complex-with	KRAS	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+CSK	controls-state-change-of	MAP2K1	Reactome	18562239;24121058;24651010	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802926;reactome:Catalysis5162
+CSK	in-complex-with	MAP2K1	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+CSK	controls-state-change-of	MAP2K2	Reactome	18562239;24121058;24651010	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802926;reactome:Catalysis5162
+CSK	in-complex-with	MAP2K2	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+CSK	controls-state-change-of	MAPK1	Reactome	18562239;24121058;24651010	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802922;reactome:Catalysis5163
+CSK	in-complex-with	MAPK1	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+CSK	controls-state-change-of	MAPK3	Reactome	18562239;24121058;24651010	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802922;reactome:Catalysis5163
+CSK	in-complex-with	MAPK3	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+CSK	in-complex-with	NRAS	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+CSK	in-complex-with	RAF1	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+CSK	in-complex-with	RAP1A	Reactome			reactome:Complex2886
+CSK	in-complex-with	RAP1B	Reactome			reactome:Complex2886
+CSK	in-complex-with	SRC	Reactome			reactome:Complex2884
+CSK	in-complex-with	TLN1	Reactome			reactome:Complex2886
+CSK	in-complex-with	VCL	Reactome			reactome:Complex8670
+CSK	in-complex-with	VWF	Reactome			reactome:Complex2888
+CSK	in-complex-with	YWHAB	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+FGA	in-complex-with	FGB	Reactome			reactome:Complex2887
+FGA	in-complex-with	FGG	Reactome			reactome:Complex2887
+FGA	in-complex-with	HRAS	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+FGA	in-complex-with	ITGA2B	Reactome			reactome:Complex2888
+FGA	in-complex-with	ITGB3	Reactome			reactome:Complex2888
+FGA	in-complex-with	KRAS	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+FGA	controls-state-change-of	MAP2K1	Reactome	18562239;24121058;24651010	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802926;reactome:Catalysis5162
+FGA	in-complex-with	MAP2K1	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+FGA	controls-state-change-of	MAP2K2	Reactome	18562239;24121058;24651010	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802926;reactome:Catalysis5162
+FGA	in-complex-with	MAP2K2	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+FGA	controls-state-change-of	MAPK1	Reactome	18562239;24121058;24651010	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802922;reactome:Catalysis5163
+FGA	in-complex-with	MAPK1	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+FGA	controls-state-change-of	MAPK3	Reactome	18562239;24121058;24651010	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802922;reactome:Catalysis5163
+FGA	in-complex-with	MAPK3	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+FGA	in-complex-with	NRAS	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+FGA	in-complex-with	RAF1	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+FGA	in-complex-with	RAP1A	Reactome			reactome:Complex2888
+FGA	in-complex-with	RAP1B	Reactome			reactome:Complex2888
+FGA	in-complex-with	SRC	Reactome			reactome:Complex2888
+FGA	in-complex-with	TLN1	Reactome			reactome:Complex2888
+FGA	in-complex-with	VCL	Reactome			reactome:Complex8670
+FGA	in-complex-with	YWHAB	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+FGB	in-complex-with	FGG	Reactome			reactome:Complex2887
+FGB	in-complex-with	HRAS	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+FGB	in-complex-with	ITGA2B	Reactome			reactome:Complex2888
+FGB	in-complex-with	ITGB3	Reactome			reactome:Complex2888
+FGB	in-complex-with	KRAS	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+FGB	controls-state-change-of	MAP2K1	Reactome	18562239;24121058;24651010	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802926;reactome:Catalysis5162
+FGB	in-complex-with	MAP2K1	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+FGB	controls-state-change-of	MAP2K2	Reactome	18562239;24121058;24651010	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802926;reactome:Catalysis5162
+FGB	in-complex-with	MAP2K2	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+FGB	controls-state-change-of	MAPK1	Reactome	18562239;24121058;24651010	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802922;reactome:Catalysis5163
+FGB	in-complex-with	MAPK1	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+FGB	controls-state-change-of	MAPK3	Reactome	18562239;24121058;24651010	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802922;reactome:Catalysis5163
+FGB	in-complex-with	MAPK3	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+FGB	in-complex-with	NRAS	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+FGB	in-complex-with	RAF1	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+FGB	in-complex-with	RAP1A	Reactome			reactome:Complex2888
+FGB	in-complex-with	RAP1B	Reactome			reactome:Complex2888
+FGB	in-complex-with	SRC	Reactome			reactome:Complex2888
+FGB	in-complex-with	TLN1	Reactome			reactome:Complex2888
+FGB	in-complex-with	VCL	Reactome			reactome:Complex8670
+FGB	in-complex-with	YWHAB	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+FGG	in-complex-with	HRAS	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+FGG	in-complex-with	ITGA2B	Reactome			reactome:Complex2888
+FGG	in-complex-with	ITGB3	Reactome			reactome:Complex2888
+FGG	in-complex-with	KRAS	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+FGG	controls-state-change-of	MAP2K1	Reactome	18562239;24121058;24651010	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802926;reactome:Catalysis5162
+FGG	in-complex-with	MAP2K1	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+FGG	controls-state-change-of	MAP2K2	Reactome	18562239;24121058;24651010	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802926;reactome:Catalysis5162
+FGG	in-complex-with	MAP2K2	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+FGG	controls-state-change-of	MAPK1	Reactome	18562239;24121058;24651010	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802922;reactome:Catalysis5163
+FGG	in-complex-with	MAPK1	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+FGG	controls-state-change-of	MAPK3	Reactome	18562239;24121058;24651010	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802922;reactome:Catalysis5163
+FGG	in-complex-with	MAPK3	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+FGG	in-complex-with	NRAS	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+FGG	in-complex-with	RAF1	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+FGG	in-complex-with	RAP1A	Reactome			reactome:Complex2888
+FGG	in-complex-with	RAP1B	Reactome			reactome:Complex2888
+FGG	in-complex-with	SRC	Reactome			reactome:Complex2888
+FGG	in-complex-with	TLN1	Reactome			reactome:Complex2888
+FGG	in-complex-with	VCL	Reactome			reactome:Complex8670
+FGG	in-complex-with	YWHAB	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+FN1	in-complex-with	HRAS	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+FN1	in-complex-with	ITGA2B	Reactome			reactome:Complex2888
+FN1	in-complex-with	ITGB3	Reactome			reactome:Complex2888
+FN1	in-complex-with	KRAS	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+FN1	controls-state-change-of	MAP2K1	Reactome	18562239;24121058;24651010	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802926;reactome:Catalysis5162
+FN1	in-complex-with	MAP2K1	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+FN1	controls-state-change-of	MAP2K2	Reactome	18562239;24121058;24651010	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802926;reactome:Catalysis5162
+FN1	in-complex-with	MAP2K2	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+FN1	controls-state-change-of	MAPK1	Reactome	18562239;24121058;24651010	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802922;reactome:Catalysis5163
+FN1	in-complex-with	MAPK1	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+FN1	controls-state-change-of	MAPK3	Reactome	18562239;24121058;24651010	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802922;reactome:Catalysis5163
+FN1	in-complex-with	MAPK3	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+FN1	in-complex-with	NRAS	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+FN1	in-complex-with	RAF1	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+FN1	in-complex-with	RAP1A	Reactome			reactome:Complex2888
+FN1	in-complex-with	RAP1B	Reactome			reactome:Complex2888
+FN1	in-complex-with	SRC	Reactome			reactome:Complex2888
+FN1	in-complex-with	TLN1	Reactome			reactome:Complex2888
+FN1	in-complex-with	VCL	Reactome			reactome:Complex8670
+FN1	in-complex-with	YWHAB	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+HRAS	in-complex-with	IQGAP1	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+HRAS	in-complex-with	ITGA2B	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+HRAS	in-complex-with	ITGB3	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+HRAS	in-complex-with	KSR1	Reactome		Signaling downstream of RAS mutants	reactome:Complex8674;reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+HRAS	in-complex-with	KSR2	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+HRAS	controls-state-change-of	MAP2K1	Reactome	18562239;24121058;24651010	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802926;reactome:Catalysis5162
+HRAS	in-complex-with	MAP2K1	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+HRAS	controls-state-change-of	MAP2K2	Reactome	18562239;24121058;24651010	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802926;reactome:Catalysis5162
+HRAS	in-complex-with	MAP2K2	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+HRAS	controls-state-change-of	MAPK1	Reactome	18562239;24121058;24651010	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802922;reactome:Catalysis5163
+HRAS	in-complex-with	MAPK1	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+HRAS	controls-state-change-of	MAPK3	Reactome	18562239;24121058;24651010	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802922;reactome:Catalysis5163
+HRAS	in-complex-with	MAPK3	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+HRAS	in-complex-with	MARK3	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+HRAS	in-complex-with	PEBP1	Reactome		Signaling downstream of RAS mutants	reactome:Complex8673
+HRAS	in-complex-with	RAF1	Reactome		Signaling downstream of RAS mutants	reactome:Complex8674;reactome:Complex12091;reactome:Complex12087;reactome:Complex12096
+HRAS	in-complex-with	RAP1A	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+HRAS	in-complex-with	RAP1B	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+HRAS	in-complex-with	SRC	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+HRAS	in-complex-with	TLN1	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+HRAS	in-complex-with	VCL	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+HRAS	in-complex-with	VWF	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+HRAS	in-complex-with	YWHAB	Reactome		Signaling downstream of RAS mutants	reactome:Complex8674;reactome:Complex12091;reactome:Complex12087;reactome:Complex12096
+IQGAP1	in-complex-with	KRAS	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+IQGAP1	controls-state-change-of	MAP2K1	Reactome	18562239;24121058;24651010	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802926;reactome:Catalysis5162
+IQGAP1	in-complex-with	MAP2K1	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+IQGAP1	controls-state-change-of	MAP2K2	Reactome	18562239;24121058;24651010	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802926;reactome:Catalysis5162
+IQGAP1	in-complex-with	MAP2K2	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+IQGAP1	controls-state-change-of	MAPK1	Reactome	18562239;24121058;24651010	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802922;reactome:Catalysis5163
+IQGAP1	in-complex-with	MAPK1	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+IQGAP1	controls-state-change-of	MAPK3	Reactome	18562239;24121058;24651010	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802922;reactome:Catalysis5163
+IQGAP1	in-complex-with	MAPK3	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+IQGAP1	in-complex-with	NRAS	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+IQGAP1	in-complex-with	RAF1	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+IQGAP1	in-complex-with	YWHAB	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+ITGA2B	in-complex-with	ITGB3	Reactome			reactome:Complex2885
+ITGA2B	in-complex-with	KRAS	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+ITGA2B	controls-state-change-of	MAP2K1	Reactome	18562239;24121058;24651010	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802926;reactome:Catalysis5162
+ITGA2B	in-complex-with	MAP2K1	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+ITGA2B	controls-state-change-of	MAP2K2	Reactome	18562239;24121058;24651010	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802926;reactome:Catalysis5162
+ITGA2B	in-complex-with	MAP2K2	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+ITGA2B	controls-state-change-of	MAPK1	Reactome	18562239;24121058;24651010	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802922;reactome:Catalysis5163
+ITGA2B	in-complex-with	MAPK1	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+ITGA2B	controls-state-change-of	MAPK3	Reactome	18562239;24121058;24651010	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802922;reactome:Catalysis5163
+ITGA2B	in-complex-with	MAPK3	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+ITGA2B	in-complex-with	NRAS	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+ITGA2B	in-complex-with	RAF1	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+ITGA2B	in-complex-with	RAP1A	Reactome			reactome:Complex2886
+ITGA2B	in-complex-with	RAP1B	Reactome			reactome:Complex2886
+ITGA2B	in-complex-with	SRC	Reactome			reactome:Complex2883
+ITGA2B	in-complex-with	TLN1	Reactome			reactome:Complex2886
+ITGA2B	in-complex-with	VCL	Reactome			reactome:Complex8670
+ITGA2B	in-complex-with	VWF	Reactome			reactome:Complex2888
+ITGA2B	in-complex-with	YWHAB	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+ITGB3	in-complex-with	KRAS	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+ITGB3	controls-state-change-of	MAP2K1	Reactome	18562239;24121058;24651010	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802926;reactome:Catalysis5162
+ITGB3	in-complex-with	MAP2K1	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+ITGB3	controls-state-change-of	MAP2K2	Reactome	18562239;24121058;24651010	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802926;reactome:Catalysis5162
+ITGB3	in-complex-with	MAP2K2	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+ITGB3	controls-state-change-of	MAPK1	Reactome	18562239;24121058;24651010	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802922;reactome:Catalysis5163
+ITGB3	in-complex-with	MAPK1	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+ITGB3	controls-state-change-of	MAPK3	Reactome	18562239;24121058;24651010	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802922;reactome:Catalysis5163
+ITGB3	in-complex-with	MAPK3	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+ITGB3	in-complex-with	NRAS	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+ITGB3	in-complex-with	RAF1	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+ITGB3	in-complex-with	RAP1A	Reactome			reactome:Complex2886
+ITGB3	in-complex-with	RAP1B	Reactome			reactome:Complex2886
+ITGB3	in-complex-with	SRC	Reactome			reactome:Complex2883
+ITGB3	in-complex-with	TLN1	Reactome			reactome:Complex2886
+ITGB3	in-complex-with	VCL	Reactome			reactome:Complex8670
+ITGB3	in-complex-with	VWF	Reactome			reactome:Complex2888
+ITGB3	in-complex-with	YWHAB	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+JAK2	controls-phosphorylation-of	BRAF	Reactome	11325826;16364920;16508002;17018604;20141835;20179705;22043453;22510884;24202393;25435214	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802924;reactome:Catalysis5161
+JAK2	controls-state-change-of	BRAF	Reactome	11325826;16364920;16508002;17018604;20141835;20179705;22043453;22510884;24202393;25435214	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802924;reactome:Catalysis5161
+JAK2	controls-transport-of	BRAF	Reactome	11325826;16364920;16508002;17018604;20141835;20179705;22043453;22510884;24202393;25435214	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802924;reactome:Catalysis5161
+JAK2	controls-state-change-of	HRAS	Reactome	11325826;16364920;16508002;17018604;20141835;20179705;22043453;22510884;24202393;25435214	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802924;reactome:Catalysis5161
+JAK2	controls-state-change-of	KRAS	Reactome	11325826;16364920;16508002;17018604;20141835;20179705;22043453;22510884;24202393;25435214	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802924;reactome:Catalysis5161
+JAK2	controls-state-change-of	NRAS	Reactome	11325826;16364920;16508002;17018604;20141835;20179705;22043453;22510884;24202393;25435214	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802924;reactome:Catalysis5161
+JAK2	controls-phosphorylation-of	RAF1	Reactome	11325826;16364920;16508002;17018604;20141835;20179705;22043453;22510884;24202393;25435214	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802924;reactome:Catalysis5161
+JAK2	controls-state-change-of	RAF1	Reactome	11325826;16364920;16508002;17018604;20141835;20179705;22043453;22510884;24202393;25435214	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802924;reactome:Catalysis5161
+JAK2	controls-state-change-of	YWHAB	Reactome	11325826;16364920;16508002;17018604;20141835;20179705;22043453;22510884;24202393;25435214	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802924;reactome:Catalysis5161
+KRAS	in-complex-with	KSR1	Reactome		Signaling downstream of RAS mutants	reactome:Complex8674;reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+KRAS	in-complex-with	KSR2	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+KRAS	controls-state-change-of	MAP2K1	Reactome	18562239;24121058;24651010	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802926;reactome:Catalysis5162
+KRAS	in-complex-with	MAP2K1	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+KRAS	controls-state-change-of	MAP2K2	Reactome	18562239;24121058;24651010	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802926;reactome:Catalysis5162
+KRAS	in-complex-with	MAP2K2	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+KRAS	controls-state-change-of	MAPK1	Reactome	18562239;24121058;24651010	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802922;reactome:Catalysis5163
+KRAS	in-complex-with	MAPK1	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+KRAS	controls-state-change-of	MAPK3	Reactome	18562239;24121058;24651010	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802922;reactome:Catalysis5163
+KRAS	in-complex-with	MAPK3	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+KRAS	in-complex-with	MARK3	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+KRAS	in-complex-with	PEBP1	Reactome		Signaling downstream of RAS mutants	reactome:Complex8673
+KRAS	in-complex-with	RAF1	Reactome		Signaling downstream of RAS mutants	reactome:Complex8674;reactome:Complex12091;reactome:Complex12087;reactome:Complex12096
+KRAS	in-complex-with	RAP1A	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+KRAS	in-complex-with	RAP1B	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+KRAS	in-complex-with	SRC	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+KRAS	in-complex-with	TLN1	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+KRAS	in-complex-with	VCL	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+KRAS	in-complex-with	VWF	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+KRAS	in-complex-with	YWHAB	Reactome		Signaling downstream of RAS mutants	reactome:Complex8674;reactome:Complex12091;reactome:Complex12087;reactome:Complex12096
+KSR1	controls-state-change-of	BRAF	Reactome	16364920;16702958;17018604;20130576;20141835;20179705;21514245;21993244;22043453;22510884;22589270;23352452;23453624;24202393	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6803240;http://bioregistry.io/reactome:R-HSA-8936733
+KSR1	controls-transport-of	BRAF	Reactome	16364920;16702958;17018604;20130576;20141835;20179705;21514245;21993244;22043453;22510884;22589270;23352452;23453624;24202393	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6803240;http://bioregistry.io/reactome:R-HSA-8936733
+KSR1	controls-state-change-of	HRAS	Reactome	16364920;16702958;17018604;20130576;20141835;20179705;21514245;21993244;22043453;22510884;22589270;23352452;23453624;24202393	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6803240;http://bioregistry.io/reactome:R-HSA-8936733
+KSR1	controls-state-change-of	KRAS	Reactome	16364920;16702958;17018604;20130576;20141835;20179705;21514245;21993244;22043453;22510884;22589270;23352452;23453624;24202393	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6803240;http://bioregistry.io/reactome:R-HSA-8936733
+KSR1	controls-state-change-of	MAP2K1	Reactome	18562239;24121058;24651010	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802926;reactome:Catalysis5162
+KSR1	in-complex-with	MAP2K1	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+KSR1	controls-state-change-of	MAP2K2	Reactome	18562239;24121058;24651010	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802926;reactome:Catalysis5162
+KSR1	in-complex-with	MAP2K2	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+KSR1	controls-state-change-of	MAPK1	Reactome	18562239;24121058;24651010	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802922;reactome:Catalysis5163
+KSR1	in-complex-with	MAPK1	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+KSR1	controls-state-change-of	MAPK3	Reactome	18562239;24121058;24651010	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802922;reactome:Catalysis5163
+KSR1	in-complex-with	MAPK3	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+KSR1	in-complex-with	MARK3	Reactome		Signaling downstream of RAS mutants	reactome:Complex8661;reactome:Complex8658
+KSR1	controls-state-change-of	NRAS	Reactome	16364920;16702958;17018604;20130576;20141835;20179705;21514245;21993244;22043453;22510884;22589270;23352452;23453624;24202393	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6803240;http://bioregistry.io/reactome:R-HSA-8936733
+KSR1	in-complex-with	NRAS	Reactome		Signaling downstream of RAS mutants	reactome:Complex8674;reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+KSR1	in-complex-with	PEBP1	Reactome		Signaling downstream of RAS mutants	reactome:Complex8673
+KSR1	controls-state-change-of	RAF1	Reactome	16364920;16702958;17018604;20130576;20141835;20179705;21514245;21993244;22043453;22510884;22589270;23352452;23453624;24202393	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6803240;http://bioregistry.io/reactome:R-HSA-8936733
+KSR1	controls-transport-of	RAF1	Reactome	16364920;16702958;17018604;20130576;20141835;20179705;21514245;21993244;22043453;22510884;22589270;23352452;23453624;24202393	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6803240;http://bioregistry.io/reactome:R-HSA-8936733
+KSR1	in-complex-with	RAF1	Reactome		Signaling downstream of RAS mutants	reactome:Complex8674;reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+KSR1	controls-state-change-of	YWHAB	Reactome	16364920;16702958;17018604;20130576;20141835;20179705;21514245;21993244;22043453;22510884;22589270;23352452;23453624;24202393	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6803240;http://bioregistry.io/reactome:R-HSA-8936733
+KSR1	controls-transport-of	YWHAB	Reactome	16364920;16702958;17018604;20130576;20141835;20179705;21514245;21993244;22043453;22510884;22589270;23352452;23453624;24202393	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6803240;http://bioregistry.io/reactome:R-HSA-8936733
+KSR1	in-complex-with	YWHAB	Reactome		Signaling downstream of RAS mutants	reactome:Complex8674;reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+KSR2	controls-state-change-of	MAP2K1	Reactome	18562239;24121058;24651010	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802926;reactome:Catalysis5162
+KSR2	in-complex-with	MAP2K1	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+KSR2	controls-state-change-of	MAP2K2	Reactome	18562239;24121058;24651010	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802926;reactome:Catalysis5162
+KSR2	in-complex-with	MAP2K2	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+KSR2	controls-state-change-of	MAPK1	Reactome	18562239;24121058;24651010	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802922;reactome:Catalysis5163
+KSR2	in-complex-with	MAPK1	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+KSR2	controls-state-change-of	MAPK3	Reactome	18562239;24121058;24651010	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802922;reactome:Catalysis5163
+KSR2	in-complex-with	MAPK3	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+KSR2	in-complex-with	NRAS	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+KSR2	in-complex-with	RAF1	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+KSR2	in-complex-with	YWHAB	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+MAP2K1	controls-phosphorylation-of	BRAF	Reactome	11325826;16364920;16508002;17018604;20141835;20179705;22043453;22510884;24202393;25435214	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802924;reactome:Catalysis5161
+MAP2K1	controls-state-change-of	BRAF	Reactome	11325826;16364920;16508002;17018604;20141835;20179705;22043453;22510884;24202393;25435214	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802924;reactome:Catalysis5161
+MAP2K1	controls-transport-of	BRAF	Reactome	11325826;16364920;16508002;17018604;20141835;20179705;22043453;22510884;24202393;25435214	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802924;reactome:Catalysis5161
+MAP2K1	controls-state-change-of	HRAS	Reactome	11325826;16364920;16508002;17018604;20141835;20179705;22043453;22510884;24202393;25435214	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802924;reactome:Catalysis5161
+MAP2K1	controls-state-change-of	KRAS	Reactome	11325826;16364920;16508002;17018604;20141835;20179705;22043453;22510884;24202393;25435214	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802924;reactome:Catalysis5161
+MAP2K1	in-complex-with	MAP2K2	Reactome		Signaling downstream of RAS mutants	reactome:Complex6771;reactome:Complex6766
+MAP2K1	controls-state-change-of	MAPK1	Reactome	18562239;24121058;24651010	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802922;reactome:Catalysis5163
+MAP2K1	in-complex-with	MAPK1	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+MAP2K1	controls-state-change-of	MAPK3	Reactome	18562239;24121058;24651010	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802922;reactome:Catalysis5163
+MAP2K1	in-complex-with	MAPK3	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+MAP2K1	in-complex-with	MARK3	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+MAP2K1	controls-state-change-of	NRAS	Reactome	11325826;16364920;16508002;17018604;20141835;20179705;22043453;22510884;24202393;25435214	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802924;reactome:Catalysis5161
+MAP2K1	in-complex-with	NRAS	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+MAP2K1	controls-phosphorylation-of	RAF1	Reactome	11325826;16364920;16508002;17018604;20141835;20179705;22043453;22510884;24202393;25435214	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802924;reactome:Catalysis5161
+MAP2K1	controls-state-change-of	RAF1	Reactome	11325826;16364920;16508002;17018604;20141835;20179705;22043453;22510884;24202393;25435214	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802924;reactome:Catalysis5161
+MAP2K1	in-complex-with	RAF1	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+MAP2K1	in-complex-with	RAP1A	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+MAP2K1	in-complex-with	RAP1B	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+MAP2K1	in-complex-with	SRC	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+MAP2K1	in-complex-with	TLN1	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+MAP2K1	in-complex-with	VCL	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+MAP2K1	in-complex-with	VWF	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+MAP2K1	controls-state-change-of	YWHAB	Reactome	11325826;16364920;16508002;17018604;20141835;20179705;22043453;22510884;24202393;25435214	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802924;reactome:Catalysis5161
+MAP2K1	in-complex-with	YWHAB	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+MAP2K2	controls-phosphorylation-of	BRAF	Reactome	11325826;16364920;16508002;17018604;20141835;20179705;22043453;22510884;24202393;25435214	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802924;reactome:Catalysis5161
+MAP2K2	controls-state-change-of	BRAF	Reactome	11325826;16364920;16508002;17018604;20141835;20179705;22043453;22510884;24202393;25435214	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802924;reactome:Catalysis5161
+MAP2K2	controls-transport-of	BRAF	Reactome	11325826;16364920;16508002;17018604;20141835;20179705;22043453;22510884;24202393;25435214	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802924;reactome:Catalysis5161
+MAP2K2	controls-state-change-of	HRAS	Reactome	11325826;16364920;16508002;17018604;20141835;20179705;22043453;22510884;24202393;25435214	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802924;reactome:Catalysis5161
+MAP2K2	controls-state-change-of	KRAS	Reactome	11325826;16364920;16508002;17018604;20141835;20179705;22043453;22510884;24202393;25435214	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802924;reactome:Catalysis5161
+MAP2K2	controls-state-change-of	MAPK1	Reactome	18562239;24121058;24651010	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802922;reactome:Catalysis5163
+MAP2K2	in-complex-with	MAPK1	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+MAP2K2	controls-state-change-of	MAPK3	Reactome	18562239;24121058;24651010	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802922;reactome:Catalysis5163
+MAP2K2	in-complex-with	MAPK3	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+MAP2K2	in-complex-with	MARK3	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+MAP2K2	controls-state-change-of	NRAS	Reactome	11325826;16364920;16508002;17018604;20141835;20179705;22043453;22510884;24202393;25435214	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802924;reactome:Catalysis5161
+MAP2K2	in-complex-with	NRAS	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+MAP2K2	controls-phosphorylation-of	RAF1	Reactome	11325826;16364920;16508002;17018604;20141835;20179705;22043453;22510884;24202393;25435214	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802924;reactome:Catalysis5161
+MAP2K2	controls-state-change-of	RAF1	Reactome	11325826;16364920;16508002;17018604;20141835;20179705;22043453;22510884;24202393;25435214	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802924;reactome:Catalysis5161
+MAP2K2	in-complex-with	RAF1	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+MAP2K2	in-complex-with	RAP1A	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+MAP2K2	in-complex-with	RAP1B	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+MAP2K2	in-complex-with	SRC	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+MAP2K2	in-complex-with	TLN1	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+MAP2K2	in-complex-with	VCL	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+MAP2K2	in-complex-with	VWF	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+MAP2K2	controls-state-change-of	YWHAB	Reactome	11325826;16364920;16508002;17018604;20141835;20179705;22043453;22510884;24202393;25435214	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802924;reactome:Catalysis5161
+MAP2K2	in-complex-with	YWHAB	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+MAP3K11	controls-state-change-of	BRAF	Reactome	16364920;16702958;17018604;20130576;20141835;20179705;21514245;21993244;22043453;22510884;22589270;23352452;23453624;24202393	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-8936740;http://bioregistry.io/reactome:R-HSA-6803240
+MAP3K11	controls-transport-of	BRAF	Reactome	16364920;16702958;17018604;20130576;20141835;20179705;21514245;21993244;22043453;22510884;22589270;23352452;23453624;24202393	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-8936740;http://bioregistry.io/reactome:R-HSA-6803240
+MAP3K11	controls-state-change-of	HRAS	Reactome	16364920;16702958;17018604;20130576;20141835;20179705;21514245;21993244;22043453;22510884;22589270;23352452;23453624;24202393	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-8936740;http://bioregistry.io/reactome:R-HSA-6803240
+MAP3K11	controls-state-change-of	KRAS	Reactome	16364920;16702958;17018604;20130576;20141835;20179705;21514245;21993244;22043453;22510884;22589270;23352452;23453624;24202393	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-8936740;http://bioregistry.io/reactome:R-HSA-6803240
+MAP3K11	controls-state-change-of	NRAS	Reactome	16364920;16702958;17018604;20130576;20141835;20179705;21514245;21993244;22043453;22510884;22589270;23352452;23453624;24202393	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-8936740;http://bioregistry.io/reactome:R-HSA-6803240
+MAP3K11	controls-state-change-of	RAF1	Reactome	16364920;16702958;17018604;20130576;20141835;20179705;21514245;21993244;22043453;22510884;22589270;23352452;23453624;24202393	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-8936740;http://bioregistry.io/reactome:R-HSA-6803240
+MAP3K11	controls-transport-of	RAF1	Reactome	16364920;16702958;17018604;20130576;20141835;20179705;21514245;21993244;22043453;22510884;22589270;23352452;23453624;24202393	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-8936740;http://bioregistry.io/reactome:R-HSA-6803240
+MAP3K11	controls-state-change-of	YWHAB	Reactome	16364920;16702958;17018604;20130576;20141835;20179705;21514245;21993244;22043453;22510884;22589270;23352452;23453624;24202393	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-8936740;http://bioregistry.io/reactome:R-HSA-6803240
+MAP3K11	controls-transport-of	YWHAB	Reactome	16364920;16702958;17018604;20130576;20141835;20179705;21514245;21993244;22043453;22510884;22589270;23352452;23453624;24202393	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-8936740;http://bioregistry.io/reactome:R-HSA-6803240
+MAPK1	controls-state-change-of	MAP2K1	Reactome	18562239;24121058;24651010	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802926;reactome:Catalysis5162
+MAPK1	controls-state-change-of	MAP2K2	Reactome	18562239;24121058;24651010	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802926;reactome:Catalysis5162
+MAPK1	in-complex-with	MARK3	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+MAPK1	in-complex-with	NRAS	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+MAPK1	in-complex-with	RAF1	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+MAPK1	in-complex-with	RAP1A	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+MAPK1	in-complex-with	RAP1B	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+MAPK1	in-complex-with	SRC	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+MAPK1	in-complex-with	TLN1	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+MAPK1	in-complex-with	VCL	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+MAPK1	in-complex-with	VWF	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+MAPK1	in-complex-with	YWHAB	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+MAPK3	controls-state-change-of	MAP2K1	Reactome	18562239;24121058;24651010	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802926;reactome:Catalysis5162
+MAPK3	controls-state-change-of	MAP2K2	Reactome	18562239;24121058;24651010	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802926;reactome:Catalysis5162
+MAPK3	in-complex-with	MARK3	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+MAPK3	in-complex-with	NRAS	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+MAPK3	in-complex-with	RAF1	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+MAPK3	in-complex-with	RAP1A	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+MAPK3	in-complex-with	RAP1B	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+MAPK3	in-complex-with	SRC	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+MAPK3	in-complex-with	TLN1	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+MAPK3	in-complex-with	VCL	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+MAPK3	in-complex-with	VWF	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+MAPK3	in-complex-with	YWHAB	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+MARK3	controls-state-change-of	BRAF	Reactome	16364920;16702958;17018604;20130576;20141835;20179705;21514245;21993244;22043453;22510884;22589270;23352452;23453624;24202393	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6803240;http://bioregistry.io/reactome:R-HSA-8936733
+MARK3	controls-transport-of	BRAF	Reactome	16364920;16702958;17018604;20130576;20141835;20179705;21514245;21993244;22043453;22510884;22589270;23352452;23453624;24202393	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6803240;http://bioregistry.io/reactome:R-HSA-8936733
+MARK3	controls-state-change-of	HRAS	Reactome	16364920;16702958;17018604;20130576;20141835;20179705;21514245;21993244;22043453;22510884;22589270;23352452;23453624;24202393	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6803240;http://bioregistry.io/reactome:R-HSA-8936733
+MARK3	controls-state-change-of	KRAS	Reactome	16364920;16702958;17018604;20130576;20141835;20179705;21514245;21993244;22043453;22510884;22589270;23352452;23453624;24202393	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6803240;http://bioregistry.io/reactome:R-HSA-8936733
+MARK3	controls-state-change-of	MAP2K1	Reactome	18562239;24121058;24651010	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802926;reactome:Catalysis5162
+MARK3	controls-state-change-of	MAP2K2	Reactome	18562239;24121058;24651010	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802926;reactome:Catalysis5162
+MARK3	controls-state-change-of	MAPK1	Reactome	18562239;24121058;24651010	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802922;reactome:Catalysis5163
+MARK3	controls-state-change-of	MAPK3	Reactome	18562239;24121058;24651010	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802922;reactome:Catalysis5163
+MARK3	controls-state-change-of	NRAS	Reactome	16364920;16702958;17018604;20130576;20141835;20179705;21514245;21993244;22043453;22510884;22589270;23352452;23453624;24202393	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6803240;http://bioregistry.io/reactome:R-HSA-8936733
+MARK3	in-complex-with	NRAS	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+MARK3	controls-state-change-of	RAF1	Reactome	16364920;16702958;17018604;20130576;20141835;20179705;21514245;21993244;22043453;22510884;22589270;23352452;23453624;24202393	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6803240;http://bioregistry.io/reactome:R-HSA-8936733
+MARK3	controls-transport-of	RAF1	Reactome	16364920;16702958;17018604;20130576;20141835;20179705;21514245;21993244;22043453;22510884;22589270;23352452;23453624;24202393	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6803240;http://bioregistry.io/reactome:R-HSA-8936733
+MARK3	in-complex-with	RAF1	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+MARK3	controls-state-change-of	YWHAB	Reactome	16364920;16702958;17018604;20130576;20141835;20179705;21514245;21993244;22043453;22510884;22589270;23352452;23453624;24202393	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6803240;http://bioregistry.io/reactome:R-HSA-8936733
+MARK3	controls-transport-of	YWHAB	Reactome	16364920;16702958;17018604;20130576;20141835;20179705;21514245;21993244;22043453;22510884;22589270;23352452;23453624;24202393	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6803240;http://bioregistry.io/reactome:R-HSA-8936733
+MARK3	in-complex-with	YWHAB	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+NRAS	controls-state-change-of	MAP2K1	Reactome	18562239;24121058;24651010	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802926;reactome:Catalysis5162
+NRAS	controls-state-change-of	MAP2K2	Reactome	18562239;24121058;24651010	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802926;reactome:Catalysis5162
+NRAS	controls-state-change-of	MAPK1	Reactome	18562239;24121058;24651010	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802922;reactome:Catalysis5163
+NRAS	controls-state-change-of	MAPK3	Reactome	18562239;24121058;24651010	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802922;reactome:Catalysis5163
+NRAS	in-complex-with	PEBP1	Reactome		Signaling downstream of RAS mutants	reactome:Complex8673
+NRAS	in-complex-with	RAF1	Reactome		Signaling downstream of RAS mutants	reactome:Complex8674;reactome:Complex12091;reactome:Complex12087;reactome:Complex12096
+NRAS	in-complex-with	RAP1A	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+NRAS	in-complex-with	RAP1B	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+NRAS	in-complex-with	SRC	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+NRAS	in-complex-with	TLN1	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+NRAS	in-complex-with	VCL	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+NRAS	in-complex-with	VWF	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+NRAS	in-complex-with	YWHAB	Reactome		Signaling downstream of RAS mutants	reactome:Complex8674;reactome:Complex12091;reactome:Complex12087;reactome:Complex12096
+PEBP1	controls-state-change-of	APBB1IP	Reactome	15035987;16364920;21779496;24957944	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802925;http://bioregistry.io/reactome:R-HSA-8936734
+PEBP1	controls-transport-of	APBB1IP	Reactome	15035987;16364920;21779496;24957944	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802925;http://bioregistry.io/reactome:R-HSA-8936734
+PEBP1	controls-state-change-of	ARRB1	Reactome	15035987;16364920;21779496;24957944	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802925;http://bioregistry.io/reactome:R-HSA-8936734
+PEBP1	controls-transport-of	ARRB1	Reactome	15035987;16364920;21779496;24957944	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802925;http://bioregistry.io/reactome:R-HSA-8936734
+PEBP1	controls-state-change-of	ARRB2	Reactome	15035987;16364920;21779496;24957944	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802925;http://bioregistry.io/reactome:R-HSA-8936734
+PEBP1	controls-transport-of	ARRB2	Reactome	15035987;16364920;21779496;24957944	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802925;http://bioregistry.io/reactome:R-HSA-8936734
+PEBP1	controls-state-change-of	BRAF	Reactome	15035987;16364920;21779496;24957944	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802925;http://bioregistry.io/reactome:R-HSA-8936734
+PEBP1	controls-state-change-of	CNKSR1	Reactome	15035987;16364920;21779496;24957944	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802925;http://bioregistry.io/reactome:R-HSA-8936734
+PEBP1	controls-transport-of	CNKSR1	Reactome	15035987;16364920;21779496;24957944	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802925;http://bioregistry.io/reactome:R-HSA-8936734
+PEBP1	controls-state-change-of	CNKSR2	Reactome	15035987;16364920;21779496;24957944	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802925;http://bioregistry.io/reactome:R-HSA-8936734
+PEBP1	controls-transport-of	CNKSR2	Reactome	15035987;16364920;21779496;24957944	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802925;http://bioregistry.io/reactome:R-HSA-8936734
+PEBP1	controls-state-change-of	CSK	Reactome	15035987;16364920;21779496;24957944	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802925;http://bioregistry.io/reactome:R-HSA-8936734
+PEBP1	controls-transport-of	CSK	Reactome	15035987;16364920;21779496;24957944	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802925;http://bioregistry.io/reactome:R-HSA-8936734
+PEBP1	controls-state-change-of	FGA	Reactome	15035987;16364920;21779496;24957944	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802925;http://bioregistry.io/reactome:R-HSA-8936734
+PEBP1	controls-transport-of	FGA	Reactome	15035987;16364920;21779496;24957944	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802925;http://bioregistry.io/reactome:R-HSA-8936734
+PEBP1	controls-state-change-of	FGB	Reactome	15035987;16364920;21779496;24957944	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802925;http://bioregistry.io/reactome:R-HSA-8936734
+PEBP1	controls-transport-of	FGB	Reactome	15035987;16364920;21779496;24957944	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802925;http://bioregistry.io/reactome:R-HSA-8936734
+PEBP1	controls-state-change-of	FGG	Reactome	15035987;16364920;21779496;24957944	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802925;http://bioregistry.io/reactome:R-HSA-8936734
+PEBP1	controls-transport-of	FGG	Reactome	15035987;16364920;21779496;24957944	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802925;http://bioregistry.io/reactome:R-HSA-8936734
+PEBP1	controls-state-change-of	FN1	Reactome	15035987;16364920;21779496;24957944	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802925;http://bioregistry.io/reactome:R-HSA-8936734
+PEBP1	controls-transport-of	FN1	Reactome	15035987;16364920;21779496;24957944	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802925;http://bioregistry.io/reactome:R-HSA-8936734
+PEBP1	controls-state-change-of	HRAS	Reactome	15035987;16364920;21779496;24957944	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802925;http://bioregistry.io/reactome:R-HSA-8936734
+PEBP1	controls-state-change-of	IQGAP1	Reactome	15035987;16364920;21779496;24957944	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802925;http://bioregistry.io/reactome:R-HSA-8936734
+PEBP1	controls-transport-of	IQGAP1	Reactome	15035987;16364920;21779496;24957944	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802925;http://bioregistry.io/reactome:R-HSA-8936734
+PEBP1	controls-state-change-of	ITGA2B	Reactome	15035987;16364920;21779496;24957944	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802925;http://bioregistry.io/reactome:R-HSA-8936734
+PEBP1	controls-transport-of	ITGA2B	Reactome	15035987;16364920;21779496;24957944	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802925;http://bioregistry.io/reactome:R-HSA-8936734
+PEBP1	controls-state-change-of	ITGB3	Reactome	15035987;16364920;21779496;24957944	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802925;http://bioregistry.io/reactome:R-HSA-8936734
+PEBP1	controls-transport-of	ITGB3	Reactome	15035987;16364920;21779496;24957944	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802925;http://bioregistry.io/reactome:R-HSA-8936734
+PEBP1	controls-state-change-of	KRAS	Reactome	15035987;16364920;21779496;24957944	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802925;http://bioregistry.io/reactome:R-HSA-8936734
+PEBP1	controls-state-change-of	KSR1	Reactome	15035987;16364920;21779496;24957944	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802925;http://bioregistry.io/reactome:R-HSA-8936734
+PEBP1	controls-transport-of	KSR1	Reactome	15035987;16364920;21779496;24957944	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802925;http://bioregistry.io/reactome:R-HSA-8936734
+PEBP1	controls-state-change-of	KSR2	Reactome	15035987;16364920;21779496;24957944	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802925;http://bioregistry.io/reactome:R-HSA-8936734
+PEBP1	controls-transport-of	KSR2	Reactome	15035987;16364920;21779496;24957944	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802925;http://bioregistry.io/reactome:R-HSA-8936734
+PEBP1	controls-state-change-of	MAP2K1	Reactome	15035987;16364920;21779496;24957944	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802925;http://bioregistry.io/reactome:R-HSA-8936734
+PEBP1	controls-transport-of	MAP2K1	Reactome	15035987;16364920;21779496;24957944	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802925;http://bioregistry.io/reactome:R-HSA-8936734
+PEBP1	controls-state-change-of	MAP2K2	Reactome	15035987;16364920;21779496;24957944	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802925;http://bioregistry.io/reactome:R-HSA-8936734
+PEBP1	controls-transport-of	MAP2K2	Reactome	15035987;16364920;21779496;24957944	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802925;http://bioregistry.io/reactome:R-HSA-8936734
+PEBP1	controls-state-change-of	MAPK1	Reactome	15035987;16364920;21779496;24957944	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802925;http://bioregistry.io/reactome:R-HSA-8936734
+PEBP1	controls-transport-of	MAPK1	Reactome	15035987;16364920;21779496;24957944	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802925;http://bioregistry.io/reactome:R-HSA-8936734
+PEBP1	controls-state-change-of	MAPK3	Reactome	15035987;16364920;21779496;24957944	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802925;http://bioregistry.io/reactome:R-HSA-8936734
+PEBP1	controls-transport-of	MAPK3	Reactome	15035987;16364920;21779496;24957944	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802925;http://bioregistry.io/reactome:R-HSA-8936734
+PEBP1	controls-state-change-of	MARK3	Reactome	15035987;16364920;21779496;24957944	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802925;http://bioregistry.io/reactome:R-HSA-8936734
+PEBP1	controls-transport-of	MARK3	Reactome	15035987;16364920;21779496;24957944	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802925;http://bioregistry.io/reactome:R-HSA-8936734
+PEBP1	controls-state-change-of	NRAS	Reactome	15035987;16364920;21779496;24957944	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802925;http://bioregistry.io/reactome:R-HSA-8936734
+PEBP1	controls-state-change-of	RAF1	Reactome	15035987;16364920;21779496;24957944	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802925;http://bioregistry.io/reactome:R-HSA-8936734
+PEBP1	in-complex-with	RAF1	Reactome		Signaling downstream of RAS mutants	reactome:Complex8673
+PEBP1	controls-state-change-of	RAP1A	Reactome	15035987;16364920;21779496;24957944	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802925;http://bioregistry.io/reactome:R-HSA-8936734
+PEBP1	controls-transport-of	RAP1A	Reactome	15035987;16364920;21779496;24957944	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802925;http://bioregistry.io/reactome:R-HSA-8936734
+PEBP1	controls-state-change-of	RAP1B	Reactome	15035987;16364920;21779496;24957944	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802925;http://bioregistry.io/reactome:R-HSA-8936734
+PEBP1	controls-transport-of	RAP1B	Reactome	15035987;16364920;21779496;24957944	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802925;http://bioregistry.io/reactome:R-HSA-8936734
+PEBP1	controls-state-change-of	SRC	Reactome	15035987;16364920;21779496;24957944	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802925;http://bioregistry.io/reactome:R-HSA-8936734
+PEBP1	controls-transport-of	SRC	Reactome	15035987;16364920;21779496;24957944	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802925;http://bioregistry.io/reactome:R-HSA-8936734
+PEBP1	controls-state-change-of	TLN1	Reactome	15035987;16364920;21779496;24957944	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802925;http://bioregistry.io/reactome:R-HSA-8936734
+PEBP1	controls-transport-of	TLN1	Reactome	15035987;16364920;21779496;24957944	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802925;http://bioregistry.io/reactome:R-HSA-8936734
+PEBP1	controls-state-change-of	VCL	Reactome	15035987;16364920;21779496;24957944	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802925;http://bioregistry.io/reactome:R-HSA-8936734
+PEBP1	controls-transport-of	VCL	Reactome	15035987;16364920;21779496;24957944	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802925;http://bioregistry.io/reactome:R-HSA-8936734
+PEBP1	controls-state-change-of	VWF	Reactome	15035987;16364920;21779496;24957944	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802925;http://bioregistry.io/reactome:R-HSA-8936734
+PEBP1	controls-transport-of	VWF	Reactome	15035987;16364920;21779496;24957944	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802925;http://bioregistry.io/reactome:R-HSA-8936734
+PEBP1	controls-state-change-of	YWHAB	Reactome	15035987;16364920;21779496;24957944	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802925;http://bioregistry.io/reactome:R-HSA-8936734
+PEBP1	in-complex-with	YWHAB	Reactome		Signaling downstream of RAS mutants	reactome:Complex8673
+PHB1	controls-state-change-of	BRAF	Reactome	17018604;20130576;20141835;20179705;21514245;21993244;22043453;22292133;22589270;23453624;24202393;24651010	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802908;http://bioregistry.io/reactome:R-HSA-8936738
+PHB1	controls-transport-of	BRAF	Reactome	17018604;20130576;20141835;20179705;21514245;21993244;22043453;22292133;22589270;23453624;24202393;24651010	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802908;http://bioregistry.io/reactome:R-HSA-8936738
+PHB1	controls-state-change-of	HRAS	Reactome	17018604;20130576;20141835;20179705;21514245;21993244;22043453;22292133;22589270;23453624;24202393;24651010	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802908;http://bioregistry.io/reactome:R-HSA-8936738
+PHB1	controls-state-change-of	KRAS	Reactome	17018604;20130576;20141835;20179705;21514245;21993244;22043453;22292133;22589270;23453624;24202393;24651010	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802908;http://bioregistry.io/reactome:R-HSA-8936738
+PHB1	controls-state-change-of	NRAS	Reactome	17018604;20130576;20141835;20179705;21514245;21993244;22043453;22292133;22589270;23453624;24202393;24651010	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802908;http://bioregistry.io/reactome:R-HSA-8936738
+PHB1	controls-state-change-of	RAF1	Reactome	17018604;20130576;20141835;20179705;21514245;21993244;22043453;22292133;22589270;23453624;24202393;24651010	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802908;http://bioregistry.io/reactome:R-HSA-8936738
+PHB1	controls-transport-of	RAF1	Reactome	17018604;20130576;20141835;20179705;21514245;21993244;22043453;22292133;22589270;23453624;24202393;24651010	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802908;http://bioregistry.io/reactome:R-HSA-8936738
+PHB1	controls-state-change-of	YWHAB	Reactome	17018604;20130576;20141835;20179705;21514245;21993244;22043453;22292133;22589270;23453624;24202393;24651010	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802908;http://bioregistry.io/reactome:R-HSA-8936738
+PHB1	controls-transport-of	YWHAB	Reactome	17018604;20130576;20141835;20179705;21514245;21993244;22043453;22292133;22589270;23453624;24202393;24651010	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802908;http://bioregistry.io/reactome:R-HSA-8936738
+RAF1	controls-state-change-of	MAP2K1	Reactome	18562239;24121058;24651010	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802926;reactome:Catalysis5162
+RAF1	controls-state-change-of	MAP2K2	Reactome	18562239;24121058;24651010	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802926;reactome:Catalysis5162
+RAF1	controls-state-change-of	MAPK1	Reactome	18562239;24121058;24651010	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802922;reactome:Catalysis5163
+RAF1	controls-state-change-of	MAPK3	Reactome	18562239;24121058;24651010	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802922;reactome:Catalysis5163
+RAF1	in-complex-with	RAP1A	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+RAF1	in-complex-with	RAP1B	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+RAF1	in-complex-with	SRC	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+RAF1	in-complex-with	TLN1	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+RAF1	in-complex-with	VCL	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+RAF1	in-complex-with	VWF	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+RAF1	in-complex-with	YWHAB	Reactome		Signaling downstream of RAS mutants	reactome:Complex8674;reactome:Complex12102;reactome:Complex12089;reactome:Complex12099;reactome:Complex12085;reactome:Complex12095
+RAP1A	controls-state-change-of	MAP2K1	Reactome	18562239;24121058;24651010	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802926;reactome:Catalysis5162
+RAP1A	controls-state-change-of	MAP2K2	Reactome	18562239;24121058;24651010	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802926;reactome:Catalysis5162
+RAP1A	controls-state-change-of	MAPK1	Reactome	18562239;24121058;24651010	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802922;reactome:Catalysis5163
+RAP1A	controls-state-change-of	MAPK3	Reactome	18562239;24121058;24651010	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802922;reactome:Catalysis5163
+RAP1A	in-complex-with	SRC	Reactome			reactome:Complex2886
+RAP1A	in-complex-with	TLN1	Reactome			reactome:Complex2882
+RAP1A	in-complex-with	VCL	Reactome			reactome:Complex8670
+RAP1A	in-complex-with	VWF	Reactome			reactome:Complex2888
+RAP1A	in-complex-with	YWHAB	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+RAP1B	controls-state-change-of	MAP2K1	Reactome	18562239;24121058;24651010	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802926;reactome:Catalysis5162
+RAP1B	controls-state-change-of	MAP2K2	Reactome	18562239;24121058;24651010	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802926;reactome:Catalysis5162
+RAP1B	controls-state-change-of	MAPK1	Reactome	18562239;24121058;24651010	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802922;reactome:Catalysis5163
+RAP1B	controls-state-change-of	MAPK3	Reactome	18562239;24121058;24651010	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802922;reactome:Catalysis5163
+RAP1B	in-complex-with	SRC	Reactome			reactome:Complex2886
+RAP1B	in-complex-with	TLN1	Reactome			reactome:Complex2882
+RAP1B	in-complex-with	VCL	Reactome			reactome:Complex8670
+RAP1B	in-complex-with	VWF	Reactome			reactome:Complex2888
+RAP1B	in-complex-with	YWHAB	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+SRC	controls-phosphorylation-of	BRAF	Reactome	11325826;16364920;16508002;17018604;20141835;20179705;22043453;22510884;24202393;25435214	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802924;reactome:Catalysis5161
+SRC	controls-state-change-of	BRAF	Reactome	11325826;16364920;16508002;17018604;20141835;20179705;22043453;22510884;24202393;25435214	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802924;reactome:Catalysis5161
+SRC	controls-transport-of	BRAF	Reactome	11325826;16364920;16508002;17018604;20141835;20179705;22043453;22510884;24202393;25435214	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802924;reactome:Catalysis5161
+SRC	controls-state-change-of	HRAS	Reactome	11325826;16364920;16508002;17018604;20141835;20179705;22043453;22510884;24202393;25435214	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802924;reactome:Catalysis5161
+SRC	controls-state-change-of	KRAS	Reactome	11325826;16364920;16508002;17018604;20141835;20179705;22043453;22510884;24202393;25435214	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802924;reactome:Catalysis5161
+SRC	controls-state-change-of	MAP2K1	Reactome	18562239;24121058;24651010	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802926;reactome:Catalysis5162
+SRC	controls-state-change-of	MAP2K2	Reactome	18562239;24121058;24651010	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802926;reactome:Catalysis5162
+SRC	controls-state-change-of	MAPK1	Reactome	18562239;24121058;24651010	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802922;reactome:Catalysis5163
+SRC	controls-state-change-of	MAPK3	Reactome	18562239;24121058;24651010	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802922;reactome:Catalysis5163
+SRC	controls-state-change-of	NRAS	Reactome	11325826;16364920;16508002;17018604;20141835;20179705;22043453;22510884;24202393;25435214	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802924;reactome:Catalysis5161
+SRC	controls-phosphorylation-of	RAF1	Reactome	11325826;16364920;16508002;17018604;20141835;20179705;22043453;22510884;24202393;25435214	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802924;reactome:Catalysis5161
+SRC	controls-state-change-of	RAF1	Reactome	11325826;16364920;16508002;17018604;20141835;20179705;22043453;22510884;24202393;25435214	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802924;reactome:Catalysis5161
+SRC	in-complex-with	TLN1	Reactome			reactome:Complex2886
+SRC	in-complex-with	VCL	Reactome			reactome:Complex8670
+SRC	in-complex-with	VWF	Reactome			reactome:Complex2888
+SRC	controls-state-change-of	YWHAB	Reactome	11325826;16364920;16508002;17018604;20141835;20179705;22043453;22510884;24202393;25435214	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802924;reactome:Catalysis5161
+SRC	in-complex-with	YWHAB	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+TLN1	controls-state-change-of	MAP2K1	Reactome	18562239;24121058;24651010	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802926;reactome:Catalysis5162
+TLN1	controls-state-change-of	MAP2K2	Reactome	18562239;24121058;24651010	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802926;reactome:Catalysis5162
+TLN1	controls-state-change-of	MAPK1	Reactome	18562239;24121058;24651010	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802922;reactome:Catalysis5163
+TLN1	controls-state-change-of	MAPK3	Reactome	18562239;24121058;24651010	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802922;reactome:Catalysis5163
+TLN1	in-complex-with	VCL	Reactome			reactome:Complex8670
+TLN1	in-complex-with	VWF	Reactome			reactome:Complex2888
+TLN1	in-complex-with	YWHAB	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+VCL	controls-state-change-of	MAP2K1	Reactome	18562239;24121058;24651010	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802926;reactome:Catalysis5162
+VCL	controls-state-change-of	MAP2K2	Reactome	18562239;24121058;24651010	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802926;reactome:Catalysis5162
+VCL	controls-state-change-of	MAPK1	Reactome	18562239;24121058;24651010	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802922;reactome:Catalysis5163
+VCL	controls-state-change-of	MAPK3	Reactome	18562239;24121058;24651010	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802922;reactome:Catalysis5163
+VCL	in-complex-with	VWF	Reactome			reactome:Complex8670
+VCL	in-complex-with	YWHAB	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+VWF	controls-state-change-of	MAP2K1	Reactome	18562239;24121058;24651010	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802926;reactome:Catalysis5162
+VWF	controls-state-change-of	MAP2K2	Reactome	18562239;24121058;24651010	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802926;reactome:Catalysis5162
+VWF	controls-state-change-of	MAPK1	Reactome	18562239;24121058;24651010	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802922;reactome:Catalysis5163
+VWF	controls-state-change-of	MAPK3	Reactome	18562239;24121058;24651010	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802922;reactome:Catalysis5163
+VWF	in-complex-with	YWHAB	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+YWHAB	controls-state-change-of	MAP2K1	Reactome	18562239;24121058;24651010	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802926;reactome:Catalysis5162
+YWHAB	controls-state-change-of	MAP2K2	Reactome	18562239;24121058;24651010	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802926;reactome:Catalysis5162
+YWHAB	controls-state-change-of	MAPK1	Reactome	18562239;24121058;24651010	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802922;reactome:Catalysis5163
+YWHAB	controls-state-change-of	MAPK3	Reactome	18562239;24121058;24651010	Signaling downstream of RAS mutants	http://bioregistry.io/reactome:R-HSA-6802922;reactome:Catalysis5163
+chebi:18420	chemical-affects	APBB1IP	Reactome			reactome:Complex2888
+chebi:18420	chemical-affects	BRAF	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+chebi:18420	chemical-affects	CSK	Reactome			reactome:Complex2888
+chebi:18420	chemical-affects	FGA	Reactome			reactome:Complex2888
+chebi:18420	chemical-affects	FGB	Reactome			reactome:Complex2888
+chebi:18420	chemical-affects	FGG	Reactome			reactome:Complex2888
+chebi:18420	chemical-affects	FN1	Reactome			reactome:Complex2888
+chebi:18420	chemical-affects	HRAS	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+chebi:18420	chemical-affects	ITGA2B	Reactome			reactome:Complex2888
+chebi:18420	chemical-affects	ITGB3	Reactome			reactome:Complex2888
+chebi:18420	chemical-affects	KRAS	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+chebi:18420	chemical-affects	MAP2K1	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+chebi:18420	chemical-affects	MAP2K2	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+chebi:18420	chemical-affects	MAPK1	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+chebi:18420	chemical-affects	MAPK3	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+chebi:18420	chemical-affects	NRAS	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+chebi:18420	chemical-affects	RAF1	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+chebi:18420	chemical-affects	RAP1A	Reactome			reactome:Complex2888
+chebi:18420	chemical-affects	RAP1B	Reactome			reactome:Complex2888
+chebi:18420	chemical-affects	SRC	Reactome			reactome:Complex2888
+chebi:18420	chemical-affects	TLN1	Reactome			reactome:Complex2888
+chebi:18420	chemical-affects	VCL	Reactome			reactome:Complex8670
+chebi:18420	chemical-affects	VWF	Reactome			reactome:Complex2888
+chebi:18420	chemical-affects	YWHAB	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+chebi:29035	chemical-affects	APBB1IP	Reactome			reactome:Complex2888
+chebi:29035	chemical-affects	BRAF	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+chebi:29035	chemical-affects	CSK	Reactome			reactome:Complex2888
+chebi:29035	chemical-affects	FGA	Reactome			reactome:Complex2888
+chebi:29035	chemical-affects	FGB	Reactome			reactome:Complex2888
+chebi:29035	chemical-affects	FGG	Reactome			reactome:Complex2888
+chebi:29035	chemical-affects	FN1	Reactome			reactome:Complex2888
+chebi:29035	chemical-affects	HRAS	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+chebi:29035	chemical-affects	ITGA2B	Reactome			reactome:Complex2888
+chebi:29035	chemical-affects	ITGB3	Reactome			reactome:Complex2888
+chebi:29035	chemical-affects	KRAS	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+chebi:29035	chemical-affects	MAP2K1	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+chebi:29035	chemical-affects	MAP2K2	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+chebi:29035	chemical-affects	MAPK1	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+chebi:29035	chemical-affects	MAPK3	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+chebi:29035	chemical-affects	NRAS	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+chebi:29035	chemical-affects	RAF1	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+chebi:29035	chemical-affects	RAP1A	Reactome			reactome:Complex2888
+chebi:29035	chemical-affects	RAP1B	Reactome			reactome:Complex2888
+chebi:29035	chemical-affects	SRC	Reactome			reactome:Complex2888
+chebi:29035	chemical-affects	TLN1	Reactome			reactome:Complex2888
+chebi:29035	chemical-affects	VCL	Reactome			reactome:Complex8670
+chebi:29035	chemical-affects	VWF	Reactome			reactome:Complex2888
+chebi:29035	chemical-affects	YWHAB	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+chebi:29108	chemical-affects	APBB1IP	Reactome			reactome:Complex2888
+chebi:29108	chemical-affects	BRAF	Reactome	11325826;16364920;16508002;17018604;20141835;20179705;22043453;22510884;24202393;25435214	Signaling downstream of RAS mutants	reactome:Complex12105;http://bioregistry.io/reactome:R-HSA-6802924;reactome:Complex12104;reactome:Complex12103;reactome:Catalysis5161
+chebi:29108	chemical-affects	CALM1	Reactome			reactome:Complex150
+chebi:29108	chemical-affects	CAMK2A	Reactome		Signaling downstream of RAS mutants	reactome:Complex7848
+chebi:29108	chemical-affects	CAMK2B	Reactome		Signaling downstream of RAS mutants	reactome:Complex7848
+chebi:29108	chemical-affects	CAMK2D	Reactome		Signaling downstream of RAS mutants	reactome:Complex7848
+chebi:29108	chemical-affects	CAMK2G	Reactome		Signaling downstream of RAS mutants	reactome:Complex7848
+chebi:29108	chemical-affects	CSK	Reactome			reactome:Complex2888
+chebi:29108	chemical-affects	FGA	Reactome			reactome:Complex2888
+chebi:29108	chemical-affects	FGB	Reactome			reactome:Complex2888
+chebi:29108	chemical-affects	FGG	Reactome			reactome:Complex2888
+chebi:29108	chemical-affects	FN1	Reactome			reactome:Complex2888
+chebi:29108	chemical-affects	HRAS	Reactome	11325826;16364920;16508002;17018604;20141835;20179705;22043453;22510884;24202393;25435214	Signaling downstream of RAS mutants	reactome:Complex12105;http://bioregistry.io/reactome:R-HSA-6802924;reactome:Complex12104;reactome:Complex12103;reactome:Catalysis5161
+chebi:29108	chemical-affects	ITGA2B	Reactome			reactome:Complex2888
+chebi:29108	chemical-affects	ITGB3	Reactome			reactome:Complex2888
+chebi:29108	chemical-affects	KRAS	Reactome	11325826;16364920;16508002;17018604;20141835;20179705;22043453;22510884;24202393;25435214	Signaling downstream of RAS mutants	reactome:Complex12105;http://bioregistry.io/reactome:R-HSA-6802924;reactome:Complex12104;reactome:Complex12103;reactome:Catalysis5161
+chebi:29108	chemical-affects	MAP2K1	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+chebi:29108	chemical-affects	MAP2K2	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+chebi:29108	chemical-affects	MAPK1	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+chebi:29108	chemical-affects	MAPK3	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+chebi:29108	chemical-affects	NRAS	Reactome	11325826;16364920;16508002;17018604;20141835;20179705;22043453;22510884;24202393;25435214	Signaling downstream of RAS mutants	reactome:Complex12105;http://bioregistry.io/reactome:R-HSA-6802924;reactome:Complex12104;reactome:Complex12103;reactome:Catalysis5161
+chebi:29108	chemical-affects	RAF1	Reactome	11325826;16364920;16508002;17018604;20141835;20179705;22043453;22510884;24202393;25435214	Signaling downstream of RAS mutants	reactome:Complex12105;http://bioregistry.io/reactome:R-HSA-6802924;reactome:Complex12104;reactome:Complex12103;reactome:Catalysis5161
+chebi:29108	chemical-affects	RAP1A	Reactome			reactome:Complex2888
+chebi:29108	chemical-affects	RAP1B	Reactome			reactome:Complex2888
+chebi:29108	chemical-affects	SRC	Reactome			reactome:Complex2888
+chebi:29108	chemical-affects	TLN1	Reactome			reactome:Complex2888
+chebi:29108	chemical-affects	VCL	Reactome			reactome:Complex8670
+chebi:29108	chemical-affects	VWF	Reactome			reactome:Complex2888
+chebi:29108	chemical-affects	YWHAB	Reactome	11325826;16364920;16508002;17018604;20141835;20179705;22043453;22510884;24202393;25435214	Signaling downstream of RAS mutants	reactome:Complex12105;http://bioregistry.io/reactome:R-HSA-6802924;reactome:Complex12104;reactome:Complex12103;reactome:Catalysis5161
+chebi:58456	chemical-affects	APBB1IP	Reactome			reactome:Complex8670;reactome:Complex2881
+chebi:58456	chemical-affects	BRAF	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+chebi:58456	chemical-affects	CSK	Reactome			reactome:Complex8670;reactome:Complex2886
+chebi:58456	chemical-affects	FGA	Reactome			reactome:Complex2888;reactome:Complex8670
+chebi:58456	chemical-affects	FGB	Reactome			reactome:Complex2888;reactome:Complex8670
+chebi:58456	chemical-affects	FGG	Reactome			reactome:Complex2888;reactome:Complex8670
+chebi:58456	chemical-affects	FN1	Reactome			reactome:Complex2888;reactome:Complex8670
+chebi:58456	chemical-affects	HRAS	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+chebi:58456	chemical-affects	ITGA2B	Reactome			reactome:Complex8670;reactome:Complex2886
+chebi:58456	chemical-affects	ITGB3	Reactome			reactome:Complex8670;reactome:Complex2886
+chebi:58456	chemical-affects	KRAS	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+chebi:58456	chemical-affects	MAP2K1	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+chebi:58456	chemical-affects	MAP2K2	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+chebi:58456	chemical-affects	MAPK1	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+chebi:58456	chemical-affects	MAPK3	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+chebi:58456	chemical-affects	NRAS	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+chebi:58456	chemical-affects	RAF1	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+chebi:58456	chemical-affects	RAP1A	Reactome			reactome:Complex8670;reactome:Complex2881
+chebi:58456	chemical-affects	RAP1B	Reactome			reactome:Complex8670;reactome:Complex2881
+chebi:58456	chemical-affects	SRC	Reactome			reactome:Complex8670;reactome:Complex2886
+chebi:58456	chemical-affects	TLN1	Reactome			reactome:Complex8670;reactome:Complex2882
+chebi:58456	chemical-affects	VCL	Reactome			reactome:Complex8670;reactome:Complex8671
+chebi:58456	chemical-affects	VWF	Reactome			reactome:Complex2888;reactome:Complex8670
+chebi:58456	chemical-affects	YWHAB	Reactome		Signaling downstream of RAS mutants	reactome:Complex12105;reactome:Complex12104;reactome:Complex12103
+
+PARTICIPANT	PARTICIPANT_TYPE	PARTICIPANT_NAME	UNIFICATION_XREF	RELATIONSHIP_XREF
+CAMK2B	ProteinReference	KCC2B_HUMAN	uniprot:Q13554	hgnc.symbol:CAMK2B;ncbigene:816
+CAMK2D	ProteinReference	KCC2D_HUMAN	uniprot:Q13557	hgnc.symbol:CAMK2D;ncbigene:817
+PHB1	ProteinReference	PHB1_HUMAN	uniprot:P35232	hgnc.symbol:PHB1;ncbigene:5245
+chebi:29108	SmallMoleculeReference	calcium(2+)	chebi:CHEBI:29108	
+YWHAB	ProteinReference	1433B_HUMAN	uniprot:P31946	hgnc.symbol:YWHAB;ncbigene:7529
+SRC	ProteinReference	SRC_HUMAN	uniprot:P12931	hgnc.symbol:SRC;ncbigene:6714
+ITGB3	ProteinReference	ITB3_HUMAN	uniprot:P05106	hgnc.symbol:ITGB3;ncbigene:3690
+CAMK2A	ProteinReference	KCC2A_HUMAN	uniprot:Q9UQM7	hgnc.symbol:CAMK2A;ncbigene:815
+ITGA2B	ProteinReference	ITA2B_HUMAN	uniprot:P08514	hgnc.symbol:ITGA2B;ncbigene:3674
+ARAF	ProteinReference	ARAF_HUMAN	uniprot:P10398	hgnc.symbol:ARAF;ncbigene:369
+PEBP1	ProteinReference	PEBP1_HUMAN	uniprot:P30086	hgnc.symbol:PEBP1;ncbigene:5037
+ARRB1	ProteinReference	ARRB1_HUMAN	uniprot:P49407	hgnc.symbol:ARRB1;ncbigene:408
+ARRB2	ProteinReference	ARRB2_HUMAN	uniprot:P32121	hgnc.symbol:ARRB2;ncbigene:409
+IQGAP1	ProteinReference	IQGA1_HUMAN	uniprot:P46940	hgnc.symbol:IQGAP1;ncbigene:8826
+RAP1B	ProteinReference	RAP1B_HUMAN	uniprot:P61224	hgnc.symbol:RAP1B;ncbigene:5908
+NRAS	ProteinReference	RASN_HUMAN	uniprot:P01111	hgnc.symbol:NRAS;ncbigene:4893
+RAP1A	ProteinReference	RAP1A_HUMAN	uniprot:P62834	hgnc.symbol:RAP1A;ncbigene:5906
+MAPK1	ProteinReference	MK01_HUMAN	uniprot:P28482	hgnc.symbol:MAPK1;ncbigene:5594
+chebi:58456	SmallMoleculeReference	1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate(5-)	chebi:CHEBI:58456	
+CSK	ProteinReference	CSK_HUMAN	uniprot:P41240	hgnc.symbol:CSK;ncbigene:1445
+JAK2	ProteinReference	JAK2_HUMAN	uniprot:O60674	hgnc.symbol:JAK2;ncbigene:3717
+MARK3	ProteinReference	MARK3_HUMAN	uniprot:P27448	hgnc.symbol:MARK3;ncbigene:4140
+HRAS	ProteinReference	RASH_HUMAN	uniprot:P01112	hgnc.symbol:HRAS;ncbigene:3265
+CAMK2G	ProteinReference	KCC2G_HUMAN	uniprot:Q13555	hgnc.symbol:CAMK2G;ncbigene:818
+MAPK3	ProteinReference	MK03_HUMAN	uniprot:P27361	hgnc.symbol:MAPK3;ncbigene:5595
+FGB	ProteinReference	FIBB_HUMAN	uniprot:P02675	hgnc.symbol:FGB;ncbigene:2244
+BRAP	ProteinReference	BRAP_HUMAN	uniprot:Q7Z569	hgnc.symbol:BRAP;ncbigene:8315
+FGA	ProteinReference	FIBA_HUMAN	uniprot:P02671	hgnc.symbol:FGA;ncbigene:2243
+MAP2K1	ProteinReference	MP2K1_HUMAN	uniprot:Q02750	hgnc.symbol:MAP2K1;ncbigene:5604
+MAP2K2	ProteinReference	MP2K2_HUMAN	uniprot:P36507	hgnc.symbol:MAP2K2;ncbigene:5605
+KSR1	ProteinReference	KSR1_HUMAN	uniprot:Q8IVT5	hgnc.symbol:KSR1;ncbigene:8844
+VWF	ProteinReference	VWF_HUMAN	uniprot:P04275	hgnc.symbol:VWF;ncbigene:7450
+chebi:29035	SmallMoleculeReference	manganese(2+)	chebi:CHEBI:29035	
+FGG	ProteinReference	FIBG_HUMAN	uniprot:P02679	hgnc.symbol:FGG;ncbigene:2266
+FN1	ProteinReference	FINC_HUMAN	uniprot:P02751	hgnc.symbol:FN1;ncbigene:2335
+BRAF	ProteinReference	BRAF_HUMAN	uniprot:P15056	hgnc.symbol:BRAF;ncbigene:673
+KSR2	ProteinReference	KSR2_HUMAN	uniprot:Q6VAB6	hgnc.symbol:KSR2;ncbigene:283455
+APBB1IP	ProteinReference	AB1IP_HUMAN	uniprot:Q7Z5R6	hgnc.symbol:APBB1IP;ncbigene:54518
+CNKSR2	ProteinReference	CNKR2_HUMAN	uniprot:Q8WXI2	hgnc.symbol:CNKSR2;ncbigene:22866
+CNKSR1	ProteinReference	CNKR1_HUMAN	uniprot:Q969H4	hgnc.symbol:CNKSR1;ncbigene:10256
+chebi:18420	SmallMoleculeReference	magnesium(2+)	chebi:CHEBI:18420	
+KRAS	ProteinReference	RASK_HUMAN	uniprot:P01116	hgnc.symbol:KRAS;ncbigene:3845
+RAF1	ProteinReference	RAF1_HUMAN	uniprot:P04049	hgnc.symbol:RAF1;ncbigene:5894
+TLN1	ProteinReference	TLN1_HUMAN	uniprot:Q9Y490	hgnc.symbol:TLN1;ncbigene:7094
+CALM1	ProteinReference	CALM1_HUMAN	uniprot:P0DP23	hgnc.symbol:CALM1;ncbigene:801;ncbigene:805;ncbigene:808
+VCL	ProteinReference	VINC_HUMAN	uniprot:P18206	hgnc.symbol:VCL;ncbigene:7414
+MAP3K11	ProteinReference	M3K11_HUMAN	uniprot:Q16584	hgnc.symbol:MAP3K11;ncbigene:4296

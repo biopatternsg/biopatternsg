@@ -1,0 +1,28 @@
+DAD1
+DDOST
+MAGT1
+RPN1
+RPN2
+STT3A
+TUSC3
+dolichyl phosphate(2-)
+GANAB
+PRKCSH
+beta-D-glucose
+GOLGA7
+ZDHHC5
+ZDHHC9
+coenzyme A(4-)
+MOGS
+ZDHHC11
+ZDHHC20
+ZDHHC2
+ZDHHC3
+ZDHHC8
+dihydrostreptomycin 3''-phosphate
+erythromycin B
+erythromycin A
+duvoglustat
+Echimidine
+glycan G00008
+palmitoyl-CoA(4-)

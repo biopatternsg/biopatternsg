@@ -1,0 +1,106 @@
+﻿PARTICIPANT_A	INTERACTION_TYPE	PARTICIPANT_B	INTERACTION_DATA_SOURCE	INTERACTION_PUBMED_ID	PATHWAY_NAMES	MEDIATOR_IDS
+IL2	in-complex-with	IL2RA	Reactome		Interleukin-2 signaling	reactome:Complex2020;reactome:Complex2013;reactome:Complex2023;reactome:Complex2027
+IL2	controls-state-change-of	IL2RB	Reactome	11356007;8700888;9793823	Interleukin-2 signaling	reactome:Catalysis720;http://bioregistry.io/reactome:R-HSA-452122
+IL2	in-complex-with	IL2RB	Reactome		Interleukin-2 signaling	reactome:Complex2020;reactome:Complex2023;reactome:Complex2027;reactome:Complex2015
+IL2	in-complex-with	IL2RG	Reactome		Interleukin-2 signaling	reactome:Complex2019;reactome:Complex2018;reactome:Complex2023;reactome:Complex2027
+IL2	controls-state-change-of	JAK1	Reactome	10825200;10889465;11750878;7481768;7568005;7659163;8022485;8777722;9382798;9590172	Interleukin-2 signaling	reactome:Catalysis719;http://bioregistry.io/reactome:R-HSA-451942
+IL2	in-complex-with	JAK1	Reactome		Interleukin-2 signaling	reactome:Complex2020;reactome:Complex2023;reactome:Complex2027;reactome:Complex2015
+IL2	in-complex-with	JAK3	Reactome		Interleukin-2 signaling	reactome:Complex2019;reactome:Complex2018;reactome:Complex2023;reactome:Complex2027
+IL2RA	controls-state-change-of	IL2RB	Reactome	11356007;8700888;9793823	Interleukin-2 signaling	reactome:Catalysis720;http://bioregistry.io/reactome:R-HSA-452122
+IL2RA	in-complex-with	IL2RB	Reactome		Interleukin-2 signaling	reactome:Complex2023;reactome:Complex2021;reactome:Complex2027;reactome:Complex2015
+IL2RA	in-complex-with	IL2RG	Reactome		Interleukin-2 signaling	reactome:Complex2019;reactome:Complex2018;reactome:Complex2023;reactome:Complex2027
+IL2RA	controls-state-change-of	JAK1	Reactome	10825200;10889465;11750878;7481768;7568005;7659163;8022485;8777722;9382798;9590172	Interleukin-2 signaling	reactome:Catalysis719;http://bioregistry.io/reactome:R-HSA-451942
+IL2RA	in-complex-with	JAK1	Reactome		Interleukin-2 signaling	reactome:Complex2023;reactome:Complex2021;reactome:Complex2027;reactome:Complex2015
+IL2RA	in-complex-with	JAK3	Reactome		Interleukin-2 signaling	reactome:Complex2019;reactome:Complex2018;reactome:Complex2023;reactome:Complex2027
+IL2RA	in-complex-with	SHC1	Reactome		Interleukin-2 signaling	reactome:Complex2024;reactome:Complex2026
+IL2RA	controls-state-change-of	STAT5A	Reactome	10851055;12407017;7568001;8631883	Interleukin-2 signaling	reactome:Catalysis722;http://bioregistry.io/reactome:R-HSA-452097
+IL2RA	in-complex-with	STAT5A	Reactome		Interleukin-2 signaling	reactome:Complex2028;reactome:Complex2025
+IL2RA	controls-state-change-of	STAT5B	Reactome	10851055;12407017;7568001;8631883	Interleukin-2 signaling	reactome:Catalysis722;http://bioregistry.io/reactome:R-HSA-452097
+IL2RA	in-complex-with	STAT5B	Reactome		Interleukin-2 signaling	reactome:Complex2028;reactome:Complex2025
+IL2RA	controls-state-change-of	SYK	Reactome	10825200	Interleukin-2 signaling	http://bioregistry.io/reactome:R-HSA-508282;reactome:Catalysis723
+IL2RA	in-complex-with	SYK	Reactome		Interleukin-2 signaling	reactome:Complex2031;reactome:Complex2032
+IL2RB	in-complex-with	IL2RG	Reactome		Interleukin-2 signaling	reactome:Complex2019;reactome:Complex2018;reactome:Complex2023;reactome:Complex2027
+IL2RB	controls-state-change-of	JAK1	Reactome	10825200;10889465;11750878;7481768;7568005;7659163;8022485;8777722;9382798;9590172	Interleukin-2 signaling	reactome:Catalysis719;http://bioregistry.io/reactome:R-HSA-451942
+IL2RB	in-complex-with	JAK1	Reactome		Interleukin-2 signaling	reactome:Complex2023;reactome:Complex2022;reactome:Complex2027;reactome:Complex2014
+IL2RB	in-complex-with	JAK3	Reactome		Interleukin-2 signaling	reactome:Complex2019;reactome:Complex2018;reactome:Complex2023;reactome:Complex2027
+IL2RB	in-complex-with	SHC1	Reactome		Interleukin-2 signaling	reactome:Complex2024;reactome:Complex2026
+IL2RB	controls-state-change-of	STAT5A	Reactome	10851055;12407017;7568001;8631883	Interleukin-2 signaling	reactome:Catalysis722;http://bioregistry.io/reactome:R-HSA-452097
+IL2RB	in-complex-with	STAT5A	Reactome		Interleukin-2 signaling	reactome:Complex2028;reactome:Complex2025
+IL2RB	controls-state-change-of	STAT5B	Reactome	10851055;12407017;7568001;8631883	Interleukin-2 signaling	reactome:Catalysis722;http://bioregistry.io/reactome:R-HSA-452097
+IL2RB	in-complex-with	STAT5B	Reactome		Interleukin-2 signaling	reactome:Complex2028;reactome:Complex2025
+IL2RB	controls-state-change-of	SYK	Reactome	10825200	Interleukin-2 signaling	http://bioregistry.io/reactome:R-HSA-508282;reactome:Catalysis723
+IL2RB	in-complex-with	SYK	Reactome		Interleukin-2 signaling	reactome:Complex2031;reactome:Complex2032
+IL2RG	controls-state-change-of	IL2RB	Reactome	11356007;8700888;9793823	Interleukin-2 signaling	reactome:Catalysis720;http://bioregistry.io/reactome:R-HSA-452122
+IL2RG	controls-state-change-of	JAK1	Reactome	10825200;10889465;11750878;7481768;7568005;7659163;8022485;8777722;9382798;9590172	Interleukin-2 signaling	reactome:Catalysis719;http://bioregistry.io/reactome:R-HSA-451942
+IL2RG	in-complex-with	JAK1	Reactome		Interleukin-2 signaling	reactome:Complex2019;reactome:Complex2018;reactome:Complex2023;reactome:Complex2027
+IL2RG	in-complex-with	JAK3	Reactome		Interleukin-2 signaling	reactome:Complex2016
+IL2RG	in-complex-with	SHC1	Reactome		Interleukin-2 signaling	reactome:Complex2024;reactome:Complex2026
+IL2RG	controls-state-change-of	STAT5A	Reactome	10851055;12407017;7568001;8631883	Interleukin-2 signaling	reactome:Catalysis722;http://bioregistry.io/reactome:R-HSA-452097
+IL2RG	in-complex-with	STAT5A	Reactome		Interleukin-2 signaling	reactome:Complex2028;reactome:Complex2025
+IL2RG	controls-state-change-of	STAT5B	Reactome	10851055;12407017;7568001;8631883	Interleukin-2 signaling	reactome:Catalysis722;http://bioregistry.io/reactome:R-HSA-452097
+IL2RG	in-complex-with	STAT5B	Reactome		Interleukin-2 signaling	reactome:Complex2028;reactome:Complex2025
+IL2RG	controls-state-change-of	SYK	Reactome	10825200	Interleukin-2 signaling	http://bioregistry.io/reactome:R-HSA-508282;reactome:Catalysis723
+IL2RG	in-complex-with	SYK	Reactome		Interleukin-2 signaling	reactome:Complex2031;reactome:Complex2032
+IL2	in-complex-with	SHC1	Reactome		Interleukin-2 signaling	reactome:Complex2024;reactome:Complex2026
+IL2	controls-state-change-of	STAT5A	Reactome	10851055;12407017;7568001;8631883	Interleukin-2 signaling	reactome:Catalysis722;http://bioregistry.io/reactome:R-HSA-452097
+IL2	in-complex-with	STAT5A	Reactome		Interleukin-2 signaling	reactome:Complex2028;reactome:Complex2025
+IL2	controls-state-change-of	STAT5B	Reactome	10851055;12407017;7568001;8631883	Interleukin-2 signaling	reactome:Catalysis722;http://bioregistry.io/reactome:R-HSA-452097
+IL2	in-complex-with	STAT5B	Reactome		Interleukin-2 signaling	reactome:Complex2028;reactome:Complex2025
+IL2	controls-state-change-of	SYK	Reactome	10825200	Interleukin-2 signaling	http://bioregistry.io/reactome:R-HSA-508282;reactome:Catalysis723
+IL2	in-complex-with	SYK	Reactome		Interleukin-2 signaling	reactome:Complex2031;reactome:Complex2032
+JAK1	controls-state-change-of	IL2RB	Reactome	11356007;8700888;9793823	Interleukin-2 signaling	reactome:Catalysis720;http://bioregistry.io/reactome:R-HSA-452122
+JAK1	in-complex-with	JAK3	Reactome		Interleukin-2 signaling	reactome:Complex2019;reactome:Complex2018;reactome:Complex2023;reactome:Complex2027
+JAK1	in-complex-with	SHC1	Reactome		Interleukin-2 signaling	reactome:Complex2024;reactome:Complex2026
+JAK1	controls-state-change-of	STAT5A	Reactome	10851055;12407017;7568001;8631883	Interleukin-2 signaling	reactome:Catalysis722;http://bioregistry.io/reactome:R-HSA-452097
+JAK1	in-complex-with	STAT5A	Reactome		Interleukin-2 signaling	reactome:Complex2028;reactome:Complex2025
+JAK1	controls-state-change-of	STAT5B	Reactome	10851055;12407017;7568001;8631883	Interleukin-2 signaling	reactome:Catalysis722;http://bioregistry.io/reactome:R-HSA-452097
+JAK1	in-complex-with	STAT5B	Reactome		Interleukin-2 signaling	reactome:Complex2028;reactome:Complex2025
+JAK1	controls-state-change-of	SYK	Reactome	10825200	Interleukin-2 signaling	http://bioregistry.io/reactome:R-HSA-508282;reactome:Catalysis723
+JAK1	in-complex-with	SYK	Reactome		Interleukin-2 signaling	reactome:Complex2031;reactome:Complex2032
+JAK3	controls-state-change-of	IL2RB	Reactome	11356007;8700888;9793823	Interleukin-2 signaling	reactome:Catalysis720;http://bioregistry.io/reactome:R-HSA-452122
+JAK3	controls-state-change-of	JAK1	Reactome	10825200;10889465;11750878;7481768;7568005;7659163;8022485;8777722;9382798;9590172	Interleukin-2 signaling	reactome:Catalysis719;http://bioregistry.io/reactome:R-HSA-451942
+JAK3	in-complex-with	PTK2B	Reactome		Interleukin-2 signaling	reactome:Complex2034;reactome:Complex2033
+JAK3	in-complex-with	SHC1	Reactome		Interleukin-2 signaling	reactome:Complex2024;reactome:Complex2026
+JAK3	controls-state-change-of	STAT5A	Reactome	10851055;12407017;7568001;8631883	Interleukin-2 signaling	reactome:Catalysis722;http://bioregistry.io/reactome:R-HSA-452097
+JAK3	in-complex-with	STAT5A	Reactome		Interleukin-2 signaling	reactome:Complex2028;reactome:Complex2025
+JAK3	controls-state-change-of	STAT5B	Reactome	10851055;12407017;7568001;8631883	Interleukin-2 signaling	reactome:Catalysis722;http://bioregistry.io/reactome:R-HSA-452097
+JAK3	in-complex-with	STAT5B	Reactome		Interleukin-2 signaling	reactome:Complex2028;reactome:Complex2025
+JAK3	controls-state-change-of	SYK	Reactome	10825200	Interleukin-2 signaling	http://bioregistry.io/reactome:R-HSA-508282;reactome:Catalysis723
+JAK3	in-complex-with	SYK	Reactome		Interleukin-2 signaling	reactome:Complex2031;reactome:Complex2032
+LCK	controls-state-change-of	IL2RA	Reactome	2000405;8119884;8294403;9793823	Interleukin-2 signaling	reactome:Catalysis721;http://bioregistry.io/reactome:R-HSA-452100
+LCK	controls-state-change-of	IL2RB	Reactome	2000405;8119884;8294403;9793823	Interleukin-2 signaling	reactome:Catalysis721;http://bioregistry.io/reactome:R-HSA-452100
+LCK	controls-state-change-of	IL2RG	Reactome	2000405;8119884;8294403;9793823	Interleukin-2 signaling	reactome:Catalysis721;http://bioregistry.io/reactome:R-HSA-452100
+LCK	controls-state-change-of	IL2	Reactome	2000405;8119884;8294403;9793823	Interleukin-2 signaling	reactome:Catalysis721;http://bioregistry.io/reactome:R-HSA-452100
+LCK	controls-state-change-of	JAK1	Reactome	2000405;8119884;8294403;9793823	Interleukin-2 signaling	reactome:Catalysis721;http://bioregistry.io/reactome:R-HSA-452100
+LCK	controls-state-change-of	JAK3	Reactome	2000405;8119884;8294403;9793823	Interleukin-2 signaling	reactome:Catalysis721;http://bioregistry.io/reactome:R-HSA-452100
+LCK	controls-phosphorylation-of	SHC1	Reactome	2000405;8119884;8294403;9793823	Interleukin-2 signaling	reactome:Catalysis721;http://bioregistry.io/reactome:R-HSA-452100
+LCK	controls-state-change-of	SHC1	Reactome	2000405;8119884;8294403;9793823	Interleukin-2 signaling	reactome:Catalysis721;http://bioregistry.io/reactome:R-HSA-452100
+chebi:15871	chemical-affects	IL2RG	Reactome	11741532;7514277;7973658;7973659;9192665;9553136	Interleukin-2 signaling	http://bioregistry.io/reactome:R-HSA-451895;reactome:Control240
+chebi:15871	chemical-affects	JAK3	Reactome	11741532;7514277;7973658;7973659;9192665;9553136	Interleukin-2 signaling	http://bioregistry.io/reactome:R-HSA-451895;reactome:Complex2017;reactome:Control240
+chebi:16966	chemical-affects	IL2RG	Reactome	11741532;7514277;7973658;7973659;9192665;9553136	Interleukin-2 signaling	http://bioregistry.io/reactome:R-HSA-451895;reactome:Control240
+chebi:16966	chemical-affects	JAK3	Reactome	11741532;7514277;7973658;7973659;9192665;9553136	Interleukin-2 signaling	http://bioregistry.io/reactome:R-HSA-451895;reactome:Complex2017;reactome:Control240
+chebi:5677	chemical-affects	IL2RG	Reactome	11741532;7514277;7973658;7973659;9192665;9553136	Interleukin-2 signaling	http://bioregistry.io/reactome:R-HSA-451895;reactome:Control240
+chebi:5677	chemical-affects	JAK3	Reactome	11741532;7514277;7973658;7973659;9192665;9553136	Interleukin-2 signaling	http://bioregistry.io/reactome:R-HSA-451895;reactome:Complex2017;reactome:Control240
+chebi:6912	chemical-affects	IL2RG	Reactome	11741532;7514277;7973658;7973659;9192665;9553136	Interleukin-2 signaling	http://bioregistry.io/reactome:R-HSA-451895;reactome:Control240
+chebi:6912	chemical-affects	JAK3	Reactome	11741532;7514277;7973658;7973659;9192665;9553136	Interleukin-2 signaling	http://bioregistry.io/reactome:R-HSA-451895;reactome:Complex2017;reactome:Control240
+chebi:8912	chemical-affects	IL2RG	Reactome	11741532;7514277;7973658;7973659;9192665;9553136	Interleukin-2 signaling	http://bioregistry.io/reactome:R-HSA-451895;reactome:Control240
+chebi:8912	chemical-affects	JAK3	Reactome	11741532;7514277;7973658;7973659;9192665;9553136	Interleukin-2 signaling	http://bioregistry.io/reactome:R-HSA-451895;reactome:Complex2017;reactome:Control240
+
+PARTICIPANT	PARTICIPANT_TYPE	PARTICIPANT_NAME	UNIFICATION_XREF	RELATIONSHIP_XREF
+STAT5A	ProteinReference	STA5A_HUMAN	uniprot:P42229	hgnc.symbol:STAT5A;ncbigene:6776
+STAT5B	ProteinReference	STA5B_HUMAN	uniprot:P51692	hgnc.symbol:STAT5B;ncbigene:6777
+SYK	ProteinReference	KSYK_HUMAN	uniprot:P43405	hgnc.symbol:SYK;ncbigene:6850
+SHC1	ProteinReference	SHC1_HUMAN	uniprot:P29353	hgnc.symbol:SHC1;ncbigene:6464
+chebi:16966	SmallMoleculeReference	heteroglycan	chebi:CHEBI:16966	
+IL2RG	ProteinReference	IL2RG_HUMAN	uniprot:P31785	hgnc.symbol:IL2RG;ncbigene:3561
+IL2	ProteinReference	IL2_HUMAN	uniprot:P60568	hgnc.symbol:IL2;ncbigene:3558
+chebi:8912	SmallMoleculeReference	Rugosinone	chebi:CHEBI:8912	
+chebi:5677	SmallMoleculeReference	Hernandezine	chebi:CHEBI:5677	
+chebi:6912	SmallMoleculeReference	alpha-methyl-L-tyrosine	chebi:CHEBI:6912	
+LCK	ProteinReference	LCK_HUMAN	uniprot:P06239	hgnc.symbol:LCK;ncbigene:3932
+IL2RA	ProteinReference	IL2RA_HUMAN	uniprot:P01589	hgnc.symbol:IL2RA;ncbigene:3559
+chebi:15871	SmallMoleculeReference	o-orsellinate depside	chebi:CHEBI:15871	
+IL2RB	ProteinReference	IL2RB_HUMAN	uniprot:P14784	hgnc.symbol:IL2RB;ncbigene:3560
+PTK2B	ProteinReference	FAK2_HUMAN	uniprot:Q14289	hgnc.symbol:PTK2B;ncbigene:2185
+JAK3	ProteinReference	JAK3_HUMAN	uniprot:P52333	hgnc.symbol:JAK3;ncbigene:3718
+JAK1	ProteinReference	JAK1_HUMAN	uniprot:P23458	hgnc.symbol:JAK1;ncbigene:3716
