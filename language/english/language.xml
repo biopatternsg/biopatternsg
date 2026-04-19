@@ -90,7 +90,7 @@
         <m n="85">Do you want to use a reduced knowledge base?  .. (Y/N): </m>
         <m n="86">Do you want to limit the objects in the pathways to a specific list?  ..(Y/N): </m>
         <m n="87">Provide a list of objects' symbols separated by (;): for example: EGF;EGFR;Ras;CREB;SST</m>
-        <m n="88">Provide a valid list...</m>
+        <m n="88">Provide a valid list, please...</m>
         <m n="89">Do you want to provide a symbol object to finish the pathways? ..(Y/N): </m>
         <m n="90">Provide the object name: </m>
         <m n="91">Do you want to provide another object to finish the pathways?.. (Y/N): </m>
@@ -167,5 +167,9 @@
         <m n="162">Start coordinate for Transcription Factors search: </m>
         <m n="163">Final coordinate for Transcription Factors search: </m>
         <m n="164">Genome Assembly for Transcription Factors search: </m>
+        <m n="165">Getting events from PubTator\'s metadata, please wait....</m>
+        <m n="166">Do you want to restrict the knowledge base of events (Y | N):  </m>
+        <m n="167">Please, set the kind of restriction (R | V): </m>
+        <m n="168">Your answer must be R or V.</m>
     </menu1>
 </root>

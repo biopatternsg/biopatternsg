@@ -167,7 +167,9 @@
         <m n="162">Ingrese coordenada de inicio para busqueda de Factores de Transcripcion: </m>
         <m n="163">Ingrese coordenada de fin para busqueda de Factores de Transcripcion: </m>
         <m n="164">Genome Assembly para busqueda de Factores de Transcripcion: </m>
-       </menu1>
-    
-        
+        <m n="165">Obteniendo eventos desde los metadatos descargados desde PubTator, por favor espere....</m>
+        <m n="166">¿Desea restringir la base de conocimiento de eventos de regulación? (s | n):  </m>
+        <m n="167">Por favor, elija el tipo de restricción (R | V): </m>
+        <m n="168">Su respuesta debe ser R o V.</m>
+    </menu1>    
 </root>
