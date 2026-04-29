@@ -95,13 +95,66 @@ protein('IFN-ALPHA-14').
 protein('IFNA21').
 protein('IFNLR1').
 
-% genes and genes products from Pubtator selected from genes.pl with the help of gemini deep researcher.
+% Below the lines for the objects roles from pubtator.
 
-%las siguientes lineas son para evitar errores en el proceso no deben ser modificadas
+% ligands from PubTator
+
+
+% genes and genes products from Pubtator selected from genes.pl with the help of gemini deep research.
+
+protein('N').
+protein('E').
+protein('M').
+protein('NSP1').
+transcription_factor('NSP1').
+protein('ORF3a').
+protein('BSG').
+protein('NRP1').
+protein('FURIN').
+protein('IL6').
+protein('TNF').
+protein('IL1B').
+protein('CRP').
+protein('CXCL10').
+protein('IL10').
+protein('IRF3').
+protein('IFNAR2').
+protein('TLR3').
+protein('TLR7').
+protein('VWF').
+protein('FGB').
+protein('GFAP').
+protein('NfL').
+protein('IFN-TAU').
+protein('RIPK1').
+protein('MARCKS').
+protein('OAS1').
+protein('TYK2').
+protein('LZTFL1').
+protein('SLC6A20').
+
+% diseases from Pubtator selected from diseases.pl with the help of gemini deep research.
+
+disease('CYTOKINE RELEASE SYNDROME').
+disease('PEDIATRIC MULTISYSTEM INFLAMMATORY DISEASE COVID-19 RELATED').
+disease('POST-ACUTE COVID-19 SYNDROME').
+disease('THROMBOSIS').
+disease('ASTHMA').
+disease('NEOPLASMS').
+disease('STROKE').
+disease('RENAL INSUFFICIENCY').
+disease('HEART FAILURE').
+disease('PULMONARY DISEASE CHRONIC OBSTRUCTIVE').
+disease('OBESITY').
+disease('DIABETES MELLITUS TYPE 2').
+disease('HYPERTENSION').
+
+
+% The following lines are to avoid errors in the process: They should not be modified.
+% Las siguientes lineas son para evitar errores en el proceso: No deben ser modificadas.
 enzyme('').
 protein('').
 transcription_factor('').
 receptor('').
 ligand('').
 disease('').
-

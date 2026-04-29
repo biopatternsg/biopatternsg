@@ -6,7 +6,7 @@
 
 # cd ~/tools/biopatternsg
 
-source ~/miniconda/bin/activate
+source ~/miniconda3/bin/activate
 
 conda activate biopatternsg
 

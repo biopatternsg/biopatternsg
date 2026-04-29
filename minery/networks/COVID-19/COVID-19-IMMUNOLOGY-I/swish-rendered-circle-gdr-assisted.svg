@@ -1,0 +1,805 @@
+<svg width="1637pt" height="1458pt" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events" style="overflow: hidden; width: 998.75px; height: 889.543px;"><g id="viewport-20260427013910608" class="svg-pan-zoom_viewport" transform="matrix(0.2789083198661329,0,0,0.2789083198661329,25.183566258800983,44.38931999302314)" style="transform: matrix(0.278908, 0, 0, 0.278908, 25.1836, 44.3893);">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 1453.98)">
+
+<g id="node1" class="node">
+<title>CD4</title>
+<ellipse fill="lightgrey" stroke="black" cx="1476.63" cy="-724.99" rx="30.59" ry="18"></ellipse>
+<text text-anchor="middle" x="1476.63" y="-721.29" font-family="Times,serif" font-size="14.00">CD4</text>
+</g>
+
+<g id="node2" class="node">
+<title>STAT3</title>
+<ellipse fill="lightgrey" stroke="black" cx="769.64" cy="-18" rx="40.09" ry="18"></ellipse>
+<text text-anchor="middle" x="769.64" y="-14.3" font-family="Times,serif" font-size="14.00">STAT3</text>
+</g>
+
+<g id="edge1" class="edge">
+<title>CD4-&gt;STAT3</title>
+<path fill="none" stroke="black" d="M1463.36,-708.73C1378.61,-615.53 914.1,-150.74 796.61,-41.14"></path>
+<polygon fill="black" stroke="black" points="798.78,-38.38 789.07,-34.16 794.02,-43.52 798.78,-38.38"></polygon>
+<text text-anchor="middle" x="1089.99" y="-378.73" font-family="Times,serif" font-size="14.00">association</text>
+</g>
+
+<g id="node4" class="node">
+<title>JAK3</title>
+<ellipse fill="lightgrey" stroke="black" cx="86.74" cy="-907.97" rx="33.29" ry="18"></ellipse>
+<text text-anchor="middle" x="86.74" y="-904.27" font-family="Times,serif" font-size="14.00">JAK3</text>
+</g>
+
+<g id="edge63" class="edge">
+<title>CD4-&gt;JAK3</title>
+<path fill="none" stroke="black" d="M1446.03,-726.84C1264.98,-744.62 335.06,-866.93 127.75,-900.06"></path>
+<polygon fill="black" stroke="black" points="127.18,-896.6 117.87,-901.66 128.3,-903.51 127.18,-896.6"></polygon>
+<text text-anchor="middle" x="746.89" y="-802.25" font-family="Times,serif" font-size="14.00">association</text>
+</g>
+
+<g id="node5" class="node">
+<title>STAT5A</title>
+<ellipse fill="lightgrey" stroke="black" cx="62.65" cy="-724.99" rx="46.29" ry="18"></ellipse>
+<text text-anchor="middle" x="62.65" y="-721.29" font-family="Times,serif" font-size="14.00">STAT5A</text>
+</g>
+
+<g id="edge30" class="edge">
+<title>CD4-&gt;STAT5A</title>
+<path fill="none" stroke="black" d="M1446.11,-722.84C1267.25,-716.95 354.68,-716.72 118.51,-722.15"></path>
+<polygon fill="black" stroke="black" points="118.34,-718.65 108.43,-722.39 118.51,-725.65 118.34,-718.65"></polygon>
+<text text-anchor="middle" x="822.31" y="-726.29" font-family="Times,serif" font-size="14.00">association</text>
+</g>
+
+<g id="node7" class="node">
+<title>COVID-19</title>
+<ellipse fill="lightgrey" stroke="black" cx="769.64" cy="-1431.98" rx="56.59" ry="18"></ellipse>
+<text text-anchor="middle" x="769.64" y="-1428.28" font-family="Times,serif" font-size="14.00">COVID-19</text>
+</g>
+
+<g id="edge16" class="edge">
+<title>CD4-&gt;COVID-19</title>
+<path fill="none" stroke="black" d="M1458.62,-739.85C1361.01,-829.12 896.92,-1293.03 791.11,-1406.81"></path>
+<polygon fill="black" stroke="black" points="788.33,-1404.66 784.12,-1414.39 793.47,-1409.41 788.33,-1404.66"></polygon>
+<text text-anchor="middle" x="1053.86" y="-1077.13" font-family="Times,serif" font-size="14.00">positive_correlation</text>
+</g>
+
+<g id="edge17" class="edge">
+<title>CD4-&gt;COVID-19</title>
+<path fill="none" stroke="black" d="M1463.36,-741.26C1378.89,-834.15 917.13,-1296.21 797.77,-1407.76"></path>
+<polygon fill="black" stroke="black" points="795.04,-1405.52 790.09,-1414.88 799.8,-1410.65 795.04,-1405.52"></polygon>
+<text text-anchor="middle" x="1204.07" y="-1078.31" font-family="Times,serif" font-size="14.00">negative_correlation</text>
+</g>
+
+<g id="node10" class="node">
+<title>ACE2</title>
+<ellipse fill="lightgrey" stroke="black" cx="586.66" cy="-42.09" rx="36.29" ry="18"></ellipse>
+<text text-anchor="middle" x="586.66" y="-38.39" font-family="Times,serif" font-size="14.00">ACE2</text>
+</g>
+
+<g id="edge15" class="edge">
+<title>CD4-&gt;ACE2</title>
+<path fill="none" stroke="black" d="M1460.12,-709.7C1353.29,-620.12 760.68,-165.16 617.69,-62.59"></path>
+<polygon fill="black" stroke="black" points="619.48,-59.57 609.31,-56.62 615.42,-65.28 619.48,-59.57"></polygon>
+<text text-anchor="middle" x="965.4" y="-389.95" font-family="Times,serif" font-size="14.00">negative_correlation</text>
+</g>
+
+<g id="node11" class="node">
+<title>IFNG</title>
+<ellipse fill="lightgrey" stroke="black" cx="416.14" cy="-1337.26" rx="36" ry="18"></ellipse>
+<text text-anchor="middle" x="416.14" y="-1333.56" font-family="Times,serif" font-size="14.00">IFNG</text>
+</g>
+
+<g id="edge19" class="edge">
+<title>CD4-&gt;IFNG</title>
+<path fill="none" stroke="black" d="M1452.67,-736.34C1312.62,-810.25 601.35,-1220.77 446.09,-1317.1"></path>
+<polygon fill="black" stroke="black" points="444.11,-1314.22 437.48,-1322.48 447.82,-1320.15 444.11,-1314.22"></polygon>
+<text text-anchor="middle" x="909.38" y="-1015.52" font-family="Times,serif" font-size="14.00">association</text>
+</g>
+
+<g id="node14" class="node">
+<title>CD8B</title>
+<ellipse fill="lightgrey" stroke="black" cx="1452.54" cy="-542.01" rx="37.89" ry="18"></ellipse>
+<text text-anchor="middle" x="1452.54" y="-538.31" font-family="Times,serif" font-size="14.00">CD8B</text>
+</g>
+
+<g id="edge28" class="edge">
+<title>CD4-&gt;CD8B</title>
+<path fill="none" stroke="black" d="M1474.23,-706.78C1470.03,-674.85 1461.31,-608.58 1456.3,-570.53"></path>
+<polygon fill="black" stroke="black" points="1459.7,-569.61 1454.93,-560.15 1452.76,-570.52 1459.7,-569.61"></polygon>
+<text text-anchor="middle" x="1425.26" y="-642.45" font-family="Times,serif" font-size="14.00">association</text>
+</g>
+
+<g id="edge31" class="edge">
+<title>STAT3-&gt;CD4</title>
+<path fill="none" stroke="black" d="M783.53,-34.95C870.24,-130.07 1335.84,-595.91 1450.94,-703.04"></path>
+<polygon fill="black" stroke="black" points="1448.89,-705.91 1458.61,-710.12 1453.63,-700.77 1448.89,-705.91"></polygon>
+<text text-anchor="middle" x="1077.23" y="-357.8" font-family="Times,serif" font-size="14.00">association</text>
+</g>
+
+<g id="node3" class="node">
+<title>TNF</title>
+<ellipse fill="lightgrey" stroke="black" cx="1381.91" cy="-371.5" rx="30.59" ry="18"></ellipse>
+<text text-anchor="middle" x="1381.91" y="-367.8" font-family="Times,serif" font-size="14.00">TNF</text>
+</g>
+
+<g id="edge2" class="edge">
+<title>STAT3-&gt;TNF</title>
+<path fill="none" stroke="black" d="M794.4,-32.3C891.25,-88.21 1244.3,-292.05 1351.1,-353.71"></path>
+<polygon fill="black" stroke="black" points="1349.39,-356.76 1359.8,-358.73 1352.89,-350.7 1349.39,-356.76"></polygon>
+<text text-anchor="middle" x="1032.75" y="-196.8" font-family="Times,serif" font-size="14.00">association</text>
+</g>
+
+<g id="node6" class="node">
+<title>CXCR4</title>
+<ellipse fill="lightgrey" stroke="black" cx="269.72" cy="-225.07" rx="43.59" ry="18"></ellipse>
+<text text-anchor="middle" x="269.72" y="-221.37" font-family="Times,serif" font-size="14.00">CXCR4</text>
+</g>
+
+<g id="edge32" class="edge">
+<title>STAT3-&gt;CXCR4</title>
+<path fill="none" stroke="black" d="M732.5,-25.52C637.57,-55.81 387.75,-159.32 300.36,-204.62"></path>
+<polygon fill="black" stroke="black" points="298.67,-201.55 291.47,-209.33 301.95,-207.74 298.67,-201.55"></polygon>
+<text text-anchor="middle" x="556.43" y="-103.87" font-family="Times,serif" font-size="14.00">association</text>
+</g>
+
+<g id="edge42" class="edge">
+<title>STAT3-&gt;CXCR4</title>
+<path fill="none" stroke="black" d="M748.55,-33.38C674.34,-73.95 424.66,-178.1 318.3,-213.8"></path>
+<polygon fill="black" stroke="black" points="317.17,-210.49 308.76,-216.94 319.36,-217.14 317.17,-210.49"></polygon>
+<text text-anchor="middle" x="606.92" y="-127.39" font-family="Times,serif" font-size="14.00">negative_correlation</text>
+</g>
+
+<g id="edge43" class="edge">
+<title>STAT3-&gt;CXCR4</title>
+<path fill="none" stroke="black" d="M739.86,-30.33C654.31,-65.77 407.66,-167.93 310.12,-208.34"></path>
+<polygon fill="black" stroke="black" points="308.51,-205.22 300.61,-212.28 311.19,-211.69 308.51,-205.22"></polygon>
+<text text-anchor="middle" x="453.99" y="-123.14" font-family="Times,serif" font-size="14.00">positive_correlation</text>
+</g>
+
+<g id="edge36" class="edge">
+<title>STAT3-&gt;ACE2</title>
+<path fill="none" stroke="black" d="M730.83,-23.11C701.9,-26.92 662.3,-32.13 631.92,-36.13"></path>
+<polygon fill="black" stroke="black" points="631.46,-32.66 622,-37.44 632.37,-39.6 631.46,-32.66"></polygon>
+<text text-anchor="middle" x="645.88" y="-18.42" font-family="Times,serif" font-size="14.00">positive_correlation</text>
+</g>
+
+<g id="edge14" class="edge">
+<title>TNF-&gt;CD4</title>
+<path fill="none" stroke="black" d="M1386.74,-389.51C1402.19,-447.19 1450.53,-627.58 1469.18,-697.2"></path>
+<polygon fill="black" stroke="black" points="1465.84,-698.26 1471.81,-707.01 1472.61,-696.45 1465.84,-698.26"></polygon>
+<text text-anchor="middle" x="1387.96" y="-547.15" font-family="Times,serif" font-size="14.00">association</text>
+</g>
+
+<g id="edge3" class="edge">
+<title>TNF-&gt;JAK3</title>
+<path fill="none" stroke="black" d="M1355.25,-380.29C1189.77,-442.2 304.43,-808.81 120.29,-891.51"></path>
+<polygon fill="black" stroke="black" points="118.76,-888.36 111.09,-895.67 121.64,-894.74 118.76,-888.36"></polygon>
+<text text-anchor="middle" x="697.77" y="-624.7" font-family="Times,serif" font-size="14.00">association</text>
+</g>
+
+<g id="edge62" class="edge">
+<title>JAK3-&gt;CD4</title>
+<path fill="none" stroke="black" d="M119.68,-905.9C306.85,-887.25 1235.24,-765.1 1437.63,-732.59"></path>
+<polygon fill="black" stroke="black" points="1438.48,-736 1447.79,-730.93 1437.35,-729.09 1438.48,-736"></polygon>
+<text text-anchor="middle" x="738.65" y="-823.04" font-family="Times,serif" font-size="14.00">association</text>
+</g>
+
+<g id="edge13" class="edge">
+<title>JAK3-&gt;STAT3</title>
+<path fill="none" stroke="black" d="M101.7,-891.85C191.57,-784.81 657.39,-177.94 752.66,-44.09"></path>
+<polygon fill="black" stroke="black" points="755.73,-45.82 758.63,-35.63 750.01,-41.78 755.73,-45.82"></polygon>
+<text text-anchor="middle" x="387.18" y="-471.77" font-family="Times,serif" font-size="14.00">association</text>
+</g>
+
+<g id="edge18" class="edge">
+<title>JAK3-&gt;STAT3</title>
+<path fill="none" stroke="black" d="M97.6,-890.56C174.95,-779.6 640.39,-172.75 747.66,-42.57"></path>
+<polygon fill="black" stroke="black" points="750.5,-44.63 754.2,-34.7 745.12,-40.15 750.5,-44.63"></polygon>
+<text text-anchor="middle" x="406.63" y="-455.36" font-family="Times,serif" font-size="14.00">bind</text>
+</g>
+
+<g id="edge70" class="edge">
+<title>JAK3-&gt;TNF</title>
+<path fill="none" stroke="black" d="M115.21,-898.5C285.56,-834.52 1168.45,-468.88 1349.47,-387.46"></path>
+<polygon fill="black" stroke="black" points="1351.07,-390.58 1358.74,-383.26 1348.18,-384.2 1351.07,-390.58"></polygon>
+<text text-anchor="middle" x="692.34" y="-646.78" font-family="Times,serif" font-size="14.00">association</text>
+</g>
+
+<g id="edge4" class="edge">
+<title>JAK3-&gt;STAT5A</title>
+<path fill="none" stroke="black" d="M88.57,-889.88C87.48,-857.84 78.97,-790.91 71.43,-752.91"></path>
+<polygon fill="black" stroke="black" points="74.83,-752.07 69.34,-743.01 67.98,-753.52 74.83,-752.07"></polygon>
+<text text-anchor="middle" x="40" y="-810.2" font-family="Times,serif" font-size="14.00">association</text>
+</g>
+
+<g id="edge41" class="edge">
+<title>JAK3-&gt;STAT5A</title>
+<path fill="none" stroke="black" d="M80.13,-890.31C72.88,-858.63 63.83,-791.87 61.35,-753.58"></path>
+<polygon fill="black" stroke="black" points="64.82,-752.95 60.82,-743.14 57.83,-753.31 64.82,-752.95"></polygon>
+<text text-anchor="middle" x="54.74" y="-825.75" font-family="Times,serif" font-size="14.00">bind</text>
+</g>
+
+<g id="edge6" class="edge">
+<title>JAK3-&gt;CXCR4</title>
+<path fill="none" stroke="black" d="M93.93,-890.32C124.62,-797.68 240.02,-367.61 265.16,-253.12"></path>
+<polygon fill="black" stroke="black" points="268.65,-253.56 267.31,-243.05 261.8,-252.1 268.65,-253.56"></polygon>
+<text text-anchor="middle" x="139.55" y="-575.52" font-family="Times,serif" font-size="14.00">association</text>
+</g>
+
+<g id="node8" class="node">
+<title>STAT1</title>
+<ellipse fill="lightgrey" stroke="black" cx="586.66" cy="-1407.89" rx="40.09" ry="18"></ellipse>
+<text text-anchor="middle" x="586.66" y="-1404.19" font-family="Times,serif" font-size="14.00">STAT1</text>
+</g>
+
+<g id="edge9" class="edge">
+<title>JAK3-&gt;STAT1</title>
+<path fill="none" stroke="black" d="M102.81,-924.04C175.73,-996.96 475.76,-1297 562.85,-1384.09"></path>
+<polygon fill="black" stroke="black" points="560.6,-1386.79 570.15,-1391.38 565.55,-1381.84 560.6,-1386.79"></polygon>
+<text text-anchor="middle" x="292.83" y="-1157.87" font-family="Times,serif" font-size="14.00">association</text>
+</g>
+
+<g id="node9" class="node">
+<title>STAT6</title>
+<ellipse fill="lightgrey" stroke="black" cx="86.74" cy="-542.01" rx="40.09" ry="18"></ellipse>
+<text text-anchor="middle" x="86.74" y="-538.31" font-family="Times,serif" font-size="14.00">STAT6</text>
+</g>
+
+<g id="edge11" class="edge">
+<title>JAK3-&gt;STAT6</title>
+<path fill="none" stroke="black" d="M86.74,-889.83C86.74,-830.56 86.74,-642.4 86.74,-570.4"></path>
+<polygon fill="black" stroke="black" points="90.24,-570.27 86.74,-560.27 83.24,-570.27 90.24,-570.27"></polygon>
+<text text-anchor="middle" x="126.74" y="-733.91" font-family="Times,serif" font-size="14.00">association</text>
+</g>
+
+<g id="node22" class="node">
+<title>TYK2</title>
+<ellipse fill="lightgrey" stroke="black" cx="269.72" cy="-1224.91" rx="35.19" ry="18"></ellipse>
+<text text-anchor="middle" x="269.72" y="-1221.21" font-family="Times,serif" font-size="14.00">TYK2</text>
+</g>
+
+<g id="edge64" class="edge">
+<title>JAK3-&gt;TYK2</title>
+<path fill="none" stroke="black" d="M96.84,-925.47C127.27,-978.17 218.21,-1135.69 254.51,-1198.56"></path>
+<polygon fill="black" stroke="black" points="251.62,-1200.56 259.65,-1207.47 257.68,-1197.06 251.62,-1200.56"></polygon>
+<text text-anchor="middle" x="215.67" y="-1050.82" font-family="Times,serif" font-size="14.00">association</text>
+</g>
+
+<g id="edge40" class="edge">
+<title>STAT5A-&gt;CD4</title>
+<path fill="none" stroke="black" d="M108.49,-727.59C323.66,-733.17 1231.54,-733.12 1435.73,-727.46"></path>
+<polygon fill="black" stroke="black" points="1436.12,-730.95 1446.01,-727.15 1435.91,-723.95 1436.12,-730.95"></polygon>
+<text text-anchor="middle" x="732.11" y="-731.32" font-family="Times,serif" font-size="14.00">association</text>
+</g>
+
+<g id="edge5" class="edge">
+<title>STAT5A-&gt;CXCR4</title>
+<path fill="none" stroke="black" d="M70.02,-707.2C101.02,-632.34 221,-342.69 258.47,-252.22"></path>
+<polygon fill="black" stroke="black" points="261.74,-253.49 262.33,-242.91 255.27,-250.81 261.74,-253.49"></polygon>
+<text text-anchor="middle" x="93.25" y="-483.51" font-family="Times,serif" font-size="14.00">positive_correlation</text>
+</g>
+
+<g id="edge34" class="edge">
+<title>CXCR4-&gt;CD4</title>
+<path fill="none" stroke="black" d="M297.5,-239.02C457.36,-311.64 1258.94,-643.75 1440.18,-712.58"></path>
+<polygon fill="black" stroke="black" points="1439.19,-715.95 1449.78,-716.2 1441.66,-709.4 1439.19,-715.95"></polygon>
+<text text-anchor="middle" x="828.84" y="-479.6" font-family="Times,serif" font-size="14.00">association</text>
+</g>
+
+<g id="edge61" class="edge">
+<title>CXCR4-&gt;CD4</title>
+<path fill="none" stroke="black" d="M303.55,-236.49C477.91,-302.44 1273.48,-631.97 1444.28,-708.98"></path>
+<polygon fill="black" stroke="black" points="1442.96,-712.23 1453.52,-713.18 1445.86,-705.85 1442.96,-712.23"></polygon>
+<text text-anchor="middle" x="857.92" y="-461.53" font-family="Times,serif" font-size="14.00">bind</text>
+</g>
+
+<g id="edge33" class="edge">
+<title>CXCR4-&gt;JAK3</title>
+<path fill="none" stroke="black" d="M262.41,-243.07C231.58,-336.36 116.62,-764.79 91.36,-879.6"></path>
+<polygon fill="black" stroke="black" points="87.87,-879.2 89.21,-889.71 94.72,-880.67 87.87,-879.2"></polygon>
+<text text-anchor="middle" x="216.89" y="-550.14" font-family="Times,serif" font-size="14.00">association</text>
+</g>
+
+<g id="edge7" class="edge">
+<title>CXCR4-&gt;COVID-19</title>
+<path fill="none" stroke="black" d="M275.33,-243.28C324.81,-379.63 680.93,-1239.77 755.91,-1404.67"></path>
+<polygon fill="black" stroke="black" points="752.89,-1406.48 760.24,-1414.1 759.25,-1403.56 752.89,-1406.48"></polygon>
+<text text-anchor="middle" x="444.62" y="-827.78" font-family="Times,serif" font-size="14.00">positive_correlation</text>
+</g>
+
+<g id="edge8" class="edge">
+<title>CXCR4-&gt;COVID-19</title>
+<path fill="none" stroke="black" d="M279.07,-242.85C341.87,-377.64 698.27,-1237.76 760.48,-1404.15"></path>
+<polygon fill="black" stroke="black" points="757.25,-1405.5 763.99,-1413.67 763.82,-1403.08 757.25,-1405.5"></polygon>
+<text text-anchor="middle" x="446.27" y="-812.3" font-family="Times,serif" font-size="14.00">negative_correlation</text>
+</g>
+
+<g id="edge35" class="edge">
+<title>STAT1-&gt;STAT3</title>
+<path fill="none" stroke="black" d="M589.04,-1389.81C608.54,-1241.69 741.86,-229 765.92,-46.24"></path>
+<polygon fill="black" stroke="black" points="769.42,-46.46 767.26,-36.09 762.48,-45.55 769.42,-46.46"></polygon>
+<text text-anchor="middle" x="637.48" y="-706.82" font-family="Times,serif" font-size="14.00">association</text>
+</g>
+
+<g id="edge10" class="edge">
+<title>STAT1-&gt;COVID-19</title>
+<path fill="none" stroke="black" d="M625.46,-1413C649.18,-1416.12 680.07,-1420.19 707.17,-1423.76"></path>
+<polygon fill="black" stroke="black" points="706.98,-1427.26 717.35,-1425.1 707.89,-1420.32 706.98,-1427.26"></polygon>
+<text text-anchor="middle" x="701.82" y="-1407.18" font-family="Times,serif" font-size="14.00">positive_correlation</text>
+</g>
+
+<g id="edge12" class="edge">
+<title>STAT6-&gt;CXCR4</title>
+<path fill="none" stroke="black" d="M96.84,-524.52C127.2,-471.93 217.78,-315.03 254.25,-251.86"></path>
+<polygon fill="black" stroke="black" points="257.46,-253.31 259.43,-242.9 251.4,-249.81 257.46,-253.31"></polygon>
+<text text-anchor="middle" x="215.55" y="-391.99" font-family="Times,serif" font-size="14.00">association</text>
+</g>
+
+<g id="edge53" class="edge">
+<title>ACE2-&gt;CD4</title>
+<path fill="none" stroke="black" d="M603.95,-58.04C713.26,-149.5 1307.24,-605.46 1447.14,-705.59"></path>
+<polygon fill="black" stroke="black" points="1445.51,-708.72 1455.68,-711.66 1449.56,-703.02 1445.51,-708.72"></polygon>
+<text text-anchor="middle" x="985.55" y="-370.61" font-family="Times,serif" font-size="14.00">association</text>
+</g>
+
+<g id="edge25" class="edge">
+<title>ACE2-&gt;COVID-19</title>
+<path fill="none" stroke="black" d="M589.04,-60.17C608.54,-208.29 741.86,-1220.99 765.92,-1403.75"></path>
+<polygon fill="black" stroke="black" points="762.48,-1404.44 767.26,-1413.89 769.42,-1403.52 762.48,-1404.44"></polygon>
+<text text-anchor="middle" x="606.48" y="-735.76" font-family="Times,serif" font-size="14.00">positive_correlation</text>
+</g>
+
+<g id="edge84" class="edge">
+<title>IFNG-&gt;CD4</title>
+<path fill="none" stroke="black" d="M442.17,-1324.82C587.4,-1247.84 1296.1,-838.75 1447.96,-744.36"></path>
+<polygon fill="black" stroke="black" points="1450.14,-747.12 1456.76,-738.85 1446.42,-741.19 1450.14,-747.12"></polygon>
+<text text-anchor="middle" x="905.07" y="-1038.39" font-family="Times,serif" font-size="14.00">association</text>
+</g>
+
+<g id="edge39" class="edge">
+<title>IFNG-&gt;STAT3</title>
+<path fill="none" stroke="black" d="M421.01,-1319.12C459.53,-1175.36 715.11,-221.5 762.19,-45.79"></path>
+<polygon fill="black" stroke="black" points="765.61,-46.58 764.81,-36.01 758.84,-44.77 765.61,-46.58"></polygon>
+<text text-anchor="middle" x="551.6" y="-686.26" font-family="Times,serif" font-size="14.00">association</text>
+</g>
+
+<g id="edge51" class="edge">
+<title>IFNG-&gt;TNF</title>
+<path fill="none" stroke="black" d="M432.5,-1320.91C546.72,-1206.68 1224.43,-528.98 1358.77,-394.63"></path>
+<polygon fill="black" stroke="black" points="1361.55,-396.81 1366.15,-387.26 1356.6,-391.86 1361.55,-396.81"></polygon>
+<text text-anchor="middle" x="855.64" y="-861.57" font-family="Times,serif" font-size="14.00">association</text>
+</g>
+
+<g id="edge48" class="edge">
+<title>IFNG-&gt;JAK3</title>
+<path fill="none" stroke="black" d="M403.23,-1320.44C352.49,-1254.31 166.62,-1012.08 106,-933.07"></path>
+<polygon fill="black" stroke="black" points="108.43,-930.49 99.56,-924.69 102.87,-934.75 108.43,-930.49"></polygon>
+<text text-anchor="middle" x="214.61" y="-1130.55" font-family="Times,serif" font-size="14.00">association</text>
+</g>
+
+<g id="edge26" class="edge">
+<title>IFNG-&gt;STAT5A</title>
+<path fill="none" stroke="black" d="M406.13,-1319.93C356.67,-1234.25 138.3,-856.03 78.08,-751.72"></path>
+<polygon fill="black" stroke="black" points="80.94,-749.67 72.91,-742.76 74.88,-753.17 80.94,-749.67"></polygon>
+<text text-anchor="middle" x="202.11" y="-1024.62" font-family="Times,serif" font-size="14.00">association</text>
+</g>
+
+<g id="edge23" class="edge">
+<title>IFNG-&gt;STAT1</title>
+<path fill="none" stroke="black" d="M443.92,-1348.77C472.06,-1360.42 515.83,-1378.55 547.48,-1391.67"></path>
+<polygon fill="black" stroke="black" points="546.31,-1394.97 556.89,-1395.56 548.99,-1388.5 546.31,-1394.97"></polygon>
+<text text-anchor="middle" x="455.7" y="-1374.02" font-family="Times,serif" font-size="14.00">association</text>
+</g>
+
+<g id="edge27" class="edge">
+<title>IFNG-&gt;STAT6</title>
+<path fill="none" stroke="black" d="M408.8,-1319.54C366.1,-1216.45 149.84,-694.36 97.95,-569.07"></path>
+<polygon fill="black" stroke="black" points="101.16,-567.68 94.1,-559.78 94.69,-570.35 101.16,-567.68"></polygon>
+<text text-anchor="middle" x="213.37" y="-948.1" font-family="Times,serif" font-size="14.00">association</text>
+</g>
+
+<g id="edge24" class="edge">
+<title>IFNG-&gt;ACE2</title>
+<path fill="none" stroke="black" d="M418.55,-1318.96C437.33,-1176.36 560.03,-244.38 582.97,-70.13"></path>
+<polygon fill="black" stroke="black" points="586.44,-70.57 584.27,-60.19 579.5,-69.65 586.44,-70.57"></polygon>
+<text text-anchor="middle" x="460.76" y="-698.34" font-family="Times,serif" font-size="14.00">association</text>
+</g>
+
+<g id="node12" class="node">
+<title>IL1B</title>
+<ellipse fill="lightgrey" stroke="black" cx="1269.56" cy="-225.07" rx="32.49" ry="18"></ellipse>
+<text text-anchor="middle" x="1269.56" y="-221.37" font-family="Times,serif" font-size="14.00">IL1B</text>
+</g>
+
+<g id="edge20" class="edge">
+<title>IFNG-&gt;IL1B</title>
+<path fill="none" stroke="black" d="M429.21,-1320.24C526.26,-1193.76 1134.42,-401.19 1250.44,-249.98"></path>
+<polygon fill="black" stroke="black" points="1253.47,-251.78 1256.78,-241.72 1247.92,-247.52 1253.47,-251.78"></polygon>
+<text text-anchor="middle" x="799.83" y="-773.91" font-family="Times,serif" font-size="14.00">association</text>
+</g>
+
+<g id="node15" class="node">
+<title>IL10</title>
+<ellipse fill="lightgrey" stroke="black" cx="157.37" cy="-1078.49" rx="31.7" ry="18"></ellipse>
+<text text-anchor="middle" x="157.37" y="-1074.79" font-family="Times,serif" font-size="14.00">IL10</text>
+</g>
+
+<g id="edge49" class="edge">
+<title>IFNG-&gt;IL10</title>
+<path fill="none" stroke="black" d="M399.96,-1321.08C355.65,-1276.77 232.25,-1153.38 180.59,-1101.71"></path>
+<polygon fill="black" stroke="black" points="182.76,-1098.93 173.22,-1094.34 177.81,-1103.88 182.76,-1098.93"></polygon>
+<text text-anchor="middle" x="330.27" y="-1200.19" font-family="Times,serif" font-size="14.00">association</text>
+</g>
+
+<g id="edge85" class="edge">
+<title>IFNG-&gt;TYK2</title>
+<path fill="none" stroke="black" d="M396.4,-1322.11C370.96,-1302.59 326.6,-1268.55 297.7,-1246.38"></path>
+<polygon fill="black" stroke="black" points="299.69,-1243.49 289.62,-1240.18 295.43,-1249.05 299.69,-1243.49"></polygon>
+<text text-anchor="middle" x="307.05" y="-1288.04" font-family="Times,serif" font-size="14.00">association</text>
+</g>
+
+<g id="edge38" class="edge">
+<title>IL1B-&gt;STAT3</title>
+<path fill="none" stroke="black" d="M1243.38,-214.23C1160.95,-180.08 906.36,-74.63 808.51,-34.1"></path>
+<polygon fill="black" stroke="black" points="809.84,-30.86 799.26,-30.27 807.16,-37.33 809.84,-30.86"></polygon>
+<text text-anchor="middle" x="985.95" y="-127.97" font-family="Times,serif" font-size="14.00">association</text>
+</g>
+
+<g id="edge45" class="edge">
+<title>IL1B-&gt;TNF</title>
+<path fill="none" stroke="black" d="M1282.45,-241.87C1302.17,-267.58 1339.97,-316.83 1362.86,-346.67"></path>
+<polygon fill="black" stroke="black" points="1360.31,-349.09 1369.17,-354.9 1365.86,-344.83 1360.31,-349.09"></polygon>
+<text text-anchor="middle" x="1282.65" y="-298.07" font-family="Times,serif" font-size="14.00">association</text>
+</g>
+
+<g id="node13" class="node">
+<title>IL6</title>
+<ellipse fill="lightgrey" stroke="black" cx="952.62" cy="-42.09" rx="27" ry="18"></ellipse>
+<text text-anchor="middle" x="952.62" y="-38.39" font-family="Times,serif" font-size="14.00">IL6</text>
+</g>
+
+<g id="edge21" class="edge">
+<title>IL1B-&gt;IL6</title>
+<path fill="none" stroke="black" d="M1247.02,-212.06C1190.93,-179.68 1045.06,-95.46 982.18,-59.16"></path>
+<polygon fill="black" stroke="black" points="983.59,-55.93 973.18,-53.96 980.09,-61.99 983.59,-55.93"></polygon>
+<text text-anchor="middle" x="1074.6" y="-139.41" font-family="Times,serif" font-size="14.00">association</text>
+</g>
+
+<g id="edge37" class="edge">
+<title>IL6-&gt;STAT3</title>
+<path fill="none" stroke="black" d="M926.02,-38.59C897.99,-34.9 853.23,-29 818.76,-24.47"></path>
+<polygon fill="black" stroke="black" points="818.8,-20.94 808.42,-23.11 817.88,-27.88 818.8,-20.94"></polygon>
+<text text-anchor="middle" x="872.39" y="-20.33" font-family="Times,serif" font-size="14.00">association</text>
+</g>
+
+<g id="edge46" class="edge">
+<title>IL6-&gt;TNF</title>
+<path fill="none" stroke="black" d="M970.52,-55.82C1037.58,-107.28 1274.21,-288.85 1354.8,-350.69"></path>
+<polygon fill="black" stroke="black" points="1352.91,-353.65 1362.97,-356.96 1357.17,-348.1 1352.91,-353.65"></polygon>
+<text text-anchor="middle" x="1122.66" y="-207.06" font-family="Times,serif" font-size="14.00">association</text>
+</g>
+
+<g id="edge47" class="edge">
+<title>IL6-&gt;JAK3</title>
+<path fill="none" stroke="black" d="M937.59,-57.12C834.87,-159.84 236.57,-758.15 110.18,-884.53"></path>
+<polygon fill="black" stroke="black" points="107.47,-882.3 102.87,-891.84 112.42,-887.25 107.47,-882.3"></polygon>
+<text text-anchor="middle" x="483.89" y="-474.63" font-family="Times,serif" font-size="14.00">association</text>
+</g>
+
+<g id="edge22" class="edge">
+<title>IL6-&gt;STAT1</title>
+<path fill="none" stroke="black" d="M947.86,-59.86C908.88,-205.33 642.51,-1199.45 594.17,-1379.85"></path>
+<polygon fill="black" stroke="black" points="590.75,-1379.08 591.55,-1389.65 597.52,-1380.89 590.75,-1379.08"></polygon>
+<text text-anchor="middle" x="731.02" y="-708.65" font-family="Times,serif" font-size="14.00">association</text>
+</g>
+
+<g id="edge44" class="edge">
+<title>CD8B-&gt;TNF</title>
+<path fill="none" stroke="black" d="M1445.12,-524.08C1432.74,-494.2 1407.81,-434.01 1393.23,-398.82"></path>
+<polygon fill="black" stroke="black" points="1396.3,-397.08 1389.24,-389.18 1389.83,-399.76 1396.3,-397.08"></polygon>
+<text text-anchor="middle" x="1379.17" y="-465.25" font-family="Times,serif" font-size="14.00">association</text>
+</g>
+
+<g id="edge29" class="edge">
+<title>CD8B-&gt;IFNG</title>
+<path fill="none" stroke="black" d="M1432.3,-557.54C1303.19,-656.61 595.3,-1199.79 444.43,-1315.56"></path>
+<polygon fill="black" stroke="black" points="441.89,-1313.1 436.09,-1321.96 446.15,-1318.65 441.89,-1313.1"></polygon>
+<text text-anchor="middle" x="898.37" y="-940.35" font-family="Times,serif" font-size="14.00">association</text>
+</g>
+
+<g id="edge50" class="edge">
+<title>IL10-&gt;JAK3</title>
+<path fill="none" stroke="black" d="M150.07,-1060.88C137.76,-1031.14 112.74,-970.75 98.11,-935.42"></path>
+<polygon fill="black" stroke="black" points="101.16,-933.64 94.1,-925.74 94.69,-936.32 101.16,-933.64"></polygon>
+<text text-anchor="middle" x="84.09" y="-1001.95" font-family="Times,serif" font-size="14.00">association</text>
+</g>
+
+<g id="edge86" class="edge">
+<title>IL10-&gt;TYK2</title>
+<path fill="none" stroke="black" d="M170.26,-1095.28C189.88,-1120.85 227.37,-1169.72 250.3,-1199.6"></path>
+<polygon fill="black" stroke="black" points="247.77,-1202.06 256.64,-1207.86 253.33,-1197.79 247.77,-1202.06"></polygon>
+<text text-anchor="middle" x="170.28" y="-1151.24" font-family="Times,serif" font-size="14.00">association</text>
+</g>
+
+<g id="node16" class="node">
+<title>CCR5</title>
+<ellipse fill="lightgrey" stroke="black" cx="1123.14" cy="-112.72" rx="37.09" ry="18"></ellipse>
+<text text-anchor="middle" x="1123.14" y="-109.02" font-family="Times,serif" font-size="14.00">CCR5</text>
+</g>
+
+<g id="edge52" class="edge">
+<title>CCR5-&gt;CD4</title>
+<path fill="none" stroke="black" d="M1130.7,-130.61C1174.61,-217.88 1394.02,-598.28 1458.75,-699.95"></path>
+<polygon fill="black" stroke="black" points="1455.83,-701.87 1464.18,-708.38 1461.71,-698.08 1455.83,-701.87"></polygon>
+<text text-anchor="middle" x="1278.72" y="-419.08" font-family="Times,serif" font-size="14.00">bind</text>
+</g>
+
+<g id="edge57" class="edge">
+<title>CCR5-&gt;CD4</title>
+<path fill="none" stroke="black" d="M1135.88,-129.79C1191.47,-215.01 1410.42,-593.99 1464.59,-698.34"></path>
+<polygon fill="black" stroke="black" points="1461.5,-699.98 1469.17,-707.29 1467.73,-696.8 1461.5,-699.98"></polygon>
+<text text-anchor="middle" x="1260.24" y="-402.86" font-family="Times,serif" font-size="14.00">association</text>
+</g>
+
+<g id="edge91" class="edge">
+<title>CCR5-&gt;IL6</title>
+<path fill="none" stroke="black" d="M1094.6,-100.9C1064.35,-88.37 1016.68,-68.62 985.04,-55.52"></path>
+<polygon fill="black" stroke="black" points="986.35,-52.27 975.77,-51.68 983.67,-58.74 986.35,-52.27"></polygon>
+<text text-anchor="middle" x="999.82" y="-82.01" font-family="Times,serif" font-size="14.00">association</text>
+</g>
+
+<g id="node17" class="node">
+<title>S</title>
+<ellipse fill="lightgrey" stroke="black" cx="416.14" cy="-112.72" rx="27" ry="18"></ellipse>
+<text text-anchor="middle" x="416.14" y="-109.02" font-family="Times,serif" font-size="14.00">S</text>
+</g>
+
+<g id="edge54" class="edge">
+<title>S-&gt;CD4</title>
+<path fill="none" stroke="black" d="M434.91,-125.88C560.56,-205.51 1279.07,-620.54 1443.24,-708.62"></path>
+<polygon fill="black" stroke="black" points="1441.91,-711.88 1452.38,-713.49 1445.2,-705.7 1441.91,-711.88"></polygon>
+<text text-anchor="middle" x="923.08" y="-421.05" font-family="Times,serif" font-size="14.00">bind</text>
+</g>
+
+<g id="edge59" class="edge">
+<title>S-&gt;CD4</title>
+<path fill="none" stroke="black" d="M438.37,-123.15C574.52,-194.71 1294.84,-610.45 1448,-705.65"></path>
+<polygon fill="black" stroke="black" points="1446.53,-708.86 1456.86,-711.2 1450.25,-702.93 1446.53,-708.86"></polygon>
+<text text-anchor="middle" x="983.18" y="-418.2" font-family="Times,serif" font-size="14.00">association</text>
+</g>
+
+<g id="edge92" class="edge">
+<title>S-&gt;ACE2</title>
+<path fill="none" stroke="black" d="M442.08,-107.25C472.53,-97.11 522.95,-76.44 555.49,-60.93"></path>
+<polygon fill="black" stroke="black" points="557.12,-64.03 564.57,-56.5 554.05,-57.74 557.12,-64.03"></polygon>
+<text text-anchor="middle" x="482.79" y="-87.89" font-family="Times,serif" font-size="14.00">bind</text>
+</g>
+
+<g id="edge93" class="edge">
+<title>S-&gt;ACE2</title>
+<path fill="none" stroke="black" d="M435.29,-99.8C461.53,-86.37 509.34,-66.13 544.24,-53.35"></path>
+<polygon fill="black" stroke="black" points="545.48,-56.62 553.71,-49.96 543.11,-50.03 545.48,-56.62"></polygon>
+<text text-anchor="middle" x="449.76" y="-65.37" font-family="Times,serif" font-size="14.00">association</text>
+</g>
+
+<g id="node18" class="node">
+<title>MICA</title>
+<ellipse fill="lightgrey" stroke="black" cx="1381.91" cy="-1078.49" rx="36.29" ry="18"></ellipse>
+<text text-anchor="middle" x="1381.91" y="-1074.79" font-family="Times,serif" font-size="14.00">MICA</text>
+</g>
+
+<g id="edge55" class="edge">
+<title>MICA-&gt;CD4</title>
+<path fill="none" stroke="black" d="M1386.74,-1060.47C1402.19,-1002.79 1450.53,-822.4 1469.18,-752.78"></path>
+<polygon fill="black" stroke="black" points="1472.61,-753.54 1471.81,-742.97 1465.84,-751.72 1472.61,-753.54"></polygon>
+<text text-anchor="middle" x="1387.96" y="-910.43" font-family="Times,serif" font-size="14.00">association</text>
+</g>
+
+<g id="edge83" class="edge">
+<title>MICA-&gt;IFNG</title>
+<path fill="none" stroke="black" d="M1349.78,-1087.1C1205.82,-1125.67 620.18,-1282.59 457.97,-1326.06"></path>
+<polygon fill="black" stroke="black" points="456.66,-1322.78 447.91,-1328.75 458.47,-1329.55 456.66,-1322.78"></polygon>
+<text text-anchor="middle" x="863.87" y="-1210.38" font-family="Times,serif" font-size="14.00">association</text>
+</g>
+
+<g id="node19" class="node">
+<title>HLA-B</title>
+<ellipse fill="lightgrey" stroke="black" cx="1269.56" cy="-1224.91" rx="40.09" ry="18"></ellipse>
+<text text-anchor="middle" x="1269.56" y="-1221.21" font-family="Times,serif" font-size="14.00">HLA-B</text>
+</g>
+
+<g id="edge87" class="edge">
+<title>MICA-&gt;HLA-B</title>
+<path fill="none" stroke="black" d="M1363.98,-1094.19C1341.47,-1119.21 1303.76,-1168.13 1283.36,-1198.56"></path>
+<polygon fill="black" stroke="black" points="1280.39,-1196.7 1277.85,-1206.99 1286.25,-1200.53 1280.39,-1196.7"></polygon>
+<text text-anchor="middle" x="1283.67" y="-1150.17" font-family="Times,serif" font-size="14.00">association</text>
+</g>
+
+<g id="edge89" class="edge">
+<title>MICA-&gt;HLA-B</title>
+<path fill="none" stroke="black" d="M1373.73,-1096.23C1357.13,-1122.54 1319.85,-1171.72 1294.6,-1201.11"></path>
+<polygon fill="black" stroke="black" points="1291.78,-1199.01 1287.83,-1208.84 1297.05,-1203.63 1291.78,-1199.01"></polygon>
+<text text-anchor="middle" x="1350.16" y="-1152.47" font-family="Times,serif" font-size="14.00">bind</text>
+</g>
+
+<g id="node21" class="node">
+<title>MICB</title>
+<ellipse fill="lightgrey" stroke="black" cx="1452.54" cy="-907.97" rx="37.09" ry="18"></ellipse>
+<text text-anchor="middle" x="1452.54" y="-904.27" font-family="Times,serif" font-size="14.00">MICB</text>
+</g>
+
+<g id="edge66" class="edge">
+<title>MICA-&gt;MICB</title>
+<path fill="none" stroke="black" d="M1393.84,-1061.28C1409.18,-1031.77 1434.42,-971.33 1446.45,-935.78"></path>
+<polygon fill="black" stroke="black" points="1449.85,-936.62 1449.6,-926.03 1443.19,-934.47 1449.85,-936.62"></polygon>
+<text text-anchor="middle" x="1404.14" y="-1002.33" font-family="Times,serif" font-size="14.00">bind</text>
+</g>
+
+<g id="edge68" class="edge">
+<title>MICA-&gt;MICB</title>
+<path fill="none" stroke="black" d="M1384.82,-1060.54C1394.03,-1030.34 1418.93,-969.35 1436.03,-934.3"></path>
+<polygon fill="black" stroke="black" points="1439.27,-935.66 1440.63,-925.15 1433.01,-932.52 1439.27,-935.66"></polygon>
+<text text-anchor="middle" x="1370.43" y="-986.22" font-family="Times,serif" font-size="14.00">association</text>
+</g>
+
+<g id="edge56" class="edge">
+<title>HLA-B-&gt;CD4</title>
+<path fill="none" stroke="black" d="M1276.93,-1207.12C1307.97,-1132.18 1428.18,-841.96 1465.51,-751.84"></path>
+<polygon fill="black" stroke="black" points="1468.76,-753.15 1469.35,-742.57 1462.29,-750.47 1468.76,-753.15"></polygon>
+<text text-anchor="middle" x="1331.22" y="-968.28" font-family="Times,serif" font-size="14.00">association</text>
+</g>
+
+<g id="edge82" class="edge">
+<title>HLA-B-&gt;TNF</title>
+<path fill="none" stroke="black" d="M1271.96,-1206.69C1286.29,-1097.79 1360.63,-533.13 1378.19,-399.75"></path>
+<polygon fill="black" stroke="black" points="1381.7,-399.92 1379.54,-389.54 1374.76,-399 1381.7,-399.92"></polygon>
+<text text-anchor="middle" x="1285.07" y="-807.02" font-family="Times,serif" font-size="14.00">association</text>
+</g>
+
+<g id="edge90" class="edge">
+<title>HLA-B-&gt;CXCR4</title>
+<path fill="none" stroke="black" d="M1253.04,-1208.39C1136.04,-1091.4 433.19,-388.54 293.75,-249.11"></path>
+<polygon fill="black" stroke="black" points="296,-246.41 286.46,-241.81 291.05,-251.36 296,-246.41"></polygon>
+<text text-anchor="middle" x="813.4" y="-717.55" font-family="Times,serif" font-size="14.00">association</text>
+</g>
+
+<g id="edge69" class="edge">
+<title>HLA-B-&gt;STAT1</title>
+<path fill="none" stroke="black" d="M1234.75,-1234.24C1120.7,-1264.8 758.25,-1361.92 631.19,-1395.96"></path>
+<polygon fill="black" stroke="black" points="630.14,-1392.62 621.39,-1398.59 631.96,-1399.38 630.14,-1392.62"></polygon>
+<text text-anchor="middle" x="892.97" y="-1318.9" font-family="Times,serif" font-size="14.00">association</text>
+</g>
+
+<g id="edge88" class="edge">
+<title>HLA-B-&gt;IL1B</title>
+<path fill="none" stroke="black" d="M1269.56,-1206.7C1269.56,-1085.99 1269.56,-401.4 1269.56,-253.32"></path>
+<polygon fill="black" stroke="black" points="1273.06,-253.23 1269.56,-243.23 1266.06,-253.23 1273.06,-253.23"></polygon>
+<text text-anchor="middle" x="1229.56" y="-733.81" font-family="Times,serif" font-size="14.00">association</text>
+</g>
+
+<g id="edge67" class="edge">
+<title>HLA-B-&gt;MICB</title>
+<path fill="none" stroke="black" d="M1279.66,-1207.42C1310.09,-1154.71 1401.03,-997.2 1437.33,-934.32"></path>
+<polygon fill="black" stroke="black" points="1440.5,-935.82 1442.47,-925.41 1434.44,-932.32 1440.5,-935.82"></polygon>
+<text text-anchor="middle" x="1318.49" y="-1059.67" font-family="Times,serif" font-size="14.00">association</text>
+</g>
+
+<g id="node23" class="node">
+<title>IFNA1</title>
+<ellipse fill="lightgrey" stroke="black" cx="952.62" cy="-1407.89" rx="40.09" ry="18"></ellipse>
+<text text-anchor="middle" x="952.62" y="-1404.19" font-family="Times,serif" font-size="14.00">IFNA1</text>
+</g>
+
+<g id="edge71" class="edge">
+<title>HLA-B-&gt;IFNA1</title>
+<path fill="none" stroke="black" d="M1244.69,-1239.27C1188.22,-1271.87 1050.27,-1351.52 986.26,-1388.47"></path>
+<polygon fill="black" stroke="black" points="984.29,-1385.57 977.38,-1393.6 987.79,-1391.63 984.29,-1385.57"></polygon>
+<text text-anchor="middle" x="1075.48" y="-1302.67" font-family="Times,serif" font-size="14.00">association</text>
+</g>
+
+<g id="node20" class="node">
+<title>HLA-C</title>
+<ellipse fill="lightgrey" stroke="black" cx="1588.93" cy="-724.99" rx="40.09" ry="18"></ellipse>
+<text text-anchor="middle" x="1588.93" y="-721.29" font-family="Times,serif" font-size="14.00">HLA-C</text>
+</g>
+
+<g id="edge58" class="edge">
+<title>HLA-C-&gt;CD4</title>
+<path fill="none" stroke="black" d="M1548.39,-724.99C1538.31,-724.99 1527.52,-724.99 1517.43,-724.99"></path>
+<polygon fill="black" stroke="black" points="1517.24,-721.49 1507.24,-724.99 1517.24,-728.49 1517.24,-721.49"></polygon>
+<text text-anchor="middle" x="1552.91" y="-713.79" font-family="Times,serif" font-size="14.00">association</text>
+</g>
+
+<g id="edge60" class="edge">
+<title>MICB-&gt;CD4</title>
+<path fill="none" stroke="black" d="M1454.94,-889.76C1459.14,-857.84 1467.87,-791.57 1472.88,-753.52"></path>
+<polygon fill="black" stroke="black" points="1476.41,-753.5 1474.24,-743.13 1469.47,-752.59 1476.41,-753.5"></polygon>
+<text text-anchor="middle" x="1423.91" y="-825.44" font-family="Times,serif" font-size="14.00">association</text>
+</g>
+
+<g id="edge65" class="edge">
+<title>TYK2-&gt;CD4</title>
+<path fill="none" stroke="black" d="M297.2,-1213.53C456.9,-1147.38 1264.7,-812.78 1442.14,-739.28"></path>
+<polygon fill="black" stroke="black" points="1443.62,-742.45 1451.52,-735.39 1440.94,-735.99 1443.62,-742.45"></polygon>
+<text text-anchor="middle" x="829.67" y="-980.2" font-family="Times,serif" font-size="14.00">association</text>
+</g>
+
+<g id="edge81" class="edge">
+<title>IFNA1-&gt;CD4</title>
+<path fill="none" stroke="black" d="M965.84,-1390.67C1036.93,-1298.02 1373.78,-859.03 1457.68,-749.7"></path>
+<polygon fill="black" stroke="black" points="1460.61,-751.62 1463.92,-741.55 1455.06,-747.35 1460.61,-751.62"></polygon>
+<text text-anchor="middle" x="1171.76" y="-1058.98" font-family="Times,serif" font-size="14.00">association</text>
+</g>
+
+<g id="edge72" class="edge">
+<title>IFNA1-&gt;STAT1</title>
+<path fill="none" stroke="black" d="M912.06,-1407.89C844.92,-1407.89 710.84,-1407.89 637.49,-1407.89"></path>
+<polygon fill="black" stroke="black" points="637.12,-1404.39 627.12,-1407.89 637.12,-1411.39 637.12,-1404.39"></polygon>
+<text text-anchor="middle" x="814.77" y="-1396.69" font-family="Times,serif" font-size="14.00">association</text>
+</g>
+
+<g id="edge73" class="edge">
+<title>IFNA1-&gt;IL1B</title>
+<path fill="none" stroke="black" d="M957.47,-1389.79C993.41,-1255.69 1217.99,-417.51 1262.06,-253.05"></path>
+<polygon fill="black" stroke="black" points="1265.49,-253.78 1264.7,-243.21 1258.73,-251.96 1265.49,-253.78"></polygon>
+<text text-anchor="middle" x="1069.77" y="-825.22" font-family="Times,serif" font-size="14.00">association</text>
+</g>
+
+<g id="edge80" class="edge">
+<title>IFNA1-&gt;TYK2</title>
+<path fill="none" stroke="black" d="M917.82,-1398.57C802.69,-1367.72 434.45,-1269.05 310.72,-1235.9"></path>
+<polygon fill="black" stroke="black" points="311.44,-1232.47 300.88,-1233.26 309.63,-1239.23 311.44,-1232.47"></polygon>
+<text text-anchor="middle" x="574.27" y="-1321.03" font-family="Times,serif" font-size="14.00">association</text>
+</g>
+
+<g id="node24" class="node">
+<title>ORF6</title>
+<ellipse fill="lightgrey" stroke="black" cx="1123.14" cy="-1337.26" rx="37.09" ry="18"></ellipse>
+<text text-anchor="middle" x="1123.14" y="-1333.56" font-family="Times,serif" font-size="14.00">ORF6</text>
+</g>
+
+<g id="edge74" class="edge">
+<title>IFNA1-&gt;ORF6</title>
+<path fill="none" stroke="black" d="M982.32,-1395.59C1010.91,-1383.75 1054.25,-1365.8 1085.29,-1352.94"></path>
+<polygon fill="black" stroke="black" points="1087.01,-1356.02 1094.91,-1348.96 1084.33,-1349.55 1087.01,-1356.02"></polygon>
+<text text-anchor="middle" x="993.81" y="-1378.06" font-family="Times,serif" font-size="14.00">association</text>
+</g>
+
+<g id="node25" class="node">
+<title>CXCL10</title>
+<ellipse fill="lightgrey" stroke="black" cx="157.37" cy="-371.5" rx="48.19" ry="18"></ellipse>
+<text text-anchor="middle" x="157.37" y="-367.8" font-family="Times,serif" font-size="14.00">CXCL10</text>
+</g>
+
+<g id="edge77" class="edge">
+<title>IFNA1-&gt;CXCL10</title>
+<path fill="none" stroke="black" d="M939.48,-1390.77C846.52,-1269.62 288.5,-542.39 176.82,-396.84"></path>
+<polygon fill="black" stroke="black" points="179.54,-394.65 170.68,-388.84 173.99,-398.91 179.54,-394.65"></polygon>
+<text text-anchor="middle" x="518.15" y="-897.61" font-family="Times,serif" font-size="14.00">association</text>
+</g>
+
+<g id="edge76" class="edge">
+<title>ORF6-&gt;CD4</title>
+<path fill="none" stroke="black" d="M1133.15,-1319.93C1182.72,-1234.06 1401.94,-854.36 1461.6,-751.03"></path>
+<polygon fill="black" stroke="black" points="1464.74,-752.59 1466.71,-742.18 1458.68,-749.09 1464.74,-752.59"></polygon>
+<text text-anchor="middle" x="1257.37" y="-1039.28" font-family="Times,serif" font-size="14.00">association</text>
+</g>
+
+<g id="edge75" class="edge">
+<title>ORF6-&gt;STAT1</title>
+<path fill="none" stroke="black" d="M1087.1,-1342.01C993.43,-1354.34 742.15,-1387.42 635.55,-1401.46"></path>
+<polygon fill="black" stroke="black" points="634.85,-1398.02 625.39,-1402.79 635.77,-1404.96 634.85,-1398.02"></polygon>
+<text text-anchor="middle" x="821.33" y="-1375.53" font-family="Times,serif" font-size="14.00">association</text>
+</g>
+
+<g id="edge79" class="edge">
+<title>CXCL10-&gt;CXCR4</title>
+<path fill="none" stroke="black" d="M170.7,-354.12C190.38,-328.48 227.33,-280.32 250.11,-250.63"></path>
+<polygon fill="black" stroke="black" points="253.1,-252.49 256.41,-242.42 247.54,-248.22 253.1,-252.49"></polygon>
+<text text-anchor="middle" x="170.4" y="-306.18" font-family="Times,serif" font-size="14.00">association</text>
+</g>
+
+<g id="edge78" class="edge">
+<title>CXCL10-&gt;STAT1</title>
+<path fill="none" stroke="black" d="M164.82,-389.48C215.81,-512.59 513.09,-1230.3 575.26,-1380.38"></path>
+<polygon fill="black" stroke="black" points="572.11,-1381.92 579.17,-1389.82 578.58,-1379.24 572.11,-1381.92"></polygon>
+<text text-anchor="middle" x="330.04" y="-888.73" font-family="Times,serif" font-size="14.00">association</text>
+</g>
+</g>
+</g></svg>

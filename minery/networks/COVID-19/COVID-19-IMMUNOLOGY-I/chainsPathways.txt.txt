@@ -1,0 +1,3168 @@
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',association,'CXCR4'; 'COVID-19',positive_correlation,'CXCR4'; 'COVID-19',negative_correlation,'CXCR4'; 
+
+Pathway=> 'CXCR4',association,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',negative_correlation,'CD4'
+
+Linking events:  'ACE2',association,'CD4'
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',negative_correlation,'CXCR4'
+
+Linking events:  'CXCR4',association,'CD4'; 'CXCR4',bind,'CD4'; 
+
+Pathway=> 'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',association,'CXCR4'; 'COVID-19',positive_correlation,'CXCR4'; 'COVID-19',negative_correlation,'CXCR4'; 
+
+Pathway=> 'CXCR4',association,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',negative_correlation,'CD4'
+
+Linking events:  'ACE2',association,'CD4'
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',negative_correlation,'CXCR4'
+
+Linking events:  'CXCR4',association,'CD4'; 'CXCR4',bind,'CD4'; 
+
+Pathway=> 'CD4',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',association,'CXCR4'; 'COVID-19',positive_correlation,'CXCR4'; 'COVID-19',negative_correlation,'CXCR4'; 
+
+Pathway=> 'CXCR4',association,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',negative_correlation,'CD4'
+
+Linking events:  'ACE2',association,'CD4'
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',positive_correlation,'CXCR4'
+
+Linking events:  'CXCR4',association,'CD4'; 'CXCR4',bind,'CD4'; 
+
+Pathway=> 'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',association,'CXCR4'; 'COVID-19',positive_correlation,'CXCR4'; 'COVID-19',negative_correlation,'CXCR4'; 
+
+Pathway=> 'CXCR4',association,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',negative_correlation,'CD4'
+
+Linking events:  'ACE2',association,'CD4'
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',positive_correlation,'CXCR4'
+
+Linking events:  'CXCR4',association,'CD4'; 'CXCR4',bind,'CD4'; 
+
+Pathway=> 'CD4',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',association,'CXCR4'; 'COVID-19',positive_correlation,'CXCR4'; 'COVID-19',negative_correlation,'CXCR4'; 
+
+Pathway=> 'CXCR4',association,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',negative_correlation,'CD4'
+
+Linking events:  'ACE2',association,'CD4'
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',association,'CXCR4'; 'COVID-19',positive_correlation,'CXCR4'; 'COVID-19',negative_correlation,'CXCR4'; 
+
+Pathway=> 'CXCR4',association,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',negative_correlation,'CD4'
+
+Linking events:  'ACE2',association,'CD4'
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'STAT3';'STAT3',negative_correlation,'CXCR4'
+
+Linking events:  'CXCR4',association,'CD4'; 'CXCR4',bind,'CD4'; 
+
+Pathway=> 'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',association,'CXCR4'; 'COVID-19',positive_correlation,'CXCR4'; 'COVID-19',negative_correlation,'CXCR4'; 
+
+Pathway=> 'CXCR4',association,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',negative_correlation,'CD4'
+
+Linking events:  'ACE2',association,'CD4'
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'STAT3';'STAT3',negative_correlation,'CXCR4'
+
+Linking events:  'CXCR4',association,'CD4'; 'CXCR4',bind,'CD4'; 
+
+Pathway=> 'CD4',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',association,'CXCR4'; 'COVID-19',positive_correlation,'CXCR4'; 'COVID-19',negative_correlation,'CXCR4'; 
+
+Pathway=> 'CXCR4',association,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',negative_correlation,'CD4'
+
+Linking events:  'ACE2',association,'CD4'
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'STAT3';'STAT3',positive_correlation,'CXCR4'
+
+Linking events:  'CXCR4',association,'CD4'; 'CXCR4',bind,'CD4'; 
+
+Pathway=> 'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',association,'CXCR4'; 'COVID-19',positive_correlation,'CXCR4'; 'COVID-19',negative_correlation,'CXCR4'; 
+
+Pathway=> 'CXCR4',association,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',negative_correlation,'CD4'
+
+Linking events:  'ACE2',association,'CD4'
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'STAT3';'STAT3',positive_correlation,'CXCR4'
+
+Linking events:  'CXCR4',association,'CD4'; 'CXCR4',bind,'CD4'; 
+
+Pathway=> 'CD4',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',association,'CXCR4'; 'COVID-19',positive_correlation,'CXCR4'; 'COVID-19',negative_correlation,'CXCR4'; 
+
+Pathway=> 'CXCR4',association,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',negative_correlation,'CD4'
+
+Linking events:  'ACE2',association,'CD4'
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',association,'CXCR4'; 'COVID-19',positive_correlation,'CXCR4'; 'COVID-19',negative_correlation,'CXCR4'; 
+
+Pathway=> 'CXCR4',association,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',negative_correlation,'CD4'
+
+Linking events:  'ACE2',negative_correlation,'CD4'; 'ACE2',association,'CD4'; 
+
+Pathway=> 'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',positive_correlation,'ACE2'
+
+Linking events:  'ACE2',association,'CD4'
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',association,'CXCR4'; 'COVID-19',positive_correlation,'CXCR4'; 'COVID-19',negative_correlation,'CXCR4'; 
+
+Pathway=> 'CXCR4',association,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',negative_correlation,'CD4'
+
+Linking events:  'ACE2',negative_correlation,'CD4'; 'ACE2',association,'CD4'; 
+
+Pathway=> 'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',positive_correlation,'ACE2'
+
+Linking events:  'ACE2',association,'CD4'
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',association,'CXCR4'; 'COVID-19',positive_correlation,'CXCR4'; 'COVID-19',negative_correlation,'CXCR4'; 
+
+Pathway=> 'CXCR4',association,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',negative_correlation,'CD4'
+
+Linking events:  'ACE2',negative_correlation,'CD4'; 'ACE2',association,'CD4'; 
+
+Pathway=> 'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',association,'CXCR4'; 'COVID-19',positive_correlation,'CXCR4'; 'COVID-19',negative_correlation,'CXCR4'; 
+
+Pathway=> 'CXCR4',association,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',negative_correlation,'CD4'
+
+Linking events:  'ACE2',negative_correlation,'CD4'; 'ACE2',association,'CD4'; 
+
+Pathway=> 'CD4',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',association,'CXCR4'; 'COVID-19',positive_correlation,'CXCR4'; 'COVID-19',negative_correlation,'CXCR4'; 
+
+Pathway=> 'CXCR4',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',negative_correlation,'CD4'
+
+Linking events:  'ACE2',association,'CD4'
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',negative_correlation,'CXCR4'
+
+Linking events:  'CXCR4',association,'CD4'; 'CXCR4',bind,'CD4'; 
+
+Pathway=> 'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',association,'CXCR4'; 'COVID-19',positive_correlation,'CXCR4'; 'COVID-19',negative_correlation,'CXCR4'; 
+
+Pathway=> 'CXCR4',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',negative_correlation,'CD4'
+
+Linking events:  'ACE2',association,'CD4'
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',negative_correlation,'CXCR4'
+
+Linking events:  'CXCR4',association,'CD4'; 'CXCR4',bind,'CD4'; 
+
+Pathway=> 'CD4',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',association,'CXCR4'; 'COVID-19',positive_correlation,'CXCR4'; 'COVID-19',negative_correlation,'CXCR4'; 
+
+Pathway=> 'CXCR4',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',negative_correlation,'CD4'
+
+Linking events:  'ACE2',association,'CD4'
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',positive_correlation,'CXCR4'
+
+Linking events:  'CXCR4',association,'CD4'; 'CXCR4',bind,'CD4'; 
+
+Pathway=> 'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',association,'CXCR4'; 'COVID-19',positive_correlation,'CXCR4'; 'COVID-19',negative_correlation,'CXCR4'; 
+
+Pathway=> 'CXCR4',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',negative_correlation,'CD4'
+
+Linking events:  'ACE2',association,'CD4'
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',positive_correlation,'CXCR4'
+
+Linking events:  'CXCR4',association,'CD4'; 'CXCR4',bind,'CD4'; 
+
+Pathway=> 'CD4',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',association,'CXCR4'; 'COVID-19',positive_correlation,'CXCR4'; 'COVID-19',negative_correlation,'CXCR4'; 
+
+Pathway=> 'CXCR4',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',negative_correlation,'CD4'
+
+Linking events:  'ACE2',association,'CD4'
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',association,'CXCR4'; 'COVID-19',positive_correlation,'CXCR4'; 'COVID-19',negative_correlation,'CXCR4'; 
+
+Pathway=> 'CXCR4',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',negative_correlation,'CD4'
+
+Linking events:  'ACE2',association,'CD4'
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'STAT3';'STAT3',negative_correlation,'CXCR4'
+
+Linking events:  'CXCR4',association,'CD4'; 'CXCR4',bind,'CD4'; 
+
+Pathway=> 'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',association,'CXCR4'; 'COVID-19',positive_correlation,'CXCR4'; 'COVID-19',negative_correlation,'CXCR4'; 
+
+Pathway=> 'CXCR4',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',negative_correlation,'CD4'
+
+Linking events:  'ACE2',association,'CD4'
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'STAT3';'STAT3',negative_correlation,'CXCR4'
+
+Linking events:  'CXCR4',association,'CD4'; 'CXCR4',bind,'CD4'; 
+
+Pathway=> 'CD4',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',association,'CXCR4'; 'COVID-19',positive_correlation,'CXCR4'; 'COVID-19',negative_correlation,'CXCR4'; 
+
+Pathway=> 'CXCR4',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',negative_correlation,'CD4'
+
+Linking events:  'ACE2',association,'CD4'
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'STAT3';'STAT3',positive_correlation,'CXCR4'
+
+Linking events:  'CXCR4',association,'CD4'; 'CXCR4',bind,'CD4'; 
+
+Pathway=> 'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',association,'CXCR4'; 'COVID-19',positive_correlation,'CXCR4'; 'COVID-19',negative_correlation,'CXCR4'; 
+
+Pathway=> 'CXCR4',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',negative_correlation,'CD4'
+
+Linking events:  'ACE2',association,'CD4'
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'STAT3';'STAT3',positive_correlation,'CXCR4'
+
+Linking events:  'CXCR4',association,'CD4'; 'CXCR4',bind,'CD4'; 
+
+Pathway=> 'CD4',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',association,'CXCR4'; 'COVID-19',positive_correlation,'CXCR4'; 'COVID-19',negative_correlation,'CXCR4'; 
+
+Pathway=> 'CXCR4',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',negative_correlation,'CD4'
+
+Linking events:  'ACE2',association,'CD4'
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',association,'CXCR4'; 'COVID-19',positive_correlation,'CXCR4'; 'COVID-19',negative_correlation,'CXCR4'; 
+
+Pathway=> 'CXCR4',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',negative_correlation,'CD4'
+
+Linking events:  'ACE2',negative_correlation,'CD4'; 'ACE2',association,'CD4'; 
+
+Pathway=> 'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',positive_correlation,'ACE2'
+
+Linking events:  'ACE2',association,'CD4'
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',association,'CXCR4'; 'COVID-19',positive_correlation,'CXCR4'; 'COVID-19',negative_correlation,'CXCR4'; 
+
+Pathway=> 'CXCR4',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',negative_correlation,'CD4'
+
+Linking events:  'ACE2',negative_correlation,'CD4'; 'ACE2',association,'CD4'; 
+
+Pathway=> 'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',positive_correlation,'ACE2'
+
+Linking events:  'ACE2',association,'CD4'
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',association,'CXCR4'; 'COVID-19',positive_correlation,'CXCR4'; 'COVID-19',negative_correlation,'CXCR4'; 
+
+Pathway=> 'CXCR4',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',negative_correlation,'CD4'
+
+Linking events:  'ACE2',negative_correlation,'CD4'; 'ACE2',association,'CD4'; 
+
+Pathway=> 'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',association,'CXCR4'; 'COVID-19',positive_correlation,'CXCR4'; 'COVID-19',negative_correlation,'CXCR4'; 
+
+Pathway=> 'CXCR4',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',negative_correlation,'CD4'
+
+Linking events:  'ACE2',negative_correlation,'CD4'; 'ACE2',association,'CD4'; 
+
+Pathway=> 'CD4',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',positive_correlation,'ACE2'; 'COVID-19',association,'ACE2'; 
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',negative_correlation,'CXCR4'
+
+Linking events:  'CXCR4',association,'CD4'
+
+Pathway=> 'CXCR4',association,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',negative_correlation,'CD4'
+
+Linking events:  'ACE2',negative_correlation,'CD4'; 'ACE2',association,'CD4'; 
+
+Pathway=> 'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',positive_correlation,'ACE2'; 'COVID-19',association,'ACE2'; 
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',negative_correlation,'CXCR4'
+
+Linking events:  'CXCR4',association,'CD4'
+
+Pathway=> 'CXCR4',association,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',negative_correlation,'CD4'
+
+Linking events:  'ACE2',negative_correlation,'CD4'; 'ACE2',association,'CD4'; 
+
+Pathway=> 'CD4',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',positive_correlation,'ACE2'; 'COVID-19',association,'ACE2'; 
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',negative_correlation,'CXCR4'
+
+Linking events:  'CXCR4',bind,'CD4'
+
+Pathway=> 'CXCR4',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',negative_correlation,'CD4'
+
+Linking events:  'ACE2',negative_correlation,'CD4'; 'ACE2',association,'CD4'; 
+
+Pathway=> 'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',positive_correlation,'ACE2'; 'COVID-19',association,'ACE2'; 
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',negative_correlation,'CXCR4'
+
+Linking events:  'CXCR4',bind,'CD4'
+
+Pathway=> 'CXCR4',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',negative_correlation,'CD4'
+
+Linking events:  'ACE2',negative_correlation,'CD4'; 'ACE2',association,'CD4'; 
+
+Pathway=> 'CD4',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',positive_correlation,'ACE2'; 'COVID-19',association,'ACE2'; 
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',negative_correlation,'CXCR4'
+
+Linking events:  'CXCR4',association,'CD4'
+
+Pathway=> 'CXCR4',association,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',positive_correlation,'ACE2'
+
+Linking events:  'ACE2',negative_correlation,'CD4'; 'ACE2',association,'CD4'; 
+
+Pathway=> 'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',positive_correlation,'ACE2'; 'COVID-19',association,'ACE2'; 
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',negative_correlation,'CXCR4'
+
+Linking events:  'CXCR4',association,'CD4'
+
+Pathway=> 'CXCR4',association,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',positive_correlation,'ACE2'
+
+Linking events:  'ACE2',negative_correlation,'CD4'; 'ACE2',association,'CD4'; 
+
+Pathway=> 'CD4',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',positive_correlation,'ACE2'; 'COVID-19',association,'ACE2'; 
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',negative_correlation,'CXCR4'
+
+Linking events:  'CXCR4',bind,'CD4'
+
+Pathway=> 'CXCR4',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',positive_correlation,'ACE2'
+
+Linking events:  'ACE2',negative_correlation,'CD4'; 'ACE2',association,'CD4'; 
+
+Pathway=> 'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',positive_correlation,'ACE2'; 'COVID-19',association,'ACE2'; 
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',negative_correlation,'CXCR4'
+
+Linking events:  'CXCR4',bind,'CD4'
+
+Pathway=> 'CXCR4',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',positive_correlation,'ACE2'
+
+Linking events:  'ACE2',negative_correlation,'CD4'; 'ACE2',association,'CD4'; 
+
+Pathway=> 'CD4',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',positive_correlation,'ACE2'; 'COVID-19',association,'ACE2'; 
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',negative_correlation,'CXCR4'
+
+Linking events:  'CXCR4',association,'CD4'
+
+Pathway=> 'CXCR4',association,'CD4';'CD4',association,'STAT3';'STAT3',positive_correlation,'ACE2'
+
+Linking events:  'ACE2',negative_correlation,'CD4'; 'ACE2',association,'CD4'; 
+
+Pathway=> 'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',positive_correlation,'ACE2'; 'COVID-19',association,'ACE2'; 
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',negative_correlation,'CXCR4'
+
+Linking events:  'CXCR4',association,'CD4'
+
+Pathway=> 'CXCR4',association,'CD4';'CD4',association,'STAT3';'STAT3',positive_correlation,'ACE2'
+
+Linking events:  'ACE2',negative_correlation,'CD4'; 'ACE2',association,'CD4'; 
+
+Pathway=> 'CD4',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',positive_correlation,'ACE2'; 'COVID-19',association,'ACE2'; 
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',negative_correlation,'CXCR4'
+
+Linking events:  'CXCR4',bind,'CD4'
+
+Pathway=> 'CXCR4',bind,'CD4';'CD4',association,'STAT3';'STAT3',positive_correlation,'ACE2'
+
+Linking events:  'ACE2',negative_correlation,'CD4'; 'ACE2',association,'CD4'; 
+
+Pathway=> 'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',positive_correlation,'ACE2'; 'COVID-19',association,'ACE2'; 
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',negative_correlation,'CXCR4'
+
+Linking events:  'CXCR4',bind,'CD4'
+
+Pathway=> 'CXCR4',bind,'CD4';'CD4',association,'STAT3';'STAT3',positive_correlation,'ACE2'
+
+Linking events:  'ACE2',negative_correlation,'CD4'; 'ACE2',association,'CD4'; 
+
+Pathway=> 'CD4',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',positive_correlation,'ACE2'; 'COVID-19',association,'ACE2'; 
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',negative_correlation,'CXCR4'
+
+Linking events:  'CXCR4',association,'CD4'; 'CXCR4',bind,'CD4'; 
+
+Pathway=> 'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',positive_correlation,'ACE2'; 'COVID-19',association,'ACE2'; 
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',negative_correlation,'CXCR4'
+
+Linking events:  'CXCR4',association,'CD4'; 'CXCR4',bind,'CD4'; 
+
+Pathway=> 'CD4',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',positive_correlation,'ACE2'; 'COVID-19',association,'ACE2'; 
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',positive_correlation,'CXCR4'
+
+Linking events:  'CXCR4',association,'CD4'
+
+Pathway=> 'CXCR4',association,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',negative_correlation,'CD4'
+
+Linking events:  'ACE2',negative_correlation,'CD4'; 'ACE2',association,'CD4'; 
+
+Pathway=> 'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',positive_correlation,'ACE2'; 'COVID-19',association,'ACE2'; 
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',positive_correlation,'CXCR4'
+
+Linking events:  'CXCR4',association,'CD4'
+
+Pathway=> 'CXCR4',association,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',negative_correlation,'CD4'
+
+Linking events:  'ACE2',negative_correlation,'CD4'; 'ACE2',association,'CD4'; 
+
+Pathway=> 'CD4',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',positive_correlation,'ACE2'; 'COVID-19',association,'ACE2'; 
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',positive_correlation,'CXCR4'
+
+Linking events:  'CXCR4',bind,'CD4'
+
+Pathway=> 'CXCR4',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',negative_correlation,'CD4'
+
+Linking events:  'ACE2',negative_correlation,'CD4'; 'ACE2',association,'CD4'; 
+
+Pathway=> 'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',positive_correlation,'ACE2'; 'COVID-19',association,'ACE2'; 
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',positive_correlation,'CXCR4'
+
+Linking events:  'CXCR4',bind,'CD4'
+
+Pathway=> 'CXCR4',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',negative_correlation,'CD4'
+
+Linking events:  'ACE2',negative_correlation,'CD4'; 'ACE2',association,'CD4'; 
+
+Pathway=> 'CD4',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',positive_correlation,'ACE2'; 'COVID-19',association,'ACE2'; 
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',positive_correlation,'CXCR4'
+
+Linking events:  'CXCR4',association,'CD4'
+
+Pathway=> 'CXCR4',association,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',positive_correlation,'ACE2'
+
+Linking events:  'ACE2',negative_correlation,'CD4'; 'ACE2',association,'CD4'; 
+
+Pathway=> 'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',positive_correlation,'ACE2'; 'COVID-19',association,'ACE2'; 
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',positive_correlation,'CXCR4'
+
+Linking events:  'CXCR4',association,'CD4'
+
+Pathway=> 'CXCR4',association,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',positive_correlation,'ACE2'
+
+Linking events:  'ACE2',negative_correlation,'CD4'; 'ACE2',association,'CD4'; 
+
+Pathway=> 'CD4',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',positive_correlation,'ACE2'; 'COVID-19',association,'ACE2'; 
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',positive_correlation,'CXCR4'
+
+Linking events:  'CXCR4',bind,'CD4'
+
+Pathway=> 'CXCR4',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',positive_correlation,'ACE2'
+
+Linking events:  'ACE2',negative_correlation,'CD4'; 'ACE2',association,'CD4'; 
+
+Pathway=> 'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',positive_correlation,'ACE2'; 'COVID-19',association,'ACE2'; 
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',positive_correlation,'CXCR4'
+
+Linking events:  'CXCR4',bind,'CD4'
+
+Pathway=> 'CXCR4',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',positive_correlation,'ACE2'
+
+Linking events:  'ACE2',negative_correlation,'CD4'; 'ACE2',association,'CD4'; 
+
+Pathway=> 'CD4',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',positive_correlation,'ACE2'; 'COVID-19',association,'ACE2'; 
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',positive_correlation,'CXCR4'
+
+Linking events:  'CXCR4',association,'CD4'
+
+Pathway=> 'CXCR4',association,'CD4';'CD4',association,'STAT3';'STAT3',positive_correlation,'ACE2'
+
+Linking events:  'ACE2',negative_correlation,'CD4'; 'ACE2',association,'CD4'; 
+
+Pathway=> 'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',positive_correlation,'ACE2'; 'COVID-19',association,'ACE2'; 
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',positive_correlation,'CXCR4'
+
+Linking events:  'CXCR4',association,'CD4'
+
+Pathway=> 'CXCR4',association,'CD4';'CD4',association,'STAT3';'STAT3',positive_correlation,'ACE2'
+
+Linking events:  'ACE2',negative_correlation,'CD4'; 'ACE2',association,'CD4'; 
+
+Pathway=> 'CD4',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',positive_correlation,'ACE2'; 'COVID-19',association,'ACE2'; 
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',positive_correlation,'CXCR4'
+
+Linking events:  'CXCR4',bind,'CD4'
+
+Pathway=> 'CXCR4',bind,'CD4';'CD4',association,'STAT3';'STAT3',positive_correlation,'ACE2'
+
+Linking events:  'ACE2',negative_correlation,'CD4'; 'ACE2',association,'CD4'; 
+
+Pathway=> 'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',positive_correlation,'ACE2'; 'COVID-19',association,'ACE2'; 
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',positive_correlation,'CXCR4'
+
+Linking events:  'CXCR4',bind,'CD4'
+
+Pathway=> 'CXCR4',bind,'CD4';'CD4',association,'STAT3';'STAT3',positive_correlation,'ACE2'
+
+Linking events:  'ACE2',negative_correlation,'CD4'; 'ACE2',association,'CD4'; 
+
+Pathway=> 'CD4',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',positive_correlation,'ACE2'; 'COVID-19',association,'ACE2'; 
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',positive_correlation,'CXCR4'
+
+Linking events:  'CXCR4',association,'CD4'; 'CXCR4',bind,'CD4'; 
+
+Pathway=> 'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',positive_correlation,'ACE2'; 'COVID-19',association,'ACE2'; 
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',positive_correlation,'CXCR4'
+
+Linking events:  'CXCR4',association,'CD4'; 'CXCR4',bind,'CD4'; 
+
+Pathway=> 'CD4',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',association,'CXCR4'; 'COVID-19',positive_correlation,'CXCR4'; 'COVID-19',negative_correlation,'CXCR4'; 
+
+Pathway=> 'CXCR4',association,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',positive_correlation,'ACE2'
+
+Linking events:  'ACE2',association,'CD4'
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',negative_correlation,'CXCR4'
+
+Linking events:  'CXCR4',association,'CD4'; 'CXCR4',bind,'CD4'; 
+
+Pathway=> 'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',association,'CXCR4'; 'COVID-19',positive_correlation,'CXCR4'; 'COVID-19',negative_correlation,'CXCR4'; 
+
+Pathway=> 'CXCR4',association,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',positive_correlation,'ACE2'
+
+Linking events:  'ACE2',association,'CD4'
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',negative_correlation,'CXCR4'
+
+Linking events:  'CXCR4',association,'CD4'; 'CXCR4',bind,'CD4'; 
+
+Pathway=> 'CD4',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',association,'CXCR4'; 'COVID-19',positive_correlation,'CXCR4'; 'COVID-19',negative_correlation,'CXCR4'; 
+
+Pathway=> 'CXCR4',association,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',positive_correlation,'ACE2'
+
+Linking events:  'ACE2',association,'CD4'
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',positive_correlation,'CXCR4'
+
+Linking events:  'CXCR4',association,'CD4'; 'CXCR4',bind,'CD4'; 
+
+Pathway=> 'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',association,'CXCR4'; 'COVID-19',positive_correlation,'CXCR4'; 'COVID-19',negative_correlation,'CXCR4'; 
+
+Pathway=> 'CXCR4',association,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',positive_correlation,'ACE2'
+
+Linking events:  'ACE2',association,'CD4'
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',positive_correlation,'CXCR4'
+
+Linking events:  'CXCR4',association,'CD4'; 'CXCR4',bind,'CD4'; 
+
+Pathway=> 'CD4',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',association,'CXCR4'; 'COVID-19',positive_correlation,'CXCR4'; 'COVID-19',negative_correlation,'CXCR4'; 
+
+Pathway=> 'CXCR4',association,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',positive_correlation,'ACE2'
+
+Linking events:  'ACE2',association,'CD4'
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',association,'CXCR4'; 'COVID-19',positive_correlation,'CXCR4'; 'COVID-19',negative_correlation,'CXCR4'; 
+
+Pathway=> 'CXCR4',association,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',positive_correlation,'ACE2'
+
+Linking events:  'ACE2',association,'CD4'
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',bind,'CD4'
+
+Linking events:  'CXCR4',association,'CD4'; 'CXCR4',bind,'CD4'; 
+
+Pathway=> 'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',association,'CXCR4'; 'COVID-19',positive_correlation,'CXCR4'; 'COVID-19',negative_correlation,'CXCR4'; 
+
+Pathway=> 'CXCR4',association,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',positive_correlation,'ACE2'
+
+Linking events:  'ACE2',association,'CD4'
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',bind,'CD4'
+
+Linking events:  'CXCR4',association,'CD4'; 'CXCR4',bind,'CD4'; 
+
+Pathway=> 'CD4',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',association,'CXCR4'; 'COVID-19',positive_correlation,'CXCR4'; 'COVID-19',negative_correlation,'CXCR4'; 
+
+Pathway=> 'CXCR4',association,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',positive_correlation,'ACE2'
+
+Linking events:  'ACE2',association,'CD4'
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'STAT3';'STAT3',negative_correlation,'CXCR4'
+
+Linking events:  'CXCR4',association,'CD4'; 'CXCR4',bind,'CD4'; 
+
+Pathway=> 'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',association,'CXCR4'; 'COVID-19',positive_correlation,'CXCR4'; 'COVID-19',negative_correlation,'CXCR4'; 
+
+Pathway=> 'CXCR4',association,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',positive_correlation,'ACE2'
+
+Linking events:  'ACE2',association,'CD4'
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'STAT3';'STAT3',negative_correlation,'CXCR4'
+
+Linking events:  'CXCR4',association,'CD4'; 'CXCR4',bind,'CD4'; 
+
+Pathway=> 'CD4',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',association,'CXCR4'; 'COVID-19',positive_correlation,'CXCR4'; 'COVID-19',negative_correlation,'CXCR4'; 
+
+Pathway=> 'CXCR4',association,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',positive_correlation,'ACE2'
+
+Linking events:  'ACE2',association,'CD4'
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'STAT3';'STAT3',positive_correlation,'CXCR4'
+
+Linking events:  'CXCR4',association,'CD4'; 'CXCR4',bind,'CD4'; 
+
+Pathway=> 'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',association,'CXCR4'; 'COVID-19',positive_correlation,'CXCR4'; 'COVID-19',negative_correlation,'CXCR4'; 
+
+Pathway=> 'CXCR4',association,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',positive_correlation,'ACE2'
+
+Linking events:  'ACE2',association,'CD4'
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'STAT3';'STAT3',positive_correlation,'CXCR4'
+
+Linking events:  'CXCR4',association,'CD4'; 'CXCR4',bind,'CD4'; 
+
+Pathway=> 'CD4',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',association,'CXCR4'; 'COVID-19',positive_correlation,'CXCR4'; 'COVID-19',negative_correlation,'CXCR4'; 
+
+Pathway=> 'CXCR4',association,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',positive_correlation,'ACE2'
+
+Linking events:  'ACE2',association,'CD4'
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',association,'CXCR4'; 'COVID-19',positive_correlation,'CXCR4'; 'COVID-19',negative_correlation,'CXCR4'; 
+
+Pathway=> 'CXCR4',association,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',positive_correlation,'ACE2'
+
+Linking events:  'ACE2',association,'CD4'
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',bind,'CD4'
+
+Linking events:  'CXCR4',association,'CD4'; 'CXCR4',bind,'CD4'; 
+
+Pathway=> 'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',association,'CXCR4'; 'COVID-19',positive_correlation,'CXCR4'; 'COVID-19',negative_correlation,'CXCR4'; 
+
+Pathway=> 'CXCR4',association,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',positive_correlation,'ACE2'
+
+Linking events:  'ACE2',association,'CD4'
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',bind,'CD4'
+
+Linking events:  'CXCR4',association,'CD4'; 'CXCR4',bind,'CD4'; 
+
+Pathway=> 'CD4',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',association,'CXCR4'; 'COVID-19',positive_correlation,'CXCR4'; 'COVID-19',negative_correlation,'CXCR4'; 
+
+Pathway=> 'CXCR4',association,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',positive_correlation,'ACE2'
+
+Linking events:  'ACE2',negative_correlation,'CD4'; 'ACE2',association,'CD4'; 
+
+Pathway=> 'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',negative_correlation,'CD4'
+
+Linking events:  'ACE2',association,'CD4'
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',association,'CXCR4'; 'COVID-19',positive_correlation,'CXCR4'; 'COVID-19',negative_correlation,'CXCR4'; 
+
+Pathway=> 'CXCR4',association,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',positive_correlation,'ACE2'
+
+Linking events:  'ACE2',negative_correlation,'CD4'; 'ACE2',association,'CD4'; 
+
+Pathway=> 'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',negative_correlation,'CD4'
+
+Linking events:  'ACE2',association,'CD4'
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',association,'CXCR4'; 'COVID-19',positive_correlation,'CXCR4'; 'COVID-19',negative_correlation,'CXCR4'; 
+
+Pathway=> 'CXCR4',association,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',positive_correlation,'ACE2'
+
+Linking events:  'ACE2',negative_correlation,'CD4'; 'ACE2',association,'CD4'; 
+
+Pathway=> 'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',association,'CXCR4'; 'COVID-19',positive_correlation,'CXCR4'; 'COVID-19',negative_correlation,'CXCR4'; 
+
+Pathway=> 'CXCR4',association,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',positive_correlation,'ACE2'
+
+Linking events:  'ACE2',negative_correlation,'CD4'; 'ACE2',association,'CD4'; 
+
+Pathway=> 'CD4',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',association,'CXCR4'; 'COVID-19',positive_correlation,'CXCR4'; 'COVID-19',negative_correlation,'CXCR4'; 
+
+Pathway=> 'CXCR4',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',positive_correlation,'ACE2'
+
+Linking events:  'ACE2',association,'CD4'
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',negative_correlation,'CXCR4'
+
+Linking events:  'CXCR4',association,'CD4'; 'CXCR4',bind,'CD4'; 
+
+Pathway=> 'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',association,'CXCR4'; 'COVID-19',positive_correlation,'CXCR4'; 'COVID-19',negative_correlation,'CXCR4'; 
+
+Pathway=> 'CXCR4',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',positive_correlation,'ACE2'
+
+Linking events:  'ACE2',association,'CD4'
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',negative_correlation,'CXCR4'
+
+Linking events:  'CXCR4',association,'CD4'; 'CXCR4',bind,'CD4'; 
+
+Pathway=> 'CD4',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',association,'CXCR4'; 'COVID-19',positive_correlation,'CXCR4'; 'COVID-19',negative_correlation,'CXCR4'; 
+
+Pathway=> 'CXCR4',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',positive_correlation,'ACE2'
+
+Linking events:  'ACE2',association,'CD4'
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',positive_correlation,'CXCR4'
+
+Linking events:  'CXCR4',association,'CD4'; 'CXCR4',bind,'CD4'; 
+
+Pathway=> 'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',association,'CXCR4'; 'COVID-19',positive_correlation,'CXCR4'; 'COVID-19',negative_correlation,'CXCR4'; 
+
+Pathway=> 'CXCR4',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',positive_correlation,'ACE2'
+
+Linking events:  'ACE2',association,'CD4'
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',positive_correlation,'CXCR4'
+
+Linking events:  'CXCR4',association,'CD4'; 'CXCR4',bind,'CD4'; 
+
+Pathway=> 'CD4',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',association,'CXCR4'; 'COVID-19',positive_correlation,'CXCR4'; 'COVID-19',negative_correlation,'CXCR4'; 
+
+Pathway=> 'CXCR4',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',positive_correlation,'ACE2'
+
+Linking events:  'ACE2',association,'CD4'
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',association,'CXCR4'; 'COVID-19',positive_correlation,'CXCR4'; 'COVID-19',negative_correlation,'CXCR4'; 
+
+Pathway=> 'CXCR4',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',positive_correlation,'ACE2'
+
+Linking events:  'ACE2',association,'CD4'
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',bind,'CD4'
+
+Linking events:  'CXCR4',association,'CD4'; 'CXCR4',bind,'CD4'; 
+
+Pathway=> 'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',association,'CXCR4'; 'COVID-19',positive_correlation,'CXCR4'; 'COVID-19',negative_correlation,'CXCR4'; 
+
+Pathway=> 'CXCR4',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',positive_correlation,'ACE2'
+
+Linking events:  'ACE2',association,'CD4'
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',bind,'CD4'
+
+Linking events:  'CXCR4',association,'CD4'; 'CXCR4',bind,'CD4'; 
+
+Pathway=> 'CD4',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',association,'CXCR4'; 'COVID-19',positive_correlation,'CXCR4'; 'COVID-19',negative_correlation,'CXCR4'; 
+
+Pathway=> 'CXCR4',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',positive_correlation,'ACE2'
+
+Linking events:  'ACE2',association,'CD4'
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'STAT3';'STAT3',negative_correlation,'CXCR4'
+
+Linking events:  'CXCR4',association,'CD4'; 'CXCR4',bind,'CD4'; 
+
+Pathway=> 'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',association,'CXCR4'; 'COVID-19',positive_correlation,'CXCR4'; 'COVID-19',negative_correlation,'CXCR4'; 
+
+Pathway=> 'CXCR4',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',positive_correlation,'ACE2'
+
+Linking events:  'ACE2',association,'CD4'
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'STAT3';'STAT3',negative_correlation,'CXCR4'
+
+Linking events:  'CXCR4',association,'CD4'; 'CXCR4',bind,'CD4'; 
+
+Pathway=> 'CD4',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',association,'CXCR4'; 'COVID-19',positive_correlation,'CXCR4'; 'COVID-19',negative_correlation,'CXCR4'; 
+
+Pathway=> 'CXCR4',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',positive_correlation,'ACE2'
+
+Linking events:  'ACE2',association,'CD4'
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'STAT3';'STAT3',positive_correlation,'CXCR4'
+
+Linking events:  'CXCR4',association,'CD4'; 'CXCR4',bind,'CD4'; 
+
+Pathway=> 'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',association,'CXCR4'; 'COVID-19',positive_correlation,'CXCR4'; 'COVID-19',negative_correlation,'CXCR4'; 
+
+Pathway=> 'CXCR4',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',positive_correlation,'ACE2'
+
+Linking events:  'ACE2',association,'CD4'
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'STAT3';'STAT3',positive_correlation,'CXCR4'
+
+Linking events:  'CXCR4',association,'CD4'; 'CXCR4',bind,'CD4'; 
+
+Pathway=> 'CD4',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',association,'CXCR4'; 'COVID-19',positive_correlation,'CXCR4'; 'COVID-19',negative_correlation,'CXCR4'; 
+
+Pathway=> 'CXCR4',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',positive_correlation,'ACE2'
+
+Linking events:  'ACE2',association,'CD4'
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',association,'CXCR4'; 'COVID-19',positive_correlation,'CXCR4'; 'COVID-19',negative_correlation,'CXCR4'; 
+
+Pathway=> 'CXCR4',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',positive_correlation,'ACE2'
+
+Linking events:  'ACE2',association,'CD4'
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',bind,'CD4'
+
+Linking events:  'CXCR4',association,'CD4'; 'CXCR4',bind,'CD4'; 
+
+Pathway=> 'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',association,'CXCR4'; 'COVID-19',positive_correlation,'CXCR4'; 'COVID-19',negative_correlation,'CXCR4'; 
+
+Pathway=> 'CXCR4',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',positive_correlation,'ACE2'
+
+Linking events:  'ACE2',association,'CD4'
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',bind,'CD4'
+
+Linking events:  'CXCR4',association,'CD4'; 'CXCR4',bind,'CD4'; 
+
+Pathway=> 'CD4',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',association,'CXCR4'; 'COVID-19',positive_correlation,'CXCR4'; 'COVID-19',negative_correlation,'CXCR4'; 
+
+Pathway=> 'CXCR4',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',positive_correlation,'ACE2'
+
+Linking events:  'ACE2',negative_correlation,'CD4'; 'ACE2',association,'CD4'; 
+
+Pathway=> 'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',negative_correlation,'CD4'
+
+Linking events:  'ACE2',association,'CD4'
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',association,'CXCR4'; 'COVID-19',positive_correlation,'CXCR4'; 'COVID-19',negative_correlation,'CXCR4'; 
+
+Pathway=> 'CXCR4',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',positive_correlation,'ACE2'
+
+Linking events:  'ACE2',negative_correlation,'CD4'; 'ACE2',association,'CD4'; 
+
+Pathway=> 'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',negative_correlation,'CD4'
+
+Linking events:  'ACE2',association,'CD4'
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',association,'CXCR4'; 'COVID-19',positive_correlation,'CXCR4'; 'COVID-19',negative_correlation,'CXCR4'; 
+
+Pathway=> 'CXCR4',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',positive_correlation,'ACE2'
+
+Linking events:  'ACE2',negative_correlation,'CD4'; 'ACE2',association,'CD4'; 
+
+Pathway=> 'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',association,'CXCR4'; 'COVID-19',positive_correlation,'CXCR4'; 'COVID-19',negative_correlation,'CXCR4'; 
+
+Pathway=> 'CXCR4',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',positive_correlation,'ACE2'
+
+Linking events:  'ACE2',negative_correlation,'CD4'; 'ACE2',association,'CD4'; 
+
+Pathway=> 'CD4',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',positive_correlation,'ACE2'; 'COVID-19',association,'ACE2'; 
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',positive_correlation,'ACE2'; 'COVID-19',association,'ACE2'; 
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',bind,'CD4'
+
+Linking events:  'CXCR4',association,'CD4'
+
+Pathway=> 'CXCR4',association,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',positive_correlation,'ACE2'
+
+Linking events:  'ACE2',negative_correlation,'CD4'; 'ACE2',association,'CD4'; 
+
+Pathway=> 'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',positive_correlation,'ACE2'; 'COVID-19',association,'ACE2'; 
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',bind,'CD4'
+
+Linking events:  'CXCR4',association,'CD4'
+
+Pathway=> 'CXCR4',association,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',positive_correlation,'ACE2'
+
+Linking events:  'ACE2',negative_correlation,'CD4'; 'ACE2',association,'CD4'; 
+
+Pathway=> 'CD4',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',positive_correlation,'ACE2'; 'COVID-19',association,'ACE2'; 
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',bind,'CD4'
+
+Linking events:  'CXCR4',bind,'CD4'
+
+Pathway=> 'CXCR4',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',positive_correlation,'ACE2'
+
+Linking events:  'ACE2',negative_correlation,'CD4'; 'ACE2',association,'CD4'; 
+
+Pathway=> 'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',positive_correlation,'ACE2'; 'COVID-19',association,'ACE2'; 
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',bind,'CD4'
+
+Linking events:  'CXCR4',bind,'CD4'
+
+Pathway=> 'CXCR4',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',positive_correlation,'ACE2'
+
+Linking events:  'ACE2',negative_correlation,'CD4'; 'ACE2',association,'CD4'; 
+
+Pathway=> 'CD4',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',positive_correlation,'ACE2'; 'COVID-19',association,'ACE2'; 
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',bind,'CD4'
+
+Linking events:  'CXCR4',association,'CD4'
+
+Pathway=> 'CXCR4',association,'CD4';'CD4',association,'STAT3';'STAT3',positive_correlation,'ACE2'
+
+Linking events:  'ACE2',negative_correlation,'CD4'; 'ACE2',association,'CD4'; 
+
+Pathway=> 'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',positive_correlation,'ACE2'; 'COVID-19',association,'ACE2'; 
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',bind,'CD4'
+
+Linking events:  'CXCR4',association,'CD4'
+
+Pathway=> 'CXCR4',association,'CD4';'CD4',association,'STAT3';'STAT3',positive_correlation,'ACE2'
+
+Linking events:  'ACE2',negative_correlation,'CD4'; 'ACE2',association,'CD4'; 
+
+Pathway=> 'CD4',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',positive_correlation,'ACE2'; 'COVID-19',association,'ACE2'; 
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',bind,'CD4'
+
+Linking events:  'CXCR4',bind,'CD4'
+
+Pathway=> 'CXCR4',bind,'CD4';'CD4',association,'STAT3';'STAT3',positive_correlation,'ACE2'
+
+Linking events:  'ACE2',negative_correlation,'CD4'; 'ACE2',association,'CD4'; 
+
+Pathway=> 'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',positive_correlation,'ACE2'; 'COVID-19',association,'ACE2'; 
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',bind,'CD4'
+
+Linking events:  'CXCR4',bind,'CD4'
+
+Pathway=> 'CXCR4',bind,'CD4';'CD4',association,'STAT3';'STAT3',positive_correlation,'ACE2'
+
+Linking events:  'ACE2',negative_correlation,'CD4'; 'ACE2',association,'CD4'; 
+
+Pathway=> 'CD4',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',positive_correlation,'ACE2'; 'COVID-19',association,'ACE2'; 
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',bind,'CD4'
+
+Linking events:  'CXCR4',association,'CD4'; 'CXCR4',bind,'CD4'; 
+
+Pathway=> 'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',positive_correlation,'ACE2'; 'COVID-19',association,'ACE2'; 
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',bind,'CD4'
+
+Linking events:  'CXCR4',association,'CD4'; 'CXCR4',bind,'CD4'; 
+
+Pathway=> 'CD4',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',positive_correlation,'ACE2'; 'COVID-19',association,'ACE2'; 
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'STAT3';'STAT3',negative_correlation,'CXCR4'
+
+Linking events:  'CXCR4',association,'CD4'
+
+Pathway=> 'CXCR4',association,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',negative_correlation,'CD4'
+
+Linking events:  'ACE2',negative_correlation,'CD4'; 'ACE2',association,'CD4'; 
+
+Pathway=> 'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',positive_correlation,'ACE2'; 'COVID-19',association,'ACE2'; 
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'STAT3';'STAT3',negative_correlation,'CXCR4'
+
+Linking events:  'CXCR4',association,'CD4'
+
+Pathway=> 'CXCR4',association,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',negative_correlation,'CD4'
+
+Linking events:  'ACE2',negative_correlation,'CD4'; 'ACE2',association,'CD4'; 
+
+Pathway=> 'CD4',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',positive_correlation,'ACE2'; 'COVID-19',association,'ACE2'; 
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'STAT3';'STAT3',negative_correlation,'CXCR4'
+
+Linking events:  'CXCR4',bind,'CD4'
+
+Pathway=> 'CXCR4',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',negative_correlation,'CD4'
+
+Linking events:  'ACE2',negative_correlation,'CD4'; 'ACE2',association,'CD4'; 
+
+Pathway=> 'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',positive_correlation,'ACE2'; 'COVID-19',association,'ACE2'; 
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'STAT3';'STAT3',negative_correlation,'CXCR4'
+
+Linking events:  'CXCR4',bind,'CD4'
+
+Pathway=> 'CXCR4',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',negative_correlation,'CD4'
+
+Linking events:  'ACE2',negative_correlation,'CD4'; 'ACE2',association,'CD4'; 
+
+Pathway=> 'CD4',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',positive_correlation,'ACE2'; 'COVID-19',association,'ACE2'; 
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'STAT3';'STAT3',negative_correlation,'CXCR4'
+
+Linking events:  'CXCR4',association,'CD4'
+
+Pathway=> 'CXCR4',association,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',positive_correlation,'ACE2'
+
+Linking events:  'ACE2',negative_correlation,'CD4'; 'ACE2',association,'CD4'; 
+
+Pathway=> 'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',positive_correlation,'ACE2'; 'COVID-19',association,'ACE2'; 
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'STAT3';'STAT3',negative_correlation,'CXCR4'
+
+Linking events:  'CXCR4',association,'CD4'
+
+Pathway=> 'CXCR4',association,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',positive_correlation,'ACE2'
+
+Linking events:  'ACE2',negative_correlation,'CD4'; 'ACE2',association,'CD4'; 
+
+Pathway=> 'CD4',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',positive_correlation,'ACE2'; 'COVID-19',association,'ACE2'; 
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'STAT3';'STAT3',negative_correlation,'CXCR4'
+
+Linking events:  'CXCR4',bind,'CD4'
+
+Pathway=> 'CXCR4',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',positive_correlation,'ACE2'
+
+Linking events:  'ACE2',negative_correlation,'CD4'; 'ACE2',association,'CD4'; 
+
+Pathway=> 'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',positive_correlation,'ACE2'; 'COVID-19',association,'ACE2'; 
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'STAT3';'STAT3',negative_correlation,'CXCR4'
+
+Linking events:  'CXCR4',bind,'CD4'
+
+Pathway=> 'CXCR4',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',positive_correlation,'ACE2'
+
+Linking events:  'ACE2',negative_correlation,'CD4'; 'ACE2',association,'CD4'; 
+
+Pathway=> 'CD4',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',positive_correlation,'ACE2'; 'COVID-19',association,'ACE2'; 
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'STAT3';'STAT3',negative_correlation,'CXCR4'
+
+Linking events:  'CXCR4',association,'CD4'
+
+Pathway=> 'CXCR4',association,'CD4';'CD4',association,'STAT3';'STAT3',positive_correlation,'ACE2'
+
+Linking events:  'ACE2',negative_correlation,'CD4'; 'ACE2',association,'CD4'; 
+
+Pathway=> 'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',positive_correlation,'ACE2'; 'COVID-19',association,'ACE2'; 
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'STAT3';'STAT3',negative_correlation,'CXCR4'
+
+Linking events:  'CXCR4',association,'CD4'
+
+Pathway=> 'CXCR4',association,'CD4';'CD4',association,'STAT3';'STAT3',positive_correlation,'ACE2'
+
+Linking events:  'ACE2',negative_correlation,'CD4'; 'ACE2',association,'CD4'; 
+
+Pathway=> 'CD4',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',positive_correlation,'ACE2'; 'COVID-19',association,'ACE2'; 
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'STAT3';'STAT3',negative_correlation,'CXCR4'
+
+Linking events:  'CXCR4',bind,'CD4'
+
+Pathway=> 'CXCR4',bind,'CD4';'CD4',association,'STAT3';'STAT3',positive_correlation,'ACE2'
+
+Linking events:  'ACE2',negative_correlation,'CD4'; 'ACE2',association,'CD4'; 
+
+Pathway=> 'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',positive_correlation,'ACE2'; 'COVID-19',association,'ACE2'; 
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'STAT3';'STAT3',negative_correlation,'CXCR4'
+
+Linking events:  'CXCR4',bind,'CD4'
+
+Pathway=> 'CXCR4',bind,'CD4';'CD4',association,'STAT3';'STAT3',positive_correlation,'ACE2'
+
+Linking events:  'ACE2',negative_correlation,'CD4'; 'ACE2',association,'CD4'; 
+
+Pathway=> 'CD4',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',positive_correlation,'ACE2'; 'COVID-19',association,'ACE2'; 
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'STAT3';'STAT3',negative_correlation,'CXCR4'
+
+Linking events:  'CXCR4',association,'CD4'; 'CXCR4',bind,'CD4'; 
+
+Pathway=> 'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',positive_correlation,'ACE2'; 'COVID-19',association,'ACE2'; 
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'STAT3';'STAT3',negative_correlation,'CXCR4'
+
+Linking events:  'CXCR4',association,'CD4'; 'CXCR4',bind,'CD4'; 
+
+Pathway=> 'CD4',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',positive_correlation,'ACE2'; 'COVID-19',association,'ACE2'; 
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'STAT3';'STAT3',positive_correlation,'CXCR4'
+
+Linking events:  'CXCR4',association,'CD4'
+
+Pathway=> 'CXCR4',association,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',negative_correlation,'CD4'
+
+Linking events:  'ACE2',negative_correlation,'CD4'; 'ACE2',association,'CD4'; 
+
+Pathway=> 'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',positive_correlation,'ACE2'; 'COVID-19',association,'ACE2'; 
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'STAT3';'STAT3',positive_correlation,'CXCR4'
+
+Linking events:  'CXCR4',association,'CD4'
+
+Pathway=> 'CXCR4',association,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',negative_correlation,'CD4'
+
+Linking events:  'ACE2',negative_correlation,'CD4'; 'ACE2',association,'CD4'; 
+
+Pathway=> 'CD4',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',positive_correlation,'ACE2'; 'COVID-19',association,'ACE2'; 
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'STAT3';'STAT3',positive_correlation,'CXCR4'
+
+Linking events:  'CXCR4',bind,'CD4'
+
+Pathway=> 'CXCR4',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',negative_correlation,'CD4'
+
+Linking events:  'ACE2',negative_correlation,'CD4'; 'ACE2',association,'CD4'; 
+
+Pathway=> 'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',positive_correlation,'ACE2'; 'COVID-19',association,'ACE2'; 
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'STAT3';'STAT3',positive_correlation,'CXCR4'
+
+Linking events:  'CXCR4',bind,'CD4'
+
+Pathway=> 'CXCR4',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',negative_correlation,'CD4'
+
+Linking events:  'ACE2',negative_correlation,'CD4'; 'ACE2',association,'CD4'; 
+
+Pathway=> 'CD4',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',positive_correlation,'ACE2'; 'COVID-19',association,'ACE2'; 
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'STAT3';'STAT3',positive_correlation,'CXCR4'
+
+Linking events:  'CXCR4',association,'CD4'
+
+Pathway=> 'CXCR4',association,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',positive_correlation,'ACE2'
+
+Linking events:  'ACE2',negative_correlation,'CD4'; 'ACE2',association,'CD4'; 
+
+Pathway=> 'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',positive_correlation,'ACE2'; 'COVID-19',association,'ACE2'; 
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'STAT3';'STAT3',positive_correlation,'CXCR4'
+
+Linking events:  'CXCR4',association,'CD4'
+
+Pathway=> 'CXCR4',association,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',positive_correlation,'ACE2'
+
+Linking events:  'ACE2',negative_correlation,'CD4'; 'ACE2',association,'CD4'; 
+
+Pathway=> 'CD4',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',positive_correlation,'ACE2'; 'COVID-19',association,'ACE2'; 
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'STAT3';'STAT3',positive_correlation,'CXCR4'
+
+Linking events:  'CXCR4',bind,'CD4'
+
+Pathway=> 'CXCR4',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',positive_correlation,'ACE2'
+
+Linking events:  'ACE2',negative_correlation,'CD4'; 'ACE2',association,'CD4'; 
+
+Pathway=> 'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',positive_correlation,'ACE2'; 'COVID-19',association,'ACE2'; 
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'STAT3';'STAT3',positive_correlation,'CXCR4'
+
+Linking events:  'CXCR4',bind,'CD4'
+
+Pathway=> 'CXCR4',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',positive_correlation,'ACE2'
+
+Linking events:  'ACE2',negative_correlation,'CD4'; 'ACE2',association,'CD4'; 
+
+Pathway=> 'CD4',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',positive_correlation,'ACE2'; 'COVID-19',association,'ACE2'; 
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'STAT3';'STAT3',positive_correlation,'CXCR4'
+
+Linking events:  'CXCR4',association,'CD4'
+
+Pathway=> 'CXCR4',association,'CD4';'CD4',association,'STAT3';'STAT3',positive_correlation,'ACE2'
+
+Linking events:  'ACE2',negative_correlation,'CD4'; 'ACE2',association,'CD4'; 
+
+Pathway=> 'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',positive_correlation,'ACE2'; 'COVID-19',association,'ACE2'; 
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'STAT3';'STAT3',positive_correlation,'CXCR4'
+
+Linking events:  'CXCR4',association,'CD4'
+
+Pathway=> 'CXCR4',association,'CD4';'CD4',association,'STAT3';'STAT3',positive_correlation,'ACE2'
+
+Linking events:  'ACE2',negative_correlation,'CD4'; 'ACE2',association,'CD4'; 
+
+Pathway=> 'CD4',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',positive_correlation,'ACE2'; 'COVID-19',association,'ACE2'; 
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'STAT3';'STAT3',positive_correlation,'CXCR4'
+
+Linking events:  'CXCR4',bind,'CD4'
+
+Pathway=> 'CXCR4',bind,'CD4';'CD4',association,'STAT3';'STAT3',positive_correlation,'ACE2'
+
+Linking events:  'ACE2',negative_correlation,'CD4'; 'ACE2',association,'CD4'; 
+
+Pathway=> 'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',positive_correlation,'ACE2'; 'COVID-19',association,'ACE2'; 
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'STAT3';'STAT3',positive_correlation,'CXCR4'
+
+Linking events:  'CXCR4',bind,'CD4'
+
+Pathway=> 'CXCR4',bind,'CD4';'CD4',association,'STAT3';'STAT3',positive_correlation,'ACE2'
+
+Linking events:  'ACE2',negative_correlation,'CD4'; 'ACE2',association,'CD4'; 
+
+Pathway=> 'CD4',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',positive_correlation,'ACE2'; 'COVID-19',association,'ACE2'; 
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'STAT3';'STAT3',positive_correlation,'CXCR4'
+
+Linking events:  'CXCR4',association,'CD4'; 'CXCR4',bind,'CD4'; 
+
+Pathway=> 'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',positive_correlation,'ACE2'; 'COVID-19',association,'ACE2'; 
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'STAT3';'STAT3',positive_correlation,'CXCR4'
+
+Linking events:  'CXCR4',association,'CD4'; 'CXCR4',bind,'CD4'; 
+
+Pathway=> 'CD4',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',association,'CXCR4'; 'COVID-19',positive_correlation,'CXCR4'; 'COVID-19',negative_correlation,'CXCR4'; 
+
+Pathway=> 'CXCR4',association,'CD4';'CD4',association,'STAT3';'STAT3',positive_correlation,'ACE2'
+
+Linking events:  'ACE2',association,'CD4'
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',negative_correlation,'CXCR4'
+
+Linking events:  'CXCR4',association,'CD4'; 'CXCR4',bind,'CD4'; 
+
+Pathway=> 'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',association,'CXCR4'; 'COVID-19',positive_correlation,'CXCR4'; 'COVID-19',negative_correlation,'CXCR4'; 
+
+Pathway=> 'CXCR4',association,'CD4';'CD4',association,'STAT3';'STAT3',positive_correlation,'ACE2'
+
+Linking events:  'ACE2',association,'CD4'
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',negative_correlation,'CXCR4'
+
+Linking events:  'CXCR4',association,'CD4'; 'CXCR4',bind,'CD4'; 
+
+Pathway=> 'CD4',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',association,'CXCR4'; 'COVID-19',positive_correlation,'CXCR4'; 'COVID-19',negative_correlation,'CXCR4'; 
+
+Pathway=> 'CXCR4',association,'CD4';'CD4',association,'STAT3';'STAT3',positive_correlation,'ACE2'
+
+Linking events:  'ACE2',association,'CD4'
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',positive_correlation,'CXCR4'
+
+Linking events:  'CXCR4',association,'CD4'; 'CXCR4',bind,'CD4'; 
+
+Pathway=> 'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',association,'CXCR4'; 'COVID-19',positive_correlation,'CXCR4'; 'COVID-19',negative_correlation,'CXCR4'; 
+
+Pathway=> 'CXCR4',association,'CD4';'CD4',association,'STAT3';'STAT3',positive_correlation,'ACE2'
+
+Linking events:  'ACE2',association,'CD4'
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',positive_correlation,'CXCR4'
+
+Linking events:  'CXCR4',association,'CD4'; 'CXCR4',bind,'CD4'; 
+
+Pathway=> 'CD4',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',association,'CXCR4'; 'COVID-19',positive_correlation,'CXCR4'; 'COVID-19',negative_correlation,'CXCR4'; 
+
+Pathway=> 'CXCR4',association,'CD4';'CD4',association,'STAT3';'STAT3',positive_correlation,'ACE2'
+
+Linking events:  'ACE2',association,'CD4'
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',association,'CXCR4'; 'COVID-19',positive_correlation,'CXCR4'; 'COVID-19',negative_correlation,'CXCR4'; 
+
+Pathway=> 'CXCR4',association,'CD4';'CD4',association,'STAT3';'STAT3',positive_correlation,'ACE2'
+
+Linking events:  'ACE2',association,'CD4'
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',bind,'CD4'
+
+Linking events:  'CXCR4',association,'CD4'; 'CXCR4',bind,'CD4'; 
+
+Pathway=> 'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',association,'CXCR4'; 'COVID-19',positive_correlation,'CXCR4'; 'COVID-19',negative_correlation,'CXCR4'; 
+
+Pathway=> 'CXCR4',association,'CD4';'CD4',association,'STAT3';'STAT3',positive_correlation,'ACE2'
+
+Linking events:  'ACE2',association,'CD4'
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',bind,'CD4'
+
+Linking events:  'CXCR4',association,'CD4'; 'CXCR4',bind,'CD4'; 
+
+Pathway=> 'CD4',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',association,'CXCR4'; 'COVID-19',positive_correlation,'CXCR4'; 'COVID-19',negative_correlation,'CXCR4'; 
+
+Pathway=> 'CXCR4',association,'CD4';'CD4',association,'STAT3';'STAT3',positive_correlation,'ACE2'
+
+Linking events:  'ACE2',association,'CD4'
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'STAT3';'STAT3',negative_correlation,'CXCR4'
+
+Linking events:  'CXCR4',association,'CD4'; 'CXCR4',bind,'CD4'; 
+
+Pathway=> 'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',association,'CXCR4'; 'COVID-19',positive_correlation,'CXCR4'; 'COVID-19',negative_correlation,'CXCR4'; 
+
+Pathway=> 'CXCR4',association,'CD4';'CD4',association,'STAT3';'STAT3',positive_correlation,'ACE2'
+
+Linking events:  'ACE2',association,'CD4'
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'STAT3';'STAT3',negative_correlation,'CXCR4'
+
+Linking events:  'CXCR4',association,'CD4'; 'CXCR4',bind,'CD4'; 
+
+Pathway=> 'CD4',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',association,'CXCR4'; 'COVID-19',positive_correlation,'CXCR4'; 'COVID-19',negative_correlation,'CXCR4'; 
+
+Pathway=> 'CXCR4',association,'CD4';'CD4',association,'STAT3';'STAT3',positive_correlation,'ACE2'
+
+Linking events:  'ACE2',association,'CD4'
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'STAT3';'STAT3',positive_correlation,'CXCR4'
+
+Linking events:  'CXCR4',association,'CD4'; 'CXCR4',bind,'CD4'; 
+
+Pathway=> 'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',association,'CXCR4'; 'COVID-19',positive_correlation,'CXCR4'; 'COVID-19',negative_correlation,'CXCR4'; 
+
+Pathway=> 'CXCR4',association,'CD4';'CD4',association,'STAT3';'STAT3',positive_correlation,'ACE2'
+
+Linking events:  'ACE2',association,'CD4'
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'STAT3';'STAT3',positive_correlation,'CXCR4'
+
+Linking events:  'CXCR4',association,'CD4'; 'CXCR4',bind,'CD4'; 
+
+Pathway=> 'CD4',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',association,'CXCR4'; 'COVID-19',positive_correlation,'CXCR4'; 'COVID-19',negative_correlation,'CXCR4'; 
+
+Pathway=> 'CXCR4',association,'CD4';'CD4',association,'STAT3';'STAT3',positive_correlation,'ACE2'
+
+Linking events:  'ACE2',association,'CD4'
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',association,'CXCR4'; 'COVID-19',positive_correlation,'CXCR4'; 'COVID-19',negative_correlation,'CXCR4'; 
+
+Pathway=> 'CXCR4',association,'CD4';'CD4',association,'STAT3';'STAT3',positive_correlation,'ACE2'
+
+Linking events:  'ACE2',association,'CD4'
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',bind,'CD4'
+
+Linking events:  'CXCR4',association,'CD4'; 'CXCR4',bind,'CD4'; 
+
+Pathway=> 'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',association,'CXCR4'; 'COVID-19',positive_correlation,'CXCR4'; 'COVID-19',negative_correlation,'CXCR4'; 
+
+Pathway=> 'CXCR4',association,'CD4';'CD4',association,'STAT3';'STAT3',positive_correlation,'ACE2'
+
+Linking events:  'ACE2',association,'CD4'
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',bind,'CD4'
+
+Linking events:  'CXCR4',association,'CD4'; 'CXCR4',bind,'CD4'; 
+
+Pathway=> 'CD4',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',association,'CXCR4'; 'COVID-19',positive_correlation,'CXCR4'; 'COVID-19',negative_correlation,'CXCR4'; 
+
+Pathway=> 'CXCR4',association,'CD4';'CD4',association,'STAT3';'STAT3',positive_correlation,'ACE2'
+
+Linking events:  'ACE2',negative_correlation,'CD4'; 'ACE2',association,'CD4'; 
+
+Pathway=> 'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',negative_correlation,'CD4'
+
+Linking events:  'ACE2',association,'CD4'
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',association,'CXCR4'; 'COVID-19',positive_correlation,'CXCR4'; 'COVID-19',negative_correlation,'CXCR4'; 
+
+Pathway=> 'CXCR4',association,'CD4';'CD4',association,'STAT3';'STAT3',positive_correlation,'ACE2'
+
+Linking events:  'ACE2',negative_correlation,'CD4'; 'ACE2',association,'CD4'; 
+
+Pathway=> 'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',negative_correlation,'CD4'
+
+Linking events:  'ACE2',association,'CD4'
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',association,'CXCR4'; 'COVID-19',positive_correlation,'CXCR4'; 'COVID-19',negative_correlation,'CXCR4'; 
+
+Pathway=> 'CXCR4',association,'CD4';'CD4',association,'STAT3';'STAT3',positive_correlation,'ACE2'
+
+Linking events:  'ACE2',negative_correlation,'CD4'; 'ACE2',association,'CD4'; 
+
+Pathway=> 'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',association,'CXCR4'; 'COVID-19',positive_correlation,'CXCR4'; 'COVID-19',negative_correlation,'CXCR4'; 
+
+Pathway=> 'CXCR4',association,'CD4';'CD4',association,'STAT3';'STAT3',positive_correlation,'ACE2'
+
+Linking events:  'ACE2',negative_correlation,'CD4'; 'ACE2',association,'CD4'; 
+
+Pathway=> 'CD4',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',association,'CXCR4'; 'COVID-19',positive_correlation,'CXCR4'; 'COVID-19',negative_correlation,'CXCR4'; 
+
+Pathway=> 'CXCR4',bind,'CD4';'CD4',association,'STAT3';'STAT3',positive_correlation,'ACE2'
+
+Linking events:  'ACE2',association,'CD4'
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',negative_correlation,'CXCR4'
+
+Linking events:  'CXCR4',association,'CD4'; 'CXCR4',bind,'CD4'; 
+
+Pathway=> 'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',association,'CXCR4'; 'COVID-19',positive_correlation,'CXCR4'; 'COVID-19',negative_correlation,'CXCR4'; 
+
+Pathway=> 'CXCR4',bind,'CD4';'CD4',association,'STAT3';'STAT3',positive_correlation,'ACE2'
+
+Linking events:  'ACE2',association,'CD4'
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',negative_correlation,'CXCR4'
+
+Linking events:  'CXCR4',association,'CD4'; 'CXCR4',bind,'CD4'; 
+
+Pathway=> 'CD4',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',association,'CXCR4'; 'COVID-19',positive_correlation,'CXCR4'; 'COVID-19',negative_correlation,'CXCR4'; 
+
+Pathway=> 'CXCR4',bind,'CD4';'CD4',association,'STAT3';'STAT3',positive_correlation,'ACE2'
+
+Linking events:  'ACE2',association,'CD4'
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',positive_correlation,'CXCR4'
+
+Linking events:  'CXCR4',association,'CD4'; 'CXCR4',bind,'CD4'; 
+
+Pathway=> 'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',association,'CXCR4'; 'COVID-19',positive_correlation,'CXCR4'; 'COVID-19',negative_correlation,'CXCR4'; 
+
+Pathway=> 'CXCR4',bind,'CD4';'CD4',association,'STAT3';'STAT3',positive_correlation,'ACE2'
+
+Linking events:  'ACE2',association,'CD4'
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',positive_correlation,'CXCR4'
+
+Linking events:  'CXCR4',association,'CD4'; 'CXCR4',bind,'CD4'; 
+
+Pathway=> 'CD4',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',association,'CXCR4'; 'COVID-19',positive_correlation,'CXCR4'; 'COVID-19',negative_correlation,'CXCR4'; 
+
+Pathway=> 'CXCR4',bind,'CD4';'CD4',association,'STAT3';'STAT3',positive_correlation,'ACE2'
+
+Linking events:  'ACE2',association,'CD4'
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',association,'CXCR4'; 'COVID-19',positive_correlation,'CXCR4'; 'COVID-19',negative_correlation,'CXCR4'; 
+
+Pathway=> 'CXCR4',bind,'CD4';'CD4',association,'STAT3';'STAT3',positive_correlation,'ACE2'
+
+Linking events:  'ACE2',association,'CD4'
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',bind,'CD4'
+
+Linking events:  'CXCR4',association,'CD4'; 'CXCR4',bind,'CD4'; 
+
+Pathway=> 'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',association,'CXCR4'; 'COVID-19',positive_correlation,'CXCR4'; 'COVID-19',negative_correlation,'CXCR4'; 
+
+Pathway=> 'CXCR4',bind,'CD4';'CD4',association,'STAT3';'STAT3',positive_correlation,'ACE2'
+
+Linking events:  'ACE2',association,'CD4'
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',bind,'CD4'
+
+Linking events:  'CXCR4',association,'CD4'; 'CXCR4',bind,'CD4'; 
+
+Pathway=> 'CD4',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',association,'CXCR4'; 'COVID-19',positive_correlation,'CXCR4'; 'COVID-19',negative_correlation,'CXCR4'; 
+
+Pathway=> 'CXCR4',bind,'CD4';'CD4',association,'STAT3';'STAT3',positive_correlation,'ACE2'
+
+Linking events:  'ACE2',association,'CD4'
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'STAT3';'STAT3',negative_correlation,'CXCR4'
+
+Linking events:  'CXCR4',association,'CD4'; 'CXCR4',bind,'CD4'; 
+
+Pathway=> 'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',association,'CXCR4'; 'COVID-19',positive_correlation,'CXCR4'; 'COVID-19',negative_correlation,'CXCR4'; 
+
+Pathway=> 'CXCR4',bind,'CD4';'CD4',association,'STAT3';'STAT3',positive_correlation,'ACE2'
+
+Linking events:  'ACE2',association,'CD4'
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'STAT3';'STAT3',negative_correlation,'CXCR4'
+
+Linking events:  'CXCR4',association,'CD4'; 'CXCR4',bind,'CD4'; 
+
+Pathway=> 'CD4',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',association,'CXCR4'; 'COVID-19',positive_correlation,'CXCR4'; 'COVID-19',negative_correlation,'CXCR4'; 
+
+Pathway=> 'CXCR4',bind,'CD4';'CD4',association,'STAT3';'STAT3',positive_correlation,'ACE2'
+
+Linking events:  'ACE2',association,'CD4'
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'STAT3';'STAT3',positive_correlation,'CXCR4'
+
+Linking events:  'CXCR4',association,'CD4'; 'CXCR4',bind,'CD4'; 
+
+Pathway=> 'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',association,'CXCR4'; 'COVID-19',positive_correlation,'CXCR4'; 'COVID-19',negative_correlation,'CXCR4'; 
+
+Pathway=> 'CXCR4',bind,'CD4';'CD4',association,'STAT3';'STAT3',positive_correlation,'ACE2'
+
+Linking events:  'ACE2',association,'CD4'
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'STAT3';'STAT3',positive_correlation,'CXCR4'
+
+Linking events:  'CXCR4',association,'CD4'; 'CXCR4',bind,'CD4'; 
+
+Pathway=> 'CD4',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',association,'CXCR4'; 'COVID-19',positive_correlation,'CXCR4'; 'COVID-19',negative_correlation,'CXCR4'; 
+
+Pathway=> 'CXCR4',bind,'CD4';'CD4',association,'STAT3';'STAT3',positive_correlation,'ACE2'
+
+Linking events:  'ACE2',association,'CD4'
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',association,'CXCR4'; 'COVID-19',positive_correlation,'CXCR4'; 'COVID-19',negative_correlation,'CXCR4'; 
+
+Pathway=> 'CXCR4',bind,'CD4';'CD4',association,'STAT3';'STAT3',positive_correlation,'ACE2'
+
+Linking events:  'ACE2',association,'CD4'
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',bind,'CD4'
+
+Linking events:  'CXCR4',association,'CD4'; 'CXCR4',bind,'CD4'; 
+
+Pathway=> 'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',association,'CXCR4'; 'COVID-19',positive_correlation,'CXCR4'; 'COVID-19',negative_correlation,'CXCR4'; 
+
+Pathway=> 'CXCR4',bind,'CD4';'CD4',association,'STAT3';'STAT3',positive_correlation,'ACE2'
+
+Linking events:  'ACE2',association,'CD4'
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',bind,'CD4'
+
+Linking events:  'CXCR4',association,'CD4'; 'CXCR4',bind,'CD4'; 
+
+Pathway=> 'CD4',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',association,'CXCR4'; 'COVID-19',positive_correlation,'CXCR4'; 'COVID-19',negative_correlation,'CXCR4'; 
+
+Pathway=> 'CXCR4',bind,'CD4';'CD4',association,'STAT3';'STAT3',positive_correlation,'ACE2'
+
+Linking events:  'ACE2',negative_correlation,'CD4'; 'ACE2',association,'CD4'; 
+
+Pathway=> 'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',negative_correlation,'CD4'
+
+Linking events:  'ACE2',association,'CD4'
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',association,'CXCR4'; 'COVID-19',positive_correlation,'CXCR4'; 'COVID-19',negative_correlation,'CXCR4'; 
+
+Pathway=> 'CXCR4',bind,'CD4';'CD4',association,'STAT3';'STAT3',positive_correlation,'ACE2'
+
+Linking events:  'ACE2',negative_correlation,'CD4'; 'ACE2',association,'CD4'; 
+
+Pathway=> 'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',negative_correlation,'CD4'
+
+Linking events:  'ACE2',association,'CD4'
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',association,'CXCR4'; 'COVID-19',positive_correlation,'CXCR4'; 'COVID-19',negative_correlation,'CXCR4'; 
+
+Pathway=> 'CXCR4',bind,'CD4';'CD4',association,'STAT3';'STAT3',positive_correlation,'ACE2'
+
+Linking events:  'ACE2',negative_correlation,'CD4'; 'ACE2',association,'CD4'; 
+
+Pathway=> 'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',association,'CXCR4'; 'COVID-19',positive_correlation,'CXCR4'; 'COVID-19',negative_correlation,'CXCR4'; 
+
+Pathway=> 'CXCR4',bind,'CD4';'CD4',association,'STAT3';'STAT3',positive_correlation,'ACE2'
+
+Linking events:  'ACE2',negative_correlation,'CD4'; 'ACE2',association,'CD4'; 
+
+Pathway=> 'CD4',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',positive_correlation,'ACE2'; 'COVID-19',association,'ACE2'; 
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',positive_correlation,'ACE2'; 'COVID-19',association,'ACE2'; 
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',bind,'CD4'
+
+Linking events:  'CXCR4',association,'CD4'
+
+Pathway=> 'CXCR4',association,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',positive_correlation,'ACE2'
+
+Linking events:  'ACE2',negative_correlation,'CD4'; 'ACE2',association,'CD4'; 
+
+Pathway=> 'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',positive_correlation,'ACE2'; 'COVID-19',association,'ACE2'; 
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',bind,'CD4'
+
+Linking events:  'CXCR4',association,'CD4'
+
+Pathway=> 'CXCR4',association,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',positive_correlation,'ACE2'
+
+Linking events:  'ACE2',negative_correlation,'CD4'; 'ACE2',association,'CD4'; 
+
+Pathway=> 'CD4',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',positive_correlation,'ACE2'; 'COVID-19',association,'ACE2'; 
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',bind,'CD4'
+
+Linking events:  'CXCR4',bind,'CD4'
+
+Pathway=> 'CXCR4',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',positive_correlation,'ACE2'
+
+Linking events:  'ACE2',negative_correlation,'CD4'; 'ACE2',association,'CD4'; 
+
+Pathway=> 'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',positive_correlation,'ACE2'; 'COVID-19',association,'ACE2'; 
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',bind,'CD4'
+
+Linking events:  'CXCR4',bind,'CD4'
+
+Pathway=> 'CXCR4',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',positive_correlation,'ACE2'
+
+Linking events:  'ACE2',negative_correlation,'CD4'; 'ACE2',association,'CD4'; 
+
+Pathway=> 'CD4',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',positive_correlation,'ACE2'; 'COVID-19',association,'ACE2'; 
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',bind,'CD4'
+
+Linking events:  'CXCR4',association,'CD4'
+
+Pathway=> 'CXCR4',association,'CD4';'CD4',association,'STAT3';'STAT3',positive_correlation,'ACE2'
+
+Linking events:  'ACE2',negative_correlation,'CD4'; 'ACE2',association,'CD4'; 
+
+Pathway=> 'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',positive_correlation,'ACE2'; 'COVID-19',association,'ACE2'; 
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',bind,'CD4'
+
+Linking events:  'CXCR4',association,'CD4'
+
+Pathway=> 'CXCR4',association,'CD4';'CD4',association,'STAT3';'STAT3',positive_correlation,'ACE2'
+
+Linking events:  'ACE2',negative_correlation,'CD4'; 'ACE2',association,'CD4'; 
+
+Pathway=> 'CD4',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',positive_correlation,'ACE2'; 'COVID-19',association,'ACE2'; 
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',bind,'CD4'
+
+Linking events:  'CXCR4',bind,'CD4'
+
+Pathway=> 'CXCR4',bind,'CD4';'CD4',association,'STAT3';'STAT3',positive_correlation,'ACE2'
+
+Linking events:  'ACE2',negative_correlation,'CD4'; 'ACE2',association,'CD4'; 
+
+Pathway=> 'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',positive_correlation,'ACE2'; 'COVID-19',association,'ACE2'; 
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',bind,'CD4'
+
+Linking events:  'CXCR4',bind,'CD4'
+
+Pathway=> 'CXCR4',bind,'CD4';'CD4',association,'STAT3';'STAT3',positive_correlation,'ACE2'
+
+Linking events:  'ACE2',negative_correlation,'CD4'; 'ACE2',association,'CD4'; 
+
+Pathway=> 'CD4',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',positive_correlation,'ACE2'; 'COVID-19',association,'ACE2'; 
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',bind,'CD4'
+
+Linking events:  'CXCR4',association,'CD4'; 'CXCR4',bind,'CD4'; 
+
+Pathway=> 'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',positive_correlation,'ACE2'; 'COVID-19',association,'ACE2'; 
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',bind,'CD4'
+
+Linking events:  'CXCR4',association,'CD4'; 'CXCR4',bind,'CD4'; 
+
+Pathway=> 'CD4',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',association,'CD4'; 'COVID-19',positive_correlation,'CD4'; 'COVID-19',negative_correlation,'CD4'; 
+
+Pathway=> 'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',negative_correlation,'CD4'
+
+Linking events:  'ACE2',association,'CD4'
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',association,'CD4'; 'COVID-19',positive_correlation,'CD4'; 'COVID-19',negative_correlation,'CD4'; 
+
+Pathway=> 'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',negative_correlation,'CD4'
+
+Linking events:  'ACE2',association,'CD4'
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',association,'CD4'; 'COVID-19',positive_correlation,'CD4'; 'COVID-19',negative_correlation,'CD4'; 
+
+Pathway=> 'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',negative_correlation,'CXCR4'
+
+Linking events:  'CXCR4',association,'CD4'
+
+Pathway=> 'CXCR4',association,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',negative_correlation,'CD4'
+
+Linking events:  'ACE2',association,'CD4'
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',association,'CD4'; 'COVID-19',positive_correlation,'CD4'; 'COVID-19',negative_correlation,'CD4'; 
+
+Pathway=> 'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',negative_correlation,'CXCR4'
+
+Linking events:  'CXCR4',association,'CD4'
+
+Pathway=> 'CXCR4',association,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',negative_correlation,'CD4'
+
+Linking events:  'ACE2',association,'CD4'
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',association,'CD4'; 'COVID-19',positive_correlation,'CD4'; 'COVID-19',negative_correlation,'CD4'; 
+
+Pathway=> 'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',negative_correlation,'CXCR4'
+
+Linking events:  'CXCR4',bind,'CD4'
+
+Pathway=> 'CXCR4',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',negative_correlation,'CD4'
+
+Linking events:  'ACE2',association,'CD4'
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',association,'CD4'; 'COVID-19',positive_correlation,'CD4'; 'COVID-19',negative_correlation,'CD4'; 
+
+Pathway=> 'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',negative_correlation,'CXCR4'
+
+Linking events:  'CXCR4',bind,'CD4'
+
+Pathway=> 'CXCR4',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',negative_correlation,'CD4'
+
+Linking events:  'ACE2',association,'CD4'
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',association,'CD4'; 'COVID-19',positive_correlation,'CD4'; 'COVID-19',negative_correlation,'CD4'; 
+
+Pathway=> 'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',negative_correlation,'CXCR4'
+
+Linking events:  'CXCR4',association,'CD4'
+
+Pathway=> 'CXCR4',association,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',positive_correlation,'ACE2'
+
+Linking events:  'ACE2',association,'CD4'
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',association,'CD4'; 'COVID-19',positive_correlation,'CD4'; 'COVID-19',negative_correlation,'CD4'; 
+
+Pathway=> 'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',negative_correlation,'CXCR4'
+
+Linking events:  'CXCR4',association,'CD4'
+
+Pathway=> 'CXCR4',association,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',positive_correlation,'ACE2'
+
+Linking events:  'ACE2',association,'CD4'
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',association,'CD4'; 'COVID-19',positive_correlation,'CD4'; 'COVID-19',negative_correlation,'CD4'; 
+
+Pathway=> 'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',negative_correlation,'CXCR4'
+
+Linking events:  'CXCR4',bind,'CD4'
+
+Pathway=> 'CXCR4',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',positive_correlation,'ACE2'
+
+Linking events:  'ACE2',association,'CD4'
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',association,'CD4'; 'COVID-19',positive_correlation,'CD4'; 'COVID-19',negative_correlation,'CD4'; 
+
+Pathway=> 'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',negative_correlation,'CXCR4'
+
+Linking events:  'CXCR4',bind,'CD4'
+
+Pathway=> 'CXCR4',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',positive_correlation,'ACE2'
+
+Linking events:  'ACE2',association,'CD4'
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',association,'CD4'; 'COVID-19',positive_correlation,'CD4'; 'COVID-19',negative_correlation,'CD4'; 
+
+Pathway=> 'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',negative_correlation,'CXCR4'
+
+Linking events:  'CXCR4',association,'CD4'
+
+Pathway=> 'CXCR4',association,'CD4';'CD4',association,'STAT3';'STAT3',positive_correlation,'ACE2'
+
+Linking events:  'ACE2',association,'CD4'
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',association,'CD4'; 'COVID-19',positive_correlation,'CD4'; 'COVID-19',negative_correlation,'CD4'; 
+
+Pathway=> 'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',negative_correlation,'CXCR4'
+
+Linking events:  'CXCR4',association,'CD4'
+
+Pathway=> 'CXCR4',association,'CD4';'CD4',association,'STAT3';'STAT3',positive_correlation,'ACE2'
+
+Linking events:  'ACE2',association,'CD4'
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',association,'CD4'; 'COVID-19',positive_correlation,'CD4'; 'COVID-19',negative_correlation,'CD4'; 
+
+Pathway=> 'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',negative_correlation,'CXCR4'
+
+Linking events:  'CXCR4',bind,'CD4'
+
+Pathway=> 'CXCR4',bind,'CD4';'CD4',association,'STAT3';'STAT3',positive_correlation,'ACE2'
+
+Linking events:  'ACE2',association,'CD4'
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',association,'CD4'; 'COVID-19',positive_correlation,'CD4'; 'COVID-19',negative_correlation,'CD4'; 
+
+Pathway=> 'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',negative_correlation,'CXCR4'
+
+Linking events:  'CXCR4',bind,'CD4'
+
+Pathway=> 'CXCR4',bind,'CD4';'CD4',association,'STAT3';'STAT3',positive_correlation,'ACE2'
+
+Linking events:  'ACE2',association,'CD4'
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',association,'CD4'; 'COVID-19',positive_correlation,'CD4'; 'COVID-19',negative_correlation,'CD4'; 
+
+Pathway=> 'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',positive_correlation,'ACE2'
+
+Linking events:  'ACE2',association,'CD4'
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',association,'CD4'; 'COVID-19',positive_correlation,'CD4'; 'COVID-19',negative_correlation,'CD4'; 
+
+Pathway=> 'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',positive_correlation,'ACE2'
+
+Linking events:  'ACE2',association,'CD4'
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',association,'CD4'; 'COVID-19',positive_correlation,'CD4'; 'COVID-19',negative_correlation,'CD4'; 
+
+Pathway=> 'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',positive_correlation,'CXCR4'
+
+Linking events:  'CXCR4',association,'CD4'
+
+Pathway=> 'CXCR4',association,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',negative_correlation,'CD4'
+
+Linking events:  'ACE2',association,'CD4'
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',association,'CD4'; 'COVID-19',positive_correlation,'CD4'; 'COVID-19',negative_correlation,'CD4'; 
+
+Pathway=> 'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',positive_correlation,'CXCR4'
+
+Linking events:  'CXCR4',association,'CD4'
+
+Pathway=> 'CXCR4',association,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',negative_correlation,'CD4'
+
+Linking events:  'ACE2',association,'CD4'
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',association,'CD4'; 'COVID-19',positive_correlation,'CD4'; 'COVID-19',negative_correlation,'CD4'; 
+
+Pathway=> 'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',positive_correlation,'CXCR4'
+
+Linking events:  'CXCR4',bind,'CD4'
+
+Pathway=> 'CXCR4',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',negative_correlation,'CD4'
+
+Linking events:  'ACE2',association,'CD4'
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',association,'CD4'; 'COVID-19',positive_correlation,'CD4'; 'COVID-19',negative_correlation,'CD4'; 
+
+Pathway=> 'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',positive_correlation,'CXCR4'
+
+Linking events:  'CXCR4',bind,'CD4'
+
+Pathway=> 'CXCR4',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',negative_correlation,'CD4'
+
+Linking events:  'ACE2',association,'CD4'
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',association,'CD4'; 'COVID-19',positive_correlation,'CD4'; 'COVID-19',negative_correlation,'CD4'; 
+
+Pathway=> 'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',positive_correlation,'CXCR4'
+
+Linking events:  'CXCR4',association,'CD4'
+
+Pathway=> 'CXCR4',association,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',positive_correlation,'ACE2'
+
+Linking events:  'ACE2',association,'CD4'
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',association,'CD4'; 'COVID-19',positive_correlation,'CD4'; 'COVID-19',negative_correlation,'CD4'; 
+
+Pathway=> 'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',positive_correlation,'CXCR4'
+
+Linking events:  'CXCR4',association,'CD4'
+
+Pathway=> 'CXCR4',association,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',positive_correlation,'ACE2'
+
+Linking events:  'ACE2',association,'CD4'
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',association,'CD4'; 'COVID-19',positive_correlation,'CD4'; 'COVID-19',negative_correlation,'CD4'; 
+
+Pathway=> 'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',positive_correlation,'CXCR4'
+
+Linking events:  'CXCR4',bind,'CD4'
+
+Pathway=> 'CXCR4',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',positive_correlation,'ACE2'
+
+Linking events:  'ACE2',association,'CD4'
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',association,'CD4'; 'COVID-19',positive_correlation,'CD4'; 'COVID-19',negative_correlation,'CD4'; 
+
+Pathway=> 'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',positive_correlation,'CXCR4'
+
+Linking events:  'CXCR4',bind,'CD4'
+
+Pathway=> 'CXCR4',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',positive_correlation,'ACE2'
+
+Linking events:  'ACE2',association,'CD4'
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',association,'CD4'; 'COVID-19',positive_correlation,'CD4'; 'COVID-19',negative_correlation,'CD4'; 
+
+Pathway=> 'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',positive_correlation,'CXCR4'
+
+Linking events:  'CXCR4',association,'CD4'
+
+Pathway=> 'CXCR4',association,'CD4';'CD4',association,'STAT3';'STAT3',positive_correlation,'ACE2'
+
+Linking events:  'ACE2',association,'CD4'
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',association,'CD4'; 'COVID-19',positive_correlation,'CD4'; 'COVID-19',negative_correlation,'CD4'; 
+
+Pathway=> 'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',positive_correlation,'CXCR4'
+
+Linking events:  'CXCR4',association,'CD4'
+
+Pathway=> 'CXCR4',association,'CD4';'CD4',association,'STAT3';'STAT3',positive_correlation,'ACE2'
+
+Linking events:  'ACE2',association,'CD4'
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',association,'CD4'; 'COVID-19',positive_correlation,'CD4'; 'COVID-19',negative_correlation,'CD4'; 
+
+Pathway=> 'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',positive_correlation,'CXCR4'
+
+Linking events:  'CXCR4',bind,'CD4'
+
+Pathway=> 'CXCR4',bind,'CD4';'CD4',association,'STAT3';'STAT3',positive_correlation,'ACE2'
+
+Linking events:  'ACE2',association,'CD4'
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',association,'CD4'; 'COVID-19',positive_correlation,'CD4'; 'COVID-19',negative_correlation,'CD4'; 
+
+Pathway=> 'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',positive_correlation,'CXCR4'
+
+Linking events:  'CXCR4',bind,'CD4'
+
+Pathway=> 'CXCR4',bind,'CD4';'CD4',association,'STAT3';'STAT3',positive_correlation,'ACE2'
+
+Linking events:  'ACE2',association,'CD4'
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',association,'CD4'; 'COVID-19',positive_correlation,'CD4'; 'COVID-19',negative_correlation,'CD4'; 
+
+Pathway=> 'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',association,'CD4'; 'COVID-19',positive_correlation,'CD4'; 'COVID-19',negative_correlation,'CD4'; 
+
+Pathway=> 'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',bind,'CD4'
+
+Linking events:  'CXCR4',association,'CD4'
+
+Pathway=> 'CXCR4',association,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',positive_correlation,'ACE2'
+
+Linking events:  'ACE2',association,'CD4'
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',association,'CD4'; 'COVID-19',positive_correlation,'CD4'; 'COVID-19',negative_correlation,'CD4'; 
+
+Pathway=> 'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',bind,'CD4'
+
+Linking events:  'CXCR4',association,'CD4'
+
+Pathway=> 'CXCR4',association,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',positive_correlation,'ACE2'
+
+Linking events:  'ACE2',association,'CD4'
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',association,'CD4'; 'COVID-19',positive_correlation,'CD4'; 'COVID-19',negative_correlation,'CD4'; 
+
+Pathway=> 'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',bind,'CD4'
+
+Linking events:  'CXCR4',bind,'CD4'
+
+Pathway=> 'CXCR4',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',positive_correlation,'ACE2'
+
+Linking events:  'ACE2',association,'CD4'
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',association,'CD4'; 'COVID-19',positive_correlation,'CD4'; 'COVID-19',negative_correlation,'CD4'; 
+
+Pathway=> 'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',bind,'CD4'
+
+Linking events:  'CXCR4',bind,'CD4'
+
+Pathway=> 'CXCR4',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',positive_correlation,'ACE2'
+
+Linking events:  'ACE2',association,'CD4'
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',association,'CD4'; 'COVID-19',positive_correlation,'CD4'; 'COVID-19',negative_correlation,'CD4'; 
+
+Pathway=> 'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',bind,'CD4'
+
+Linking events:  'CXCR4',association,'CD4'
+
+Pathway=> 'CXCR4',association,'CD4';'CD4',association,'STAT3';'STAT3',positive_correlation,'ACE2'
+
+Linking events:  'ACE2',association,'CD4'
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',association,'CD4'; 'COVID-19',positive_correlation,'CD4'; 'COVID-19',negative_correlation,'CD4'; 
+
+Pathway=> 'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',bind,'CD4'
+
+Linking events:  'CXCR4',association,'CD4'
+
+Pathway=> 'CXCR4',association,'CD4';'CD4',association,'STAT3';'STAT3',positive_correlation,'ACE2'
+
+Linking events:  'ACE2',association,'CD4'
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',association,'CD4'; 'COVID-19',positive_correlation,'CD4'; 'COVID-19',negative_correlation,'CD4'; 
+
+Pathway=> 'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',bind,'CD4'
+
+Linking events:  'CXCR4',bind,'CD4'
+
+Pathway=> 'CXCR4',bind,'CD4';'CD4',association,'STAT3';'STAT3',positive_correlation,'ACE2'
+
+Linking events:  'ACE2',association,'CD4'
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',association,'CD4'; 'COVID-19',positive_correlation,'CD4'; 'COVID-19',negative_correlation,'CD4'; 
+
+Pathway=> 'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',bind,'CD4'
+
+Linking events:  'CXCR4',bind,'CD4'
+
+Pathway=> 'CXCR4',bind,'CD4';'CD4',association,'STAT3';'STAT3',positive_correlation,'ACE2'
+
+Linking events:  'ACE2',association,'CD4'
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',association,'CD4'; 'COVID-19',positive_correlation,'CD4'; 'COVID-19',negative_correlation,'CD4'; 
+
+Pathway=> 'CD4',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',association,'CD4'; 'COVID-19',positive_correlation,'CD4'; 'COVID-19',negative_correlation,'CD4'; 
+
+Pathway=> 'CD4',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',bind,'CD4'
+
+Linking events:  'CXCR4',association,'CD4'
+
+Pathway=> 'CXCR4',association,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',positive_correlation,'ACE2'
+
+Linking events:  'ACE2',association,'CD4'
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',association,'CD4'; 'COVID-19',positive_correlation,'CD4'; 'COVID-19',negative_correlation,'CD4'; 
+
+Pathway=> 'CD4',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',bind,'CD4'
+
+Linking events:  'CXCR4',association,'CD4'
+
+Pathway=> 'CXCR4',association,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',positive_correlation,'ACE2'
+
+Linking events:  'ACE2',association,'CD4'
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',association,'CD4'; 'COVID-19',positive_correlation,'CD4'; 'COVID-19',negative_correlation,'CD4'; 
+
+Pathway=> 'CD4',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',bind,'CD4'
+
+Linking events:  'CXCR4',bind,'CD4'
+
+Pathway=> 'CXCR4',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',positive_correlation,'ACE2'
+
+Linking events:  'ACE2',association,'CD4'
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',association,'CD4'; 'COVID-19',positive_correlation,'CD4'; 'COVID-19',negative_correlation,'CD4'; 
+
+Pathway=> 'CD4',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',bind,'CD4'
+
+Linking events:  'CXCR4',bind,'CD4'
+
+Pathway=> 'CXCR4',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',positive_correlation,'ACE2'
+
+Linking events:  'ACE2',association,'CD4'
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',association,'CD4'; 'COVID-19',positive_correlation,'CD4'; 'COVID-19',negative_correlation,'CD4'; 
+
+Pathway=> 'CD4',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',bind,'CD4'
+
+Linking events:  'CXCR4',association,'CD4'
+
+Pathway=> 'CXCR4',association,'CD4';'CD4',association,'STAT3';'STAT3',positive_correlation,'ACE2'
+
+Linking events:  'ACE2',association,'CD4'
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',association,'CD4'; 'COVID-19',positive_correlation,'CD4'; 'COVID-19',negative_correlation,'CD4'; 
+
+Pathway=> 'CD4',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',bind,'CD4'
+
+Linking events:  'CXCR4',association,'CD4'
+
+Pathway=> 'CXCR4',association,'CD4';'CD4',association,'STAT3';'STAT3',positive_correlation,'ACE2'
+
+Linking events:  'ACE2',association,'CD4'
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',association,'CD4'; 'COVID-19',positive_correlation,'CD4'; 'COVID-19',negative_correlation,'CD4'; 
+
+Pathway=> 'CD4',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',bind,'CD4'
+
+Linking events:  'CXCR4',bind,'CD4'
+
+Pathway=> 'CXCR4',bind,'CD4';'CD4',association,'STAT3';'STAT3',positive_correlation,'ACE2'
+
+Linking events:  'ACE2',association,'CD4'
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+-----------------------------------------------------------
+Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+Linking events:  'COVID-19',association,'CD4'; 'COVID-19',positive_correlation,'CD4'; 'COVID-19',negative_correlation,'CD4'; 
+
+Pathway=> 'CD4',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',bind,'CD4'
+
+Linking events:  'CXCR4',bind,'CD4'
+
+Pathway=> 'CXCR4',bind,'CD4';'CD4',association,'STAT3';'STAT3',positive_correlation,'ACE2'
+
+Linking events:  'ACE2',association,'CD4'
+
+Pathway=> 'ACE2',association,'CD4';'CD4',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+

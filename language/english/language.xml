@@ -167,7 +167,7 @@
         <m n="162">Start coordinate for Transcription Factors search: </m>
         <m n="163">Final coordinate for Transcription Factors search: </m>
         <m n="164">Genome Assembly for Transcription Factors search: </m>
-        <m n="165">Getting events from PubTator\'s metadata, please wait....</m>
+        <m n="165">Getting events from PubTator's metadata, please wait....</m>
         <m n="166">Do you want to restrict the knowledge base of events (Y | N):  </m>
         <m n="167">Please, set the kind of restriction (R | V): </m>
         <m n="168">Your answer must be R or V.</m>

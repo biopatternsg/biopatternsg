@@ -1,0 +1,60 @@
+-> objects to restrict the knowledge base kBase.pl (from expert_objects.txt)
+
+S;JAK3;JAK1;STAT1;STAT2;STAT3;STAT4;STAT5A;STAT5B;STAT6;IPO4;IPO5;IPO7;IPO8;IPO9;IPO11;IPO13;MICA;MICB;HLA-A;HLA-B;HLA-C;CCR5;ORF6;ORF8;CD4;CD8A;CD8B;CCR5;IFNG;IFNA1;IFNB1;IFNGR1;IFNAR1;IFNA8;IFNA;IFNL1;IFN1@;IFNA3;IFN-ALPHA-14;IFNA21;CXCR4;ACE2;COVID-19
+
+-> pathway 1 (from the general graph)
+
+S, CD4, IFNG, ACE2, COVID-19
+
+ -> pathway 2 (from the general graph)
+ 
+S, CD4, STAT3, CXCR4, COVID-19
+
+-> to search pathway 1 in pathways.txt
+
+['S', 'CD4', 'IFNG', 'ACE2', 'COVID-19'] 
+
+-> to search pathway 1 in pathways.txt
+
+['S', 'CD4', 'STAT3', 'CXCR4', 'COVID-19']
+
+-> objects to restrict (again) the knowledge base kBase.pl (from pathway 1 and pathway 2)
+
+S;CD4;IFNG;ACE2;COVID-19;CXCR4;STAT3
+
+-> to get a set of subnetworks for the shift of the regulation of COVID-19, using the very restricted knowledge base
+   -> find your pathway of interest (in pathways.txt)
+   'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+   -> ask the system to infer subnetworks with a maximum number of n=6 objects
+   -> open the file with the inferred subnetworks (file named chainsPathways.txt)
+   -> Pick a subnetwork:
+   
+   for instance:
+   
+   	-----------------------------------------------------------
+   	subnetwork 1:
+   	-----------------------------------------------------------
+	Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+	Linking events:  'COVID-19',association,'CD4'; 'COVID-19',positive_correlation,'CD4'; 'COVID-19',negative_correlation,'CD4'; 
+
+	Pathway=> 'CD4',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+	-----------------------------------------------------------
+	subnetwork 2:
+	-----------------------------------------------------------
+	Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+	Linking events:  'COVID-19',association,'CD4'; 'COVID-19',positive_correlation,'CD4'; 'COVID-19',negative_correlation,'CD4'; 
+
+	Pathway=> 'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',positive_correlation,'ACE2'
+
+	Linking events:  'ACE2',association,'CD4'
+
+	Pathway=> 'ACE2',association,'CD4';'CD4',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+	-----------------------------------------------------------
+
+-> Go to the knowledge bases kBase.pl and kBaseDoc.txt to review the related papers and get the biological meaning of the subnetworks.
+   
+

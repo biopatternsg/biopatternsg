@@ -2,6 +2,7 @@
 
 % Aligned objects: 
 
+aligned('S').
 aligned('JAK3').
 aligned('JAK1').
 aligned('STAT1').
@@ -40,7 +41,6 @@ aligned('COVID-19').
 
 % No aligned objects: 
 
-no_aligned('SPIKE PROTEIN').
 no_aligned('STAT4').
 no_aligned('IPO4').
 no_aligned('IPO8').
@@ -56,10 +56,10 @@ aligned_as('STAT5B', ['STAT5A', 'STAT5B']).
 
 % General report of aligned and no aligned objects: 
 
-aligned_objs(['JAK3', 'JAK1', 'STAT1', 'STAT2', 'STAT3', 'STAT5A', 'STAT5B', 'STAT6', 'IPO5', 'IPO7', 'IPO9', 'IPO13', 'MICA', 'MICB', 'HLA-A', 'HLA-B', 'HLA-C', 'CCR5', 'ORF6', 'ORF8', 'CD4', 'CD8A', 'CD8B', 'CCR5', 'IFNG', 'IFNA1', 'IFNB1', 'IFNGR1', 'IFNAR1', 'IFNA8', 'IFNL1', 'IFN1@', 'CXCR4', 'ACE2', 'COVID-19'], 35).
+aligned_objs(['S', 'JAK3', 'JAK1', 'STAT1', 'STAT2', 'STAT3', 'STAT5A', 'STAT5B', 'STAT6', 'IPO5', 'IPO7', 'IPO9', 'IPO13', 'MICA', 'MICB', 'HLA-A', 'HLA-B', 'HLA-C', 'CCR5', 'ORF6', 'ORF8', 'CD4', 'CD8A', 'CD8B', 'CCR5', 'IFNG', 'IFNA1', 'IFNB1', 'IFNGR1', 'IFNAR1', 'IFNA8', 'IFNL1', 'IFN1@', 'CXCR4', 'ACE2', 'COVID-19'], 36).
 
-no_aligned_objs(['SPIKE PROTEIN', 'STAT4', 'IPO4', 'IPO8', 'IPO11', 'IFNA', 'IFNA3', 'IFN-ALPHA-14', 'IFNA21'], 9).
+no_aligned_objs(['STAT4', 'IPO4', 'IPO8', 'IPO11', 'IFNA', 'IFNA3', 'IFN-ALPHA-14', 'IFNA21'], 8).
 
 aligned_as(['STAT5B'], 1).
 
-aligned_and_alternatives(['IFNB1', 'STAT3', 'HLA-C', 'STAT1', 'IPO9', 'IPO5', 'STAT5A', 'MICB', 'CD8B', 'IFNL1', 'JAK3', 'MICA', 'IFN1@', 'CD4', 'IFNAR1', 'IPO13', 'ACE2', 'ORF6', 'HLA-A', 'IPO7', 'COVID-19', 'STAT6', 'STAT2', 'HLA-B', 'IFNA8', 'IFNA1', 'IFNGR1', 'CCR5', 'JAK1', 'CXCR4', 'CD8A', 'IFNG', 'ORF8', 'STAT5B'], 34).
+aligned_and_alternatives(['HLA-B', 'JAK3', 'HLA-A', 'ORF6', 'IPO5', 'COVID-19', 'IFNG', 'IFNA1', 'JAK1', 'STAT2', 'IFNA8', 'IPO7', 'IFNB1', 'IFNAR1', 'ACE2', 'IFN1@', 'CD4', 'ORF8', 'STAT5A', 'CD8A', 'STAT3', 'IFNL1', 'STAT1', 'HLA-C', 'IPO13', 'IPO9', 'S', 'CCR5', 'CD8B', 'MICA', 'CXCR4', 'MICB', 'STAT5B', 'IFNGR1', 'STAT6'], 35).

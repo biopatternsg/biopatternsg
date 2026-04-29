@@ -1,0 +1,76 @@
+->  Use the knowledge bases (KBs) ligand.pl, or genes.pl or diseases.pl, to prompt Gemini Deep Research to produce a review regarding any of those suing something like:
+	Promt (do not forget to provide the genes.pl KB):
+	The provided file is a Prolog-formatted knowledge base describing genes or product genes possibly related to COVID-19. Prepare a report listing
+	the genes or product genes that have been identified as highly correlated with the stimulation and inhibition of COVID-19 viral load.
+	
+->  Use the report from Gemini to enrich your original list of objects ( in the file expert_objects.txt) and the objects' roles in the KB pathwaysObjects.pl, and proceed as below:
+
+->  Restrict the regulatory events in the knowledge base kBase.pl using the new list of objects from expert_objects.txt.
+
+	For instance:
+
+	Using the original list of objects plus the gene/gene products from Pubtator and GEMINI DEEP RESEARCH.
+
+S;JAK3;JAK1;STAT1;STAT2;STAT3;STAT4;STAT5A;STAT5B;STAT6;IPO4;IPO5;IPO7;IPO8;IPO9;IPO11;IPO13;MICA;MICB;HLA-A;HLA-B;HLA-C;CCR5;ORF6;ORF8;CD4;CD8A;CD8B;CCR5;IFNG;IFNA1;IFNB1;IFNGR1;IFNAR1;IFNA8;IFNA;IFNL1;IFN1@;IFNA3;IFN-ALPHA-14;IFNA21;CXCR4;ACE2;COVID-19;N;E;M;NSP1;ORF3a;BSG;NRP1;FURIN;IL6;TNF;IL1B;CRP;CXCL10;IL10;IRF3;IFNAR2;TLR3;TLR7;VWF;FGB;GFAP;NfL;IFN-TAU;RIPK1;MARCKS;OAS1;TYK2;LZTFL1;SLC6A20
+
+-> Run the inference process and then,
+
+-> Choose two or more pathways of your interest and proceed to get subnetworks.
+
+For instance:
+
+-> pathway 1 (from the general graph)
+
+S, CD4, IFNG, ACE2, COVID-19
+
+ -> pathway 2 (from the general graph)
+ 
+S, CD4, STAT3, CXCR4, COVID-19
+
+-> to search pathway 1 in pathways.txt
+
+['S', 'CD4', 'IFNG', 'ACE2', 'COVID-19'] 
+
+-> to search pathway 2 in pathways.txt
+
+['S', 'CD4', 'STAT3', 'CXCR4', 'COVID-19']
+
+-> use the objects below to restrict (again) the knowledge base kBase.pl (from pathway 1 and pathway 2)
+
+S;CD4;IFNG;ACE2;COVID-19;CXCR4;STAT3
+
+-> to get a set of subnetworks for the shift of the regulation of COVID-19, using the very restricted knowledge base
+   -> find your pathway of interest (in pathways.txt)
+   'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+   -> ask the system to infer subnetworks with a maximum number of objects (for instance n=6).
+   -> open the file with the inferred subnetworks (file named chainsPathways.txt)
+   -> Pick subnetworks of your particular interest:
+   
+   for instance:
+   
+   	-----------------------------------------------------------
+   	subnetwork 1:
+   	-----------------------------------------------------------
+	Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+	Linking events:  'COVID-19',association,'CD4'; 'COVID-19',positive_correlation,'CD4'; 'COVID-19',negative_correlation,'CD4'; 
+
+	Pathway=> 'CD4',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+	-----------------------------------------------------------
+	subnetwork 2:
+	-----------------------------------------------------------
+	Pathway=> 'S',bind,'CD4';'CD4',association,'IFNG';'IFNG',association,'ACE2';'ACE2',positive_correlation,'COVID-19'
+
+	Linking events:  'COVID-19',association,'CD4'; 'COVID-19',positive_correlation,'CD4'; 'COVID-19',negative_correlation,'CD4'; 
+
+	Pathway=> 'CD4',association,'IFNG';'IFNG',association,'STAT3';'STAT3',positive_correlation,'ACE2'
+
+	Linking events:  'ACE2',association,'CD4'
+
+	Pathway=> 'ACE2',association,'CD4';'CD4',association,'STAT3';'STAT3',association,'CXCR4';'CXCR4',negative_correlation,'COVID-19'
+
+	-----------------------------------------------------------
+
+-> Go to the knowledge bases kBase.pl and kBaseDoc.txt to review the related papers and get the biological meaning of the subnetworks.
+   

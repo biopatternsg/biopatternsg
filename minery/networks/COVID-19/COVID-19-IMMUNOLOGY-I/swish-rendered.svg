@@ -1,0 +1,201 @@
+<svg width="1417pt" height="479pt" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events" style="overflow: hidden; width: 1080.35px; height: 365.194px;"><g id="viewport-20260422163038894" class="svg-pan-zoom_viewport" transform="matrix(0.762004164128381,0,0,0.762004164128381,0.12004971504200057,0.000002691252745989914)" style="transform: matrix(0.762004, 0, 0, 0.762004, 0.12005, 2.69125e-06);">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 475)">
+<title>%3</title>
+
+<g id="node1" class="node">
+<title>S</title>
+<ellipse fill="lightgrey" stroke="black" cx="308" cy="-453" rx="27" ry="18"></ellipse>
+<text text-anchor="middle" x="308" y="-449.3" font-family="Times,serif" font-size="14.00">S</text>
+</g>
+
+<g id="node2" class="node">
+<title>CD4</title>
+<ellipse fill="lightgrey" stroke="black" cx="555" cy="-366" rx="30.59" ry="18"></ellipse>
+<text text-anchor="middle" x="555" y="-362.3" font-family="Times,serif" font-size="14.00">CD4</text>
+</g>
+
+<g id="edge1" class="edge">
+<title>S-&gt;CD4</title>
+<path fill="none" stroke="black" d="M331.35,-443.94C360,-434.04 410.07,-416.77 453,-402 475.11,-394.39 499.93,-385.88 519.54,-379.15"></path>
+<polygon fill="black" stroke="black" points="520.68,-382.46 529,-375.91 518.41,-375.84 520.68,-382.46"></polygon>
+<text text-anchor="middle" x="469" y="-405.8" font-family="Times,serif" font-size="14.00">bind</text>
+</g>
+
+<g id="edge8" class="edge">
+<title>S-&gt;CD4</title>
+<path fill="none" stroke="black" d="M334.83,-450.23C370.44,-447.11 434.68,-438.74 485,-417 501.65,-409.81 518.25,-398.19 531.1,-387.97"></path>
+<polygon fill="black" stroke="black" points="533.46,-390.56 538.97,-381.51 529.02,-385.15 533.46,-390.56"></polygon>
+<text text-anchor="middle" x="551" y="-405.8" font-family="Times,serif" font-size="14.00">association</text>
+</g>
+
+<g id="node4" class="node">
+<title>ACE2</title>
+<ellipse fill="lightgrey" stroke="black" cx="342" cy="-105" rx="36.29" ry="18"></ellipse>
+<text text-anchor="middle" x="342" y="-101.3" font-family="Times,serif" font-size="14.00">ACE2</text>
+</g>
+
+<g id="edge18" class="edge">
+<title>S-&gt;ACE2</title>
+<path fill="none" stroke="black" d="M280.9,-451.94C227.97,-450.26 116,-438.27 116,-367 116,-367 116,-367 116,-191 116,-152.6 231.74,-125.63 297.56,-113.4"></path>
+<polygon fill="black" stroke="black" points="298.46,-116.79 307.68,-111.56 297.21,-109.9 298.46,-116.79"></polygon>
+<text text-anchor="middle" x="132" y="-275.3" font-family="Times,serif" font-size="14.00">bind</text>
+</g>
+
+<g id="edge22" class="edge">
+<title>S-&gt;ACE2</title>
+<path fill="none" stroke="black" d="M281.21,-450.36C206.27,-445.03 0,-425.11 0,-367 0,-367 0,-367 0,-191 0,-130.78 202.26,-112.91 295.69,-107.87"></path>
+<polygon fill="black" stroke="black" points="295.92,-111.36 305.72,-107.36 295.56,-104.37 295.92,-111.36"></polygon>
+<text text-anchor="middle" x="40" y="-275.3" font-family="Times,serif" font-size="14.00">association</text>
+</g>
+
+<g id="node3" class="node">
+<title>IFNG</title>
+<ellipse fill="lightgrey" stroke="black" cx="452" cy="-279" rx="36" ry="18"></ellipse>
+<text text-anchor="middle" x="452" y="-275.3" font-family="Times,serif" font-size="14.00">IFNG</text>
+</g>
+
+<g id="edge2" class="edge">
+<title>CD4-&gt;IFNG</title>
+<path fill="none" stroke="black" d="M525.11,-361.65C504.05,-357.67 476.86,-348.97 461,-330 455.73,-323.69 453.1,-315.36 451.89,-307.3"></path>
+<polygon fill="black" stroke="black" points="455.36,-306.73 451.02,-297.06 448.38,-307.33 455.36,-306.73"></polygon>
+<text text-anchor="middle" x="501" y="-318.8" font-family="Times,serif" font-size="14.00">association</text>
+</g>
+
+<g id="edge19" class="edge">
+<title>CD4-&gt;ACE2</title>
+<path fill="none" stroke="black" d="M525.89,-360.12C445.11,-345.92 221.4,-301.84 181,-243 142.63,-187.11 243.45,-140.55 302.58,-118.95"></path>
+<polygon fill="black" stroke="black" points="303.79,-122.23 312.03,-115.58 301.44,-115.64 303.79,-122.23"></polygon>
+<text text-anchor="middle" x="254.5" y="-231.8" font-family="Times,serif" font-size="14.00">negative_correlation</text>
+</g>
+
+<g id="node5" class="node">
+<title>COVID-19</title>
+<ellipse fill="lightgrey" stroke="black" cx="922" cy="-18" rx="56.59" ry="18"></ellipse>
+<text text-anchor="middle" x="922" y="-14.3" font-family="Times,serif" font-size="14.00">COVID-19</text>
+</g>
+
+<g id="edge20" class="edge">
+<title>CD4-&gt;COVID-19</title>
+<path fill="none" stroke="black" d="M585.34,-363.36C697.75,-356.87 1084,-330.87 1084,-280 1084,-280 1084,-280 1084,-104 1084,-79.15 1078.34,-69.6 1059,-54 1038.76,-37.68 1011.82,-28.87 987.19,-24.16"></path>
+<polygon fill="black" stroke="black" points="987.61,-20.68 977.16,-22.43 986.42,-27.58 987.61,-20.68"></polygon>
+<text text-anchor="middle" x="1155" y="-188.3" font-family="Times,serif" font-size="14.00">positive_correlation</text>
+</g>
+
+<g id="edge21" class="edge">
+<title>CD4-&gt;COVID-19</title>
+<path fill="none" stroke="black" d="M585.83,-364.59C721.91,-362.36 1262,-349.15 1262,-280 1262,-280 1262,-280 1262,-104 1262,-48.1 1086.84,-28.66 987.96,-22.13"></path>
+<polygon fill="black" stroke="black" points="987.96,-18.63 977.76,-21.49 987.52,-25.61 987.96,-18.63"></polygon>
+<text text-anchor="middle" x="1335.5" y="-188.3" font-family="Times,serif" font-size="14.00">negative_correlation</text>
+</g>
+
+<g id="node7" class="node">
+<title>STAT3</title>
+<ellipse fill="lightgrey" stroke="black" cx="603" cy="-192" rx="40.09" ry="18"></ellipse>
+<text text-anchor="middle" x="603" y="-188.3" font-family="Times,serif" font-size="14.00">STAT3</text>
+</g>
+
+<g id="edge17" class="edge">
+<title>CD4-&gt;STAT3</title>
+<path fill="none" stroke="black" d="M578.18,-354.2C612.9,-336.56 677.08,-297.96 703,-243 714.77,-218.05 682.65,-205.39 651.75,-199.07"></path>
+<polygon fill="black" stroke="black" points="652.28,-195.61 641.81,-197.23 651.01,-202.49 652.28,-195.61"></polygon>
+<text text-anchor="middle" x="731" y="-275.3" font-family="Times,serif" font-size="14.00">association</text>
+</g>
+
+<g id="edge3" class="edge">
+<title>IFNG-&gt;ACE2</title>
+<path fill="none" stroke="black" d="M441.16,-261.49C425.84,-238.1 397.04,-193.94 373,-156 367.92,-147.98 362.43,-139.18 357.52,-131.24"></path>
+<polygon fill="black" stroke="black" points="360.48,-129.39 352.25,-122.72 354.53,-133.07 360.48,-129.39"></polygon>
+<text text-anchor="middle" x="447" y="-188.3" font-family="Times,serif" font-size="14.00">association</text>
+</g>
+
+<g id="edge10" class="edge">
+<title>IFNG-&gt;STAT3</title>
+<path fill="none" stroke="black" d="M447.48,-260.92C445.75,-250.32 445.68,-237.04 453,-228 459.61,-219.84 514.56,-208.52 556.06,-200.99"></path>
+<polygon fill="black" stroke="black" points="556.78,-204.41 566.01,-199.21 555.55,-197.52 556.78,-204.41"></polygon>
+<text text-anchor="middle" x="493" y="-231.8" font-family="Times,serif" font-size="14.00">association</text>
+</g>
+
+<g id="edge5" class="edge">
+<title>ACE2-&gt;CD4</title>
+<path fill="none" stroke="black" d="M355.56,-122.03C366,-133.3 381.42,-147.78 398,-156 435.72,-174.69 455.12,-151.98 491,-174 516.91,-189.9 520.88,-200.12 533,-228 548.59,-263.85 553.25,-309.29 554.58,-337.77"></path>
+<polygon fill="black" stroke="black" points="551.08,-337.93 554.94,-347.8 558.08,-337.68 551.08,-337.93"></polygon>
+<text text-anchor="middle" x="611.5" y="-231.8" font-family="Times,serif" font-size="14.00">negative_correlation</text>
+</g>
+
+<g id="edge9" class="edge">
+<title>ACE2-&gt;CD4</title>
+<path fill="none" stroke="black" d="M336.45,-123.09C328.72,-150.12 317.68,-203.7 337,-243 371.08,-312.33 463.28,-344.25 516.21,-357.25"></path>
+<polygon fill="black" stroke="black" points="515.72,-360.72 526.25,-359.6 517.31,-353.91 515.72,-360.72"></polygon>
+<text text-anchor="middle" x="377" y="-231.8" font-family="Times,serif" font-size="14.00">association</text>
+</g>
+
+<g id="edge4" class="edge">
+<title>ACE2-&gt;COVID-19</title>
+<path fill="none" stroke="black" d="M374.91,-96.96C424.88,-86.45 522.96,-66.58 607,-54 693.6,-41.04 794.26,-30.67 858.03,-24.67"></path>
+<polygon fill="black" stroke="black" points="858.7,-28.13 868.33,-23.71 858.05,-21.16 858.7,-28.13"></polygon>
+<text text-anchor="middle" x="678" y="-57.8" font-family="Times,serif" font-size="14.00">positive_correlation</text>
+</g>
+
+<g id="node6" class="node">
+<title>CXCR4</title>
+<ellipse fill="lightgrey" stroke="black" cx="855" cy="-105" rx="43.59" ry="18"></ellipse>
+<text text-anchor="middle" x="855" y="-101.3" font-family="Times,serif" font-size="14.00">CXCR4</text>
+</g>
+
+<g id="edge6" class="edge">
+<title>CXCR4-&gt;CD4</title>
+<path fill="none" stroke="black" d="M898.55,-106.54C945.19,-109.01 1010.01,-118.94 990,-156 909.78,-304.54 686.38,-348.73 594.86,-360.81"></path>
+<polygon fill="black" stroke="black" points="594.37,-357.35 584.89,-362.07 595.25,-364.29 594.37,-357.35"></polygon>
+<text text-anchor="middle" x="972" y="-231.8" font-family="Times,serif" font-size="14.00">association</text>
+</g>
+
+<g id="edge7" class="edge">
+<title>CXCR4-&gt;CD4</title>
+<path fill="none" stroke="black" d="M896.82,-110.38C936.07,-115.41 990.81,-125.08 1005,-141 1083.12,-228.65 1030.8,-220.09 1015,-243 966.65,-313.12 697.83,-349.42 595.01,-360.9"></path>
+<polygon fill="black" stroke="black" points="594.57,-357.43 585.02,-362 595.34,-364.39 594.57,-357.43"></polygon>
+<text text-anchor="middle" x="1049" y="-231.8" font-family="Times,serif" font-size="14.00">bind</text>
+</g>
+
+<g id="edge15" class="edge">
+<title>CXCR4-&gt;COVID-19</title>
+<path fill="none" stroke="black" d="M814.96,-97.86C780.53,-90.86 739.17,-77.27 758,-54 770.62,-38.4 817.18,-29.46 857.49,-24.52"></path>
+<polygon fill="black" stroke="black" points="858.04,-27.98 867.57,-23.35 857.24,-21.02 858.04,-27.98"></polygon>
+<text text-anchor="middle" x="829" y="-57.8" font-family="Times,serif" font-size="14.00">positive_correlation</text>
+</g>
+
+<g id="edge16" class="edge">
+<title>CXCR4-&gt;COVID-19</title>
+<path fill="none" stroke="black" d="M877.99,-89.55C885.72,-83.85 893.92,-76.81 900,-69 905.39,-62.09 909.75,-53.65 913.13,-45.69"></path>
+<polygon fill="black" stroke="black" points="916.4,-46.94 916.77,-36.35 909.88,-44.4 916.4,-46.94"></polygon>
+<text text-anchor="middle" x="981.5" y="-57.8" font-family="Times,serif" font-size="14.00">negative_correlation</text>
+</g>
+
+<g id="edge13" class="edge">
+<title>STAT3-&gt;ACE2</title>
+<path fill="none" stroke="black" d="M570.79,-181.11C561.85,-178.57 552.09,-176 543,-174 492.9,-162.99 477.37,-173.06 429,-156 408.21,-148.67 386.71,-136.36 370.29,-125.8"></path>
+<polygon fill="black" stroke="black" points="372,-122.73 361.72,-120.15 368.14,-128.57 372,-122.73"></polygon>
+<text text-anchor="middle" x="500" y="-144.8" font-family="Times,serif" font-size="14.00">positive_correlation</text>
+</g>
+
+<g id="edge11" class="edge">
+<title>STAT3-&gt;CXCR4</title>
+<path fill="none" stroke="black" d="M626.81,-177.47C637.89,-171.09 651.2,-163.28 663,-156 673.39,-149.59 674.72,-145.65 686,-141 723.53,-125.53 768.67,-116.63 802.86,-111.68"></path>
+<polygon fill="black" stroke="black" points="803.66,-115.1 813.09,-110.27 802.71,-108.17 803.66,-115.1"></polygon>
+<text text-anchor="middle" x="759.5" y="-144.8" font-family="Times,serif" font-size="14.00">negative_correlation</text>
+</g>
+
+<g id="edge12" class="edge">
+<title>STAT3-&gt;CXCR4</title>
+<path fill="none" stroke="black" d="M643.18,-189.47C701.02,-186.52 803.98,-178.23 833,-156 840.55,-150.22 845.56,-141.29 848.86,-132.58"></path>
+<polygon fill="black" stroke="black" points="852.21,-133.59 851.91,-123 845.54,-131.47 852.21,-133.59"></polygon>
+<text text-anchor="middle" x="915" y="-144.8" font-family="Times,serif" font-size="14.00">positive_correlation</text>
+</g>
+
+<g id="edge14" class="edge">
+<title>STAT3-&gt;CXCR4</title>
+<path fill="none" stroke="black" d="M586.8,-175.28C577.88,-164.72 570.22,-150.97 579,-141 593.47,-124.58 725.77,-113.87 801.82,-109.01"></path>
+<polygon fill="black" stroke="black" points="802.4,-112.48 812.16,-108.36 801.96,-105.5 802.4,-112.48"></polygon>
+<text text-anchor="middle" x="619" y="-144.8" font-family="Times,serif" font-size="14.00">association</text>
+</g>
+</g>
+</g></svg>
