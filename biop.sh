@@ -6,10 +6,10 @@
 
 # cd ~/tools/biopatternsg
 
-source ~/miniconda/bin/activate
+source ~/miniconda3/bin/activate
 
 conda activate biopatternsg
 
 # Run the biopatternsg system using the following command; then choose a language:
 
-java -Xmx2048m -jar biopatternsg.jar
+java -XX:+UseG1GC -Xmx6g -jar biopatternsg.jar
