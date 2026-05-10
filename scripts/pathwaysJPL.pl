@@ -105,7 +105,6 @@ eventoEspecial_rest(A,E,B,L):-
 %The set of restrictions for the objects at the beginning of a pathway.
 restrictions_start(A,B):- 
 	(ligand(A); receptor(A)),
-	% (ligand(A); protein(A)),
 	protein(B),
 	not(A = B).
 	
