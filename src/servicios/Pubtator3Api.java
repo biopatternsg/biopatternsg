@@ -90,13 +90,13 @@ public class Pubtator3Api extends conexionServ {
 
                 var annotation = jsonElement.getAsJsonObject();
 
-                var indentifier = annotation.get("infons").getAsJsonObject().get("identifier").toString().replaceAll("\"", "");
-                var accession = annotation.get("infons").getAsJsonObject().get("accession").toString().replaceAll("\"", "");
-                var name = annotation.get("infons").getAsJsonObject().get("name").toString().replaceAll("\"", "");
-                var normalizeId = annotation.get("infons").getAsJsonObject().get("normalized_id").toString().replaceAll("\"", "");
-                var type = annotation.get("infons").getAsJsonObject().get("type").toString().replaceAll("\"", "");
-                var biotype = annotation.get("infons").getAsJsonObject().get("biotype").toString().replaceAll("\"", "");
-                var text = annotation.get("text").toString().replaceAll("\"", "");;
+                var indentifier = getAnnotation(annotation, "identifier");
+                var accession = getAnnotation(annotation, "accession");
+                var name =  getAnnotation(annotation, "name"); 
+                var normalizeId = getAnnotation(annotation, "normalized_id");
+                var type = getAnnotation(annotation, "type"); 
+                var biotype = getAnnotation(annotation, "biotype");
+                var text = annotation.get("text").toString().replaceAll("\"", "");
                 
                 if (!accession.equals("null")) {
                     
@@ -118,6 +118,14 @@ public class Pubtator3Api extends conexionServ {
 
         }
 
+    }
+    
+    private String getAnnotation(JsonObject jsonObject,String tag){
+        try{
+        return jsonObject.get("infons").getAsJsonObject().get(tag).toString().replaceAll("\"", "");
+        }catch(Exception e){
+            return "-";
+        }
     }
 
     private void getLocations(JsonObject jsonObject, ObjectDetail objectDetail) {
