@@ -52,7 +52,7 @@ public class lecturas_Uniprot extends conexionServ{
             doc = conexionSimple(url);
             obtener_Nombre();
         } catch (Exception e) {
-            System.out.println("Error conexion");
+           // System.out.println("Error conexion");
         }
 
     }
