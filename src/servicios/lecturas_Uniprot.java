@@ -49,10 +49,10 @@ public class lecturas_Uniprot extends conexionServ{
         String url = "https://www.uniprot.org/uniprot/" + codigo + ".xml";
         
         try {
-            doc = conecta(url);
+            doc = conexionSimple(url);
             obtener_Nombre();
         } catch (Exception e) {
-
+            System.out.println("Error conexion");
         }
 
     }

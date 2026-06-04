@@ -72,7 +72,13 @@ public class lecturas_PDB extends conexionServ {
                     ArrayList<HGNC> L_HGNC = new ArrayList<>();
                     if (uniprot != null) {
                         lecturas_Uniprot UP = new lecturas_Uniprot(uniprot);
-                        L_HGNC = new lecturas_HGNC().busquedaInfGen(UP.getSimbolo(), GO, MESH, ruta);
+                        if (UP.getSimbolo() != null) {
+                            L_HGNC = new lecturas_HGNC().busquedaInfGen(UP.getSimbolo(), GO, MESH, ruta);
+                        } else {
+                            L_HGNC = new lecturas_HGNC().busquedaInfGen(description, GO, MESH, ruta);
+
+                        }
+
                     } else {
                         L_HGNC = new lecturas_HGNC().busquedaInfGen(description, GO, MESH, ruta);
                     }
@@ -97,5 +103,5 @@ public class lecturas_PDB extends conexionServ {
 
         }
     }
-  
+
 }
