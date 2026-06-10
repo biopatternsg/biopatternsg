@@ -84,7 +84,7 @@ public class BioPattern {
     public Region pipelineBioPatternRP(String regionPromotora, String confiabilidad, int cant_compl_p, int num_iteraciones, int metodoDeBusqueda, String chromosoma, int coordenadaInicio, int coordenadaFin, String genomaFTSearch) throws IOException {
 
         //Autenticación de proxy        
-        autenticarProxy("150.187.65.3", "3128");
+        //autenticarProxy("150.187.65.3", "3128");
         // Búsqueda de regiones promotoras de los mejores homologos para la secuencia problema.
         //String rutaRegsPromotorasHomolgs = new HomologosBlast().regionesPromotsHomolgs(rutaSecProb, cantPromotores);
 

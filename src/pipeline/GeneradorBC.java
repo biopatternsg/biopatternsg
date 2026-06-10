@@ -77,7 +77,8 @@ public class GeneradorBC {
 
         }
 
-        System.out.print("\n" + "Getting events from PubTator\'s metadata, please wait...." + "\n");
+        //System.out.print("\n" + "Getting events from PubTator\'s metadata, please wait...." + "\n");
+        System.out.print(utilidades.idioma.get(165) + "\n");
 
         // Specify the command to be executed         
         ProcessBuilder builder = new ProcessBuilder("python3", "scripts/kb_generator.py", ruta, kindOfRestriction, restricted_list, workingDir);
@@ -140,7 +141,8 @@ public class GeneradorBC {
 
         while (true) {
             //System.out.print(utilidades.idioma.get(86));
-            System.out.print("Do you want to restrict the knowledge base of events (Y | N): ");
+            //System.out.print("Do you want to restrict the knowledge base of events (Y | N): ");
+            System.out.print(utilidades.idioma.get(166) + "\n");
             String resp = lectura.nextLine();
             if (resp.equalsIgnoreCase("s") || resp.equalsIgnoreCase("y")) {
                 r = true;
@@ -156,14 +158,16 @@ public class GeneradorBC {
         if (r) {
             while (true) {
                 // System.out.print(utilidades.idioma.get(87) + "\n");
-                System.out.print("Please, set the kind of restriction (R | V): ");
+                //System.out.print("Please, set the kind of restriction (R | V): ");
+                System.out.print(utilidades.idioma.get(167) + "\n");
                 String resp = lectura.nextLine();
                 if (resp.equalsIgnoreCase("R") || resp.equalsIgnoreCase("V")) {
                     kindOfRestriction = resp.toUpperCase();
                     break;
                 } else {
                     //System.out.println(utilidades.idioma.get(53));
-                    System.out.println("Your answer must be R or V");
+                    // System.out.println("Your answer must be R or V");
+                    System.out.print(utilidades.idioma.get(168) + "\n");
                 }
             }
 
