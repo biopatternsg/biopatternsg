@@ -1,6 +1,7 @@
 import os
 import sys
 from os import path
+import shutil
 
 if __name__ == '__main__':
     """
@@ -22,11 +23,20 @@ if __name__ == '__main__':
 
     # print(f'root: {root}')
 
-    pathways_objects_path = root + '/pathwaysObjects.pl'
-    biotypes_objects_path = root + '/biotypes.pl'
-    ligands_objects_path = root + '/ligands.pl'
-    genes_objects_path = root + '/genes.pl'
-    diseases_objects_path = root + '/diseases.pl'
+    pubtators_biotypes_path = root + '/biotypes-kbs' + '/biotypes.pl'
+
+    if not path.exists(pubtators_biotypes_path):
+        print(f'Not biotypes.pl in the biotypes-kbs folder available. Please check.')
+        exit()
+
+    pathways_objects_path = root  + '/pathwaysObjects.pl'
+    biotypes_objects_path = root + '/biotypes-kbs' + '/biotypes.pl'
+    ligands_objects_path = root + '/biotypes-kbs' + '/ligands.pl'
+    genes_objects_path = root + '/biotypes-kbs' + '/genes.pl'
+    diseases_objects_path = root + '/biotypes-kbs' + '/diseases.pl'
+    variants_objects_path = root + '/biotypes-kbs' + '/variants.pl'
+    species_objects_path = root + '/biotypes-kbs' + '/species.pl'
+    cell_lines_objects_path = root + '/biotypes-kbs' + '/cell_lines.pl'
 
     if not path.exists(pathways_objects_path):
         print(f'Not "pathwaysObjects.pl" file available. Please check.')
@@ -34,7 +44,8 @@ if __name__ == '__main__':
 
     ending_facts = ["% The following lines are to avoid errors in the process: They should not be modified.\n",
                     "% Las siguientes lineas son para evitar errores en el proceso: No deben ser modificadas.\n",
-                    "enzyme('').\n", "protein('').\n", "transcription_factor('').\n", "receptor('').\n", "ligand('').\n",
+                    "enzyme('').\n", "protein('').\n", "transcription_factor('').\n", "receptor('').\n",
+                    "ligand('').\n",
                     "disease('').\n"]
 
     with open(pathways_objects_path, 'r', encoding="utf8") as path_objects:
@@ -45,23 +56,32 @@ if __name__ == '__main__':
 
     ligands_from_pubtator = []
     genes_from_pubtator = []
+    variants_from_pubtator = []
     diseases_from_pubtator = []
+    species_from_pubtator = []
+    cell_lines_from_pubtator = []
 
-# Improving the pathwaysObjects.pl file.
-    biotypes.pop(0) # Removing the head of the file
+    # Improving the pathwaysObjects.pl file.
+    biotypes.pop(0)  # Removing the head of the file
     for biotype in biotypes:
         if biotype not in pathways_objects:
             if biotype.startswith('ligand'):
                 ligands_from_pubtator.append(biotype)
             elif biotype.startswith('protein'):
                 genes_from_pubtator.append(biotype)
-            else:
+            elif biotype.startswith('variant'):
+                variants_from_pubtator.append(biotype)
+            elif biotype.startswith('disease'):
                 diseases_from_pubtator.append(biotype)
+            elif biotype.startswith('species'):
+                species_from_pubtator.append(biotype)
+            else:
+                cell_lines_from_pubtator.append(biotype)
 
-    # pathways_objects.pop(0) # Removing the head containing the objects in the knowledge base from pubtator
     with open(pathways_objects_path, 'w', encoding="utf8") as path_objects:
 
-        path_objects.write("% Below the lines for the objects roles from the user and the first step of the pipeline." + "\n" + "\n")
+        path_objects.write(
+            "% Below the lines for the objects roles from the user and the first step of the pipeline." + "\n" + "\n")
         for object_ in pathways_objects:
             if object_ not in ending_facts:
                 if not object_.startswith("%") and object_ not in ending_facts:
@@ -72,24 +92,45 @@ if __name__ == '__main__':
         path_objects.write("% ligands from PubTator" + "\n" + "\n")
         path_objects.write("% genes from PubTator" + "\n" + "\n")
         path_objects.write("% diseases from PubTator" + "\n" + "\n")
+        path_objects.write("% variant from PubTator" + "\n" + "\n")
+        path_objects.write("% species from PubTator" + "\n" + "\n")
+        path_objects.write("% diseases from PubTator" + "\n" + "\n")
 
         for fact in ending_facts:
             path_objects.write(fact)
 
     with open(ligands_objects_path, 'w', encoding="utf8") as ligands_fl:
-        ligands_fl.write("% small molecules from PubTator"  + "\n")
+        ligands_fl.write("% small molecules from PubTator" + "\n")
 
         for ligand in ligands_from_pubtator:
-            ligands_fl.write(ligand +  "\n")
+            ligands_fl.write(ligand + "\n")
 
     with open(genes_objects_path, 'w', encoding="utf8") as genes_fl:
         genes_fl.write("% gene and gene products from PubTator" + "\n")
 
         for gene in genes_from_pubtator:
-            genes_fl.write(gene +  "\n")
+            genes_fl.write(gene + "\n")
+
+    with open(variants_objects_path, 'w', encoding="utf8") as variants_fl:
+        variants_fl.write("% gene and gene products variants from PubTator" + "\n")
+
+        for variant in variants_from_pubtator:
+            variants_fl.write(variant + "\n")
 
     with open(diseases_objects_path, 'w', encoding="utf8") as diseases_fl:
-        diseases_fl.write("% Diseases from PubTator" +  "\n")
+        diseases_fl.write("% Diseases from PubTator" + "\n")
 
         for disease in diseases_from_pubtator:
-            diseases_fl.write(disease +  "\n")
+            diseases_fl.write(disease + "\n")
+
+    with open(species_objects_path, 'w', encoding="utf8") as species_fl:
+        species_fl.write("% Species from PubTator" + "\n")
+
+        for specie in species_from_pubtator:
+            species_fl.write(specie + "\n")
+
+    with open(cell_lines_objects_path, 'w', encoding="utf8") as cell_lines_fl:
+        cell_lines_fl.write("% Cell lines from PubTator" + "\n")
+
+        for cell_line in cell_lines_from_pubtator:
+            cell_lines_fl.write(cell_line + "\n")

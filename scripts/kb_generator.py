@@ -7,7 +7,7 @@ import regex
 import sys
 
 
-def get_event_sents(abs_line: str , sentences: list, event: dict, entities: dict, pubmed_id: str, abstract: str) -> list:
+def get_event_sents(abs_line: str, sentences: list, event: dict, entities: dict, pubmed_id: str, abstract: str) -> list:
     """
     This script gets the sentences in the abstract on process that include both of the biological objects,
     that are part of the regulatory event, described in the event dictionary. When none of the sentences in the abstract
@@ -71,23 +71,17 @@ def get_normalized_kb(events: dict, entities: dict, objects_identities_: list) -
 
     knowledge_base = {}
     object_synonyms = {}  # Stores the different ways a biological object is named in the corpus.
-    biotypes_path = root + "/biotypes.pl"
+    biotypes_path = root + "/biotypes-kbs" + "/biotypes.pl"
     identities_path = root + "/kb_objects.txt"
 
     print("Normalizing the knowledge base......." + "\n")
 
     with open(biotypes_path, 'w', encoding="utf8") as biotypes:
-
         biotypes.write(
-            "% The identities for the objects present in the knowledge base, as pubtator predicts." + "\n" + "\n")
+            "% The identities for the objects present in the knowledge base, as pubtator predicts them." + "\n" + "\n")
 
         for _, identity in objects_identities_:
             biotypes.write(identity + "\n")
-
-    with open(identities_path, 'w', encoding="utf8") as identities:
-
-        for entity_id_, _ in objects_identities_:
-            identities.write(entity_id_ + "\n")
 
     for key, values in events.items():
 
@@ -200,7 +194,6 @@ def print_kb(knowledge_base: dict, root: str) -> None:
                 kb_doc.write("\n")
 
 
-
 def print_synonyms(objects_synonyms: dict, root: str) -> None:
     synonyms_path = root + "/synonyms.pl"
 
@@ -215,7 +208,6 @@ def print_synonyms(objects_synonyms: dict, root: str) -> None:
 
 
 def print_aligned_objs(root: str, synonyms_: dict, biopatternsg_directory: str) -> None:
-
     print("Current working directory: " + biopatternsg_directory)
     # cwd = "/home/jose-lopez/NetBeansProjects/biopatternsg/minery/networks/EVALUATION/CREB-phosphorylation"
     # Setting the user\`s biological objects file ( named expert_objects.txt) path
@@ -235,18 +227,17 @@ def print_aligned_objs(root: str, synonyms_: dict, biopatternsg_directory: str) 
         with open(user_objects_path, 'r', encoding="utf8") as usr_objs_fl:
             user_objects = [line.strip() for line in usr_objs_fl.readlines()]
     except Exception as e:
-            # A catch-all for any other unexpected exceptions (use sparingly)
-            print(
-                f"Please, to print the aligned objects provide a correct file named expert_objects.txt in the data folder" + "\n" + "\n")
-            print(f'This is the cause of the problem :')
-            print(f'{e}')
+        # A catch-all for any other unexpected exceptions (use sparingly)
+        print(
+            f"Please, to print the aligned objects provide a correct file named expert_objects.txt in the data folder" + "\n" + "\n")
+        print(f'This is the cause of the problem :')
+        print(f'{e}')
 
     for i in range(len(user_objects)):
         obj = user_objects[i]
         if "'" in obj:
             obj = obj.replace("'", "\\'")
             user_objects[i] = obj
-
 
     user_objects = [obj.upper() for obj in user_objects]
 
@@ -260,7 +251,6 @@ def print_aligned_objs(root: str, synonyms_: dict, biopatternsg_directory: str) 
                 if id_ in synonyms_ids:
                     if main_id not in aligned_as_objects_[id_]:
                         aligned_as_objects_[id_].append(main_id)
-
 
         no_aligned_objects = [no_alg for no_alg, alt_ids in aligned_as_objects_.items() if not alt_ids]
 
@@ -283,11 +273,10 @@ def print_aligned_objs(root: str, synonyms_: dict, biopatternsg_directory: str) 
             elif len(alt_ids) > 1:
                 aligned_as_objects.append((main_id.replace("\\\\'", "'"), alt_ids))
 
+        aligned_objs_fl.write(
+            f'% The list of user\'s objects aligned and no aligned with the PubTator\'s IDs in the KB' + '\n' + '\n')
 
-        aligned_objs_fl.write(f'% The list of user\'s objects aligned and no aligned with the PubTator\'s IDs in the KB' + '\n' + '\n')
-
-        aligned_objs_fl.write(f'% Aligned objects: ' + '\n'+ '\n')
-
+        aligned_objs_fl.write(f'% Aligned objects: ' + '\n' + '\n')
 
         if aligned_objects:
             for obj_ in aligned_objects:
@@ -296,15 +285,15 @@ def print_aligned_objs(root: str, synonyms_: dict, biopatternsg_directory: str) 
         else:
             aligned_objs_fl.write(f'aligned(none).' + '\n')
 
-        aligned_objs_fl.write('\n'+ f'% No aligned objects: ' + '\n'+ '\n')
+        aligned_objs_fl.write('\n' + f'% No aligned objects: ' + '\n' + '\n')
         if no_aligned_objects:
             for obj_ in no_aligned_objects:
                 obj_ = obj_.replace("\\\\'", "'")
                 aligned_objs_fl.write(f'no_aligned(\'{obj_}\').' + '\n')
         else:
-            aligned_objs_fl.write(f'no_aligned(none).' + '\n'+ '\n')
+            aligned_objs_fl.write(f'no_aligned(none).' + '\n' + '\n')
 
-        aligned_objs_fl.write('\n'+ f'% User\'s objects with alternative alignments: ' + '\n'+ '\n')
+        aligned_objs_fl.write('\n' + f'% User\'s objects with alternative alignments: ' + '\n' + '\n')
 
         list_of_aligned_as_objects = []
         if aligned_as_objects:
@@ -316,11 +305,11 @@ def print_aligned_objs(root: str, synonyms_: dict, biopatternsg_directory: str) 
         else:
             aligned_objs_fl.write(f'aligned_as(none, none).' + '\n')
 
-        aligned_objs_fl.write('\n' + f'% General report of aligned and no aligned objects: ' + '\n'+ '\n')
+        aligned_objs_fl.write('\n' + f'% General report of aligned and no aligned objects: ' + '\n' + '\n')
 
-        aligned_objs_fl.write(f'aligned_objs({aligned_objects}, {len(aligned_objects)}).' + '\n'+ '\n')
+        aligned_objs_fl.write(f'aligned_objs({aligned_objects}, {len(aligned_objects)}).' + '\n' + '\n')
 
-        aligned_objs_fl.write(f'no_aligned_objs({no_aligned_objects}, {len(no_aligned_objects)}).' + '\n'+ '\n')
+        aligned_objs_fl.write(f'no_aligned_objs({no_aligned_objects}, {len(no_aligned_objects)}).' + '\n' + '\n')
 
         aligd_as_objects = []
         if aligned_as_objects:
@@ -332,6 +321,29 @@ def print_aligned_objs(root: str, synonyms_: dict, biopatternsg_directory: str) 
 
         aligned_objs_fl.write(f'aligned_and_alternatives({related_objects}, {len(related_objects)}).')
 
+
+def get_entities_in_pubmed_id_on(entities: str, pubmed_id_on: str) -> dict:
+    entities_registers_for_pubmed_id_on = {}
+
+    with open(rel_file, 'r', encoding="utf8") as ent_fl:
+        entities_lines = [line.strip() for line in ent_fl.readlines()]
+
+        for entities_line in entities_lines:
+
+            entity_fields = entities_line.split(" | ")
+
+            if entity_fields[0] == pubmed_id_on:
+                continue
+
+def print_species_pubmed_ids(root: str, species_pubmed_ids: list, working_dir:str, species_names: list):
+
+    species_pubmed_ids__path = root + "/species_pubmed_ids.txt"
+
+    with open(species_pubmed_ids__path, 'w', encoding="utf8") as pubmed_ids_fl:
+        # pubmed_ids_fl.write(f'% PubMed IDs in the experiment that mentions the species {species_names}' + '\n' + '\n')
+
+        for pubmed_id in species_pubmed_ids:
+            pubmed_ids_fl.write(f'{pubmed_id}' + '\n')
 
 if __name__ == '__main__':
     """
@@ -380,6 +392,11 @@ if __name__ == '__main__':
         shutil.rmtree(logs_files_path)
     os.mkdir(logs_files_path)
 
+    pubtators_biotypes_path = root + '/biotypes-kbs'
+    if path.exists(pubtators_biotypes_path):
+        shutil.rmtree(pubtators_biotypes_path)
+    os.mkdir(pubtators_biotypes_path)
+
     # Getting ready nltk for nlp processing
     """
         nltk.download('punkt')
@@ -408,6 +425,12 @@ if __name__ == '__main__':
     objects_identities = []  # Each object in the KB with its biological identity (ligand. protein or disease)
     # This list of objects only has sense when the user provides a restricted list of objects.
     objects_in_restricted_kb = []
+    # These three lines below are to deal with the user's cases needing information about PubMed IDs that mention some special species.
+    # You only need to list the species names in the list species_names and the system will print a file named species_pubmed_ids.txt. 
+    species_pubmed_ids = []
+    species_names = ["PSEUDOMONAS", "P. "]
+    species_names_upper = [species.upper() for species in species_names]
+
 
     print("\n" + f'Getting the knowledge base of regulatory events::')
     print(f'***********************************************' + "\n")
@@ -459,6 +482,10 @@ if __name__ == '__main__':
 
                 pubmed_id_on = pubmed_id
 
+                # Experimental: On consideration to connect a variant with its corresponding gene or protein.
+                # Returns all the entities in a particular abstract with ID = pubmed_id_on.
+                # entities_in_pubmed_id_on = get_entities_in_pubmed_id_on(entity_file, pubmed_id_on)
+
                 while pubmed_id_on == pubmed_id:
 
                     if entities_lines:
@@ -473,6 +500,12 @@ if __name__ == '__main__':
                             try:
                                 entity = {}
                                 entity_id = entity_line.split(" | ")[2].strip()
+                                if entity_id == "-":
+                                    entity_id = entity_line.split(" | ")[-1].strip()
+                                    for species_name in species_names_upper:
+                                        if species_name in entity_id.upper():
+                                            if pubmed_id_on not in species_pubmed_ids:
+                                                species_pubmed_ids.append(pubmed_id_on)
 
                                 if "'" in entity_id:
                                     entity_id = entity_id.replace("'", "\\'")
@@ -496,16 +529,24 @@ if __name__ == '__main__':
 
                                 if entity_id not in entities.keys():
                                     entities[entity_id] = [entity]
-                                    if entity['biotype'] == 'gene':
+                                    if entity['biotype'].lower() == 'gene':
                                         object_identity = "protein('{}').".format(entity_id)
                                         objects_identities.append((entity_id, object_identity))
-                                    elif entity['biotype'] == 'chemical':
+                                    elif entity['biotype'].lower() == 'chemical':
                                         object_identity = "ligand('{}').".format(entity_id)
                                         objects_identities.append((entity_id, object_identity))
-                                    elif entity['biotype'] == 'disease':
+                                    elif entity['biotype'].lower() == 'disease':
                                         object_identity = "disease('{}').".format(entity_id)
                                         objects_identities.append((entity_id, object_identity))
-
+                                    elif entity['biotype'].lower() == 'variant':
+                                        object_identity = "variant('{}').".format(entity_id)
+                                        objects_identities.append((entity_id, object_identity))
+                                    elif entity['biotype'].lower() == 'species':
+                                        object_identity = "species('{}').".format(entity_id)
+                                        objects_identities.append((entity_id, object_identity))
+                                    elif entity['biotype'].lower() == 'cellline':
+                                        object_identity = "cellline('{}').".format(entity_id)
+                                        objects_identities.append((entity_id, object_identity))
                                 else:
                                     entities[entity_id].append(entity)
                             except:
@@ -562,7 +603,8 @@ if __name__ == '__main__':
                                 event = {'subject': subject_, 'relation': rel, 'object': object_}
                                 event_pubmed_id = rel_line.split("|")[0].strip()
                                 event_tag = event['subject'] + "," + event['relation'] + "," + event['object']
-                                event_sents = get_event_sents(abs_line, sentences, event, entities, event_pubmed_id, abstract)
+                                event_sents = get_event_sents(abs_line, sentences, event, entities, event_pubmed_id,
+                                                              abstract)
 
                                 if event_tag not in events.keys():
                                     opposite = None
@@ -607,7 +649,7 @@ if __name__ == '__main__':
                     else:
                         break
 
-    # If the KB is must be restricted then the entities and tne objects_identities must be restricted to.
+    # If the KB must be restricted then the entities and tne objects_identities must be restricted too.
     if objects_in_restricted_kb:
         print("Restricting the objects in the knowledge base......." + "\n")
         entities_ = {}
@@ -631,5 +673,10 @@ if __name__ == '__main__':
 
     print("Printing the aligned names of user objects w.r.t the PubTator\' IDs ......." + "\n")
     print_aligned_objs(root, synonyms, working_dir)
+
+    print("Printing the the species of interest coming from the PubTator\' IDs ......." + "\n")
+
+    if species_pubmed_ids:
+        print_species_pubmed_ids(root, species_pubmed_ids, working_dir, species_names_upper)
 
     print("Knowledge base generation finished......." + "\n")
