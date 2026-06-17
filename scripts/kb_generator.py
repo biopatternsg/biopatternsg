@@ -428,7 +428,7 @@ if __name__ == '__main__':
     # These three lines below are to deal with the user's cases needing information about PubMed IDs that mention some special species.
     # You only need to list the species names in the list species_names and the system will print a file named species_pubmed_ids.txt. 
     species_pubmed_ids = []
-    species_names = ["PSEUDOMONAS", "P. "]
+    species_names = []
     species_names_upper = [species.upper() for species in species_names]
 
 

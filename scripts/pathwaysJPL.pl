@@ -113,7 +113,7 @@ relations_start([association,bind,interact,interaction]).
 %The set of restriction for the objects at the end of a pathway.	
 restrictions_end(A,B):- 
 	protein(A),
-	disease(B).
+	enzyme(B).
 	
 %The set of valid relations/interactions at the end of a pathway.	
 relations_end([association,negative_correlation,inhibit,inhibition,positive_correlation,bind,cause,stimulate,stimulation,prevent,prevention]).
