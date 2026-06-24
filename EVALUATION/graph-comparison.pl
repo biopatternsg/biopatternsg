@@ -2,8 +2,8 @@
 % by Gemini 2.5 flash (keeping its representations)
 % by J. Dávila (actual comparison) 
 
-:- dynamic vertex/2, edge/4. 
-:- discontiguous vertex/2, edge/4.
+:- dynamic vertex/2, edge/4, path_depth/1, symmetric_relation/1. 
+:- discontiguous vertex/2, edge/4, path_depth/1, symmetric_relation/1.
 
 % --- Graph Representation ---
 % Graphs are represented using 'vertex/2' and 'edge/4' facts.
@@ -154,6 +154,54 @@ same_basic_properties(G1, G2) :-
     get_degree_sequence(G1, DS1), get_degree_sequence(G2, DS2),
     DS1 = DS2.
 
+% --- Configurable Parameters for Path-Based Golden Standard Evaluation ---
+
+% Default path depth N.
+% This controls the maximum length of paths in the Golden Standard (ref) 
+% used to identify "deducible" links and exclude them from False Positives (Strategy A).
+path_depth(2). 
+
+% Predicate to dynamically update the path depth bound.
+set_path_depth(N) :-
+	retractall(path_depth(_)),
+	assertz(path_depth(N)).
+
+% Define which relations in the Reference (Golden Standard) are symmetric (undirected).
+% All other relations not matched by this predicate are treated as strictly directed.
+symmetric_relation('in-complex-with').
+symmetric_relation('interacts-with').
+symmetric_relation('association').
+symmetric_relation('bind').
+
+% A valid step between canonical nodes X and Y in the Golden Standard (ref)
+% taking into account relation directionality.
+ref_canonical_step(Golden, X, Y, Rel) :-
+	edge(Golden, Xh, Yh, Rel),
+	(chebi_name(Xh, X) ; X = Xh),
+	(chebi_name(Yh, Y) ; Y = Yh).
+ref_canonical_step(Golden, X, Y, Rel) :-
+	edge(Golden, Yh, Xh, Rel),
+	symmetric_relation(Rel),
+	(chebi_name(Xh, X) ; X = Xh),
+	(chebi_name(Yh, Y) ; Y = Yh).
+
+% Checks if there is an undirected/directed path of length at most N between X and Y
+% in the Golden Standard ref, using the relation-by-relation directionality.
+ref_path(Golden, X, Y, N) :-
+	N > 0,
+	ref_path_visited(Golden, X, Y, N, [X]).
+
+ref_path_visited(Golden, X, Y, _, Visited) :-
+	ref_canonical_step(Golden, X, Y, _),
+	\+ member(Y, Visited).
+ref_path_visited(Golden, X, Y, N, Visited) :-
+	N > 1,
+	ref_canonical_step(Golden, X, Z, _),
+	Z \= Y,
+	\+ member(Z, Visited),
+	NN is N - 1,
+	ref_path_visited(Golden, Z, Y, NN, [Z|Visited]).
+
 % in_ref
 in_ref(Golden, X, Y, (Xh, Rel1, Yh)) :-
 	edge(Golden, Xh, Yh, Rel1), 
@@ -218,16 +266,38 @@ count_false_negatives(Method, Golden, System, Table, FN) :-
 %false_positive(Golden, System, (Xh, Rel1, Yh)-(Xg, Rel2, Yg) ) :-
 false_positive(full, Golden, System, does_not_exist-(Xg, Rel2, Yg) ) :-
 	in_kb(System, X, Y, (Xg, Rel2, Yg)),
-	not(in_ref(Golden, X, Y, _)). 
+	not(in_ref(Golden, X, Y, _)),
+	path_depth(N),
+	not(ref_path(Golden, X, Y, N)). 
 	
 false_positive(simple, Golden, System, (X,Y) ) :- 
 	in_kb_s(System, X, Y, _), X \= Y, 
-	\+(in_ref_s(Golden, X, Y, _)). 
+	\+(in_ref_s(Golden, X, Y, _)),
+	path_depth(N),
+	not(ref_path(Golden, X, Y, N)). 
 	
 count_false_positives(Method, Golden, System, Table, FP) :-
 	findall(Interaction, false_positive(Method, Golden, System, Interaction), ATable),
 	remove_duplicates(ATable, Table),
 	length(Table, FP).
+
+% deducible_connection
+deducible_connection(full, Golden, System, deducible_via_path-(Xg, Rel2, Yg)) :-
+	in_kb(System, X, Y, (Xg, Rel2, Yg)),
+	not(in_ref(Golden, X, Y, _)),
+	path_depth(N),
+	ref_path(Golden, X, Y, N).
+
+deducible_connection(simple, Golden, System, (X, Y)) :-
+	in_kb_s(System, X, Y, _), X \= Y,
+	\+(in_ref_s(Golden, X, Y, _)),
+	path_depth(N),
+	ref_path(Golden, X, Y, N).
+
+count_deducible_connections(Method, Golden, System, Table, Count) :-
+	findall(Interaction, deducible_connection(Method, Golden, System, Interaction), ATable),
+	remove_duplicates(ATable, Table),
+	length(Table, Count).
 	
 fraction(T, F, Fr) :- S is T+F, S>0, Fr is T/(T+F), !.
 fraction(0,0, undefined). 
@@ -309,6 +379,10 @@ compare :- count_true_positives(full, ref, kb, Table1, TP),
 	   writeln('============================= FP Table ========================='), 
 	   writeln(Table2), 
 	   writeln('================================================================'),  
+	   count_deducible_connections(full, ref, kb, TableD, DeducibleCount),
+	   writeln('============================= Deducible Table =================='), 
+	   writeln(TableD), 
+	   writeln('================================================================'),  
 	   count_false_negatives(full, ref, kb, Table3, FN),
 	   writeln('============================= FN Table ========================='), 
 	   writeln(Table3), 
@@ -316,13 +390,16 @@ compare :- count_true_positives(full, ref, kb, Table1, TP),
 	   fraction(TP, FP, Precision),
 	   fraction(TP, FN, Recall), 
 	   f1score(Precision, Recall, F1),
+	   path_depth(Depth),
+	   write('Path Depth Bound N = '), writeln(Depth),
 	   write('True Positives (the ref has them and the system predicts them): '), writeln(TP), 
-	   write('False Positives (the ref does not have them but the system predicts them): '), writeln(FP), 
+	   write('False Positives (the ref does not have them but the system predicts them, excluding deducible): '), writeln(FP), 
+	   write('Deducible Connections (the ref has an indirect path of length <= N, excluded from FP): '), writeln(DeducibleCount),
 	   write('False Negatives (the ref has them but the system does not predict them): '), writeln(FN),
 	   write('Precision (TP/(TP+FP)), from all the predictions, how many are correct: '), writeln(Precision),
 	   write('Recall (TP/(TP+FN)): from all the correct ones, how many are predicted: '), writeln(Recall),
 	   write('F1 Score (2*Precision*Recall)/(Precision+Recall): '), writeln(F1),
-	   write(TP), write('\t'), write(FP), write('\t'), write(FN), write('\t'), write(Precision), write('\t'), write(Recall), write('\t'), writeln(F1). 
+	   write(TP), write('\t'), write(FP), write('\t'), write(FN), write('\t'), write(Precision), write('\t'), write(Recall), write('\t'), write(F1), write('\t'), write(DeducibleCount), write('\t'), writeln(Depth). 
 
 compare_simple :- count_true_positives(simple, ref, kb, Table1, TP),
 	   writeln('============================= TP Table ========================='), 
@@ -332,6 +409,10 @@ compare_simple :- count_true_positives(simple, ref, kb, Table1, TP),
 	   writeln('============================= FP Table ========================='), 
 	   writeln(Table2), 
 	   writeln('================================================================'),  
+	   count_deducible_connections(simple, ref, kb, TableD, DeducibleCount),
+	   writeln('============================= Deducible Table =================='), 
+	   writeln(TableD), 
+	   writeln('================================================================'),  
 	   count_false_negatives(simple, ref, kb, Table3, FN),
 	   writeln('============================= FN Table ========================='), 
 	   writeln(Table3), 
@@ -339,13 +420,16 @@ compare_simple :- count_true_positives(simple, ref, kb, Table1, TP),
 	   fraction(TP, FP, Precision),
 	   fraction(TP, FN, Recall), 
 	   f1score(Precision, Recall, F1),
+	   path_depth(Depth),
+	   write('Path Depth Bound N = '), writeln(Depth),
 	   write('True Positives (the ref has them and the system predicts them): '), writeln(TP), 
-	   write('False Positives (the ref does not have them but the system predicts them): '), writeln(FP), 
+	   write('False Positives (the ref does not have them but the system predicts them, excluding deducible): '), writeln(FP), 
+	   write('Deducible Connections (the ref has an indirect path of length <= N, excluded from FP): '), writeln(DeducibleCount),
 	   write('False Negatives (the ref has them but the system does not predict them): '), writeln(FN),
 	   write('Precision (TP/(TP+FP)), from all the predictions, how many are correct: '), writeln(Precision),
 	   write('Recall (TP/(TP+FN)): from all the correct ones, how many are predicted: '), writeln(Recall),
 	   write('F1 Score (2*Precision*Recall)/(Precision+Recall): '), writeln(F1),
-	   write(TP), write('\t'), write(FP), write('\t'), write(FN), write('\t'), write(Precision), write('\t'), write(Recall), write('\t'), writeln(F1). 
+	   write(TP), write('\t'), write(FP), write('\t'), write(FN), write('\t'), write(Precision), write('\t'), write(Recall), write('\t'), write(F1), write('\t'), write(DeducibleCount), write('\t'), writeln(Depth). 
 
 down :- get_edges(ref, ERef), write_kb_ref(ERef). 
 
