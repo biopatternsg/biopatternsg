@@ -261,11 +261,10 @@ public class confGeneral {
                 }
             }
             
-            /*
-            Se oculta la opcion para integrar redes
+            
             if (procesos.size() > 1) {
                 System.out.println("\n" + utilidades.idioma.get(11));
-            }*/
+            }
             // System.out.println("\nN.-Crear un nuevo proceso");
             System.out.println(utilidades.idioma.get(4));
             String resp = lectura.nextLine();
@@ -288,10 +287,10 @@ public class confGeneral {
 //                pipeline(ruta);
 //            }
             
-            //Se oculta la opcion para integrar redes
-            /*if (resp.equalsIgnoreCase("I")) {
+            
+            if (resp.equalsIgnoreCase("I")) {
                 integrarRed(red, procesos);
-            }*/
+            }
 
             if (resp.equals("0")) {
                 r = false;
