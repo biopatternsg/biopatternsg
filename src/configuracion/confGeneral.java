@@ -26,6 +26,7 @@ import estructura.objetos_Experto;
 import estructura.ontologiaGO;
 import estructura.ontologiaMESH;
 import estructura.ontologiaObjMin;
+import integracionkb.KBIntegrator;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
@@ -47,6 +48,7 @@ import pipeline.pathway;
 import pipeline.patrones;
 import servicios.lecturas_PM;
 import servicios.lecturas_TFBIND;
+import java.util.concurrent.TimeUnit;
 
 /**
  *
@@ -260,8 +262,7 @@ public class confGeneral {
                     System.out.println((i + 1) + ".- " + procesos.get(i));
                 }
             }
-            
-            
+
             if (procesos.size() > 1) {
                 System.out.println("\n" + utilidades.idioma.get(11));
             }
@@ -286,8 +287,6 @@ public class confGeneral {
 //                String ruta = "mineria/redes/" + red + "/" + proceso;
 //                pipeline(ruta);
 //            }
-            
-            
             if (resp.equalsIgnoreCase("I")) {
                 integrarRed(red, procesos);
             }
@@ -301,22 +300,20 @@ public class confGeneral {
 
     private void integrarRed(String red, ArrayList<String> procesos) {
 
-        File file = new File("minery/integration/" + red);
-        file.mkdir();
-
+        String network = red;
         String rutaDest = "minery/integration/" + red;
+        utilidades.texto_etapa = utilidades.idioma.get(152);
+        new utilidades().carga();
+        KBIntegrator integrator = new KBIntegrator();
 
         try {
-            System.out.print(utilidades.idioma.get(13));
-            new GeneradorBC().generadorBCInt(red, true);
-            new GeneradorBC().generadorBCInt(red, false);
-            System.out.println(" ...ok");
-        } catch (StringIndexOutOfBoundsException ex) {
-            Logger.getLogger(confGeneral.class.getName()).log(Level.SEVERE, null, ex);
-        } catch (Exception ex) {
-            Logger.getLogger(confGeneral.class.getName()).log(Level.SEVERE, null, ex);
+            integrator.generadorBCInt(network);
+        } catch (IOException e) {
+            System.err.println("Knowledge bases of events and documentated events failed: " + e.getMessage());
+            System.exit(1);
         }
 
+        System.out.println("\nIntegrating the rest of knowledge bases: mesh, gene ontology, pathwaysObjects, ...");
         for (String directorio : procesos) {
             System.out.print(utilidades.idioma.get(12) + " " + directorio);
             String rutaOri = "minery/networks/" + red + "/" + directorio;
@@ -325,13 +322,20 @@ public class confGeneral {
             integrarArchivos(rutaOri + "/ontologyGO.pl", rutaDest + "/ontologyGO.pl");
             integrarArchivos(rutaOri + "/ontologyMESH.pl", rutaDest + "/ontologyMESH.pl");
             integrarArchivos(rutaOri + "/wellKnownRules.pl", rutaDest + "/wellKnownRules.pl");
-
             integrarOntologias(rutaOri, rutaDest);
-
             integrarObjExp(rutaOri, rutaDest);
             integrarFT(rutaOri, rutaDest);
 
-            System.out.println(" ...ok");
+            System.out.println("\n..ok");
+
+        }
+
+        System.out.println("\n...Integration completed\n");
+        try {
+            // Delay for 5 seconds
+            TimeUnit.SECONDS.sleep(3);
+        } catch (InterruptedException e) {
+            Thread.currentThread().interrupt();
         }
 
     }
@@ -558,7 +562,7 @@ public class confGeneral {
                 String regProm = config.IngresarRegionPromotora();
                 int metodoBusquedaFT = config.ingresarMetodoBusquedaDeFT();
                 float conf = config.IngresarConfiabilidad();
-                String genomaFTSearch = metodoBusquedaFT == 2 || metodoBusquedaFT == 3 ? config.genomeFTSearch(): "";
+                String genomaFTSearch = metodoBusquedaFT == 2 || metodoBusquedaFT == 3 ? config.genomeFTSearch() : "";
                 String chrom = metodoBusquedaFT == 2 || metodoBusquedaFT == 3 ? config.chromosoma() : "";
                 int inicioCadena = metodoBusquedaFT == 2 || metodoBusquedaFT == 3 ? config.coordenadaInicioDeCadena() : 0;
                 int finCadena = metodoBusquedaFT == 2 || metodoBusquedaFT == 3 ? config.coordenadaFinDeCadena() : 0;
@@ -591,17 +595,15 @@ public class confGeneral {
                 //este metodo toma la el archivo de PubMed Ids y procede a hacer la busqueda abstracts
                 //y crear una coleccion de archivos con extencion html en el directorio 'abctracts'
                 //new lecturas_PM().BusquedaPM_Abstracts("abstracts", 500, config, ruta); // Número máximo de abstracts por archivo
-                
                 Abstract abstracObject = new Abstract();
                 abstracObject.find(ruta, config);
-                              
+
                 //este metodo toma la imformacion minada tanto de los objetos minados como de las ontologias y la vacia en formato prolog
                 //crea los archivos 'objetosMinados.pl' , ontologyGO.pl, ontologyMESH.pl , wellKnownRules.pl
                 mfts.vaciar_bc_pl(GO, MESH, config, ruta);
 
                 //este metodo llama al resumidor_bioinformante hace uso de la coleccion de abstracts
                 //new Resumidor().resumidor(config, ruta);
-
                 // crea la bace de conocimiento con el listado de eventos encontrados por el resumidor
                 new GeneradorBC().generadorBC(config, ruta);
 
