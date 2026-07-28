@@ -105,23 +105,25 @@ eventoEspecial_rest(A,E,B,L):-
 %The set of restrictions for the objects at the beginning of a pathway.
 restrictions_start(A,B):- 
 	(ligand(A); protein(A)),
-	protein(B).
+	(ligand(B); protein(B)),
+	not(A = B).
 	
 %The set of valid relations/interactions at the beginning of a pathway.	
 relations_start([association,bind,interact,interaction]).
 
 %The set of restriction for the objects at the end of a pathway.	
 restrictions_end(A,B):- 
-	protein(A),
-	enzyme(B).
+	(ligand(A); protein(A)),
+	(ligand(B); protein(B)),
+	not(A = B).
 	
 %The set of valid relations/interactions at the end of a pathway.	
 relations_end([association,negative_correlation,inhibit,inhibition,positive_correlation,bind,cause,stimulate,stimulation,prevent,prevention]).
 
 %The set of restriction for the objects in the middle of a pathway.
 restrictions_middle(A,B):-
-	protein(A),
-	protein(B),
+	(ligand(A); protein(A)),
+	(ligand(B); protein(B)),
      not(A = B).
 
 %The set of valid relations/interactions in the middle of a pathway.
