@@ -1,0 +1,1833 @@
+11937547 | Association | SATB1 | CD8A
+11937547 | Bind | GATA3 | CD8B
+11937547 | Association | GATA3 | CD8A
+11937547 | Association | SATB1 | CD8B
+11937547 | Association | Oligonucleotides | GATA3
+17940119 | Positive_Correlation | lipine | Hypertension
+17940119 | Association | lipine | Obesity
+17940119 | Association | Metabolic Syndrome | LPIN1
+17940119 | Association | lipine | Diabetes Mellitus
+38609844 | Association | CTLA4 | CD8B
+38609844 | Association | CTLA4 | CD2
+38609844 | Association | CTLA4 | CD8A
+28455446 | Association | Infections | KPNA1
+28455446 | Positive_Correlation | IFNB1 | STAT1
+28455446 | Association | Infections | CASP3
+28455446 | Association | KPNA1 | CASP3
+28455446 | Positive_Correlation | IFNB1 | STAT2
+22399799 | Association | KDM1A | GFI1B
+22399799 | Bind | C1QBP | GFI1B
+22399799 | Association | RCOR1 | C1QBP
+22399799 | Association | KDM1A | RCOR1
+22399799 | Association | RCOR1 | GFI1B
+22399799 | Association | KDM1A | C1QBP
+29679717 | Negative_Correlation | icaritin | Bone Diseases Metabolic
+29679717 | Association | icaritin | CXCL12
+29679717 | Negative_Correlation | icaritin | Fragile X Syndrome
+29679717 | Positive_Correlation | icaritin | STAT3
+29679717 | Positive_Correlation | icaritin | CXCR4
+29679717 | Association | STAT3 | CXCR4
+29679717 | Negative_Correlation | icaritin | Osteoporosis
+33843403 | Association | Precursor T-Cell Lymphoblastic Leukemia-Lymphoma | CXCR4
+33843403 | Negative_Correlation | ruxolitinib | Precursor T-Cell Lymphoblastic Leukemia-Lymphoma
+33843403 | Positive_Correlation | ruxolitinib | Paralysis
+33843403 | Negative_Correlation | plerixafor | venetoclax
+33843403 | Association | Precursor T-Cell Lymphoblastic Leukemia-Lymphoma | JAK1
+33843403 | Negative_Correlation | plerixafor | CXCR4
+33843403 | Negative_Correlation | venetoclax | Precursor T-Cell Lymphoblastic Leukemia-Lymphoma
+33843403 | Positive_Correlation | venetoclax | Paralysis
+33843403 | Association | BCL2 | CXCR4
+33843403 | Association | Precursor T-Cell Lymphoblastic Leukemia-Lymphoma | JAK2
+33843403 | Cotreatment | ruxolitinib | venetoclax
+33843403 | Association | Precursor T-Cell Lymphoblastic Leukemia-Lymphoma | BCL2
+33843403 | Cotreatment | plerixafor | ruxolitinib
+33843403 | Bind | CXCL12 | CXCR4
+8436166 | Bind | CD8A | CD8B
+37205446 | Positive_Correlation | Cd8a | Ifng
+31301483 | Association | Lung Neoplasms | MAP2K7
+31301483 | Association | Lung Neoplasms | ZHX2
+31301483 | Association | Lung Neoplasms | CTNNB1
+31301483 | Association | Lung Neoplasms | IGF1R
+31301483 | Association | Lung Neoplasms | KDR
+31301483 | Association | Lung Neoplasms | NOTCH1
+31301483 | Association | Lung Neoplasms | EGFR
+31301483 | Association | Lung Neoplasms | CXCR4
+31301483 | Association | Lung Neoplasms | SLTM
+38259290 | Association | Squamous Cell Carcinoma of Head and Neck | Vegfa
+38259290 | Association | Squamous Cell Carcinoma of Head and Neck | Trp53
+38259290 | Negative_Correlation | triptolide | Vegfa
+38259290 | Negative_Correlation | triptolide | Neoplasms
+38259290 | Negative_Correlation | triptolide | Stat3
+38259290 | Negative_Correlation | triptolide | Mapk8
+38259290 | Association | triptolide | Il4
+38259290 | Negative_Correlation | triptolide | Cxcr4
+38259290 | Association | Squamous Cell Carcinoma of Head and Neck | Il2
+38259290 | Association | Squamous Cell Carcinoma of Head and Neck | Ptgs2
+38259290 | Association | triptolide | Trp53
+38259290 | Association | Squamous Cell Carcinoma of Head and Neck | Stat3
+38259290 | Negative_Correlation | triptolide | Il2
+38259290 | Negative_Correlation | triptolide | Ptgs2
+38259290 | Association | Squamous Cell Carcinoma of Head and Neck | Mapk8
+38259290 | Association | Squamous Cell Carcinoma of Head and Neck | Cxcr4
+38259290 | Negative_Correlation | triptolide | Squamous Cell Carcinoma of Head and Neck
+38259290 | Association | Squamous Cell Carcinoma of Head and Neck | Il4
+28863947 | Positive_Correlation | icaritin | Calcium
+28863947 | Positive_Correlation | STAT3 | CXCR4
+28863947 | Positive_Correlation | icaritin | CXCR4
+28863947 | Positive_Correlation | icaritin | ATHS
+28863947 | Positive_Correlation | icaritin | STAT3
+28863947 | Negative_Correlation | icaritin | Osteoporosis
+28863947 | Association | icaritin | Cxcr4
+37310382 | Association | Demyelinating Autoimmune Diseases CNS | Cd8a
+37310382 | Association | Leukodystrophy Globoid Cell | Galc
+35095831 | Positive_Correlation | Arthritis Rheumatoid | CCR6
+35095831 | Positive_Correlation | Arthritis Rheumatoid | CXCR5
+35095831 | Positive_Correlation | CCR7 | CD209
+35095831 | Positive_Correlation | Arthritis Rheumatoid | CXCR3
+35095831 | Positive_Correlation | IL12B | CD14
+35095831 | Positive_Correlation | Arthritis Rheumatoid | CD209
+35095831 | Positive_Correlation | Arthritis Psoriatic | CD80
+35095831 | Positive_Correlation | CD209 | TNF
+35095831 | Positive_Correlation | CD14 | CD40
+35095831 | Positive_Correlation | CXCR3 | CD209
+35095831 | Association | Arthritis Psoriatic | NFKB1
+35095831 | Positive_Correlation | Arthritis Psoriatic | CD40
+35095831 | Positive_Correlation | CD209 | IL12B
+35095831 | Positive_Correlation | CD209 | CD40
+35095831 | Association | Arthritis | IL1B
+35095831 | Association | Arthritis | IL6
+35095831 | Association | NFKB1 | CD14
+35095831 | Association | Arthritis | TNF
+35095831 | Positive_Correlation | IL1B | CD14
+35095831 | Positive_Correlation | CD209 | CXCR5
+35095831 | Association | Arthritis | IL12B
+35095831 | Positive_Correlation | CCR6 | CD209
+35095831 | Positive_Correlation | CD14 | CD80
+35095831 | Positive_Correlation | Arthritis Rheumatoid | CD14
+35095831 | Positive_Correlation | Arthritis Psoriatic | CD14
+35095831 | Association | Arthritis Psoriatic | CCR3
+35095831 | Positive_Correlation | Arthritis Rheumatoid | CXCR4
+35095831 | Positive_Correlation | CD209 | CXCR4
+35095831 | Association | CD209 | NFKB1
+35095831 | Positive_Correlation | Arthritis Psoriatic | CXCL10
+35095831 | Positive_Correlation | CD209 | IL1B
+35095831 | Positive_Correlation | Arthritis Rheumatoid | CCR7
+35095831 | Positive_Correlation | CD209 | IL6
+35095831 | Association | Arthritis Rheumatoid | NFKB1
+35095831 | Positive_Correlation | Inflammation | CD40
+35095831 | Positive_Correlation | Arthritis Psoriatic | CD209
+35095831 | Association | Arthritis Psoriatic | CXCL11
+35095831 | Positive_Correlation | CD209 | CD80
+35095831 | Positive_Correlation | TNF | CD14
+35095831 | Association | NFKB1 | TNF
+35095831 | Association | Arthritis | CD209
+35095831 | Positive_Correlation | IL6 | CD14
+34923792 | Association | Colorectal Neoplasms | CD8A
+34923792 | Association | Colorectal Neoplasms | CD8B
+34923792 | Association | Neoplasms | CD8A
+38377192 | Negative_Correlation | US11 | CD8A
+22025728 | Positive_Correlation | RUNX3 | CD8A
+22025728 | Association | CD8A | CD8B
+22025728 | Positive_Correlation | trichostatin A | CD8A
+22025728 | Positive_Correlation | CBFB | CD8A
+16894629 | Positive_Correlation | Zidovudine | Mitochondrial Diseases
+1898906 | Association | Invasive Pneumococcal Disease Recurrent Isolated 2 | CD8A
+34412704 | Association | Inflammation | RELA
+34412704 | Association | Parkinson Disease | CD8B
+34412704 | Association | Dopamine | Inflammation
+34412704 | Negative_Correlation | Colitis | Th
+34412704 | Association | Inflammation | CD8B
+34412704 | Positive_Correlation | 1-Methyl-4-phenyl-1 2 3 6-tetrahydropyridine | Colitis
+34412704 | Association | Inflammation | Rgs10
+34412704 | Association | Parkinson Disease | RELA
+34412704 | Positive_Correlation | Colitis | Ifng
+34412704 | Negative_Correlation | Nfkb1 | Rgs10
+35069519 | Negative_Correlation | IFNL1 | VP24
+35069519 | Negative_Correlation | IFIH1 | VP24
+35069519 | Positive_Correlation | DDX58 | IFNB1
+35069519 | Positive_Correlation | DDX58 | IFNL1
+35069519 | Association | IRF3 | VP24
+35069519 | Association | IFNA1 | VP40
+35069519 | Negative_Correlation | DDX58 | VP24
+35069519 | Association | IFNA1 | VP24
+35069519 | Association | IFNA1 | VP35
+35069519 | Positive_Correlation | IFNB1 | IFIH1
+35069519 | Association | KPNA1 | VP24
+35069519 | Negative_Correlation | IFNB1 | VP24
+35069519 | Positive_Correlation | IFNL1 | IFIH1
+25121743 | Association | Virus Diseases | STAT1
+37819133 | Association | IFNA1 | STAT1
+37819133 | Association | IFNA1 | STAT2
+37819133 | Negative_Correlation | IRF9 | IFNA1
+37586771 | Association | Triple Negative Breast Neoplasms | CD8A
+37586771 | Association | Neoplasms | CD8A
+37844994 | Association | Reactive Oxygen Species | Mapk14
+37844994 | Association | Reactive Oxygen Species | Fcgr2b
+37844994 | Association | Nr1i3 | TNFRSF17
+37844994 | Association | Multiple Myeloma | Mapk14
+37844994 | Association | Multiple Myeloma | CD8A
+37844994 | Association | Fcgr2b | Mapk14
+37844994 | Association | CRP | Mapk14
+37844994 | Association | Multiple Myeloma | TNFRSF17
+37844994 | Association | CRP | Fcgr2b
+37844994 | Association | Fcgr2b | CD8A
+37844994 | Association | Reactive Oxygen Species | CRP
+37844994 | Association | Reactive Oxygen Species | Multiple Myeloma
+37844994 | Association | Multiple Myeloma | Fcgr2b
+37844994 | Association | Mapk14 | CD8A
+37844994 | Association | Multiple Myeloma | Crp
+37844994 | Positive_Correlation | Multiple Myeloma | CRP
+37844994 | Association | Bone Diseases | CRP
+37844994 | Negative_Correlation | CRP | CD8A
+26331426 | Association | Glioma | STAT3
+36281585 | Association | Adenocarcinoma | CD8B
+36281585 | Association | Adenocarcinoma | CD8A
+36281585 | Negative_Correlation | Tertiary Lymphoid Structures | CD69
+36281585 | Association | Adenocarcinoma | TBX21
+36281585 | Association | Neoplasm Metastasis | CD8B
+36281585 | Negative_Correlation | Tertiary Lymphoid Structures | MYD88
+36281585 | Negative_Correlation | Tertiary Lymphoid Structures | TLR4
+36281585 | Negative_Correlation | Neoplasm Metastasis | CD8A
+36281585 | Association | Neoplasm Metastasis | TBX21
+17903297 | Positive_Correlation | Alzheimer Disease | rs1131497
+17903297 | Positive_Correlation | Memory Disorders | rs1131497
+17903297 | Association | Alzheimer Disease | SORL1
+17903297 | Positive_Correlation | Stroke | rs1131497
+17903297 | Positive_Correlation | Stroke | rs1970546
+17903297 | Association | Memory Disorders | SORL1
+17903297 | Association | Stroke | SORL1
+17903297 | Association | Stroke | CDH4
+35354951 | Positive_Correlation | Itgb7 | Zbtb7a
+24814927 | Association | KPNA1 | STAT1
+24814927 | Association | IFNA1 | STAT2
+24814927 | Association | Rotavirus Infections | KPNA1
+24814927 | Association | IFNA1 | STAT1
+24814927 | Association | Infections | STAT1
+24814927 | Association | Infections | STAT2
+24814927 | Association | KPNA1 | STAT2
+24814927 | Association | Rotavirus Infections | STAT1
+37828002 | Association | Neoplasms | p.G12V
+37828002 | Association | Neoplasms | KRAS
+453656 | Negative_Correlation | Prostaglandins | Asthma
+453656 | Negative_Correlation | Dinoprost | Asthma
+29925658 | Bind | KPNA1 | STAT1
+35588138 | Association | Neoplasms | CD8A
+35588138 | Negative_Correlation | atezolizumab | Urethral Neoplasms
+35588138 | Association | Neoplasms | TCF7
+35588138 | Association | Neoplasms | LEF1
+35588138 | Association | Neoplasms | CD8B
+1406695 | Bind | RAF1 | SART3
+1406695 | Association | RAF1 | CD8A
+1406695 | Association | HCAR3 | CD8A
+1406695 | Association | LCK | CD4
+1406695 | Association | Phorbol Esters | CD4
+1406695 | Association | SRC | CD4
+1406695 | Association | CD4 | CD8A
+1406695 | Association | Phorbol Esters | LCK
+1406695 | Positive_Correlation | Phorbol Esters | SART3
+1406695 | Association | Leukemia | CD8A
+1406695 | Bind | CD4 | SART3
+1406695 | Association | LCK | CD8A
+1406695 | Association | CD8A | SART3
+1406695 | Association | LCK | SART3
+1406695 | Association | SRC | CD8A
+1406695 | Association | HCAR3 | CD4
+34688302 | Association | Carbapenems | Infections
+36707041 | Positive_Correlation | CXCL12 | CXCR4
+36707041 | Negative_Correlation | loliolide | Breast Neoplasms
+36707041 | Positive_Correlation | CXCL12 | SOD2
+36707041 | Negative_Correlation | loliolide | Parkinson Disease Secondary
+36707041 | Positive_Correlation | SOD2 | CXCR4
+36707041 | Association | Neoplasms | CXCR4
+36707041 | Association | Neoplasms | ACKR3
+36707041 | Negative_Correlation | loliolide | ACKR3
+36707041 | Association | Neoplasm Metastasis | ACKR3
+36707041 | Association | Neoplasms | SOD2
+36707041 | Negative_Correlation | loliolide | SOD2
+36707041 | Association | Neoplasm Metastasis | SOD2
+36707041 | Association | Neoplasm Metastasis | CXCR4
+36707041 | Positive_Correlation | ACKR3 | CXCL12
+36707041 | Negative_Correlation | loliolide | CXCR4
+36707041 | Negative_Correlation | loliolide | Neoplasm Metastasis
+30387832 | Association | 211750 | CD8B
+30387832 | Association | 211750 | CD274
+30387832 | Association | Neoplasms | CD274
+35099352 | Association | Infections | CD8A
+35099352 | Association | Infections | CD8BP
+36949176 | Negative_Correlation | Proscillaridin | Disease
+36949176 | Negative_Correlation | tegobuvir | COVID-19
+36949176 | Negative_Correlation | Sorafenib | Disease
+36949176 | Negative_Correlation | nilotinib | Disease
+36949176 | Negative_Correlation | Vancomycin | Disease
+36949176 | Negative_Correlation | Sirolimus | COVID-19
+36949176 | Negative_Correlation | Vancomycin | COVID-19
+36949176 | Negative_Correlation | Hesperidin | COVID-19
+36949176 | Negative_Correlation | Sirolimus | Disease
+36949176 | Negative_Correlation | Digoxin | COVID-19
+36949176 | Negative_Correlation | Proscillaridin | COVID-19
+36949176 | Negative_Correlation | nilotinib | Idiopathic Pulmonary Fibrosis
+36949176 | Negative_Correlation | Simeprevir | Disease
+36949176 | Negative_Correlation | Simeprevir | COVID-19
+36949176 | Negative_Correlation | Sorafenib | COVID-19
+36949176 | Negative_Correlation | tegobuvir | Disease
+36949176 | Negative_Correlation | Sorafenib | Idiopathic Pulmonary Fibrosis
+36949176 | Negative_Correlation | nilotinib | COVID-19
+36949176 | Negative_Correlation | Hesperidin | Disease
+36949176 | Negative_Correlation | Digoxin | Disease
+31934908 | Positive_Correlation | Ketamine | Cognition Disorders
+31934908 | Negative_Correlation | G(M1) Ganglioside | Neurodegenerative Diseases
+31934908 | Positive_Correlation | Ketamine | Neurodegenerative Diseases
+31934908 | Positive_Correlation | Ketamine | Neurotoxicity Syndromes
+31934908 | Negative_Correlation | G(M1) Ganglioside | Ketamine
+31934908 | Negative_Correlation | G(M1) Ganglioside | Necrosis
+31934908 | Positive_Correlation | Ketamine | Neurologic Manifestations
+31934908 | Positive_Correlation | Ketamine | Neurocognitive Disorders
+31934908 | Negative_Correlation | G(M1) Ganglioside | Neurocognitive Disorders
+31934908 | Negative_Correlation | G(M1) Ganglioside | Nerve Degeneration
+31934908 | Association | G(M1) Ganglioside | Ephb1
+18978792 | Association | Diabetes Mellitus Type 1 | IL2
+18978792 | Association | Diabetes Mellitus Type 1 | BACH2
+18978792 | Association | Diabetes Mellitus Type 1 | PRKCQ
+18978792 | Association | Diabetes Mellitus Type 1 | CTSH
+18978792 | Association | IL2 | IL21
+18978792 | Association | Diabetes Mellitus Type 1 | IL21
+18978792 | Association | Diabetes Mellitus Type 1 | C1QTNF6
+19088062 | Association | Cd8b1 | Trav6-3
+19088062 | Association | Cd8b1 | Tcra
+38243600 | Association | Neoplasms | NR1I3
+38243600 | Association | TNFRSF18 | NR1I3
+38243600 | Negative_Correlation | MAGEA4 | SCFV
+38243600 | Association | Neoplasms | SCFV
+38243600 | Association | Neoplasms | MAGEA4
+38243600 | Association | Leukocyte adhesion deficiency type 1 | MAGEA4
+38243600 | Negative_Correlation | Hematologic Neoplasms | NR1I3
+38243600 | Association | Leukocyte adhesion deficiency type 1 | SCFV
+33521937 | Association | Apc | B2m
+38010064 | Association | Small Cell Lung Carcinoma | BLNK
+38010064 | Association | Pleural Effusion Malignant | CD8A
+38010064 | Association | Small Cell Lung Carcinoma | CD8B
+38010064 | Association | Small Cell Lung Carcinoma | TSC22D1
+38010064 | Association | Small Cell Lung Carcinoma | VIM
+38010064 | Association | Small Cell Lung Carcinoma | CD8A
+38010064 | Association | Small Cell Lung Carcinoma | NOTCH1
+38010064 | Association | Neoplasms | IL16
+38010064 | Association | Small Cell Lung Carcinoma | KLF6
+38010064 | Association | Small Cell Lung Carcinoma | MYC
+38010064 | Association | Small Cell Lung Carcinoma | SOX4
+38010064 | Association | Small Cell Lung Carcinoma | YBX3
+38010064 | Association | Pleural Effusion Malignant | VIM
+23533620 | Association | Neoplasms | CD8A
+37285884 | Positive_Correlation | wedelolactone | CCR7
+37285884 | Positive_Correlation | wedelolactone | GZMB
+37285884 | Positive_Correlation | wedelolactone | CXCR4
+37285884 | Association | wedelolactone | Polysaccharides
+36656397 | Association | Inflammatory Bowel Diseases | CXCR4
+36656397 | Negative_Correlation | Flavonoids | Inflammation
+36656397 | Association | Winter Shortland Temple syndrome | HIF1A
+36656397 | Association | Winter Shortland Temple syndrome | SNCA
+36656397 | Association | Winter Shortland Temple syndrome | IL6
+36656397 | Association | Winter Shortland Temple syndrome | CXCR4
+36656397 | Association | Winter Shortland Temple syndrome | ABCA1
+36656397 | Negative_Correlation | Flavonoids | Neurodegenerative Diseases
+36656397 | Association | Winter Shortland Temple syndrome | APOE
+36656397 | Association | Flavonoids | CXCR4
+36656397 | Negative_Correlation | Flavonoids | Cognition Disorders
+36656397 | Association | Winter Shortland Temple syndrome | LRRK2
+36656397 | Association | Parkinson Disease | CXCR4
+38455061 | Association | cyclopropapyrroloindole | B2M
+38455061 | Association | Neoplasms | B2M
+38455061 | Negative_Correlation | Cleft Palate Isolated And Mental Retardation | HLA-A
+38455061 | Association | Neoplasms | HLA-A
+36901957 | Association | Precursor Cell Lymphoblastic Leukemia-Lymphoma | TNFRSF1B
+36901957 | Association | Precursor Cell Lymphoblastic Leukemia-Lymphoma | CD8A
+36901957 | Association | Precursor Cell Lymphoblastic Leukemia-Lymphoma | CTLA4
+36901957 | Association | Precursor Cell Lymphoblastic Leukemia-Lymphoma | TIGIT
+36901957 | Association | GNLY | CD8A
+36901957 | Association | Precursor Cell Lymphoblastic Leukemia-Lymphoma | HAVCR2
+36901957 | Association | Precursor Cell Lymphoblastic Leukemia-Lymphoma | ENTPD1
+36901957 | Association | CTLA4 | CD8A
+36901957 | Association | GZMB | CD8A
+36901957 | Association | IL10 | ENTPD1
+36901957 | Association | HAVCR2 | CD8A
+15948181 | Association | Luxol Fast Blue MBS | Demyelinating Diseases
+15948181 | Association | Luxol Fast Blue MBS | Retrograde Degeneration
+38035330 | Association | Sepsis | Dr1
+38035330 | Association | Communicable Diseases | Dr1
+38035330 | Association | Inflammation | HLA-A
+38035330 | Association | Inflammation | Il10
+38035330 | Association | Reactive Oxygen Species | Infections
+38035330 | Association | Reactive Oxygen Species | Dr1
+37713206 | Negative_Correlation | upadacitinib | Neuritis Autoimmune Experimental
+37713206 | Association | upadacitinib | ISG15
+37713206 | Negative_Correlation | upadacitinib | CXCR4
+37713206 | Negative_Correlation | upadacitinib | Inflammation
+37713206 | Association | Uveitis | JAK1
+37713206 | Association | Neuritis Autoimmune Experimental | JAK1
+37713206 | Association | upadacitinib | CD8A
+37713206 | Association | Neuritis Autoimmune Experimental | CXCR4
+37713206 | Negative_Correlation | upadacitinib | CD4
+37713206 | Negative_Correlation | upadacitinib | JAK1
+24631022 | Negative_Correlation | galiellalactone | NFKB1
+24631022 | Association | Neoplasms | STAT3
+24631022 | Negative_Correlation | galiellalactone | Inflammation
+24631022 | Negative_Correlation | galiellalactone | STAT3
+24631022 | Negative_Correlation | NFKB1 | NFKBIA
+24631022 | Association | galiellalactone | KPNA3
+24631022 | Bind | KPNA3 | RELA
+24631022 | Association | Inflammation | STAT3
+24631022 | Negative_Correlation | galiellalactone | Neoplasms
+24631022 | Bind | galiellalactone | RELA
+38450191 | Association | Adenocarcinoma of Lung | MYC
+38450191 | Association | Adenocarcinoma of Lung | TRDD3
+38450191 | Association | Adenocarcinoma of Lung | HLA-B
+38450191 | Association | Adenocarcinoma of Lung | HLA-G
+38450191 | Association | Adenocarcinoma of Lung | CD8A
+38450191 | Association | Adenocarcinoma of Lung | IFNG
+38450191 | Association | Adenocarcinoma of Lung | LILRB2
+38450191 | Association | Adenocarcinoma of Lung | CD86
+38450191 | Association | Adenocarcinoma of Lung | LARP1
+38450191 | Association | Adenocarcinoma of Lung | MLXIPL
+38450191 | Association | Adenocarcinoma of Lung | MYCN
+38450191 | Association | Adenocarcinoma of Lung | TRBV20OR9-2
+38450191 | Association | Adenocarcinoma of Lung | CD8B
+38450191 | Association | Adenocarcinoma of Lung | CD80
+38450191 | Association | Adenocarcinoma of Lung | NFE2L2
+35867785 | Association | Neoplasms | Stat92E
+35867785 | Negative_Correlation | NPAS4 | STAT3
+35867785 | Association | Nup153 | Stat92E
+35867785 | Association | NPAS4 | Stat92E
+35867785 | Bind | hop | Stat92E
+35867785 | Association | Fs(2)Ket | Stat92E
+35867785 | Association | Neoplasms | NPAS4
+33468709 | Positive_Correlation | rs111033358 | p.K14Q
+33468709 | Positive_Correlation | rs111033358 | Diabetes Mellitus Type 2
+33468709 | Positive_Correlation | p.K14Q | rs111033358
+33959497 | Association | NOS2 | OLR1
+33959497 | Association | Carcinoma Non-Small-Cell Lung | OLR1
+33959497 | Association | CD274 | OLR1
+33959497 | Association | OLR1 | CD8B
+33959497 | Association | Neoplasms | OLR1
+33959497 | Association | T cell immunodeficiency primary | OLR1
+33959497 | Association | GZMB | OLR1
+33959497 | Association | IFNG | OLR1
+33959497 | Association | OLR1 | CD8A
+35462338 | Association | Disease | CXCL12
+35462338 | Positive_Correlation | CXCL12 | STAT3
+35462338 | Association | Alopecia | CXCL12
+35462338 | Positive_Correlation | CXCL12 | CXCR4
+35462338 | Positive_Correlation | STAT5A | CXCR4
+35462338 | Association | ACKR3 | CXCL12
+35462338 | Positive_Correlation | CXCL12 | STAT5A
+35462338 | Positive_Correlation | STAT3 | CXCR4
+36979667 | Association | Stomach Neoplasms | CD8B
+36979667 | Association | Stomach Neoplasms | CD8A
+36979667 | Negative_Correlation | pembrolizumab | Stomach Neoplasms
+36979667 | Negative_Correlation | Neoplasms | STK11
+36979667 | Association | Neoplasms | CD8A
+36979667 | Positive_Correlation | STK11 | CD8B
+36979667 | Association | Stomach Neoplasms | CD274
+36979667 | Association | Stomach Neoplasms | CD28
+36979667 | Association | IFNG | CD8A
+36979667 | Positive_Correlation | CD274 | STK11
+36979667 | Positive_Correlation | STK11 | CD8A
+36979667 | Association | Stomach Neoplasms | STK11
+36979667 | Positive_Correlation | STK11 | CD28
+36979667 | Positive_Correlation | GZMM | STK11
+36979667 | Association | Stomach Neoplasms | GZMM
+36979667 | Association | Stomach Neoplasms | PDCD1
+36979667 | Negative_Correlation | pembrolizumab | STK11
+36979667 | Association | Neoplasms | IFNG
+36979667 | Positive_Correlation | PDCD1 | STK11
+26819451 | Association | Lymphoma B-Cell | MFHAS1
+26819451 | Association | Lymphoma Large B-Cell Diffuse | KRT20
+26819451 | Association | Lymphoma Large B-Cell Diffuse | GNA13
+26819451 | Association | Lymphoma B-Cell | XPO1
+26819451 | Association | Lymphoma B-Cell | ITPKB
+26819451 | Association | Lymphoma B-Cell | NFKB1
+26819451 | Association | Lymphoma Large B-Cell Diffuse | TNFAIP3
+37938771 | Association | Neuroblastoma | HLA-S
+37938771 | Association | HLA-A | CARS1
+37938771 | Association | Neuroblastoma | PHOX2B
+37938771 | Association | Neuroblastoma | PC
+37938771 | Association | Neuroblastoma | CARS1
+30283452 | Association | Inflammation | HMGB1
+30283452 | Association | Dinoprostone | Arthritis Rheumatoid
+30283452 | Association | Arthritis Rheumatoid | TXN
+30283452 | Association | Inflammation | TXN
+30283452 | Association | CXCL12 | CXCR4
+30283452 | Association | Arthritis Rheumatoid | HMGB1
+30283452 | Association | Arthritis Rheumatoid | CXCL12
+30283452 | Association | HMGB1 | TLR2
+30283452 | Association | HMGB1 | CXCR4
+30283452 | Association | HMGB1 | TLR4
+30283452 | Association | HMGB1 | CXCL12
+23575529 | Association | Art2b | Cd8b1
+23575529 | Positive_Correlation | NAD | Cd8b1
+23575529 | Association | Adenosine Diphosphate Ribose | NAD
+23575529 | Association | NAD | Art2b
+38547417 | Association | CD59 Deficiency | HMGCR
+38524775 | Association | Nasopharyngeal Neoplasms | PIK3CA
+38524775 | Association | Neoplasms | HLA-A
+38524775 | Association | Neoplasms | PIK3CA
+38524775 | Association | Neoplasms | HLA-C
+38524775 | Association | Nasopharyngeal Neoplasms | HLA-B
+38524775 | Association | Neoplasms | HLA-B
+38524775 | Association | Nasopharyngeal Neoplasms | HLA-A
+38524775 | Association | Nasopharyngeal Neoplasms | HLA-C
+34493195 | Negative_Correlation | hederagenin | ICAM1
+34493195 | Negative_Correlation | hederagenin | IL4
+34493195 | Negative_Correlation | Berberine | CXCR4
+34493195 | Association | COVID-19 | CXCL10
+34493195 | Association | COVID-19 | IL4
+34493195 | Negative_Correlation | hederagenin | COVID-19
+34493195 | Negative_Correlation | Berberine | CXCL10
+34493195 | Negative_Correlation | kaempferol | IFNG
+34493195 | Negative_Correlation | Berberine | IL4
+34493195 | Negative_Correlation | Quercetin | IL4
+34493195 | Association | COVID-19 | HIF1A
+34493195 | Negative_Correlation | Luteolin | IL6
+34493195 | Negative_Correlation | shionone | IL6
+34493195 | Negative_Correlation | Berberine | COVID-19
+34493195 | Negative_Correlation | Quercetin | CCL2
+34493195 | Negative_Correlation | Quercetin | CXCL8
+34493195 | Negative_Correlation | Quercetin | IFNG
+34493195 | Negative_Correlation | kaempferol | IL2
+34493195 | Association | COVID-19 | IL17A
+34493195 | Negative_Correlation | kaempferol | CXCR4
+34493195 | Negative_Correlation | kaempferol | ICAM1
+34493195 | Negative_Correlation | hederagenin | CXCL10
+34493195 | Negative_Correlation | Berberine | IL6
+34493195 | Negative_Correlation | kaempferol | COVID-19
+34493195 | Negative_Correlation | hederagenin | IL2
+34493195 | Negative_Correlation | shionone | IL2
+34493195 | Negative_Correlation | Quercetin | ICAM1
+34493195 | Negative_Correlation | hederagenin | CXCR4
+34493195 | Negative_Correlation | hederagenin | CXCL8
+34493195 | Negative_Correlation | Berberine | CCL2
+34493195 | Negative_Correlation | shionone | ICAM1
+34493195 | Negative_Correlation | Berberine | CXCL8
+34493195 | Association | COVID-19 | ICAM1
+34493195 | Negative_Correlation | hederagenin | IL1B
+34493195 | Negative_Correlation | Berberine | IL1B
+34493195 | Negative_Correlation | Berberine | IFNG
+34493195 | Negative_Correlation | shionone | IL1B
+34493195 | Negative_Correlation | Quercetin | IL2
+34493195 | Negative_Correlation | Luteolin | CXCL8
+34493195 | Association | COVID-19 | IL1B
+34493195 | Negative_Correlation | shionone | IFNG
+34493195 | Association | COVID-19 | IFNG
+34493195 | Negative_Correlation | Luteolin | ICAM1
+34493195 | Negative_Correlation | kaempferol | IL6
+34493195 | Negative_Correlation | shionone | CCL2
+34493195 | Negative_Correlation | hederagenin | IL6
+34493195 | Association | COVID-19 | IL2
+34493195 | Association | COVID-19 | CXCR4
+34493195 | Association | COVID-19 | IL6
+34493195 | Negative_Correlation | kaempferol | CXCL10
+34493195 | Association | COVID-19 | NFKB1
+34493195 | Negative_Correlation | shionone | CXCR4
+34493195 | Negative_Correlation | Berberine | ICAM1
+34493195 | Negative_Correlation | shionone | CXCL8
+34493195 | Negative_Correlation | kaempferol | CXCL8
+34493195 | Negative_Correlation | Quercetin | IL6
+34493195 | Negative_Correlation | Berberine | IL2
+34493195 | Negative_Correlation | shionone | CXCL10
+34493195 | Negative_Correlation | hederagenin | CCL2
+34493195 | Negative_Correlation | kaempferol | CCL2
+34493195 | Negative_Correlation | shionone | IL4
+34493195 | Negative_Correlation | Quercetin | COVID-19
+34493195 | Negative_Correlation | Quercetin | CXCR4
+34493195 | Negative_Correlation | Luteolin | CXCR4
+34493195 | Association | COVID-19 | CCL2
+34493195 | Negative_Correlation | Quercetin | IL1B
+34493195 | Association | COVID-19 | CXCL8
+34493195 | Association | COVID-19 | TNF
+34493195 | Negative_Correlation | shionone | COVID-19
+34493195 | Negative_Correlation | Luteolin | CCL2
+34493195 | Negative_Correlation | Quercetin | CXCL10
+34493195 | Negative_Correlation | Luteolin | CXCL10
+34493195 | Negative_Correlation | hederagenin | IFNG
+34493195 | Negative_Correlation | kaempferol | IL1B
+34493195 | Negative_Correlation | kaempferol | IL4
+36595044 | Association | Melanoma | CD8A
+36595044 | Association | CD274 | CD8A
+36595044 | Association | Neoplasms | CD8A
+1824857 | Bind | Cd247 | Trav6-3
+38575482 | Positive_Correlation | Multiple Sclerosis | rs3135388
+38575482 | Positive_Correlation | Multiple Sclerosis | rs2844821
+38575482 | Association | Multiple Sclerosis | HLA-DQB1
+38575482 | Association | Multiple Sclerosis | HLA-A
+38575482 | Association | Multiple Sclerosis | HLA-DRB1
+38575482 | Association | Multiple Sclerosis | HLA-DRA
+23055271 | Positive_Correlation | Myasthenia Gravis | rs7750641
+23055271 | Positive_Correlation | Myasthenia Gravis | rs2233290
+23055271 | Positive_Correlation | Myasthenia Gravis | rs2476601
+23055271 | Association | TNIP1 | NFKB1
+23055271 | Association | Myasthenia Gravis | TNIP1
+23055271 | Association | Myasthenia Gravis | NFKB1
+23055271 | Association | Myasthenia Gravis | TCF19
+23055271 | Association | Myasthenia Gravis | PTPN22
+37058845 | Association | Neoplasms | NR1I3
+37058845 | Association | LAMP1 | TNFRSF17
+37058845 | Positive_Correlation | Drug-Related Side Effects and Adverse Reactions | LAMP1
+37058845 | Positive_Correlation | LAMP1 | NR1I3
+37058845 | Association | TNFRSF17 | CD69
+37058845 | Positive_Correlation | Drug-Related Side Effects and Adverse Reactions | CD69
+37058845 | Association | CD69 | NR1I3
+37058845 | Association | Drug-Related Side Effects and Adverse Reactions | NR1I3
+37058845 | Association | TNFRSF17 | CD8A
+35116714 | Positive_Correlation | Urinary Bladder Neoplasms | CXCR4
+35116714 | Association | Carcinoma Squamous Cell | CXCR4
+35116714 | Association | Carcinogenesis | CXCR4
+35116714 | Bind | CXCL12 | CXCR4
+35116714 | Association | Breast Neoplasms | CXCR4
+35116714 | Association | Neoplasms | CXCR4
+27121061 | Positive_Correlation | ESR1 | CD8B
+27121061 | Association | Breast Neoplasms | ESR1
+27121061 | Negative_Correlation | ESR1 | HLA-A
+34467524 | Bind | CXCL8 | CXCR1
+34467524 | Negative_Correlation | Scleroderma Systemic | MPO
+34467524 | Negative_Correlation | Scleroderma Systemic | FCGR3A
+34467524 | Association | Scleroderma Systemic | CXCR2
+34467524 | Association | Scleroderma Systemic | CXCR1
+34467524 | Association | Scleroderma Systemic | SELL
+34467524 | Bind | CXCL8 | CXCR2
+31372333 | Association | Neoplasms | CXCR4
+31372333 | Bind | CXCL12 | CXCR4
+31372333 | Association | Multiple Myeloma | CXCR4
+31372333 | Association | Multiple Myeloma | CXCL12
+31372333 | Association | Neoplasm Metastasis | CXCR4
+24047902 | Association | Autoimmune Lymphoproliferative Syndrome | CD8A
+24047902 | Association | Lupus Erythematosus Systemic | CD4
+24047902 | Association | Autoimmune Lymphoproliferative Syndrome | CD4
+31575039 | Association | STAT1 | STAT3
+31575039 | Association | KPNA1 | STAT3
+31575039 | Association | Infections | STAT3
+31575039 | Association | Inflammation | STAT3
+31575039 | Association | Infections | KPNA1
+31575039 | Bind | KPNA1 | STAT1
+31980555 | Association | TRBV20OR9-2 | CD8A
+31980555 | Positive_Correlation | IL4 | CD8A
+15661911 | Positive_Correlation | Cd8_civ | Cd8a
+15661911 | Positive_Correlation | Cd8_civ | Cd8b1
+31532792 | Negative_Correlation | candesartan | Hypertension
+31532792 | Association | Kidney Diseases | APOL1
+31532792 | Negative_Correlation | candesartan | Albuminuria
+31532792 | Negative_Correlation | Thiazides | Hypertension
+31532792 | Association | candesartan | APOL1
+31532792 | Association | Hypertension | APOL1
+31532792 | Positive_Correlation | candesartan | rs10113352
+31532792 | Association | Pressure Ulcer | APOL1
+31532792 | Negative_Correlation | candesartan | Kidney Diseases
+31532792 | Negative_Correlation | candesartan | Pressure Ulcer
+31532792 | Association | Albuminuria | APOL1
+31532792 | Association | candesartan | CSMD1
+31532792 | Association | Cardiovascular Diseases | APOL1
+33810944 | Positive_Correlation | cyanidin | Tnfrsf11b
+33810944 | Negative_Correlation | cyanidin | Stat3
+33810944 | Negative_Correlation | cyanidin | Tooth Erosion
+33810944 | Positive_Correlation | Hspb1 | Il17a
+33810944 | Positive_Correlation | Il17a | Cxcr4
+33810944 | Negative_Correlation | cyanidin | Tnfsf11
+33810944 | Negative_Correlation | cyanidin | Arthritis Rheumatoid
+33810944 | Negative_Correlation | cyanidin | Inflammation
+33810944 | Positive_Correlation | Ccr7 | Il17a
+33810944 | Negative_Correlation | cyanidin | Ccr7
+33810944 | Negative_Correlation | cyanidin | Hspb1
+33810944 | Association | Arthritis Rheumatoid | Il17ra
+33810944 | Positive_Correlation | Il17a | Il17ra
+33810944 | Association | Tooth Erosion | Il17a
+33810944 | Association | Inflammation | Il17a
+33810944 | Association | Inflammation | Il17ra
+33810944 | Association | Arthritis Experimental | Il17a
+33810944 | Negative_Correlation | cyanidin | Cxcr4
+33810944 | Association | Tooth Erosion | Il17ra
+33810944 | Association | Arthritis Rheumatoid | Il17a
+33810944 | Negative_Correlation | cyanidin | Il17ra
+33810944 | Negative_Correlation | cyanidin | Il17a
+25688078 | Positive_Correlation | Multiple Sclerosis | CHI3L1
+38398632 | Association | Melanoma | PMEL
+38267222 | Association | Neoplasms | DKK1
+38267222 | Association | DKK1 | CASP9
+38243290 | Positive_Correlation | Polycystic Ovary Syndrome | OPN3
+38243290 | Positive_Correlation | Polycystic Ovary Syndrome | IDH1
+38243290 | Association | Polycystic Ovary Syndrome | DANCR
+38243290 | Association | Polycystic Ovary Syndrome | PRKCQ
+38243290 | Association | Polycystic Ovary Syndrome | SNHG8
+38243290 | Positive_Correlation | Polycystic Ovary Syndrome | SYBU
+38243290 | Association | Polycystic Ovary Syndrome | TPT1
+38243290 | Positive_Correlation | Polycystic Ovary Syndrome | RABL6
+38243290 | Association | Polycystic Ovary Syndrome | PCAT14
+38243290 | Association | Pyruvic Acid | Polycystic Ovary Syndrome
+38243290 | Association | Polycystic Ovary Syndrome | FTX
+38243290 | Positive_Correlation | Polycystic Ovary Syndrome | CXCR4
+38243290 | Negative_Correlation | Polycystic Ovary Syndrome | ZEB1
+38243290 | Positive_Correlation | Polycystic Ovary Syndrome | NOP10
+36077241 | Association | Breast Neoplasms | ACKR3
+36077241 | Association | Breast Neoplasms | CXCR4
+36077241 | Negative_Correlation | dehydroabietylamine | SOD2
+36077241 | Association | Breast Neoplasms | SOD2
+36077241 | Association | Neoplasms | ACKR3
+36077241 | Negative_Correlation | dehydroabietylamine | CXCR4
+36077241 | Positive_Correlation | dehydroabietylamine | Glutathione Disulfide
+36077241 | Association | Neoplasms | CXCR4
+36077241 | Positive_Correlation | dehydroabietylamine | Glutathione
+36077241 | Negative_Correlation | dehydroabietylamine | Breast Neoplasms
+36077241 | Association | Neoplasms | CXCL12
+36077241 | Positive_Correlation | ACKR3 | SOD2
+36077241 | Negative_Correlation | dehydroabietylamine | ACKR3
+36077241 | Association | CXCL12 | CXCR4
+36077241 | Positive_Correlation | CXCL12 | SOD2
+36077241 | Association | ACKR3 | CXCL12
+36077241 | Positive_Correlation | SOD2 | CXCR4
+15183000 | Association | TBX21 | IRF1
+32733468 | Negative_Correlation | tofacitinib | IgA Vasculitis
+32733468 | Association | tofacitinib | NOX5
+32733468 | Positive_Correlation | IgA Vasculitis | CD209
+32733468 | Positive_Correlation | Arthritis Psoriatic | CXCR4
+32733468 | Positive_Correlation | Arthritis Psoriatic | CD40
+32733468 | Association | IgA Vasculitis | CD14
+32733468 | Negative_Correlation | tofacitinib | CD40
+32733468 | Positive_Correlation | Arthritis Psoriatic | CCR7
+32733468 | Positive_Correlation | IgA Vasculitis | CD40
+32733468 | Positive_Correlation | IgA Vasculitis | CXCR3
+32733468 | Positive_Correlation | IgA Vasculitis | CXCR4
+32733468 | Positive_Correlation | IgA Vasculitis | CXCR5
+32733468 | Negative_Correlation | tofacitinib | CD209
+32733468 | Association | tofacitinib | CYBB
+32733468 | Association | Arthritis Psoriatic | CXCR3
+32733468 | Positive_Correlation | IgA Vasculitis | CCR7
+34419959 | Negative_Correlation | Zinc Oxide | Breast Neoplasms
+34419959 | Negative_Correlation | Zinc Oxide | BCL2L1
+34419959 | Negative_Correlation | Zinc Oxide | MCL1
+34419959 | Association | Polyethylene Glycols | Zinc Oxide
+29162878 | Association | Hippocampal Sclerosis | JUN
+29162878 | Negative_Correlation | Focal Cortical Dysplasia | MIR21
+29162878 | Negative_Correlation | Focal Cortical Dysplasia | MIR223
+29162878 | Positive_Correlation | Focal Cortical Dysplasia | MIR155
+29162878 | Association | Inflammation | VEGFA
+29162878 | Association | Hippocampal Sclerosis | MIR155
+29162878 | Positive_Correlation | Focal Cortical Dysplasia | IL6
+29162878 | Association | Inflammation | IL6
+29162878 | Association | Hippocampal Sclerosis | STAT3
+29162878 | Association | Hippocampal Sclerosis | CCR5
+29162878 | Association | Hippocampal Sclerosis | CCL3
+29162878 | Negative_Correlation | Focal Cortical Dysplasia | IL10
+29162878 | Association | Hippocampal Sclerosis | IL1B
+29162878 | Positive_Correlation | Focal Cortical Dysplasia | STAT3
+29162878 | Association | Hippocampal Sclerosis | CCL4
+29162878 | Association | Hippocampal Sclerosis | MIR21
+29162878 | Association | Focal Cortical Dysplasia | JUN
+29162878 | Association | Inflammation | CCL3
+29162878 | Negative_Correlation | Hippocampal Sclerosis | IL10
+29162878 | Association | Inflammation | CCL4
+29162878 | Association | Inflammation | TNF
+29162878 | Association | Inflammation | IL1RN
+29162878 | Association | Focal Cortical Dysplasia | CCL3
+29162878 | Association | Hippocampal Sclerosis | MIR223
+29162878 | Association | Hippocampal Sclerosis | IL6
+29162878 | Association | Focal Cortical Dysplasia | CCL4
+29162878 | Association | Focal Cortical Dysplasia | IL1B
+29162878 | Positive_Correlation | Focal Cortical Dysplasia | CCR5
+35680032 | Positive_Correlation | JAK2 | STAT3
+35680032 | Association | Neoplasms | JAK2
+35680032 | Association | KPNA3 | STAT3
+35680032 | Association | Neoplasms | IL6ST
+35680032 | Association | IL6ST | JAK2
+35680032 | Positive_Correlation | IL6ST | STAT3
+17005822 | Negative_Correlation | Carbapenems | bla
+2128468 | Positive_Correlation | Cd8a | Cd8b1
+2128468 | Association | Azacitidine | Cd8a
+34082024 | Negative_Correlation | ceralasertib | CD274
+34082024 | Negative_Correlation | olaparib | Biliary Tract Neoplasms
+34082024 | Negative_Correlation | olaparib | Neoplasms
+34082024 | Cotreatment | ceralasertib | olaparib
+34082024 | Association | Biliary Tract Neoplasms | CD274
+34082024 | Negative_Correlation | ceralasertib | Neoplasms
+34082024 | Positive_Correlation | olaparib | ATR
+34082024 | Negative_Correlation | ceralasertib | Biliary Tract Neoplasms
+34082024 | Association | Biliary Tract Neoplasms | ATR
+34082024 | Negative_Correlation | ceralasertib | ATR
+34082024 | Negative_Correlation | ceralasertib | YAP1
+34082024 | Positive_Correlation | olaparib | CD274
+34082024 | Association | YAP1 | CD274
+34082024 | Association | CD274 | STAT3
+34082024 | Association | olaparib | YAP1
+34082024 | Negative_Correlation | olaparib | COL11A2
+34082024 | Association | Neoplasms | COL11A2
+36780103 | Association | Leukemia Lymphocytic Chronic B-Cell | CXCL12
+36780103 | Association | CXCL12 | CXCR4
+36780103 | Association | DPP4 | CXCL12
+36780103 | Association | Leukemia Lymphocytic Chronic B-Cell | DPP4
+36780103 | Association | Leukemia Lymphocytic Chronic B-Cell | CXCR4
+34631056 | Association | Neoplasms | CD8B
+38579189 | Association | Anti-N-Methyl-D-Aspartate Receptor Encephalitis | HLA-A
+38579189 | Positive_Correlation | Anti-N-Methyl-D-Aspartate Receptor Encephalitis | rs3747517
+38579189 | Association | Anti-N-Methyl-D-Aspartate Receptor Encephalitis | GRIN1
+38579189 | Association | GRIN1 | HLA-DQB1
+38579189 | Association | Anti-N-Methyl-D-Aspartate Receptor Encephalitis | IFIH1
+38579189 | Association | Anti-N-Methyl-D-Aspartate Receptor Encephalitis | HLA-DQB1
+2498201 | Association | CD8A | CD8B
+1925604 | Association | Guanosine Diphosphate | CD4
+1925604 | Association | LCK | CD4
+1925604 | Association | CD4 | CD8A
+1925604 | Association | LCK | HCAR3
+1925604 | Association | Guanosine Diphosphate | CD8A
+1925604 | Association | HCAR3 | CD4
+1925604 | Bind | LCK | CD8A
+34359727 | Association | Carcinoma Non-Small-Cell Lung | CD274
+34359727 | Association | pembrolizumab | XCL2
+34359727 | Negative_Correlation | pembrolizumab | Carcinoma Non-Small-Cell Lung
+34359727 | Association | Neoplasms | CD274
+34359727 | Association | pembrolizumab | XCL1
+34359727 | Negative_Correlation | pembrolizumab | CD274
+34359727 | Negative_Correlation | pembrolizumab | Neoplasms
+33637560 | Association | Pathophobia | Adcyap1
+33637560 | Bind | Adcyap1 | Adcyap1r1
+33637560 | Association | Stress Disorders Post-Traumatic | Adcyap1
+33637560 | Association | Wounds and Injuries | Adcyap1r1
+33637560 | Association | Stress Disorders Post-Traumatic | Adcyap1r1
+33637560 | Association | Pathophobia | Adcyap1r1
+37781365 | Association | Lymphoma T-Cell | CD8B
+37781365 | Association | Neoplasms | CD8A
+37781365 | Association | Lymphoma T-Cell | GZMA
+37781365 | Association | GZMA | CD8A
+37781365 | Association | Lymphoma T-Cell | GZMB
+37781365 | Association | Lymphoma T-Cell | CD8A
+37781365 | Association | Lymphoma T-Cell | PRF1
+33013914 | Negative_Correlation | plerixafor | Infections
+33013914 | Positive_Correlation | plerixafor | Hemorrhage
+33013914 | Negative_Correlation | plerixafor | Poly I-C
+23364441 | Association | HIV Infections | CD8A
+26745853 | Association | Drug Hypersensitivity | RUNX1
+26745853 | Association | Runx1 | Pias3
+26745853 | Association | Runx1 | Stat3
+26745853 | Association | Platelet Disorder Familial with Associated Myeloid Malignancy | RUNX1
+26745853 | Association | Neoplasms | RUNX1
+26745853 | Association | Platelet Disorder Familial with Associated Myeloid Malignancy | Runx1
+26745853 | Negative_Correlation | Stat3 | Pias3
+26745853 | Association | Leukemia | RUNX1
+24297179 | Association | Lupus Erythematosus Systemic | CD4
+24297179 | Negative_Correlation | CD4 | CD8A
+24297179 | Association | Ehmt2 | CD8A
+24297179 | Association | Lupus Erythematosus Systemic | CD8A
+24297179 | Association | Dnmt3a | CD8A
+24297179 | Negative_Correlation | Fas | CD8A
+24297179 | Association | Lupus Erythematosus Systemic | Fas
+24297179 | Association | Lupus Erythematosus Systemic | Cd8b1
+24297179 | Negative_Correlation | Cd8a | CD8A
+24297179 | Negative_Correlation | Cd8b1 | CD8A
+37227160 | Association | IBTK | PLCG2
+37227160 | Positive_Correlation | acalabrutinib | Lymphocytosis
+37227160 | Positive_Correlation | acalabrutinib | ITGA4
+37227160 | Negative_Correlation | Leukemia Lymphocytic Chronic B-Cell | IBTK
+37227160 | Association | Leukemia Lymphocytic Chronic B-Cell | ITGA4
+37227160 | Association | Lymphocytosis | ITGA4
+37227160 | Association | Leukemia Lymphocytic Chronic B-Cell | BTK
+37227160 | Negative_Correlation | acalabrutinib | Leukemia Lymphocytic Chronic B-Cell
+37227160 | Association | Leukemia Lymphocytic Chronic B-Cell | NFKB1
+37227160 | Positive_Correlation | ITGA4 | BTK
+37227160 | Association | IBTK | ITGA4
+37227160 | Association | Leukemia Lymphocytic Chronic B-Cell | PLCG2
+37227160 | Positive_Correlation | ITGA4 | NFKB1
+30735510 | Bind | CD8A | CD8B
+37879364 | Association | ZNF395 | TRBV20OR9-2
+37879364 | Association | Osteosarcoma | Pttg1ip
+37879364 | Association | Pttg1ip | TRBV20OR9-2
+37879364 | Association | Neoplasms | Trav6-3
+37879364 | Bind | Pttg1ip | ZNF395
+37879364 | Association | Trav6-3 | ZNF395
+37879364 | Association | Pttg1ip | Trav6-3
+37879364 | Association | Pttg1ip | Ptprc
+37879364 | Association | Sarcoma | ZNF395
+37879364 | Association | Sarcoma | TRBV20OR9-2
+37879364 | Association | Neoplasms | Ptprc
+38372631 | Association | Stomach Neoplasms | HLA-A
+33097660 | Bind | NUP98 | RAE1
+33097660 | Association | IFNA1 | NUP98
+33097660 | Negative_Correlation | IFNA1 | ORF6
+33097660 | Association | ORF6 | RAE1
+33097660 | Association | IFNA1 | RAE1
+33097660 | Association | ORF6 | NUP98
+38363779 | Positive_Correlation | Cisplatin | H3P16
+38363779 | Negative_Correlation | Cisplatin | Neoplasms
+38363779 | Negative_Correlation | Cisplatin | Uterine Cervical Neoplasms
+1384049 | Association | FYN | CD5
+1384049 | Association | TXK | CD5
+1384049 | Association | TRBV20OR9-2 | CD4
+1384049 | Association | LCK | CD4
+1384049 | Association | TRBV20OR9-2 | CD28
+1384049 | Association | CD247 | CD5
+1384049 | Association | LCK | TRBV20OR9-2
+1384049 | Association | CD4 | CD8A
+1384049 | Association | LCK | CD5
+26000204 | Association | Graft vs Host Disease | Ccr5
+26000204 | Association | Graft vs Host Disease | Cxcr3
+26000204 | Negative_Correlation | Inflammation | Cxcr3
+26000204 | Association | Graft vs Host Disease | Cxcl9
+32979938 | Association | TBK1 | IRF3
+32979938 | Association | COVID-19 | ORF1ab
+32979938 | Association | COVID-19 | SH2D3A
+32979938 | Negative_Correlation | IRF3 | KPNA2
+32979938 | Association | KPNA2 | ORF6
+32979938 | Association | TBK1 | ORF1ab
+36035168 | Association | MRPL35 | CD8A
+36035168 | Association | MAT2A | CD8A
+36035168 | Association | ANAPC1P1 | CD8A
+36035168 | Association | CHMP3 | CD8A
+36035168 | Association | RNF103 | CD8A
+36035168 | Association | CD274 | CD8A
+36035168 | Association | PDCD1 | CD8A
+36035168 | Association | RGPD2 | CD8A
+36035168 | Association | Neoplasms | CD8A
+36035168 | Association | Neoplasms | MAT2A
+36035168 | Association | RMND5A | CD8A
+36035168 | Association | Neoplasms | ANAPC1P1
+36035168 | Association | RGPD1 | CD8A
+36035168 | Association | REEP1 | CD8A
+32119183 | Association | CTNNB1 | MMP7
+32119183 | Negative_Correlation | GSK3B | STAT3
+32119183 | Association | CTNNB1 | GSK3B
+32119183 | Association | Fibrosis | CTNNB1
+32119183 | Negative_Correlation | plerixafor | Adenocarcinoma
+32119183 | Association | JAK2 | CXCR4
+32119183 | Negative_Correlation | plerixafor | Fibrosis
+32119183 | Negative_Correlation | GSK3B | STAT6
+32119183 | Negative_Correlation | ICG 001 | Fibrosis
+32119183 | Association | MMP7 | CXCR4
+32119183 | Positive_Correlation | Ctnnb1 | Cxcr4
+32119183 | Positive_Correlation | Fibrosis | Cxcr4
+32119183 | Association | JAK3 | CXCR4
+32119183 | Association | Renal Insufficiency Chronic | Cxcr4
+32119183 | Association | STAT3 | CXCR4
+32119183 | Negative_Correlation | plerixafor | CTNNB1
+32119183 | Negative_Correlation | ICG 001 | CTNNB1
+32119183 | Positive_Correlation | CTNNB1 | CXCR4
+32119183 | Association | CTNNB1 | STAT6
+32119183 | Association | Cxcr4 | CTNNB1
+32119183 | Positive_Correlation | Cxcr4 | GSK3B
+32119183 | Association | STAT6 | CXCR4
+32119183 | Association | GSK3B | CXCR4
+32119183 | Negative_Correlation | ICG 001 | CXCR4
+32119183 | Positive_Correlation | Fibrosis | CXCR4
+32119183 | Association | Fibrosis | GSK3B
+32119183 | Association | Renal Insufficiency Chronic | Ctnnb1
+34478713 | Association | NAD | CD8A
+34478713 | Bind | HLA-C | CD8A
+34478713 | Bind | HLA-C | TRBV20OR9-2
+37385350 | Association | Malaria Cerebral | H2
+37385350 | Association | Malaria Cerebral | Cd40
+37385350 | Negative_Correlation | coenzyme Q10 | Ccr2
+37385350 | Negative_Correlation | coenzyme Q10 | Ccl3
+37385350 | Negative_Correlation | coenzyme Q10 | Ccl5
+37385350 | Association | coenzyme Q10 | Cd8a
+37385350 | Negative_Correlation | coenzyme Q10 | Ccr5
+37385350 | Negative_Correlation | coenzyme Q10 | Cd40
+37385350 | Association | Malaria Cerebral | Cd8a
+37385350 | Association | Malaria Cerebral | Chil3
+37385350 | Association | coenzyme Q10 | Il18
+37385350 | Negative_Correlation | coenzyme Q10 | Cd86
+37385350 | Negative_Correlation | coenzyme Q10 | Cxcr3
+37385350 | Negative_Correlation | coenzyme Q10 | Malaria Cerebral
+37385350 | Association | Malaria Cerebral | Arg1
+37385350 | Positive_Correlation | coenzyme Q10 | Chil3
+37385350 | Negative_Correlation | coenzyme Q10 | Inflammation
+37385350 | Association | coenzyme Q10 | Il6
+37385350 | Association | Inflammation | Ccl3
+37385350 | Positive_Correlation | coenzyme Q10 | Arg1
+37385350 | Association | Inflammation | Tnf
+37385350 | Negative_Correlation | coenzyme Q10 | H2
+37385350 | Association | Malaria Cerebral | Cd86
+37385350 | Negative_Correlation | coenzyme Q10 | Gzmb
+37385350 | Association | Inflammation | Ccl5
+37385350 | Negative_Correlation | coenzyme Q10 | Tnf
+29171984 | Positive_Correlation | MIR1246 | ZEB1
+29171984 | Association | Lung Neoplasms | CXCR4
+29171984 | Association | Lung Neoplasms | AKT1
+29171984 | Positive_Correlation | MIR1246 | CDH1
+29171984 | Association | AKT1 | CXCR4
+29171984 | Positive_Correlation | MIR1246 | VIM
+29171984 | Association | MIR1246 | CXCR4
+29171984 | Negative_Correlation | MIR1246 | AKT1
+29171984 | Positive_Correlation | CDH2 | MIR1246
+29171984 | Negative_Correlation | MIR1246 | SNAI1
+29171984 | Negative_Correlation | Lung Neoplasms | MIR1246
+38338657 | Negative_Correlation | tocilizumab | Igh-V7183
+38338657 | Association | tocilizumab | Ifng
+38338657 | Association | tocilizumab | Il23a
+34837284 | Negative_Correlation | Rituximab | Lymphoma Follicular
+34837284 | Cotreatment | Rituximab | Bendamustine Hydrochloride
+34837284 | Negative_Correlation | Bendamustine Hydrochloride | Lymphoma Follicular
+38583422 | Association | Melanoma | MLANA
+38583422 | Association | Neoplasms | CD8A
+38583422 | Association | Neoplasms | MLANA
+38583422 | Association | MLANA | CD8A
+33499345 | Association | Neoplasms | CD274
+36822100 | Association | Heart Failure | Mir1955
+36822100 | Association | Conversion Disorder | Mir1955
+36822100 | Association | Conversion Disorder | Cxcr4
+36822100 | Association | Heart Failure | Cxcr4
+31629729 | Association | IL4 | CAV1
+31629729 | Association | Fibrosis | CAV1
+31629729 | Association | Lung Diseases Interstitial | TGFB1
+31629729 | Association | Lung Diseases Interstitial | CAV1
+31629729 | Association | Idiopathic Pulmonary Fibrosis | TGFB1
+31629729 | Association | Idiopathic Pulmonary Fibrosis | CAV1
+31629729 | Association | Fibrosis | TGFB1
+31629729 | Association | CXCR4 | CAV1
+31629729 | Association | CXCL12 | CAV1
+31629729 | Association | Scleroderma Systemic | TGFB1
+31629729 | Negative_Correlation | TGFB1 | CAV1
+31629729 | Association | STAT3 | CAV1
+31629729 | Association | MAPK8 | CAV1
+32669328 | Association | Virus Diseases | IL15
+32669328 | Association | Viremia | CD8A
+32669328 | Association | Virus Diseases | CD8A
+32669328 | Association | Simian Acquired Immunodeficiency Syndrome | CD8A
+32669328 | Association | Virus Diseases | CD8B
+32669328 | Association | Viremia | CD8B
+36609711 | Association | CSF3 | Nfkb1
+36609711 | Positive_Correlation | CSF3 | CXCL12
+36609711 | Association | Inflammation | Stat3
+36609711 | Positive_Correlation | Neoplasms Basal Cell | CSF3
+36609711 | Association | CSF3 | Cxcl12
+36609711 | Positive_Correlation | Nfkb1 | CXCR4
+36609711 | Association | Neoplasm Metastasis | CSF3
+36609711 | Bind | CXCL12 | CXCR4
+36609711 | Association | Breast Neoplasms | CSF3
+36609711 | Positive_Correlation | Neoplasms | CSF3
+36609711 | Association | Neoplasms | CXCR4
+36609711 | Association | Cxcr4 | CSF3
+36609711 | Association | Breast Neoplasms | CXCL12
+36609711 | Association | Neoplasms | CXCL12
+36609711 | Positive_Correlation | Akt1 | CXCR4
+36609711 | Negative_Correlation | Leukopenia | CSF3
+36609711 | Association | Carcinogenesis | Stat3
+36609711 | Association | Breast Neoplasms | Cxcr4
+36609711 | Association | Grk4 | Hspg2
+36609711 | Positive_Correlation | CSF3 | CXCR4
+19565478 | Association | Spondylarthritis | HLA-G
+37877672 | Association | Diabetes Mellitus Type 1 | HLA-A
+37877672 | Association | B2m | Fcgrt
+29501729 | Positive_Correlation | Genetic Diseases Inborn | JAK2
+29501729 | Association | Lymphoma B-Cell | p.E571K
+29501729 | Association | JAK2 | STAT6
+29501729 | Association | Lymphoma B-Cell | JAK2
+29501729 | Association | Lymphoma B-Cell | STAT6
+29501729 | Bind | STAT6 | XPO1
+29501729 | Association | Lymphoma B-Cell | XPO1
+38263419 | Association | Breast Neoplasms | CD8B
+38263419 | Association | Breast Neoplasms | HSP90AA1
+38263419 | Association | Breast Neoplasms | CD8A
+38263419 | Association | Breast Neoplasms | ATG5
+18490743 | Association | Neoplasms | CD8A
+38509571 | Association | MAGEA1 | CD8A
+38509571 | Association | SSX2 | CD8A
+38509571 | Association | Neoplasms | CD8A
+39710929 | Association | Lupus Erythematosus Systemic | CD8A
+39710929 | Negative_Correlation | tocilizumab | Lupus Erythematosus Systemic
+39710929 | Negative_Correlation | tocilizumab | COVID-19
+39731852 | Negative_Correlation | baricitinib | COVID-19
+39731852 | Association | Drug-Related Side Effects and Adverse Reactions | CXCL16
+39731852 | Association | Drug-Related Side Effects and Adverse Reactions | IL2
+39731852 | Positive_Correlation | baricitinib | Drug-Related Side Effects and Adverse Reactions
+39731852 | Association | Inflammation | CXCL16
+39480504 | Negative_Correlation | tofacitinib | Sialadenitis
+39480504 | Negative_Correlation | tofacitinib | Jak1
+39480504 | Negative_Correlation | tofacitinib | Jak2
+39480504 | Negative_Correlation | tofacitinib | Jak3
+39480504 | Negative_Correlation | tofacitinib | Inflammation
+39480504 | Negative_Correlation | tofacitinib | Sjogren's Syndrome
+42142526 | Association | IL12B | CD4
+41393140 | Association | Cognition Disorders | SOCS3
+41393140 | Association | Autoimmune Diseases | SOCS1
+41393140 | Positive_Correlation | CRP | SOCS3
+41393140 | Association | Inflammation | CD4
+41393140 | Association | Rituximab | SOCS1
+41393140 | Association | Inflammation | SOCS3
+41393140 | Positive_Correlation | Spondylitis Ankylosing | SOCS3
+41393140 | Association | Inflammation | CRP
+41393140 | Negative_Correlation | Methotrexate | SOCS1
+41393140 | Positive_Correlation | Arthritis Rheumatoid | SOCS3
+42149143 | Association | Neoplasms | CD8A
+42149143 | Negative_Correlation | Ipilimumab | Melanoma Cutaneous Malignant
+39433797 | Association | Inflammation | NFKB1
+39433797 | Association | Inflammation | CXCL10
+39433797 | Association | Inflammation | GDF15
+39433797 | Association | Inflammation | TNFSF10
+39433797 | Association | Inflammation | PTX3
+41647941 | Association | Death | CD4
+39765290 | Positive_Correlation | Dinitrochlorobenzene | Dermatitis Atopic
+39765290 | Negative_Correlation | Dexamethasone | Dermatitis Atopic
+39765290 | Association | Tyrosine Kinase 2 Deficiency | ITK
+39765290 | Association | Carcinoma Hepatocellular | TXK
+39765290 | Positive_Correlation | ITK | CD4
+39765290 | Association | Carcinoma Hepatocellular | JAK3
+39765290 | Association | Dermatitis Atopic | TXK
+39765290 | Association | Dermatitis Atopic | JAK3
+42105147 | Positive_Correlation | c.2805G>C | Skin Manifestations
+42105147 | Association | 614878 | JAK3
+42105147 | Positive_Correlation | JAK3 | STAT3
+42105147 | Association | Hypothyroidism Autoimmune | JAK3
+42105147 | Positive_Correlation | c.2524_2525delinsTT | Skin Manifestations
+42105147 | Positive_Correlation | c.2524_2525delinsTT | 614878
+42105147 | Negative_Correlation | tofacitinib | 614878
+42105147 | Association | Skin Manifestations | JAK3
+42105147 | Association | Immune System Diseases | JAK3
+42105147 | Negative_Correlation | tofacitinib | Job Syndrome
+42105147 | Association | c.2805G>C | Hypothyroidism Autoimmune
+42105147 | Association | Job Syndrome | JAK3
+42105147 | Association | Autoimmune Diseases | JAK3
+42105147 | Negative_Correlation | tofacitinib | Autoimmune Diseases
+42105147 | Negative_Correlation | tofacitinib | JAK3
+42105147 | Association | Lymphopenia | JAK3
+42105147 | Positive_Correlation | JAK3 | STAT5A
+42028851 | Association | Autoimmune Diseases | #8572#
+42028851 | Association | Graves Disease | #8572#
+42028851 | Positive_Correlation | PTPN13 | PDLIM4
+42028851 | Association | Arthritis Rheumatoid | #8572#
+42028851 | Association | Graves Disease | PDLIM4
+42028851 | Association | Arthritis Rheumatoid | PDLIM4
+42028851 | Association | Autoimmune Diseases | PDLIM4
+42028851 | Association | STAT3 | PDLIM4
+39391317 | Association | myricetin | OLR1
+39391317 | Association | Flavonoids | OLR1
+39391317 | Association | Post-Acute COVID-19 Syndrome | OLR1
+39391317 | Association | orientin | OLR1
+39391317 | Association | Apigenin | OLR1
+39391317 | Association | amentoflavone | OLR1
+39391317 | Association | ilexgenin A | OLR1
+41371249 | Association | Mycosis Fungoides | CD8A
+41595740 | Positive_Correlation | IL10 | STAT3
+41595740 | Association | Rhinitis Allergic | STAT3
+41595740 | Association | Rhinitis Allergic | IL10
+39763816 | Negative_Correlation | CIITA | PPARD
+39763816 | Association | LAG3 | CIITA
+39763816 | Negative_Correlation | JAK3 | PPARD
+39763816 | Association | Neoplasms | PPARD
+39763816 | Positive_Correlation | CIITA | REG1A
+39763816 | Association | PPARD | REG1A
+39763816 | Association | Neoplasms | CIITA
+39763816 | Association | Fatty Acids | PPARD
+39763816 | Association | Autoimmune Diseases | REG1A
+39763816 | Bind | LAG3 | REG1A
+39763816 | Negative_Correlation | Neoplasms | REG1A
+42034607 | Association | Virus Diseases | ACE2
+42034607 | Association | Infections | ACE2
+42148745 | Bind | Nitrogen | Water
+39319193 | Negative_Correlation | Dexamethasone | COVID-19
+39319193 | Negative_Correlation | remdesivir | Thyroid Diseases
+39319193 | Association | Thyroid Adenoma Hyperfunctioning | IL6
+39319193 | Negative_Correlation | Nucleotides | Thyroid Diseases
+39319193 | Association | Thyroid Adenoma Hyperfunctioning | IL1B
+39319193 | Negative_Correlation | baricitinib | Thyroid Diseases
+39319193 | Negative_Correlation | Dexamethasone | Thyroid Adenoma Hyperfunctioning
+39319193 | Association | Thyroid Diseases | TNF
+39319193 | Negative_Correlation | remdesivir | COVID-19
+39319193 | Association | Inflammation | NFKB1
+39319193 | Negative_Correlation | Acetylcysteine | Thyroid Diseases
+39319193 | Negative_Correlation | remdesivir | Cytokine Release Syndrome
+39319193 | Negative_Correlation | baricitinib | COVID-19
+39319193 | Association | Cytokine Release Syndrome | TNF
+39319193 | Association | Cytokine Release Syndrome | IL1B
+39319193 | Negative_Correlation | Dexamethasone | Thyroid Diseases
+39319193 | Negative_Correlation | Dexamethasone | Cytokine Release Syndrome
+39319193 | Negative_Correlation | Nucleotides | Thyroid Adenoma Hyperfunctioning
+39319193 | Negative_Correlation | baricitinib | Thyroid Adenoma Hyperfunctioning
+39319193 | Negative_Correlation | Acetylcysteine | Thyroiditis Autoimmune
+39319193 | Association | Cytokine Release Syndrome | IFNG
+39319193 | Negative_Correlation | Dexamethasone | Thyroiditis Autoimmune
+39319193 | Negative_Correlation | remdesivir | Thyroid Adenoma Hyperfunctioning
+39319193 | Association | Cytokine Release Syndrome | NFKB1
+39319193 | Negative_Correlation | Nucleotides | Cytokine Release Syndrome
+39319193 | Negative_Correlation | Acetylcysteine | COVID-19
+39319193 | Association | Thyroid Adenoma Hyperfunctioning | IFNG
+39319193 | Negative_Correlation | baricitinib | Cytokine Release Syndrome
+39319193 | Association | Thyroid Adenoma Hyperfunctioning | TNF
+39319193 | Negative_Correlation | Dexamethasone | Euthyroid Sick Syndromes
+39319193 | Association | Cytokine Release Syndrome | IL6
+39319193 | Negative_Correlation | Acetylcysteine | Thyroid Adenoma Hyperfunctioning
+39319193 | Negative_Correlation | Acetylcysteine | Cytokine Release Syndrome
+39884914 | Association | Inflammation | ACE2
+42095196 | Association | Aldosterone | ACE2
+40739030 | Association | Autism Spectrum Disorder | TNFSF11
+40739030 | Positive_Correlation | Autism Spectrum Disorder | TNFSF12
+40739030 | Association | Autistic Disorder | TNF
+40739030 | Association | TNFSF10 | CD8A
+40739030 | Association | Autism Spectrum Disorder | CD8A
+40739030 | Association | Autism Spectrum Disorder | CARD11
+40739030 | Association | TNFSF12 | CD8A
+40739030 | Association | Autism Spectrum Disorder | CUL2
+40739030 | Association | Autism Spectrum Disorder | TNF
+40739030 | Association | Autism Spectrum Disorder | CD4
+40739030 | Association | Autism Spectrum Disorder | JAK3
+40739030 | Association | Autism Spectrum Disorder | TNFSF10
+42065320 | Association | Neoplasms | CD8A
+42147443 | Association | Neoplasms | CXADRP1
+42146590 | Association | dideoxymycobactin | CD1A
+42146590 | Association | IL26 | CD1A
+42146590 | Association | Leprosy | CD1A
+42146590 | Association | CD1A | CD4
+42146590 | Association | IFNG | CD1A
+42038386 | Association | Breast Neoplasms | ERBB2
+42038386 | Association | Breast Neoplasms | NR4A1
+42038386 | Negative_Correlation | pembrolizumab | Breast Neoplasms
+42038386 | Negative_Correlation | pembrolizumab | ERBB2
+32265901 | Association | Severe Combined Immunodeficiency | IL2RG
+32265901 | Association | Severe Combined Immunodeficiency | CD3E
+32265901 | Association | Severe Combined Immunodeficiency | JAK3
+32265901 | Association | Primary Immunodeficiency Diseases | CDC42
+32265901 | Association | Severe Combined Immunodeficiency | CDC42
+32265901 | Association | Severe Combined Immunodeficiency | RAG1
+32265901 | Association | Primary Immunodeficiency Diseases | ZAP70
+32265901 | Association | Severe Combined Immunodeficiency | NHEJ1
+32265901 | Association | Severe Combined Immunodeficiency | FAS
+32265901 | Association | Severe Combined Immunodeficiency | FOXP3
+32265901 | Association | Primary Immunodeficiency Diseases | CD3E
+32265901 | Association | Severe Combined Immunodeficiency | RAG2
+32265901 | Association | Primary Immunodeficiency Diseases | NHEJ1
+32265901 | Association | Primary Immunodeficiency Diseases | IL2RG
+32265901 | Association | Severe Combined Immunodeficiency | ZAP70
+32265901 | Association | Primary Immunodeficiency Diseases | DCLRE1C
+32265901 | Association | Primary Immunodeficiency Diseases | FOXP3
+32265901 | Association | Primary Immunodeficiency Diseases | JAK3
+32265901 | Association | Severe Combined Immunodeficiency | DCLRE1C
+32265901 | Association | Primary Immunodeficiency Diseases | FAS
+42145973 | Association | Neuroblastoma | MYCN
+42145973 | Positive_Correlation | Neoplasms | CDCA7
+42145973 | Association | Neuroblastoma | CDCA7
+42145973 | Association | CDK6 | CDCA7
+42145973 | Association | Carcinogenesis | CDCA7
+42145973 | Positive_Correlation | MYCN | CDCA7
+42094059 | Association | Carcinoma Hepatocellular | Snai1
+42094059 | Association | B2m | Mthfd1l
+42094059 | Negative_Correlation | Carcinoma Hepatocellular | Trp53-ps
+42094059 | Positive_Correlation | Mdm4 | Trp53-ps
+42094059 | Association | 6-methyladenine | Carcinoma Hepatocellular
+42094059 | Positive_Correlation | Mdm2 | Trp53-ps
+42094059 | Association | Carcinoma Hepatocellular | Mdm2
+42094059 | Association | Liver Cirrhosis | Trp53-ps
+42094059 | Association | Methionine | Snai1
+42094059 | Positive_Correlation | Chemical and Drug Induced Liver Injury Chronic | Trp53-ps
+42094059 | Association | Methionine | B2m
+42094059 | Association | 6-methyladenine | Mthfd1l
+42094059 | Association | Carcinogenesis | Trp53-ps
+42094059 | Association | Carcinogenesis | Snai1
+42094059 | Association | Neoplasms | Mdm2
+42094059 | Association | Carcinogenesis | Mthfd1l
+42094059 | Negative_Correlation | Trp53-ps | Mthfd1l
+42094059 | Association | Snai1 | Mthfd1l
+42094059 | Positive_Correlation | Carcinoma Hepatocellular | Mthfd1l
+42094059 | Association | Methionine | Mthfd1l
+42094059 | Association | Carcinoma Hepatocellular | Mdm4
+42094059 | Positive_Correlation | Liver Failure | Trp53-ps
+42042830 | Association | Thrombosis | MAS1
+42042830 | Association | AGT | AGTR1
+42042830 | Association | Cardiovascular Abnormalities | MAS1
+42042830 | Association | Inflammation | AGTR1
+42042830 | Association | Post-Acute COVID-19 Syndrome | MAS1
+42042830 | Association | Asthenia | MAS1
+42042830 | Association | Thrombosis | AP2B1
+42042830 | Association | Headache | MAS1
+42042830 | Association | Inflammation | AP2B1
+42042830 | Association | Edema | MAS1
+42042830 | Association | Thrombosis | AGTR1
+42042830 | Association | MAS1 | ACE2
+42042830 | Association | Inflammation | AGT
+42042830 | Association | Thrombosis | AGT
+42042830 | Association | AP2B1 | AGT
+42042830 | Association | Contusions | MAS1
+42042830 | Association | Post-Acute COVID-19 Syndrome | ACE2
+42042830 | Association | AP2B1 | AGTR1
+42042830 | Association | Thrombosis | ACE2
+42085538 | Association | Medulloblastoma | PTPA
+42085538 | Negative_Correlation | LB100 | PTPA
+42085538 | Association | Medulloblastoma | PPP2CA
+42143353 | Association | Colorectal Neoplasms | INHBA
+42143353 | Association | BNIP3 | CD4
+42143353 | Association | INHBA | CD4
+42143353 | Association | Neoplasms | BNIP3
+42143353 | Association | INHBA | SPP1
+42143353 | Association | Neoplasms | INHBA
+42143353 | Association | Neoplasms | SULF1
+42142877 | Negative_Correlation | rifapentine | Tuberculosis
+42142877 | Comparison | rifapentine | Isoniazid
+42142877 | Negative_Correlation | rifapentine | Tuberculosis Meningeal
+42142877 | Negative_Correlation | Isoniazid | Tuberculosis Meningeal
+42142877 | Negative_Correlation | Isoniazid | Tuberculosis
+11175747 | Positive_Correlation | CCL5 | STAT1
+11175747 | Positive_Correlation | IFNG | CCL5
+10942783 | Association | Acquired Immunodeficiency Syndrome | CCR5
+10942783 | Association | Acquired Immunodeficiency Syndrome | CCR2
+10942783 | Association | HIV Infections | CCR5
+10942783 | Association | Acquired Immunodeficiency Syndrome | CXCR4
+42079262 | Association | S | ACE2
+42128157 | Positive_Correlation | COVID-19 | ACE2
+42128157 | Positive_Correlation | COVID-19 | GAS6
+42128157 | Bind | GAS6 | AXL
+41376629 | Association | RELT | CD4
+41376629 | Association | Carcinoma Renal Cell | RELT
+41376629 | Association | Carcinoma Renal Cell | CD8A
+41376629 | Association | RELT | CD8A
+41376629 | Association | Neoplasms | RELT
+42094418 | Association | CD8A | BAG2
+42094418 | Association | IFNG | BAG2
+42147369 | Association | Neoplasms | PDCD1
+42147369 | Positive_Correlation | CD274 | KRT18
+42147369 | Association | Neoplasms | KRT20
+42147369 | Positive_Correlation | Adenocarcinoma of Lung | KRT18
+42147369 | Positive_Correlation | KRT18 | PDCD1
+42147369 | Positive_Correlation | KRT18 | RELA
+42147369 | Negative_Correlation | KRT18 | CD8A
+42147369 | Association | Neoplasms | CD8A
+42147369 | Association | CD274 | RELA
+42147369 | Association | Adenocarcinoma of Lung | CD274
+42147369 | Association | Adenocarcinoma of Lung | PDCD1
+42147369 | Negative_Correlation | KRT18 | CD4
+42147369 | Negative_Correlation | KRT18 | KRT20
+42147369 | Association | Neoplasms | KRT18
+39574357 | Association | Carcinoma Hepatocellular | Socs2
+39574357 | Association | Carcinoma Hepatocellular | STAT5A
+39574357 | Association | Carcinoma Hepatocellular | Jak3
+39574357 | Association | Carcinoma Hepatocellular | Stat5b
+39574357 | Association | Carcinoma Hepatocellular | SOCS2
+39574357 | Association | Carcinoma Hepatocellular | Stat5a
+39574357 | Association | Stat5b | Socs2
+42093998 | Association | Neoplasms | Pdcd1
+42093998 | Association | Neoplasms | Ifng
+42093998 | Association | Neoplasms | Ptpn6
+42093998 | Association | Neoplasms | Lyz2
+42093998 | Association | Neoplasms | Xcr1
+42093998 | Positive_Correlation | Ifng | Pdcd1
+42093998 | Association | Neoplasms | Itgax
+42093998 | Negative_Correlation | Neoplasms | H2
+42093998 | Association | Ptpn6 | Itgax
+42102000 | Association | ICOSLG | MIR155
+42102000 | Association | Neoplasms | CD8A
+42102000 | Association | Neoplasms | SOCS1
+42102000 | Association | Stomach Neoplasms | ICOSLG
+42102000 | Association | Triple Negative Breast Neoplasms | SOCS1
+42102000 | Association | Neoplasms | CD274
+42102000 | Association | Neoplasms | MIR155
+42102000 | Negative_Correlation | MIR155 | SOCS1
+42102000 | Association | Neoplasms | ICOSLG
+42102000 | Association | Stomach Neoplasms | SOCS1
+42102000 | Association | Stomach Neoplasms | MIR155
+41375725 | Association | Renal Tubular Transport Inborn Errors | SAA@
+41375725 | Association | Inflammation | SAA@
+41375725 | Association | AGER | RENBP
+41375725 | Positive_Correlation | Diabetic Nephropathies | SAA3P
+41375725 | Association | Diabetic Nephropathies | SAA@
+41375725 | Association | AA amyloidosis | SAA@
+41375725 | Association | Chronobiology Disorders | SAA@
+41375725 | Association | Wounds and Injuries | SAA@
+41449178 | Positive_Correlation | Cadmium | Esophageal Squamous Cell Carcinoma
+42131824 | Association | Colorectal Neoplasms | HLA-G
+42135777 | Association | Inflammation | IFNL3
+42135777 | Positive_Correlation | IFNL3 | ACE2
+41801310 | Association | HIV Infections | STAT5A
+41801310 | Association | HIV Infections | STAT3
+41801310 | Positive_Correlation | IL2 | STAT5A
+41801310 | Positive_Correlation | IL21 | STAT3
+41392616 | Association | Lupus Erythematosus Systemic | JUN
+41392616 | Negative_Correlation | Mycophenolic Acid | Thrombocytopenia
+41392616 | Cotreatment | baricitinib | Mycophenolic Acid
+41392616 | Association | Lupus Erythematosus Systemic | DDX17
+41392616 | Association | Lupus Erythematosus Systemic | DUSP1
+41392616 | Association | Lupus Erythematosus Systemic | IKZF1
+41392616 | Association | Lupus Erythematosus Systemic | FOS
+41392616 | Negative_Correlation | baricitinib | Thrombocytopenia
+41392616 | Association | 614878 | IKZF1
+41392616 | Positive_Correlation | IKZF1 | CD4
+41392616 | Association | IKZF1 | IFNA1
+42146495 | Association | SUV39H1 | KLF16
+42146495 | Positive_Correlation | HDAC1 | KLF16
+42146495 | Positive_Correlation | SIN3A | KLF16
+42146495 | Association | CBX5 | KLF16
+42146495 | Negative_Correlation | Tretinoin | KLF16
+42146495 | Bind | SP1 | KLF16
+42146495 | Positive_Correlation | KLF16 | CD4
+42097490 | Association | PDCD1 | SPECC1
+42097490 | Association | Neoplasms | CD8A
+42097490 | Association | Carcinoma Hepatocellular | PDCD1
+42145868 | Positive_Correlation | Vitiligo | CD8A
+42145868 | Negative_Correlation | Vitiligo | CD4
+42145868 | Association | Vitiligo | CD28
+42145868 | Association | PTPRC | CD28
+42145868 | Association | Vitiligo | PTPRC
+39865264 | Association | Multiple Myeloma | LIF
+39865264 | Association | COVID-19 | LIF
+38997291 | Association | IL6 | JAK3
+42086546 | Association | HDAC3 | NCOR2
+42086546 | Negative_Correlation | Neoplasm Metastasis | NCOR2
+42086546 | Positive_Correlation | Triple Negative Breast Neoplasms | NCOR2
+42086546 | Association | Breast Neoplasms | NCOR2
+42086546 | Positive_Correlation | CD8A | NCOR2
+42086546 | Association | Neoplasms | CD8A
+42086546 | Association | Neoplasms | HLA-C
+42069195 | Positive_Correlation | LILRB2 | CD8A
+42069195 | Association | Carcinoma Non-Small-Cell Lung | LILRB2
+42069195 | Association | Neoplasms | PDCD1
+42069195 | Association | LILRB2 | CD274
+42069195 | Negative_Correlation | LILRB2 | PDCD1
+42143223 | Association | HIV Infections | TNF
+42143223 | Association | HIV Infections | CD8A
+42143223 | Positive_Correlation | Cytomegalovirus Infections | TNF
+41408493 | Association | Tnf | Mapk14
+41408493 | Association | Inflammation | Tnf
+41408493 | Association | Cd4 | Mapk14
+41408493 | Association | Inflammation | Mapk14
+41408493 | Association | Bone Diseases | Cd4
+41408493 | Association | Periodontitis | Cd4
+41408493 | Association | Periodontitis | Mapk14
+42148061 | Association | Virus Diseases | ALKBH5
+42094569 | Association | ADAM10 | ACE2
+42094569 | Association | ACE2 | REN
+42094569 | Association | ACE2 | ADAM17
+42094569 | Association | SLC6A19 | ACE2
+42094569 | Association | Aldosterone | ACE2
+42141897 | Association | Fibrosis | CD4
+42141897 | Association | Fatty Liver | CD4
+42141897 | Association | Liver Cirrhosis | CD4
+42141897 | Association | Inflammation | CD4
+42141897 | Association | Fatty Liver | TNFSF4
+42141897 | Association | TNFRSF4 | CD4
+42141897 | Association | Fatty Liver | TNFRSF4
+42141897 | Association | Liver Cirrhosis | TNFRSF4
+42141897 | Association | TNFSF4 | CD4
+42045172 | Negative_Correlation | surufatinib | Neoplasms
+42045172 | Association | surufatinib | GPR34
+42045172 | Association | CSF1 | CSF1R
+42045172 | Positive_Correlation | lysophosphatidylserine | CXCL16
+42045172 | Association | lysophosphatidylserine | GPR34
+42045172 | Association | Pancreatic Neoplasms | GPR34
+42045172 | Association | Carcinoma Pancreatic Ductal | CSF1
+42045172 | Positive_Correlation | GPR34 | CXCL16
+42045172 | Association | Carcinoma Pancreatic Ductal | CSF1R
+42045172 | Negative_Correlation | surufatinib | Pancreatic Neoplasms
+42045172 | Association | Neoplasms | GPR34
+42148108 | Association | TGFB1 | CD4
+41418349 | Association | Multiple Sclerosis | NFKB1
+41418349 | Association | Psoriasis | IL7R
+41418349 | Association | Psoriasis | IRF8
+41418349 | Association | Psoriasis | NFKB1
+41418349 | Association | Multiple Sclerosis | IL7R
+41418349 | Association | Multiple Sclerosis | IRF8
+42138792 | Association | Multiple Myeloma | Nfkb1
+41452274 | Association | Inflammation | IL4
+41452274 | Positive_Correlation | Inflammation | STAT6
+41452274 | Positive_Correlation | Inflammation | POSTN
+41452274 | Association | Inflammation | IL13
+41452274 | Association | Asthma | IL4
+41452274 | Association | Asthma | IL13
+39930897 | Positive_Correlation | azvudine | TUBB1
+39930897 | Positive_Correlation | azvudine | AKT1
+39930897 | Comparison | nirmatrelvir and ritonavir drug combination | azvudine
+39930897 | Negative_Correlation | nirmatrelvir and ritonavir drug combination | COVID-19
+39930897 | Positive_Correlation | azvudine | PIK3CD
+39930897 | Negative_Correlation | azvudine | COVID-19
+39930897 | Positive_Correlation | azvudine | VWF
+39930897 | Positive_Correlation | azvudine | GP1BA
+39770330 | Association | Carcinogenesis | TP53
+39770330 | Positive_Correlation | COVID-19 | STAT3
+39770330 | Positive_Correlation | SLC22A18 | ZEB1
+39770330 | Association | COVID-19 | ZEB1
+39770330 | Association | Lung Neoplasms | ZEB1
+39770330 | Association | Lung Neoplasms | SLC22A18
+39770330 | Positive_Correlation | Lung Neoplasms | STAT3
+40921667 | Association | JAK3 | TP53
+40921667 | Association | Lymphoma T-Cell Peripheral | CREBBP
+40921667 | Association | Epstein-Barr Virus Infections | CREBBP
+40921667 | Association | Lymphoma T-Cell | SETD2
+40921667 | Association | Epstein-Barr Virus Infections | SETD2
+40921667 | Association | SETD2 | JAK3
+40921667 | Association | Lymphoma T-Cell Peripheral | SETD2
+40921667 | Association | Neoplasms | CD5
+40921667 | Association | Lymphoma T-Cell Peripheral | JAK3
+40921667 | Association | Neoplasms | CD2
+40921667 | Association | Lymphoma T-Cell | TNFRSF8
+40921667 | Association | JAK3 | STAT5B
+40921667 | Association | Lymphoma T-Cell | JAK3
+40921667 | Association | CREBBP | STAT5B
+40921667 | Association | Lymphoma T-Cell Peripheral | TP53
+40921667 | Association | CREBBP | TP53
+40921667 | Association | Lymphoma T-Cell | CREBBP
+40921667 | Association | STAT5B | TP53
+40921667 | Association | Lymphoma T-Cell | KRT20
+40921667 | Association | CREBBP | JAK3
+40921667 | Association | Neoplasms | GZMB
+40921667 | Association | Neoplasms | NCAM1
+40921667 | Association | Neoplasms | CD7
+40921667 | Association | Neoplasms | CD4
+40921667 | Association | Lymphoma T-Cell | TP53
+40921667 | Association | Epstein-Barr Virus Infections | STAT5B
+40921667 | Association | Neoplasms | TIA1
+40921667 | Association | SETD2 | STAT5B
+40921667 | Association | Lymphoma T-Cell Peripheral | STAT5B
+40921667 | Association | SETD2 | TP53
+40921667 | Association | Lymphoma T-Cell | STAT5B
+40921667 | Association | Neoplasms | CD8A
+40921667 | Association | Epstein-Barr Virus Infections | TP53
+40921667 | Association | Epstein-Barr Virus Infections | JAK3
+40921667 | Association | Lymphoma T-Cell | CD79A
+38755432 | Negative_Correlation | alectinib | ALK
+38755432 | Negative_Correlation | lorlatinib | ALK
+38755432 | Association | ALK | NPM1
+42134328 | Association | Infections | MTARC2
+41577662 | Association | Prdm1 | Jak3
+41577662 | Association | Autoimmune Diseases | Itch
+41577662 | Association | Cd4 | Il4
+41577662 | Association | Hereditary Autoinflammatory Diseases | Itch
+41577662 | Association | Il4 | Wwp2
+41577662 | Association | Neuroinflammatory Diseases | Cd4
+41577662 | Association | Hereditary Autoinflammatory Diseases | Wwp2
+41577662 | Association | Jak3 | Maf
+41577662 | Association | Encephalomyelitis Autoimmune Experimental | Csf2
+41577662 | Association | Neuroinflammatory Diseases | Csf2
+41577662 | Association | Autoimmune Diseases | Wwp2
+41577662 | Association | Cd4 | Csf2
+41577662 | Association | Il4 | Itch
+41577662 | Association | Itch | Stat5a
+41577662 | Association | Il4 | Stat5a
+41577662 | Association | Jak3 | Stat5a
+41577662 | Negative_Correlation | dupilumab | Psoriasis
+41577662 | Association | Autoimmune Diseases | Il4
+41577662 | Association | Prdm1 | Stat5a
+41577662 | Negative_Correlation | dupilumab | Dermatitis Atopic
+41577662 | Association | Neuroinflammatory Diseases | Il4
+41577662 | Association | Maf | Stat5a
+41577662 | Association | Autoimmune Diseases | Stat5a
+41577662 | Association | Csf2 | Trav6-3
+41577662 | Association | Stat5a | Wwp2
+42091852 | Association | ICAM1 | ITGAL
+42091852 | Association | ITGAL | CD8A
+42091852 | Association | ITGAL | TNF
+42091852 | Association | ICAM1 | CD8A
+42091852 | Association | Carcinoma Non-Small-Cell Lung | PDCD1
+42091852 | Positive_Correlation | TNF | CD8A
+42091852 | Association | ICAM1 | TNF
+42091852 | Association | Carcinoma Non-Small-Cell Lung | CD274
+42068630 | Negative_Correlation | pembrolizumab | Stomach Neoplasms
+42068630 | Negative_Correlation | pembrolizumab | Neoplasms
+42086498 | Association | Panniculitis Lupus Erythematosus | IDO1
+42086498 | Association | Panniculitis Lupus Erythematosus | GZMB
+42086498 | Association | Tryptophan | IDO1
+42144192 | Association | Renal Insufficiency Chronic | NR1I3
+42144192 | Association | N syndrome | CD4
+42144192 | Association | Craniosynostoses | CD4
+42144192 | Negative_Correlation | Multiple Myeloma | NR1I3
+42144192 | Negative_Correlation | Bendamustine Hydrochloride | Multiple Myeloma
+42144192 | Association | Bendamustine Hydrochloride | Kidney Diseases
+42144192 | Negative_Correlation | Bendamustine Hydrochloride | Drug-Related Side Effects and Adverse Reactions
+42144192 | Association | Frailty | CD4
+42144192 | Association | Hematologic Diseases | CD4
+42141919 | Association | Obesity | Cd4
+42141919 | Association | Obesity | Il2ra
+42141919 | Positive_Correlation | Obesity | LOC641025
+42141919 | Association | Obesity | Gad2
+42141919 | Positive_Correlation | Gad2 | LOC641025
+42112122 | Negative_Correlation | Methotrexate | Arthritis Rheumatoid
+42112122 | Association | Inflammation | IL17A
+42112122 | Negative_Correlation | Methotrexate | Arthritis Experimental
+42112122 | Negative_Correlation | Methotrexate | Infections
+42112122 | Association | Inflammation | TNF
+42112122 | Association | Fibrosis | COL1A1
+42112122 | Association | Fibrosis | ACTA1
+42112122 | Association | Inflammation | IL1B
+42112122 | Negative_Correlation | Methotrexate | COVID-19
+42112122 | Association | Inflammation | IL6
+40055791 | Association | CCL2 | TMPRSS2
+40055791 | Association | Nivolumab | TMPRSS2
+40055791 | Negative_Correlation | Nivolumab | CCL3
+40055791 | Association | Neoplasms | TMPRSS2
+40055791 | Positive_Correlation | Neoplasms | IL6
+40055791 | Association | IFNA1 | TMPRSS2
+40055791 | Association | Neoplasms | IFNA1
+40055791 | Negative_Correlation | Nivolumab | CCL2
+40055791 | Association | CCL3 | TMPRSS2
+40055791 | Association | CD274 | TMPRSS2
+40055791 | Association | Neoplasms | CD274
+42104510 | Association | Inflammation | IL1B
+42104510 | Association | Inflammation | TNF
+42104510 | Association | ANXA1 | MAPK8
+42104510 | Association | Inflammation | IL6
+42104510 | Association | COVID-19 | TGFB1
+42104510 | Association | COVID-19 | ACE2
+42104510 | Association | MAPK8 | TGFB1
+42104510 | Association | MAPK14 | TGFB1
+42104510 | Association | COVID-19 | ANXA1
+39637679 | Negative_Correlation | tocilizumab | COVID-19
+9712354 | Association | Behcet Syndrome | MICA
+9712354 | Association | Behcet Syndrome | HLA-C
+42142240 | Association | Fatty Acids Volatile | Neoplasms
+42145723 | Negative_Correlation | Immune System Diseases | CD4
+42117299 | Association | Adenosine Triphosphate | Colorectal Neoplasms
+42040467 | Association | Blood Coagulation Disorders | SERPINE1
+42040467 | Association | Blood Coagulation Disorders | PLG
+42040467 | Association | Blood Coagulation Disorders | VWF
+42144402 | Association | Cysteine | Hydrogen Sulfide
+42144402 | Positive_Correlation | 614878 | SOD1
+42144402 | Association | Hydrogen Sulfide | TXN
+42144402 | Association | Inflammation | IL16
+42144402 | Association | Glutathione | SOD1
+42144402 | Positive_Correlation | IL16 | SOD1
+42144402 | Positive_Correlation | IFNG | SOD1
+42144402 | Association | Cysteine | TXN
+42144402 | Association | Glutathione | Hydrogen Sulfide
+42144402 | Association | Inflammation | IFNG
+42144402 | Association | Pharyngitis | SOD1
+42144402 | Association | Hydrogen Sulfide | Down Syndrome
+42144402 | Association | Cysteine | Down Syndrome
+42144402 | Association | Down Syndrome | SOD1
+42144402 | Association | Down Syndrome | CBS
+42144402 | Positive_Correlation | SOD1 | CD4
+42144402 | Association | Inflammation | SOD1
+42144402 | Positive_Correlation | SOD1 | TXN
+42144402 | Positive_Correlation | Hydrogen Sulfide | SOD1
+42144402 | Association | Hydrogen Sulfide | CBS
+42144402 | Association | Down Syndrome | TXN
+39625254 | Association | COVID-19 | JAK1
+39625254 | Association | Cytidine Diphosphate Choline | JAK1
+39625254 | Negative_Correlation | azvudine | COVID-19
+39625254 | Association | azvudine | JAK1
+39625254 | Negative_Correlation | Nucleosides | JAK1
+39625254 | Comparison | remdesivir | Cytidine Diphosphate Choline
+42146636 | Association | Immunologic Deficiency Syndromes | CD4
+42146636 | Association | TET2 | CD4
+42146636 | Association | TET2 | GSDMD
+42146636 | Association | TET2 | CD40LG
+42146636 | Association | Immunologic Deficiency Syndromes | CD40LG
+42146636 | Association | Immunologic Deficiency Syndromes | TET2
+42146636 | Association | GSDMD | CD4
+42146636 | Association | Immunologic Deficiency Syndromes | GSDMD
+42031958 | Association | Adenocarcinoma of Lung | CD8A
+42145770 | Negative_Correlation | Platinum | Ovarian Neoplasms
+42085301 | Association | UBA2 | SUMO2
+42085301 | Negative_Correlation | ML-792 | UBA2
+42085301 | Negative_Correlation | ML-792 | Neoplasms
+42085301 | Positive_Correlation | Osteosarcoma | UBA2
+42085301 | Association | Neoplasms | UBA2
+42085301 | Association | UBA2 | SESN2
+42085301 | Association | SUMO2 | SESN2
+42085301 | Association | UBA2 | NBR1
+42136834 | Association | Alopecia Areata | DHODH
+42136834 | Association | Alopecia Areata | TRBV20OR9-2
+42098610 | Association | COVID-19 | ADAM17
+42098610 | Association | COVID-19 | MIR215
+42098610 | Association | COVID-19 | ACE2
+34205992 | Association | Infections | HLA-B
+34205992 | Association | COVID-19 | HLA-C
+34205992 | Association | COVID-19 | HLA-B
+34205992 | Association | Infections | HLA-A
+34205992 | Association | COVID-19 | HLA-A
+34205992 | Association | Infections | HLA-C
+42143940 | Negative_Correlation | Anthraquinones | Neoplasms
+42143940 | Negative_Correlation | Anthraquinones | P2RX7
+42143940 | Negative_Correlation | Anthraquinones | Breast Neoplasms
+42143940 | Association | Breast Neoplasms | P2RX7
+42143940 | Association | Neoplasm Metastasis | P2RX7
+42143940 | Association | Neoplasms | P2RX7
+42117695 | Association | Polysaccharides | S
+40066904 | Association | Mouth Diseases | IL15
+40066904 | Association | Mouth Diseases | STAT3
+40066904 | Association | IKZF1 | STAT3
+40066904 | Association | Mouth Diseases | CXCL10
+40066904 | Association | IKZF1 | CD8A
+40066904 | Association | Mouth Diseases | JAK3
+40066904 | Association | Alopecia | IKZF1
+40066904 | Association | Mouth Diseases | CXCL11
+40066904 | Association | IKZF1 | KRT5
+40066904 | Association | Alopecia | KRT5
+40066904 | Association | Alopecia Areata | IKZF1
+40066904 | Association | Mouth Diseases | IKZF1
+40066904 | Association | IKZF1 | JAK3
+40066904 | Positive_Correlation | IKZF1 | KLRK1
+42142688 | Association | Inflammation | IL6
+42142688 | Association | Inflammation | TNF
+42142688 | Association | Inflammation | CD8A
+42142688 | Negative_Correlation | Indomethacin | IL6
+42142688 | Negative_Correlation | Indomethacin | PTGS2
+42142688 | Negative_Correlation | Indomethacin | TNF
+42142688 | Negative_Correlation | Indomethacin | Inflammation
+42142688 | Association | Chlorophyll | Indomethacin
+42143504 | Association | Inflammation | Cxcl9
+42143504 | Association | Sarcoidosis | Cxcr6
+42143504 | Association | Granuloma | Cd4
+42143504 | Positive_Correlation | Il17a | Cxcr6
+42143504 | Positive_Correlation | Nos2 | Cxcr6
+42143504 | Positive_Correlation | Tnf | Cxcr6
+42143504 | Association | Granuloma | Cxcr6
+42143504 | Association | Pulmonary Fibrosis | Cxcr6
+42143504 | Association | Sarcoidosis | Cd4
+42143504 | Association | Cxcl16 | Cxcr6
+42143504 | Association | Cxcl9 | Cxcr6
+42143504 | Positive_Correlation | Ifng | Cxcr6
+42143504 | Association | Inflammation | Cxcr6
+42143504 | Association | Inflammation | Il17a
+42143504 | Association | Inflammation | Ifng
+42143504 | Association | Inflammation | Cxcl16
+42143504 | Association | Inflammation | Tnf
+42143504 | Association | Cxcl10 | Cxcr6
+42143504 | Association | Inflammation | Cxcl10
+41699454 | Association | COVID-19 | HLA-C
+42106139 | Association | Heparin | ACE2
+42106139 | Association | Cholesterol | Heparin
+42106139 | Association | Heparin | Phospholipids
+42106139 | Association | Heparin | Infections
+42106139 | Association | Heparin | Lipids
+42106139 | Association | Heparin | COVID-19
+33102814 | Negative_Correlation | cucurbitacin I | Sezary Syndrome
+33102814 | Negative_Correlation | cucurbitacin I | STAT5A
+33102814 | Negative_Correlation | Cucurbitacins | STAT3
+33102814 | Negative_Correlation | ruxolitinib | JAK2
+33102814 | Negative_Correlation | AZD 1480 | JAK2
+42035896 | Association | Hepatitis B | CD8A
+42035896 | Association | HLA-A | CD8A
+42035896 | Association | HLA-B | CD8A
+42035896 | Association | Hepatitis B | HLA-B
+42046553 | Association | Lymphoma Large B-Cell Diffuse | PDCD1
+42046553 | Association | IL2RA | B2M
+42046553 | Association | IFNG | B2M
+42046553 | Positive_Correlation | CD274 | IFNG
+42046553 | Positive_Correlation | CD274 | B2M
+42046553 | Association | Lymphoma Large B-Cell Diffuse | HLA-G
+42046553 | Association | Lymphoma Large B-Cell Diffuse | CD274
+42046553 | Association | Lymphoma Large B-Cell Diffuse | B2M
+42046553 | Association | PDCD1 | B2M
+42099041 | Association | tebuthiuron | COVID-19
+42099041 | Association | COVID-19 | ACE2
+42099041 | Positive_Correlation | Sulfur | CD79A
+41424060 | Association | Diabetes Mellitus Type 2 | MFN1
+41424060 | Association | Diabetes Mellitus Type 2 | ZAP70
+41424060 | Association | Diabetes Mellitus Type 2 | JAK3
+41424060 | Association | Diabetes Mellitus Type 2 | BTK
+41424060 | Association | Diabetes Mellitus Type 2 | CD4
+41893671 | Association | Inflammation | Stat1
+41893671 | Positive_Correlation | CDM-3008 | Stat1
+41893671 | Association | CDM-3008 | Cd4
+41893671 | Positive_Correlation | Cd4 | Stat1
+41893671 | Association | Encephalitis Japanese | Cd4
+41893671 | Association | Inflammation | Cd4
+41893671 | Positive_Correlation | CDM-3008 | Inflammation
+39647533 | Positive_Correlation | Infections | p.M594I
+39647533 | Association | COVID-19 | p.S476F
+39647533 | Association | COVID-19 | p.W318C
+39647533 | Positive_Correlation | COVID-19 | p.M594I
+39647533 | Association | COVID-19 | p.G363S
+39647533 | Association | COVID-19 | STAT2
+39647533 | Association | Infections | p.G363S
+39647533 | Association | COVID-19 | p.C271Y
+39647533 | Negative_Correlation | COVID-19 | p.V168L
+39647533 | Association | Infections | p.C271Y
+39647533 | Association | Infections | STAT2
+39647533 | Association | COVID-19 | TYK2
+39647533 | Association | COVID-19 | IFNAR1
+39647533 | Association | Infections | TYK2
+39647533 | Association | COVID-19 | IFNAR2
+39647533 | Association | Infections | IFNAR2
+42143164 | Association | Spinocerebellar Degenerations | AKT1
+42143164 | Association | MAD2L2 | TNF
+42143164 | Association | THEM4 | CD8A
+42143164 | Association | Lesch-Nyhan Syndrome | HLA-B
+42143164 | Association | AKT1 | CD274
+42143164 | Association | Colorectal Neoplasms | MAD2L2
+42143164 | Association | HMPL-013 | MAD2L2
+42143164 | Association | Colorectal Neoplasms | TNF
+42143164 | Positive_Correlation | MAD2L2 | IFNG
+42143164 | Association | Colorectal Neoplasms | THEM4
+42143164 | Association | Lesch-Nyhan Syndrome | MAD2L2
+42143164 | Association | Lesch-Nyhan Syndrome | THEM4
+42143164 | Association | THEM4 | IFNG
+42143164 | Association | THEM4 | PDCD1
+42143164 | Positive_Correlation | MAD2L2 | CDK1
+42143164 | Association | Colorectal Neoplasms | AKT1
+42143164 | Negative_Correlation | HMPL-013 | Lesch-Nyhan Syndrome
+42143164 | Association | Neoplasms | THEM4
+42143164 | Association | Lesch-Nyhan Syndrome | AKT1
+42143164 | Association | Colorectal Neoplasms | CDK1
+42143164 | Association | THEM4 | CXCL10
+42143164 | Association | MAD2L2 | AKT1
+42143164 | Association | THEM4 | CXCL9
+42143164 | Association | Lesch-Nyhan Syndrome | CDK1
+42143164 | Negative_Correlation | THEM4 | HLA-B
+42143164 | Association | Lipids | Colorectal Neoplasms
+42143164 | Association | Neoplasms | AKT1
+42143164 | Association | Spinocerebellar Degenerations | THEM4
+42143164 | Positive_Correlation | MAD2L2 | CD8A
+42143164 | Association | Fatty Acids | THEM4
+42143164 | Association | MAD2L2 | CGAS
+42143164 | Negative_Correlation | HMPL-013 | Spinocerebellar Degenerations
+42143164 | Association | Fatty Acids | Neoplasms
+42143164 | Association | AKT1 | CDK1
+42143164 | Association | Colonic Neoplasms | THEM4
+42143164 | Positive_Correlation | THEM4 | CD274
+42143164 | Association | Colorectal Neoplasms | CXCL10
+42143164 | Association | THEM4 | TNF
+42143164 | Association | Colorectal Neoplasms | CD8A
+42143164 | Association | Colorectal Neoplasms | CXCL9
+42143164 | Association | Mucocutaneous Lymph Node Syndrome | MAD2L2
+42143164 | Association | THEM4 | CDK1
+42143164 | Association | MAD2L2 | THEM4
+42143164 | Negative_Correlation | HMPL-013 | PDCD1
+42143164 | Association | MAD2L2 | CXCL10
+42143164 | Association | Spinocerebellar Degenerations | HLA-B
+42143164 | Positive_Correlation | THEM4 | AKT1
+42143164 | Association | MAD2L2 | CXCL9
+42143164 | Negative_Correlation | MAD2L2 | HLA-B
+42143164 | Association | Colorectal Neoplasms | HLA-B
+42143164 | Association | Colonic Neoplasms | HLA-B
+42143164 | Association | Spinocerebellar Degenerations | MAD2L2
+42050172 | Association | S | ACE2
+42050172 | Association | S | TMPRSS2
+42050172 | Association | Coronavirus Infections | TMPRSS2
+39699185 | Negative_Correlation | IRF9 | VTN
+39699185 | Bind | STAT1 | STAT2
+39699185 | Negative_Correlation | STAT2 | VTN
+39699185 | Negative_Correlation | STAT1 | VTN
+39699185 | Bind | IRF9 | STAT1
+39699185 | Association | Sulfur | STAT2
+39699185 | Bind | IRF9 | STAT2
+39699185 | Association | Sulfur | STAT1
+42148884 | Association | Lymphoma | CD40
+42148884 | Association | Lymphoma | CD4
+42148884 | Association | Lymphoma | IL4
+42148884 | Association | CD40 | CD40LG
+42148884 | Association | Lymphoma | CD40LG
+42148884 | Association | Lymphoma | IL21R
+42148884 | Association | Lymphoma | IL21
+42148884 | Association | Lymphoma | IL4R
+40416001 | Association | Lymphoma T-Cell Peripheral | CCR4
+40416001 | Association | Lymphoma T-Cell Peripheral | CD58
+40416001 | Association | 601308 | CDKN2A
+40416001 | Association | Lymphoma T-Cell Peripheral | PRKCB
+40416001 | Association | Lymphoma Large-Cell Anaplastic | p.G17V
+40416001 | Positive_Correlation | Lymphoma T-Cell | p.G17V
+40416001 | Association | Lymphoma T-Cell Peripheral | PLCG1
+40416001 | Association | Lymphoma T-Cell Peripheral | TP53
+40416001 | Positive_Correlation | Leukemia-Lymphoma Adult T-Cell | p.G17V
+40416001 | Association | Lymphoma T-Cell Peripheral | CD28
+40416001 | Association | Lymphoma T-Cell Peripheral | IDH2
+40416001 | Association | Lymphoma T-Cell | IDH2
+40416001 | Association | Leukemia-Lymphoma Adult T-Cell | PRKCB
+40416001 | Association | Leukemia-Lymphoma Adult T-Cell | ALK
+40416001 | Association | Lymphoma T-Cell Peripheral | JAK3
+40416001 | Association | Lymphoma T-Cell Peripheral | CDKN2A
+40416001 | Association | Lymphoma T-Cell Peripheral | RHO
+40416001 | Association | Lymphoma T-Cell Peripheral | STAT3
+40416001 | Association | Lymphoma T-Cell Peripheral | ALK
+40416001 | Association | Lymphoma T-Cell Peripheral | TET2
+40416001 | Association | Leukemia-Lymphoma Adult T-Cell | PDCD1
+40416001 | Association | Lymphoma T-Cell Peripheral | DNMT3A
+40416001 | Association | Lymphoma T-Cell Peripheral | ARID1A
+40416001 | Association | Lymphoma T-Cell | RHO
+40416001 | Association | 601308 | TP53
+40416001 | Association | Lymphoma T-Cell Peripheral | VAV1
+40416001 | Association | Lymphoma Large-Cell Anaplastic | PDCD1
+40416001 | Association | Lymphoma T-Cell Peripheral | CD274
+40416001 | Association | Leukemia-Lymphoma Adult T-Cell | RHO
+40416001 | Association | Lymphoma T-Cell Peripheral | PDCD1
+40416001 | Association | Lymphoma T-Cell | PDCD1
+40416001 | Association | Leukemia-Lymphoma Adult T-Cell | CCR4
+40416001 | Association | Lymphoma Large-Cell Anaplastic | ALK
+40416001 | Association | Lymphoma Large-Cell Anaplastic | IDH2
+40416001 | Association | Leukemia-Lymphoma Adult T-Cell | IDH2
