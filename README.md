@@ -8,6 +8,6 @@ How to Cite:
 
 Lopez Prato, J., Dávila, J., Martínez, R., Ramírez, Y. & Bastidas, M. (2026). An ai-assisted pipeline to model and analyze gene regulatory networks. Journal of Bioinformatics and Genomics, 2(32). https://doi.org/10.60797/jbg.2026.32.1. Date accessed: 07 Sep. 2026.
 
-López, J., Ramírez, Y., Dávila, J. & Bastidas, M. (2020). A logical and ontological framework for knowledge discovery on gene regulatory networks. case study: bile acid and xenobiotic system (baxs). Journal of Bioinformatics and Genomics, 2(14). https://doi.org/10.18454/jbg.2020.2.14.1.
+López, J., Ramírez, Y., Dávila, J. & Bastidas, M. (2020). A logical and ontological framework for knowledge discovery on gene regulatory networks. case study: bile acid and xenobiotic system (baxs). Journal of Bioinformatics and Genomics, 2(14). https://doi.org/10.18454/jbg.2020.2.14.1. Date accessed: 07 Sep. 2026.
 
 
