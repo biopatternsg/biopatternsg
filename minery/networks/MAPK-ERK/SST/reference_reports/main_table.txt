@@ -1,0 +1,46 @@
+================================================================================
+REPORT INDEX -- MAIN TABLE
+COVID-19 Immunology Study (COVID-19-IMMUNOLOGY-50)
+================================================================================
+
+| # | Report File                             | Lines | Content                                                        |
+|---|-----------------------------------------|-------|----------------------------------------------------------------|
+| 1 | 01_main_analysis.txt                    |   100 | Cross-correlative analysis: logic extraction, entity breakdown, |
+|   |                                         |       | HLA/KIR risk alleles, expert object coverage, new objects       |
+| 2 | 02_synonymous_interactions.txt          |   140 | 9 synonym groups detected (38+ event pairs): MICA/1300017J02RIK,|
+|   |                                         |       | MICB/MILL2, STING1/TMEM173, NEOPLASMS/MICA artifact, etc.      |
+| 3 | 03_drug_repurposing.txt                 |   125 | 48 drugs with negative_correlation to COVID-19, grouped by class|
+|   |                                         |       | (antivirals, JAK inhibitors, CCR5 antagonists, natural compounds)|
+| 4 | 04_gene_disease_chemical_protein.txt    |   165 | Gene-disease catalog by functional category (entry, HLA, KIR,   |
+|   |                                         |       | cytokines, checkpoints) + chemical-protein mechanisms           |
+| 5 | 05_hypotheses.txt                       |   200 | 5 novel hypotheses: SOCS3-MICA/MICB, EZH2-CD8A, KDM1A immunity,|
+|   |                                         |       | PCSK9-CD8A, METTL14-m6A -- with evidence and predictions        |
+| 6 | 06_file_changes.txt                     |    95 | Delta summary: 22 new kBase events, 27 new aligned objects,     |
+|   |                                         |       | expert_objects.txt creation, verification checklist             |
+| 7 | 07_sources_and_methodology.txt          |    90 | All data sources (internal + external), methodology steps       |
+
+================================================================================
+FILES MODIFIED (3)
+================================================================================
+
+  expert_objects.txt   -- CREATED:  42 objects (24 original + 18 new)
+  kBase.pl             -- MODIFIED: 22 new interactions added
+  aligned.pl           -- MODIFIED: 27 new aligned objects (25 -> 52 total)
+
+================================================================================
+KEY METRICS
+================================================================================
+
+  Total kBase.pl events:          ~6,750 (13,524 lines)
+  COVID-19 events:                  525
+  Unique COVID-19 entities:         380
+  Drugs with COVID-19 correlation:   48
+  Expert objects (original):         25
+  Expert objects (final):            42
+  Synonymous interaction groups:      9
+  False synonym artifacts:            1 (NEOPLASMS/MICA)
+  Hypotheses generated:               5 (all with clinical actionability)
+  New aligned objects:               27
+  Aligned objects (total):           52
+
+================================================================================

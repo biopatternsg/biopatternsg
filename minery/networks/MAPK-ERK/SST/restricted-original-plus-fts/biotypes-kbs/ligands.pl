@@ -1,0 +1,1185 @@
+% small molecules from PubTator
+ligand('OCTREOTIDE').
+ligand('SIROLIMUS').
+ligand('DOXORUBICIN').
+ligand('PROPIDIUM').
+ligand('OKADAIC ACID').
+ligand('CALCIUM').
+ligand('CAMP').
+ligand('TETRADECANOYLPHORBOL ACETATE').
+ligand('IONOMYCIN').
+ligand('SUPEROXIDES').
+ligand('OXYGEN').
+ligand('HYDROGEN PEROXIDE').
+ligand('ALCOHOLS').
+ligand('ETHANOL').
+ligand('LIPOPOLYSACCHARIDES').
+ligand('DEXAMETHASONE').
+ligand('GLUCOSAMINE').
+ligand('CYCLIC AMP').
+ligand('COLFORSIN').
+ligand('FENOFIBRATE').
+ligand('PROGESTERONE').
+ligand('OUABAIN').
+ligand('CARDIAC GLYCOSIDES').
+ligand('1 2-BIS(2-AMINOPHENOXY)ETHANE N N N\' N\'-TETRAACETIC ACID ACETOXYMETHYL ESTER').
+ligand('GLUTATHIONE').
+ligand('REACTIVE OXYGEN SPECIES').
+ligand('ACETYLCHOLINE').
+ligand('METHAMPHETAMINE').
+ligand('GEMCITABINE').
+ligand('TRASTUZUMAB').
+ligand('VITAMIN D').
+ligand('TRETINOIN').
+ligand('ARSENITE').
+ligand('PEMBROLIZUMAB').
+ligand('OLAPARIB').
+ligand('ALPELISIB').
+ligand('FULVESTRANT').
+ligand('CAPIVASERTIB').
+ligand('FORMALDEHYDE').
+ligand('PARAFFIN').
+ligand('BERBERINE').
+ligand('RITUXIMAB').
+ligand('TAMOXIFEN').
+ligand('LIPIDS').
+ligand('TRICHOSTATIN A').
+ligand('NITRIC OXIDE').
+ligand('CARBON TETRACHLORIDE').
+ligand('PLATINUM').
+ligand('LAPATINIB').
+ligand('CARBOHYDRATES').
+ligand('URIC ACID').
+ligand('SOTORASIB').
+ligand('PANITUMUMAB').
+ligand('ADAGRASIB').
+ligand('CETUXIMAB').
+ligand('ATORVASTATIN').
+ligand('GLUCOSE').
+ligand('VANCOMYCIN').
+ligand('GANCICLOVIR').
+ligand('EVEROLIMUS').
+ligand('ENCORAFENIB').
+ligand('OXALIPLATIN').
+ligand('TAXANE').
+ligand('PIRARUBICIN').
+ligand('ERIBULIN').
+ligand('CHOLESTEROL').
+ligand('PACLITAXEL').
+ligand('MAYTANSINE').
+ligand('ANTHRACYCLINES').
+ligand('ERLOTINIB HYDROCHLORIDE').
+ligand('CELECOXIB').
+ligand('AUMOLERTINIB').
+ligand('OSIMERTINIB').
+ligand('GLUTAMINE').
+ligand('ARGININE').
+ligand('DEOXYGLUCOSE').
+ligand('LYSOPHOSPHATIDYLCHOLINES').
+ligand('TYROSINE').
+ligand('5-METHYLCYTOSINE').
+ligand('5-HYDROXYMETHYLCYTOSINE').
+ligand('CISPLATIN').
+ligand('DECITABINE').
+ligand('BORTEZOMIB').
+ligand('GLYCOGEN').
+ligand('TOFACITINIB').
+ligand('QUERCETIN').
+ligand('KAEMPFEROL').
+ligand('GAMMA-SITOSTEROL').
+ligand('FORMONONETIN').
+ligand('MORPHINE').
+ligand('RTKI CPD').
+ligand('GEFITINIB').
+ligand('CURCUMIN').
+ligand('PREDNISOLONE').
+ligand('WEDELOLACTONE').
+ligand('NUEZHENIDE').
+ligand('URSOLIC ACID').
+ligand('ACACETIN').
+ligand('APIGENIN').
+ligand('NICOTINE').
+ligand('CYCLIC GMP').
+ligand('BETULINIC ACID').
+ligand('CHLOROGENIC ACID').
+ligand('HYALURONIC ACID').
+ligand('STIGMASTEROL').
+ligand('TRIGLYCERIDES').
+ligand('VITAMIN B 6').
+ligand('STEROIDS').
+ligand('2-(2-AMINO-3-METHOXYPHENYL)-4H-1-BENZOPYRAN-4-ONE').
+ligand('DAUNORUBICIN').
+ligand('IMATINIB MESYLATE').
+ligand('VENETOCLAX').
+ligand('LICOCHALCONE A').
+ligand('CHALCONE').
+ligand('CALCIMYCIN').
+ligand('HISTAMINE').
+ligand('OLIGODEOXYRIBONUCLEOTIDES').
+ligand('JUGLONE').
+ligand('SEPHAROSE').
+ligand('2-(4-MORPHOLINYL)-8-PHENYL-4H-1-BENZOPYRAN-4-ONE').
+ligand('WORTMANNIN').
+ligand('H 87').
+ligand('LUTEOLIN').
+ligand('ADENOSINE TRIPHOSPHATE').
+ligand('S-ADENOSYLMETHIONINE').
+ligand('POLYAMINES').
+ligand('FIDARESTAT').
+ligand('POLY I-C').
+ligand('4-(4-FLUOROPHENYL)-2-(4-HYDROXYPHENYL)-5-(4-PYRIDYL)IMIDAZOLE').
+ligand('SB 203580').
+ligand('DOXYCYCLINE').
+ligand('PROPRANOLOL').
+ligand('IODINE').
+ligand('ASCORBIC ACID').
+ligand('NG-NITROARGININE METHYL ESTER').
+ligand('OMEGA-N-METHYLARGININE').
+ligand('BUCLADESINE').
+ligand('PHORBOL ESTERS').
+ligand('SODIUM DODECYL SULFATE').
+ligand('ESTRADIOL').
+ligand('OLIGONUCLEOTIDES').
+ligand('GUANOSINE TRIPHOSPHATE').
+ligand('DOPAMINE').
+ligand('GUANINE NUCLEOTIDES').
+ligand('BROMOCRIPTINE').
+ligand('PYRAZOLANTHRONE').
+ligand('PROSTAGLANDINS').
+ligand('U 0126').
+ligand('PROLINE').
+ligand('POLYPHENOLS').
+ligand('SILICON DIOXIDE').
+ligand('MAGNOLIN').
+ligand('GLYCYRRHIZIC ACID').
+ligand('TRITERPENES').
+ligand('DINOPROSTONE').
+ligand('MIRDAMETINIB').
+ligand('SILMITASERTIB').
+ligand('MONOOXYETHYLENE TRIMETHYLOLPROPANE TRISTEARATE').
+ligand('COUMESTROL').
+ligand('DAIDZEIN').
+ligand('TRYPTOPHAN').
+ligand('PICOLINIC ACID').
+ligand('KYNURENINE').
+ligand('3-HYDROXYANTHRANILIC ACID').
+ligand('NARINGENIN').
+ligand('FLAVONOIDS').
+ligand('CYCLOHEXIMIDE').
+ligand('BENZYLOXYCARBONYLLEUCYL-LEUCYL-LEUCINE ALDEHYDE').
+ligand('DIHYDROCAPSAICIN').
+ligand('CAPSAICIN').
+ligand('6 11-DIMETHYLBENZO(B)NAPHTHO(2 3-D)THIOPHENE').
+ligand('6\'-SIALYLLACTOSE').
+ligand('TESTOSTERONE').
+ligand('TRIIODOTHYRONINE').
+ligand('3-((DODECYLTHIOCARBONYL)METHYL)GLUTARIMIDE').
+ligand('SEROTONIN').
+ligand('MELATONIN').
+ligand('PALMITIC ACID').
+ligand('IRON').
+ligand('MELANINS').
+ligand('ARTEMISININ').
+ligand('AMINO ACIDS').
+ligand('COPPER').
+ligand('PIPERONYL BUTOXIDE').
+ligand('OLEIC ACID').
+ligand('DIGLYCERIDES').
+ligand('DIPHENYLENEIODONIUM').
+ligand('BUTYRATES').
+ligand('HERBIMYCIN').
+ligand('1-AMINOCYCLOHEXANECARBOXYLIC ACID').
+ligand('CYSTEINE').
+ligand('AG 490').
+ligand('PHOSPHOTYROSINE').
+ligand('SINULARIOLIDE').
+ligand('ANISOMYCIN').
+ligand('CREATINE').
+ligand('MANNITOL').
+ligand('TAURINE').
+ligand('FORMOTEROL FUMARATE').
+ligand('LACTIC ACID').
+ligand('CAFFEINE').
+ligand('CALCITRIOL').
+ligand('1 25-DIHYDROXYVITAMIN D').
+ligand('CHOLECALCIFEROL').
+ligand('GLYCATION END PRODUCTS ADVANCED').
+ligand('DDT').
+ligand('GLYCOCYAMINE').
+ligand('DEOXYURIDINE TRIPHOSPHATE').
+ligand('VINCRISTINE').
+ligand('CYCLOPHOSPHAMIDE').
+ligand('CYCLOSPORINE').
+ligand('LYSINE').
+ligand('LOVASTATIN').
+ligand('SODIUM CHLORIDE').
+ligand('HYDROXYPROLINE').
+ligand('GLUTAMIC ACID').
+ligand('PURINE').
+ligand('CYTOSINE').
+ligand('POLY A').
+ligand('LYSOPHOSPHATIDIC ACID').
+ligand('DIHYDROTESTOSTERONE').
+ligand('BICALUTAMIDE').
+ligand('8-BROMO CYCLIC ADENOSINE MONOPHOSPHATE').
+ligand('PHOSPHOLIPIDS').
+ligand('ALGINATES').
+ligand('NITROGEN DIOXIDE').
+ligand('ANGELICIN').
+ligand('FLUORODEOXYGLUCOSE F18').
+ligand('LUTETIUM LU 177 DOTATATE').
+ligand('CAPECITABINE').
+ligand('TEMOZOLOMIDE').
+ligand('LUTETIUM-177').
+ligand('CATECHOLAMINES').
+ligand('TECHNETIUM TC 99M HYDRAZINONICOTINYL-TYR(3)-OCTREOTIDE').
+ligand('GALLIUM GA 68 DOTATATE').
+ligand('FLUOXETINE').
+ligand('YTTRIUM-90').
+ligand('GALLIUM-68').
+ligand('PEPTIDES').
+ligand('IODINE-131').
+ligand('SUNITINIB').
+ligand('ANTHOCYANINS').
+ligand('SUGARS').
+ligand('ALOE EMODIN').
+ligand('PERILLYL ALCOHOL').
+ligand('AFLATOXIN B1').
+ligand('ZINC').
+ligand('COPPER-64').
+ligand('A2-E (N-RETINYLIDENE-N-RETINYLETHANOLAMINE)').
+ligand('9 10-DIMETHYL-1 2-BENZANTHRACENE').
+ligand('VORINOSTAT').
+ligand('LEUCINE').
+ligand('METFORMIN').
+ligand('BAFILOMYCIN A1').
+ligand('CARBON').
+ligand('ACETYLTANSHINONE IIA').
+ligand('ROSCOVITINE').
+ligand('PALMITATES').
+ligand('FATTY ACIDS').
+ligand('BISPHENOL A').
+ligand('FLUOROURACIL').
+ligand('PROPIVERINE').
+ligand('MORPHOLINOS').
+ligand('SEGLITIDE').
+ligand('BIM 23056').
+ligand('IODINE-125').
+ligand('GTP GAMMA S').
+ligand('POTASSIUM').
+ligand('L 779976').
+ligand('L 817818').
+ligand('DISULFIDES').
+ligand('EPINEPHRINE').
+ligand('ISOFLURANE').
+ligand('3 7 11 15-TETRAMETHYL-2 4 6 10 14-HEXADECAPENTAENOIC ACID').
+ligand('ENZALUTAMIDE').
+ligand('METHOTREXATE').
+ligand('NOBILETIN').
+ligand('METHYL METHANESULFONATE').
+ligand('PEROXYNITROUS ACID').
+ligand('GLUTATHIONE DISULFIDE').
+ligand('ACETYLCYSTEINE').
+ligand('FATTY ACIDS NONESTERIFIED').
+ligand('RETINOIDS').
+ligand('PLICAMYCIN').
+ligand('NEBIVOLOL').
+ligand('ATENOLOL').
+ligand('SALTS').
+ligand('TUNICAMYCIN').
+ligand('ACETATES').
+ligand('STREPTOZOCIN').
+ligand('MITHRAMYCIN A').
+ligand('GUANOSINE DIPHOSPHATE').
+ligand('SORAFENIB').
+ligand('INOSINE').
+ligand('DINOPROST').
+ligand('FATTY ACIDS UNSATURATED').
+ligand('SERINE').
+ligand('HOMOCYSTEINE').
+ligand('AFIMOXIFENE').
+ligand('PALBOCICLIB').
+ligand('RADIUM').
+ligand('AICA RIBONUCLEOTIDE').
+ligand('APIGETRIN').
+ligand('LUTEOLIN-7-GLUCOSIDE').
+ligand('OLEUROPEIN').
+ligand('HEME').
+ligand('NOREPINEPHRINE').
+ligand('POLYCHLORINATED DIBENZODIOXINS').
+ligand('BARDOXOLONE METHYL').
+ligand('CARBOPLATIN').
+ligand('SAPROPTERIN').
+ligand('7 8-DIHYDROBIOPTERIN').
+ligand('CABOZANTINIB').
+ligand('ARSENIC').
+ligand('SULFHYDRYL COMPOUNDS').
+ligand('HEMIN').
+ligand('BIOTIN').
+ligand('HIRSUTINE').
+ligand('PLERIXAFOR').
+ligand('GENISTEIN').
+ligand('CEPHARANTHINE').
+ligand('FRUCTOSE').
+ligand('SPERMINE').
+ligand('2-(4-NITROPHENYL)-4-(4-FLUOROPHENYL)-5-(4-PYRIDINYL)-1H-IMIDAZOLE').
+ligand('HEPARIN').
+ligand('KN 93').
+ligand('POLYSACCHARIDES').
+ligand('GANGLIOSIDES').
+ligand('BENZENE').
+ligand('HYDROQUINONE').
+ligand('BISPHENOL S').
+ligand('BISPHENOL B').
+ligand('BISPHENOL F').
+ligand('GLYCEROPHOSPHOLIPIDS').
+ligand('ALANINE').
+ligand('POTASSIUM CHLORIDE').
+ligand('FTI 276').
+ligand('CANNABINOL').
+ligand('IMIPRAMINE').
+ligand('1-METHYLPYRIDINIUM').
+ligand('TRIETHYLENE GLYCOL DIMETHACRYLATE').
+ligand('PYROGALLOL').
+ligand('CATECHOL').
+ligand('FURAZOLIDONE').
+ligand('AZACITIDINE').
+ligand('PANOBINOSTAT').
+ligand('BAICALEIN').
+ligand('NYLONS').
+ligand('DASATINIB').
+ligand('IBRUTINIB').
+ligand('SHIKONIN').
+ligand('NAPHTHOQUINONES').
+ligand('CYTARABINE').
+ligand('VANADATES').
+ligand('URIDINE DIPHOSPHATE').
+ligand('PROCHLORPERAZINE').
+ligand('6-BROMOINDIRUBIN-3\'-OXIME').
+ligand('WNK463').
+ligand('15-DEOXY-12 14-PROSTAGLANDIN J2').
+ligand('TANSHINONE').
+ligand('COCAINE').
+ligand('EPIGALLOCATECHIN GALLATE').
+ligand('HYDROGEN SULFIDE').
+ligand('SELENIUM').
+ligand('NUCLEOTIDES').
+ligand('ACIDS').
+ligand('METALS').
+ligand('PYRROLIDINE DITHIOCARBAMIC ACID').
+ligand('POLYGLUTAMINE').
+ligand('ISOLEUCINE').
+ligand('OIL RED O').
+ligand('CRBN').
+ligand('15-ACETOXY-16 24-20 24-DIEPOXY-9 19-CYCLOLANOSTANE-3 25-DIOL-3-O-XYLOPYRANOSIDE').
+ligand('KRASG12D INHIBITOR MRTX1133').
+ligand('GO 6976').
+ligand('CLENBUTEROL').
+ligand('CABERGOLINE').
+ligand('PITUITARY HORMONES').
+ligand('BUTYLATED HYDROXYANISOLE').
+ligand('GAMMA-AMINOBUTYRIC ACID').
+ligand('67GA-DOTATOC').
+ligand('TETRACYCLINE').
+ligand('1 4 7 10-TETRAAZACYCLODODECANE- 1 4 7 10-TETRAACETIC ACID').
+ligand('PHOSPHATES').
+ligand('ADENOSINE').
+ligand('PHOSPHORUS-32').
+ligand('DIPYRIDAMOLE').
+ligand('NIACINAMIDE').
+ligand('68GA-PENTIXAFOR').
+ligand('KE108').
+ligand('FOLIC ACID').
+ligand('LENALIDOMIDE').
+ligand('RELACORILANT').
+ligand('MIFEPRISTONE').
+ligand('NICLOSAMIDE').
+ligand('LITHIUM CHLORIDE').
+ligand('OCTREOTIDE IODOTYR(3)-').
+ligand('PEPTIDES CYCLIC').
+ligand('TOCILIZUMAB').
+ligand('SILICON').
+ligand('POLYETHYLENE GLYCOLS').
+ligand('ATRANORIN').
+ligand('RESVERATROL').
+ligand('ASTRAGALOSIDE A').
+ligand('GIGANTOL').
+ligand('GALACTOSE').
+ligand('DIETHYLHEXYL PHTHALATE').
+ligand('METHYLTHIO-ADP').
+ligand('PBOX-6').
+ligand('DICUMAROL').
+ligand('KAINIC ACID').
+ligand('ZIDOVUDINE').
+ligand('MANUMYCIN').
+ligand('BROMODEOXYURIDINE').
+ligand('PHENYLALANYL-PROLYL-ARGININE METHYL CHLORIDE').
+ligand('VINBLASTINE').
+ligand('EXENATIDE').
+ligand('TROGLITAZONE').
+ligand('THYROTROPIN').
+ligand('GILTERITINIB').
+ligand('METALS HEAVY').
+ligand('ARSENIC TRIOXIDE').
+ligand('MALONDIALDEHYDE').
+ligand('3 4-METHYLENEDIOXYAMPHETAMINE').
+ligand('SUCROSE').
+ligand('NAD').
+ligand('QUINONE').
+ligand('LENVATINIB').
+ligand('DABRAFENIB').
+ligand('TRAMETINIB').
+ligand('BINIMETINIB').
+ligand('VEMURAFENIB').
+ligand('GM 6001').
+ligand('1-HEXADECYL-2-ACETYL-GLYCERO-3-PHOSPHOCHOLINE').
+ligand('RO5126766').
+ligand('OXIDOPAMINE').
+ligand('HYDROCHLORIC ACID').
+ligand('TRIPTOLIDE').
+ligand('LONAFARNIB').
+ligand('RUXOLITINIB').
+ligand('FISH OILS').
+ligand('FARGESIN').
+ligand('CHLOROQUINE').
+ligand('REACTIVE NITROGEN SPECIES').
+ligand('CANAGLIFLOZIN').
+ligand('NOTOPTEROL').
+ligand('MONENSIN').
+ligand('IRINOTECAN').
+ligand('DOCETAXEL').
+ligand('AZD 6244').
+ligand('ACETIC ACID').
+ligand('DIMETHYL SULFOXIDE').
+ligand('RNA TRANSFER AMINO ACYL').
+ligand('ASPARAGINE').
+ligand('AMMONIA').
+ligand('HYDROXYUREA').
+ligand('PENTOXIFYLLINE').
+ligand('CATECHIN').
+ligand('CITRAL DIMETHYL ACETAL').
+ligand('NERATINIB').
+ligand('ETOPOSIDE').
+ligand('CAMPTOTHECIN').
+ligand('LEPTOMYCIN B').
+ligand('INDOLEACETIC ACIDS').
+ligand('CYTIDINE TRIPHOSPHATE').
+ligand('URIDINE TRIPHOSPHATE').
+ligand('TERPENES').
+ligand('GUANOSINE 5\'-MONOPHOSPHOROTHIOATE').
+ligand('MANNOSE-6-PHOSPHATE').
+ligand('DIADENOSINE TETRAPHOSPHATE').
+ligand('HYDROCORTISONE').
+ligand('CYTOCHALASIN D').
+ligand('ISOPROTERENOL').
+ligand('VANDETANIB').
+ligand('SELPERCATINIB').
+ligand('GENIPOSIDE').
+ligand('APT').
+ligand('VALPROIC ACID').
+ligand('NOBELIUM').
+ligand('LINALOOL').
+ligand('NSC 13778').
+ligand('NSC 13746').
+ligand('THAPSIGARGIN').
+ligand('MYRICETIN').
+ligand('CORDYCEPIN').
+ligand('GALLIC ACID').
+ligand('LUTEINIZING HORMONE').
+ligand('BLEOMYCIN').
+ligand('2-AMINO-4-PHOSPHONO-PROPINATE').
+ligand('PHENOLIC ACID').
+ligand('ABSCISIC ACID').
+ligand('6-METHYLADENINE').
+ligand('N-METHYLADENOSINE').
+ligand('BI D1870').
+ligand('ROSMARINIC ACID').
+ligand('1-(4-CHLOROPHENYLHYDRAZONO)-1-(4-CHLOROPHENYLAMINO)-3 3-DIMETHYL-2-BUTANONE').
+ligand('ELTROMBOPAG').
+ligand('PHOSPHORUS').
+ligand('PARAFORM').
+ligand('1 2 3 4 4A 5 10 10A-OCTAHYDRO-6-METHOXY-1-METHYLBENZ(G)QUINOLINE-3-CARBOXYLIC ACID 4-(4-NITROPHENYL)PIPERAZINE AMIDE').
+ligand('CYN 154806').
+ligand('(TYR(3))OCTREOTATE').
+ligand('THREONINE').
+ligand('CITALOPRAM').
+ligand('DESIPRAMINE').
+ligand('REGORAFENIB').
+ligand('TYRPHOSTINS').
+ligand('4-(N-METHYL-N-NITROSAMINO)-1-(3-PYRIDYL)-1-BUTANONE').
+ligand('INDIUM').
+ligand('FERRIC OXIDE').
+ligand('GADOLINIUM').
+ligand('MANGANESE').
+ligand('DEXTRANS').
+ligand('FERUMOXTRAN-10').
+ligand('MAXACALCITOL').
+ligand('BILE ACIDS AND SALTS').
+ligand('URSODEOXYCHOLIC ACID').
+ligand('BICARBONATES').
+ligand('BISPEROXOVANADIUM').
+ligand('ACETYL COENZYME A').
+ligand('COBALTOUS CHLORIDE').
+ligand('ACETOVANILLONE').
+ligand('6-ANILINO-5 8-QUINOLINEDIONE').
+ligand('2-PHENYL-4 4 5 5-TETRAMETHYLIMIDAZOLINE-1-OXYL-3-OXIDE').
+ligand('RADON').
+ligand('CARBON MONOXIDE').
+ligand('DEOXYCHOLIC ACID').
+ligand('4-HYDROXY-2-NONENAL').
+ligand('VALSARTAN').
+ligand('MEBENDAZOLE').
+ligand('ARTEMETHER').
+ligand('INDIRUBIN-3\'-MONOXIME').
+ligand('ALITRETINOIN').
+ligand('CHLORODIPHENYL (54% CHLORINE)').
+ligand('JASMONIC ACID').
+ligand('DEOXYNIVALENOL').
+ligand('CANNABIDIOL').
+ligand('2-BENZYLIDENE-3-(CYCLOHEXYLAMINO)-2 3-DIHYDRO-1H-INDEN-1-ONE').
+ligand('TETRAMETHYLPYRAZINE').
+ligand('LIGUSTILIDE').
+ligand('HYDROXYSAFFLOR YELLOW A').
+ligand('BUTHIONINE SULFOXIMINE').
+ligand('DITIOCARB').
+ligand('TRIETHYLENEPHOSPHORAMIDE').
+ligand('TETRAETHYLENEPENTAMINE').
+ligand('THULIUM').
+ligand('TETRATHIOMOLYBDATE').
+ligand('EVODIAMINE').
+ligand('EMODIN').
+ligand('HOMOHARRINGTONINE').
+ligand('MATRINES').
+ligand('CARDIOLIPINS').
+ligand('GIBBERELLINS').
+ligand('SQUALENE').
+ligand('HEDERACOSIDE C').
+ligand('QUINPIROLE').
+ligand('LEAD').
+ligand('ROYAL JELLY').
+ligand('TROXERUTIN').
+ligand('DOMOIC ACID').
+ligand('URSODOXICOLTAURINE').
+ligand('ATRAZINE').
+ligand('2-(4-(2-CARBOXYETHYL)PHENETHYLAMINO)-5\'-N-ETHYLCARBOXAMIDOADENOSINE').
+ligand('DACOMITINIB').
+ligand('NIMOTUZUMAB').
+ligand('LOSARTAN').
+ligand('COUMARIC ACIDS').
+ligand('PYRUVALDEHYDE').
+ligand('DECURSIN').
+ligand('COUMARIN').
+ligand('XELOX').
+ligand('AZD 8931').
+ligand('2 3-BIS(3\'-HYDROXYBENZYL)BUTYROLACTONE').
+ligand('PHENOBARBITAL').
+ligand('ALBIFLORIN').
+ligand('PUERARIN').
+ligand('CAFFEIC ACID PHENETHYL ESTER').
+ligand('PEVONEDISTAT').
+ligand('PIFITHRIN').
+ligand('ASPIRIN').
+ligand('SULFUR').
+ligand('GLUCOSINOLATES').
+ligand('1-METHYL-3-ISOBUTYLXANTHINE').
+ligand('HELENALIN').
+ligand('OCTANOIC ACID').
+ligand('NIGERICIN').
+ligand('IVERMECTIN').
+ligand('CIPROFLOXACIN').
+ligand('CARDAMONIN').
+ligand('OLIGONUCLEOTIDES ANTISENSE').
+ligand('PYRUVIC ACID').
+ligand('7-DEHYDROCHOLESTEROL').
+ligand('SPHINGOLIPIDS').
+ligand('DEOXYGUANOSINE').
+ligand('MORRONISIDE').
+ligand('LOGANIN').
+ligand('GINSENOSIDE RB1').
+ligand('AL18F-NOTA-OCTREOTIDE').
+ligand('BLOOD GLUCOSE').
+ligand('CORALYNE').
+ligand('WOGONIN').
+ligand('T-2 TOXIN').
+ligand('MINOCYCLINE').
+ligand('RHODIOLOSIDE').
+ligand('PROPOLIS').
+ligand('SCOPOLAMINE').
+ligand('ALUMINUM CHLORIDE').
+ligand('NICORANDIL').
+ligand('RESOLVIN D1').
+ligand('MONOMETHYLAURISTATIN F').
+ligand('FLUORESCEIN-5-ISOTHIOCYANATE').
+ligand('90Y-OCTREOTIDE DOTA-TYR(3)-').
+ligand('QUINOLINE').
+ligand('ASTILBIN').
+ligand('NITROUS OXIDE').
+ligand('LYCOPENE').
+ligand('2-(1H-INDAZOL-4-YL)-6-(4-METHANESULFONYLPIPERAZIN-1-YLMETHYL)-4-MORPHOLIN-4-YLTHIENO(3 2-D)PYRIMIDINE').
+ligand('PERIFOSINE').
+ligand('2 2\'-(HYDROXYNITROSOHYDRAZONO)BIS-ETHANAMINE').
+ligand('4-DIMETHYLAMINO-3\' 4\'-DIMETHOXYCHALCONE').
+ligand('AG-879').
+ligand('BENZO(A)PYRENE').
+ligand('GUANINE').
+ligand('HERBACETIN').
+ligand('TRIPHOSPHORIC ACID').
+ligand('CARBON DIOXIDE').
+ligand('HYDRAZINES').
+ligand('CESIUM').
+ligand('FERULIC ACID').
+ligand('GLYCINE').
+ligand('ERIOCALYXIN B').
+ligand('N N\'-DIBENZHYDRYLETHANE-1 2-DIAMINE DIHYDROCHLORIDE').
+ligand('3-(2 4-DIMETHOXYBENZYLIDENE)ANABASEINE').
+ligand('SGI-1252').
+ligand('3-HYDROXY-7-METHYLCHOLANOIC ACID').
+ligand('ANDARINE').
+ligand('SELINEXOR').
+ligand('BETA-NAPHTHOFLAVONE').
+ligand('DACTINOMYCIN').
+ligand('FENDILINE').
+ligand('LARGAZOLE').
+ligand('5-IODO-3-((3 5-DIBROMO-4-HYDROXYPHENYL)METHYLENE)-2-INDOLINONE').
+ligand('SIMVASTATIN').
+ligand('FLUVASTATIN').
+ligand('ON 01910').
+ligand('FUCOIDAN').
+ligand('SCHIZANDRIN B').
+ligand('SR 11302').
+ligand('PROBENECID').
+ligand('CERAMIDES').
+ligand('ANACARDIC ACID').
+ligand('INOSITOL').
+ligand('FINGOLIMOD HYDROCHLORIDE').
+ligand('THIOACETAMIDE').
+ligand('CADMIUM').
+ligand('TAXOIDS').
+ligand('SPHINGOSINE 1-PHOSPHATE').
+ligand('PIPERINE').
+ligand('LITHOCHOLIC ACID').
+ligand('RHAMNETIN').
+ligand('POLYCAPROLACTONE').
+ligand('NILOTINIB').
+ligand('HEXANES').
+ligand('TOCOTRIENOL DELTA').
+ligand('ERASTIN').
+ligand('PROTACTINIUM').
+ligand('ASTAXANTHINE').
+ligand('DOCOSAHEXAENOIC ACIDS').
+ligand('CORTICOSTERONE').
+ligand('6 7-DIHYDROXYFLAVONE').
+ligand('NEOMYCIN').
+ligand('ROLIPRAM').
+ligand('SCH772984').
+ligand('QUINOVIC ACID').
+ligand('ALAMANDINE').
+ligand('DONEPEZIL').
+ligand('DELTA-OCTALACTONE').
+ligand('CYANIDIN-3-O-BETA-GLUCOPYRANOSIDE').
+ligand('PEMETREXED').
+ligand('AMIVANTAMAB').
+ligand('LAZERTINIB').
+ligand('THALIDOMIDE').
+ligand('CHROMIUM HEXAVALENT ION').
+ligand('RUTIN').
+ligand('BISBENZIMIDE ETHOXIDE TRIHYDROCHLORIDE').
+ligand('BEVACIZUMAB').
+ligand('BI 6727').
+ligand('MIVEBRESIB').
+ligand('DACTOLISIB').
+ligand('OTX015').
+ligand('CADMIUM CHLORIDE').
+ligand('ROMIDEPSIN').
+ligand('NECROSTATIN-1').
+ligand('KUKOAMINE B').
+ligand('CL 316 243').
+ligand('CHLORINE').
+ligand('ANDROGRAPHOLIDE').
+ligand('PHOSPHOSERINE').
+ligand('SURUFATINIB').
+ligand('DEXMEDETOMIDINE').
+ligand('SCUTEBARBATINE A').
+ligand('LEAD-212').
+ligand('HYDROXYINDOLEACETIC ACID').
+ligand('EDOTREOTIDE').
+ligand('NAPHTHALENE').
+ligand('LUGOL\'S SOLUTION').
+ligand('LEAD-203').
+ligand('MONOMETHYL AURISTATIN E').
+ligand('METHIONINE SULFOXIDE').
+ligand('ROFLUMILAST').
+ligand('EMPAGLIFLOZIN').
+ligand('POLYLACTIC ACID-POLYGLYCOLIC ACID COPOLYMER').
+ligand('N-METHYLASPARTATE').
+ligand('FG 9041').
+ligand('DIZOCILPINE MALEATE').
+ligand('ALPHA-AMINO-3-HYDROXY-5-METHYL-4-ISOXAZOLEPROPIONIC ACID').
+ligand('PROPIONATES').
+ligand('THYMIDINE').
+ligand('SODIUM ARSENITE').
+ligand('COBIMETINIB').
+ligand('PANAXYDOL').
+ligand('SULPHORAPHENE').
+ligand('PYROTINIB').
+ligand('DOXAZOSIN').
+ligand('SORBINIL').
+ligand('ZOPOLRESTAT').
+ligand('DOFETILIDE').
+ligand('PHYTIC ACID').
+ligand('PIOGLITAZONE').
+ligand('OXOTREMORINE M').
+ligand('ACETOACETIC ACID').
+ligand('5-METHYL-N-(4-METHYLPYRIMIDIN-2-YL)-4-(1H-PYRAZOL-4-YL)THIAZOL-2-AMINE').
+ligand('177LU-OCTREOTATE').
+ligand('L797591').
+ligand('L796778').
+ligand('CYANOGINOSIN LR').
+ligand('LEVODOPA').
+ligand('THYMOQUINONE').
+ligand('CLIOQUINOL').
+ligand('3-(5-(4-(CYCLOPENTYLOXY)-2-HYDROXYBENZOYL)-2-((3-HYDROXY-1 2-BENZISOXAZOL-6-YL)METHOXY)PHENYL)PROPIONIC ACID').
+ligand('METHYL-BETA-CYCLODEXTRIN').
+ligand('2-CHLORO-5-NITROBENZANILIDE').
+ligand('RACECADOTRIL').
+ligand('ELEOSTEARIC ACID').
+ligand('CARBACHOL').
+ligand('CURZERENE').
+ligand('SILYBIN').
+ligand('4-BIPHENYLAMINE').
+ligand('COLCHICINE').
+ligand('MONORDEN').
+ligand('TACROLIMUS').
+ligand('AFATINIB').
+ligand('ICOTINIB').
+ligand('CARVEDILOL').
+ligand('PONATINIB').
+ligand('ITR 284').
+ligand('CONFERONE').
+ligand('SODIUM BORATE').
+ligand('ZERANOL').
+ligand('SOFOSBUVIR').
+ligand('ALPHA-TOCOPHEROL').
+ligand('MERCURY').
+ligand('TRANS-SODIUM CROCETINATE').
+ligand('SOTRASTAURIN').
+ligand('PHENYLHYDRAZINE').
+ligand('WOGONOSIDE').
+ligand('ADENOSINE-3\' 5\'-CYCLIC PHOSPHOROTHIOATE').
+ligand('L 54264').
+ligand('SUMATRIPTAN').
+ligand('3-N-BUTYLPHTHALIDE').
+ligand('ANTIMONY').
+ligand('ARACHIDONYLCYCLOPROPYLAMIDE').
+ligand('3-METHYLQUERCETIN').
+ligand('CHLORMEQUAT').
+ligand('U 95666E').
+ligand('SULPIRIDE').
+ligand('FISETIN').
+ligand('AMITRIPTYLINE').
+ligand('ICARIIN').
+ligand('OLEANOLIC ACID').
+ligand('NAPHTHOL AS-E PHOSPHATE').
+ligand('2-(2-MERCAPTOETHANOL)-3-METHYL-1 4-NAPHTHOQUINONE').
+ligand('4-((3-BROMOPHENYL)AMINO)-6 7-DIMETHOXYQUINAZOLINE').
+ligand('PSEUDOPROTODIOCSIN').
+ligand('3 5 7 3\' 4\'-PENTAMETHOXYFLAVONE').
+ligand('AZATHIOPRINE').
+ligand('SANGLIFEHRIN A').
+ligand('PARTHENOLIDE').
+ligand('BELINOSTAT').
+ligand('TYRPHOSTIN A9').
+ligand('4 4\'-DINITRO-2 2\'-STILBENEDISULFONIC ACID').
+ligand('SEW2871').
+ligand('E 3330').
+ligand('DILAZEP').
+ligand('FARNESYLTHIOSALICYLIC ACID').
+ligand('OXYLIPINS').
+ligand('NINTEDANIB').
+ligand('ML-265').
+ligand('HESPERETIN').
+ligand('RAMOSETRON').
+ligand('PUROMYCIN').
+ligand('PYRIMIDINE').
+ligand('CEPHAELIN').
+ligand('SULFONYLUREA COMPOUNDS').
+ligand('HEXACHLOROPHENE').
+ligand('8-BROMOGUANOSINO-3\' 5\'-CYCLIC MONOPHOSPHOROTHIOATE').
+ligand('4-CARBOMETHOXYL-10-EPIGYROSANOLDIE E').
+ligand('ALLOIN').
+ligand('BUFALIN').
+ligand('PHOSPHATIDYLINOSITOL 3-PHOSPHATE').
+ligand('OMEPRAZOLE').
+ligand('FERROSTATIN-1').
+ligand('ZYMOSAN').
+ligand('DRONABINOL').
+ligand('177LU-DOTA-JR11').
+ligand('TOPOTECAN').
+ligand('TACEDINALINE').
+ligand('RESINS PLANT').
+ligand('PERFLUOROOCTANOIC ACID').
+ligand('VITEXIN').
+ligand('RESIQUIMOD').
+ligand('KS-58').
+ligand('CARBAZOLE').
+ligand('POMALIDOMIDE').
+ligand('LITHIUM').
+ligand('THIOGUANINE').
+ligand('UREA NITRATE').
+ligand('ISOLIQUIRITIGENIN').
+ligand('MEDROXYPROGESTERONE ACETATE').
+ligand('PROTOPANAXADIOL').
+ligand('BREVIPOLIDE H').
+ligand('CYH33').
+ligand('HELICHRYSETIN').
+ligand('CURCUMOL').
+ligand('HYPERICIN').
+ligand('BETA-GLUCANS').
+ligand('CHLORANTRANILIPOLE').
+ligand('CALCEIN AM').
+ligand('CINNAMIC ACID').
+ligand('THIAMINE PYROPHOSPHATE').
+ligand('THIAMINE').
+ligand('2-TERT-BUTYLHYDROQUINONE').
+ligand('TUBASTATIN A').
+ligand('AXITINIB').
+ligand('4-METHYLESCULETIN').
+ligand('TRICHODERMIN').
+ligand('PROMETHIUM').
+ligand('BIM 23190').
+ligand('BIM 23197').
+ligand('AN 238').
+ligand('2-(3-STIBONOPHENYL)MALONIC ACID').
+ligand('ASIATICOSIDE').
+ligand('TIMOSAPONIN AIII').
+ligand('INDIUM-111').
+ligand('BIM 23027').
+ligand('BIM 23627').
+ligand('FLUOROCARBONS').
+ligand('CYPERMETHRIN').
+ligand('SRPIN340').
+ligand('PEPTIDE HORMONES').
+ligand('THIAMET G').
+ligand('PERFLUOROOCTANE SULFONIC ACID').
+ligand('PIMAGEDINE').
+ligand('ROSIGLITAZONE').
+ligand('DITHIOTHREITOL').
+ligand('IODOACETAMIDE').
+ligand('ACETALDEHYDE').
+ligand('CARBOBENZOXY-LEUCYL-LEUCYL-NORVALINAL').
+ligand('SALVIANOLIC ACID A').
+ligand('HYDRAZONES').
+ligand('PACHYMIC ACID').
+ligand('ARTEMISININS').
+ligand('BENZOYLAMIDO-4\'-AMINOSTILBENE-2 2\'-DISULFONATE').
+ligand('DEMETHOXYCURCUMIN').
+ligand('ESTRIOL').
+ligand('HARMINE').
+ligand('ICG 001').
+ligand('8-(N N-DIETHYLAMINO)OCTYL-3 4 5-TRIMETHOXYBENZOATE').
+ligand('CAMKII INHIBITOR AIP').
+ligand('N N-DICYCLOHEXYL(5-CYCLOPROPYLISOXAZOL-3-YL)CARBOXAMIDE').
+ligand('VERAPAMIL').
+ligand('JTE 013').
+ligand('BHF 177').
+ligand('THEASINENSIN A').
+ligand('POLYDEOXYRIBONUCLEOTIDES').
+ligand('CUCURBITACIN B').
+ligand('1 3-DICAFFEOYLQUINIC ACID').
+ligand('SYNAPTAMIDE').
+ligand('SHUTERIN').
+ligand('17 18-EPOXY-5 8 11 14-EICOSATETRAENOIC ACID').
+ligand('KIRENOL').
+ligand('ISOTRETINOIN').
+ligand('IVABRADINE').
+ligand('PD 98058').
+ligand('64CU-CB-TE2A-Y3-TATE').
+ligand('64CU-DOTA-Y3-TATE').
+ligand('ATO').
+ligand('GINKGOLIDE B').
+ligand('N-(4-(2-ETHYL-4-(3-METHYLPHENYL)-1 3-THIAZOL-5-YL)-2-PYRIDYL)BENZAMIDE').
+ligand('TANESPIMYCIN').
+ligand('AMINOGLYCOSIDES').
+ligand('PHOSPHOCELLULOSE').
+ligand('PHOSPHOPEPTIDES').
+ligand('WARFARIN').
+ligand('QUINOLINIC ACID').
+ligand('VERNOLIDE-A').
+ligand('BAICALIN').
+ligand('APATINIB').
+ligand('DIOSBULBIN B').
+ligand('CCT007093').
+ligand('ROXADUSTAT').
+ligand('MDL-800').
+ligand('WITHAFERIN A').
+ligand('LACTACYSTIN').
+ligand('NITROPRUSSIDE').
+ligand('BENZOIC ACID').
+ligand('2-AMINOADIPIC ACID').
+ligand('LINAGLIPTIN').
+ligand('ORIDONIN').
+ligand('TERBINAFINE').
+ligand('(3R)-((2 3-DIHYDRO-5-METHYL-3-((4-MORPHOLINYL)METHYL)PYRROLO-(1 2 3-DE)-1 4-BENZOXAZIN-6-YL)(1-NAPHTHALENYL))METHANONE').
+ligand('CARPROPAMID').
+ligand('PROTOPANAXATRIOL').
+ligand('SEVOFLURANE').
+ligand('CLOPROSTENOL').
+ligand('CYSTEAMINE').
+ligand('VERATRIDINE').
+ligand('QUIPAZINE').
+ligand('PARGYLINE').
+ligand('DEFEROXAMINE').
+ligand('MACROPHAGE STIMULATORY LIPOPEPTIDE 2').
+ligand('ACETYLMURAMYL-ALANYL-ISOGLUTAMINE').
+ligand('PARICALCITOL').
+ligand('CIMETIDINE').
+ligand('NONAARGININE').
+ligand('CERIC OXIDE').
+ligand('RIBISIN A').
+ligand('SPINOSIN').
+ligand('MENAQUINONE 7').
+ligand('VITAMIN K 2').
+ligand('SUDACHITIN').
+ligand('CELASTROL').
+ligand('TERBUTALINE').
+ligand('TUBEROSTEMONINE').
+ligand('APOMORPHINE').
+ligand('DIOSGENIN').
+ligand('LUPEOL').
+ligand('NVP-BKM120').
+ligand('QUERCITRIN').
+ligand('BIS(3\' 5\')-CYCLIC DIGUANYLIC ACID').
+ligand('LIPOTEICHOIC ACID').
+ligand('EUDESMIN').
+ligand('MAGNESIUM CHLORIDE').
+ligand('NAPHTHOL AS-E').
+ligand('PELCITOCLAX').
+ligand('7 3\'-DIHYDROXY-4\'-METHOXYISOFLAVONE').
+ligand('PFL PROTOCOL').
+ligand('BACLOFEN').
+ligand('NATRIURETIC PEPTIDES').
+ligand('DEXTROAMPHETAMINE').
+ligand('KN 62').
+ligand('MADECASSIC ACID').
+ligand('POMOLIC ACID').
+ligand('RIBAVIRIN').
+ligand('CILOSTAZOL').
+ligand('BAY-293').
+ligand('PCL-B-PEG').
+ligand('CARYOPHYLLENE').
+ligand('ALBUTEROL').
+ligand('ALPROSTADIL').
+ligand('FLUORIDES').
+ligand('FLUOROALUMINUM').
+ligand('FUCOXANTHIN').
+ligand('MORIN').
+ligand('LEVETIRACETAM').
+ligand('DIAZEPAM').
+ligand('ISOALANTOLACTONE').
+ligand('BUDESONIDE').
+ligand('CLADRIBINE').
+ligand('POLY(LACTIDE)').
+ligand('LINOLEIC ACIDS CONJUGATED').
+ligand('MITOCURCUMIN').
+ligand('PINORESINOL').
+ligand('FERROUS SULFATE').
+ligand('TURPENTINE').
+ligand('AEE 788').
+ligand('2-(2-CHLORO-4-IODOPHENYLAMINO)-N-CYCLOPROPYLMETHOXY-3 4-DIFLUOROBENZAMIDE').
+ligand('CAPSAZEPINE').
+ligand('BETA-TRICALCIUM PHOSPHATE').
+ligand('AEIQS').
+ligand('ASUNAPREVIR').
+ligand('TAK-243').
+ligand('ARECOLINE').
+ligand('OMALIZUMAB').
+ligand('SOPHORICOSIDE').
+ligand('ANGELAN').
+ligand('3 9-BIS((ETHYLTHIO)METHYL)-K-252A').
+ligand('TERAMEPROCOL').
+ligand('2-OXINDOLE').
+ligand('CASPASE-INDEPENDENT LETHAL 56').
+ligand('N-(2-AMINO-5-FLUOROBENZYL)-4-(N-(PYRIDINE-3-ACRYLYL)AMINOMETHYL)BENZAMIDE').
+ligand('RO 5-3335').
+ligand('ACETYLGLUCOSAMINE').
+ligand('2-METHYL-1-((4-METHYL-5-ISOQUINOLINYL)SULFONYL)HOMOPIPERAZINE').
+ligand('4-(2-PYRIDYLAZO)RESORCINOL').
+ligand('DUSQUETIDE').
+ligand('METHOXYLUTEOLIN').
+ligand('BISDEMETHOXYCURCUMIN').
+ligand('PHLORETIN').
+ligand('BETA-SOLAMARINE').
+ligand('DI-2-PYRIDYLKETONE 4-CYCLOHEXYL-4-METHYL-3-THIOSEMICARBAZONE').
+ligand('NITROXOLINE').
+ligand('HALOFUGINONE').
+ligand('NONYLPHENOL').
+ligand('8-HYDROXYGUANINE').
+ligand('25-HYDROXYCHOLESTEROL').
+ligand('4-(CYCLOPROPYLAMINO)-2-((4-(4-(ETHYLSULFONYL)PIPERAZIN-1-YL)PHENYL)AMINO)PYRIMIDINE-5-CARBOXAMIDE').
+ligand('ERYTHROMYCIN PROPIONATE-N-ACETYLCYSTEINATE').
+ligand('GW 441756').
+ligand('DAPAGLIFLOZIN').
+ligand('5S 12R 18R-TRIHYDROXY-6Z 8E 10E 14Z 16E-EICOSAPENTAENOIC ACID').
+ligand('2 4-DIAMINOHYPOXANTHINE').
+ligand('ALPHA-NAPHTHOFLAVONE').
+ligand('6-(METHYLSULFINYL)HEXYL ISOTHIOCYANATE').
+ligand('LUTEIN').
+ligand('4-METHYL-2 4-BIS(4-HYDROXYPHENYL)PENT-1-ENE').
+ligand('FR 180204').
+ligand('PHYSALIN A').
+ligand('2-HEXYNYLADENOSINE-5\'-N-ETHYLCARBOXAMIDE').
+ligand('SESAME OIL').
+ligand('LIENSININE').
+ligand('SINAPINIC ACID').
+ligand('CANTHARIDIN').
+ligand('NORCANTHARIDIN').
+ligand('ARISTOLOCHIC ACID I').
+ligand('RGFP966').
+ligand('BENZOPYRANS').
+ligand('MYRISTICIN').
+ligand('CYTISINE').
+ligand('CHROMONES').
+ligand('MEDICARPIN').
+ligand('AZIRIDINE').
+ligand('MEVOCICLIB').
+ligand('EDRECOLOMAB').
+ligand('1 4-BDPOB').
+ligand('CD 437').
+ligand('FENRETINIDE').
+ligand('PURINE NUCLEOTIDES').
+ligand('ATRACTYLODIN').
+ligand('THEABROWNIN').
+ligand('CEDAZURIDINE').
+ligand('MADECASSOSIDE').
+ligand('MIMOSINE').
+ligand('ORMELOXIFENE').
+ligand('LAROTRECTINIB').
+ligand('GLYCODEOXYCHOLIC ACID').
+ligand('2 3 4 5-TETRAHYDRO-7 8-DIHYDROXY-1-PHENYL-1H-3-BENZAZEPINE').
+ligand('KR33426').
+ligand('ISORHAPONTIGENIN').
+ligand('GUANFACINE').
+ligand('MIDODRINE').
+ligand('RO 31-8220').
+ligand('CID44216842').
+ligand('KJ-PYR-9').
+ligand('BX795').
+ligand('RESINIFERATOXIN').
+ligand('ARACHIDONYL DOPAMINE').
+ligand('BUPIVACAINE').
+ligand('YW3-56').
+ligand('WP760').
+ligand('ERTIPROTAFIB').
+ligand('DIOSMETIN').
+ligand('INDIUM-111-OCTREOTIDE').
+ligand('STRONTIUM').
+ligand('FEXOFENADINE').
+ligand('SODIUM NITRITE').
+ligand('SODIUM GLUTAMATE').
+ligand('AST 1306').
+ligand('TRIS(2 3-DIBROMOPROPYL)ISOCYANURATE').
+ligand('GLYCOL-CHITOSAN').
+ligand('CYCLO(TRP-ASP-PRO-VAL-LEU)').
+ligand('PAMIDRONATE').
+ligand('ASPARTYL-ALANYL-DIKETOPIPERAZINE').
+ligand('COUMERMYCIN').
+ligand('DEHYDROEPIANDROSTERONE SULFATE').
+ligand('ACADESINE').
+ligand('GENTAMICINS').
+ligand('ETHYLENE CHLOROHYDRIN').
+ligand('FLUOROCITRATE').
+ligand('GIBH-130').
+ligand('IBERDOMIDE').
+ligand('OXACILLIN').
+ligand('LIPOXIN A4').
+ligand('N-(3 5-BIS(TRIFLUOROMETHYL)PHENYL)-2-CHLORO-4-(TRIFLUOROMETHYL)PYRIMIDINE-5-CARBOXAMIDE').
+ligand('5-METHOXY-N-PROPYL-2 3 4 4A 9 9A-HEXAHYDRO-1-H-INDENO(2 1-C)PYRIDINE').
+ligand('GINSENOSIDE RD').
+ligand('11-O-GALLOYLBERGENIN').
+ligand('AMISULPRIDE').
+ligand('4-BORONOPHENYLALANINE-FRUCTOSE').
+ligand('ELLAGIC ACID').
+ligand('HLM006474').
+ligand('GW 4064').
+ligand('DIHYDROSANGUINARINE').
+ligand('MULBERROSIDE A').
+ligand('3 5-DIMETHYLAMINOPHENOL').
+ligand('MELAMINE').
+ligand('AS 8').
+ligand('METHYLONE').
+ligand('PERIODATE-OXIDIZED ADENOSINE').
+ligand('3-DEAZAADENOSINE').
+ligand('DIOSCIN').
+ligand('CYSMETHYNIL').
+ligand('MOSHER\'S ACID').
+ligand('TELCAGEPANT').
+ligand('UROTENSIN II').
+ligand('PROSTAGLANDINS F').
+ligand('NITROGLYCERIN').
+ligand('NICARDIPINE').
+ligand('SBI-0087702').
+ligand('NORKETAMINE').
+ligand('OLIGONOL').
+ligand('VPC23019').
+ligand('CAY10444').
+ligand('ENDOSULFAN').
+ligand('BIS(2-ETHYLHEXYL) 2 3 4 5-TETRABROMOPHTHALATE').
+ligand('SANDOSTATINLAR').
+ligand('SPHINGOSINE PHOSPHORYLCHOLINE').
+ligand('VITAMIN K 3').
+ligand('MERBARONE').
+ligand('NIFLUMIC ACID').
+ligand('N-(2-HYDROXY-3-(2-CYANO-3-CHLOROPHENOXY)PROPYL)-1 1-DIMETHYL-2-(2-NEPHTHYL)ETHYLAMINE').
+ligand('TOLFENAMIC ACID').
+ligand('GLYCOCHOLIC ACID').
+ligand('PHYTOSPHINGOSINE').
+ligand('APREMILAST').
+ligand('5-METHOXYCARBONYLAMINO-N-ACETYLTRYPTAMINE').
+ligand('LUCKNOLIDE A').
+ligand('4-(3-CHLORO-2-FLUOROPHENOXY)-1-((6-(1 3-THIAZOL-2-YLAMINO)PYRIDIN TO 2-YL)METHYL) CYCLOHEXANECARBOXYLIC ACID').
+ligand('GUANOSINE PENTAPHOSPHATE').
+ligand('MUPIROCIN').
+ligand('CINOBUFOTALIN').
+ligand('TILIANIN').
+ligand('FOLFIRINOX').
+ligand('LONIDAMINE').
+ligand('SINTILIMAB').
+ligand('8-HYDROXYDAIDZEIN').
+ligand('LORATADINE').
+ligand('HYDRANGENOL').
+ligand('SAXAGLIPTIN').
+ligand('SOLASODINE').
+ligand('ROCILETINIB').
+ligand('CASTICIN').
+ligand('H-PHE-SER-LEU-LEU-ARG-TYR-NH2').
+ligand('AMBRISENTAN').
+ligand('FUMAGILLIN').
+ligand('GPI 15427').
+ligand('PHOENIXIN-20').
+ligand('CYCLOCREATINE').
+ligand('AH 001').
+ligand('COPPER-61').
+ligand('3-((1-(DIMETHYLAMINO)PROPAN-2-YL)OXY)-5-((4-METHOXY-5-(1-METHYL-1H-PYRAZOL-4-YL)PYRIDIN-2-YL)AMINO)PYRAZINE-2-CARBONITRILE').
+ligand('PIPERLONGUMINE').
+ligand('PYRIDOSTATIN').
+ligand('ROFECOXIB').
+ligand('CLOFARABINE').
+ligand('GLYCYL-PROLYL-GLUTAMIC ACID').
+ligand('PROPOFOL').
+ligand('LICORISOFLAVAN A').
+ligand('GANODERIC ACID').
+ligand('MIANSERIN').
+ligand('DIOSMIN').
+ligand('AZABDPBA COMPOUND').
+ligand('ACTINONIN').
+ligand('BETA-ELEMONIC ACID').
+ligand('FANGCHINOLINE').
+ligand('TAUROCHOLIC ACID').
+ligand('PERACETIC ACID').
+ligand('VERATRAMINE').
+ligand('3-N-BUTYL-4 5-DIHYDROPHTHALIDE').
+ligand('1-PALMITOYL-2-LINOLEOYL-3-ACETYL-RAC-GLYCEROL').
+ligand('CYTOCHALASIN B').
+ligand('9-(2-CHLOROBENZYL)-9H-CARBAZOLE-3-CARBALDEHYDE').
+ligand('11-KETODIHYDROTESTOSTERONE').
+ligand('1 3-DTCTI').

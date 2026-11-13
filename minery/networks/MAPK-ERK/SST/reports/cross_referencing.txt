@@ -1,0 +1,183 @@
+================================================================================
+REPORT: CROSS-REFERENCING
+Study: SST / MAPK-ERK neuroendocrine tumor correlation analysis
+Working directory: /home/jose-lopez/tools/runnable/minery/networks/MAPK-ERK/SST
+================================================================================
+
+This report matches Prolog entities (kBase.pl, aligned.pl, synonyms.pl,
+biotypes-kbs/) with concepts in the narrative .txt files
+(expert_objects.txt, kBaseDoc.txt) and identifies alignments and contradictions.
+reference_reports/ is used for form/structure only; no knowledge is extracted
+from it. All names are PubTator-aligned.
+
+--------------------------------------------------------------------------------
+1. Prolog entities ↔ narrative .txt concepts
+--------------------------------------------------------------------------------
+
+1.1 OCTREOTIDE (expert object line 17; aligned.pl:21)
+    kBase.pl events: 588 (grep count). Key events:
+      event('OCTREOTIDE',negative_correlation,'AKT1')          [line 2-3]
+      event('OCTREOTIDE',positive_correlation,'DCTN6')         [line 4-5]
+      event('OCTREOTIDE',negative_correlation,'SST')           [line 8-9]
+      event('OCTREOTIDE',negative_correlation,'MAPK1')         [line 2528]
+      event('OCTREOTIDE',negative_correlation,'MAPK3')         [line 2530]
+      event('OCTREOTIDE',association,'SSTR2')                  [line 2462]
+      event('OCTREOTIDE',association,'SSTR5')                  [line 2469]
+      event('OCTREOTIDE',negative_correlation,'NEUROENDOCRINE TUMORS')  [line 10666-10667]
+      event('OCTREOTIDE',association,'NEUROENDOCRINE TUMORS')  [line 10996]
+    Narrative match: kBaseDoc.txt block at doc line 179275-179291 documents
+    OCTREOTIDE negative_correlation NEUROENDOCRINE TUMORS with source
+    "Octreotide (OCT) is a first-generation somatostatin analog (SSA) used in
+    the treatment of acromegaly and neuroendocrine tumors (NETs)." PMID 35020172.
+    Alignment: CONFIRMED. OCTREOTIDE is aligned and present in both kBase.pl
+    and expert_objects.txt.
+
+1.2 SST (expert object line 19; aligned.pl:22)
+    kBase.pl events: event('SST',negative_correlation,'NEUROENDOCRINE TUMORS')
+    [line 2538-2539]; event('NEUROENDOCRINE TUMORS',association,'SST')
+    [line 18009].
+    Narrative match: kBaseDoc.txt doc lines 47647-47657 and 47666-47676
+    document SST<->NEUROENDOCRINE TUMORS (PMID 12478891 "Inhibition of
+    activator protein-1 on the growth of gastric cancer by octreotide"; PMID
+    40064181 PRRT review). Alignment: CONFIRMED.
+
+1.3 SSTR1, SSTR2, SSTR5 (expert objects lines 20-22; aligned.pl:23-25)
+    kBase.pl:
+      event('NEUROENDOCRINE TUMORS',association,'SSTR5')  [line 10957]
+      event('NEUROENDOCRINE TUMORS',association,'SSTR2')  [line 10959]
+      event('SSTR5',positive_correlation,'NEUROENDOCRINE TUMORS')  [line 65289-65290]
+      event('OCTREOTIDE',association,'SSTR2')  [line 2462]
+      event('OCTREOTIDE',association,'SSTR5')  [line 2469]
+      event('OCTREOTIDE',negative_correlation,'SSTR2') [line 5451]
+      event('OCTREOTIDE',negative_correlation,'SSTR5') [line 5455]
+      event('SSTR5',positive_correlation,'NEUROENDOCRINE TUMORS') [line 950749]
+    Narrative match: kBaseDoc.txt doc lines 183566-183610, 585663, 598728,
+    950736-950749 document NET associations with SSTR1/SSTR2/SSTR3/SSTR5.
+    Alignment: CONFIRMED for SSTR1, SSTR2, SSTR5. Note SSTR3/SSTR4 appear in
+    kBase.pl (OCTREOTIDE negative_correlation SSTR3 line 5447, SSTR4 line 5453)
+    but SSTR3/SSTR4 are NOT in expert_objects.txt.
+
+1.4 MAPK-ERK cascade expert objects (lines 1-12, 13-14)
+    EGF, EGFR, GRB2, SOS, RAS, RAF, MAP2K1, MAP2K2, MAPK1, MAPK3 — all aligned
+    (aligned.pl:5-16). Combined 10,350 kBase.pl events mention these objects.
+    Key OCTREOTIDE-mediated suppression:
+      event('OCTREOTIDE',negative_correlation,'MAPK1') [line 2528]
+      event('OCTREOTIDE',negative_correlation,'MAPK3') [line 2530]
+    These link the somatostatin-analogue expert object to the MAPK-ERK expert
+    objects → cross-cutting axis: OCTREOTIDE suppresses ERK1/2 (MAPK1/MAPK3).
+
+1.5 Transcription factors (expert objects lines 13-67)
+    CREB1, MYC, JUN, RUNX1, CDX1, SRY, ZNF384, CAP, GATA1, ATF1, IKZF1,
+    MYOD1, TFAP4, CEBPA, GATA3, GATA2, USF1, FOXA2, ETS1, ATF2, STAT, FOXD3,
+    MZF1, FOXD1, LMO2, TEF, MAX, SP1, REL, POU2F1, CP2, MYB, CEBPB, ZNF8,
+    TBP, EVI1, P53, SOX5, HLF, IKZF3, TCF3, YY1 — all aligned.
+    Several appear in kBase.pl in NET-relevant contexts:
+      event('NEUROENDOCRINE TUMORS',association,'MYC')            [line 27127]
+      event('NEUROENDOCRINE TUMORS',association,'TP53')           [line 62589]
+      event('NEUROENDOCRINE TUMORS',association,'CREBBP')         [line 45244]
+      event('NEUROENDOCRINE TUMORS',association,'GATA3')          [line 89474]
+      event('NEUROENDOCRINE TUMORS',association,'GATA2')          [line 97675]
+      event('NEUROENDOCRINE TUMORS',association,'ATRX')           [line 84178]
+      event('NEUROENDOCRINE TUMORS',association,'DAXX')           [line 84179]
+      event('NEUROENDOCRINE TUMORS',association,'CDX2')           [line 89481]
+
+1.6 Target diseases (expert objects lines 68-69)
+    NEUROENDOCRINE TUMORS (aligned.pl:71) and CARCINOMA NEUROENDICRINE
+    (aligned.pl:72) — both aligned and present in diseases.pl/biotypes.pl.
+    kBase.pl: 257 lines mention NEUROENDOCRINE TUMORS. CARCINOMA NEUROENDICRINE
+    appears in diseases.pl:35 and biotypes.pl but zero direct event lines in
+    kBase.pl (grep found none). → CARCINOMA NEUROENDICRINE is an expert object
+    and biotype but has no direct kBase.pl event; it must be reached via
+    subsumption (wellKnownRules.pl: wkr_carcinoma_neuroendocrine → wkr_neuroendocrine_tumors)
+    or via NEOPLASMS/CARCINOMA supertypes.
+
+--------------------------------------------------------------------------------
+2. Alignments confirmed
+--------------------------------------------------------------------------------
+
+A1. OCTREOTIDE → aligned (aligned.pl:21); synonyms.pl entry; 588 kBase events;
+    kBaseDoc PMID 35020172, 29884687, 20529830, 29643113, 35595746, 42569315,
+    22538189, 41856343, 25012983, 40778271. CONSISTENT across expert_objects.txt,
+    aligned.pl, synonyms.pl, kBase.pl, kBaseDoc.txt, biotypes.pl (ligand).
+
+A2. SST → aligned (aligned.pl:22); synonyms.pl entry; kBaseDoc PMID 12478891,
+    40064181. CONSISTENT.
+
+A3. SSTR2 / SSTR5 → aligned (aligned.pl:24-25); synonyms.pl entries; NET
+    associations at kBase.pl lines 10957/10959, 65289-65290. CONSISTENT.
+
+A4. MAPK1/MAPK3 → aligned (aligned.pl:15-16); OCTREOTIDE negative_correlation
+    at kBase.pl lines 2528/2530. CONSISTENT.
+
+A5. P53 → aligned_as TP53 (aligned.pl:104); synonyms.pl: TP53 ≡ P53.
+    kBase.pl line 62589 NET association uses 'TP53'. CONSISTENT via synonym.
+
+A6. S6K → aligned_as RPS6KB1 (aligned.pl:86); synonyms.pl RPS6KB1 ≡ S6K.
+    kBase.pl line 12 event('RPS6KB1',negative_correlation,'SIROLIMUS').
+    CONSISTENT via synonym.
+
+A7. NEUROENDOCRINE TUMORS / CARCINOMA NEUROENDICRINE → aligned
+    (aligned.pl:71-72); diseases.pl:35/318; biotypes.pl:1323. CONSISTENT.
+    But CARCINOMA NEUROENDICRINE has zero direct kBase.pl event lines.
+
+--------------------------------------------------------------------------------
+3. Contradictions / conflation risks
+--------------------------------------------------------------------------------
+
+C1. LANREOTIDE (expert_objects.txt line 17) is NO_ALIGNED (aligned.pl:76).
+    It appears in only 3 kBase.pl events but none tied to the two target
+    diseases. Because the constraint requires PubTator-aligned names only in
+    new reports, LANREOTIDE is EXCLUDED from new events; OCTREOTIDE (aligned)
+    is used as the somatostatin-analogue representative.
+
+C2. SSTR2/SSTR5 synonym overlap:
+    synonyms('SSTR2',[...,'SSTR5',...]) and synonyms('SSTR5',[...,'SSTR2',...]).
+    aligned_as('SSTR5',['SSTR2','SSTR5']). → SSTR2 and SSTR5 events may be
+    conflated. Treated as TRUE synonyms for NET context but flagged for review.
+
+C3. SST aligned_as includes 'GROWTH HORMONE-SECRETING PITUITARY ADENOMA' and
+    'GASTROINTESTINAL STROMAL TUMORS' (aligned.pl:88) — these are diseases,
+    not the SST peptide. Risk of false matches when expanding SST synonyms.
+    Mitigation: use canonical 'SST' name only in new events.
+
+C4. EVI1 aligned_as includes 'RUNX1' (aligned.pl:103) — RUNX1 is an expert
+    object (line 23). EVI1/RUNX1 events risk conflation. Mitigation: keep
+    canonical names separate.
+
+C5. NEOPLASMS/MICA false-synonym artifact (documented in reference
+    reports/02_synonymous_interactions.txt — form reference only): 'MICA'
+    appears in NEOPLASMS synonyms meaning "microinvasive carcinoma" ≠ MICA gene.
+    Not present in this SST expert object set; noted as a pattern to avoid.
+
+C6. CARCINOMA NEUROENDICRINE (expert object line 69; aligned.pl:72) has NO
+    direct kBase.pl event (grep count = 0). It is represented only as a disease
+    biotype. To correlate objects with it, use the NEUROENDOCRINE TUMORS event
+    set plus the wellKnownRules.pl subsumption
+    wkr_carcinoma_neuroendocrine(X) → wkr_neuroendocrine_tumors(X).
+
+C7. biotypes-kbs/variants.pl contains ~1,018 variants (P.G12V, P.V600E,
+    P.T790M, P.L858R, etc.) but NONE are linked by event/3 to expert objects or
+    target diseases in kBase.pl. Variants are present as biotypes but uncorrelated
+    in the event graph → variant correlation must be inferred via gene membership
+    (e.g. variants of EGFR/KRAS/TP53) rather than direct events.
+
+--------------------------------------------------------------------------------
+4. Summary of alignment status
+--------------------------------------------------------------------------------
+
+    Total expert objects: 69
+    Aligned:              68
+    Not aligned:          1 (LANREOTIDE → excluded from new events)
+    With direct kBase.pl events to NEUROENDOCRINE TUMORS:
+        OCTREOTIDE, SST, SSTR2, SSTR5, SSTR1, SSTR3, MYC, TP53, CREBBP,
+        GATA3, GATA2, ATRX, DAXX, CDX2, MTOR, EGFR, KRAS, PRL, SNAI1,
+        SYP, BMP7, SMAD2, GGH, PDX1, ARX, TH, SOX10, NR3C1, POMC, CTNNB1,
+        CXCR4, CXCL14, NEOPLASMS-adjacent drugs (everolimus, sunitinib,
+        regorafenib, surufatinib, pembrolizumab, sintilimab, streptozocin,
+        temozolomide, capecitabine, lutetium, yttrium-90, gallium-68,
+        fluorodeoxyglucose F18, etc.)
+    With direct kBase.pl events to CARCINOMA NEUROENDICRINE: 0 (reached via
+    NEUROENDOCRINE TUMORS + wellKnownRules subsumption).
+================================================================================
+END OF CROSS-REFERENCING
+================================================================================

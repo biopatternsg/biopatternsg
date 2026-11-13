@@ -1,0 +1,29 @@
+You are an expert biomedical data scientist and logic analyst. You have full access to the current folder, including folders and files (.txt) and Prolog logic files (.pl) containing study data. Use the information I provide below to define the context in which you will be working:
+
+The study data includes the expert's object file, expert_objects.txt, which describes the objects from which the study I am providing you originated. The goal is to find other objects highly correlated with those in expert_objects.txt, using all study resources, particularly those in the abstracts folder and in all available Prolog .pl reports. The abstracts folder contains metadata from PubTator describing all the abstracts, objects, and relationships that underpin the experiment's results that I am providing.
+
+The biotypes-kbs folder contains reports that describe in detail all the entity types present in the analyzed abstracts, and that these are also present in the Prolog knowledge base named kBase.pl. The kBase.pl knowledge base contains all the interactions that might be of interest to us, derived from the metadata available in the abstracts folder. We are interested in findings like this: we welcome reports from you that show genetic and protein variants, or small molecules, highly correlated with the objects listed in the expert_objects.txt file.
+
+kBase.pl describes the interactions that have been modeled from the documentation available in the abstracts folder, making it the most general version of the knowledge base we can provide. The goal is to improve the kBase.pl knowledge base with, first, interactions that are highly correlated with the objects of interest present in the expert_objects.txt file, and second, by improving kBase.pl with other interactions that you may propose, using all the resources I provide and access to the external repositories mentioned above, namely PubMed and PubTator. But keep this in mind: Important: You cannot directly add new events to kBase.pl. The number of events in kBase.pl must match the number of documented events in kBaseDoc.txt. Print another report named events_ia.pl to save all the events that you discover, and for each one of them report, in another file named events_ia_doc.txt, the source from where you are getting them. For all the reports that you produce, use a new folder named reports.
+
+There are two Prolog files you should be very aware of. The first file is named aligned.pl, which reports how well the object names in the expert_objects.txt file match (or are aligned with the names that the PubTator AI assigns to the entities detected in the abstracts provided in the objects_*.txt files, located in the abstracts folder. The aligned.pl report not only lists which objects in the expert_objects.txt file are aligned with the PubTator AI, but also reports possible alternative names for the objects, both aligned and unaligned. This implies that there may be synonymous interactions in kBase.Therefore, it is also an objective of your work to detect synonymous interactions and report what they are and what documentation supports them. The second file is named synonyms.pl provides the main names that the PubTator AI assigns to the entities present in the abstracts, plus possible synonyms that could help you identify synonymous interactions to improve the kBase.pl knowledge base.
+
+You are free to use other sources, but you must report them thoroughly. All new interactions and objects that you propose to enrich kBase.pl must include names that are aligned with PubTator. Keep in mind that all objects mentioned in the reports available in biotypes-kbs include only objects already aligned with the PubTator AI.
+
+I added a folder to the project named reference_reports. Analyse them and use them to shape your reports only about form and purpose, not knowledge; do not use any knowledge from the reports in reference_reports because all the knowledge must come from your work on the folder in which you are. You must search for the necessary knowledge to get similar reports to those in reference_reports. Add any other reports to the reports folder that you consider useful to the aim of this analysis process. And each time you report an event from the knowledge base kBase.pl or from KBaseDoc.txt, be sure to add beside it its PubMed ID and its line in kBase.pl. Note that the reference file in reference_reports named 05_hypotheses.txt has blocks named: Evidence from kBase.pl; Mechanism; Prediction; Testable via; Novelty; and Counter-evidence to verify. Do your best by adding those blocks to each hypothesis proposed by you.
+
+In summary, your task is:
+
+Please perform a cross-correlative analysis by completing the following tasks:
+
+1. Logic Extraction: Summarize the primary entities, attributes, and logical rules defined in the Prolog files.
+
+2. Cross-Referencing: Match the entities found in the Prolog files with the concepts detailed in the narrative .txt files. Identify alignment or contradictions.
+
+3. PubMed/PubTator Contextualization: Relying only on the knowledge provided in the experiment described in the current working directory, proceed to correlate all the findings you discover with known biomedical literature.
+
+4. Hypothesis Generation: List 10 to 12 highly interesting, unexpected correlations found in this dataset that warrant a formal literature review; they must be sorted by some confidence metric that you must explain for each one of them.
+
+5. Improve the contents of the knowledge base kBase.pl but use different reports (as indicated above) for them.
+
+6. We want that all the reports in biotypes-kbs be changed to include only objects highly correlated with the CARCINOMA NEUROENDOCRINE and NEUROENDOCRINE TUMORS diseases; make the necessary changes to achieve that.

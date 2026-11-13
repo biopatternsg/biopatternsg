@@ -1,0 +1,110 @@
+ROL:
+You are an expert biomedical data scientist and logic analyst.
+
+CONTEXT:
+Go to the very-restricted-original-no-fts folder and use it as your new working directory. The directory very-restricted-no-ft contains a file named pathways.txt, which includes a set of pathways for the following objects: EGF, EGFR, GRB2, SOS, RAS, GUANOSINE DIPHOSPHATE, GUANOSINE TRIPHOSPHATE, RAF, MAP2K1, MAP2K2, MAPK1, MAPK3, CREB1, RPS6, S6K, MYC, OCTREOTIDE, SST, SSTR1, SSTR2, SSTR5, NEUROENDOCRINE TUMORS, and CARCINOMA NEUROENDOCRINE.
+
+Take the following hypothesis as part of your knowledge:
+
+HYPOTHESIS 1: OCTREOTIDE–SSTR2/SSTR5–NET therapeutic axis
+---------------------------------------------------------
+
+Evidence from kBase.pl:
+  event('OCTREOTIDE',association,'SSTR2')            [kBase.pl line 2462;
+   kBaseDoc PMID 7631795, 35020172]
+  event('OCTREOTIDE',association,'SSTR5')            [kBase.pl line 2469;
+   kBaseDoc PMID 7631795, 35020172]
+  event('NEUROENDOCRINE TUMORS',association,'SSTR2') [kBase.pl line 10959;
+   kBaseDoc PMID 20529830, 41836257]
+  event('NEUROENDOCRINE TUMORS',association,'SSTR5') [kBase.pl line 10957;
+   kBaseDoc PMID 28155055, 16954443]
+  event('OCTREOTIDE',negative_correlation,'NEUROENDOCRINE TUMORS')
+                                                     [kBase.pl line 10666-10667;
+   kBaseDoc PMID 35020172]
+
+Mechanism:
+  Octreotide (OCT), a first-generation somatostatin analog, binds with high
+  affinity to SSTR2 and SSTR5 (kBaseDoc PMID 35020172: "OCT interacts with
+  somatostatin receptors 2 and 5 (SSTR2 and SSTR5), inhibiting hormone
+  hypersecretion and cell proliferation"). NETs overexpress SSTR2/SSTR5
+  (PMID 41836257; PMID 20529830). Receptor binding triggers Gi/o signaling,
+  inhibiting hormone secretion and cell proliferation, and drives receptor
+  internalization (PMID 32383089). The negative correlation of OCT with NET
+  (line 10666) reflects clinical antiproliferative efficacy.
+
+Prediction:
+  NET patients with high SSTR2/SSTR5 expression will respond better to
+  octreotide (symptom control and progression-free survival) than SSTR2/5-low
+  tumors; adding an SSTR5-selective analog should improve response in
+  SSTR2-low/SSTR5-high NETs.
+
+Testable via:
+  SSTR2/SSTR5 immunohistochemistry on NET biopsies correlated with octreotide
+  response; in vitro dose-response of OCT in SSTR2- vs SSTR5-knockout NET cell
+  lines; PRRT dosimetry (177Lu-DOTATATE) stratified by SSTR2/5 expression.
+
+Novelty:
+  The OCT–SSTR2/SSTR5–NET axis is established clinically (octreotide/lanreotide
+  are standard of care), but the explicit SSTR2-vs-SSTR5 response stratification
+  and the negative_correlation event quantification (line 10666) are underused
+  for patient selection. novelty_weight = 1.0 (established clinical axis).
+
+Counter-evidence to verify:
+  Some NETs are SSTR2-negative/SSTR5-dominant and may be octreotide-resistant
+  (PMID 20529830 notes SSTR1>SSTR5>SSTR3>SSTR2 pattern in some tumors);
+  tachyphylaxis and limited antitumoral effects with classical sst2 agonists
+  (PMID 25012983) may blunt benefit; verify SSTR5-specific signaling is intact.
+
+
+TASKS:
+
+Using only the knowledge available in the current working directory and pathways from pathways.txt as the search space,
+reason about "HYPOTHESIS 1: OCTREOTIDE–SSTR2/SSTR5–NET therapeutic axis” and find a pathway succession that meets the following criteria:
+
+1. Starts with a pathway where NEUROENDOCRINE TUMORS proliferate.
+2. Followed by a pathway that stimulates the transcription of SST.
+3. The pathway found in 2 serves as a mediator pathway to activate a final pathway in which NEUROENDOCRINE TUMORS are inhibited.
+4. Full pathways are needed from pathways.txt; not just regulatory events.
+
+Then, using the knowledge base kBase.pl and the documentation in kBaseDoc.txt, find regulatory events that link pathway 1 to pathway 2 and pathway 2 to pathway 3. Keep in mind this means finding the best linking events from kBase.pl in order to activate the connection between pathways 1, 2, and 3.
+
+
+######################################################
+Prompt for identifying relevant transcription factors
+based on the expert's original list of objects and the
+modeled knowledge base.
+######################################################
+
+You are an expert in molecular biology, with particular proficiency in gene transcription regulatory networks. You are also an expert biologist in neuroendocrine tumors and endocrine carcinoma.
+
+Go to the folder named restricted-original-plus-fts; you have full access to that folder. You must only work using the resources in the folder restricted-original-plus-fts.
+
+The files `expert_objects.txt`, `kBase.pl`, and `kBaseDoc.txt` contain the symbols and documentation relevant to this prompt; focus on all symbols in them that are transcription factors.
+
+Additionally, you can use the knowledge corpus in the abstracts/ folder, located in the main directory of this experiment, to fulfill your tasks.
+
+Your tasks are as follows:
+
+1. Identify, within `kBase.pl`, the transcription factors present in `expert_objects.txt` that have been experimentally reported as being involved in the regulation of *SST* transcription.
+
+2. Identify transcription factors that are not present in `expert_objects.txt` but are found in `kBase.pl` and have been experimentally reported as being involved in the regulation of *SST* gene transcription.
+
+3. Generate separate reports for each of the above categories. For each transcription factor, include the specific sentences that justify its selection as being linked to *SST* gene transcription. Each sentence must be accompanied by the PubMed ID of the abstract from which it was extracted. If a specific sentence cannot be identified, but an abstract is available, you may use the entire abstract as justification. Also include in the reports the transcription factors excluded and the reason for that; question: are they related in any way to NET or NEC?.
+
+4. Format the reports for the findings in steps 1 and 2 as tables, using the `.tsv` format.
+
+5. Include a column labeled "Criterion" in each table to explain the fundamental reason why a given transcription factor is considered to be related to *SST* gene transcription.
+
+6. Include a column labeled "NET/NEC relation" to indicate whether the transcription factor in question has been associated, in any capacity, with neuroendocrine tumors (NETs) or neuroendocrine carcinomas (NECs).
+
+CRITICAL REQUIREMENTS:
+1. Search BOTH directions: event('TF','relation','SST') AND event('SST','relation','TF') in kBase.pl
+2. Check kBaseDoc.txt for EVERY event to extract PubMed ID and supporting sentence
+3. Check expert_objects.txt EXACTLY — note that gene symbols may use protein names (e.g., P53 = TP53)
+4. List ALL transcription factors linked to SST — do not stop after finding a few
+5. For TFs in expert_objects.txt with NO SST event, list them in an "EXCLUDED" section with reason
+6. For TFs NOT in expert_objects.txt with NO SST event, do NOT list them
+7. Output CSV format: Transcription_Factor,Relation_to_SST,Criterion,NET_NEC_Relation,PMID,Justification_Sentence
+8. Verify every listed TF appears in kBase.pl with an SST-related event line number
+
+Key prompt addition: Add a verification step — "After generating the report, re-scan kBase.pl for any SST event involving a transcription factor that was omitted, and add it."

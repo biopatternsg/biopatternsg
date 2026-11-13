@@ -1,0 +1,85 @@
+================================================================================
+REPORT 7: DATA SOURCES & METHODOLOGY
+COVID-19 Immunology Study (COVID-19-IMMUNOLOGY-50)
+================================================================================
+
+================================================================================
+A. INTERNAL DATA SOURCES USED
+================================================================================
+
+  File                    Lines    Description
+  ----                    -----    -----------
+  kBase.pl                13,524   Main knowledge base (~6,750 bidirectional events)
+  kBaseDoc.txt            >140k    Full documentation with PubMed source sentences
+  synonyms.pl               ~443   PubTator entity names and synonyms
+  aligned.pl                 55    Expert object alignment report
+  wellKnownRules.pl           38    Semantic type hierarchies
+  minedObjects.txt            31    Original mined objects mapping
+  minedObjects.pl             --    Prolog mined objects
+  pathwaysObjects.pl          --    Pathway object associations
+  ontologyGO.pl               --    Gene Ontology associations
+  ontologyMESH.pl             --    MeSH term associations
+
+  biotypes-kbs/:
+    genes.pl               ~2,760  Gene/protein entities
+    diseases.pl            ~1,355  Disease entities
+    variants.pl              398   Genetic/protein variants
+    ligands.pl            ~1,352  Small molecules/compounds
+    biotypes.pl              --    Entity type classification
+    cell_lines.pl            --    Cell line entities
+    species.pl               --    Species entities
+
+  abstracts/ (13 batches):
+    abstracts_1.txt..13.txt      Abstract metadata from PubTator
+    objects_1.txt..13.txt        Object mentions per abstract
+    relations_1.txt..13.txt      Relationships per abstract
+
+  species_pubmed_ids.txt          1   PubMed ID reference
+
+================================================================================
+B. EXTERNAL KNOWLEDGE SOURCES (pre-trained knowledge)
+================================================================================
+
+  PubMed (pubmed.ncbi.nlm.nih.gov)
+    - Literature validation of all proposed hypotheses
+    - COVID-19 drug repurposing trial data
+    - SARS-CoV-2 molecular biology
+
+  PubTator (www.ncbi.nlm.nih.gov/research/pubtator/)
+    - Entity recognition and normalization
+    - Gene-disease and chemical-protein relationship extraction
+
+================================================================================
+C. METHODOLOGY
+================================================================================
+
+  1. ENTITY EXTRACTION
+     - Parsed all Prolog event/3 predicates from kBase.pl
+     - Extracted unique entity names (subject + object pairs)
+     - Cross-referenced with biotypes-kbs/ files for type classification
+     - Counted ~380 unique entities interacting with COVID-19
+
+  2. EXPERT OBJECT CROSS-REFERENCING
+     - Mapped 25 expert objects from aligned.pl against kBase.pl
+     - Identified which expert objects lack COVID-19 direct links
+     - Found 8 of 25 expert objects without COVID-19 events in kBase
+
+  3. SYNONYM DETECTION
+     - Used synonyms.pl (443 entries) to build synonym expansion list
+     - Programmatic search for event pairs where subject/object are synonyms
+     - Identified 9 synonym groups affecting 38+ event pairs
+     - Flagged NEOPLASMS/MICA artifact as false synonym
+
+  4. HYPOTHESIS GENERATION
+     - Prioritized entities with multiple unexplained negative/positive
+       correlations to expert objects
+     - Focused on actionable targets (existing drugs/inhibitors)
+     - Cross-validated against PubMed for novelty assessment
+     - Selected 5 hypotheses with strongest evidence-to-novelty ratio
+
+  5. KNOWLEDGE BASE ENRICHMENT
+     - Proposed 22 new interactions based on transitive relationships
+       between expert objects and correlated entities
+     - Updated aligned.pl with 27 new PubTator-aligned objects
+     - Created expert_objects.txt with expanded object list
+================================================================================

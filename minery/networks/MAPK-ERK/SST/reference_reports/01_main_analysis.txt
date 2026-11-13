@@ -1,0 +1,110 @@
+================================================================================
+REPORT 1: CROSS-CORRELATIVE ANALYSIS -- MAIN FINDINGS
+COVID-19 Immunology Study (COVID-19-IMMUNOLOGY-50)
+================================================================================
+
+1. LOGIC EXTRACTION SUMMARY
+--------------------------------------------------------------------------------
+
+Knowledge base (kBase.pl): 13,545 lines, ~6,750 bidirectional events
+6 relationship types: association, negative_correlation, positive_correlation,
+                       bind, cotreatment, comparison
+
+Expert objects (25 original, from aligned.pl):
+  Viral proteins:    ORF6, ORF8
+  Nuclear transport: KPNB1, IPO7, STAT92E
+  JAK/STAT pathway:  JAK3, STAT1, STAT2, STAT3, STAT4, STAT5A
+  Viral entry:       ACE2
+  Immune receptors:  CD4, CD8A, CCR5, CXCR4
+  NKG2D ligands:     MICA, 1300017J02RIK, MICB, MILL2
+  MHC/HLA:           HLA-A, HLA-B, HLA-C
+  Disease:           COVID-19
+
+Supporting data files:
+  - synonyms.pl: PubTator entity names and their synonyms
+  - aligned.pl: Maps expert objects to PubTator-aligned entity names
+  - biotypes-kbs/: Entity type catalog (genes, diseases, variants, ligands, etc.)
+  - abstracts/: 13 batches of abstracts, objects, and relations from PubTator
+  - kBaseDoc.txt: Full documentation of each interaction with PubMed source sentences
+
+================================================================================
+
+2. COVID-19 INTERACTIONS IN KBASE (quantitative breakdown)
+--------------------------------------------------------------------------------
+
+Total COVID-19 events: 525 (380 unique entities)
+
+  association            299  (57%)
+  negative_correlation   144  (27%)  -- typically treatment/drug
+  positive_correlation    82  (16%)
+
+Drugs/compounds (negative_correlation = therapeutic):
+  48 distinct drugs including:
+  - Antivirals: REMDESIVIR, FAVIPIRAVIR, MOLNUPIRAVIR, PAXLOVID
+  - JAK inhibitors: BARICITINIB, TOFACITINIB, RUXOLITINIB, NEZULCITINIB
+  - CCR5 antagonists: MARAVIROC, CENICRIVIROC
+  - Natural compounds: SAIKOSAPONIN D, GLYCYROL, LICOPYRANOCOUMARIN, BERBERINE
+
+Genetic/protein variants associated with COVID-19 (39 total, see reports/variants-hc.txt):
+  27 genetic: rs12979860 (IFNL4), rs2070788 (TMPRSS2), rs4702 (FURIN),
+  rs35803318, rs76635825, rs73635825, rs2285666, rs2106809, rs2074192,
+  rs140473595, rs200180615 (ACE2), rs7301582 (KLRC1/NKG2A),
+  rs1264457 (HLA-E), rs1051792 (MICA), rs333 (CCR5 delta32),
+  rs12252 (IFITM3), rs1799752/rs4646994 (ACE1 I/D), rs5186 (AGTR1),
+  rs429358 (APOE), rs35044562 (LZTFL1), rs11549407 (HBB),
+  rs5743313 (TLR3), rs1870377 (KDR), rs2228014 (CXCR4),
+  rs721917 (SFTPD), rs76152249 (IL1RL1)
+  12 protein: C.2518A>G (CCL2), C.1202T>C/P.L401P (JAK3),
+  C.138C>T (CXCR4), G.55029A>G (CCR5), P.V64I (CCR2),
+  P.G363S/P.M594I (TYK2/STAT2), P.S476F/P.V168L/P.W318C (IFNAR1),
+  P.C271Y (IFNAR2)
+  Full documentation: reports/variants-hc.txt
+
+Expert objects directly linked to COVID-19:
+  LINKED: JAK3, ORF6, ORF8, STAT1, STAT2, STAT3, ACE2, CD4, CD8A, CCR5,
+          CXCR4, MICA, HLA-A, HLA-B, HLA-C
+  NOT DIRECTLY LINKED: KPNB1, IPO7, STAT92E, STAT4, STAT5A,
+                       1300017J02RIK, MICB, MILL2
+
+================================================================================
+
+3. HLA/KIR -- COVID-19 RISK ALLELES
+--------------------------------------------------------------------------------
+
+Risk alleles (higher susceptibility/severity):
+  HLA-A*11:01, HLA-C*04:01, HLA-B*35, HLA-B*39, HLA-DRB1*07:01,
+  HLA-DRB1*11:01, HLA-DRB1*03:01, HLA-B*44:02, HLA-C*05:01,
+  HLA-B*50:01:01, HLA-C*06:02:01, HLA-DRB1*15:01:01
+
+Protective alleles (lower susceptibility/severity):
+  HLA-B*14:02, HLA-C*08:02, HLA-A*24:02, HLA-DRB1*09:01,
+  HLA-A*02:01, HLA-B*51:01, HLA-B*18, HLA-B*49, HLA-DQB1*04:02,
+  HLA-B*40:01, HLA-B*13:02, HLA-DRB1*08:01, HLA-C*07:04,
+  HLA-DQB1*03:03, HLA-A*31:01, HLA-B*44:03, HLA-B*57:01
+
+KIR/COVID-19 axis:
+  KIR3DL3*00802        -- high-risk allele for infection
+  KIR3DL1 + HLA-Bw4    -- protective combination
+  KIR2DL1              -- reduced frequency in COVID-19 (protective)
+  KIR2DS4              -- may increase risk (with HLA-C*04)
+  KIR3DL3              -- positive correlation with COVID-19
+
+================================================================================
+
+4. NEW ENTITIES PROPOSED FOR EXPERT OBJECTS
+--------------------------------------------------------------------------------
+
+Added 27 new objects of interest, all PubTator-aligned:
+
+  Immune checkpoints:   PDCD1, HAVCR2, LAG3, TIGIT, CD274
+  NKG2D/NK pathway:     KLRK1, KLRC1, KLRC2, KIR3DL1, KIR2DL1
+  Cytokines/mediators:  IFNG, IL6, TNF, IL15, IFNA1
+  Signaling regulators: SOCS3, TYK2
+  MHC-I regulation:     NLRC5, HLA-E
+  Epigenetic:           EZH2, KDM1A, METTL14
+  Receptors:            CCR2
+  Viral entry:          TMPRSS2
+  Other:                PCSK9, STING1, CLEC4D
+
+Total expert objects: 51 (24 original + 27 new)
+================================================================================

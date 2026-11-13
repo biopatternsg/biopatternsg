@@ -1,0 +1,46 @@
+================================================================================
+REPORT: BIOTYPES-KBS FILTERING SUMMARY
+Study: SST / MAPK-ERK neuroendocrine tumor correlation analysis
+Working directory: /home/jose-lopez/tools/runnable/minery/networks/MAPK-ERK/SST
+================================================================================
+
+Task 6: Filter biotypes-kbs/ to objects highly correlated with
+CARCINOMA NEUROENDOCRINE and NEUROENDOCRINE TUMORS.
+
+Filter rule: an entity is retained iff it appears as subject or object in an
+event/3 fact in kBase.pl with NEUROENDOCRINE TUMORS (the only one of the two
+target diseases with direct kBase.pl events; CARCINOMA NEUROENDOCRINE has 0
+direct events and is reached via wellKnownRules.pl subsumption
+wkr_carcinoma_neuroendocrine -> wkr_neuroendocrine_tumors, line 130).
+Both target disease entities are always retained.
+
+Source of correlated objects: 118 unique entities extracted from kBase.pl
+events mentioning NEUROENDOCRINE TUMORS (subject or object position),
+saved to /tmp/opencode/net_correlated_objects.txt.
+Originals backed up to reports/biotypes_backup/ before filtering.
+
+--------------------------------------------------------------------------------
+RESULTS (entity lines kept / total)
+--------------------------------------------------------------------------------
+
+| File              | Kept | Total | Note                                            |
+|-------------------|------|-------|-------------------------------------------------|
+| genes.pl          |  81  | 9511  | Proteins correlated with NET (SST, CTNNB1, APC,|
+|                   |      |       | TGFB1, NR3C1, PDX1, POU1F1, GATA3, TP53,       |
+|                   |      |       | SSTR2, SSTR5, MTOR, EGFR, KRAS, ATRX, DAXX,    |
+|                   |      |       | GATA2, MYC, VEGFA, CHGA, SYP, etc.)            |
+| diseases.pl       |   2  | 4083  | CARCINOMA NEUROENDOCRINE, NEUROENDOCRINE TUMORS|
+| variants.pl       |   0  | 1017  | No variant directly correlated with NET in kBase|
+| ligands.pl        |  37  | 8345  | OCTREOTIDE, EVEROLIMUS, PEMBROLIZUMAB,          |
+|                   |      |       | LUTETIUM LU 177 DOTATATE, TEMOZOLOMIDE,         |
+|                   |      |       | CAPECITABINE, STREPTOZOCIN, SUNITINIB, etc.     |
+| biotypes.pl       | 120  | 24455 | Full type classification filtered to correlated|
+| cell_lines.pl     |   0  |  93   | No cell line directly correlated with NET       |
+| species.pl        |   0  | 1406  | No species directly correlated with NET         |
+
+All non-entity lines (comments, blank lines) preserved.
+kBase.pl was NOT edited. kBase.pl event count (124,252) unchanged and matches
+kBaseDoc.txt Regulatory Event blocks (124,252).
+================================================================================
+END OF BIOTYPES FILTERING SUMMARY
+================================================================================

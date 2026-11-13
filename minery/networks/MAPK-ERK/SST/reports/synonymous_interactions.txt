@@ -1,0 +1,173 @@
+================================================================================
+REPORT: SYNONYMOUS INTERACTIONS DETECTED
+Study: SST / MAPK-ERK neuroendocrine tumor correlation analysis
+Working directory: /home/jose-lopez/tools/runnable/minery/networks/MAPK-ERK/SST
+================================================================================
+
+Synonym sources used: synonyms.pl (~443 entries), aligned.pl.
+Structure modeled on reference_reports/02_synonymous_interactions.txt
+(FORM/STRUCTURE ONLY; no knowledge extracted from reference_reports/).
+
+This report detects synonymous interactions: pairs of kBase.pl event/3 facts
+that use different PubTator names for the SAME entity and therefore describe
+the same biological interaction. It also flags artifacts to exclude.
+
+--------------------------------------------------------------------------------
+1. S6K ≡ RPS6KB1 (aligned_as / gene synonym)
+--------------------------------------------------------------------------------
+aligned.pl: aligned_as('S6K', ['RPS6KB1', 'S6K', 'P.S6K']).
+synonyms.pl: synonyms('RPS6KB1', ['RPS6KB1','P70 S6K','S6K','P70S6K',...]).
+
+kBase.pl contains events using both names:
+
+  Using 'RPS6KB1' (canonical PubTator name in kBase):
+    event('RPS6KB1',negative_correlation,'SIROLIMUS')   [line 12-13]
+    event('SIROLIMUS',negative_correlation,'RPS6KB1')   [line 13]
+
+  Using 'S6K' (expert object name, expert_objects.txt line 14):
+    (no direct 'S6K' event in kBase.pl; 'S6K' appears only via aligned_as)
+
+Impact: S6K and RPS6KB1 are the SAME gene (ribosomal protein S6 kinase
+beta-1 / p70 S6K). All 'S6K' references (expert object) map to kBase
+'RPS6KB1' events. TRUE synonym.
+Documentation: aligned.pl:86; synonyms.pl RPS6KB1 entry; kBaseDoc lines
+for RPS6KB1 events (same sentences as SIROLIMUS block, PMID 20068168).
+
+--------------------------------------------------------------------------------
+2. P53 ≡ TP53 (gene synonym)
+--------------------------------------------------------------------------------
+aligned.pl: aligned_as('P53', ['TP53','TRP53-PS','TRP53','P53-PS','TP53.L','P53']).
+synonyms.pl: synonyms('TP53', ['TP53','P53','P 53','TUMOR PROTEIN P53',...]).
+
+kBase.pl contains events using both names:
+
+  Using 'TP53' (canonical in kBase):
+    event('NEUROENDOCRINE TUMORS',association,'TP53')   [line 62589]
+
+  Using 'P53' (expert object name, expert_objects.txt line 62):
+    (no direct 'P53' event in kBase.pl; 'P53' maps to TP53 via aligned_as)
+
+Impact: P53 and TP53 are the SAME gene. Expert object 'P53' maps to kBase
+'TP53' event at line 62589 (NET association). TRUE synonym.
+Documentation: aligned.pl:104; synonyms.pl TP53 entry; kBaseDoc block at
+line 62589 (PubMed ID in corresponding Regulatory Event block).
+
+--------------------------------------------------------------------------------
+3. DCTN6 ≡ CDKN1B ≡ P27 / KIP1 (gene synonym)
+--------------------------------------------------------------------------------
+synonyms.pl: synonyms('DCTN6', ['DCTN6','P27']).
+synonyms.pl: synonyms('CDKN1B', ['CDKN1B','KIP1','P27KIP1','P27','P27 KIP1',...]).
+
+kBase.pl contains events using both names:
+
+  Using 'DCTN6':
+    event('OCTREOTIDE',positive_correlation,'DCTN6')   [line 4-5]
+    event('DCTN6',positive_correlation,'OCTREOTIDE')   [line 5]
+    event('DCTN6',positive_correlation,'SIROLIMUS')    [line 30]
+    event('SIROLIMUS',positive_correlation,'DCTN6')    [line 31]
+
+  Using 'CDKN1B':
+    event('CDKN1B',positive_correlation,'SIROLIMUS')   [line 18-19]
+    event('SIROLIMUS',positive_correlation,'CDKN1B')   [line 19]
+    event('CDKN1B',positive_correlation,'OCTREOTIDE')  [line 22-23]
+    event('OCTREOTIDE',positive_correlation,'CDKN1B')  [line 23]
+
+Impact: DCTN6, CDKN1B, P27, KIP1 are the SAME gene (cyclin-dependent kinase
+inhibitor 1B / p27Kip1). kBase uses DCTN6 in the OCTREOTIDE/SIROLIMUS
+blocks (lines 4-5, 30-31) and CDKN1B in parallel blocks (lines 18-19, 22-23).
+These are DUPLICATE interaction types describing the same gene.
+TRUE synonym.
+Documentation: synonyms.pl DCTN6 & CDKN1B entries; kBaseDoc PMID 20068168
+(OCTREOTIDE/SIROLIMUS pituitary tumor rapamycin sensitivity block).
+
+--------------------------------------------------------------------------------
+4. SSTR2 ≡ SSTR5 overlap (receptor subtype synonym pollution)
+--------------------------------------------------------------------------------
+synonyms.pl: synonyms('SSTR2', ['SSTR2',...,'SSTR5',...]).
+synonyms.pl: synonyms('SSTR5', ['SSTR5',...,'SSTR2',...]).
+aligned.pl: aligned_as('SSTR5', ['SSTR2','SSTR5']).
+
+kBase.pl contains events using both names:
+
+  Using 'SSTR2':
+    event('OCTREOTIDE',association,'SSTR2')          [line 2462]
+    event('NEUROENDOCRINE TUMORS',association,'SSTR2') [line 10959]
+
+  Using 'SSTR5':
+    event('OCTREOTIDE',association,'SSTR5')          [line 2469]
+    event('NEUROENDOCRINE TUMORS',association,'SSTR5') [line 10957]
+    event('SSTR5',positive_correlation,'NEUROENDOCRINE TUMORS') [line 65289]
+
+Impact: PubTator assigned SSTR5 to SSTR2 synonyms and vice versa, and
+aligned_as('SSTR5',['SSTR2','SSTR5']) conflates them. In the NET context,
+SSTR2 and SSTR5 are distinct receptor subtypes but BOTH bind octreotide and
+are expressed in NETs (PMID 35020172: "OCT interacts with somatostatin
+receptors 2 and 5"). Treated as TRUE synonyms for the octreotide/NET axis
+but FLAGGED for subtype-specific review (SSTR2 vs SSTR5 may have distinct
+drug affinities and signaling).
+Documentation: synonyms.pl SSTR2/SSTR5 entries; aligned.pl:89; kBaseDoc
+PMID 35020172, 7631795, 20529830, 28155055.
+
+--------------------------------------------------------------------------------
+5. OCTREOTIDE ≡ SANDOSTATIN ≡ SMS-201-995 ≡ SMS 201-995 (drug synonym)
+--------------------------------------------------------------------------------
+synonyms.pl: synonyms('OCTREOTIDE', ['OCTREOTIDE','SMS-201-995','SMS 201-995',
+'SANDOSTATIN','OC','OCTREOTIDE ACETATE',...]).
+
+kBase.pl predominantly normalizes to 'OCTREOTIDE' (588 events). Synonym
+forms (SANDOSTATIN, SMS-201-995) appear only in subject/object synonym lists,
+not as distinct event entities. kBase is well-curated here (analogous to
+COVID-19 normalization noted in reference report 02).
+Impact: Minimal synonym pollution; OCTREOTIDE is the canonical name. TRUE
+synonym set, all mapped to 'OCTREOTIDE'.
+Documentation: synonyms.pl OCTREOTIDE entry; kBase.pl OCTREOTIDE events
+(PMID 35020172 et al.).
+
+--------------------------------------------------------------------------------
+6. MAPK1 ≡ ERK2 ≡ ERK1/2 (protein synonym / alias)
+--------------------------------------------------------------------------------
+synonyms.pl (ERK family entries) and kBase.pl object names for MAPK1 include
+['MAPK1','ERK','EXTRACELLULAR SIGNAL-REGULATED KINASE','ERK2','ERK-2',...,
+'MITOGEN-ACTIVATED PROTEIN KINASE 1',...].
+
+kBase.pl:
+  event('OCTREOTIDE',negative_correlation,'MAPK1')   [line 2528; PMID 12478891]
+  event('MAPK1',negative_correlation,'OCTREOTIDE')   [line 2528]
+
+Impact: The object-name list for MAPK1 already expands aliases (ERK2, ERK1/2,
+P42MAPK). No duplicate event entities; canonical 'MAPK1' used. TRUE alias set,
+no pollution.
+Documentation: kBaseDoc block at line 2528 (PMID 12478891); synonyms.pl MAPK
+family entries.
+
+--------------------------------------------------------------------------------
+7. PUBTATOR ARTIFACT TO EXCLUDE: NEOPLASMS ≡ 'MICA' (microinvasive carcinoma)
+--------------------------------------------------------------------------------
+Pattern documented in reference_reports/02_synonymous_interactions.txt
+(STRUCTURE/FORM ONLY): synonyms('NEOPLASMS',[...,'MICA',...]) where 'MICA'
+means "microinvasive carcinomas" ≠ the MICA gene.
+
+This artifact is NOT present in the SST expert object set (MICA is not an
+expert object here). It is flagged as a pattern to AVOID when expanding
+synonyms for the NEOPLASMS/CARCINOMA NEUROENDICRINE disease supertype.
+If NEOPLASMS events were ever equated to MICA-gene events, they would be
+FALSE synonymous pairs (12 confirmed false pairs in the COVID-19 reference
+study). EXCLUDED from this study's deduplication.
+
+--------------------------------------------------------------------------------
+SUMMARY TABLE
+--------------------------------------------------------------------------------
+
+| Synonym group             | Type              | kBase event pairs | True/Artifact | Action                        |
+|---------------------------|-------------------|-------------------|---------------|-------------------------------|
+| S6K = RPS6KB1             | Gene synonym      | ~2                | TRUE          | Map S6K → RPS6KB1             |
+| P53 = TP53                | Gene synonym      | 1                 | TRUE          | Map P53 → TP53 (line 62589)   |
+| DCTN6 = CDKN1B = P27      | Gene synonym      | ~8                | TRUE          | Deduplicate DCTN6/CDKN1B      |
+| SSTR2 ≈ SSTR5             | Receptor overlap  | ~6                | TRUE (flag)   | Keep distinct; flag for review|
+| OCTREOTIDE = SANDOSTATIN  | Drug synonym      | 0 (canonical only)| TRUE          | OCTREOTIDE canonical          |
+| MAPK1 = ERK2/ERK1/2       | Protein alias     | 0 (expanded list) | TRUE          | No pollution                  |
+| NEOPLASMS = MICA          | PubTator artifact | 0 (not in set)    | ARTIFACT      | EXCLUDE (pattern to avoid)    |
+
+================================================================================
+END OF SYNONYMOUS INTERACTIONS REPORT
+================================================================================

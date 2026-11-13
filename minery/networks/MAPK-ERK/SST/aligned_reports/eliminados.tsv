@@ -1,0 +1,5 @@
+Symbol	Documentation	Criterion
+Somatostatin	synonyms.pl SST record line 7 includes SOMATOSTATIN; kBase.pl event('OCTREOTIDE',negative_correlation,'SST') line 8	Substituted to SST; SST already present in expert_objects.txt as aligned symbol
+SRIF	synonyms.pl SST record line 7 includes SRIF; kBase.pl event('OCTREOTIDE',negative_correlation,'SST') line 8	Substituted to SST; SST already present in expert_objects.txt as aligned symbol
+GATA	synonyms.pl GATA3 record line 127 includes GATA; kBase.pl event('GATA3',association,'EGFL7') line 251	Substituted to GATA3; GATA3 already present in expert_objects.txt as aligned symbol
+CREB	synonyms.pl CREB1 record line 34 includes CREB; kBase.pl event('CREB1',association,'FOS') line 84	Duplicate symbol (line 25); substituted to CREB1 which is already present from first occurrence (line 12)

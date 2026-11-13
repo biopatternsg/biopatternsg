@@ -1,0 +1,1612 @@
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_1.txt, at line: 253
+No sentences for the event: SNHG1,association,HDAC2. PubMed: 36130928
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_1.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_1.txt, at line: 255
+No sentences for the event: NEUROBLASTOMA,association,HDAC2. PubMed: 36130928
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_1.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_10.txt, at line: 18
+No sentences for the event: MAPK3,association,RPS6KA3. PubMed: 22031759
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_10.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_10.txt, at line: 23
+No sentences for the event: MAPK1,association,RPS6KA3. PubMed: 22031759
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_10.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_10.txt, at line: 126
+No sentences for the event: FIDARESTAT,negative_correlation,#1978#. PubMed: 23827854
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_10.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_10.txt, at line: 736
+No sentences for the event: ELK4,association,RPS6KA3. PubMed: 31018569
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_10.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_10.txt, at line: 1136
+No sentences for the event: ACTR3,association,GRB2. PubMed: 15579908
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_10.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_10.txt, at line: 1141
+No sentences for the event: WISKOTT-ALDRICH SYNDROME,association,ACTR3. PubMed: 15579908
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_10.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_10.txt, at line: 1145
+No sentences for the event: ACTR3,association,NCK2. PubMed: 15579908
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_10.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_10.txt, at line: 1146
+No sentences for the event: ACTR3,association,CTTN. PubMed: 15579908
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_10.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_10.txt, at line: 1148
+No sentences for the event: ACTR3,positive_correlation,WAS. PubMed: 15579908
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_10.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_10.txt, at line: 1149
+No sentences for the event: ACTR3,association,EGFR. PubMed: 15579908
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_10.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_10.txt, at line: 1160
+No sentences for the event: WNT3,association,NKX3-1. PubMed: 15754041
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_10.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_10.txt, at line: 1161
+No sentences for the event: NKX3-1,association,WNT3. PubMed: 15754041
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_10.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_10.txt, at line: 1177
+No sentences for the event: CARCINOMA SQUAMOUS CELL,association,LOC220729. PubMed: 19607727
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_10.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_10.txt, at line: 1220
+No sentences for the event: NKX3-1,association,NICN1. PubMed: 20821255
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_10.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_11.txt, at line: 123
+No sentences for the event: 613700,association,TLX1. PubMed: 37058324
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_11.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_11.txt, at line: 270
+No sentences for the event: DIHYDROTESTOSTERONE,association,MAP2K2. PubMed: 15466214
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_11.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_11.txt, at line: 274
+No sentences for the event: MAPK3,association,MAP2K2. PubMed: 15466214
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_11.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_11.txt, at line: 279
+No sentences for the event: AR,association,MAP2K2. PubMed: 15466214
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_11.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_11.txt, at line: 288
+No sentences for the event: SRA1,association,MAP2K2. PubMed: 15466214
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_11.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_11.txt, at line: 291
+No sentences for the event: MAPK1,association,MAP2K2. PubMed: 15466214
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_11.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_11.txt, at line: 816
+No sentences for the event: MAP2K2,association,TNF. PubMed: 29356241
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_11.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_11.txt, at line: 824
+No sentences for the event: IL1B,association,MAP2K2. PubMed: 30587692
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_11.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_11.txt, at line: 907
+No sentences for the event: TIC10 COMPOUND,negative_correlation,DRD3. PubMed: 34873466
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_11.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_12.txt, at line: 126
+No sentences for the event: BISPHENOL A,association,MAPK10. PubMed: 36232920
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_12.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_12.txt, at line: 563
+No sentences for the event: DMP1,negative_correlation,E2F2. PubMed: 16878159
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_12.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_12.txt, at line: 631
+No sentences for the event: PULMONARY FIBROSIS,association,#4318#. PubMed: 22519702
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_12.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_12.txt, at line: 807
+No sentences for the event: AIDS-RELATED COMPLEX,association,CRYAA2. PubMed: 28755661
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_12.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_12.txt, at line: 808
+No sentences for the event: CATARACT NUCLEAR PROGRESSIVE,association,CRYAA2. PubMed: 28755661
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_12.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_12.txt, at line: 816
+No sentences for the event: COLORECTAL NEOPLASMS,association,MIR429. PubMed: 29206819
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_12.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_12.txt, at line: 818
+No sentences for the event: RHOA,negative_correlation,MIR429. PubMed: 29206819
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_12.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_12.txt, at line: 1276
+No sentences for the event: E2F6,association,EGFR. PubMed: 35438040
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_12.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_12.txt, at line: 1282
+No sentences for the event: E2F6,association,BRAF. PubMed: 35438040
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_12.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_12.txt, at line: 1355
+No sentences for the event: HBB,association,KDR. PubMed: 12842710
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_12.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_12.txt, at line: 1365
+No sentences for the event: HBB,association,PECAM1. PubMed: 12842710
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_12.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_13.txt, at line: 138
+No sentences for the event: ATRIAL FIBRILLATION,association,NKX3-1. PubMed: 20062060
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_13.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_13.txt, at line: 337
+No sentences for the event: CELL TRANSFORMATION NEOPLASTIC,association,SREBF2. PubMed: 29328367
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_13.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_13.txt, at line: 692
+No sentences for the event: C.+2248T>C,association,C.+2365T>C. PubMed: 23454006
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_13.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_13.txt, at line: 768
+No sentences for the event: OSTEITIS DEFORMANS,association,MAOA. PubMed: 28993189
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_13.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_13.txt, at line: 769
+No sentences for the event: BONE DISEASES,association,MAOA. PubMed: 28993189
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_13.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_13.txt, at line: 1049
+No sentences for the event: FGF9,positive_correlation,TH. PubMed: 9763463
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_13.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_13.txt, at line: 1137
+No sentences for the event: MAP2K6,association,GIP. PubMed: 12960055
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_13.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_13.txt, at line: 1188
+No sentences for the event: INFECTIONS,association,MAP2K2. PubMed: 16051824
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_13.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_13.txt, at line: 1425
+No sentences for the event: #23475#,positive_correlation,DEPRESSION POSTPARTUM. PubMed: 42032984
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_13.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_13.txt, at line: 1426
+No sentences for the event: #23475#,positive_correlation,RS9933310. PubMed: 42032984
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_13.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_13.txt, at line: 1530
+No sentences for the event: LEUKEMIA MYELOID,association,MAP2K2. PubMed: 11238126
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_13.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_13.txt, at line: 1541
+No sentences for the event: LEUKEMIA MYELOID ACUTE,association,MAP2K2. PubMed: 11238126
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_13.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_13.txt, at line: 1582
+No sentences for the event: 2-(2-AMINO-3-METHOXYPHENYL)-4H-1-BENZOPYRAN-4-ONE,negative_correlation,MAP2K2. PubMed: 11732999
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_13.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_14.txt, at line: 18
+No sentences for the event: KLEBSIELLA INFECTIONS,association,MAP2K2. PubMed: 16922865
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_14.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_14.txt, at line: 19
+No sentences for the event: 2-(2-AMINO-3-METHOXYPHENYL)-4H-1-BENZOPYRAN-4-ONE,negative_correlation,MAP2K2. PubMed: 16922865
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_14.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_14.txt, at line: 22
+No sentences for the event: U 0126,negative_correlation,MAP2K2. PubMed: 16922865
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_14.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_14.txt, at line: 158
+No sentences for the event: 2-(2-AMINO-3-METHOXYPHENYL)-4H-1-BENZOPYRAN-4-ONE,negative_correlation,MAP2K2. PubMed: 22033125
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_14.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_14.txt, at line: 581
+No sentences for the event: #861#,association,P.R233K. PubMed: 32573733
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_14.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_14.txt, at line: 585
+No sentences for the event: #861#,association,#861#. PubMed: 32573733
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_14.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_14.txt, at line: 592
+No sentences for the event: LEUKEMIA,association,#861#. PubMed: 32573733
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_14.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_14.txt, at line: 594
+No sentences for the event: LEUKEMIA MYELOID ACUTE,association,#861#. PubMed: 32573733
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_14.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_14.txt, at line: 1330
+No sentences for the event: #4893#,association,P.Q61R. PubMed: 39778822
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_14.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_14.txt, at line: 1339
+No sentences for the event: NRAS,association,#4893#. PubMed: 39778822
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_14.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_14.txt, at line: 1340
+No sentences for the event: MELANOMA,association,#4893#. PubMed: 39778822
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_14.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_14.txt, at line: 1455
+No sentences for the event: GABPB1,positive_correlation,IL16. PubMed: 9990060
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_14.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_14.txt, at line: 1481
+No sentences for the event: BUCLADESINE,association,PRKD1. PubMed: 14751542
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_14.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_15.txt, at line: 674
+No sentences for the event: LYMPHOMA LARGE B-CELL DIFFUSE,association,LMP-1. PubMed: 41632332
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_15.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_15.txt, at line: 679
+No sentences for the event: LMP-1,positive_correlation,NFKB1. PubMed: 41632332
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_15.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_15.txt, at line: 685
+No sentences for the event: HODGKIN DISEASE,association,LMP-1. PubMed: 41632332
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_15.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_15.txt, at line: 686
+No sentences for the event: NEOPLASMS,positive_correlation,LMP-1. PubMed: 41632332
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_15.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_15.txt, at line: 1348
+No sentences for the event: CONGENITAL HYPOTHYROIDISM,association,NKX3-1. PubMed: 30022773
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_15.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_15.txt, at line: 1359
+No sentences for the event: THYROID DYSGENESIS,association,NKX3-1. PubMed: 30022773
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_15.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_16.txt, at line: 63
+No sentences for the event: TRAMETINIB,negative_correlation,#673#. PubMed: 42694471
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_16.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_16.txt, at line: 64
+No sentences for the event: ADENOCARCINOMA OF LUNG,association,#673#. PubMed: 42694471
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_16.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_16.txt, at line: 72
+No sentences for the event: HYPERGLYCEMIA,association,#673#. PubMed: 42694471
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_16.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_16.txt, at line: 648
+No sentences for the event: LEUKEMIA MYELOMONOCYTIC ACUTE,positive_correlation,#861#. PubMed: 28513614
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_16.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_16.txt, at line: 673
+No sentences for the event: HLA-A,association,RUNX1. PubMed: 33950983
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_16.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_16.txt, at line: 757
+No sentences for the event: #2113#,negative_correlation,PARKINSON DISEASE. PubMed: 22232350
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_16.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_16.txt, at line: 1271
+No sentences for the event: SMAD5,positive_correlation,BMP7. PubMed: 19222702
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_16.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_16.txt, at line: 1277
+No sentences for the event: HYPOGLYCEMIC ENCEPHALOPATHY,association,SMAD5. PubMed: 19222702
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_16.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_16.txt, at line: 1281
+No sentences for the event: BDNF,association,SMAD5. PubMed: 19222702
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_16.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_17.txt, at line: 369
+No sentences for the event: BREAST NEOPLASMS,association,ARF6. PubMed: 21478909
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_17.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_17.txt, at line: 1172
+No sentences for the event: SERPINB2,association,SDC1. PubMed: 22573479
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_17.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_17.txt, at line: 1175
+No sentences for the event: RHOC,association,SDC1. PubMed: 22573479
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_17.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_17.txt, at line: 1236
+No sentences for the event: YAP1,negative_correlation,LAT2. PubMed: 32032546
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_17.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_18.txt, at line: 61
+No sentences for the event: GATA2 DEFICIENCY,association,LMP-1. PubMed: 42000415
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_18.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_18.txt, at line: 73
+No sentences for the event: LMP-1,positive_correlation,NFKB1. PubMed: 42000415
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_18.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_18.txt, at line: 78
+No sentences for the event: LMP-1,positive_correlation,PIK3CB. PubMed: 42000415
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_18.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_18.txt, at line: 87
+No sentences for the event: AKT1,positive_correlation,LMP-1. PubMed: 42000415
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_18.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_18.txt, at line: 543
+No sentences for the event: INFLAMMATION,positive_correlation,RNU1-1. PubMed: 24086653
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_18.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_18.txt, at line: 544
+No sentences for the event: RNU1-1,positive_correlation,TNF. PubMed: 24086653
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_18.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_18.txt, at line: 550
+No sentences for the event: RNU1-1,positive_correlation,IL1A. PubMed: 24086653
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_18.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_18.txt, at line: 859
+No sentences for the event: CTNNB1,association,SMAD5. PubMed: 35898655
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_18.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_19.txt, at line: 608
+No sentences for the event: NEOPLASMS,association,RNPEP. PubMed: 20726781
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_19.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_19.txt, at line: 1861
+No sentences for the event: LEUKEMIA,association,#1050#. PubMed: 18302931
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_19.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_2.txt, at line: 134
+No sentences for the event: CORONARY RESTENOSIS,association,TLR8. PubMed: 36740793
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_2.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_2.txt, at line: 205
+No sentences for the event: FASLG,association,MAP2. PubMed: 37055935
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_2.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_2.txt, at line: 236
+No sentences for the event: GLUTATHIONE,association,MAP2. PubMed: 37055935
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_2.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_2.txt, at line: 243
+No sentences for the event: FDX1,association,MAP2. PubMed: 37055935
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_2.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_2.txt, at line: 248
+No sentences for the event: FABP7,association,MAP2. PubMed: 37055935
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_2.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_2.txt, at line: 254
+No sentences for the event: DITIOCARB,association,MAP2. PubMed: 37055935
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_2.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_2.txt, at line: 298
+No sentences for the event: HMGB1,association,MAP2. PubMed: 37055935
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_2.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_2.txt, at line: 333
+No sentences for the event: MAP2,association,SLC11A2. PubMed: 37055935
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_2.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_2.txt, at line: 346
+No sentences for the event: COX11,association,MAP2. PubMed: 37055935
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_2.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_2.txt, at line: 380
+No sentences for the event: GPX4,association,MAP2. PubMed: 37055935
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_2.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_2.txt, at line: 381
+No sentences for the event: THULIUM,association,MAP2. PubMed: 37055935
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_2.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_2.txt, at line: 395
+No sentences for the event: DDIT3,association,MAP2. PubMed: 37055935
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_2.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_2.txt, at line: 402
+No sentences for the event: MAPK14,association,MAP2. PubMed: 37055935
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_2.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_2.txt, at line: 418
+No sentences for the event: MAP2,association,VEGFA. PubMed: 37055935
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_2.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_2.txt, at line: 453
+No sentences for the event: REACTIVE OXYGEN SPECIES,association,MAP2. PubMed: 37055935
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_2.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_2.txt, at line: 459
+No sentences for the event: MAP2,association,MEMO1. PubMed: 37055935
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_2.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_2.txt, at line: 463
+No sentences for the event: MAP2,association,EIF2AK3. PubMed: 37055935
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_2.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_2.txt, at line: 525
+No sentences for the event: XIAP,association,MAP2. PubMed: 37055935
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_2.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_2.txt, at line: 546
+No sentences for the event: MAP2,association,TAX1BP1. PubMed: 37055935
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_2.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_2.txt, at line: 619
+No sentences for the event: MTOR,association,MAP2. PubMed: 37055935
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_2.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_2.txt, at line: 623
+No sentences for the event: MAP2,association,TP53. PubMed: 37055935
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_2.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_2.txt, at line: 654
+No sentences for the event: MAP2,association,PMAIP1. PubMed: 37055935
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_2.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_2.txt, at line: 675
+No sentences for the event: FAS,association,MAP2. PubMed: 37055935
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_2.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_2.txt, at line: 679
+No sentences for the event: TRIETHYLENEPHOSPHORAMIDE,association,MAP2. PubMed: 37055935
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_2.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_2.txt, at line: 680
+No sentences for the event: COX17,association,MAP2. PubMed: 37055935
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_2.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_2.txt, at line: 707
+No sentences for the event: MAP2,association,ULK2. PubMed: 37055935
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_2.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_2.txt, at line: 713
+No sentences for the event: MAP2,association,UCHL5. PubMed: 37055935
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_2.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_2.txt, at line: 716
+No sentences for the event: IL1B,association,MAP2. PubMed: 37055935
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_2.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_2.txt, at line: 753
+No sentences for the event: MAP2,association,COX2. PubMed: 37055935
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_2.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_2.txt, at line: 790
+No sentences for the event: DBH,association,MAP2. PubMed: 37055935
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_2.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_2.txt, at line: 858
+No sentences for the event: MAP2,association,USP14. PubMed: 37055935
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_2.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_2.txt, at line: 914
+No sentences for the event: TETRAETHYLENEPENTAMINE,association,MAP2. PubMed: 37055935
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_2.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_2.txt, at line: 973
+No sentences for the event: MAP2,association,TXNRD1. PubMed: 37055935
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_2.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_2.txt, at line: 995
+No sentences for the event: DLAT,association,MAP2. PubMed: 37055935
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_2.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_2.txt, at line: 1115
+No sentences for the event: MAP2,association,ULK1. PubMed: 37055935
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_2.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_2.txt, at line: 1120
+No sentences for the event: MAP2,association,FADD. PubMed: 37055935
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_2.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_2.txt, at line: 1186
+No sentences for the event: COPPER,association,MAP2. PubMed: 37055935
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_2.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_2.txt, at line: 1210
+No sentences for the event: MAP2,association,SQSTM1. PubMed: 37055935
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_2.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_2.txt, at line: 1215
+No sentences for the event: SLC7A11,association,MAP2. PubMed: 37055935
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_2.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_2.txt, at line: 1224
+No sentences for the event: FABP3,association,MAP2. PubMed: 37055935
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_2.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_2.txt, at line: 1239
+No sentences for the event: FATTY ACIDS UNSATURATED,association,MAP2. PubMed: 37055935
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_2.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_2.txt, at line: 1285
+No sentences for the event: ACETYLCYSTEINE,association,MAP2. PubMed: 37055935
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_2.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_2.txt, at line: 1320
+No sentences for the event: TETRATHIOMOLYBDATE,association,MAP2. PubMed: 37055935
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_2.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_2.txt, at line: 1338
+No sentences for the event: DFNA34,association,MAP2. PubMed: 37055935
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_2.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_2.txt, at line: 1342
+No sentences for the event: MAP2,association,COX1. PubMed: 37055935
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_2.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_2.txt, at line: 1389
+No sentences for the event: MAP2,association,NPLOC4. PubMed: 37055935
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_2.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_2.txt, at line: 1429
+No sentences for the event: MAP2,association,PDK1. PubMed: 37055935
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_2.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_2.txt, at line: 1465
+No sentences for the event: MAP2,association,SCO1. PubMed: 37055935
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_2.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_2.txt, at line: 1468
+No sentences for the event: MAP2,association,MAP2K1. PubMed: 37055935
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_2.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_2.txt, at line: 1482
+No sentences for the event: MAP2,association,EIF2A. PubMed: 37055935
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_2.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_2.txt, at line: 1505
+No sentences for the event: MAP2,association,NFKB1. PubMed: 37055935
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_2.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_2.txt, at line: 1520
+No sentences for the event: MAP2,association,CYCS. PubMed: 37055935
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_2.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_2.txt, at line: 1578
+No sentences for the event: MAP2,association,STEAP4. PubMed: 37055935
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_2.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_2.txt, at line: 1591
+No sentences for the event: PHOSPHOLIPIDS,association,MAP2. PubMed: 37055935
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_2.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_2.txt, at line: 1644
+No sentences for the event: HIF1A,association,MAP2. PubMed: 37055935
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_2.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_2.txt, at line: 1703
+No sentences for the event: MAP2,association,TFEB. PubMed: 37055935
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_2.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_2.txt, at line: 2162
+No sentences for the event: GATA1,negative_correlation,NKX3-1. PubMed: 21464046
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_2.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_20.txt, at line: 162
+No sentences for the event: LUNG NEOPLASMS,association,#5728#. PubMed: 29108454
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_20.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_20.txt, at line: 192
+No sentences for the event: RNF125,association,PTEN. PubMed: 33724154
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_20.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_20.txt, at line: 194
+No sentences for the event: NEDD4,association,RNF125. PubMed: 33724154
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_20.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_20.txt, at line: 205
+No sentences for the event: RNF125,association,TRAF6. PubMed: 33724154
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_20.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_20.txt, at line: 219
+No sentences for the event: MLKL,association,RNF125. PubMed: 33724154
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_20.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_20.txt, at line: 227
+No sentences for the event: NFKB1,association,RNF125. PubMed: 33724154
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_20.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_20.txt, at line: 233
+No sentences for the event: RNF125,association,MAP2K4. PubMed: 33724154
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_20.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_20.txt, at line: 236
+No sentences for the event: REACTIVE OXYGEN SPECIES,association,RNF125. PubMed: 33724154
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_20.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_20.txt, at line: 237
+No sentences for the event: RNF125,association,TNFRSF1A. PubMed: 33724154
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_20.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_20.txt, at line: 243
+No sentences for the event: RNF125,association,SRC. PubMed: 33724154
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_20.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_20.txt, at line: 250
+No sentences for the event: ENCEPHALITIS JAPANESE,association,RNF125. PubMed: 33724154
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_20.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_20.txt, at line: 272
+No sentences for the event: ZHX2,association,RNF125. PubMed: 33724154
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_20.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_20.txt, at line: 308
+No sentences for the event: RNF125,association,TNFAIP3. PubMed: 33724154
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_20.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_20.txt, at line: 359
+No sentences for the event: RIPK3,association,RNF125. PubMed: 33724154
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_20.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_20.txt, at line: 381
+No sentences for the event: DFNA34,association,RNF125. PubMed: 33724154
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_20.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_20.txt, at line: 416
+No sentences for the event: ENCEPHALITIS JAPANESE,association,IRAK2. PubMed: 33724154
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_20.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_20.txt, at line: 417
+No sentences for the event: RAB7B,association,RNF125. PubMed: 33724154
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_20.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_20.txt, at line: 429
+No sentences for the event: RNF11,association,RNF125. PubMed: 33724154
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_20.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_20.txt, at line: 448
+No sentences for the event: RNF125,association,NKRF. PubMed: 33724154
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_20.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_20.txt, at line: 455
+No sentences for the event: PAK4,association,RNF125. PubMed: 33724154
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_20.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_20.txt, at line: 462
+No sentences for the event: NITRIC OXIDE,association,RNF125. PubMed: 33724154
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_20.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_20.txt, at line: 473
+No sentences for the event: INPP5D,association,RNF125. PubMed: 33724154
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_20.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_20.txt, at line: 478
+No sentences for the event: RNF125,association,EIF2AK3. PubMed: 33724154
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_20.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_20.txt, at line: 485
+No sentences for the event: DDX58,association,RNF125. PubMed: 33724154
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_20.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_20.txt, at line: 493
+No sentences for the event: RNF125,association,TNF. PubMed: 33724154
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_20.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_20.txt, at line: 500
+No sentences for the event: RNF125,association,MAPKAPK2. PubMed: 33724154
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_20.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_20.txt, at line: 531
+No sentences for the event: TICAM1,association,RNF125. PubMed: 33724154
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_20.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_20.txt, at line: 554
+No sentences for the event: RNF125,association,SOCS5. PubMed: 33724154
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_20.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_20.txt, at line: 574
+No sentences for the event: MYD88,association,RNF125. PubMed: 33724154
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_20.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_20.txt, at line: 581
+No sentences for the event: RNF125,association,RIPK1. PubMed: 33724154
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_20.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_20.txt, at line: 1627
+No sentences for the event: MMP19,positive_correlation,RAC1. PubMed: 28098862
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_20.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_20.txt, at line: 1638
+No sentences for the event: TETRADECANOYLPHORBOL ACETATE,positive_correlation,MMP19. PubMed: 28098862
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_20.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_21.txt, at line: 66
+No sentences for the event: C.196C>T,positive_correlation,ALCOHOL FETOPATHY. PubMed: 39682779
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_21.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_21.txt, at line: 67
+No sentences for the event: FETAL AKINESIA SYNDROME X-LINKED,association,P.R66W. PubMed: 39682779
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_21.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_21.txt, at line: 68
+No sentences for the event: BRAIN STEM NEOPLASMS,association,P.R66W. PubMed: 39682779
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_21.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_21.txt, at line: 69
+No sentences for the event: ALCOHOL FETOPATHY,positive_correlation,P.R66W. PubMed: 39682779
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_21.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_21.txt, at line: 70
+No sentences for the event: AGENESIS OF CORPUS CALLOSUM,association,P.R66W. PubMed: 39682779
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_21.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_21.txt, at line: 71
+No sentences for the event: OPTIC NERVE HYPOPLASIA,positive_correlation,P.R66W. PubMed: 39682779
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_21.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_21.txt, at line: 72
+No sentences for the event: IMMUNOLOGIC DEFICIENCY SYNDROMES,positive_correlation,P.R66W. PubMed: 39682779
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_21.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_21.txt, at line: 73
+No sentences for the event: C.196C>T,association,FETAL AKINESIA SYNDROME X-LINKED. PubMed: 39682779
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_21.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_21.txt, at line: 74
+No sentences for the event: C.196C>T,association,BRAIN STEM NEOPLASMS. PubMed: 39682779
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_21.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_21.txt, at line: 75
+No sentences for the event: CENTRAL NERVOUS SYSTEM VASCULAR MALFORMATIONS,association,P.R66W. PubMed: 39682779
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_21.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_21.txt, at line: 76
+No sentences for the event: C.196C>T,positive_correlation,OPTIC NERVE HYPOPLASIA. PubMed: 39682779
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_21.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_21.txt, at line: 78
+No sentences for the event: C.196C>T,association,CENTRAL NERVOUS SYSTEM VASCULAR MALFORMATIONS. PubMed: 39682779
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_21.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_21.txt, at line: 113
+No sentences for the event: POEMS SYNDROME,association,P.T17R. PubMed: 41090727
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_21.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_21.txt, at line: 114
+No sentences for the event: CONTRACTURE,association,P.T17R. PubMed: 41090727
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_21.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_21.txt, at line: 116
+No sentences for the event: CONGENITAL ABNORMALITIES,association,P.T17R. PubMed: 41090727
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_21.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_21.txt, at line: 117
+No sentences for the event: GUANOSINE DIPHOSPHATE,association,P.T17R. PubMed: 41090727
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_21.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_21.txt, at line: 631
+No sentences for the event: PLATINUM,association,SLC31A2. PubMed: 24889085
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_21.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_21.txt, at line: 637
+No sentences for the event: PLATINUM,association,SLC47A2. PubMed: 24889085
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_21.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_21.txt, at line: 642
+No sentences for the event: PLATINUM,association,SLC22A5. PubMed: 24889085
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_21.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_22.txt, at line: 1263
+No sentences for the event: BREAST NEOPLASMS,negative_correlation,#6464#. PubMed: 24837366
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_22.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_23.txt, at line: 176
+No sentences for the event: GATA2,association,LOC728825. PubMed: 12750312
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_23.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_23.txt, at line: 666
+No sentences for the event: GUANOSINE TRIPHOSPHATE,association,P.E254Q. PubMed: 40064882
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_23.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_23.txt, at line: 667
+No sentences for the event: GUANOSINE TRIPHOSPHATE,association,P.E254N. PubMed: 40064882
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_23.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_23.txt, at line: 668
+No sentences for the event: LATTICE CORNEAL DYSTROPHY TYPE 1,association,P.E254N. PubMed: 40064882
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_23.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_23.txt, at line: 1366
+No sentences for the event: 3-HYDROXY-7-METHYLCHOLANOIC ACID,positive_correlation,BMP6. PubMed: 30879871
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_23.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_23.txt, at line: 1381
+No sentences for the event: FORMONONETIN,association,SMAD5. PubMed: 31243298
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_23.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_24.txt, at line: 189
+No sentences for the event: #7528#,association,LUPUS ERYTHEMATOSUS SYSTEMIC. PubMed: 22504641
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_24.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_24.txt, at line: 218
+No sentences for the event: ORF3,negative_correlation,SP3. PubMed: 23523134
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_24.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_24.txt, at line: 220
+No sentences for the event: ORF3,negative_correlation,YY1. PubMed: 23523134
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_24.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_26.txt, at line: 885
+No sentences for the event: #7157#,association,CARCINOMA HEPATOCELLULAR. PubMed: 8389256
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_26.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_26.txt, at line: 886
+No sentences for the event: CARCINOMA HEPATOCELLULAR,association,#7157#. PubMed: 8389256
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_26.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_26.txt, at line: 888
+No sentences for the event: AFLATOXIN B1,positive_correlation,#7157#. PubMed: 8389256
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_26.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_27.txt, at line: 380
+No sentences for the event: ACTEOSIDE,negative_correlation,KLK2. PubMed: 32993568
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_27.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_27.txt, at line: 381
+No sentences for the event: ACTEOSIDE,negative_correlation,KLK4. PubMed: 32993568
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_27.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_27.txt, at line: 389
+No sentences for the event: ACTEOSIDE,negative_correlation,KLK9. PubMed: 32993568
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_27.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_27.txt, at line: 566
+No sentences for the event: CHRONIC DISEASE,association,#1385#. PubMed: 24038085
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_27.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_27.txt, at line: 1045
+No sentences for the event: MIRB,negative_correlation,IFNG. PubMed: 33521860
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_27.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_27.txt, at line: 1050
+No sentences for the event: MIRB,negative_correlation,MAPK14. PubMed: 33521860
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_27.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_27.txt, at line: 1051
+No sentences for the event: MIRB,association,MEF2A. PubMed: 33521860
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_27.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_27.txt, at line: 1053
+No sentences for the event: MIRB,association,MALAT1. PubMed: 33521860
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_27.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_27.txt, at line: 1055
+No sentences for the event: MIRB,positive_correlation,CEBPA. PubMed: 33521860
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_27.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_28.txt, at line: 1233
+No sentences for the event: TETRACYCLINE,association,#6670#. PubMed: 17685427
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_28.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_3.txt, at line: 966
+No sentences for the event: ANEMIA,association,#2623#. PubMed: 26680303
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_3.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_3.txt, at line: 1008
+No sentences for the event: ENDOMETRIOSIS,association,MIR183. PubMed: 29357938
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_3.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_30.txt, at line: 250
+No sentences for the event: GLIOBLASTOMA,association,OLIG2. PubMed: 35479408
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_30.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_30.txt, at line: 663
+No sentences for the event: COLORECTAL NEOPLASMS,association,#673#. PubMed: 39800382
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_30.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_30.txt, at line: 949
+No sentences for the event: VEMURAFENIB,negative_correlation,#2146#. PubMed: 41799498
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_30.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_30.txt, at line: 1406
+No sentences for the event: BMH2,association,GLN3. PubMed: 28007891
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_30.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_30.txt, at line: 1411
+No sentences for the event: GAT1,association,BMH2. PubMed: 28007891
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_30.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_30.txt, at line: 1412
+No sentences for the event: NITROGEN,association,BMH2. PubMed: 28007891
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_30.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_31.txt, at line: 33
+No sentences for the event: NEUROBLASTOMA,association,#4004#. PubMed: 37183825
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_31.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_31.txt, at line: 34
+No sentences for the event: NEUROBLASTOMA,positive_correlation,#4004#. PubMed: 37183825
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_31.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_31.txt, at line: 523
+No sentences for the event: JUNB,positive_correlation,ARF5. PubMed: 9020126
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_31.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_32.txt, at line: 390
+No sentences for the event: ARSH,positive_correlation,INS. PubMed: 8388384
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_32.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_33.txt, at line: 630
+No sentences for the event: #51477#,association,HYPERTENSION. PubMed: 20430007
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_33.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_33.txt, at line: 933
+No sentences for the event: #3630#,positive_correlation,HYPERTENSION. PubMed: 16565233
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_33.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_33.txt, at line: 1343
+No sentences for the event: DLL4,association,PUM2. PubMed: 25460604
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_33.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_35.txt, at line: 286
+No sentences for the event: CARBON,association,#4609#. PubMed: 41881963
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_35.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_35.txt, at line: 291
+No sentences for the event: NITROGEN,association,#4609#. PubMed: 41881963
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_35.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_36.txt, at line: 106
+No sentences for the event: NEOPLASMS,association,#10971#. PubMed: 41819264
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_36.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_36.txt, at line: 3329
+No sentences for the event: OBESITY,association,#57521#. PubMed: 37930356
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_36.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_37.txt, at line: 788
+No sentences for the event: SP1,association,#6667#. PubMed: 39755348
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_37.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_37.txt, at line: 789
+No sentences for the event: TUBASTATIN A,positive_correlation,#6667#. PubMed: 39755348
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_37.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_37.txt, at line: 1163
+No sentences for the event: CARCINOMA NON-SMALL-CELL LUNG,association,EGFR-AS1. PubMed: 42386709
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_37.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_39.txt, at line: 270
+No sentences for the event: MIR132,association,SOX4. PubMed: 34782204
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_39.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_39.txt, at line: 277
+No sentences for the event: AHR,association,MIR132. PubMed: 34782204
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_39.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_39.txt, at line: 966
+No sentences for the event: CLDN7,association,GRHL2. PubMed: 36691073
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_39.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_39.txt, at line: 967
+No sentences for the event: BREAST NEOPLASMS,association,CLDN7. PubMed: 36691073
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_39.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_39.txt, at line: 1084
+No sentences for the event: #4193#,positive_correlation,URINARY BLADDER NEOPLASMS. PubMed: 18519798
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_39.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_4.txt, at line: 315
+No sentences for the event: SUMO3,association,MTA1. PubMed: 21965678
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_4.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_4.txt, at line: 1234
+No sentences for the event: SPHINGOSINE 1-PHOSPHATE,association,S1PR4. PubMed: 33189864
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_4.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_4.txt, at line: 1236
+No sentences for the event: SPHINGOSINE 1-PHOSPHATE,association,S1PR5. PubMed: 33189864
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_4.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_40.txt, at line: 1134
+No sentences for the event: GASTRO-ENTEROPANCREATIC NEUROENDOCRINE TUMOR,association,#673#. PubMed: 39484039
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_40.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_40.txt, at line: 1135
+No sentences for the event: CARCINOMA NEUROENDOCRINE,association,#673#. PubMed: 39484039
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_40.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_41.txt, at line: 172
+No sentences for the event: MIR16-1,negative_correlation,SP1. PubMed: 26862517
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_41.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_41.txt, at line: 173
+No sentences for the event: MIR16-1,negative_correlation,MYB. PubMed: 26862517
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_41.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_41.txt, at line: 174
+No sentences for the event: MIR16-1,negative_correlation,BCL11A. PubMed: 26862517
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_41.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_41.txt, at line: 177
+No sentences for the event: MIR16-1,negative_correlation,KLF3. PubMed: 26862517
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_41.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_41.txt, at line: 178
+No sentences for the event: GATA1,negative_correlation,MIR16-1. PubMed: 26862517
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_41.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_43.txt, at line: 227
+No sentences for the event: CTF1,association,TWF1. PubMed: 34933172
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_43.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_43.txt, at line: 228
+No sentences for the event: CLCF1,association,TWF1. PubMed: 34933172
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_43.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_43.txt, at line: 235
+No sentences for the event: IL11,association,TWF1. PubMed: 34933172
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_43.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_43.txt, at line: 579
+No sentences for the event: NEOPLASMS,association,#84148#. PubMed: 37240065
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_43.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_43.txt, at line: 1070
+No sentences for the event: #2623#,association,VITAMIN D DEFICIENCY. PubMed: 40121670
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_43.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_43.txt, at line: 1183
+No sentences for the event: IMATINIB MESYLATE,negative_correlation,#63904#. PubMed: 41865468
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_43.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_44.txt, at line: 26
+No sentences for the event: CHOLECALCIFEROL,association,#6198#. PubMed: 11402043
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_44.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_44.txt, at line: 28
+No sentences for the event: SIROLIMUS,negative_correlation,#6198#. PubMed: 11402043
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_44.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_44.txt, at line: 60
+No sentences for the event: CALCIUM,association,HOMER2. PubMed: 12653665
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_44.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_44.txt, at line: 958
+No sentences for the event: MELANOMA,association,#673#. PubMed: 35045286
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_44.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_44.txt, at line: 961
+No sentences for the event: #673#,negative_correlation,P.V600E. PubMed: 35045286
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_44.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_45.txt, at line: 102
+No sentences for the event: CLDN7,association,TFAP4. PubMed: 23752226
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_45.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_45.txt, at line: 693
+No sentences for the event: ADENOCARCINOMA OF LUNG,association,#1387#. PubMed: 29453984
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_45.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_45.txt, at line: 926
+No sentences for the event: PROTOPANAXATRIOL,association,HAS3. PubMed: 33841016
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_45.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_46.txt, at line: 300
+No sentences for the event: PANOBINOSTAT,comparison,#862#. PubMed: 25628765
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_46.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_46.txt, at line: 303
+No sentences for the event: LEUKEMIA,association,#862#. PubMed: 25628765
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_46.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_46.txt, at line: 666
+No sentences for the event: #1277#,positive_correlation,OSTEOPOROSIS. PubMed: 19429913
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_46.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_46.txt, at line: 1103
+No sentences for the event: #1147#,association,P.S446A. PubMed: 28689659
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_46.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_46.txt, at line: 1104
+No sentences for the event: #1147#,association,P.S114A. PubMed: 28689659
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_46.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_46.txt, at line: 1105
+No sentences for the event: #1147#,association,#602#. PubMed: 28689659
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_46.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_47.txt, at line: 97
+No sentences for the event: C.1240A>C,positive_correlation,OPTIC ATROPHY AUTOSOMAL DOMINANT. PubMed: 26905822
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_47.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_47.txt, at line: 98
+No sentences for the event: HEARING DISORDERS,positive_correlation,P.T540P. PubMed: 26905822
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_47.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_47.txt, at line: 99
+No sentences for the event: HEARING DISORDERS,positive_correlation,P.T414P. PubMed: 26905822
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_47.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_47.txt, at line: 100
+No sentences for the event: OPTIC ATROPHY AUTOSOMAL DOMINANT,positive_correlation,P.T540P. PubMed: 26905822
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_47.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_47.txt, at line: 101
+No sentences for the event: C.1618A>C,positive_correlation,OPTIC ATROPHY AUTOSOMAL DOMINANT. PubMed: 26905822
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_47.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_47.txt, at line: 102
+No sentences for the event: C.1240A>C,positive_correlation,HEARING DISORDERS. PubMed: 26905822
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_47.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_47.txt, at line: 103
+No sentences for the event: OPTIC ATROPHY AUTOSOMAL DOMINANT,positive_correlation,P.T414P. PubMed: 26905822
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_47.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_47.txt, at line: 104
+No sentences for the event: GUANOSINE TRIPHOSPHATE,association,P.T540P. PubMed: 26905822
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_47.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_47.txt, at line: 105
+No sentences for the event: C.1618A>C,positive_correlation,HEARING DISORDERS. PubMed: 26905822
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_47.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_47.txt, at line: 310
+No sentences for the event: ALDH3A1,association,CD274. PubMed: 37678027
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_47.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_48.txt, at line: 69
+No sentences for the event: 3-O-ACETYL-BETA-BOSWELLIC ACID,positive_correlation,DDIT4. PubMed: 29109091
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_48.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_48.txt, at line: 98
+No sentences for the event: DEATH,association,DDIT4. PubMed: 29109091
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_48.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_49.txt, at line: 556
+No sentences for the event: NEOPLASMS,association,#5728#. PubMed: 26397140
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_49.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_49.txt, at line: 570
+No sentences for the event: CARCINOMA PANCREATIC DUCTAL,association,#5728#. PubMed: 26397140
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_49.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_49.txt, at line: 695
+No sentences for the event: CARCINOMA SIGNET RING CELL,association,NBPF3. PubMed: 36779496
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_49.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_49.txt, at line: 808
+No sentences for the event: C.270G>T,negative_correlation,DRUG-RELATED SIDE EFFECTS AND ADVERSE REACTIONS. PubMed: 20070175
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_49.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_49.txt, at line: 1148
+No sentences for the event: #5087#,association,HEART DISEASES. PubMed: 11376134
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_49.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_5.txt, at line: 1152
+No sentences for the event: INTESTINAL PSEUDO-OBSTRUCTION,association,#5885#. PubMed: 25575569
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_5.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_51.txt, at line: 550
+No sentences for the event: BREAST NEOPLASMS,association,#6774#. PubMed: 33002501
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_51.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_52.txt, at line: 63
+No sentences for the event: #3559#,association,RS12722616. PubMed: 23217119
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_52.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_53.txt, at line: 908
+No sentences for the event: CARCINOMA HEPATOCELLULAR,association,SLC25A20. PubMed: 30176945
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_53.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_53.txt, at line: 909
+No sentences for the event: LIVER NEOPLASMS,association,ACAA2. PubMed: 30176945
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_53.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_53.txt, at line: 915
+No sentences for the event: LIVER NEOPLASMS,association,SLC25A20. PubMed: 30176945
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_53.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_53.txt, at line: 929
+No sentences for the event: FATTY ACIDS,association,ACAA2. PubMed: 30176945
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_53.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_55.txt, at line: 192
+No sentences for the event: CYTOSINE,association,#1051#. PubMed: 30825655
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_55.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_55.txt, at line: 327
+No sentences for the event: #1051#,association,#1051#. PubMed: 32141127
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_55.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_55.txt, at line: 330
+No sentences for the event: #1051#,association,P.C201S. PubMed: 32141127
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_55.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_55.txt, at line: 334
+No sentences for the event: #1051#,association,P.C296S. PubMed: 32141127
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_55.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_59.txt, at line: 987
+No sentences for the event: #2623#,positive_correlation,617101. PubMed: 15613485
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_59.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_59.txt, at line: 988
+No sentences for the event: #2623#,association,FETAL DISEASES. PubMed: 15613485
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_59.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_63.txt, at line: 185
+No sentences for the event: TOR2,association,GLN3. PubMed: 12165425
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_63.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_63.txt, at line: 187
+No sentences for the event: TOR2,association,URE2. PubMed: 12165425
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_63.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_63.txt, at line: 989
+No sentences for the event: C.776INSG,YVMA,association,CARCINOMA NON-SMALL-CELL LUNG. PubMed: 34959152
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_63.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_64.txt, at line: 842
+No sentences for the event: BREAST NEOPLASMS,association,P.T,TMKS356DELINS. PubMed: 31575382
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_64.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_67.txt, at line: 868
+No sentences for the event: CROHN DISEASE,association,LOC285626. PubMed: 22479607
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_67.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_67.txt, at line: 901
+No sentences for the event: #5924#,association,CARCINOMA HEPATOCELLULAR. PubMed: 37029817
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_67.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_67.txt, at line: 903
+No sentences for the event: CARCINOMA HEPATOCELLULAR,association,#5924#. PubMed: 37029817
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_67.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_67.txt, at line: 906
+No sentences for the event: #5604#,association,CARCINOMA HEPATOCELLULAR. PubMed: 37029817
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_67.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_68.txt, at line: 590
+No sentences for the event: HYPOXIA,association,#2626#. PubMed: 23811561
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_68.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_68.txt, at line: 1168
+No sentences for the event: MYOCARDIAL ISCHEMIA,association,LINC01432. PubMed: 26483964
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_68.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_68.txt, at line: 1169
+No sentences for the event: CARDIOVASCULAR DISEASES,association,LINC01432. PubMed: 26483964
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_68.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_68.txt, at line: 1170
+No sentences for the event: CARDIOVASCULAR DISEASES,association,NR2F2-AS1. PubMed: 26483964
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_68.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_68.txt, at line: 1171
+No sentences for the event: MYOCARDIAL ISCHEMIA,association,NR2F2-AS1. PubMed: 26483964
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_68.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_69.txt, at line: 20
+No sentences for the event: SELINEXOR,negative_correlation,#7514#. PubMed: 42607542
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_69.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_69.txt, at line: 108
+No sentences for the event: GUANOSINE TRIPHOSPHATE,association,#4893#. PubMed: 42709866
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_69.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_69.txt, at line: 248
+No sentences for the event: ETHANOL,association,P.K31E. PubMed: 30061929
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_69.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_69.txt, at line: 614
+No sentences for the event: MAS1L,positive_correlation,ANGPT4. PubMed: 37365840
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_69.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_69.txt, at line: 1116
+No sentences for the event: TRIPLE NEGATIVE BREAST NEOPLASMS,association,P.L1226,1230DEL. PubMed: 39384723
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_69.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_7.txt, at line: 429
+No sentences for the event: LUNG NEOPLASMS,association,#673#. PubMed: 42237450
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_7.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_7.txt, at line: 432
+No sentences for the event: CARCINOMA NON-SMALL-CELL LUNG,association,#673#. PubMed: 42237450
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_7.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_7.txt, at line: 1160
+No sentences for the event: PRECURSOR B-CELL LYMPHOBLASTIC LEUKEMIA-LYMPHOMA,association,ATXN7L3. PubMed: 37120350
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_7.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_7.txt, at line: 1381
+No sentences for the event: POLYVINYL CHLORIDE,association,P.C013D. PubMed: 37159242
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_7.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_7.txt, at line: 1383
+No sentences for the event: ISOFLURANE,association,P.C013D. PubMed: 37159242
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_7.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_7.txt, at line: 1385
+No sentences for the event: CHLORHEXIDINE,association,P.C013D. PubMed: 37159242
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_7.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_7.txt, at line: 1386
+No sentences for the event: PENTOBARBITAL,association,P.C013D. PubMed: 37159242
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_7.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_7.txt, at line: 1388
+No sentences for the event: NOREPINEPHRINE,association,P.C013D. PubMed: 37159242
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_7.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_71.txt, at line: 55
+No sentences for the event: PENTOXIFYLLINE,positive_correlation,GSTO2. PubMed: 35333871
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_71.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_71.txt, at line: 133
+No sentences for the event: PROSTATIC NEOPLASMS,positive_correlation,SOX14. PubMed: 37701109
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_71.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_71.txt, at line: 505
+No sentences for the event: TGFB1,positive_correlation,WNT7B. PubMed: 32350443
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_71.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_71.txt, at line: 515
+No sentences for the event: EGFR,positive_correlation,WNT7B. PubMed: 32350443
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_71.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_71.txt, at line: 1043
+No sentences for the event: LEUKEMIA MYELOID ACUTE,association,RAMP2. PubMed: 36191988
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_71.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_71.txt, at line: 1378
+No sentences for the event: SMAD2,bind,SMAD3A. PubMed: 21669877
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_71.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_72.txt, at line: 333
+No sentences for the event: CYCLIC AMP,association,C.235T>A. PubMed: 19423709
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_72.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_72.txt, at line: 831
+No sentences for the event: METABOLIC SYNDROME,association,RNU1-1. PubMed: 24243637
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_72.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_72.txt, at line: 838
+No sentences for the event: RNU1-1,positive_correlation,IL1A. PubMed: 24243637
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_72.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_72.txt, at line: 840
+No sentences for the event: OBESITY,association,RNU1-1. PubMed: 24243637
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_72.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_72.txt, at line: 841
+No sentences for the event: CEBPB,association,RNU1-1. PubMed: 24243637
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_72.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_72.txt, at line: 845
+No sentences for the event: RNU1-1,positive_correlation,TNF. PubMed: 24243637
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_72.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_72.txt, at line: 847
+No sentences for the event: RNU1-1,association,RELA. PubMed: 24243637
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_72.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_72.txt, at line: 851
+No sentences for the event: RNU1-1,association,NFKB1. PubMed: 24243637
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_72.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_72.txt, at line: 853
+No sentences for the event: SIMPSON-GOLABI-BEHMEL SYNDROME,association,RNU1-1. PubMed: 24243637
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_72.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_72.txt, at line: 855
+No sentences for the event: RNU1-1,association,MAP2K7. PubMed: 24243637
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_72.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_72.txt, at line: 1144
+No sentences for the event: ALB,association,TMEM185A. PubMed: 10542249
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_72.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_72.txt, at line: 1153
+No sentences for the event: TRP53-PS,association,TMEM185A. PubMed: 10542249
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_72.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_73.txt, at line: 250
+No sentences for the event: BREAST NEOPLASMS,association,RNPEP. PubMed: 20025767
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_73.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_73.txt, at line: 255
+No sentences for the event: RNPEP,bind,YY1. PubMed: 20025767
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_73.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_73.txt, at line: 1103
+No sentences for the event: KPNA6,association,PRMT5. PubMed: 24055374
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_73.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_73.txt, at line: 1254
+No sentences for the event: PRR34,positive_correlation,SOX12. PubMed: 34168917
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_73.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_73.txt, at line: 1258
+No sentences for the event: CARCINOMA HEPATOCELLULAR,positive_correlation,PRR34. PubMed: 34168917
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_73.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_73.txt, at line: 1263
+No sentences for the event: MIR296,association,PRR34. PubMed: 34168917
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_73.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_73.txt, at line: 1266
+No sentences for the event: CTNNB1,positive_correlation,PRR34. PubMed: 34168917
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_73.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_73.txt, at line: 1268
+No sentences for the event: E2F2,positive_correlation,PRR34. PubMed: 34168917
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_73.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_73.txt, at line: 1269
+No sentences for the event: NEOPLASMS,positive_correlation,PRR34. PubMed: 34168917
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_73.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_74.txt, at line: 1042
+No sentences for the event: CARCINOMA RENAL CELL,association,#5292#. PubMed: 26472029
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_74.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_75.txt, at line: 520
+No sentences for the event: CARCINOMA BASAL CELL,association,DEFB4B. PubMed: 24868229
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_75.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_75.txt, at line: 949
+No sentences for the event: RPS6,association,#6198#. PubMed: 39914703
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_75.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_75.txt, at line: 952
+No sentences for the event: LIPIDS,association,#6198#. PubMed: 39914703
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_75.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_75.txt, at line: 954
+No sentences for the event: S6K,association,#6198#. PubMed: 39914703
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_75.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_76.txt, at line: 471
+No sentences for the event: HYDRANGENOL,negative_correlation,HYAL2. PubMed: 31581754
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_76.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_76.txt, at line: 476
+No sentences for the event: HYALURONIC ACID,association,HYAL2. PubMed: 31581754
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_76.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_76.txt, at line: 609
+No sentences for the event: PULMONARY DISEASE CHRONIC OBSTRUCTIVE,association,FAM227B. PubMed: 30777021
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_76.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_77.txt, at line: 833
+No sentences for the event: CHOLANGIOCARCINOMA,association,#7528#. PubMed: 32750152
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_77.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_79.txt, at line: 1001
+No sentences for the event: CARCINOMA NON-SMALL-CELL LUNG,association,#6794#. PubMed: 41595141
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_79.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_8.txt, at line: 119
+No sentences for the event: ANEMIA SICKLE CELL,association,SLC25A37. PubMed: 32772141
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_8.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_8.txt, at line: 153
+No sentences for the event: GA20OX1,association,AGB1. PubMed: 34361039
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_8.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_8.txt, at line: 155
+No sentences for the event: GA20OX1,positive_correlation,MYB62. PubMed: 34361039
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_8.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_8.txt, at line: 157
+No sentences for the event: MYB62,positive_correlation,GA2. PubMed: 34361039
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_8.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_8.txt, at line: 158
+No sentences for the event: GA3,positive_correlation,MYB62. PubMed: 34361039
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_8.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_8.txt, at line: 159
+No sentences for the event: AGB1,association,GA3OX1. PubMed: 34361039
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_8.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_8.txt, at line: 160
+No sentences for the event: AGB1,association,GA3. PubMed: 34361039
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_8.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_8.txt, at line: 161
+No sentences for the event: AGB1,association,GA2. PubMed: 34361039
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_8.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_8.txt, at line: 163
+No sentences for the event: GA3OX1,positive_correlation,MYB62. PubMed: 34361039
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_8.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_8.txt, at line: 557
+No sentences for the event: #4004#,positive_correlation,NEUROBLASTOMA. PubMed: 26560027
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_8.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_8.txt, at line: 561
+No sentences for the event: #4004#,association,NEOPLASMS. PubMed: 26560027
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_8.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_8.txt, at line: 2097
+No sentences for the event: MELANOMA,negative_correlation,#128338#. PubMed: 42059423
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_8.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_80.txt, at line: 6
+No sentences for the event: LANGERHANS CELL SARCOMA,association,#673#. PubMed: 42196783
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_80.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_80.txt, at line: 7
+No sentences for the event: #673#,association,HISTIOCYTOSIS LANGERHANS-CELL. PubMed: 42196783
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_80.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_80.txt, at line: 9
+No sentences for the event: #673#,association,LANGERHANS CELL SARCOMA. PubMed: 42196783
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_80.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_80.txt, at line: 11
+No sentences for the event: LANGERHANS CELL SARCOMA,association,#5604#. PubMed: 42196783
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_80.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_80.txt, at line: 18
+No sentences for the event: #5604#,association,HISTIOCYTOSIS LANGERHANS-CELL. PubMed: 42196783
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_80.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_80.txt, at line: 20
+No sentences for the event: #5604#,association,LANGERHANS CELL SARCOMA. PubMed: 42196783
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_80.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_80.txt, at line: 40
+No sentences for the event: COLORECTAL NEOPLASMS,association,#7157#. PubMed: 42492394
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_80.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_80.txt, at line: 204
+No sentences for the event: IRIDOIDS,association,P.G10H. PubMed: 42732784
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_80.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_80.txt, at line: 205
+No sentences for the event: XANTHONES,association,P.G10H. PubMed: 42732784
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_80.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_80.txt, at line: 795
+No sentences for the event: SWEAT GLAND NEOPLASMS,association,P.P409,FSA. PubMed: 38353459
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_80.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_80.txt, at line: 974
+No sentences for the event: INFECTIONS,association,P.Q91L. PubMed: 35649358
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_80.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_81.txt, at line: 1360
+No sentences for the event: CATARACT,association,CRYAA2. PubMed: 20029648
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_81.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_82.txt, at line: 843
+No sentences for the event: GLUCOSE,positive_correlation,#2185#. PubMed: 11007796
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_82.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_9.txt, at line: 1392
+No sentences for the event: COLORECTAL NEOPLASMS,association,PRSS2. PubMed: 29193645
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_9.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_9.txt, at line: 1394
+No sentences for the event: SCH772984,negative_correlation,PRSS2. PubMed: 29193645
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_9.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_9.txt, at line: 1397
+No sentences for the event: VEMURAFENIB,negative_correlation,PRSS2. PubMed: 29193645
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_9.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_9.txt, at line: 1401
+No sentences for the event: TRAMETINIB,negative_correlation,PRSS2. PubMed: 29193645
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_9.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_9.txt, at line: 1407
+No sentences for the event: PRSS2,association,BRAF. PubMed: 29193645
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_9.txt.
+----------------------------------------
+Error in file minery/networks/MAPK-ERK/SST/abstracts/relations_9.txt, at line: 1518
+No sentences for the event: COLORECTAL NEOPLASMS,negative_correlation,#1051#. PubMed: 37747674
+Please check the objects' file minery/networks/MAPK-ERK/SST/abstracts/objects_9.txt.
+----------------------------------------

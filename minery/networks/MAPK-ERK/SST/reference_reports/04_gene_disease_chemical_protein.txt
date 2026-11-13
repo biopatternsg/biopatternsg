@@ -1,0 +1,162 @@
+================================================================================
+REPORT 4: GENE-DISEASE & CHEMICAL-PROTEIN INTERACTIONS
+COVID-19 Immunology Study (COVID-19-IMMUNOLOGY-50)
+================================================================================
+
+================================================================================
+A. GENE-DISEASE: COVID-19 ASSOCIATED GENES (by functional category)
+================================================================================
+
+---- Viral Entry & Processing ----
+  ACE2         -- Receptor; binds S protein
+  TMPRSS2      -- Host protease; also associated with DEATH
+  FURIN        -- Proprotein convertase, S1/S2 cleavage
+  BSG          -- Alternative receptor (CD147)
+  CCR5         -- Chemokine receptor, possible coreceptor
+  CCR2         -- Chemokine receptor
+  CXCR4        -- Associated with coronavirus infections, death
+  CXCR3/CXCR6  -- T cell homing receptors
+  AP2B1        -- Adaptor protein, viral entry
+
+---- SARS-CoV-2 Proteins (associated with COVID-19) ----
+  ORF6         -- Binds karyopherin alpha 2, blocks STAT1 nuclear import
+  ORF8         -- Downregulates MHC-I via autophagy-lysosomal pathway
+  ORF1AB       -- Polyprotein (nsp1-11)
+  S (Spike)    -- Binds ACE2, major antigen
+  N (Nucleocapsid)
+  E (Envelope)
+  M (Membrane)
+
+---- JAK/STAT Signaling ----
+  JAK1/JAK3    -- Tyrosine kinases
+  TYK2         -- Associated with COVID-19 and autoimmune diseases
+  STAT1        -- Nuclear import blocked by ORF6
+  STAT2        -- Associated with COVID-19
+  STAT3        -- Bidirectional positive correlation with COVID-19
+
+---- MHC/HLA Class I & Antigen Presentation ----
+  HLA-A        -- Risk/protective alleles identified
+  HLA-B        -- Bw4 epitope + KIR3DL1 = protection
+  HLA-C        -- KIR ligand, risk alleles
+  HLA-E        -- NKG2A ligand, immune evasion marker
+  HLA-G        -- Immune tolerance molecule
+  B2M          -- Beta-2-microglobulin, MHC-I component
+  TAP1/TAPBP   -- Peptide transporters
+  CIITA        -- MHC-II transactivator
+
+---- MHC/HLA Class II ----
+  HLA-DPA1/DPB1, HLA-DQA1/DQB1, HLA-DRB1, HLA-DRB5
+  -- Multiple risk and protective alleles identified across cohorts
+
+---- KIR (Killer Immunoglobulin-like Receptors) ----
+  KIR3DL1      -- Inhibitory, protective with HLA-Bw4
+  KIR3DL2      -- Associated with virus diseases
+  KIR3DL3      -- Positive correlation with COVID-19 (risk)
+  KIR2DL1      -- Inhibitory, protective
+  KIR2DL2      -- Associated with HIV, HLA-C
+  KIR2DL4      -- Associated with HLA-A, HLA-C
+  KIR2DS1/2DS4 -- Activating receptors
+
+---- NK Cell Receptors ----
+  KLRK1 (NKG2D)-- Activating receptor, associated with COVID-19
+  KLRC1 (NKG2A)-- Inhibitory receptor, associated with COVID-19
+  KLRC2 (NKG2C)-- Activating receptor, associated with COVID-19
+  KLRG1        -- Inhibitory receptor
+
+---- NKG2D Ligands (MICA/MICB/ULBP family) ----
+  MICA         -- Associated with COVID-19, many cancers
+  MICB         -- Now added: associated with COVID-19
+  ULBP1/ULBP2/ULBP3 -- Various disease associations
+
+---- Pro-inflammatory Cytokines ----
+  IL1A/IL1B    -- IL-1 family, associated with COVID-19, INFLAMMATION
+  IL6          -- Central cytokine storm mediator
+  TNF          -- Associated with COVID-19, SOFT TISSUE INJURIES
+  IFNG         -- Type II interferon, CD4/CD8 effector cytokine
+  IL17A/IL17F  -- Th17 cytokines
+
+---- Anti-inflammatory / Regulatory ----
+  IL10         -- Associated with COVID-19
+  SOCS3        -- Suppressor of cytokine signaling 3
+                  Negative correlation with MICA and MICB
+  TGFB1        -- Negative correlation with INFLAMMATION
+
+---- Chemokines ----
+  CCL2 (MCP-1) -- Associated with COVID-19, DEATH, CORONAVIRUS INFECTIONS
+  CCL4 (MIP-1B)-- CCR5 ligand
+  CCL5 (RANTES)-- CCR5 ligand
+  CXCL8 (IL-8) -- Associated with COVID-19, INFLAMMATION
+  CXCL10 (IP-10)-- Associated with COVID-19
+  CXCL12 (SDF-1)-- Associated with CORONAVIRUS INFECTIONS
+  CXCL13        -- Associated with COVID-19, CD4, B cell follicles
+
+---- Immune Checkpoints ----
+  CD274 (PD-L1) -- Associated with COVID-19, positive correlation
+  PDCD1 (PD-1)  -- Now added: associated with COVID-19
+  CTLA4         -- Now added: associated with COVID-19
+  HAVCR2 (TIM3) -- Now added: associated with COVID-19
+  LAG3          -- Now added: associated with COVID-19
+  TIGIT         -- Now added: associated with COVID-19
+
+---- T Cell Markers ----
+  CD4           -- Associated and negative correlation with COVID-19
+  CD8A          -- Associated and negative correlation with COVID-19
+  CD28/CD69     -- T cell activation markers
+  FOXP3         -- Treg marker
+
+---- B Cell Markers ----
+  CD19          -- Associated with COVID-19
+
+---- Other Notable Genes ----
+  TLR4          -- Associated with COVID-19, positive correlation with NFKB1
+  NFKB1         -- Associated with COVID-19
+  NLRC5         -- Master MHC-I regulator (now added: COVID-19 association)
+  EZH2          -- H3K27 methyltransferase, CD8A suppressor
+  KDM1A (LSD1)  -- Histone demethylase, immune gene silencer
+  PCSK9         -- LDL receptor regulator, MHC-I degradation
+  METTL14       -- m6A writer, negative_correlation with INFLAMMATION
+  STING1/TMEM173-- cGAS-STING pathway, interferon induction
+  CLEC4D        -- C-type lectin, inflammation sensor
+  DDX58 (RIG-I) -- RNA sensor, interferon induction
+  MPO           -- Myeloperoxidase, NETosis marker
+  AGER (RAGE)   -- Associated with COVID-19 (not seen in loaded segments)
+
+================================================================================
+B. CHEMICAL-PROTEIN INTERACTIONS: KEY MECHANISMS
+================================================================================
+
+---- JAK Inhibitor Binding ----
+  TOFACITINIB  --> JAK1, JAK3, STAT3, CD274, KLRK1, IFNG (negative)
+  BARICITINIB  --> JAK1, JAK2
+  RUXOLITINIB  --> JAK1, JAK2, IFNG, GLB1 (negative)
+  PF-06651600  --> JAK3, TEC (negative)
+  SAIKOSAPONIN D --> JAK3 (association)
+
+---- CCR5 Antagonist Binding ----
+  MARAVIROC    --> CCR5 (negative), CD274 (negative), STAT3 (negative)
+                   JAK1 (negative), JAK2 (negative)
+  CENICRIVIROC --> CCR2 (negative), CCR5 (negative)
+  LERONLIMAB   --> CCR5 (negative)
+
+---- Epigenetic Modulator Interactions ----
+  DECITABINE   --> JAK2 (negative), JAK1 (negative)
+                   ULBP1/ULBP3, SOCS1/3, KLRK1 (positive)
+                   STAT3 (association)
+  GSK-2816126  --> EZH2 (negative)
+  TRICHOSTATIN A --> HDAC9 (negative)
+
+---- Natural Compound Interactions ----
+  SAIKOSAPONIN D --> COVID-19 (negative), CAT (association),
+                     IL6 (association), CHEK1 (association), NOX5 (association)
+  GLYCYROL       --> COVID-19 (negative), CSF2 (positive),
+                     CXCL8 (positive), IFNG (positive), CCR5 (positive)
+  SESAMIN        --> MICA (positive), KLRK1 (positive), MICB (positive),
+                     ULBP1 (positive), H3P16 (positive)
+                     OSTEOSARCOMA (negative)
+  CAPSAICIN      --> KLRK1 (positive), HYALURONIC ACID (association)
+
+---- Immune Checkpoint Regulators ----
+  TOFACITINIB  --> CD274 (negative), KLRK1 (negative), IFNG (negative)
+  HYDROXYCHLOROQUINE --> CD8A (negative), CD4 (negative), IFNG (negative),
+                         ITGB1 (negative), FAS (negative)
+================================================================================

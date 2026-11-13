@@ -1,0 +1,1407 @@
+% Species from PubTator
+species('SHRIMP').
+species('PENMONPEN5').
+species('WHITE SPOT SYNDROME VIRUS').
+species('WSSV INFECTION').
+species('T. CRASSICEPS CYSTICERCI').
+species('PEARL OYSTER').
+species('GOAT').
+species('SMALL RUMINANT LENTIVIRUS SUBTYPE B1').
+species('BUFFALO').
+species('SILURIFORMES FISHES').
+species('SNOUT BREAM').
+species('SMALL RUMINANT LENTIVIRUSES').
+species('SRLVS').
+species('SRLV').
+species('-752').
+species('OVINE').
+species('CAPRINE').
+species('B').
+species('K1514').
+species('HUMAN TUMORS').
+species('HANPER SHEEP').
+species('EWES').
+species('PORCINE').
+species('EBV').
+species('PICKLED VEGETABLES').
+species('SEA CUCUMBER').
+species('PRAWN').
+species('CHILLI').
+species('MOUSE EMBRYONIC FIBROBLASTS').
+species('PASTEURELLA MULTOCIDA TOXIN').
+species('H. PYLORI INFECTION').
+species('RGO').
+species('OPOSSUM').
+species('CYMBARIA DAURICA L.').
+species('MOUSE C2C12').
+species('M. VASTUS LATERALIS').
+species('BEAGLE').
+species('ADENOVIRUS E1A').
+species('POLYOMA').
+species('ANTHRAX INFECTION').
+species('PXO1').
+species('MAN').
+species('HPFH').
+species('E. HIRTA').
+species('I.PES-CAPRA').
+species('S.APETALA').
+species('HUMANE').
+species('RAT BASOPHILIC LEUKEMIA').
+species('AAV').
+species('XENOPUS USF').
+species('VARICELLA-ZOSTER VIRUS MAJOR TRANSACTIVATOR').
+species('VZV').
+species('HIV TYPE 1').
+species('ADENOVIRUS MAJOR LATE PROMOTER').
+species('ADMLP').
+species('OLIVE LEAF').
+species('VARICELLA-ZOSTER VIRUS IE62').
+species('HUMAN OVARIAN CARCINOMA').
+species('SALVIA MILTIORRHIZA BGE').
+species('IC').
+species('PROTOZOA').
+species('MOUSE POLYOMAVIRUS ENHANCER-BINDING PROTEIN 2').
+species('PEBP2').
+species('MUSSEL').
+species('DENV) INFECTION').
+species('DENV INFECTION').
+species('HUMAN PARVOVIRUS B19 NONSTRUCTURAL PROTEIN 1').
+species('HUMAN PARVOVIRUS B19 (B19) INFECTION').
+species('B19 NS1').
+species('KSHV INFECTION').
+species('AD5 E1A').
+species('BLV INFECTION').
+species('RAT PHEOCHROMOCYTOMA PC12').
+species('T-CELL LEUKEMIA VIRUS TYPE I').
+species('HCMV INFECTION').
+species('HERPES SIMPLEX VIRUS THYMIDINE KINASE').
+species('ADENOVIRUSES ADENOVIRUSES').
+species('COFFEE').
+species('KASUMI-1').
+species('HBV').
+species('SILURUS ASOTUS EGG LECTIN').
+species('RAT 6').
+species('BABOON').
+species('A/PR/8/34').
+species('INFLUENZA A').
+species('MOUSE CYTOMEGALOVIRUS').
+species('MCMV INFECTION').
+species('MSC').
+species('PATIENTS3').
+species('HELODERMA SUSPECTUM VENOM').
+species('RETROVIRUSES').
+species('CARASSIUS AURATUS L.').
+species('OYSTER').
+species('T. GUANGDONGENSE').
+species('MACROBRACHIUM NIPPONENSE IAG').
+species('MNIAG').
+species('HUMAN EPIDERMAL GROWTH FACTOR RECEPTOR 2').
+species('MSEOCENTROTUS NUDUS').
+species('KIRSTEN MOUSE SARCOMA VIRUS').
+species('KI-MSV').
+species('RSV').
+species('P. INFESTANS').
+species('ADENOVIRUS MAJOR LATE').
+species('LOACH').
+species('HEPATITIS B VIRUS X PROTEIN').
+species('GREEN TEA').
+species('SOY').
+species('LAMB').
+species('HUMAN-RIBOSOMAL S6 KINASES-3').
+species('ADENOVIRAL').
+species('HPV 18').
+species('HUMAN OSTEOSARCOMA').
+species('RED-SPOTTED GROUPER').
+species('YELLOW CROAKER').
+species('MDV').
+species('SINV').
+species('EBV INFECTION').
+species('TRANSGENIC').
+species('DE-COV').
+species('HUMAN IMMUNODEFICIENCY VIRUS TYPE 1 (HIV-1)-INFECTED').
+species('FROG').
+species('STREPTOMYCES PARVULUS TU64').
+species('GRAPEVINE').
+species('P. FUCATA').
+species('P. MAXIMA').
+species('PIGLETS').
+species('BT247').
+species('BT679').
+species('BT679 INFECTION').
+species('A. IMMACULATUS').
+species('MTB').
+species('TIGER SHRIMP').
+species('AUTOGRAPHA CALIFORNICA MULTIPLE NUCLEAR POLYHEDROSIS VIRUS INFECTION').
+species('STRAWBERRY TREE HONEY').
+species('COPEPOD').
+species('HOMO SAPIENS CHROMOSOME 1 ORF109').
+species('INDIAN ZEBU CATTLE').
+species('ETEC F18').
+species('TYPE I HUMAN T-CELL LEUKEMIA VIRUS').
+species('STAPHYLOCOCCUS AUREUS COWAN I BACTERIA').
+species('PUFFERFISH').
+species('TETRAODON FLUVIATILIS L29').
+species('SIMIAN VIRUS (SV) 40 LARGE T ANTIGEN').
+species('H PYLORI INFECTION').
+species('M. PNEUMONIAE').
+species('BACILLUS LICHENIFORMIS W10').
+species('W10').
+species('BARLEY').
+species('WHEAT').
+species('GANODERMA SPP').
+species('GANODERMA MUSHROOMS').
+species('G. ATRUM').
+species('MUSA ACUMINATA L. AAA GROUP').
+species('MAIZE').
+species('TOBACCO PLANTS').
+species('AVIAN LEUCOSIS VIRUS').
+species('HB2015032').
+species('ALV SUBGROUP K').
+species('JS11C1').
+species('HPRS-103').
+species('AGROBACTERIUM TUNTE-FACIENS').
+species('H. DIVERSICOLOR').
+species('E. CRASSIPES').
+species('E.CRASSIPES').
+species('AFRICAN CATFISH').
+species('G. ARBORETUM').
+species('COTTON PLANTS').
+species('NANGUO PEARS').
+species('ERIANTHUS FULVUS NESS').
+species('MULLET').
+species('MOUSE EMBRYONIC').
+species('CAS-BR-E').
+species('ELAPID').
+species('RETROVIRAL').
+species('EQUINE INFECTIOUS ANAEMIA VIRUS').
+species('SMART 2').
+species('FIV').
+species('BOVINE CORONAVIRUS INFECTION').
+species('CORONAVIRUSES').
+species('RUMINANTS').
+species('BCOV INFECTION').
+species('E1A').
+species('ADENOVIRUS SMALL EARLY REGION 1A').
+species('S. AUREUS').
+species('S. ARGENTEUS').
+species('CC(ARG)2250').
+species('CC5').
+species('CC6').
+species('CC22-MRSA-IV').
+species('CC22').
+species('CC97').
+species('ST1278').
+species('CC30').
+species('JEV').
+species('BLACK GOAT').
+species('HER2').
+species('HPV').
+species('JELLYFISH').
+species('CYPRINUS CARPIO L.').
+species('HORSE SERUM').
+species('LUADS').
+species('E. VEXANS').
+species('C. GIGAS').
+species('CAENORHABIDITUS ELEGANS').
+species('PIGEON').
+species('SWEET WATERMELON').
+species('JCPYV INFECTION').
+species('REV-T RETROVIRUS').
+species('ARNICAE FLOS').
+species('A. CHAMISSONIS SSP').
+species('HIV INFECTION').
+species('MYCOBACTERIUM TUBERCULOSIS INFECTION').
+species('RED GRAPES').
+species('CELERY PLANT').
+species('HERPES SIMPLEX VIRUS VP16-ASSOCIATED HOST CELLULAR FACTOR').
+species('HERPES SIMPLEX VIRUS').
+species('HUMAN ADENOVIRUSES').
+species('HSV').
+species('PYVS').
+species('PYV').
+species('ALLOGYNOGENETIC CRUCIAN CARP').
+species('ACC').
+species('SY').
+species('HERPES SIMPLEX VIRUS TYPE-1 AND 2').
+species('INPATIENT').
+species('P. MIRABILIS').
+species('HPV-8').
+species('XENOPUS KIT RELATED KINASE').
+species('ORANGUTAN').
+species('RAT SARCOMA').
+species('HUMAN IMMUNODEFICIENCY SYNDROME').
+species('BOVINE ADENOVIRUSES').
+species('BAV-3').
+species('PINE').
+species('TBEV INFECTION').
+species('TICK-BORNE ENCEPHALITIS VIRUS (TBEV) E PROTEIN').
+species('DAL\'NEGORSK').
+species('PONCIRUS TRIFOLIATA (L.').
+species('CITRUS ROOTSTOCK').
+species('GUARANA AND DAMIANA').
+species('SEAWEED').
+species('L. MAJOR').
+species('E-CIGARETTE').
+species('E-CIGARETTES').
+species('CHINESE SHRIMP').
+species('VIBRIO ANGUILLARIUM').
+species('ADENOVIRUSES').
+species('HUMAN PAPILLOMAVIRUSES').
+species('HPVS').
+species('HR-HPV').
+species('HPV NEOPLASIA').
+species('L MONOCYTOGENES INFECTION').
+species('HUMAN EPIDERMAL GROWTH FACTOR 2').
+species('PLANARIAN').
+species('PLANARIANS').
+species('PSM').
+species('USFI004-').
+species('M. LONGISSIMUS DORSI').
+species('TEA').
+species('L. RADIATA').
+species('LYCORIS PETALS').
+species('EPRV').
+species('LINE').
+species('RETROTRANSPOSON').
+species('TAXILLUS CHINENSIS (DC').
+species('DANSER').
+species('T. CHINENSIS').
+species('A. TEQUILANA').
+species('RAPESEED').
+species('CAMELLIA SINENSIS (L.) O. KUNTZE').
+species('PLANTS').
+species('CITRULLUS LANATUS L.').
+species('WATERMELON WITH GOLDEN FLESH').
+species('GF').
+species('THUNB').
+species('FIREFLY LUCIFERASE').
+species('MURINE LEUKEMIA').
+species('HCV INFECTION').
+species('F. ALBA').
+species('ROZELLA ALLOMYCES').
+species('RUMINANT LENTIVIRUS').
+species('SRLV A4').
+species('HIV-1 INFECTION').
+species('PHASMARHABDITIS KENYAENSIS').
+species('PHASMARHABDITIS BOHEMICA').
+species('PSEUDOMONAS SPP.').
+species('P. KENYAENSIS').
+species('ELAV').
+species('HUMAN MONOCYTIC LEUKEMIA').
+species('TEUCRIUM ALOPECURUS').
+species('LACTOBACILLUS PLANTARUM HAC01').
+species('L. PLANTARUM HAC01').
+species('M. BOVIS').
+species('M. BOVIS P150').
+species('M. BOVIS P1').
+species('XIDU BLACK').
+species('SV40 VIRUS').
+species('AD').
+species('P. AMARUS').
+species('P. WATSONII').
+species('P.AMARUS').
+species('P.WATSONII').
+species('CAS-BR-M MURINE LEUKEMIA VIRUS').
+species('MULV').
+species('CAS-BR-M MULV').
+species('MOUSE FIBROBLASTS').
+species('SV40 LARGE T ANTIGEN').
+species('L.STAGNALIS').
+species('ROOKIE SNAIL').
+species('TARTARY BUCKWHEAT').
+species('MOUSE INSULINOMA 6').
+species('LION\'S MANE JELLYFISH').
+species('C. CAPILLATA').
+species('MEL').
+species('MURINE ERYTHROLEUKEMIA').
+species('CYNOMOLGUS MACAQUES').
+species('INDIAN RHESUS MACAQUES').
+species('CHINESE RHESUS MACAQUES').
+species('YELLOW CHICKENS').
+species('PRRS VIRUS').
+species('C. VULGARIS').
+species('HUMAN DISEASES').
+species('WORMS').
+species('INFLUENZA VIRUS').
+species('MOUSE LIVER').
+species('RED MEAT').
+species('SARS-COV-1').
+species('HUMANKIND').
+species('DNA VIRUS').
+species('HUMAN PAPILLOMAVIRUS (HPV) TYPE 16').
+species('MLP').
+species('ACTINIDIA CHINENSIS VAR.').
+species('CHINENSIS').
+species('PSEUDOMONAS SYRINGAE PV.').
+species('HPV 16, 18, 39, 52, AND 31').
+species('RAT LIVER').
+species('VSV-G').
+species('ONCHIDIUM GANGLION').
+species('MAMMARY').
+species('DUST MITES').
+species('HDMS').
+species('ZOONOSAURUS MADASCARIENSIS').
+species('ZONOSAURUS MADASCARIENSIS').
+species('MADASCARIENSIS').
+species('FRIEND VIRUS').
+species('DJUNGARIAN HAMSTERS').
+species('APIUM GRAVEOLENS LINN').
+species('EXOS INFECTION').
+species('CLOSTRIDIUM DIFFICILE TOXIN B').
+species('RICE FIELD').
+species('EEL').
+species('ROCKBREAM').
+species('ROCKBREAM IRIDOVIRUS INFECTION').
+species('DIOSCOREA PLANT').
+species('YAM').
+species('BOMBYX CHORION').
+species('LATS').
+species('HERPES SIMPLEX VIRUSES').
+species('HSVS').
+species('OHSV').
+species('HSV LATENCY-ASSOCIATED TRANSCRIPTS').
+species('HSV-1-LXMW').
+species('HSV-1-17').
+species('DUCK').
+species('DROSOPHILA LINE 2').
+species('EV71 INFECTION').
+species('TRIPTERYGIUM WILFORDII HOOK').
+species('HPV TYPE 16').
+species('ORYZA SATIVA SUBSP').
+species('HPV18').
+species('HPV-ASSOCIATED CANCERS').
+species('PSEUDOMONAS EXOTOXIN').
+species('CAMV 35S').
+species('S. MANSONI').
+species('LAMPREY').
+species('ROCK BREAM').
+species('PUFFER FISH').
+species('C. SAKAZAKII INFECTION').
+species('HUMAN UMBILICAL VEIN ENDOTHELIAL CELL').
+species('HUVEC').
+species('IAV').
+species('IBV').
+species('MOLONEY SARCOMA VIRUS').
+species('AB-MLV').
+species('JEV INFECTION').
+species('VACCINIA VIRUS INFECTION').
+species('KSHV').
+species('KS-ASSOCIATED HERPESVIRUS').
+species('NATIONAL RUPEE').
+species('VASTUS').
+species('ALPINIA KATSUMADAI HAYATA').
+species('HBV INFECTION').
+species('UREAPLASMA SPP.').
+species('PORCINE CIRCOVIRUS TYPE 2 INFECTION').
+species('PCV2 INFECTION').
+species('M. SINENSIS').
+species('SETARIA ITALICA L.').
+species('ABELMOSCHUS ESCULENTUS L.').
+species('POPLAR').
+species('POPULUS DELTOIDS').
+species('OIL PALM').
+species('ARABIDOPSIS PLANTS').
+species('\'FRIAR\' PLUM').
+species('FLESH').
+species('GOSSYPIUM SPP.').
+species('LOVO').
+species('ANOLE LIZARD').
+species('GARTER SNAKE').
+species('HUMAN T-CELL LEUKAEMIA VIRUS 1').
+species('ADENOVIRUS 13S').
+species('BACULOVIRUS').
+species('AGAVE TEQUILANA FRUCTANS').
+species('KLUYVEROMYCES MARXIANUS YEASTS').
+species('PAPILLOMAVIRAL').
+species('TREE NUTS').
+species('PASHMINA GOAT').
+species('PASHMINA GOATS').
+species('XANTHIUM SIBIRICUM PATRIN').
+species('SL-XS').
+species('GARDENIA JASMINOIDES ELLIS').
+species('ABRUS PRECATORIUS PLANT').
+species('JCV').
+species('SPODOPTERA LITURA-221').
+species('WASP').
+species('CHICKEN KIDNEYS').
+species('A.JUSS').
+species('AUCKLANDIA LAPPA DC').
+species('HCV').
+species('SCHISTOSOMA SPECIES').
+species('LONICERAE JAPONICAE').
+species('SCUTELLARIAE BAICALEINSIS').
+species('HIV-1 STRAIN').
+species('SEVERE ACUTE RESPIRATORY DISEASE CORONAVIRUS TYPE 2').
+species('MOUSE OSTEOBLASTIC').
+species('HUMAN CHORIONIC GONADOTROPIN').
+species('C. SPECIOSA').
+species('HTLV').
+species('HTLV-3PYL43').
+species('SIMIAN T-CELL LYMPHOTROPIC VIRUSES').
+species('HUMAN T-LYMPHOTROPIC VIRUS, TYPE I').
+species('CORDYCEPS SINENSIS MILITARIS').
+species('MOUSE CARBOXYLESTERASE 2').
+species('MCES2').
+species('HUMAN PAPILLOMAVIRUS (HPV) INFECTION').
+species('AN').
+species('VARICELLA-ZOSTER').
+species('VZV INFECTION').
+species('E. SINENSIS').
+species('BLV').
+species('HEPATITIS B VIRUS (HBV) X PROTEIN').
+species('BDV HU-H1').
+species('LOOKOUT').
+species('HIV-1 CLADE-').
+species('HEV INFECTION').
+species('COCKS').
+species('HEN').
+species('COCK').
+species('HBV X PROTEIN').
+species('HBX').
+species('RHINOVIRUS TYPE 14').
+species('RV14').
+species('MCMV').
+species('RED GINSENG ACIDIC POLYSACCHARIDE').
+species('KOREAN RED GINSENG').
+species('RGAP').
+species('SPPV-VS INFECTION').
+species('MURINE NOROVIRUS INFECTION').
+species('MNV').
+species('MNV INFECTION').
+species('KIRSTEN RAT SARCOMA').
+species('T THERMOPHILA').
+species('PNEUMOCOCCAL').
+species('S. PNEUMONIAE').
+species('STREPTOCOCCUS PNEUMONIAE SEROTYPE 3').
+species('7F').
+species('E. COLI PDIJ09-518A').
+species('PDIJ09-518A').
+species('ADENOVIRUS SEROTYPE 3').
+species('AD2').
+species('AD3').
+species('ADENOVIRUS 12').
+species('AD12').
+species('HCMV').
+species('ME26 VIRUS').
+species('PRAIRIE').
+species('SHARK').
+species('FRE-').
+species('AMV- INFECTION').
+species('L.').
+species('P. BRASSICAE').
+species('MAMMARY TUMOR VIRUS').
+species('HBV-HCC').
+species('MURINE MAMMARY CARCINOMA').
+species('HCMV) INFECTIONS').
+species('HPV LESIONS').
+species('HR-HPV18 INFECTION').
+species('HR-HPVS').
+species('HR-HPV INFECTIONS').
+species('HUMAN.MIRFFL.DB').
+species('RETROVIRUS').
+species('MAMMALIAN TARGET OF RAPAMYCIN COMPLEX 1').
+species('PLEUROTUS ERYNGII VAR.').
+species('FERULAE').
+species('KING OYSTER MUSHROOM').
+species('DAIRY COWS').
+species('AEROMONAS MEDIA SZW3').
+species('WOODCHUCK HEPATITIS VIRUS ENHANCER II').
+species('WHV').
+species('GAOYOU DUCK').
+species('ANAS PLATYRHYNCHOS DOMESTICA').
+species('MOUSE EMBRYO FIBROBLASTS').
+species('FIREFLY').
+species('CRYPTOCARYON IRRITANS INFECTION').
+species('MURINE OSTEOSARCOMA VIRAL ONCOGENE HOMOLOGUE').
+species('INFLUENZA A VIRUS INFECTION').
+species('IAV) INFECTION').
+species('RAT HEPATOMA').
+species('HSV-TK').
+species('ROUS SARCOMA VIRAL').
+species('HUMAN PAPILLOMAVIRUS (HPV) INFECTIONS').
+species('FOWL').
+species('STAPHYLOCOCCUS AUREUS V-8').
+species('BAY SCALLOP').
+species('LXMW').
+species('L. CRISPATUS ZJ001').
+species('L. CRISPATUS JCM5810').
+species('L. CRISPATUS 1385').
+species('LC1385').
+species('LACTOBACILLI').
+species('ATCC E 2348/69').
+species('E. COLI ATCC 31705').
+species('SALMONELLA ENTERITIDIS ATCC 13076').
+species('CAMPYLOBACTER JEJUNI ATCC 29428').
+species('ATCC 27853').
+species('MOUSE HEPATOMA').
+species('PRUNUS AVIUM L.').
+species('PICO COLORADO').
+species('TALEGUERA BRILLANTE').
+species('VITTORIA').
+species('SOWS').
+species('PACIFIC WHITING').
+species('MOUSE MYOCARDIUM').
+species('PHALAENOPSIS ORCHID').
+species('PHALAENOPSIS HYBRID FORTUNE SALTZMAN').
+species('PSEUDOMONAS AERUGINOSA INFECTION').
+species('M. TUBERCULOSIS INFECTION').
+species('ARABIDOPSIS TRANSCRIPTION ACTIVATION FACTOR').
+species('ZHONGHUAHEI 1').
+species('ZHONGKAIHUA 151').
+species('HUMAN CARCINOMA').
+species('TYPE B LEUKEMOGENIC VIRUS').
+species('TBLV').
+species('HUMAN PAPILLOMA VIRUS, TYPE 16 AND 18').
+species('HUMAN PAPILLOMAVIRUS-POSITIVE').
+species('HUMAN EPIDERMAL GROWTH FACTOR RECEPTOR-2').
+species('POLIOVIRUS 3C PROTEASE').
+species('ERV-9').
+species('LOVO-175X2').
+species('ACORUS CALAMUS LINN').
+species('RIVERINE BUFFALO').
+species('INDICINE').
+species('BUFFALOES').
+species('B. INDICUS').
+species('ASTER YOMENA CALLUS').
+species('PHYTOPHTHORA INFESTANS INFECTION').
+species('TAUB').
+species('D. SINICUS').
+species('ROUS SARCOMA VIRUS ENHANCER FACTOR I').
+species('MYCOBACTERIUM BOVIS BACILLE CALMETTE-GUERIN').
+species('KIRSTEN RAT SARCOMA VIRAL ONCOGENE').
+species('EBV MIR-BART2-5P').
+species('MYCOBACTERIAL').
+species('LITOPENAEUS VANNAMEI SHRIMP').
+species('LVYY1').
+species('L. VANNAMEI TATA-BINDING PROTEIN').
+species('LVTBP').
+species('L. VANNAMEI YY1').
+species('HUMAN T CELL LEUKEMIA/LYMPHOTROPIC VIRUS TYPE 1').
+species('HUMAN IMMUNODEFICIENCY VIRUS, TYPE 1-ENCODED TRANSACTIVATOR PROTEIN').
+species('PRV').
+species('PRV INFECTION').
+species('BROMUS INERMIS L.').
+species('XINCHUN 4').
+species('KIRSTEN RAT SARCOMA VIRAL ONCOPROTEIN').
+species('HUMAN RHINOVIRUS TYPE 2').
+species('N. SURALIS').
+species('NEUROFIBROMATOSIS TYPE 1').
+species('HFPS').
+species('ADENOVIRUS E1A243').
+species('ADENOVIRUS E1A.').
+species('PENAEUS MONODON VIRAL RESPONSIVE PROTEIN 15').
+species('PMVRP15').
+species('HUMAN PAPOVAVIRUS JC VIRUS').
+species('JC VIRUS').
+species('HUMAN PAPOVAVIRUS JC').
+species('DROSOPHILA 1/2/3').
+species('CAENORHADITIS ELEGANS').
+species('HMSCS').
+species('CAENORHABDITIS ELEGANS MULTIVULVA').
+species('HUMAN PAPILLOMAVIRUS VIRUSES').
+species('HPV-').
+species('CAJANUS CAJAN L.').
+species('SENDAI VIRUSES').
+species('HUMAN IMMUNODEFICIENCY VIRUS TYPE 1 SUBTYPE C').
+species('WHITE SEABREAM').
+species('BOAR').
+species('WATERPIPE TOBACCO').
+species('WPT').
+species('LACTOBACILLUS STRAIN').
+species('LACTOBACILLUS PLANTARUM S58').
+species('LP.S58').
+species('MYRMICINE').
+species('MYRMICINE ANT').
+species('MYRMECIA GULLOSA').
+species('MURINE DOUBLE MINUTE 2').
+species('VETERANS').
+species('HUMAN PAPILLOMAVIRUS INFECTION').
+species('HPV INFECTION').
+species('EPEC').
+species('D.DON').
+species('O. STELLATA').
+species('REVOLVER').
+species('EMMER').
+species('CAULIFLOWER MOSAIC VIRUS 35S').
+species('HEPATITIS B VIRUS PROTEIN, X').
+species('HBV X').
+species('MARIJUANA CANNABINOIDS').
+species('LEGIONELLA PNEUMOPHILA INFECTION').
+species('PEPPER').
+species('BOVINE PANCREATIC POLYPEPTIDE').
+species('PTS').
+species('SARS-COV-2 N').
+species('RCMV LECTIN-LIKE GENE').
+species('PV1 SABIN 1').
+species('MOUSE LYMPHOMA').
+species('HCG').
+species('STEC').
+species('SANDORICUM KOETJAPE STEM BARK').
+species('MUSA ACUMINATA SUBGROUP CAVENDISH').
+species('PVPDF-PRO').
+species('H. CONTORTUS').
+species('KIRSTEN RAT SARCOMA VIRAL').
+species('R. SOLANACEARUM INFECTION').
+species('ARTEMIA NAUPLII').
+species('HUMAN PAPILLOMA VIRUSES').
+species('SYMBIODINIA').
+species('VIBRIO ANGUILLARUM INFECTION').
+species('V. ANGUILLARUM INFECTION').
+species('MOUSE NEUROBLASTOMA').
+species('SALMONELLA ENTERICA SUBSP.').
+species('MOUSE CMV').
+species('MOUSE 3T3-L1').
+species('GAMMAHERPESVIRUS').
+species('A. PRINCEPS').
+species('ENTEROCOCCI').
+species('DROMEDARY CAMEL').
+species('DROMEDARY CAMELS').
+species('CAMELS').
+species('CAMEL').
+species('SALMONID').
+species('NAJA ATRA (TAIWAN COBRA').
+species('N. ATRA').
+species('PSEUDOMONAS AERUGINOSA PA14 INFECTION').
+species('PETUNIA INFLATA S6').
+species('P. AXILLARIS N').
+species('P. PARODII').
+species('P. EXSERTA').
+species('P. HYBRIDA').
+species('TEA PLANTS').
+species('P. AERUGINOSA INFECTION').
+species('MURINE 3T3 FIBROBLASTS').
+species('COMMON BEAN').
+species('MYCOBACTERIUM TUBERCULOSIS STRAIN').
+species('BEIJING').
+species('MTBK_24820').
+species('CHICKEN SYNCYTIAL VIRUS').
+species('HYRTIOS SP').
+species('JAPANESE ENCEPHALITIS VIRUS NS1\'').
+species('HUMAN ENCEPHALITIS').
+species('ADSC').
+species('PEDV INFECTION').
+species('STREPTOCOCCUS AGALATIAE INFECTION').
+species('STREPTOCOCCUS AGALATIAE').
+species('KAPOSI\'S SARCOMA HERPESVIRUS K3 AND K5').
+species('MEDAKA FISH').
+species('35S').
+species('COKER').
+species('LARIX KAEMPFERI X L. OLGENSIS').
+species('LARCH').
+species('ENDOGENOUS RETROVIRUSES').
+species('ERVS').
+species('AVIAN MUSCULOAPONEUROTIC FIBROSARCOMA').
+species('BARLEY LEAF').
+species('BUGUZHI').
+species('T-CELL LEUKEMIA VIRUS TYPE 1').
+species('SARS CORONAVIRUS 3B').
+species('SARS-COV INFECTED').
+species('LACTOBACILLUS PLANTARUM L67').
+species('L. PLANTARUM L67').
+species('JESREC').
+species('FICUS CARICA LEAVES').
+species('F. CARICA LEAF').
+species('HOLOTRICHIA DIOMPHALIA LARVAE').
+species('AEROMONAS HYDROPHILA INFECTIONS').
+species('SIMIAN').
+species('STAPHYLOCOCCUS AUREUS ENTEROTOXIN').
+species('S AUREUS').
+species('LACTOBACILLUS CASEI ATCC 393').
+species('33, 45, 58').
+species('59').
+species('KSHV LATENCY-ASSOCIATED NUCLEAR ANTIGEN-1').
+species('RHINO').
+species('HUMAN IMMUNODEFICIENCY VIRUS INFECTION').
+species('JAMUN').
+species('BIFIDOBACTERIUM LONGUM SUBSP INFANTIS').
+species('BIFIDOBACTERIUM LONGUM SUPP INFANTIS').
+species('HELICOBACTER PYLORI-ASSOCIATED CANCERS').
+species('BOMBYX MORI ASPARAGINE SYNTHETASE').
+species('BMASNS').
+species('BOVINE MASTITIS').
+species('E. COLI MASTITIS').
+species('COMMON CARDER').
+species('DAIRY').
+species('HSV-2 INFECTION').
+species('M6 STRAIN JRS4').
+species('BACTERIAL').
+species('FRIEND ERYTHROLEUKEMIA VIRUS').
+species('MURINE POLYOMA VIRUS T').
+species('PY').
+species('HAEMAPHYSALIS LONGICORNIS TICK').
+species('POLYGONAM MULTIFLORUM').
+species('MCPYV.').
+species('CHIPMUNK').
+species('LUSHI BLUE-SHELLED-EGG CHICKENS').
+species('RHODE ISLAND RED CHICKENS').
+species('RIR').
+species('KLEBSIELLA PNEUMONIAE INFECTION').
+species('CORONAVIRAL').
+species('HPV-18').
+species('HPV-31').
+species('HPV-16E6').
+species('DNA TRANSPOSONS').
+species('SALMONELLA ENTERICA BNCC186354').
+species('S. ENTERICA BNCC186354').
+species('SALMONELLA INFECTION').
+species('S. ENTERICA BNCC186354 INFECTION').
+species('CITRUS CHANGSHAN-HUYOU').
+species('EM20031').
+species('ANTRODIA CINNAMOMEA').
+species('ANTRODIA CINNAMOMEAMYCELIUM').
+species('A. CRASSICAUDA SCORPION').
+species('SCORPION').
+species('AEGYPTI').
+species('VITRO').
+species('CORN SILK CRUDE POLYSACCHARIDE').
+species('CORN SILK').
+species('KAEMPFERIA PARVIFLORA TEA').
+species('MURINE LYMPHOMAS 2').
+species('FLOUNDER').
+species('TBV').
+species('BLACK SOLDIER FLY').
+species('CH.').
+species('PARTELLUS').
+species('C. FLAVIPES').
+species('B. FUSCA').
+species('BVDV INFECTION').
+species('AD TYPE 5').
+species('AD5').
+species('BP FLOUNDER').
+species('HUMAN EMBRYO KINASE').
+species('NOUZILLY ISOLATE').
+species('NOI').
+species('GRAPE ROOTSTOCK').
+species('APHROCALLISTES VASTUS LECTIN').
+species('AVL').
+species('ONCOVV').
+species('BRAZILIAN OPOSSUM').
+species('CMV-EV').
+species('HUMAN PAPILLOMAVIRUS ONCOPROTEIN').
+species('FOX').
+species('WDSV').
+species('MANDARIN FISH').
+species('HUMAN HEARTS').
+species('MYCOBACTERIUM AVIUM SUBSPECIES PARATUBERCULOSIS').
+species('PSNAV').
+species('JEV) INFECTION').
+species('SPT15-M2').
+species('ZIZIPHUS SPINA-CHRISTI (JUJUBE) ROOT').
+species('DENGUE VIRUS SEROTYPE 1').
+species('DENV-2').
+species('ANTHRAX LETHAL TOXIN').
+species('HUMAN T-CELL LEUKEMIA-LYMPHOMA VIRUS TYPE I').
+species('PLEUROSPERMUM KAMTSCHATICUM').
+species('MARUBIUM VULGARE').
+species('HIV-1SF162').
+species('ADENOVIRUS VECTORS').
+species('HUMAN LUNG FIBROBLAST').
+species('CHICK EMBRYO EXTRACT').
+species('CEE').
+species('TRICHODORID NEMATODES').
+species('TRICHODORUS SIMILIS SEINHORST').
+species('1963').
+species('HUMAN CANCERS').
+species('NEPHROPATHOGENIC INFECTIOUS BRONCHITIS VIRUS').
+species('NIBV').
+species('NIBV INFECTION').
+species('NIBV VIRUS').
+species('HUMAN LUNG').
+species('HAVICS').
+species('HIV INTEGRASE').
+species('DEBARYOMYCES HANSENII CBS 8339').
+species('D. HANSENII CBS 8339').
+species('YELLOW-FEATHERED').
+species('BACTEROIDES FRAGILIS ENTEROTOXIN').
+species('BFT').
+species('ETBF').
+species('ETBF INFECTION').
+species('ANTHRAX TOXIN INFECTION').
+species('HOUSE DUST MITE').
+species('HPV TYPES 16 AND 18').
+species('HPV-16 AND -18').
+species('HPV-16 INFECTION').
+species('HPV-16/-18').
+species('OSCARELLA STILLANS').
+species('HRV').
+species('HRV INFECTION').
+species('HRV16').
+species('BACILLUS ANTHRACIS EDEMA TOXIN').
+species('ET').
+species('REV-T').
+species('B19 VIRUS').
+species('HPV INFECTIONS').
+species('HPV TYPES 18 AND 11').
+species('HPV TYPE 11').
+species('OVINE FOLLICLE-STIMULATING HORMONE RECEPTOR').
+species('ADENOVIRUS E1B').
+species('GRASS CARP REOVIRUS II').
+species('GCRV II').
+species('CYENOPHARYNGODON IDELLUS').
+species('CURCUMAE LONGAE').
+species('MDV-1').
+species('YAK').
+species('SWAMP BUFFALO').
+species('MURINES').
+species('BUBALINES').
+species('HIBISCUS LEAF').
+species('P. VULGARIS').
+species('AD5 INFECTION').
+species('ADENOVIRUS EARLY REGION 4').
+species('ADENOVIRUS INFECTION').
+species('EQUIGUARD').
+species('HUMAN PAPILLOMAVIRUS 1A').
+species('HPV-1A').
+species('OLIVE LEAVES').
+species('HUMAN SARCOMAS').
+species('GROUND SQUIRRELS').
+species('HUMANNET').
+species('T. THERMOPHILUS').
+species('GARCINIA CAMBOGIA').
+species('G. CAMBOGIA').
+species('WASABI').
+species('CVB3 INFECTION').
+species('CVB3) INFECTION').
+species('BANANAS').
+species('VARICELLA ZOSTER IE62').
+species('EBOLAVIRUS (EBOV) INFECTION').
+species('1-').
+species('3-EBOV').
+species('P. NOVAEZEALANDIAE').
+species('WNV').
+species('DROSOPHILA MELANOGASTER FLIES').
+species('NIEMANN-PICK TYPE C 1').
+species('ADENOVIRUS TYPE 12 INFECTION').
+species('AD2 INFECTION').
+species('ROCK BREAM FISH').
+species('BEE VENOM').
+species('HUMAN T-LYMPHOTROPIC VIRUS 1 (HTLV-1) INFECTION').
+species('HYMENOCALLIS PANAMENSIS LINDL').
+species('H. LITTORALIS').
+species('INFLUENZA A VIRUSES').
+species('PR8').
+species('SARS-COV-2 VIRUS').
+species('BOVINE PAPILLOMAVIRUS TYPES 1 OR 2').
+species('BPV-1/2').
+species('CAMEL CLANS').
+species('CAMEL LACTOFERRIN').
+species('ORYZA SATIVA L. IR-36').
+species('CHOLERA TOXIN').
+species('BOTHRIOPSIS BILINEATA SMARAGDINA').
+species('FOREST VIPER').
+species('TRITICUM AESTIVUMMYB').
+species('CALOTHRIX CYANOBACTERIA').
+species('ADENOVIRUS E1A 12S').
+species('ACH.1').
+species('MELANOSTOMA SCHINER, 1860').
+species('MELANOSTOMA MELLIUM').
+species('M. DUBIUM NEC AUCTT').
+species('M. CERTUM SP').
+species('MUSCA MELLINA').
+species('MELANOSTOMA MELLINUM VAR').
+species('SCAEVA DUBIA SYN').
+species('GONATOCERUS NEES AB ESENBECK').
+species('G. BUKASHKA SP').
+species('G. KOZIAVKA SP').
+species('KYR-GYZSTAN').
+species('G. BEREZOVSKIYI SP').
+species('G. BESHBARMAK SP').
+species('G. KA-LIKA SP').
+species('G. KARAKUM SP').
+species('G. KARLIK SP').
+species('G. KATRAPS SP').
+species('G. KAZAK SP').
+species('G. KOMARIK SP').
+species('G. KRASAVCHIK SP').
+species('G. KULIK SP').
+species('G. KUM SP').
+species('G. KUSAKA SP').
+species('G. SAULFROMMERI SP').
+species('G. SVAT SP').
+species('G. UCRI SP').
+species('G. KIKIMORA SP').
+species('G. WOOHOO SP').
+species('G. (GONATOCERUS) FUSCICORNIS').
+species('LYMAENON SYNAPTUS').
+species('L. CRASSIPES DEBAUCHE SYN').
+species('G. (GONATOCERUS) AEGYPTIACUS SOYKA').
+species('ALAMI').
+species('G. TARAE').
+species('G. MIURAI').
+species('G. (GONATOCERUS) PICTUS').
+species('G. ORTHOPENITUS').
+species('G. (LYMAENON) AUREUS GIRAULT').
+species('G. TENUIPENNIS GIRAULT').
+species('G. CHRYSIS').
+species('N. PRO').
+species('G. FLAVUS SOYKA, 1950').
+species('G. FLAVUS FOERSTER, 1841').
+species('G. PAHLGAMENSIS').
+species('G. KANHERIENSIS MANI & SARASWAT SYN').
+species('FUKUOKENSIS').
+species('G. (LYMAENON) LITO-RALIS').
+species('ALAPTUS FUSCUS FORSTER SYN').
+species('G. EXIGUUS FORSTER').
+species('G. AMERICANUS').
+species('G. ANTHONOMI').
+species('G. ILLINOIENSIS GIRAULT SYN').
+species('G. MAEVIUS GIRAULT SYN').
+species('G. TEXANUS').
+species('G. PRIESNERI').
+species('G. (LYMAENON) LONGIOR SOYKA').
+species('G. CONICUS').
+species('(COSMOCO-MOIDEA) OXYPYGUS FOERSTER').
+species('G. OVICENATUS LEONARD & CROSBY SYN').
+species('G. MEGALURA').
+species('LYMAENON CUNCTATOR').
+species('G. (LYMAENON) CUNCTATOR').
+species('ALAPTUS FUSCUS').
+species('GONATOCERUS ANTHONOMI').
+species('G. ATER FOERSTER').
+species('LYMAENON FUSCICORNIS').
+species('L. TREMULAE BAKKENDORF').
+species('RACHISTUS SULPHURIPES FOERSTER').
+species('G. AUREUS').
+species('G. OXYPYGUS').
+species('SANBORN').
+species('FIDICINOIDES FERRUGINOSA').
+species('HEATH SP.').
+species('PROARNA PARVA SANBORN').
+species('PRASINOSOMA MEDIALINEA SANBORN').
+species('DORISIANA NORIEGAI').
+species('GUYALNA PLATYRHINA').
+species('HERRERA HUMILASTRATA').
+species('UMBRAPHILA').
+species('PARNISA VIRIDIS').
+species('ALARCTA MICROMACULA').
+species('TORRESIA LARIOJAENSIS SANBORN').
+species('TORRESIA SANJUANENSIS SANBORN').
+species('ADUSELLA SIGNATA').
+species('TETTIGADES LEBRUNI').
+species('ODOPOEA SIGNATA').
+species('FIDICINA VINULA STAL').
+species('FIDICINOIDES PRONOE').
+species('FIDICINOIDES BOULARD & MARTINELLI').
+species('FIDICINOIDES VINULA COMB').
+species('PROARNA MONTIVIDENSIS BERG, 1882').
+species('GUYALNA BONAERENSIS').
+species('DEROTETTIX PROSENI TORRES, 1945').
+species('DEROTETTIX WAGNERI DISTANT, 1905').
+species('CICADA VIRIDIS OLIVIER, 1790').
+species('CICADA VIRIDIS LINNAEUS, 1758').
+species('LIZERIANA DELETANG, 1919').
+species('FIDICINOIDES DETERMINATA').
+species('FIDICINOIDES VINULA').
+species('PRASINOSOMA FUEMBUENAI').
+species('ARIASA BILAQUEATA').
+species('ARIASA COLOMBIAE').
+species('CARINETA BOLIVIANA').
+species('CARINETA GEMELLA').
+species('SELYMBRIA PANDORA').
+species('TAPHURA HASTIFERA').
+species('TAPHURA MISELLA').
+species('TETTIGADES ANGULARIS TORRES, 1958').
+species('FABRICIUS').
+species('BIBIO FABRICIUS').
+species('CERIA FABRICIUS, 1794').
+species('HIRTEA FABRICIUS').
+species('MULIO FABRICIUS').
+species('SCATOPHAGA FABRICIUS, 1805').
+species('SICUS FABRICIUS').
+species('VOLUCCELLA FABRICIUS').
+species('SCATOPHAGA FABRICIUS').
+species('LATREILLE').
+species('PSILA MEIGEN, 1803').
+species('MUSCA SUILLA FABRICIUS, 1794').
+species('SCATHOPHAGA MEIGEN, 1803').
+species('SCATHOPHAGA SUILLA AUCT').
+species('MUSCA SUILLA FABRICIUS').
+species('CORDYLURA SPINIMANA FALLEN, 1819').
+species('PROTOPOLYBIA DUCKE, 1905').
+species('PROTOPOLYBIA DILIGENS').
+species('COLLOMBIANA').
+species('CARPENTER').
+species('CLYPEATA SANTOS').
+species('SIMILIS SANTOS').
+species('P. POTIGUARA SANTOS').
+species('P. RUBRITHORAX BEQUAERT, 1944').
+species('P. BITUBERCULATA SILVEIRA & CARPENTER').
+species('1995').
+species('POLYBIA NANA CAMERON, 1912').
+species('TERMESZETTUDOMANYI MUZEUM').
+species('HEDYCHRUM LUCULENTUM FORSTER, 1853').
+species('CHRYSIS AMASINA MOCSARY, 1889').
+species('CHRYSIS VARICORNIS SPINOLA, 1838').
+species('CHRYSIS CYANOCOELIA MOCSARY, 1889').
+species('HEDYCHRIDIUM ADVENTICIUM ZIMMERMANN, 1962').
+species('HEDYCHRIDIUM JAZYGICUM MOCZAR, 1964').
+species('HEDYCHRUM CRIBRATUM MOCSARY, 1909').
+species('HEDYCHRUM PUNCTIGERUM MOCSARY, 1909').
+species('HOLOPYGA HORTOBAGYENSIS').
+species('HOLOPYGA TURKESTANICA MOCSARY, 1909').
+species('HOLOPYGA CRASSEPUNCTA SEMENOV, 1954').
+species('CUPRATUS').
+species('MOCSARY, 1889').
+species('PSEUDOMALUS MERIDIANUS').
+species('HEDYCHRIDIUM AMOENUM (MOCSARY').
+species('ELLAMPUS BIACCINCTUS DU BUYSSON, 1893').
+species('NOMEN').
+species('PROTECTUM').
+species('E. AURATUS VAR').
+species('GASPERINII').
+species('CHRYSIS FUSCA ROSA').
+species('LEAFHOPPER').
+species('PENTHIMIA CURVATA SP').
+species('P. MEGHALAYENSIS SP').
+species('P. NEOATTENUATA SP').
+species('P. RIBHOI SP').
+species('P. SAHYADRICA SP').
+species('P. SPICULATA SP').
+species('P. TUMIDA SP').
+species('PENTHIMIA ALBA ZAHNISER').
+species('P. THORACICA DISTANT, 1918').
+species('P. QUADRINOTATA').
+species('NEODARTUS SCUTELLATUS DISTANT,').
+species('PENTHIMIA EREBA').
+species('P. SCUTELLATA').
+species('P. MACULOSA').
+species('P. SCAPULARIS').
+species('P. ATTENUATA').
+species('P. DISTANTI').
+species('P. EREBA').
+species('N. SCUTELLATUS').
+species('P. FRATERNA').
+species('P. FUNEBRIS').
+species('P. NOCTUA').
+species('PENTHIMIA RUFOPUNCTATA').
+species('TAMBILA BADIA').
+species('T. MAJUSCULA').
+species('T. VITTATIFRONS').
+species('T. VARIABILIS').
+species('VULTURNUS FLAVOCAPITATA').
+species('PENTHIMIA COMPACTA WALKER COMPLEX').
+species('PENTHIMIA SUBNIGER').
+species('PENTHIMIA SCAPULARIS').
+species('RASAHUS AMYOT AUDINET-SERVILLE, 1843').
+species('RASAHUS NESIOTES SP.').
+species('RASAHUS DELIQUUS SP').
+species('RASAHUS ABOLITUS SP').
+species('RASAHUS CASTANEUS COSCARON, 1983').
+species('REDUVIUS SCUTELLARIS FABRICIUS, 1787').
+species('RASAHUS RUFIVENTRIS (WALKER, 1873').
+species('PIRATES MYRMECINUS ERICHSON,').
+species('RASAHUS MYRMECINUS').
+species('ERICHSON, 1848').
+species('RASAHUS SCUTELLARIS AUCT.').
+species('PIRATES DIGRAMMA').
+species(', 1873').
+species('TYDIDES STAL, 1866').
+species('TYDIDES DIGRAMMA').
+species('WARREN').
+species('OOSPILA WARREN, 1897').
+species('OOSPILA FLAVILIMES').
+species('O. STIGMA').
+species('O. ARPATA SPECIES').
+species('O. CRISTAE SP.').
+species('N.').
+species('O. FALCATA SP').
+species('O. PALLIDARIA BOLIVIENSIS SUBSP.').
+species('O. LOREENAE SP').
+species('O. EHAKERNAE SP').
+species('O. SIMILIPLAGA BOLARPATA').
+species('O. BREHMI SP').
+species('O. BIFIDA SP').
+species('O. MOSERI SP').
+species('O. ABSALONI SP').
+species('O. PIPA SP').
+species('O. IMULA').
+species('OOSPILA AGNETAFORSLUNDAE').
+species('OOSPILA MARGINATA SCHAUS, 1912').
+species('OOSPILA MARGINATA WARREN, 1897').
+species('COELINIUS NEES').
+species('COELINIUS CARMENAE').
+species('N. SP').
+species('COELINIUS DANIELAE').
+species('COELINIUS SENSU WHARTON').
+species('COELINIUS MAHACKEMOI').
+species('COELINIUS MEROMYZAE').
+species('COELINIUS NIGRIPES').
+species('COELINIUS OCCOM').
+species('COELINIUS LONGULUS').
+species('LEPTON ZETTERSTEDT, 1838 NEC').
+species('COELINIUS LINEARIS').
+species('C. ATLANTEIA').
+species('C. CHRYSOPELEIA').
+species('C. BRITOMARTIS N. SINGH').
+species('ARAMA').
+species('C. CONCLUSA NICOBARA').
+species('C. TRIPUNCTATA ROTHSCHILD, 1936').
+species('ARORAI').
+species('CYANA LINATULA').
+species('SWINHOE, 1891').
+species('CYANA WATSONI').
+species('CYANA SUBORNATA').
+species('CYANA MOELLERI').
+species('ELWES').
+species('CYANA PAENINSULANA CERNY, 2009').
+species('C. SELANGORICA (HAMPSON, 1903').
+species('C. SELANGORICA PAENINSULANA CERNY, 2009').
+species('CYANA FLAVOTINCTA').
+species('1914').
+species('MOORE, 1878').
+species('CYANA COCCINEA FLAVOTINCTA').
+species('C. DETRITA WALKER, 1854').
+species('LYCLENE TRIPUNCTATA REICH, 1935').
+species('C. OBLIQUILINEATA').
+species('CYANA BAOLINI').
+species('C. GELIDA GELIDA').
+species('LITHOSIA ALBOROSEA').
+species('C. KHASIANA HAMPSON, 1897').
+species('CHIONAEMA HAMPSONI KALEKA, 2003').
+species('C. ARAMA ARAMA').
+species('BIZONE TRIGUTTATA').
+species('CYANA DETRITA WALKER').
+species('BARSINE SUFFUNDENS WALKER,').
+species('BIZONE COCCINEA MOORE').
+species('CHIONAEMA COCCINEA FORM').
+species('FLAVOTINCTA DRAUDT, 1914').
+species('BIZONE').
+species('BIZONE LINATULA').
+species('CYANA DUDGEONI').
+species('BIZONE PEREGRINA').
+species('CYANA CATORHODA').
+species('BIZONE QUADRINOTATA').
+species('BIZONE PALLENS').
+species('BIZONE AMABILIS MOORE,').
+species('BIZONE HARTERTI').
+species('DOLICHE GELIDA').
+species('BIZONE MOLLERI').
+species('BIZONE GAZELLA').
+species('BIZONE DOHERTYI').
+species('BIZONE SIKKIMENSIS').
+species('TRICHOLAPITA').
+species('-ZURITA').
+species('CARDOSO').
+species('LAPITA GOMEZ-ZURITA').
+species('TAOPHILA HELLER, 1916').
+species('TRICHOLAPITA REIDI SP').
+species('PHILOCTETES ACUMINATUS').
+species('CHRYSIS MIRAE').
+species('1959').
+species('CHRYSIS VILLOSA').
+species('CHRYSIS ASHABADENSIS SENSU LINSENMAIER 1959').
+species('NEC RADOSZKOWSKI, 1891').
+species('CHRYSIS RASMONTI').
+species('CHRYSIS HANDLIRSCHI SENSU').
+species('CHRYSIS KLIO').
+species('BISCHOFF, 1910').
+species('CHRYSIS VERNA DAHLBOM, 1854').
+species('CHRYSIS HANDLIRSCHI AB').
+species('CONOTELUS ERICHSON, 1843').
+species('KIREJTSHUK, 2001').
+species('GROUVELLEPEPLUS').
+species('MURRAY, 1864').
+species('ADOCIMUS MURRAY, 1864').
+species('ADOCIMUS (BELONOTUS) BARTENEVI SP.').
+species('ERICHSON, 1842').
+species('ITHYPHENES MURRAY, 1864').
+species('LAFEROLLAEUS GEN').
+species('LAFEROLLAEUS ANGUSTISSIMUS SP').
+species('BRACHYPEPLUS OLLIFFI BLACKBURN, 1902').
+species('ONICOTIS MURRAY, 1864').
+species('ONIPHENES GEN').
+species('ONIPHENES LOBANOVI SP').
+species('BRACHYPEPLUS INSTRIATUS SP').
+species('B. MAKAROVI SP').
+species('B. NYPICOLA SP').
+species('CILLAEOPEPLUS RECTINOTUS SP').
+species('C. TEMPORALIBUS SP').
+species('ITHYPHENES AUSTRALIAENSIS SP.').
+species('I. MARINAE SP').
+species('I. RECTIFRONS SP').
+species('MATTHEWSIANUS POLINAE SP').
+species('ONIPHENES BICOLORATUS SP').
+species('LOBANOVI SP').
+species('O. SUBUNICOLOR SP').
+species('ADOCIMUS (BELONOTUS) MODIGLIANII').
+species('CILLAEUS LAPORTE,').
+species('A. (B.) NITIDULUS').
+species('POWELL ET CLINE').
+species('2021').
+species('MANDIBULARE').
+species('B. PYGIDIATUM').
+species('CAMPSOPYGA XANTHURA (MURRAY, 1864').
+species('HYPODETUS MURRAY, 1864').
+species('CILLAEOPEPLUS RASTRUS').
+species('ITHYPHENES ANGUSTUS').
+species('PLATYNEMA RITSEMA, 1885').
+species('I. BREVICEPS').
+species('I. DENTIPES').
+species('I. FISSICEPS').
+species('I. FUSCIPENNIS').
+species('I. JAPONICUS').
+species('I. LONGICEPS').
+species('OLLIFFI').
+species('I. PUNCTICEPS').
+species('RITSEMAI').
+species('I. SAUNDERSII').
+species('MATTHEWSIANUS OLLIFFI').
+species('ADOCIMUS BELLUS MURRAY, 1864').
+species('A. NIGRIPENNIS REITTER, 1880').
+species('A. DIMIDIATUS REITTER').
+species('NITIDULOPSIS AEQUALIS').
+species(', 1858').
+species('BRACHYPEPLUS (SELIS) PALLIDUS').
+species('B.').
+species('BRACHYPEPLUS (BRACHYPEPLUS) OBESUS GROUVELLE, 1895').
+species('BRACHYPEPLUS (SELIS) APICALIS MURRAY, 1864').
+species('B. (S.) FIMBRIATUS REITTER, 1880').
+species('B. (S.) DORSALIS GROUVELLE, 1897').
+species('B. (S.) DECORATUS GROUVELLE, 1917').
+species('B. (S.) ORNATUS GROUVELLE, 1914').
+species('BRACHYPEPLUS (TASMUS) BASALIS').
+species('B. (T.) BREVICORNIS SHARP, 1878').
+species('BRACHYPEPLUS (TASMUS) BINOTATUS MURRAY, 1864').
+species('B. COWLEYI BLACKBURN, 1902').
+species('B. KOEBELEI BLACKBURN, 1902').
+species('B. MURRAYI MACLEAY, 1873').
+species('BRACHYPEPLUS KEMBLENSIS BLACKBURN, 1902').
+species('BRACHYPEPLUS MAULI GARDNER ET CLASEY, 1962').
+species('MACLEAYI MURRAY, 1864').
+species('B. INQUILINUS LEA 1912').
+species('B. INSIGNIS LEA').
+species('BRACHYPEPLUS (BRACHYPEPLUS) NITIDULUS GROUVELLE, 1897').
+species('CILLAEUS MODIGLIANII GROUVELLE, 1897').
+species('ADOCIMUS').
+species('BRACHYPEPLUS APICALIS MURRAY, 1864').
+species('B. DORSALIS GROUVELLE, 1897').
+species('ADOCIMUS NIGRIPENNIS REITTER, 1880').
+species('BRACHYPEPLUS BARRONENSIS BLACKBURN, 1902').
+species('B. BASALIS ERICHSON, 1842').
+species('B. INQUILINUS LEA,').
+species('B. KEMBLENSIS').
+species('B. OLLIFFI').
+species('B. PLANUS ERICHSON').
+species('B. WATTSENSIS').
+species('B. XANTHORRHOEAE LEA,').
+species('B.) OBESUS').
+species('B. (SELIS) APICALIS').
+species('S.) CAUDALIS').
+species('O. DENTIPES MURRAY, 1864. O. FUSCIPENNIS MURRAY, 1864').
+species('PLATYNEMA OLLIFFI RITSEMA, 1885').
+species('BRACHYPEPLUS MACLEAYI').
+species('BRACHYPEPLUS BASALIS').
+species('CALOPHYA PHELLODENDRI').
+species('CALOPHYA RHOPENJABENSIS').
+species('CACOPSYLLA INITIALIS').
+species('CACOPSYLLA SIBIRICA').
+species('CACOPSYLLA VIBURNICOLA').
+species('SPINOTRIOZA KWON KWON, 2020').
+species('CACOPSYLLA OSSIANNISSON, 1970').
+species('PSYLLA (KOREOPSYLLA) KWON KWON').
+species('MEGAPTERIPSYLLA) KWON KWON, 2020').
+species('SPANIOZA ENDERLEIN').
+species('TRICHOCHERMES KIRKALDY').
+species('MIYATAKE').
+species('ARYTAINA CORNICOLA FRAUENFELD, 1869').
+species('OBLITUM').
+species('CELTISASPIS GUIZHOUANA').
+species('CELTISASPIS SINICA YANG').
+species('CELTISASPIS ZHEJIANGANA YANG LI').
+species('CELTISASPIS BEIJINGANA').
+species('2011').
+species('CALOPHYA ELAEOCARPAE').
+species('CALOPHYA VERTICORNIS KWON').
+species('CALOPHYA MELANOCEPHALA').
+species('HEPATOPSYLLA) ARALICOLA KWON KWON').
+species('CACOPSYLLA DIAPHANA').
+species('PENINSULARIS KWON').
+species('CACOPSYLLA MOIWASANA (KUWAYAMA, 1908').
+species('PSYLLA MICROMELI KONOVALOVA,').
+species('CACOPSYLLA NIGELLA').
+species('PSYLLA LIAOLI').
+species('PSYLLA SANDOLBAEA').
+species('LIVIA BAEGUNSANA KWON KWON, 2020').
+species('TRICHOCHERMES GEMELLUS LOGINOVA, 1974').
+species('TRICHOCHERMES RHAMNISUGUS').
+species('TRIOZA NARIA').
+species('TRIOZA QUERCICOLA SHINJI, 1944').
+species('DYSPERSA HAMBAEKSANA KWON KWON').
+species('CACOPSYLLA CYPHOSPILA').
+species('CACOPSYLLA FLUCTIMACULATA').
+species('CACOPSYLLA GOSSYPINMACULOSA').
+species('CACOPSYLLA NIGRIGENIMACULA').
+species('CACOPSYLLA SILVESTRIS').
+species('DYSPERSA ABDOMINALIS').
+species('DYSPERSA AGROPHILA').
+species('LW').
+species('DYSPERSA CHRYSANTHEMI').
+species('DYSPERSA CIRSII').
+species('DYSPERSA FLIXIANA').
+species('BURCKHARDT LAUTERER').
+species('DYSPERSA SCHRANKII').
+species('DYSPERSA SENECIONIS').
+species('SCOPOLI').
+species('DYSPERSA VIRIDULA').
+species('SPANIOZA COCQUEMPOTI').
+species('SPANIOZA DROSOPOULI').
+species('TRICHOCHERMES MARGINEPUNCTATUS').
+species('TRICHOCHERMES RHAMNI').
+species('TRIOCHOCHERMES RHAMNISUGUS').
+species('TRIOZA JEJUENSIS').
+species('BACTERICERA CALCARATA').
+species('CACOPSYLLA MOIWASANA').
+species('DYSPERSA LASERPITII').
+species('D. LAUTERERIELLA').
+species('D. MESEMBRINA').
+species('D. PALLIDA').
+species('HEMIPTERIPSYLLA').
+species('TRIOZA CAMPHORAE').
+species('T. CINNAMOMI BOSELLI').
+species('USUBAI').
+species('CACOPSYLLA KWONORUM').
+species('MMTV(D)').
+species('HEPATITIS DELTA').
+species('HDV').
+species('IARC POLYOMAVIRUS').
+species('IARC PYV').
+species('LIPYV').
+species('RACCOON PYV').
+species('MERKEL CELL PYV').
+species('MCPYV').
+species('HIV VIRUSES').
+species('HUMAN POLYOMAVIRUS').
+species('DUANLIELLA BARDAWIL').
+species('D.BARAWALI').
+species('D.BRADAWIL').
+species('HR-HPV TYPE 16').
+species('HPVE6').
+species('FASCIOLA SPP').
+species('ANKAFERD  BLOOD STOPPER').
+species('T. VULGARIS').
+species('A. OFFICINARUM').
+species('SPINY LOBSTER').
+species('HESCS').
+species('HUMAN BREAST CANCER').
+species('PATIENT TUMORS').
+species('COXSACKIEVIRUS B3 2APRO').
+species('DULAR RICE').
+species('VISNA').
+species('HUMAN T-CELL LEUKEMIA VIRUS').
+species('SPARUS AURATA L.').
+species('HUMAN ESCS').
+species('MUSE').
+species('RETROVIRUS RETICULOENDOTHELIOSIS VIRUS').
+species('D\'MAN').
+species('BOSWELLIA CARTERII BIRDW').
+species('HEPATITIS B SURFACE ANTIGEN').
+species('WOMEN\'S DISEASES').
+species('CINNAMOMI RAMULUS').
+species('C. CASSIA').
+species('EBV-BAC').
+species('-ASSOCIATED VIRUS').
+species('HERPES SIMPLEX VIRUS TYPES 1 AND 2').
+species('PV').
+species('SENDAI VIRUS INFECTION').
+species('COCKROACH').
+species('HDMA').

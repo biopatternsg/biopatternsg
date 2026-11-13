@@ -1,0 +1,148 @@
+================================================================================
+REPORT 3: COVID-19 DRUG REPURPOSING LANDSCAPE
+COVID-19 Immunology Study (COVID-19-IMMUNOLOGY-50)
+================================================================================
+
+All drugs/compounds with negative_correlation to COVID-19 in kBase.pl
+(negative_correlation = therapeutic/antagonistic effect reported in literature)
+
+================================================================================
+A. APPROVED ANTIVIRALS
+================================================================================
+
+  REMDESIVIR (RDV)
+    - Prodrug nucleotide analog, targets RdRp (nsp12)
+    - Also negative_correlation with CORONAVIRUS INFECTIONS, INFECTIONS
+
+  FAVIPIRAVIR
+    - RNA-dependent RNA polymerase inhibitor
+    - Negative_correlation with COVID-19
+
+  UMIFENOVIR (ARBIDOL)
+    - Broad-spectrum antiviral, membrane fusion inhibitor
+    - Negative_correlation with COVID-19
+
+  MOLNUPIRAVIR
+    - Oral nucleoside analog, induces viral error catastrophe
+    - Negative_correlation with COVID-19
+    - Cotreatment with NIRMATRELVIR AND RITONAVIR DRUG COMBINATION
+
+  NIRMATRELVIR AND RITONAVIR DRUG COMBINATION (PAXLOVID)
+    - 3CL protease inhibitor + CYP3A4 booster
+    - Negative_correlation with COVID-19, KIDNEY DISEASES,
+      LIVER FAILURE ACUTE, CARDIAC OUTPUT LOW
+
+  4-OXIME URIDINE (NHC / BETA-D-N4-HYDROXYCYTIDINE)
+    - Molnupiravir active metabolite
+    - Negative_correlation with COVID-19
+
+================================================================================
+B. JAK INHIBITORS
+================================================================================
+
+  BARICITINIB
+    - JAK1/JAK2 inhibitor, FDA-approved for COVID-19
+    - Negative_correlation with COVID-19
+
+  TOFACITINIB
+    - JAK1/JAK3 inhibitor
+    - Negative_correlation with COVID-19, IL10, CD274, KLRK1, IFNG
+
+  RUXOLITINIB
+    - JAK1/JAK2 inhibitor
+    - Negative_correlation with COVID-19, IFNG, GLB1
+
+  NEZULCITINIB (TD-0903)
+    - Lung-selective JAK inhibitor
+    - Negative_correlation with COVID-19
+
+================================================================================
+C. CCR5 ANTAGONISTS
+================================================================================
+
+  MARAVIROC
+    - CCR5 antagonist (HIV entry inhibitor)
+    - Negative_correlation with COVID-19, CCR5, CD274
+
+  CENICRIVIROC (CVC)
+    - CCR2/CCR5 dual antagonist
+    - Negative_correlation with COVID-19, CCR5, CCR2, INFLAMMATION,
+      MULTIPLE ORGAN FAILURE, RESPIRATORY INSUFFICIENCY,
+      NON-ALCOHOLIC FATTY LIVER DISEASE
+
+  LERONLIMAB
+    - CCR5 monoclonal antibody
+    - Negative_correlation with POST-ACUTE COVID-19 SYNDROME, CCR5
+
+================================================================================
+D. IMMUNOMODULATORS / CORTICOSTEROIDS
+================================================================================
+
+  DEXAMETHASONE
+    - Corticosteroid, RECOVERY trial standard of care
+    - Negative_correlation with COVID-19
+    - Cotreatment with CENICRIVIROC
+
+  HYDROXYCHLOROQUINE
+    - Antimalarial, immunomodulatory
+    - Negative_correlation with COVID-19, IFNG, CD8A, CD4, CD69,
+      CCR5, TIGIT, TNF, FAS, ITGB1, KLRB1, INFLAMMATION
+
+  AZATHIOPRINE
+    - Purine synthesis inhibitor, immunosuppressant
+    - Negative_correlation with COVID-19, AUTOIMMUNE DISEASES,
+      COLITIS ULCERATIVE, HEPATITIS AUTOIMMUNE, JAUNDICE
+
+  METHYLPREDNISOLONE / PREDNISOLONE
+    - Corticosteroids
+    - Negative_correlation with INFECTIONS
+
+================================================================================
+E. NATURAL COMPOUNDS / PHYTOCHEMICALS
+================================================================================
+
+  SAIKOSAPONIN D
+    - Triterpene saponin from Bupleurum
+    - Negative_correlation with COVID-19
+    - Association with CAT, IL6, CHEK1, NOX5, JAK3
+
+  GLYCYROL
+    - Licorice-derived compound
+    - Negative_correlation with COVID-19
+    - Positive_correlation with CSF2, CXCL8, IFNG, CCR5
+
+  LICOPYRANOCOUMARIN
+    - Coumarin derivative from licorice
+    - Negative_correlation with COVID-19
+    - Positive_correlation with CSF2, CXCL8
+    - Association with CCR5, IFNG, TNF
+
+  QUERCETIN
+    - Flavonoid, found in many plants
+    - Association with COVID-19 (context-dependent)
+
+  BERBERINE
+    - Isoquinoline alkaloid
+    - Negative_correlation with COVID-19
+
+  KAEMPFEROL, HESPERIDIN
+    - Flavonoids
+    - Negative_correlation with COVID-19
+
+================================================================================
+F. OTHER THERAPEUTIC AGENTS
+================================================================================
+
+  HEPARIN
+    - Anticoagulant
+    - Negative_correlation with COVID-19, INFLAMMATION
+    - Positive_correlation with HEMORRHAGE, THROMBOCYTOPENIA
+
+  CHLOROQUINE
+    - Antimalarial (early-pandemic candidate)
+    - Negative_correlation with COVID-19
+
+  ACETYLCYSTEINE, AZITHROMYCIN, DIGOXIN, ETOPOSIDE, FENOFIBRATE,
+  PIRFENIDONE, SIROLIMUS, VANCOMYCIN, VITAMIN D, METHOTREXATE,
+  CYCLOPHOSPHAMIDE -- all show negative_correlation with COVID-19
+================================================================================

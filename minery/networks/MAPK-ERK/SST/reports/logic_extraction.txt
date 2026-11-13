@@ -1,0 +1,197 @@
+================================================================================
+REPORT: LOGIC EXTRACTION
+Study: SST / MAPK-ERK neuroendocrine tumor correlation analysis
+Working directory: /home/jose-lopez/tools/runnable/minery/networks/MAPK-ERK/SST
+================================================================================
+
+This report summarizes the primary entities, attributes, and logical rules
+encoded in the Prolog knowledge base and auxiliary files. All names are
+PubTator-aligned unless noted. No external knowledge is imported as fact.
+
+--------------------------------------------------------------------------------
+1. KNOWLEDGE BASE STRUCTURE (kBase.pl)
+--------------------------------------------------------------------------------
+
+File: kBase.pl (124,253 lines)
+Wrapper predicate: base([ ... ]).
+Content: ~124,252 event/3 facts of the form:
+
+    event(Subject, Relation, Object).
+
+Relation types (semantic attributes):
+    - association          : undirected co-occurrence / linkage
+    - negative_correlation : inhibitory / suppressive / therapeutic effect
+    - positive_correlation : activating / inductive / promotive effect
+    - bind                 : physical binding interaction
+
+Each event is bidirectional where semantically appropriate (e.g.
+event('A',negative_correlation,'B') is paired with
+event('B',negative_correlation,'A')). The number of event/3 facts in
+kBase.pl equals the number of "Regulatory Event" blocks in kBaseDoc.txt
+(124,252). kBaseDoc.txt documents every event with subject/object synonym
+lists and source sentences ending in PUBMED_ID.
+
+Total distinct relation types observed: 4 (association, negative_correlation,
+positive_correlation, bind).
+
+--------------------------------------------------------------------------------
+2. EXPERT OBJECTS (expert_objects.txt)
+--------------------------------------------------------------------------------
+
+File: expert_objects.txt (69 objects)
+68 objects are PubTator-aligned (declared aligned/1 in aligned.pl).
+1 object is NOT aligned: LANREOTIDE (declared no_aligned/1 in aligned.pl:76).
+
+Object classes represented (from biotypes-kbs/ and wellKnownRules.pl):
+    - Ligands / small molecules: OCTREOTIDE, LANREOTIDE, GUANOSINE DIPHOSPHATE,
+      GUANOSINE TRIPHOSPHATE
+    - Receptors: EGFR, SSTR1, SSTR2, SSTR5
+    - Kinases / signaling: RAF, MAP2K1, MAP2K2, MAPK1, MAPK3, S6K (RPS6KB1),
+      IKKEPSILON
+    - GTPase: RAS
+    - Adaptor: GRB2, SOS
+    - Ligand: EGF
+    - Transcription factors: CREB1, MYC, JUN, RUNX1, CDX1, SRY, ZNF384, CAP,
+      GATA1, ATF1, IKZF1, MYOD1, TFAP4, CEBPA, GATA3, GATA2, USF1, FOXA2,
+      ETS1, ATF2, STAT, FOXD3, MZF1, FOXD1, LMO2, TEF, MAX, SP1, REL, POU2F1,
+      CP2, MYB, CEBPB, ZNF8, TBP, EVI1, P53 (TP53), SOX5, HLF, IKZF3, TCF3,
+      YY1, RPS6
+    - Diseases: NEUROENDOCRINE TUMORS, CARCINOMA NEUROENDICRINE
+    - Peptide hormone: SST
+
+Note: P53 is aligned_as TP53 (aligned.pl:104). S6K is aligned_as RPS6KB1
+(aligned.pl:86). SST is aligned_as multiple disease-growth-tumor terms
+(aligned.pl:88) — a potential conflation to review (see cross_referencing).
+
+--------------------------------------------------------------------------------
+3. ALIGNMENT FILE (aligned.pl)
+--------------------------------------------------------------------------------
+
+File: aligned.pl (117 lines)
+Declares:
+    aligned/1        : 68 expert objects confirmed PubTator-aligned
+    no_aligned/1     : LANREOTIDE only
+    aligned_as/2     : 28 objects with alternative PubTator synonym sets
+    aligned_objs/2   : list of 68 aligned objects + count 68
+    no_aligned_objs/2: ['LANREOTIDE'] + count 1
+    aligned_and_alternatives/2: 143 entities (aligned objects + alternatives)
+
+Key aligned_as entries relevant to this study:
+    aligned_as('S6K', ['RPS6KB1', 'S6K', 'P.S6K']).
+    aligned_as('P53', ['TP53', 'TRP53-PS', 'TRP53', 'P53-PS', 'TP53.L', 'P53']).
+    aligned_as('SST', ['SST', 'GROWTH HORMONE-SECRETING PITUITARY ADENOMA',
+                       'GASTROINTESTINAL STROMAL TUMORS']).   <- conflation risk
+    aligned_as('SSTR5', ['SSTR2', 'SSTR5']).                    <- SSTR2/SSTR5 conflation risk
+    aligned_as('EVI1', ['RUNX1', 'MECOM', 'EVI1']).              <- RUNX1/EVI1 conflation risk
+
+--------------------------------------------------------------------------------
+4. SYNONYMS (synonyms.pl)
+--------------------------------------------------------------------------------
+
+File: synonyms.pl (~443 entries)
+Predicate: synonyms(Entity, [SynonymList]).
+PubTator-assigned main entity names plus synonyms used to identify synonymous
+interactions. Relevant entries:
+
+    synonyms('OCTREOTIDE', ['OCTREOTIDE','SMS-201-995','SANDOSTATIN','OC',...]).
+    synonyms('AKT1', ['AKT1','AKT','PKB','PROTEIN KINASE B','RAC-ALPHA...',...]).
+    synonyms('DCTN6', ['DCTN6','P27']).                       (= CDKN1B / KIP1)
+    synonyms('SIROLIMUS', ['SIROLIMUS','RAPAMYCIN','RAP']).
+    synonyms('SST', ['SST','SOMATOSTATIN','SRIF','SOMATOTROPIN RELEASE-...',...]).
+    synonyms('RPS6KB1', ['RPS6KB1','P70 S6K','S6K','P70S6K',...]). (= S6K)
+    synonyms('CDKN1B', ['CDKN1B','KIP1','P27KIP1','P27',...]). (= DCTN6)
+    synonyms('CREB1', ['CREB1','CREB','CAMP RESPONSE ELEMENT-...',...]).
+    synonyms('SP1', ['SP1','SPECIFICITY PROTEIN-1',...]).
+    synonyms('MYC', ['MYC','C-MYC','V-MYC...',...]).
+    synonyms('JUN', ['JUN','ACTIVATING PROTEIN-1','AP-1','C-JUN',...]).
+    synonyms('TP53', ['TP53','P53','TUMOR PROTEIN P53',...]).
+    synonyms('SSTR2', ['SSTR2','SOMATOSTATIN RECEPTOR 2','SST2','SSTR2, 5',...]).
+    synonyms('SSTR5', ['SSTR5','SOMATOSTATIN RECEPTOR 5','SSTR2, 5',...]).  <- overlaps SSTR2
+    synonyms('MAPK1', ['MAPK1','ERK2',...]).
+    synonyms('MAPK3', ['MAPK3','ERK1',...]).
+    synonyms('EGFR', ['EGFR','EGF','EGFRA',...]).
+    synonyms('EGF', ['EGF','EPIDERMAL GROWTH FACTOR',...]).
+    synonyms('RAF', [...]).
+    synonyms('RAS', [...]).
+    synonyms('GRB2', ['GRB2','GRB2.L','DRK',...]).
+    synonyms('SOS', ['SOS',...]).
+
+Note: synonyms('SSTR2', [...,'SSTR5',...]) and synonyms('SSTR5',[...'SSTR2',...])
+overlap → SSTR2/SSTR5 synonym pollution risk (flagged in cross_referencing).
+
+--------------------------------------------------------------------------------
+5. BIOTYPES (biotypes-kbs/)
+--------------------------------------------------------------------------------
+
+Files (entity type classification, PubTator-predicted):
+    genes.pl        (~2,760 gene/protein entities)      → protein/ligand/variant
+    diseases.pl     (~1,355 disease entities)           → disease
+    variants.pl     (~1,018 genetic/protein variants)   → variant
+    ligands.pl      (~1,352 small molecules/compounds)  → ligand
+    biotypes.pl     entity type classification          → protein/ligand/disease/variant/species/cellline
+    cell_lines.pl   cell line entities                  → cellline
+    species.pl      species entities                    → species
+
+Type predicates observed in biotypes.pl:
+    protein/1, ligand/1, disease/1, variant/1, species/1, cellline/1.
+
+Both target diseases are present:
+    disease('CARCINOMA NEUROENDICRINE').   (diseases.pl:35)
+    disease('NEUROENDOCRINE TUMORS').      (diseases.pl:318; biotypes.pl:1323)
+
+wellKnownRules.pl (134 lines) encodes subsumption/hierarchy rules, e.g.:
+    wkr_neuroendocrine_tumors(X) :- wkr_carcinoma_neuroendocrine(X).
+    wkr_carcinoma(X) :- wkr_adenocarcinoma(X).
+    wkr_adenocarcinoma(X) :- wkr_carcinoma_neuroendocrine(X).
+    wkr_neoplasms(X) :- wkr_neoplasms_by_histologic_type(X).
+    wkr_diseases_category(X) :- wkr_neoplasms(X).
+    (Note: rule bodies reference predicates such as wkr_epidermal_growth_factor/1,
+     wkr_erbb_receptors/1, etc. whose fact bases are empty strings in this file;
+     these rules are declarative type hierarchies, not executable queries.)
+
+--------------------------------------------------------------------------------
+6. LOGICAL RULES / INFERENCIES
+--------------------------------------------------------------------------------
+
+Rule R1 (bidirectional pairing): For most events E(A,r,B), the converse
+event(E(B,r,A)) is also present. Verified count: event/3 facts are almost
+entirely mirrored pairs.
+
+Rule R2 (transitive correlation via expert objects): If OCTREOTIDE
+negative_correlation AKT1 and OCTREOTIDE negative_correlation NEUROENDOCRINE
+TUMORS, then AKT1 and NEUROENDOCRINE TUMORS share a regulator (OCTREOTIDE)
+→ candidate co-regulation hypothesis.
+
+Rule R3 (SSTR convergence): OCTREOTIDE associates with / negatively correlates
+SSTR1, SSTR2, SSTR3, SSTR4, SSTR5; SSTR2 and SSTR5 associate with
+NEUROENDOCRINE TUMORS → OCTREOTIDE→SSTR→NET axis.
+
+Rule R4 (MAPK-ERK suppression by OCTREOTIDE): OCTREOTIDE negative_correlation
+MAPK1 (line 2528) and MAPK3 (line 2530) → somatostatin analogue suppresses
+ERK1/2 MAPK signaling.
+
+Rule R5 (SST suppressive on NET): SST negative_correlation NEUROENDOCRINE
+TUMORS (lines 2538, 2539) → endogenous somatostatin inversely linked to NET.
+
+Rule R6 (synonym equivalence): Two event/3 facts using synonyms of the same
+PubTator entity describe the same interaction (e.g. DCTN6 ≡ P27 ≡ CDKN1B;
+S6K ≡ RPS6KB1; P53 ≡ TP53). False-synonym artifact: NEOPLASMS synonym list
+contains 'MICA' meaning "microinvasive carcinoma" ≠ MICA gene (documented in
+reference_reports/02_synonymous_interactions.txt — form reference only).
+
+--------------------------------------------------------------------------------
+7. SOURCE ANNOTATION CONVENTION
+--------------------------------------------------------------------------------
+
+Every event reported from kBase.pl / kBaseDoc.txt carries:
+    - PubMed ID (from the PUBMED_ID: sentence in kBaseDoc.txt)
+    - kBase.pl line number (the line on which event/3 appears)
+
+Example annotation:
+    event('OCTREOTIDE',negative_correlation,'AKT1')   [kBase.pl line 2-3;
+     PMID 20068168]
+
+This convention is applied throughout all reports in this folder.
+================================================================================
+END OF LOGIC EXTRACTION
+================================================================================

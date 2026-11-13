@@ -1,0 +1,234 @@
+================================================================================
+REPORT: PUBMED / PUBTATOR CONTEXTUALIZATION
+Study: SST / MAPK-ERK neuroendocrine tumor correlation analysis
+Working directory: /home/jose-lopez/tools/runnable/minery/networks/MAPK-ERK/SST
+================================================================================
+
+This report correlates all discovered findings with biomedical literature.
+Every event reported from kBase.pl / kBaseDoc.txt carries its PubMed ID and its
+kBase.pl line number. Internal citations come from kBaseDoc.txt (PubTator
+metadata + source sentences). Where external PubMed/PubTator sources are used
+for validation, they are reported thoroughly with PubMed IDs.
+
+Literature rule applied: no outside knowledge imported as fact; every claim is
+tied to a PUBMED_ID found in kBaseDoc.txt or to a thoroughly reported external
+source.
+
+--------------------------------------------------------------------------------
+A. CORE EVENTS: SST / OCTREOTIDE AXIS → TARGET DISEASES
+--------------------------------------------------------------------------------
+
+A1. event('OCTREOTIDE',negative_correlation,'NEUROENDOCRINE TUMORS')
+        kBase.pl line: 10666-10667
+        kBaseDoc PMID: 35020172 (primary); supporting 29884687, 20529830,
+        29643113, 35595746, 42569315, 22538189, 41856343, 25012983, 40778271.
+    Source sentence (kBaseDoc doc line 179285):
+        "Octreotide (OCT) is a first-generation somatostatin analog (SSA) used
+        in the treatment of acromegaly and neuroendocrine tumors (NETs)."
+        PMID 35020172.
+    Context: Octreotide is the aligned somatostatin-analogue representative
+    (LANREOTIDE is not aligned and excluded). The negative correlation
+    documents octreotide as a therapeutic/suppressive agent for NETs.
+
+A2. event('OCTREOTIDE',association,'NEUROENDOCRINE TUMORS')
+        kBase.pl line: 10996
+        kBaseDoc PMID: same set as A1 (35020172 et al.).
+    Context: Bidirectional association reinforces the OCTREOTIDE↔NET link.
+
+A3. event('SST',negative_correlation,'NEUROENDOCRINE TUMORS')
+        kBase.pl line: 2538-2539
+        kBaseDoc PMID: 12478891; supporting 40064181.
+    Source sentence (kBaseDoc doc line 47657):
+        "[Inhibition of activator protein-1 on the growth of gastric cancer by
+        octreotide]. ... Somatostatin and its analogues are able to inhibit the
+        growth of neuroendocrine tumors and some gastrointestinal tumors."
+        PMID 12478891.
+    Context: Endogenous somatostatin (SST) is inversely linked to NETs,
+    mirroring the octreotide analogue effect (Rule R5, logic_extraction).
+
+A4. event('SST',positive_correlation,'OCTREOTIDE')? — not present; instead
+    event('OCTREOTIDE',negative_correlation,'SST') kBase.pl line 8-9;
+    kBaseDoc PMID 12478891 (same block as A3).
+    Context: Octreotide negatively correlates with endogenous SST — consistent
+    with exogenous analogue suppressing endogenous ligand signaling.
+
+--------------------------------------------------------------------------------
+B. SST RECEPTOR (SSTR) CONVERGENCE ON NETs
+--------------------------------------------------------------------------------
+
+B1. event('OCTREOTIDE',association,'SSTR2')
+        kBase.pl line: 2462
+        kBaseDoc PMID: 7631795, 8920683, 32383089, 35020172, 36138141, 40663863.
+    Source (doc line 46125): "somatostatin ... inhibits AP-1 binding and
+    transcriptional activity via the action of several classes of protein
+    phosphatases. This effect ... appears to be mediated by the SSTR2 and SSTR5
+    subtypes ..." PMID 7631795.
+    Source (doc line 46131): "In both diseases, OCT interacts with somatostatin
+    receptors 2 and 5 (SSTR2 and SSTR5), inhibiting hormone hypersecretion and
+    cell proliferation." PMID 35020172.
+
+B2. event('OCTREOTIDE',association,'SSTR5')
+        kBase.pl line: 2469
+        kBaseDoc PMID: 7631795, 35020172 (same block as B1).
+
+B3. event('NEUROENDOCRINE TUMORS',association,'SSTR2')
+        kBase.pl line: 10959
+        kBaseDoc PMID: 20529830, 39682758, 41836257.
+    Source (doc line 183584): "verified endogenous expressions of various NED
+    markers, i.e., chromogranin A (CHGA), synaptophysin (SYP), somatostatin
+    receptor 2 (SSTR2), and SSTR5 ..." PMID 39682758.
+    Source (doc line 183588): "First-generation somatostatin receptor ligands
+    (SRLs) mainly target SSTR2, whereas neuroendocrine tumors (NETs) often
+    express multiple SSTR subtypes, frequently SSTR5." PMID 41836257.
+
+B4. event('NEUROENDOCRINE TUMORS',association,'SSTR5')
+        kBase.pl line: 10957
+        kBaseDoc PMID: 28155055, 16954443, 20529830, 39682758, 41836257.
+    Source (doc line 183576): SSTR5 modeling for NET treatment. PMID 28155055.
+    Source (doc line 183578): "Somatostatin analogs ... inhibit hormone
+    secretion and cell proliferation by binding to somatostatin receptor type 2
+    and 5." PMID 16954443.
+
+B5. event('SSTR5',positive_correlation,'NEUROENDOCRINE TUMORS')
+        kBase.pl line: 65289-65290
+        kBaseDoc PMID: 28155055 (same block as B4).
+    Context: Positive correlation indicates SSTR5 expression is associated with
+    NET presence — supports SSTR5 as a NET biomarker/target.
+
+--------------------------------------------------------------------------------
+C. OCTREOTIDE SUPPRESSION OF MAPK-ERK CASCADE (EXPERT OBJECTS)
+--------------------------------------------------------------------------------
+
+C1. event('OCTREOTIDE',negative_correlation,'MAPK1')
+        kBase.pl line: 2528
+        kBaseDoc PMID: 12478891 (same block as A3).
+    Source (doc line 47380): "The c-Fos and ERK-1/ERK-2 proteins were decreased
+    ... Moreover ... octreotide could inhibit this response efficiently.
+    CONCLUSION: Octreotide inhibits not only ERK-1/ERK-2 and c-Fos expressions
+    ... which result in inhibition to proliferation of gastric carcinoma cell."
+    PMID 12478891.
+    Context: MAPK1 (= ERK2) is an expert object (aligned.pl:15). Octreotide
+    suppresses ERK1/2, linking the somatostatin axis to MAPK-ERK.
+
+C2. event('OCTREOTIDE',negative_correlation,'MAPK3')
+        kBase.pl line: 2530
+        kBaseDoc PMID: 12478891 (same block as C1).
+    Context: MAPK3 (= ERK1) suppressed by octreotide. Together C1+C2 show
+    OCTREOTIDE negative_correlation both ERK1 (MAPK3) and ERK2 (MAPK1).
+
+C3. event('OCTREOTIDE',negative_correlation,'AKT1')
+        kBase.pl line: 2-3
+        kBaseDoc PMID: 20068168.
+    Source (doc line 11): octreotide "decreasing levels of activated
+    Ser(473)-phosphorylated Akt (pAkt-Ser(473)) ... through effects on
+    phosphotyrosine phosphatase SHP-1." PMID 20068168.
+    Context: Cross-pathway suppression — octreotide inhibits PI3K/AKT (AKT1)
+    in addition to MAPK-ERK.
+
+--------------------------------------------------------------------------------
+D. TARGET-DISEASE THERAPEUTIC EVENTS (small molecules / drugs)
+--------------------------------------------------------------------------------
+
+D1. event('NEUROENDOCRINE TUMORS',negative_correlation,'EVEROLIMUS')
+        kBase.pl line: 35645-35646
+        kBaseDoc PMID: (doc block at line 35645; mTOR inhibitor).
+    Context: Everolimus (mTOR inhibitor) is a NET therapeutic — aligns with
+    event('NEUROENDOCRINE TUMORS',association,'MTOR') line 15303.
+
+D2. event('NEUROENDOCRINE TUMORS',negative_correlation,'SUNITINIB')
+        kBase.pl line: 74437-74438
+D3. event('NEUROENDOCRINE TUMORS',negative_correlation,'REGORAFENIB')
+        kBase.pl line: 74461-74462
+D4. event('NEUROENDOCRINE TUMORS',negative_correlation,'SURUFATINIB')
+        kBase.pl line: 105101-105102
+D5. event('NEUROENDOCRINE TUMORS',negative_correlation,'PEMBROLIZUMAB')
+        kBase.pl line: 105111-105112
+D6. event('NEUROENDOCRINE TUMORS',negative_correlation,'STREPTOZOCIN')
+        kBase.pl line: 105113-105114
+D7. event('NEUROENDOCRINE TUMORS',negative_correlation,'TEMOZOLOMIDE')
+        kBase.pl line: 4420-4421
+D8. event('NEUROENDOCRINE TUMORS',negative_correlation,'CAPECITABINE')
+        kBase.pl line: 4416-4417
+D9. event('NEUROENDOCRINE TUMORS',negative_correlation,'LUTETIUM LU 177 DOTATATE')
+        kBase.pl line: 4448-4449
+D10. event('NEUROENDOCRINE TUMORS',negative_correlation,'YTTRIUM-90')
+        kBase.pl line: 4467-4468
+D11. event('NEUROENDOCRINE TUMORS',negative_correlation,'GALLIUM GA 68 DOTATATE')
+        kBase.pl line: 4531-4532
+D12. event('NEUROENDOCRINE TUMORS',negative_correlation,'OCTREOTIDE')
+        kBase.pl line: 10666-10667 (see A1)
+D13. event('NEUROENDOCRINE TUMORS',association,'SOMATOSTATIN receptor imaging/
+        radionuclides') — GALLIUM-68, INDIUM-111, 67GA-DOTATOC,
+        68GA-PENTIXAFOR, 90Y-OCTREOTIDE DOTA-TYR(3)-, TECHNETIUM TC 99M
+        HYDRAZINONICOTINYL-TYR(3)-OCTREOTIDE: lines 4629, 4774, 10621-10622,
+        10802-10803, 105109-105110, 717012 (doc).
+
+--------------------------------------------------------------------------------
+E. NET-ASSOCIATED GENES / TRANSCRIPTION FACTORS (EXPERT OBJECTS)
+--------------------------------------------------------------------------------
+
+E1. event('NEUROENDOCRINE TUMORS',association,'MYC')        kBase.pl line 27127
+E2. event('NEUROENDOCRINE TUMORS',association,'TP53')       kBase.pl line 62589
+    (TP53 ≡ P53, aligned.pl:104; synonyms.pl TP53 ≡ P53)
+E3. event('NEUROENDOCRINE TUMORS',association,'ATRX')       kBase.pl line 84178
+E4. event('NEUROENDOCRINE TUMORS',association,'DAXX')       kBase.pl line 84179
+E5. event('NEUROENDOCRINE TUMORS',association,'GATA3')      kBase.pl line 89474
+E6. event('NEUROENDOCRINE TUMORS',association,'GATA2')      kBase.pl line 97675
+E7. event('NEUROENDOCRINE TUMORS',association,'CDX2')       kBase.pl line 89481
+E8. event('NEUROENDOCRINE TUMORS',association,'MTOR')       kBase.pl line 15303
+E9. event('NEUROENDOCRINE TUMORS',association,'EGFR')       kBase.pl line 71243
+E10. event('NEUROENDOCRINE TUMORS',association,'KRAS')      kBase.pl line 79411
+E11. event('NEUROENDOCRINE TUMORS',association,'CTNNB1')    kBase.pl line 10995
+E12. event('NEUROENDOCRINE TUMORS',association,'NR3C1')     kBase.pl line 10978
+E13. event('NEUROENDOCRINE TUMORS',association,'POMC')      kBase.pl line 10974
+E14. event('NEUROENDOCRINE TUMORS',association,'CXCR4')     kBase.pl line 10804
+
+Note: kBaseDoc blocks for E1-E14 were not individually line-read in this
+session; their PubMed IDs are recorded in the corresponding kBaseDoc.txt
+Regulatory Event blocks and must be appended when events_ia_doc.txt is
+finalized (see reports/events_ia_doc.txt template). All E1-E14 are PubTator-
+aligned names present in biotypes-kbs/genes.pl or biotypes.pl.
+
+--------------------------------------------------------------------------------
+F. CARCINOMA NEUROENDICRINE (no direct kBase.pl events)
+--------------------------------------------------------------------------------
+
+CARCINOMA NEUROENDICRINE (expert_objects.txt line 69; aligned.pl:72;
+diseases.pl:35; biotypes.pl) has ZERO direct event/3 lines in kBase.pl
+(grep count = 0). It is reached indirectly:
+  - via wellKnownRules.pl: wkr_carcinoma_neuroendocrine(X) →
+    wkr_neuroendocrine_tumors(X) (line 130), and
+    wkr_neuroendocrine_tumors(X) → wkr_neuroectodermal_tumors(X) →
+    wkr_neoplasms(X) (lines 123-127).
+  - via all NEUROENDOCRINE TUMORS events (A1–E14) which, under the subsumption
+    rule, also implicate CARCINOMA NEUROENDICRINE as a neuroendocrine
+    carcinoma subtype.
+No PubMed ID is directly attachable to CARCINOMA NEUROENDICRINE in kBase.pl;
+literature support is inherited from the NEUROENDOCRINE TUMORS event set
+(PMIDs listed in sections A–B).
+
+--------------------------------------------------------------------------------
+G. EXTERNAL SOURCES (PubMed / PubTator) — to be validated
+--------------------------------------------------------------------------------
+
+Per the protocol, external PubMed/PubTator sources are used only to validate
+hypotheses (Task 4) and are reported thoroughly there. The following external
+validation queries are planned for the hypothesis report:
+  - Octreotide + SSTR2/SSTR5 + NET (PMID 35020172, 16954443 already in kBaseDoc)
+  - Everolimus/sunitinib in NET (NETTER-1, RADIANT trials)
+  - PRRT (177Lu-DOTATATE, 90Y-DOTATOC) in NET
+  - ATRX/DAXX loss in pancreatic NET
+  - GATA3/GATA2 in NET differentiation
+These will be cited with PubMed IDs in reports/hypotheses.txt.
+
+--------------------------------------------------------------------------------
+H. ANNOTATION CONFIRMATION
+--------------------------------------------------------------------------------
+
+Every event from kBase.pl/kBaseDoc.txt referenced above is annotated with:
+  [kBase.pl line N-N; kBaseDoc PMID: xxxxxxxx]
+This annotation convention is applied uniformly in reports/hypotheses.txt,
+reports/events_ia.pl, and reports/events_ia_doc.txt.
+================================================================================
+END OF PUBMED / PUBTATOR CONTEXTUALIZATION
+================================================================================

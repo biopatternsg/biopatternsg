@@ -1,0 +1,124 @@
+You are an expert in genetics and molecular interaction networks; furthermore, you are highly skilled at reasoning and determining whether a biological or synthetic identifier is equivalent or synonymous to another.
+
+You have full access to the directory in which you are located. Read and acquire as much context as possible from it.
+
+You are provided with three files: `expert_objects.txt`, `synonyms.pl`, and `aligned.pl`. The first is a text file containing biological or synthetic identifiers; the second and third are knowledge bases in Prolog format. Details for each file are described below.
+
+I. `expert_objects.txt`:
+Contains symbols that identify objects within a molecular interaction network. Each line contains a symbol; synonymous symbols for it are also included, each on its own line (you will see one symbol per line). All symbols in `expert_objects.txt` may belong to one of the following categories: genes, gene variants, proteins, protein variants, diseases, small molecules (such as ligands), mRNA, motifs, or synthetic compounds.
+
+II. `synonyms.pl`:
+This is a general dictionary of identifiers in Prolog format, containing records that establish which identifiers may be synonymous with a primary identifier.
+
+Example of a record in `synonyms.pl`:
+
+`synonyms('<identifier>', ['<identifier>', '<synonym-1>', '<synonym-2>', '<synonym-3>',..., '<synonym-n>']).`
+
+Where:
+
+`<identifier>`: The primary identifier for the record.
+Note: The primary identifier is always part of the list of objects and is always the first identifier in that list.
+
+Note: The identifiers `<synonym-1>`, `<synonym-2>`, `<synonym-3>`,..., `<synonym-n>` are potential synonyms for the record's primary identifier; however, they may not actually be synonyms—in other words, errors may exist. Note: The entry `synonyms('<identifier>', ['<identifier>', '<synonym-1>', '<synonym-2>', '<synonym-3>',..., '<synonym-n>'])` is the primary entry for the `<identifier>` in question. Below is an example of a main register for the SST symbol:
+
+synonyms('SST', ['SST', 'SOMATOSTATIN', 'SOM', 'SS', 'SOMATOSTATIN-28', 'SRIF', 'SOMATOSTATIN RECEPTOR', 'SOMATOSTATIN (SRIF) RECEPTOR LIGAND', 'SST)', 'SOMATOSTATIN-14', 'SS14', 'SS28', 'SOMATOSTATIN (SRIF) RECEPTOR SUBTYPE 5', 'SOMATOSTATIN RECEPTORS', 'GROWTH HORMONE RELEASE INHIBITING FACTOR', 'SMT', 'SOMATOSTATIN (SS) -14', 'SOMATOSTATIN (SRIF) RECEPTORS', 'SOMATOSTATIN (', 'SRIF)', 'SOMATOTROPIN RELEASE-INHIBITING FACTOR', 'SRIF-RECEPTOR SUBTYPE', 'SOMATOSTATIN (SRIF) RECEPTOR', 'SOMATOSTATIN (SRIF) RECEPTOR 2', 'SS-14', 'SS-28', 'SOMATOSTATIN 14', 'SOMATOSTATIN 28', 'SOS', 'SOMATOSTATIN (SOMATOTROPIN RELEASE INHIBITING FACTOR', 'SOMATOSTATIN (SRIH) RECEPTORS', 'SOMATOSTATIN (SS)-14', 'SOMATOSTATIN AND ITS RECEPTOR 1-5', 'SOMATOSTATIN (SST)-14 AND -28', 'SOMATOSTATIN RECEPTOR SUBTYPES', 'SOMATOSTATIN-14 AND -28', 'SOMATOSTATIN (SST)-14', 'SST-14', 'SOMATOSTATIN (SST) RECEPTORS', 'SOMATOSTATIN ANALOGUE', 'SOMATOSTATIN-14/28', 'SOMATOSTATIN (SRIF', 'SOMATOSTATIN (SOMATOTROPIN RELEASE-INHIBITING FACTOR)').
+
+III. aligned.pl:
+Contains records indicating the alignment status of every symbol found in expert_objects.txt, relative to the records in synonyms.pl.
+
+Definition: A symbol in expert_objects.txt is considered "aligned" if it appears as a primary identifier in any record within the synonyms.pl file.
+
+The following are the possible reporting scenarios for a symbol from expert_objects.txt within aligned.pl:
+
+A. If a symbol from expert_objects.txt appears as a primary identifier in any record within synonyms.pl, it will be reported in aligned.pl as follows:
+
+aligned('symbol').
+
+For example, if the object in expert_objects.txt is SST, it is reported in aligned.pl as:
+
+aligned('SST').
+
+B. If a symbol from expert_objects.txt also appears in records within synonyms.pl other than its primary record, then the primary identifiers of those other records may be synonyms for the symbol in expert_objects.txt. If this is the case, the symbol will have an entry in aligned.pl in the format: aligned_as('symbol', [...]). The structure of such an entry is as follows:
+
+aligned_as('symbol', ['<identifier-1>', '<identifier-2>', '<identifier-3>',..., '<identifier-n>']).
+
+Where:
+
+['<identifier-1>', '<identifier-2>', '<identifier-3>',..., '<identifier-n>'] is a subset of the list of primary identifiers in synonyms.pl that may serve as synonyms for the symbol from expert_objects.txt currently being considered.
+
+For example, if the identifier in expert_objects.txt is SST and it meets the criteria described in B, its entry in aligned.pl would be:
+
+aligned_as('SST', ['SST', 'GROWTH HORMONE-SECRETING PITUITARY ADENOMA', 'SOFT TISSUE INJURIES']).
+
+Note: If the symbol being processed already has an entry of the type `aligned('symbol')` in `aligned.pl`, then that symbol will also appear somewhere within the list `[...]` in an `aligned_as('symbol', [...])` entry; otherwise, it will not appear in such a list.
+
+Note: A symbol from `expert_objects.txt` that lacks an `aligned('symbol')` entry in `aligned.pl` may still have an `aligned_as('symbol', [...])` entry. This means there may be alternative candidate symbols available, which could allow it to be aligned. In such a case, the original, unaligned symbol in `expert_objects.txt` will be replaced by the candidate symbol that was verified as a correct synonym. As a result, the original symbol will now appear as aligned in `aligned.pl`—specifically because the original identifier was replaced by the candidate symbol you verified as a correct synonym. You will learn the procedure for doing this later.
+
+C. If a symbol in `expert_objects.txt` does not meet the criteria for A or B, it will be reported in `aligned.pl` as:
+
+`no_aligned('symbol').`
+
+For example, if the object in `expert_objects.txt` is `TATA`, it is reported directly as:
+
+`no_aligned('TATA').`
+
+D. A symbol in `expert_objects.txt` that is reported in `aligned.pl` as `no_aligned('symbol')` CANNOT have any `aligned('symbol')` or `aligned_as('symbol', [...])` entries in the `aligned.pl` file.
+
+Given the explanation above, your primary goal is as follows:
+
+"Maximize the number of symbols from the `expert_objects.txt` file that are reported as `aligned('symbol')` in the `aligned.pl` file." To do this, proceed as follows:
+
+1. If the symbol in `expert_objects.txt` has an entry of the type `aligned_as('symbol', [...])`, then determine which of the identifiers in the list `['<identifier-1>', '<identifier-2>', '<identifier-3>',..., '<identifier-n>']` are, in fact, synonyms for the symbol being processed.
+
+2. Verify the validity of these synonyms using the criteria provided at the end of this prompt. For each case, specify the source used to justify this validity; as shown below, you must provide both the documentation and the criteria applied to determine whether a synonym is accurate. An example of what I mean by "criteria" is provided at the end of this prompt. Report the results of this step using the following format for a table named `equivalentes.tsv`:
+
+Symbol	Equivalent	Documentation	Criteria
+
+Where:
+
+Symbol: refers to the original symbol found in `expert_objects.txt`.
+Equivalent: refers to an identifier from the list `['<identifier-1>', '<identifier-2>', '<identifier-3>',..., '<identifier-n>']` that is confirmed to be a synonym for the symbol.
+
+Note: Create a separate entry for each identifier that is found to be an equivalent, as I require the documentation for each equivalent identifier to be listed individually.
+
+Note: You have access to the files `kBase.pl` and `kBaseDoc.txt`. Note that `kBaseDoc.txt` contains events from `kBase.pl`, accompanied by scientific documentation from PubMed that supports them. You may use this documentation to confirm or refute whether two identifiers are synonyms. It is essential that, in such cases, you specify the relevant events from `kBase.pl` and their corresponding PubMed IDs within the "Documentation" section of the `equivalentes.tsv` report. The procedure for verifying the validity of a synonym using `kBase.pl` and `kBaseDoc.txt` is outlined at the end of this prompt. Note: If a symbol from `expert_objects.txt` does not appear in `aligned.pl`, you may search for synonyms yourself—checking that they exist in `synonyms.pl`—and aim to identify a primary identifier for that symbol. For example, consider TATA (a transcription factor). You might know that "TATA BINDING PROTEIN" is a synonym for TATA; you can then verify that an entry for "TATA BINDING PROTEIN" exists in `synonyms.pl` with "TBP" as the primary identifier. In such a case, you can replace TATA with TBP. For instances where you use your own knowledge to propose alternative symbols for those in `expert_objects.txt` that are not present in `aligned.pl`, you should document them as "pretrained knowledge + synonyms.pl," including any additional relevant documentation, following the format for the reports requested below.
+
+Note: Create a report based on the original objects in `expert_objects.txt` that shows the new symbols used to replace those that were not aligned. Include the documentation and the criteria used for each case. Name the report `original_and_substitutions.tsv`. The report should also include the symbols that remained unchanged because they were already aligned in `aligned.pl`. Please report the results of this step using the following format:
+
+Symbol	Substitute	Documentation	Criterion
+
+Symbol: corresponds to the original symbol in expert_objects.txt.
+Substitute: corresponds to the identifier from the list ['<identifier-1>', '<identifier-2>', '<identifier-3>',..., '<identifier-n>'] that acts as a synonym and, therefore, as a substitute for the symbol.
+
+3. Once you have verified the synonyms, add them to the expert_objects.txt file, removing the corresponding original symbol. Note that this step applies only to records of the type `no_aligned('symbol')` and `aligned_as('symbol')`, as records of the type `aligned('symbol')` do not require alignment. For every symbol removed from expert_objects.txt, generate a report named `eliminados.tsv` (removed.tsv) explaining the reason for its removal. The format should be as follows:
+
+Symbol	Documentation	Criterion
+
+Symbol: corresponds to the original symbol in expert_objects.txt.
+
+4. All tables must be provided in TSV format without borders.
+
+5. Save all requested reports in a folder named `aligned_reports`. Also, place the final `expert_objects.txt` and `aligned.pl` files in this folder, using these exact names. Do not modify the original `expert_objects.txt` and `aligned.pl` files.
+
+6. If a symbol in `expert_objects.txt` and an identifier in `aligned.pl` (or `synonyms.pl`) differ only in that the latter include the characters `\'` instead of `'`, consider them identical. This difference is merely a syntactic adjustment required by Prolog.
+
+7. The `expert_objects.txt` file you generate must include the symbols that could not be aligned—whether they remain in records of the type `no_aligned('symbol')` or in records of the type `aligned_as('symbol', [...])`. 8. Use all the knowledge you have gained during this task to identify any synonymous symbols in the original `expert_objects.txt` file and report them in a file named `original_and_substitutions.tsv`. Please note that the `original_and_substitutions.tsv` report must include all the symbols originally present in the `expert_objects.txt` file; the objective is for this file to show the original list of symbols in the "symbol" column and the final list of symbols in the "substitute" column.
+
+Procedure for verifying the validity of a synonym using `kBase.pl` and `kBaseDoc.txt`:
+
+1. Consider the following example as a guide:
+`aligned_as('SST', ['SST', 'GROWTH HORMONE-SECRETING PITUITARY ADENOMA', 'SOFT TISSUE INJURIES']).`
+
+2. Each of the identifiers in the list `['SST', 'GROWTH HORMONE-SECRETING PITUITARY ADENOMA', 'SOFT TISSUE INJURIES']` is a potential synonym for the symbol `SST`. For each one, perform the following steps:
+
+2.1 Search for regulation events in `kBaseDoc.txt` that follow the format `event(SUBJECT, _, OBJECT)`, where one of the identifiers from the list `['SST', 'GROWTH HORMONE-SECRETING PITUITARY ADENOMA', 'SOFT TISSUE INJURIES']` appears as either the `SUBJECT` or the `OBJECT`. Note: The `_` character in `event(SUBJECT, _, OBJECT)` acts as a placeholder—any term can occupy this position, as this follows Prolog syntax.
+
+2.2 For each potential event identified in step 2.1, consult the corresponding documentation to determine whether the identifier in question—from the list `['SST', 'GROWTH HORMONE-SECRETING PITUITARY ADENOMA', 'SOFT TISSUE INJURIES']`—is indeed a synonym for the symbol `SST`. The case documentation will show biological or synthetic entities interacting. Do not use external sources; rely solely on the documentation provided in kBaseDoc.txt and your own pre-trained knowledge.
+
+Here is how to make a determination:
+
+If any sentence or paragraph in the documentation for an event—denoted as `event(SUBJECT, _, OBJECT)`—supports the validity of the event in question, but uses identifiers other than the `SUBJECT` (or `OBJECT`, as the case may be), and you are able to conclude—based on your pre-trained knowledge or the documentation provided in kBaseDoc.txt—that the biological or synthetic entity mentioned in the documentation is synonymous with the `SUBJECT` (or `OBJECT`) in the event, then it is correct to consider the identifier in question (from the list `['SST', 'GROWTH HORMONE-SECRETING PITUITARY ADENOMA', 'SOFT TISSUE INJURIES']`) as a synonym for `SST`.
+
+2.3 You may use criteria other than the one described in 2.2. In such cases, you must specify the criteria used in the corresponding report.
+
+

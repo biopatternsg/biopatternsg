@@ -1,0 +1,124 @@
+================================================================================
+REPORT 6: FILE CHANGES SUMMARY
+COVID-19 Immunology Study (COVID-19-IMMUNOLOGY-50)
+================================================================================
+
+Files modified: 5
+New files created: 2 (expert_objects.txt, reports/variants-hc.txt)
+
+================================================================================
+1. expert_objects.txt -- CREATED & EXPANDED
+================================================================================
+
+Contents: 51 expert objects of interest:
+  24 original objects from aligned.pl
+  27 newly proposed objects (all PubTator-aligned)
+
+Original (24):
+  JAK3, ORF6, ORF8, KPNB1, IPO7, STAT92E, STAT1, STAT2, STAT3,
+  STAT4, STAT5A, ACE2, CD4, CD8A, CCR5, CXCR4, COVID-19, MICA,
+  1300017J02RIK, MICB, MILL2, HLA-A, HLA-B, HLA-C
+
+New (27):
+  KLRK1, CD274, PDCD1, IFNG, IL6, TNF, SOCS3, NLRC5, HLA-E,
+  KIR3DL1, KIR2DL1, CCR2, IL15, TYK2, TMPRSS2, IFNA1, KLRC1, KLRC2,
+  EZH2, KDM1A, PCSK9, HAVCR2, LAG3, TIGIT, CLEC4D, METTL14, STING1
+
+================================================================================
+2. kBase.pl -- MODIFIED
+================================================================================
+
+22 new events added at end of base/1 list (before closing bracket):
+
+  % Immune checkpoints
+  event('COVID-19',association,'PDCD1'),
+  event('COVID-19',association,'CTLA4'),
+  event('COVID-19',association,'HAVCR2'),
+  event('COVID-19',association,'LAG3'),
+  event('COVID-19',association,'TIGIT'),
+  event('COVID-19',association,'CD274'),         [confirmed not in kBase]
+  event('CD274',positive_correlation,'COVID-19'),
+  event('COVID-19',positive_correlation,'CD274'),
+
+  % NKG2D ligand pathway
+  event('COVID-19',association,'MICB'),
+  event('MICB',positive_correlation,'KLRK1'),
+  event('KLRK1',positive_correlation,'MICB'),
+  event('COVID-19',positive_correlation,'KLRK1'),
+  event('KLRK1',positive_correlation,'COVID-19'),
+
+  % Epigenetic regulators
+  event('COVID-19',association,'EZH2'),
+  event('COVID-19',association,'KDM1A'),
+  event('COVID-19',association,'METTL14'),
+
+  % Signaling & MHC regulation
+  event('COVID-19',association,'SOCS3'),
+  event('COVID-19',association,'NLRC5'),
+  event('COVID-19',association,'PCSK9'),
+  event('COVID-19',association,'CLEC4D'),
+  event('COVID-19',association,'STING1'),
+
+  % Cytokine
+  event('COVID-19',positive_correlation,'IL15'),
+  event('IL15',positive_correlation,'COVID-19'),
+
+================================================================================
+3. aligned.pl -- MODIFIED
+================================================================================
+
+Added 27 new aligned/1 declarations:
+  KLRK1, CD274, PDCD1, SOCS3, NLRC5, EZH2, KDM1A, PCSK9,
+  HAVCR2, LAG3, TIGIT, CLEC4D, METTL14, STING1, IL15,
+  IFNG, IL6, TNF, CCR2, TYK2, TMPRSS2, IFNA1, KLRC1, KLRC2,
+  KIR3DL1, KIR2DL1, HLA-E
+
+Updated aligned_objs/2:   25 -> 52 objects
+Updated aligned_as/2:      3 ->  4 (added STING1)
+Updated aligned_and_alternatives/2: 26 -> 55 entities
+
+Added STING1 alternative alignment:
+  aligned_as('STING1', ['STING1', 'TMEM173']).
+
+================================================================================
+4. biotypes-kbs/variants.pl -- REPLACED
+================================================================================
+
+Replaced entire file (~398 variants from PubTator) with 39 curated
+COVID-19-correlated variants:
+
+  27 genetic (RS): RS12979860, RS2070788, RS4702, RS35803318, RS76635825,
+    RS7301582, RS1264457, RS1051792, RS333, RS12252, RS1799752,
+    RS4646994, RS2285666, RS2106809, RS2074192, RS5186, RS429358,
+    RS35044562, RS11549407, RS5743313, RS1870377, RS2228014,
+    RS73635825, RS721917, RS76152249, RS140473595, RS200180615
+
+  12 protein: C.2518A>G, C.1202T>C, P.L401P, C.138C>T, G.55029A>G,
+    P.V64I, P.G363S, P.S476F, P.V168L, P.W318C, P.C271Y, P.M594I
+
+  Full documentation: reports/variants-hc.txt
+
+================================================================================
+5. P.C19P CLEANUP (cross-file)
+================================================================================
+
+P.C19P was identified as a psychometric scale (COVID-19 Phobia Scale),
+not a biological variant. Removed from:
+
+  [x] kBase.pl           -- line 778 (comment only, events deleted)
+  [x] synonyms.pl        -- line 375 (commented out)
+  [x] variants.pl        -- not included in curated replacement
+  [x] biotypes.pl        -- line 883 (commented out)
+
+================================================================================
+VERIFICATION
+================================================================================
+
+  [x] All new objects exist in synonyms.pl (PubTator-aligned)
+  [x] All new objects exist in biotypes-kbs/ files
+  [x] expert_objects.txt: 51 objects (24 original + 27 new)
+  [x] aligned.pl: 52 aligned objects (counts updated correctly)
+  [x] variants.pl: 39 COVID-19-correlated variants
+  [x] P.C19P: fully purged from all 4 data files
+  [x] kBase.pl retains valid Prolog syntax
+================================================================================

@@ -1,0 +1,78 @@
+Original	Substitute	Documentation	Criterion
+EGF	EGF	Already aligned as main identifier in synonyms.pl; kBase.pl aligned('EGF')	No substitution required; symbol equality rule
+EGFR	EGFR	Already aligned as main identifier in synonyms.pl; kBase.pl aligned('EGFR')	No substitution required; symbol equality rule
+GRB2	GRB2	Already aligned as main identifier in synonyms.pl; kBase.pl aligned('GRB2')	No substitution required; symbol equality rule
+SOS	SOS	Already aligned as main identifier in synonyms.pl; kBase.pl aligned('SOS')	No substitution required; symbol equality rule
+RAS	RAS	Already aligned as main identifier in synonyms.pl; kBase.pl aligned('RAS')	No substitution required; symbol equality rule
+GDP	GUANOSINE DIPHOSPHATE	Manually curated using external resources	Unaligned preservation; no valid main-id candidate found
+GTP	GUANOSINE TRIPHOSPHATE	Manually curated using external resources	Unaligned preservation; no valid main-id candidate found
+RAF	RAF	Already aligned as main identifier in synonyms.pl; kBase.pl aligned('RAF')	No substitution required; symbol equality rule
+MEK	MAP2K1, MAP2K2	Manually curated using external resources	Unaligned preservation; no valid main-id candidate found
+MAPK	MAPK1, MAPK3	Manually curated using external resources	Unaligned preservation; no valid main-id candidate found
+ERK	MAPK1, MAPK3	Manually curated using external resources	Unaligned preservation; no valid main-id candidate found
+CREB	CREB1	synonyms.pl CREB1 record line 34 includes CREB; kBase.pl event('CREB1',association,'FOS') line 84	Verified synonym substitution; CREB1 is main identifier in synonyms.pl
+S6	S6K, RPS6	Manually curated using external resources: Close related	Unaligned preservation; no valid main-id candidate found
+MYC	MYC	Already aligned as main identifier in synonyms.pl; kBase.pl aligned('MYC')	No substitution required; symbol equality rule
+octreotide	OCTREOTIDE	synonyms.pl OCTREOTIDE main record line 3; case normalization	Case normalization; OCTREOTIDE is main identifier in synonyms.pl
+lanreotide	LANREOTIDE	no_aligned in aligned.pl; LANREOTIDE is not a main identifier in synonyms.pl and does not appear as synonym in other records	Unaligned preservation; case normalized to uppercase
+Somatostatin	SST	synonyms.pl SST record line 7 includes SOMATOSTATIN; kBase.pl event('OCTREOTIDE',negative_correlation,'SST') line 8	Verified synonym substitution; SST is main identifier and already aligned
+SST	SST	Already aligned as main identifier in synonyms.pl; kBase.pl aligned('SST')	No substitution required; symbol equality rule
+SRIF	SST	synonyms.pl SST record line 7 includes SRIF; kBase.pl event('OCTREOTIDE',negative_correlation,'SST') line 8	Verified synonym substitution; SST is main identifier and already aligned
+SSTR1	SSTR1	Already aligned as main identifier in synonyms.pl; kBase.pl aligned('SSTR1')	No substitution required; symbol equality rule
+SSTR2	SSTR2	Already aligned as main identifier in synonyms.pl; kBase.pl aligned('SSTR2')	No substitution required; symbol equality rule
+SSTR5	SSTR5	Already aligned as main identifier in synonyms.pl; kBase.pl aligned('SSTR5')	No substitution required; symbol equality rule
+AML1	RUNX1	synonyms.pl RUNX1 record line 206 includes AML1; kBase.pl event('NEOPLASMS',association,'RUNX1') line 419	Verified synonym substitution; RUNX1 is main identifier in synonyms.pl
+CDXA	CDX1	aligned_as in aligned.pl; candidate CDX1 is not a main identifier in synonyms.pl	Unaligned preservation; no valid main-id candidate found
+CREB	CREB1	synonyms.pl CREB1 record line 34 includes CREB; duplicate of line 12	Duplicate symbol; substitute CREB1 already present from first occurrence
+SRY	SRY	Already aligned as main identifier in synonyms.pl; kBase.pl aligned('SRY')	No substitution required; symbol equality rule
+ZNF384	ZNF384	Already aligned as main identifier in synonyms.pl; kBase.pl aligned('ZNF384')	No substitution required; symbol equality rule
+CREBP1CJUN	CREB1, JUN	Manually curated using external resources. CREB1 – JUN dimer.	Unaligned preservation; no valid main-id candidate found
+CAP	CAP	Already aligned as main identifier in synonyms.pl; kBase.pl aligned('CAP')	No substitution required; symbol equality rule
+GATA1	GATA1	Already aligned as main identifier in synonyms.pl; kBase.pl aligned('GATA1')	No substitution required; symbol equality rule
+ATF	ATF1	Manually curated using external resources	Unaligned preservation; no valid main-id candidate found
+LYF1	IKZF1	aligned_as in aligned.pl; candidate IKZF1 is not a main identifier in synonyms.pl	Unaligned preservation; no valid main-id candidate found
+CDPCR3HD	Deleted	no_aligned in aligned.pl; no valid main-id synonym found in synonyms.pl	Unaligned preservation; no valid main-id candidate found
+MYOD	MYOD1	aligned_as in aligned.pl; candidate MYOD1 is not a main identifier in synonyms.pl	Unaligned preservation; no valid main-id candidate found
+AP4	TFAP4	aligned_as in aligned.pl; candidate TFAP4 is not a main identifier in synonyms.pl	Unaligned preservation; no valid main-id candidate found
+CEBP	CEBPA	synonyms.pl CEBPA record line 80 includes CEBP; kBase.pl event('CSN1S1',association,'CEBPA') line 146	Verified synonym substitution; CEBPA is main identifier in synonyms.pl
+GATA3	GATA3	Already aligned as main identifier in synonyms.pl; kBase.pl aligned('GATA3')	No substitution required; symbol equality rule
+GATA2	GATA2	Already aligned as main identifier in synonyms.pl; kBase.pl aligned('GATA2')	No substitution required; symbol equality rule
+USF	USF1	aligned_as in aligned.pl; candidate USF1 is not a main identifier in synonyms.pl	Unaligned preservation; no valid main-id candidate found
+HNF3B	FOXA2	aligned_as in aligned.pl; candidate FOXA2 is not a main identifier in synonyms.pl	Unaligned preservation; no valid main-id candidate found
+CETS1P54	ETS1	no_aligned in aligned.pl; no valid main-id synonym found in synonyms.pl	Unaligned preservation; no valid main-id candidate found
+CREBP1	ATF2	aligned_as in aligned.pl; candidate ATF2 is not a main identifier in synonyms.pl	Unaligned preservation; no valid main-id candidate found
+IK2	IKKEPSILON	aligned_as in aligned.pl; candidate IKKEPSILON is not a main identifier in synonyms.pl	Unaligned preservation; no valid main-id candidate found
+E2F	E2F1	synonyms.pl E2F1 record line 21 includes E2F; kBase.pl event('SST',positive_correlation,'E2F1') line 45	Verified synonym substitution; E2F1 is main identifier in synonyms.pl
+TST1	TST1	Already aligned as main identifier in synonyms.pl; kBase.pl aligned('TST1')	No substitution required; symbol equality rule
+NKX25	NKX2-5	aligned_as in aligned.pl; candidate NKX2-5 is not a main identifier in synonyms.pl	Unaligned preservation; no valid main-id candidate found
+PBX1	PBX1	Already aligned as main identifier in synonyms.pl; kBase.pl aligned('PBX1')	No substitution required; symbol equality rule
+STAT	STAT	Already aligned as main identifier in synonyms.pl; kBase.pl aligned('STAT')	No substitution required; symbol equality rule
+XFD3	FOXD3	Manually curated using external resources	Unaligned preservation; no valid main-id candidate found
+MZF1	MZF1	Already aligned as main identifier in synonyms.pl; kBase.pl aligned('MZF1')	No substitution required; symbol equality rule
+GATA	GATA3	synonyms.pl GATA3 record line 127 includes GATA; kBase.pl event('GATA3',association,'EGFL7') line 251	Verified synonym substitution; GATA3 is main identifier and already aligned
+CAAT	CEBPA	Manually curated using external resources	Unaligned preservation; no valid main-id candidate found
+XFD2	FOXD1	Manually curated using external resources	Unaligned preservation; no valid main-id candidate found
+LMO2COM	LMO2	aligned_as in aligned.pl; candidate LMO2 is not a main identifier in synonyms.pl	Unaligned preservation; no valid main-id candidate found
+VBP	VBP	aligned_as in aligned.pl; candidate TEF is not a main identifier in synonyms.pl	Unaligned preservation; no valid main-id candidate found
+MYCMAX	MYC, MAX	Manually curated using external resources. Represents MYC-MAX dimer	Unaligned preservation; no valid main-id candidate found
+SP1	SP1	Already aligned as main identifier in synonyms.pl; kBase.pl aligned('SP1')	No substitution required; symbol equality rule
+CREL	REL	synonyms.pl REL record line 339 includes CREL; kBase.pl event('REL',positive_correlation,'TBK1') line 1020	Verified synonym substitution; REL is main identifier in synonyms.pl
+AP1	JUN	synonyms.pl JUN record line 16 includes AP1; kBase.pl event('JUN',association,'TAF4B') line 34	Verified synonym substitution; JUN is main identifier in synonyms.pl
+OCT1	POU2F1	aligned_as in aligned.pl; candidate POU2F1 is not a main identifier in synonyms.pl	Unaligned preservation; no valid main-id candidate found
+CP2	CP2	Already aligned as main identifier in synonyms.pl; kBase.pl aligned('CP2')	No substitution required; symbol equality rule
+MYB	MYB	Already aligned as main identifier in synonyms.pl; kBase.pl aligned('MYB')	No substitution required; symbol equality rule
+CEBPB	CEBPB	Already aligned as main identifier in synonyms.pl; kBase.pl aligned('CEBPB')	No substitution required; symbol equality rule
+ZNF8	ZNF8	Already aligned as main identifier in synonyms.pl; kBase.pl aligned('ZNF8')	No substitution required; symbol equality rule
+TATA	TBP	synonyms.pl TBP record line 61 includes TATA BINDING PROTEIN; kBase.pl event('TBP',positive_correlation,'ALCOHOLS') line 114	Verified synonym substitution; TBP is main identifier in synonyms.pl
+EVI1	EVI1	Already aligned as main identifier in synonyms.pl; kBase.pl aligned('EVI1')	No substitution required; symbol equality rule
+P53	P53	Already aligned as main identifier in synonyms.pl; kBase.pl aligned('P53')	No substitution required; symbol equality rule
+HFH2	FOXD3	aligned_as in aligned.pl; candidate FOXD3 is not a main identifier in synonyms.pl	Unaligned preservation; no valid main-id candidate found
+SOX5	SOX5	Already aligned as main identifier in synonyms.pl; kBase.pl aligned('SOX5')	No substitution required; symbol equality rule
+HLF	HLF	Already aligned as main identifier in synonyms.pl; kBase.pl aligned('HLF')	No substitution required; symbol equality rule
+IK3	IKZF3	Manually curated using external resources	Unaligned preservation; no valid main-id candidate found
+TH1E47	TCF3	Manually curated using external resources	Unaligned preservation; no valid main-id candidate found
+YY1	YY1	Already aligned as main identifier in synonyms.pl; kBase.pl aligned('YY1')	No substitution required; symbol equality rule
+Neuroendocrine tumors	NEUROENDOCRINE TUMORS	Already aligned as main identifier in synonyms.pl (case normalized); kBase.pl aligned('NEUROENDOCRINE TUMORS')	Case normalization; symbol equality rule
+NET	NEUROENDOCRINE TUMORS	synonyms.pl NEOPLASMS record line 10 includes NET; kBase.pl event('NEOPLASMS',negative_correlation,'SIROLIMUS') line 14	Verified synonym substitution; NEOPLASMS is main identifier in synonyms.pl
+Neuroendocrine carcinoma	CARCINOMA NEUROENDOCRINE	aligned_as in aligned.pl; candidate CARCINOMA NEUROENDOCRINE is not a main identifier in synonyms.pl	Unaligned preservation; case normalized to uppercase
+NEC	CARCINOMA NEUROENDOCRINE	aligned_as in aligned.pl; no candidate is a main identifier in synonyms.pl	Unaligned preservation; no valid main-id candidate found

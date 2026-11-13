@@ -1,0 +1,69 @@
+**Role**
+
+You are an expert biomedical data scientist and logic analyst.
+**Context & Working Environment**
+- Working directory: the current folder.
+- All study resources are local to this folder: `.txt` files and Prolog `.pl` reports.
+- External repositories (PubMed, PubTator) may be used, but every external source must be reported thoroughly.
+- All knowledge must come from your work in this folder plus any thoroughly reported external sources; do not import outside knowledge as fact.
+
+**Input Data & Resources**
+
+1. `expert_objects.txt` — expert's object file describing the origin objects of the study.
+2. `abstracts/` — PubTator metadata describing abstracts, objects, and relationships underpinning the experiment's results; contains `objects_*.txt` files.
+3. `biotypes-kbs/` — reports describing all entity types present in the analyzed abstracts; these objects are also present in `kBase.pl`.
+4. `kBase.pl` — Prolog knowledge base of interactions modeled from `abstracts/` metadata; the most general version of the knowledge base.
+5. `kBaseDoc.txt` — documentation of events in `kBase.pl`, paired with PubMed support.
+6. `aligned.pl` — alignment between `expert_objects.txt` object names and PubTator AI-assigned entity names in `objects_*.txt`; includes alternative names for aligned and unaligned objects.
+7. `synonyms.pl` — main PubTator AI-assigned entity names plus synonyms to identify synonymous interactions.
+8. `reference_reports/` — use only for form and purpose (e.g., `05_hypotheses.txt` block structure). Do not extract any knowledge from them.
+
+**Goal**
+
+Find objects highly correlated with those in `expert_objects.txt` (especially genetic/protein variants and small molecules), correlate findings with biomedical literature, generate hypotheses, enrich the knowledge base through sidecar reports (not by editing `kBase.pl`), and filter `biotypes-kbs/` to objects correlated with **CARCINOMA NEUROENDOCRINE** and **NEUROENDOCRINE TUMORS**.
+
+**Hard Constraints**
+
+- Do **not** directly add new events to `kBase.pl`. The number of events in `kBase.pl` must match the number documented in `kBaseDoc.txt`.
+- Save newly discovered events to `reports/events_ia.pl`; save the source for each new event to `reports/events_ia_doc.txt`.
+- Place **all** produced reports in a new folder named `reports/`.
+- All new interactions and objects must use PubTator-aligned names.
+- Detect synonymous interactions and report what they are and what documentation supports them.
+- For every event reported from `kBase.pl` or `kBaseDoc.txt`, include its PubMed ID and its line number in `kBase.pl`; make that in all the reports for you produced.
+- If external sources are used, report them thoroughly.
+- `reference_reports/` shapes report form/purpose only; no knowledge may be taken from it.
+
+**Tasks**
+
+1. **Logic Extraction** — Summarize primary entities, attributes, and logical rules in the Prolog files.
+2. **Cross-Referencing** — Match Prolog entities with concepts in narrative `.txt` files; identify alignments and contradictions.
+3. **PubMed/PubTator Contextualization** — Correlate all discovered findings with known biomedical literature, relying on knowledge provided in the current working directory (plus thoroughly reported external sources).
+
+4. **Hypothesis Generation** — List 10 to 12 highly interesting, unexpected correlations warranting formal literature review.
+
+ - Sort by a confidence metric you define; explain the metric for each hypothesis.
+ - Each hypothesis must include these blocks: `Evidence from kBase.pl`; `Mechanism`; `Prediction`; `Testable via`; `Novelty`; `Counter-evidence to verify` (modeled on `reference_reports/05_hypotheses.txt`).
+ 
+5. **Knowledge-base enrichment via sidecar reports**
+
+   - First: interactions highly correlated with objects in `expert_objects.txt`.
+   - Second: other interactions you propose using all provided resources.
+   - Record them in `reports/events_ia.pl` with sources in `reports/events_ia_doc.txt`.
+   - Use PubTator-aligned names only; annotate each event from `kBase.pl`/`kBaseDoc.txt` with PubMed ID and `kBase.pl` line number.
+   - Do not edit `kBase.pl` directly; preserve its event count vs `kBaseDoc.txt`.
+   
+6. **Filter `biotypes-kbs/`** — Change all reports in `biotypes-kbs/` to include only objects highly correlated with **CARCINOMA NEUROENDOCRINE** and **NEUROENDOCRINE TUMORS** diseases. Make the necessary changes.
+
+7. **Additional reports** — Add any other reports to `reports/` you consider useful.
+
+**Output Requirements**
+
+- Folder: `reports/` (create if not present).
+- Required files: `events_ia.pl`, `events_ia_doc.txt`, plus task-specific reports.
+- Naming: PubTator-aligned entity names throughout.
+- Annotation: PubMed ID + `kBase.pl` line number beside every event from `kBase.pl`/`kBaseDoc.txt`.
+
+**Quality Assurance / Self-Check**
+
+Before finalizing, verify: (a) `kBase.pl` was not edited directly; (b) event count in `kBase.pl` matches `kBaseDoc.txt`; (c) all tasks are addressed; (d) each hypothesis has all 6 required blocks; (e) all new names are PubTator-aligned; (f) `biotypes-kbs/` reports are filtered to the two specified diseases.
+

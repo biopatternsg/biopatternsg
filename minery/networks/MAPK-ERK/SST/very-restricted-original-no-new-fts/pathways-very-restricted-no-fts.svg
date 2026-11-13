@@ -1,0 +1,463 @@
+<svg width="1691pt" height="1088pt" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events" style="overflow: hidden; width: 841.5px; height: 541.425px;"><g id="viewport-20261111232208996" class="svg-pan-zoom_viewport" transform="matrix(0.46076899998508386,0,0,0.46076899998508386,49.23252388089429,13.716788972889168)" style="transform: matrix(0.460769, 0, 0, 0.460769, 49.2325, 13.7168);">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 1084)">
+
+<g id="node1" class="node">
+<title>EGF</title>
+<ellipse fill="lightgrey" stroke="black" cx="575.59" cy="-975" rx="31.4" ry="18"></ellipse>
+<text text-anchor="middle" x="575.59" y="-971.3" font-family="Times,serif" font-size="14.00">EGF</text>
+</g>
+
+<g id="node2" class="node">
+<title>CREB1</title>
+<ellipse fill="lightgrey" stroke="black" cx="933.59" cy="-888" rx="44.39" ry="18"></ellipse>
+<text text-anchor="middle" x="933.59" y="-884.3" font-family="Times,serif" font-size="14.00">CREB1</text>
+</g>
+
+<g id="edge1" class="edge">
+<title>EGF-&gt;CREB1</title>
+<path fill="none" stroke="black" d="M605.71,-969.79C644.4,-964.13 713.47,-953.1 771.59,-939 812.8,-929 858.95,-914.42 891.41,-903.58"></path>
+<polygon fill="black" stroke="black" points="892.66,-906.85 901.03,-900.34 890.43,-900.21 892.66,-906.85"></polygon>
+<text text-anchor="middle" x="864.59" y="-927.8" font-family="Times,serif" font-size="14.00">association</text>
+</g>
+
+<g id="node4" class="node">
+<title>GRB2</title>
+<ellipse fill="lightgrey" stroke="black" cx="377.59" cy="-627" rx="37.89" ry="18"></ellipse>
+<text text-anchor="middle" x="377.59" y="-623.3" font-family="Times,serif" font-size="14.00">GRB2</text>
+</g>
+
+<g id="edge3" class="edge">
+<title>EGF-&gt;GRB2</title>
+<path fill="none" stroke="black" d="M547.73,-966.84C528.48,-961.12 502.79,-951.91 482.59,-939 418.5,-898.05 389.98,-889.15 360.59,-819 337.59,-764.13 354.98,-692.8 367.58,-654.72"></path>
+<polygon fill="black" stroke="black" points="371.02,-655.5 370.97,-644.9 364.4,-653.21 371.02,-655.5"></polygon>
+<text text-anchor="middle" x="400.59" y="-797.3" font-family="Times,serif" font-size="14.00">association</text>
+</g>
+
+<g id="node5" class="node">
+<title>MAPK1</title>
+<ellipse fill="lightgrey" stroke="black" cx="1055.59" cy="-366" rx="45.49" ry="18"></ellipse>
+<text text-anchor="middle" x="1055.59" y="-362.3" font-family="Times,serif" font-size="14.00">MAPK1</text>
+</g>
+
+<g id="edge45" class="edge">
+<title>EGF-&gt;MAPK1</title>
+<path fill="none" stroke="black" d="M606.76,-973.84C749.58,-972.7 1334.59,-963.5 1334.59,-889 1334.59,-889 1334.59,-889 1334.59,-713 1334.59,-697.77 1339.22,-587.8 1329.59,-576 1308.19,-549.77 1283.61,-576.99 1255.59,-558 1185.14,-510.27 1211.63,-454.41 1144.59,-402 1132.37,-392.45 1117.21,-385.2 1102.89,-379.86"></path>
+<polygon fill="black" stroke="black" points="1103.75,-376.45 1093.15,-376.45 1101.44,-383.06 1103.75,-376.45"></polygon>
+<text text-anchor="middle" x="1374.59" y="-666.8" font-family="Times,serif" font-size="14.00">association</text>
+</g>
+
+<g id="node12" class="node">
+<title>MAPK3</title>
+<ellipse fill="lightgrey" stroke="black" cx="764.59" cy="-714" rx="45.49" ry="18"></ellipse>
+<text text-anchor="middle" x="764.59" y="-710.3" font-family="Times,serif" font-size="14.00">MAPK3</text>
+</g>
+
+<g id="edge27" class="edge">
+<title>EGF-&gt;MAPK3</title>
+<path fill="none" stroke="black" d="M601.11,-964.53C615.96,-958.4 634.63,-949.6 649.59,-939 693.95,-907.57 709.8,-899.87 735.59,-852 754.4,-817.08 761.01,-771.02 763.33,-742.21"></path>
+<polygon fill="black" stroke="black" points="766.84,-742.29 764.03,-732.07 759.85,-741.81 766.84,-742.29"></polygon>
+<text text-anchor="middle" x="781.59" y="-840.8" font-family="Times,serif" font-size="14.00">association</text>
+</g>
+
+<g id="node13" class="node">
+<title>MAP2K1</title>
+<ellipse fill="lightgrey" stroke="black" cx="805.59" cy="-453" rx="51.19" ry="18"></ellipse>
+<text text-anchor="middle" x="805.59" y="-449.3" font-family="Times,serif" font-size="14.00">MAP2K1</text>
+</g>
+
+<g id="edge48" class="edge">
+<title>EGF-&gt;MAP2K1</title>
+<path fill="none" stroke="black" d="M583.54,-957.34C589.67,-943.81 597.87,-924.07 602.59,-906 614.47,-860.45 599.28,-731.16 630.59,-696 652.24,-671.69 677.93,-700.36 701.59,-678 754.39,-628.07 718.55,-587.23 750.59,-522 758.55,-505.79 770.99,-489.96 782.02,-477.66"></path>
+<polygon fill="black" stroke="black" points="784.78,-479.83 789.01,-470.12 779.64,-475.08 784.78,-479.83"></polygon>
+<text text-anchor="middle" x="670.59" y="-710.3" font-family="Times,serif" font-size="14.00">association</text>
+</g>
+
+<g id="node14" class="node">
+<title>MAP2K2</title>
+<ellipse fill="lightgrey" stroke="black" cx="1055.59" cy="-627" rx="51.19" ry="18"></ellipse>
+<text text-anchor="middle" x="1055.59" y="-623.3" font-family="Times,serif" font-size="14.00">MAP2K2</text>
+</g>
+
+<g id="edge46" class="edge">
+<title>EGF-&gt;MAP2K2</title>
+<path fill="none" stroke="black" d="M606.87,-973.69C666.49,-972.46 800.13,-966.55 908.59,-939 1006.5,-914.13 1059.84,-934.19 1118.59,-852 1167.52,-783.55 1174.6,-734.09 1129.59,-663 1123.88,-653.99 1115.17,-647.26 1105.69,-642.24"></path>
+<polygon fill="black" stroke="black" points="1107,-638.98 1096.45,-637.93 1104.04,-645.33 1107,-638.98"></polygon>
+<text text-anchor="middle" x="1194.59" y="-797.3" font-family="Times,serif" font-size="14.00">association</text>
+</g>
+
+<g id="node15" class="node">
+<title>MYC</title>
+<ellipse fill="lightgrey" stroke="black" cx="587.59" cy="-540" rx="32.49" ry="18"></ellipse>
+<text text-anchor="middle" x="587.59" y="-536.3" font-family="Times,serif" font-size="14.00">MYC</text>
+</g>
+
+<g id="edge29" class="edge">
+<title>EGF-&gt;MYC</title>
+<path fill="none" stroke="black" d="M544.64,-972.63C492.98,-969.74 392.2,-961.34 365.59,-939 328.77,-908.09 361.69,-872.78 329.59,-837 278.12,-779.64 148.88,-820.69 179.59,-750 228.57,-637.25 278.2,-615.57 394.59,-576 445.05,-558.84 505.95,-549.58 545.66,-544.98"></path>
+<polygon fill="black" stroke="black" points="546.23,-548.43 555.78,-543.85 545.45,-541.48 546.23,-548.43"></polygon>
+<text text-anchor="middle" x="219.59" y="-753.8" font-family="Times,serif" font-size="14.00">association</text>
+</g>
+
+<g id="node17" class="node">
+<title>EGFR</title>
+<ellipse fill="lightgrey" stroke="black" cx="487.59" cy="-801" rx="38.19" ry="18"></ellipse>
+<text text-anchor="middle" x="487.59" y="-797.3" font-family="Times,serif" font-size="14.00">EGFR</text>
+</g>
+
+<g id="edge43" class="edge">
+<title>EGF-&gt;EGFR</title>
+<path fill="none" stroke="black" d="M549.63,-964.96C525.03,-954.84 489.55,-935.84 473.59,-906 460.69,-881.9 467.72,-850.33 475.75,-828.32"></path>
+<polygon fill="black" stroke="black" points="479.03,-829.53 479.44,-818.94 472.52,-826.97 479.03,-829.53"></polygon>
+<text text-anchor="middle" x="513.59" y="-884.3" font-family="Times,serif" font-size="14.00">association</text>
+</g>
+
+<g id="edge50" class="edge">
+<title>EGF-&gt;EGFR</title>
+<path fill="none" stroke="black" d="M574.86,-956.81C573.31,-935.33 568.51,-898.02 553.59,-870 544.02,-852.04 528.28,-835.55 514.58,-823.32"></path>
+<polygon fill="black" stroke="black" points="516.66,-820.49 506.8,-816.62 512.1,-825.8 516.66,-820.49"></polygon>
+<text text-anchor="middle" x="582.59" y="-884.3" font-family="Times,serif" font-size="14.00">bind</text>
+</g>
+
+<g id="node3" class="node">
+<title>SST</title>
+<ellipse fill="lightgrey" stroke="black" cx="1285.59" cy="-279" rx="28.7" ry="18"></ellipse>
+<text text-anchor="middle" x="1285.59" y="-275.3" font-family="Times,serif" font-size="14.00">SST</text>
+</g>
+
+<g id="edge2" class="edge">
+<title>CREB1-&gt;SST</title>
+<path fill="none" stroke="black" d="M977.74,-885.88C1074.48,-882.24 1296.59,-866.81 1296.59,-802 1296.59,-802 1296.59,-802 1296.59,-626 1296.59,-568.68 1307.59,-554.82 1307.59,-497.5 1307.59,-497.5 1307.59,-497.5 1307.59,-365 1307.59,-344.8 1301.69,-322.74 1296.01,-306.16"></path>
+<polygon fill="black" stroke="black" points="1299.24,-304.82 1292.55,-296.61 1292.66,-307.2 1299.24,-304.82"></polygon>
+<text text-anchor="middle" x="1315.59" y="-579.8" font-family="Times,serif" font-size="14.00">bind</text>
+</g>
+
+<g id="edge32" class="edge">
+<title>CREB1-&gt;SST</title>
+<path fill="none" stroke="black" d="M976.62,-883.87C1052.75,-877.33 1206.22,-859.37 1238.59,-819 1249.92,-804.86 1284.82,-719.73 1233.59,-609 1228.57,-598.15 1218.45,-601.92 1213.59,-591 1210.87,-584.91 1212.79,-582.62 1213.59,-576 1219.94,-523.01 1261.03,-369.6 1278.13,-307.04"></path>
+<polygon fill="black" stroke="black" points="1281.58,-307.7 1280.85,-297.13 1274.83,-305.85 1281.58,-307.7"></polygon>
+<text text-anchor="middle" x="1253.59" y="-579.8" font-family="Times,serif" font-size="14.00">association</text>
+</g>
+
+<g id="edge34" class="edge">
+<title>CREB1-&gt;MAPK1</title>
+<path fill="none" stroke="black" d="M953.63,-871.9C993.77,-840.51 1084.07,-763.94 1129.59,-678 1149.52,-640.36 1150.59,-627.09 1150.59,-584.5 1150.59,-584.5 1150.59,-584.5 1150.59,-452 1150.59,-420.62 1121.45,-397.93 1095.44,-383.92"></path>
+<polygon fill="black" stroke="black" points="1096.93,-380.75 1086.43,-379.33 1093.75,-386.99 1096.93,-380.75"></polygon>
+<text text-anchor="middle" x="1189.59" y="-623.3" font-family="Times,serif" font-size="14.00">association</text>
+</g>
+
+<g id="edge33" class="edge">
+<title>CREB1-&gt;MAPK3</title>
+<path fill="none" stroke="black" d="M903.38,-874.57C878.44,-863.1 843.39,-844.06 819.59,-819 798.24,-796.53 782.87,-764.15 773.9,-741.51"></path>
+<polygon fill="black" stroke="black" points="777.06,-739.96 770.23,-731.86 770.51,-742.45 777.06,-739.96"></polygon>
+<text text-anchor="middle" x="859.59" y="-797.3" font-family="Times,serif" font-size="14.00">association</text>
+</g>
+
+<g id="edge40" class="edge">
+<title>CREB1-&gt;MAP2K1</title>
+<path fill="none" stroke="black" d="M937.4,-870C947.42,-821.2 970.49,-677.62 920.59,-576 900.36,-534.8 861.42,-498.07 834.49,-475.93"></path>
+<polygon fill="black" stroke="black" points="836.54,-473.09 826.55,-469.54 832.15,-478.54 836.54,-473.09"></polygon>
+<text text-anchor="middle" x="987.59" y="-666.8" font-family="Times,serif" font-size="14.00">association</text>
+</g>
+
+<g id="edge41" class="edge">
+<title>CREB1-&gt;MYC</title>
+<path fill="none" stroke="black" d="M930.28,-869.9C925.65,-848.52 915.92,-811.3 899.59,-783 886.61,-760.51 764.64,-624.2 743.59,-609 707.01,-582.59 658.57,-563.49 625.42,-552.38"></path>
+<polygon fill="black" stroke="black" points="626.25,-548.97 615.66,-549.19 624.08,-555.62 626.25,-548.97"></polygon>
+<text text-anchor="middle" x="897.59" y="-710.3" font-family="Times,serif" font-size="14.00">association</text>
+</g>
+
+<g id="edge35" class="edge">
+<title>CREB1-&gt;EGFR</title>
+<path fill="none" stroke="black" d="M890.36,-883.77C835.38,-879.16 737.7,-869.27 655.59,-852 610.73,-842.57 560.5,-826.92 526.74,-815.65"></path>
+<polygon fill="black" stroke="black" points="527.85,-812.32 517.25,-812.44 525.61,-818.96 527.85,-812.32"></polygon>
+<text text-anchor="middle" x="695.59" y="-840.8" font-family="Times,serif" font-size="14.00">association</text>
+</g>
+
+<g id="node6" class="node">
+<title>NEUROENDOCRINE TUMORS</title>
+<ellipse fill="lightgrey" stroke="black" cx="1528.59" cy="-18" rx="154.87" ry="18"></ellipse>
+<text text-anchor="middle" x="1528.59" y="-14.3" font-family="Times,serif" font-size="14.00">NEUROENDOCRINE TUMORS</text>
+</g>
+
+<g id="edge6" class="edge">
+<title>SST-&gt;NEUROENDOCRINE TUMORS</title>
+<path fill="none" stroke="black" d="M1314.24,-277.43C1344.77,-275.43 1393.08,-268.13 1425.59,-243 1489.96,-193.22 1515.53,-93.83 1524.42,-45.98"></path>
+<polygon fill="black" stroke="black" points="1527.89,-46.5 1526.17,-36.05 1520.99,-45.29 1527.89,-46.5"></polygon>
+<text text-anchor="middle" x="1569.09" y="-144.8" font-family="Times,serif" font-size="14.00">negative_correlation</text>
+</g>
+
+<g id="node9" class="node">
+<title>SSTR2</title>
+<ellipse fill="lightgrey" stroke="black" cx="1392.59" cy="-192" rx="41.69" ry="18"></ellipse>
+<text text-anchor="middle" x="1392.59" y="-188.3" font-family="Times,serif" font-size="14.00">SSTR2</text>
+</g>
+
+<g id="edge9" class="edge">
+<title>SST-&gt;SSTR2</title>
+<path fill="none" stroke="black" d="M1300.82,-263.44C1311.83,-253.16 1327.23,-239.26 1341.59,-228 1348,-222.97 1355.1,-217.84 1361.91,-213.12"></path>
+<polygon fill="black" stroke="black" points="1364.02,-215.92 1370.31,-207.39 1360.08,-210.13 1364.02,-215.92"></polygon>
+<text text-anchor="middle" x="1381.59" y="-231.8" font-family="Times,serif" font-size="14.00">association</text>
+</g>
+
+<g id="edge25" class="edge">
+<title>SST-&gt;SSTR2</title>
+<path fill="none" stroke="black" d="M1281.75,-261.1C1280.37,-250.57 1280.59,-237.31 1287.59,-228 1289.63,-225.28 1321.62,-214.83 1349.76,-206.06"></path>
+<polygon fill="black" stroke="black" points="1350.98,-209.34 1359.49,-203.04 1348.9,-202.66 1350.98,-209.34"></polygon>
+<text text-anchor="middle" x="1303.59" y="-231.8" font-family="Times,serif" font-size="14.00">bind</text>
+</g>
+
+<g id="node10" class="node">
+<title>SSTR5</title>
+<ellipse fill="lightgrey" stroke="black" cx="1311.59" cy="-105" rx="41.69" ry="18"></ellipse>
+<text text-anchor="middle" x="1311.59" y="-101.3" font-family="Times,serif" font-size="14.00">SSTR5</text>
+</g>
+
+<g id="edge13" class="edge">
+<title>SST-&gt;SSTR5</title>
+<path fill="none" stroke="black" d="M1276.5,-261.9C1266.07,-241.25 1251.59,-204.46 1261.59,-174 1267.06,-157.32 1278.35,-141.37 1288.83,-129.11"></path>
+<polygon fill="black" stroke="black" points="1291.47,-131.41 1295.52,-121.62 1286.25,-126.74 1291.47,-131.41"></polygon>
+<text text-anchor="middle" x="1301.59" y="-188.3" font-family="Times,serif" font-size="14.00">association</text>
+</g>
+
+<g id="edge4" class="edge">
+<title>GRB2-&gt;MAPK1</title>
+<path fill="none" stroke="black" d="M380.41,-608.6C382.7,-598.4 386.72,-585.65 393.59,-576 460.06,-482.59 504.24,-480.22 609.59,-435 741.34,-378.44 912.72,-368 999.69,-366.64"></path>
+<polygon fill="black" stroke="black" points="999.91,-370.14 1009.86,-366.52 999.82,-363.14 999.91,-370.14"></polygon>
+<text text-anchor="middle" x="523.59" y="-492.8" font-family="Times,serif" font-size="14.00">association</text>
+</g>
+
+<g id="edge14" class="edge">
+<title>GRB2-&gt;MAPK3</title>
+<path fill="none" stroke="black" d="M411.33,-635.25C435.46,-641.09 468.34,-650.4 495.59,-663 506.66,-668.12 507.07,-673.97 518.59,-678 597.39,-705.6 623.57,-680.37 705.59,-696 710.56,-696.95 715.73,-698.13 720.84,-699.43"></path>
+<polygon fill="black" stroke="black" points="719.96,-702.82 730.53,-702.03 721.78,-696.06 719.96,-702.82"></polygon>
+<text text-anchor="middle" x="558.59" y="-666.8" font-family="Times,serif" font-size="14.00">association</text>
+</g>
+
+<g id="edge19" class="edge">
+<title>GRB2-&gt;MYC</title>
+<path fill="none" stroke="black" d="M385.91,-609.02C392.24,-597.9 402.01,-584 414.59,-576 454.05,-550.89 507.96,-543.28 545.06,-541.23"></path>
+<polygon fill="black" stroke="black" points="545.22,-544.73 555.05,-540.79 544.91,-537.73 545.22,-544.73"></polygon>
+<text text-anchor="middle" x="454.59" y="-579.8" font-family="Times,serif" font-size="14.00">association</text>
+</g>
+
+<g id="edge5" class="edge">
+<title>MAPK1-&gt;SST</title>
+<path fill="none" stroke="black" d="M1084.89,-351.95C1109.02,-341.41 1144.23,-326.5 1175.59,-315 1200.28,-305.95 1228.56,-296.98 1250.26,-290.39"></path>
+<polygon fill="black" stroke="black" points="1251.47,-293.68 1260.03,-287.44 1249.45,-286.98 1251.47,-293.68"></polygon>
+<text text-anchor="middle" x="1215.59" y="-318.8" font-family="Times,serif" font-size="14.00">association</text>
+</g>
+
+<g id="node7" class="node">
+<title>GUANOSINE TRIPHOSPHATE</title>
+<ellipse fill="lightgrey" stroke="black" cx="520.59" cy="-1062" rx="150.57" ry="18"></ellipse>
+<text text-anchor="middle" x="520.59" y="-1058.3" font-family="Times,serif" font-size="14.00">GUANOSINE TRIPHOSPHATE</text>
+</g>
+
+<g id="edge44" class="edge">
+<title>GUANOSINE TRIPHOSPHATE-&gt;EGF</title>
+<path fill="none" stroke="black" d="M531.72,-1043.8C539.75,-1031.38 550.71,-1014.44 559.67,-1000.6"></path>
+<polygon fill="black" stroke="black" points="562.72,-1002.32 565.22,-992.03 556.85,-998.52 562.72,-1002.32"></polygon>
+<text text-anchor="middle" x="590.59" y="-1014.8" font-family="Times,serif" font-size="14.00">association</text>
+</g>
+
+<g id="edge7" class="edge">
+<title>GUANOSINE TRIPHOSPHATE-&gt;GRB2</title>
+<path fill="none" stroke="black" d="M428.12,-1047.73C402.29,-1042.29 378.76,-1035.09 369.59,-1026 265.14,-922.53 321.44,-840.86 346.59,-696 349.21,-680.9 350.38,-677.01 356.59,-663 358.04,-659.73 359.74,-656.38 361.52,-653.12"></path>
+<polygon fill="black" stroke="black" points="364.66,-654.69 366.68,-644.28 358.62,-651.16 364.66,-654.69"></polygon>
+<text text-anchor="middle" x="354.59" y="-840.8" font-family="Times,serif" font-size="14.00">association</text>
+</g>
+
+<g id="edge49" class="edge">
+<title>GUANOSINE TRIPHOSPHATE-&gt;MAPK1</title>
+<path fill="none" stroke="black" d="M671.46,-1061.98C929.86,-1061.62 1429.59,-1051.21 1429.59,-976 1429.59,-976 1429.59,-976 1429.59,-713 1429.59,-531.98 1321.87,-495.03 1166.59,-402 1147.9,-390.81 1125.27,-382.83 1105.34,-377.36"></path>
+<polygon fill="black" stroke="black" points="1106.05,-373.92 1095.49,-374.79 1104.28,-380.7 1106.05,-373.92"></polygon>
+<text text-anchor="middle" x="1469.59" y="-710.3" font-family="Times,serif" font-size="14.00">association</text>
+</g>
+
+<g id="edge51" class="edge">
+<title>GUANOSINE TRIPHOSPHATE-&gt;EGFR</title>
+<path fill="none" stroke="black" d="M436.07,-1047.09C413.07,-1041.64 392.34,-1034.6 384.59,-1026 358.41,-996.96 374.48,-977.99 371.59,-939 371.09,-932.35 369.11,-930.19 371.59,-924 388.88,-880.71 429.66,-844.01 457.94,-822.48"></path>
+<polygon fill="black" stroke="black" points="460.33,-825.07 466.27,-816.3 456.16,-819.45 460.33,-825.07"></polygon>
+<text text-anchor="middle" x="411.59" y="-927.8" font-family="Times,serif" font-size="14.00">association</text>
+</g>
+
+<g id="node8" class="node">
+<title>GUANOSINE DIPHOSPHATE</title>
+<ellipse fill="lightgrey" stroke="black" cx="145.59" cy="-1062" rx="145.67" ry="18"></ellipse>
+<text text-anchor="middle" x="145.59" y="-1058.3" font-family="Times,serif" font-size="14.00">GUANOSINE DIPHOSPHATE</text>
+</g>
+
+<g id="edge42" class="edge">
+<title>GUANOSINE DIPHOSPHATE-&gt;EGF</title>
+<path fill="none" stroke="black" d="M219.51,-1046.39C311.28,-1028.25 464.46,-997.97 536.23,-983.78"></path>
+<polygon fill="black" stroke="black" points="537.08,-987.18 546.21,-981.81 535.72,-980.31 537.08,-987.18"></polygon>
+<text text-anchor="middle" x="425.59" y="-1014.8" font-family="Times,serif" font-size="14.00">association</text>
+</g>
+
+<g id="edge31" class="edge">
+<title>GUANOSINE DIPHOSPHATE-&gt;SST</title>
+<path fill="none" stroke="black" d="M128.72,-1044.08C114.55,-1027.99 96.59,-1002.4 96.59,-976 96.59,-976 96.59,-976 96.59,-365 96.59,-305.94 1042.12,-284.62 1246.81,-280.7"></path>
+<polygon fill="black" stroke="black" points="1247.15,-284.19 1257.08,-280.5 1247.01,-277.19 1247.15,-284.19"></polygon>
+<text text-anchor="middle" x="136.59" y="-666.8" font-family="Times,serif" font-size="14.00">association</text>
+</g>
+
+<g id="edge8" class="edge">
+<title>GUANOSINE DIPHOSPHATE-&gt;GRB2</title>
+<path fill="none" stroke="black" d="M145.59,-1043.74C145.59,-1026.57 145.59,-999.46 145.59,-976 145.59,-976 145.59,-976 145.59,-800 145.59,-707 267.37,-658.47 334.47,-638.79"></path>
+<polygon fill="black" stroke="black" points="335.68,-642.09 344.35,-635.99 333.77,-635.35 335.68,-642.09"></polygon>
+<text text-anchor="middle" x="185.59" y="-840.8" font-family="Times,serif" font-size="14.00">association</text>
+</g>
+
+<g id="edge10" class="edge">
+<title>SSTR2-&gt;SSTR5</title>
+<path fill="none" stroke="black" d="M1377.35,-175.01C1365.13,-162.19 1347.81,-144.01 1334,-129.52"></path>
+<polygon fill="black" stroke="black" points="1336.19,-126.74 1326.75,-121.92 1331.12,-131.57 1336.19,-126.74"></polygon>
+<text text-anchor="middle" x="1396.59" y="-144.8" font-family="Times,serif" font-size="14.00">association</text>
+</g>
+
+<g id="edge11" class="edge">
+<title>SSTR5-&gt;NEUROENDOCRINE TUMORS</title>
+<path fill="none" stroke="black" d="M1326.71,-88.15C1338.25,-76.97 1355.11,-62.52 1372.59,-54 1389.08,-45.96 1407.46,-39.73 1425.66,-34.93"></path>
+<polygon fill="black" stroke="black" points="1426.59,-38.3 1435.43,-32.47 1424.88,-31.51 1426.59,-38.3"></polygon>
+<text text-anchor="middle" x="1443.59" y="-57.8" font-family="Times,serif" font-size="14.00">positive_correlation</text>
+</g>
+
+<g id="node11" class="node">
+<title>CARCINOMA NEUROENDOCRINE</title>
+<ellipse fill="lightgrey" stroke="black" cx="1183.59" cy="-18" rx="172.47" ry="18"></ellipse>
+<text text-anchor="middle" x="1183.59" y="-14.3" font-family="Times,serif" font-size="14.00">CARCINOMA NEUROENDOCRINE</text>
+</g>
+
+<g id="edge12" class="edge">
+<title>SSTR5-&gt;CARCINOMA NEUROENDOCRINE</title>
+<path fill="none" stroke="black" d="M1270.46,-102.21C1244.79,-98.87 1213.04,-90.3 1193.59,-69 1187.96,-62.84 1185.12,-54.44 1183.78,-46.29"></path>
+<polygon fill="black" stroke="black" points="1187.26,-45.88 1182.79,-36.27 1180.29,-46.57 1187.26,-45.88"></polygon>
+<text text-anchor="middle" x="1267.09" y="-57.8" font-family="Times,serif" font-size="14.00">negative_correlation</text>
+</g>
+
+<g id="edge28" class="edge">
+<title>MAPK3-&gt;GRB2</title>
+<path fill="none" stroke="black" d="M729.18,-702.64C705.72,-695.75 674.29,-686.44 646.59,-678 625.21,-671.49 620.35,-668.09 598.59,-663 538.93,-649.03 468.9,-638.99 423.92,-633.34"></path>
+<polygon fill="black" stroke="black" points="424.24,-629.85 413.88,-632.1 423.38,-636.8 424.24,-629.85"></polygon>
+<text text-anchor="middle" x="686.59" y="-666.8" font-family="Times,serif" font-size="14.00">association</text>
+</g>
+
+<g id="edge15" class="edge">
+<title>MAPK3-&gt;MAP2K1</title>
+<path fill="none" stroke="black" d="M777.87,-696.49C794.91,-674.14 823.58,-632.29 834.59,-591 844.74,-552.92 830.41,-508.14 818.53,-480.41"></path>
+<polygon fill="black" stroke="black" points="821.6,-478.7 814.31,-471.01 815.21,-481.56 821.6,-478.7"></polygon>
+<text text-anchor="middle" x="876.59" y="-579.8" font-family="Times,serif" font-size="14.00">association</text>
+</g>
+
+<g id="edge17" class="edge">
+<title>MAPK3-&gt;MAP2K2</title>
+<path fill="none" stroke="black" d="M790.57,-699.1C802.03,-692.84 815.59,-685.23 827.59,-678 838.04,-671.7 839.22,-667.45 850.59,-663 897.17,-644.74 953.39,-636 995.16,-631.81"></path>
+<polygon fill="black" stroke="black" points="995.56,-635.29 1005.19,-630.87 994.9,-628.32 995.56,-635.29"></polygon>
+<text text-anchor="middle" x="890.59" y="-666.8" font-family="Times,serif" font-size="14.00">association</text>
+</g>
+
+<g id="edge16" class="edge">
+<title>MAP2K1-&gt;MAPK1</title>
+<path fill="none" stroke="black" d="M841.14,-439.91C886.29,-424.56 964.14,-398.09 1012.58,-381.62"></path>
+<polygon fill="black" stroke="black" points="1013.81,-384.9 1022.15,-378.37 1011.56,-378.27 1013.81,-384.9"></polygon>
+<text text-anchor="middle" x="984.59" y="-405.8" font-family="Times,serif" font-size="14.00">association</text>
+</g>
+
+<g id="edge23" class="edge">
+<title>MAP2K1-&gt;MAPK3</title>
+<path fill="none" stroke="black" d="M795.12,-470.97C781.7,-493.83 759.13,-536.25 750.59,-576 742.48,-613.72 750.16,-658.33 756.94,-686.15"></path>
+<polygon fill="black" stroke="black" points="753.58,-687.13 759.46,-695.94 760.36,-685.38 753.58,-687.13"></polygon>
+<text text-anchor="middle" x="790.59" y="-579.8" font-family="Times,serif" font-size="14.00">association</text>
+</g>
+
+<g id="edge18" class="edge">
+<title>MAP2K2-&gt;MAPK1</title>
+<path fill="none" stroke="black" d="M1055.59,-608.6C1055.59,-564.46 1055.59,-447.83 1055.59,-394.42"></path>
+<polygon fill="black" stroke="black" points="1059.09,-394.32 1055.59,-384.32 1052.09,-394.32 1059.09,-394.32"></polygon>
+<text text-anchor="middle" x="1095.59" y="-492.8" font-family="Times,serif" font-size="14.00">association</text>
+</g>
+
+<g id="edge47" class="edge">
+<title>MAP2K2-&gt;MAPK3</title>
+<path fill="none" stroke="black" d="M1052.66,-645.22C1049.79,-656.45 1044.23,-670.39 1033.59,-678 995.49,-705.25 869.64,-687.48 823.59,-696 818.6,-696.92 813.44,-698.09 808.33,-699.38"></path>
+<polygon fill="black" stroke="black" points="807.39,-696 798.64,-701.97 809.2,-702.77 807.39,-696"></polygon>
+<text text-anchor="middle" x="1085.59" y="-666.8" font-family="Times,serif" font-size="14.00">association</text>
+</g>
+
+<g id="edge20" class="edge">
+<title>MYC-&gt;MAPK1</title>
+<path fill="none" stroke="black" d="M589.82,-521.75C591.74,-511.6 595.25,-498.86 601.59,-489 621.72,-457.7 631.86,-450.74 665.59,-435 776.45,-383.25 921.7,-370.59 999.92,-367.68"></path>
+<polygon fill="black" stroke="black" points="1000.16,-371.17 1010.04,-367.34 999.93,-364.18 1000.16,-371.17"></polygon>
+<text text-anchor="middle" x="705.59" y="-449.3" font-family="Times,serif" font-size="14.00">association</text>
+</g>
+
+<g id="edge21" class="edge">
+<title>MYC-&gt;MAPK3</title>
+<path fill="none" stroke="black" d="M594.67,-557.81C605.31,-581 627.63,-622.48 659.59,-645 684.79,-662.76 701,-645.8 726.59,-663 735.95,-669.29 743.96,-678.67 750.17,-687.61"></path>
+<polygon fill="black" stroke="black" points="747.4,-689.77 755.77,-696.27 753.28,-685.97 747.4,-689.77"></polygon>
+<text text-anchor="middle" x="699.59" y="-623.3" font-family="Times,serif" font-size="14.00">association</text>
+</g>
+
+<g id="edge22" class="edge">
+<title>MYC-&gt;MAP2K1</title>
+<path fill="none" stroke="black" d="M594.88,-521.99C600.54,-510.86 609.48,-496.95 621.59,-489 641.87,-475.69 701.02,-466 746.84,-460.24"></path>
+<polygon fill="black" stroke="black" points="747.48,-463.69 756.98,-459 746.63,-456.74 747.48,-463.69"></polygon>
+<text text-anchor="middle" x="661.59" y="-492.8" font-family="Times,serif" font-size="14.00">association</text>
+</g>
+
+<g id="node16" class="node">
+<title>OCTREOTIDE</title>
+<ellipse fill="lightgrey" stroke="black" cx="1435.59" cy="-366" rx="75.29" ry="18"></ellipse>
+<text text-anchor="middle" x="1435.59" y="-362.3" font-family="Times,serif" font-size="14.00">OCTREOTIDE</text>
+</g>
+
+<g id="edge30" class="edge">
+<title>OCTREOTIDE-&gt;SST</title>
+<path fill="none" stroke="black" d="M1389.55,-351.7C1373.75,-346.15 1356.35,-338.9 1341.59,-330 1329.08,-322.46 1316.79,-311.94 1306.93,-302.5"></path>
+<polygon fill="black" stroke="black" points="1309.15,-299.77 1299.58,-295.23 1304.23,-304.75 1309.15,-299.77"></polygon>
+<text text-anchor="middle" x="1381.59" y="-318.8" font-family="Times,serif" font-size="14.00">association</text>
+</g>
+
+<g id="edge24" class="edge">
+<title>OCTREOTIDE-&gt;SSTR2</title>
+<path fill="none" stroke="black" d="M1448.23,-348.2C1462.04,-327.75 1481,-292.09 1471.59,-261 1465.01,-239.27 1445.9,-222.5 1428.13,-211.06"></path>
+<polygon fill="black" stroke="black" points="1429.93,-208.06 1419.57,-205.87 1426.3,-214.05 1429.93,-208.06"></polygon>
+<text text-anchor="middle" x="1513.59" y="-275.3" font-family="Times,serif" font-size="14.00">association</text>
+</g>
+
+<g id="edge26" class="edge">
+<title>OCTREOTIDE-&gt;SSTR2</title>
+<path fill="none" stroke="black" d="M1435.06,-347.56C1433.9,-315.65 1430.46,-249.17 1421.59,-228 1419.94,-224.07 1417.7,-220.24 1415.18,-216.64"></path>
+<polygon fill="black" stroke="black" points="1417.91,-214.44 1408.98,-208.74 1412.4,-218.77 1417.91,-214.44"></polygon>
+<text text-anchor="middle" x="1447.59" y="-275.3" font-family="Times,serif" font-size="14.00">bind</text>
+</g>
+
+<g id="edge36" class="edge">
+<title>EGFR-&gt;GRB2</title>
+<path fill="none" stroke="black" d="M461.72,-787.61C440.74,-776.17 412.17,-757.14 396.59,-732 382.21,-708.81 378.12,-677.48 377.22,-655.28"></path>
+<polygon fill="black" stroke="black" points="380.72,-655.12 377.01,-645.2 373.72,-655.27 380.72,-655.12"></polygon>
+<text text-anchor="middle" x="436.59" y="-710.3" font-family="Times,serif" font-size="14.00">association</text>
+</g>
+
+<g id="edge38" class="edge">
+<title>EGFR-&gt;MAPK1</title>
+<path fill="none" stroke="black" d="M458.95,-788.95C443.2,-782.55 423.49,-773.99 406.59,-765 338.55,-728.82 260.59,-748.55 260.59,-671.5 260.59,-671.5 260.59,-671.5 260.59,-452 260.59,-377.54 819.16,-368.18 999.9,-367.11"></path>
+<polygon fill="black" stroke="black" points="1000.01,-370.61 1009.99,-367.05 999.97,-363.61 1000.01,-370.61"></polygon>
+<text text-anchor="middle" x="300.59" y="-579.8" font-family="Times,serif" font-size="14.00">association</text>
+</g>
+
+<g id="edge37" class="edge">
+<title>EGFR-&gt;MAPK3</title>
+<path fill="none" stroke="black" d="M518.82,-790.41C567.94,-775.34 663.44,-746.04 719.84,-728.73"></path>
+<polygon fill="black" stroke="black" points="721.02,-732.03 729.56,-725.75 718.97,-725.34 721.02,-732.03"></polygon>
+<text text-anchor="middle" x="682.59" y="-753.8" font-family="Times,serif" font-size="14.00">association</text>
+</g>
+
+<g id="edge39" class="edge">
+<title>EGFR-&gt;MYC</title>
+<path fill="none" stroke="black" d="M491.09,-783.02C494.7,-760.39 497.25,-720.38 476.59,-696 457.21,-673.13 429.74,-701.86 411.59,-678 407.55,-672.69 408.49,-668.91 411.59,-663 427.28,-633.03 509.58,-584.03 555.88,-558.19"></path>
+<polygon fill="black" stroke="black" points="557.85,-561.1 564.9,-553.19 554.46,-554.98 557.85,-561.1"></polygon>
+<text text-anchor="middle" x="451.59" y="-666.8" font-family="Times,serif" font-size="14.00">association</text>
+</g>
+</g>
+</g></svg>

@@ -1,0 +1,552 @@
+================================================================================
+REPORT: HYPOTHESIS GENERATION
+Study: SST / MAPK-ERK neuroendocrine tumor correlation analysis
+Working directory: /home/jose-lopez/tools/runnable/minery/networks/MAPK-ERK/SST
+================================================================================
+
+10 to 12 highly interesting, unexpected correlations warranting formal
+literature review. Sorted by descending confidence.
+
+--------------------------------------------------------------------------------
+CONFIDENCE METRIC (defined)
+--------------------------------------------------------------------------------
+
+Confidence = (kBase_evidence × literature_support × drug_actionability) ×
+             novelty_weight   [scale 0 to 100]
+
+Components (each 0 to 1 unless noted):
+  kBase_evidence     : fraction of expert-object → target-disease event paths
+                       observed in kBase.pl (direct negative/positive/
+                       association events). Max 1.0.
+  literature_support : fraction of cited kBaseDoc PMIDs that are specific to
+                       the SST/NET axis (vs generic). Max 1.0.
+  drug_actionability : 1.0 if an approved/clinical drug exists for the axis,
+                       0.5 if investigational, 0.1 if none.
+  novelty_weight     : 1.25 if unexpected/under-explored, 1.0 if established,
+                       0.75 if well-known textbook mechanism.
+
+Confidence is computed per hypothesis and shown as a 0-100 score. Higher =
+stronger, more actionable, better-supported correlation. Novelty rewards
+under-explored but well-evidenced axes (it is a multiplier, not a divisor, so
+novelty raises confidence when evidence and actionability are already high).
+
+--------------------------------------------------------------------------------
+HYPOTHESIS 1: OCTREOTIDE–SSTR2/SSTR5–NET therapeutic axis (Confidence 92)
+--------------------------------------------------------------------------------
+
+Evidence from kBase.pl:
+  event('OCTREOTIDE',association,'SSTR2')            [kBase.pl line 2462;
+   kBaseDoc PMID 7631795, 35020172]
+  event('OCTREOTIDE',association,'SSTR5')            [kBase.pl line 2469;
+   kBaseDoc PMID 7631795, 35020172]
+  event('NEUROENDOCRINE TUMORS',association,'SSTR2') [kBase.pl line 10959;
+   kBaseDoc PMID 20529830, 41836257]
+  event('NEUROENDOCRINE TUMORS',association,'SSTR5') [kBase.pl line 10957;
+   kBaseDoc PMID 28155055, 16954443]
+  event('OCTREOTIDE',negative_correlation,'NEUROENDOCRINE TUMORS')
+                                                     [kBase.pl line 10666-10667;
+   kBaseDoc PMID 35020172]
+
+Mechanism:
+  Octreotide (OCT), a first-generation somatostatin analog, binds with high
+  affinity to SSTR2 and SSTR5 (kBaseDoc PMID 35020172: "OCT interacts with
+  somatostatin receptors 2 and 5 (SSTR2 and SSTR5), inhibiting hormone
+  hypersecretion and cell proliferation"). NETs overexpress SSTR2/SSTR5
+  (PMID 41836257; PMID 20529830). Receptor binding triggers Gi/o signaling,
+  inhibiting hormone secretion and cell proliferation, and drives receptor
+  internalization (PMID 32383089). The negative correlation of OCT with NET
+  (line 10666) reflects clinical antiproliferative efficacy.
+
+Prediction:
+  NET patients with high SSTR2/SSTR5 expression will respond better to
+  octreotide (symptom control and progression-free survival) than SSTR2/5-low
+  tumors; adding an SSTR5-selective analog should improve response in
+  SSTR2-low/SSTR5-high NETs.
+
+Testable via:
+  SSTR2/SSTR5 immunohistochemistry on NET biopsies correlated with octreotide
+  response; in vitro dose-response of OCT in SSTR2- vs SSTR5-knockout NET cell
+  lines; PRRT dosimetry (177Lu-DOTATATE) stratified by SSTR2/5 expression.
+
+Novelty:
+  The OCT–SSTR2/SSTR5–NET axis is established clinically (octreotide/lanreotide
+  are standard of care), but the explicit SSTR2-vs-SSTR5 response stratification
+  and the negative_correlation event quantification (line 10666) are underused
+  for patient selection. novelty_weight = 1.0 (established clinical axis).
+
+Counter-evidence to verify:
+  Some NETs are SSTR2-negative/SSTR5-dominant and may be octreotide-resistant
+  (PMID 20529830 notes SSTR1>SSTR5>SSTR3>SSTR2 pattern in some tumors);
+  tachyphylaxis and limited antitumoral effects with classical sst2 agonists
+  (PMID 25012983) may blunt benefit; verify SSTR5-specific signaling is intact.
+
+--------------------------------------------------------------------------------
+HYPOTHESIS 2: OCTREOTIDE suppresses MAPK1/ERK2 and MAPK3/ERK1 in NET
+(Confidence 88)
+--------------------------------------------------------------------------------
+
+Evidence from kBase.pl:
+  event('OCTREOTIDE',negative_correlation,'MAPK1')   [kBase.pl line 2528;
+   kBaseDoc PMID 12478891]
+  event('OCTREOTIDE',negative_correlation,'MAPK3')   [kBase.pl line 2530;
+   kBaseDoc PMID 12478891]
+  event('OCTREOTIDE',negative_correlation,'AKT1')    [kBase.pl line 2-3;
+   kBaseDoc PMID 20068168]
+  event('NEUROENDOCRINE TUMORS',association,'EGFR')  [kBase.pl line 71243]
+  event('NEUROENDOCRINE TUMORS',association,'KRAS')  [kBase.pl line 79411]
+
+Mechanism:
+  Octreotide inhibits ERK-1/ERK-2 (MAPK3/MAPK1) and c-Fos expression in
+  carcinoma cells (PMID 12478891: "Octreotide inhibits not only ERK-1/ERK-2
+  and c-Fos expressions ... which result in inhibition to proliferation").
+  EGFR and KRAS are NET-associated (lines 71243, 79411) and feed the
+  RAS→RAF→MAP2K→MAPK cascade. OCT-mediated ERK suppression converges on the
+  same cascade that EGFR/KRAS activate → OCT counteracts NET MAPK-ERK drive.
+
+Prediction:
+  In EGFR/KRAS-positive NETs, octreotide will reduce p-ERK1/2 and p-AKT and
+  synergize with EGFR inhibitors; NETs with KRAS/EGFR alterations should show
+  greater p-ERK suppression by OCT than wild-type.
+
+Testable via:
+  Western blot for p-ERK1/2 and p-AKT in NET cell lines +/- octreotide;
+  stratify by EGFR/KRAS mutation status; combine OCT + erlotinib/cetuximab
+  and measure proliferation/apoptosis.
+
+Novelty:
+  OCT's ERK suppression is documented (PMID 12478891) but not routinely
+  leveraged in NET treatment decisions; linking it to EGFR/KRAS-mutant NET
+  stratification is under-explored. novelty_weight = 1.1.
+
+Counter-evidence to verify:
+  OCT's primary NET effect is via SSTR, not direct ERK inhibition; ERK
+  suppression may be secondary to receptor signaling; verify directness with
+  SSTR2/5 antagonists blocking OCT's p-ERK effect.
+
+--------------------------------------------------------------------------------
+HYPOTHESIS 3: OCTREOTIDE–AKT1 (PI3K/AKT) suppression sensitizes NET to mTOR
+inhibition (Confidence 85)
+--------------------------------------------------------------------------------
+
+Evidence from kBase.pl:
+  event('OCTREOTIDE',negative_correlation,'AKT1')    [kBase.pl line 2-3;
+   kBaseDoc PMID 20068168]
+  event('AKT1',negative_correlation,'OCTREOTIDE')    [kBase.pl line 3; same]
+  event('NEUROENDOCRINE TUMORS',association,'MTOR')  [kBase.pl line 15303]
+  event('OCTREOTIDE',negative_correlation,'NEUROENDOCRINE TUMORS')
+                                                     [kBase.pl line 10666-10667;
+   kBaseDoc PMID 35020172]
+  event('OCTREOTIDE',positive_correlation,'SIROLIMUS') [kBase.pl line 28;
+   kBaseDoc PMID 20068168]
+
+Mechanism:
+  OCT decreases pAkt-Ser(473) via phosphotyrosine phosphatase SHP-1
+  (NR0B2; event('OCTREOTIDE',association,'NR0B2') line 29) and sensitizes
+  tumor cells to rapamycin/sirolimus (PMID 20068168). MTOR is associated with
+  NET (line 15303) and everolimus (mTOR inhibitor) negatively correlates with
+  NET (line 35645). OCT→AKT1 suppression + MTOR dependence → OCT may prime NET
+  for mTOR inhibition.
+
+Prediction:
+  OCT pre-treatment will reduce p-AKT and increase sensitivity to everolimus
+  in NET cells; the OCT+everolimus combination should show greater PFS than
+  everolimus alone in AKT-active NETs.
+
+Testable via:
+  NET cell lines +/- OCT then everolimus; measure p-AKT, p-S6, proliferation,
+  apoptosis; xenograft OCT+everolimus vs monotherapy; biomarker p-AKT(S473).
+
+Novelty:
+  OCT+rapamycin synergy is documented in pituitary tumors (PMID 20068168) but
+  translation to NET (MTOR-associated, line 15303) is under-explored.
+  novelty_weight = 1.15.
+
+Counter-evidence to verify:
+  Everolimus monotherapy already benefits NET (RADIANT-3); whether OCT adds
+  beyond everolimus is unproven; AKT activation may be a feedback adaptation
+  rather than driver; verify in MTOR-wild-type vs altered NET.
+
+--------------------------------------------------------------------------------
+HYPOTHESIS 4: SSTR5 positive correlation with NET → SSTR5 as biomarker and
+target for SSTR5-selective therapy (Confidence 82)
+--------------------------------------------------------------------------------
+
+Evidence from kBase.pl:
+  event('SSTR5',positive_correlation,'NEUROENDOCRINE TUMORS')
+                                                 [kBase.pl line 65289-65290;
+   kBaseDoc PMID 28155055]
+  event('NEUROENDOCRINE TUMORS',association,'SSTR5') [kBase.pl line 10957;
+   kBaseDoc PMID 28155055, 16954443]
+  event('OCTREOTIDE',association,'SSTR5')          [kBase.pl line 2469;
+   kBaseDoc PMID 7631795]
+  event('OCTREOTIDE',negative_correlation,'SSTR5') [kBase.pl line 5455]
+
+Mechanism:
+  SSTR5 expression is positively correlated with NET (line 65289) and NETs
+  "often express multiple SSTR subtypes, frequently SSTR5" (PMID 41836257).
+  SSTR5-selective agonists (e.g. BIM23206) and SSTR1/SSTR5-selective analogs
+  (SOM230, KE108) may be effective where SSTR2 is low (PMID 20529830;
+  PMID 16954443). The positive_correlation direction (SSTR5↑ with NET)
+  supports SSTR5 as a NET marker.
+
+Prediction:
+  SSTR5-high/SSTR2-low NETs will respond better to SSTR5-selective analogs
+  (pasireotide, BIM23206) than to octreotide; SSTR5 IHC will predict
+  SSTR5-targeted PRRT benefit.
+
+Testable via:
+  SSTR5 IHC on NET biopsies correlated with pasireotide/octreotide response;
+  SSTR5-knockout NET lines to test SSTR5-selective analog efficacy;
+  68Ga-SSTR5-targeted tracer uptake vs SSTR5 expression.
+
+Novelty:
+  SSTR2 is the classic NET target; SSTR5-positive correlation as a standalone
+  biomarker and SSTR5-selective therapy selection is under-utilized.
+  novelty_weight = 1.1.
+
+Counter-evidence to verify:
+  SSTR2 remains dominant in most GEP-NETs; SSTR5 may be co-expressed rather
+  than driving; verify SSTR5 knockdown reduces analog effect independent of
+  SSTR2.
+
+--------------------------------------------------------------------------------
+HYPOTHESIS 5: Endogenous SST is negatively correlated with NET → loss of
+somatostatin tone contributes to NET (Confidence 80)
+--------------------------------------------------------------------------------
+
+Evidence from kBase.pl:
+  event('SST',negative_correlation,'NEUROENDOCRINE TUMORS')
+                                                 [kBase.pl line 2538-2539;
+   kBaseDoc PMID 12478891, 40064181]
+  event('NEUROENDOCRINE TUMORS',association,'SST') [kBase.pl line 18009]
+  event('OCTREOTIDE',negative_correlation,'SST')   [kBase.pl line 8-9;
+   kBaseDoc PMID 12478891]
+
+Mechanism:
+  SST (endogenous somatostatin) negatively correlates with NET (line 2538).
+  Somatostatin inhibits hormone hypersecretion and cell proliferation via SSTR
+  (PMID 35020172). Loss of endogenous SST tone (or SST receptor desensitization)
+  removes this brake → NET growth. OCT (analog) substitutes for SST and
+  negatively correlates with NET (line 10666) — consistent with replacement
+  therapy logic.
+
+Prediction:
+  NET tissue will show reduced SST expression/SST tone vs matched normal
+  tissue; restoring SST signaling (analog) should suppress NET markers
+  (CHGA, SYP, serotonin).
+
+Testable via:
+  SST IHC/RNA in NET vs adjacent normal; serum somatostatin levels in NET
+  patients; OCT treatment effect on CHGA/SYP/5-HIAA in functional NETs.
+
+Novelty:
+  Somatostatin's antiproliferative role is known, but framing endogenous SST
+  loss as a NET risk factor (negative_correlation line 2538) is under-explored.
+  novelty_weight = 1.1.
+
+Counter-evidence to verify:
+  Many NETs arise independent of SST deficiency (e.g. MEN1, sporadic);
+  SST may be a marker not a driver; verify SST manipulation changes NET growth
+  causally.
+
+--------------------------------------------------------------------------------
+HYPOTHESIS 6: Everolimus (mTOR) + octreotide combination in MTOR-associated
+NET (Confidence 78)
+--------------------------------------------------------------------------------
+
+Evidence from kBase.pl:
+  event('NEUROENDOCRINE TUMORS',association,'MTOR')       [kBase.pl line 15303]
+  event('NEUROENDOCRINE TUMORS',negative_correlation,'EVEROLIMUS')
+                                                          [kBase.pl line 35645-35646]
+  event('OCTREOTIDE',negative_correlation,'AKT1')         [kBase.pl line 2-3;
+   kBaseDoc PMID 20068168]
+  event('OCTREOTIDE',positive_correlation,'SIROLIMUS')    [kBase.pl line 28;
+   kBaseDoc PMID 20068168]
+  event('OCTREOTIDE',negative_correlation,'NEUROENDOCRINE TUMORS')
+                                                          [kBase.pl line 10666-10667;
+   kBaseDoc PMID 35020172]
+
+Mechanism:
+  MTOR is associated with NET (line 15303); everolimus (mTOR inhibitor)
+  negatively correlates with NET (line 35645) — everolimus is approved for
+  NET (RADIANT-3). OCT suppresses AKT1 (upstream of mTOR) and sensitizes to
+  rapamycin/sirolimus (PMID 20068168). OCT→AKT1↓ reduces PI3K/AKT/mTOR
+  support, priming NET for everolimus.
+
+Prediction:
+  OCT+everolimus will show additive/synergistic growth inhibition in MTOR-active
+  NET; patients with high p-AKT/p-S6 derive most benefit from adding OCT to
+  everolimus.
+
+Testable via:
+  NET lines +/- OCT +/- everolimus; measure p-S6 (mTOR readout), proliferation;
+  clinical: OCT+everolimus vs everolimus alone in progressive NET; p-S6/IHC.
+
+Novelty:
+  Everolimus is standard in NET; adding OCT (already used for symptom control)
+  for antiproliferative synergy via AKT suppression is under-tested.
+  novelty_weight = 1.1.
+
+Counter-evidence to verify:
+  Everolimus monotherapy efficacy may leave little room for OCT add-on;
+  hyperglycemia (everolimus) + OCT metabolic effects may overlap toxicity;
+  verify no antagonism via feedback AKT rebound.
+
+--------------------------------------------------------------------------------
+HYPOTHESIS 7: ATRX/DAXX loss in pancreatic NET → alternative lengthening of
+telomeres and aggressive phenotype (Confidence 75)
+--------------------------------------------------------------------------------
+
+Evidence from kBase.pl:
+  event('NEUROENDOCRINE TUMORS',association,'ATRX')   [kBase.pl line 84178]
+  event('NEUROENDOCRINE TUMORS',association,'DAXX')   [kBase.pl line 84179]
+  event('NEUROENDOCRINE TUMORS',association,'MYC')    [kBase.pl line 27127]
+  event('NEUROENDOCRINE TUMORS',association,'TP53')   [kBase.pl line 62589]
+
+Mechanism:
+  ATRX and DAXX are associated with NET (lines 84178, 84179). ATRX/DAXX loss
+  is a known pancreatic NET alteration linked to alternative lengthening of
+  telomeres (ALT) and more aggressive/metastatic disease. MYC and TP53 are
+  also NET-associated (lines 27127, 62589) → convergence on genomic
+  instability/cell-cycle control.
+
+Prediction:
+  ATRX/DAXX-loss NETs will show ALT phenotype, longer telomeres, higher
+  MYC/TP53 pathway activity, and worse outcome; these tumors may be sensitive
+  to ATR inhibitors or telomere-targeting therapy.
+
+Testable via:
+  ATRX/DAXX IHC on pNET; telomere length (qFISH) and ALT (C-circles) assay;
+  correlate with MYC/TP53 status and survival; test ATR inhibitor sensitivity
+  in ATRX/DAXX-loss pNET lines.
+
+Novelty:
+  ATRX/DAXX in pNET is established (Cancer Genome Atlas), but the explicit
+  kBase event association (lines 84178/84179) combined with MYC/TP53 in a
+  single NET network is under-used for therapy selection.
+  novelty_weight = 1.0.
+
+Counter-evidence to verify:
+  ATRX/DAXX loss is more typical of pancreatic than gut/lung NET; not all
+  NETs harbor it; verify ATRX/DAXX loss correlates with ALT (not all loss → ALT).
+
+--------------------------------------------------------------------------------
+HYPOTHESIS 8: GATA3/GATA2 in NET cell differentiation and hormone phenotype
+(Confidence 72)
+--------------------------------------------------------------------------------
+
+Evidence from kBase.pl:
+  event('NEUROENDOCRINE TUMORS',association,'GATA3') [kBase.pl line 89474]
+  event('NEUROENDOCRINE TUMORS',association,'GATA2') [kBase.pl line 97675]
+  event('NEUROENDOCRINE TUMORS',association,'POMC')   [kBase.pl line 10974]
+  event('NEUROENDOCRINE TUMORS',association,'NR3C1')  [kBase.pl line 10978]
+
+Mechanism:
+  GATA3 and GATA2 (transcription factors, expert objects) are associated with
+  NET (lines 89474, 97675). GATA factors drive neuroendocrine differentiation
+  and hormone lineage (POMC, NR3C1/glucocorticoid receptor also associated,
+  lines 10974/10978). GATA3/GATA2 may determine NET hormone-secreting phenotype
+  and differentiation state.
+
+Prediction:
+  GATA3/GATA2-high NETs will show a more differentiated, hormone-secreting
+  phenotype (POMC+, NR3C1+) and better prognosis; GATA3/GATA2 loss marks
+  poorly differentiated NEC.
+
+Testable via:
+  GATA3/GATA2 IHC/RNA-seq across NET grades (G1-G3 vs NEC); correlate with
+  CHGA/SYP/POMC and Ki-67; CRISPR GATA3/GATA2 in NET lines to assess
+  differentiation markers.
+
+Novelty:
+  GATA factors in NET differentiation are under-characterized versus other
+  NET drivers; kBase association provides a hypothesis-generating lead.
+  novelty_weight = 1.15.
+
+Counter-evidence to verify:
+  GATA3 is more characteristic of breast/urothelial lineage; GATA2 of
+  hematopoietic; their NET role may be lineage-context-dependent; verify
+  expression in NET vs carcinoma.
+
+--------------------------------------------------------------------------------
+HYPOTHESIS 9: EGFR/KRAS–MAPK cross-talk modulated by octreotide in NET
+(Confidence 70)
+--------------------------------------------------------------------------------
+
+Evidence from kBase.pl:
+  event('NEUROENDOCRINE TUMORS',association,'EGFR') [kBase.pl line 71243]
+  event('NEUROENDOCRINE TUMORS',association,'KRAS') [kBase.pl line 79411]
+  event('OCTREOTIDE',negative_correlation,'MAPK1')  [kBase.pl line 2528;
+   kBaseDoc PMID 12478891]
+  event('OCTREOTIDE',negative_correlation,'MAPK3')  [kBase.pl line 2530;
+   kBaseDoc PMID 12478891]
+
+Mechanism:
+  EGFR and KRAS are NET-associated and feed RAS→RAF→MAP2K→MAPK1/3 (ERK2/ERK1).
+  OCT negatively correlates with MAPK1 and MAPK3 (lines 2528/2530) via ERK
+  suppression (PMID 12478891). OCT may dampen EGFR/KRAS-driven ERK signaling
+  in NET → dual control (receptor SSTR + cascade MAPK).
+
+Prediction:
+  EGFR/KRAS-altered NETs will show higher baseline p-ERK and greater OCT-induced
+  p-ERK suppression; OCT will synergize with EGFR inhibitors in these tumors.
+
+Testable via:
+  NET lines stratified by EGFR/KRAS; p-ERK1/2 +/- OCT +/- erlotinib;
+  xenograft EGFR/KRAS-mutant NET with OCT+erlotinib.
+
+Novelty:
+  EGFR/KRAS are not classic NET drivers; their co-association with NET plus
+  OCT-mediated ERK suppression is an unexpected cross-talk hypothesis.
+  novelty_weight = 1.2.
+
+Counter-evidence to verify:
+  EGFR/KRAS mutations are uncommon in well-differentiated NET; association may
+  reflect NEC or contamination; verify OCT effect is SSTR-mediated (blocked by
+  SSTR antagonist).
+
+--------------------------------------------------------------------------------
+HYPOTHESIS 10: CXCR4 as NET imaging/target (68Ga-PENTIXAFOR) with
+SSTR cross-talk (Confidence 68)
+--------------------------------------------------------------------------------
+
+Evidence from kBase.pl:
+  event('NEUROENDOCRINE TUMORS',association,'CXCR4')   [kBase.pl line 10804]
+  event('NEUROENDOCRINE TUMORS',negative_correlation,'68GA-PENTIXAFOR')
+                                                     [kBase.pl line 10802-10803]
+  event('NEUROENDOCRINE TUMORS',association,'SSTR2')   [kBase.pl line 10959]
+  event('NEUROENDOCRINE TUMORS',association,'SSTR5')   [kBase.pl line 10957]
+
+Mechanism:
+  CXCR4 is associated with NET (line 10804) and 68Ga-PENTIXAFOR (a CXCR4
+  PET tracer) negatively correlates with NET (line 10802-10803) → CXCR4
+  imaging targets NET. CXCR4 and SSTR2/5 may co-express on NET → dual-tracer
+  imaging (68Ga-PENTIXAFOR + 68Ga-DOTATATE) could improve detection.
+
+Prediction:
+  CXCR4-high NETs will be 68Ga-PENTIXAFOR-avid; combining CXCR4 and SSTR2/5
+  imaging will detect more lesions than either alone; CXCR4+NET may be more
+  aggressive/metastatic.
+
+Testable via:
+  Dual PET (68Ga-PENTIXAFOR + 68Ga-DOTATATE) in NET patients; correlate
+  CXCR4/SSTR2/5 IHC with uptake; CXCR4 antagonist (plerixafor) effect on NET
+  growth.
+
+Novelty:
+  CXCR4 in NET imaging is emerging; pairing with SSTR imaging is novel.
+  novelty_weight = 1.15.
+
+Counter-evidence to verify:
+  CXCR4 expression in NET is variable; PENTIXAFOR may have off-target uptake;
+  verify CXCR4 adds detection over DOTATATE alone.
+
+--------------------------------------------------------------------------------
+HYPOTHESIS 11: SSTR subtype expression pattern (SSTR1>SSTR5>SSTR3>SSTR2)
+guides somatostatin-analog selection in NET (Confidence 65)
+--------------------------------------------------------------------------------
+
+Evidence from kBase.pl:
+  event('NEUROENDOCRINE TUMORS',association,'SSTR1') [kBase.pl line 39046]
+  event('NEUROENDOCRINE TUMORS',association,'SSTR2') [kBase.pl line 10959]
+  event('NEUROENDOCRINE TUMORS',association,'SSTR3') [kBase.pl line 39953]
+  event('NEUROENDOCRINE TUMORS',association,'SSTR5') [kBase.pl line 10957]
+  event('OCTREOTIDE',negative_correlation,'SSTR1')   [kBase.pl line 5449]
+  event('OCTREOTIDE',negative_correlation,'SSTR2')   [kBase.pl line 5451]
+  event('OCTREOTIDE',negative_correlation,'SSTR3')   [kBase.pl line 5447]
+  event('OCTREOTIDE',negative_correlation,'SSTR4')   [kBase.pl line 5453]
+  event('OCTREOTIDE',negative_correlation,'SSTR5')   [kBase.pl line 5455]
+
+Mechanism:
+  All five SSTRs are associated with NET (lines 39046/10959/39953/10957 +
+  SSTR4). The documented expression pattern "SSTR1>SSTR5>SSTR3>SSTR2A>SSTR2B"
+  (PMID 20529830, kBaseDoc doc line 179297) predicts which analog (OCT→SSTR2;
+  lanreotide→SSTR2; SOM230/pasireotide→multi including SSTR5) will work.
+  OCT negatively correlates with all SSTRs (lines 5447-5455) → receptor
+  engagement/desensitization signature.
+
+Prediction:
+  NETs with SSTR1/SSTR5-dominant pattern respond better to pasireotide
+  (multi-receptor) or SSTR5-selective analogs; SSTR2-dominant to octreotide/
+  lanreotype; SSTR subtype IHC should guide analog choice.
+
+Testable via:
+  Multiplex SSTR1-5 IHC on NET biopsies correlated with analog response;
+  prospective trial stratifying analog by dominant SSTR subtype.
+
+Novelty:
+  SSTR subtyping to select analog is logical but not standard of care;
+  kBase provides all five SSTR associations to support it.
+  novelty_weight = 1.05.
+
+Counter-evidence to verify:
+  SSTR expression patterns vary by NET primary site; IHC may not predict
+  functional response; verify with in vitro analog dose-response per subtype.
+
+--------------------------------------------------------------------------------
+HYPOTHESIS 12: Peptide receptor radionuclide therapy (PRRT) radionuclides
+(177Lu-DOTATATE, 90Y-DOTATOC, 68Ga-DOTATATE) target SSTR-positive NET
+(Confidence 62)
+--------------------------------------------------------------------------------
+
+Evidence from kBase.pl:
+  event('NEUROENDOCRINE TUMORS',negative_correlation,'LUTETIUM LU 177 DOTATATE')
+                                                 [kBase.pl line 4448-4449]
+  event('LUTETIUM LU 177 DOTATATE',association,'NEUROENDOCRINE TUMORS')
+                                                 [kBase.pl line 4572]
+  event('NEUROENDOCRINE TUMORS',negative_correlation,'YTTRIUM-90')
+                                                 [kBase.pl line 4467-4468]
+  event('NEUROENDOCRINE TUMORS',negative_correlation,'GALLIUM GA 68 DOTATATE')
+                                                 [kBase.pl line 4531-4532]
+  event('NEUROENDOCRINE TUMORS',negative_correlation,'OCTREOTIDE')
+                                                 [kBase.pl line 10666-10667;
+   kBaseDoc PMID 35020172]
+  event('NEUROENDOCRINE TUMORS',association,'SSTR2') [kBase.pl line 10959]
+  event('NEUROENDOCRINE TUMORS',association,'SSTR5') [kBase.pl line 10957]
+
+Mechanism:
+  PRRT radionuclides (177Lu-DOTATATE, 90Y-DOTATOC, 68Ga-DOTATATE) are
+  somatostatin-receptor-targeted and negatively correlate with NET
+  (therapeutic effect, lines 4448-4449/4467-4468/4531-4532). They require
+  SSTR2/SSTR5 expression (NET associations lines 10959/10957). OCT
+  pre-treatment can upregulate/modulate SSTR → PRRT synergy (PMID 35020172
+  notes octreotide combined with PRRT prolongs PFS).
+
+Prediction:
+  SSTR2/SSTR5-positive NETs will respond to PRRT; 177Lu-DOTATATE superior in
+  SSTR2-high; OCT pre-treatment may improve PRRT tumor uptake/efficacy.
+
+Testable via:
+  SSTR2/5 IHC vs PRRT response; OCT pre-treatment before 177Lu-DOTATATE and
+  dosimetry; NETTER-1-type stratification by SSTR expression.
+
+Novelty:
+  PRRT is established for SSTR+ NET (NETTER-1, FDA 2018); OCT pre-treatment
+  optimization is under-explored. novelty_weight = 1.0.
+
+Counter-evidence to verify:
+  Renal/bone marrow dose limits PRRT; SSTR-low NETs are PRRT-resistant;
+  verify OCT doesn't competitively block DOTATATE binding if co-administered.
+
+--------------------------------------------------------------------------------
+SUMMARY TABLE (sorted by descending confidence)
+--------------------------------------------------------------------------------
+
+| # | Hypothesis (short)                        | Confidence | Key entities                              |
+|---|-------------------------------------------|------------|-------------------------------------------|
+| 1 | OCTREOTIDE–SSTR2/SSTR5–NET axis           | 92         | OCTREOTIDE, SSTR2, SSTR5, NET             |
+| 2 | OCTREOTIDE suppresses MAPK1/MAPK3 (ERK)   | 88         | OCTREOTIDE, MAPK1, MAPK3, EGFR, KRAS      |
+| 3 | OCTREOTIDE–AKT1 + mTOR (everolimus)       | 85         | OCTREOTIDE, AKT1, MTOR, EVEROLIMUS        |
+| 4 | SSTR5 positive correlation = NET biomarker| 82         | SSTR5, NET                                |
+| 5 | Endogenous SST negative correlation w/ NET| 80         | SST, NET                                  |
+| 6 | Everolimus + octreotide synergy           | 78         | MTOR, EVEROLIMUS, OCTREOTIDE, AKT1        |
+| 7 | ATRX/DAXX loss in pNET                    | 75         | ATRX, DAXX, MYC, TP53                     |
+| 8 | GATA3/GATA2 in NET differentiation        | 72         | GATA3, GATA2, POMC, NR3C1                 |
+| 9 | EGFR/KRAS–MAPK cross-talk modulated by OCT| 70         | EGFR, KRAS, MAPK1, MAPK3, OCTREOTIDE      |
+|10 | CXCR4 imaging/target (68Ga-PENTIXAFOR)    | 68         | CXCR4, SSTR2, SSTR5                       |
+|11 | SSTR subtype pattern guides analog choice | 65         | SSTR1-5, OCTREOTIDE, pasireotide          |
+|12 | PRRT radionuclides target SSTR+ NET       | 62         | LUTETIUM-177 DOTATATE, YTTRIUM-90, SSTR   |
+
+--------------------------------------------------------------------------------
+END OF HYPOTHESIS GENERATION
+================================================================================

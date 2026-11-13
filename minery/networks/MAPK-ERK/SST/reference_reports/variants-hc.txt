@@ -1,0 +1,137 @@
+================================================================================
+REPORT: VARIANTS HIGHLY CORRELATED WITH COVID-19 (variants-hc.txt)
+COVID-19 Immunology Study (COVID-19-IMMUNOLOGY-50)
+================================================================================
+
+Total variants: 39 (27 genetic + 12 protein)
+Source: kBase.pl events directly linked to COVID-19
+All variants present in biotypes-kbs/variants.pl
+
+================================================================================
+A. GENETIC VARIANTS (SNP / germline)
+================================================================================
+
+| Variant       | Gene(s)               | Relation to COVID-19     | PubMed ID(s)    | Key Finding                                               |
+|---------------|-----------------------|--------------------------|-----------------|-----------------------------------------------------------|
+| RS12979860    | IFNL4                 | association              | 40314039        | Significant across COVID-19 groups (P<0.05); also DEATH    |
+| RS2070788     | TMPRSS2 / MX1         | association (bidir)      | 40314039        | G allele enriched among infected + deaths; drives TMPRSS2  |
+| RS4702        | FES / FURIN           | association              | 40314039        | Part of 7-SNP COVID-19 biomarker panel (Brazil-Bolivia)    |
+| RS35803318    | ACE2                  | association              | 40314039        | ACE2 p.V749V; genotyped in severity progression study      |
+| RS76635825    | ACE2                  | association              | 40314039,41993206| ACE2 polymorphism; linked to expression & severity         |
+| RS7301582     | KLRC1 (NKG2A)         | positive_correlation     | 41153412        | T allele predominant in infected (OR=2.21, p=0.0258)       |
+| RS1264457     | HLA-E                 | positive_correlation     | 41153412        | A allele (HLA-E*01:01) predominant in infected (OR=2.84)   |
+| RS1051792     | MICA                  | association              | 41153412        | A allele (129Met) most common in hospitalized (OR=14.95)   |
+| RS333         | CCR5 (delta32)        | association + pos_corr   | 34116286,35987511,37499788 | Protective: less frequent in hospitalized (OR=0.66) |
+| RS12252       | IFITM3                | positive_correlation     | 35987511        | Increased risk of infection (meta-analysis, 15,550 cases)  |
+| RS1799752     | ACE (ACE1 I/D)        | positive_correlation     | 35987511        | Increased risk of infection (meta-analysis)                |
+| RS4646994     | ACE (ACE1 I/D)        | positive_correlation     | 35987511        | Same as rs1799752; increased infection susceptibility      |
+| RS2285666     | ACE2                  | positive_correlation     | 35987511        | Associated with COVID-19 severity (meta-analysis)          |
+| RS2106809     | ACE2                  | positive_correlation     | 35987511        | Associated with COVID-19 severity (meta-analysis)          |
+| RS2074192     | ACE2                  | positive_correlation     | 35987511        | Associated with COVID-19 severity (meta-analysis)          |
+| RS5186        | AGTR1                 | positive_correlation     | 35987511        | Associated with COVID-19 severity (meta-analysis)          |
+| RS429358      | APOE                  | positive_correlation     | 35987511        | Increased risk of infection (APOE e4 isoform)              |
+| RS35044562    | LZTFL1                | positive_correlation     | 37342325        | Neanderthal variant; detrimental on disease course (P=0.001)|
+| RS11549407    | HBB (beta-thalassemia)| positive_correlation     | 37342325        | C>T in HBB gene; exerts protective effect (P=0.005)        |
+| RS5743313     | TLR3                  | positive_correlation     | 37499788        | Protective against severe/moderate in males <65 years      |
+| RS1870377     | KDR (VEGFR2)          | positive_correlation     | 37499788        | Risk factor in females >=65; protective in males <65       |
+| RS2228014     | CXCR4                 | positive_correlation     | 39407172        | AA genotype/A allele potentially protective against severe  |
+| RS73635825    | ACE2                  | negative_correlation     | 41993206        | Linked to varied ACE2 expression & viral load in Africans  |
+| RS721917       | SFTPD (SP-D)          | positive_correlation     | 42139264        | TT genotype + T allele: increased severity & hospitalization|
+| RS76152249    | IL1RL1/IL18R1/IL18RAP| positive_correlation     | 40222985        | GWAS lead variant for post-vaccination lymph node swelling  |
+| RS140473595   | ACE2                  | positive_correlation     | 41947332        | CT/TT genotype: high risk of ICU admission (OR=7.22, p<0.0001)|
+| RS200180615   | ACE2                  | association              | 41947332        | No significant association with severity (examined in same study)|
+
+-------------------------------------------------------------------------------
+Study details for genetic variants:
+-------------------------------------------------------------------------------
+40314039: Screening Biomarkers and Risk Factors for COVID-19 Progression in a
+          Border Population Between Brazil-Bolivia. n=243. qPCR genotyping of 7
+          targets. rs12979860 and rs2070788 showed significant association (P<0.05).
+
+41153412: Genetic Variability in NKG2 Receptors and Their Ligands: Associations
+          with SARS-CoV-2 Infection and COVID-19 Severity. qPCR of NKG2A, NKG2D,
+          HLA-E, MICA/MICB SNPs. NKG2A rs7301582 T and HLA-E rs1264457 A alleles
+          predominant in infected. MICA rs1051792 A in hospitalized (OR=14.95).
+
+34116286: Variant-genetic and transcript-expression analysis showed a role for
+          the chemokine-receptor CCR5 in COVID-19 severity. n=1,461. CCR5-Delta32
+          (rs333) protective (OR=0.66, p=0.01). No homozygotes among patients.
+
+35987511: Systematic review and meta-analysis of human genetic variants
+          contributing to COVID-19 susceptibility and severity. 84 studies,
+          130 polymorphisms in 61 genes. 7 susceptibility variants + 11 severity
+          variants confirmed (ACE1, APOE, CCR5, IFITM3, ACE2, AGTR1, TNFA).
+
+37342325: Genetic factors influencing COVID-19 in Sardinia: role of HLA-G.
+          n=801. Neanderthal LZTFL1 rs35044562 detrimental (P=0.001).
+          rs11549407 (HBB) protective (P=0.005). HLA-G 3'UTR Del/Del protective.
+
+37499788: Adverse effect of VEGFR-2 (rs1870377) on clinical course of COVID-19
+          in females and males in age-dependent manner. n=160. CCR5Delta32
+          protective >=65 years. TLR3 rs5743313 protective in males <65.
+
+39407172: Potential protective association of CXCR4 rs2228014 with COVID-19
+          severity in adult Egyptians. n=300. AA genotype exclusive to mild/moderate
+          cases suggesting protective role.
+
+41993206: Reduced COVID-19 severity in Africa: systematic review. ACE2
+          polymorphisms rs2285666, rs73635825 prevalent in Africans.
+
+42139264: Impact of Surfactant Protein-D Gene Polymorphism on COVID-19 Clinical
+          Outcomes. n=135. SP-D rs721917 TT genotype linked to increased severity.
+
+40222985: GWAS of side effects after COVID-19 booster vaccination in Japan.
+          n=2,554. rs76152249 (IL1RL1 locus) associated with lymph node swelling
+          severity (P=1.46x10-9).
+
+41947332: ACE2 Polymorphisms and COVID-19 Severity. n=332. rs140473595 CT/TT
+          high risk of ICU (OR=7.22, p<0.0001). rs200180615 not significant.
+
+================================================================================
+B. PROTEIN (CODING) VARIANTS
+================================================================================
+
+| Variant     | Gene     | Amino Acid Change     | Relation to COVID-19     | PubMed ID | Key Finding                                |
+|-------------|----------|-----------------------|--------------------------|-----------|--------------------------------------------|
+| C.2518A>G   | CCL2     | A2518G / MCP-1        | positive_correlation     | 35763308  | GA genotype + G carriers higher in severe (p<0.0001) |
+| C.1202T>C   | JAK3     | c.1202T>C             | POST-ACUTE COVID-19 SYND  | kBaseDoc  | Associated with PASC and SCID               |
+| P.L401P      | JAK3     | p.Leu401Pro           | POST-ACUTE COVID-19 SYND  | kBaseDoc  | Associated with PASC and SCID               |
+| C.138C>T    | CXCR4    | C138T                 | CORONAVIRUS INFECTIONS    | 35763308  | No significant association with severity    |
+| G.55029A>G  | CCR5     | A55029G               | CORONAVIRUS INFECTIONS    | 35763308  | No significant association with severity    |
+| P.V64I       | CCR2     | p.Val64Ile            | CORONAVIRUS INFECTIONS    | 35763308  | No significant association with severity    |
+| P.G363S      | TYK2     | p.Gly363Ser           | association (protective)  | 152441*   | GA genotype protective (p=0.036, OR=0.64)   |
+| P.S476F      | IFNAR1   | p.Ser476Phe           | association               | 152441*   | Rare; predicted deleterious; alters structure|
+| P.V168L      | IFNAR1   | p.Val168Leu           | negative_correlation      | 152441*   | C allele protective against severity (p=0.028)|
+| P.W318C      | IFNAR1   | p.Trp318Cys           | association               | 152441*   | Rare; predicted deleterious; alters H-bonds  |
+| P.C271Y      | IFNAR2   | p.Cys271Tyr           | association               | 152441*   | Rare; predicted deleterious; alters structure|
+| P.M594I      | STAT2    | p.Met594Ile           | positive_correlation      | 152441*   | GC genotype linked to infection (p=0.037, OR=2.71)|
+
+-------------------------------------------------------------------------------
+* PMID placeholder for the JAK/STAT study. The PubMed ID appears in the 
+  kBaseDoc.txt sentence context but could not be confirmed as a separate PMID
+  from the truncated output. Study title:
+  "Association Study of the JAK/STAT Signaling Pathway with Susceptibility to
+  COVID-19 in Moroccan patient and In-Silico Analysis of Rare Variants"
+  n=206 patients, 118 controls. NGS of IFNAR1, IFNAR2, JAK1, TYK2, STAT2, IRF9.
+  15 common polymorphisms + 7 rare variants identified.
+-------------------------------------------------------------------------------
+35763308: Effect of Chemokine Gene Variants on Covid-19 Disease Severity. n=179.
+         MCP-1-A2518G, SDF-1-3'A, CCR5-delta32, CCR5-A55029G, CXCR4-C138T,
+         CCR2-V64I. Only MCP-1-A2518G (C.2518A>G) showed significant positive
+         association with severe COVID-19 (p<0.0001).
+
+================================================================================
+SUMMARY BY GENE CATEGORY
+================================================================================
+
+  Entry receptor variants:     ACE2 (6), TMPRSS2 (1), FURIN/FES (1)
+  Chemokine variants:          CCR5 (2), CCR2 (1), CXCR4 (2), CCL2 (1)
+  Immune signaling:            IFNL4 (1), JAK3 (2), TYK2 (1), STAT2 (1)
+  Interferon pathway:          IFNAR1 (3), IFNAR2 (1), IFITM3 (1)
+  NK cell receptors/ligands:  KLRC1/NKG2A (1), HLA-E (1), MICA (1)
+  RAS pathway:                 ACE (2), AGTR1 (1)
+  Innate immunity:             TLR3 (1), SFTPD/SP-D (1)
+  Other:                       APOE (1), LZTFL1 (1), HBB (1), KDR/VEGFR2 (1),
+                               IL1RL1/IL18R1/IL18RAP (1), HLA-G (1)
+
+================================================================================

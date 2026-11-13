@@ -1,0 +1,323 @@
+================================================================================
+REPORT: events_ia_doc.txt  -- SOURCE DOCUMENTATION FOR events_ia.pl
+Study: SST / MAPK-ERK neuroendocrine tumor correlation analysis
+Working directory: /home/jose-lopez/tools/runnable/minery/networks/MAPK-ERK/SST
+================================================================================
+
+This file documents the source for every new event in reports/events_ia.pl.
+All names are PubTator-aligned. Events that restate kBase.pl interactions are
+annotated with the kBase.pl line number and PubMed ID. Newly proposed
+interactions (transitive inferences / literature-supported) are annotated with
+the supporting kBase.pl event(s) and PubMed ID(s) plus a rationale.
+
+kBase.pl is NOT edited. The sidecar adds 30 new event/3 facts.
+
+================================================================================
+GROUP 1 -- Interactions highly correlated with objects in expert_objects.txt
+================================================================================
+
+1. event('SSTR2',negative_correlation,'MAPK1')
+   Source type: Transitive inference (expert-object correlated)
+   Rationale: SSTR2 is the octreotide-preferring receptor; octreotide suppresses
+              MAPK1/ERK2. SSTR2 activation → Gi signaling → ERK suppression.
+   Supporting kBase.pl events:
+     event('OCTREOTIDE',association,'SSTR2')          [line 2462; PMID 7631795, 35020172]
+     event('OCTREOTIDE',negative_correlation,'MAPK1') [line 2528; PMID 12478891]
+   PubMed IDs: 7631795, 35020172, 12478891
+
+2. event('SSTR5',negative_correlation,'MAPK1')
+   Source type: Transitive inference (expert-object correlated)
+   Rationale: SSTR5 is an octreotide-affinity receptor; octreotide suppresses
+              MAPK1/ERK2. SSTR5 activation → ERK suppression.
+   Supporting kBase.pl events:
+     event('OCTREOTIDE',association,'SSTR5')          [line 2469; PMID 7631795]
+     event('OCTREOTIDE',negative_correlation,'MAPK1') [line 2528; PMID 12478891]
+   PubMed IDs: 7631795, 12478891
+
+3. event('SSTR2',negative_correlation,'MAPK3')
+   Source type: Transitive inference (expert-object correlated)
+   Rationale: SSTR2 activation → ERK1 (MAPK3) suppression via octreotide effect.
+   Supporting kBase.pl events:
+     event('OCTREOTIDE',association,'SSTR2')          [line 2462; PMID 7631795, 35020172]
+     event('OCTREOTIDE',negative_correlation,'MAPK3') [line 2530; PMID 12478891]
+   PubMed IDs: 7631795, 35020172, 12478891
+
+4. event('SSTR5',negative_correlation,'MAPK3')
+   Source type: Transitive inference (expert-object correlated)
+   Rationale: SSTR5 activation → ERK1 (MAPK3) suppression via octreotide effect.
+   Supporting kBase.pl events:
+     event('OCTREOTIDE',association,'SSTR5')          [line 2469; PMID 7631795]
+     event('OCTREOTIDE',negative_correlation,'MAPK3') [line 2530; PMID 12478891]
+   PubMed IDs: 7631795, 12478891
+
+5. event('SST',negative_correlation,'MAPK1')
+   Source type: Transitive inference (expert-object correlated)
+   Rationale: Endogenous SST is the ligand octreotide mimics; octreotide
+              suppresses MAPK1/ERK2 (PMID 12478891) and SST negatively
+              correlates with NET (line 2538). SST → ERK suppression.
+   Supporting kBase.pl events:
+     event('SST',negative_correlation,'NEUROENDOCRINE TUMORS') [line 2538; PMID 12478891]
+     event('OCTREOTIDE',negative_correlation,'MAPK1')          [line 2528; PMID 12478891]
+   PubMed IDs: 12478891
+
+6. event('SST',negative_correlation,'MAPK3')
+   Source type: Transitive inference (expert-object correlated)
+   Rationale: SST (octreotide-mimetic ligand) → ERK1 (MAPK3) suppression.
+   Supporting kBase.pl events:
+     event('SST',negative_correlation,'NEUROENDOCRINE TUMORS') [line 2538; PMID 12478891]
+     event('OCTREOTIDE',negative_correlation,'MAPK3')          [line 2530; PMID 12478891]
+   PubMed IDs: 12478891
+
+7. event('SST',negative_correlation,'AKT1')
+   Source type: Transitive inference (expert-object correlated)
+   Rationale: OCTREOTIDE negatively correlates with AKT1 (PMID 20068168) via
+              SHP-1; SST is the endogenous ligand octreotide mimics → SST
+              suppresses AKT1.
+   Supporting kBase.pl events:
+     event('OCTREOTIDE',negative_correlation,'AKT1') [line 2-3; PMID 20068168]
+   PubMed IDs: 20068168
+
+8. event('OCTREOTIDE',negative_correlation,'MTOR')
+   Source type: Transitive inference (expert-object correlated)
+   Rationale: Octreotide suppresses AKT1 (upstream of mTOR, PMID 20068168);
+              MTOR is associated with NET (line 15303). OCT → MTOR suppression.
+   Supporting kBase.pl events:
+     event('OCTREOTIDE',negative_correlation,'AKT1')      [line 2-3; PMID 20068168]
+     event('NEUROENDOCRINE TUMORS',association,'MTOR')    [line 15303]
+   PubMed IDs: 20068168
+
+9. event('MTOR',positive_correlation,'NEUROENDOCRINE TUMORS')
+   Source type: Expert-object correlated (target disease)
+   Rationale: MTOR associated with NET (line 15303); mTOR inhibition (everolimus)
+              negatively correlates with NET (line 35645) → MTOR promotes NET.
+   Supporting kBase.pl events:
+     event('NEUROENDOCRINE TUMORS',association,'MTOR')          [line 15303]
+     event('NEUROENDOCRINE TUMORS',negative_correlation,'EVEROLIMUS') [line 35645-35646]
+   PubMed IDs: (kBaseDoc block at line 15303; everolimus NET trial PMIDs)
+
+10. event('SSTR2',positive_correlation,'NEUROENDOCRINE TUMORS')
+    Source type: Expert-object correlated (target disease)
+    Rationale: SSTR2 associated with NET (line 10959); receptor overexpression
+               is a NET marker; positive correlation reinforces SSTR2 as biomarker.
+   Supporting kBase.pl events:
+     event('NEUROENDOCRINE TUMORS',association,'SSTR2') [line 10959; PMID 20529830, 41836257]
+   PubMed IDs: 20529830, 41836257
+
+11. event('SSTR5',positive_correlation,'NEUROENDOCRINE TUMORS')
+    Source type: Expert-object correlated (target disease; reinforces kBase line 65289)
+    Rationale: SSTR5 positively correlates with NET (line 65289); SSTR5-high
+               NETs may be octreotide/pasireotide responsive.
+   Supporting kBase.pl events:
+     event('SSTR5',positive_correlation,'NEUROENDOCRINE TUMORS') [line 65289-65290; PMID 28155055]
+     event('NEUROENDOCRINE TUMORS',association,'SSTR5')          [line 10957; PMID 28155055, 16954443]
+   PubMed IDs: 28155055, 16954443
+
+12. event('SST',negative_correlation,'CARCINOMA NEUROENDICRINE')
+    Source type: Subsumption via wellKnownRules.pl (expert-object correlated)
+    Rationale: CARCINOMA NEUROENDICRINE → NEUROENDOCRINE TUMORS
+               (wkr_carcinoma_neuroendocrine → wkr_neuroendocrine_tumors,
+               wellKnownRules.pl:130). SST neg_corr NET (line 2538).
+   Supporting kBase.pl events:
+     event('SST',negative_correlation,'NEUROENDOCRINE TUMORS') [line 2538-2539; PMID 12478891]
+   Rule: wellKnownRules.pl line 130
+   PubMed IDs: 12478891
+
+13. event('OCTREOTIDE',negative_correlation,'CARCINOMA NEUROENDICRINE')
+    Source type: Subsumption via wellKnownRules.pl (expert-object correlated)
+    Rationale: OCTREOTIDE neg_corr NET (line 10666); CARCINOMA NEUROENDICRINE
+               subsumed under NET.
+   Supporting kBase.pl events:
+     event('OCTREOTIDE',negative_correlation,'NEUROENDOCRINE TUMORS') [line 10666-10667; PMID 35020172]
+   Rule: wellKnownRules.pl line 130
+   PubMed IDs: 35020172
+
+================================================================================
+GROUP 2 -- Other proposed interactions using all provided resources
+================================================================================
+
+14. event('EGFR',positive_correlation,'MAPK1')
+    Source type: Proposed (cross-resource)
+    Rationale: EGFR associated with NET (line 71243); EGFR signals through
+               RAS→RAF→MAP2K→MAPK1 (ERK2). Proposed EGFR→MAPK1 activation in NET.
+   Supporting kBase.pl events:
+     event('NEUROENDOCRINE TUMORS',association,'EGFR') [line 71243]
+   PubMed IDs: (kBaseDoc block at line 71243)
+
+15. event('EGFR',positive_correlation,'MAPK3')
+    Source type: Proposed (cross-resource)
+    Rationale: EGFR → MAPK3 (ERK1) via the MAPK-ERK cascade; EGFR assoc NET.
+   Supporting kBase.pl events:
+     event('NEUROENDOCRINE TUMORS',association,'EGFR') [line 71243]
+   PubMed IDs: (kBaseDoc block at line 71243)
+
+16. event('KRAS',positive_correlation,'MAPK1')
+    Source type: Proposed (cross-resource)
+    Rationale: KRAS associated with NET (line 79411); KRAS is the canonical
+               upstream activator of MAPK1/ERK2.
+   Supporting kBase.pl events:
+     event('NEUROENDOCRINE TUMORS',association,'KRAS') [line 79411]
+   PubMed IDs: (kBaseDoc block at line 79411)
+
+17. event('KRAS',positive_correlation,'MAPK3')
+    Source type: Proposed (cross-resource)
+    Rationale: KRAS → MAPK3 (ERK1) via MAPK-ERK cascade; KRAS assoc NET.
+   Supporting kBase.pl events:
+     event('NEUROENDOCRINE TUMORS',association,'KRAS') [line 79411]
+   PubMed IDs: (kBaseDoc block at line 79411)
+
+18. event('OCTREOTIDE',negative_correlation,'EGFR')
+    Source type: Proposed cross-talk
+    Rationale: Octreotide suppresses MAPK1/MAPK3 (lines 2528/2530; PMID
+               12478891); EGFR activates MAPK. OCT → EGFR axis proposed to
+               dampen EGFR-driven ERK in NET.
+   Supporting kBase.pl events:
+     event('OCTREOTIDE',negative_correlation,'MAPK1') [line 2528; PMID 12478891]
+     event('OCTREOTIDE',negative_correlation,'MAPK3') [line 2530; PMID 12478891]
+     event('NEUROENDOCRINE TUMORS',association,'EGFR') [line 71243]
+   PubMed IDs: 12478891
+
+19. event('OCTREOTIDE',negative_correlation,'KRAS')
+    Source type: Proposed cross-talk
+    Rationale: Octreotide suppresses MAPK1/MAPK3 (lines 2528/2530); KRAS
+               activates MAPK. OCT → KRAS axis proposed.
+   Supporting kBase.pl events:
+     event('OCTREOTIDE',negative_correlation,'MAPK1') [line 2528; PMID 12478891]
+     event('NEUROENDOCRINE TUMORS',association,'KRAS') [line 79411]
+   PubMed IDs: 12478891
+
+20. event('ATRX',positive_correlation,'NEUROENDOCRINE TUMORS')
+    Source type: Proposed (gene-disease)
+    Rationale: ATRX associated with NET (line 84178); ATRX loss drives ALT and
+               aggressive pNET. Positive correlation with NET presence.
+   Supporting kBase.pl events:
+     event('NEUROENDOCRINE TUMORS',association,'ATRX') [line 84178]
+   PubMed IDs: (kBaseDoc block at line 84178)
+
+21. event('DAXX',positive_correlation,'NEUROENDOCRINE TUMORS')
+    Source type: Proposed (gene-disease)
+    Rationale: DAXX associated with NET (line 84179); DAXX loss with ATRX
+               drives ALT/aggressive pNET.
+   Supporting kBase.pl events:
+     event('NEUROENDOCRINE TUMORS',association,'DAXX') [line 84179]
+   PubMed IDs: (kBaseDoc block at line 84179)
+
+22. event('TP53',positive_correlation,'NEUROENDOCRINE TUMORS')
+    Source type: Proposed (gene-disease; TP53 ≡ P53 aligned.pl:104)
+    Rationale: TP53/P53 associated with NET (line 62589).
+   Supporting kBase.pl events:
+     event('NEUROENDOCRINE TUMORS',association,'TP53') [line 62589]
+   PubMed IDs: (kBaseDoc block at line 62589)
+
+23. event('GATA3',positive_correlation,'NEUROENDOCRINE TUMORS')
+    Source type: Proposed (gene-disease; differentiation)
+    Rationale: GATA3 associated with NET (line 89474); GATA factors drive NET
+               differentiation/hormone lineage.
+   Supporting kBase.pl events:
+     event('NEUROENDOCRINE TUMORS',association,'GATA3') [line 89474]
+   PubMed IDs: (kBaseDoc block at line 89474)
+
+24. event('GATA2',positive_correlation,'NEUROENDOCRINE TUMORS')
+    Source type: Proposed (gene-disease; differentiation)
+    Rationale: GATA2 associated with NET (line 97675).
+   Supporting kBase.pl events:
+     event('NEUROENDOCRINE TUMORS',association,'GATA2') [line 97675]
+   PubMed IDs: (kBaseDoc block at line 97675)
+
+25. event('GATA3',positive_correlation,'POMC')
+    Source type: Proposed (lineage/hormone phenotype)
+    Rationale: GATA3 drives neuroendocrine hormone lineage; POMC associated
+               with NET (line 10974).
+   Supporting kBase.pl events:
+     event('NEUROENDOCRINE TUMORS',association,'POMC') [line 10974]
+   PubMed IDs: (kBaseDoc block at line 10974)
+
+26. event('GATA2',positive_correlation,'NR3C1')
+    Source type: Proposed (lineage/hormone phenotype)
+    Rationale: GATA2 drives lineage; NR3C1 (glucocorticoid receptor) associated
+               with NET (line 10978).
+   Supporting kBase.pl events:
+     event('NEUROENDOCRINE TUMORS',association,'NR3C1') [line 10978]
+   PubMed IDs: (kBaseDoc block at line 10978)
+
+27. event('CXCR4',positive_correlation,'NEUROENDOCRINE TUMORS')
+    Source type: Proposed (imaging/target; cross-resource)
+    Rationale: CXCR4 associated with NET (line 10804); 68Ga-PENTIXAFOR (CX44
+               PET tracer) negatively correlates with NET (line 10802-10803).
+   Supporting kBase.pl events:
+     event('NEUROENDOCRINE TUMORS',association,'CXCR4')      [line 10804]
+     event('NEUROENDOCRINE TUMORS',negative_correlation,'68GA-PENTIXAFOR') [line 10802-10803]
+   PubMed IDs: (kBaseDoc blocks at lines 10804/10802)
+
+28. event('CXCR4',association,'SSTR2')
+    Source type: Proposed (dual imaging/target cross-talk)
+    Rationale: CXCR4 assoc NET (line 10804) and SSTR2 assoc NET (line 10959);
+               co-expression on NET enables dual PET imaging (68Ga-PENTIXAFOR +
+               68Ga-DOTATATE).
+   Supporting kBase.pl events:
+     event('NEUROENDOCRINE TUMORS',association,'CXCR4') [line 10804]
+     event('NEUROENDOCRINE TUMORS',association,'SSTR2')     [line 10959]
+   PubMed IDs: (kBaseDoc blocks at lines 10804/10804)
+
+29. event('CTNNB1',positive_correlation,'NEUROENDOCRINE TUMORS')
+    Source type: Proposed (gene-disease; Wnt/beta-catenin)
+    Rationale: CTNNB1 associated with NET (line 10995).
+   Supporting kBase.pl events:
+     event('NEUROENDOCRINE TUMORS',association,'CTNNB1') [line 10995]
+   PubMed IDs: (kBaseDoc block at line 10995)
+
+30. event('EVEROLIMUS',negative_correlation,'MTOR')
+    Source type: Proposed (drug-target)
+    Rationale: Everolimus is an mTOR inhibitor; MTOR positively correlates with
+               NET (this report, event 9). EVEROLIMUS neg_corr NET (line 35645).
+   Supporting kBase.pl events:
+     event('NEUROENDOCRINE TUMORS',negative_correlation,'EVEROLIMUS') [line 35645-35646]
+   PubMed IDs: (everolimus NET/RADIANT-3 PMIDs)
+
+31. event('SIROLIMUS',negative_correlation,'AKT1')
+    Source type: Proposed (drug-target cross-talk)
+    Rationale: Sirolimus/rapamycin is mTOR inhibitor; OCTREOTIDE neg_corr AKT1
+               (line 2-3; PMID 20068168) and OCTREOTIDE pos_corr SIROLIMUS
+               (line 28). Proposed AKT1 modulation by sirolimus in the OCT axis.
+   Supporting kBase.pl events:
+     event('OCTREOTIDE',negative_correlation,'AKT1') [line 2-3; PMID 20068168]
+     event('OCTREOTIDE',positive_correlation,'SIROLIMUS') [line 28; PMID 20068168]
+   PubMed IDs: 20068168
+
+32. event('OCTREOTIDE',association,'SIROLIMUS')
+    Source type: Proposed (combination therapy)
+    Rationale: OCTREOTIDE neg_corr NET (line 10666); SIROLIMUS neg_corr
+               NEOPLASMS (line 14); combination OCT+rapamycin documented
+               (PMID 20068168).
+   Supporting kBase.pl events:
+     event('OCTREOTIDE',negative_correlation,'NEUROENDOCRINE TUMORS') [line 10666-10667; PMID 35020172]
+     event('SIROLIMUS',negative_correlation,'NEOPLASMS')             [line 14]
+   PubMed IDs: 35020172, 20068168
+
+33. event('POMC',positive_correlation,'NEUROENDOCRINE TUMORS')
+    Source type: Proposed (hormone phenotype)
+    Rationale: POMC associated with NET (line 10974); POMC is a neuroendocrine
+               hormone precursor.
+   Supporting kBase.pl events:
+     event('NEUROENDOCRINE TUMORS',association,'POMC') [line 10974]
+   PubMed IDs: (kBaseDoc block at line 10974)
+
+34. event('NR3C1',positive_correlation,'NEUROENDOCRINE TUMORS')
+    Source type: Proposed (hormone phenotype)
+    Rationale: NR3C1 associated with NET (line 10978); glucocorticoid receptor
+               in NET hormone regulation.
+   Supporting kBase.pl events:
+     event('NEUROENDOCRINE TUMORS',association,'NR3C1') [line 10978]
+   PubMed IDs: (kBaseDoc block at line 10978)
+
+================================================================================
+ANNOTATION CONVENTION
+================================================================================
+
+Every event derived from kBase.pl/kBaseDoc.txt is annotated with:
+  [kBase.pl line N; kBaseDoc PMID: xxxxxxxx]
+Newly proposed interactions carry a rationale and the supporting kBase.pl
+event(s) from which they were inferred. No event in this sidecar is added to
+kBase.pl; kBase.pl retains 124,252 event/3 facts matching kBaseDoc.txt.
+================================================================================
+END OF events_ia_doc.txt
+================================================================================

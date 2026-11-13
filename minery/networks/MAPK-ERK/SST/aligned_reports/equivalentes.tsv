@@ -1,0 +1,13 @@
+Symbol	Equivalent	Documentation	Criterion
+CREB	CREB1	synonyms.pl CREB1 record line 34 includes CREB; kBase.pl event('CREB1',association,'FOS') line 84; kBaseDoc PubMed evidence via CREB1/FOS co-occurrence	synonyms.pl main-id verification + kBase event validation
+AML1	RUNX1	synonyms.pl RUNX1 record line 206 includes AML1 and EVI1; kBase.pl event('NEOPLASMS',association,'RUNX1') line 419	synonyms.pl main-id verification + kBase event validation
+CEBP	CEBPA	synonyms.pl CEBPA record line 80 includes CEBP and C/EBP; kBase.pl event('CSN1S1',association,'CEBPA') line 146	synonyms.pl main-id verification + kBase event validation
+CREL	REL	synonyms.pl REL record line 339 includes CREL; kBase.pl event('REL',positive_correlation,'TBK1') line 1020	synonyms.pl main-id verification + kBase event validation
+E2F	E2F1	synonyms.pl E2F1 record line 21 includes E2F; kBase.pl event('SST',positive_correlation,'E2F1') line 45	synonyms.pl main-id verification + kBase event validation
+AP1	JUN	synonyms.pl JUN record line 16 includes AP-1 and AP1; kBase.pl event('JUN',association,'TAF4B') line 34	synonyms.pl main-id verification + kBase event validation
+TATA	TBP	synonyms.pl TBP record line 61 includes TATA BINDING PROTEIN; kBase.pl event('TBP',positive_correlation,'ALCOHOLS') line 114	synonyms.pl main-id verification + kBase event validation
+NET	NEOPLASMS	synonyms.pl NEOPLASMS record line 10 includes NET and NEN; kBase.pl event('NEOPLASMS',negative_correlation,'SIROLIMUS') line 14	synonyms.pl main-id verification + kBase event validation
+Somatostatin	SST	synonyms.pl SST record line 7 includes SOMATOSTATIN; kBase.pl event('OCTREOTIDE',negative_correlation,'SST') line 8	aligned_as-to-aligned substitution via synonyms.pl SST record
+SRIF	SST	synonyms.pl SST record line 7 includes SRIF; kBase.pl event('OCTREOTIDE',negative_correlation,'SST') line 8	aligned_as-to-aligned substitution via synonyms.pl SST record
+GATA	GATA3	synonyms.pl GATA3 record line 127 includes GATA; kBase.pl event('GATA3',association,'EGFL7') line 251	aligned_as-to-aligned substitution via synonyms.pl GATA3 record
+octreotide	OCTREOTIDE	synonyms.pl OCTREOTIDE main record line 3; case normalization (lowercase to uppercase)	Case normalization + synonyms.pl main-id match

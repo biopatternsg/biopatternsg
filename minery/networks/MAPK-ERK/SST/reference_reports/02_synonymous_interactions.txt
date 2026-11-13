@@ -1,0 +1,133 @@
+================================================================================
+REPORT 2: SYNONYMOUS INTERACTIONS DETECTED
+COVID-19 Immunology Study (COVID-19-IMMUNOLOGY-50)
+================================================================================
+
+Synonym sources used: synonyms.pl (443 entries), aligned.pl
+
+--------------------------------------------------------------------------------
+1. MICA / 1300017J02RIK (PubTator gene synonym)
+--------------------------------------------------------------------------------
+synonyms.pl: synonyms('1300017J02RIK', ['1300017J02RIK', 'MICA']).
+
+These two names refer to the SAME gene. kBase.pl contains events using both:
+
+  Using 'MICA':
+    event('MICA',positive_correlation,'SESAMIN')         [line 1859]
+    event('COVID-19',association,'MICA')                  [line 768]
+    event('MICA',positive_correlation,'IL15')             [line 208]
+
+  Using '1300017J02RIK':
+    event('1300017J02RIK',positive_correlation,'PDCD1')   [line 1193]
+    event('1300017J02RIK',positive_correlation,'CARCINOMA NON-SMALL-CELL LUNG') [line 1810]
+
+  Impact: These are DUPLICATE interaction types describing the same gene.
+  All '1300017J02RIK' events should be considered synonymous with their
+  'MICA' counterparts.
+
+--------------------------------------------------------------------------------
+2. MICB / MILL2 (PubTator gene synonym)
+--------------------------------------------------------------------------------
+aligned.pl: aligned_as('MICB', ['MICB', 'MILL2']).
+
+  Using 'MICB':
+    event('SOCS3',negative_correlation,'MICB')            [line 651]
+    event('MICB',positive_correlation,'SESAMIN')          [line 1867]
+
+  Using 'MILL2':
+    event('MILL2',positive_correlation,'CARCINOMA NON-SMALL-CELL LUNG') [line 1807]
+
+  Impact: MILL2 events are synonymous with MICB events.
+  kBase.pl predominantly uses 'MICB'.
+
+--------------------------------------------------------------------------------
+3. STING1 / TMEM173 (Gene synonym)
+--------------------------------------------------------------------------------
+synonyms.pl: STING1 and TMEM173 both present in kBase as distinct entities.
+
+  Using 'STING1':
+    event('CGAS',association,'STING1')                    [line 1805]
+    event('INFLAMMATION',association,'STING1')
+
+  Using 'TMEM173':
+    event('CGAS',association,'TMEM173')
+    event('INFLAMMATION',association,'TMEM173')
+    event('MELANOMA',association,'TMEM173')
+    event('NEOPLASMS',association,'TMEM173')
+
+  Impact: 4 duplicate event pairs. STING1 and TMEM173 are the same gene
+  (STimulator of INterferon Genes, also known as TMEM173/MITA/ERIS).
+
+--------------------------------------------------------------------------------
+4. DRUG HYPERSENSITIVITY / HYPERSENSITIVITY (Term drift)
+--------------------------------------------------------------------------------
+synonyms.pl: HYPERSENSITIVITY appears as a variant of DRUG HYPERSENSITIVITY.
+
+  Events using 'DRUG HYPERSENSITIVITY':
+    event('DRUG HYPERSENSITIVITY',positive_correlation,'ABACAVIR')
+    event('DRUG HYPERSENSITIVITY',association,'CD4')
+
+  Events using 'HYPERSENSITIVITY':
+    event('HYPERSENSITIVITY',positive_correlation,'ABACAVIR')  [same as above]
+    event('HYPERSENSITIVITY',association,'CD4')                [same as above]
+    event('CARBAMAZEPINE',positive_correlation,'HYPERSENSITIVITY')
+
+  Impact: 8 duplicate event pairs. PubTator extracted both forms from
+  different contexts but they describe the same biological phenomenon.
+
+--------------------------------------------------------------------------------
+5. NEOPLASMS / MICA (PubTator artifact -- WARNING)
+--------------------------------------------------------------------------------
+synonyms.pl: synonyms('NEOPLASMS', [..., 'MICA', ...]).
+
+  CRITICAL: In this context, 'MICA' in NEOPLASMS synonyms means
+  "microinvasive carcinomas" -- NOT the MICA gene.
+
+  This produces false matches like:
+    event('NEOPLASMS',association,'AKT1')  =~ event('MICA',association,'AKT1')
+
+  These are NOT true synonymous pairs. The MICA gene and the "MICA"
+  abbreviation for "microinvasive carcinomas" are entirely different
+  entities. However, because PubTator assigned 'MICA' to the NEOPLASMS
+  synonym list, a subset of events (12 pairs) show this conflation.
+
+  Impact: 12 confirmed false-synonym pairs. This artifact should be
+  excluded from any deduplication effort.
+
+--------------------------------------------------------------------------------
+6. AP2B1 / ACE (Cryptic synonym)
+--------------------------------------------------------------------------------
+synonyms.pl: synonyms('AP2B1', ['AP2B1', 'ACE']).
+
+  event('COVID-19',association,'AP2B1')   [line 472]
+  event('COVID-19',association,'ACE')      [in kBase, not visible in loaded segment]
+
+  'ACE' (Angiotensin-Converting Enzyme) is distinct from 'ACE2'.
+  The link AP2B1 = ACE appears to be a PubTator annotation artifact.
+
+--------------------------------------------------------------------------------
+7. COVID-19 Synonym Proliferation
+--------------------------------------------------------------------------------
+synonyms.pl lists 80+ synonyms for COVID-19 including:
+  SARS-CoV-2, SARS-COV-2 INFECTION, 2019-NCOV, CORONAVIRUS DISEASE 2019,
+  NOVEL CORONAVIRUS, SARS-COV, COVID, PANDEMIC, etc.
+
+  kBase.pl predominantly normalizes to 'COVID-19', minimizing synonym
+  pollution. This is a well-curated knowledge base in this regard.
+
+================================================================================
+SUMMARY TABLE
+================================================================================
+
+| Synonym Group           | Type           | Event Pairs | True/Artifact |
+|------------------------|----------------|-------------|---------------|
+| MICA = 1300017J02RIK   | Gene synonym   | ~10         | TRUE          |
+| MICB = MILL2            | Gene synonym   | ~5          | TRUE          |
+| STING1 = TMEM173       | Gene synonym   | 4           | TRUE          |
+| DRUG HYPERSENS = HYPERSENS | Term drift | 8           | TRUE          |
+| NEOPLASMS = MICA       | PubTator artifact | 12       | ARTIFACT      |
+| AP2B1 = ACE            | Cryptic        | 1           | UNCERTAIN     |
+| HEPATITIS C CHRONIC = HEPATITIS C | Term drift | 1  | TRUE          |
+| IFNA1 = IFNA           | Abbreviation   | 1           | TRUE          |
+| DEPRESSIVE DISORDER MAJOR = MAJOR DEPRESSIVE DISORDER | Reordering | 1 | TRUE |
+================================================================================

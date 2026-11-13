@@ -1,0 +1,76 @@
+EGF;epidermal, growth, factor;epidermal, growth, factor, (beta-urogastrone);Pro-epidermal, growth, factor;EGF
+EGFR;epidermal, growth, factor, receptor;epidermal, growth, factor, receptor, (avian, erythroblastic, leukemia, viral, (v-erb-b), oncogene, homolog);erythroblastic, leukemia, viral, (v-erb-b), oncogene, homolog, (avian);erb-b2, receptor, tyrosine, kinase, 1;EGFR;EGFR
+GRB2;growth, factor, receptor, bound, protein, 2;growth, factor, receptor-bound, protein, 2;GRB2
+SOS;SOS
+RAS;RAS
+GDP;GDP
+GTP;GTP
+RAF;RAF
+MEK;MEK
+MAPK;MAPK
+ERK;ERK
+CREB;CREB
+S6;S6
+MYC;MYC, proto-oncogene, ',', bHLH, transcription, factor;v-myc, avian, myelocytomatosis, viral, oncogene, homolog;MYC;MYC
+octreotide;octreotide
+lanreotide;lanreotide
+Somatostatin;Somatostatin
+SST;somatostatin;somatostatin-14;somatostatin-28;prepro-somatostatin;SST
+SRIF;SRIF
+SSTR1;somatostatin, receptor, 1;SSTR1
+SSTR2;somatostatin, receptor, 2;SSTR2
+SSTR5;somatostatin, receptor, 5;SSTR5
+AML1;AML1
+CDXA;CDXA
+SRY;sex, determining, region, Y;testis-determining, factor;SRY
+ZNF384;zinc, finger, protein, 384;trinucleotide, repeat, containing, 1;cas, interacting, zinc, finger, protein;nuclear, matrix, protein, 4;ZNF384;ZNF384
+CREBP1CJUN;CREBP1CJUN
+CAP;CAP
+GATA1;GATA, binding, protein, 1;GATA-binding, protein, 1, (globin, transcription, factor, 1);globin, transcription, factor, 1;nuclear, factor, ',', erythroid, 1;GATA1;GATA1
+ATF;ATF
+LYF1;LYF1
+CDPCR3HD;CDPCR3HD
+MYOD;MYOD
+AP4;AP4
+CEBP;CEBP
+GATA3;GATA, binding, protein, 3;GATA-binding, protein, 3;GATA3;GATA3
+GATA2;GATA, binding, protein, 2;GATA2;GATA2
+USF;USF
+HNF3B;HNF3B
+CETS1P54;CETS1P54
+CREBP1;CREBP1
+IK2;IK2
+E2F;E2F
+TST1;TST1
+NKX25;NKX25
+PBX1;PBX, homeobox, 1;pre-B-cell, leukemia, transcription, factor, 1;pre-B-cell, leukemia, homeobox, 1;PBX1;PBX1
+STAT;STAT
+XFD3;XFD3
+MZF1;myeloid, zinc, finger, 1;zinc, finger, protein, 42, (myeloid-specific, retinoic, acid-responsive);MZF1
+GATA;GATA
+CAAT;CAAT
+XFD2;XFD2
+LMO2COM;LMO2COM
+VBP;VBP
+MYCMAX;MYCMAX
+SP1;Sp1, transcription, factor;specificity, protein, 1;SP1
+CREL;CREL
+AP1;AP1
+OCT1;OCT1
+CP2;CP2
+MYB;MYB, proto-oncogene, ',', transcription, factor;v-myb, avian, myeloblastosis, viral, oncogene, homolog;MYB;MYB
+CEBPB;CCAAT, enhancer, binding, protein, beta;CCAAT/enhancer, binding, protein, (C/EBP), ',', beta;CCAAT/enhancer, binding, protein, beta;liver-enriched, transcriptional, activator, protein;nuclear, factor, of, interleukin, 6;interleukin, 6-dependent, DNA-binding, protein;CEBPB
+ZNF8;zinc, finger, protein, 8;zinc, finger, protein, 8, (clone, HF.18);ZNF8
+TATA;TATA
+EVI1;EVI1
+P53;P53
+HFH2;HFH2
+SOX5;SRY-box, transcription, factor, 5;SRY, (sex, determining, region, Y)-box, 5;SRY-box, 5;SOX5
+HLF;HLF, transcription, factor, ',', PAR, bZIP, family, member;hepatic, leukemia, factor;PAR, bZIP, transcription, factor;HLF, ',', PAR, bZIP, transcription, factor;HLF;HLF
+IK3;IK3
+TH1E47;TH1E47
+YY1;YY1, transcription, factor;INO80, complex, subunit, S;Yin, and, Yang, 1, protein;YY1
+Neuroendocrine, tumors;Neuroendocrine, tumors
+NET;NET
+Neuroendocrine, carcinoma;Neuroendocrine, carcinoma
+NEC;NEC
