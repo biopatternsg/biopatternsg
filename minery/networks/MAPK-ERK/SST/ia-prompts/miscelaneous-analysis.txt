@@ -1,3 +1,7 @@
+#####################################################################
+Prompt to guide the exploration of pathways and subnetworks in a RRG.
+#####################################################################
+
 ROL:
 You are an expert biomedical data scientist and logic analyst.
 
