@@ -73,11 +73,11 @@ reason about "HYPOTHESIS 1: OCTREOTIDE–SSTR2/SSTR5–NET therapeutic axis” a
 Then, using the knowledge base kBase.pl and the documentation in kBaseDoc.txt, find regulatory events that link pathway 1 to pathway 2 and pathway 2 to pathway 3. Keep in mind this means finding the best linking events from kBase.pl in order to activate the connection between pathways 1, 2, and 3.
 
 
-################################################################
+#######################################################
 Prompt for identifying relevant transcription factors
-based on the expert's objects aligned list of objects and the
+based on the expert's objects aligned list and the
 modeled knowledge base.
-################################################################
+#######################################################
 
 You are an expert in molecular biology, with particular proficiency in gene transcription regulatory networks. You are also an expert biologist in neuroendocrine tumors and endocrine carcinoma.
 
